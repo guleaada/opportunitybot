@@ -1,0 +1,28 @@
+# Secrets
+.env
+credentials.json
+calendar_token.pickle
+*.pickle
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.Python
+
+# Runtime data (keep the folder structure, ignore contents)
+data/url_cache/*
+data/cost_log.json
+data/seen_opportunities.json
+data/application_tracker.json
+data/watchlist.json
+data/activity_log.json
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
+*.swp
