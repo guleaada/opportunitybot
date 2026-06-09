@@ -46,13 +46,16 @@ failure → Groq. Groq failure → Gemini. All free models fail → Claude **Hai
 as last resort. A **hard daily/monthly budget cap** downgrades Claude → Gemini
 if you'd otherwise overspend.
 
-## 3. Setup
+## 3. Two ways to run it
 
-> **Python 3.11+ recommended.** The code is written to also run on 3.9+, but
-> the project targets 3.11+.
+> **Python 3.11+.** The code is written to also run on 3.9+, but the project
+> targets 3.11+ (the GitHub Actions workflow pins 3.11).
+
+### Option A — Local laptop
 
 ```bash
 # Clone / enter the project
+git clone git@github.com:guleaada/opportunitybot.git
 cd opportunitybot
 
 # Create + activate a virtual environment
@@ -65,7 +68,59 @@ pip install -r requirements.txt
 # Create your .env from the template and fill in keys
 cp .env.example .env
 $EDITOR .env
+
+python main.py --test            # verify all 3 providers
+python main.py --scan            # first real scan
 ```
+
+### Option B — GitHub Actions (RECOMMENDED: runs daily, free, no laptop) ⭐
+
+The repo ships with `.github/workflows/daily_scan.yml`, which runs a scan every
+day at **05:00 UTC (08:00 Addis Ababa)** and can be triggered manually. Because
+GitHub runners are ephemeral, the workflow **commits the `data/*.json` files
+back to the repo** after each run — that's how the bot stays stateful (which
+opportunities it has already seen, running cost log, etc.). This is why those
+JSON files are committed and **not** gitignored.
+
+**Setup:**
+
+1. **Make the repo PRIVATE** (it contains your scan history). On GitHub:
+   *Settings → General → Danger Zone → Change visibility → Make private.*
+
+2. **Push the code** (already done if you cloned this):
+   ```bash
+   git add . && git commit -m "OpportunityBot" && git push
+   ```
+
+3. **Add Secrets** — repo → *Settings → Secrets and variables → Actions →
+   New repository secret*:
+
+   | Secret name | Value |
+   |---|---|
+   | `ANTHROPIC_API_KEY` | Claude key (`sk-ant-…`) |
+   | `GEMINI_API_KEY` | aistudio.google.com/app/apikey |
+   | `GROQ_API_KEY` | console.groq.com |
+   | `EMAIL_FROM` | gulilatkasiye4@gmail.com |
+   | `EMAIL_APP_PASSWORD` | Gmail **App Password** (not your login password) |
+   | `EMAIL_TO` | gulilatkasiye4@gmail.com |
+   | `GOOGLE_CSE_API_KEY` | *(optional)* console.cloud.google.com |
+   | `GOOGLE_CSE_ID` | *(optional)* programmablesearchengine.google.com |
+   | `TELEGRAM_BOT_TOKEN` | *(optional)* @BotFather |
+   | `TELEGRAM_CHAT_ID` | *(optional)* your chat id |
+
+4. **(Optional) Add Variables** — *Settings → Secrets and variables → Actions →
+   Variables tab*: `DAILY_CLAUDE_BUDGET_USD`, `MONTHLY_CLAUDE_BUDGET_USD`,
+   `MIN_SCORE_TO_NOTIFY`, `MAX_OPPORTUNITIES_PER_DAY`. (All have safe defaults.)
+
+5. **Enable write permission for the workflow** (so it can commit data back):
+   *Settings → Actions → General → Workflow permissions →
+   "Read and write permissions" → Save.*
+
+6. **Test it:** *Actions tab → "OpportunityBot Daily Scan" → Run workflow →
+   mode `test` → Run.* A green run means all three providers connect.
+
+7. Once the test passes, the **daily schedule is already active** — nothing
+   else to do.
 
 ### How to get each API key
 
@@ -144,8 +199,25 @@ DAILY_SCAN_TIME=08:00            # daemon schedule
 | `calendar_sync.py` | Google Calendar deadline events with reminders |
 | `cover_letter.py` | Motivation-letter draft generator (Gemini) |
 | `tracker.py` | Application tracker / mini-CRM display |
+| `ci_persistence.py` | ★ Local-vs-CI bridge: init data files, detect CI, log run metadata |
+| `.github/workflows/daily_scan.yml` | ★ Scheduled daily run + commits `data/*.json` back for persistence |
+| `selftest_offline.py` | Keyless end-to-end pipeline test (mocks all 3 providers) |
 
-## 8. Honesty rule
+## 8. Monitoring & troubleshooting
+
+- **GitHub Actions tab** — every run's status + full logs.
+- **Daily email** — what was found, with scoring rationale.
+- **`python main.py --cost`** — current month's spend.
+
+| Symptom | Fix |
+|---|---|
+| Email not sending | Use a Gmail **App Password** (needs 2FA), not your login password. |
+| Workflow can't push data | *Settings → Actions → General → Workflow permissions → Read and write*. |
+| Claude rate-limited / budget hit | Expected — it auto-downgrades to Gemini; raise `DAILY_CLAUDE_BUDGET_USD` if needed. |
+| JSON looks corrupted | Delete the file in `data/`; the bot reinitializes it empty on next run. |
+| No opportunities found | Add `GOOGLE_CSE_API_KEY` + `GOOGLE_CSE_ID`, or test with `python main.py --url <link>`. |
+
+## 9. Honesty rule
 
 If a model can't determine a deadline, eligibility, or legitimacy, the item is
 flagged **`unknown`** and **skipped** rather than guessed. Better a missed

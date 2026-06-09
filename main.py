@@ -36,6 +36,7 @@ from cost_tracker import (
     get_monthly_claude_spend,
 )
 import database as db
+from ci_persistence import is_running_in_ci, ensure_data_dir, log_run_metadata
 
 try:
     from rich.console import Console
@@ -224,6 +225,7 @@ def run_scan(max_results_per_source: int = 8):
 
     db.log_activity("scan_complete", "daily scan finished",
                     matches=len(final_opportunities), stats=stats)
+    log_run_metadata("scan", {**stats, "matches": len(final_opportunities)})
 
     daily = get_daily_summary()
     cprint(f"💰 Today's spend: Claude=${daily['claude']['cost']:.3f} "
@@ -491,6 +493,11 @@ def main():
     g.add_argument("--daemon", action="store_true", help="Run scheduled daily")
     g.add_argument("--test", action="store_true", help="Smoke-test all 3 providers")
     args = parser.parse_args()
+
+    # Initialize data files (with correct shape) before anything touches them.
+    ensure_data_dir()
+    cprint(f"🤖 OpportunityBot — {datetime.now().isoformat(timespec='seconds')}")
+    cprint(f"   Environment: {'GitHub Actions' if is_running_in_ci() else 'Local'}")
 
     if args.test:
         run_test()

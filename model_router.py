@@ -65,6 +65,7 @@ TASK_ROUTING = {
     "estimate_complexity": "gemini",
     "generate_cover_letter": "gemini",
     "generate_email_subject": "gemini",
+    "summarize_opportunity": "gemini",
     # MECHANICAL — Groq (free)
     "clean_html": "groq",
     "extract_text": "groq",

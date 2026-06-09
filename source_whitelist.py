@@ -74,17 +74,27 @@ SOURCES: List[Source] = [
     Source("Schwarzman Scholars", "schwarzmanscholars.org", 8,
            "Schwarzman Scholars 2026 masters Tsinghua fully funded apply"),
 
+    # ── Tier 8: high-signal aggregators ────────────────────────────────────
+    Source("OpportunityDesk", "opportunitydesk.org", 8,
+           "fellowship scholarship residency 2026 fully funded apply international"),
+
     # ── Tier 7: reputable aggregators ──────────────────────────────────────
-    Source("ScholarshipsCorner", "scholarshipscorner.website", 7,
-           f"fully funded scholarships fellowships 2026 2027 Ethiopia Africa {_Q}"),
     Source("OpportunitiesForAfricans", "opportunitiesforafricans.com", 7,
            "fully funded scholarships fellowships 2026 Africa Ethiopia international"),
+    Source("OpportunitiesForYouth", "opportunitiesforyouth.org", 7,
+           "fully funded scholarship fellowship 2026 youth international apply"),
+    Source("OpportunitiesCorners", "opportunitiescorners.com", 7,
+           "fully funded scholarship fellowship 2026 2027 international students apply"),
+    Source("All Africa Foundation", "", 7,
+           "All Africa Foundation scholarship fellowship 2026 Africa fully funded"),
     Source("ScholarshipRegion", "scholarshipregion.com", 7,
            "fully funded scholarship fellowship 2026 2027 developing countries apply"),
     Source("After School Africa", "afterschoolafrica.com", 7,
            "fully funded scholarship fellowship 2026 Africa international apply"),
-    Source("OpportunityDesk", "opportunitydesk.org", 7,
-           "fellowship scholarship residency 2026 fully funded apply international"),
+
+    # ── Tier 6: broad aggregators (verify against official source) ──────────
+    Source("ScholarshipsCorner", "scholarshipscorner.website", 6,
+           f"fully funded scholarships fellowships 2026 2027 Ethiopia Africa {_Q}"),
 
     # ── Tier 7: AI / tech innovator residencies & accelerators ─────────────
     Source("Tech Residencies (AI)", "", 7,

@@ -1,28 +1,38 @@
-# Secrets
+# Environment & secrets
 .env
+.env.local
 credentials.json
+token.json
 calendar_token.pickle
 *.pickle
 
 # Python
 __pycache__/
-*.py[cod]
-*.egg-info/
+*.pyc
+*.pyo
 .venv/
 venv/
 env/
-.Python
+.pytest_cache/
 
-# Runtime data (keep the folder structure, ignore contents)
-data/url_cache/*
-data/cost_log.json
-data/seen_opportunities.json
-data/application_tracker.json
-data/watchlist.json
-data/activity_log.json
-
-# OS / editor
-.DS_Store
-.idea/
+# IDE / OS
 .vscode/
+.idea/
 *.swp
+.DS_Store
+
+# Temporary
+# URL cache — huge & regeneratable, do NOT commit (no inline comments in .gitignore!)
+data/url_cache/
+*.log
+
+# ────────────────────────────────────────────────────────────────
+# DO NOT IGNORE the persistence files below — they MUST be committed
+# so the bot stays stateful across ephemeral GitHub Actions runs:
+#   data/seen_opportunities.json
+#   data/application_tracker.json
+#   data/watchlist.json
+#   data/cost_log.json
+#   data/activity_log.json
+# (They are intentionally NOT listed here.)
+# ────────────────────────────────────────────────────────────────

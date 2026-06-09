@@ -28,6 +28,7 @@ KNOWN_SCAMS = [
     {"name": "World Peace Summit (invitation fee)", "aliases": ["world peace summit"], "domains": []},
     {"name": "Global Leaders Forum", "aliases": ["global leaders forum"], "domains": []},
     {"name": "International Excellence Awards", "aliases": ["international excellence award"], "domains": []},
+    {"name": "Global Conference on Career", "aliases": ["global conference on career"], "domains": []},
 ]
 
 # Phrases that commonly appear in fee-trap / scam invitations. Presence does
@@ -56,6 +57,12 @@ RED_FLAG_KEYWORDS = [
     "non-refundable fee",
     "bank charges apply",
     "visa processing fee payable",
+    "exclusive invitation",
+    "early bird discount",
+    "vip package",
+    "venue confirmation upon payment",
+    "limited seats",
+    "early bird registration",
 ]
 
 # Phrases that *increase trust* (presence of these counterbalances red flags).
