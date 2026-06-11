@@ -23,7 +23,7 @@ PROFILE = {
     "skills": [
         "Python", "Flask", "Claude AI API", "GitHub",
         "Digital Marketing", "AI/ML", "Web Development",
-        'Solo founder, "AgriTech innovator"
+        "Solo founder", "AgriTech innovator"
     ],
     "languages": {
         "Amharic": "Native",
