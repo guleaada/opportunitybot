@@ -86,5 +86,69 @@
       "scored_high": 0,
       "matches": 0
     }
+  },
+  {
+    "at": "2026-06-11T09:14:12.744308+00:00",
+    "kind": "scan_start",
+    "message": "daily scan started"
+  },
+  {
+    "at": "2026-06-11T09:14:51.262098+00:00",
+    "kind": "error",
+    "message": "Failed to analyze https://foreign.fulbrightonline.org/about/foreign-student-program: \"Could not resolve authentication method. Expected one of api_key, auth_token, or credentials to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted\""
+  },
+  {
+    "at": "2026-06-11T09:15:57.143998+00:00",
+    "kind": "error",
+    "message": "Fetch failed for https://www.dfat.gov.au/people-to-people/australia-awards/australia-awards-scholarships: HTTPSConnectionPool(host='www.dfat.gov.au', port=443): Read timed out. (read timeout=25)"
+  },
+  {
+    "at": "2026-06-11T09:16:01.206303+00:00",
+    "kind": "error",
+    "message": "Fetch failed for https://vanier.gc.ca/en/home-accueil.html: HTTPSConnectionPool(host='vanier.gc.ca', port=443): Max retries exceeded with url: /en/home-accueil.html (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)')))"
+  },
+  {
+    "at": "2026-06-11T09:18:04.128622+00:00",
+    "kind": "error",
+    "message": "Fetch failed for https://opportunitydesk.org/category/fellowships/: 403"
+  },
+  {
+    "at": "2026-06-11T09:18:08.801933+00:00",
+    "kind": "scan_complete",
+    "message": "daily scan finished",
+    "matches": 0,
+    "stats": {
+      "discovered": 14,
+      "already_seen": 0,
+      "known_scam": 0,
+      "fetch_failed": 3,
+      "first_pass_dropped": 3,
+      "scam": 0,
+      "legit_unknown": 0,
+      "ineligible": 5,
+      "closed": 2,
+      "deep_analyzed": 0,
+      "scored_high": 0
+    }
+  },
+  {
+    "at": "2026-06-11T09:18:08.802316+00:00",
+    "kind": "run",
+    "mode": "scan",
+    "environment": "github_actions",
+    "stats": {
+      "discovered": 14,
+      "already_seen": 0,
+      "known_scam": 0,
+      "fetch_failed": 3,
+      "first_pass_dropped": 3,
+      "scam": 0,
+      "legit_unknown": 0,
+      "ineligible": 5,
+      "closed": 2,
+      "deep_analyzed": 0,
+      "scored_high": 0,
+      "matches": 0
+    }
   }
 ]

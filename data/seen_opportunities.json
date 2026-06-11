@@ -1,1 +1,92 @@
-{}
+{
+  "4db96c9594edaca1": {
+    "url": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/",
+    "title": "DAAD",
+    "status": "unknown",
+    "reasoning": "the program text does not provide specific eligibility criteria such as nationality, age, language proficiency, or current student status requirements",
+    "id": "4db96c9594edaca1",
+    "first_seen": "2026-06-11T09:14:18.160501+00:00",
+    "last_updated": "2026-06-11T09:14:18.160510+00:00"
+  },
+  "e2c4a1658e643c23": {
+    "url": "https://www.chevening.org/scholarships/who-can-apply/",
+    "title": "Chevening",
+    "status": "filtered_out",
+    "reason": "Application is clearly closed",
+    "id": "e2c4a1658e643c23",
+    "first_seen": "2026-06-11T09:14:25.590075+00:00",
+    "last_updated": "2026-06-11T09:14:25.590083+00:00"
+  },
+  "64397eba1a91859f": {
+    "url": "https://www.studyinjapan.go.jp/en/planning/about-scholarship/",
+    "title": "MEXT Japan",
+    "status": "unknown",
+    "reasoning": "The program text does not explicitly state the requirements for eligibility, such as age limits, degree level, or English language proficiency. It mentions various types of scholarships and their application processes, but does not provide clear criteria for eligibility.",
+    "id": "64397eba1a91859f",
+    "first_seen": "2026-06-11T09:15:25.126535+00:00",
+    "last_updated": "2026-06-11T09:15:25.126544+00:00"
+  },
+  "5f84e07c726bf154": {
+    "url": "https://erasmus-plus.ec.europa.eu/opportunities/opportunities-for-individuals/students/erasmus-mundus-joint-masters-scholarships",
+    "title": "Erasmus Mundus",
+    "status": "filtered_out",
+    "reason": "Candidate is not a student",
+    "id": "5f84e07c726bf154",
+    "first_seen": "2026-06-11T09:15:32.034744+00:00",
+    "last_updated": "2026-06-11T09:15:32.034752+00:00"
+  },
+  "d6cefbd2b73920b2": {
+    "url": "https://cscuk.fcdo.gov.uk/scholarships/commonwealth-masters-scholarships/",
+    "title": "Commonwealth Scholarships",
+    "status": "filtered_out",
+    "reason": "The application is clearly CLOSED",
+    "id": "d6cefbd2b73920b2",
+    "first_seen": "2026-06-11T09:16:00.971101+00:00",
+    "last_updated": "2026-06-11T09:16:00.971110+00:00"
+  },
+  "5947e350995217e6": {
+    "url": "https://www.campusfrance.org/en/eiffel-scholarship-program-of-excellence",
+    "title": "Campus France",
+    "status": "closed",
+    "deadline": "2026-01-08",
+    "id": "5947e350995217e6",
+    "first_seen": "2026-06-11T09:16:12.821567+00:00",
+    "last_updated": "2026-06-11T09:16:12.821572+00:00"
+  },
+  "ec19caff836816d8": {
+    "url": "https://si.se/en/apply/scholarships/swedish-institute-scholarships-for-global-professionals/",
+    "title": "Swedish Institute",
+    "status": "closed",
+    "deadline": "2026-02-25",
+    "id": "ec19caff836816d8",
+    "first_seen": "2026-06-11T09:16:43.004241+00:00",
+    "last_updated": "2026-06-11T09:16:43.004248+00:00"
+  },
+  "0d573df324dd31e1": {
+    "url": "https://www.gatescambridge.org/apply/",
+    "title": "Gates Cambridge",
+    "status": "unknown",
+    "reasoning": "The program text does not explicitly state the eligibility criteria, such as nationality, age, or degree requirements, making it impossible to determine the candidate's eligibility.",
+    "id": "0d573df324dd31e1",
+    "first_seen": "2026-06-11T09:16:59.530136+00:00",
+    "last_updated": "2026-06-11T09:16:59.530142+00:00"
+  },
+  "3f8529af3448b3ff": {
+    "url": "https://www.rhodeshouse.ox.ac.uk/scholarships/the-rhodes-scholarship/",
+    "title": "Mandela Rhodes / Rhodes",
+    "status": "unknown",
+    "reasoning": "The program text does not explicitly state the eligibility criteria, such as age limits, nationality restrictions, or required English language proficiency tests.",
+    "id": "3f8529af3448b3ff",
+    "first_seen": "2026-06-11T09:17:24.990602+00:00",
+    "last_updated": "2026-06-11T09:17:24.990610+00:00"
+  },
+  "01f897882828c459": {
+    "url": "https://www.schwarzmanscholars.org/admissions/",
+    "title": "Schwarzman Scholars",
+    "status": "ineligible",
+    "reasoning": "The candidate is a working professional and not currently a student, but the program requires applicants who are currently enrolled in undergraduate degree programs to be on track to complete their degree by August 1 of their enrollment year. However, this is not the primary issue since the candidate already holds a BSc degree. The primary issue is the candidate's age, as they will be 28 years old by August 1, exceeding the program's age cap of 28 years.",
+    "id": "01f897882828c459",
+    "first_seen": "2026-06-11T09:18:03.930416+00:00",
+    "last_updated": "2026-06-11T09:18:03.930423+00:00"
+  }
+}
