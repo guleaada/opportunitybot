@@ -174,15 +174,31 @@ def run_scan(max_results_per_source: int = 8):
     sources = load_whitelist()
     all_results = []
     seen_urls = set()
-    for source in sources:
-        try:
-            results = tools.web_search(source.search_query, max_results=max_results_per_source)
-            for r in results:
-                if r.url and r.url not in seen_urls:
-                    seen_urls.add(r.url)
-                    all_results.append(r)
-        except Exception as e:
-            db.log_error(f"Source {source.name} failed: {e}")
+    if os.getenv("GOOGLE_CSE_API_KEY") and os.getenv("GOOGLE_CSE_ID"):
+        for source in sources:
+            try:
+                results = tools.web_search(source.search_query,
+                                           max_results=max_results_per_source)
+                for r in results:
+                    if r.url and r.url not in seen_urls:
+                        seen_urls.add(r.url)
+                        all_results.append(r)
+            except Exception as e:
+                db.log_error(f"Source {source.name} failed: {e}")
+
+    # Keyless fallback: with no CSE keys (or zero search results), fetch the
+    # whitelist's official seed URLs directly so the agent still discovers.
+    if not all_results:
+        from source_whitelist import all_seed_urls
+        from search import SearchResult
+        seeds = all_seed_urls()
+        cprint(f"🌱 Web search unavailable/empty — using {len(seeds)} official "
+               f"seed URLs from the whitelist")
+        for seed in seeds:
+            if seed["url"] not in seen_urls:
+                seen_urls.add(seed["url"])
+                all_results.append(SearchResult(
+                    title=seed["name"], url=seed["url"], source="seed"))
     stats["discovered"] = len(all_results)
 
     # 2-3. dedupe seen + hard-block known scams (no model)

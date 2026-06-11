@@ -223,7 +223,7 @@ DAILY_SCAN_TIME=08:00            # daemon schedule
 | Workflow can't push data | *Settings → Actions → General → Workflow permissions → Read and write*. |
 | Claude rate-limited / budget hit | Expected — it auto-downgrades to Gemini; raise `DAILY_CLAUDE_BUDGET_USD` if needed. |
 | JSON looks corrupted | Delete the file in `data/`; the bot reinitializes it empty on next run. |
-| No opportunities found | Add `GOOGLE_CSE_API_KEY` + `GOOGLE_CSE_ID`, or test with `python main.py --url <link>`. |
+| No opportunities found | Without `GOOGLE_CSE_API_KEY`/`GOOGLE_CSE_ID` the bot falls back to ~14 official seed URLs (DAAD, Chevening, MEXT, …) so it still works — but adding CSE keys widens discovery a lot. |
 
 ## 9. Honesty rule
 

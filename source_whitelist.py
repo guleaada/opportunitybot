@@ -17,12 +17,15 @@ from typing import List
 
 class Source:
     def __init__(self, name: str, domain: str, quality: int, search_query: str,
-                 category: str = "general"):
+                 category: str = "general", seed_urls: list = None):
         self.name = name
         self.domain = domain
         self.quality = quality
         self.search_query = search_query
         self.category = category
+        # Stable official program URLs fetched directly when web search is
+        # unavailable (no Google CSE keys) — keyless discovery fallback.
+        self.seed_urls = seed_urls or []
 
     def __repr__(self):
         return f"<Source {self.name} q={self.quality}>"
@@ -34,27 +37,37 @@ _Q = "fully funded scholarship OR fellowship 2026 2027 Ethiopian developing coun
 SOURCES: List[Source] = [
     # ── Tier 10: official government / body sites ──────────────────────────
     Source("DAAD", "daad.de", 10,
-           "site:daad.de scholarship masters fully funded developing countries EPOS 2026"),
+           "site:daad.de scholarship masters fully funded developing countries EPOS 2026",
+           seed_urls=["https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/"]),
     Source("Chevening", "chevening.org", 10,
-           "site:chevening.org scholarship eligibility apply 2026 2027"),
+           "site:chevening.org scholarship eligibility apply 2026 2027",
+           seed_urls=["https://www.chevening.org/scholarships/who-can-apply/"]),
     Source("Fulbright Foreign Student", "foreign.fulbrightonline.org", 10,
-           "Fulbright foreign student program Ethiopia masters 2026 fully funded"),
+           "Fulbright foreign student program Ethiopia masters 2026 fully funded",
+           seed_urls=["https://foreign.fulbrightonline.org/about/foreign-student-program"]),
     Source("MEXT Japan", "studyinjapan.go.jp", 10,
-           "MEXT scholarship Japanese government 2026 research masters international students"),
+           "MEXT scholarship Japanese government 2026 research masters international students",
+           seed_urls=["https://www.studyinjapan.go.jp/en/planning/about-scholarship/"]),
     Source("Erasmus Mundus", "erasmus-plus.ec.europa.eu", 10,
-           "Erasmus Mundus joint masters scholarship 2026 2027 fully funded apply"),
+           "Erasmus Mundus joint masters scholarship 2026 2027 fully funded apply",
+           seed_urls=["https://erasmus-plus.ec.europa.eu/opportunities/opportunities-for-individuals/students/erasmus-mundus-joint-masters-scholarships"]),
     Source("Australia Awards", "australiaawards.gov.au", 10,
-           "Australia Awards scholarship Africa Ethiopia 2026 fully funded"),
+           "Australia Awards scholarship Africa Ethiopia 2026 fully funded",
+           seed_urls=["https://www.dfat.gov.au/people-to-people/australia-awards/australia-awards-scholarships"]),
     Source("Commonwealth Scholarships", "cscuk.fcdo.gov.uk", 10,
-           "Commonwealth scholarship masters developing commonwealth 2026 fully funded"),
+           "Commonwealth scholarship masters developing commonwealth 2026 fully funded",
+           seed_urls=["https://cscuk.fcdo.gov.uk/scholarships/commonwealth-masters-scholarships/"]),
     Source("Vanier Canada", "vanier.gc.ca", 10,
-           "Vanier Canada graduate scholarship international 2026"),
+           "Vanier Canada graduate scholarship international 2026",
+           seed_urls=["https://vanier.gc.ca/en/home-accueil.html"]),
     Source("Campus France", "campusfrance.org", 10,
-           "Campus France Eiffel scholarship masters 2026 international students"),
+           "Campus France Eiffel scholarship masters 2026 international students",
+           seed_urls=["https://www.campusfrance.org/en/eiffel-scholarship-program-of-excellence"]),
     Source("Nuffic / StuNed", "nuffic.nl", 10,
            "Netherlands Orange Knowledge OR Holland scholarship masters 2026 international"),
     Source("Swedish Institute", "si.se", 10,
-           "Swedish Institute scholarship global professionals 2026 masters fully funded"),
+           "Swedish Institute scholarship global professionals 2026 masters fully funded",
+           seed_urls=["https://si.se/en/apply/scholarships/swedish-institute-scholarships-for-global-professionals/"]),
     Source("KGSP Korea", "studyinkorea.go.kr", 10,
            "Global Korea Scholarship GKS graduate 2026 international students"),
 
@@ -66,17 +79,21 @@ SOURCES: List[Source] = [
     Source("Ashoka Fellowship", "ashoka.org", 8,
            "Ashoka fellowship social entrepreneur 2026 apply"),
     Source("Gates Cambridge", "gatescambridge.org", 8,
-           "Gates Cambridge scholarship 2026 international fully funded"),
+           "Gates Cambridge scholarship 2026 international fully funded",
+           seed_urls=["https://www.gatescambridge.org/apply/"]),
     Source("Mastercard Foundation Scholars", "mastercardfdn.org", 8,
            "Mastercard Foundation Scholars Program 2026 Africa masters fully funded"),
     Source("Mandela Rhodes / Rhodes", "rhodeshouse.ox.ac.uk", 8,
-           "Rhodes scholarship 2026 Africa international fully funded apply"),
+           "Rhodes scholarship 2026 Africa international fully funded apply",
+           seed_urls=["https://www.rhodeshouse.ox.ac.uk/scholarships/the-rhodes-scholarship/"]),
     Source("Schwarzman Scholars", "schwarzmanscholars.org", 8,
-           "Schwarzman Scholars 2026 masters Tsinghua fully funded apply"),
+           "Schwarzman Scholars 2026 masters Tsinghua fully funded apply",
+           seed_urls=["https://www.schwarzmanscholars.org/admissions/"]),
 
     # ── Tier 8: high-signal aggregators ────────────────────────────────────
     Source("OpportunityDesk", "opportunitydesk.org", 8,
-           "fellowship scholarship residency 2026 fully funded apply international"),
+           "fellowship scholarship residency 2026 fully funded apply international",
+           seed_urls=["https://opportunitydesk.org/category/fellowships/"]),
 
     # ── Tier 7: reputable aggregators ──────────────────────────────────────
     Source("OpportunitiesForAfricans", "opportunitiesforafricans.com", 7,
@@ -117,3 +134,16 @@ def domain_quality(url: str) -> int:
         if s.domain and s.domain in low:
             best = max(best, s.quality)
     return best
+
+
+def all_seed_urls() -> List[dict]:
+    """Flat list of {name, url, quality} seeds for keyless discovery.
+
+    Used as the fallback when web search is unconfigured/unavailable, so the
+    agent still functions without Google CSE keys.
+    """
+    seeds = []
+    for s in load_whitelist():
+        for url in s.seed_urls:
+            seeds.append({"name": s.name, "url": url, "quality": s.quality})
+    return seeds
