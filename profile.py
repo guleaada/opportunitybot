@@ -8,7 +8,7 @@ Edit the fields marked "I'll fill in" / "I'll confirm" before running.
 PROFILE = {
     "name": "Gulilat Kasiye Worku",
     "age": 27,
-    "date_of_birth": "1999-XX-XX",  # TODO: fill in
+    "date_of_birth": "1999-04-27",  # TODO: fill in
     "nationality": "Ethiopian",
     "passport": "Ethiopian",
     "current_location": "Vientiane, Lao PDR",
@@ -17,7 +17,7 @@ PROFILE = {
         "degree": "BSc Psychology",
         "institution": "Injibara University, Ethiopia",
         "graduation_year": 2021,  # TODO: confirm
-        "gpa": None,  # TODO: fill in
+        "gpa": 3.45,  # TODO: fill in
     },
     "background": ["AI Developer", "Marketing Specialist", "Psychologist", "Community Leader"],
     "skills": [
