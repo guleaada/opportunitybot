@@ -26,6 +26,9 @@ env/
 data/url_cache/
 *.log
 
+# Generated cover-letter drafts (personal, regeneratable)
+drafts/
+
 # ────────────────────────────────────────────────────────────────
 # DO NOT IGNORE the persistence files below — they MUST be committed
 # so the bot stays stateful across ephemeral GitHub Actions runs:

@@ -21,8 +21,10 @@ CLI:
 
 import argparse
 import os
+import re
 import sys
 from datetime import datetime, timezone
+from pathlib import Path
 
 from dotenv import load_dotenv
 
@@ -85,7 +87,22 @@ def analyze_one(result, stats: dict):
         cprint(f"   ✂️  dropped: {filt['reason']}")
         return None
 
-    # 7. check_legitimacy (CLAUDE $) — only on survivors
+    # 7. check_deadline (GEMINI free) — gate BEFORE any paid Claude call.
+    # A closed program must not burn legitimacy/eligibility tokens. Closed
+    # programs that passed the first-pass filter are usually annual — put
+    # them on the watchlist so --watchlist re-checks when they reopen.
+    deadline = tools.check_deadline(text)
+    if deadline["status"] == "closed":
+        stats["closed"] += 1
+        tools.save_opportunity({"url": url, "title": title, "status": "closed",
+                                "deadline": deadline.get("deadline")})
+        tools.add_to_watchlist({"url": url, "title": title,
+                                "last_known_deadline": deadline.get("deadline"),
+                                "reason": "closed at discovery; likely annual"})
+        cprint("   📕 deadline closed — added to watchlist")
+        return None
+
+    # 8. check_legitimacy (CLAUDE $) — only on open survivors
     legit = tools.check_legitimacy(text, url)
     if legit["verdict"] == "scam":
         stats["scam"] += 1
@@ -101,7 +118,7 @@ def analyze_one(result, stats: dict):
         cprint("   ❓ legitimacy unknown — skipping (honesty rule)")
         return None
 
-    # 8. check_eligibility (CLAUDE $)
+    # 9. check_eligibility (CLAUDE $)
     elig = tools.check_eligibility(text, PROFILE)
     if elig["overall"] != "eligible":
         stats["ineligible"] += 1
@@ -111,17 +128,9 @@ def analyze_one(result, stats: dict):
         cprint(f"   ⛔ {elig['overall']}: {elig['reasoning']}")
         return None
 
-    # 9-10. enrichment (GEMINI free)
+    # 10. enrichment (GEMINI free)
     docs = tools.extract_documents(text)
     complexity = tools.estimate_complexity(text)
-    deadline = tools.check_deadline(text)
-
-    if deadline["status"] == "closed":
-        stats["closed"] += 1
-        tools.save_opportunity({"url": url, "title": title, "status": "closed",
-                                "deadline": deadline.get("deadline")})
-        cprint("   📕 deadline closed — skipping")
-        return None
 
     # 11. score_opportunity (CLAUDE $)
     score = tools.score_opportunity({
@@ -371,12 +380,58 @@ def analyze_url(url: str):
     daily = get_daily_summary()
     cprint(f"\n💰 This run cost: Claude=${daily['claude']['cost']:.4f} (today total)")
 
+    title = _page_title(fetched["html"]) or url
+    tools.save_opportunity({"url": url, "title": title, "status": "analyzed",
+                            "score": score["overall_score"],
+                            "deadline": deadline.get("deadline")})
     if score["overall_score"] >= MIN_SCORE:
-        tools.save_opportunity({"url": url, "title": fetched.get("text", "")[:60],
-                                "status": "analyzed", "score": score["overall_score"]})
         cprint(f"✅ Would notify (score >= {MIN_SCORE}).")
     else:
         cprint(f"ℹ️  Below notify threshold ({MIN_SCORE}).")
+
+
+def _page_title(html: str) -> str:
+    """Pull <title> from raw HTML (no model call)."""
+    if not html:
+        return ""
+    try:
+        from bs4 import BeautifulSoup
+        tag = BeautifulSoup(html, "html.parser").find("title")
+        return tag.get_text().strip()[:120] if tag else ""
+    except Exception:
+        return ""
+
+
+# ════════════════════════════════════════════════════════════════════════
+# Cover-letter draft (Gemini, free)
+# ════════════════════════════════════════════════════════════════════════
+def draft_cover_letter(url: str):
+    """Fetch an opportunity page and write a motivation-letter draft to disk."""
+    cprint(f"✍️  Drafting cover letter for: {url}\n")
+    fetched = tools.fetch_url(url)
+    if fetched["error"] or not fetched["text"]:
+        cprint(f"❌ Could not fetch URL: {fetched['error'] or fetched['status']}")
+        return
+
+    text = tools.clean_html(fetched["text"])
+    title = _page_title(fetched["html"]) or url
+    docs = tools.extract_documents(text)
+    result = tools.generate_cover_letter(
+        {"title": title, "raw_text": text, "documents": docs}, PROFILE)
+
+    drafts_dir = Path("drafts")
+    drafts_dir.mkdir(exist_ok=True)
+    slug = re.sub(r"[^a-z0-9]+", "-", title.lower()).strip("-")[:60] or "draft"
+    out_path = drafts_dir / f"{slug}.txt"
+    out_path.write_text(
+        f"DRAFT cover letter — review and personalize before sending!\n"
+        f"Opportunity: {title}\nURL: {url}\n"
+        f"Generated: {datetime.now().isoformat(timespec='seconds')} "
+        f"by {result['model_used']}\n"
+        + "─" * 60 + "\n\n" + result["draft"] + "\n")
+    cprint(f"📝 Draft saved to {out_path}")
+    cprint("─" * 60)
+    cprint(result["draft"])
 
 
 # ════════════════════════════════════════════════════════════════════════
@@ -388,7 +443,12 @@ def check_watchlist():
         cprint("👀 Watchlist is empty.")
         return
     cprint(f"👀 Re-checking {len(wl)} watchlisted opportunities...")
-    newly_open = []
+    from search import SearchResult
+    stats = {k: 0 for k in (
+        "discovered", "already_seen", "known_scam", "fetch_failed",
+        "first_pass_dropped", "scam", "legit_unknown", "ineligible", "closed",
+        "deep_analyzed", "scored_high")}
+    matches, opened = [], 0
     for oid, item in list(wl.items()):
         url = item.get("url")
         if not url:
@@ -397,19 +457,32 @@ def check_watchlist():
         if not fetched["text"]:
             continue
         deadline = tools.check_deadline(fetched["text"])
-        if deadline["status"] == "open":
-            newly_open.append({**item, "deadline": deadline})
-            db.remove_from_watchlist(oid)
-    if newly_open:
-        report = build_report([], {k: 0 for k in (
-            "discovered", "already_seen", "known_scam", "first_pass_dropped",
-            "scam", "ineligible", "closed", "deep_analyzed", "scored_high")}, [])
-        report += "\n\n👀 WATCHLIST — newly OPEN:\n" + "\n".join(
-            f"   • {o.get('title','?')} — deadline {o['deadline'].get('deadline')}"
-            for o in newly_open)
-        tools.send_notification(report, subject="👀 OpportunityBot: watchlist items opened")
+        if deadline["status"] != "open":
+            continue
+        # It reopened — pull it off the watchlist and run the FULL pipeline
+        # so it gets the same legitimacy/eligibility/scoring as scan finds.
+        opened += 1
+        db.remove_from_watchlist(oid)
+        cprint(f"   🔓 reopened: {item.get('title', url)}")
+        try:
+            match = analyze_one(
+                SearchResult(title=item.get("title", url), url=url), stats)
+            if match:
+                matches.append(match)
+        except Exception as e:
+            db.log_error(f"Watchlist analysis failed for {url}: {e}")
+
+    if opened:
+        matches.sort(key=lambda m: m["score"]["overall_score"], reverse=True)
+        report = build_report(matches, {**stats, "discovered": opened}, [])
+        report = report.replace("Daily Report", "Watchlist Report", 1)
+        tools.send_notification(
+            report, subject=f"👀 OpportunityBot: {opened} watchlist item(s) reopened")
+        log_run_metadata("watchlist", {**stats, "reopened": opened,
+                                       "matches": len(matches)})
     else:
         cprint("   No watchlist items have opened yet.")
+        log_run_metadata("watchlist", {"reopened": 0})
 
 
 # ════════════════════════════════════════════════════════════════════════
@@ -487,6 +560,8 @@ def main():
     g = parser.add_mutually_exclusive_group(required=True)
     g.add_argument("--scan", action="store_true", help="Run a full daily scan")
     g.add_argument("--url", metavar="URL", help="Analyze one specific URL")
+    g.add_argument("--draft", metavar="URL",
+                   help="Generate a cover-letter draft for an opportunity URL")
     g.add_argument("--watchlist", action="store_true", help="Re-check the watchlist")
     g.add_argument("--tracker", action="store_true", help="Show application tracker")
     g.add_argument("--cost", action="store_true", help="Show cost breakdown")
@@ -500,7 +575,8 @@ def main():
     cprint(f"   Environment: {'GitHub Actions' if is_running_in_ci() else 'Local'}")
 
     if args.test:
-        run_test()
+        # Non-zero exit on failure so the CI `test` mode actually fails red.
+        return 0 if run_test() else 1
     elif args.cost:
         show_cost()
     elif args.tracker:
@@ -510,10 +586,13 @@ def main():
         check_watchlist()
     elif args.url:
         analyze_url(args.url)
+    elif args.draft:
+        draft_cover_letter(args.draft)
     elif args.daemon:
         run_daemon()
     elif args.scan:
         run_scan()
+    return 0
 
 
 if __name__ == "__main__":

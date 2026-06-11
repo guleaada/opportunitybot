@@ -36,40 +36,40 @@ def wait_for_quota(model: str) -> None:
     """Block until calling ``model`` again is safe under its rate limits.
 
     Raises ``DailyQuotaExceeded`` if the daily request budget is gone.
+    Sleeps OUTSIDE the lock so one throttled provider never stalls the others.
     """
     if model not in LIMITS:
         return
-    with _lock:
-        now = time.time()
-        limits = LIMITS[model]
-        minute_hist = _minute_history[model]
-        day_hist = _day_history[model]
+    while True:
+        with _lock:
+            now = time.time()
+            limits = LIMITS[model]
+            minute_hist = _minute_history[model]
+            day_hist = _day_history[model]
 
-        # Expire entries outside their windows.
-        while minute_hist and minute_hist[0] < now - 60:
-            minute_hist.popleft()
-        while day_hist and day_hist[0] < now - 86_400:
-            day_hist.popleft()
+            # Expire entries outside their windows.
+            while minute_hist and minute_hist[0] < now - 60:
+                minute_hist.popleft()
+            while day_hist and day_hist[0] < now - 86_400:
+                day_hist.popleft()
 
-        # Daily cap — fail loudly so caller can fall back.
-        if len(day_hist) >= limits["rpd"]:
-            raise DailyQuotaExceeded(
-                f"{model} daily request budget ({limits['rpd']}) exhausted"
-            )
+            # Daily cap — fail loudly so caller can fall back.
+            if len(day_hist) >= limits["rpd"]:
+                raise DailyQuotaExceeded(
+                    f"{model} daily request budget ({limits['rpd']}) exhausted"
+                )
 
-        # Per-minute cap — block until the oldest call ages out.
-        if len(minute_hist) >= limits["rpm"]:
+            # Under the per-minute cap → register the call and go.
+            if len(minute_hist) < limits["rpm"]:
+                stamp = time.time()
+                minute_hist.append(stamp)
+                day_hist.append(stamp)
+                return
+
             wait = 60 - (now - minute_hist[0]) + 0.1
-            if wait > 0:
-                print(f"⏳ Rate limit reached for {model}, waiting {wait:.1f}s")
-                time.sleep(wait)
-                now = time.time()
-                while minute_hist and minute_hist[0] < now - 60:
-                    minute_hist.popleft()
 
-        stamp = time.time()
-        minute_hist.append(stamp)
-        day_hist.append(stamp)
+        print(f"⏳ Rate limit reached for {model}, waiting {wait:.1f}s")
+        time.sleep(max(wait, 0.1))
 
 
 def snapshot() -> dict:

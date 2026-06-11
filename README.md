@@ -71,7 +71,15 @@ $EDITOR .env
 
 python main.py --test            # verify all 3 providers
 python main.py --scan            # first real scan
+python main.py --url <link>      # analyze one opportunity end-to-end
+python main.py --draft <link>    # cover-letter draft → drafts/<name>.txt
+python main.py --watchlist       # re-check closed/annual programs for reopening
 ```
+
+> The scan auto-populates the watchlist: legitimate-looking programs whose
+> deadline already passed (usually annual ones) are parked there, and
+> `--watchlist` re-checks them — running the full scoring pipeline the moment
+> they reopen. Closed programs never consume paid Claude calls.
 
 ### Option B — GitHub Actions (RECOMMENDED: runs daily, free, no laptop) ⭐
 

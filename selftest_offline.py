@@ -54,20 +54,27 @@ _RESPONSES_DEADLINE = {"deadline_iso": "2026-08-31", "deadline_raw": "31 August 
                        "is_explicitly_closed": False, "found": True}
 
 
+_CALLS = []  # (task_type, model) per fake call — lets tests assert cost behavior
+
+
 def fake_call_model(task_type, prompt, system=None, tools=None,
                     max_tokens=2048, temperature=0.3):
     # check_deadline reuses first_pass_filter task_type but expects a date schema.
     if task_type == "first_pass_filter" and "APPLICATION deadline" in prompt:
-        payload = _RESPONSES_DEADLINE
+        payload = fake_call_model.deadline_response
     else:
         payload = _RESPONSES.get(task_type, {"keep": True})
     content = payload if isinstance(payload, str) else json.dumps(payload)
     model = {"scam_detection": "claude-sonnet-4-5", "deep_eligibility": "claude-sonnet-4-5",
              "final_scoring": "claude-sonnet-4-5"}.get(task_type, "stub-free-model")
     cost = 0.04 if model.startswith("claude") else 0.0
+    _CALLS.append((task_type, model))
     return {"content": content, "model_used": model, "task_type": task_type,
             "tokens_used": {"input": 100, "output": 50}, "cost_usd": cost,
             "fell_back": False}
+
+
+fake_call_model.deadline_response = _RESPONSES_DEADLINE
 
 
 def main_():
@@ -114,10 +121,36 @@ def main_():
     assert "9.2/10" in report
     assert "BLOCKED SCAMS" in report
 
+    # ── Scenario 2: CLOSED deadline must cost ZERO Claude calls and land on
+    # the watchlist (the deadline gate runs before any paid call).
+    import database as db
+    fake_call_model.deadline_response = {
+        "deadline_iso": "2025-01-15", "deadline_raw": "15 January 2025",
+        "is_explicitly_closed": False, "found": True}
+    _CALLS.clear()
+    closed_result = search.SearchResult(
+        title="Annual Fellowship (closed)", url="https://example.org/closed-fellowship")
+    stats2 = {k: 0 for k in stats}
+    match2 = app.analyze_one(closed_result, stats2)
+
+    assert match2 is None, "closed program must not match"
+    assert stats2["closed"] == 1, stats2
+    claude_calls = [t for t, m in _CALLS if m.startswith("claude")]
+    assert not claude_calls, f"closed program burned Claude calls: {claude_calls}"
+    wl = db.all_watchlist()
+    assert any(v.get("url") == closed_result.url for v in wl.values()), \
+        "closed program should be on the watchlist"
+    # Clean up the test watchlist entry.
+    for oid, v in list(wl.items()):
+        if v.get("url") == closed_result.url:
+            db.remove_from_watchlist(oid)
+    fake_call_model.deadline_response = _RESPONSES_DEADLINE
+
     print("\n✅ OFFLINE PIPELINE SELF-TEST PASSED")
     print(f"   routing OK: legitimacy/eligibility/scoring → claude; "
           f"filter/docs/complexity → free")
     print(f"   gating OK: 1 deep-analyzed, 1 scored >= {app.MIN_SCORE}")
+    print("   cost OK: closed deadline gated with 0 Claude calls + watchlisted")
 
 
 if __name__ == "__main__":
