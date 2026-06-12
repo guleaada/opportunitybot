@@ -88,5 +88,14 @@
     "id": "01f897882828c459",
     "first_seen": "2026-06-11T09:18:03.930416+00:00",
     "last_updated": "2026-06-11T09:18:03.930423+00:00"
+  },
+  "9a27a2f63a5e9e8c": {
+    "url": "https://foreign.fulbrightonline.org/about/foreign-student-program",
+    "title": "Fulbright Foreign Student",
+    "status": "unknown",
+    "reasoning": "The program eligibility requirements and selection procedures vary widely by country, and Ethiopia is not explicitly listed as an eligible or ineligible country in the provided text, but it is implied that the candidate should check with the Fulbright office in their home country for specific eligibility requirements and application guidelines",
+    "id": "9a27a2f63a5e9e8c",
+    "first_seen": "2026-06-12T09:00:20.740782+00:00",
+    "last_updated": "2026-06-12T09:00:20.740790+00:00"
   }
 }
