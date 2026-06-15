@@ -97,5 +97,24 @@
     "id": "9a27a2f63a5e9e8c",
     "first_seen": "2026-06-12T09:00:20.740782+00:00",
     "last_updated": "2026-06-12T09:00:20.740790+00:00"
+  },
+  "bc7f62143f072d44": {
+    "url": "https://www.daad.de/epos-example",
+    "title": "DAAD EPOS Scholarship (Germany)",
+    "status": "analyzed",
+    "score": 9.2,
+    "deadline": "2026-08-31",
+    "id": "bc7f62143f072d44",
+    "first_seen": "2026-06-15T01:58:38.295435+00:00",
+    "last_updated": "2026-06-15T01:58:38.295472+00:00"
+  },
+  "48fa84df5d430c8e": {
+    "url": "https://example.org/closed-fellowship",
+    "title": "Annual Fellowship (closed)",
+    "status": "closed",
+    "deadline": "2025-01-15",
+    "id": "48fa84df5d430c8e",
+    "first_seen": "2026-06-15T01:58:38.296451+00:00",
+    "last_updated": "2026-06-15T01:58:38.296456+00:00"
   }
 }
