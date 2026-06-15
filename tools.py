@@ -18,7 +18,7 @@ Routing summary:
 from typing import List
 
 from model_router import call_model, extract_json
-from search import web_search as _web_search, fetch_url as _fetch_url, SearchResult
+from search import web_search as _web_search, fetch_url as _fetch_url, fetch_rss_source as _fetch_rss_source, SearchResult
 from known_scams import check_known_scam as _check_known_scam
 from checker import (
     check_deadline as _check_deadline,
@@ -46,6 +46,11 @@ def web_search(query: str, max_results: int = 10) -> List[SearchResult]:
 # ── 2. fetch_url (no model) ─────────────────────────────────────────────────
 def fetch_url(url: str, force: bool = False) -> dict:
     return _fetch_url(url, force=force)
+
+
+# ── 2b. fetch_rss_source (no model) ─────────────────────────────────────────
+def fetch_rss_source(feed_url: str, max_items: int = 25) -> List[SearchResult]:
+    return _fetch_rss_source(feed_url, max_items)
 
 
 # ── 3. clean_html (GROQ, mechanical) ────────────────────────────────────────

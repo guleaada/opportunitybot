@@ -176,3 +176,35 @@ def fetch_url(url: str, force: bool = False) -> dict:
     except requests.RequestException as e:
         return {"url": url, "html": "", "text": "", "status": 0,
                 "cached": False, "error": str(e)}
+
+
+def fetch_rss_source(feed_url: str, max_items: int = 25) -> List[SearchResult]:
+    """Parse a WordPress RSS feed and return normalized SearchResult objects.
+
+    Uses a browser-like User-Agent to bypass Cloudflare bot checks.
+    Returns an empty list on any error — never raises.
+    """
+    try:
+        import feedparser  # noqa: PLC0415
+        feed = feedparser.parse(
+            feed_url,
+            agent="Mozilla/5.0 (compatible; OpportunityBot/1.0)",
+        )
+        results: List[SearchResult] = []
+        for entry in feed.entries[:max_items]:
+            link = getattr(entry, "link", None)
+            title = getattr(entry, "title", None)
+            if not link or not title:
+                continue
+            raw_summary = getattr(entry, "summary", "")
+            snippet = _basic_text(raw_summary) if raw_summary else ""
+            results.append(SearchResult(
+                title=title,
+                url=link,
+                snippet=snippet,
+                source="opportunitiescorners.com",
+            ))
+        return results
+    except Exception as e:
+        print(f"⚠️ RSS source opportunitiescorners.com failed: {e}")
+        return []
