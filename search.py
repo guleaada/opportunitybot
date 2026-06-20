@@ -25,6 +25,13 @@ USER_AGENT = (
     "(KHTML, like Gecko) Chrome/124.0 Safari/537.36 OpportunityBot/1.0"
 )
 
+RSS_FEEDS = [
+    "https://opportunitiescorners.com/feed/",
+    "https://www.opportunitiesforafricans.com/feed/",
+    "https://opportunitydesk.org/feed/",
+    "https://www.youthop.com/feed",
+]
+
 
 class SearchResult:
     def __init__(self, title: str, url: str, snippet: str = "", source: str = ""):
@@ -178,33 +185,99 @@ def fetch_url(url: str, force: bool = False) -> dict:
                 "cached": False, "error": str(e)}
 
 
-def fetch_rss_source(feed_url: str, max_items: int = 25) -> List[SearchResult]:
-    """Parse a WordPress RSS feed and return normalized SearchResult objects.
-
-    Uses a browser-like User-Agent to bypass Cloudflare bot checks.
-    Returns an empty list on any error — never raises.
+def _parse_rss_entries(feed_url: str, max_items: int) -> list:
+    """Fetch and parse an RSS/Atom feed. Tries feedparser first (preferred in
+    production); falls back to stdlib requests+ElementTree if feedparser is
+    unavailable (e.g. sgmllib3k build fails in some environments).
+    Returns a list of dicts with keys: title, link, summary.
     """
+    import xml.etree.ElementTree as ET  # noqa: PLC0415
+    from urllib.parse import urlparse as _up  # noqa: PLC0415
+
+    ua = (
+        "Mozilla/5.0 (compatible; OpportunityBot/1.0; "
+        "+https://github.com/guleaada/opportunitybot)"
+    )
+
     try:
         import feedparser  # noqa: PLC0415
-        feed = feedparser.parse(
-            feed_url,
-            agent="Mozilla/5.0 (compatible; OpportunityBot/1.0)",
-        )
-        results: List[SearchResult] = []
-        for entry in feed.entries[:max_items]:
-            link = getattr(entry, "link", None)
-            title = getattr(entry, "title", None)
-            if not link or not title:
-                continue
-            raw_summary = getattr(entry, "summary", "")
-            snippet = _basic_text(raw_summary) if raw_summary else ""
-            results.append(SearchResult(
-                title=title,
-                url=link,
-                snippet=snippet,
-                source="opportunitiescorners.com",
-            ))
-        return results
-    except Exception as e:
-        print(f"⚠️ RSS source opportunitiescorners.com failed: {e}")
-        return []
+        feed = feedparser.parse(feed_url, agent=ua)
+        return [
+            {
+                "title": getattr(e, "title", ""),
+                "link": getattr(e, "link", ""),
+                "summary": getattr(e, "summary", ""),
+            }
+            for e in feed.entries[:max_items]
+        ]
+    except ImportError:
+        pass  # feedparser not available — use stdlib fallback below
+
+    resp = requests.get(feed_url, headers={"User-Agent": ua}, timeout=20)
+    resp.raise_for_status()
+    root = ET.fromstring(resp.content)
+
+    ATOM = "http://www.w3.org/2005/Atom"
+    raw_items = root.findall(".//item") or root.findall(f".//{{{ATOM}}}entry")
+
+    entries = []
+    for item in raw_items[:max_items]:
+        def _text(tag, atom_tag=None):
+            el = item.find(tag)
+            if el is None and atom_tag:
+                el = item.find(atom_tag)
+            if el is None:
+                return ""
+            return (el.text or el.get("href", "") or "").strip()
+
+        entries.append({
+            "title": _text("title", f"{{{ATOM}}}title"),
+            "link": _text("link", f"{{{ATOM}}}link"),
+            "summary": _text("description", f"{{{ATOM}}}summary"),
+        })
+    return entries
+
+
+def fetch_rss_feeds(
+    feeds: List[str] = None, max_items_per_feed: int = 20
+) -> List[SearchResult]:
+    """Pull fresh posts from multiple WordPress RSS feeds.
+
+    Uses a browser-like User-Agent to bypass Cloudflare bot checks.
+    Per-feed errors are caught and logged; one bad feed never stops the others.
+    Returns the combined list across all feeds.
+    """
+    from urllib.parse import urlparse  # noqa: PLC0415
+
+    if feeds is None:
+        feeds = RSS_FEEDS
+
+    all_results: List[SearchResult] = []
+    feeds_ok = 0
+
+    for feed_url in feeds:
+        domain = urlparse(feed_url).netloc or feed_url
+        try:
+            count_before = len(all_results)
+            for entry in _parse_rss_entries(feed_url, max_items_per_feed):
+                link = entry.get("link", "").strip()
+                title = entry.get("title", "").strip()
+                if not link or not title:
+                    continue
+                raw_summary = entry.get("summary", "")
+                snippet = _basic_text(raw_summary) if raw_summary else ""
+                all_results.append(SearchResult(
+                    title=title,
+                    url=link,
+                    snippet=snippet,
+                    source=domain,
+                ))
+            feeds_ok += 1
+            print(f"✅ RSS {domain}: {len(all_results) - count_before} posts")
+        except Exception as e:
+            print(f"⚠️ RSS feed {domain} failed: {e}")
+
+    print(
+        f"📰 RSS total: {len(all_results)} posts from {feeds_ok}/{len(feeds)} feeds"
+    )
+    return all_results

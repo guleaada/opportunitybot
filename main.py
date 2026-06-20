@@ -199,13 +199,13 @@ def run_scan(max_results_per_source: int = 8):
                 seen_urls.add(seed["url"])
                 all_results.append(SearchResult(
                     title=seed["name"], url=seed["url"], source="seed"))
-    # Pull fresh posts from opportunitiescorners.com RSS feed
+    # RSS feeds are now the primary discovery source (CSE unreliable)
     try:
-        rss_results = tools.fetch_rss_source("https://opportunitiescorners.com/feed/")
+        rss_results = tools.fetch_rss_feeds()
         all_results.extend(rss_results)
-        cprint(f"📰 opportunitiescorners.com RSS: +{len(rss_results)} posts")
+        cprint(f"📰 RSS pulled {len(rss_results)} posts into discovery")
     except Exception as e:
-        cprint(f"⚠️ RSS pull failed: {e}")
+        cprint(f"⚠️ RSS pull failed entirely: {e}")
 
     stats["discovered"] = len(all_results)
 
