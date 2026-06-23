@@ -170,6 +170,54 @@ def run_scan(max_results_per_source: int = 8):
     }
     blocked_scams = []
 
+    # --- RSS discovery (primary source while CSE is down) -------------------
+    def _fetch_rss_feeds():
+        import urllib.request
+        import xml.etree.ElementTree as ET
+        from search import SearchResult
+        feeds = [
+            "https://opportunitiescorners.com/feed/",
+            "https://www.opportunitiesforafricans.com/feed/",
+            "https://opportunitydesk.org/feed/",
+            "https://www.youthop.com/feed",
+        ]
+        out, ok_feeds = [], 0
+        for feed_url in feeds:
+            try:
+                req = urllib.request.Request(
+                    feed_url,
+                    headers={"User-Agent":
+                             "Mozilla/5.0 (compatible; OpportunityBot/1.0)"})
+                with urllib.request.urlopen(req, timeout=25) as resp:
+                    raw = resp.read()
+                root = ET.fromstring(raw)
+                # RSS 2.0: channel/item ; strip namespaces just in case
+                items = root.findall(".//item")
+                count = 0
+                for it in items[:20]:
+                    title_el = it.find("title")
+                    link_el = it.find("link")
+                    desc_el = it.find("description")
+                    title = (title_el.text or "").strip() if title_el is not None else ""
+                    link = (link_el.text or "").strip() if link_el is not None else ""
+                    desc = (desc_el.text or "").strip() if desc_el is not None else ""
+                    # crude HTML strip for the snippet
+                    desc = re.sub(r"<[^>]+>", " ", desc)
+                    desc = re.sub(r"\s+", " ", desc).strip()[:500]
+                    if not title or not link:
+                        continue
+                    domain = feed_url.split("/")[2]
+                    out.append(SearchResult(title=title, url=link,
+                                            snippet=desc, source=domain))
+                    count += 1
+                ok_feeds += 1
+                cprint(f"📰 RSS {feed_url.split('/')[2]}: +{count} posts")
+            except Exception as e:
+                cprint(f"⚠️ RSS feed {feed_url.split('/')[2]} failed: {e}")
+        cprint(f"📰 RSS total: {len(out)} posts from {ok_feeds}/{len(feeds)} feeds")
+        return out
+    # ------------------------------------------------------------------------
+
     # 1. search across whitelisted sources (no model)
     sources = load_whitelist()
     all_results = []
@@ -199,6 +247,15 @@ def run_scan(max_results_per_source: int = 8):
                 seen_urls.add(seed["url"])
                 all_results.append(SearchResult(
                     title=seed["name"], url=seed["url"], source="seed"))
+    # Pull RSS feeds into discovery (runs regardless of CSE success/failure)
+    try:
+        for r in _fetch_rss_feeds():
+            if r.url and r.url not in seen_urls:
+                seen_urls.add(r.url)
+                all_results.append(r)
+    except Exception as e:
+        cprint(f"⚠️ RSS discovery failed entirely: {e}")
+
     stats["discovered"] = len(all_results)
 
     # 2-3. dedupe seen + hard-block known scams (no model)
