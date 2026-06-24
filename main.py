@@ -187,7 +187,9 @@ def run_scan(max_results_per_source: int = 8):
                 req = urllib.request.Request(
                     feed_url,
                     headers={"User-Agent":
-                             "Mozilla/5.0 (compatible; OpportunityBot/1.0)"})
+                             "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+                             "AppleWebKit/537.36 (KHTML, like Gecko) "
+                             "Chrome/125.0.0.0 Safari/537.36"})
                 with urllib.request.urlopen(req, timeout=25) as resp:
                     raw = resp.read()
                 root = ET.fromstring(raw)
