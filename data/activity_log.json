@@ -858,5 +858,64 @@
       "scored_high": 0,
       "matches": 0
     }
+  },
+  {
+    "at": "2026-06-24T04:32:56.959898+00:00",
+    "kind": "scan_start",
+    "message": "daily scan started"
+  },
+  {
+    "at": "2026-06-24T04:33:50.510234+00:00",
+    "kind": "error",
+    "message": "Fetch failed for https://www.dfat.gov.au/people-to-people/australia-awards/australia-awards-scholarships: HTTPSConnectionPool(host='www.dfat.gov.au', port=443): Read timed out. (read timeout=25)"
+  },
+  {
+    "at": "2026-06-24T04:33:50.609094+00:00",
+    "kind": "error",
+    "message": "Fetch failed for https://vanier.gc.ca/en/home-accueil.html: HTTPSConnectionPool(host='vanier.gc.ca', port=443): Max retries exceeded with url: /en/home-accueil.html (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)')))"
+  },
+  {
+    "at": "2026-06-24T04:33:50.646268+00:00",
+    "kind": "error",
+    "message": "Fetch failed for https://opportunitydesk.org/category/fellowships/: 403"
+  },
+  {
+    "at": "2026-06-24T04:38:42.545017+00:00",
+    "kind": "scan_complete",
+    "message": "daily scan finished",
+    "matches": 2,
+    "stats": {
+      "discovered": 40,
+      "already_seen": 11,
+      "known_scam": 0,
+      "fetch_failed": 3,
+      "first_pass_dropped": 7,
+      "scam": 0,
+      "legit_unknown": 0,
+      "ineligible": 3,
+      "closed": 0,
+      "deep_analyzed": 2,
+      "scored_high": 2
+    }
+  },
+  {
+    "at": "2026-06-24T04:38:42.546071+00:00",
+    "kind": "run",
+    "mode": "scan",
+    "environment": "github_actions",
+    "stats": {
+      "discovered": 40,
+      "already_seen": 11,
+      "known_scam": 0,
+      "fetch_failed": 3,
+      "first_pass_dropped": 7,
+      "scam": 0,
+      "legit_unknown": 0,
+      "ineligible": 3,
+      "closed": 0,
+      "deep_analyzed": 2,
+      "scored_high": 2,
+      "matches": 2
+    }
   }
 ]

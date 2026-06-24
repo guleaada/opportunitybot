@@ -116,5 +116,115 @@
     "id": "48fa84df5d430c8e",
     "first_seen": "2026-06-23T22:40:56.231939+00:00",
     "last_updated": "2026-06-23T22:40:56.231944+00:00"
+  },
+  "5041cfe3ee997a24": {
+    "url": "https://opportunitiescorners.com/seoul-national-university-scholarship-2027/",
+    "title": "Seoul National University Scholarship 2027 in South Korea (Fully Funded)",
+    "status": "ineligible",
+    "reasoning": "The program requires applicants to be currently pursuing or about to pursue a degree, but the candidate is a working professional and not currently a student. Additionally, the candidate's degree level is a mismatch as the program offers undergraduate, graduate, and full-time MBA degree programs, but the candidate already holds a BSc and is looking for a master's program. However, the main hard blocker is that the candidate is not currently a student and the program seems geared towards students.",
+    "id": "5041cfe3ee997a24",
+    "first_seen": "2026-06-24T04:33:58.493418+00:00",
+    "last_updated": "2026-06-24T04:33:58.493425+00:00"
+  },
+  "c488faaf2a3d2200": {
+    "url": "https://opportunitiescorners.com/united-nations-volunteer-program-2026/",
+    "title": "United Nations Volunteer Program 2026 | Application Process",
+    "status": "unknown",
+    "reasoning": "The program's eligibility criteria vary by assignment, role, duration, and contract type, and it is recommended to check the requirements of each position. The provided information does not specify the requirements for the assignments, making it impossible to determine the candidate's eligibility.",
+    "id": "c488faaf2a3d2200",
+    "first_seen": "2026-06-24T04:34:34.683022+00:00",
+    "last_updated": "2026-06-24T04:34:34.683032+00:00"
+  },
+  "57493e3fb3928e91": {
+    "url": "https://opportunitiescorners.com/middle-east-youth-summit-meys-2026/",
+    "title": "Middle East Youth Summit (MEYS) 2026 in Mecca, Saudi Arabia",
+    "status": "filtered_out",
+    "reason": "It is partially funded and requires participants to cover significant expenses like flight tickets and visa",
+    "id": "57493e3fb3928e91",
+    "first_seen": "2026-06-24T04:34:49.384182+00:00",
+    "last_updated": "2026-06-24T04:34:49.384188+00:00"
+  },
+  "416689e4540c8205": {
+    "url": "https://opportunitiescorners.com/unidar-outer-space-security-conference-2026/",
+    "title": "UNIDAR Outer Space Security Conference 2026 in Switzerland (Fully Funded)",
+    "status": "filtered_out",
+    "reason": "The applicant is above the eligible age range",
+    "id": "416689e4540c8205",
+    "first_seen": "2026-06-24T04:35:07.177214+00:00",
+    "last_updated": "2026-06-24T04:35:07.177221+00:00"
+  },
+  "da93c88c90d3edf9": {
+    "url": "https://opportunitiescorners.com/harvard-radcliffe-fellowship-2027/",
+    "title": "Harvard Radcliffe Fellowship 2027/28, USA (Fully Funded)",
+    "status": "analyzed",
+    "score": 8.4,
+    "deadline": "2026-10-01",
+    "id": "da93c88c90d3edf9",
+    "first_seen": "2026-06-24T04:36:06.977746+00:00",
+    "last_updated": "2026-06-24T04:36:06.977755+00:00"
+  },
+  "5c709738174907dc": {
+    "url": "https://opportunitiescorners.com/oist-internship-2027/",
+    "title": "OIST Internship in Japan (Fully Funded) (Spring 2027)",
+    "status": "ineligible",
+    "reasoning": "The program requires applicants to be either enrolled students or recent graduates, but the candidate is a working professional who graduated in 2021 and is not currently enrolled in a degree program.",
+    "id": "5c709738174907dc",
+    "first_seen": "2026-06-24T04:36:37.421950+00:00",
+    "last_updated": "2026-06-24T04:36:37.421959+00:00"
+  },
+  "44df0f78ce4a9f97": {
+    "url": "https://www.opportunitiesforafricans.com/rsm-eastern-africas-graduate-recruitment-programme-2026/",
+    "title": "RSM Eastern Africa’s Graduate Recruitment Programme 2026 for young graduates.",
+    "status": "filtered_out",
+    "reason": "Candidate's background is not in Accounting, Finance, Economics, Business, or related field",
+    "id": "44df0f78ce4a9f97",
+    "first_seen": "2026-06-24T04:36:48.091699+00:00",
+    "last_updated": "2026-06-24T04:36:48.091707+00:00"
+  },
+  "f360a66e2e2db85d": {
+    "url": "https://www.opportunitiesforafricans.com/the-youth-for-peace-unesco-intercultural-leadership-programme-2026/",
+    "title": "The Youth for Peace: UNESCO Intercultural Leadership Programme 2026 for emerging leaders (10,000 USD grant)",
+    "status": "analyzed",
+    "score": 8.5,
+    "deadline": "2026-07-19",
+    "id": "f360a66e2e2db85d",
+    "first_seen": "2026-06-24T04:37:49.392924+00:00",
+    "last_updated": "2026-06-24T04:37:49.392930+00:00"
+  },
+  "bb68ad789e365014": {
+    "url": "https://www.opportunitiesforafricans.com/coca-cola-beverages-africa-ccba-kenya-internship-programme-2026-for-young-kenyan-students/",
+    "title": "Coca-Cola Beverages Africa (CCBA) Kenya Internship Programme 2026 for young Kenyan students.",
+    "status": "filtered_out",
+    "reason": "Candidate is not a student",
+    "id": "bb68ad789e365014",
+    "first_seen": "2026-06-24T04:37:57.689259+00:00",
+    "last_updated": "2026-06-24T04:37:57.689271+00:00"
+  },
+  "a503a83877230a07": {
+    "url": "https://www.opportunitiesforafricans.com/the-waccbip-deltas-ii-graduate-internship-programme-2026-2027/",
+    "title": "The WACCBIP-DELTAS II Graduate Internship Programme 2026/2027 for young Ghanaian graduates (Monthly Stipend)",
+    "status": "filtered_out",
+    "reason": "Application is for new graduates and requires registration for National Service",
+    "id": "a503a83877230a07",
+    "first_seen": "2026-06-24T04:38:09.891781+00:00",
+    "last_updated": "2026-06-24T04:38:09.891788+00:00"
+  },
+  "be729e14b99a36c7": {
+    "url": "https://www.opportunitiesforafricans.com/capitec-graduate-programme-2027/",
+    "title": "Capitec Graduate Programme 2027 for young South African graduates.",
+    "status": "filtered_out",
+    "reason": "It is only open to South African citizens",
+    "id": "be729e14b99a36c7",
+    "first_seen": "2026-06-24T04:38:24.825971+00:00",
+    "last_updated": "2026-06-24T04:38:24.825979+00:00"
+  },
+  "557d48560ba9ecbb": {
+    "url": "https://www.opportunitiesforafricans.com/kcb-bank-kcb-2026-management-trainee-programme/",
+    "title": "KCB Bank (KCB) 2026 Management Trainee Programme for young Kenyan graduates.",
+    "status": "filtered_out",
+    "reason": "It explicitly requires a recent graduate within the last 2 years",
+    "id": "557d48560ba9ecbb",
+    "first_seen": "2026-06-24T04:38:39.677568+00:00",
+    "last_updated": "2026-06-24T04:38:39.677575+00:00"
   }
 }
