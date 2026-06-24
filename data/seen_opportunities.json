@@ -226,5 +226,32 @@
     "id": "557d48560ba9ecbb",
     "first_seen": "2026-06-24T04:38:39.677568+00:00",
     "last_updated": "2026-06-24T04:38:39.677575+00:00"
+  },
+  "9ec496daa7bd4b15": {
+    "url": "https://www.opportunitiesforafricans.com/the-lagos-state-public-service-accelerator-programme-2026-for-high-potential-civil-servants/",
+    "title": "The Lagos State Public Service Accelerator Programme 2026 for high-potential civil servants.",
+    "status": "filtered_out",
+    "reason": "The programme is only for Lagos State Civil Servants",
+    "id": "9ec496daa7bd4b15",
+    "first_seen": "2026-06-24T08:25:04.984318+00:00",
+    "last_updated": "2026-06-24T08:25:04.984325+00:00"
+  },
+  "194962b5c813401d": {
+    "url": "https://www.opportunitiesforafricans.com/oxford-said-global-climate-tech-challenge-2026/",
+    "title": "Oxford Saïd Global Climate Tech Challenge 2026 for high school students and teachers worldwide (All‑expenses‑paid trip to Oxford)",
+    "status": "filtered_out",
+    "reason": "Candidate is not a high school student or teacher",
+    "id": "194962b5c813401d",
+    "first_seen": "2026-06-24T08:25:37.912056+00:00",
+    "last_updated": "2026-06-24T08:25:37.912062+00:00"
+  },
+  "25170cdfd117fe03": {
+    "url": "https://www.opportunitiesforafricans.com/acu-routledge-round-table-commonwealth-studentships-program-2026-2027/",
+    "title": "ACU Routledge/Round Table Commonwealth Studentships Program 2026/2027 for Ph.D. Students (GBP 5,500 award)",
+    "status": "filtered_out",
+    "reason": "It offers no full funding and charges no money but also does not cover full tuition",
+    "id": "25170cdfd117fe03",
+    "first_seen": "2026-06-24T08:25:58.605687+00:00",
+    "last_updated": "2026-06-24T08:25:58.605697+00:00"
   }
 }
