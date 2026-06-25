@@ -1021,5 +1021,99 @@
       "scored_high": 0,
       "matches": 0
     }
+  },
+  {
+    "at": "2026-06-25T08:24:52.261781+00:00",
+    "kind": "scan_start",
+    "message": "daily scan started"
+  },
+  {
+    "at": "2026-06-25T08:25:22.103466+00:00",
+    "kind": "error",
+    "message": "Fetch failed for https://www.dfat.gov.au/people-to-people/australia-awards/australia-awards-scholarships: HTTPSConnectionPool(host='www.dfat.gov.au', port=443): Read timed out. (read timeout=25)"
+  },
+  {
+    "at": "2026-06-25T08:25:22.269195+00:00",
+    "kind": "error",
+    "message": "Fetch failed for https://vanier.gc.ca/en/home-accueil.html: HTTPSConnectionPool(host='vanier.gc.ca', port=443): Max retries exceeded with url: /en/home-accueil.html (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)')))"
+  },
+  {
+    "at": "2026-06-25T08:25:22.310352+00:00",
+    "kind": "error",
+    "message": "Fetch failed for https://opportunitydesk.org/category/fellowships/: 403"
+  },
+  {
+    "at": "2026-06-25T08:26:45.696756+00:00",
+    "kind": "error",
+    "message": "Fetch failed for https://opportunitydesk.org/2026/06/25/how-to-use-opportunity-desk-to-elevate-your-career/: 403"
+  },
+  {
+    "at": "2026-06-25T08:26:45.734818+00:00",
+    "kind": "error",
+    "message": "Fetch failed for https://opportunitydesk.org/2026/06/24/gap-in-between-startup-challenge-2026/: 403"
+  },
+  {
+    "at": "2026-06-25T08:26:45.775131+00:00",
+    "kind": "error",
+    "message": "Fetch failed for https://opportunitydesk.org/2026/06/24/wecf-gender-just-climate-solutions-awards-2026/: 403"
+  },
+  {
+    "at": "2026-06-25T08:26:45.815561+00:00",
+    "kind": "error",
+    "message": "Fetch failed for https://opportunitydesk.org/2026/06/24/awief-pitch-n-grow-competition-2026/: 403"
+  },
+  {
+    "at": "2026-06-25T08:26:45.853222+00:00",
+    "kind": "error",
+    "message": "Fetch failed for https://opportunitydesk.org/2026/06/24/carn-bochco-pangolin-grant-program-2026/: 403"
+  },
+  {
+    "at": "2026-06-25T08:26:45.892034+00:00",
+    "kind": "error",
+    "message": "Fetch failed for https://opportunitydesk.org/2026/06/24/johns-hopkins-sgp-ai-fellowship-2026/: 403"
+  },
+  {
+    "at": "2026-06-25T08:26:45.930445+00:00",
+    "kind": "error",
+    "message": "Fetch failed for https://opportunitydesk.org/2026/06/24/mq-mental-health-research-schizophrenia-research-fellowship-2026/: 403"
+  },
+  {
+    "at": "2026-06-25T08:26:49.229632+00:00",
+    "kind": "scan_complete",
+    "message": "daily scan finished",
+    "matches": 0,
+    "stats": {
+      "discovered": 40,
+      "already_seen": 22,
+      "known_scam": 0,
+      "fetch_failed": 10,
+      "first_pass_dropped": 2,
+      "scam": 0,
+      "legit_unknown": 2,
+      "ineligible": 1,
+      "closed": 0,
+      "deep_analyzed": 0,
+      "scored_high": 0
+    }
+  },
+  {
+    "at": "2026-06-25T08:26:49.230893+00:00",
+    "kind": "run",
+    "mode": "scan",
+    "environment": "github_actions",
+    "stats": {
+      "discovered": 40,
+      "already_seen": 22,
+      "known_scam": 0,
+      "fetch_failed": 10,
+      "first_pass_dropped": 2,
+      "scam": 0,
+      "legit_unknown": 2,
+      "ineligible": 1,
+      "closed": 0,
+      "deep_analyzed": 0,
+      "scored_high": 0,
+      "matches": 0
+    }
   }
 ]

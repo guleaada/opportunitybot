@@ -253,5 +253,50 @@
     "id": "25170cdfd117fe03",
     "first_seen": "2026-06-24T08:25:58.605687+00:00",
     "last_updated": "2026-06-24T08:25:58.605697+00:00"
+  },
+  "4abcbaf8fa894f69": {
+    "url": "https://opportunitiescorners.com/un-biodiversity-conference-2026-in-armenia/",
+    "title": "UN Biodiversity Conference 2026 in Armenia (Fully Funded)",
+    "status": "filtered_out",
+    "reason": "Candidate is not a journalist",
+    "id": "4abcbaf8fa894f69",
+    "first_seen": "2026-06-25T08:25:25.432034+00:00",
+    "last_updated": "2026-06-25T08:25:25.432040+00:00"
+  },
+  "34299a8240be96a1": {
+    "url": "https://www.opportunitiesforafricans.com/the-global-citizen-paypal-small-business-impact-awards-2026/",
+    "title": "The Global Citizen-PayPal Small Business Impact Awards 2026 for creative small and medium-sized business owners (20K cash prize)",
+    "status": "ineligible",
+    "reasoning": "The candidate's business must be based in one of the specified regions and the candidate must live and work in those regions, but the candidate is currently based in Vientiane, Lao PDR, which is not mentioned as an eligible region",
+    "id": "34299a8240be96a1",
+    "first_seen": "2026-06-25T08:25:47.205880+00:00",
+    "last_updated": "2026-06-25T08:25:47.205887+00:00"
+  },
+  "a515ee0fb25bd8b1": {
+    "url": "https://www.opportunitiesforafricans.com/africa-policy-research-institute-apri-young-talent-program-2026/",
+    "title": "Africa Policy Research Institute (APRI) Young Talent Program 2026 for young professionals.",
+    "status": "legitimacy_unknown",
+    "reasoning": "The program appears to be a legitimate internship opportunity, but there is not enough information to confirm its authenticity, such as a direct link to the official APRI website or clear details on the application and selection process. The absence of red flags, such as requests for payment, is a positive sign, but more evidence is needed to establish trust.",
+    "id": "a515ee0fb25bd8b1",
+    "first_seen": "2026-06-25T08:26:10.215932+00:00",
+    "last_updated": "2026-06-25T08:26:10.215941+00:00"
+  },
+  "7c543988bd436f3d": {
+    "url": "https://www.opportunitiesforafricans.com/the-cjid-african-road-safety-reporting-forum-2026/",
+    "title": "The CJID African Road Safety Reporting Forum 2026 for media professionals (Funded to Abuja, Nigeria)",
+    "status": "legitimacy_unknown",
+    "reasoning": "The program appears to be a legitimate professional development opportunity, but there is not enough information to confirm its legitimacy, such as the organization's reputation, funding sources, or previous events. The application process does not require any payment, which is a positive sign. However, more research is needed to verify the authenticity of the Centre for Journalism Innovation and Development (CJID) and its Health Reporting Project.",
+    "id": "7c543988bd436f3d",
+    "first_seen": "2026-06-25T08:26:31.744704+00:00",
+    "last_updated": "2026-06-25T08:26:31.744710+00:00"
+  },
+  "fde52111b5eefcca": {
+    "url": "https://www.opportunitiesforafricans.com/the-internet-society-foundation-common-good-cyber-fund-grant-program-2026/",
+    "title": "The Internet Society Foundation Common Good Cyber Fund Grant Program 2026 ($300,000 grant)",
+    "status": "filtered_out",
+    "reason": "It is a grant program for nonprofit organizations, not individual scholarships or fellowships",
+    "id": "fde52111b5eefcca",
+    "first_seen": "2026-06-25T08:26:45.656577+00:00",
+    "last_updated": "2026-06-25T08:26:45.656583+00:00"
   }
 }
