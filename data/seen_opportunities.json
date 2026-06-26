@@ -298,5 +298,50 @@
     "id": "fde52111b5eefcca",
     "first_seen": "2026-06-25T08:26:45.656577+00:00",
     "last_updated": "2026-06-25T08:26:45.656583+00:00"
+  },
+  "6e2486d9884cf45c": {
+    "url": "https://opportunitiescorners.com/iacc-young-journalists-program-2026-in-the-dominican-republic/",
+    "title": "IACC Young Journalists Program 2026 in the Dominican Republic (Fully Funded)",
+    "status": "filtered_out",
+    "reason": "Candidate is not a journalist",
+    "id": "6e2486d9884cf45c",
+    "first_seen": "2026-06-26T08:31:31.303311+00:00",
+    "last_updated": "2026-06-26T08:31:31.303319+00:00"
+  },
+  "547c9cb83649cbce": {
+    "url": "https://www.opportunitiesforafricans.com/european-commission-youth4regions-programme-2026/",
+    "title": "European Commission Youth4Regions Programme 2026 for young aspiring journalists (Fully Funded to Brussels, Belgium)",
+    "status": "filtered_out",
+    "reason": "Ethiopian nationals are not eligible",
+    "id": "547c9cb83649cbce",
+    "first_seen": "2026-06-26T08:31:32.883467+00:00",
+    "last_updated": "2026-06-26T08:31:32.883475+00:00"
+  },
+  "761a20563b11082b": {
+    "url": "https://www.opportunitiesforafricans.com/kings-commonwealth-fellowship-programme-climate-resilience-fellowships-2026/",
+    "title": "King’s Commonwealth Fellowship Programme Climate Resilience Fellowships 2026/2027 for Mid-career professionals (Fully Funded)",
+    "status": "filtered_out",
+    "reason": "Ethiopian nationals are not eligible",
+    "id": "761a20563b11082b",
+    "first_seen": "2026-06-26T08:32:09.498338+00:00",
+    "last_updated": "2026-06-26T08:32:09.498346+00:00"
+  },
+  "e038a7ddf9a8a196": {
+    "url": "https://www.opportunitiesforafricans.com/junior-achievement-nigeria-venture-in-management-program-2026/",
+    "title": "Junior Achievement Nigeria Venture in Management Program 2026 for outstanding Nigerian graduates (One week mini-MBA)",
+    "status": "filtered_out",
+    "reason": "The program is only for Nigerian graduates",
+    "id": "e038a7ddf9a8a196",
+    "first_seen": "2026-06-26T08:32:32.056826+00:00",
+    "last_updated": "2026-06-26T08:32:32.056834+00:00"
+  },
+  "3e4b64a8e2f5a8e3": {
+    "url": "https://www.opportunitiesforafricans.com/the-british-council-2026-cultural-protection-fund/",
+    "title": "The British Council 2026 Cultural Protection Fund (CPF)  (£500,000 grant)",
+    "status": "ineligible",
+    "reasoning": "The program requires applications to be submitted by an organization, not an individual, and the candidate is a working professional, not an organization",
+    "id": "3e4b64a8e2f5a8e3",
+    "first_seen": "2026-06-26T08:32:57.425539+00:00",
+    "last_updated": "2026-06-26T08:32:57.425546+00:00"
   }
 }
