@@ -343,5 +343,42 @@
     "id": "3e4b64a8e2f5a8e3",
     "first_seen": "2026-06-26T08:32:57.425539+00:00",
     "last_updated": "2026-06-26T08:32:57.425546+00:00"
+  },
+  "62ace822cdfba003": {
+    "url": "https://www.opportunitiesforafricans.com/the-government-of-japan-unitars-empowering-youth-and-women-programme-2026-for-sub-saharan-african-innovators/",
+    "title": "The Government of Japan-UNITAR’s Empowering Youth and Women Programme 2026 for Sub-Saharan African Innovators (Fully Funded)",
+    "status": "analyzed",
+    "score": 9.4,
+    "deadline": "2026-07-31",
+    "id": "62ace822cdfba003",
+    "first_seen": "2026-06-27T07:52:41.075257+00:00",
+    "last_updated": "2026-06-27T07:52:41.075264+00:00"
+  },
+  "e4ab894258bfa530": {
+    "url": "https://www.opportunitiesforafricans.com/kpmg-ghana-graduate-recruitment-programme-2026/",
+    "title": "KPMG Ghana Graduate Recruitment Programme 2026 for young Ghanaian graduates.",
+    "status": "filtered_out",
+    "reason": "It is not a scholarship or fellowship program",
+    "id": "e4ab894258bfa530",
+    "first_seen": "2026-06-27T07:52:52.290330+00:00",
+    "last_updated": "2026-06-27T07:52:52.290338+00:00"
+  },
+  "54d5d15970566180": {
+    "url": "https://www.opportunitiesforafricans.com/the-international-monetary-fund-imf-research-analyst-program-rap-2026/",
+    "title": "The International Monetary Fund (IMF) Research Analyst Program (RAP) 2026 for young professionals.",
+    "status": "closed",
+    "deadline": "2025-12-31",
+    "id": "54d5d15970566180",
+    "first_seen": "2026-06-27T07:53:06.796640+00:00",
+    "last_updated": "2026-06-27T07:53:06.796646+00:00"
+  },
+  "501661c6eefb9755": {
+    "url": "https://www.opportunitiesforafricans.com/mfwas-training-workshop-on-critical-coverage-of-africa-china-trade-investment-political-relations/",
+    "title": "MFWA’s Training Workshop on Critical Coverage of Africa-China Trade, Investment & Political Relations for Journalists in Anglophone West Africa (Fully Funded to Accra, Ghana)",
+    "status": "filtered_out",
+    "reason": "The applicant is not a journalist based in an Anglophone West African country",
+    "id": "501661c6eefb9755",
+    "first_seen": "2026-06-27T07:53:22.100858+00:00",
+    "last_updated": "2026-06-27T07:53:22.100865+00:00"
   }
 }

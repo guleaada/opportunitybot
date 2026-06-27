@@ -1209,5 +1209,104 @@
       "scored_high": 0,
       "matches": 0
     }
+  },
+  {
+    "at": "2026-06-27T07:51:33.228917+00:00",
+    "kind": "scan_start",
+    "message": "daily scan started"
+  },
+  {
+    "at": "2026-06-27T07:52:03.753286+00:00",
+    "kind": "error",
+    "message": "Fetch failed for https://www.dfat.gov.au/people-to-people/australia-awards/australia-awards-scholarships: HTTPSConnectionPool(host='www.dfat.gov.au', port=443): Read timed out. (read timeout=25)"
+  },
+  {
+    "at": "2026-06-27T07:52:03.849182+00:00",
+    "kind": "error",
+    "message": "Fetch failed for https://vanier.gc.ca/en/home-accueil.html: HTTPSConnectionPool(host='vanier.gc.ca', port=443): Max retries exceeded with url: /en/home-accueil.html (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)')))"
+  },
+  {
+    "at": "2026-06-27T07:52:03.885070+00:00",
+    "kind": "error",
+    "message": "Fetch failed for https://opportunitydesk.org/category/fellowships/: 403"
+  },
+  {
+    "at": "2026-06-27T07:53:22.146676+00:00",
+    "kind": "error",
+    "message": "Fetch failed for https://opportunitydesk.org/2026/06/26/socal-canadian-black-tech-express-2026/: 403"
+  },
+  {
+    "at": "2026-06-27T07:53:22.187435+00:00",
+    "kind": "error",
+    "message": "Fetch failed for https://opportunitydesk.org/2026/06/26/vals-ai-fellowship-2026/: 403"
+  },
+  {
+    "at": "2026-06-27T07:53:22.227136+00:00",
+    "kind": "error",
+    "message": "Fetch failed for https://opportunitydesk.org/2026/06/26/open-startup-science-road-program-2026/: 403"
+  },
+  {
+    "at": "2026-06-27T07:53:22.271045+00:00",
+    "kind": "error",
+    "message": "Fetch failed for https://opportunitydesk.org/2026/06/26/debunker-summer-school-of-media-literacy-2026/: 403"
+  },
+  {
+    "at": "2026-06-27T07:53:22.309364+00:00",
+    "kind": "error",
+    "message": "Fetch failed for https://opportunitydesk.org/2026/06/26/afs-global-stem-changemakers-virtual-exchange-program-2026/: 403"
+  },
+  {
+    "at": "2026-06-27T07:53:22.357994+00:00",
+    "kind": "error",
+    "message": "Fetch failed for https://opportunitydesk.org/2026/06/26/est-academy-2026/: 403"
+  },
+  {
+    "at": "2026-06-27T07:53:22.402021+00:00",
+    "kind": "error",
+    "message": "Fetch failed for https://opportunitydesk.org/2026/06/26/sheconnects-digital-accelerator-2026/: 403"
+  },
+  {
+    "at": "2026-06-27T07:53:22.444830+00:00",
+    "kind": "error",
+    "message": "Fetch failed for https://opportunitydesk.org/2026/06/26/youth4regions-journalism-programme-2026/: 403"
+  },
+  {
+    "at": "2026-06-27T07:53:25.786845+00:00",
+    "kind": "scan_complete",
+    "message": "daily scan finished",
+    "matches": 1,
+    "stats": {
+      "discovered": 40,
+      "already_seen": 23,
+      "known_scam": 0,
+      "fetch_failed": 11,
+      "first_pass_dropped": 2,
+      "scam": 0,
+      "legit_unknown": 0,
+      "ineligible": 0,
+      "closed": 1,
+      "deep_analyzed": 1,
+      "scored_high": 1
+    }
+  },
+  {
+    "at": "2026-06-27T07:53:25.788207+00:00",
+    "kind": "run",
+    "mode": "scan",
+    "environment": "github_actions",
+    "stats": {
+      "discovered": 40,
+      "already_seen": 23,
+      "known_scam": 0,
+      "fetch_failed": 11,
+      "first_pass_dropped": 2,
+      "scam": 0,
+      "legit_unknown": 0,
+      "ineligible": 0,
+      "closed": 1,
+      "deep_analyzed": 1,
+      "scored_high": 1,
+      "matches": 1
+    }
   }
 ]
