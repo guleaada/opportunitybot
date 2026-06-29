@@ -380,5 +380,14 @@
     "id": "501661c6eefb9755",
     "first_seen": "2026-06-27T07:53:22.100858+00:00",
     "last_updated": "2026-06-27T07:53:22.100865+00:00"
+  },
+  "4c54b1ea297e3c43": {
+    "url": "https://opportunitiescorners.com/daad-epos-scholarship-2027-28/",
+    "title": "DAAD EPOS Scholarship 2027/28 in Germany (Fully Funded)",
+    "status": "ineligible",
+    "reasoning": "The program requires a minimum IELTS score of 6 bands, but the candidate has no IELTS/TOEFL certificate, and while they can obtain a Duolingo or MOI certificate, it is unclear if this would be accepted in place of IELTS. However, the main issue is that the candidate's English proficiency is not certified by IELTS as required, but this can be considered an addressable gap. The main hard blocker is not present in this case, as the candidate meets the other requirements such as having a bachelor's degree, being a working professional with at least two years of experience is not explicitly mentioned in the candidate's profile but it can be inferred that they have some experience, and being from an eligible country is not explicitly excluded.",
+    "id": "4c54b1ea297e3c43",
+    "first_seen": "2026-06-29T09:50:06.807965+00:00",
+    "last_updated": "2026-06-29T09:50:06.807973+00:00"
   }
 }
