@@ -1526,5 +1526,74 @@
       "scored_high": 0,
       "matches": 0
     }
+  },
+  {
+    "at": "2026-06-30T08:32:02.281094+00:00",
+    "kind": "scan_start",
+    "message": "daily scan started"
+  },
+  {
+    "at": "2026-06-30T08:32:32.058167+00:00",
+    "kind": "error",
+    "message": "Fetch failed for https://www.dfat.gov.au/people-to-people/australia-awards/australia-awards-scholarships: HTTPSConnectionPool(host='www.dfat.gov.au', port=443): Read timed out. (read timeout=25)"
+  },
+  {
+    "at": "2026-06-30T08:32:32.150680+00:00",
+    "kind": "error",
+    "message": "Fetch failed for https://vanier.gc.ca/en/home-accueil.html: HTTPSConnectionPool(host='vanier.gc.ca', port=443): Max retries exceeded with url: /en/home-accueil.html (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)')))"
+  },
+  {
+    "at": "2026-06-30T08:32:32.189553+00:00",
+    "kind": "error",
+    "message": "Fetch failed for https://opportunitydesk.org/category/fellowships/: 403"
+  },
+  {
+    "at": "2026-06-30T08:35:11.733837+00:00",
+    "kind": "error",
+    "message": "Fetch failed for https://opportunitydesk.org/2026/06/29/lagos-agrithon-2026/: 403"
+  },
+  {
+    "at": "2026-06-30T08:35:11.777168+00:00",
+    "kind": "error",
+    "message": "Fetch failed for https://opportunitydesk.org/2026/06/29/chauncey-bailey-journalist-of-color-investigative-reporting-fellowship-2027/: 403"
+  },
+  {
+    "at": "2026-06-30T08:35:14.723510+00:00",
+    "kind": "scan_complete",
+    "message": "daily scan finished",
+    "matches": 0,
+    "stats": {
+      "discovered": 40,
+      "already_seen": 17,
+      "known_scam": 0,
+      "fetch_failed": 5,
+      "first_pass_dropped": 8,
+      "scam": 0,
+      "legit_unknown": 1,
+      "ineligible": 1,
+      "closed": 0,
+      "deep_analyzed": 0,
+      "scored_high": 0
+    }
+  },
+  {
+    "at": "2026-06-30T08:35:14.725130+00:00",
+    "kind": "run",
+    "mode": "scan",
+    "environment": "github_actions",
+    "stats": {
+      "discovered": 40,
+      "already_seen": 17,
+      "known_scam": 0,
+      "fetch_failed": 5,
+      "first_pass_dropped": 8,
+      "scam": 0,
+      "legit_unknown": 1,
+      "ineligible": 1,
+      "closed": 0,
+      "deep_analyzed": 0,
+      "scored_high": 0,
+      "matches": 0
+    }
   }
 ]
