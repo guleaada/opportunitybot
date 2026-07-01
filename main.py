@@ -104,11 +104,11 @@ def analyze_one(result, stats: dict):
 
     # 8. check_legitimacy (CLAUDE $) — only on open survivors
     legit = tools.check_legitimacy(text, url)
-    if legit["verdict"] == "scam":
+    if legit["verdict"] in ("scam", "suspicious"):
         stats["scam"] += 1
-        tools.save_opportunity({"url": url, "title": title, "status": "scam",
+        tools.save_opportunity({"url": url, "title": title, "status": legit["verdict"],
                                 "reasoning": legit["reasoning"]})
-        cprint(f"   🚫 scam: {legit['reasoning']}")
+        cprint(f"   🚫 {legit['verdict']}: {legit['reasoning']}")
         return None
     if legit["verdict"] == "unknown":
         stats["legit_unknown"] += 1

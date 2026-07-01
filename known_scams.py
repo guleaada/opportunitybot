@@ -14,11 +14,14 @@ leadership" prestige, and provide no real funding.
 # Hard-block: if the opportunity name or URL matches any of these, drop it
 # before spending a single token. Matching is case-insensitive substring.
 KNOWN_SCAMS = [
-    # Acronym fee-summits called out by the user.
+    # Acronym fee-summits called out by the user. Matched via their full
+    # descriptive phrase only — bare 3-5 letter acronyms (e.g. "GBS" is also
+    # a bank/business-school abbreviation) are too collision-prone to
+    # hard-block without a model review, so they are excluded here.
     {"name": "CSCD", "aliases": ["civil society for", "cscd summit"], "domains": []},
-    {"name": "CGDL", "aliases": ["global development leadership", "cgdl"], "domains": []},
+    {"name": "CGDL", "aliases": ["global development leadership"], "domains": []},
     {"name": "GBS", "aliases": ["global business summit"], "domains": []},
-    {"name": "ICCSL", "aliases": ["international conference on civil society", "iccsl"], "domains": []},
+    {"name": "ICCSL", "aliases": ["international conference on civil society"], "domains": []},
     # Generic vague-prestige summit names.
     {"name": "Global Business Summit", "aliases": ["global business summit"], "domains": []},
     {"name": "International Leadership Summit", "aliases": ["international leadership summit"], "domains": []},
@@ -87,7 +90,8 @@ def check_known_scam(name: str, url: str = "") -> dict:
     """
     haystack = f"{name or ''} {url or ''}".lower()
     for entry in KNOWN_SCAMS:
-        for alias in [entry["name"].lower()] + [a.lower() for a in entry["aliases"]]:
+        for alias in entry["aliases"]:
+            alias = alias.lower()
             if alias and alias in haystack:
                 return {
                     "is_scam": True,

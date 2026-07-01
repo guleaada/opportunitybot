@@ -298,16 +298,48 @@ def extract_json(text: str):
         return json.loads(candidate)
     except json.JSONDecodeError:
         pass
-    # Fall back to the first balanced {...} or [...] span.
+    # Fall back to the first properly *balanced* {...} or [...] span, scanning
+    # depth (and trying every opener occurrence, not just the first) so stray
+    # braces elsewhere in the model's prose can't produce an unbalanced slice
+    # or shadow the real JSON that follows.
     for opener, closer in (("{", "}"), ("[", "]")):
-        start = candidate.find(opener)
-        end = candidate.rfind(closer)
-        if start != -1 and end > start:
+        for span in _iter_balanced_spans(candidate, opener, closer):
             try:
-                return json.loads(candidate[start:end + 1])
+                return json.loads(span)
             except json.JSONDecodeError:
                 continue
     return None
+
+
+def _iter_balanced_spans(text: str, opener: str, closer: str):
+    """Yield every substring of ``text`` that starts with ``opener`` and is
+    depth-balanced against ``closer``, ignoring braces inside quoted strings.
+    Tries every occurrence of ``opener`` in order, not just the first."""
+    start = text.find(opener)
+    while start != -1:
+        depth = 0
+        in_string = False
+        escape = False
+        for i in range(start, len(text)):
+            ch = text[i]
+            if in_string:
+                if escape:
+                    escape = False
+                elif ch == "\\":
+                    escape = True
+                elif ch == '"':
+                    in_string = False
+                continue
+            if ch == '"':
+                in_string = True
+            elif ch == opener:
+                depth += 1
+            elif ch == closer:
+                depth -= 1
+                if depth == 0:
+                    yield text[start:i + 1]
+                    break
+        start = text.find(opener, start + 1)
 
 
 # ── Connectivity self-test (used by `main.py --test`) ──────────────────────

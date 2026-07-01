@@ -71,7 +71,7 @@ def check_deadline(text: str) -> dict:
         status = "open" if days >= 0 else "closed"
         return {"status": status, "deadline": dl.date().isoformat(),
                 "days_left": days, "raw": data.get("deadline_raw")}
-    except (ValueError, OverflowError):
+    except (ValueError, OverflowError, TypeError):
         return {"status": "unknown", "deadline": None, "days_left": None,
                 "raw": data.get("deadline_raw")}
 

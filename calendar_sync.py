@@ -16,6 +16,8 @@ from pathlib import Path
 
 SCOPES = ["https://www.googleapis.com/auth/calendar.events"]
 REMINDER_DAYS = [30, 14, 7, 3, 1]
+# Google Calendar API caps reminders.overrides[].minutes at 40320 (4 weeks).
+MAX_REMINDER_MINUTES = 40320
 
 
 def _get_service():
@@ -88,7 +90,7 @@ def add_to_calendar(data: dict) -> dict:
         "reminders": {
             "useDefault": False,
             "overrides": [
-                {"method": "popup", "minutes": days * 24 * 60}
+                {"method": "popup", "minutes": min(days * 24 * 60, MAX_REMINDER_MINUTES)}
                 for days in REMINDER_DAYS
             ],
         },

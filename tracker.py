@@ -65,5 +65,7 @@ def show_tracker() -> None:
         print("📋 Application Tracker")
         for r in rows:
             name = r.get("title") or r.get("name") or "—"
+            deadline = r.get("deadline") or (r.get("deadline_info") or {}).get("deadline")
             print(f"  [{r.get('id','')[:8]}] {name[:48]:48} "
-                  f"{r.get('status','—'):14} {r.get('deadline','—')}")
+                  f"{r.get('status','—'):14} {str(deadline or '—'):12} "
+                  f"days left: {_days_left(deadline)}")
