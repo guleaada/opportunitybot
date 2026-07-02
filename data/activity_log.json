@@ -1,138 +1,5 @@
 [
   {
-    "at": "2026-06-09T08:32:32.702486+00:00",
-    "kind": "run",
-    "mode": "scan",
-    "environment": "github_actions",
-    "stats": {
-      "discovered": 0,
-      "already_seen": 0,
-      "known_scam": 0,
-      "fetch_failed": 0,
-      "first_pass_dropped": 0,
-      "scam": 0,
-      "legit_unknown": 0,
-      "ineligible": 0,
-      "closed": 0,
-      "deep_analyzed": 0,
-      "scored_high": 0,
-      "matches": 0
-    }
-  },
-  {
-    "at": "2026-06-10T08:51:07.415720+00:00",
-    "kind": "scan_start",
-    "message": "daily scan started"
-  },
-  {
-    "at": "2026-06-10T08:51:07.624107+00:00",
-    "kind": "scan_complete",
-    "message": "daily scan finished",
-    "matches": 0,
-    "stats": {
-      "discovered": 0,
-      "already_seen": 0,
-      "known_scam": 0,
-      "fetch_failed": 0,
-      "first_pass_dropped": 0,
-      "scam": 0,
-      "legit_unknown": 0,
-      "ineligible": 0,
-      "closed": 0,
-      "deep_analyzed": 0,
-      "scored_high": 0
-    }
-  },
-  {
-    "at": "2026-06-10T08:51:07.624404+00:00",
-    "kind": "run",
-    "mode": "scan",
-    "environment": "github_actions",
-    "stats": {
-      "discovered": 0,
-      "already_seen": 0,
-      "known_scam": 0,
-      "fetch_failed": 0,
-      "first_pass_dropped": 0,
-      "scam": 0,
-      "legit_unknown": 0,
-      "ineligible": 0,
-      "closed": 0,
-      "deep_analyzed": 0,
-      "scored_high": 0,
-      "matches": 0
-    }
-  },
-  {
-    "at": "2026-06-11T09:14:12.744308+00:00",
-    "kind": "scan_start",
-    "message": "daily scan started"
-  },
-  {
-    "at": "2026-06-11T09:14:51.262098+00:00",
-    "kind": "error",
-    "message": "Failed to analyze https://foreign.fulbrightonline.org/about/foreign-student-program: \"Could not resolve authentication method. Expected one of api_key, auth_token, or credentials to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted\""
-  },
-  {
-    "at": "2026-06-11T09:15:57.143998+00:00",
-    "kind": "error",
-    "message": "Fetch failed for https://www.dfat.gov.au/people-to-people/australia-awards/australia-awards-scholarships: HTTPSConnectionPool(host='www.dfat.gov.au', port=443): Read timed out. (read timeout=25)"
-  },
-  {
-    "at": "2026-06-11T09:16:01.206303+00:00",
-    "kind": "error",
-    "message": "Fetch failed for https://vanier.gc.ca/en/home-accueil.html: HTTPSConnectionPool(host='vanier.gc.ca', port=443): Max retries exceeded with url: /en/home-accueil.html (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)')))"
-  },
-  {
-    "at": "2026-06-11T09:18:04.128622+00:00",
-    "kind": "error",
-    "message": "Fetch failed for https://opportunitydesk.org/category/fellowships/: 403"
-  },
-  {
-    "at": "2026-06-11T09:18:08.801933+00:00",
-    "kind": "scan_complete",
-    "message": "daily scan finished",
-    "matches": 0,
-    "stats": {
-      "discovered": 14,
-      "already_seen": 0,
-      "known_scam": 0,
-      "fetch_failed": 3,
-      "first_pass_dropped": 3,
-      "scam": 0,
-      "legit_unknown": 0,
-      "ineligible": 5,
-      "closed": 2,
-      "deep_analyzed": 0,
-      "scored_high": 0
-    }
-  },
-  {
-    "at": "2026-06-11T09:18:08.802316+00:00",
-    "kind": "run",
-    "mode": "scan",
-    "environment": "github_actions",
-    "stats": {
-      "discovered": 14,
-      "already_seen": 0,
-      "known_scam": 0,
-      "fetch_failed": 3,
-      "first_pass_dropped": 3,
-      "scam": 0,
-      "legit_unknown": 0,
-      "ineligible": 5,
-      "closed": 2,
-      "deep_analyzed": 0,
-      "scored_high": 0,
-      "matches": 0
-    }
-  },
-  {
-    "at": "2026-06-12T09:00:12.383027+00:00",
-    "kind": "scan_start",
-    "message": "daily scan started"
-  },
-  {
     "at": "2026-06-12T09:00:45.810594+00:00",
     "kind": "error",
     "message": "Fetch failed for https://www.dfat.gov.au/people-to-people/australia-awards/australia-awards-scholarships: HTTPSConnectionPool(host='www.dfat.gov.au', port=443): Read timed out. (read timeout=25)"
@@ -1675,6 +1542,95 @@
       "scam": 0,
       "legit_unknown": 0,
       "ineligible": 0,
+      "closed": 0,
+      "deep_analyzed": 0,
+      "scored_high": 0,
+      "matches": 0
+    }
+  },
+  {
+    "at": "2026-07-02T08:12:57.222947+00:00",
+    "kind": "scan_start",
+    "message": "daily scan started"
+  },
+  {
+    "at": "2026-07-02T08:13:27.322803+00:00",
+    "kind": "error",
+    "message": "Fetch failed for https://www.dfat.gov.au/people-to-people/australia-awards/australia-awards-scholarships: HTTPSConnectionPool(host='www.dfat.gov.au', port=443): Read timed out. (read timeout=25)"
+  },
+  {
+    "at": "2026-07-02T08:13:27.538071+00:00",
+    "kind": "error",
+    "message": "Fetch failed for https://vanier.gc.ca/en/home-accueil.html: HTTPSConnectionPool(host='vanier.gc.ca', port=443): Max retries exceeded with url: /en/home-accueil.html (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)')))"
+  },
+  {
+    "at": "2026-07-02T08:13:27.574778+00:00",
+    "kind": "error",
+    "message": "Fetch failed for https://opportunitydesk.org/category/fellowships/: 403"
+  },
+  {
+    "at": "2026-07-02T08:15:06.316496+00:00",
+    "kind": "error",
+    "message": "Fetch failed for https://opportunitydesk.org/2026/07/01/daad-epos-scholarships-2027-2028/: 403"
+  },
+  {
+    "at": "2026-07-02T08:15:06.368240+00:00",
+    "kind": "error",
+    "message": "Fetch failed for https://opportunitydesk.org/2026/07/01/lester-b-pearson-international-student-scholarships-2026/: 403"
+  },
+  {
+    "at": "2026-07-02T08:15:06.417574+00:00",
+    "kind": "error",
+    "message": "Fetch failed for https://opportunitydesk.org/2026/07/01/thomson-young-journalist-award-2026/: 403"
+  },
+  {
+    "at": "2026-07-02T08:15:06.457547+00:00",
+    "kind": "error",
+    "message": "Fetch failed for https://opportunitydesk.org/2026/07/01/university-of-maryland-postdoctoral-fellowship-2026-2027/: 403"
+  },
+  {
+    "at": "2026-07-02T08:15:06.497840+00:00",
+    "kind": "error",
+    "message": "Fetch failed for https://opportunitydesk.org/2026/07/01/sean-macbride-fellowship-2027-2028/: 403"
+  },
+  {
+    "at": "2026-07-02T08:15:06.539476+00:00",
+    "kind": "error",
+    "message": "Fetch failed for https://opportunitydesk.org/2026/07/01/mark-grosjean-postdoctoral-fellowship-2026/: 403"
+  },
+  {
+    "at": "2026-07-02T08:15:09.729486+00:00",
+    "kind": "scan_complete",
+    "message": "daily scan finished",
+    "matches": 0,
+    "stats": {
+      "discovered": 40,
+      "already_seen": 21,
+      "known_scam": 0,
+      "fetch_failed": 9,
+      "first_pass_dropped": 3,
+      "scam": 0,
+      "legit_unknown": 1,
+      "ineligible": 2,
+      "closed": 0,
+      "deep_analyzed": 0,
+      "scored_high": 0
+    }
+  },
+  {
+    "at": "2026-07-02T08:15:09.731171+00:00",
+    "kind": "run",
+    "mode": "scan",
+    "environment": "github_actions",
+    "stats": {
+      "discovered": 40,
+      "already_seen": 21,
+      "known_scam": 0,
+      "fetch_failed": 9,
+      "first_pass_dropped": 3,
+      "scam": 0,
+      "legit_unknown": 1,
+      "ineligible": 2,
       "closed": 0,
       "deep_analyzed": 0,
       "scored_high": 0,

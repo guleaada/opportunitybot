@@ -479,5 +479,59 @@
     "id": "fc779e4549785c22",
     "first_seen": "2026-06-30T08:35:11.693764+00:00",
     "last_updated": "2026-06-30T08:35:11.693771+00:00"
+  },
+  "15347ab2f0bc49ac": {
+    "url": "https://www.opportunitiesforafricans.com/lester-b-pearson-international-scholarship-program-2026-2027/",
+    "title": "Lester B. Pearson International Scholarship Program 2026/2027 for Undergraduate study at the University of Toronto, Canada (Fully Funded)",
+    "status": "filtered_out",
+    "reason": "Candidate is not eligible as they are not in their final year of senior secondary school",
+    "id": "15347ab2f0bc49ac",
+    "first_seen": "2026-07-02T08:13:30.398866+00:00",
+    "last_updated": "2026-07-02T08:13:30.398873+00:00"
+  },
+  "4058920ed6e3f769": {
+    "url": "https://www.opportunitiesforafricans.com/the-brandtech-group-ai-for-good-scholarship-to-attend-2026/",
+    "title": "The Brandtech Group AI for Good Scholarship to attend 2026 One Young World Summit in CapeTown, South Africa (Fully Funded)",
+    "status": "legitimacy_unknown",
+    "reasoning": "The scholarship appears to be affiliated with a legitimate organization, One Young World, and offers benefits such as access to the summit and networking opportunities, but there is limited information about the selection process and the organization's reputation. The lack of clear information about the application process and fees raises some concerns, but it is not enough to conclude that it is a scam.",
+    "id": "4058920ed6e3f769",
+    "first_seen": "2026-07-02T08:13:40.540867+00:00",
+    "last_updated": "2026-07-02T08:13:40.540875+00:00"
+  },
+  "ab096c1cf144f757": {
+    "url": "https://www.opportunitiesforafricans.com/thomson-foundation-young-journalist-award-2026-for-journalists-worldwide/",
+    "title": "Thomson Foundation Young Journalist Award 2026 for Journalists worldwide (Funded trip to London, UK)",
+    "status": "filtered_out",
+    "reason": "Candidate exceeds age limit",
+    "id": "ab096c1cf144f757",
+    "first_seen": "2026-07-02T08:13:50.971992+00:00",
+    "last_updated": "2026-07-02T08:13:50.971999+00:00"
+  },
+  "fc8226e5b34d2d6a": {
+    "url": "https://www.opportunitiesforafricans.com/daad-epos-scholarships-2027-2028-for-young-professionals-from-developing-countries/",
+    "title": "DAAD/EPOS Scholarships 2027/2028 for young Professionals from Developing Countries.",
+    "status": "ineligible",
+    "reasoning": "The candidate does not meet the requirement of having an English language certificate, but this is an addressable gap. However, the main reason for ineligibility is that the program requires at least 2 years of relevant professional experience post-Bachelor's, and while the candidate has work experience, it is unclear if it meets the 'relevant' criteria. The candidate also needs to ensure their academic degree is above average and provide necessary documentation.",
+    "id": "fc8226e5b34d2d6a",
+    "first_seen": "2026-07-02T08:14:19.820559+00:00",
+    "last_updated": "2026-07-02T08:14:19.820566+00:00"
+  },
+  "0ad6ebb25838779d": {
+    "url": "https://www.opportunitiesforafricans.com/reckitt-catalyst-global-accelerator-program-2026-2027-for-social-innovators/",
+    "title": "Reckitt Catalyst Global Accelerator Program 2026/2027 for social innovators",
+    "status": "filtered_out",
+    "reason": "The program is limited to select markets that do not include the candidate's current or preferred locations",
+    "id": "0ad6ebb25838779d",
+    "first_seen": "2026-07-02T08:14:38.095905+00:00",
+    "last_updated": "2026-07-02T08:14:38.095912+00:00"
+  },
+  "1e8670a4046c80ed": {
+    "url": "https://www.opportunitiesforafricans.com/south-african-national-space-agency-sansa-2027-postgraduate-bursaries-for-stem-students/",
+    "title": "South African National Space Agency (SANSA) 2027 Postgraduate Bursaries for STEM students",
+    "status": "ineligible",
+    "reasoning": "The program requires students to be pursuing their honours, masters, or doctoral qualifications, but the candidate is a working professional and not currently a student.",
+    "id": "1e8670a4046c80ed",
+    "first_seen": "2026-07-02T08:15:06.275806+00:00",
+    "last_updated": "2026-07-02T08:15:06.275813+00:00"
   }
 }
