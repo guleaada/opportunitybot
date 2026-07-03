@@ -533,5 +533,34 @@
     "id": "1e8670a4046c80ed",
     "first_seen": "2026-07-02T08:15:06.275806+00:00",
     "last_updated": "2026-07-02T08:15:06.275813+00:00"
+  },
+  "71fcfbf46ff89cfa": {
+    "url": "https://opportunitiescorners.com/yale-emerging-climate-leaders-fellowship-2027/",
+    "title": "Yale Emerging Climate Leaders Fellowship 2027 in USA & France (Fully Funded)",
+    "status": "ineligible",
+    "reasoning": "The candidate does not meet the experience requirement of 5-10 years in professional careers with notable achievements, as they are a recent graduate with limited work experience.",
+    "id": "71fcfbf46ff89cfa",
+    "first_seen": "2026-07-03T08:12:31.827700+00:00",
+    "last_updated": "2026-07-03T08:12:31.827707+00:00"
+  },
+  "53e8a308085834b7": {
+    "url": "https://www.opportunitiesforafricans.com/2027-2028-atlantic-fellows-for-equity-in-brain-health-program-at-the-global-brain-health-institute/",
+    "title": "2027/2028 Atlantic Fellows for Equity in Brain Health Program at the Global Brain Health Institute.",
+    "status": "analyzed",
+    "score": 8.5,
+    "deadline": "2026-11-02",
+    "id": "53e8a308085834b7",
+    "first_seen": "2026-07-03T08:13:19.851909+00:00",
+    "last_updated": "2026-07-03T08:13:19.851916+00:00"
+  },
+  "6d0f0a2afa423c2a": {
+    "url": "https://www.opportunitiesforafricans.com/google-africa-applied-ai-lab-program-for-african-ai-entrepreneurs-and-researchers/",
+    "title": "Google Africa Applied AI Lab Program for African AI entrepreneurs and researchers.",
+    "status": "analyzed",
+    "score": 9.4,
+    "deadline": "2026-08-31",
+    "id": "6d0f0a2afa423c2a",
+    "first_seen": "2026-07-03T08:14:52.096840+00:00",
+    "last_updated": "2026-07-03T08:14:52.096847+00:00"
   }
 }
