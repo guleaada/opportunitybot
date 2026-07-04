@@ -562,5 +562,24 @@
     "id": "6d0f0a2afa423c2a",
     "first_seen": "2026-07-03T08:14:52.096840+00:00",
     "last_updated": "2026-07-03T08:14:52.096847+00:00"
+  },
+  "d9dcd9b788cbfc1f": {
+    "url": "https://www.opportunitiesforafricans.com/indie-games-fund-africa-2026-for-independent-game-developers/",
+    "title": "Indie Games Fund Africa 2026 for independent game developers ($1 million cash prize)",
+    "status": "filtered_out",
+    "reason": "The fund is only for small games studios based in Africa, not for individuals",
+    "id": "d9dcd9b788cbfc1f",
+    "first_seen": "2026-07-04T07:49:27.999103+00:00",
+    "last_updated": "2026-07-04T07:49:27.999109+00:00"
+  },
+  "5e0ad3b8a7062705": {
+    "url": "https://www.opportunitiesforafricans.com/the-wema-bank-hackaholics-7-0-for-african-innovators-and-startups/",
+    "title": "The Wema Bank Hackaholics 7.0 for African Innovators and Startups",
+    "status": "analyzed",
+    "score": 8.4,
+    "deadline": null,
+    "id": "5e0ad3b8a7062705",
+    "first_seen": "2026-07-04T07:49:58.963196+00:00",
+    "last_updated": "2026-07-04T07:49:58.963202+00:00"
   }
 }

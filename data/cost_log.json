@@ -1798,5 +1798,93 @@
     "tokens_in": 87,
     "tokens_out": 10,
     "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-07-04T07:49:27.014168+00:00",
+    "provider": "groq",
+    "task": "clean_html",
+    "tokens_in": 1101,
+    "tokens_out": 304,
+    "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-07-04T07:49:27.997397+00:00",
+    "provider": "groq",
+    "task": "first_pass_filter",
+    "tokens_in": 867,
+    "tokens_out": 45,
+    "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-07-04T07:49:29.222012+00:00",
+    "provider": "groq",
+    "task": "clean_html",
+    "tokens_in": 1335,
+    "tokens_out": 505,
+    "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-07-04T07:49:29.809552+00:00",
+    "provider": "groq",
+    "task": "first_pass_filter",
+    "tokens_in": 1068,
+    "tokens_out": 38,
+    "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-07-04T07:49:31.398032+00:00",
+    "provider": "groq",
+    "task": "first_pass_filter",
+    "tokens_in": 627,
+    "tokens_out": 29,
+    "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-07-04T07:49:37.331174+00:00",
+    "provider": "groq",
+    "task": "scam_detection",
+    "tokens_in": 766,
+    "tokens_out": 110,
+    "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-07-04T07:49:45.311652+00:00",
+    "provider": "groq",
+    "task": "deep_eligibility",
+    "tokens_in": 1095,
+    "tokens_out": 70,
+    "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-07-04T07:49:45.942761+00:00",
+    "provider": "groq",
+    "task": "extract_document_requirements",
+    "tokens_in": 633,
+    "tokens_out": 39,
+    "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-07-04T07:49:49.766191+00:00",
+    "provider": "groq",
+    "task": "estimate_complexity",
+    "tokens_in": 623,
+    "tokens_out": 65,
+    "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-07-04T07:49:58.961358+00:00",
+    "provider": "groq",
+    "task": "final_scoring",
+    "tokens_in": 1638,
+    "tokens_out": 195,
+    "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-07-04T07:50:00.977760+00:00",
+    "provider": "groq",
+    "task": "generate_email_subject",
+    "tokens_in": 93,
+    "tokens_out": 15,
+    "cost_usd": 0.0
   }
 ]
