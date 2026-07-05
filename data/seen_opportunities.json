@@ -581,5 +581,33 @@
     "id": "5e0ad3b8a7062705",
     "first_seen": "2026-07-04T07:49:58.963196+00:00",
     "last_updated": "2026-07-04T07:49:58.963202+00:00"
+  },
+  "04287e7ed9a7df1c": {
+    "url": "https://opportunitiescorners.com/singapore-ai-safety-fellowship-2026/",
+    "title": "Singapore AI Safety Fellowship 2026 (Fully Funded)",
+    "status": "analyzed",
+    "score": 9.4,
+    "deadline": "2026-07-10",
+    "id": "04287e7ed9a7df1c",
+    "first_seen": "2026-07-05T08:04:07.927011+00:00",
+    "last_updated": "2026-07-05T08:04:07.927020+00:00"
+  },
+  "a528b76af56fc76c": {
+    "url": "https://opportunitiescorners.com/erasmus-mundus-marihe-scholarship-2027/",
+    "title": "Erasmus Mundus MARIHE Scholarship 2027 (Fully Funded)",
+    "status": "ineligible",
+    "reasoning": "The candidate does not meet the English language proficiency requirement as stated in the eligibility criteria, and there is no indication that they are exempt from the English language test. Although the candidate can obtain a Duolingo or MOI certificate, it is not listed as an accepted test certificate by the program.",
+    "id": "a528b76af56fc76c",
+    "first_seen": "2026-07-05T08:04:16.990012+00:00",
+    "last_updated": "2026-07-05T08:04:16.990020+00:00"
+  },
+  "9832dc18e0eb2100": {
+    "url": "https://opportunitiescorners.com/global-youth-diplomacy-forum-paris-2026/",
+    "title": "Global Youth Diplomacy Forum Paris 2026 (Fully Funded)",
+    "status": "suspicious",
+    "reasoning": "The program is advertised as 'fully funded' but mentions a 'participation fee waiver' and a 'refundable application fee', which could be a red flag. However, the presence of a clear organizer and a detailed description of the forum themes and eligibility criteria suggests some level of legitimacy. The fact that the application fee is refundable upon selection mitigates the risk, but the overall setup still warrants caution.",
+    "id": "9832dc18e0eb2100",
+    "first_seen": "2026-07-05T08:04:54.885631+00:00",
+    "last_updated": "2026-07-05T08:04:54.885638+00:00"
   }
 }
