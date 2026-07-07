@@ -2030,5 +2030,53 @@
     "tokens_in": 86,
     "tokens_out": 11,
     "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-07-07T08:25:29.801678+00:00",
+    "provider": "groq",
+    "task": "clean_html",
+    "tokens_in": 1176,
+    "tokens_out": 390,
+    "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-07-07T08:25:30.821725+00:00",
+    "provider": "groq",
+    "task": "first_pass_filter",
+    "tokens_in": 953,
+    "tokens_out": 37,
+    "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-07-07T08:25:31.765044+00:00",
+    "provider": "groq",
+    "task": "clean_html",
+    "tokens_in": 1143,
+    "tokens_out": 356,
+    "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-07-07T08:25:32.444655+00:00",
+    "provider": "groq",
+    "task": "first_pass_filter",
+    "tokens_in": 919,
+    "tokens_out": 36,
+    "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-07-07T08:25:52.306775+00:00",
+    "provider": "groq",
+    "task": "clean_html",
+    "tokens_in": 1857,
+    "tokens_out": 738,
+    "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-07-07T08:26:00.914553+00:00",
+    "provider": "groq",
+    "task": "first_pass_filter",
+    "tokens_in": 1301,
+    "tokens_out": 42,
+    "cost_usd": 0.0
   }
 ]

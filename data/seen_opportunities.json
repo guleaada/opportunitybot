@@ -609,5 +609,32 @@
     "id": "9832dc18e0eb2100",
     "first_seen": "2026-07-05T08:04:54.885631+00:00",
     "last_updated": "2026-07-05T08:04:54.885638+00:00"
+  },
+  "fceaf4852c447d94": {
+    "url": "https://www.opportunitiesforafricans.com/the-deloitte-academys-cyber-security-programme-2026-for-young-nigerian-graduates/",
+    "title": "The Deloitte Academy’s Cyber Security Programme 2026 for young Nigerian graduates.",
+    "status": "filtered_out",
+    "reason": "Ethiopian nationals are clearly not eligible",
+    "id": "fceaf4852c447d94",
+    "first_seen": "2026-07-07T08:25:30.824099+00:00",
+    "last_updated": "2026-07-07T08:25:30.824106+00:00"
+  },
+  "cd0cac558b466309": {
+    "url": "https://www.opportunitiesforafricans.com/the-presidential-metering-initiative-meter-installer-training-programme-power-force-2026-for-young-nigerians/",
+    "title": "The Presidential Metering Initiative – Meter Installer Training Programme (Power Force) 2026 for young Nigerians.",
+    "status": "filtered_out",
+    "reason": "Ethiopian nationals are not eligible",
+    "id": "cd0cac558b466309",
+    "first_seen": "2026-07-07T08:25:32.446927+00:00",
+    "last_updated": "2026-07-07T08:25:32.446937+00:00"
+  },
+  "4ea734b110d4706e": {
+    "url": "https://www.opportunitiesforafricans.com/avohc-kofi-annan-scholars-program-financial-specialist-africa-cdc/",
+    "title": "AVoHC Kofi Annan Scholars Program – Financial Specialist – Africa CDC for young African professionals (Fully Funded)",
+    "status": "filtered_out",
+    "reason": "Candidate lacks required 7 years of relevant experience in financial management",
+    "id": "4ea734b110d4706e",
+    "first_seen": "2026-07-07T08:26:00.917017+00:00",
+    "last_updated": "2026-07-07T08:26:00.917024+00:00"
   }
 }
