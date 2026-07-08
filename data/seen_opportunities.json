@@ -636,5 +636,42 @@
     "id": "4ea734b110d4706e",
     "first_seen": "2026-07-07T08:26:00.917017+00:00",
     "last_updated": "2026-07-07T08:26:00.917024+00:00"
+  },
+  "969bdd713eeaa4e1": {
+    "url": "https://opportunitiescorners.com/international-student-festival-in-norway-2027/",
+    "title": "International Student Festival in Norway 2027 (Fully Funded)",
+    "status": "filtered_out",
+    "reason": "The applicant is a working professional, not a student or recent graduate",
+    "id": "969bdd713eeaa4e1",
+    "first_seen": "2026-07-08T07:31:19.233344+00:00",
+    "last_updated": "2026-07-08T07:31:19.233355+00:00"
+  },
+  "ff0e393d905dfed8": {
+    "url": "https://opportunitiescorners.com/youth-empowerment-forum-2026/",
+    "title": "Youth Empowerment Forum 2026 in Switzerland (YEF Geneva)",
+    "status": "filtered_out",
+    "reason": "It requires an application fee over the preferred threshold of $50 is not met but the fee is still required",
+    "id": "ff0e393d905dfed8",
+    "first_seen": "2026-07-08T07:31:23.589055+00:00",
+    "last_updated": "2026-07-08T07:31:23.589068+00:00"
+  },
+  "60c9b704661146f7": {
+    "url": "https://www.opportunitiesforafricans.com/the-eu-africa-europe-youth-academy-aeya-new-leaders-lab-for-young-africans/",
+    "title": "The EU/Africa-Europe Youth Academy (AEYA) New Leaders Lab for young Africans.",
+    "status": "legitimacy_unknown",
+    "reasoning": "The program appears to be a legitimate leadership development opportunity with a clear application process and eligibility criteria, but there is no information provided about the organization behind the program, its funding, or any potential fees associated with participation. The lack of trust signals, such as recognition by established organizations or government agencies, makes it difficult to assess the program's legitimacy.",
+    "id": "60c9b704661146f7",
+    "first_seen": "2026-07-08T07:32:01.439654+00:00",
+    "last_updated": "2026-07-08T07:32:01.439666+00:00"
+  },
+  "7629298515286fe6": {
+    "url": "https://www.opportunitiesforafricans.com/undp-african-youth-co-creators-council-for-young-emerging-leaders/",
+    "title": "UNDP African Youth Co-Creators Council for young emerging leaders.",
+    "status": "analyzed",
+    "score": 8.4,
+    "deadline": "2026-07-31",
+    "id": "7629298515286fe6",
+    "first_seen": "2026-07-08T07:32:51.519784+00:00",
+    "last_updated": "2026-07-08T07:32:51.519794+00:00"
   }
 }
