@@ -1,80 +1,5 @@
 [
   {
-    "at": "2026-06-24T08:26:01.805856+00:00",
-    "kind": "run",
-    "mode": "scan",
-    "environment": "github_actions",
-    "stats": {
-      "discovered": 40,
-      "already_seen": 23,
-      "known_scam": 0,
-      "fetch_failed": 11,
-      "first_pass_dropped": 3,
-      "scam": 0,
-      "legit_unknown": 0,
-      "ineligible": 0,
-      "closed": 0,
-      "deep_analyzed": 0,
-      "scored_high": 0,
-      "matches": 0
-    }
-  },
-  {
-    "at": "2026-06-25T08:24:52.261781+00:00",
-    "kind": "scan_start",
-    "message": "daily scan started"
-  },
-  {
-    "at": "2026-06-25T08:25:22.103466+00:00",
-    "kind": "error",
-    "message": "Fetch failed for https://www.dfat.gov.au/people-to-people/australia-awards/australia-awards-scholarships: HTTPSConnectionPool(host='www.dfat.gov.au', port=443): Read timed out. (read timeout=25)"
-  },
-  {
-    "at": "2026-06-25T08:25:22.269195+00:00",
-    "kind": "error",
-    "message": "Fetch failed for https://vanier.gc.ca/en/home-accueil.html: HTTPSConnectionPool(host='vanier.gc.ca', port=443): Max retries exceeded with url: /en/home-accueil.html (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)')))"
-  },
-  {
-    "at": "2026-06-25T08:25:22.310352+00:00",
-    "kind": "error",
-    "message": "Fetch failed for https://opportunitydesk.org/category/fellowships/: 403"
-  },
-  {
-    "at": "2026-06-25T08:26:45.696756+00:00",
-    "kind": "error",
-    "message": "Fetch failed for https://opportunitydesk.org/2026/06/25/how-to-use-opportunity-desk-to-elevate-your-career/: 403"
-  },
-  {
-    "at": "2026-06-25T08:26:45.734818+00:00",
-    "kind": "error",
-    "message": "Fetch failed for https://opportunitydesk.org/2026/06/24/gap-in-between-startup-challenge-2026/: 403"
-  },
-  {
-    "at": "2026-06-25T08:26:45.775131+00:00",
-    "kind": "error",
-    "message": "Fetch failed for https://opportunitydesk.org/2026/06/24/wecf-gender-just-climate-solutions-awards-2026/: 403"
-  },
-  {
-    "at": "2026-06-25T08:26:45.815561+00:00",
-    "kind": "error",
-    "message": "Fetch failed for https://opportunitydesk.org/2026/06/24/awief-pitch-n-grow-competition-2026/: 403"
-  },
-  {
-    "at": "2026-06-25T08:26:45.853222+00:00",
-    "kind": "error",
-    "message": "Fetch failed for https://opportunitydesk.org/2026/06/24/carn-bochco-pangolin-grant-program-2026/: 403"
-  },
-  {
-    "at": "2026-06-25T08:26:45.892034+00:00",
-    "kind": "error",
-    "message": "Fetch failed for https://opportunitydesk.org/2026/06/24/johns-hopkins-sgp-ai-fellowship-2026/: 403"
-  },
-  {
-    "at": "2026-06-25T08:26:45.930445+00:00",
-    "kind": "error",
-    "message": "Fetch failed for https://opportunitydesk.org/2026/06/24/mq-mental-health-research-schizophrenia-research-fellowship-2026/: 403"
-  },
-  {
     "at": "2026-06-25T08:26:49.229632+00:00",
     "kind": "scan_complete",
     "message": "daily scan finished",
@@ -1414,6 +1339,95 @@
       "scam": 0,
       "legit_unknown": 1,
       "ineligible": 0,
+      "closed": 0,
+      "deep_analyzed": 1,
+      "scored_high": 1,
+      "matches": 1
+    }
+  },
+  {
+    "at": "2026-07-09T08:35:33.594218+00:00",
+    "kind": "scan_start",
+    "message": "daily scan started"
+  },
+  {
+    "at": "2026-07-09T08:36:03.085644+00:00",
+    "kind": "error",
+    "message": "Fetch failed for https://www.dfat.gov.au/people-to-people/australia-awards/australia-awards-scholarships: HTTPSConnectionPool(host='www.dfat.gov.au', port=443): Read timed out. (read timeout=25)"
+  },
+  {
+    "at": "2026-07-09T08:36:03.167211+00:00",
+    "kind": "error",
+    "message": "Fetch failed for https://vanier.gc.ca/en/home-accueil.html: HTTPSConnectionPool(host='vanier.gc.ca', port=443): Max retries exceeded with url: /en/home-accueil.html (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)')))"
+  },
+  {
+    "at": "2026-07-09T08:36:03.207186+00:00",
+    "kind": "error",
+    "message": "Fetch failed for https://opportunitydesk.org/category/fellowships/: 403"
+  },
+  {
+    "at": "2026-07-09T08:38:24.574292+00:00",
+    "kind": "error",
+    "message": "Fetch failed for https://opportunitydesk.org/2026/07/08/ejn-story-grants-to-report-on-business-responses-to-climate-change-in-thailand-2026/: 403"
+  },
+  {
+    "at": "2026-07-09T08:38:24.610067+00:00",
+    "kind": "error",
+    "message": "Fetch failed for https://opportunitydesk.org/2026/07/08/terraformation-seed-to-carbon-forest-accelerator-2026/: 403"
+  },
+  {
+    "at": "2026-07-09T08:38:24.663679+00:00",
+    "kind": "error",
+    "message": "Fetch failed for https://opportunitydesk.org/2026/07/08/conservation-nation-grant-program-2026/: 403"
+  },
+  {
+    "at": "2026-07-09T08:38:24.713064+00:00",
+    "kind": "error",
+    "message": "Fetch failed for https://opportunitydesk.org/2026/07/08/ejn-story-grants-to-report-on-asias-endangered-apes-2026/: 403"
+  },
+  {
+    "at": "2026-07-09T08:38:24.755436+00:00",
+    "kind": "error",
+    "message": "Fetch failed for https://opportunitydesk.org/2026/07/08/pulitzer-center-rainforest-reporting-grant-2026/: 403"
+  },
+  {
+    "at": "2026-07-09T08:38:24.792709+00:00",
+    "kind": "error",
+    "message": "Fetch failed for https://opportunitydesk.org/2026/07/08/impart-nalli-fellowships-2027-2028/: 403"
+  },
+  {
+    "at": "2026-07-09T08:38:27.670386+00:00",
+    "kind": "scan_complete",
+    "message": "daily scan finished",
+    "matches": 1,
+    "stats": {
+      "discovered": 40,
+      "already_seen": 21,
+      "known_scam": 0,
+      "fetch_failed": 9,
+      "first_pass_dropped": 2,
+      "scam": 0,
+      "legit_unknown": 1,
+      "ineligible": 2,
+      "closed": 0,
+      "deep_analyzed": 1,
+      "scored_high": 1
+    }
+  },
+  {
+    "at": "2026-07-09T08:38:27.672043+00:00",
+    "kind": "run",
+    "mode": "scan",
+    "environment": "github_actions",
+    "stats": {
+      "discovered": 40,
+      "already_seen": 21,
+      "known_scam": 0,
+      "fetch_failed": 9,
+      "first_pass_dropped": 2,
+      "scam": 0,
+      "legit_unknown": 1,
+      "ineligible": 2,
       "closed": 0,
       "deep_analyzed": 1,
       "scored_high": 1,

@@ -673,5 +673,60 @@
     "id": "7629298515286fe6",
     "first_seen": "2026-07-08T07:32:51.519784+00:00",
     "last_updated": "2026-07-08T07:32:51.519794+00:00"
+  },
+  "d4a3610a38cf983a": {
+    "url": "https://opportunitiescorners.com/wic-global-youth-leadership-program-in-china/",
+    "title": "WIC Global Youth Leadership Program 2026 in China (Fully Funded)",
+    "status": "legitimacy_unknown",
+    "reasoning": "The program appears to be fully funded and provides a clear description of the benefits and eligibility criteria, but there is limited information available about the World Internet Conference (WIC) and its legitimacy as an organization. The lack of red-flag phrases and the presence of trust signals such as 'fully funded' suggest that the program may be legitimate, but further research is needed to confirm its authenticity.",
+    "id": "d4a3610a38cf983a",
+    "first_seen": "2026-07-09T08:36:07.561144+00:00",
+    "last_updated": "2026-07-09T08:36:07.561151+00:00"
+  },
+  "14272749cf1322e6": {
+    "url": "https://www.opportunitiesforafricans.com/mcgill-university-mastercard-foundation-scholars-program-2026-2027/",
+    "title": "McGill University Mastercard Foundation Scholars Program 2026/2027 for study in Canada (Fully Funded)",
+    "status": "analyzed",
+    "score": 8.5,
+    "deadline": "2026-08-21",
+    "id": "14272749cf1322e6",
+    "first_seen": "2026-07-09T08:36:49.304151+00:00",
+    "last_updated": "2026-07-09T08:36:49.304159+00:00"
+  },
+  "9376c294be3bb11b": {
+    "url": "https://www.opportunitiesforafricans.com/the-2027-united-nations-nippon-foundation-fellowship-on-ocean-affairs/",
+    "title": "The 2027 United Nations – Nippon Foundation Fellowship on Ocean Affairs and the Law of the Sea (Funded to New York, United States)",
+    "status": "ineligible",
+    "reasoning": "The candidate does not meet the eligibility requirement of being a mid-level government official or mid-level professional working directly on ocean affairs and/or the law of the sea, as their background is in AI development, marketing, and psychology.",
+    "id": "9376c294be3bb11b",
+    "first_seen": "2026-07-09T08:37:28.753478+00:00",
+    "last_updated": "2026-07-09T08:37:28.753485+00:00"
+  },
+  "87843175b665499a": {
+    "url": "https://www.opportunitiesforafricans.com/undp-timbuktoo-launchpad-programme-2026-for-african-creativetech-entrepreneurs/",
+    "title": "UNDP Timbuktoo Launchpad Programme 2026 for African CreativeTech Entrepreneurs",
+    "status": "ineligible",
+    "reasoning": "The program requires startups to be based in Africa or building solutions targeting African markets, but the candidate is currently based in Vientiane, Lao PDR, and there is no information about their startup being based in Africa or targeting African markets.",
+    "id": "87843175b665499a",
+    "first_seen": "2026-07-09T08:37:56.445641+00:00",
+    "last_updated": "2026-07-09T08:37:56.445649+00:00"
+  },
+  "b4fec1c9588656c5": {
+    "url": "https://www.opportunitiesforafricans.com/miles-morland-foundation-2026-writing-scholarships-for-african-writers/",
+    "title": "Miles Morland Foundation 2026 Writing Scholarships for African writers (£18,000 in Scholarships)",
+    "status": "filtered_out",
+    "reason": "It is a writing scholarship that does not match the candidate's background in AI development and tech innovation",
+    "id": "b4fec1c9588656c5",
+    "first_seen": "2026-07-09T08:38:08.541009+00:00",
+    "last_updated": "2026-07-09T08:38:08.541017+00:00"
+  },
+  "70669a65886510ce": {
+    "url": "https://www.opportunitiesforafricans.com/allianz-climate-risk-research-award-2026/",
+    "title": "Allianz Climate Risk Research Award 2026 for PhD candidates and post-doctoral researchers (monetary award & funded trip to Munich, Germany)",
+    "status": "filtered_out",
+    "reason": "It explicitly offers no full funding and is more of an award than a scholarship or fellowship",
+    "id": "70669a65886510ce",
+    "first_seen": "2026-07-09T08:38:24.537201+00:00",
+    "last_updated": "2026-07-09T08:38:24.537208+00:00"
   }
 }
