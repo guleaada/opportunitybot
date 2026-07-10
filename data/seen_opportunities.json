@@ -728,5 +728,41 @@
     "id": "70669a65886510ce",
     "first_seen": "2026-07-09T08:38:24.537201+00:00",
     "last_updated": "2026-07-09T08:38:24.537208+00:00"
+  },
+  "2d11d98205bf225f": {
+    "url": "https://opportunitiescorners.com/climate-tech-fellowship-2026/",
+    "title": "Climate Tech Fellowship 2026 in USA (Fully Funded)",
+    "status": "ineligible",
+    "reasoning": "The program requires applicants to be working on an early-stage climate technology with a prototype, pilot, or early commercialization project, but the candidate's background and skills, although innovative, do not clearly indicate work on a climate technology project.",
+    "id": "2d11d98205bf225f",
+    "first_seen": "2026-07-10T08:25:32.343859+00:00",
+    "last_updated": "2026-07-10T08:25:32.343867+00:00"
+  },
+  "9ae0f9fe26f54054": {
+    "url": "https://www.opportunitiesforafricans.com/ecowas-regional-business-incubation-programme-ebip-2026-for-young-entrepreneurs-in-west-africa/",
+    "title": "ECOWAS Regional Business Incubation Programme (EBIP) 2026 for young Entrepreneurs in West Africa.",
+    "status": "filtered_out",
+    "reason": "Ethiopian nationals are not eligible",
+    "id": "9ae0f9fe26f54054",
+    "first_seen": "2026-07-10T08:25:44.979525+00:00",
+    "last_updated": "2026-07-10T08:25:44.979534+00:00"
+  },
+  "bd557e5bc8302ad0": {
+    "url": "https://www.opportunitiesforafricans.com/2026-milken-motsepe-prize-in-circular-economy/",
+    "title": "2026 Milken-Motsepe Prize in Circular Economy ($2 million in total prizes)",
+    "status": "ineligible",
+    "reasoning": "The program requires teams with over 2 years of continuous operation, over $500k in revenue and raised capital, and institutional, corporate, and/or public-sector partnerships, which does not match the candidate's profile as an individual working professional with no mentioned business or revenue",
+    "id": "bd557e5bc8302ad0",
+    "first_seen": "2026-07-10T08:26:03.407437+00:00",
+    "last_updated": "2026-07-10T08:26:03.407444+00:00"
+  },
+  "df2a04c3ada5ad3b": {
+    "url": "https://www.opportunitiesforafricans.com/african-union-cieffa-online-capacity-building-training-2026-for-emerging-leaders/",
+    "title": "African Union CIEFFA Online Capacity Building Training 2026 for emerging leaders (Fully Funded)",
+    "status": "filtered_out",
+    "reason": "It is an online-only certificate course",
+    "id": "df2a04c3ada5ad3b",
+    "first_seen": "2026-07-10T08:26:19.022194+00:00",
+    "last_updated": "2026-07-10T08:26:19.022201+00:00"
   }
 }
