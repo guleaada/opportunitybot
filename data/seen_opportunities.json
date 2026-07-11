@@ -764,5 +764,51 @@
     "id": "df2a04c3ada5ad3b",
     "first_seen": "2026-07-10T08:26:19.022194+00:00",
     "last_updated": "2026-07-10T08:26:19.022201+00:00"
+  },
+  "50996ba66ea81bd0": {
+    "url": "https://opportunitiescorners.com/asef-seminar-2026-in-mongolia/",
+    "title": "24th ASEF Seminar 2026 in Mongolia (Fully Funded)",
+    "status": "analyzed",
+    "score": 8.4,
+    "deadline": "2026-08-31",
+    "id": "50996ba66ea81bd0",
+    "first_seen": "2026-07-11T07:13:09.780124+00:00",
+    "last_updated": "2026-07-11T07:13:09.780131+00:00"
+  },
+  "991b315ec4602f31": {
+    "url": "https://www.opportunitiesforafricans.com/business-partners-limited-sme-toolkit-sa-business-plan-competition-2026-for-aspiring-young-entrepreneurs/",
+    "title": "Business Partners Limited/SME Toolkit SA Business Plan Competition 2026 for aspiring young entrepreneurs.",
+    "status": "filtered_out",
+    "reason": "It is a competition with no full funding or scholarship",
+    "id": "991b315ec4602f31",
+    "first_seen": "2026-07-11T07:13:19.330592+00:00",
+    "last_updated": "2026-07-11T07:13:19.330601+00:00"
+  },
+  "d20fc7fb7229ec99": {
+    "url": "https://www.opportunitiesforafricans.com/german-bundestag-international-parliamentary-global-scholarships-ips-2027/",
+    "title": "German Bundestag International Parliamentary Global Scholarships (IPS) 2027 (Funded to Germany)",
+    "status": "filtered_out",
+    "reason": "Requires very good German skills",
+    "id": "d20fc7fb7229ec99",
+    "first_seen": "2026-07-11T07:13:33.039135+00:00",
+    "last_updated": "2026-07-11T07:13:33.039144+00:00"
+  },
+  "7e902d874e8a7088": {
+    "url": "https://www.opportunitiesforafricans.com/the-media-foundation-for-west-africa-mfwa-next-generation-investigative-journalism-fellowship-2026/",
+    "title": "The Media Foundation for West Africa (MFWA) Next Generation Investigative Journalism Fellowship 2026 for young Ghanaian journalists (Fully Funded Residential Program)",
+    "status": "filtered_out",
+    "reason": "Ethiopian nationals are clearly not eligible",
+    "id": "7e902d874e8a7088",
+    "first_seen": "2026-07-11T07:14:02.023978+00:00",
+    "last_updated": "2026-07-11T07:14:02.023986+00:00"
+  },
+  "13e771d1198b4426": {
+    "url": "https://www.opportunitiesforafricans.com/kenya-power-industrial-attachment-opportunities-sept-to-nov-2026-intake-for-young-kenyans/",
+    "title": "Kenya Power Industrial Attachment Opportunities (Sept to Nov 2026 Intake) for young Kenyans.",
+    "status": "filtered_out",
+    "reason": "The applicant is not a student",
+    "id": "13e771d1198b4426",
+    "first_seen": "2026-07-11T07:14:27.332508+00:00",
+    "last_updated": "2026-07-11T07:14:27.332515+00:00"
   }
 }
