@@ -2678,5 +2678,21 @@
     "tokens_in": 90,
     "tokens_out": 14,
     "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-07-12T07:30:13.296855+00:00",
+    "provider": "groq",
+    "task": "clean_html",
+    "tokens_in": 1448,
+    "tokens_out": 381,
+    "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-07-12T07:30:14.305835+00:00",
+    "provider": "groq",
+    "task": "first_pass_filter",
+    "tokens_in": 944,
+    "tokens_out": 39,
+    "cost_usd": 0.0
   }
 ]
