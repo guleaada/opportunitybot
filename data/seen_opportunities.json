@@ -828,5 +828,32 @@
     "id": "d3f475939312c8fa",
     "first_seen": "2026-07-13T08:19:04.288970+00:00",
     "last_updated": "2026-07-13T08:19:04.288978+00:00"
+  },
+  "cddad26338b09206": {
+    "url": "https://opportunitiescorners.com/leadership-and-diplomacy-summit-turkey-2026/",
+    "title": "Leadership and Diplomacy Summit Turkey 2026 (Fully Funded)",
+    "status": "filtered_out",
+    "reason": "It requires an application fee over the acceptable threshold is not true, but the fee is close to the threshold and the program is not fully funded for all participants",
+    "id": "cddad26338b09206",
+    "first_seen": "2026-07-14T07:11:55.865365+00:00",
+    "last_updated": "2026-07-14T07:11:55.865372+00:00"
+  },
+  "993e5ab172d86efe": {
+    "url": "https://www.opportunitiesforafricans.com/the-circulareconomy4ghana-innovation-challenge-2026/",
+    "title": "The CircularEconomy4Ghana Innovation Challenge 2026 for young innovators (Fully Funded Immersive Bootcamp in Accra, Ghana)",
+    "status": "ineligible",
+    "reasoning": "The program requires teams with early-stage agri-tech innovations and a working Minimum Viable Product (MVP), ideally already tested with end-users, and teams should be actively fundraising at the pre-seed or seed stage. The candidate is an individual, not a team, and there is no information about having a working MVP or being actively fundraising.",
+    "id": "993e5ab172d86efe",
+    "first_seen": "2026-07-14T07:11:59.119306+00:00",
+    "last_updated": "2026-07-14T07:11:59.119320+00:00"
+  },
+  "5a2cc39682f3430b": {
+    "url": "https://www.opportunitiesforafricans.com/undp-africa-timbuktoo-pan-african-incubation-programme-2026-for-edtech-startups/",
+    "title": "UNDP Africa Timbuktoo Pan-African Incubation Programme 2026 for EdTech Startups.",
+    "status": "filtered_out",
+    "reason": "Applicant is not based in Africa",
+    "id": "5a2cc39682f3430b",
+    "first_seen": "2026-07-14T07:12:10.899393+00:00",
+    "last_updated": "2026-07-14T07:12:10.899402+00:00"
   }
 }
