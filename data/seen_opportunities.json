@@ -855,5 +855,69 @@
     "id": "5a2cc39682f3430b",
     "first_seen": "2026-07-14T07:12:10.899393+00:00",
     "last_updated": "2026-07-14T07:12:10.899402+00:00"
+  },
+  "9031dfd8c5b4ada4": {
+    "url": "https://opportunitiescorners.com/psu-international-internship-2026/",
+    "title": "PSU International Internship 2026 in Thailand (Fully Funded)",
+    "status": "filtered_out",
+    "reason": "Candidate is not a student",
+    "id": "9031dfd8c5b4ada4",
+    "first_seen": "2026-07-15T07:17:03.763385+00:00",
+    "last_updated": "2026-07-15T07:17:03.763392+00:00"
+  },
+  "195bf785090f03d5": {
+    "url": "https://www.opportunitiesforafricans.com/royal-academy-of-engineering-africa-prize-for-engineering-innovation-2027/",
+    "title": "Royal Academy of Engineering Africa Prize for Engineering Innovation 2027 in Sub-Saharan Africa (Fully-Funded training in the UK plus £50,000 Prize)",
+    "status": "analyzed",
+    "score": 8.5,
+    "deadline": "2026-09-08",
+    "id": "195bf785090f03d5",
+    "first_seen": "2026-07-15T07:17:47.357469+00:00",
+    "last_updated": "2026-07-15T07:17:47.357477+00:00"
+  },
+  "2b3a24cb8d170cb5": {
+    "url": "https://www.opportunitiesforafricans.com/ecowas-volunteers-programme-evp-2026/",
+    "title": "ECOWAS Volunteers Programme (EVP) 2026 for young West Africans (Monthly 412.5 USD Basic Volunteer Allowance)",
+    "status": "filtered_out",
+    "reason": "Ethiopian nationals are not eligible",
+    "id": "2b3a24cb8d170cb5",
+    "first_seen": "2026-07-15T07:18:04.318195+00:00",
+    "last_updated": "2026-07-15T07:18:04.318202+00:00"
+  },
+  "c7c27d97607203b6": {
+    "url": "https://www.opportunitiesforafricans.com/defenddefenders-front-line-defenders-ishr-in-person-training-ahead-of-the-african-commissions-89th-session/",
+    "title": "DefendDefenders-Front Line Defenders-ISHR in-person training ahead of the African Commission’s 89th session (Fully Funded to Dakar, Senegal)",
+    "status": "filtered_out",
+    "reason": "Candidate lacks at least five years of advocacy experience at the national level",
+    "id": "c7c27d97607203b6",
+    "first_seen": "2026-07-15T07:18:28.502675+00:00",
+    "last_updated": "2026-07-15T07:18:28.502684+00:00"
+  },
+  "17be6c369b0e0673": {
+    "url": "https://www.opportunitiesforafricans.com/the-south-african-national-roads-agency-soc-limited-sanral-scholarship-programme-2027/",
+    "title": "The South African National Roads Agency SOC Limited (SANRAL) Scholarship Programme 2027 for young South Africans.",
+    "status": "filtered_out",
+    "reason": "Ethiopian nationals are not eligible",
+    "id": "17be6c369b0e0673",
+    "first_seen": "2026-07-15T07:18:31.701121+00:00",
+    "last_updated": "2026-07-15T07:18:31.701129+00:00"
+  },
+  "1e1ca51ac0d7736c": {
+    "url": "https://www.opportunitiesforafricans.com/wep-womens-fellowship-on-human-mobility-in-the-context-of-climate-change-hmccc-for-young-women-leaders/",
+    "title": "WEP Women’s Fellowship on Human Mobility in the Context of Climate Change (HMCCC) for young women leaders.",
+    "status": "filtered_out",
+    "reason": "The candidate is not from an ECOWAS Member State",
+    "id": "1e1ca51ac0d7736c",
+    "first_seen": "2026-07-15T07:18:57.815517+00:00",
+    "last_updated": "2026-07-15T07:18:57.815524+00:00"
+  },
+  "09693d0fce2f68b8": {
+    "url": "https://www.opportunitiesforafricans.com/the-germany-cgiar-science-impact-hub-junior-scientists-program-jsp-2026/",
+    "title": "The Germany-CGIAR++ Science-Impact Hub Junior Scientists Program (JSP) 2026 for impact-oriented researchers.",
+    "status": "filtered_out",
+    "reason": "Candidate is not enrolled in a M.Sc. program",
+    "id": "09693d0fce2f68b8",
+    "first_seen": "2026-07-15T07:19:09.590177+00:00",
+    "last_updated": "2026-07-15T07:19:09.590185+00:00"
   }
 }

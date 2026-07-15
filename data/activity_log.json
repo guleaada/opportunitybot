@@ -1,89 +1,5 @@
 [
   {
-    "at": "2026-07-01T08:51:15.231491+00:00",
-    "kind": "error",
-    "message": "Fetch failed for https://opportunitydesk.org/2026/06/30/circularise-accelerator-in-kenya-2026/: 403"
-  },
-  {
-    "at": "2026-07-01T08:51:15.285256+00:00",
-    "kind": "error",
-    "message": "Fetch failed for https://opportunitydesk.org/2026/06/30/courtney-fellowship-2027-2028/: 403"
-  },
-  {
-    "at": "2026-07-01T08:51:15.337642+00:00",
-    "kind": "error",
-    "message": "Fetch failed for https://opportunitydesk.org/2026/06/30/ifc-women-led-business-grant-2026/: 403"
-  },
-  {
-    "at": "2026-07-01T08:51:15.377869+00:00",
-    "kind": "error",
-    "message": "Fetch failed for https://opportunitydesk.org/2026/06/30/idice-startup-bridge-founders-lab-2026/: 403"
-  },
-  {
-    "at": "2026-07-01T08:51:15.424144+00:00",
-    "kind": "error",
-    "message": "Fetch failed for https://opportunitydesk.org/2026/06/30/undp-timbuktoo-pan-african-minetech-startup-incubation-programme-2026/: 403"
-  },
-  {
-    "at": "2026-07-01T08:51:15.469802+00:00",
-    "kind": "error",
-    "message": "Fetch failed for https://opportunitydesk.org/2026/06/30/ifc-sme-growth-accelerator-2026/: 403"
-  },
-  {
-    "at": "2026-07-01T08:51:15.518833+00:00",
-    "kind": "error",
-    "message": "Fetch failed for https://opportunitydesk.org/2026/06/29/lagos-agrithon-2026/: 403"
-  },
-  {
-    "at": "2026-07-01T08:51:15.559109+00:00",
-    "kind": "error",
-    "message": "Fetch failed for https://opportunitydesk.org/2026/06/29/chauncey-bailey-journalist-of-color-investigative-reporting-fellowship-2027/: 403"
-  },
-  {
-    "at": "2026-07-01T08:51:15.600140+00:00",
-    "kind": "error",
-    "message": "Fetch failed for https://opportunitydesk.org/2026/06/29/wic-global-youth-leaders-2026/: 403"
-  },
-  {
-    "at": "2026-07-01T08:51:18.209595+00:00",
-    "kind": "scan_complete",
-    "message": "daily scan finished",
-    "matches": 0,
-    "stats": {
-      "discovered": 40,
-      "already_seen": 27,
-      "known_scam": 0,
-      "fetch_failed": 13,
-      "first_pass_dropped": 0,
-      "scam": 0,
-      "legit_unknown": 0,
-      "ineligible": 0,
-      "closed": 0,
-      "deep_analyzed": 0,
-      "scored_high": 0
-    }
-  },
-  {
-    "at": "2026-07-01T08:51:18.211367+00:00",
-    "kind": "run",
-    "mode": "scan",
-    "environment": "github_actions",
-    "stats": {
-      "discovered": 40,
-      "already_seen": 27,
-      "known_scam": 0,
-      "fetch_failed": 13,
-      "first_pass_dropped": 0,
-      "scam": 0,
-      "legit_unknown": 0,
-      "ineligible": 0,
-      "closed": 0,
-      "deep_analyzed": 0,
-      "scored_high": 0,
-      "matches": 0
-    }
-  },
-  {
     "at": "2026-07-02T08:12:57.222947+00:00",
     "kind": "scan_start",
     "message": "daily scan started"
@@ -1403,6 +1319,90 @@
       "deep_analyzed": 0,
       "scored_high": 0,
       "matches": 0
+    }
+  },
+  {
+    "at": "2026-07-15T07:16:25.002903+00:00",
+    "kind": "scan_start",
+    "message": "daily scan started"
+  },
+  {
+    "at": "2026-07-15T07:17:00.591332+00:00",
+    "kind": "error",
+    "message": "Fetch failed for https://www.dfat.gov.au/people-to-people/australia-awards/australia-awards-scholarships: HTTPSConnectionPool(host='www.dfat.gov.au', port=443): Read timed out. (read timeout=25)"
+  },
+  {
+    "at": "2026-07-15T07:17:00.674791+00:00",
+    "kind": "error",
+    "message": "Fetch failed for https://vanier.gc.ca/en/home-accueil.html: HTTPSConnectionPool(host='vanier.gc.ca', port=443): Max retries exceeded with url: /en/home-accueil.html (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)')))"
+  },
+  {
+    "at": "2026-07-15T07:17:00.716057+00:00",
+    "kind": "error",
+    "message": "Fetch failed for https://opportunitydesk.org/category/fellowships/: 403"
+  },
+  {
+    "at": "2026-07-15T07:19:09.628740+00:00",
+    "kind": "error",
+    "message": "Fetch failed for https://opportunitydesk.org/2026/07/14/nias-safe-haven-fellowship-programme-2026-2027/: 403"
+  },
+  {
+    "at": "2026-07-15T07:19:09.669678+00:00",
+    "kind": "error",
+    "message": "Fetch failed for https://opportunitydesk.org/2026/07/14/nederlands-letterenfonds-fellowship-programme-2026/: 403"
+  },
+  {
+    "at": "2026-07-15T07:19:09.707902+00:00",
+    "kind": "error",
+    "message": "Fetch failed for https://opportunitydesk.org/2026/07/14/tsinghua-global-sdg-case-competition-2026/: 403"
+  },
+  {
+    "at": "2026-07-15T07:19:09.749699+00:00",
+    "kind": "error",
+    "message": "Fetch failed for https://opportunitydesk.org/2026/07/14/youth-facing-disinformation-why-journalists-matter-2026/: 403"
+  },
+  {
+    "at": "2026-07-15T07:19:09.790191+00:00",
+    "kind": "error",
+    "message": "Fetch failed for https://opportunitydesk.org/2026/07/14/ukri-what-works-innovation-fellowships-tackling-vawg-2026/: 403"
+  },
+  {
+    "at": "2026-07-15T07:19:12.500579+00:00",
+    "kind": "scan_complete",
+    "message": "daily scan finished",
+    "matches": 1,
+    "stats": {
+      "discovered": 40,
+      "already_seen": 20,
+      "known_scam": 0,
+      "fetch_failed": 8,
+      "first_pass_dropped": 6,
+      "scam": 0,
+      "legit_unknown": 0,
+      "ineligible": 0,
+      "closed": 0,
+      "deep_analyzed": 1,
+      "scored_high": 1
+    }
+  },
+  {
+    "at": "2026-07-15T07:19:12.502538+00:00",
+    "kind": "run",
+    "mode": "scan",
+    "environment": "github_actions",
+    "stats": {
+      "discovered": 40,
+      "already_seen": 20,
+      "known_scam": 0,
+      "fetch_failed": 8,
+      "first_pass_dropped": 6,
+      "scam": 0,
+      "legit_unknown": 0,
+      "ineligible": 0,
+      "closed": 0,
+      "deep_analyzed": 1,
+      "scored_high": 1,
+      "matches": 1
     }
   }
 ]
