@@ -919,5 +919,86 @@
     "id": "09693d0fce2f68b8",
     "first_seen": "2026-07-15T07:19:09.590177+00:00",
     "last_updated": "2026-07-15T07:19:09.590185+00:00"
+  },
+  "9496443712416f98": {
+    "url": "https://www.opportunitiesforafricans.com/the-african-continental-free-trade-area-afcfta-secretariat-internship-program-2026/",
+    "title": "The African Continental Free Trade Area (AfCFTA) Secretariat Internship Program 2026 for young Africans.",
+    "status": "filtered_out",
+    "reason": "It explicitly offers NO funding and charges money to participate",
+    "id": "9496443712416f98",
+    "first_seen": "2026-07-16T07:24:07.357467+00:00",
+    "last_updated": "2026-07-16T07:24:07.357475+00:00"
+  },
+  "bd2f6e068b86050f": {
+    "url": "https://www.opportunitiesforafricans.com/alexander-von-humboldt-foundation-fellowship-2027/",
+    "title": "Alexander von Humboldt Foundation Fellowship 2027 for for postdocs and experienced researchers.",
+    "status": "filtered_out",
+    "reason": "Candidate does not have a doctorate or comparable academic degree",
+    "id": "bd2f6e068b86050f",
+    "first_seen": "2026-07-16T07:24:16.408199+00:00",
+    "last_updated": "2026-07-16T07:24:16.408208+00:00"
+  },
+  "2631622e99ca8849": {
+    "url": "https://www.opportunitiesforafricans.com/african-leadership-academy-ala-2027-for-young-leaders-across-africa-two-year-pre-university-program/",
+    "title": "African Leadership Academy (ALA) 2027 for young Leaders across Africa (Two-Year Pre-University Program) – financial assistance available.",
+    "status": "filtered_out",
+    "reason": "The program is for teenagers and the candidate is 27 years old",
+    "id": "2631622e99ca8849",
+    "first_seen": "2026-07-16T07:24:39.656262+00:00",
+    "last_updated": "2026-07-16T07:24:39.656269+00:00"
+  },
+  "01c9c5ad4cea557f": {
+    "url": "https://www.opportunitiesforafricans.com/world-bank-group-wbg-pioneers-internship-program-fall-winter-cycle-for-undergraduate-postgraduate-students/",
+    "title": "World Bank Group (WBG) Pioneers Internship Program 2026/2027 for Undergraduate & Postgraduate students.",
+    "status": "filtered_out",
+    "reason": "The program is an internship for students, but the candidate is a working professional",
+    "id": "01c9c5ad4cea557f",
+    "first_seen": "2026-07-16T07:24:55.400054+00:00",
+    "last_updated": "2026-07-16T07:24:55.400062+00:00"
+  },
+  "5269ac8c35a96662": {
+    "url": "https://www.opportunitiesforafricans.com/google-academic-research-awards-2026-for-academic-research-in-quantum-computing/",
+    "title": "Google Academic Research Awards 2026 for academic research in Quantum Computing",
+    "status": "filtered_out",
+    "reason": "Applicant is not a professor or academic researcher",
+    "id": "5269ac8c35a96662",
+    "first_seen": "2026-07-16T07:24:58.827655+00:00",
+    "last_updated": "2026-07-16T07:24:58.827664+00:00"
+  },
+  "a2d54774ea8539cb": {
+    "url": "https://www.opportunitiesforafricans.com/the-dhl-group-gen-z-programme-2026-2027-for-young-south-africans/",
+    "title": "The DHL Group Gen Z Programme 2026/2027 for young South Africans.",
+    "status": "filtered_out",
+    "reason": "Ethiopian nationals are not eligible",
+    "id": "a2d54774ea8539cb",
+    "first_seen": "2026-07-16T07:25:12.471711+00:00",
+    "last_updated": "2026-07-16T07:25:12.471720+00:00"
+  },
+  "60095280dc889ee0": {
+    "url": "https://www.opportunitiesforafricans.com/the-african-investigative-journalism-conference-aijc-2026-investigative-journalism-masterclass-fellowship-and-travel-support/",
+    "title": "The African Investigative Journalism Conference (AIJC) 2026 Investigative Journalism Masterclass Fellowship and Travel Support (Funded to AIJC2026 in Nairobi, Kenya)",
+    "status": "filtered_out",
+    "reason": "It is not a fully-funded masters scholarship or fellowship for AI/tech innovators",
+    "id": "60095280dc889ee0",
+    "first_seen": "2026-07-16T07:25:24.272098+00:00",
+    "last_updated": "2026-07-16T07:25:24.272105+00:00"
+  },
+  "4ca5a0e71dcad8a1": {
+    "url": "https://www.opportunitiesforafricans.com/fnb-engineering-technology-graduate-programme-2026-2027/",
+    "title": "FNB Engineering & Technology Graduate Programme 2026/2027 for Engineering and IT/Computer Science graduates.",
+    "status": "filtered_out",
+    "reason": "It requires currently completing the final year of university or recent graduates, which does not match the candidate's profile as a working professional",
+    "id": "4ca5a0e71dcad8a1",
+    "first_seen": "2026-07-16T07:25:38.238718+00:00",
+    "last_updated": "2026-07-16T07:25:38.238725+00:00"
+  },
+  "082e0f37b21318a5": {
+    "url": "https://www.opportunitiesforafricans.com/the-ag-sme-bootcamp-pitch-competition-cohort-2-for-young-nigerian-agripreneurs/",
+    "title": "The AG-SME Bootcamp & Pitch Competition Cohort 2 for young Nigerian agripreneurs (₦1,000,000 grant prize)",
+    "status": "filtered_out",
+    "reason": "The program is only for Nigerian agri-entrepreneurs",
+    "id": "082e0f37b21318a5",
+    "first_seen": "2026-07-16T07:25:52.805658+00:00",
+    "last_updated": "2026-07-16T07:25:52.805665+00:00"
   }
 }

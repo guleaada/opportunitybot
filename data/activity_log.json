@@ -1,50 +1,5 @@
 [
   {
-    "at": "2026-07-02T08:12:57.222947+00:00",
-    "kind": "scan_start",
-    "message": "daily scan started"
-  },
-  {
-    "at": "2026-07-02T08:13:27.322803+00:00",
-    "kind": "error",
-    "message": "Fetch failed for https://www.dfat.gov.au/people-to-people/australia-awards/australia-awards-scholarships: HTTPSConnectionPool(host='www.dfat.gov.au', port=443): Read timed out. (read timeout=25)"
-  },
-  {
-    "at": "2026-07-02T08:13:27.538071+00:00",
-    "kind": "error",
-    "message": "Fetch failed for https://vanier.gc.ca/en/home-accueil.html: HTTPSConnectionPool(host='vanier.gc.ca', port=443): Max retries exceeded with url: /en/home-accueil.html (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)')))"
-  },
-  {
-    "at": "2026-07-02T08:13:27.574778+00:00",
-    "kind": "error",
-    "message": "Fetch failed for https://opportunitydesk.org/category/fellowships/: 403"
-  },
-  {
-    "at": "2026-07-02T08:15:06.316496+00:00",
-    "kind": "error",
-    "message": "Fetch failed for https://opportunitydesk.org/2026/07/01/daad-epos-scholarships-2027-2028/: 403"
-  },
-  {
-    "at": "2026-07-02T08:15:06.368240+00:00",
-    "kind": "error",
-    "message": "Fetch failed for https://opportunitydesk.org/2026/07/01/lester-b-pearson-international-student-scholarships-2026/: 403"
-  },
-  {
-    "at": "2026-07-02T08:15:06.417574+00:00",
-    "kind": "error",
-    "message": "Fetch failed for https://opportunitydesk.org/2026/07/01/thomson-young-journalist-award-2026/: 403"
-  },
-  {
-    "at": "2026-07-02T08:15:06.457547+00:00",
-    "kind": "error",
-    "message": "Fetch failed for https://opportunitydesk.org/2026/07/01/university-of-maryland-postdoctoral-fellowship-2026-2027/: 403"
-  },
-  {
-    "at": "2026-07-02T08:15:06.497840+00:00",
-    "kind": "error",
-    "message": "Fetch failed for https://opportunitydesk.org/2026/07/01/sean-macbride-fellowship-2027-2028/: 403"
-  },
-  {
     "at": "2026-07-02T08:15:06.539476+00:00",
     "kind": "error",
     "message": "Fetch failed for https://opportunitydesk.org/2026/07/01/mark-grosjean-postdoctoral-fellowship-2026/: 403"
@@ -1403,6 +1358,80 @@
       "deep_analyzed": 1,
       "scored_high": 1,
       "matches": 1
+    }
+  },
+  {
+    "at": "2026-07-16T07:23:32.205634+00:00",
+    "kind": "scan_start",
+    "message": "daily scan started"
+  },
+  {
+    "at": "2026-07-16T07:24:03.972914+00:00",
+    "kind": "error",
+    "message": "Fetch failed for https://www.dfat.gov.au/people-to-people/australia-awards/australia-awards-scholarships: HTTPSConnectionPool(host='www.dfat.gov.au', port=443): Read timed out. (read timeout=25)"
+  },
+  {
+    "at": "2026-07-16T07:24:04.104031+00:00",
+    "kind": "error",
+    "message": "Fetch failed for https://vanier.gc.ca/en/home-accueil.html: HTTPSConnectionPool(host='vanier.gc.ca', port=443): Max retries exceeded with url: /en/home-accueil.html (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)')))"
+  },
+  {
+    "at": "2026-07-16T07:24:04.164416+00:00",
+    "kind": "error",
+    "message": "Fetch failed for https://opportunitydesk.org/category/fellowships/: 403"
+  },
+  {
+    "at": "2026-07-16T07:25:52.862574+00:00",
+    "kind": "error",
+    "message": "Fetch failed for https://opportunitydesk.org/2026/07/15/royal-society-research-ireland-university-research-fellowship-2026/: 403"
+  },
+  {
+    "at": "2026-07-16T07:25:52.925893+00:00",
+    "kind": "error",
+    "message": "Fetch failed for https://opportunitydesk.org/2026/07/15/bloomsbury-academic-writing-fellowship-2026/: 403"
+  },
+  {
+    "at": "2026-07-16T07:25:52.977853+00:00",
+    "kind": "error",
+    "message": "Fetch failed for https://opportunitydesk.org/2026/07/15/fens-ibro-perc-exchange-fellowships-program-2026/: 403"
+  },
+  {
+    "at": "2026-07-16T07:25:55.587848+00:00",
+    "kind": "scan_complete",
+    "message": "daily scan finished",
+    "matches": 0,
+    "stats": {
+      "discovered": 40,
+      "already_seen": 18,
+      "known_scam": 0,
+      "fetch_failed": 6,
+      "first_pass_dropped": 9,
+      "scam": 0,
+      "legit_unknown": 0,
+      "ineligible": 0,
+      "closed": 0,
+      "deep_analyzed": 0,
+      "scored_high": 0
+    }
+  },
+  {
+    "at": "2026-07-16T07:25:55.589349+00:00",
+    "kind": "run",
+    "mode": "scan",
+    "environment": "github_actions",
+    "stats": {
+      "discovered": 40,
+      "already_seen": 18,
+      "known_scam": 0,
+      "fetch_failed": 6,
+      "first_pass_dropped": 9,
+      "scam": 0,
+      "legit_unknown": 0,
+      "ineligible": 0,
+      "closed": 0,
+      "deep_analyzed": 0,
+      "scored_high": 0,
+      "matches": 0
     }
   }
 ]
