@@ -1,109 +1,5 @@
 [
   {
-    "at": "2026-07-02T08:15:06.539476+00:00",
-    "kind": "error",
-    "message": "Fetch failed for https://opportunitydesk.org/2026/07/01/mark-grosjean-postdoctoral-fellowship-2026/: 403"
-  },
-  {
-    "at": "2026-07-02T08:15:09.729486+00:00",
-    "kind": "scan_complete",
-    "message": "daily scan finished",
-    "matches": 0,
-    "stats": {
-      "discovered": 40,
-      "already_seen": 21,
-      "known_scam": 0,
-      "fetch_failed": 9,
-      "first_pass_dropped": 3,
-      "scam": 0,
-      "legit_unknown": 1,
-      "ineligible": 2,
-      "closed": 0,
-      "deep_analyzed": 0,
-      "scored_high": 0
-    }
-  },
-  {
-    "at": "2026-07-02T08:15:09.731171+00:00",
-    "kind": "run",
-    "mode": "scan",
-    "environment": "github_actions",
-    "stats": {
-      "discovered": 40,
-      "already_seen": 21,
-      "known_scam": 0,
-      "fetch_failed": 9,
-      "first_pass_dropped": 3,
-      "scam": 0,
-      "legit_unknown": 1,
-      "ineligible": 2,
-      "closed": 0,
-      "deep_analyzed": 0,
-      "scored_high": 0,
-      "matches": 0
-    }
-  },
-  {
-    "at": "2026-07-03T08:11:57.634660+00:00",
-    "kind": "scan_start",
-    "message": "daily scan started"
-  },
-  {
-    "at": "2026-07-03T08:12:26.632145+00:00",
-    "kind": "error",
-    "message": "Fetch failed for https://www.dfat.gov.au/people-to-people/australia-awards/australia-awards-scholarships: HTTPSConnectionPool(host='www.dfat.gov.au', port=443): Read timed out. (read timeout=25)"
-  },
-  {
-    "at": "2026-07-03T08:12:26.741695+00:00",
-    "kind": "error",
-    "message": "Fetch failed for https://vanier.gc.ca/en/home-accueil.html: HTTPSConnectionPool(host='vanier.gc.ca', port=443): Max retries exceeded with url: /en/home-accueil.html (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)')))"
-  },
-  {
-    "at": "2026-07-03T08:12:26.778893+00:00",
-    "kind": "error",
-    "message": "Fetch failed for https://opportunitydesk.org/category/fellowships/: 403"
-  },
-  {
-    "at": "2026-07-03T08:14:04.195941+00:00",
-    "kind": "error",
-    "message": "Failed to analyze https://www.opportunitiesforafricans.com/the-wema-bank-hackaholics-7-0-for-african-innovators-and-startups/: \"Could not resolve authentication method. Expected one of api_key, auth_token, or credentials to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted\""
-  },
-  {
-    "at": "2026-07-03T08:14:52.135731+00:00",
-    "kind": "error",
-    "message": "Fetch failed for https://opportunitydesk.org/2026/07/02/watson-institute-ford-philanthropy-fellowship-2026-fully-funded/: 403"
-  },
-  {
-    "at": "2026-07-03T08:14:52.171556+00:00",
-    "kind": "error",
-    "message": "Fetch failed for https://opportunitydesk.org/2026/07/02/aerospace-accelerator-program-2026/: 403"
-  },
-  {
-    "at": "2026-07-03T08:14:52.209234+00:00",
-    "kind": "error",
-    "message": "Fetch failed for https://opportunitydesk.org/2026/07/02/apex-awards-2027/: 403"
-  },
-  {
-    "at": "2026-07-03T08:14:52.248115+00:00",
-    "kind": "error",
-    "message": "Fetch failed for https://opportunitydesk.org/2026/07/02/british-academy-postdoctoral-fellowships-2026-2027/: 403"
-  },
-  {
-    "at": "2026-07-03T08:14:52.288656+00:00",
-    "kind": "error",
-    "message": "Fetch failed for https://opportunitydesk.org/2026/07/02/future-for-nature-awards-2027/: 403"
-  },
-  {
-    "at": "2026-07-03T08:14:52.327194+00:00",
-    "kind": "error",
-    "message": "Fetch failed for https://opportunitydesk.org/2026/07/02/atlantic-fellows-for-equity-in-brain-health-program-2027-2028/: 403"
-  },
-  {
-    "at": "2026-07-03T08:14:52.367960+00:00",
-    "kind": "error",
-    "message": "Fetch failed for https://opportunitydesk.org/2026/07/02/afts-alpha-expo-micro-accelerator-pitch-competition-program-2026/: 403"
-  },
-  {
     "at": "2026-07-03T08:14:52.411984+00:00",
     "kind": "error",
     "message": "Fetch failed for https://opportunitydesk.org/2026/07/02/emilys-list-internship-program-2026/: 403"
@@ -1428,6 +1324,110 @@
       "scam": 0,
       "legit_unknown": 0,
       "ineligible": 0,
+      "closed": 0,
+      "deep_analyzed": 0,
+      "scored_high": 0,
+      "matches": 0
+    }
+  },
+  {
+    "at": "2026-07-17T07:19:00.218396+00:00",
+    "kind": "scan_start",
+    "message": "daily scan started"
+  },
+  {
+    "at": "2026-07-17T07:19:31.670513+00:00",
+    "kind": "error",
+    "message": "Fetch failed for https://www.dfat.gov.au/people-to-people/australia-awards/australia-awards-scholarships: HTTPSConnectionPool(host='www.dfat.gov.au', port=443): Read timed out. (read timeout=25)"
+  },
+  {
+    "at": "2026-07-17T07:19:31.807974+00:00",
+    "kind": "error",
+    "message": "Fetch failed for https://vanier.gc.ca/en/home-accueil.html: HTTPSConnectionPool(host='vanier.gc.ca', port=443): Max retries exceeded with url: /en/home-accueil.html (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)')))"
+  },
+  {
+    "at": "2026-07-17T07:19:31.873555+00:00",
+    "kind": "error",
+    "message": "Fetch failed for https://opportunitydesk.org/category/fellowships/: 403"
+  },
+  {
+    "at": "2026-07-17T07:20:19.786687+00:00",
+    "kind": "error",
+    "message": "Fetch failed for https://opportunitydesk.org/2026/07/16/how-to-invest-in-foreign-currencies/: 403"
+  },
+  {
+    "at": "2026-07-17T07:20:19.859076+00:00",
+    "kind": "error",
+    "message": "Fetch failed for https://opportunitydesk.org/2026/07/16/22-hot-job-opportunities-currently-open-july-16-2027/: 403"
+  },
+  {
+    "at": "2026-07-17T07:20:19.916032+00:00",
+    "kind": "error",
+    "message": "Fetch failed for https://opportunitydesk.org/2026/07/16/30-awards-fellowships-and-competitions-currently-open-july-16-2026/: 403"
+  },
+  {
+    "at": "2026-07-17T07:20:19.988204+00:00",
+    "kind": "error",
+    "message": "Fetch failed for https://opportunitydesk.org/2026/07/16/abcid-future-voices-program-2026/: 403"
+  },
+  {
+    "at": "2026-07-17T07:20:20.049903+00:00",
+    "kind": "error",
+    "message": "Fetch failed for https://opportunitydesk.org/2026/07/16/british-council-travel-grant-fund-2026/: 403"
+  },
+  {
+    "at": "2026-07-17T07:20:20.106983+00:00",
+    "kind": "error",
+    "message": "Fetch failed for https://opportunitydesk.org/2026/07/16/become-a-digital-safety-champion-with-the-safeonline-youth-track-programme-2026/: 403"
+  },
+  {
+    "at": "2026-07-17T07:20:20.161722+00:00",
+    "kind": "error",
+    "message": "Fetch failed for https://opportunitydesk.org/2026/07/16/seacaf-research-fellowships-on-empowering-academic-freedom-in-southeast-asia-2026/: 403"
+  },
+  {
+    "at": "2026-07-17T07:20:20.220349+00:00",
+    "kind": "error",
+    "message": "Fetch failed for https://opportunitydesk.org/2026/07/16/wbg-pioneers-program-2026/: 403"
+  },
+  {
+    "at": "2026-07-17T07:20:20.278462+00:00",
+    "kind": "error",
+    "message": "Fetch failed for https://opportunitydesk.org/2026/07/16/ag-sme-bootcamp-pitch-competition-2026/: 403"
+  },
+  {
+    "at": "2026-07-17T07:20:22.714109+00:00",
+    "kind": "scan_complete",
+    "message": "daily scan finished",
+    "matches": 0,
+    "stats": {
+      "discovered": 40,
+      "already_seen": 24,
+      "known_scam": 0,
+      "fetch_failed": 12,
+      "first_pass_dropped": 2,
+      "scam": 0,
+      "legit_unknown": 0,
+      "ineligible": 1,
+      "closed": 0,
+      "deep_analyzed": 0,
+      "scored_high": 0
+    }
+  },
+  {
+    "at": "2026-07-17T07:20:22.715720+00:00",
+    "kind": "run",
+    "mode": "scan",
+    "environment": "github_actions",
+    "stats": {
+      "discovered": 40,
+      "already_seen": 24,
+      "known_scam": 0,
+      "fetch_failed": 12,
+      "first_pass_dropped": 2,
+      "scam": 0,
+      "legit_unknown": 0,
+      "ineligible": 1,
       "closed": 0,
       "deep_analyzed": 0,
       "scored_high": 0,

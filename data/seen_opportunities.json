@@ -1000,5 +1000,32 @@
     "id": "082e0f37b21318a5",
     "first_seen": "2026-07-16T07:25:52.805658+00:00",
     "last_updated": "2026-07-16T07:25:52.805665+00:00"
+  },
+  "a6cd05d1a2d2d994": {
+    "url": "https://www.opportunitiesforafricans.com/world-bank-group-africa-fellowship-program-2027/",
+    "title": "World Bank Group Africa Fellowship Program 2027 for Ph.D. students & recent graduates (Fully Funded to Washington, D.C. or a WBG country office)",
+    "status": "filtered_out",
+    "reason": "Candidate does not have a Ph.D.",
+    "id": "a6cd05d1a2d2d994",
+    "first_seen": "2026-07-17T07:19:34.976528+00:00",
+    "last_updated": "2026-07-17T07:19:34.976537+00:00"
+  },
+  "5e9e8ba6cccb5a1f": {
+    "url": "https://www.opportunitiesforafricans.com/media-defence-sub-saharan-africa-litigation-surgery-program-2026/",
+    "title": "Media Defence Sub-Saharan Africa Litigation Surgery Program 2025 for lawyers based in sub-Saharan Africa (Fully Funded to Nairobi, Kenya)",
+    "status": "filtered_out",
+    "reason": "Candidate is not a lawyer",
+    "id": "5e9e8ba6cccb5a1f",
+    "first_seen": "2026-07-17T07:19:38.873988+00:00",
+    "last_updated": "2026-07-17T07:19:38.874004+00:00"
+  },
+  "4e3d7e6d184a75c8": {
+    "url": "https://www.opportunitiesforafricans.com/2026-unesco-japan-young-researchers-fellowships-programme-for-young-researchers/",
+    "title": "2026 UNESCO/Japan Young Researchers’ Fellowships Programme for young researchers worldwide (Funded)",
+    "status": "ineligible",
+    "reasoning": "The program requires applicants to hold at least a Master's degree or equivalent, but the candidate only holds a BSc degree. Additionally, the candidate is a working professional and not currently a student, but this is not explicitly stated as a requirement or exclusion criterion. However, the degree level mismatch is a hard blocker.",
+    "id": "4e3d7e6d184a75c8",
+    "first_seen": "2026-07-17T07:20:19.720969+00:00",
+    "last_updated": "2026-07-17T07:20:19.720983+00:00"
   }
 }
