@@ -1027,5 +1027,41 @@
     "id": "4e3d7e6d184a75c8",
     "first_seen": "2026-07-17T07:20:19.720969+00:00",
     "last_updated": "2026-07-17T07:20:19.720983+00:00"
+  },
+  "cfe90805dcaa682c": {
+    "url": "https://www.opportunitiesforafricans.com/the-global-youth-water-envoys-program-2026-for-young-emerging-leaders/",
+    "title": "The Global Youth Water Envoys Program 2026 for young emerging leaders ((Sponsorship to attend, mentorship, and a seat at the 2026 UN Water Conference in Abu Dhabi, UAE)",
+    "status": "legitimacy_unknown",
+    "reasoning": "The program appears to be a legitimate capacity-building and diplomatic engagement program, but there is not enough information provided to confirm its authenticity, such as the organization behind the program or any official website. The application process and requirements seem reasonable, but the lack of trust signals and specific details about the program's funding and organization raises some uncertainty.",
+    "id": "cfe90805dcaa682c",
+    "first_seen": "2026-07-18T07:01:19.369296+00:00",
+    "last_updated": "2026-07-18T07:01:19.369305+00:00"
+  },
+  "88168b94c62640d6": {
+    "url": "https://www.opportunitiesforafricans.com/africa-cdc-epidemiology-track-fellowship-programme-2026/",
+    "title": "Africa CDC Epidemiology Track Fellowship Programme 2026 for public health professionals. (Fully Funded)",
+    "status": "filtered_out",
+    "reason": "Candidate's background is not in public health or related fields",
+    "id": "88168b94c62640d6",
+    "first_seen": "2026-07-18T07:01:21.810736+00:00",
+    "last_updated": "2026-07-18T07:01:21.810747+00:00"
+  },
+  "12a816fa5f8ba4e2": {
+    "url": "https://www.opportunitiesforafricans.com/call-for-2027-membership-become-part-of-the-global-young-academy/",
+    "title": "Call for 2027 Membership: Become part of the Global Young Academy",
+    "status": "filtered_out",
+    "reason": "Applicant lacks a PhD or equivalent degree",
+    "id": "12a816fa5f8ba4e2",
+    "first_seen": "2026-07-18T07:01:34.243596+00:00",
+    "last_updated": "2026-07-18T07:01:34.243607+00:00"
+  },
+  "ae1d433e0dc76c14": {
+    "url": "https://www.opportunitiesforafricans.com/the-association-of-commonwealth-universities-acu-global-grants-2026/",
+    "title": "The Association of Commonwealth Universities (ACU)  Global Grants 2026 for Undergraduate Students to Attend International Summer and Winter Schools in Commonwealth Countries.",
+    "status": "filtered_out",
+    "reason": "Candidate is not an undergraduate student",
+    "id": "ae1d433e0dc76c14",
+    "first_seen": "2026-07-18T07:01:47.768587+00:00",
+    "last_updated": "2026-07-18T07:01:47.768597+00:00"
   }
 }
