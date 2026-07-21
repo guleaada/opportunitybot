@@ -1072,5 +1072,68 @@
     "id": "fd8994c13fa7cc6f",
     "first_seen": "2026-07-19T07:28:33.463858+00:00",
     "last_updated": "2026-07-19T07:28:33.463867+00:00"
+  },
+  "2442aefd7367c6b8": {
+    "url": "https://opportunitiescorners.com/kwi-international-fellowship-2027/",
+    "title": "KWI International Fellowship 2027 in Germany (Fully Funded)",
+    "status": "filtered_out",
+    "reason": "Candidate does not hold a completed PhD",
+    "id": "2442aefd7367c6b8",
+    "first_seen": "2026-07-21T07:34:50.639870+00:00",
+    "last_updated": "2026-07-21T07:34:50.639877+00:00"
+  },
+  "139f908fa30c2e40": {
+    "url": "https://opportunitiescorners.com/asia-in-the-world-fellowship-2027/",
+    "title": "Asia in the World Fellowship 2027/28 (Fully Funded)",
+    "status": "ineligible",
+    "reasoning": "The candidate is a working professional but does not have a research background or current affiliation with a research institution, which might be implied as necessary for the fellowship. However, the main issue is the lack of clarity on the English proficiency requirement and the degree level, but most importantly, the program does not explicitly exclude working professionals without current student status, yet it emphasizes researchers from various institutions. The primary concern is the candidate's potential lack of alignment with the typical profile of researchers the fellowship seems to target.",
+    "id": "139f908fa30c2e40",
+    "first_seen": "2026-07-21T07:35:11.428139+00:00",
+    "last_updated": "2026-07-21T07:35:11.428147+00:00"
+  },
+  "720a22b543cd1048": {
+    "url": "https://www.opportunitiesforafricans.com/the-african-union-undp-youthconnekt-africa-export-accelerator-e-accelerator-2026/",
+    "title": "The African Union/UNDP YouthConnekt Africa Export Accelerator (E-Accelerator) 2026 for youth owned enterprises.",
+    "status": "filtered_out",
+    "reason": "The program is only for entrepreneurs from specific African countries, excluding Ethiopia",
+    "id": "720a22b543cd1048",
+    "first_seen": "2026-07-21T07:35:25.350451+00:00",
+    "last_updated": "2026-07-21T07:35:25.350459+00:00"
+  },
+  "44308dda209829fa": {
+    "url": "https://www.opportunitiesforafricans.com/the-kenya-climate-innovation-center-kcic-cleantech-innovation-competition-2026-for-kenyan-university-students/",
+    "title": "The Kenya Climate Innovation Center (KCIC) Cleantech Innovation Competition 2026 for Kenyan University Students.",
+    "status": "filtered_out",
+    "reason": "The applicant must be a university student in Kenya",
+    "id": "44308dda209829fa",
+    "first_seen": "2026-07-21T07:35:39.768778+00:00",
+    "last_updated": "2026-07-21T07:35:39.768787+00:00"
+  },
+  "d3cc63df0d6b9688": {
+    "url": "https://www.opportunitiesforafricans.com/the-sap-young-professionals-program-2026-for-young-african-graduates-2/",
+    "title": "The SAP Young Professionals Program 2026 for young African graduates.",
+    "status": "filtered_out",
+    "reason": "The program is only available in specific African countries and does not mention eligibility for Ethiopian nationals",
+    "id": "d3cc63df0d6b9688",
+    "first_seen": "2026-07-21T07:35:56.057746+00:00",
+    "last_updated": "2026-07-21T07:35:56.057755+00:00"
+  },
+  "3cd6f43761b87172": {
+    "url": "https://www.opportunitiesforafricans.com/arla-foods-nigeria-internship-program-2026-for-nigerian-graduates/",
+    "title": "Arla Foods Nigeria Internship Program 2026 for Nigerian graduates.",
+    "status": "filtered_out",
+    "reason": "Ethiopian nationals are not eligible",
+    "id": "3cd6f43761b87172",
+    "first_seen": "2026-07-21T07:36:06.011168+00:00",
+    "last_updated": "2026-07-21T07:36:06.011176+00:00"
+  },
+  "a081c0eebed17583": {
+    "url": "https://www.opportunitiesforafricans.com/the-unesco-unevoc-skills-in-action-photo-competition-2026/",
+    "title": "The UNESCO-UNEVOC Skills in Action Photo Competition 2026 for amateur/professional photographers (1,600 USD cash Prize)",
+    "status": "filtered_out",
+    "reason": "It offers no funding and only prizes",
+    "id": "a081c0eebed17583",
+    "first_seen": "2026-07-21T07:36:19.538844+00:00",
+    "last_updated": "2026-07-21T07:36:19.538851+00:00"
   }
 }
