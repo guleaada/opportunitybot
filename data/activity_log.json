@@ -1,99 +1,5 @@
 [
   {
-    "at": "2026-07-07T08:25:28.375048+00:00",
-    "kind": "error",
-    "message": "Fetch failed for https://vanier.gc.ca/en/home-accueil.html: HTTPSConnectionPool(host='vanier.gc.ca', port=443): Max retries exceeded with url: /en/home-accueil.html (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)')))"
-  },
-  {
-    "at": "2026-07-07T08:25:28.413665+00:00",
-    "kind": "error",
-    "message": "Fetch failed for https://opportunitydesk.org/category/fellowships/: 403"
-  },
-  {
-    "at": "2026-07-07T08:26:00.952777+00:00",
-    "kind": "error",
-    "message": "Fetch failed for https://opportunitydesk.org/2026/07/06/avohc-kofi-annan-scholars-program-financial-specialist-africa-cdc-2026/: 403"
-  },
-  {
-    "at": "2026-07-07T08:26:00.993686+00:00",
-    "kind": "error",
-    "message": "Fetch failed for https://opportunitydesk.org/2026/07/06/deloitte-academy-cyber-security-programme-2026/: 403"
-  },
-  {
-    "at": "2026-07-07T08:26:01.030900+00:00",
-    "kind": "error",
-    "message": "Fetch failed for https://opportunitydesk.org/2026/07/06/australian-embassy-zimbabwe-direct-aid-program-2026/: 403"
-  },
-  {
-    "at": "2026-07-07T08:26:01.072191+00:00",
-    "kind": "error",
-    "message": "Fetch failed for https://opportunitydesk.org/2026/07/06/seedinvest-acceleration-programme-2026/: 403"
-  },
-  {
-    "at": "2026-07-07T08:26:01.113145+00:00",
-    "kind": "error",
-    "message": "Fetch failed for https://opportunitydesk.org/2026/07/06/google-deepmind-accelerator-ai-for-the-planet-apac-2026/: 403"
-  },
-  {
-    "at": "2026-07-07T08:26:01.151168+00:00",
-    "kind": "error",
-    "message": "Fetch failed for https://opportunitydesk.org/2026/07/06/indie-games-fund-africa-2026/: 403"
-  },
-  {
-    "at": "2026-07-07T08:26:01.190184+00:00",
-    "kind": "error",
-    "message": "Fetch failed for https://opportunitydesk.org/2026/07/03/ai-rapid-response-fellowship-2026/: 403"
-  },
-  {
-    "at": "2026-07-07T08:26:01.230066+00:00",
-    "kind": "error",
-    "message": "Fetch failed for https://opportunitydesk.org/2026/07/03/gdpc-spotlight-research-grants-program-2026/: 403"
-  },
-  {
-    "at": "2026-07-07T08:26:01.281767+00:00",
-    "kind": "error",
-    "message": "Fetch failed for https://opportunitydesk.org/2026/07/03/orix-usa-scholars-program-2026/: 403"
-  },
-  {
-    "at": "2026-07-07T08:26:03.875033+00:00",
-    "kind": "scan_complete",
-    "message": "daily scan finished",
-    "matches": 0,
-    "stats": {
-      "discovered": 40,
-      "already_seen": 24,
-      "known_scam": 0,
-      "fetch_failed": 12,
-      "first_pass_dropped": 3,
-      "scam": 0,
-      "legit_unknown": 0,
-      "ineligible": 0,
-      "closed": 0,
-      "deep_analyzed": 0,
-      "scored_high": 0
-    }
-  },
-  {
-    "at": "2026-07-07T08:26:03.876589+00:00",
-    "kind": "run",
-    "mode": "scan",
-    "environment": "github_actions",
-    "stats": {
-      "discovered": 40,
-      "already_seen": 24,
-      "known_scam": 0,
-      "fetch_failed": 12,
-      "first_pass_dropped": 3,
-      "scam": 0,
-      "legit_unknown": 0,
-      "ineligible": 0,
-      "closed": 0,
-      "deep_analyzed": 0,
-      "scored_high": 0,
-      "matches": 0
-    }
-  },
-  {
     "at": "2026-07-08T07:30:43.635724+00:00",
     "kind": "scan_start",
     "message": "daily scan started"
@@ -1425,6 +1331,100 @@
       "known_scam": 0,
       "fetch_failed": 3,
       "first_pass_dropped": 6,
+      "scam": 0,
+      "legit_unknown": 0,
+      "ineligible": 1,
+      "closed": 0,
+      "deep_analyzed": 0,
+      "scored_high": 0,
+      "matches": 0
+    }
+  },
+  {
+    "at": "2026-07-22T07:35:43.640652+00:00",
+    "kind": "scan_start",
+    "message": "daily scan started"
+  },
+  {
+    "at": "2026-07-22T07:36:15.038878+00:00",
+    "kind": "error",
+    "message": "Fetch failed for https://www.dfat.gov.au/people-to-people/australia-awards/australia-awards-scholarships: HTTPSConnectionPool(host='www.dfat.gov.au', port=443): Read timed out. (read timeout=25)"
+  },
+  {
+    "at": "2026-07-22T07:36:15.130452+00:00",
+    "kind": "error",
+    "message": "Fetch failed for https://vanier.gc.ca/en/home-accueil.html: HTTPSConnectionPool(host='vanier.gc.ca', port=443): Max retries exceeded with url: /en/home-accueil.html (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)')))"
+  },
+  {
+    "at": "2026-07-22T07:36:15.169242+00:00",
+    "kind": "error",
+    "message": "Fetch failed for https://opportunitydesk.org/category/fellowships/: 403"
+  },
+  {
+    "at": "2026-07-22T07:37:31.486342+00:00",
+    "kind": "error",
+    "message": "Fetch failed for https://opportunitydesk.org/2026/07/21/24-funding-grants-and-business-opportunities-for-ngos-founders-and-entrepreneurscurrently-open-july-21-2026/: 403"
+  },
+  {
+    "at": "2026-07-22T07:37:31.526305+00:00",
+    "kind": "error",
+    "message": "Fetch failed for https://opportunitydesk.org/2026/07/21/bosun-tijani-foundation-gen-ai-fellowship-2026-cohort-2/: 403"
+  },
+  {
+    "at": "2026-07-22T07:37:31.566467+00:00",
+    "kind": "error",
+    "message": "Fetch failed for https://opportunitydesk.org/2026/07/21/sloan-research-fellowships-2027/: 403"
+  },
+  {
+    "at": "2026-07-22T07:37:31.609680+00:00",
+    "kind": "error",
+    "message": "Fetch failed for https://opportunitydesk.org/2026/07/21/green-digital-fellowship-programme-2026-2027/: 403"
+  },
+  {
+    "at": "2026-07-22T07:37:31.650861+00:00",
+    "kind": "error",
+    "message": "Fetch failed for https://opportunitydesk.org/2026/07/21/common-ground-program-opportunity-innovation-grants-2026/: 403"
+  },
+  {
+    "at": "2026-07-22T07:37:31.693681+00:00",
+    "kind": "error",
+    "message": "Fetch failed for https://opportunitydesk.org/2026/07/21/zoombassador-program-2026/: 403"
+  },
+  {
+    "at": "2026-07-22T07:37:31.735394+00:00",
+    "kind": "error",
+    "message": "Fetch failed for https://opportunitydesk.org/2026/07/21/pathfinder-fellowship-2026/: 403"
+  },
+  {
+    "at": "2026-07-22T07:37:34.321363+00:00",
+    "kind": "scan_complete",
+    "message": "daily scan finished",
+    "matches": 0,
+    "stats": {
+      "discovered": 40,
+      "already_seen": 22,
+      "known_scam": 0,
+      "fetch_failed": 10,
+      "first_pass_dropped": 4,
+      "scam": 0,
+      "legit_unknown": 0,
+      "ineligible": 1,
+      "closed": 0,
+      "deep_analyzed": 0,
+      "scored_high": 0
+    }
+  },
+  {
+    "at": "2026-07-22T07:37:34.323031+00:00",
+    "kind": "run",
+    "mode": "scan",
+    "environment": "github_actions",
+    "stats": {
+      "discovered": 40,
+      "already_seen": 22,
+      "known_scam": 0,
+      "fetch_failed": 10,
+      "first_pass_dropped": 4,
       "scam": 0,
       "legit_unknown": 0,
       "ineligible": 1,

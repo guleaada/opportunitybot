@@ -1135,5 +1135,50 @@
     "id": "a081c0eebed17583",
     "first_seen": "2026-07-21T07:36:19.538844+00:00",
     "last_updated": "2026-07-21T07:36:19.538851+00:00"
+  },
+  "5119afc53f0d4533": {
+    "url": "https://www.opportunitiesforafricans.com/canon-collins-rmtf-scholarships-2027/",
+    "title": "Canon Collins RMTF Scholarships 2027 for Postgraduate (Masters & PhD) Study in South Africa (Fully Funded)",
+    "status": "filtered_out",
+    "reason": "Ethiopian nationals are not eligible",
+    "id": "5119afc53f0d4533",
+    "first_seen": "2026-07-22T07:36:19.547845+00:00",
+    "last_updated": "2026-07-22T07:36:19.547855+00:00"
+  },
+  "d21c0a988b72ac38": {
+    "url": "https://www.opportunitiesforafricans.com/the-eric-and-wendy-schmidt-ai-in-science-african-faculty-fellows-program-2026-2027/",
+    "title": "The Eric and Wendy Schmidt AI in Science African Faculty Fellows Program 2026/2027 for African researchers (Fully Funded)",
+    "status": "filtered_out",
+    "reason": "Candidate does not have a PhD",
+    "id": "d21c0a988b72ac38",
+    "first_seen": "2026-07-22T07:36:25.039155+00:00",
+    "last_updated": "2026-07-22T07:36:25.039166+00:00"
+  },
+  "30e633437a04099e": {
+    "url": "https://www.opportunitiesforafricans.com/the-bosun-tijani-foundation-gen-ai-fellowship-cohort-2/",
+    "title": "The Bosun Tijani Foundation Gen AI Fellowship Cohort 2 for young Nigerians (N50,000 monthly stipend)",
+    "status": "filtered_out",
+    "reason": "Ethiopian nationals are not eligible",
+    "id": "30e633437a04099e",
+    "first_seen": "2026-07-22T07:36:46.596002+00:00",
+    "last_updated": "2026-07-22T07:36:46.596016+00:00"
+  },
+  "b63ab5b4fe8996e6": {
+    "url": "https://www.opportunitiesforafricans.com/the-african-plant-nutrition-outreach-fellowship-program-2026/",
+    "title": "The African Plant Nutrition Outreach Fellowship Program 2026 for African scientists and educators (USD $5,000 award)",
+    "status": "ineligible",
+    "reasoning": "The program requires applicants to be full-time scientists, extension specialists, or educators working at an African NARES institution, university, non-profit organization, or in the private sector, and the candidate is currently based in Lao PDR and does not meet this requirement. Additionally, the candidate's background is in AI development, marketing, and psychology, which may not be directly relevant to the program's focus on plant nutrition and soil fertility management.",
+    "id": "b63ab5b4fe8996e6",
+    "first_seen": "2026-07-22T07:37:09.937452+00:00",
+    "last_updated": "2026-07-22T07:37:09.937462+00:00"
+  },
+  "171838faf4ccbac4": {
+    "url": "https://www.opportunitiesforafricans.com/the-canon-collins-trust-tom-queba-and-pegasys-scholarships-2027/",
+    "title": "The Canon Collins Trust Tom Queba and Pegasys Scholarships 2027 for Social Change (R85,000 worth)",
+    "status": "filtered_out",
+    "reason": "Ethiopian nationals are not eligible",
+    "id": "171838faf4ccbac4",
+    "first_seen": "2026-07-22T07:37:31.444899+00:00",
+    "last_updated": "2026-07-22T07:37:31.444908+00:00"
   }
 }
