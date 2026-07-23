@@ -1180,5 +1180,41 @@
     "id": "171838faf4ccbac4",
     "first_seen": "2026-07-22T07:37:31.444899+00:00",
     "last_updated": "2026-07-22T07:37:31.444908+00:00"
+  },
+  "57e02f4f90efc7d3": {
+    "url": "https://www.opportunitiesforafricans.com/unesco-afrimab-gro-lrt-land-restoration-fellowships-2027/",
+    "title": "UNESCO AfriMAB GRÓ-LRT Land Restoration Fellowships 2027 for professionals from African biosphere reserves (Fully Funded to Iceland)",
+    "status": "ineligible",
+    "reasoning": "The candidate does not meet the requirement of having at least one year of relevant experience working in a biosphere reserve, and the candidate's background is in AI development, marketing, and psychology, which may not be directly relevant to GRÓ LRT's field of work.",
+    "id": "57e02f4f90efc7d3",
+    "first_seen": "2026-07-23T07:34:33.531795+00:00",
+    "last_updated": "2026-07-23T07:34:33.531802+00:00"
+  },
+  "a6680b08b7b08eae": {
+    "url": "https://www.opportunitiesforafricans.com/mtn-foundation-muson-music-scholarship-program-2026-2027/",
+    "title": "MTN Foundation/Muson Music Scholarship Program 2026/2027 for aspiring Musicians.",
+    "status": "filtered_out",
+    "reason": "Ethiopian nationals are clearly not eligible",
+    "id": "a6680b08b7b08eae",
+    "first_seen": "2026-07-23T07:34:53.247738+00:00",
+    "last_updated": "2026-07-23T07:34:53.247745+00:00"
+  },
+  "e0b2819917b8d0cc": {
+    "url": "https://www.opportunitiesforafricans.com/unhcrs-tertiary-refugee-scholarship-programme-dafi-2026-2027/",
+    "title": "UNHCR’s Tertiary Refugee Scholarship Programme (DAFI) 2026/2027 for refugee students.",
+    "status": "filtered_out",
+    "reason": "The applicant is not a refugee or asylum seeker living in Rwanda",
+    "id": "e0b2819917b8d0cc",
+    "first_seen": "2026-07-23T07:35:21.549943+00:00",
+    "last_updated": "2026-07-23T07:35:21.549953+00:00"
+  },
+  "f646a0c0a988e7d2": {
+    "url": "https://www.opportunitiesforafricans.com/human-rights-advocates-program-hrap-2027-2028/",
+    "title": "Human Rights Advocates Program (HRAP) 2027/2028 at Columbia University (Scholarships Available).",
+    "status": "ineligible",
+    "reasoning": "The program requires applicants to be human rights activists working with NGOs, and the candidate's background is in AI development, marketing, and psychology, without clear evidence of working in human rights. Additionally, the candidate is not currently working at the grassroots level in a human rights context.",
+    "id": "f646a0c0a988e7d2",
+    "first_seen": "2026-07-23T07:35:53.360050+00:00",
+    "last_updated": "2026-07-23T07:35:53.360057+00:00"
   }
 }
