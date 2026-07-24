@@ -1216,5 +1216,41 @@
     "id": "f646a0c0a988e7d2",
     "first_seen": "2026-07-23T07:35:53.360050+00:00",
     "last_updated": "2026-07-23T07:35:53.360057+00:00"
+  },
+  "fe5608506fe41da2": {
+    "url": "https://www.opportunitiesforafricans.com/the-pulitzer-center-africa-education-teachers-fellowship-2026/",
+    "title": "The Pulitzer Center Africa Education Teachers’ Fellowship 2026 for African educators (Monthly Stipend)",
+    "status": "filtered_out",
+    "reason": "Candidate is not a teacher",
+    "id": "fe5608506fe41da2",
+    "first_seen": "2026-07-24T07:33:59.059095+00:00",
+    "last_updated": "2026-07-24T07:33:59.059103+00:00"
+  },
+  "7e8614b7c0a90157": {
+    "url": "https://www.opportunitiesforafricans.com/the-tracka-budgit-governance-for-women-by-women-fellowship-2026/",
+    "title": "The Tracka-BudgIT Governance for Women By Women Fellowship 2026 for emerging women leaders.",
+    "status": "filtered_out",
+    "reason": "The fellowship is only for women",
+    "id": "7e8614b7c0a90157",
+    "first_seen": "2026-07-24T07:34:01.134681+00:00",
+    "last_updated": "2026-07-24T07:34:01.134690+00:00"
+  },
+  "a20919d64064a5eb": {
+    "url": "https://www.opportunitiesforafricans.com/the-aava-brands-2026-graduate-trainee-programme-2026/",
+    "title": "The AAVA Brands 2026 Graduate Trainee Programme 2026 for young Nigerian graduates.",
+    "status": "filtered_out",
+    "reason": "The programme requires 0-2 years of work experience and the candidate has more experience",
+    "id": "a20919d64064a5eb",
+    "first_seen": "2026-07-24T07:34:06.038450+00:00",
+    "last_updated": "2026-07-24T07:34:06.038464+00:00"
+  },
+  "95481b18f9fe9056": {
+    "url": "https://www.opportunitiesforafricans.com/cig-motors-management-trainee-programme-2026-for-young-nigerian-graduates/",
+    "title": "CIG Motors Management Trainee Programme 2026 for young Nigerian graduates.",
+    "status": "filtered_out",
+    "reason": "Age requirement exceeds candidate's age",
+    "id": "95481b18f9fe9056",
+    "first_seen": "2026-07-24T07:34:19.008495+00:00",
+    "last_updated": "2026-07-24T07:34:19.008503+00:00"
   }
 }
