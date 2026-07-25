@@ -1252,5 +1252,41 @@
     "id": "95481b18f9fe9056",
     "first_seen": "2026-07-24T07:34:19.008495+00:00",
     "last_updated": "2026-07-24T07:34:19.008503+00:00"
+  },
+  "fe8d0f8e8b4c79a8": {
+    "url": "https://opportunitiescorners.com/youth-summit-portugal-2026/",
+    "title": "Youth Summit Portugal 2026 | 21-24 Nov (Funded)",
+    "status": "filtered_out",
+    "reason": "Application fee is over the acceptable threshold of $50 is not true, but it is close to the threshold and has a fee, however the main reason is it is not a fully funded scholarship or fellowship program as preferred by the candidate",
+    "id": "fe8d0f8e8b4c79a8",
+    "first_seen": "2026-07-25T07:20:43.649834+00:00",
+    "last_updated": "2026-07-25T07:20:43.649841+00:00"
+  },
+  "2328673e57e2cbec": {
+    "url": "https://opportunitiescorners.com/youth-action-summit-2027-in-germany/",
+    "title": "Youth Action Summit 2027 in Germany (Fully Funded)",
+    "status": "filtered_out",
+    "reason": "It requires an application fee over the preferred threshold of $50 is not met but it is not zero",
+    "id": "2328673e57e2cbec",
+    "first_seen": "2026-07-25T07:20:46.384677+00:00",
+    "last_updated": "2026-07-25T07:20:46.384690+00:00"
+  },
+  "770aa7dc1165675a": {
+    "url": "https://www.opportunitiesforafricans.com/google-for-startups-accelerator-south-africa-program-2026/",
+    "title": "Google for Startups Accelerator South Africa Program 2026 for growth-stage technology startups.",
+    "status": "ineligible",
+    "reasoning": "The program is for growth-stage technology startups, and the candidate is an individual, not a startup. Additionally, the program is designed for South African-led startups, and the candidate is an Ethiopian national.",
+    "id": "770aa7dc1165675a",
+    "first_seen": "2026-07-25T07:21:08.091636+00:00",
+    "last_updated": "2026-07-25T07:21:08.091643+00:00"
+  },
+  "a1d82e8367215330": {
+    "url": "https://www.opportunitiesforafricans.com/fidelity-services-group-graduate-development-programme-2027/",
+    "title": "Fidelity Services Group Graduate Development Programme 2027 for young South Africans.",
+    "status": "filtered_out",
+    "reason": "Ethiopian nationals are clearly not eligible",
+    "id": "a1d82e8367215330",
+    "first_seen": "2026-07-25T07:21:26.354809+00:00",
+    "last_updated": "2026-07-25T07:21:26.354816+00:00"
   }
 }

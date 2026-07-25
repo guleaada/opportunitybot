@@ -1,104 +1,5 @@
 [
   {
-    "at": "2026-07-10T08:25:28.520463+00:00",
-    "kind": "error",
-    "message": "Fetch failed for https://vanier.gc.ca/en/home-accueil.html: HTTPSConnectionPool(host='vanier.gc.ca', port=443): Max retries exceeded with url: /en/home-accueil.html (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)')))"
-  },
-  {
-    "at": "2026-07-10T08:25:28.571424+00:00",
-    "kind": "error",
-    "message": "Fetch failed for https://opportunitydesk.org/category/fellowships/: 403"
-  },
-  {
-    "at": "2026-07-10T08:26:19.061334+00:00",
-    "kind": "error",
-    "message": "Fetch failed for https://opportunitydesk.org/2026/07/09/how-to-leverage-government-policies-for-business-growth/: 403"
-  },
-  {
-    "at": "2026-07-10T08:26:19.101670+00:00",
-    "kind": "error",
-    "message": "Fetch failed for https://opportunitydesk.org/2026/07/09/22-hot-job-opportunities-currently-open-july-9-2026/: 403"
-  },
-  {
-    "at": "2026-07-10T08:26:19.140003+00:00",
-    "kind": "error",
-    "message": "Fetch failed for https://opportunitydesk.org/2026/07/09/awln-8th-intergenerational-retreat-2026/: 403"
-  },
-  {
-    "at": "2026-07-10T08:26:19.179348+00:00",
-    "kind": "error",
-    "message": "Fetch failed for https://opportunitydesk.org/2026/07/09/13-global-scholarships-and-fellowships-currently-open-july-9-2026/: 403"
-  },
-  {
-    "at": "2026-07-10T08:26:19.218897+00:00",
-    "kind": "error",
-    "message": "Fetch failed for https://opportunitydesk.org/2026/07/09/women-fellowship-on-hmccc-2026/: 403"
-  },
-  {
-    "at": "2026-07-10T08:26:19.259326+00:00",
-    "kind": "error",
-    "message": "Fetch failed for https://opportunitydesk.org/2026/07/09/youth-impact-bootcamp-latam-2026/: 403"
-  },
-  {
-    "at": "2026-07-10T08:26:19.299844+00:00",
-    "kind": "error",
-    "message": "Fetch failed for https://opportunitydesk.org/2026/07/09/miles-morland-foundation-writing-scholarship-2026/: 403"
-  },
-  {
-    "at": "2026-07-10T08:26:19.339467+00:00",
-    "kind": "error",
-    "message": "Fetch failed for https://opportunitydesk.org/2026/07/09/jix-gig-economy-entrepreneurship-programme-2026/: 403"
-  },
-  {
-    "at": "2026-07-10T08:26:22.287081+00:00",
-    "kind": "scan_complete",
-    "message": "daily scan finished",
-    "matches": 0,
-    "stats": {
-      "discovered": 40,
-      "already_seen": 23,
-      "known_scam": 0,
-      "fetch_failed": 11,
-      "first_pass_dropped": 2,
-      "scam": 0,
-      "legit_unknown": 0,
-      "ineligible": 2,
-      "closed": 0,
-      "deep_analyzed": 0,
-      "scored_high": 0
-    }
-  },
-  {
-    "at": "2026-07-10T08:26:22.288637+00:00",
-    "kind": "run",
-    "mode": "scan",
-    "environment": "github_actions",
-    "stats": {
-      "discovered": 40,
-      "already_seen": 23,
-      "known_scam": 0,
-      "fetch_failed": 11,
-      "first_pass_dropped": 2,
-      "scam": 0,
-      "legit_unknown": 0,
-      "ineligible": 2,
-      "closed": 0,
-      "deep_analyzed": 0,
-      "scored_high": 0,
-      "matches": 0
-    }
-  },
-  {
-    "at": "2026-07-11T07:12:13.297760+00:00",
-    "kind": "scan_start",
-    "message": "daily scan started"
-  },
-  {
-    "at": "2026-07-11T07:12:43.042989+00:00",
-    "kind": "error",
-    "message": "Fetch failed for https://www.dfat.gov.au/people-to-people/australia-awards/australia-awards-scholarships: HTTPSConnectionPool(host='www.dfat.gov.au', port=443): Read timed out. (read timeout=25)"
-  },
-  {
     "at": "2026-07-11T07:12:43.306373+00:00",
     "kind": "error",
     "message": "Fetch failed for https://vanier.gc.ca/en/home-accueil.html: HTTPSConnectionPool(host='vanier.gc.ca', port=443): Max retries exceeded with url: /en/home-accueil.html (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)')))"
@@ -1428,6 +1329,105 @@
       "scam": 0,
       "legit_unknown": 0,
       "ineligible": 0,
+      "closed": 0,
+      "deep_analyzed": 0,
+      "scored_high": 0,
+      "matches": 0
+    }
+  },
+  {
+    "at": "2026-07-25T07:20:09.435620+00:00",
+    "kind": "scan_start",
+    "message": "daily scan started"
+  },
+  {
+    "at": "2026-07-25T07:20:39.594132+00:00",
+    "kind": "error",
+    "message": "Fetch failed for https://www.dfat.gov.au/people-to-people/australia-awards/australia-awards-scholarships: HTTPSConnectionPool(host='www.dfat.gov.au', port=443): Read timed out. (read timeout=25)"
+  },
+  {
+    "at": "2026-07-25T07:20:39.858682+00:00",
+    "kind": "error",
+    "message": "Fetch failed for https://vanier.gc.ca/en/home-accueil.html: HTTPSConnectionPool(host='vanier.gc.ca', port=443): Max retries exceeded with url: /en/home-accueil.html (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)')))"
+  },
+  {
+    "at": "2026-07-25T07:20:39.894343+00:00",
+    "kind": "error",
+    "message": "Fetch failed for https://opportunitydesk.org/category/fellowships/: 403"
+  },
+  {
+    "at": "2026-07-25T07:21:26.392617+00:00",
+    "kind": "error",
+    "message": "Fetch failed for https://opportunitydesk.org/2026/07/24/how-to-start-a-career-in-mental-health-counseling/: 403"
+  },
+  {
+    "at": "2026-07-25T07:21:26.440283+00:00",
+    "kind": "error",
+    "message": "Fetch failed for https://opportunitydesk.org/2026/07/24/how-nurses-can-plan-the-next-step-in-their-career/: 403"
+  },
+  {
+    "at": "2026-07-25T07:21:26.477553+00:00",
+    "kind": "error",
+    "message": "Fetch failed for https://opportunitydesk.org/2026/07/24/why-nursing-careers-matter-more-than-ever-today/: 403"
+  },
+  {
+    "at": "2026-07-25T07:21:26.601976+00:00",
+    "kind": "error",
+    "message": "Fetch failed for https://opportunitydesk.org/2026/07/23/google-academic-research-awards-2026/: 403"
+  },
+  {
+    "at": "2026-07-25T07:21:26.649091+00:00",
+    "kind": "error",
+    "message": "Fetch failed for https://opportunitydesk.org/2026/07/23/encore-fellowships-2026/: 403"
+  },
+  {
+    "at": "2026-07-25T07:21:26.688371+00:00",
+    "kind": "error",
+    "message": "Fetch failed for https://opportunitydesk.org/2026/07/23/rmit-vice-chancellor-research-fellowships-2026/: 403"
+  },
+  {
+    "at": "2026-07-25T07:21:26.732118+00:00",
+    "kind": "error",
+    "message": "Fetch failed for https://opportunitydesk.org/2026/07/23/pinterest-inclusion-fund-2026/: 403"
+  },
+  {
+    "at": "2026-07-25T07:21:26.776262+00:00",
+    "kind": "error",
+    "message": "Fetch failed for https://opportunitydesk.org/2026/07/23/artsfund-community-accelerator-grant-2026/: 403"
+  },
+  {
+    "at": "2026-07-25T07:21:29.312008+00:00",
+    "kind": "scan_complete",
+    "message": "daily scan finished",
+    "matches": 0,
+    "stats": {
+      "discovered": 40,
+      "already_seen": 23,
+      "known_scam": 0,
+      "fetch_failed": 11,
+      "first_pass_dropped": 3,
+      "scam": 0,
+      "legit_unknown": 0,
+      "ineligible": 1,
+      "closed": 0,
+      "deep_analyzed": 0,
+      "scored_high": 0
+    }
+  },
+  {
+    "at": "2026-07-25T07:21:29.313536+00:00",
+    "kind": "run",
+    "mode": "scan",
+    "environment": "github_actions",
+    "stats": {
+      "discovered": 40,
+      "already_seen": 23,
+      "known_scam": 0,
+      "fetch_failed": 11,
+      "first_pass_dropped": 3,
+      "scam": 0,
+      "legit_unknown": 0,
+      "ineligible": 1,
       "closed": 0,
       "deep_analyzed": 0,
       "scored_high": 0,
