@@ -1288,5 +1288,24 @@
     "id": "a1d82e8367215330",
     "first_seen": "2026-07-25T07:21:26.354809+00:00",
     "last_updated": "2026-07-25T07:21:26.354816+00:00"
+  },
+  "bc3a6678ff87ff25": {
+    "url": "https://opportunitiescorners.com/one-young-world-leading-scholarship-2026-in-south-africa/",
+    "title": "One Young World Leading Scholarship 2026 in South Africa (Fully Funded)",
+    "status": "suspicious",
+    "reasoning": "The program appears to be a legitimate leadership opportunity, but the fact that it is advertised as 'fully funded' and requires applicants to submit an online application through the official portal raises some concerns, as the official website of One Young World is not provided for verification. Additionally, the program's focus on attending a summit and the lack of clear information about the selection process and criteria are red flags.",
+    "id": "bc3a6678ff87ff25",
+    "first_seen": "2026-07-26T07:37:40.266913+00:00",
+    "last_updated": "2026-07-26T07:37:40.266925+00:00"
+  },
+  "d9161280c3364ef6": {
+    "url": "https://opportunitiescorners.com/ec-blue-book-traineeship-2027/",
+    "title": "EC Blue Book Traineeship 2027 in Europe (Fully Funded)",
+    "status": "analyzed",
+    "score": 8.5,
+    "deadline": "2026-09-04",
+    "id": "d9161280c3364ef6",
+    "first_seen": "2026-07-26T07:38:08.242593+00:00",
+    "last_updated": "2026-07-26T07:38:08.242605+00:00"
   }
 }

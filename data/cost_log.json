@@ -3766,5 +3766,109 @@
     "tokens_in": 943,
     "tokens_out": 37,
     "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-07-26T07:37:38.354298+00:00",
+    "provider": "groq",
+    "task": "clean_html",
+    "tokens_in": 1600,
+    "tokens_out": 481,
+    "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-07-26T07:37:39.237080+00:00",
+    "provider": "groq",
+    "task": "first_pass_filter",
+    "tokens_in": 1044,
+    "tokens_out": 37,
+    "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-07-26T07:37:39.571115+00:00",
+    "provider": "groq",
+    "task": "first_pass_filter",
+    "tokens_in": 603,
+    "tokens_out": 38,
+    "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-07-26T07:37:40.262748+00:00",
+    "provider": "groq",
+    "task": "scam_detection",
+    "tokens_in": 737,
+    "tokens_out": 118,
+    "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-07-26T07:37:46.193102+00:00",
+    "provider": "groq",
+    "task": "clean_html",
+    "tokens_in": 1603,
+    "tokens_out": 454,
+    "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-07-26T07:37:46.605569+00:00",
+    "provider": "groq",
+    "task": "first_pass_filter",
+    "tokens_in": 1017,
+    "tokens_out": 43,
+    "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-07-26T07:37:47.117230+00:00",
+    "provider": "groq",
+    "task": "first_pass_filter",
+    "tokens_in": 576,
+    "tokens_out": 39,
+    "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-07-26T07:37:47.686287+00:00",
+    "provider": "groq",
+    "task": "scam_detection",
+    "tokens_in": 702,
+    "tokens_out": 89,
+    "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-07-26T07:37:51.462299+00:00",
+    "provider": "groq",
+    "task": "deep_eligibility",
+    "tokens_in": 1044,
+    "tokens_out": 117,
+    "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-07-26T07:37:54.915821+00:00",
+    "provider": "groq",
+    "task": "extract_document_requirements",
+    "tokens_in": 582,
+    "tokens_out": 79,
+    "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-07-26T07:37:59.692896+00:00",
+    "provider": "groq",
+    "task": "estimate_complexity",
+    "tokens_in": 572,
+    "tokens_out": 61,
+    "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-07-26T07:38:08.238032+00:00",
+    "provider": "groq",
+    "task": "final_scoring",
+    "tokens_in": 1646,
+    "tokens_out": 194,
+    "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-07-26T07:38:09.325517+00:00",
+    "provider": "groq",
+    "task": "generate_email_subject",
+    "tokens_in": 90,
+    "tokens_out": 13,
+    "cost_usd": 0.0
   }
 ]
