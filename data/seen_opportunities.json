@@ -1307,5 +1307,33 @@
     "id": "d9161280c3364ef6",
     "first_seen": "2026-07-26T07:38:08.242593+00:00",
     "last_updated": "2026-07-26T07:38:08.242605+00:00"
+  },
+  "6b992654f18d594d": {
+    "url": "https://opportunitiescorners.com/who-internship-2026-in-germany/",
+    "title": "WHO Internship 2026 in Germany | Paid Internship in Berlin",
+    "status": "filtered_out",
+    "reason": "Candidate is not a student or recent graduate",
+    "id": "6b992654f18d594d",
+    "first_seen": "2026-07-27T08:33:36.970997+00:00",
+    "last_updated": "2026-07-27T08:33:36.971005+00:00"
+  },
+  "0a451766792fc996": {
+    "url": "https://opportunitiescorners.com/university-of-milan-dsu-scholarship-2026/",
+    "title": "University of Milan DSU Scholarship 2026/27 in Italy (Fully Funded)",
+    "status": "ineligible",
+    "reasoning": "The candidate is a working professional and not currently a student, but the program requires applicants to obtain admission to an eligible University of Milan degree program, implying a need for current student status or intention to become one. Additionally, the candidate's current degree level is a Bachelor's, and while the program allows for Bachelor's, Master's, and PhD levels, the candidate's expressed wants are for fully-funded Master's scholarships or other opportunities that do not necessarily align with the Bachelor's level of this scholarship.",
+    "id": "0a451766792fc996",
+    "first_seen": "2026-07-27T08:34:01.136340+00:00",
+    "last_updated": "2026-07-27T08:34:01.136348+00:00"
+  },
+  "9b1f2bbba17b2b38": {
+    "url": "https://opportunitiescorners.com/frontier-ai-security-residency-2026-in-cambridge/",
+    "title": "Frontier AI Security Residency 2026 in Cambridge, UK (Fully Funded)",
+    "status": "analyzed",
+    "score": 9.4,
+    "deadline": "2026-08-02",
+    "id": "9b1f2bbba17b2b38",
+    "first_seen": "2026-07-27T08:34:51.550334+00:00",
+    "last_updated": "2026-07-27T08:34:51.550340+00:00"
   }
 }
