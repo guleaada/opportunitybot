@@ -3998,5 +3998,45 @@
     "tokens_in": 91,
     "tokens_out": 12,
     "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-07-28T07:41:11.887722+00:00",
+    "provider": "groq",
+    "task": "clean_html",
+    "tokens_in": 1602,
+    "tokens_out": 528,
+    "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-07-28T07:41:12.698576+00:00",
+    "provider": "groq",
+    "task": "first_pass_filter",
+    "tokens_in": 1091,
+    "tokens_out": 42,
+    "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-07-28T07:41:13.103464+00:00",
+    "provider": "groq",
+    "task": "first_pass_filter",
+    "tokens_in": 650,
+    "tokens_out": 38,
+    "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-07-28T07:41:13.742001+00:00",
+    "provider": "groq",
+    "task": "scam_detection",
+    "tokens_in": 777,
+    "tokens_out": 100,
+    "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-07-28T07:41:14.606632+00:00",
+    "provider": "groq",
+    "task": "deep_eligibility",
+    "tokens_in": 1118,
+    "tokens_out": 147,
+    "cost_usd": 0.0
   }
 ]
