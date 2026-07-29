@@ -1344,5 +1344,23 @@
     "id": "a7a039cd613c9747",
     "first_seen": "2026-07-28T07:41:14.609589+00:00",
     "last_updated": "2026-07-28T07:41:14.609596+00:00"
+  },
+  "27857d0dc91388f7": {
+    "url": "https://opportunitiescorners.com/world-forum-for-democracy-2026-in-france/",
+    "title": "World Forum for Democracy 2026 in France (Fully Funded)",
+    "status": "ineligible",
+    "reasoning": "The program requires applicants to be actively involved in a youth organization, NGO, or civil society initiative, but the candidate's profile does not explicitly mention such involvement. Additionally, the candidate's English proficiency, although professional, lacks a certificate, but this can be addressed. However, the main issue is the unclear involvement in youth organizations or civil society initiatives.",
+    "id": "27857d0dc91388f7",
+    "first_seen": "2026-07-29T07:45:57.047604+00:00",
+    "last_updated": "2026-07-29T07:45:57.047613+00:00"
+  },
+  "89c84883fbf8e89c": {
+    "url": "https://opportunitiescorners.com/max-planck-internship-2027/",
+    "title": "Max Planck Internship 2027 in Germany (Fully Funded)",
+    "status": "ineligible",
+    "reasoning": "The program is open to students worldwide, but the candidate is a working professional and not currently a student, which does not meet the eligibility criteria of being enrolled students or looking for Bachelor's or Master's thesis projects.",
+    "id": "89c84883fbf8e89c",
+    "first_seen": "2026-07-29T07:46:35.069917+00:00",
+    "last_updated": "2026-07-29T07:46:35.069927+00:00"
   }
 }

@@ -4038,5 +4038,85 @@
     "tokens_in": 1118,
     "tokens_out": 147,
     "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-07-29T07:45:53.572118+00:00",
+    "provider": "groq",
+    "task": "clean_html",
+    "tokens_in": 1531,
+    "tokens_out": 373,
+    "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-07-29T07:45:55.186128+00:00",
+    "provider": "groq",
+    "task": "first_pass_filter",
+    "tokens_in": 936,
+    "tokens_out": 43,
+    "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-07-29T07:45:55.650332+00:00",
+    "provider": "groq",
+    "task": "first_pass_filter",
+    "tokens_in": 495,
+    "tokens_out": 39,
+    "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-07-29T07:45:56.329885+00:00",
+    "provider": "groq",
+    "task": "scam_detection",
+    "tokens_in": 623,
+    "tokens_out": 94,
+    "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-07-29T07:45:57.044898+00:00",
+    "provider": "groq",
+    "task": "deep_eligibility",
+    "tokens_in": 963,
+    "tokens_out": 125,
+    "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-07-29T07:46:09.336584+00:00",
+    "provider": "groq",
+    "task": "clean_html",
+    "tokens_in": 1702,
+    "tokens_out": 535,
+    "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-07-29T07:46:16.964305+00:00",
+    "provider": "groq",
+    "task": "first_pass_filter",
+    "tokens_in": 1098,
+    "tokens_out": 40,
+    "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-07-29T07:46:20.438163+00:00",
+    "provider": "groq",
+    "task": "first_pass_filter",
+    "tokens_in": 657,
+    "tokens_out": 39,
+    "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-07-29T07:46:28.135464+00:00",
+    "provider": "groq",
+    "task": "scam_detection",
+    "tokens_in": 782,
+    "tokens_out": 105,
+    "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-07-29T07:46:35.066989+00:00",
+    "provider": "groq",
+    "task": "deep_eligibility",
+    "tokens_in": 1125,
+    "tokens_out": 104,
+    "cost_usd": 0.0
   }
 ]
