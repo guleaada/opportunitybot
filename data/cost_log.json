@@ -4118,5 +4118,261 @@
     "tokens_in": 1125,
     "tokens_out": 104,
     "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-07-30T07:35:50.716606+00:00",
+    "provider": "groq",
+    "task": "clean_html",
+    "tokens_in": 1476,
+    "tokens_out": 567,
+    "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-07-30T07:35:51.576409+00:00",
+    "provider": "groq",
+    "task": "first_pass_filter",
+    "tokens_in": 1130,
+    "tokens_out": 43,
+    "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-07-30T07:35:52.176463+00:00",
+    "provider": "groq",
+    "task": "first_pass_filter",
+    "tokens_in": 689,
+    "tokens_out": 27,
+    "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-07-30T07:35:53.595928+00:00",
+    "provider": "groq",
+    "task": "scam_detection",
+    "tokens_in": 832,
+    "tokens_out": 100,
+    "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-07-30T07:35:54.444916+00:00",
+    "provider": "groq",
+    "task": "deep_eligibility",
+    "tokens_in": 1157,
+    "tokens_out": 109,
+    "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-07-30T07:35:56.047646+00:00",
+    "provider": "groq",
+    "task": "clean_html",
+    "tokens_in": 1405,
+    "tokens_out": 409,
+    "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-07-30T07:36:00.320881+00:00",
+    "provider": "groq",
+    "task": "first_pass_filter",
+    "tokens_in": 972,
+    "tokens_out": 38,
+    "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-07-30T07:36:03.969287+00:00",
+    "provider": "groq",
+    "task": "first_pass_filter",
+    "tokens_in": 531,
+    "tokens_out": 46,
+    "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-07-30T07:36:09.791742+00:00",
+    "provider": "groq",
+    "task": "scam_detection",
+    "tokens_in": 666,
+    "tokens_out": 107,
+    "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-07-30T07:36:14.977896+00:00",
+    "provider": "groq",
+    "task": "deep_eligibility",
+    "tokens_in": 999,
+    "tokens_out": 154,
+    "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-07-30T07:36:35.164844+00:00",
+    "provider": "groq",
+    "task": "clean_html",
+    "tokens_in": 1381,
+    "tokens_out": 473,
+    "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-07-30T07:36:35.786790+00:00",
+    "provider": "groq",
+    "task": "first_pass_filter",
+    "tokens_in": 1036,
+    "tokens_out": 42,
+    "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-07-30T07:36:37.463760+00:00",
+    "provider": "groq",
+    "task": "clean_html",
+    "tokens_in": 1075,
+    "tokens_out": 285,
+    "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-07-30T07:36:39.945191+00:00",
+    "provider": "groq",
+    "task": "first_pass_filter",
+    "tokens_in": 848,
+    "tokens_out": 36,
+    "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-07-30T07:37:01.296415+00:00",
+    "provider": "groq",
+    "task": "clean_html",
+    "tokens_in": 1426,
+    "tokens_out": 406,
+    "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-07-30T07:37:01.846723+00:00",
+    "provider": "groq",
+    "task": "first_pass_filter",
+    "tokens_in": 969,
+    "tokens_out": 35,
+    "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-07-30T07:37:04.358852+00:00",
+    "provider": "groq",
+    "task": "clean_html",
+    "tokens_in": 1673,
+    "tokens_out": 705,
+    "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-07-30T07:37:13.083910+00:00",
+    "provider": "groq",
+    "task": "first_pass_filter",
+    "tokens_in": 1268,
+    "tokens_out": 35,
+    "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-07-30T07:37:34.929593+00:00",
+    "provider": "groq",
+    "task": "clean_html",
+    "tokens_in": 1615,
+    "tokens_out": 404,
+    "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-07-30T07:37:35.527033+00:00",
+    "provider": "groq",
+    "task": "first_pass_filter",
+    "tokens_in": 967,
+    "tokens_out": 38,
+    "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-07-30T07:37:37.456606+00:00",
+    "provider": "groq",
+    "task": "clean_html",
+    "tokens_in": 1300,
+    "tokens_out": 421,
+    "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-07-30T07:37:40.887379+00:00",
+    "provider": "groq",
+    "task": "first_pass_filter",
+    "tokens_in": 984,
+    "tokens_out": 39,
+    "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-07-30T07:38:02.554854+00:00",
+    "provider": "groq",
+    "task": "clean_html",
+    "tokens_in": 1377,
+    "tokens_out": 553,
+    "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-07-30T07:38:10.183798+00:00",
+    "provider": "groq",
+    "task": "first_pass_filter",
+    "tokens_in": 1116,
+    "tokens_out": 36,
+    "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-07-30T07:38:13.646041+00:00",
+    "provider": "groq",
+    "task": "first_pass_filter",
+    "tokens_in": 675,
+    "tokens_out": 29,
+    "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-07-30T07:38:20.306742+00:00",
+    "provider": "groq",
+    "task": "scam_detection",
+    "tokens_in": 807,
+    "tokens_out": 96,
+    "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-07-30T07:38:27.095593+00:00",
+    "provider": "groq",
+    "task": "deep_eligibility",
+    "tokens_in": 1143,
+    "tokens_out": 95,
+    "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-07-30T07:38:50.489615+00:00",
+    "provider": "groq",
+    "task": "clean_html",
+    "tokens_in": 1399,
+    "tokens_out": 523,
+    "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-07-30T07:38:57.901889+00:00",
+    "provider": "groq",
+    "task": "first_pass_filter",
+    "tokens_in": 1086,
+    "tokens_out": 33,
+    "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-07-30T07:39:01.383829+00:00",
+    "provider": "groq",
+    "task": "first_pass_filter",
+    "tokens_in": 645,
+    "tokens_out": 40,
+    "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-07-30T07:39:07.274067+00:00",
+    "provider": "groq",
+    "task": "scam_detection",
+    "tokens_in": 790,
+    "tokens_out": 116,
+    "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-07-30T07:39:14.163175+00:00",
+    "provider": "groq",
+    "task": "deep_eligibility",
+    "tokens_in": 1113,
+    "tokens_out": 101,
+    "cost_usd": 0.0
   }
 ]

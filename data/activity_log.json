@@ -1,74 +1,5 @@
 [
   {
-    "at": "2026-07-15T07:19:09.669678+00:00",
-    "kind": "error",
-    "message": "Fetch failed for https://opportunitydesk.org/2026/07/14/nederlands-letterenfonds-fellowship-programme-2026/: 403"
-  },
-  {
-    "at": "2026-07-15T07:19:09.707902+00:00",
-    "kind": "error",
-    "message": "Fetch failed for https://opportunitydesk.org/2026/07/14/tsinghua-global-sdg-case-competition-2026/: 403"
-  },
-  {
-    "at": "2026-07-15T07:19:09.749699+00:00",
-    "kind": "error",
-    "message": "Fetch failed for https://opportunitydesk.org/2026/07/14/youth-facing-disinformation-why-journalists-matter-2026/: 403"
-  },
-  {
-    "at": "2026-07-15T07:19:09.790191+00:00",
-    "kind": "error",
-    "message": "Fetch failed for https://opportunitydesk.org/2026/07/14/ukri-what-works-innovation-fellowships-tackling-vawg-2026/: 403"
-  },
-  {
-    "at": "2026-07-15T07:19:12.500579+00:00",
-    "kind": "scan_complete",
-    "message": "daily scan finished",
-    "matches": 1,
-    "stats": {
-      "discovered": 40,
-      "already_seen": 20,
-      "known_scam": 0,
-      "fetch_failed": 8,
-      "first_pass_dropped": 6,
-      "scam": 0,
-      "legit_unknown": 0,
-      "ineligible": 0,
-      "closed": 0,
-      "deep_analyzed": 1,
-      "scored_high": 1
-    }
-  },
-  {
-    "at": "2026-07-15T07:19:12.502538+00:00",
-    "kind": "run",
-    "mode": "scan",
-    "environment": "github_actions",
-    "stats": {
-      "discovered": 40,
-      "already_seen": 20,
-      "known_scam": 0,
-      "fetch_failed": 8,
-      "first_pass_dropped": 6,
-      "scam": 0,
-      "legit_unknown": 0,
-      "ineligible": 0,
-      "closed": 0,
-      "deep_analyzed": 1,
-      "scored_high": 1,
-      "matches": 1
-    }
-  },
-  {
-    "at": "2026-07-16T07:23:32.205634+00:00",
-    "kind": "scan_start",
-    "message": "daily scan started"
-  },
-  {
-    "at": "2026-07-16T07:24:03.972914+00:00",
-    "kind": "error",
-    "message": "Fetch failed for https://www.dfat.gov.au/people-to-people/australia-awards/australia-awards-scholarships: HTTPSConnectionPool(host='www.dfat.gov.au', port=443): Read timed out. (read timeout=25)"
-  },
-  {
     "at": "2026-07-16T07:24:04.104031+00:00",
     "kind": "error",
     "message": "Fetch failed for https://vanier.gc.ca/en/home-accueil.html: HTTPSConnectionPool(host='vanier.gc.ca', port=443): Max retries exceeded with url: /en/home-accueil.html (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)')))"
@@ -1428,6 +1359,75 @@
       "scam": 0,
       "legit_unknown": 0,
       "ineligible": 2,
+      "closed": 0,
+      "deep_analyzed": 0,
+      "scored_high": 0,
+      "matches": 0
+    }
+  },
+  {
+    "at": "2026-07-30T07:35:15.877686+00:00",
+    "kind": "scan_start",
+    "message": "daily scan started"
+  },
+  {
+    "at": "2026-07-30T07:35:48.190435+00:00",
+    "kind": "error",
+    "message": "Fetch failed for https://www.dfat.gov.au/people-to-people/australia-awards/australia-awards-scholarships: HTTPSConnectionPool(host='www.dfat.gov.au', port=443): Read timed out. (read timeout=25)"
+  },
+  {
+    "at": "2026-07-30T07:35:48.298911+00:00",
+    "kind": "error",
+    "message": "Fetch failed for https://vanier.gc.ca/en/home-accueil.html: HTTPSConnectionPool(host='vanier.gc.ca', port=443): Max retries exceeded with url: /en/home-accueil.html (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)')))"
+  },
+  {
+    "at": "2026-07-30T07:35:48.338417+00:00",
+    "kind": "error",
+    "message": "Fetch failed for https://opportunitydesk.org/category/fellowships/: 403"
+  },
+  {
+    "at": "2026-07-30T07:39:14.208663+00:00",
+    "kind": "error",
+    "message": "Fetch failed for https://opportunitydesk.org/2026/07/30/wissenschaftskolleg-zu-berlin-early-career-fellowships-in-the-humanities-and-social-sciences-2027-2028/: 403"
+  },
+  {
+    "at": "2026-07-30T07:39:14.246876+00:00",
+    "kind": "error",
+    "message": "Fetch failed for https://opportunitydesk.org/2026/07/30/wipo-fellowship-2026-2027/: 403"
+  },
+  {
+    "at": "2026-07-30T07:39:16.976338+00:00",
+    "kind": "scan_complete",
+    "message": "daily scan finished",
+    "matches": 0,
+    "stats": {
+      "discovered": 40,
+      "already_seen": 17,
+      "known_scam": 0,
+      "fetch_failed": 5,
+      "first_pass_dropped": 6,
+      "scam": 0,
+      "legit_unknown": 0,
+      "ineligible": 4,
+      "closed": 0,
+      "deep_analyzed": 0,
+      "scored_high": 0
+    }
+  },
+  {
+    "at": "2026-07-30T07:39:16.977972+00:00",
+    "kind": "run",
+    "mode": "scan",
+    "environment": "github_actions",
+    "stats": {
+      "discovered": 40,
+      "already_seen": 17,
+      "known_scam": 0,
+      "fetch_failed": 5,
+      "first_pass_dropped": 6,
+      "scam": 0,
+      "legit_unknown": 0,
+      "ineligible": 4,
       "closed": 0,
       "deep_analyzed": 0,
       "scored_high": 0,

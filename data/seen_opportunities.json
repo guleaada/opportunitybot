@@ -1362,5 +1362,95 @@
     "id": "89c84883fbf8e89c",
     "first_seen": "2026-07-29T07:46:35.069917+00:00",
     "last_updated": "2026-07-29T07:46:35.069927+00:00"
+  },
+  "81f3db143832922e": {
+    "url": "https://www.opportunitiesforafricans.com/university-of-rwanda-mastercard-foundation-scholars-program-2026-2027-for-young-africans/",
+    "title": "University of Rwanda Mastercard Foundation Scholars Program 2026/2027 for young Africans (Fully Funded)",
+    "status": "ineligible",
+    "reasoning": "The program prioritizes citizens of Rwanda or any African country, refugees, or displaced young people in Africa, but does not explicitly exclude other nationalities. However, the candidate's main issue is the program's focus and the candidate's own preferences and background. The main hard blocker is the program's geographical and demographic focus.",
+    "id": "81f3db143832922e",
+    "first_seen": "2026-07-30T07:35:54.448783+00:00",
+    "last_updated": "2026-07-30T07:35:54.448791+00:00"
+  },
+  "ad8c92c7834fcfb6": {
+    "url": "https://www.opportunitiesforafricans.com/call-for-youth-delegation-to-the-world-forum-for-democracy-2026/",
+    "title": "Call for Youth Delegation to the World Forum for Democracy 2026 in Strasbourg, France (Fully Funded)",
+    "status": "ineligible",
+    "reasoning": "The program requires candidates to 'Represent a youth organisation and/or youth movement active at local, regional, national or international level on topics of democracy, youth participation, innovative democratic practices', which is not mentioned in the candidate's profile. Additionally, the candidate is a working professional, not explicitly fitting the 'youth delegation' context which may imply a student or recent graduate status, although this is not strictly stated.",
+    "id": "ad8c92c7834fcfb6",
+    "first_seen": "2026-07-30T07:36:15.007792+00:00",
+    "last_updated": "2026-07-30T07:36:15.007804+00:00"
+  },
+  "bc3c0cddd2852e09": {
+    "url": "https://www.opportunitiesforafricans.com/the-africa-europe-innovation-platform-aeip-scholars-programme-2026-2027-for-african-scholars/",
+    "title": "The Africa-Europe Innovation Platform (AEIP) Scholars Programme 2026/2027 for African Scholars.",
+    "status": "filtered_out",
+    "reason": "Candidate is not enrolled in PhD, Post-Docs, or further studies",
+    "id": "bc3c0cddd2852e09",
+    "first_seen": "2026-07-30T07:36:35.790879+00:00",
+    "last_updated": "2026-07-30T07:36:35.790887+00:00"
+  },
+  "735bbceeb4c59218": {
+    "url": "https://www.opportunitiesforafricans.com/gtfund-and-gtpension-manager-entry-level-training-program-2026-for-young-nigerian-graduates/",
+    "title": "GTFund and GTPension Manager Entry Level Training Program 2026 for young Nigerian graduates.",
+    "status": "filtered_out",
+    "reason": "Ethiopian nationals are not eligible",
+    "id": "735bbceeb4c59218",
+    "first_seen": "2026-07-30T07:36:39.949605+00:00",
+    "last_updated": "2026-07-30T07:36:39.949612+00:00"
+  },
+  "29ab872eda4a7a84": {
+    "url": "https://www.opportunitiesforafricans.com/the-smart-africa-fao-innovate-africa-challenge-2026-for-african-startups/",
+    "title": "The Smart Africa/FAO Innovate Africa Challenge 2026 for African startups.",
+    "status": "filtered_out",
+    "reason": "Ethiopian nationals are not eligible",
+    "id": "29ab872eda4a7a84",
+    "first_seen": "2026-07-30T07:37:01.850982+00:00",
+    "last_updated": "2026-07-30T07:37:01.850989+00:00"
+  },
+  "17044adaf58d5242": {
+    "url": "https://www.opportunitiesforafricans.com/the-francesouth-africa-scholarship-programme-2027-for-southern-africans-to-study-in-france/",
+    "title": "The France–South Africa Scholarship Programme 2027 for Southern Africans to study in France (Fully Funded)",
+    "status": "filtered_out",
+    "reason": "Ethiopian nationals are not eligible",
+    "id": "17044adaf58d5242",
+    "first_seen": "2026-07-30T07:37:13.088257+00:00",
+    "last_updated": "2026-07-30T07:37:13.088265+00:00"
+  },
+  "d1d245c8b8283560": {
+    "url": "https://www.opportunitiesforafricans.com/freiburg-institute-for-advanced-studies-frias-early-career-fellowship-programme-2027-2028/",
+    "title": "Freiburg Institute for Advanced Studies (FRIAS)  Early Career Fellowship Programme 2027/2028 for researchers worldwide.",
+    "status": "filtered_out",
+    "reason": "Candidate does not have a completed doctoral degree",
+    "id": "d1d245c8b8283560",
+    "first_seen": "2026-07-30T07:37:35.531162+00:00",
+    "last_updated": "2026-07-30T07:37:35.531169+00:00"
+  },
+  "8e91f64ba2800267": {
+    "url": "https://www.opportunitiesforafricans.com/the-university-of-ghana-institute-of-statistical-social-and-economic-research-isser-pre-doctoral-fellowship-2027/",
+    "title": "The University of Ghana Institute of Statistical, Social, and Economic Research (ISSER)  Pre-Doctoral Fellowship 2027",
+    "status": "filtered_out",
+    "reason": "Candidate does not have a Master's degree",
+    "id": "8e91f64ba2800267",
+    "first_seen": "2026-07-30T07:37:40.891578+00:00",
+    "last_updated": "2026-07-30T07:37:40.891585+00:00"
+  },
+  "57e3febd29b4db5d": {
+    "url": "https://www.opportunitiesforafricans.com/undp-africa-timbuktoo-launchpad-program-2026/",
+    "title": "UNDP Africa Timbuktoo Launchpad Program 2026 for GreenTech Startups.",
+    "status": "ineligible",
+    "reasoning": "The program is designed for startups, not individuals, and requires startups to be based in Africa or building solutions targeting African green and climate markets. The candidate is a working professional based in Lao PDR and does not have a startup that meets the program's eligibility criteria.",
+    "id": "57e3febd29b4db5d",
+    "first_seen": "2026-07-30T07:38:27.099974+00:00",
+    "last_updated": "2026-07-30T07:38:27.099981+00:00"
+  },
+  "eacff636242e0b04": {
+    "url": "https://www.opportunitiesforafricans.com/the-google-for-startups-accelerator-middle-east-north-africa-program-2026-2027-for-mena-startups/",
+    "title": "The Google for Startups Accelerator: Middle East, North Africa Program 2026/2027 for MENA startups.",
+    "status": "ineligible",
+    "reasoning": "The program is designed for startups, not individuals, and requires commitment from CTO and/or technical roles to participate, which does not match the candidate's current profile as a working professional without a clear indication of being part of a startup or having a CTO/technical role commitment.",
+    "id": "eacff636242e0b04",
+    "first_seen": "2026-07-30T07:39:14.167650+00:00",
+    "last_updated": "2026-07-30T07:39:14.167657+00:00"
   }
 }
