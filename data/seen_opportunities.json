@@ -1452,5 +1452,50 @@
     "id": "eacff636242e0b04",
     "first_seen": "2026-07-30T07:39:14.167650+00:00",
     "last_updated": "2026-07-30T07:39:14.167657+00:00"
+  },
+  "ac6095db0d1cac3c": {
+    "url": "https://opportunitiescorners.com/international-leadership-program-italy-2026/",
+    "title": "International Leadership Program Italy 2026 (Funded)",
+    "status": "filtered_out",
+    "reason": "It requires an application fee over the acceptable threshold is not true, but the program has a deadline of 31 July 2026 which has passed",
+    "id": "ac6095db0d1cac3c",
+    "first_seen": "2026-07-31T07:52:36.504460+00:00",
+    "last_updated": "2026-07-31T07:52:36.504467+00:00"
+  },
+  "49e19486712e2fc6": {
+    "url": "https://opportunitiescorners.com/unicef-internship-in-italy/",
+    "title": "UNICEF Internship in Rome, Italy 2026 | Fully Funded",
+    "status": "filtered_out",
+    "reason": "Candidate does not meet the eligibility criteria of being a student or recent graduate",
+    "id": "49e19486712e2fc6",
+    "first_seen": "2026-07-31T07:52:39.100491+00:00",
+    "last_updated": "2026-07-31T07:52:39.100500+00:00"
+  },
+  "6ebe51dfcc4ec7b9": {
+    "url": "https://www.opportunitiesforafricans.com/the-meristems-starlet-graduate-trainee-program-2027-for-young-nigerian-graduates/",
+    "title": "The Meristem’s Starlet Graduate Trainee Program 2027 for young Nigerian graduates",
+    "status": "filtered_out",
+    "reason": "Ethiopian nationals are clearly not eligible due to the NYSC requirement",
+    "id": "6ebe51dfcc4ec7b9",
+    "first_seen": "2026-07-31T07:53:01.338688+00:00",
+    "last_updated": "2026-07-31T07:53:01.338696+00:00"
+  },
+  "5be594f020263589": {
+    "url": "https://www.opportunitiesforafricans.com/konrad-adenauer-foundation-saiia-scholarships-2027-for-young-south-africans/",
+    "title": "Konrad Adenauer Foundation-SAIIA Scholarships 2027 for young South Africans.",
+    "status": "filtered_out",
+    "reason": "Ethiopian nationals are clearly not eligible",
+    "id": "5be594f020263589",
+    "first_seen": "2026-07-31T07:53:07.625264+00:00",
+    "last_updated": "2026-07-31T07:53:07.625271+00:00"
+  },
+  "6f7e2307c8258850": {
+    "url": "https://www.opportunitiesforafricans.com/mtn-wwf-africa-pachipanda-challenge-2026-for-youth-led-smes-5000-usd-prize/",
+    "title": "MTN-WWF Africa PachiPanda Challenge 2026 for youth-led SMEs (5,000 USD prize)",
+    "status": "filtered_out",
+    "reason": "It offers no funding for education or residency, only a prize",
+    "id": "6f7e2307c8258850",
+    "first_seen": "2026-07-31T07:53:36.168730+00:00",
+    "last_updated": "2026-07-31T07:53:36.168738+00:00"
   }
 }

@@ -1,99 +1,5 @@
 [
   {
-    "at": "2026-07-16T07:24:04.104031+00:00",
-    "kind": "error",
-    "message": "Fetch failed for https://vanier.gc.ca/en/home-accueil.html: HTTPSConnectionPool(host='vanier.gc.ca', port=443): Max retries exceeded with url: /en/home-accueil.html (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)')))"
-  },
-  {
-    "at": "2026-07-16T07:24:04.164416+00:00",
-    "kind": "error",
-    "message": "Fetch failed for https://opportunitydesk.org/category/fellowships/: 403"
-  },
-  {
-    "at": "2026-07-16T07:25:52.862574+00:00",
-    "kind": "error",
-    "message": "Fetch failed for https://opportunitydesk.org/2026/07/15/royal-society-research-ireland-university-research-fellowship-2026/: 403"
-  },
-  {
-    "at": "2026-07-16T07:25:52.925893+00:00",
-    "kind": "error",
-    "message": "Fetch failed for https://opportunitydesk.org/2026/07/15/bloomsbury-academic-writing-fellowship-2026/: 403"
-  },
-  {
-    "at": "2026-07-16T07:25:52.977853+00:00",
-    "kind": "error",
-    "message": "Fetch failed for https://opportunitydesk.org/2026/07/15/fens-ibro-perc-exchange-fellowships-program-2026/: 403"
-  },
-  {
-    "at": "2026-07-16T07:25:55.587848+00:00",
-    "kind": "scan_complete",
-    "message": "daily scan finished",
-    "matches": 0,
-    "stats": {
-      "discovered": 40,
-      "already_seen": 18,
-      "known_scam": 0,
-      "fetch_failed": 6,
-      "first_pass_dropped": 9,
-      "scam": 0,
-      "legit_unknown": 0,
-      "ineligible": 0,
-      "closed": 0,
-      "deep_analyzed": 0,
-      "scored_high": 0
-    }
-  },
-  {
-    "at": "2026-07-16T07:25:55.589349+00:00",
-    "kind": "run",
-    "mode": "scan",
-    "environment": "github_actions",
-    "stats": {
-      "discovered": 40,
-      "already_seen": 18,
-      "known_scam": 0,
-      "fetch_failed": 6,
-      "first_pass_dropped": 9,
-      "scam": 0,
-      "legit_unknown": 0,
-      "ineligible": 0,
-      "closed": 0,
-      "deep_analyzed": 0,
-      "scored_high": 0,
-      "matches": 0
-    }
-  },
-  {
-    "at": "2026-07-17T07:19:00.218396+00:00",
-    "kind": "scan_start",
-    "message": "daily scan started"
-  },
-  {
-    "at": "2026-07-17T07:19:31.670513+00:00",
-    "kind": "error",
-    "message": "Fetch failed for https://www.dfat.gov.au/people-to-people/australia-awards/australia-awards-scholarships: HTTPSConnectionPool(host='www.dfat.gov.au', port=443): Read timed out. (read timeout=25)"
-  },
-  {
-    "at": "2026-07-17T07:19:31.807974+00:00",
-    "kind": "error",
-    "message": "Fetch failed for https://vanier.gc.ca/en/home-accueil.html: HTTPSConnectionPool(host='vanier.gc.ca', port=443): Max retries exceeded with url: /en/home-accueil.html (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)')))"
-  },
-  {
-    "at": "2026-07-17T07:19:31.873555+00:00",
-    "kind": "error",
-    "message": "Fetch failed for https://opportunitydesk.org/category/fellowships/: 403"
-  },
-  {
-    "at": "2026-07-17T07:20:19.786687+00:00",
-    "kind": "error",
-    "message": "Fetch failed for https://opportunitydesk.org/2026/07/16/how-to-invest-in-foreign-currencies/: 403"
-  },
-  {
-    "at": "2026-07-17T07:20:19.859076+00:00",
-    "kind": "error",
-    "message": "Fetch failed for https://opportunitydesk.org/2026/07/16/22-hot-job-opportunities-currently-open-july-16-2027/: 403"
-  },
-  {
     "at": "2026-07-17T07:20:19.916032+00:00",
     "kind": "error",
     "message": "Fetch failed for https://opportunitydesk.org/2026/07/16/30-awards-fellowships-and-competitions-currently-open-july-16-2026/: 403"
@@ -1428,6 +1334,100 @@
       "scam": 0,
       "legit_unknown": 0,
       "ineligible": 4,
+      "closed": 0,
+      "deep_analyzed": 0,
+      "scored_high": 0,
+      "matches": 0
+    }
+  },
+  {
+    "at": "2026-07-31T07:52:01.959235+00:00",
+    "kind": "scan_start",
+    "message": "daily scan started"
+  },
+  {
+    "at": "2026-07-31T07:52:32.610474+00:00",
+    "kind": "error",
+    "message": "Fetch failed for https://www.dfat.gov.au/people-to-people/australia-awards/australia-awards-scholarships: HTTPSConnectionPool(host='www.dfat.gov.au', port=443): Read timed out. (read timeout=25)"
+  },
+  {
+    "at": "2026-07-31T07:52:32.864468+00:00",
+    "kind": "error",
+    "message": "Fetch failed for https://vanier.gc.ca/en/home-accueil.html: HTTPSConnectionPool(host='vanier.gc.ca', port=443): Max retries exceeded with url: /en/home-accueil.html (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)')))"
+  },
+  {
+    "at": "2026-07-31T07:52:32.902551+00:00",
+    "kind": "error",
+    "message": "Fetch failed for https://opportunitydesk.org/category/fellowships/: 403"
+  },
+  {
+    "at": "2026-07-31T07:53:36.209842+00:00",
+    "kind": "error",
+    "message": "Fetch failed for https://opportunitydesk.org/2026/07/30/wissenschaftskolleg-zu-berlin-early-career-fellowships-in-the-humanities-and-social-sciences-2027-2028/: 403"
+  },
+  {
+    "at": "2026-07-31T07:53:36.250693+00:00",
+    "kind": "error",
+    "message": "Fetch failed for https://opportunitydesk.org/2026/07/30/wipo-fellowship-2026-2027/: 403"
+  },
+  {
+    "at": "2026-07-31T07:53:36.302152+00:00",
+    "kind": "error",
+    "message": "Fetch failed for https://opportunitydesk.org/2026/07/30/marca-college-beauty-content-creator-scholarship-2026-2027/: 403"
+  },
+  {
+    "at": "2026-07-31T07:53:36.341322+00:00",
+    "kind": "error",
+    "message": "Fetch failed for https://opportunitydesk.org/2026/07/30/nourishnext-west-africa-youth-agrifood-innovation-challenge-2026/: 403"
+  },
+  {
+    "at": "2026-07-31T07:53:36.380662+00:00",
+    "kind": "error",
+    "message": "Fetch failed for https://opportunitydesk.org/2026/07/30/snac-writing-scholarships-2026/: 403"
+  },
+  {
+    "at": "2026-07-31T07:53:36.420691+00:00",
+    "kind": "error",
+    "message": "Fetch failed for https://opportunitydesk.org/2026/07/30/wissenschaftskolleg-zu-berlin-early-career-fellowships-in-the-life-and-natural-sciences-2027-2028/: 403"
+  },
+  {
+    "at": "2026-07-31T07:53:36.462119+00:00",
+    "kind": "error",
+    "message": "Fetch failed for https://opportunitydesk.org/2026/07/29/snac-phd-at-risk-scholarships-2026/: 403"
+  },
+  {
+    "at": "2026-07-31T07:53:39.209112+00:00",
+    "kind": "scan_complete",
+    "message": "daily scan finished",
+    "matches": 0,
+    "stats": {
+      "discovered": 40,
+      "already_seen": 22,
+      "known_scam": 0,
+      "fetch_failed": 10,
+      "first_pass_dropped": 5,
+      "scam": 0,
+      "legit_unknown": 0,
+      "ineligible": 0,
+      "closed": 0,
+      "deep_analyzed": 0,
+      "scored_high": 0
+    }
+  },
+  {
+    "at": "2026-07-31T07:53:39.210728+00:00",
+    "kind": "run",
+    "mode": "scan",
+    "environment": "github_actions",
+    "stats": {
+      "discovered": 40,
+      "already_seen": 22,
+      "known_scam": 0,
+      "fetch_failed": 10,
+      "first_pass_dropped": 5,
+      "scam": 0,
+      "legit_unknown": 0,
+      "ineligible": 0,
       "closed": 0,
       "deep_analyzed": 0,
       "scored_high": 0,
