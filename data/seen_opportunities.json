@@ -1497,5 +1497,59 @@
     "id": "6f7e2307c8258850",
     "first_seen": "2026-07-31T07:53:36.168730+00:00",
     "last_updated": "2026-07-31T07:53:36.168738+00:00"
+  },
+  "ee6853d10d800e27": {
+    "url": "https://opportunitiescorners.com/youth-strategic-forum-dubai-2026/",
+    "title": "Youth Strategic Forum (YSF) Dubai 2026 (Fully Funded)",
+    "status": "filtered_out",
+    "reason": "It requires an application fee over the acceptable threshold is not true, but the program has a self-funded option and the fully funded option is not guaranteed, however the main reason is the application fee is $16.99 which is less than $50 but the program has a fee-paying invitation summit characteristic",
+    "id": "ee6853d10d800e27",
+    "first_seen": "2026-08-01T07:29:13.673401+00:00",
+    "last_updated": "2026-08-01T07:29:13.673408+00:00"
+  },
+  "c602b1b01ff83912": {
+    "url": "https://opportunitiescorners.com/asef-linkup-program-2026-in-slovenia/",
+    "title": "ASEF LinkUp Program 2026 in Slovenia (Fully Funded)",
+    "status": "filtered_out",
+    "reason": "Ethiopia is not an ASEM partner country",
+    "id": "c602b1b01ff83912",
+    "first_seen": "2026-08-01T07:29:19.045928+00:00",
+    "last_updated": "2026-08-01T07:29:19.045945+00:00"
+  },
+  "d178dcdc132e51c1": {
+    "url": "https://www.opportunitiesforafricans.com/the-ecowas-young-graduates-professional-immersion-programme-ygp-2027/",
+    "title": "The ECOWAS Young Graduates’ Professional Immersion Programme (YGP) 2027 for young Africans.",
+    "status": "filtered_out",
+    "reason": "Ethiopian nationals are not eligible",
+    "id": "d178dcdc132e51c1",
+    "first_seen": "2026-08-01T07:29:40.389025+00:00",
+    "last_updated": "2026-08-01T07:29:40.389033+00:00"
+  },
+  "590c57d0cf41c23b": {
+    "url": "https://www.opportunitiesforafricans.com/africa-uncensored-kas-africa-investigative-journalism-lab-2026/",
+    "title": "Africa Uncensored/KAS Africa Investigative Journalism Lab 2026 for Mid-career & Senior East African Journalists (Fully Funded to Mombasa, Kenya)",
+    "status": "filtered_out",
+    "reason": "Candidate is not a journalist",
+    "id": "590c57d0cf41c23b",
+    "first_seen": "2026-08-01T07:29:50.073418+00:00",
+    "last_updated": "2026-08-01T07:29:50.073427+00:00"
+  },
+  "58691dae8ebd3316": {
+    "url": "https://www.opportunitiesforafricans.com/competition-for-youth-led-projects-2026-2027/",
+    "title": "Competition for Youth-Led Projects 2026-2027  for youth-led  students/young professionals projects   (3000 CHF prize)",
+    "status": "legitimacy_unknown",
+    "reasoning": "The competition appears to be a legitimate call for youth-led projects, with clear eligibility criteria and benefits, but there is no information about the organizing entity or the application process that can confirm its legitimacy, such as a government or well-known organization's backing.",
+    "id": "58691dae8ebd3316",
+    "first_seen": "2026-08-01T07:30:27.829797+00:00",
+    "last_updated": "2026-08-01T07:30:27.829806+00:00"
+  },
+  "baba1c192966b68d": {
+    "url": "https://www.opportunitiesforafricans.com/the-african-trade-chambers-2026-2027-national-service-programme-for-young-ghanaians/",
+    "title": "The African Trade Chamber’s 2026/2027 National Service Programme for young Ghanaians",
+    "status": "filtered_out",
+    "reason": "Ethiopian nationals are not eligible as it is for young Ghanaians",
+    "id": "baba1c192966b68d",
+    "first_seen": "2026-08-01T07:30:42.389768+00:00",
+    "last_updated": "2026-08-01T07:30:42.389776+00:00"
   }
 }
