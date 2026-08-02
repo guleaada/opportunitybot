@@ -1551,5 +1551,32 @@
     "id": "baba1c192966b68d",
     "first_seen": "2026-08-01T07:30:42.389768+00:00",
     "last_updated": "2026-08-01T07:30:42.389776+00:00"
+  },
+  "36fc93c0d5975dc9": {
+    "url": "https://opportunitiescorners.com/wipo-fellowship-2026/",
+    "title": "WIPO Fellowship 2026 in Switzerland (Fully Funded)",
+    "status": "ineligible",
+    "reasoning": "The program requires applicants to demonstrate excellent written and spoken English, but the candidate does not have an English proficiency certificate (IELTS/TOEFL) and while they can obtain a Duolingo or MOI certificate, it is unclear if this will meet the program's language proficiency requirements. Additionally, some fellowship categories may require a Master's degree or PhD, which the candidate does not have.",
+    "id": "36fc93c0d5975dc9",
+    "first_seen": "2026-08-02T07:33:37.506504+00:00",
+    "last_updated": "2026-08-02T07:33:37.506511+00:00"
+  },
+  "b3469dd96f2f1403": {
+    "url": "https://opportunitiescorners.com/sdg-innovation-summit-malaysia/",
+    "title": "SDG Innovation Summit Malaysia 2026 (Fully Funded)",
+    "status": "suspicious",
+    "reasoning": "The program is described as fully funded, but the organizer, Global Youth Network (GYN), is not a well-known or established organization, and there is no clear information on how the program is funded or supported. Additionally, the application process requires submitting personal information and documents through an online form, but it does not provide clear details on the selection criteria or the evaluation process.",
+    "id": "b3469dd96f2f1403",
+    "first_seen": "2026-08-02T07:33:45.916011+00:00",
+    "last_updated": "2026-08-02T07:33:45.916019+00:00"
+  },
+  "c382829afe5e9a73": {
+    "url": "https://www.opportunitiesforafricans.com/the-vfd-group-future-leaders-programme-2026-for-young-nigerian-graduates/",
+    "title": "The VFD Group Future Leaders Programme 2026 for young Nigerian graduates.",
+    "status": "filtered_out",
+    "reason": "The program is only for Nigerian graduates",
+    "id": "c382829afe5e9a73",
+    "first_seen": "2026-08-02T07:34:06.196429+00:00",
+    "last_updated": "2026-08-02T07:34:06.196437+00:00"
   }
 }
