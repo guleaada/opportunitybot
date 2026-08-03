@@ -4654,5 +4654,21 @@
     "tokens_in": 972,
     "tokens_out": 38,
     "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-08-03T08:31:23.555529+00:00",
+    "provider": "groq",
+    "task": "clean_html",
+    "tokens_in": 1706,
+    "tokens_out": 662,
+    "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-08-03T08:31:24.449822+00:00",
+    "provider": "groq",
+    "task": "first_pass_filter",
+    "tokens_in": 1225,
+    "tokens_out": 39,
+    "cost_usd": 0.0
   }
 ]
