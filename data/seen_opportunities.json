@@ -1587,5 +1587,68 @@
     "id": "2a5f0eb5a67c526b",
     "first_seen": "2026-08-03T08:31:24.456057+00:00",
     "last_updated": "2026-08-03T08:31:24.456069+00:00"
+  },
+  "224f402845be0d17": {
+    "url": "https://opportunitiescorners.com/wipo-internship-2027/",
+    "title": "WIPO Internship 2027 in Switzerland (Fully Funded)",
+    "status": "ineligible",
+    "reasoning": "The program requires applicants to be an international student or recent graduate, but the candidate is a working professional and not currently a student.",
+    "id": "224f402845be0d17",
+    "first_seen": "2026-08-04T07:42:34.125772+00:00",
+    "last_updated": "2026-08-04T07:42:34.125781+00:00"
+  },
+  "9b7acebfce15c7c7": {
+    "url": "https://opportunitiescorners.com/united-nations-volunteer-2026/",
+    "title": "United Nations Volunteer Program 2026 (Funded)",
+    "status": "unknown",
+    "reasoning": "The program's eligibility criteria vary by assignment, role, duration, and contract type, and are not specified in the provided text",
+    "id": "9b7acebfce15c7c7",
+    "first_seen": "2026-08-04T07:43:12.905916+00:00",
+    "last_updated": "2026-08-04T07:43:12.905924+00:00"
+  },
+  "0efdfb83c1c37967": {
+    "url": "https://www.opportunitiesforafricans.com/the-commonwealth-startup-fellowship-2026-2027/",
+    "title": "The Commonwealth Startup Fellowship 2026/2027 for early stage start-ups (Fully Funded to Bootcamp in Accra, Ghana and Capstone Week in London, UK )",
+    "status": "filtered_out",
+    "reason": "Ethiopia is not listed as an eligible country",
+    "id": "0efdfb83c1c37967",
+    "first_seen": "2026-08-04T07:43:37.678593+00:00",
+    "last_updated": "2026-08-04T07:43:37.678600+00:00"
+  },
+  "7fa85c778a16c99a": {
+    "url": "https://www.opportunitiesforafricans.com/the-aerc-world-bank-visiting-scholars-programme-2026-2027-for-african-researchers/",
+    "title": "The AERC-World Bank Visiting Scholars Programme 2026/2027 for African Researchers.",
+    "status": "ineligible",
+    "reasoning": "The program requires applicants to be AERC researchers with an active AERC research project, which is not mentioned in the candidate's profile",
+    "id": "7fa85c778a16c99a",
+    "first_seen": "2026-08-04T07:44:10.315930+00:00",
+    "last_updated": "2026-08-04T07:44:10.315939+00:00"
+  },
+  "c6ab53ce204aa80b": {
+    "url": "https://www.opportunitiesforafricans.com/nedbank-quants-exploration-programme-2026-for-young-south-african-undergraduate-students/",
+    "title": "NedBank Quants Exploration Programme 2026 for Young South African Undergraduate Students",
+    "status": "filtered_out",
+    "reason": "Ethiopian nationals are clearly not eligible",
+    "id": "c6ab53ce204aa80b",
+    "first_seen": "2026-08-04T07:44:21.845667+00:00",
+    "last_updated": "2026-08-04T07:44:21.845673+00:00"
+  },
+  "160f057360bd254a": {
+    "url": "https://www.opportunitiesforafricans.com/dsti-csir-inter-programme-bursary-scheme-2027/",
+    "title": "DSTI-CSIR Inter-programme Bursary Scheme 2027 for young South African students.",
+    "status": "filtered_out",
+    "reason": "Ethiopian nationals are clearly not eligible",
+    "id": "160f057360bd254a",
+    "first_seen": "2026-08-04T07:44:36.416876+00:00",
+    "last_updated": "2026-08-04T07:44:36.416883+00:00"
+  },
+  "b7433e66d8d23b5d": {
+    "url": "https://www.opportunitiesforafricans.com/the-frias-sustainable-governance-senior-fellowship-programme-2027-2028-for-african-researchers/",
+    "title": "The FRIAS Sustainable Governance Senior Fellowship Programme 2027/2028 for African Researchers.",
+    "status": "filtered_out",
+    "reason": "Candidate does not have a completed doctoral degree",
+    "id": "b7433e66d8d23b5d",
+    "first_seen": "2026-08-04T07:44:51.328599+00:00",
+    "last_updated": "2026-08-04T07:44:51.328607+00:00"
   }
 }
