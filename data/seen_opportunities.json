@@ -1650,5 +1650,79 @@
     "id": "b7433e66d8d23b5d",
     "first_seen": "2026-08-04T07:44:51.328599+00:00",
     "last_updated": "2026-08-04T07:44:51.328607+00:00"
+  },
+  "d679ff7b1b60e55f": {
+    "url": "https://opportunitiescorners.com/icann88-fellowship-2027/",
+    "title": "ICANN88 Fellowship 2027 in Portugal (Fully Funded Conference)",
+    "status": "analyzed",
+    "score": 8.5,
+    "deadline": "2026-08-21",
+    "id": "d679ff7b1b60e55f",
+    "first_seen": "2026-08-05T07:42:27.990139+00:00",
+    "last_updated": "2026-08-05T07:42:27.990146+00:00"
+  },
+  "7c78436707657e71": {
+    "url": "https://opportunitiescorners.com/chevening-scholarship-2027/",
+    "title": "Chevening Scholarship 2027 in the UK | Fully Funded",
+    "status": "analyzed",
+    "score": 9.4,
+    "deadline": "2026-10-06",
+    "id": "7c78436707657e71",
+    "first_seen": "2026-08-05T07:43:22.425124+00:00",
+    "last_updated": "2026-08-05T07:43:22.425132+00:00"
+  },
+  "325cd22fd95081a9": {
+    "url": "https://www.opportunitiesforafricans.com/chevening-uk-government-scholarships-programme-2027/",
+    "title": "Chevening UK Government Scholarships Programme 2027/2028 for Study in the United Kingdom (Fully Funded)",
+    "status": "ineligible",
+    "reasoning": "The candidate is a working professional but does not have an English language proficiency certificate, and more importantly, the program requires the candidate to have an unconditional offer from at least one UK university course by the deadline, which is not mentioned in the candidate profile. However, the main hard blocker is not explicitly mentioned, but it can be inferred that the candidate's lack of English proficiency certificate and not being a current student are potential issues. The main hard blocker is actually the requirement for the candidate to apply to three different and eligible UK university courses and receive an unconditional offer, which is not something that can be easily addressed in the given timeframe without first being accepted into a university program. Additionally, being a working professional and not a student is not a blocker as the program requires work experience.",
+    "id": "325cd22fd95081a9",
+    "first_seen": "2026-08-05T07:43:50.628637+00:00",
+    "last_updated": "2026-08-05T07:43:50.628645+00:00"
+  },
+  "719d5f831a1db7df": {
+    "url": "https://www.opportunitiesforafricans.com/2026-2027-skoll-mba-scholarship-in-social-entrepreneurship-at-the-university-of-oxfords-said-business-school/",
+    "title": "2026/2027 Skoll MBA Scholarship in Social Entrepreneurship at the University of oxford’s Saïd Business School (Fully Funded)",
+    "status": "ineligible",
+    "reasoning": "The program requires applicants to be applying for the Oxford MBA, which typically requires a strong academic background and significant professional experience, but more importantly, the candidate must be applying as a student, not as a working professional without the intention of pursuing a degree. However, the main hard blocker here is not explicitly stated but can be inferred from typical MBA requirements: the candidate needs to apply for the MBA program and meet its requirements, which include English proficiency tests like IELTS or TOEFL for most international students, though this specific program does not explicitly state English requirements, it does imply the need for an MBA application which often comes with such requirements.",
+    "id": "719d5f831a1db7df",
+    "first_seen": "2026-08-05T07:44:21.714192+00:00",
+    "last_updated": "2026-08-05T07:44:21.714200+00:00"
+  },
+  "398322a0375467b1": {
+    "url": "https://www.opportunitiesforafricans.com/cgiar-climate-peace-and-security-spring-school-2026/",
+    "title": "CGIAR Climate, Peace and Security Spring School 2026 for Early Career South African Researchers (Fully Funded)",
+    "status": "filtered_out",
+    "reason": "Applicants must currently live in South Africa",
+    "id": "398322a0375467b1",
+    "first_seen": "2026-08-05T07:44:51.787347+00:00",
+    "last_updated": "2026-08-05T07:44:51.787356+00:00"
+  },
+  "80da21adcdf75536": {
+    "url": "https://www.opportunitiesforafricans.com/united-nations-ohchr-indigenous-fellowship-programme-2027-human-rights-training/",
+    "title": "United Nations OHCHR Indigenous Fellowship Programme 2027– Human Rights Training in Geneva Switzerland (Fully Funded)",
+    "status": "filtered_out",
+    "reason": "Candidate is not indigenous",
+    "id": "80da21adcdf75536",
+    "first_seen": "2026-08-05T07:45:02.637969+00:00",
+    "last_updated": "2026-08-05T07:45:02.637978+00:00"
+  },
+  "e9707f26fff38786": {
+    "url": "https://www.opportunitiesforafricans.com/the-multidisciplinary-mobility-for-a-climate-resilient-africa-mmocra-masters-phd-scholarships-2026-eu-funded/",
+    "title": "The Multidisciplinary Mobility for a Climate Resilient Africa (MMoCRA) Master’s & PhD Scholarships 2026 (EU-Funded)",
+    "status": "ineligible",
+    "reasoning": "The programme is offering Master's and PhD scholarships, which require the candidate to be a student, but the candidate is a working professional and not currently a student.",
+    "id": "e9707f26fff38786",
+    "first_seen": "2026-08-05T07:45:24.469348+00:00",
+    "last_updated": "2026-08-05T07:45:24.469360+00:00"
+  },
+  "533b89459ea0f96f": {
+    "url": "https://www.opportunitiesforafricans.com/chevening-oxford-centre-for-islamic-studies-ocis-fellowship-program-2027-2028/",
+    "title": "Chevening-Oxford Centre for Islamic Studies (OCIS) Fellowship Program 2027/2028 for Mid-Career Professionals (Fully Funded for Study in the UK)",
+    "status": "filtered_out",
+    "reason": "Ethiopian nationals are not eligible",
+    "id": "533b89459ea0f96f",
+    "first_seen": "2026-08-05T07:45:35.967679+00:00",
+    "last_updated": "2026-08-05T07:45:35.967686+00:00"
   }
 }
