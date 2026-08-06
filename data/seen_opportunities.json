@@ -1724,5 +1724,69 @@
     "id": "533b89459ea0f96f",
     "first_seen": "2026-08-05T07:45:35.967679+00:00",
     "last_updated": "2026-08-05T07:45:35.967686+00:00"
+  },
+  "7820693a8077ec09": {
+    "url": "https://opportunitiescorners.com/who-business-operation-internship-2026-in-germany/",
+    "title": "WHO Business Operation Internship 2026 in Germany (Paid)",
+    "status": "ineligible",
+    "reasoning": "The program requires candidates to be enrolled at a recognized university or have graduated within the last 18 months, but the candidate is a working professional who graduated in 2021, exceeding the 18-month limit.",
+    "id": "7820693a8077ec09",
+    "first_seen": "2026-08-06T07:42:19.944085+00:00",
+    "last_updated": "2026-08-06T07:42:19.944096+00:00"
+  },
+  "9d6e424885c9b44a": {
+    "url": "https://opportunitiescorners.com/yale-peace-fellowship-2027/",
+    "title": "Yale Peace Fellowship 2027 (Fully Funded to USA, & UK)",
+    "status": "legitimacy_unknown",
+    "reasoning": "The program appears to be fully funded with no application fee, which is a positive signal, but there is no clear information about the organization or institution behind the fellowship, and a quick search does not reveal any information about a 'Yale Peace Fellowship' from Yale University or other reputable sources. The lack of transparency about the program's administration and funding raises concerns.",
+    "id": "9d6e424885c9b44a",
+    "first_seen": "2026-08-06T07:42:34.955117+00:00",
+    "last_updated": "2026-08-06T07:42:34.955127+00:00"
+  },
+  "cac3e533134dcbb7": {
+    "url": "https://www.opportunitiesforafricans.com/commonwealth-fellowship-programme-2026-2027/",
+    "title": "Commonwealth Fellowship Programme 2026/2027 for mid-career professionals and academics (Fully Funded Study in the United Kingdom)",
+    "status": "filtered_out",
+    "reason": "Ethiopia is not listed as an eligible country",
+    "id": "cac3e533134dcbb7",
+    "first_seen": "2026-08-06T07:42:55.646722+00:00",
+    "last_updated": "2026-08-06T07:42:55.646760+00:00"
+  },
+  "4cbdd8d1722b2e09": {
+    "url": "https://www.opportunitiesforafricans.com/sasol-foundation-bursary-programme-2027-for-young-south-africans/",
+    "title": "Sasol Foundation Bursary Programme 2027 for Young South Africans (Fully Funded)",
+    "status": "filtered_out",
+    "reason": "The applicant is not a South African citizen by birth and exceeds the age limit",
+    "id": "4cbdd8d1722b2e09",
+    "first_seen": "2026-08-06T07:43:09.276193+00:00",
+    "last_updated": "2026-08-06T07:43:09.276205+00:00"
+  },
+  "c4a587c8f83cba2d": {
+    "url": "https://www.opportunitiesforafricans.com/the-getty-conservation-guest-scholars-program-2026-2027/",
+    "title": "The Getty Conservation Guest Scholars Program 2026/2027 for established scholars or professionals",
+    "status": "ineligible",
+    "reasoning": "The program requires applicants to have at least seven years of professional experience, but the candidate has only been working since 2021, which is less than seven years. Additionally, the program is focused on cultural heritage conservation, which does not align with the candidate's background in AI development, marketing, and psychology.",
+    "id": "c4a587c8f83cba2d",
+    "first_seen": "2026-08-06T07:43:33.613038+00:00",
+    "last_updated": "2026-08-06T07:43:33.613047+00:00"
+  },
+  "5708efb9dee99e21": {
+    "url": "https://www.opportunitiesforafricans.com/the-internews-earth-journalism-network-ejn-2026-virtual-media-workshop-on-mining-environment-and-human-rights-reporting-in-africa/",
+    "title": "The Internews’ Earth Journalism Network (EJN) 2026 Virtual Media Workshop on Mining, Environment and Human Rights Reporting in Africa",
+    "status": "filtered_out",
+    "reason": "Ethiopian nationals are not eligible",
+    "id": "5708efb9dee99e21",
+    "first_seen": "2026-08-06T07:43:46.084429+00:00",
+    "last_updated": "2026-08-06T07:43:46.084440+00:00"
+  },
+  "ec30f70964e026da": {
+    "url": "https://www.opportunitiesforafricans.com/the-internet-corporation-for-assigned-names-and-numbers-icann88-fellowship-program-2026/",
+    "title": "The Internet Corporation for Assigned Names and Numbers (ICANN88) Fellowship Program 2026 (Fully Funded to Lisbon, Portugal)",
+    "status": "analyzed",
+    "score": 8.5,
+    "deadline": "2026-08-21",
+    "id": "ec30f70964e026da",
+    "first_seen": "2026-08-06T07:44:25.861587+00:00",
+    "last_updated": "2026-08-06T07:44:25.861598+00:00"
   }
 }
