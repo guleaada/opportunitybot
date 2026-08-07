@@ -1788,5 +1788,50 @@
     "id": "ec30f70964e026da",
     "first_seen": "2026-08-06T07:44:25.861587+00:00",
     "last_updated": "2026-08-06T07:44:25.861598+00:00"
+  },
+  "ba6f564bd5f58318": {
+    "url": "https://opportunitiescorners.com/ohchr-indigenous-fellowship-2027/",
+    "title": "OHCHR Indigenous Fellowship 2027 in Switzerland (Fully Funded)",
+    "status": "filtered_out",
+    "reason": "The candidate is not indigenous",
+    "id": "ba6f564bd5f58318",
+    "first_seen": "2026-08-07T06:10:39.244431+00:00",
+    "last_updated": "2026-08-07T06:10:39.244439+00:00"
+  },
+  "cff8fb9fc3d1ee77": {
+    "url": "https://opportunitiescorners.com/list-of-conferences-and-youth-summits-in-2026/",
+    "title": "List of Fully Funded Conferences and Youth Summits in 2026",
+    "status": "ineligible",
+    "reasoning": "The candidate avoids fee-paying invitation summits and programs requiring application fees over $50, and most of the listed programs are conferences, youth summits, or seminars which the candidate avoids, with some having participation categories that include self-funded or partially funded options which the candidate also avoids",
+    "id": "cff8fb9fc3d1ee77",
+    "first_seen": "2026-08-07T06:10:57.221337+00:00",
+    "last_updated": "2026-08-07T06:10:57.221346+00:00"
+  },
+  "1019bece8bfe5d27": {
+    "url": "https://www.opportunitiesforafricans.com/the-national-treasury-bursary-scheme-2027-for-young-south-african-students/",
+    "title": "The National Treasury Bursary Scheme 2027 for young South African Students.",
+    "status": "filtered_out",
+    "reason": "Ethiopian nationals are clearly not eligible",
+    "id": "1019bece8bfe5d27",
+    "first_seen": "2026-08-07T06:11:04.457250+00:00",
+    "last_updated": "2026-08-07T06:11:04.457258+00:00"
+  },
+  "65103325bc41f2c2": {
+    "url": "https://www.opportunitiesforafricans.com/kenya-community-development-foundation-kcdf-young-innovation-challenge-2026/",
+    "title": "Kenya Community Development Foundation (KCDF) Young Innovation Challenge 2026 for young Innovators.",
+    "status": "filtered_out",
+    "reason": "The program is only open to innovators residing in Kenya",
+    "id": "65103325bc41f2c2",
+    "first_seen": "2026-08-07T06:11:19.085763+00:00",
+    "last_updated": "2026-08-07T06:11:19.085772+00:00"
+  },
+  "2359650f4fd3a059": {
+    "url": "https://www.opportunitiesforafricans.com/world-congress-of-science-factual-producers-wcsfp-global-career-accelerator-2026/",
+    "title": "World Congress of Science & Factual Producers (WCSFP) Global Career Accelerator 2026 for emerging mediia practitioner (Fully Funded to Tallinn, Estonia)",
+    "status": "ineligible",
+    "reasoning": "The program is for emerging media practitioners, factual filmmakers, digital producers, or those in related fields, but the candidate's background is in AI development, marketing, psychology, and community leadership, with no clear connection to the required fields of expertise.",
+    "id": "2359650f4fd3a059",
+    "first_seen": "2026-08-07T06:11:47.327983+00:00",
+    "last_updated": "2026-08-07T06:11:47.327990+00:00"
   }
 }
