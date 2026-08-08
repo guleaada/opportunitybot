@@ -1833,5 +1833,77 @@
     "id": "2359650f4fd3a059",
     "first_seen": "2026-08-07T06:11:47.327983+00:00",
     "last_updated": "2026-08-07T06:11:47.327990+00:00"
+  },
+  "4409dd2e54204006": {
+    "url": "https://opportunitiescorners.com/council-of-europe-training-course-2026/",
+    "title": "Council of Europe Training Course 2026 in France (Fully Funded)",
+    "status": "ineligible",
+    "reasoning": "The candidate does not meet the eligibility criteria of being a resident in a state party to the European Cultural Convention, and there is no clear exception for their current residence in Lao PDR or their Ethiopian nationality. Additionally, the candidate's background as a working professional and AI developer does not clearly align with the requirement of being a representative of a national youth council, international youth organization/network, or other youth civil society organization, or holding a leadership position in such an organization.",
+    "id": "4409dd2e54204006",
+    "first_seen": "2026-08-08T05:44:10.898278+00:00",
+    "last_updated": "2026-08-08T05:44:10.898286+00:00"
+  },
+  "a0f2d9d176d174c3": {
+    "url": "https://opportunitiescorners.com/mitacs-globalink-internship-2027-in-canada-fully-funded/",
+    "title": "MITACS Globalink Internship 2027 in Canada (Fully Funded)",
+    "status": "filtered_out",
+    "reason": "Ethiopian nationals are not explicitly listed as eligible",
+    "id": "a0f2d9d176d174c3",
+    "first_seen": "2026-08-08T05:44:22.194354+00:00",
+    "last_updated": "2026-08-08T05:44:22.194362+00:00"
+  },
+  "b62451c8ac72dba4": {
+    "url": "https://opportunitiescorners.com/scout-adventures-volunteer-program/",
+    "title": "Scout Adventures Volunteer Program 2026 UK (Fully Funded)",
+    "status": "ineligible",
+    "reasoning": "The candidate is a working professional and the program is looking for volunteers, but the main issue is not explicitly stated in the requirements. However, the program's nature and benefits suggest it's geared towards individuals who can commit to volunteering, potentially implying a need for a student or recent graduate status, or at least someone who can dedicate themselves full-time to the program without the constraints of a full-time job. The actual hard blocker here is the program's implicit requirements and the candidate's current working status, which may not align with the program's expectations. Nevertheless, the explicit requirements provided do not directly exclude the candidate based on their current employment status or degree level. The candidate's lack of an English certificate is an addressable gap since they can obtain a Duolingo or MOI certificate.",
+    "id": "b62451c8ac72dba4",
+    "first_seen": "2026-08-08T05:44:51.692383+00:00",
+    "last_updated": "2026-08-08T05:44:51.692390+00:00"
+  },
+  "c5c35be3191c8018": {
+    "url": "https://www.opportunitiesforafricans.com/cardinalstone-2027-graduate-trainee-programme-investment-advisory/",
+    "title": "CardinalStone 2027 Graduate Trainee Programme (Investment Advisory) for young Nigerian graduates.",
+    "status": "filtered_out",
+    "reason": "Age requirement exceeds candidate's age",
+    "id": "c5c35be3191c8018",
+    "first_seen": "2026-08-08T05:45:03.032185+00:00",
+    "last_updated": "2026-08-08T05:45:03.032193+00:00"
+  },
+  "c8aa6588eecbaa3c": {
+    "url": "https://www.opportunitiesforafricans.com/academie-de-recherche-et-denseignement-superieur-ares-international-training-scholarships-2027-2028/",
+    "title": "Académie de recherche et d’enseignement supérieur (ARES)  International Training Scholarships 2027/2028 for Study in Belgium (Fully Funded)",
+    "status": "ineligible",
+    "reasoning": "The candidate is a working professional with a BSc degree and does not meet the requirement of having held the relevant academic degree for no more than 20 years prior to the start of the program, as the program requires applicants to have a higher education degree and meet specific admission requirements, but more importantly, the candidate's degree is relatively recent (2021) but they are not currently a student and the program seems geared towards those with more work experience or those looking to undertake a bachelor’s or master’s degree. However, the main hard blocker is that the candidate does not meet the specific requirement of having at least two years of relevant professional occupation after the last higher education diploma in one of the 32 eligible countries before the closing date of the call, given their graduation year (2021) and the application deadline (September 18, 2026).",
+    "id": "c8aa6588eecbaa3c",
+    "first_seen": "2026-08-08T05:45:53.105729+00:00",
+    "last_updated": "2026-08-08T05:45:53.105736+00:00"
+  },
+  "c375116fb54aca7c": {
+    "url": "https://www.opportunitiesforafricans.com/university-of-bayreuth-centre-of-international-excellence-alexander-von-humboldt-starter-grant-programme-2027/",
+    "title": "University of Bayreuth Centre of International Excellence “Alexander von Humboldt” Starter Grant Programme 2027",
+    "status": "filtered_out",
+    "reason": "Applicant must have a PhD",
+    "id": "c375116fb54aca7c",
+    "first_seen": "2026-08-08T05:46:04.295720+00:00",
+    "last_updated": "2026-08-08T05:46:04.295727+00:00"
+  },
+  "05adacc54cb81561": {
+    "url": "https://www.opportunitiesforafricans.com/ernst-young-ey-2027-ca-stream-bursary-program-matric-university-for-young-south-africans/",
+    "title": "Ernst & Young (EY) 2027 CA STREAM Bursary Program (Matric & University) for young South Africans.",
+    "status": "filtered_out",
+    "reason": "The program is for students and requires certified matric certificate or academic records, which does not fit the candidate's profile as a working professional.",
+    "id": "05adacc54cb81561",
+    "first_seen": "2026-08-08T05:46:16.515691+00:00",
+    "last_updated": "2026-08-08T05:46:16.515699+00:00"
+  },
+  "2c5c4f7310fef9d8": {
+    "url": "https://www.opportunitiesforafricans.com/the-institut-francais-x-cite-internationale-des-arts-residency-program-2027/",
+    "title": "The Institut français x Cité internationale des arts residency program 2027 for Artists  and cultural professionals worldwide  (Fully Funded to France).",
+    "status": "ineligible",
+    "reasoning": "The program requires candidates to be free from any professional obligations for the entire duration of the residency, but the candidate is a working professional and does not indicate a willingness or ability to leave their job for the residency period.",
+    "id": "2c5c4f7310fef9d8",
+    "first_seen": "2026-08-08T05:46:45.495941+00:00",
+    "last_updated": "2026-08-08T05:46:45.495948+00:00"
   }
 }

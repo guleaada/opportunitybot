@@ -1,55 +1,5 @@
 [
   {
-    "at": "2026-07-24T07:33:26.368494+00:00",
-    "kind": "scan_start",
-    "message": "daily scan started"
-  },
-  {
-    "at": "2026-07-24T07:33:55.237207+00:00",
-    "kind": "error",
-    "message": "Fetch failed for https://www.dfat.gov.au/people-to-people/australia-awards/australia-awards-scholarships: HTTPSConnectionPool(host='www.dfat.gov.au', port=443): Read timed out. (read timeout=25)"
-  },
-  {
-    "at": "2026-07-24T07:33:55.331073+00:00",
-    "kind": "error",
-    "message": "Fetch failed for https://vanier.gc.ca/en/home-accueil.html: HTTPSConnectionPool(host='vanier.gc.ca', port=443): Max retries exceeded with url: /en/home-accueil.html (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)')))"
-  },
-  {
-    "at": "2026-07-24T07:33:55.370253+00:00",
-    "kind": "error",
-    "message": "Fetch failed for https://opportunitydesk.org/category/fellowships/: 403"
-  },
-  {
-    "at": "2026-07-24T07:34:19.047705+00:00",
-    "kind": "error",
-    "message": "Fetch failed for https://opportunitydesk.org/2026/07/23/google-academic-research-awards-2026/: 403"
-  },
-  {
-    "at": "2026-07-24T07:34:19.099303+00:00",
-    "kind": "error",
-    "message": "Fetch failed for https://opportunitydesk.org/2026/07/23/encore-fellowships-2026/: 403"
-  },
-  {
-    "at": "2026-07-24T07:34:19.139196+00:00",
-    "kind": "error",
-    "message": "Fetch failed for https://opportunitydesk.org/2026/07/23/rmit-vice-chancellor-research-fellowships-2026/: 403"
-  },
-  {
-    "at": "2026-07-24T07:34:19.175405+00:00",
-    "kind": "error",
-    "message": "Fetch failed for https://opportunitydesk.org/2026/07/23/pinterest-inclusion-fund-2026/: 403"
-  },
-  {
-    "at": "2026-07-24T07:34:19.214437+00:00",
-    "kind": "error",
-    "message": "Fetch failed for https://opportunitydesk.org/2026/07/23/artsfund-community-accelerator-grant-2026/: 403"
-  },
-  {
-    "at": "2026-07-24T07:34:19.252755+00:00",
-    "kind": "error",
-    "message": "Fetch failed for https://opportunitydesk.org/2026/07/23/public-policy-fellowship-2026/: 403"
-  },
-  {
     "at": "2026-07-24T07:34:19.296191+00:00",
     "kind": "error",
     "message": "Fetch failed for https://opportunitydesk.org/2026/07/23/22-hot-currently-open-july-23-2026/: 403"
@@ -1428,6 +1378,85 @@
       "scam": 0,
       "legit_unknown": 0,
       "ineligible": 2,
+      "closed": 0,
+      "deep_analyzed": 0,
+      "scored_high": 0,
+      "matches": 0
+    }
+  },
+  {
+    "at": "2026-08-08T05:43:36.528594+00:00",
+    "kind": "scan_start",
+    "message": "daily scan started"
+  },
+  {
+    "at": "2026-08-08T05:44:06.066081+00:00",
+    "kind": "error",
+    "message": "Fetch failed for https://www.dfat.gov.au/people-to-people/australia-awards/australia-awards-scholarships: HTTPSConnectionPool(host='www.dfat.gov.au', port=443): Read timed out. (read timeout=25)"
+  },
+  {
+    "at": "2026-08-08T05:44:06.162186+00:00",
+    "kind": "error",
+    "message": "Fetch failed for https://vanier.gc.ca/en/home-accueil.html: HTTPSConnectionPool(host='vanier.gc.ca', port=443): Max retries exceeded with url: /en/home-accueil.html (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)')))"
+  },
+  {
+    "at": "2026-08-08T05:44:06.204485+00:00",
+    "kind": "error",
+    "message": "Fetch failed for https://opportunitydesk.org/category/fellowships/: 403"
+  },
+  {
+    "at": "2026-08-08T05:46:45.541278+00:00",
+    "kind": "error",
+    "message": "Fetch failed for https://opportunitydesk.org/2026/08/07/new-america-future-of-work-reporting-fellowship-2026/: 403"
+  },
+  {
+    "at": "2026-08-08T05:46:45.581261+00:00",
+    "kind": "error",
+    "message": "Fetch failed for https://opportunitydesk.org/2026/08/07/aspen-policy-academy-ai-civic-action-accelerator-2026/: 403"
+  },
+  {
+    "at": "2026-08-08T05:46:45.624917+00:00",
+    "kind": "error",
+    "message": "Fetch failed for https://opportunitydesk.org/2026/08/07/charity-accelerator-program-2026/: 403"
+  },
+  {
+    "at": "2026-08-08T05:46:45.667065+00:00",
+    "kind": "error",
+    "message": "Fetch failed for https://opportunitydesk.org/2026/08/07/ai-nation-grant-accelerator-program-2026/: 403"
+  },
+  {
+    "at": "2026-08-08T05:46:48.652990+00:00",
+    "kind": "scan_complete",
+    "message": "daily scan finished",
+    "matches": 0,
+    "stats": {
+      "discovered": 40,
+      "already_seen": 19,
+      "known_scam": 0,
+      "fetch_failed": 7,
+      "first_pass_dropped": 4,
+      "scam": 0,
+      "legit_unknown": 0,
+      "ineligible": 4,
+      "closed": 0,
+      "deep_analyzed": 0,
+      "scored_high": 0
+    }
+  },
+  {
+    "at": "2026-08-08T05:46:48.654656+00:00",
+    "kind": "run",
+    "mode": "scan",
+    "environment": "github_actions",
+    "stats": {
+      "discovered": 40,
+      "already_seen": 19,
+      "known_scam": 0,
+      "fetch_failed": 7,
+      "first_pass_dropped": 4,
+      "scam": 0,
+      "legit_unknown": 0,
+      "ineligible": 4,
       "closed": 0,
       "deep_analyzed": 0,
       "scored_high": 0,
