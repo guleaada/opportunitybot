@@ -5838,5 +5838,197 @@
     "tokens_in": 89,
     "tokens_out": 13,
     "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-08-11T05:54:54.848375+00:00",
+    "provider": "groq",
+    "task": "clean_html",
+    "tokens_in": 1644,
+    "tokens_out": 518,
+    "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-08-11T05:54:55.436523+00:00",
+    "provider": "groq",
+    "task": "first_pass_filter",
+    "tokens_in": 1081,
+    "tokens_out": 38,
+    "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-08-11T05:54:57.255546+00:00",
+    "provider": "groq",
+    "task": "clean_html",
+    "tokens_in": 1670,
+    "tokens_out": 661,
+    "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-08-11T05:55:01.773497+00:00",
+    "provider": "groq",
+    "task": "first_pass_filter",
+    "tokens_in": 1224,
+    "tokens_out": 39,
+    "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-08-11T05:55:06.172138+00:00",
+    "provider": "groq",
+    "task": "first_pass_filter",
+    "tokens_in": 783,
+    "tokens_out": 38,
+    "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-08-11T05:55:09.976211+00:00",
+    "provider": "groq",
+    "task": "scam_detection",
+    "tokens_in": 911,
+    "tokens_out": 143,
+    "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-08-11T05:55:18.730468+00:00",
+    "provider": "groq",
+    "task": "clean_html",
+    "tokens_in": 1088,
+    "tokens_out": 261,
+    "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-08-11T05:55:22.382233+00:00",
+    "provider": "groq",
+    "task": "first_pass_filter",
+    "tokens_in": 824,
+    "tokens_out": 41,
+    "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-08-11T05:55:24.676783+00:00",
+    "provider": "groq",
+    "task": "first_pass_filter",
+    "tokens_in": 383,
+    "tokens_out": 38,
+    "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-08-11T05:55:29.422226+00:00",
+    "provider": "groq",
+    "task": "scam_detection",
+    "tokens_in": 519,
+    "tokens_out": 121,
+    "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-08-11T05:55:34.039224+00:00",
+    "provider": "groq",
+    "task": "deep_eligibility",
+    "tokens_in": 851,
+    "tokens_out": 77,
+    "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-08-11T05:55:40.679657+00:00",
+    "provider": "groq",
+    "task": "clean_html",
+    "tokens_in": 1130,
+    "tokens_out": 313,
+    "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-08-11T05:55:44.059437+00:00",
+    "provider": "groq",
+    "task": "first_pass_filter",
+    "tokens_in": 876,
+    "tokens_out": 38,
+    "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-08-11T05:55:49.708194+00:00",
+    "provider": "groq",
+    "task": "clean_html",
+    "tokens_in": 1235,
+    "tokens_out": 371,
+    "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-08-11T05:55:57.221382+00:00",
+    "provider": "groq",
+    "task": "first_pass_filter",
+    "tokens_in": 934,
+    "tokens_out": 35,
+    "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-08-11T05:56:20.010608+00:00",
+    "provider": "groq",
+    "task": "clean_html",
+    "tokens_in": 1788,
+    "tokens_out": 606,
+    "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-08-11T05:56:20.355117+00:00",
+    "provider": "groq",
+    "task": "first_pass_filter",
+    "tokens_in": 1169,
+    "tokens_out": 39,
+    "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-08-11T05:56:22.279209+00:00",
+    "provider": "groq",
+    "task": "clean_html",
+    "tokens_in": 1139,
+    "tokens_out": 251,
+    "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-08-11T05:56:25.744272+00:00",
+    "provider": "groq",
+    "task": "first_pass_filter",
+    "tokens_in": 814,
+    "tokens_out": 40,
+    "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-08-11T05:56:28.023243+00:00",
+    "provider": "groq",
+    "task": "first_pass_filter",
+    "tokens_in": 373,
+    "tokens_out": 38,
+    "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-08-11T05:56:32.663676+00:00",
+    "provider": "groq",
+    "task": "scam_detection",
+    "tokens_in": 500,
+    "tokens_out": 118,
+    "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-08-11T05:56:37.312744+00:00",
+    "provider": "groq",
+    "task": "deep_eligibility",
+    "tokens_in": 841,
+    "tokens_out": 71,
+    "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-08-11T05:56:56.562781+00:00",
+    "provider": "groq",
+    "task": "clean_html",
+    "tokens_in": 1336,
+    "tokens_out": 532,
+    "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-08-11T05:57:03.891281+00:00",
+    "provider": "groq",
+    "task": "first_pass_filter",
+    "tokens_in": 1095,
+    "tokens_out": 31,
+    "cost_usd": 0.0
   }
 ]

@@ -1915,5 +1915,77 @@
     "id": "e003fcb3d3aa6389",
     "first_seen": "2026-08-09T05:49:11.715154+00:00",
     "last_updated": "2026-08-09T05:49:11.715165+00:00"
+  },
+  "ead883f9477eda51": {
+    "url": "https://opportunitiescorners.com/coca-cola-scholarship-2027/",
+    "title": "Coca-Cola Scholarship 2027 in USA (150 Awards)",
+    "status": "filtered_out",
+    "reason": "Ethiopian nationals are clearly NOT eligible",
+    "id": "ead883f9477eda51",
+    "first_seen": "2026-08-11T05:54:55.442158+00:00",
+    "last_updated": "2026-08-11T05:54:55.442166+00:00"
+  },
+  "029358bedb521c7a": {
+    "url": "https://opportunitiescorners.com/one-future-conference-2027-in-canada/",
+    "title": "One Future Conference 2027 in Canada (Fully Funded)",
+    "status": "suspicious",
+    "reasoning": "The conference appears to offer a legitimate opportunity for international leaders to gather and discuss global topics, but the requirement of an application fee of CAD 24.99 for funded categories raises suspicions, as legitimate programs typically do not charge fees to apply. Additionally, the organization 'One Future Conference Inc.' is not a well-known or established entity, which further contributes to the suspicious nature of the opportunity. The presence of a fully funded option and a clear description of the conference program and benefits are trust signals, but they are outweighed by the red flags.",
+    "id": "029358bedb521c7a",
+    "first_seen": "2026-08-11T05:55:09.981491+00:00",
+    "last_updated": "2026-08-11T05:55:09.981499+00:00"
+  },
+  "921f63f382602e67": {
+    "url": "https://www.opportunitiesforafricans.com/the-mastercard-foundation-afox-scholarship-programme-2027-2028/",
+    "title": "The Mastercard Foundation AfOx Scholarship Programme 2027/2028 for young Africans ( Funded MBA study at the University of Oxford, United Kingdom)",
+    "status": "ineligible",
+    "reasoning": "The program is open to African citizens who are ordinarily resident in Africa, but the candidate is currently based in Vientiane, Lao PDR, and there is no indication that they are ordinarily resident in an African country.",
+    "id": "921f63f382602e67",
+    "first_seen": "2026-08-11T05:55:34.044705+00:00",
+    "last_updated": "2026-08-11T05:55:34.044712+00:00"
+  },
+  "54d306e29096273e": {
+    "url": "https://www.opportunitiesforafricans.com/the-south-african-reserve-bank-external-bursary-scheme-2027-for-undergraduate-studies/",
+    "title": "The South African Reserve Bank External Bursary Scheme 2027 for undergraduate studies",
+    "status": "filtered_out",
+    "reason": "The candidate is not an undergraduate student",
+    "id": "54d306e29096273e",
+    "first_seen": "2026-08-11T05:55:44.064652+00:00",
+    "last_updated": "2026-08-11T05:55:44.064659+00:00"
+  },
+  "c19a649dec9f18d3": {
+    "url": "https://www.opportunitiesforafricans.com/the-wipo-scale-up-your-ip-program-2026-for-women-innovators/",
+    "title": "The WIPO Scale Up Your IP Program 2026 for Women Innovators",
+    "status": "filtered_out",
+    "reason": "It is an online-only certificate course",
+    "id": "c19a649dec9f18d3",
+    "first_seen": "2026-08-11T05:55:57.226700+00:00",
+    "last_updated": "2026-08-11T05:55:57.226707+00:00"
+  },
+  "a2efd88e6eb466bc": {
+    "url": "https://www.opportunitiesforafricans.com/the-africa-factchecking-fellowship-cameroon-2026-for-young-cameroonians/",
+    "title": "The Africa Factchecking Fellowship Cameroon 2026 for young Cameroonians.",
+    "status": "filtered_out",
+    "reason": "The fellowship is only for young Cameroonians",
+    "id": "a2efd88e6eb466bc",
+    "first_seen": "2026-08-11T05:56:20.360327+00:00",
+    "last_updated": "2026-08-11T05:56:20.360334+00:00"
+  },
+  "99e70110f6d53c3d": {
+    "url": "https://www.opportunitiesforafricans.com/whitley-awards-2027/",
+    "title": "Whitley Awards 2027 for mid-career conservationists in the Global South (£50,000)",
+    "status": "ineligible",
+    "reasoning": "The candidate is not a national of the country where they work (Lao PDR), which is a requirement for the Whitley Awards",
+    "id": "99e70110f6d53c3d",
+    "first_seen": "2026-08-11T05:56:37.318231+00:00",
+    "last_updated": "2026-08-11T05:56:37.318238+00:00"
+  },
+  "b0a13e1331595d27": {
+    "url": "https://www.opportunitiesforafricans.com/accelerating-african-female-founders-to-capital-programme-2026/",
+    "title": "Accelerating African Female Founders to Capital Programme 2026 for Southern African Female Founders.",
+    "status": "filtered_out",
+    "reason": "Candidate is male",
+    "id": "b0a13e1331595d27",
+    "first_seen": "2026-08-11T05:57:03.896502+00:00",
+    "last_updated": "2026-08-11T05:57:03.896510+00:00"
   }
 }
