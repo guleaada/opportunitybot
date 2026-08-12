@@ -1987,5 +1987,50 @@
     "id": "b0a13e1331595d27",
     "first_seen": "2026-08-11T05:57:03.896502+00:00",
     "last_updated": "2026-08-11T05:57:03.896510+00:00"
+  },
+  "54ba2993ddbfa2f8": {
+    "url": "https://opportunitiescorners.com/youth-democracy-summit-in-italy/",
+    "title": "Youth Democracy Summit 2026 in Italy (YDS Rome)",
+    "status": "filtered_out",
+    "reason": "It requires a fee for the fully funded option and has a self-funded option",
+    "id": "54ba2993ddbfa2f8",
+    "first_seen": "2026-08-12T06:16:41.369160+00:00",
+    "last_updated": "2026-08-12T06:16:41.369169+00:00"
+  },
+  "84d057fd41c291e0": {
+    "url": "https://opportunitiescorners.com/switzerland-residency-program-2027/",
+    "title": "Switzerland Residency Program 2027 (Fully Funded)",
+    "status": "filtered_out",
+    "reason": "The program is for writers and literary creators, not AI/tech innovators",
+    "id": "84d057fd41c291e0",
+    "first_seen": "2026-08-12T06:16:46.758897+00:00",
+    "last_updated": "2026-08-12T06:16:46.758907+00:00"
+  },
+  "3b9886a8a2120288": {
+    "url": "https://www.opportunitiesforafricans.com/the-university-of-johannesburg-uj-artists-in-residence-programme-2027/",
+    "title": "The University of Johannesburg (UJ) Artists in Residence Programme 2027 for artist-academics (R12,000 monthly stipend)",
+    "status": "filtered_out",
+    "reason": "It offers no funding for travel, accommodation, or project costs beyond a monthly stipend",
+    "id": "3b9886a8a2120288",
+    "first_seen": "2026-08-12T06:17:16.041160+00:00",
+    "last_updated": "2026-08-12T06:17:16.041170+00:00"
+  },
+  "2863dc013c02c731": {
+    "url": "https://www.opportunitiesforafricans.com/2026-seyi-bickersteth-scholarship-programme-for-nigerian-undergraduate-students/",
+    "title": "2026 Seyi Bickersteth Scholarship Programme for Nigerian Undergraduate Students.",
+    "status": "filtered_out",
+    "reason": "Ethiopian nationals are not eligible",
+    "id": "2863dc013c02c731",
+    "first_seen": "2026-08-12T06:17:35.408743+00:00",
+    "last_updated": "2026-08-12T06:17:35.408753+00:00"
+  },
+  "954d912c1418016d": {
+    "url": "https://www.opportunitiesforafricans.com/the-global-mental-health-africa-conference-2027-gmhac2027-event-scholarships/",
+    "title": "The Global Mental Health Africa Conference 2027 (GMHAC2027) Event Scholarships for African Mental Health Researchers and Advocates.",
+    "status": "suspicious",
+    "reasoning": "The program appears to offer legitimate scholarships for a conference, but the presence of a 'registration fee' that can be requested as part of the scholarship application raises concerns, as legitimate programs usually cover such costs or do not charge them in the first place. The application process seems thorough, but the lack of clear information about the organization behind the conference and the scholarship adds to the suspicion. The fact that the conference is asking for a motivation statement, impact and contribution statement, and financial need statement suggests a genuine interest in supporting deserving applicants, but the overall legitimacy of the program remains uncertain.",
+    "id": "954d912c1418016d",
+    "first_seen": "2026-08-12T06:17:49.224384+00:00",
+    "last_updated": "2026-08-12T06:17:49.224392+00:00"
   }
 }
