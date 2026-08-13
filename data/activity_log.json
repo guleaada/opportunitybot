@@ -1,64 +1,5 @@
 [
   {
-    "at": "2026-07-28T07:41:14.809760+00:00",
-    "kind": "error",
-    "message": "Fetch failed for https://opportunitydesk.org/2026/07/27/world-bank-group-africa-fellowship-program-2027/: 403"
-  },
-  {
-    "at": "2026-07-28T07:41:14.881703+00:00",
-    "kind": "error",
-    "message": "Fetch failed for https://opportunitydesk.org/2026/07/27/world-ocean-day-youth-advisory-council-2026-2027/: 403"
-  },
-  {
-    "at": "2026-07-28T07:41:14.944254+00:00",
-    "kind": "error",
-    "message": "Fetch failed for https://opportunitydesk.org/2026/07/27/resilient-futures-call-for-ideation-grants-2026/: 403"
-  },
-  {
-    "at": "2026-07-28T07:41:15.008284+00:00",
-    "kind": "error",
-    "message": "Fetch failed for https://opportunitydesk.org/2026/07/27/grit-trade-mission-to-canada-2026/: 403"
-  },
-  {
-    "at": "2026-07-28T07:41:15.066163+00:00",
-    "kind": "error",
-    "message": "Fetch failed for https://opportunitydesk.org/2026/07/27/life-baker-rising-stars-academic-competition-2026/: 403"
-  },
-  {
-    "at": "2026-07-28T07:41:15.130125+00:00",
-    "kind": "error",
-    "message": "Fetch failed for https://opportunitydesk.org/2026/07/27/propublica-emerging-reporters-program-2026-2027/: 403"
-  },
-  {
-    "at": "2026-07-28T07:41:15.190125+00:00",
-    "kind": "error",
-    "message": "Fetch failed for https://opportunitydesk.org/2026/07/25/frias-sustainable-governance-senior-fellowship-programme-for-researchers-from-africa-2027-2028/: 403"
-  },
-  {
-    "at": "2026-07-28T07:41:15.245977+00:00",
-    "kind": "error",
-    "message": "Fetch failed for https://opportunitydesk.org/2026/07/25/afsc-global-voices-for-peace-small-seed-grants-2026/: 403"
-  },
-  {
-    "at": "2026-07-28T07:41:17.254227+00:00",
-    "kind": "scan_complete",
-    "message": "daily scan finished",
-    "matches": 0,
-    "stats": {
-      "discovered": 30,
-      "already_seen": 16,
-      "known_scam": 0,
-      "fetch_failed": 13,
-      "first_pass_dropped": 0,
-      "scam": 0,
-      "legit_unknown": 0,
-      "ineligible": 1,
-      "closed": 0,
-      "deep_analyzed": 0,
-      "scored_high": 0
-    }
-  },
-  {
     "at": "2026-07-28T07:41:17.255453+00:00",
     "kind": "run",
     "mode": "scan",
@@ -1457,6 +1398,80 @@
       "scam": 1,
       "legit_unknown": 0,
       "ineligible": 0,
+      "closed": 0,
+      "deep_analyzed": 0,
+      "scored_high": 0,
+      "matches": 0
+    }
+  },
+  {
+    "at": "2026-08-13T06:18:31.646214+00:00",
+    "kind": "scan_start",
+    "message": "daily scan started"
+  },
+  {
+    "at": "2026-08-13T06:19:01.772136+00:00",
+    "kind": "error",
+    "message": "Fetch failed for https://www.dfat.gov.au/people-to-people/australia-awards/australia-awards-scholarships: HTTPSConnectionPool(host='www.dfat.gov.au', port=443): Read timed out. (read timeout=25)"
+  },
+  {
+    "at": "2026-08-13T06:19:02.015491+00:00",
+    "kind": "error",
+    "message": "Fetch failed for https://vanier.gc.ca/en/home-accueil.html: HTTPSConnectionPool(host='vanier.gc.ca', port=443): Max retries exceeded with url: /en/home-accueil.html (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)')))"
+  },
+  {
+    "at": "2026-08-13T06:19:02.063329+00:00",
+    "kind": "error",
+    "message": "Fetch failed for https://opportunitydesk.org/category/fellowships/: 403"
+  },
+  {
+    "at": "2026-08-13T06:21:04.986195+00:00",
+    "kind": "error",
+    "message": "Fetch failed for https://opportunitydesk.org/2026/08/12/in-tandem-youth-voice-fellowship-2026-2027/: 403"
+  },
+  {
+    "at": "2026-08-13T06:21:05.040479+00:00",
+    "kind": "error",
+    "message": "Fetch failed for https://opportunitydesk.org/2026/08/12/liz-hughes-award-for-her-farm-radio-2026/: 403"
+  },
+  {
+    "at": "2026-08-13T06:21:05.093868+00:00",
+    "kind": "error",
+    "message": "Fetch failed for https://opportunitydesk.org/2026/08/12/heinrich-boll-stiftung-global-unit-for-democracy-and-human-rights-traineeship-programme-2026/: 403"
+  },
+  {
+    "at": "2026-08-13T06:21:06.836267+00:00",
+    "kind": "scan_complete",
+    "message": "daily scan finished",
+    "matches": 0,
+    "stats": {
+      "discovered": 40,
+      "already_seen": 18,
+      "known_scam": 0,
+      "fetch_failed": 6,
+      "first_pass_dropped": 7,
+      "scam": 1,
+      "legit_unknown": 0,
+      "ineligible": 1,
+      "closed": 0,
+      "deep_analyzed": 0,
+      "scored_high": 0
+    }
+  },
+  {
+    "at": "2026-08-13T06:21:06.837940+00:00",
+    "kind": "run",
+    "mode": "scan",
+    "environment": "github_actions",
+    "stats": {
+      "discovered": 40,
+      "already_seen": 18,
+      "known_scam": 0,
+      "fetch_failed": 6,
+      "first_pass_dropped": 7,
+      "scam": 1,
+      "legit_unknown": 0,
+      "ineligible": 1,
       "closed": 0,
       "deep_analyzed": 0,
       "scored_high": 0,

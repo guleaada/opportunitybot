@@ -2032,5 +2032,86 @@
     "id": "954d912c1418016d",
     "first_seen": "2026-08-12T06:17:49.224384+00:00",
     "last_updated": "2026-08-12T06:17:49.224392+00:00"
+  },
+  "d1c424b6853fdde1": {
+    "url": "https://opportunitiescorners.com/youth-forum-on-un-global-goals-2026-switzerland/",
+    "title": "Youth Forum on UN Global Goals 2026 Switzerland (Fully Funded)",
+    "status": "suspicious",
+    "reasoning": "The program appears to be well-structured and focused on a legitimate topic, but the presence of an application fee of $15.99 raises suspicions, as legitimate programs typically do not charge fees to apply. Additionally, the organizer 'Council for Global Affairs & Development (CGAD)' is not a well-known or established organization, which further adds to the suspicion.",
+    "id": "d1c424b6853fdde1",
+    "first_seen": "2026-08-13T06:19:06.222518+00:00",
+    "last_updated": "2026-08-13T06:19:06.222525+00:00"
+  },
+  "83e6bf5ba04932f3": {
+    "url": "https://opportunitiescorners.com/fao-young-professionals-program-2026/",
+    "title": "FAO Young Professionals Program 2026 (Fully Funded)",
+    "status": "filtered_out",
+    "reason": "Candidate does not meet the advanced university degree requirement",
+    "id": "83e6bf5ba04932f3",
+    "first_seen": "2026-08-13T06:19:08.876560+00:00",
+    "last_updated": "2026-08-13T06:19:08.876571+00:00"
+  },
+  "bc702185ab3e7615": {
+    "url": "https://www.opportunitiesforafricans.com/the-african-development-bank-afdb-japan-africa-dream-scholarship-jads-program-2026-2027/",
+    "title": "The African Development Bank (AfDB) Japan Africa Dream Scholarship (JADS) Program 2026/2027 for young Africans to study in Japan (Fully Funded)",
+    "status": "ineligible",
+    "reasoning": "The candidate does not meet requirement 4, which states that applicants must have at least 1 year of paid employment in their home country or in other African countries after receiving their Bachelors (or equivalent university) degree within the past 3 years. The candidate is currently based in Vientiane, Lao PDR, and there is no information provided that they have worked in their home country or other African countries for at least 1 year after graduating.",
+    "id": "bc702185ab3e7615",
+    "first_seen": "2026-08-13T06:19:37.375492+00:00",
+    "last_updated": "2026-08-13T06:19:37.375500+00:00"
+  },
+  "9f501822d04ff620": {
+    "url": "https://www.opportunitiesforafricans.com/brand-south-africa-play-your-part-bursary/",
+    "title": "Brand South Africa | Play Your Part Bursary to attend the 2026 One Young World Summit in Cape Town, South Africa (Fully Funded)",
+    "status": "filtered_out",
+    "reason": "Ethiopian nationals are clearly not eligible",
+    "id": "9f501822d04ff620",
+    "first_seen": "2026-08-13T06:19:52.732540+00:00",
+    "last_updated": "2026-08-13T06:19:52.732547+00:00"
+  },
+  "94d5fef51a7404d1": {
+    "url": "https://www.opportunitiesforafricans.com/fawe-ghana-mastercard-foundation-second-chance-pathways-program-2026-2027/",
+    "title": "FAWE Ghana/Mastercard Foundation Second Chance Pathways Program 2026/2027 for young Ghanaians",
+    "status": "filtered_out",
+    "reason": "Candidate is over the age limit",
+    "id": "94d5fef51a7404d1",
+    "first_seen": "2026-08-13T06:20:05.041075+00:00",
+    "last_updated": "2026-08-13T06:20:05.041082+00:00"
+  },
+  "f1019e29fbd77a52": {
+    "url": "https://www.opportunitiesforafricans.com/cbn-regulatory-sandbox-cohort-2-for-nigerian-fintech-innovators/",
+    "title": "CBN Regulatory Sandbox Cohort 2 for Nigerian Fintech Innovators.",
+    "status": "filtered_out",
+    "reason": "The program is specifically for Nigerian Fintech Innovators",
+    "id": "f1019e29fbd77a52",
+    "first_seen": "2026-08-13T06:20:23.229170+00:00",
+    "last_updated": "2026-08-13T06:20:23.229180+00:00"
+  },
+  "2c3f300b885e7abf": {
+    "url": "https://www.opportunitiesforafricans.com/pricewaterhousecoopers-pwc-bursary-chartered-accountant-ca-training-programme-2027/",
+    "title": "PricewaterhouseCoopers (PwC) Bursary – Chartered Accountant (CA) Training Programme 2027 for young South Africans.",
+    "status": "filtered_out",
+    "reason": "Ethiopian nationals are clearly not eligible",
+    "id": "2c3f300b885e7abf",
+    "first_seen": "2026-08-13T06:20:36.701080+00:00",
+    "last_updated": "2026-08-13T06:20:36.701088+00:00"
+  },
+  "5ad894114dde97ec": {
+    "url": "https://www.opportunitiesforafricans.com/stigler-center-journalists-in-residence-program-2027/",
+    "title": "Stigler Center Journalists in Residence Program 2027 for Journalists worldwide ($USD14,000 Stipend & Funded to Chicago, United States)",
+    "status": "filtered_out",
+    "reason": "The program requires participants to possess sufficient funds to cover living expenses for up to the first month",
+    "id": "5ad894114dde97ec",
+    "first_seen": "2026-08-13T06:20:50.291017+00:00",
+    "last_updated": "2026-08-13T06:20:50.291025+00:00"
+  },
+  "3a3211c440863a4b": {
+    "url": "https://www.opportunitiesforafricans.com/national-bursary-for-job-generating-entrepreneurs/",
+    "title": "National Bursary for Job-Generating Entrepreneurs (Fully Funded to attend the 2026 One Young World Summit in Cape-Town, South Africa).",
+    "status": "filtered_out",
+    "reason": "Ethiopian nationals are not eligible",
+    "id": "3a3211c440863a4b",
+    "first_seen": "2026-08-13T06:21:04.934977+00:00",
+    "last_updated": "2026-08-13T06:21:04.934986+00:00"
   }
 }
