@@ -1,60 +1,5 @@
 [
   {
-    "at": "2026-07-28T07:41:17.255453+00:00",
-    "kind": "run",
-    "mode": "scan",
-    "environment": "github_actions",
-    "stats": {
-      "discovered": 30,
-      "already_seen": 16,
-      "known_scam": 0,
-      "fetch_failed": 13,
-      "first_pass_dropped": 0,
-      "scam": 0,
-      "legit_unknown": 0,
-      "ineligible": 1,
-      "closed": 0,
-      "deep_analyzed": 0,
-      "scored_high": 0,
-      "matches": 0
-    }
-  },
-  {
-    "at": "2026-07-29T07:45:18.250600+00:00",
-    "kind": "scan_start",
-    "message": "daily scan started"
-  },
-  {
-    "at": "2026-07-29T07:45:49.916946+00:00",
-    "kind": "error",
-    "message": "Fetch failed for https://www.dfat.gov.au/people-to-people/australia-awards/australia-awards-scholarships: HTTPSConnectionPool(host='www.dfat.gov.au', port=443): Read timed out. (read timeout=25)"
-  },
-  {
-    "at": "2026-07-29T07:45:50.068890+00:00",
-    "kind": "error",
-    "message": "Fetch failed for https://vanier.gc.ca/en/home-accueil.html: HTTPSConnectionPool(host='vanier.gc.ca', port=443): Max retries exceeded with url: /en/home-accueil.html (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)')))"
-  },
-  {
-    "at": "2026-07-29T07:45:50.196784+00:00",
-    "kind": "error",
-    "message": "Fetch failed for https://opportunitydesk.org/category/fellowships/: 403"
-  },
-  {
-    "at": "2026-07-29T07:46:35.151589+00:00",
-    "kind": "error",
-    "message": "Fetch failed for https://opportunitydesk.org/2026/07/28/30-hot-job-opportunities-closing-in-august-2026-currently-open-july-28-2026/: 403"
-  },
-  {
-    "at": "2026-07-29T07:46:35.222352+00:00",
-    "kind": "error",
-    "message": "Fetch failed for https://opportunitydesk.org/2026/07/28/17-scholarships-study-abroad-opportunities-and-competitions-closing-in-august-2026-july-28-2026/: 403"
-  },
-  {
-    "at": "2026-07-29T07:46:35.301186+00:00",
-    "kind": "error",
-    "message": "Fetch failed for https://opportunitydesk.org/2026/07/28/ms-jd-writers-in-residence-program-2026/: 403"
-  },
-  {
     "at": "2026-07-29T07:46:35.369311+00:00",
     "kind": "error",
     "message": "Fetch failed for https://opportunitydesk.org/2026/07/28/future-is-female-awards-2026/: 403"
@@ -1476,6 +1421,75 @@
       "deep_analyzed": 0,
       "scored_high": 0,
       "matches": 0
+    }
+  },
+  {
+    "at": "2026-08-14T06:15:55.404576+00:00",
+    "kind": "scan_start",
+    "message": "daily scan started"
+  },
+  {
+    "at": "2026-08-14T06:16:26.361687+00:00",
+    "kind": "error",
+    "message": "Fetch failed for https://www.dfat.gov.au/people-to-people/australia-awards/australia-awards-scholarships: HTTPSConnectionPool(host='www.dfat.gov.au', port=443): Read timed out. (read timeout=25)"
+  },
+  {
+    "at": "2026-08-14T06:16:26.607954+00:00",
+    "kind": "error",
+    "message": "Fetch failed for https://vanier.gc.ca/en/home-accueil.html: HTTPSConnectionPool(host='vanier.gc.ca', port=443): Max retries exceeded with url: /en/home-accueil.html (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)')))"
+  },
+  {
+    "at": "2026-08-14T06:16:26.648138+00:00",
+    "kind": "error",
+    "message": "Fetch failed for https://opportunitydesk.org/category/fellowships/: 403"
+  },
+  {
+    "at": "2026-08-14T06:19:07.799000+00:00",
+    "kind": "error",
+    "message": "Fetch failed for https://opportunitydesk.org/2026/08/13/choosing-the-right-university-and-course-for-your-study-abroad-degree/: 403"
+  },
+  {
+    "at": "2026-08-14T06:19:07.839979+00:00",
+    "kind": "error",
+    "message": "Fetch failed for https://opportunitydesk.org/2026/08/13/30-hot-jobs-across-various-sectors-currently-open-august-13-2026/: 403"
+  },
+  {
+    "at": "2026-08-14T06:19:11.164429+00:00",
+    "kind": "scan_complete",
+    "message": "daily scan finished",
+    "matches": 1,
+    "stats": {
+      "discovered": 40,
+      "already_seen": 17,
+      "known_scam": 0,
+      "fetch_failed": 5,
+      "first_pass_dropped": 7,
+      "scam": 1,
+      "legit_unknown": 0,
+      "ineligible": 1,
+      "closed": 0,
+      "deep_analyzed": 1,
+      "scored_high": 1
+    }
+  },
+  {
+    "at": "2026-08-14T06:19:11.165974+00:00",
+    "kind": "run",
+    "mode": "scan",
+    "environment": "github_actions",
+    "stats": {
+      "discovered": 40,
+      "already_seen": 17,
+      "known_scam": 0,
+      "fetch_failed": 5,
+      "first_pass_dropped": 7,
+      "scam": 1,
+      "legit_unknown": 0,
+      "ineligible": 1,
+      "closed": 0,
+      "deep_analyzed": 1,
+      "scored_high": 1,
+      "matches": 1
     }
   }
 ]

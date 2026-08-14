@@ -2113,5 +2113,96 @@
     "id": "3a3211c440863a4b",
     "first_seen": "2026-08-13T06:21:04.934977+00:00",
     "last_updated": "2026-08-13T06:21:04.934986+00:00"
+  },
+  "9c7200af9c730bbd": {
+    "url": "https://opportunitiescorners.com/berlin-global-forum-2026/",
+    "title": "Berlin Global Forum 2026, Germany (Funded)",
+    "status": "suspicious",
+    "reasoning": "The program charges an application processing fee of £9.99, which is a red flag. Although the event is described as fully funded, the presence of a fee is unusual for legitimate international scholarship or fellowship programs. The organization and event appear to be newly created, with limited information available online, adding to the suspicion.",
+    "id": "9c7200af9c730bbd",
+    "first_seen": "2026-08-14T06:16:31.441435+00:00",
+    "last_updated": "2026-08-14T06:16:31.441442+00:00"
+  },
+  "762a84e089ffcf1c": {
+    "url": "https://opportunitiescorners.com/icyf-international-media-camp-2026/",
+    "title": "ICYF International Media Camp 2026 in Turkey (Fully Funded)",
+    "status": "filtered_out",
+    "reason": "Age requirement not met",
+    "id": "762a84e089ffcf1c",
+    "first_seen": "2026-08-14T06:16:38.972694+00:00",
+    "last_updated": "2026-08-14T06:16:38.972703+00:00"
+  },
+  "427f761103772d3c": {
+    "url": "https://www.opportunitiesforafricans.com/womenlift-health-2027-east-africa-signature-leadership-journey-program/",
+    "title": "WomenLift Health 2027 East Africa Signature Leadership Journey Program for mid to senior career women (Fully Funded)",
+    "status": "filtered_out",
+    "reason": "Candidate is a male",
+    "id": "427f761103772d3c",
+    "first_seen": "2026-08-14T06:16:48.681604+00:00",
+    "last_updated": "2026-08-14T06:16:48.681612+00:00"
+  },
+  "b3a691af43e1da7f": {
+    "url": "https://www.opportunitiesforafricans.com/womenlift-health-2027-nigeria-signature-leadership-journey-program/",
+    "title": "WomenLift Health 2027 Nigeria Signature Leadership Journey Program for mid to senior career women (Fully Funded)",
+    "status": "filtered_out",
+    "reason": "Candidate is a male and does not reside in Nigeria",
+    "id": "b3a691af43e1da7f",
+    "first_seen": "2026-08-14T06:17:02.296683+00:00",
+    "last_updated": "2026-08-14T06:17:02.296691+00:00"
+  },
+  "545db82a4f968161": {
+    "url": "https://www.opportunitiesforafricans.com/womenlift-health-2027-southern-africa-signature-leadership-journey/",
+    "title": "WomenLift Health 2027 Southern Africa Signature Leadership Journey for emerging women leaders. (Fully Funded)",
+    "status": "filtered_out",
+    "reason": "Candidate does not meet the residency and work experience criteria",
+    "id": "545db82a4f968161",
+    "first_seen": "2026-08-14T06:17:19.200700+00:00",
+    "last_updated": "2026-08-14T06:17:19.200708+00:00"
+  },
+  "345df5362d9f2246": {
+    "url": "https://www.opportunitiesforafricans.com/the-african-continental-free-trade-area-afcfta-digital-innovation-challenge-2026/",
+    "title": "The African Continental Free Trade Area (AfCFTA) Digital Innovation Challenge 2026 for young African innovators.",
+    "status": "analyzed",
+    "score": 8.5,
+    "deadline": "2026-09-04",
+    "id": "345df5362d9f2246",
+    "first_seen": "2026-08-14T06:17:59.612397+00:00",
+    "last_updated": "2026-08-14T06:17:59.612404+00:00"
+  },
+  "0ee4e1f80054b864": {
+    "url": "https://www.opportunitiesforafricans.com/the-union-bank-management-trainee-programme-and-tech-bootcamp-2026/",
+    "title": "The Union Bank Management Trainee Programme and Tech Bootcamp 2026 for young Nigerian graduates.",
+    "status": "filtered_out",
+    "reason": "It explicitly requires NYSC discharge certificate or certificate of exemption, indicating it's for Nigerian nationals",
+    "id": "0ee4e1f80054b864",
+    "first_seen": "2026-08-14T06:18:14.231130+00:00",
+    "last_updated": "2026-08-14T06:18:14.231139+00:00"
+  },
+  "a5434cf9bd5cfb51": {
+    "url": "https://www.opportunitiesforafricans.com/more-health-for-africa-program-2027-for-african-social-entrepreneurs/",
+    "title": "MORE HEALTH for Africa Program 2027 for African social entrepreneurs (€80,000 in Catalytic Funding for Healthcare Innovation in Africa).",
+    "status": "filtered_out",
+    "reason": "The program is for social enterprises, not individuals",
+    "id": "a5434cf9bd5cfb51",
+    "first_seen": "2026-08-14T06:18:30.099759+00:00",
+    "last_updated": "2026-08-14T06:18:30.099768+00:00"
+  },
+  "24eaed1bfbf6d25e": {
+    "url": "https://www.opportunitiesforafricans.com/the-african-center-for-economic-transformation-acet-2027-young-leaders-in-research-ylr-grant/",
+    "title": "The African Center for Economic Transformation (ACET) 2027 Young Leaders in Research (YLR) Grant for Early-career researchers ($15,000 in funding)",
+    "status": "ineligible",
+    "reasoning": "The program requires applicants to hold or be enrolled in a master's degree or higher in economics or a related analytical field, but the candidate only holds a BSc in Psychology",
+    "id": "24eaed1bfbf6d25e",
+    "first_seen": "2026-08-14T06:18:53.490328+00:00",
+    "last_updated": "2026-08-14T06:18:53.490336+00:00"
+  },
+  "61ecdaedef69b245": {
+    "url": "https://www.opportunitiesforafricans.com/awief-nedbank-women-enterprise-growth-export-programme-2026/",
+    "title": "AWIEF-NedBank Women Enterprise Growth & Export Programme 2026 for South African women Entrepreneurs.",
+    "status": "filtered_out",
+    "reason": "Ethiopian nationals are not eligible",
+    "id": "61ecdaedef69b245",
+    "first_seen": "2026-08-14T06:19:07.759832+00:00",
+    "last_updated": "2026-08-14T06:19:07.759840+00:00"
   }
 }
