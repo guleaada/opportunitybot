@@ -103,8 +103,7 @@ def call_model(task_type: str, prompt: str, system: str = None,
     if primary == "claude":
         daily = get_daily_claude_spend()
         monthly = get_monthly_claude_spend()
-        daily_cap = float(os.getenv("DAILY_CLAUDE_BUDGET_USD", "0.50"))
-        monthly_cap = float(os.getenv("MONTHLY_CLAUDE_BUDGET_USD", "10.00"))
+        daily_cap, monthly_cap = claude_budget_caps()
         if daily >= daily_cap:
             print(f"⚠️  Claude daily budget ${daily_cap} reached "
                   f"(spent ${daily:.3f}). Downgrading '{task_type}' → Gemini.")
@@ -136,8 +135,36 @@ def call_model(task_type: str, prompt: str, system: str = None,
     raise RuntimeError(f"Unroutable task_type: {task_type}")
 
 
+def claude_budget_caps():
+    """(daily_cap, monthly_cap) for paid Claude spend, from the environment."""
+    return (float(os.getenv("DAILY_CLAUDE_BUDGET_USD", "0.50")),
+            float(os.getenv("MONTHLY_CLAUDE_BUDGET_USD", "10.00")))
+
+
+def has_claude_budget() -> bool:
+    """True only if BOTH the daily and monthly Claude caps have headroom.
+
+    A cap of 0 means "no paid calls at all" — ``spend >= 0`` is always true, so
+    this correctly returns False rather than reading 0 as "unlimited".
+    """
+    try:
+        daily_cap, monthly_cap = claude_budget_caps()
+        return (get_daily_claude_spend() < daily_cap
+                and get_monthly_claude_spend() < monthly_cap)
+    except Exception as e:
+        print(f"⚠️  Could not read Claude budget ({e}) — assuming exhausted.")
+        return False
+
+
 def _try_fallback(fallback, failed, prompt, system, max_tokens, temperature, task_type):
-    """Try the sibling free model; if it also fails, last-resort to Haiku."""
+    """Try the sibling free model.
+
+    If that also fails, a paid last-resort is only allowed when there is
+    genuine Claude budget headroom. Bulk free-tier work (clean_html,
+    first_pass_filter, classify_opportunity, ...) must never quietly escalate
+    to a paid model just because both free providers were down — that would
+    bypass the budget guardrail, which only runs for Claude-primary tasks.
+    """
     print(f"  → Falling back from {failed} to {fallback}")
     try:
         if fallback == "groq":
@@ -148,6 +175,14 @@ def _try_fallback(fallback, failed, prompt, system, max_tokens, temperature, tas
         return res
     except Exception as e2:
         print(f"⚠️  Fallback {fallback} also failed: {e2}")
+        if not has_claude_budget():
+            daily_cap, monthly_cap = claude_budget_caps()
+            print(f"  ⛔ No Claude budget (daily cap ${daily_cap}, monthly "
+                  f"${monthly_cap}) — refusing to escalate free task "
+                  f"'{task_type}' to a paid model.")
+            raise RuntimeError(
+                f"both free providers failed for '{task_type}' and the paid "
+                f"fallback is blocked by the Claude budget") from e2
         print("  → Last resort: Claude Haiku 4.5")
         res = _call_claude(prompt, system, None, max_tokens, temperature,
                            task_type, model_override=os.getenv(

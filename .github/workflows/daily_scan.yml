@@ -77,7 +77,9 @@ jobs:
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
 
           # Cost guardrails (repo Variables, with safe defaults)
-          DAILY_CLAUDE_BUDGET_USD: ${{ vars.DAILY_CLAUDE_BUDGET_USD || '0.50' }}
+          # Default 0 = free models only; raise the repo Variable to enable
+          # paid Claude calls.
+          DAILY_CLAUDE_BUDGET_USD: ${{ vars.DAILY_CLAUDE_BUDGET_USD || '0' }}
           MONTHLY_CLAUDE_BUDGET_USD: ${{ vars.MONTHLY_CLAUDE_BUDGET_USD || '10.00' }}
           MIN_SCORE_TO_NOTIFY: ${{ vars.MIN_SCORE_TO_NOTIFY || '7' }}
           MAX_OPPORTUNITIES_PER_DAY: ${{ vars.MAX_OPPORTUNITIES_PER_DAY || '15' }}
