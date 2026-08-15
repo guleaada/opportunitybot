@@ -4,25 +4,28 @@ model_router.py — routes each task to the correct AI model based on stakes.
 PHILOSOPHY
 ----------
 - Claude Sonnet (paid)  → high-stakes judgment ONLY (scam, eligibility, scoring)
-- Gemini Flash (free)   → medium tasks (filters, extraction, drafts)
-- Groq Llama (free)     → mechanical tasks (clean text, translate)
+- Free providers        → everything else, tried in a fixed order
 
 Plus:
-- Hard daily/monthly budget cap on Claude (downgrade to Gemini if exceeded).
+- Hard daily/monthly budget cap on Claude (downgrade to the free chain).
 - Graceful fallback chain when free models fail.
 - Every call is logged with which model ran and what it cost.
 
-Fallback chain (per spec section D):
+Free-provider chain (in order):
+    1. Groq       — primary; proven reliable here
+    2. OpenRouter — independent backup (skipped when no API key is set)
+    3. Gemini     — last resort; its model ids churn and have broken us twice
+
     Claude fails           → re-raise (fail loud; high stakes)
-    Gemini fails           → Groq
-    Groq fails             → Gemini
-    ALL free models fail   → Claude Haiku 4.5 (last resort)
+    ALL free models fail   → Claude Haiku 4.5, but ONLY if budget allows
 """
 
 import json
 import os
 import re
 from typing import Optional
+
+import requests
 
 from cost_tracker import log_cost, get_daily_claude_spend, get_monthly_claude_spend
 from rate_limiter import wait_for_quota, DailyQuotaExceeded
@@ -73,11 +76,18 @@ TASK_ROUTING = {
     "translate": "groq",
 }
 
+# Ordered free-provider chain. Groq first because it is the one that has
+# stayed up; OpenRouter as an independent backup; Gemini last because its
+# model ids churn — a retired experimental id once 404'd every call and
+# stalled the whole pipeline.
+FREE_CHAIN = ["groq", "openrouter", "gemini"]
+
 # Human-readable "why this model" used for the transparency log.
 ROUTING_REASON = {
     "claude": "high-stakes judgment",
-    "gemini": "free / medium task",
-    "groq": "free / mechanical task",
+    "groq": "free / chain primary",
+    "openrouter": "free / chain backup",
+    "gemini": "free / chain last resort",
 }
 
 
@@ -113,26 +123,14 @@ def call_model(task_type: str, prompt: str, system: str = None,
                   f"(spent ${monthly:.2f}). Downgrading '{task_type}' → Gemini.")
             primary = "gemini"
 
-    print(f"🤖 [{task_type}] → {primary} ({ROUTING_REASON.get(primary, '?')})")
+    if primary == "claude":
+        print(f"🤖 [{task_type}] → claude ({ROUTING_REASON['claude']})")
+        # High-stakes; fail loud (no silent downgrade on error).
+        return _call_claude(prompt, system, tools, max_tokens, temperature,
+                            task_type)
 
-    try:
-        if primary == "claude":
-            return _call_claude(prompt, system, tools, max_tokens, temperature, task_type)
-        if primary == "gemini":
-            return _call_gemini(prompt, system, max_tokens, temperature, task_type)
-        if primary == "groq":
-            return _call_groq(prompt, system, max_tokens, temperature, task_type)
-    except Exception as e:
-        print(f"⚠️  {primary} failed for {task_type}: {e}")
-        if primary == "claude":
-            raise  # High-stakes; fail loud (no silent downgrade on error).
-        if primary == "gemini":
-            return _try_fallback("groq", "gemini", prompt, system, max_tokens,
-                                 temperature, task_type)
-        if primary == "groq":
-            return _try_fallback("gemini", "groq", prompt, system, max_tokens,
-                                 temperature, task_type)
-    raise RuntimeError(f"Unroutable task_type: {task_type}")
+    # Everything else walks the free chain in order.
+    return _call_free_chain(prompt, system, max_tokens, temperature, task_type)
 
 
 def claude_budget_caps():
@@ -156,39 +154,72 @@ def has_claude_budget() -> bool:
         return False
 
 
-def _try_fallback(fallback, failed, prompt, system, max_tokens, temperature, task_type):
-    """Try the sibling free model.
+def _short_err(e) -> str:
+    """One-line provider error, with the HTTP status when there is one."""
+    status = getattr(getattr(e, "response", None), "status_code", None)
+    msg = " ".join(str(e).split())
+    return f"{status} {msg}"[:140] if status else msg[:140]
 
-    If that also fails, a paid last-resort is only allowed when there is
-    genuine Claude budget headroom. Bulk free-tier work (clean_html,
-    first_pass_filter, classify_opportunity, ...) must never quietly escalate
-    to a paid model just because both free providers were down — that would
-    bypass the budget guardrail, which only runs for Claude-primary tasks.
+
+def _provider_available(provider: str) -> bool:
+    """A provider with no configured key is simply not in the chain."""
+    if provider == "openrouter":
+        return bool(os.getenv("OPENROUTER_API_KEY"))
+    return True
+
+
+def _dispatch_free(provider, prompt, system, max_tokens, temperature, task_type):
+    # Resolved by name at call time so the individual _call_* functions stay
+    # independently patchable in tests.
+    if provider == "groq":
+        return _call_groq(prompt, system, max_tokens, temperature, task_type)
+    if provider == "openrouter":
+        return _call_openrouter(prompt, system, max_tokens, temperature, task_type)
+    if provider == "gemini":
+        return _call_gemini(prompt, system, max_tokens, temperature, task_type)
+    raise RuntimeError(f"Unknown free provider: {provider}")
+
+
+def _call_free_chain(prompt, system, max_tokens, temperature, task_type):
+    """Walk FREE_CHAIN in order; a provider's failure never aborts the task.
+
+    Only once every free provider has failed is a paid last resort considered,
+    and only when there is genuine Claude budget headroom — bulk free work must
+    not quietly escalate to a paid model just because the free tier was down.
     """
-    print(f"  → Falling back from {failed} to {fallback}")
-    try:
-        if fallback == "groq":
-            res = _call_groq(prompt, system, max_tokens, temperature, task_type)
-        else:
-            res = _call_gemini(prompt, system, max_tokens, temperature, task_type)
-        res["fell_back"] = True
-        return res
-    except Exception as e2:
-        print(f"⚠️  Fallback {fallback} also failed: {e2}")
-        if not has_claude_budget():
-            daily_cap, monthly_cap = claude_budget_caps()
-            print(f"  ⛔ No Claude budget (daily cap ${daily_cap}, monthly "
-                  f"${monthly_cap}) — refusing to escalate free task "
-                  f"'{task_type}' to a paid model.")
-            raise RuntimeError(
-                f"both free providers failed for '{task_type}' and the paid "
-                f"fallback is blocked by the Claude budget") from e2
-        print("  → Last resort: Claude Haiku 4.5")
-        res = _call_claude(prompt, system, None, max_tokens, temperature,
-                           task_type, model_override=os.getenv(
-                               "ANTHROPIC_FALLBACK_MODEL", "claude-haiku-4-5"))
-        res["fell_back"] = True
-        return res
+    chain = [p for p in FREE_CHAIN if _provider_available(p)]
+    for skipped in (p for p in FREE_CHAIN if p not in chain):
+        print(f"  ↷ [{task_type}] skipping {skipped} (no API key configured)")
+
+    for i, provider in enumerate(chain):
+        print(f"🤖 [{task_type}] → {provider} "
+              f"({ROUTING_REASON.get(provider, 'free')})")
+        try:
+            res = _dispatch_free(provider, prompt, system, max_tokens,
+                                 temperature, task_type)
+            res["fell_back"] = i > 0
+            return res
+        except Exception as e:
+            nxt = (chain[i + 1] if i + 1 < len(chain)
+                   else ("paid Claude" if has_claude_budget() else "nothing left"))
+            print(f"⚠️  {provider} {task_type}: {_short_err(e)} "
+                  f"— falling back to {nxt}")
+
+    if not has_claude_budget():
+        daily_cap, monthly_cap = claude_budget_caps()
+        print(f"  ⛔ No Claude budget (daily cap ${daily_cap}, monthly "
+              f"${monthly_cap}) — refusing to escalate free task "
+              f"'{task_type}' to a paid model.")
+        raise RuntimeError(
+            f"all free providers failed for '{task_type}' and the paid "
+            f"fallback is blocked by the Claude budget")
+
+    print("  → Last resort: Claude Haiku 4.5")
+    res = _call_claude(prompt, system, None, max_tokens, temperature,
+                       task_type, model_override=os.getenv(
+                           "ANTHROPIC_FALLBACK_MODEL", "claude-haiku-4-5"))
+    res["fell_back"] = True
+    return res
 
 
 # ── Provider implementations ──────────────────────────────────────────────
@@ -266,6 +297,68 @@ def _gemini_text(response) -> str:
             return "".join(getattr(p, "text", "") for p in parts)
         except Exception:
             return ""
+
+
+OPENROUTER_URL = "https://openrouter.ai/api/v1/chat/completions"
+
+
+def openrouter_model() -> str:
+    """Default to OpenRouter's auto-router, which outlives individual free
+    model ids as they rotate. Never a hardcoded dated model."""
+    return os.getenv("OPENROUTER_MODEL") or "openrouter/free"
+
+
+def _call_openrouter(prompt, system, max_tokens, temperature, task_type) -> dict:
+    """OpenAI-compatible chat completion via OpenRouter. Free tier → $0."""
+    api_key = os.getenv("OPENROUTER_API_KEY")
+    if not api_key:
+        raise RuntimeError("OPENROUTER_API_KEY not set")
+    wait_for_quota("openrouter")
+
+    messages = []
+    if system:
+        messages.append({"role": "system", "content": system})
+    messages.append({"role": "user", "content": prompt})
+
+    model = openrouter_model()
+    resp = requests.post(
+        OPENROUTER_URL,
+        headers={
+            "Authorization": f"Bearer {api_key}",
+            "Content-Type": "application/json",
+            # Optional attribution headers; harmless if the API ignores them.
+            "HTTP-Referer": "https://github.com/guleaada/opportunitybot",
+            "X-Title": "OpportunityBot",
+        },
+        json={"model": model, "messages": messages,
+              "max_tokens": max_tokens, "temperature": temperature},
+        timeout=60,
+    )
+    resp.raise_for_status()
+    data = resp.json()
+    # OpenRouter can return HTTP 200 with an error envelope.
+    if isinstance(data, dict) and data.get("error"):
+        err = data["error"]
+        raise RuntimeError(
+            f"{err.get('code', 'error')}: {err.get('message', err)}")
+
+    choices = data.get("choices") or []
+    if not choices:
+        raise RuntimeError("no choices returned")
+    content = (choices[0].get("message") or {}).get("content") or ""
+
+    usage = data.get("usage") or {}
+    tin = usage.get("prompt_tokens", 0) or 0
+    tout = usage.get("completion_tokens", 0) or 0
+    log_cost("openrouter", task_type, {"input": tin, "output": tout}, 0.0)
+    return {
+        "content": content,
+        "model_used": data.get("model") or model,
+        "task_type": task_type,
+        "tokens_used": {"input": tin, "output": tout},
+        "cost_usd": 0.0,
+        "fell_back": False,
+    }
 
 
 def _call_groq(prompt, system, max_tokens, temperature, task_type) -> dict:

@@ -82,7 +82,8 @@ def get_monthly_claude_spend(month_str: str = None) -> float:
 def get_daily_summary(date_str: str = None) -> dict:
     """Spend + call counts per provider for a single UTC day."""
     today = date_str or datetime.now(timezone.utc).date().isoformat()
-    summary = {p: {"cost": 0.0, "calls": 0} for p in ("claude", "gemini", "groq")}
+    summary = {p: {"cost": 0.0, "calls": 0}
+               for p in ("claude", "gemini", "groq", "openrouter")}
     for e in _read_log():
         if e["timestamp"].startswith(today):
             p = e["provider"]
@@ -96,7 +97,7 @@ def get_daily_summary(date_str: str = None) -> dict:
 def get_monthly_summary(month_str: str = None) -> dict:
     """Spend per provider for the current (or given) UTC month."""
     month = month_str or datetime.now(timezone.utc).strftime("%Y-%m")
-    summary = {"claude": 0.0, "gemini": 0.0, "groq": 0.0}
+    summary = {"claude": 0.0, "gemini": 0.0, "groq": 0.0, "openrouter": 0.0}
     for e in _read_log():
         if e["timestamp"].startswith(month):
             summary[e["provider"]] = summary.get(e["provider"], 0.0) + e["cost_usd"]

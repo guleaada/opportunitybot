@@ -29,6 +29,9 @@ LIMITS = {
     "claude": {"rpm": 999, "rpd": 999_999},
     "gemini": {"rpm": 15, "rpd": 1500},
     "groq": {"rpm": 30, "rpd": 14_400},
+    # OpenRouter free tier is conservative; exceeding it just falls through to
+    # the next provider in the chain.
+    "openrouter": {"rpm": 20, "rpd": 1000},
 }
 
 

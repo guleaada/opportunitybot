@@ -523,6 +523,7 @@ def build_report(opportunities, stats, blocked_scams):
         f"   Claude: ${daily['claude']['cost']:.3f} ({daily['claude']['calls']} calls)",
         f"   Gemini: $0.00 ({daily['gemini']['calls']} free calls)",
         f"   Groq:   $0.00 ({daily['groq']['calls']} free calls)",
+        f"   OpenRtr:$0.00 ({daily.get('openrouter', {}).get('calls', 0)} free calls)",
         f"   Total:  ${daily['total_cost']:.3f}",
         "",
         "📈 MONTH-TO-DATE",
