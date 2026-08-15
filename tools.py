@@ -83,6 +83,13 @@ def first_pass_filter(text: str, profile: dict) -> dict:
     return _first_pass_filter(text, profile)
 
 
+# ── 5b. detect_opportunity (free: phrase scan, GEMINI only if ambiguous) ────
+def detect_opportunity(text: str, title: str = "", allow_model: bool = True) -> dict:
+    """Semantic 'hidden opportunity' check. Never raises, never uses Claude."""
+    import signals
+    return signals.detect_opportunity(text, title, allow_model=allow_model)
+
+
 # ── 6. check_legitimacy (CLAUDE) ────────────────────────────────────────────
 def check_legitimacy(text: str, source_url: str) -> dict:
     return _check_legitimacy(text, source_url)

@@ -9,7 +9,10 @@ so this is the most expensive and most decision-critical Claude call.
 import math
 
 from model_router import call_model, extract_json
-from checker import normalize_eligibility, meets_threshold, PROBABLY_ELIGIBLE
+from checker import (
+    normalize_eligibility, meets_threshold, PROBABLY_ELIGIBLE,
+    normalize_credibility, is_notifiable,
+)
 from profile import profile_summary
 
 _MAX_TEXT = 12000
@@ -84,6 +87,16 @@ _EXCELLENT_ODDS = 0.50
 
 # Funding label → financial value when no dollar figure is available.
 _FUNDING_VALUE_SCORE = {"fully_funded": 8.0, "partial": 4.0, "none": 1.0}
+
+# Credibility ladder → 0-10 sub-score. NEEDS_VERIFICATION sits mid-scale: it
+# means "unproven", not "fraudulent".
+_CREDIBILITY_SCORE = {
+    "VERIFIED": 10.0,
+    "LIKELY_LEGITIMATE": 8.0,
+    "NEEDS_VERIFICATION": 4.0,
+    "SUSPICIOUS": 1.5,
+    "HIGH_RISK": 0.0,
+}
 
 FINAL_WEIGHTS = {
     "expected_value": 0.40,      # embeds reward x probability
@@ -220,7 +233,7 @@ _CONFIDENCE_MULTIPLIER = {"high": 1.0, "medium": 0.85, "low": 0.7}
 
 
 def compute_final_score(sub_scores: dict, expected_value: dict,
-                        eligibility_level=None) -> float:
+                        eligibility_level=None, credibility_level=None) -> float:
     """Weighted 0-10 final score built on expected value plus the independent
     dimensions. Weights that have no usable input are dropped and the rest
     re-normalized, so a missing sub-score never silently counts as zero.
@@ -271,6 +284,15 @@ def compute_final_score(sub_scores: dict, expected_value: dict,
             eligibility_level, PROBABLY_ELIGIBLE):
         weighted = min(weighted, _UNVERIFIED_CAP)
 
+    # HIGH_RISK must never reach a normal high-priority notification, and
+    # anything merely unverified cannot be recommended either.
+    if credibility_level is not None:
+        cred = normalize_credibility(credibility_level)
+        if cred == "HIGH_RISK":
+            return 0.0
+        if not is_notifiable(cred):
+            weighted = min(weighted, _UNVERIFIED_CAP)
+
     return round(max(0.0, weighted), 1)
 
 
@@ -290,9 +312,12 @@ def build_scoring(parsed: dict, prior: dict) -> dict:
     subs["eligibility_score"] = _ELIGIBILITY_SCORE.get(
         normalize_eligibility(elig_status), 3.0)
 
-    verdict = ((prior.get("legitimacy") or {}).get("verdict") or "").lower()
-    subs["credibility_score"] = {"legitimate": 9.0, "suspicious": 2.0,
-                                 "scam": 0.0}.get(verdict, 4.0)
+    # Credibility comes from the graded status (which already folds in the
+    # source tier), falling back to the legacy verdict for older records.
+    legit = prior.get("legitimacy") or {}
+    cred_status = normalize_credibility(
+        legit.get("credibility_status") or legit.get("verdict"))
+    subs["credibility_score"] = _CREDIBILITY_SCORE.get(cred_status, 4.0)
 
     complexity = prior.get("complexity") or {}
     hours = complexity.get("estimated_hours")
@@ -326,7 +351,8 @@ def build_scoring(parsed: dict, prior: dict) -> dict:
         elig_status, subs.get("competition_score"), subs.get("personal_fit_score"))
     expected_value = compute_expected_value(
         subs.get("financial_value_score"), probability, reward_usd)
-    final_score = compute_final_score(subs, expected_value, elig_status)
+    final_score = compute_final_score(subs, expected_value, elig_status,
+                                      cred_status)
 
     return {
         "sub_scores": {f: (round(subs[f], 2) if isinstance(subs.get(f), (int, float))

@@ -121,6 +121,57 @@ SOURCES: List[Source] = [
 ]
 
 
+# ── Source-quality tiers ────────────────────────────────────────────────────
+# Coarse trust bands derived from the numeric quality scores above, so the rest
+# of the pipeline can reason about provenance without knowing the numbers.
+TIER_1 = "TIER_1"  # official first-party (government, embassy, the program itself)
+TIER_2 = "TIER_2"  # reputable organisation or platform
+TIER_3 = "TIER_3"  # reputable aggregator (links out to official pages)
+TIER_4 = "TIER_4"  # unknown / unlisted — not a judgement, just unfamiliar
+TIER_5 = "TIER_5"  # suspicious (matches a known fee-trap / scam pattern)
+
+TIER_ORDER = [TIER_1, TIER_2, TIER_3, TIER_4, TIER_5]
+
+TIER_LABELS = {
+    TIER_1: "official first-party",
+    TIER_2: "reputable organisation/platform",
+    TIER_3: "reputable aggregator",
+    TIER_4: "unknown source — needs verification",
+    TIER_5: "suspicious source",
+}
+
+
+def tier_for_quality(quality: int) -> str:
+    """Numeric whitelist quality → tier band."""
+    if quality >= 10:
+        return TIER_1
+    if quality >= 8:
+        return TIER_2
+    if quality >= 6:
+        return TIER_3
+    return TIER_4
+
+
+def source_tier(url: str) -> str:
+    """Trust tier for a result URL.
+
+    An unfamiliar domain is TIER_4 (unknown), never TIER_5 — being unlisted is
+    not evidence of fraud. TIER_5 is reserved for URLs matching a known
+    fee-trap/scam pattern.
+    """
+    try:
+        from known_scams import check_known_scam
+        if check_known_scam("", url or "")["is_scam"]:
+            return TIER_5
+    except Exception as e:  # never let tiering break a scan
+        print(f"⚠️  Scam-tier lookup failed for {url!r}: {e}")
+
+    quality = domain_quality(url)
+    if quality <= 0:
+        return TIER_4
+    return tier_for_quality(quality)
+
+
 def load_whitelist() -> List[Source]:
     """Return all whitelisted sources, highest quality first."""
     return sorted(SOURCES, key=lambda s: s.quality, reverse=True)

@@ -66,6 +66,7 @@ TASK_ROUTING = {
     "generate_cover_letter": "gemini",
     "generate_email_subject": "gemini",
     "summarize_opportunity": "gemini",
+    "classify_opportunity": "gemini",   # hidden-opportunity detection (free)
     # MECHANICAL — Groq (free)
     "clean_html": "groq",
     "extract_text": "groq",

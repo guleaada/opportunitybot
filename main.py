@@ -33,8 +33,11 @@ load_dotenv()  # load .env before importing modules that read os.getenv at impor
 import tools
 import taxonomy
 from profile import PROFILE
-from checker import meets_threshold, PROBABLY_ELIGIBLE
-from source_whitelist import load_whitelist, domain_quality
+from checker import (
+    meets_threshold, PROBABLY_ELIGIBLE, normalize_credibility, is_notifiable,
+    HIGH_RISK, SUSPICIOUS,
+)
+from source_whitelist import load_whitelist, domain_quality, source_tier
 from cost_tracker import (
     get_daily_summary, get_monthly_summary, get_daily_claude_spend,
     get_monthly_claude_spend,
@@ -83,11 +86,21 @@ def analyze_one(result, stats: dict):
     # 6. first_pass_filter (GEMINI free) — drops most candidates
     filt = tools.first_pass_filter(text, PROFILE)
     if not filt["keep"]:
-        stats["first_pass_dropped"] += 1
-        tools.save_opportunity({"url": url, "title": title,
-                                "status": "filtered_out", "reason": filt["reason"]})
-        cprint(f"   ✂️  dropped: {filt['reason']}")
-        return None
+        # The first-pass filter is tuned for scholarships, so it drops
+        # bounties, prize pools and open calls that never use that vocabulary.
+        # Give those a second look before discarding (free phrase scan; the
+        # cheap model only runs on genuinely ambiguous pages).
+        signal = tools.detect_opportunity(text, title)
+        if signal.get("is_opportunity"):
+            stats["signal_rescued"] = stats.get("signal_rescued", 0) + 1
+            cprint(f"   🕵️  rescued by signals ({signal.get('method')}): "
+                   f"{signal.get('reason', '')}")
+        else:
+            stats["first_pass_dropped"] += 1
+            tools.save_opportunity({"url": url, "title": title,
+                                    "status": "filtered_out", "reason": filt["reason"]})
+            cprint(f"   ✂️  dropped: {filt['reason']}")
+            return None
 
     # 7. check_deadline (GEMINI free) — gate BEFORE any paid Claude call.
     # A closed program must not burn legitimacy/eligibility tokens. Closed
@@ -106,18 +119,26 @@ def analyze_one(result, stats: dict):
 
     # 8. check_legitimacy (CLAUDE $) — only on open survivors
     legit = tools.check_legitimacy(text, url)
-    if legit["verdict"] in ("scam", "suspicious"):
+    cred = legit.get("credibility_status") or normalize_credibility(legit["verdict"])
+    if cred in (HIGH_RISK, SUSPICIOUS):
         stats["scam"] += 1
         tools.save_opportunity({"url": url, "title": title, "status": legit["verdict"],
+                                "credibility_status": cred,
+                                "source_tier": legit.get("source_tier"),
                                 "reasoning": legit["reasoning"]})
-        cprint(f"   🚫 {legit['verdict']}: {legit['reasoning']}")
+        cprint(f"   🚫 {cred}: {legit['reasoning']}")
         return None
-    if legit["verdict"] == "unknown":
+    if not is_notifiable(cred):
+        # NEEDS_VERIFICATION — unfamiliar, not accused. Honesty rule: we do not
+        # recommend what we could not verify.
         stats["legit_unknown"] += 1
         tools.save_opportunity({"url": url, "title": title,
                                 "status": "legitimacy_unknown",
+                                "credibility_status": cred,
+                                "source_tier": legit.get("source_tier"),
                                 "reasoning": legit["reasoning"]})
-        cprint("   ❓ legitimacy unknown — skipping (honesty rule)")
+        cprint(f"   ❓ {cred} (tier {legit.get('source_tier')}) — "
+               f"skipping (honesty rule)")
         return None
 
     # 9. check_eligibility (CLAUDE $) — graded ladder; anything below
@@ -168,7 +189,8 @@ def analyze_one(result, stats: dict):
         "reward": score.get("funding"),
         "estimated_value": getattr(result, "estimated_value", None),
         "eligibility_status": elig_status,
-        "credibility_status": legit.get("verdict"),
+        "credibility_status": cred,
+        "source_tier": legit.get("source_tier") or source_tier(url),
         "source_quality": domain_quality(url) or getattr(result, "source_quality", None),
         "requirements": docs.get("documents", []) or [],
     }
@@ -205,6 +227,13 @@ def run_scan(max_results_per_source: int = 8):
         "deep_analyzed": 0, "scored_high": 0,
     }
     blocked_scams = []
+
+    # Per-scan budget for the free hidden-opportunity classifier.
+    try:
+        import signals
+        signals.reset_classification_budget()
+    except Exception as e:
+        cprint(f"⚠️ Could not reset classification budget: {e}")
 
     # --- RSS discovery (primary source while CSE is down) -------------------
     def _fetch_rss_feeds():

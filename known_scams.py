@@ -11,6 +11,8 @@ that charge a large registration/participation fee, promise vague "global
 leadership" prestige, and provide no real funding.
 """
 
+import re
+
 # Hard-block: if the opportunity name or URL matches any of these, drop it
 # before spending a single token. Matching is case-insensitive substring.
 KNOWN_SCAMS = [
@@ -88,7 +90,12 @@ def check_known_scam(name: str, url: str = "") -> dict:
 
     Returns ``{"is_scam": bool, "matched": str | None, "reason": str}``.
     """
+    # Normalize URL-slug separators to spaces so a fee-trap cannot evade the
+    # blocklist just by living at /global-business-summit-2026 instead of
+    # spelling its name out. Aliases are multi-word phrases, so this widens
+    # matching without reintroducing short-acronym false positives.
     haystack = f"{name or ''} {url or ''}".lower()
+    haystack = re.sub(r"[-_+/.]+", " ", haystack)
     for entry in KNOWN_SCAMS:
         for alias in entry["aliases"]:
             alias = alias.lower()

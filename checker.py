@@ -79,6 +79,76 @@ def meets_threshold(level, minimum: str = PROBABLY_ELIGIBLE) -> bool:
     return ELIGIBILITY_RANK[normalize_eligibility(level)] <= ELIGIBILITY_RANK[minimum]
 
 
+# ── Credibility ladder ──────────────────────────────────────────────────────
+# Graded trust, replacing the bare legitimate/scam/unknown verdict. Being
+# UNFAMILIAR is NEVER treated as fraud: an unknown source is
+# NEEDS_VERIFICATION, which is a request for evidence, not an accusation.
+VERIFIED = "VERIFIED"
+LIKELY_LEGITIMATE = "LIKELY_LEGITIMATE"
+NEEDS_VERIFICATION = "NEEDS_VERIFICATION"
+SUSPICIOUS = "SUSPICIOUS"
+HIGH_RISK = "HIGH_RISK"
+
+CREDIBILITY_LEVELS = [VERIFIED, LIKELY_LEGITIMATE, NEEDS_VERIFICATION,
+                      SUSPICIOUS, HIGH_RISK]
+CREDIBILITY_RANK = {c: i for i, c in enumerate(CREDIBILITY_LEVELS)}
+
+# Only these may reach a normal high-priority notification.
+NOTIFIABLE_CREDIBILITY = (VERIFIED, LIKELY_LEGITIMATE)
+
+
+def normalize_credibility(value) -> str:
+    """Coerce any credibility value to a level; unknown → NEEDS_VERIFICATION."""
+    if not value:
+        return NEEDS_VERIFICATION
+    raw = str(value).strip().upper()
+    if raw in CREDIBILITY_RANK:
+        return raw
+    return {
+        "legitimate": LIKELY_LEGITIMATE,
+        "suspicious": SUSPICIOUS,
+        "scam": HIGH_RISK,
+        "unknown": NEEDS_VERIFICATION,
+    }.get(str(value).strip().lower(), NEEDS_VERIFICATION)
+
+
+def credibility_status(verdict, source_tier=None, confidence=None) -> str:
+    """Combine the model's legitimacy verdict with the source tier.
+
+    A first-party official source backing a legitimate verdict earns VERIFIED;
+    everything unproven lands on NEEDS_VERIFICATION rather than being called a
+    scam. A TIER_5 (known fee-trap) source is HIGH_RISK regardless of verdict.
+    """
+    from source_whitelist import TIER_1, TIER_2, TIER_3, TIER_5
+
+    level = normalize_credibility(verdict)
+
+    if source_tier == TIER_5:
+        return HIGH_RISK
+    # Never soften a negative verdict on the strength of a nice domain.
+    if level in (HIGH_RISK, SUSPICIOUS):
+        return level
+
+    if level == LIKELY_LEGITIMATE:
+        try:
+            conf = float(confidence) if confidence is not None else None
+        except (TypeError, ValueError):
+            conf = None
+        if source_tier == TIER_1 and (conf is None or conf >= 0.7):
+            return VERIFIED
+        if source_tier in (TIER_1, TIER_2, TIER_3):
+            return LIKELY_LEGITIMATE
+        # Legitimate-looking but from an unfamiliar source: ask for evidence.
+        return NEEDS_VERIFICATION
+
+    return NEEDS_VERIFICATION
+
+
+def is_notifiable(credibility) -> bool:
+    """HIGH_RISK / SUSPICIOUS / NEEDS_VERIFICATION never notify normally."""
+    return normalize_credibility(credibility) in NOTIFIABLE_CREDIBILITY
+
+
 # ── Deadline (Gemini, free) ─────────────────────────────────────────────────
 def check_deadline(text: str) -> dict:
     """Extract the application deadline. Returns status + days remaining.
@@ -209,8 +279,22 @@ def check_legitimacy(text: str, source_url: str) -> dict:
     verdict = data.get("verdict", "unknown")
     if verdict not in ("legitimate", "scam", "suspicious", "unknown"):
         verdict = "unknown"
+
+    # Provenance tier + verdict → graded credibility. Fail-soft: a tier lookup
+    # problem must not lose the legitimacy result we already paid for.
+    try:
+        from source_whitelist import source_tier as _source_tier
+        tier = _source_tier(source_url)
+    except Exception as e:
+        print(f"⚠️  Source tier lookup failed for {source_url!r}: {e}")
+        tier = None
+
+    status = credibility_status(verdict, tier, data.get("confidence"))
+
     return {
-        "verdict": verdict,
+        "verdict": verdict,                 # legacy field, unchanged
+        "credibility_status": status,
+        "source_tier": tier,
         "confidence": data.get("confidence"),
         "reasoning": data.get("reasoning", "No reasoning returned."),
         "red_flags": data.get("red_flags", flags["red_flags_found"]),
