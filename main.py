@@ -31,6 +31,7 @@ from dotenv import load_dotenv
 load_dotenv()  # load .env before importing modules that read os.getenv at import
 
 import tools
+import taxonomy
 from profile import PROFILE
 from source_whitelist import load_whitelist
 from cost_tracker import (
@@ -220,21 +221,31 @@ def run_scan(max_results_per_source: int = 8):
         return out
     # ------------------------------------------------------------------------
 
-    # 1. search across whitelisted sources (no model)
+    # 1. search across whitelisted sources + taxonomy families (no model)
     sources = load_whitelist()
     all_results = []
     seen_urls = set()
+
+    # Existing whitelist queries stay exactly as they were; the taxonomy
+    # families are APPENDED so discovery widens beyond scholarships without
+    # losing any current coverage. Both feed the same web_search pipeline.
+    search_jobs = [(s.name, s.search_query) for s in sources]
+    search_jobs += [(f"taxonomy:{cat}", q)
+                    for cat, q in taxonomy.all_search_queries()]
+    cprint(f"🔎 Generated {len(search_jobs)} search queries across "
+           f"{len(taxonomy.CATEGORIES)} categories")
+
     if os.getenv("GOOGLE_CSE_API_KEY") and os.getenv("GOOGLE_CSE_ID"):
-        for source in sources:
+        for job_name, query in search_jobs:
             try:
-                results = tools.web_search(source.search_query,
+                results = tools.web_search(query,
                                            max_results=max_results_per_source)
                 for r in results:
                     if r.url and r.url not in seen_urls:
                         seen_urls.add(r.url)
                         all_results.append(r)
             except Exception as e:
-                db.log_error(f"Source {source.name} failed: {e}")
+                db.log_error(f"Source {job_name} failed: {e}")
 
     # Keyless fallback: with no CSE keys (or zero search results), fetch the
     # whitelist's official seed URLs directly so the agent still discovers.
