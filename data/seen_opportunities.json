@@ -2204,5 +2204,33 @@
     "id": "61ecdaedef69b245",
     "first_seen": "2026-08-14T06:19:07.759832+00:00",
     "last_updated": "2026-08-14T06:19:07.759840+00:00"
+  },
+  "debc87c0083adffb": {
+    "url": "https://opportunitiescorners.com/unesco-youth-hackathon-2026/",
+    "title": "UNESCO Youth Hackathon 2026 in Greece (Fully Funded)",
+    "status": "unknown",
+    "eligibility_status": "UNCERTAIN",
+    "reasoning": "The candidate meets the age requirement and is from an eligible country, but the program does not explicitly state English language requirements or requirements for working professionals. However, the candidate's professional working proficiency in English and relevant skills make them a likely fit.",
+    "id": "debc87c0083adffb",
+    "first_seen": "2026-08-15T05:27:22.565144+00:00",
+    "last_updated": "2026-08-15T05:27:22.565158+00:00"
+  },
+  "e9170afc35e8b8a4": {
+    "url": "https://www.opportunitiesforafricans.com/the-union-for-the-mediterranean-ufm-youth-lab-2026/",
+    "title": "The Union for the Mediterranean (UfM) Youth Lab 2026 for young university students and recent graduates (Fully Funded to Palermo, Italy)",
+    "status": "filtered_out",
+    "reason": "Age and education status do not match eligibility requirements",
+    "id": "e9170afc35e8b8a4",
+    "first_seen": "2026-08-15T05:27:39.440129+00:00",
+    "last_updated": "2026-08-15T05:27:39.440148+00:00"
+  },
+  "aa2cff0de055d9cd": {
+    "url": "https://www.opportunitiesforafricans.com/the-world-bank-2026-govtech-ai-bootcamp-for-governance-and-public-administration/",
+    "title": "The World Bank 2026 GovTech AI Bootcamp for Governance and Public Administration (Fully Funded to Seoul, South Korea)",
+    "status": "filtered_out",
+    "reason": "Candidate is not a government institution",
+    "id": "aa2cff0de055d9cd",
+    "first_seen": "2026-08-15T05:27:59.532818+00:00",
+    "last_updated": "2026-08-15T05:27:59.532828+00:00"
   }
 }
