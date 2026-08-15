@@ -145,6 +145,19 @@ def analyze_one(result, stats: dict):
     }, PROFILE)
     stats["deep_analyzed"] += 1
 
+    # Surface the expected-value sub-scores in the run log.
+    subs = score.get("sub_scores") or {}
+    if subs:
+        ev = score.get("expected_value") or {}
+        prob = score.get("probability") or {}
+        cprint("   📐 " + "  ".join(
+            f"{k.replace('_score', '')}={'—' if v is None else v}"
+            for k, v in subs.items()))
+        cprint(f"   🎲 win probability ≈ {prob.get('probability')} "
+               f"(confidence: {prob.get('confidence')})  •  "
+               f"expected value {ev.get('expected_value_score')}/10 "
+               f"→ final {score.get('final_score')}/10")
+
     # Richer data model — every field present, None/unknown when not derivable.
     enrichment = {
         "category": getattr(result, "category", None),
