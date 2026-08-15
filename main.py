@@ -32,6 +32,7 @@ load_dotenv()  # load .env before importing modules that read os.getenv at impor
 
 import tools
 import taxonomy
+import notification
 from profile import PROFILE
 from checker import (
     meets_threshold, PROBABLY_ELIGIBLE, normalize_credibility, is_notifiable,
@@ -370,12 +371,58 @@ def run_scan(max_results_per_source: int = 8):
             db.log_error(f"Failed to analyze {r.url}: {e}")
             continue
 
-    # 12. report + notify
+    # 12. dedupe across sources, tier, report + notify
     final_opportunities.sort(key=lambda m: m["score"]["overall_score"], reverse=True)
+    before_dedupe = len(final_opportunities)
+    final_opportunities = notification.dedupe_opportunities(final_opportunities)
+    if before_dedupe != len(final_opportunities):
+        cprint(f"🧹 Deduped {before_dedupe - len(final_opportunities)} duplicate "
+               f"opportunit{'y' if before_dedupe - len(final_opportunities) == 1 else 'ies'} "
+               f"(kept the highest-tier source)")
+    stats["deduped"] = before_dedupe - len(final_opportunities)
+
+    # Assign notification tiers (mutates each opp with notification_tier).
+    grouped = notification.group_by_tier(final_opportunities, MIN_SCORE)
+    for tier, items in grouped.items():
+        if items:
+            cprint(f"{notification.TIER_EMOJI.get(tier, '•')} {tier}: {len(items)}")
+
+    # Anything not confirmed open goes to the existing watchlist, not a push.
+    for opp in grouped.get(notification.WATCHLIST, []):
+        try:
+            tools.add_to_watchlist({
+                "url": opp.get("url"), "title": opp.get("title"),
+                "last_known_deadline": (opp.get("deadline") or {}).get("deadline")
+                if isinstance(opp.get("deadline"), dict) else opp.get("deadline"),
+                "reason": "monitoring — not confirmed open at scan time"})
+        except Exception as e:
+            db.log_error(f"Watchlist add failed for {opp.get('url')}: {e}")
+
     report = build_report(final_opportunities, stats, blocked_scams)
     top_name = final_opportunities[0]["title"] if final_opportunities else ""
     subject = tools.generate_email_subject(len(final_opportunities), top_name)
+
+    # CRITICAL/HIGH interrupt immediately; GOOD rides the digest below.
+    alert = notification.build_priority_alert(final_opportunities, MIN_SCORE)
+    if alert:
+        try:
+            tools.send_notification(alert, channel="all",
+                                    subject=f"🚨 {subject}")
+        except Exception as e:
+            db.log_error(f"Priority alert failed: {e}")
+
     tools.send_notification(report, channel="all", subject=subject)
+
+    # Record what we notified about, so nothing is announced twice.
+    for opp in final_opportunities:
+        try:
+            tools.save_opportunity({
+                "url": opp.get("url"), "title": opp.get("title"),
+                "status": "notified",
+                "notification_tier": opp.get("notification_tier"),
+                "notified_at": datetime.now(timezone.utc).isoformat()})
+        except Exception as e:
+            db.log_error(f"Could not mark notified for {opp.get('url')}: {e}")
 
     # calendar
     for opp in final_opportunities:
@@ -428,6 +475,8 @@ def build_report(opportunities, stats, blocked_scams):
         f"   Closed deadline:       {stats['closed']}",
         f"   Deep-analyzed (Claude):{stats['deep_analyzed']}",
         f"   Scoring >= {MIN_SCORE}:         {stats['scored_high']}",
+        f"   Rescued by signals:    {stats.get('signal_rescued', 0)}",
+        f"   Deduped duplicates:    {stats.get('deduped', 0)}",
         "",
         "💰 COST TODAY",
         f"   Claude: ${daily['claude']['cost']:.3f} ({daily['claude']['calls']} calls)",
@@ -447,28 +496,42 @@ def build_report(opportunities, stats, blocked_scams):
     if not opportunities:
         lines.append("   (No new matches scoring >= "
                       f"{MIN_SCORE} today.)")
-    for i, opp in enumerate(opportunities, 1):
-        s = opp["score"]
-        d = opp["deadline"]
-        c = opp["complexity"]
-        days = d.get("days_left")
-        days_str = f"{days} days" if days is not None else "unknown"
-        lines += [
-            "",
-            f"#{i} — {opp['title']}",
-            f"    Score: {s['overall_score']}/10  •  Deadline: "
-            f"{d.get('deadline') or 'unknown'} ({days_str})",
-            f"    Eligibility: {opp.get('eligibility_status', 'UNCERTAIN')}"
-            f"  •  Category: {opp.get('category') or 'uncategorized'}",
-            f"    Funding: {s.get('funding', 'unknown')}",
-            f"    Why it fits: {s.get('reasoning', '')}",
-            f"    Documents: {', '.join(opp['documents'].get('documents', []) or ['—'])}",
-            f"    English test: {opp['documents'].get('english_test_required', 'unknown')}",
-            f"    Complexity: ~{c.get('estimated_hours', '?')}h, "
-            f"{c.get('difficulty', '?')} difficulty, odds: {c.get('odds', '?')}",
-            f"    Recommendation: {s.get('recommendation', '—')}",
-            f"    Apply: {opp['url']}",
-        ]
+
+    # Opportunity of the Day — the best REAL match from this run only.
+    lines += notification.format_opportunity_of_the_day(
+        notification.opportunity_of_the_day(opportunities, MIN_SCORE))
+
+    # Tiered sections: urgent first, monitor-only last.
+    grouped = notification.group_by_tier(opportunities, MIN_SCORE)
+    counter = 0
+    for tier in notification.TIER_ORDER_NOTIFY:
+        items = grouped.get(tier) or []
+        if not items:
+            continue
+        emoji = notification.TIER_EMOJI.get(tier, "•")
+        note = {
+            notification.CRITICAL: "act now — deadline is close",
+            notification.HIGH: "strong match — pushed immediately",
+            notification.GOOD: "solid match — daily digest",
+            notification.WATCHLIST: "monitoring only — not confirmed open",
+        }.get(tier, "")
+        lines += ["", f"{emoji} {tier} ({len(items)}) — {note}", "─" * 51]
+        for opp in items:
+            counter += 1
+            lines.append("")
+            lines.append(notification.format_opportunity(opp, counter, MIN_SCORE))
+            # Keep the application-effort detail the old report carried.
+            c = opp.get("complexity") or {}
+            docs = opp.get("documents") or {}
+            lines.append(
+                f"    Documents: "
+                f"{', '.join(docs.get('documents', []) or ['—'])}"
+                f"  •  English test: {docs.get('english_test_required', 'unknown')}")
+            lines.append(
+                f"    Complexity: ~{c.get('estimated_hours', '?')}h, "
+                f"{c.get('difficulty', '?')} difficulty, odds: {c.get('odds', '?')}"
+                f"  •  Recommendation: "
+                f"{(opp.get('score') or {}).get('recommendation', '—')}")
 
     if opportunities:
         lines += ["", "📅 ADDED TO CALENDAR",
