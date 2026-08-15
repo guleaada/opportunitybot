@@ -115,11 +115,16 @@ def normalize_credibility(value) -> str:
 def credibility_status(verdict, source_tier=None, confidence=None) -> str:
     """Combine the model's legitimacy verdict with the source tier.
 
-    A first-party official source backing a legitimate verdict earns VERIFIED;
-    everything unproven lands on NEEDS_VERIFICATION rather than being called a
-    scam. A TIER_5 (known fee-trap) source is HIGH_RISK regardless of verdict.
+    A first-party official source backing a legitimate verdict earns VERIFIED.
+    NEEDS_VERIFICATION is reserved for verdicts that are genuinely unknown or
+    unverifiable — an unfamiliar DOMAIN is not itself a reason to withhold a
+    positive legitimacy judgment, since most RSS/taxonomy discoveries live on
+    domains that are not on the whitelist. The tier still shapes credibility
+    scoring; it is not a kill switch.
+
+    A TIER_5 (known fee-trap) source is HIGH_RISK regardless of verdict.
     """
-    from source_whitelist import TIER_1, TIER_2, TIER_3, TIER_5
+    from source_whitelist import TIER_1, TIER_5
 
     level = normalize_credibility(verdict)
 
@@ -136,11 +141,11 @@ def credibility_status(verdict, source_tier=None, confidence=None) -> str:
             conf = None
         if source_tier == TIER_1 and (conf is None or conf >= 0.7):
             return VERIFIED
-        if source_tier in (TIER_1, TIER_2, TIER_3):
-            return LIKELY_LEGITIMATE
-        # Legitimate-looking but from an unfamiliar source: ask for evidence.
-        return NEEDS_VERIFICATION
+        # The checker formed a positive legitimacy judgment — honour it for
+        # every remaining tier, including TIER_4 (unlisted domain).
+        return LIKELY_LEGITIMATE
 
+    # Only genuinely unknown / unverifiable verdicts land here.
     return NEEDS_VERIFICATION
 
 
