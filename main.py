@@ -70,8 +70,15 @@ def analyze_one(result, stats: dict):
     Returns a rich dict if it's a notify-worthy match, else None. Mutates
     ``stats`` counters along the way.
     """
-    url = result.url
-    title = result.title
+    # RSS entries frequently omit fields — coerce None to "" so a missing
+    # title or snippet can never crash this candidate (or the whole scan).
+    url = getattr(result, "url", None) or ""
+    title = getattr(result, "title", None) or ""
+    snippet = getattr(result, "snippet", None) or ""
+    if not url:
+        stats["fetch_failed"] += 1
+        cprint("   ⚠️  candidate has no URL — skipping")
+        return None
 
     # 4. fetch (no model)
     fetched = tools.fetch_url(url)
@@ -360,15 +367,22 @@ def run_scan(max_results_per_source: int = 8):
            f"({stats['already_seen']} seen, {stats['known_scam']} blocked)")
 
     # 4-11. deep pipeline (budget-bounded by MAX_PER_DAY)
+    cprint(f"🧮 MAX_PER_DAY={MAX_PER_DAY} — analyzing "
+           f"{len(candidates[:MAX_PER_DAY])} of {len(candidates)} candidates")
     final_opportunities = []
     for r in candidates[:MAX_PER_DAY]:
-        cprint(f"🔎 {r.title[:70]}")
+        # RSS items routinely arrive with a missing title; slicing None here
+        # (outside the try) used to abort the whole loop, not just this item.
+        cprint(f"🔎 {(getattr(r, 'title', None) or '(untitled)')[:70]}")
         try:
             match = analyze_one(r, stats)
             if match:
                 final_opportunities.append(match)
         except Exception as e:
-            db.log_error(f"Failed to analyze {r.url}: {e}")
+            import traceback
+            cprint(f"   ❌ analyze_one failed for {getattr(r, 'url', '?')}: {e}")
+            cprint(traceback.format_exc())
+            db.log_error(f"Failed to analyze {getattr(r, 'url', '?')}: {e}")
             continue
 
     # 12. dedupe across sources, tier, report + notify
@@ -471,6 +485,7 @@ def build_report(opportunities, stats, blocked_scams):
         f"   Hard-blocked scams:    {stats['known_scam']}",
         f"   First-pass filtered:   {stats['first_pass_dropped']}",
         f"   Flagged scam (Claude): {stats['scam']}",
+        f"   Needs verification:    {stats.get('legit_unknown', 0)}",
         f"   Ineligible:            {stats['ineligible']}",
         f"   Closed deadline:       {stats['closed']}",
         f"   Deep-analyzed (Claude):{stats['deep_analyzed']}",
