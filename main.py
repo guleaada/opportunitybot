@@ -33,7 +33,8 @@ load_dotenv()  # load .env before importing modules that read os.getenv at impor
 import tools
 import taxonomy
 from profile import PROFILE
-from source_whitelist import load_whitelist
+from checker import meets_threshold, PROBABLY_ELIGIBLE
+from source_whitelist import load_whitelist, domain_quality
 from cost_tracker import (
     get_daily_summary, get_monthly_summary, get_daily_claude_spend,
     get_monthly_claude_spend,
@@ -119,14 +120,17 @@ def analyze_one(result, stats: dict):
         cprint("   ❓ legitimacy unknown — skipping (honesty rule)")
         return None
 
-    # 9. check_eligibility (CLAUDE $)
+    # 9. check_eligibility (CLAUDE $) — graded ladder; anything below
+    # PROBABLY_ELIGIBLE (including UNCERTAIN) never reaches notification.
     elig = tools.check_eligibility(text, PROFILE)
-    if elig["overall"] != "eligible":
+    elig_status = elig.get("eligibility_status", "UNCERTAIN")
+    if not meets_threshold(elig_status, PROBABLY_ELIGIBLE):
         stats["ineligible"] += 1
         tools.save_opportunity({"url": url, "title": title,
                                 "status": elig["overall"],
+                                "eligibility_status": elig_status,
                                 "reasoning": elig["reasoning"]})
-        cprint(f"   ⛔ {elig['overall']}: {elig['reasoning']}")
+        cprint(f"   ⛔ {elig_status}: {elig['reasoning']}")
         return None
 
     # 10. enrichment (GEMINI free)
@@ -141,14 +145,32 @@ def analyze_one(result, stats: dict):
     }, PROFILE)
     stats["deep_analyzed"] += 1
 
+    # Richer data model — every field present, None/unknown when not derivable.
+    enrichment = {
+        "category": getattr(result, "category", None),
+        "official_url": url,
+        "location": getattr(result, "location", None),
+        "remote": getattr(result, "remote", None),
+        "deadline": deadline.get("deadline"),
+        "reward": score.get("funding"),
+        "estimated_value": getattr(result, "estimated_value", None),
+        "eligibility_status": elig_status,
+        "credibility_status": legit.get("verdict"),
+        "source_quality": domain_quality(url) or getattr(result, "source_quality", None),
+        "requirements": docs.get("documents", []) or [],
+    }
+
     tools.save_opportunity({
         "url": url, "title": title, "status": "analyzed",
-        "score": score["overall_score"], "deadline": deadline.get("deadline"),
+        "score": score["overall_score"], **enrichment,
     })
 
     if score["overall_score"] >= MIN_SCORE:
         stats["scored_high"] += 1
+        # enrichment first: the explicit keys below win, so ``deadline`` stays
+        # the full analysis dict that build_report expects.
         return {
+            **enrichment,
             "url": url, "title": title, "score": score,
             "documents": docs, "complexity": complexity,
             "eligibility": elig, "legitimacy": legit, "deadline": deadline,
@@ -229,20 +251,23 @@ def run_scan(max_results_per_source: int = 8):
     # Existing whitelist queries stay exactly as they were; the taxonomy
     # families are APPENDED so discovery widens beyond scholarships without
     # losing any current coverage. Both feed the same web_search pipeline.
-    search_jobs = [(s.name, s.search_query) for s in sources]
-    search_jobs += [(f"taxonomy:{cat}", q)
+    search_jobs = [(s.name, s.search_query, s.category) for s in sources]
+    search_jobs += [(f"taxonomy:{cat}", q, cat)
                     for cat, q in taxonomy.all_search_queries()]
     cprint(f"🔎 Generated {len(search_jobs)} search queries across "
            f"{len(taxonomy.CATEGORIES)} categories")
 
     if os.getenv("GOOGLE_CSE_API_KEY") and os.getenv("GOOGLE_CSE_ID"):
-        for job_name, query in search_jobs:
+        for job_name, query, category in search_jobs:
             try:
                 results = tools.web_search(query,
                                            max_results=max_results_per_source)
                 for r in results:
                     if r.url and r.url not in seen_urls:
                         seen_urls.add(r.url)
+                        # tag what we already know at discovery time
+                        r.category = r.category or category
+                        r.source_quality = r.source_quality or domain_quality(r.url)
                         all_results.append(r)
             except Exception as e:
                 db.log_error(f"Source {job_name} failed: {e}")
@@ -391,6 +416,8 @@ def build_report(opportunities, stats, blocked_scams):
             f"#{i} — {opp['title']}",
             f"    Score: {s['overall_score']}/10  •  Deadline: "
             f"{d.get('deadline') or 'unknown'} ({days_str})",
+            f"    Eligibility: {opp.get('eligibility_status', 'UNCERTAIN')}"
+            f"  •  Category: {opp.get('category') or 'uncategorized'}",
             f"    Funding: {s.get('funding', 'unknown')}",
             f"    Why it fits: {s.get('reasoning', '')}",
             f"    Documents: {', '.join(opp['documents'].get('documents', []) or ['—'])}",

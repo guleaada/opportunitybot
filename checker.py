@@ -29,6 +29,56 @@ def _trim(text: str, limit: int = _MAX_TEXT) -> str:
     return text if len(text) <= limit else text[:limit] + "\n...[truncated]..."
 
 
+# ── Eligibility ladder ──────────────────────────────────────────────────────
+# Graded replacement for the old binary eligible/ineligible. Ordered best →
+# worst; ELIGIBILITY_RANK lets callers compare levels numerically.
+CONFIRMED_ELIGIBLE = "CONFIRMED_ELIGIBLE"
+PROBABLY_ELIGIBLE = "PROBABLY_ELIGIBLE"
+UNCERTAIN = "UNCERTAIN"
+PROBABLY_INELIGIBLE = "PROBABLY_INELIGIBLE"
+CONFIRMED_INELIGIBLE = "CONFIRMED_INELIGIBLE"
+
+ELIGIBILITY_LEVELS = [
+    CONFIRMED_ELIGIBLE, PROBABLY_ELIGIBLE, UNCERTAIN,
+    PROBABLY_INELIGIBLE, CONFIRMED_INELIGIBLE,
+]
+ELIGIBILITY_RANK = {level: i for i, level in enumerate(ELIGIBILITY_LEVELS)}
+
+# Old vocabulary → ladder, so legacy model replies and stored records still map.
+_LEGACY_TO_LEVEL = {
+    "eligible": PROBABLY_ELIGIBLE,     # legacy "eligible" carries no proof → not CONFIRMED
+    "ineligible": CONFIRMED_INELIGIBLE,
+    "unknown": UNCERTAIN,
+}
+# Ladder → old vocabulary, so existing readers of ``overall`` keep working.
+_LEVEL_TO_LEGACY = {
+    CONFIRMED_ELIGIBLE: "eligible",
+    PROBABLY_ELIGIBLE: "eligible",
+    UNCERTAIN: "unknown",
+    PROBABLY_INELIGIBLE: "ineligible",
+    CONFIRMED_INELIGIBLE: "ineligible",
+}
+
+
+def normalize_eligibility(value) -> str:
+    """Coerce any eligibility value (ladder level or legacy word) to a level.
+
+    Unrecognized input is UNCERTAIN — never an eligible level, per the
+    honesty rule.
+    """
+    if not value:
+        return UNCERTAIN
+    raw = str(value).strip().upper()
+    if raw in ELIGIBILITY_RANK:
+        return raw
+    return _LEGACY_TO_LEVEL.get(str(value).strip().lower(), UNCERTAIN)
+
+
+def meets_threshold(level, minimum: str = PROBABLY_ELIGIBLE) -> bool:
+    """True if ``level`` is at least as good as ``minimum`` on the ladder."""
+    return ELIGIBILITY_RANK[normalize_eligibility(level)] <= ELIGIBILITY_RANK[minimum]
+
+
 # ── Deadline (Gemini, free) ─────────────────────────────────────────────────
 def check_deadline(text: str) -> dict:
     """Extract the application deadline. Returns status + days remaining.
@@ -173,10 +223,17 @@ def check_legitimacy(text: str, source_url: str) -> dict:
 def check_eligibility(text: str, profile: dict) -> dict:
     """Deep eligibility analysis against the user's profile.
 
+    Grades onto the 5-level ladder rather than a binary verdict. Two rules are
+    enforced in code (not left to the model):
+      * missing / unverifiable requirements  ⇒ UNCERTAIN (never "eligible")
+      * hard citizenship or country mismatch ⇒ CONFIRMED_INELIGIBLE
+
     Returns::
-        {"overall": "eligible"|"ineligible"|"unknown",
+        {"eligibility_status": <ladder level>,
+         "overall": "eligible"|"ineligible"|"unknown",   # legacy, derived
          "reasoning": str, "blocking_issues": [...],
-         "addressable_gaps": [...], "model_used": str}
+         "addressable_gaps": [...], "missing_requirements": [...],
+         "citizenship_mismatch": bool, "model_used": str}
     """
     system = (
         "You are a meticulous eligibility analyst for international "
@@ -188,28 +245,59 @@ def check_eligibility(text: str, profile: dict) -> dict:
         "Key facts about this candidate: Ethiopian national, age 27, WORKING "
         "PROFESSIONAL (not currently a student), holds a BSc (bachelor's), has "
         "NO IELTS/TOEFL yet but can obtain a Duolingo or MOI certificate.\n"
-        "If requirements are unclear or missing, return 'unknown' — do not guess."
+        "CRITICAL: never upgrade missing information into eligibility. If a "
+        "requirement is not stated on the page, or you cannot verify the "
+        "candidate meets it, list it in missing_requirements and grade "
+        "UNCERTAIN — do not guess."
     )
     prompt = (
         f"CANDIDATE PROFILE:\n{profile_summary()}\n\n"
-        "Analyze eligibility for the program described below. Reply ONLY with "
-        "JSON:\n"
-        '{"overall": "eligible"|"ineligible"|"unknown", '
+        "Grade eligibility for the program below on this ladder:\n"
+        "- CONFIRMED_ELIGIBLE: page explicitly states requirements the "
+        "candidate demonstrably meets; nothing unverified.\n"
+        "- PROBABLY_ELIGIBLE: requirements stated and likely met, minor "
+        "addressable gaps only.\n"
+        "- UNCERTAIN: key requirements missing from the page or "
+        "unverifiable.\n"
+        "- PROBABLY_INELIGIBLE: likely blocked but not stated outright.\n"
+        "- CONFIRMED_INELIGIBLE: page explicitly excludes this candidate "
+        "(e.g. nationality not eligible, must be enrolled student).\n\n"
+        "Reply ONLY with JSON:\n"
+        '{"eligibility_status": "CONFIRMED_ELIGIBLE|PROBABLY_ELIGIBLE|'
+        'UNCERTAIN|PROBABLY_INELIGIBLE|CONFIRMED_INELIGIBLE", '
         '"reasoning": "specific, cites requirements", '
         '"blocking_issues": ["hard blockers, if any"], '
-        '"addressable_gaps": ["gaps the candidate can fix in time"]}\n\n'
+        '"addressable_gaps": ["gaps the candidate can fix in time"], '
+        '"missing_requirements": ["requirements not stated or unverifiable"], '
+        '"citizenship_mismatch": true/false}\n\n'
         f"PROGRAM TEXT:\n{_trim(text)}"
     )
     res = call_model("deep_eligibility", prompt, system=system, max_tokens=800)
     data = extract_json(res["content"]) or {}
-    overall = data.get("overall", "unknown")
-    if overall not in ("eligible", "ineligible", "unknown"):
-        overall = "unknown"
+
+    # Accept the ladder, or a legacy "overall" reply, or nothing at all.
+    level = normalize_eligibility(
+        data.get("eligibility_status") or data.get("overall"))
+    missing = data.get("missing_requirements") or []
+    if not isinstance(missing, list):
+        missing = [str(missing)]
+    citizenship_mismatch = bool(data.get("citizenship_mismatch"))
+
+    # Rule 1: a hard citizenship/country mismatch is disqualifying outright.
+    if citizenship_mismatch:
+        level = CONFIRMED_INELIGIBLE
+    # Rule 2: missing/unverifiable info must never read as eligible.
+    elif missing and ELIGIBILITY_RANK[level] < ELIGIBILITY_RANK[UNCERTAIN]:
+        level = UNCERTAIN
+
     return {
-        "overall": overall,
+        "eligibility_status": level,
+        "overall": _LEVEL_TO_LEGACY[level],  # backward compatibility
         "reasoning": data.get("reasoning", "No reasoning returned."),
         "blocking_issues": data.get("blocking_issues", []),
         "addressable_gaps": data.get("addressable_gaps", []),
+        "missing_requirements": missing,
+        "citizenship_mismatch": citizenship_mismatch,
         "model_used": res["model_used"],
         "cost_usd": res["cost_usd"],
     }

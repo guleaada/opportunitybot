@@ -27,6 +27,9 @@ Score 0-10 (one decimal ok) using this rubric:
   working professional, no IELTS yet, strong AI portfolio.
 - Effort vs reward (0-1): lower effort for high reward scores higher.
 - Time available (0-1): comfortable deadline scores higher than a near one.
+Eligibility ladder: CONFIRMED_ELIGIBLE may score full winnability;
+PROBABLY_ELIGIBLE scores slightly lower. UNCERTAIN or worse must NOT score >= 7
+— unverified eligibility is not a recommendation to apply.
 A score >= 7 means: notify the user, it's worth applying.
 """
 
@@ -49,6 +52,8 @@ def score_opportunity(data: dict, profile: dict) -> dict:
     )
     prior = {
         "legitimacy": data.get("legitimacy"),
+        "eligibility_status": (data.get("eligibility") or {}).get(
+            "eligibility_status", "UNCERTAIN"),
         "eligibility": data.get("eligibility"),
         "documents": data.get("documents"),
         "complexity": data.get("complexity"),

@@ -26,20 +26,47 @@ USER_AGENT = (
 )
 
 
+# Richer per-opportunity fields carried alongside the original four. All
+# default to None so every existing call site keeps working unchanged.
+OPPORTUNITY_FIELDS = (
+    "category", "official_url", "location", "remote", "deadline", "reward",
+    "estimated_value", "eligibility_status", "credibility_status",
+    "source_quality", "requirements",
+)
+
+
 class SearchResult:
-    def __init__(self, title: str, url: str, snippet: str = "", source: str = ""):
+    def __init__(self, title: str, url: str, snippet: str = "", source: str = "",
+                 category=None, official_url=None, location=None, remote=None,
+                 deadline=None, reward=None, estimated_value=None,
+                 eligibility_status=None, credibility_status=None,
+                 source_quality=None, requirements=None):
         self.title = title
         self.url = url
         self.snippet = snippet
         self.source = source
+        # Richer model — populated as the pipeline learns more; None until then.
+        self.category = category
+        self.official_url = official_url
+        self.location = location
+        self.remote = remote
+        self.deadline = deadline
+        self.reward = reward
+        self.estimated_value = estimated_value
+        self.eligibility_status = eligibility_status
+        self.credibility_status = credibility_status
+        self.source_quality = source_quality
+        self.requirements = requirements if requirements is not None else []
 
     def to_dict(self) -> dict:
-        return {
+        base = {
             "title": self.title,
             "url": self.url,
             "snippet": self.snippet,
             "source": self.source,
         }
+        base.update({f: getattr(self, f) for f in OPPORTUNITY_FIELDS})
+        return base
 
     @property
     def __dict__(self):  # convenience for {**result.__dict__}
