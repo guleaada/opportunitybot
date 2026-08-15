@@ -59,6 +59,8 @@ except ImportError:  # pragma: no cover
 
 MIN_SCORE = int(os.getenv("MIN_SCORE_TO_NOTIFY", "7"))
 MAX_PER_DAY = int(os.getenv("MAX_OPPORTUNITIES_PER_DAY", "15"))
+# Shortest feed snippet worth analyzing when the full page fetch is blocked.
+MIN_SNIPPET_CHARS = int(os.getenv("MIN_SNIPPET_CHARS", "80"))
 
 
 # ════════════════════════════════════════════════════════════════════════
@@ -83,13 +85,24 @@ def analyze_one(result, stats: dict):
     # 4. fetch (no model)
     fetched = tools.fetch_url(url)
     if fetched["error"] or fetched["status"] != 200 or not fetched["text"]:
-        db.log_error(f"Fetch failed for {url}: "
-                     f"{fetched['error'] or fetched['status']}")
-        stats["fetch_failed"] += 1
-        return None
-
-    # 5. clean_html (GROQ free) — best effort; falls back to raw text
-    text = tools.clean_html(fetched["text"])
+        reason = fetched["error"] or fetched["status"]
+        db.log_error(f"Fetch failed for {url}: {reason}")
+        # The full page is often Cloudflare-blocked (403/429) on the very sites
+        # RSS discovery targets. We already have the feed's title + snippet, so
+        # analyze that rather than throwing the candidate away.
+        if len(snippet) >= MIN_SNIPPET_CHARS:
+            text = f"{title}\n\n{snippet}"
+            stats["snippet_fallback"] = stats.get("snippet_fallback", 0) + 1
+            cprint(f"   ↩️  fetch blocked ({reason}) — analyzing the "
+                   f"{len(snippet)}-char feed snippet instead")
+        else:
+            stats["fetch_failed"] += 1
+            cprint(f"   ⚠️  fetch failed ({reason}) and no usable snippet "
+                   f"({len(snippet)} chars) — skipping")
+            return None
+    else:
+        # 5. clean_html (GROQ free) — best effort; falls back to raw text
+        text = tools.clean_html(fetched["text"])
 
     # 6. first_pass_filter (GEMINI free) — drops most candidates
     filt = tools.first_pass_filter(text, PROFILE)
@@ -483,6 +496,8 @@ def build_report(opportunities, stats, blocked_scams):
         f"   Discovered:            {stats['discovered']}",
         f"   Skipped already-seen:  {stats['already_seen']}",
         f"   Hard-blocked scams:    {stats['known_scam']}",
+        f"   Fetch failed:          {stats.get('fetch_failed', 0)}",
+        f"   Snippet fallback:      {stats.get('snippet_fallback', 0)}",
         f"   First-pass filtered:   {stats['first_pass_dropped']}",
         f"   Flagged scam (Claude): {stats['scam']}",
         f"   Needs verification:    {stats.get('legit_unknown', 0)}",

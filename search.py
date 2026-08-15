@@ -20,9 +20,12 @@ from bs4 import BeautifulSoup
 
 CACHE_DIR = Path(os.getenv("URL_CACHE_DIR", "data/url_cache"))
 CACHE_TTL_SECONDS = 24 * 3600
+# Plain browser UA. The old string appended "OpportunityBot/1.0", which
+# self-identifies as a bot and is routinely 403'd by Cloudflare/Wordfence on
+# the WordPress opportunity sites we fetch from.
 USER_AGENT = (
-    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 "
-    "(KHTML, like Gecko) Chrome/124.0 Safari/537.36 OpportunityBot/1.0"
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+    "(KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36"
 )
 
 
