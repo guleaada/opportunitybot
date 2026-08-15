@@ -43,7 +43,7 @@ def _anthropic():
 def _gemini(model_name: Optional[str] = None):
     import google.generativeai as genai
     genai.configure(api_key=os.getenv("GEMINI_API_KEY"))
-    return genai.GenerativeModel(model_name or os.getenv("GEMINI_MODEL", "gemini-2.0-flash-exp"))
+    return genai.GenerativeModel(model_name or os.getenv("GEMINI_MODEL") or "gemini-2.5-flash")
 
 
 def _groq():
@@ -248,7 +248,7 @@ def _call_gemini(prompt, system, max_tokens, temperature, task_type) -> dict:
     log_cost("gemini", task_type, {"input": tin, "output": tout}, 0.0)
     return {
         "content": _gemini_text(response),
-        "model_used": os.getenv("GEMINI_MODEL", "gemini-2.0-flash-exp"),
+        "model_used": os.getenv("GEMINI_MODEL") or "gemini-2.5-flash",
         "task_type": task_type,
         "tokens_used": {"input": tin, "output": tout},
         "cost_usd": 0.0,
