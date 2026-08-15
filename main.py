@@ -77,13 +77,24 @@ def analyze_one(result, stats: dict):
     url = getattr(result, "url", None) or ""
     title = getattr(result, "title", None) or ""
     snippet = getattr(result, "snippet", None) or ""
+    cprint(f"   ▶️ analyze_one ENTER: {url[:60] if url else '(no url)'}")
     if not url:
         stats["fetch_failed"] += 1
         cprint("   ⚠️  candidate has no URL — skipping")
         return None
 
-    # 4. fetch (no model)
-    fetched = tools.fetch_url(url)
+    # 4. fetch (no model). fetch_url is contracted to return an error dict, but
+    # if anything ever raises out of it the exception would escape before a
+    # single counter moved — the all-zeros signature. Route a raise into the
+    # same snippet fallback instead of losing the candidate.
+    try:
+        fetched = tools.fetch_url(url)
+    except Exception as e:
+        cprint(f"   ⚠️  fetch_url raised ({type(e).__name__}: {e}) — "
+               f"treating as a failed fetch")
+        fetched = {"url": url, "html": "", "text": "", "status": 0,
+                   "cached": False, "error": f"{type(e).__name__}: {e}"}
+
     if fetched["error"] or fetched["status"] != 200 or not fetched["text"]:
         reason = fetched["error"] or fetched["status"]
         db.log_error(f"Fetch failed for {url}: {reason}")

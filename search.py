@@ -190,7 +190,10 @@ def fetch_url(url: str, force: bool = False) -> dict:
     ``tools.clean_html`` for Groq-polished text when needed.
     """
     if not force:
-        cached = _read_cache(url)
+        try:
+            cached = _read_cache(url)
+        except Exception:  # a corrupt cache entry must not kill the fetch
+            cached = None
         if cached is not None:
             return {**cached, "cached": True, "error": None}
 
@@ -200,9 +203,19 @@ def fetch_url(url: str, force: bool = False) -> dict:
         html = resp.text if status == 200 else ""
         text = _basic_text(html) if html else ""
         if status == 200:
-            _write_cache(url, html, text, status)
+            try:
+                _write_cache(url, html, text, status)
+            except OSError as e:
+                # Disk full / read-only FS must not lose a good fetch.
+                print(f"⚠️  Could not cache {url}: {e}")
         return {"url": url, "html": html, "text": text, "status": status,
                 "cached": False, "error": None}
     except requests.RequestException as e:
         return {"url": url, "html": "", "text": "", "status": 0,
                 "cached": False, "error": str(e)}
+    except Exception as e:
+        # Anything else (HTML parser failure, decoding error, ...). fetch_url
+        # must ALWAYS return its dict — a raise here escapes before any counter
+        # moves and silently kills the candidate.
+        return {"url": url, "html": "", "text": "", "status": 0,
+                "cached": False, "error": f"{type(e).__name__}: {e}"}

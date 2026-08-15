@@ -98,21 +98,47 @@ jobs:
           git config user.name "OpportunityBot"
           git config user.email "actions@github.com"
 
+          DATA_FILES="data/seen_opportunities.json \
+                      data/application_tracker.json \
+                      data/watchlist.json \
+                      data/cost_log.json \
+                      data/activity_log.json"
+
+          # A rebase over concurrent data commits used to conflict on the JSON
+          # logs; `|| true` hid the failure but left the repo mid-rebase, so
+          # the push silently did nothing and persistence never landed.
+          #
+          # Instead: snapshot this run's files, move cleanly to upstream, then
+          # restore them. This cannot conflict. Taking this run's version is
+          # safe (not lossy) because the job checked out the repo before the
+          # scan, so these files already contain all prior history plus what
+          # this run appended.
+          SNAP="$(mktemp -d)"
+          for f in $DATA_FILES; do
+            [ -f "$f" ] && cp "$f" "$SNAP/$(basename "$f")" || true
+          done
+
+          git rebase --abort 2>/dev/null || true   # clear any prior bad state
+          git fetch origin "${GITHUB_REF_NAME}" || true
+          git reset --hard "origin/${GITHUB_REF_NAME}" || true
+
+          mkdir -p data
+          for f in $DATA_FILES; do
+            [ -f "$SNAP/$(basename "$f")" ] && cp "$SNAP/$(basename "$f")" "$f" || true
+          done
+
           # Stage only the persistence files (never secrets, never cache)
-          git add data/seen_opportunities.json \
-                  data/application_tracker.json \
-                  data/watchlist.json \
-                  data/cost_log.json \
-                  data/activity_log.json || true
+          git add $DATA_FILES || true
 
           if git diff --cached --quiet; then
             echo "ℹ️  No changes to persist"
           else
             git commit -m "🤖 OpportunityBot run $(date -u +'%Y-%m-%d %H:%M UTC')" || true
-            # Rebase on any concurrent change, then push
-            git pull --rebase --autostash origin "${GITHUB_REF_NAME}" || true
-            git push || true
-            echo "✅ Persistence data committed"
+            if git push; then
+              echo "✅ Persistence data committed"
+            else
+              echo "::warning::Persistence push failed — state may be stale next run"
+            fi
           fi
 
       - name: Upload logs as artifact (debug aid on failure)
