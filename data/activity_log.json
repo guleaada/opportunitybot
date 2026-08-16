@@ -1412,32 +1412,32 @@
     }
   },
   {
-    "at": "2026-08-16T19:39:12.016678+00:00",
+    "at": "2026-08-16T19:52:46.336853+00:00",
     "kind": "scan_start",
     "message": "daily scan started"
   },
   {
-    "at": "2026-08-16T19:39:44.551961+00:00",
+    "at": "2026-08-16T19:53:19.296285+00:00",
     "kind": "error",
     "message": "Fetch failed for https://www.dfat.gov.au/people-to-people/australia-awards/australia-awards-scholarships: HTTPSConnectionPool(host='www.dfat.gov.au', port=443): Read timed out. (read timeout=25)"
   },
   {
-    "at": "2026-08-16T19:39:44.688301+00:00",
+    "at": "2026-08-16T19:53:19.539102+00:00",
     "kind": "error",
     "message": "Fetch failed for https://vanier.gc.ca/en/home-accueil.html: HTTPSConnectionPool(host='vanier.gc.ca', port=443): Max retries exceeded with url: /en/home-accueil.html (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)')))"
   },
   {
-    "at": "2026-08-16T19:39:44.822542+00:00",
+    "at": "2026-08-16T19:53:19.575703+00:00",
     "kind": "error",
     "message": "Fetch failed for https://opportunitydesk.org/category/fellowships/: 403"
   },
   {
-    "at": "2026-08-16T19:40:15.848510+00:00",
+    "at": "2026-08-16T19:53:32.144101+00:00",
     "kind": "error",
     "message": "Fetch failed for https://opportunitydesk.org/2026/08/14/more-health-for-africa-program-2026-cohort-3/: 403"
   },
   {
-    "at": "2026-08-16T19:40:25.750001+00:00",
+    "at": "2026-08-16T19:53:41.743426+00:00",
     "kind": "scan_complete",
     "message": "daily scan finished",
     "matches": 0,
@@ -1459,7 +1459,7 @@
     }
   },
   {
-    "at": "2026-08-16T19:40:25.751585+00:00",
+    "at": "2026-08-16T19:53:41.744962+00:00",
     "kind": "run",
     "mode": "scan",
     "environment": "github_actions",
