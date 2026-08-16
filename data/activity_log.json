@@ -1,89 +1,5 @@
 [
   {
-    "at": "2026-08-05T07:42:10.127832+00:00",
-    "kind": "error",
-    "message": "Fetch failed for https://www.dfat.gov.au/people-to-people/australia-awards/australia-awards-scholarships: HTTPSConnectionPool(host='www.dfat.gov.au', port=443): Read timed out. (read timeout=25)"
-  },
-  {
-    "at": "2026-08-05T07:42:10.383734+00:00",
-    "kind": "error",
-    "message": "Fetch failed for https://vanier.gc.ca/en/home-accueil.html: HTTPSConnectionPool(host='vanier.gc.ca', port=443): Max retries exceeded with url: /en/home-accueil.html (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)')))"
-  },
-  {
-    "at": "2026-08-05T07:42:10.428133+00:00",
-    "kind": "error",
-    "message": "Fetch failed for https://opportunitydesk.org/category/fellowships/: 403"
-  },
-  {
-    "at": "2026-08-05T07:44:46.185762+00:00",
-    "kind": "error",
-    "message": "Failed to analyze https://www.opportunitiesforafricans.com/the-internet-corporation-for-assigned-names-and-numbers-icann88-fellowship-program-2026/: \"Could not resolve authentication method. Expected one of api_key, auth_token, or credentials to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted\""
-  },
-  {
-    "at": "2026-08-05T07:45:36.009716+00:00",
-    "kind": "error",
-    "message": "Fetch failed for https://opportunitydesk.org/2026/08/05/vii-international-zendal-awards-2026/: 403"
-  },
-  {
-    "at": "2026-08-05T07:45:36.054038+00:00",
-    "kind": "error",
-    "message": "Fetch failed for https://opportunitydesk.org/2026/08/05/kenneth-myer-innovation-fellowships-2027/: 403"
-  },
-  {
-    "at": "2026-08-05T07:45:36.096603+00:00",
-    "kind": "error",
-    "message": "Fetch failed for https://opportunitydesk.org/2026/08/05/chevening-ocis-fellowship-2027-2028/: 403"
-  },
-  {
-    "at": "2026-08-05T07:45:39.243549+00:00",
-    "kind": "scan_complete",
-    "message": "daily scan finished",
-    "matches": 2,
-    "stats": {
-      "discovered": 40,
-      "already_seen": 18,
-      "known_scam": 0,
-      "fetch_failed": 6,
-      "first_pass_dropped": 3,
-      "scam": 0,
-      "legit_unknown": 0,
-      "ineligible": 3,
-      "closed": 0,
-      "deep_analyzed": 2,
-      "scored_high": 2
-    }
-  },
-  {
-    "at": "2026-08-05T07:45:39.245039+00:00",
-    "kind": "run",
-    "mode": "scan",
-    "environment": "github_actions",
-    "stats": {
-      "discovered": 40,
-      "already_seen": 18,
-      "known_scam": 0,
-      "fetch_failed": 6,
-      "first_pass_dropped": 3,
-      "scam": 0,
-      "legit_unknown": 0,
-      "ineligible": 3,
-      "closed": 0,
-      "deep_analyzed": 2,
-      "scored_high": 2,
-      "matches": 2
-    }
-  },
-  {
-    "at": "2026-08-06T07:41:44.968260+00:00",
-    "kind": "scan_start",
-    "message": "daily scan started"
-  },
-  {
-    "at": "2026-08-06T07:42:14.188267+00:00",
-    "kind": "error",
-    "message": "Fetch failed for https://www.dfat.gov.au/people-to-people/australia-awards/australia-awards-scholarships: HTTPSConnectionPool(host='www.dfat.gov.au', port=443): Read timed out. (read timeout=25)"
-  },
-  {
     "at": "2026-08-06T07:42:14.292198+00:00",
     "kind": "error",
     "message": "Fetch failed for https://vanier.gc.ca/en/home-accueil.html: HTTPSConnectionPool(host='vanier.gc.ca', port=443): Max retries exceeded with url: /en/home-accueil.html (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)')))"
@@ -1477,6 +1393,160 @@
       "scored_high": 0,
       "signal_rescued": 1,
       "snippet_fallback": 1,
+      "deduped": 0,
+      "matches": 0
+    }
+  },
+  {
+    "at": "2026-08-16T20:16:07.277866+00:00",
+    "kind": "scan_start",
+    "message": "daily scan started"
+  },
+  {
+    "at": "2026-08-16T20:20:18.215042+00:00",
+    "kind": "error",
+    "message": "Failed to analyze https://weworkremotely.com/remote-jobs/zoominfo-technologies-llc-principal-business-intelligence-analyst: all free providers failed for 'deep_eligibility' and the paid fallback is blocked by the Claude budget"
+  },
+  {
+    "at": "2026-08-16T20:20:19.240898+00:00",
+    "kind": "error",
+    "message": "Failed to analyze https://weworkremotely.com/remote-jobs/temporal-technologies-director-global-developer-success: all free providers failed for 'first_pass_filter' and the paid fallback is blocked by the Claude budget"
+  },
+  {
+    "at": "2026-08-16T20:20:20.190027+00:00",
+    "kind": "error",
+    "message": "Failed to analyze https://weworkremotely.com/remote-jobs/zoominfo-technologies-llc-director-finops: all free providers failed for 'first_pass_filter' and the paid fallback is blocked by the Claude budget"
+  },
+  {
+    "at": "2026-08-16T20:20:21.899853+00:00",
+    "kind": "error",
+    "message": "Failed to analyze https://weworkremotely.com/remote-jobs/fullscript-senior-product-designer-clinical-education-platform: all free providers failed for 'first_pass_filter' and the paid fallback is blocked by the Claude budget"
+  },
+  {
+    "at": "2026-08-16T20:20:22.631319+00:00",
+    "kind": "error",
+    "message": "Failed to analyze https://weworkremotely.com/remote-jobs/proxify-ab-senior-shopify-developer-3: all free providers failed for 'first_pass_filter' and the paid fallback is blocked by the Claude budget"
+  },
+  {
+    "at": "2026-08-16T20:20:23.802905+00:00",
+    "kind": "error",
+    "message": "Failed to analyze https://weworkremotely.com/remote-jobs/proxify-ab-senior-magento-developer-3: all free providers failed for 'first_pass_filter' and the paid fallback is blocked by the Claude budget"
+  },
+  {
+    "at": "2026-08-16T20:20:24.794438+00:00",
+    "kind": "error",
+    "message": "Failed to analyze https://weworkremotely.com/remote-jobs/proxify-ab-senior-mern-developer-react-js-node-js: all free providers failed for 'first_pass_filter' and the paid fallback is blocked by the Claude budget"
+  },
+  {
+    "at": "2026-08-16T20:20:25.575059+00:00",
+    "kind": "error",
+    "message": "Failed to analyze https://weworkremotely.com/remote-jobs/proxify-ab-senior-fullstack-developer-react-js-node-js-3: all free providers failed for 'first_pass_filter' and the paid fallback is blocked by the Claude budget"
+  },
+  {
+    "at": "2026-08-16T20:20:27.292665+00:00",
+    "kind": "scan_complete",
+    "message": "daily scan finished",
+    "matches": 0,
+    "stats": {
+      "discovered": 144,
+      "already_seen": 37,
+      "known_scam": 0,
+      "fetch_failed": 0,
+      "first_pass_dropped": 1,
+      "scam": 0,
+      "legit_unknown": 0,
+      "ineligible": 6,
+      "closed": 0,
+      "deep_analyzed": 0,
+      "scored_high": 0,
+      "discovery": {
+        "google": {
+          "attempted": 0,
+          "successful": 0,
+          "429": 0,
+          "403": 0,
+          "errors": 0,
+          "candidates": 0,
+          "queries_planned": 20,
+          "disabled_reason": ""
+        },
+        "rss": {
+          "attempted": 10,
+          "successful": 6,
+          "failed": 4,
+          "skipped_dead": 0,
+          "candidates": 76
+        },
+        "api": {
+          "sources": 2,
+          "healthy": 2,
+          "failed": 0,
+          "candidates": 54
+        },
+        "seed": {
+          "attempted": 14,
+          "candidates": 14
+        },
+        "total": {
+          "raw": 144,
+          "after_dedupe": 144
+        }
+      },
+      "signal_rescued": 7,
+      "deduped": 0
+    }
+  },
+  {
+    "at": "2026-08-16T20:20:27.294372+00:00",
+    "kind": "run",
+    "mode": "scan",
+    "environment": "github_actions",
+    "stats": {
+      "discovered": 144,
+      "already_seen": 37,
+      "known_scam": 0,
+      "fetch_failed": 0,
+      "first_pass_dropped": 1,
+      "scam": 0,
+      "legit_unknown": 0,
+      "ineligible": 6,
+      "closed": 0,
+      "deep_analyzed": 0,
+      "scored_high": 0,
+      "discovery": {
+        "google": {
+          "attempted": 0,
+          "successful": 0,
+          "429": 0,
+          "403": 0,
+          "errors": 0,
+          "candidates": 0,
+          "queries_planned": 20,
+          "disabled_reason": ""
+        },
+        "rss": {
+          "attempted": 10,
+          "successful": 6,
+          "failed": 4,
+          "skipped_dead": 0,
+          "candidates": 76
+        },
+        "api": {
+          "sources": 2,
+          "healthy": 2,
+          "failed": 0,
+          "candidates": 54
+        },
+        "seed": {
+          "attempted": 14,
+          "candidates": 14
+        },
+        "total": {
+          "raw": 144,
+          "after_dedupe": 144
+        }
+      },
+      "signal_rescued": 7,
       "deduped": 0,
       "matches": 0
     }

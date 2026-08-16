@@ -2389,5 +2389,74 @@
     "id": "7f1fa884a0766c50",
     "first_seen": "2026-08-16T19:53:39.337002+00:00",
     "last_updated": "2026-08-16T19:53:39.337009+00:00"
+  },
+  "fe10a5c4ed6f4d1d": {
+    "url": "https://weworkremotely.com/remote-jobs/vercel-member-of-the-technical-staff-internal-agent",
+    "title": "Vercel: Member of the Technical Staff, Internal Agent",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "reasoning": "The program requires 7+ years of full-time software engineering experience, which the candidate does not meet as their background is in AI development, marketing, and psychology, but not explicitly 7+ years of software engineering experience.",
+    "id": "fe10a5c4ed6f4d1d",
+    "first_seen": "2026-08-16T20:16:16.747866+00:00",
+    "last_updated": "2026-08-16T20:16:16.747873+00:00"
+  },
+  "4ea33d2ec6845f18": {
+    "url": "https://weworkremotely.com/remote-jobs/hightouch-customer-success-engineer",
+    "title": "Hightouch: Customer Success Engineer",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "reasoning": "The program text does not explicitly state requirements related to nationality, age, or educational degree level, which are key factors in determining eligibility. While the candidate's skills and experience may align with the role, unverifiable requirements prevent a confirmed eligibility status.",
+    "id": "4ea33d2ec6845f18",
+    "first_seen": "2026-08-16T20:16:52.309141+00:00",
+    "last_updated": "2026-08-16T20:16:52.309147+00:00"
+  },
+  "427aab300198eeef": {
+    "url": "https://weworkremotely.com/remote-jobs/typeform-customer-success-manager",
+    "title": "Typeform: Customer Success Manager",
+    "status": "filtered_out",
+    "reason": "It is a job posting with no funding or scholarship",
+    "id": "427aab300198eeef",
+    "first_seen": "2026-08-16T20:17:09.513500+00:00",
+    "last_updated": "2026-08-16T20:17:09.513507+00:00"
+  },
+  "65db99c6e9458a35": {
+    "url": "https://weworkremotely.com/remote-jobs/vercel-grc-analyst",
+    "title": "Vercel: GRC Analyst",
+    "status": "unknown",
+    "eligibility_status": "UNCERTAIN",
+    "reasoning": "The program text does not explicitly state requirements related to nationality, age, education level, or English proficiency, making it impossible to confirm eligibility.",
+    "id": "65db99c6e9458a35",
+    "first_seen": "2026-08-16T20:17:49.694066+00:00",
+    "last_updated": "2026-08-16T20:17:49.694073+00:00"
+  },
+  "ed29142c0e8cac94": {
+    "url": "https://weworkremotely.com/remote-jobs/hightouch-application-security-lead",
+    "title": "Hightouch: Application Security Lead",
+    "status": "unknown",
+    "eligibility_status": "UNCERTAIN",
+    "reasoning": "The program text does not explicitly state requirements for nationality, age, or educational background, making it impossible to confirm eligibility",
+    "id": "ed29142c0e8cac94",
+    "first_seen": "2026-08-16T20:18:29.423055+00:00",
+    "last_updated": "2026-08-16T20:18:29.423062+00:00"
+  },
+  "3251ca5d212b5d70": {
+    "url": "https://weworkremotely.com/remote-jobs/temporal-technologies-director-gtm-strategy-analytics",
+    "title": "Temporal Technologies: Director, GTM Strategy & Analytics",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "reasoning": "The candidate does not meet the experience requirement of 8-10+ years of experience working in a highly analytical role focused on GTM planning, strategy, or analytics in a high-growth SaaS or infrastructure environment.",
+    "id": "3251ca5d212b5d70",
+    "first_seen": "2026-08-16T20:19:17.639540+00:00",
+    "last_updated": "2026-08-16T20:19:17.639547+00:00"
+  },
+  "4e1f9fbbca7d2a96": {
+    "url": "https://weworkremotely.com/remote-jobs/okx-affiliate-bd-manager-taiwan",
+    "title": "OKX: Affiliate BD Manager (Taiwan)",
+    "status": "ineligible",
+    "eligibility_status": "PROBABLY_INELIGIBLE",
+    "reasoning": "The candidate lacks experience in affiliate marketing/business development in the cryptocurrency space and fluency in Mandarin, which are key requirements for the position.",
+    "id": "4e1f9fbbca7d2a96",
+    "first_seen": "2026-08-16T20:19:45.390990+00:00",
+    "last_updated": "2026-08-16T20:19:45.390996+00:00"
   }
 }
