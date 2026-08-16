@@ -106,7 +106,9 @@ jobs:
                       data/application_tracker.json \
                       data/watchlist.json \
                       data/cost_log.json \
-                      data/activity_log.json"
+                      data/activity_log.json \
+                      data/discovery_state.json \
+                      data/provider_health.json"
 
           # A rebase over concurrent data commits used to conflict on the JSON
           # logs; `|| true` hid the failure but left the repo mid-rebase, so
