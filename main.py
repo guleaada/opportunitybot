@@ -61,6 +61,25 @@ MIN_SCORE = int(os.getenv("MIN_SCORE_TO_NOTIFY", "7"))
 MAX_PER_DAY = int(os.getenv("MAX_OPPORTUNITIES_PER_DAY", "15"))
 # Shortest feed snippet worth analyzing when the full page fetch is blocked.
 MIN_SNIPPET_CHARS = int(os.getenv("MIN_SNIPPET_CHARS", "80"))
+# How much RSS body text to keep. This is the primary analysis input whenever
+# the direct and reader fetches are blocked, so it is a body, not a teaser.
+RSS_SNIPPET_CHARS = int(os.getenv("RSS_SNIPPET_CHARS", "2000"))
+
+# Discovery feeds. Unreachable or moved feeds are logged and skipped per-feed;
+# the per-feed "📰 RSS <domain>: +N posts" line shows which are productive.
+RSS_FEEDS = [
+    # Currently productive
+    "https://opportunitiescorners.com/feed/",
+    "https://www.opportunitiesforafricans.com/feed/",
+    "https://opportunitydesk.org/feed/",
+    "https://www.youthop.com/feed",
+    # Added — unverified from here; a dead one simply contributes 0
+    "https://www.youthopportunitieshub.com/feed/",
+    "https://afterschoolafrica.com/feed/",
+    "https://www.scholarshipsads.com/feed/",
+    "https://mladiinfo.eu/feed/",
+    "https://oppateam.com/feed/",
+]
 
 
 # ════════════════════════════════════════════════════════════════════════
@@ -283,17 +302,29 @@ def run_scan(max_results_per_source: int = 8):
 
     # --- RSS discovery (primary source while CSE is down) -------------------
     def _fetch_rss_feeds():
+        import html as _html
         import urllib.request
         import xml.etree.ElementTree as ET
         from search import SearchResult
-        feeds = [
-            "https://opportunitiescorners.com/feed/",
-            "https://www.opportunitiesforafricans.com/feed/",
-            "https://opportunitydesk.org/feed/",
-            "https://www.youthop.com/feed",
-        ]
+
+        # WordPress puts the FULL post body in content:encoded; <description>
+        # is usually a truncated teaser. Since the direct and reader fetches
+        # are both blocked from this runner, this text IS the analysis input.
+        CONTENT_NS = "{http://purl.org/rss/1.0/modules/content/}encoded"
+
+        def _plain(el):
+            """Element -> plain text: all descendant text, entities decoded,
+            tags stripped, whitespace collapsed. '' for a missing element."""
+            if el is None:
+                return ""
+            raw = "".join(el.itertext())          # handles CDATA and children
+            raw = _html.unescape(raw)             # &amp;/&#8217;/&nbsp; -> chars
+            raw = re.sub(r"<[^>]+>", " ", raw)    # strip any embedded markup
+            return re.sub(r"\s+", " ", raw).strip()
+
         out, ok_feeds = [], 0
-        for feed_url in feeds:
+        for feed_url in RSS_FEEDS:
+            domain = feed_url.split("/")[2]
             try:
                 req = urllib.request.Request(
                     feed_url,
@@ -304,30 +335,27 @@ def run_scan(max_results_per_source: int = 8):
                 with urllib.request.urlopen(req, timeout=25) as resp:
                     raw = resp.read()
                 root = ET.fromstring(raw)
-                # RSS 2.0: channel/item ; strip namespaces just in case
                 items = root.findall(".//item")
                 count = 0
                 for it in items[:20]:
-                    title_el = it.find("title")
-                    link_el = it.find("link")
-                    desc_el = it.find("description")
-                    title = (title_el.text or "").strip() if title_el is not None else ""
-                    link = (link_el.text or "").strip() if link_el is not None else ""
-                    desc = (desc_el.text or "").strip() if desc_el is not None else ""
-                    # crude HTML strip for the snippet
-                    desc = re.sub(r"<[^>]+>", " ", desc)
-                    desc = re.sub(r"\s+", " ", desc).strip()[:500]
+                    title = _plain(it.find("title"))
+                    link = _plain(it.find("link"))
+                    # Prefer the full body; fall back to the teaser.
+                    body = _plain(it.find(CONTENT_NS)) or _plain(it.find("description"))
+                    body = body[:RSS_SNIPPET_CHARS]
                     if not title or not link:
                         continue
-                    domain = feed_url.split("/")[2]
                     out.append(SearchResult(title=title, url=link,
-                                            snippet=desc, source=domain))
+                                            snippet=body, source=domain))
                     count += 1
                 ok_feeds += 1
-                cprint(f"📰 RSS {feed_url.split('/')[2]}: +{count} posts")
+                cprint(f"📰 RSS {domain}: +{count} posts")
             except Exception as e:
-                cprint(f"⚠️ RSS feed {feed_url.split('/')[2]} failed: {e}")
-        cprint(f"📰 RSS total: {len(out)} posts from {ok_feeds}/{len(feeds)} feeds")
+                # A dead or moved feed contributes 0 and never stops the scan.
+                cprint(f"⚠️ RSS feed {domain} failed: {e}")
+        avg = int(sum(len(r.snippet or '') for r in out) / len(out)) if out else 0
+        cprint(f"📰 RSS total: {len(out)} posts from {ok_feeds}/{len(RSS_FEEDS)} "
+               f"feeds (avg {avg} chars of text per post)")
         return out
     # ------------------------------------------------------------------------
 
