@@ -7048,47 +7048,47 @@
     "cost_usd": 0.0
   },
   {
-    "timestamp": "2026-08-16T14:42:35.290492+00:00",
+    "timestamp": "2026-08-16T15:21:40.340700+00:00",
     "provider": "groq",
     "task": "clean_html",
     "tokens_in": 1509,
-    "tokens_out": 350,
+    "tokens_out": 407,
     "cost_usd": 0.0
   },
   {
-    "timestamp": "2026-08-16T14:42:35.510328+00:00",
+    "timestamp": "2026-08-16T15:21:40.709169+00:00",
     "provider": "groq",
     "task": "first_pass_filter",
-    "tokens_in": 913,
+    "tokens_in": 970,
     "tokens_out": 36,
     "cost_usd": 0.0
   },
   {
-    "timestamp": "2026-08-16T14:42:35.661069+00:00",
+    "timestamp": "2026-08-16T15:21:40.905405+00:00",
     "provider": "groq",
     "task": "first_pass_filter",
-    "tokens_in": 472,
+    "tokens_in": 529,
     "tokens_out": 39,
     "cost_usd": 0.0
   },
   {
-    "timestamp": "2026-08-16T14:42:36.011507+00:00",
+    "timestamp": "2026-08-16T15:21:41.296915+00:00",
     "provider": "groq",
     "task": "scam_detection",
-    "tokens_in": 602,
+    "tokens_in": 659,
     "tokens_out": 83,
     "cost_usd": 0.0
   },
   {
-    "timestamp": "2026-08-16T14:42:36.629730+00:00",
+    "timestamp": "2026-08-16T15:21:41.747027+00:00",
     "provider": "groq",
     "task": "deep_eligibility",
-    "tokens_in": 1118,
-    "tokens_out": 139,
+    "tokens_in": 1175,
+    "tokens_out": 100,
     "cost_usd": 0.0
   },
   {
-    "timestamp": "2026-08-16T14:42:37.284436+00:00",
+    "timestamp": "2026-08-16T15:21:42.170568+00:00",
     "provider": "groq",
     "task": "first_pass_filter",
     "tokens_in": 657,
@@ -7096,7 +7096,7 @@
     "cost_usd": 0.0
   },
   {
-    "timestamp": "2026-08-16T14:42:37.458860+00:00",
+    "timestamp": "2026-08-16T15:21:42.445484+00:00",
     "provider": "groq",
     "task": "first_pass_filter",
     "tokens_in": 216,
@@ -7104,11 +7104,11 @@
     "cost_usd": 0.0
   },
   {
-    "timestamp": "2026-08-16T14:42:37.986224+00:00",
+    "timestamp": "2026-08-16T15:21:42.981158+00:00",
     "provider": "groq",
     "task": "scam_detection",
     "tokens_in": 349,
-    "tokens_out": 120,
+    "tokens_out": 115,
     "cost_usd": 0.0
   }
 ]
