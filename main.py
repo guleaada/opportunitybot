@@ -68,36 +68,35 @@ RSS_SNIPPET_CHARS = int(os.getenv("RSS_SNIPPET_CHARS", "2000"))
 # Discovery feeds. Unreachable or moved feeds are logged and skipped per-feed;
 # the per-feed "📰 RSS <domain>: +N posts" line shows which are productive.
 RSS_FEEDS = list(dict.fromkeys([   # dict.fromkeys keeps order AND dedupes
-    # ── Professional / fellowship / funding aggregators ──────────────────
+    # ── Confirmed live (returned +10 posts each last run) ────────────────
+    # These skew to student scholarships, which the eligibility check
+    # correctly rejects for a working professional — kept for coverage, but
+    # they are not where matches are expected to come from.
     "https://opportunitiescorners.com/feed/",
     "https://www.opportunitiesforafricans.com/feed/",
     "https://opportunitydesk.org/feed/",
-    "https://www.youthop.com/feed",
-    "https://www.youthopportunitieshub.com/feed/",
-    "https://afterschoolafrica.com/feed/",
-    "https://www.scholarshipsads.com/feed/",
-    "https://mladiinfo.eu/feed/",
-    "https://oppateam.com/feed/",
-    # ── Tech / AI / developer / remote work ─────────────────────────────
-    # The profile is a working AI professional, not a current student, so
-    # these surface opportunities the eligibility check can actually pass.
-    "https://weworkremotely.com/categories/remote-programming-jobs.rss",
-    "https://remoteok.com/remote-dev-jobs.rss",
-    "https://www.trydevpost.com/feed",
-    "https://mlh.io/seasons/2026/events.rss",
-    # ── Grants / competitions ────────────────────────────────────────────
-    "https://www.grants.gov/rss/GG_NewOpportunities.xml",
+    # ── Remote / developer jobs — corrected paths ───────────────────────
+    # The profile is a working AI professional, so these are the feeds most
+    # likely to yield candidates that survive eligibility.
+    "https://weworkremotely.com/remote-jobs.rss",
+    "https://remoteok.com/remote-jobs.rss",
+    "https://www.python.org/jobs/feed/rss/",
+    "https://stackoverflow.com/jobs/feed",
+    "https://jobs.github.com/positions.atom",
+    # ── Professional aggregators (not student-only) ─────────────────────
+    "https://www.opportunitiesforyouth.org/feed/",
+    "https://opportunitiesforyoungpeople.com/feed/",
 ]))
 
-# Default taxonomy category per feed domain, so tech/remote items are tagged
-# rather than "uncategorized". Purely descriptive — it feeds the report and
-# the stored record, NOT the scoring math.
+# Default taxonomy category per feed domain, so job items are tagged rather
+# than "uncategorized". Purely descriptive — it feeds the report and the
+# stored record, NOT the scoring math.
 FEED_CATEGORY = {
     "weworkremotely.com": "remote_jobs",
-    "remoteok.com": "dev_jobs",
-    "www.trydevpost.com": "hackathons",
-    "mlh.io": "hackathons",
-    "www.grants.gov": "grants",
+    "remoteok.com": "remote_jobs",
+    "www.python.org": "dev_jobs",
+    "stackoverflow.com": "dev_jobs",
+    "jobs.github.com": "dev_jobs",
 }
 
 
