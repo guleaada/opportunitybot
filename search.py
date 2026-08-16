@@ -18,6 +18,8 @@ from typing import List, Optional
 import requests
 from bs4 import BeautifulSoup
 
+from rate_limiter import wait_for_quota, DailyQuotaExceeded
+
 CACHE_DIR = Path(os.getenv("URL_CACHE_DIR", "data/url_cache"))
 CACHE_TTL_SECONDS = 24 * 3600
 # Plain browser UA. The old string appended "OpportunityBot/1.0", which
@@ -79,41 +81,151 @@ class SearchResult:
         return f"<SearchResult {self.title!r} {self.url}>"
 
 
+# ── Google Custom Search: rate limiting + 429 circuit breaker ──────────────
+# The free CSE tier is 100 queries/day. Previously 73 queries fired back to
+# back with no throttle and no breaker, so a quota exhaustion at query 3 still
+# produced 70 more doomed requests. Backoff is bounded and gives up.
+GOOGLE_MAX_CONSECUTIVE_429 = int(os.getenv("GOOGLE_MAX_CONSECUTIVE_429", "3"))
+GOOGLE_BACKOFF_BASE_SECONDS = float(os.getenv("GOOGLE_BACKOFF_BASE_SECONDS", "2"))
+GOOGLE_BACKOFF_MAX_SECONDS = float(os.getenv("GOOGLE_BACKOFF_MAX_SECONDS", "30"))
+
+_google = {
+    "attempted": 0, "successful": 0, "results": 0,
+    "429": 0, "403": 0, "other_errors": 0,
+    "consecutive_429": 0, "disabled": False, "disabled_reason": "",
+}
+
+
+def reset_google_state() -> None:
+    """Call at the start of each scan so counters and the breaker are per-run."""
+    _google.update({
+        "attempted": 0, "successful": 0, "results": 0,
+        "429": 0, "403": 0, "other_errors": 0,
+        "consecutive_429": 0, "disabled": False, "disabled_reason": "",
+    })
+
+
+def google_stats() -> dict:
+    return dict(_google)
+
+
+def google_disabled() -> bool:
+    return bool(_google["disabled"])
+
+
+def _retry_after_seconds(resp, attempt: int) -> float:
+    """Honour Retry-After when the server sends it; else exponential backoff."""
+    header = None
+    try:
+        header = (resp.headers or {}).get("Retry-After")
+    except Exception:
+        header = None
+    if header:
+        try:
+            return max(0.0, min(float(header), GOOGLE_BACKOFF_MAX_SECONDS))
+        except (TypeError, ValueError):
+            pass
+    return min(GOOGLE_BACKOFF_BASE_SECONDS * (2 ** attempt),
+               GOOGLE_BACKOFF_MAX_SECONDS)
+
+
+def _google_error_reason(resp) -> str:
+    """Pull Google's own explanation out of the error body when present."""
+    try:
+        err = (resp.json() or {}).get("error") or {}
+        reason = ""
+        for d in err.get("errors") or []:
+            reason = d.get("reason") or reason
+        return f"{reason or err.get('status', '')}: {err.get('message', '')}".strip(": ")
+    except Exception:
+        return ""
+
+
 def web_search(query: str, max_results: int = 10) -> List[SearchResult]:
     """Google Custom Search → list of SearchResult. No model call.
 
-    Returns an empty list (and prints a warning) if CSE keys are missing, so
-    the rest of the pipeline degrades gracefully.
+    Rate limited, backs off on 429 (respecting Retry-After) and trips a
+    circuit breaker after GOOGLE_MAX_CONSECUTIVE_429 so a quota problem cannot
+    become hundreds of failed requests. Returns [] on any failure — never
+    raises, so discovery degrades to the other providers.
     """
     api_key = os.getenv("GOOGLE_CSE_API_KEY")
     cse_id = os.getenv("GOOGLE_CSE_ID")
     if not api_key or not cse_id:
         print("⚠️  GOOGLE_CSE_API_KEY / GOOGLE_CSE_ID not set — skipping web search.")
         return []
+    if _google["disabled"]:
+        return []
 
     results: List[SearchResult] = []
-    # CSE returns up to 10 per page; paginate via `start`.
     fetched = 0
     start = 1
     while fetched < max_results and start <= 91:
         num = min(10, max_results - fetched)
+
+        try:
+            wait_for_quota("google")     # rpm/rpd throttle
+        except DailyQuotaExceeded:
+            _google["disabled"] = True
+            _google["disabled_reason"] = "local daily request budget reached"
+            print("⛔ Google: local daily request budget reached — "
+                  "stopping Google discovery for this scan.")
+            break
+
+        _google["attempted"] += 1
         try:
             resp = requests.get(
                 "https://www.googleapis.com/customsearch/v1",
-                params={
-                    "key": api_key,
-                    "cx": cse_id,
-                    "q": query,
-                    "num": num,
-                    "start": start,
-                },
+                params={"key": api_key, "cx": cse_id, "q": query,
+                        "num": num, "start": start},
                 timeout=20,
             )
-            resp.raise_for_status()
-            data = resp.json()
-        except (requests.RequestException, ValueError) as e:
-            print(f"⚠️  Search failed for {query!r}: {e}")
+        except requests.RequestException as e:
+            _google["other_errors"] += 1
+            print(f"⚠️  Google search failed for {query!r}: {e}")
             break
+
+        status = resp.status_code
+        if status == 429:
+            _google["429"] += 1
+            _google["consecutive_429"] += 1
+            n = _google["consecutive_429"]
+            reason = _google_error_reason(resp)
+            if n >= GOOGLE_MAX_CONSECUTIVE_429:
+                _google["disabled"] = True
+                _google["disabled_reason"] = reason or "repeated 429"
+                print(f"⛔ Google 429 #{n} ({reason or 'rate/quota limit'}) — "
+                      f"stopping Google discovery for this scan.")
+                break
+            delay = _retry_after_seconds(resp, n - 1)
+            print(f"⚠️  Google 429 #{n} ({reason or 'rate/quota limit'}) — "
+                  f"backing off {delay:.1f}s")
+            time.sleep(delay)
+            continue                      # retry this page, bounded by the breaker
+
+        if status == 403:
+            _google["403"] += 1
+            _google["disabled"] = True
+            _google["disabled_reason"] = _google_error_reason(resp) or "403 forbidden"
+            print(f"⛔ Google 403 ({_google['disabled_reason']}) — "
+                  f"stopping Google discovery for this scan.")
+            break
+
+        if status != 200:
+            _google["other_errors"] += 1
+            print(f"⚠️  Google HTTP {status} for {query!r}: "
+                  f"{_google_error_reason(resp)}")
+            break
+
+        try:
+            data = resp.json()
+        except ValueError as e:
+            _google["other_errors"] += 1
+            print(f"⚠️  Google returned unparseable JSON for {query!r}: {e}")
+            break
+
+        _google["successful"] += 1
+        _google["consecutive_429"] = 0    # a success clears the streak
 
         items = data.get("items", [])
         if not items:
@@ -130,6 +242,7 @@ def web_search(query: str, max_results: int = 10) -> List[SearchResult]:
         if len(items) < num:
             break
 
+    _google["results"] += len(results)
     return results[:max_results]
 
 

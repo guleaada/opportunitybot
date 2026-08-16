@@ -1,0 +1,505 @@
+"""
+discovery.py — provider-based candidate discovery.
+
+Replaces the "fire all 73 Google queries, then RSS" block in run_scan with a
+provider layer:
+
+    SearchProvider (Google, budgeted + rotated + 429 breaker)
+    RSSProvider    (feed health, permanent-404 disabling)
+    APIProvider    (interface; disabled until a source is configured)
+    SeedProvider   (whitelist official URLs)
+        -> normalize -> deduplicate -> classify -> existing pipeline
+
+Everything downstream is untouched: providers emit the same SearchResult
+objects run_scan already consumes.
+
+Persistent state lives in data/ so GitHub Actions runs do not reset it:
+    discovery_state.json  — query rotation cursor + per-category performance
+    provider_health.json  — per-provider and per-feed health counters
+"""
+
+import json
+import os
+from datetime import datetime, timezone
+from pathlib import Path
+
+import taxonomy
+from search import SearchResult
+
+DATA_DIR = Path(os.getenv("DATA_DIR", "data"))
+STATE_PATH = DATA_DIR / "discovery_state.json"
+HEALTH_PATH = DATA_DIR / "provider_health.json"
+
+# ── Discovery budget (all configurable; no hard-coded pricing assumptions) ──
+GOOGLE_MAX_QUERIES_PER_SCAN = int(os.getenv("GOOGLE_MAX_QUERIES_PER_SCAN", "20"))
+GOOGLE_MAX_QUERIES_PER_CATEGORY = int(
+    os.getenv("GOOGLE_MAX_QUERIES_PER_CATEGORY", "2"))
+SEED_MAX_PER_SCAN = int(os.getenv("SEED_MAX_PER_SCAN", "25"))
+RSS_MAX_FEEDS_PER_SCAN = int(os.getenv("RSS_MAX_FEEDS_PER_SCAN", "50"))
+
+# Categories searched EVERY day regardless of rotation — highest value for a
+# working AI professional, and the ones with time-sensitive deadlines.
+ALWAYS_ON_CATEGORIES = [
+    c.strip() for c in os.getenv(
+        "ALWAYS_ON_CATEGORIES",
+        "fellowships,grants,remote_jobs,dev_jobs").split(",") if c.strip()
+]
+
+# A provider this unhealthy gets its budget cut for the next scan.
+UNHEALTHY_FAILURE_RATIO = float(os.getenv("UNHEALTHY_FAILURE_RATIO", "0.8"))
+# Consecutive 404s before a feed is treated as permanently gone.
+FEED_DEAD_AFTER_404 = int(os.getenv("FEED_DEAD_AFTER_404", "3"))
+
+
+def _now() -> str:
+    return datetime.now(timezone.utc).isoformat()
+
+
+def _read_json(path: Path, default):
+    try:
+        if path.exists():
+            return json.loads(path.read_text() or "null") or default
+    except (json.JSONDecodeError, OSError) as e:
+        print(f"⚠️  Could not read {path.name} ({e}) — starting fresh.")
+    return default
+
+
+def _write_json(path: Path, data) -> None:
+    try:
+        path.parent.mkdir(parents=True, exist_ok=True)
+        path.write_text(json.dumps(data, indent=2, ensure_ascii=False))
+    except OSError as e:
+        print(f"⚠️  Could not persist {path.name}: {e}")
+
+
+# ══════════════════════════════════════════════════════════════════════════
+# Provider health
+# ══════════════════════════════════════════════════════════════════════════
+_HEALTH_FIELDS = ("success_count", "failure_count", "429_count", "403_count",
+                  "404_count", "timeout_count", "ssl_error_count")
+
+
+def load_health() -> dict:
+    return _read_json(HEALTH_PATH, {})
+
+
+def save_health(health: dict) -> None:
+    _write_json(HEALTH_PATH, health)
+
+
+def health_for(health: dict, name: str) -> dict:
+    entry = health.setdefault(name, {})
+    for f in _HEALTH_FIELDS:
+        entry.setdefault(f, 0)
+    entry.setdefault("last_success", None)
+    entry.setdefault("last_failure", None)
+    entry.setdefault("status", "active")
+    return entry
+
+
+def record_success(health: dict, name: str, count: int = 1) -> None:
+    e = health_for(health, name)
+    e["success_count"] += 1
+    e["last_success"] = _now()
+    e["last_posts"] = count
+    e["status"] = "active"
+
+
+def record_failure(health: dict, name: str, kind: str = "error",
+                   http_status=None) -> None:
+    """kind: error | 429 | 403 | 404 | timeout | ssl"""
+    e = health_for(health, name)
+    e["failure_count"] += 1
+    e["last_failure"] = _now()
+    e["last_error"] = kind
+    if http_status is not None:
+        e["last_http_status"] = http_status
+    key = {"429": "429_count", "403": "403_count", "404": "404_count",
+           "timeout": "timeout_count", "ssl": "ssl_error_count"}.get(kind)
+    if key:
+        e[key] += 1
+    # A feed that 404s repeatedly is gone, not flaky — stop requesting it.
+    if kind == "404" and e["404_count"] >= FEED_DEAD_AFTER_404:
+        e["status"] = "disabled_permanent"
+    elif kind in ("403", "ssl"):
+        e["status"] = "temporarily_unavailable"
+
+
+def is_disabled(health: dict, name: str) -> bool:
+    return health_for(health, name).get("status") == "disabled_permanent"
+
+
+def is_unhealthy(health: dict, name: str) -> bool:
+    """Mostly-failing provider → reduce its budget next scan."""
+    e = health_for(health, name)
+    total = e["success_count"] + e["failure_count"]
+    if total < 5:
+        return False
+    return (e["failure_count"] / total) >= UNHEALTHY_FAILURE_RATIO
+
+
+# ══════════════════════════════════════════════════════════════════════════
+# Query budget, prioritisation and rotation
+# ══════════════════════════════════════════════════════════════════════════
+def load_state() -> dict:
+    state = _read_json(STATE_PATH, {})
+    state.setdefault("rotation_cursor", 0)
+    state.setdefault("category_performance", {})   # category -> candidates found
+    state.setdefault("last_run", None)
+    return state
+
+
+def save_state(state: dict) -> None:
+    state["last_run"] = _now()
+    _write_json(STATE_PATH, state)
+
+
+def category_priority(category: str, state: dict) -> tuple:
+    """Sort key — lower sorts first. Always-on categories lead, then the
+    categories that have historically produced the most candidates."""
+    always = 0 if category in ALWAYS_ON_CATEGORIES else 1
+    produced = (state.get("category_performance") or {}).get(category, 0)
+    return (always, -produced, category)
+
+
+def select_queries(state: dict, budget: int = None,
+                   per_category: int = None) -> list:
+    """Pick this scan's queries: always-on categories first, then rotate the
+    rest so we don't run the identical set every day.
+
+    Returns ``[(category, query), ...]`` bounded by the budget.
+    """
+    budget = GOOGLE_MAX_QUERIES_PER_SCAN if budget is None else budget
+    per_category = (GOOGLE_MAX_QUERIES_PER_CATEGORY if per_category is None
+                    else per_category)
+    if budget <= 0:
+        return []
+
+    categories = sorted(taxonomy.all_categories(),
+                        key=lambda c: category_priority(c, state))
+    always = [c for c in categories if c in ALWAYS_ON_CATEGORIES]
+    rotating = [c for c in categories if c not in ALWAYS_ON_CATEGORIES]
+
+    # Rotate the non-priority categories by a persisted cursor.
+    if rotating:
+        cursor = int(state.get("rotation_cursor", 0)) % len(rotating)
+        rotating = rotating[cursor:] + rotating[:cursor]
+
+    selected = []
+    for category in always + rotating:
+        if len(selected) >= budget:
+            break
+        for q in taxonomy.queries_for(category)[:max(1, per_category)]:
+            if len(selected) >= budget:
+                break
+            selected.append((category, q))
+    return selected
+
+
+def advance_rotation(state: dict, step: int = None) -> dict:
+    """Move the cursor so tomorrow starts at different categories."""
+    rotating = [c for c in taxonomy.all_categories()
+                if c not in ALWAYS_ON_CATEGORIES]
+    if not rotating:
+        return state
+    if step is None:
+        step = max(1, GOOGLE_MAX_QUERIES_PER_SCAN //
+                   max(1, GOOGLE_MAX_QUERIES_PER_CATEGORY))
+    state["rotation_cursor"] = (int(state.get("rotation_cursor", 0)) + step) % len(rotating)
+    return state
+
+
+def record_category_yield(state: dict, category: str, found: int) -> None:
+    perf = state.setdefault("category_performance", {})
+    perf[category] = perf.get(category, 0) + int(found or 0)
+
+
+# ══════════════════════════════════════════════════════════════════════════
+# Providers — each returns a list[SearchResult]; none may raise
+# ══════════════════════════════════════════════════════════════════════════
+class Provider:
+    name = "provider"
+    enabled = True
+
+    def discover(self, ctx) -> list:
+        raise NotImplementedError
+
+
+class SearchProvider(Provider):
+    """Google CSE, budgeted + rotated + circuit-broken."""
+    name = "google"
+
+    def __init__(self, search_fn=None, quality_fn=None):
+        self._search = search_fn
+        self._quality = quality_fn
+
+    @property
+    def enabled(self) -> bool:
+        return bool(os.getenv("GOOGLE_CSE_API_KEY")
+                    and os.getenv("GOOGLE_CSE_ID"))
+
+    def discover(self, ctx) -> list:
+        import search as search_mod
+        out = []
+        if not self.enabled:
+            ctx["summary"]["google"]["skipped"] = "no API credentials"
+            return out
+
+        search_mod.reset_google_state()
+        budget = ctx["google_budget"]
+        queries = select_queries(ctx["state"], budget=budget)
+        ctx["summary"]["google"]["queries_planned"] = len(queries)
+
+        for category, query in queries:
+            if search_mod.google_disabled():
+                ctx["summary"]["google"]["stopped_early"] = True
+                break
+            try:
+                results = self._search(query, max_results=ctx["per_query"])
+            except Exception as e:
+                record_failure(ctx["health"], self.name, "error")
+                print(f"⚠️  Google query failed ({category}): {e}")
+                continue
+            record_category_yield(ctx["state"], category, len(results))
+            for r in results:
+                r.category = getattr(r, "category", None) or category
+                if self._quality:
+                    r.source_quality = (getattr(r, "source_quality", None)
+                                        or self._quality(r.url))
+                out.append(r)
+
+        g = search_mod.google_stats()
+        ctx["summary"]["google"].update({
+            "attempted": g["attempted"], "successful": g["successful"],
+            "429": g["429"], "403": g["403"], "errors": g["other_errors"],
+            "candidates": len(out),
+            "disabled_reason": g["disabled_reason"],
+        })
+        if g["successful"]:
+            record_success(ctx["health"], self.name, g["successful"])
+        for _ in range(g["429"]):
+            record_failure(ctx["health"], self.name, "429", 429)
+        for _ in range(g["403"]):
+            record_failure(ctx["health"], self.name, "403", 403)
+        return out
+
+
+class RSSProvider(Provider):
+    """Feed pull with per-feed health; permanently-404 feeds are skipped."""
+    name = "rss"
+
+    def __init__(self, fetch_fn):
+        self._fetch = fetch_fn
+
+    def discover(self, ctx) -> list:
+        try:
+            results, per_feed = self._fetch(ctx)
+        except Exception as e:
+            print(f"⚠️ RSS discovery failed entirely: {e}")
+            record_failure(ctx["health"], self.name, "error")
+            return []
+        s = ctx["summary"]["rss"]
+        s["attempted"] = per_feed.get("attempted", 0)
+        s["successful"] = per_feed.get("successful", 0)
+        s["failed"] = per_feed.get("failed", 0)
+        s["skipped_dead"] = per_feed.get("skipped_dead", 0)
+        s["candidates"] = len(results)
+        if results:
+            record_success(ctx["health"], self.name, len(results))
+        return results
+
+
+class APIProvider(Provider):
+    """Interface for key-less JSON job/opportunity APIs.
+
+    Intentionally inert until sources are configured via OPPORTUNITY_API_URLS
+    (comma-separated). Present so another provider can be added without
+    rewriting discovery.
+    """
+    name = "api"
+
+    def __init__(self, fetch_json=None):
+        self._fetch_json = fetch_json
+
+    @property
+    def enabled(self) -> bool:
+        return bool(os.getenv("OPPORTUNITY_API_URLS", "").strip())
+
+    def discover(self, ctx) -> list:
+        s = ctx["summary"]["api"]
+        if not self.enabled or not self._fetch_json:
+            s["sources"] = 0
+            s["skipped"] = "no APIs configured"
+            return []
+        urls = [u.strip() for u in os.getenv("OPPORTUNITY_API_URLS", "").split(",")
+                if u.strip()]
+        s["sources"] = len(urls)
+        out = []
+        for url in urls:
+            if is_disabled(ctx["health"], f"api:{url}"):
+                continue
+            try:
+                items = self._fetch_json(url) or []
+            except Exception as e:
+                record_failure(ctx["health"], f"api:{url}", "error")
+                print(f"⚠️  API source failed {url}: {e}")
+                continue
+            for it in items:
+                title = (it.get("title") or "").strip()
+                link = (it.get("url") or it.get("link") or "").strip()
+                if not title or not link:
+                    continue
+                out.append(SearchResult(
+                    title=title, url=link,
+                    snippet=(it.get("description") or it.get("snippet") or "")[:2000],
+                    source=url.split("/")[2] if "//" in url else url,
+                    category=it.get("category")))
+            record_success(ctx["health"], f"api:{url}", len(items))
+        s["candidates"] = len(out)
+        return out
+
+
+class SeedProvider(Provider):
+    """Official whitelist URLs — cheap, always available, bounded."""
+    name = "seed"
+
+    def __init__(self, seeds_fn):
+        self._seeds = seeds_fn
+
+    def discover(self, ctx) -> list:
+        s = ctx["summary"]["seed"]
+        try:
+            seeds = self._seeds() or []
+        except Exception as e:
+            print(f"⚠️  Seed provider failed: {e}")
+            record_failure(ctx["health"], self.name, "error")
+            s["attempted"] = 0
+            return []
+        seeds = seeds[:SEED_MAX_PER_SCAN]
+        s["attempted"] = len(seeds)
+        out = [SearchResult(title=sd.get("name", ""), url=sd.get("url", ""),
+                            source="seed")
+               for sd in seeds if sd.get("url")]
+        s["candidates"] = len(out)
+        if out:
+            record_success(ctx["health"], self.name, len(out))
+        return out
+
+
+# ══════════════════════════════════════════════════════════════════════════
+# Normalize / deduplicate
+# ══════════════════════════════════════════════════════════════════════════
+def _canonical(url: str) -> str:
+    try:
+        from notification import canonical_url
+        return canonical_url(url)
+    except Exception:
+        return (url or "").strip().lower().rstrip("/")
+
+
+def normalize_and_dedupe(batches) -> list:
+    """Flatten provider batches, drop entries without a URL, and keep the
+    first occurrence of each canonical URL. The richest snippet wins when the
+    same URL arrives from several providers."""
+    out, index = [], {}
+    for results in batches:
+        for r in results or []:
+            url = getattr(r, "url", None)
+            if not url:
+                continue
+            key = _canonical(url)
+            if not key:
+                continue
+            if key in index:
+                kept = out[index[key]]
+                # Prefer whichever carries more analysable text.
+                if len(getattr(r, "snippet", "") or "") > len(getattr(kept, "snippet", "") or ""):
+                    kept.snippet = r.snippet
+                kept.category = getattr(kept, "category", None) or getattr(r, "category", None)
+                continue
+            index[key] = len(out)
+            out.append(r)
+    return out
+
+
+# ══════════════════════════════════════════════════════════════════════════
+# Orchestration
+# ══════════════════════════════════════════════════════════════════════════
+def new_summary() -> dict:
+    return {
+        "google": {"attempted": 0, "successful": 0, "429": 0, "403": 0,
+                   "errors": 0, "candidates": 0, "queries_planned": 0},
+        "rss": {"attempted": 0, "successful": 0, "failed": 0,
+                "skipped_dead": 0, "candidates": 0},
+        "api": {"sources": 0, "candidates": 0},
+        "seed": {"attempted": 0, "candidates": 0},
+        "total": {"raw": 0, "after_dedupe": 0},
+    }
+
+
+def google_budget_for(health: dict) -> int:
+    """Cut Google's budget when it has been failing — lean on RSS/API instead."""
+    budget = GOOGLE_MAX_QUERIES_PER_SCAN
+    if is_unhealthy(health, "google"):
+        budget = max(1, budget // 4)
+        print(f"⚠️  Google looks unhealthy — reducing query budget to {budget}")
+    return budget
+
+
+def run_discovery(providers, per_query: int = 8) -> tuple:
+    """Run every provider, normalize, dedupe. Returns (candidates, summary).
+
+    A provider that fails is isolated: the others still contribute.
+    """
+    state = load_state()
+    health = load_health()
+    summary = new_summary()
+    ctx = {"state": state, "health": health, "summary": summary,
+           "per_query": per_query, "google_budget": google_budget_for(health)}
+
+    batches = []
+    for p in providers:
+        try:
+            batches.append(p.discover(ctx))
+        except Exception as e:
+            print(f"⚠️  Provider {getattr(p, 'name', '?')} failed: {e}")
+            record_failure(health, getattr(p, "name", "unknown"), "error")
+            batches.append([])
+
+    summary["total"]["raw"] = sum(len(b or []) for b in batches)
+    candidates = normalize_and_dedupe(batches)
+    summary["total"]["after_dedupe"] = len(candidates)
+
+    advance_rotation(state)
+    save_state(state)
+    save_health(health)
+    return candidates, summary
+
+
+def format_summary(summary: dict) -> list:
+    """Report lines that make it obvious whether discovery or downstream
+    filtering is the bottleneck."""
+    g, r = summary["google"], summary["rss"]
+    a, s, t = summary["api"], summary["seed"], summary["total"]
+    lines = [
+        "🔭 DISCOVERY",
+        f"   Google:  planned {g.get('queries_planned', 0)}, "
+        f"attempted {g.get('attempted', 0)}, ok {g.get('successful', 0)}, "
+        f"429 {g.get('429', 0)}, 403 {g.get('403', 0)} "
+        f"→ {g.get('candidates', 0)} candidates",
+    ]
+    if g.get("skipped"):
+        lines.append(f"            skipped: {g['skipped']}")
+    if g.get("disabled_reason"):
+        lines.append(f"            stopped: {g['disabled_reason']}")
+    lines += [
+        f"   RSS:     feeds {r.get('attempted', 0)}, ok {r.get('successful', 0)}, "
+        f"failed {r.get('failed', 0)}, dead-skipped {r.get('skipped_dead', 0)} "
+        f"→ {r.get('candidates', 0)} posts",
+        f"   APIs:    sources {a.get('sources', 0)} "
+        f"→ {a.get('candidates', 0)} candidates",
+        f"   Seeds:   attempted {s.get('attempted', 0)} "
+        f"→ {s.get('candidates', 0)} candidates",
+        f"   TOTAL:   raw {t.get('raw', 0)} → after dedupe {t.get('after_dedupe', 0)}",
+    ]
+    return lines

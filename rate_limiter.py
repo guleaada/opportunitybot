@@ -10,6 +10,7 @@ budget is exhausted it blocks; if the *daily* budget is exhausted it raises
 ``DailyQuotaExceeded`` so the caller can fall back to another provider.
 """
 
+import os
 import time
 from collections import deque
 from threading import Lock
@@ -32,6 +33,12 @@ LIMITS = {
     # OpenRouter free tier is conservative; exceeding it just falls through to
     # the next provider in the chain.
     "openrouter": {"rpm": 20, "rpd": 1000},
+    # Google CSE free tier is 100 queries/day. Both bounds are configurable so
+    # a paid tier can raise them without a code change.
+    "google": {
+        "rpm": int(os.getenv("GOOGLE_REQUESTS_PER_MINUTE", "10")),
+        "rpd": int(os.getenv("GOOGLE_REQUESTS_PER_DAY", "90")),
+    },
 }
 
 

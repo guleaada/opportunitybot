@@ -32,6 +32,7 @@ load_dotenv()  # load .env before importing modules that read os.getenv at impor
 
 import tools
 import taxonomy
+import discovery
 import notification
 from profile import PROFILE
 from checker import (
@@ -319,7 +320,7 @@ def run_scan(max_results_per_source: int = 8):
         cprint(f"⚠️ Could not reset classification budget: {e}")
 
     # --- RSS discovery (primary source while CSE is down) -------------------
-    def _fetch_rss_feeds():
+    def _fetch_rss_feeds(ctx=None):
         import html as _html
         import urllib.request
         import xml.etree.ElementTree as ET
@@ -340,9 +341,20 @@ def run_scan(max_results_per_source: int = 8):
             raw = re.sub(r"<[^>]+>", " ", raw)    # strip any embedded markup
             return re.sub(r"\s+", " ", raw).strip()
 
-        out, ok_feeds = [], 0
-        for feed_url in RSS_FEEDS:
+        import ssl as _ssl
+        import urllib.error
+
+        health = (ctx or {}).get("health") if ctx else None
+        out, ok_feeds, failed, skipped = [], 0, 0, 0
+
+        for feed_url in RSS_FEEDS[:discovery.RSS_MAX_FEEDS_PER_SCAN]:
             domain = feed_url.split("/")[2]
+            key = f"rss:{domain}"
+            # A feed that has 404'd repeatedly is gone — stop requesting it.
+            if health is not None and discovery.is_disabled(health, key):
+                skipped += 1
+                cprint(f"⏭️  RSS {domain}: skipped (permanently unavailable)")
+                continue
             try:
                 req = urllib.request.Request(
                     feed_url,
@@ -368,67 +380,60 @@ def run_scan(max_results_per_source: int = 8):
                                             category=FEED_CATEGORY.get(domain)))
                     count += 1
                 ok_feeds += 1
+                if health is not None:
+                    discovery.record_success(health, key, count)
                 cprint(f"📰 RSS {domain}: +{count} posts")
             except Exception as e:
                 # A dead or moved feed contributes 0 and never stops the scan.
-                cprint(f"⚠️ RSS feed {domain} failed: {e}")
+                # Classify so permanent 404s can be retired and transient
+                # 403/SSL/timeout failures are only paused.
+                failed += 1
+                status = getattr(e, "code", None)
+                if isinstance(e, urllib.error.HTTPError) and status == 404:
+                    kind = "404"
+                elif isinstance(e, urllib.error.HTTPError) and status == 403:
+                    kind = "403"
+                elif isinstance(e, urllib.error.HTTPError) and status == 429:
+                    kind = "429"
+                elif isinstance(e, _ssl.SSLError) or "SSL" in str(e).upper():
+                    kind = "ssl"
+                elif isinstance(e, TimeoutError) or "timed out" in str(e).lower():
+                    kind = "timeout"
+                else:
+                    kind = "error"
+                if health is not None:
+                    discovery.record_failure(health, key, kind, status)
+                cprint(f"⚠️ RSS feed {domain} failed [{kind}]: {e}")
+
         avg = int(sum(len(r.snippet or '') for r in out) / len(out)) if out else 0
         cprint(f"📰 RSS total: {len(out)} posts from {ok_feeds}/{len(RSS_FEEDS)} "
                f"feeds (avg {avg} chars of text per post)")
-        return out
+        return out, {"attempted": ok_feeds + failed, "successful": ok_feeds,
+                     "failed": failed, "skipped_dead": skipped}
     # ------------------------------------------------------------------------
 
     # 1. search across whitelisted sources + taxonomy families (no model)
     sources = load_whitelist()
-    all_results = []
-    seen_urls = set()
 
-    # Existing whitelist queries stay exactly as they were; the taxonomy
-    # families are APPENDED so discovery widens beyond scholarships without
-    # losing any current coverage. Both feed the same web_search pipeline.
-    search_jobs = [(s.name, s.search_query, s.category) for s in sources]
-    search_jobs += [(f"taxonomy:{cat}", q, cat)
-                    for cat, q in taxonomy.all_search_queries()]
-    cprint(f"🔎 Generated {len(search_jobs)} search queries across "
-           f"{len(taxonomy.CATEGORIES)} categories")
+    # Provider-based discovery: Google is budgeted + rotated + circuit-broken,
+    # and is no longer the only path. Each provider is isolated; the rest still
+    # contribute if one fails. Everything downstream is unchanged.
+    from source_whitelist import all_seed_urls
 
-    if os.getenv("GOOGLE_CSE_API_KEY") and os.getenv("GOOGLE_CSE_ID"):
-        for job_name, query, category in search_jobs:
-            try:
-                results = tools.web_search(query,
-                                           max_results=max_results_per_source)
-                for r in results:
-                    if r.url and r.url not in seen_urls:
-                        seen_urls.add(r.url)
-                        # tag what we already know at discovery time
-                        r.category = r.category or category
-                        r.source_quality = r.source_quality or domain_quality(r.url)
-                        all_results.append(r)
-            except Exception as e:
-                db.log_error(f"Source {job_name} failed: {e}")
+    providers = [
+        discovery.SearchProvider(search_fn=tools.web_search,
+                                 quality_fn=domain_quality),
+        discovery.RSSProvider(fetch_fn=_fetch_rss_feeds),
+        discovery.APIProvider(),
+        discovery.SeedProvider(seeds_fn=all_seed_urls),
+    ]
+    all_results, discovery_summary = discovery.run_discovery(
+        providers, per_query=max_results_per_source)
+    seen_urls = {r.url for r in all_results if r.url}
 
-    # Keyless fallback: with no CSE keys (or zero search results), fetch the
-    # whitelist's official seed URLs directly so the agent still discovers.
-    if not all_results:
-        from source_whitelist import all_seed_urls
-        from search import SearchResult
-        seeds = all_seed_urls()
-        cprint(f"🌱 Web search unavailable/empty — using {len(seeds)} official "
-               f"seed URLs from the whitelist")
-        for seed in seeds:
-            if seed["url"] not in seen_urls:
-                seen_urls.add(seed["url"])
-                all_results.append(SearchResult(
-                    title=seed["name"], url=seed["url"], source="seed"))
-    # Pull RSS feeds into discovery (runs regardless of CSE success/failure)
-    try:
-        for r in _fetch_rss_feeds():
-            if r.url and r.url not in seen_urls:
-                seen_urls.add(r.url)
-                all_results.append(r)
-    except Exception as e:
-        cprint(f"⚠️ RSS discovery failed entirely: {e}")
-
+    for line in discovery.format_summary(discovery_summary):
+        cprint(line)
+    stats["discovery"] = discovery_summary
     stats["discovered"] = len(all_results)
 
     # 2-3. dedupe seen + hard-block known scams (no model)
