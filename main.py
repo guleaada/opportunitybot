@@ -67,19 +67,38 @@ RSS_SNIPPET_CHARS = int(os.getenv("RSS_SNIPPET_CHARS", "2000"))
 
 # Discovery feeds. Unreachable or moved feeds are logged and skipped per-feed;
 # the per-feed "📰 RSS <domain>: +N posts" line shows which are productive.
-RSS_FEEDS = [
-    # Currently productive
+RSS_FEEDS = list(dict.fromkeys([   # dict.fromkeys keeps order AND dedupes
+    # ── Professional / fellowship / funding aggregators ──────────────────
     "https://opportunitiescorners.com/feed/",
     "https://www.opportunitiesforafricans.com/feed/",
     "https://opportunitydesk.org/feed/",
     "https://www.youthop.com/feed",
-    # Added — unverified from here; a dead one simply contributes 0
     "https://www.youthopportunitieshub.com/feed/",
     "https://afterschoolafrica.com/feed/",
     "https://www.scholarshipsads.com/feed/",
     "https://mladiinfo.eu/feed/",
     "https://oppateam.com/feed/",
-]
+    # ── Tech / AI / developer / remote work ─────────────────────────────
+    # The profile is a working AI professional, not a current student, so
+    # these surface opportunities the eligibility check can actually pass.
+    "https://weworkremotely.com/categories/remote-programming-jobs.rss",
+    "https://remoteok.com/remote-dev-jobs.rss",
+    "https://www.trydevpost.com/feed",
+    "https://mlh.io/seasons/2026/events.rss",
+    # ── Grants / competitions ────────────────────────────────────────────
+    "https://www.grants.gov/rss/GG_NewOpportunities.xml",
+]))
+
+# Default taxonomy category per feed domain, so tech/remote items are tagged
+# rather than "uncategorized". Purely descriptive — it feeds the report and
+# the stored record, NOT the scoring math.
+FEED_CATEGORY = {
+    "weworkremotely.com": "remote_jobs",
+    "remoteok.com": "dev_jobs",
+    "www.trydevpost.com": "hackathons",
+    "mlh.io": "hackathons",
+    "www.grants.gov": "grants",
+}
 
 
 # ════════════════════════════════════════════════════════════════════════
@@ -346,7 +365,8 @@ def run_scan(max_results_per_source: int = 8):
                     if not title or not link:
                         continue
                     out.append(SearchResult(title=title, url=link,
-                                            snippet=body, source=domain))
+                                            snippet=body, source=domain,
+                                            category=FEED_CATEGORY.get(domain)))
                     count += 1
                 ok_feeds += 1
                 cprint(f"📰 RSS {domain}: +{count} posts")
