@@ -18,7 +18,8 @@ Routing summary:
 from typing import List
 
 from model_router import call_model, extract_json
-from search import web_search as _web_search, fetch_url as _fetch_url, SearchResult
+from search import (web_search as _web_search, fetch_url as _fetch_url,
+                    fetch_via_jina as _fetch_via_jina, SearchResult)
 from known_scams import check_known_scam as _check_known_scam
 from checker import (
     check_deadline as _check_deadline,
@@ -46,6 +47,12 @@ def web_search(query: str, max_results: int = 10) -> List[SearchResult]:
 # ── 2. fetch_url (no model) ─────────────────────────────────────────────────
 def fetch_url(url: str, force: bool = False) -> dict:
     return _fetch_url(url, force=force)
+
+
+# ── 2b. fetch_via_jina (no model) — reader proxy for blocked pages ──────────
+def fetch_via_jina(url: str) -> dict:
+    """Full page text via r.jina.ai. Same dict shape as fetch_url; never raises."""
+    return _fetch_via_jina(url)
 
 
 # ── 3. clean_html (GROQ, mechanical) ────────────────────────────────────────

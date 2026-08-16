@@ -98,18 +98,32 @@ def analyze_one(result, stats: dict):
     if fetched["error"] or fetched["status"] != 200 or not fetched["text"]:
         reason = fetched["error"] or fetched["status"]
         db.log_error(f"Fetch failed for {url}: {reason}")
-        # The full page is often Cloudflare-blocked (403/429) on the very sites
-        # RSS discovery targets. We already have the feed's title + snippet, so
-        # analyze that rather than throwing the candidate away.
-        if len(snippet) >= MIN_SNIPPET_CHARS:
+
+        # Tier 2 — reader proxy. Jina fetches server-side, so this runner's IP
+        # being Cloudflare-blocked doesn't matter, and we get the FULL page
+        # rather than a short feed snippet (which is too thin for the deadline
+        # and eligibility checks to confirm anything).
+        try:
+            jina = tools.fetch_via_jina(url)
+        except Exception as e:
+            jina = {"text": "", "status": 0,
+                    "error": f"{type(e).__name__}: {e}"}
+
+        if (jina.get("text") or "").strip():
+            text = jina["text"]
+            stats["jina_fetch"] = stats.get("jina_fetch", 0) + 1
+            cprint(f"   ↩️  direct fetch blocked ({reason}) — got "
+                   f"{len(text)} chars of full text via jina reader")
+        # Tier 3 — the feed's own snippet, only if the reader failed too.
+        elif len(snippet) >= MIN_SNIPPET_CHARS:
             text = f"{title}\n\n{snippet}"
             stats["snippet_fallback"] = stats.get("snippet_fallback", 0) + 1
-            cprint(f"   ↩️  fetch blocked ({reason}) — analyzing the "
+            cprint(f"   ↩️  fetch + jina blocked ({reason}) — analyzing the "
                    f"{len(snippet)}-char feed snippet instead")
         else:
             stats["fetch_failed"] += 1
-            cprint(f"   ⚠️  fetch failed ({reason}) and no usable snippet "
-                   f"({len(snippet)} chars) — skipping")
+            cprint(f"   ⚠️  fetch + jina failed ({reason}) and no usable "
+                   f"snippet ({len(snippet)} chars) — skipping")
             return None
     else:
         # 5. clean_html (GROQ free) — best effort; falls back to raw text
@@ -508,6 +522,7 @@ def build_report(opportunities, stats, blocked_scams):
         f"   Skipped already-seen:  {stats['already_seen']}",
         f"   Hard-blocked scams:    {stats['known_scam']}",
         f"   Fetch failed:          {stats.get('fetch_failed', 0)}",
+        f"   Jina fetch:            {stats.get('jina_fetch', 0)}",
         f"   Snippet fallback:      {stats.get('snippet_fallback', 0)}",
         f"   First-pass filtered:   {stats['first_pass_dropped']}",
         f"   Flagged scam (Claude): {stats['scam']}",

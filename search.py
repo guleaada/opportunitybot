@@ -182,6 +182,67 @@ def _has_lxml() -> bool:
         return False
 
 
+# ── Reader-proxy fetch (r.jina.ai) ─────────────────────────────────────────
+# The runner's own IP is Cloudflare-blocked on most opportunity sites. Jina
+# fetches server-side and returns clean article text, so we get the FULL page
+# instead of falling all the way back to a short feed snippet.
+JINA_READER_PREFIX = "https://r.jina.ai/"
+JINA_TIMEOUT = 30
+_JINA_MIN_INTERVAL = 0.5   # be polite; keyless free tier is ~20 req/min
+_last_jina_call = 0.0
+
+
+def _host_of(url: str) -> str:
+    try:
+        from urllib.parse import urlparse
+        return urlparse(url if "//" in url else "//" + url).netloc or url
+    except Exception:
+        return url or "?"
+
+
+def fetch_via_jina(url: str) -> dict:
+    """Fetch a page's full text through the r.jina.ai reader proxy.
+
+    Returns the SAME dict shape as ``fetch_url`` so callers need no changes.
+    Never raises — any failure comes back as an error dict so the caller can
+    fall through to its next tier.
+    """
+    global _last_jina_call
+    host = _host_of(url)
+    if not url:
+        return {"url": url, "html": "", "text": "", "status": 0,
+                "cached": False, "error": "empty url"}
+    try:
+        gap = time.time() - _last_jina_call
+        if gap < _JINA_MIN_INTERVAL:
+            time.sleep(_JINA_MIN_INTERVAL - gap)
+
+        headers = {"User-Agent": USER_AGENT, "Accept": "text/plain"}
+        # Keyless works; a free key just raises the rate limit.
+        api_key = os.getenv("JINA_API_KEY")
+        if api_key:
+            headers["Authorization"] = f"Bearer {api_key}"
+
+        print(f"↩️  jina reader for {host}")
+        resp = requests.get(JINA_READER_PREFIX + url, headers=headers,
+                            timeout=JINA_TIMEOUT)
+        _last_jina_call = time.time()
+
+        status = resp.status_code
+        text = resp.text if status == 200 else ""
+        if status != 200 or not (text or "").strip():
+            print(f"⚠️  jina failed for {host}: status {status}")
+            return {"url": url, "html": "", "text": "", "status": status,
+                    "cached": False, "error": f"jina status {status}"}
+        return {"url": url, "html": "", "text": text, "status": status,
+                "cached": False, "error": None}
+    except Exception as e:
+        _last_jina_call = time.time()
+        print(f"⚠️  jina failed for {host}: {e}")
+        return {"url": url, "html": "", "text": "", "status": 0,
+                "cached": False, "error": f"{type(e).__name__}: {e}"}
+
+
 def fetch_url(url: str, force: bool = False) -> dict:
     """Fetch a URL (cached 24h). No model call.
 
