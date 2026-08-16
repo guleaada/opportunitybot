@@ -242,7 +242,14 @@ class SearchProvider(Provider):
         import search as search_mod
         out = []
         if not self.enabled:
-            ctx["summary"]["google"]["skipped"] = "no API credentials"
+            missing = [n for n in ("GOOGLE_CSE_API_KEY", "GOOGLE_CSE_ID")
+                       if not os.getenv(n)]
+            msg = f"{' / '.join(missing)} not configured"
+            # Explicit, not a silent skip — these are the exact variable names
+            # the code reads and the workflow passes from repo secrets.
+            print(f"⛔ Google discovery disabled — {msg}")
+            ctx["summary"]["google"]["skipped"] = msg
+            ctx["summary"]["google"]["status"] = "DISABLED"
             return out
 
         search_mod.reset_google_state()
@@ -323,27 +330,48 @@ class APIProvider(Provider):
 
     @property
     def enabled(self) -> bool:
-        return bool(os.getenv("OPPORTUNITY_API_URLS", "").strip())
+        try:
+            import api_sources
+            return bool(api_sources.enabled_sources())
+        except Exception:
+            return bool(os.getenv("OPPORTUNITY_API_URLS", "").strip())
 
     def discover(self, ctx) -> list:
         s = ctx["summary"]["api"]
-        if not self.enabled or not self._fetch_json:
+        try:
+            import api_sources
+            names = api_sources.enabled_sources()
+            fetch = self._fetch_json or (lambda n: api_sources.fetch(n))
+        except Exception as e:
             s["sources"] = 0
-            s["skipped"] = "no APIs configured"
+            s["skipped"] = f"api_sources unavailable: {e}"
             return []
-        urls = [u.strip() for u in os.getenv("OPPORTUNITY_API_URLS", "").split(",")
-                if u.strip()]
-        s["sources"] = len(urls)
-        out = []
-        for url in urls:
-            if is_disabled(ctx["health"], f"api:{url}"):
+
+        if not names:
+            s["sources"] = 0
+            s["skipped"] = "no API sources enabled"
+            return []
+
+        s["sources"] = len(names)
+        out, healthy, failed = [], 0, 0
+        for name in names:
+            key = f"api:{name}"
+            if is_disabled(ctx["health"], key):
                 continue
             try:
-                items = self._fetch_json(url) or []
+                items = fetch(name) or []
             except Exception as e:
-                record_failure(ctx["health"], f"api:{url}", "error")
-                print(f"⚠️  API source failed {url}: {e}")
+                failed += 1
+                record_failure(ctx["health"], key, "error")
+                print(f"⚠️  API source failed {name}: {e}")
                 continue
+            if not items:
+                # Reachable-but-empty is still a failed contribution; health
+                # tracking is what eventually retires a dead source.
+                failed += 1
+                record_failure(ctx["health"], key, "error")
+                continue
+            healthy += 1
             for it in items:
                 title = (it.get("title") or "").strip()
                 link = (it.get("url") or it.get("link") or "").strip()
@@ -352,9 +380,10 @@ class APIProvider(Provider):
                 out.append(SearchResult(
                     title=title, url=link,
                     snippet=(it.get("description") or it.get("snippet") or "")[:2000],
-                    source=url.split("/")[2] if "//" in url else url,
-                    category=it.get("category")))
-            record_success(ctx["health"], f"api:{url}", len(items))
+                    source=name, category=it.get("category")))
+            record_success(ctx["health"], key, len(items))
+        s["healthy"] = healthy
+        s["failed"] = failed
         s["candidates"] = len(out)
         return out
 
@@ -431,7 +460,7 @@ def new_summary() -> dict:
                    "errors": 0, "candidates": 0, "queries_planned": 0},
         "rss": {"attempted": 0, "successful": 0, "failed": 0,
                 "skipped_dead": 0, "candidates": 0},
-        "api": {"sources": 0, "candidates": 0},
+        "api": {"sources": 0, "healthy": 0, "failed": 0, "candidates": 0},
         "seed": {"attempted": 0, "candidates": 0},
         "total": {"raw": 0, "after_dedupe": 0},
     }
@@ -476,30 +505,73 @@ def run_discovery(providers, per_query: int = 8) -> tuple:
     return candidates, summary
 
 
-def format_summary(summary: dict) -> list:
+# Coverage thresholds — diagnostic only. Candidates are NEVER manufactured to
+# hit these; they simply describe how thin the real yield was.
+COVERAGE_WARN_BELOW = int(os.getenv("DISCOVERY_WARN_BELOW", "20"))
+COVERAGE_CRITICAL_BELOW = int(os.getenv("DISCOVERY_CRITICAL_BELOW", "5"))
+
+
+def google_status(g: dict) -> str:
+    if g.get("skipped"):
+        return "DISABLED"
+    if g.get("429", 0) and not g.get("successful", 0):
+        return "RATE_LIMITED"
+    if g.get("attempted", 0) and not g.get("successful", 0):
+        return "FAILED"
+    if g.get("successful", 0):
+        return "RATE_LIMITED" if g.get("429", 0) else "HEALTHY"
+    return "IDLE"
+
+
+def coverage_level(raw: int) -> str:
+    if raw < COVERAGE_CRITICAL_BELOW:
+        return "CRITICAL"
+    if raw < COVERAGE_WARN_BELOW:
+        return "WARNING"
+    return "OK"
+
+
+def format_summary(summary: dict, new_candidates=None) -> list:
     """Report lines that make it obvious whether discovery or downstream
-    filtering is the bottleneck."""
+    filtering is the bottleneck, and when coverage is too thin to trust."""
     g, r = summary["google"], summary["rss"]
     a, s, t = summary["api"], summary["seed"], summary["total"]
+    raw = t.get("raw", 0)
+
     lines = [
-        "🔭 DISCOVERY",
-        f"   Google:  planned {g.get('queries_planned', 0)}, "
-        f"attempted {g.get('attempted', 0)}, ok {g.get('successful', 0)}, "
-        f"429 {g.get('429', 0)}, 403 {g.get('403', 0)} "
-        f"→ {g.get('candidates', 0)} candidates",
+        "🔭 DISCOVERY HEALTH",
+        f"   Google:  status {google_status(g)}  •  "
+        f"planned {g.get('queries_planned', 0)}, attempted {g.get('attempted', 0)}, "
+        f"ok {g.get('successful', 0)}, 429 {g.get('429', 0)}, "
+        f"403 {g.get('403', 0)} → {g.get('candidates', 0)} candidates",
     ]
     if g.get("skipped"):
-        lines.append(f"            skipped: {g['skipped']}")
+        lines.append(f"            reason: {g['skipped']}")
     if g.get("disabled_reason"):
         lines.append(f"            stopped: {g['disabled_reason']}")
+
+    attempted_feeds = r.get("attempted", 0)
     lines += [
-        f"   RSS:     feeds {r.get('attempted', 0)}, ok {r.get('successful', 0)}, "
-        f"failed {r.get('failed', 0)}, dead-skipped {r.get('skipped_dead', 0)} "
-        f"→ {r.get('candidates', 0)} posts",
-        f"   APIs:    sources {a.get('sources', 0)} "
-        f"→ {a.get('candidates', 0)} candidates",
-        f"   Seeds:   attempted {s.get('attempted', 0)} "
-        f"→ {s.get('candidates', 0)} candidates",
-        f"   TOTAL:   raw {t.get('raw', 0)} → after dedupe {t.get('after_dedupe', 0)}",
+        f"   RSS:     active feeds {r.get('successful', 0)}/{attempted_feeds}"
+        f"  •  failed {r.get('failed', 0)}, dead-skipped "
+        f"{r.get('skipped_dead', 0)} → {r.get('candidates', 0)} posts",
+        f"   APIs:    healthy {a.get('healthy', 0)}, failed {a.get('failed', 0)}"
+        f" of {a.get('sources', 0)} → {a.get('candidates', 0)} candidates",
     ]
+    if a.get("skipped"):
+        lines.append(f"            reason: {a['skipped']}")
+    lines += [
+        f"   Seeds:   active {s.get('candidates', 0)}/{s.get('attempted', 0)}"
+        f" → {s.get('candidates', 0)} candidates",
+        f"   TOTAL:   raw {raw} → deduplicated {t.get('after_dedupe', 0)}"
+        + (f" → new {new_candidates}" if new_candidates is not None else ""),
+    ]
+
+    level = coverage_level(raw)
+    if level == "CRITICAL":
+        lines.append(f"   🚨 CRITICAL: Discovery providers are mostly "
+                     f"unavailable (raw {raw} < {COVERAGE_CRITICAL_BELOW}).")
+    elif level == "WARNING":
+        lines.append(f"   ⚠️  WARNING: Discovery coverage is currently low "
+                     f"(raw {raw} < {COVERAGE_WARN_BELOW}).")
     return lines

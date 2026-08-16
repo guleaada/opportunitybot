@@ -431,8 +431,6 @@ def run_scan(max_results_per_source: int = 8):
         providers, per_query=max_results_per_source)
     seen_urls = {r.url for r in all_results if r.url}
 
-    for line in discovery.format_summary(discovery_summary):
-        cprint(line)
     stats["discovery"] = discovery_summary
     stats["discovered"] = len(all_results)
 
@@ -453,6 +451,9 @@ def run_scan(max_results_per_source: int = 8):
             continue
         candidates.append(r)
 
+    for line in discovery.format_summary(discovery_summary,
+                                         new_candidates=len(candidates)):
+        cprint(line)
     cprint(f"📊 Found {stats['discovered']} total, {len(candidates)} new candidates "
            f"({stats['already_seen']} seen, {stats['known_scam']} blocked)")
 
