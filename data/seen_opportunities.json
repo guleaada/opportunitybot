@@ -2358,15 +2358,26 @@
     "first_seen": "2026-08-16T05:33:35.858569+00:00",
     "last_updated": "2026-08-16T05:33:35.858576+00:00"
   },
+  "9c1f62602b58d82f": {
+    "url": "https://opportunitiescorners.com/discover-canada-winter-edition-2026/",
+    "title": "Discover Canada Winter Edition 2026 | Cultural Exchange Program",
+    "status": "suspicious",
+    "credibility_status": "SUSPICIOUS",
+    "source_tier": "TIER_3",
+    "reasoning": "The program requires an application fee of USD 52, which is a red flag, although the fee is relatively small and described as covering administrative costs. The program's funding opportunities and cultural exchange aspects appear legitimate, but the fee and lack of information about the organizer raise suspicions. Further research is needed to verify the program's authenticity.",
+    "id": "9c1f62602b58d82f",
+    "first_seen": "2026-08-16T19:39:48.181739+00:00",
+    "last_updated": "2026-08-16T19:39:48.181750+00:00"
+  },
   "1e9fdce5eee76cd3": {
     "url": "https://opportunitiescorners.com/kaust-ams-school-2026/",
     "title": "KAUST AMS School 2026 in Saudi Arabia (Fully Funded)",
     "status": "ineligible",
-    "eligibility_status": "CONFIRMED_INELIGIBLE",
-    "reasoning": "The program requires candidates to be enrolled undergraduates, graduates, or master's students, but the candidate is a working professional and not currently a student.",
+    "eligibility_status": "PROBABLY_INELIGIBLE",
+    "reasoning": "The candidate does not meet the eligibility criteria of being a recent graduate, senior undergraduate, or current master's student, as they are a working professional. However, the program does not explicitly state that working professionals are excluded.",
     "id": "1e9fdce5eee76cd3",
-    "first_seen": "2026-08-16T15:21:41.752063+00:00",
-    "last_updated": "2026-08-16T15:21:41.752070+00:00"
+    "first_seen": "2026-08-16T19:40:15.797527+00:00",
+    "last_updated": "2026-08-16T19:40:15.797539+00:00"
   },
   "7f1fa884a0766c50": {
     "url": "https://opportunitydesk.org/2026/08/14/more-health-for-africa-program-2026-cohort-3/",
@@ -2374,9 +2385,9 @@
     "status": "legitimacy_unknown",
     "credibility_status": "NEEDS_VERIFICATION",
     "source_tier": "TIER_2",
-    "reasoning": "The program appears to be a legitimate initiative by Boehringer Ingelheim and Villgro Africa, but there is insufficient information to confirm its legitimacy, such as the application process, selection criteria, and potential fees associated with the program. The fact that it is posted on Opportunity Desk, a known platform for sharing scholarship and fellowship opportunities, is a positive signal, but not conclusive evidence. Further research is needed to determine the program's authenticity.",
+    "reasoning": "The program appears to be a legitimate initiative by Boehringer Ingelheim and Villgro Africa, but there is insufficient information to fully assess its legitimacy, such as application fees or selection criteria. The program's goal and partnership structure seem plausible, but further research is needed to confirm its authenticity. The lack of clear trust signals or red flags makes it difficult to make a definitive judgment.",
     "id": "7f1fa884a0766c50",
-    "first_seen": "2026-08-16T15:21:42.986111+00:00",
-    "last_updated": "2026-08-16T15:21:42.986120+00:00"
+    "first_seen": "2026-08-16T19:40:22.993068+00:00",
+    "last_updated": "2026-08-16T19:40:22.993080+00:00"
   }
 }

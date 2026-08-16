@@ -1412,42 +1412,42 @@
     }
   },
   {
-    "at": "2026-08-16T15:21:05.915528+00:00",
+    "at": "2026-08-16T19:39:12.016678+00:00",
     "kind": "scan_start",
     "message": "daily scan started"
   },
   {
-    "at": "2026-08-16T15:21:38.130819+00:00",
+    "at": "2026-08-16T19:39:44.551961+00:00",
     "kind": "error",
     "message": "Fetch failed for https://www.dfat.gov.au/people-to-people/australia-awards/australia-awards-scholarships: HTTPSConnectionPool(host='www.dfat.gov.au', port=443): Read timed out. (read timeout=25)"
   },
   {
-    "at": "2026-08-16T15:21:38.370100+00:00",
+    "at": "2026-08-16T19:39:44.688301+00:00",
     "kind": "error",
     "message": "Fetch failed for https://vanier.gc.ca/en/home-accueil.html: HTTPSConnectionPool(host='vanier.gc.ca', port=443): Max retries exceeded with url: /en/home-accueil.html (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)')))"
   },
   {
-    "at": "2026-08-16T15:21:38.399862+00:00",
+    "at": "2026-08-16T19:39:44.822542+00:00",
     "kind": "error",
     "message": "Fetch failed for https://opportunitydesk.org/category/fellowships/: 403"
   },
   {
-    "at": "2026-08-16T15:21:41.792068+00:00",
+    "at": "2026-08-16T19:40:15.848510+00:00",
     "kind": "error",
     "message": "Fetch failed for https://opportunitydesk.org/2026/08/14/more-health-for-africa-program-2026-cohort-3/: 403"
   },
   {
-    "at": "2026-08-16T15:21:45.247220+00:00",
+    "at": "2026-08-16T19:40:25.750001+00:00",
     "kind": "scan_complete",
     "message": "daily scan finished",
     "matches": 0,
     "stats": {
       "discovered": 40,
-      "already_seen": 35,
+      "already_seen": 34,
       "known_scam": 0,
       "fetch_failed": 3,
       "first_pass_dropped": 0,
-      "scam": 0,
+      "scam": 1,
       "legit_unknown": 1,
       "ineligible": 1,
       "closed": 0,
@@ -1459,17 +1459,17 @@
     }
   },
   {
-    "at": "2026-08-16T15:21:45.248416+00:00",
+    "at": "2026-08-16T19:40:25.751585+00:00",
     "kind": "run",
     "mode": "scan",
     "environment": "github_actions",
     "stats": {
       "discovered": 40,
-      "already_seen": 35,
+      "already_seen": 34,
       "known_scam": 0,
       "fetch_failed": 3,
       "first_pass_dropped": 0,
-      "scam": 0,
+      "scam": 1,
       "legit_unknown": 1,
       "ineligible": 1,
       "closed": 0,
