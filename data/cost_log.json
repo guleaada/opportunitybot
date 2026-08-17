@@ -8022,5 +8022,13 @@
     "tokens_in": 620,
     "tokens_out": 756,
     "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-08-17T05:36:38.543118+00:00",
+    "provider": "groq",
+    "task": "clean_html",
+    "tokens_in": 1465,
+    "tokens_out": 782,
+    "cost_usd": 0.0
   }
 ]
