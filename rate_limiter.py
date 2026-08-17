@@ -12,18 +12,17 @@ budget is exhausted it blocks; if the *daily* budget is exhausted it raises
 
 import os
 import time
-from collections import deque
+from collections import defaultdict, deque
 from threading import Lock
 
-__all__ = ["wait_for_quota", "DailyQuotaExceeded", "snapshot"]
+__all__ = ["wait_for_quota", "DailyQuotaExceeded", "snapshot",
+           "register_provider", "known_providers", "LIMITS"]
 
 
 class DailyQuotaExceeded(Exception):
     """Raised when a provider's requests-per-day budget is used up."""
 
 
-_minute_history = {"claude": deque(), "gemini": deque(), "groq": deque()}
-_day_history = {"claude": deque(), "gemini": deque(), "groq": deque()}
 _lock = Lock()
 
 LIMITS = {
@@ -39,7 +38,32 @@ LIMITS = {
         "rpm": int(os.getenv("GOOGLE_REQUESTS_PER_MINUTE", "10")),
         "rpd": int(os.getenv("GOOGLE_REQUESTS_PER_DAY", "90")),
     },
+    # Mistral free ("La Plateforme" free tier) limits are account/model
+    # specific and not publicly fixed, so these are deliberately CONSERVATIVE
+    # placeholders, both overridable. They are not a claim about the real quota.
+    "mistral": {
+        "rpm": int(os.getenv("MISTRAL_REQUESTS_PER_MINUTE", "10")),
+        "rpd": int(os.getenv("MISTRAL_REQUESTS_PER_DAY", "500")),
+    },
 }
+
+# Quota state is DERIVED from LIMITS, never hand-maintained. Adding a provider
+# to LIMITS is now sufficient — the previous KeyError('openrouter') /
+# KeyError('google') bug came from parallel dicts that had to be kept in sync
+# by hand. defaultdict also covers a provider registered at runtime.
+_minute_history = defaultdict(deque, {name: deque() for name in LIMITS})
+_day_history = defaultdict(deque, {name: deque() for name in LIMITS})
+
+
+def register_provider(name: str, rpm: int, rpd: int) -> None:
+    """Add/override a provider's limits at runtime; state is auto-created."""
+    LIMITS[name] = {"rpm": int(rpm), "rpd": int(rpd)}
+    _minute_history[name]      # touch so the deque exists immediately
+    _day_history[name]
+
+
+def known_providers() -> list:
+    return sorted(LIMITS)
 
 
 def wait_for_quota(model: str) -> None:

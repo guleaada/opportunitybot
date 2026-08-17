@@ -65,6 +65,13 @@ jobs:
           # provider is simply skipped — nothing breaks.
           OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
           OPENROUTER_MODEL: ${{ vars.OPENROUTER_MODEL || 'openrouter/free' }}
+          # Mistral: free-tier provider. Unset secret => provider DISABLED
+          # (not an error). MISTRAL_MODEL must be a model your free tier
+          # includes; the default is used only when the Variable is unset.
+          MISTRAL_API_KEY: ${{ secrets.MISTRAL_API_KEY }}
+          MISTRAL_MODEL: ${{ vars.MISTRAL_MODEL || 'mistral-small-latest' }}
+          # Provider order is configurable without a code change.
+          MODEL_PROVIDER_ORDER: ${{ vars.MODEL_PROVIDER_ORDER || 'groq,openrouter,mistral,gemini' }}
           GROQ_MODEL: ${{ secrets.GROQ_MODEL || 'llama-3.3-70b-versatile' }}
 
           # Email

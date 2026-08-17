@@ -34,6 +34,7 @@ import tools
 import taxonomy
 import discovery
 import notification
+from model_router import ProvidersUnavailable
 from profile import PROFILE
 from checker import (
     meets_threshold, PROBABLY_ELIGIBLE, normalize_credibility, is_notifiable,
@@ -109,7 +110,32 @@ def analyze_one(result, stats: dict):
 
     Returns a rich dict if it's a notify-worthy match, else None. Mutates
     ``stats`` counters along the way.
+
+    If every model provider is unavailable, the candidate is marked
+    ANALYSIS_UNAVAILABLE and PRESERVED for a later run — a technical outage is
+    never treated as ineligibility.
     """
+    try:
+        return _analyze_one_inner(result, stats)
+    except ProvidersUnavailable as e:
+        url = getattr(result, "url", None) or ""
+        title = getattr(result, "title", None) or ""
+        stats["analysis_unavailable"] = stats.get("analysis_unavailable", 0) + 1
+        cprint(f"   🟡 ANALYSIS_UNAVAILABLE (all providers down) — "
+               f"preserving candidate for a later run: {e}")
+        # Deliberately NOT save_opportunity(): that would mark it seen and it
+        # would never be retried. The watchlist is the existing retry channel.
+        try:
+            tools.add_to_watchlist({
+                "url": url, "title": title,
+                "reason": "ANALYSIS_UNAVAILABLE — all model providers were "
+                          "unavailable; retry when quota resets"})
+        except Exception as werr:
+            db.log_error(f"Could not preserve {url}: {werr}")
+        return None
+
+
+def _analyze_one_inner(result, stats: dict):
     # RSS entries frequently omit fields — coerce None to "" so a missing
     # title or snippet can never crash this candidate (or the whole scan).
     url = getattr(result, "url", None) or ""
@@ -311,6 +337,14 @@ def run_scan(max_results_per_source: int = 8):
         "deep_analyzed": 0, "scored_high": 0,
     }
     blocked_scams = []
+
+    # Per-scan model provider state: reset counters/breaker, log config.
+    try:
+        import model_router
+        model_router.reset_provider_stats()
+        model_router.log_model_configuration()
+    except Exception as e:
+        cprint(f"⚠️ Could not initialise model providers: {e}")
 
     # Per-scan budget for the free hidden-opportunity classifier.
     try:
@@ -585,6 +619,7 @@ def build_report(opportunities, stats, blocked_scams):
         f"   Deep-analyzed (Claude):{stats['deep_analyzed']}",
         f"   Scoring >= {MIN_SCORE}:         {stats['scored_high']}",
         f"   Rescued by signals:    {stats.get('signal_rescued', 0)}",
+        f"   Analysis unavailable:  {stats.get('analysis_unavailable', 0)}",
         f"   Deduped duplicates:    {stats.get('deduped', 0)}",
         "",
         "💰 COST TODAY",
@@ -608,6 +643,12 @@ def build_report(opportunities, stats, blocked_scams):
                       f"{MIN_SCORE} today.)")
 
     # Opportunity of the Day — the best REAL match from this run only.
+    try:
+        import model_router
+        lines += [""] + model_router.model_health_lines()
+    except Exception:
+        pass
+
     lines += notification.format_opportunity_of_the_day(
         notification.opportunity_of_the_day(opportunities, MIN_SCORE))
 

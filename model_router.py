@@ -76,19 +76,100 @@ TASK_ROUTING = {
     "translate": "groq",
 }
 
-# Ordered free-provider chain. Groq first because it is the one that has
-# stayed up; OpenRouter as an independent backup; Gemini last because its
-# model ids churn — a retired experimental id once 404'd every call and
-# stalled the whole pipeline.
-FREE_CHAIN = ["groq", "openrouter", "gemini"]
+# Ordered provider chain, configurable end-to-end via MODEL_PROVIDER_ORDER.
+# Default: Groq first (most reliable here), OpenRouter, then Mistral, then
+# Gemini last because its model ids churn. Claude is NOT in the default order —
+# this project runs at $0, so Claude only participates if explicitly listed
+# AND credentialed AND given budget.
+DEFAULT_PROVIDER_ORDER = ["groq", "openrouter", "mistral", "gemini"]
+
+
+def provider_order() -> list:
+    raw = os.getenv("MODEL_PROVIDER_ORDER")
+    if not raw:
+        return list(DEFAULT_PROVIDER_ORDER)
+    return [p.strip() for p in raw.split(",") if p.strip()]
+
+
+# Kept as a module attribute for backward compatibility with existing callers
+# and tests; the live order is whatever provider_order() returns.
+FREE_CHAIN = list(DEFAULT_PROVIDER_ORDER)
 
 # Human-readable "why this model" used for the transparency log.
 ROUTING_REASON = {
-    "claude": "high-stakes judgment",
-    "groq": "free / chain primary",
-    "openrouter": "free / chain backup",
-    "gemini": "free / chain last resort",
+    "claude": "paid / only if explicitly configured",
+    "groq": "free tier",
+    "openrouter": "free tier",
+    "mistral": "free tier",
+    "gemini": "free tier",
 }
+
+# ── Provider states ────────────────────────────────────────────────────────
+ENABLED = "ENABLED"            # configured and usable
+DISABLED = "DISABLED"          # no credentials — NOT an error
+RATE_LIMITED = "RATE_LIMITED"  # 429 this run; skipped for the remainder
+FAILED = "FAILED"              # errored this run
+AVAILABLE = "AVAILABLE"        # configured, healthy, has run successfully
+
+# Per-scan provider stats + circuit breaker. Reset at the start of each scan.
+_provider_stats = {}
+
+
+def _blank_stats() -> dict:
+    return {"requests": 0, "successful": 0, "429": 0, "404": 0,
+            "failed": 0, "state": None, "last_error": ""}
+
+
+def reset_provider_stats() -> None:
+    """Per-scan reset so the breaker and counters do not leak across runs."""
+    _provider_stats.clear()
+
+
+def provider_stats(name: str = None):
+    if name is None:
+        return {k: dict(v) for k, v in _provider_stats.items()}
+    return dict(_provider_stats.setdefault(name, _blank_stats()))
+
+
+def _stats(name: str) -> dict:
+    return _provider_stats.setdefault(name, _blank_stats())
+
+
+def provider_configured(name: str) -> bool:
+    """Credentials present? Absence is DISABLED, never an error."""
+    return bool({
+        "groq": os.getenv("GROQ_API_KEY"),
+        "openrouter": os.getenv("OPENROUTER_API_KEY"),
+        "mistral": os.getenv("MISTRAL_API_KEY"),
+        "gemini": os.getenv("GEMINI_API_KEY"),
+        "claude": os.getenv("ANTHROPIC_API_KEY"),
+    }.get(name))
+
+
+def provider_state(name: str) -> str:
+    if not provider_configured(name):
+        return DISABLED
+    s = _stats(name)
+    if s["state"] == RATE_LIMITED:
+        return RATE_LIMITED
+    if s["successful"]:
+        return AVAILABLE
+    if s["state"] == FAILED:
+        return FAILED
+    return ENABLED
+
+
+def _is_rate_limit(exc) -> bool:
+    status = getattr(getattr(exc, "response", None), "status_code",
+                     getattr(exc, "status_code", None))
+    return status == 429 or "429" in str(exc) or "rate limit" in str(exc).lower()
+
+
+def _is_model_not_found(exc) -> bool:
+    status = getattr(getattr(exc, "response", None), "status_code",
+                     getattr(exc, "status_code", None))
+    text = str(exc).lower()
+    return status == 404 or "not found" in text or "no longer available" in text
 
 
 def call_model(task_type: str, prompt: str, system: str = None,
@@ -109,28 +190,68 @@ def call_model(task_type: str, prompt: str, system: str = None,
     """
     primary = TASK_ROUTING.get(task_type, "gemini")  # default to free
 
-    # ── Budget guardrail: downgrade Claude → Gemini if caps are hit ───────
-    if primary == "claude":
-        daily = get_daily_claude_spend()
-        monthly = get_monthly_claude_spend()
-        daily_cap, monthly_cap = claude_budget_caps()
-        if daily >= daily_cap:
-            print(f"⚠️  Claude daily budget ${daily_cap} reached "
-                  f"(spent ${daily:.3f}). Downgrading '{task_type}' → Gemini.")
-            primary = "gemini"
-        elif monthly >= monthly_cap:
-            print(f"⚠️  Claude monthly budget ${monthly_cap} reached "
-                  f"(spent ${monthly:.2f}). Downgrading '{task_type}' → Gemini.")
-            primary = "gemini"
-
-    if primary == "claude":
+    # Claude is opt-in only. This project runs at $0, so a Claude-routed task
+    # is served by the free chain unless Claude is BOTH credentialed and
+    # within budget. Absence of a Claude key is DISABLED, not an error.
+    if primary == "claude" and _provider_available("claude"):
         print(f"🤖 [{task_type}] → claude ({ROUTING_REASON['claude']})")
-        # High-stakes; fail loud (no silent downgrade on error).
         return _call_claude(prompt, system, tools, max_tokens, temperature,
                             task_type)
 
-    # Everything else walks the free chain in order.
+    # Everything else — including downgraded Claude tasks — walks the
+    # configured provider order.
     return _call_free_chain(prompt, system, max_tokens, temperature, task_type)
+
+
+def model_health_lines() -> list:
+    """Per-provider usage for the scan summary. Never prints credentials."""
+    lines = ["🧠 MODEL HEALTH"]
+    for name in provider_order() + ["claude"]:
+        if name == "claude" and "claude" in provider_order():
+            continue
+        configured = provider_configured(name)
+        s = provider_stats(name)
+        state = provider_state(name)
+        if not configured:
+            lines.append(f"   {name.capitalize():11} configured: NO   "
+                         f"status: {DISABLED}")
+            continue
+        detail = (f"requests {s['requests']}, ok {s['successful']}, "
+                  f"429 {s['429']}, 404 {s['404']}, failed {s['failed']}")
+        lines.append(f"   {name.capitalize():11} configured: YES  "
+                     f"status: {state}  •  {detail}")
+        if name == "mistral":
+            lines.append(f"               model: {mistral_model()}")
+        if name == "gemini":
+            lines.append(f"               model: "
+                         f"{os.getenv('GEMINI_MODEL') or 'gemini-2.5-flash'}")
+        if s["last_error"]:
+            lines.append(f"               last error: {s['last_error'][:90]}")
+    return lines
+
+
+def log_model_configuration() -> None:
+    """Startup log of configured providers + model names. No credentials."""
+    order = provider_order()
+    print(f"🧠 Provider order: {' → '.join(order)}")
+    for name in order:
+        if not provider_configured(name):
+            print(f"   {name:11} {DISABLED} (no API key configured)")
+            continue
+        extra = ""
+        if name == "mistral":
+            extra = f"  model: {mistral_model()}"
+        elif name == "gemini":
+            extra = f"  model: {os.getenv('GEMINI_MODEL') or 'gemini-2.5-flash'}"
+        elif name == "openrouter":
+            extra = f"  model: {openrouter_model()}"
+        elif name == "groq":
+            extra = (f"  model: "
+                     f"{os.getenv('GROQ_MODEL', 'llama-3.3-70b-versatile')}")
+        print(f"   {name:11} READY{extra}")
+    if not provider_configured("claude"):
+        print(f"   {'claude':11} {DISABLED} (no API key configured — "
+              f"project runs at $0)")
 
 
 def claude_budget_caps():
@@ -162,10 +283,13 @@ def _short_err(e) -> str:
 
 
 def _provider_available(provider: str) -> bool:
-    """A provider with no configured key is simply not in the chain."""
-    if provider == "openrouter":
-        return bool(os.getenv("OPENROUTER_API_KEY"))
-    return True
+    """Configured, and not already rate-limited/broken during this scan."""
+    if provider == "claude":
+        # Paid: only if explicitly credentialed AND within budget.
+        return provider_configured("claude") and has_claude_budget()
+    if not provider_configured(provider):
+        return False
+    return _stats(provider)["state"] != RATE_LIMITED
 
 
 def _dispatch_free(provider, prompt, system, max_tokens, temperature, task_type):
@@ -175,51 +299,74 @@ def _dispatch_free(provider, prompt, system, max_tokens, temperature, task_type)
         return _call_groq(prompt, system, max_tokens, temperature, task_type)
     if provider == "openrouter":
         return _call_openrouter(prompt, system, max_tokens, temperature, task_type)
+    if provider == "mistral":
+        return _call_mistral(prompt, system, max_tokens, temperature, task_type)
     if provider == "gemini":
         return _call_gemini(prompt, system, max_tokens, temperature, task_type)
-    raise RuntimeError(f"Unknown free provider: {provider}")
+    if provider == "claude":
+        return _call_claude(prompt, system, None, max_tokens, temperature,
+                            task_type, model_override=os.getenv(
+                                "ANTHROPIC_FALLBACK_MODEL", "claude-haiku-4-5"))
+    raise RuntimeError(f"Unknown provider: {provider}")
+
+
+class ProvidersUnavailable(RuntimeError):
+    """Every configured provider was unavailable for this task.
+
+    A TECHNICAL failure — explicitly NOT a judgment about the opportunity.
+    Callers must translate this into ANALYSIS_UNAVAILABLE and preserve the
+    candidate, never into INELIGIBLE.
+    """
 
 
 def _call_free_chain(prompt, system, max_tokens, temperature, task_type):
-    """Walk FREE_CHAIN in order; a provider's failure never aborts the task.
-
-    Only once every free provider has failed is a paid last resort considered,
-    and only when there is genuine Claude budget headroom — bulk free work must
-    not quietly escalate to a paid model just because the free tier was down.
+    """Walk the configured provider order; one provider's failure never aborts
+    the task, and a provider that returns 429 is dropped for the rest of the
+    scan instead of being retried on every subsequent call.
     """
-    chain = [p for p in FREE_CHAIN if _provider_available(p)]
-    for skipped in (p for p in FREE_CHAIN if p not in chain):
-        print(f"  ↷ [{task_type}] skipping {skipped} (no API key configured)")
+    order = provider_order()
+    chain = [p for p in order if _provider_available(p)]
+    for skipped in (p for p in order if p not in chain):
+        state = provider_state(skipped)
+        print(f"  ↷ [{task_type}] skipping {skipped} ({state})")
 
+    attempted = []
     for i, provider in enumerate(chain):
+        s = _stats(provider)
         print(f"🤖 [{task_type}] → {provider} "
               f"({ROUTING_REASON.get(provider, 'free')})")
+        s["requests"] += 1
+        attempted.append(provider)
         try:
             res = _dispatch_free(provider, prompt, system, max_tokens,
                                  temperature, task_type)
+            s["successful"] += 1
+            s["state"] = AVAILABLE
             res["fell_back"] = i > 0
             return res
         except Exception as e:
-            nxt = (chain[i + 1] if i + 1 < len(chain)
-                   else ("paid Claude" if has_claude_budget() else "nothing left"))
-            print(f"⚠️  {provider} {task_type}: {_short_err(e)} "
-                  f"— falling back to {nxt}")
+            short = _short_err(e)
+            s["last_error"] = short
+            if _is_rate_limit(e):
+                s["429"] += 1
+                s["state"] = RATE_LIMITED     # breaker: skip for this scan
+                print(f"⚠️  {provider} {task_type}: rate limited — "
+                      f"disabling {provider} for the rest of this scan")
+            else:
+                s["failed"] += 1
+                s["state"] = FAILED
+                if _is_model_not_found(e):
+                    s["404"] += 1
+                    print(f"⛔ {provider} {task_type}: configured model not "
+                          f"found/unavailable — check the model name. {short}")
+                else:
+                    print(f"⚠️  {provider} {task_type}: {short}")
+            nxt = chain[i + 1] if i + 1 < len(chain) else "nothing left"
+            print(f"   → falling back to {nxt}")
 
-    if not has_claude_budget():
-        daily_cap, monthly_cap = claude_budget_caps()
-        print(f"  ⛔ No Claude budget (daily cap ${daily_cap}, monthly "
-              f"${monthly_cap}) — refusing to escalate free task "
-              f"'{task_type}' to a paid model.")
-        raise RuntimeError(
-            f"all free providers failed for '{task_type}' and the paid "
-            f"fallback is blocked by the Claude budget")
-
-    print("  → Last resort: Claude Haiku 4.5")
-    res = _call_claude(prompt, system, None, max_tokens, temperature,
-                       task_type, model_override=os.getenv(
-                           "ANTHROPIC_FALLBACK_MODEL", "claude-haiku-4-5"))
-    res["fell_back"] = True
-    return res
+    raise ProvidersUnavailable(
+        f"all configured providers unavailable for '{task_type}' "
+        f"(tried: {', '.join(attempted) or 'none'})")
 
 
 # ── Provider implementations ──────────────────────────────────────────────
@@ -351,6 +498,75 @@ def _call_openrouter(prompt, system, max_tokens, temperature, task_type) -> dict
     tin = usage.get("prompt_tokens", 0) or 0
     tout = usage.get("completion_tokens", 0) or 0
     log_cost("openrouter", task_type, {"input": tin, "output": tout}, 0.0)
+    return {
+        "content": content,
+        "model_used": data.get("model") or model,
+        "task_type": task_type,
+        "tokens_used": {"input": tin, "output": tout},
+        "cost_usd": 0.0,
+        "fell_back": False,
+    }
+
+
+MISTRAL_URL = "https://api.mistral.ai/v1/chat/completions"
+
+
+def mistral_model() -> str:
+    """Configured Mistral model.
+
+    MISTRAL_MODEL wins if set. The default is a small model documented as
+    available on Mistral's free tier — but free-tier eligibility is
+    account/model specific, so if it is not available to this account the call
+    returns a model-not-found error and the chain moves on. We never silently
+    substitute a paid model.
+    """
+    return os.getenv("MISTRAL_MODEL") or "mistral-small-latest"
+
+
+def _call_mistral(prompt, system, max_tokens, temperature, task_type) -> dict:
+    """Mistral chat completion (OpenAI-compatible shape). Free tier → $0."""
+    api_key = os.getenv("MISTRAL_API_KEY")
+    if not api_key:
+        raise RuntimeError("MISTRAL_API_KEY not set")
+    wait_for_quota("mistral")
+
+    messages = []
+    if system:
+        messages.append({"role": "system", "content": system})
+    messages.append({"role": "user", "content": prompt})
+
+    model = mistral_model()
+    resp = requests.post(
+        MISTRAL_URL,
+        headers={"Authorization": f"Bearer {api_key}",     # never logged
+                 "Content-Type": "application/json",
+                 "Accept": "application/json"},
+        json={"model": model, "messages": messages,
+              "max_tokens": max_tokens, "temperature": temperature},
+        timeout=int(os.getenv("MISTRAL_TIMEOUT", "60")),
+    )
+    if resp.status_code == 429:
+        raise RuntimeError(f"429 rate limited (model {model})")
+    if resp.status_code in (400, 404) and "model" in (resp.text or "").lower():
+        raise RuntimeError(
+            f"model '{model}' not available to this account "
+            f"(HTTP {resp.status_code}) — set MISTRAL_MODEL to a model your "
+            f"free tier includes")
+    resp.raise_for_status()
+
+    data = resp.json()
+    if isinstance(data, dict) and data.get("error"):
+        err = data["error"]
+        raise RuntimeError(str(err.get("message", err))[:200])
+    choices = data.get("choices") or []
+    if not choices:
+        raise RuntimeError("no choices returned")
+    content = (choices[0].get("message") or {}).get("content") or ""
+
+    usage = data.get("usage") or {}
+    tin = usage.get("prompt_tokens", 0) or 0
+    tout = usage.get("completion_tokens", 0) or 0
+    log_cost("mistral", task_type, {"input": tin, "output": tout}, 0.0)
     return {
         "content": content,
         "model_used": data.get("model") or model,
