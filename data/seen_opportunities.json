@@ -2586,5 +2586,158 @@
     "id": "dd10e69705382d99",
     "first_seen": "2026-08-17T04:26:26.242305+00:00",
     "last_updated": "2026-08-17T04:26:26.242314+00:00"
+  },
+  "c2ec2cd8fd85fd4e": {
+    "url": "https://opportunitiescorners.com/who-global-internship-program/",
+    "title": "WHO Global Internship Program 2026 (Funded)",
+    "status": "suspicious",
+    "credibility_status": "SUSPICIOUS",
+    "source_tier": "TIER_3",
+    "reasoning": "While the WHO does offer legitimate internships, this page lacks direct verification from the official WHO website (who.int). The URL 'opportunitiescorners.com' is not an official WHO domain, and the page does not provide a direct link to WHO's official application portal. Legitimate WHO internships are typically listed on their careers page with strict eligibility and application processes.",
+    "id": "c2ec2cd8fd85fd4e",
+    "first_seen": "2026-08-17T15:40:54.008515+00:00",
+    "last_updated": "2026-08-17T15:40:54.008524+00:00"
+  },
+  "c9a2ceec7687935a": {
+    "url": "https://opportunitydesk.org/2026/08/17/creative-catalyst-fellowship-2027-up-to-30000/",
+    "title": "Creative Catalyst Fellowship 2027 (up to $30,000)",
+    "status": "legitimacy_unknown",
+    "credibility_status": "NEEDS_VERIFICATION",
+    "source_tier": "TIER_2",
+    "reasoning": "The opportunity lacks verifiable institutional backing (e.g., no named host organization, embassy, or government agency) and omits details about selection criteria or past cohorts. While no overt red flags (e.g., fees, vague awards) are present, the absence of transparency raises caution.",
+    "id": "c9a2ceec7687935a",
+    "first_seen": "2026-08-17T15:40:57.977909+00:00",
+    "last_updated": "2026-08-17T15:40:57.977917+00:00"
+  },
+  "1cba570a56da45f6": {
+    "url": "https://opportunitydesk.org/2026/08/17/ideation-hub-africa-african-masterclass-series-6-0/",
+    "title": "Ideation Hub Africa (IHA) African Masterclass Series 6.0",
+    "status": "filtered_out",
+    "reason": "online-only certificate course",
+    "id": "1cba570a56da45f6",
+    "first_seen": "2026-08-17T15:40:58.944550+00:00",
+    "last_updated": "2026-08-17T15:40:58.944558+00:00"
+  },
+  "d1f19c453eabafa9": {
+    "url": "https://opportunitydesk.org/2026/08/17/matthew-cohan-criminal-justice-public-service-scholarship-2026/",
+    "title": "Matthew Cohan Criminal Justice & Public Service Scholarship 2026",
+    "status": "suspicious",
+    "credibility_status": "SUSPICIOUS",
+    "source_tier": "TIER_2",
+    "reasoning": "The scholarship is hosted on Opportunity Desk, a reputable platform for opportunities, but lacks verifiable details about the awarding entity (e.g., official website, contact info, or past recipients). The Law Offices of Matthew Cohan is not a widely recognized firm, and no independent sources confirm its legitimacy.",
+    "id": "d1f19c453eabafa9",
+    "first_seen": "2026-08-17T15:41:53.133058+00:00",
+    "last_updated": "2026-08-17T15:41:53.133066+00:00"
+  },
+  "f52614676981a84a": {
+    "url": "https://opportunitydesk.org/2026/08/17/jesus-college-cambridge-science-research-fellowship-2026/",
+    "title": "Jesus College Cambridge Science Research Fellowship 2026 (Paid)",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "reasoning": "The program requires candidates to be 'at the early stage of their research career, typically within 3 years of the award of the PhD' (implied by 'Research Fellowship' context). The candidate holds a BSc (bachelor's) and is a working professional, not a PhD holder or early-stage researcher. Additionally, the candidate is not currently a student, which may further disqualify them.",
+    "id": "f52614676981a84a",
+    "first_seen": "2026-08-17T15:41:58.327532+00:00",
+    "last_updated": "2026-08-17T15:41:58.327539+00:00"
+  },
+  "d58c814bb5fc8164": {
+    "url": "https://opportunitydesk.org/2026/08/17/university-of-melbourne-visiting-fellowship-2027/",
+    "title": "University of Melbourne Visiting Fellowship 2027 (up to $AUD6,000)",
+    "status": "suspicious",
+    "credibility_status": "SUSPICIOUS",
+    "source_tier": "TIER_2",
+    "reasoning": "While the University of Melbourne is a legitimate institution, the fellowship's lack of detailed eligibility criteria, application process, or official university webpage link raises concerns. The provided description is vague and lacks specific institutional backing.",
+    "id": "d58c814bb5fc8164",
+    "first_seen": "2026-08-17T15:42:01.811211+00:00",
+    "last_updated": "2026-08-17T15:42:01.811220+00:00"
+  },
+  "8be8b143b6f8a8b7": {
+    "url": "https://opportunitydesk.org/2026/08/17/etica-esg-fellowship-vibers-cohort-2026/",
+    "title": "Etica ESG Fellowship Vibers Cohort 2026",
+    "status": "suspicious",
+    "credibility_status": "SUSPICIOUS",
+    "source_tier": "TIER_2",
+    "reasoning": "The fellowship lacks verifiable institutional backing or affiliation with a recognized organization, and the website (opportunitydesk.org) is a content aggregator rather than an official sponsor. Legitimate ESG fellowships (e.g., UN, World Bank) typically have transparent application processes and institutional partners.",
+    "id": "8be8b143b6f8a8b7",
+    "first_seen": "2026-08-17T15:42:56.747738+00:00",
+    "last_updated": "2026-08-17T15:42:56.747747+00:00"
+  },
+  "af256af4a7f8cf28": {
+    "url": "https://opportunitydesk.org/2026/08/17/africa-fellowship-for-young-energy-leaders-cohort-6/",
+    "title": "Africa Fellowship for Young Energy Leaders (AFYEL) – Cohort 6",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "reasoning": "The program explicitly targets 'early-career professionals' and requires applicants to be 'young energy leaders'. The candidate is a working professional but not currently a student, and the program does not specify eligibility for non-energy sector professionals or those without a clear focus on renewable energy technologies.",
+    "id": "af256af4a7f8cf28",
+    "first_seen": "2026-08-17T15:43:05.899212+00:00",
+    "last_updated": "2026-08-17T15:43:05.899219+00:00"
+  },
+  "9aa43fa9661b6446": {
+    "url": "https://opportunitydesk.org/2026/08/17/she-writes-press-toward-equality-in-publishing-2026/",
+    "title": "She Writes Press Toward Equality in Publishing (STEP) 2026",
+    "status": "filtered_out",
+    "reason": "Not AI/tech-focused and likely not fully-funded for a master's or fellowship.",
+    "id": "9aa43fa9661b6446",
+    "first_seen": "2026-08-17T15:43:06.764161+00:00",
+    "last_updated": "2026-08-17T15:43:06.764170+00:00"
+  },
+  "53d2d5349eddb1f4": {
+    "url": "https://opportunitydesk.org/2026/08/17/divinc-women-in-tech-accelerator-2026/",
+    "title": "DivInc Women in Tech Accelerator 2026",
+    "status": "suspicious",
+    "credibility_status": "SUSPICIOUS",
+    "source_tier": "TIER_2",
+    "reasoning": "While the program is hosted on Opportunity Desk (a reputable platform for opportunities), the deadline (August 23, 2026) is unusually far in the future, which is atypical for legitimate accelerators. Additionally, the page lacks verifiable details about the organizers (e.g., past cohorts, alumni success, or official website links) and does not clarify if there are fees or equity requirements.",
+    "id": "53d2d5349eddb1f4",
+    "first_seen": "2026-08-17T15:43:49.915376+00:00",
+    "last_updated": "2026-08-17T15:43:49.915384+00:00"
+  },
+  "63277acb14099c6a": {
+    "url": "https://opportunitydesk.org/2026/08/17/ai-academy-nigeria-pitchathon-2026/",
+    "title": "AI Academy Nigeria Pitchathon 2026 ($5,000 in equity-free funding)",
+    "status": "legitimacy_unknown",
+    "credibility_status": "NEEDS_VERIFICATION",
+    "source_tier": "TIER_2",
+    "reasoning": "The opportunity is hosted by 'AI Academy Nigeria', which lacks verifiable institutional backing in the provided text. While no explicit red-flag phrases (e.g., fees, vague prestige) are present, the absence of transparent organizer details (e.g., official website, physical address, or endorsements from recognized entities like Meta) introduces uncertainty.",
+    "id": "63277acb14099c6a",
+    "first_seen": "2026-08-17T15:43:58.373847+00:00",
+    "last_updated": "2026-08-17T15:43:58.373854+00:00"
+  },
+  "a94eb361ce7f8ed8": {
+    "url": "https://weworkremotely.com/remote-jobs/toptal-ai-ml-engineer-for-an-ai-driven-e-commerce-platform",
+    "title": "Toptal: AI/ML Engineer for an AI-Driven E-Commerce Platform",
+    "status": "filtered_out",
+    "reason": "Not a scholarship/fellowship (paid job opportunity)",
+    "id": "a94eb361ce7f8ed8",
+    "first_seen": "2026-08-17T15:44:05.370635+00:00",
+    "last_updated": "2026-08-17T15:44:05.370642+00:00"
+  },
+  "753dc97c5d43ab64": {
+    "url": "https://weworkremotely.com/remote-jobs/samsara-staff-software-engineer",
+    "title": "Samsara: Staff Software Engineer",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "reasoning": "The candidate does not meet the minimum requirements for the role. Specifically, the candidate is a 27-year-old Ethiopian national working in Lao PDR, not the US, and does not have the required 8+ years of experience in software design and development. Additionally, the role is explicitly open only to candidates residing in the US.",
+    "id": "753dc97c5d43ab64",
+    "first_seen": "2026-08-17T15:44:52.682392+00:00",
+    "last_updated": "2026-08-17T15:44:52.682400+00:00"
+  },
+  "9f10ee16f61b0655": {
+    "url": "https://weworkremotely.com/remote-jobs/thumbtack-sr-finance-mgr-partnerships-and-special-projects",
+    "title": "Thumbtack: Sr. Finance Mgr, Partnerships and Special Projects",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "reasoning": "The candidate does not meet the core requirements for the role. The position requires 6+ years of experience in strategic finance, FP&A, marketplace strategy, or related functions, but the candidate is a 27-year-old working professional with a BSc in Psychology and experience in AI development, marketing, and entrepreneurship, not in finance or FP&A. Additionally, the role is geo-locked to the United States and requires in-person presence, which conflicts with the candidate's current location in Lao PDR.",
+    "id": "9f10ee16f61b0655",
+    "first_seen": "2026-08-17T15:45:15.685932+00:00",
+    "last_updated": "2026-08-17T15:45:15.685939+00:00"
+  },
+  "418168594e518bf7": {
+    "url": "https://weworkremotely.com/remote-jobs/mailerlite-technical-product-manager",
+    "title": "MailerLite: Technical Product Manager",
+    "status": "filtered_out",
+    "reason": "Not a scholarship/fellowship opportunity, it's a job listing.",
+    "id": "418168594e518bf7",
+    "first_seen": "2026-08-17T15:45:22.488957+00:00",
+    "last_updated": "2026-08-17T15:45:22.488964+00:00"
   }
 }

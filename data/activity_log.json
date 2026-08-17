@@ -1,99 +1,5 @@
 [
   {
-    "at": "2026-08-06T07:44:29.004023+00:00",
-    "kind": "run",
-    "mode": "scan",
-    "environment": "github_actions",
-    "stats": {
-      "discovered": 40,
-      "already_seen": 20,
-      "known_scam": 0,
-      "fetch_failed": 8,
-      "first_pass_dropped": 3,
-      "scam": 0,
-      "legit_unknown": 1,
-      "ineligible": 2,
-      "closed": 0,
-      "deep_analyzed": 1,
-      "scored_high": 1,
-      "matches": 1
-    }
-  },
-  {
-    "at": "2026-08-07T06:10:06.177316+00:00",
-    "kind": "scan_start",
-    "message": "daily scan started"
-  },
-  {
-    "at": "2026-08-07T06:10:35.591611+00:00",
-    "kind": "error",
-    "message": "Fetch failed for https://www.dfat.gov.au/people-to-people/australia-awards/australia-awards-scholarships: HTTPSConnectionPool(host='www.dfat.gov.au', port=443): Read timed out. (read timeout=25)"
-  },
-  {
-    "at": "2026-08-07T06:10:35.693183+00:00",
-    "kind": "error",
-    "message": "Fetch failed for https://vanier.gc.ca/en/home-accueil.html: HTTPSConnectionPool(host='vanier.gc.ca', port=443): Max retries exceeded with url: /en/home-accueil.html (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)')))"
-  },
-  {
-    "at": "2026-08-07T06:10:35.738123+00:00",
-    "kind": "error",
-    "message": "Fetch failed for https://opportunitydesk.org/category/fellowships/: 403"
-  },
-  {
-    "at": "2026-08-07T06:11:47.375623+00:00",
-    "kind": "error",
-    "message": "Fetch failed for https://opportunitydesk.org/2026/08/06/ejn-workshop-2026-for-communicators-and-content-creators-on-renewable-energy-in-agra-india/: 403"
-  },
-  {
-    "at": "2026-08-07T06:11:47.413075+00:00",
-    "kind": "error",
-    "message": "Fetch failed for https://opportunitydesk.org/2026/08/06/unep-mountains-adapt-small-grants-2026/: 403"
-  },
-  {
-    "at": "2026-08-07T06:11:47.451983+00:00",
-    "kind": "error",
-    "message": "Fetch failed for https://opportunitydesk.org/2026/08/06/mit-school-access-and-quality-fellowship-2026-2027/: 403"
-  },
-  {
-    "at": "2026-08-07T06:11:47.503332+00:00",
-    "kind": "error",
-    "message": "Fetch failed for https://opportunitydesk.org/2026/08/06/sasol-foundation-bursary-programme-2027/: 403"
-  },
-  {
-    "at": "2026-08-07T06:11:47.544077+00:00",
-    "kind": "error",
-    "message": "Fetch failed for https://opportunitydesk.org/2026/08/06/commonwealth-fellowship-programme-2026-2027/: 403"
-  },
-  {
-    "at": "2026-08-07T06:11:47.594874+00:00",
-    "kind": "error",
-    "message": "Fetch failed for https://opportunitydesk.org/2026/08/06/how-i-won-a-fully-funded-study-abroad-scholarship-and-how-you-can-too/: 403"
-  },
-  {
-    "at": "2026-08-07T06:11:47.633150+00:00",
-    "kind": "error",
-    "message": "Fetch failed for https://opportunitydesk.org/2026/08/06/ejn-virtual-media-workshop-on-mining-environment-and-human-rights-reporting-in-africa-2026/: 403"
-  },
-  {
-    "at": "2026-08-07T06:11:50.163241+00:00",
-    "kind": "scan_complete",
-    "message": "daily scan finished",
-    "matches": 0,
-    "stats": {
-      "discovered": 40,
-      "already_seen": 22,
-      "known_scam": 0,
-      "fetch_failed": 10,
-      "first_pass_dropped": 3,
-      "scam": 0,
-      "legit_unknown": 0,
-      "ineligible": 2,
-      "closed": 0,
-      "deep_analyzed": 0,
-      "scored_high": 0
-    }
-  },
-  {
     "at": "2026-08-07T06:11:50.164762+00:00",
     "kind": "run",
     "mode": "scan",
@@ -1735,6 +1641,172 @@
         }
       },
       "analysis_unavailable": 15,
+      "deduped": 0,
+      "matches": 0
+    }
+  },
+  {
+    "at": "2026-08-17T15:40:41.505441+00:00",
+    "kind": "scan_start",
+    "message": "daily scan started"
+  },
+  {
+    "at": "2026-08-17T15:40:54.046495+00:00",
+    "kind": "error",
+    "message": "Fetch failed for https://opportunitydesk.org/2026/08/17/creative-catalyst-fellowship-2027-up-to-30000/: 403"
+  },
+  {
+    "at": "2026-08-17T15:40:58.020052+00:00",
+    "kind": "error",
+    "message": "Fetch failed for https://opportunitydesk.org/2026/08/17/ideation-hub-africa-african-masterclass-series-6-0/: 403"
+  },
+  {
+    "at": "2026-08-17T15:40:58.988599+00:00",
+    "kind": "error",
+    "message": "Fetch failed for https://opportunitydesk.org/2026/08/17/matthew-cohan-criminal-justice-public-service-scholarship-2026/: 403"
+  },
+  {
+    "at": "2026-08-17T15:41:53.170897+00:00",
+    "kind": "error",
+    "message": "Fetch failed for https://opportunitydesk.org/2026/08/17/jesus-college-cambridge-science-research-fellowship-2026/: 403"
+  },
+  {
+    "at": "2026-08-17T15:41:58.366612+00:00",
+    "kind": "error",
+    "message": "Fetch failed for https://opportunitydesk.org/2026/08/17/university-of-melbourne-visiting-fellowship-2027/: 403"
+  },
+  {
+    "at": "2026-08-17T15:42:01.852805+00:00",
+    "kind": "error",
+    "message": "Fetch failed for https://opportunitydesk.org/2026/08/17/etica-esg-fellowship-vibers-cohort-2026/: 403"
+  },
+  {
+    "at": "2026-08-17T15:42:56.784126+00:00",
+    "kind": "error",
+    "message": "Fetch failed for https://opportunitydesk.org/2026/08/17/africa-fellowship-for-young-energy-leaders-cohort-6/: 403"
+  },
+  {
+    "at": "2026-08-17T15:43:05.937521+00:00",
+    "kind": "error",
+    "message": "Fetch failed for https://opportunitydesk.org/2026/08/17/she-writes-press-toward-equality-in-publishing-2026/: 403"
+  },
+  {
+    "at": "2026-08-17T15:43:06.802404+00:00",
+    "kind": "error",
+    "message": "Fetch failed for https://opportunitydesk.org/2026/08/17/divinc-women-in-tech-accelerator-2026/: 403"
+  },
+  {
+    "at": "2026-08-17T15:43:49.954453+00:00",
+    "kind": "error",
+    "message": "Fetch failed for https://opportunitydesk.org/2026/08/17/ai-academy-nigeria-pitchathon-2026/: 403"
+  },
+  {
+    "at": "2026-08-17T15:45:25.263201+00:00",
+    "kind": "scan_complete",
+    "message": "daily scan finished",
+    "matches": 0,
+    "stats": {
+      "discovered": 146,
+      "already_seen": 36,
+      "known_scam": 0,
+      "fetch_failed": 0,
+      "first_pass_dropped": 4,
+      "scam": 5,
+      "legit_unknown": 2,
+      "ineligible": 4,
+      "closed": 0,
+      "deep_analyzed": 0,
+      "scored_high": 0,
+      "discovery": {
+        "google": {
+          "attempted": 5,
+          "successful": 0,
+          "429": 0,
+          "403": 0,
+          "errors": 5,
+          "candidates": 0,
+          "queries_planned": 5,
+          "disabled_reason": ""
+        },
+        "rss": {
+          "attempted": 9,
+          "successful": 6,
+          "failed": 3,
+          "skipped_dead": 1,
+          "candidates": 76
+        },
+        "api": {
+          "sources": 2,
+          "healthy": 2,
+          "failed": 0,
+          "candidates": 56
+        },
+        "seed": {
+          "attempted": 14,
+          "candidates": 14
+        },
+        "total": {
+          "raw": 146,
+          "after_dedupe": 146
+        }
+      },
+      "signal_rescued": 6,
+      "snippet_fallback": 10,
+      "deduped": 0
+    }
+  },
+  {
+    "at": "2026-08-17T15:45:25.265148+00:00",
+    "kind": "run",
+    "mode": "scan",
+    "environment": "github_actions",
+    "stats": {
+      "discovered": 146,
+      "already_seen": 36,
+      "known_scam": 0,
+      "fetch_failed": 0,
+      "first_pass_dropped": 4,
+      "scam": 5,
+      "legit_unknown": 2,
+      "ineligible": 4,
+      "closed": 0,
+      "deep_analyzed": 0,
+      "scored_high": 0,
+      "discovery": {
+        "google": {
+          "attempted": 5,
+          "successful": 0,
+          "429": 0,
+          "403": 0,
+          "errors": 5,
+          "candidates": 0,
+          "queries_planned": 5,
+          "disabled_reason": ""
+        },
+        "rss": {
+          "attempted": 9,
+          "successful": 6,
+          "failed": 3,
+          "skipped_dead": 1,
+          "candidates": 76
+        },
+        "api": {
+          "sources": 2,
+          "healthy": 2,
+          "failed": 0,
+          "candidates": 56
+        },
+        "seed": {
+          "attempted": 14,
+          "candidates": 14
+        },
+        "total": {
+          "raw": 146,
+          "after_dedupe": 146
+        }
+      },
+      "signal_rescued": 6,
+      "snippet_fallback": 10,
       "deduped": 0,
       "matches": 0
     }
