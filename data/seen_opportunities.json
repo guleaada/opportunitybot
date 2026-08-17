@@ -2739,5 +2739,157 @@
     "id": "418168594e518bf7",
     "first_seen": "2026-08-17T15:45:22.488957+00:00",
     "last_updated": "2026-08-17T15:45:22.488964+00:00"
+  },
+  "bed2ac1d4f3e21f2": {
+    "url": "https://opportunitiescorners.com/university-of-miami-stamps-scholarship-2027/",
+    "title": "University of Miami Stamps Scholarship 2027, USA (Fully Funded)",
+    "status": "suspicious",
+    "credibility_status": "SUSPICIOUS",
+    "source_tier": "TIER_3",
+    "reasoning": "The University of Miami does offer the Stamps Scholarship, which is a legitimate merit-based scholarship covering full tuition and additional expenses. However, the page lacks direct links to the official University of Miami website or the scholarship's official page, which is a red flag. Additionally, the mention of sending documents by mail/post and the presence of an external link for application steps are suspicious.",
+    "id": "bed2ac1d4f3e21f2",
+    "first_seen": "2026-08-17T16:11:57.895192+00:00",
+    "last_updated": "2026-08-17T16:11:57.895200+00:00"
+  },
+  "95f0ef7760c940fb": {
+    "url": "https://weworkremotely.com/remote-jobs/collaboration-ai-senior-ai-engineer-agentic-systems-data-pipelines",
+    "title": "Collaboration.Ai: Senior AI Engineer - Agentic Systems & Data Pipelines",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "reasoning": "The program explicitly requires 'US citizenship' as a hard blocker. The candidate is an Ethiopian national without US citizenship.",
+    "id": "95f0ef7760c940fb",
+    "first_seen": "2026-08-17T16:12:10.562672+00:00",
+    "last_updated": "2026-08-17T16:12:10.562678+00:00"
+  },
+  "63b3a3f3691dff03": {
+    "url": "https://weworkremotely.com/remote-jobs/collaboration-ai-senior-software-engineer",
+    "title": "Collaboration.Ai: Senior Software Engineer",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "reasoning": "The program explicitly requires 'US citizenship' as a hard must-have, which the candidate does not possess (Ethiopian national). Additionally, the role is a full-time job in the US, not a scholarship/fellowship/residency program.",
+    "id": "63b3a3f3691dff03",
+    "first_seen": "2026-08-17T16:13:07.334960+00:00",
+    "last_updated": "2026-08-17T16:13:07.334969+00:00"
+  },
+  "b20c8b91c67ecd11": {
+    "url": "https://weworkremotely.com/remote-jobs/justworks-manager-account-development",
+    "title": "Justworks: Manager, Account Development",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "reasoning": "The program is a job posting for a 'Remote Manager, Account Development at Justworks', which requires a minimum of 3 years of sales and/or upsell experience in a closing role and 2 years of management experience. The candidate is a 27-year-old Ethiopian national with a BSc in Psychology, working as an AI Developer and Marketing Specialist, but does not meet the explicit experience requirements for this role. The candidate's background does not align with the job's qualifications.",
+    "id": "b20c8b91c67ecd11",
+    "first_seen": "2026-08-17T16:13:59.407556+00:00",
+    "last_updated": "2026-08-17T16:13:59.407565+00:00"
+  },
+  "30806290d1564dd8": {
+    "url": "https://weworkremotely.com/remote-jobs/tebra-account-executive-patient-experience",
+    "title": "Tebra: Account Executive, Patient Experience",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "reasoning": "The program is a job posting for a 'Remote Account Executive, Patient Experience' at Tebra, not a scholarship, fellowship, or academic program. The candidate's profile is for scholarship/fellowship eligibility assessment, and this role does not match that context. Additionally, the candidate is not seeking employment roles but rather fully-funded academic opportunities.",
+    "id": "30806290d1564dd8",
+    "first_seen": "2026-08-17T16:14:20.299940+00:00",
+    "last_updated": "2026-08-17T16:14:20.299945+00:00"
+  },
+  "487c608af1a377ed": {
+    "url": "https://weworkremotely.com/remote-jobs/justworks-account-development-executive-miami-fl",
+    "title": "Justworks: Account Development Executive (Miami, FL)",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "reasoning": "The candidate is an Ethiopian national seeking a fully-funded master's scholarship or fellowship, but the program is a full-time Account Development Executive role based in Miami, FL (USA). The role requires 3+ years in an Account Executive or sales role with upsell responsibilities, which the candidate does not meet (currently a working professional in a different field). Additionally, the candidate is not a student, and the role is not a scholarship or fellowship.",
+    "id": "487c608af1a377ed",
+    "first_seen": "2026-08-17T16:15:02.278376+00:00",
+    "last_updated": "2026-08-17T16:15:02.278385+00:00"
+  },
+  "fdb2cd1fcd2f1b10": {
+    "url": "https://weworkremotely.com/remote-jobs/tebra-account-executive-growth",
+    "title": "Tebra: Account Executive, Growth",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "reasoning": "The program is a job posting for a Remote Account Executive role at Tebra, not a scholarship or fellowship. The candidate is seeking fully-funded scholarships, fellowships, or residencies, not employment opportunities.",
+    "id": "fdb2cd1fcd2f1b10",
+    "first_seen": "2026-08-17T16:15:22.089769+00:00",
+    "last_updated": "2026-08-17T16:15:22.089778+00:00"
+  },
+  "522ea9ca34f3e304": {
+    "url": "https://weworkremotely.com/remote-jobs/braze-customer-success-manager-ii",
+    "title": "Braze: Customer Success Manager II",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "reasoning": "The program is a full-time job (Remote Customer Success Manager II at Braze), not a scholarship, fellowship, or academic program. The candidate is a working professional, not a student, and the role requires Spanish fluency, which the candidate does not have.",
+    "id": "522ea9ca34f3e304",
+    "first_seen": "2026-08-17T16:16:07.745631+00:00",
+    "last_updated": "2026-08-17T16:16:07.745636+00:00"
+  },
+  "a375b1fbce36af3a": {
+    "url": "https://www.python.org/jobs/8121/",
+    "title": "Senior Python Backend Engineer, Reef Technologies",
+    "status": "legitimacy_unknown",
+    "credibility_status": "NEEDS_VERIFICATION",
+    "source_tier": "TIER_4",
+    "reasoning": "The job posting is hosted on the official Python.org jobs page, which is a trust signal. However, the unusual salary structure (B2B contract with hourly rates in USD/PLN), vague technical claims (e.g., 'trustless supercluster'), and lack of verifiable company details raise suspicions. The future posting date (2026) is also suspicious.",
+    "id": "a375b1fbce36af3a",
+    "first_seen": "2026-08-17T16:16:22.397825+00:00",
+    "last_updated": "2026-08-17T16:16:22.397831+00:00"
+  },
+  "6f9bd1336e4366b2": {
+    "url": "https://www.python.org/jobs/8120/",
+    "title": "Python Backend Engineer, Constelli Signals",
+    "status": "suspicious",
+    "credibility_status": "SUSPICIOUS",
+    "source_tier": "TIER_4",
+    "reasoning": "The job posting on python.org/jobs appears legitimate at first glance, but the company's website (constelli.com) lacks clear information about its location, physical office, or verifiable credentials. The contact number (+91 prefix) and email domain (@constelli.com) do not align with typical U.S.-based tech employers, raising concerns about authenticity.",
+    "id": "6f9bd1336e4366b2",
+    "first_seen": "2026-08-17T16:17:21.477634+00:00",
+    "last_updated": "2026-08-17T16:17:21.477643+00:00"
+  },
+  "6f8b086eff0e60dd": {
+    "url": "https://www.python.org/jobs/8119/",
+    "title": "Senior Full-Stack Engineer [Full Time; 100% remote; US-only], Hive Collective",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "reasoning": "The program explicitly requires the candidate to be a 'Senior Full-Stack Engineer' with '7+ years of professional, commercial software development' and specific technical skills (Python/Django, React, GraphQL, etc.). The candidate is a 27-year-old Ethiopian national working as an AI Developer/Marketing Specialist with a BSc (graduated in 2021), which does not meet the 7+ years of commercial software development experience requirement. Additionally, the role is US-only, and the candidate is based in Lao PDR, which may not align with the 'US-only' requirement.",
+    "id": "6f8b086eff0e60dd",
+    "first_seen": "2026-08-17T16:17:34.092888+00:00",
+    "last_updated": "2026-08-17T16:17:34.092894+00:00"
+  },
+  "530aee88eee93261": {
+    "url": "https://www.python.org/jobs/8118/",
+    "title": "Python Developer, Micro1",
+    "status": "filtered_out",
+    "reason": "Job listing, not a scholarship/fellowship",
+    "id": "530aee88eee93261",
+    "first_seen": "2026-08-17T16:17:58.829154+00:00",
+    "last_updated": "2026-08-17T16:17:58.829159+00:00"
+  },
+  "636fefd88bcdf562": {
+    "url": "https://www.python.org/jobs/8117/",
+    "title": "Senior Python Engineer, EPAM",
+    "status": "filtered_out",
+    "reason": "Not a scholarship/fellowship opportunity",
+    "id": "636fefd88bcdf562",
+    "first_seen": "2026-08-17T16:18:09.424435+00:00",
+    "last_updated": "2026-08-17T16:18:09.424441+00:00"
+  },
+  "a8079cb4ddc161f4": {
+    "url": "https://www.python.org/jobs/8116/",
+    "title": "Senior Python Engineer, Turing",
+    "status": "suspicious",
+    "credibility_status": "SUSPICIOUS",
+    "source_tier": "TIER_4",
+    "reasoning": "The job posting is hosted on python.org/jobs, which is a legitimate domain for Python-related job listings. However, the role description is unusually vague about the company, only mentioning 'one of the foundational LLM companies' without naming it. The contact email (sergioechevrri89@gmail.com) is a personal Gmail account, which is atypical for corporate job postings. Additionally, the posting claims a future date (23 July 2026), which is highly unusual for a live job listing.",
+    "id": "a8079cb4ddc161f4",
+    "first_seen": "2026-08-17T16:18:33.899612+00:00",
+    "last_updated": "2026-08-17T16:18:33.899616+00:00"
+  },
+  "15657f22866cb72c": {
+    "url": "https://www.python.org/jobs/8115/",
+    "title": "Senior Backend Engineer, MyOme",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "reasoning": "The candidate does not meet the core requirement of 6+ years of software development experience (candidate has less than 3 years of experience post-BSc graduation). Additionally, the position requires 2+ years of healthcare/biotech experience, which is not demonstrated in the candidate profile.",
+    "id": "15657f22866cb72c",
+    "first_seen": "2026-08-17T16:19:23.291600+00:00",
+    "last_updated": "2026-08-17T16:19:23.291605+00:00"
   }
 }

@@ -1,35 +1,5 @@
 [
   {
-    "at": "2026-08-07T06:11:50.164762+00:00",
-    "kind": "run",
-    "mode": "scan",
-    "environment": "github_actions",
-    "stats": {
-      "discovered": 40,
-      "already_seen": 22,
-      "known_scam": 0,
-      "fetch_failed": 10,
-      "first_pass_dropped": 3,
-      "scam": 0,
-      "legit_unknown": 0,
-      "ineligible": 2,
-      "closed": 0,
-      "deep_analyzed": 0,
-      "scored_high": 0,
-      "matches": 0
-    }
-  },
-  {
-    "at": "2026-08-08T05:43:36.528594+00:00",
-    "kind": "scan_start",
-    "message": "daily scan started"
-  },
-  {
-    "at": "2026-08-08T05:44:06.066081+00:00",
-    "kind": "error",
-    "message": "Fetch failed for https://www.dfat.gov.au/people-to-people/australia-awards/australia-awards-scholarships: HTTPSConnectionPool(host='www.dfat.gov.au', port=443): Read timed out. (read timeout=25)"
-  },
-  {
     "at": "2026-08-08T05:44:06.162186+00:00",
     "kind": "error",
     "message": "Fetch failed for https://vanier.gc.ca/en/home-accueil.html: HTTPSConnectionPool(host='vanier.gc.ca', port=443): Max retries exceeded with url: /en/home-accueil.html (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)')))"
@@ -1807,6 +1777,120 @@
       },
       "signal_rescued": 6,
       "snippet_fallback": 10,
+      "deduped": 0,
+      "matches": 0
+    }
+  },
+  {
+    "at": "2026-08-17T16:11:44.120462+00:00",
+    "kind": "scan_start",
+    "message": "daily scan started"
+  },
+  {
+    "at": "2026-08-17T16:19:25.455032+00:00",
+    "kind": "scan_complete",
+    "message": "daily scan finished",
+    "matches": 0,
+    "stats": {
+      "discovered": 146,
+      "already_seen": 50,
+      "known_scam": 0,
+      "fetch_failed": 0,
+      "first_pass_dropped": 2,
+      "scam": 3,
+      "legit_unknown": 1,
+      "ineligible": 9,
+      "closed": 0,
+      "deep_analyzed": 0,
+      "scored_high": 0,
+      "discovery": {
+        "google": {
+          "attempted": 5,
+          "successful": 0,
+          "429": 0,
+          "403": 0,
+          "errors": 5,
+          "candidates": 0,
+          "queries_planned": 5,
+          "disabled_reason": ""
+        },
+        "rss": {
+          "attempted": 9,
+          "successful": 6,
+          "failed": 3,
+          "skipped_dead": 1,
+          "candidates": 76
+        },
+        "api": {
+          "sources": 2,
+          "healthy": 2,
+          "failed": 0,
+          "candidates": 56
+        },
+        "seed": {
+          "attempted": 14,
+          "candidates": 14
+        },
+        "total": {
+          "raw": 146,
+          "after_dedupe": 146
+        }
+      },
+      "signal_rescued": 13,
+      "deduped": 0
+    }
+  },
+  {
+    "at": "2026-08-17T16:19:25.456139+00:00",
+    "kind": "run",
+    "mode": "scan",
+    "environment": "github_actions",
+    "stats": {
+      "discovered": 146,
+      "already_seen": 50,
+      "known_scam": 0,
+      "fetch_failed": 0,
+      "first_pass_dropped": 2,
+      "scam": 3,
+      "legit_unknown": 1,
+      "ineligible": 9,
+      "closed": 0,
+      "deep_analyzed": 0,
+      "scored_high": 0,
+      "discovery": {
+        "google": {
+          "attempted": 5,
+          "successful": 0,
+          "429": 0,
+          "403": 0,
+          "errors": 5,
+          "candidates": 0,
+          "queries_planned": 5,
+          "disabled_reason": ""
+        },
+        "rss": {
+          "attempted": 9,
+          "successful": 6,
+          "failed": 3,
+          "skipped_dead": 1,
+          "candidates": 76
+        },
+        "api": {
+          "sources": 2,
+          "healthy": 2,
+          "failed": 0,
+          "candidates": 56
+        },
+        "seed": {
+          "attempted": 14,
+          "candidates": 14
+        },
+        "total": {
+          "raw": 146,
+          "after_dedupe": 146
+        }
+      },
+      "signal_rescued": 13,
       "deduped": 0,
       "matches": 0
     }
