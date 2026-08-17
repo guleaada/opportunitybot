@@ -70,8 +70,8 @@ TASK_ROUTING = {
     "generate_email_subject": "gemini",
     "summarize_opportunity": "gemini",
     "classify_opportunity": "gemini",   # hidden-opportunity detection (free)
-    # MECHANICAL — Groq (free)
-    "clean_html": "groq",
+    # MECHANICAL — Groq (free). clean_html is deliberately absent: it is
+    # done locally in tools.py and makes no API request at all.
     "extract_text": "groq",
     "translate": "groq",
 }
@@ -116,8 +116,15 @@ _provider_stats = {}
 
 
 def _blank_stats() -> dict:
+    # ``config_error`` latches a PERMANENT provider fault (404 / model not
+    # found / unavailable / invalid model). Unlike an ordinary transient
+    # failure, a misconfigured model name cannot fix itself mid-scan, so the
+    # provider is skipped for the remainder of the run instead of being
+    # retried once per candidate. Kept separate from ``state`` so transient
+    # failures stay retryable.
     return {"requests": 0, "successful": 0, "429": 0, "404": 0,
-            "failed": 0, "state": None, "last_error": ""}
+            "failed": 0, "state": None, "last_error": "",
+            "config_error": False}
 
 
 def reset_provider_stats() -> None:
@@ -152,6 +159,10 @@ def provider_state(name: str) -> str:
     s = _stats(name)
     if s["state"] == RATE_LIMITED:
         return RATE_LIMITED
+    # A latched configuration fault outranks earlier successes: the provider
+    # worked, then its model became unusable, and it stays FAILED this scan.
+    if s.get("config_error"):
+        return FAILED
     if s["successful"]:
         return AVAILABLE
     if s["state"] == FAILED:
@@ -165,11 +176,30 @@ def _is_rate_limit(exc) -> bool:
     return status == 429 or "429" in str(exc) or "rate limit" in str(exc).lower()
 
 
+# Markers of a PERMANENT provider fault — a wrong, retired or unavailable
+# model name. These cannot resolve themselves mid-scan, so they latch.
+# Deliberately model-specific: a bare "unavailable" would also match
+# "503 service unavailable", which IS transient and must stay retryable.
+_MODEL_CONFIG_ERRORS = (
+    "model not found", "model_not_found", "no longer available",
+    "does not exist", "invalid model", "invalid_model", "unknown model",
+    "unsupported model", "model is not available", "model unavailable",
+    "is not a valid model", "decommissioned",
+)
+
+
 def _is_model_not_found(exc) -> bool:
+    """True for a permanent model/configuration fault (404, bad model name)."""
     status = getattr(getattr(exc, "response", None), "status_code",
                      getattr(exc, "status_code", None))
     text = str(exc).lower()
-    return status == 404 or "not found" in text or "no longer available" in text
+    if status == 404:
+        return True
+    if any(m in text for m in _MODEL_CONFIG_ERRORS):
+        return True
+    # Generic 404/"not found" only when the message is clearly about the
+    # model, so a DNS or endpoint blip is not mistaken for a config error.
+    return "model" in text and ("not found" in text or "404" in text)
 
 
 def call_model(task_type: str, prompt: str, system: str = None,
@@ -283,13 +313,20 @@ def _short_err(e) -> str:
 
 
 def _provider_available(provider: str) -> bool:
-    """Configured, and not already rate-limited/broken during this scan."""
+    """Configured, and not already rate-limited/misconfigured this scan.
+
+    Two per-scan breakers, deliberately distinct:
+      * 429            → RATE_LIMITED  (quota; retrying costs quota)
+      * 404/bad model  → FAILED        (config; retrying can never succeed)
+    A transient failure latches neither and is retried on the next candidate.
+    """
     if provider == "claude":
         # Paid: only if explicitly credentialed AND within budget.
         return provider_configured("claude") and has_claude_budget()
     if not provider_configured(provider):
         return False
-    return _stats(provider)["state"] != RATE_LIMITED
+    s = _stats(provider)
+    return s["state"] != RATE_LIMITED and not s.get("config_error")
 
 
 def _dispatch_free(provider, prompt, system, max_tokens, temperature, task_type):
@@ -357,9 +394,16 @@ def _call_free_chain(prompt, system, max_tokens, temperature, task_type):
                 s["state"] = FAILED
                 if _is_model_not_found(e):
                     s["404"] += 1
+                    # Permanent: the configured model is wrong or retired. It
+                    # will fail identically for every remaining candidate, so
+                    # latch it instead of burning one request per candidate.
+                    s["config_error"] = True
                     print(f"⛔ {provider} {task_type}: configured model not "
                           f"found/unavailable — check the model name. {short}")
+                    print(f"   ⛔ disabling {provider} for the rest of this "
+                          f"scan (configuration error, not transient)")
                 else:
+                    # Transient (network blip, 5xx, timeout): stays retryable.
                     print(f"⚠️  {provider} {task_type}: {short}")
             nxt = chain[i + 1] if i + 1 < len(chain) else "nothing left"
             print(f"   → falling back to {nxt}")

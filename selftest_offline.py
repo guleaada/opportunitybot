@@ -22,9 +22,7 @@ import main as app
 
 # ── Canned per-task responses keyed by task_type ───────────────────────────
 _RESPONSES = {
-    "clean_html": "DAAD EPOS Scholarship. Fully funded masters for professionals "
-                  "from developing countries. Open to Ethiopian nationals. "
-                  "Deadline 31 August 2026.",
+    # No "clean_html" entry: clean_html is local now and makes no model call.
     "first_pass_filter": {"keep": True, "reason": "Fully funded, Ethiopians eligible",
                           "guessed_country": "Germany", "guessed_funding": "fully_funded"},
     "scam_detection": {"verdict": "legitimate", "confidence": 0.95,
@@ -86,7 +84,9 @@ def main_():
     # Patch network fetch so no HTTP happens.
     tools.fetch_url = lambda url, force=False: {
         "url": url, "html": "<html>...</html>",
-        "text": "raw page text about DAAD EPOS scholarship",
+        "text": "DAAD EPOS Scholarship. Fully funded masters for professionals "
+                "from developing countries. Open to Ethiopian nationals. "
+                "Deadline 31 August 2026.",
         "status": 200, "cached": False, "error": None,
     }
     # Patch notifier so nothing is actually sent.

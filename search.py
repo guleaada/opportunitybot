@@ -4,7 +4,7 @@ search.py — web search + URL fetching with caching.
 - web_search()  : Google Custom Search JSON API → list[SearchResult].
 - fetch_url()   : HTTP GET + BeautifulSoup text extraction, cached 24h on disk.
 
-Neither function calls an LLM. ``clean_html`` (Groq) lives in tools.py.
+Neither function calls an LLM. ``clean_html`` (also model-free) lives in tools.py.
 """
 
 import hashlib
@@ -361,7 +361,7 @@ def fetch_url(url: str, force: bool = False) -> dict:
 
     Returns ``{"url", "html", "text", "status", "cached", "error"}``.
     ``text`` is a local BeautifulSoup extraction; pass it through
-    ``tools.clean_html`` for Groq-polished text when needed.
+    ``tools.clean_html`` for further local normalization when needed.
     """
     if not force:
         try:
