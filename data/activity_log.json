@@ -1,30 +1,5 @@
 [
   {
-    "at": "2026-08-06T07:42:14.292198+00:00",
-    "kind": "error",
-    "message": "Fetch failed for https://vanier.gc.ca/en/home-accueil.html: HTTPSConnectionPool(host='vanier.gc.ca', port=443): Max retries exceeded with url: /en/home-accueil.html (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)')))"
-  },
-  {
-    "at": "2026-08-06T07:42:14.333009+00:00",
-    "kind": "error",
-    "message": "Fetch failed for https://opportunitydesk.org/category/fellowships/: 403"
-  },
-  {
-    "at": "2026-08-06T07:44:25.905789+00:00",
-    "kind": "error",
-    "message": "Fetch failed for https://opportunitydesk.org/2026/08/05/30-hot-jobs-across-various-sectors-currently-open-august-5-2026/: 403"
-  },
-  {
-    "at": "2026-08-06T07:44:25.948781+00:00",
-    "kind": "error",
-    "message": "Fetch failed for https://opportunitydesk.org/2026/08/05/17-international-travel-speaking-fellowship-other-opportunities-currently-open-august-5-2026/: 403"
-  },
-  {
-    "at": "2026-08-06T07:44:25.990892+00:00",
-    "kind": "error",
-    "message": "Fetch failed for https://opportunitydesk.org/2026/08/05/vii-international-zendal-awards-2026/: 403"
-  },
-  {
     "at": "2026-08-06T07:44:26.037013+00:00",
     "kind": "error",
     "message": "Fetch failed for https://opportunitydesk.org/2026/08/05/kenneth-myer-innovation-fellowships-2027/: 403"
@@ -1547,6 +1522,132 @@
         }
       },
       "signal_rescued": 7,
+      "deduped": 0,
+      "matches": 0
+    }
+  },
+  {
+    "at": "2026-08-17T04:16:18.609093+00:00",
+    "kind": "scan_start",
+    "message": "daily scan started"
+  },
+  {
+    "at": "2026-08-17T04:19:00.582297+00:00",
+    "kind": "error",
+    "message": "Failed to analyze https://weworkremotely.com/remote-jobs/zoominfo-technologies-llc-director-finops: 'list' object has no attribute 'get'"
+  },
+  {
+    "at": "2026-08-17T04:24:18.610185+00:00",
+    "kind": "error",
+    "message": "Failed to analyze https://weworkremotely.com/remote-jobs/proxify-ab-senior-data-scientist-2: 'list' object has no attribute 'get'"
+  },
+  {
+    "at": "2026-08-17T04:26:28.350032+00:00",
+    "kind": "scan_complete",
+    "message": "daily scan finished",
+    "matches": 0,
+    "stats": {
+      "discovered": 144,
+      "already_seen": 43,
+      "known_scam": 0,
+      "fetch_failed": 0,
+      "first_pass_dropped": 2,
+      "scam": 1,
+      "legit_unknown": 1,
+      "ineligible": 7,
+      "closed": 2,
+      "deep_analyzed": 0,
+      "scored_high": 0,
+      "discovery": {
+        "google": {
+          "attempted": 3,
+          "successful": 0,
+          "429": 3,
+          "403": 0,
+          "errors": 0,
+          "candidates": 0,
+          "queries_planned": 5,
+          "stopped_early": true,
+          "disabled_reason": "rateLimitExceeded: Quota exceeded for quota metric 'Queries' and limit 'Queries per day' of service 'customsearch.googleapis.com' for consumer 'project_number:274711298849'."
+        },
+        "rss": {
+          "attempted": 10,
+          "successful": 6,
+          "failed": 4,
+          "skipped_dead": 0,
+          "candidates": 76
+        },
+        "api": {
+          "sources": 2,
+          "healthy": 2,
+          "failed": 0,
+          "candidates": 54
+        },
+        "seed": {
+          "attempted": 14,
+          "candidates": 14
+        },
+        "total": {
+          "raw": 144,
+          "after_dedupe": 144
+        }
+      },
+      "signal_rescued": 5,
+      "deduped": 0
+    }
+  },
+  {
+    "at": "2026-08-17T04:26:28.351419+00:00",
+    "kind": "run",
+    "mode": "scan",
+    "environment": "github_actions",
+    "stats": {
+      "discovered": 144,
+      "already_seen": 43,
+      "known_scam": 0,
+      "fetch_failed": 0,
+      "first_pass_dropped": 2,
+      "scam": 1,
+      "legit_unknown": 1,
+      "ineligible": 7,
+      "closed": 2,
+      "deep_analyzed": 0,
+      "scored_high": 0,
+      "discovery": {
+        "google": {
+          "attempted": 3,
+          "successful": 0,
+          "429": 3,
+          "403": 0,
+          "errors": 0,
+          "candidates": 0,
+          "queries_planned": 5,
+          "stopped_early": true,
+          "disabled_reason": "rateLimitExceeded: Quota exceeded for quota metric 'Queries' and limit 'Queries per day' of service 'customsearch.googleapis.com' for consumer 'project_number:274711298849'."
+        },
+        "rss": {
+          "attempted": 10,
+          "successful": 6,
+          "failed": 4,
+          "skipped_dead": 0,
+          "candidates": 76
+        },
+        "api": {
+          "sources": 2,
+          "healthy": 2,
+          "failed": 0,
+          "candidates": 54
+        },
+        "seed": {
+          "attempted": 14,
+          "candidates": 14
+        },
+        "total": {
+          "raw": 144,
+          "after_dedupe": 144
+        }
+      },
+      "signal_rescued": 5,
       "deduped": 0,
       "matches": 0
     }

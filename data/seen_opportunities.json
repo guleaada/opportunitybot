@@ -2458,5 +2458,133 @@
     "id": "4e1f9fbbca7d2a96",
     "first_seen": "2026-08-16T20:19:45.390990+00:00",
     "last_updated": "2026-08-16T20:19:45.390996+00:00"
+  },
+  "5d14a1cbeedeec59": {
+    "url": "https://www.opportunitiesforafricans.com/aauws-international-fellowship-program-2026-2027-for-masters-doctoral-post-doctoral-study-in-the-united-states/",
+    "title": "AAUW’s International Fellowship Program 2026/2027 for Masters, Doctoral & Post-Doctoral Study in the United States (Funded)",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "reasoning": "The candidate does not identify as a woman and is a working professional not currently enrolled in a graduate program, which are key requirements for the fellowship",
+    "id": "5d14a1cbeedeec59",
+    "first_seen": "2026-08-17T04:16:34.455849+00:00",
+    "last_updated": "2026-08-17T04:16:34.455859+00:00"
+  },
+  "50abac2697f5b1e3": {
+    "url": "https://weworkremotely.com/remote-jobs/zoominfo-technologies-llc-principal-business-intelligence-analyst",
+    "title": "ZoomInfo Technologies LLC: Principal Business Intelligence Analyst",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "reasoning": "The program requires 8+ years of experience in specific fields, which the candidate does not meet as they are a recent graduate with no explicit mention of relevant work experience in the required fields.",
+    "id": "50abac2697f5b1e3",
+    "first_seen": "2026-08-17T04:17:22.866909+00:00",
+    "last_updated": "2026-08-17T04:17:22.866920+00:00"
+  },
+  "1ead7263a4876e60": {
+    "url": "https://weworkremotely.com/remote-jobs/temporal-technologies-director-global-developer-success",
+    "title": "Temporal Technologies: Director, Global Developer Success",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "reasoning": "The candidate does not meet the stated requirements of 12+ years of experience in technical support, customer engineering, SRE, solutions engineering, infrastructure engineering, or similar customer-facing technical roles, and 5+ years leading support or customer-facing engineering teams.",
+    "id": "1ead7263a4876e60",
+    "first_seen": "2026-08-17T04:18:11.980662+00:00",
+    "last_updated": "2026-08-17T04:18:11.980672+00:00"
+  },
+  "66e8033b0b615b9b": {
+    "url": "https://weworkremotely.com/remote-jobs/fullscript-senior-product-designer-clinical-education-platform",
+    "title": "Fullscript: Senior Product Designer (Clinical Education Platform)",
+    "status": "unknown",
+    "eligibility_status": "UNCERTAIN",
+    "reasoning": "No program requirements, description, or eligibility criteria were provided in the PROGRAM TEXT section. The text only contains 'User Safety: safe' which is not a program description. Cannot assess eligibility without knowing the program's nationality restrictions, degree requirements, age limits, English language requirements, student/enrollment status requirements, or funding details.",
+    "id": "66e8033b0b615b9b",
+    "first_seen": "2026-08-17T04:19:31.609443+00:00",
+    "last_updated": "2026-08-17T04:19:31.609454+00:00"
+  },
+  "42fe2ba54608213f": {
+    "url": "https://weworkremotely.com/remote-jobs/proxify-ab-senior-shopify-developer-3",
+    "title": "Proxify AB: Senior Shopify Developer",
+    "status": "legitimacy_unknown",
+    "credibility_status": "NEEDS_VERIFICATION",
+    "source_tier": "TIER_4",
+    "reasoning": "No reasoning returned.",
+    "id": "42fe2ba54608213f",
+    "first_seen": "2026-08-17T04:20:26.035059+00:00",
+    "last_updated": "2026-08-17T04:20:26.035071+00:00"
+  },
+  "4653db81b75af69c": {
+    "url": "https://weworkremotely.com/remote-jobs/proxify-ab-senior-magento-developer-3",
+    "title": "Proxify AB: Senior Magento Developer",
+    "status": "filtered_out",
+    "reason": "This is a paid remote job, not a scholarship, fellowship, residency, or funded program.",
+    "id": "4653db81b75af69c",
+    "first_seen": "2026-08-17T04:20:34.436550+00:00",
+    "last_updated": "2026-08-17T04:20:34.436560+00:00"
+  },
+  "c3e35732c2ed6445": {
+    "url": "https://weworkremotely.com/remote-jobs/proxify-ab-senior-mern-developer-react-js-node-js",
+    "title": "Proxify AB: Senior MERN Developer (React.js + Node.js)",
+    "status": "filtered_out",
+    "reason": "Time zone mismatch and likely insufficient MERN experience",
+    "id": "c3e35732c2ed6445",
+    "first_seen": "2026-08-17T04:21:23.567008+00:00",
+    "last_updated": "2026-08-17T04:21:23.567020+00:00"
+  },
+  "be103000a5ad0dd8": {
+    "url": "https://weworkremotely.com/remote-jobs/proxify-ab-senior-fullstack-developer-react-js-node-js-3",
+    "title": "Proxify AB: Senior Fullstack Developer (React.js / Node.js)",
+    "status": "closed",
+    "deadline": null,
+    "id": "be103000a5ad0dd8",
+    "first_seen": "2026-08-17T04:21:49.985450+00:00",
+    "last_updated": "2026-08-17T04:21:49.985459+00:00"
+  },
+  "c1f2bcec21f928f1": {
+    "url": "https://weworkremotely.com/remote-jobs/proxify-ab-senior-ruby-on-rails-developer-ai-augmented-engineering",
+    "title": "Proxify AB: Senior Ruby on Rails Developer (AI-Augmented Engineering)",
+    "status": "closed",
+    "deadline": null,
+    "id": "c1f2bcec21f928f1",
+    "first_seen": "2026-08-17T04:21:57.989000+00:00",
+    "last_updated": "2026-08-17T04:21:57.989010+00:00"
+  },
+  "6a99771205b14100": {
+    "url": "https://weworkremotely.com/remote-jobs/proxify-ab-senior-sharepoint-developer-6",
+    "title": "Proxify AB: Senior Sharepoint Developer",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "reasoning": "The job requires 5+ years of professional SharePoint development experience and proficiency in SharePoint Framework, Power Platform, .NET, JavaScript, TypeScript, HTML5, CSS, REST APIs, Graph API, and related Microsoft technologies. The candidate’s profile lists experience in Python, Flask, AI development, marketing, and web development but does not mention SharePoint, SPFx, or any Microsoft ecosystem skills. Additionally, the role mandates the applicant to be located in the CET timezone ±3 hours. The candidate is based in Vientiane, Lao PDR (UTC+7), which is 6 hours ahead of CET, exceeding the ±3 hour requirement. These two criteria are explicit hard blockers that cannot be remedied by the candidate’s current qualifications or by obtaining additional documents. Therefore the candidate is confirmed ineligible for this position.",
+    "id": "6a99771205b14100",
+    "first_seen": "2026-08-17T04:22:46.409363+00:00",
+    "last_updated": "2026-08-17T04:22:46.409374+00:00"
+  },
+  "65b208f6e60b061b": {
+    "url": "https://weworkremotely.com/remote-jobs/proxify-ab-senior-backend-developer-python-9",
+    "title": "Proxify AB: Senior Backend Developer (Python)",
+    "status": "ineligible",
+    "eligibility_status": "PROBABLY_INELIGIBLE",
+    "reasoning": "The program is a full-time Senior Backend Developer job requiring 5+ years of Python/Django experience and CET (+/- 3 hours) time zone. The candidate has Python skills but no stated years of experience, and is based in Vientiane, Lao PDR (UTC+7), which is outside CET +/- 3 hours (CET is UTC+1/+2). The role explicitly states 'We are unable to consider applications from candidates in other time zones.'",
+    "id": "65b208f6e60b061b",
+    "first_seen": "2026-08-17T04:23:30.441133+00:00",
+    "last_updated": "2026-08-17T04:23:30.441143+00:00"
+  },
+  "0313dcbb27845386": {
+    "url": "https://weworkremotely.com/remote-jobs/proxify-ab-senior-data-engineer-python-1",
+    "title": "Proxify AB: Senior Data Engineer (Python)",
+    "status": "unknown",
+    "eligibility_status": "UNCERTAIN",
+    "reasoning": "No reasoning returned.",
+    "id": "0313dcbb27845386",
+    "first_seen": "2026-08-17T04:25:44.548071+00:00",
+    "last_updated": "2026-08-17T04:25:44.548081+00:00"
+  },
+  "dd10e69705382d99": {
+    "url": "https://www.python.org/jobs/8122/",
+    "title": "Lead Python Backend Engineer, Reef Technologies",
+    "status": "suspicious",
+    "credibility_status": "SUSPICIOUS",
+    "source_tier": "TIER_4",
+    "reasoning": "The posting shows a future date (04 August 2026), which is impossible for a current vacancy, indicating fabricated content. The company website reef-technologies.com lacks visible credibility and no trust signals are present, while the job board URL (python.org/jobs/8122/) is not a recognized recruitment platform. Additionally, the contradictory statements about remote work ('fully remote' vs 'no telecommuting') raise further doubts.",
+    "id": "dd10e69705382d99",
+    "first_seen": "2026-08-17T04:26:26.242305+00:00",
+    "last_updated": "2026-08-17T04:26:26.242314+00:00"
   }
 }
