@@ -3187,120 +3187,122 @@
     "title": "Agentic Python Engineer, Evaboot",
     "status": "ineligible",
     "eligibility_status": "CONFIRMED_INELIGIBLE",
-    "reasoning": "The program is a job posting for a full-time, paid remote engineering role, not a scholarship or fellowship. The candidate is seeking fully-funded masters scholarships, fellowships, or residencies, not employment opportunities.",
+    "reasoning": "This is a job posting, not a scholarship/fellowship program. It requires being a 'Strong Python engineer' and 'Power user of agentic coding' with no mention of educational eligibility or funding/sponsorship. The candidate is not applying for a job but for scholarships/fellowships/residencies.",
     "id": "2facab6ab77e01ab",
-    "first_seen": "2026-08-18T12:18:06.002524+00:00",
-    "last_updated": "2026-08-18T12:18:06.002534+00:00"
+    "first_seen": "2026-08-18T12:33:27.724856+00:00",
+    "last_updated": "2026-08-18T12:33:27.724864+00:00"
   },
   "9a21ec48d520a758": {
     "url": "https://www.python.org/jobs/8110/",
     "title": "Senior AI-Augmented Full Stack Developer, SureSwift Capital",
     "status": "ineligible",
     "eligibility_status": "CONFIRMED_INELIGIBLE",
-    "reasoning": "The program is a job opportunity, not a scholarship/fellowship, and the candidate is not eligible for employment in Canada without a valid work permit. Additionally, the candidate is not currently a student, and the role requires specific professional experience and technical skills that are not part of a scholarship eligibility assessment.",
+    "reasoning": "The program is a job opportunity (not a scholarship/fellowship) and requires the candidate to be a 'Canada-based candidate only' (remote work available, but office space/hybrid work options are for Victoria, BC candidates). The candidate is an Ethiopian national working in Lao PDR, not a Canadian resident/citizen.",
     "id": "9a21ec48d520a758",
-    "first_seen": "2026-08-18T12:19:01.716465+00:00",
-    "last_updated": "2026-08-18T12:19:01.716473+00:00"
+    "first_seen": "2026-08-18T12:34:24.440286+00:00",
+    "last_updated": "2026-08-18T12:34:24.440294+00:00"
   },
   "508d0928028fbcbf": {
     "url": "https://www.python.org/jobs/8105/",
     "title": "Computational Photonics Engineer, LumiAIres Ltd",
     "status": "ineligible",
     "eligibility_status": "CONFIRMED_INELIGIBLE",
-    "reasoning": "The program explicitly requires an advanced degree (MSc or PhD) in a quantitative field, which the candidate does not hold (only a BSc). Additionally, the candidate is not currently a student, which is not a stated requirement but is implied by the job description focusing on a professional role.",
+    "reasoning": "The program requires an advanced degree (MSc or PhD) in a quantitative field, but the candidate holds only a BSc. Additionally, the candidate is not currently a student, which is not a stated requirement but is implied by the job description focusing on a role that requires an advanced degree.",
     "id": "508d0928028fbcbf",
-    "first_seen": "2026-08-18T12:19:13.820310+00:00",
-    "last_updated": "2026-08-18T12:19:13.820317+00:00"
+    "first_seen": "2026-08-18T12:34:54.694883+00:00",
+    "last_updated": "2026-08-18T12:34:54.694893+00:00"
   },
   "0492b3e27b762203": {
     "url": "https://www.python.org/jobs/8103/",
     "title": "Senior Python Developer, Turing",
     "status": "ineligible",
     "eligibility_status": "CONFIRMED_INELIGIBLE",
-    "reasoning": "The candidate is a 27-year-old Ethiopian national working professional (not a student), while the program explicitly requires a 'Senior Python Developer' with 3+ years of experience. The candidate's background includes Python and AI/ML skills but does not specify 3+ years of professional experience as a Python Developer. Additionally, the program is a job role (contract position) rather than a scholarship/fellowship, which the candidate is seeking.",
+    "reasoning": "The program explicitly requires the candidate to be a 'Senior Python Developer' with '3+ years of strong experience with the Python programming language'. The candidate is a working professional but does not meet the experience requirement for this specific role.",
     "id": "0492b3e27b762203",
-    "first_seen": "2026-08-18T12:20:10.170712+00:00",
-    "last_updated": "2026-08-18T12:20:10.170721+00:00"
+    "first_seen": "2026-08-18T12:35:48.406953+00:00",
+    "last_updated": "2026-08-18T12:35:48.406962+00:00"
   },
   "ce606fc9c8c5f0d5": {
     "url": "https://www.python.org/jobs/8102/",
     "title": "Python Machine Learning Engineer, Turing",
-    "status": "ineligible",
-    "eligibility_status": "CONFIRMED_INELIGIBLE",
-    "reasoning": "The program explicitly requires 4+ years of hands-on DS/ML development experience, which the candidate does not meet (candidate is a working professional with a BSc since 2021, implying ~3 years of experience). Additionally, the program requires a Bachelor's or Master's degree in Computer Science, Machine Learning, AI, Statistics, or a related quantitative field, which the candidate's BSc in Psychology does not satisfy.",
+    "status": "suspicious",
+    "credibility_status": "SUSPICIOUS",
+    "source_tier": "TIER_4",
+    "reasoning": "The job posting is hosted on python.org/jobs, which is a legitimate domain for Python-related job listings. However, the job details include several red flags: the contact email (abhipokeman@gmail.com) is a personal Gmail account rather than a corporate domain, and the company (Turing) is described in vague terms without clear verifiable details. The contract duration is unusually short (3 months) with no benefits, and the time commitment requirements are rigid.",
     "id": "ce606fc9c8c5f0d5",
-    "first_seen": "2026-08-18T12:20:20.964341+00:00",
-    "last_updated": "2026-08-18T12:20:20.964348+00:00"
+    "first_seen": "2026-08-18T12:35:59.427045+00:00",
+    "last_updated": "2026-08-18T12:35:59.427055+00:00"
   },
   "eba708ef7ad4a3d2": {
     "url": "https://opportunitiesforyouth.org/2026/08/18/interpol-enhanced-secondment-programme-2026-applications-open-for-law-enforcement-officers-and-criminal-investigation-experts-worldwide/",
     "title": "INTERPOL Enhanced Secondment Programme 2026: Applications Open for Law Enforcement Officers and Criminal Investigation Experts Worldwide",
     "status": "ineligible",
     "eligibility_status": "CONFIRMED_INELIGIBLE",
-    "reasoning": "The candidate does not meet the core eligibility criteria for the INTERPOL Enhanced Secondment Programme 2026. The programme explicitly targets 'law enforcement officers and criminal investigation experts' from INTERPOL Member Countries, requiring candidates to be 'active police officers,' 'law enforcement officers from national agencies,' or 'civil servants working in law enforcement or government administrations.' The candidate is a working professional in AI development, marketing, and psychology, with no background in law enforcement or criminal investigations. Additionally, the candidate is not a student or enrolled in any law enforcement-related role.",
+    "reasoning": "The candidate does not meet the core eligibility requirement of being a 'law enforcement officer' or 'governmental official' within INTERPOL Member Countries. The program is specifically targeted at active police officers, law enforcement specialists, or civil servants working in law enforcement/government structures. The candidate's background as an AI Developer, Marketing Specialist, Psychologist, and AgriTech innovator does not align with the required professional profile.",
     "id": "eba708ef7ad4a3d2",
-    "first_seen": "2026-08-18T12:21:12.092064+00:00",
-    "last_updated": "2026-08-18T12:21:12.092071+00:00"
+    "first_seen": "2026-08-18T12:36:48.656442+00:00",
+    "last_updated": "2026-08-18T12:36:48.656450+00:00"
   },
   "8fcbee32fb30a701": {
     "url": "https://opportunitiesforyouth.org/2026/08/18/british-council-international/",
     "title": "British Council International Consultant for Recognition of Prior Learning (RPL) in Sudan 2026: Application Guide, Requirements and Deadline",
-    "status": "ineligible",
-    "eligibility_status": "CONFIRMED_INELIGIBLE",
-    "reasoning": "The program is specifically for an International Consultant to support the Recognition of Prior Learning (RPL) initiative in Sudan. The candidate is an Ethiopian national, not a Sudanese national, and the program does not indicate eligibility for non-Sudanese nationals to apply for this consultancy role.",
+    "status": "suspicious",
+    "credibility_status": "SUSPICIOUS",
+    "source_tier": "TIER_3",
+    "reasoning": "The opportunity is presented as a legitimate consultancy role with the British Council, which is a credible organization. However, the source URL (opportunitiesforyouth.org) is not an official British Council domain, raising concerns about authenticity. Legitimate British Council opportunities are typically posted on their official website (britishcouncil.org) or through verified partner platforms.",
     "id": "8fcbee32fb30a701",
-    "first_seen": "2026-08-18T12:21:59.170936+00:00",
-    "last_updated": "2026-08-18T12:21:59.170943+00:00"
+    "first_seen": "2026-08-18T12:36:59.099140+00:00",
+    "last_updated": "2026-08-18T12:36:59.099149+00:00"
   },
   "26520b2aa67d43cb": {
     "url": "https://opportunitiesforyouth.org/2026/08/18/rmit-university-research/",
     "title": "RMIT University Research Fellow 2026: Apply for the Technology Adoption & Social Change Position in Melbourne, Australia",
     "status": "ineligible",
     "eligibility_status": "CONFIRMED_INELIGIBLE",
-    "reasoning": "The program explicitly requires a PhD or equivalent qualification in a relevant social sciences research field (mandatory academic qualification). The candidate holds a BSc (Bachelor's) in Psychology, which does not meet this requirement.",
+    "reasoning": "The candidate does not meet the mandatory academic qualification requirement. The program explicitly requires applicants to hold a PhD or equivalent qualification in a relevant social sciences research field. The candidate's highest degree is a BSc in Psychology (graduated in 2021) and they are not currently a student.",
     "id": "26520b2aa67d43cb",
-    "first_seen": "2026-08-18T12:22:25.607467+00:00",
-    "last_updated": "2026-08-18T12:22:25.607474+00:00"
+    "first_seen": "2026-08-18T12:37:55.700762+00:00",
+    "last_updated": "2026-08-18T12:37:55.700774+00:00"
   },
   "297297e60c165c01": {
     "url": "https://opportunitiesforyouth.org/2026/08/18/ubc-four-year-doctoral/",
     "title": "University of British Columbia Four Year Doctoral Fellowship 2026: Fully Funded PhD Opportunity for International and Canadian Students",
     "status": "ineligible",
     "eligibility_status": "CONFIRMED_INELIGIBLE",
-    "reasoning": "The candidate does not meet the degree level requirement for the UBC Four Year Doctoral Fellowship. The program is specifically for doctoral students (PhD, DMA, MDPhD), while the candidate holds a BSc and is not currently enrolled in a doctoral program.",
+    "reasoning": "The candidate does not meet the degree level requirement for the UBC Four Year Doctoral Fellowship (4YF), which is specifically for doctoral programs (PhD, DMA, MDPhD). The candidate holds a BSc (bachelor's) and is not currently a student, making them ineligible for this doctoral fellowship.",
     "id": "297297e60c165c01",
-    "first_seen": "2026-08-18T12:23:05.236891+00:00",
-    "last_updated": "2026-08-18T12:23:05.236899+00:00"
+    "first_seen": "2026-08-18T12:38:12.744012+00:00",
+    "last_updated": "2026-08-18T12:38:12.744022+00:00"
   },
   "05b1c9a0bc46b014": {
     "url": "https://opportunitiesforyouth.org/2026/08/18/cop31-youth-climate-ideathon-2026-in-turkiye-apply-to-develop-climate-solutions-and-join-the-international-cop31-ideathon-in-antalya/",
     "title": "COP31 Youth Climate Ideathon 2026 in Türkiye: Apply to Develop Climate Solutions and Join the International COP31 Ideathon in Antalya",
     "status": "ineligible",
     "eligibility_status": "CONFIRMED_INELIGIBLE",
-    "reasoning": "The program is explicitly intended for young people in Türkiye, particularly those eligible through the Turkish Ministry of Youth and Sports’ E-Genç platform. The candidate is an Ethiopian national, not a Turkish resident or citizen.",
+    "reasoning": "The program explicitly states it is 'primarily intended for young people in Türkiye' and is connected to the Turkish Ministry of Youth and Sports' E-Genç platform. The candidate is an Ethiopian national, not a Turkish citizen or resident.",
     "id": "05b1c9a0bc46b014",
-    "first_seen": "2026-08-18T12:23:29.925704+00:00",
-    "last_updated": "2026-08-18T12:23:29.925710+00:00"
+    "first_seen": "2026-08-18T12:38:59.869476+00:00",
+    "last_updated": "2026-08-18T12:38:59.869485+00:00"
   },
   "472659664fea187c": {
     "url": "https://opportunitiesforyouth.org/2026/08/18/fully-funded-phd-position-in-social-data-science-at-vu-amsterdam-research-the-online-manipulation-economy/",
     "title": "Fully Funded PhD Position in Social Data Science at VU Amsterdam: Research the Online Manipulation Economy",
     "status": "ineligible",
     "eligibility_status": "CONFIRMED_INELIGIBLE",
-    "reasoning": "The program explicitly requires a 'research master’s degree or another relevant master’s degree' (stated under 'Educational Qualifications'). The candidate holds a BSc (bachelor's) and is a working professional, not a current student. This is a hard blocker as the degree level mismatch is explicit and non-negotiable.",
+    "reasoning": "The program explicitly requires a 'research master’s degree or another relevant master’s degree' (stated under 'Educational Qualifications'). The candidate holds a BSc (bachelor's) and is not currently a student, which is a hard blocker for this PhD position.",
     "id": "472659664fea187c",
-    "first_seen": "2026-08-18T12:24:16.831164+00:00",
-    "last_updated": "2026-08-18T12:24:16.831171+00:00"
+    "first_seen": "2026-08-18T12:39:25.536865+00:00",
+    "last_updated": "2026-08-18T12:39:25.536873+00:00"
   },
   "e5edbe4b01cd93e1": {
     "url": "https://opportunitiesforyouth.org/2026/08/18/2022-goldman-sachs-summer-internship-program-fully-funded/",
     "title": "Goldman Sachs Programs and Internships 2026–2027: Global Opportunities for Students and Graduates",
     "status": "ineligible",
     "eligibility_status": "CONFIRMED_INELIGIBLE",
-    "reasoning": "The candidate is a working professional (not currently a student) and holds a BSc (bachelor's degree). The Goldman Sachs Programs explicitly target current students or recent graduates in specific academic stages (e.g., penultimate year of bachelor's/master's, advanced degree programs like MBA, PhD, JD, MD, LLM). The candidate does not meet the 'currently pursuing a degree' or 'recent graduate in penultimate/final year' requirements for any listed program.",
+    "reasoning": "The candidate is a working professional (not a student or recent graduate), which is a hard blocker for all listed Goldman Sachs programs. All programs explicitly target students, graduates, or early-career professionals still enrolled in degree programs.",
     "id": "e5edbe4b01cd93e1",
-    "first_seen": "2026-08-18T12:24:36.881935+00:00",
-    "last_updated": "2026-08-18T12:24:36.881941+00:00"
+    "first_seen": "2026-08-18T12:39:59.901760+00:00",
+    "last_updated": "2026-08-18T12:39:59.901768+00:00"
   },
   "8f5ba4cb88f0f6f2": {
     "url": "https://opportunitiesforyouth.org/2026/08/18/eu-kenya-youth-sounding-board-2026-2028-applications-open-for-15-young-kenyan-leaders/",
@@ -3309,29 +3311,27 @@
     "eligibility_status": "CONFIRMED_INELIGIBLE",
     "reasoning": "The program explicitly requires Kenyan citizenship and residency in Kenya. The candidate is an Ethiopian national residing in Lao PDR, which violates both the nationality and residency requirements.",
     "id": "8f5ba4cb88f0f6f2",
-    "first_seen": "2026-08-18T12:25:17.594184+00:00",
-    "last_updated": "2026-08-18T12:25:17.594191+00:00"
+    "first_seen": "2026-08-18T12:40:25.844440+00:00",
+    "last_updated": "2026-08-18T12:40:25.844449+00:00"
   },
   "137d85ed5670c023": {
     "url": "https://opportunitiesforyouth.org/2026/08/18/crca-emerging-conflict-analysts-fellowship-2026-12-week-online-fellowship-for-aspiring-conflict-and-security-analysts/",
     "title": "CRCA Emerging Conflict Analysts Fellowship 2026: 12-Week Online Fellowship for Aspiring Conflict and Security Analysts",
-    "status": "suspicious",
-    "credibility_status": "SUSPICIOUS",
-    "source_tier": "TIER_3",
-    "reasoning": "The program explicitly states there is no fellowship fee for selected fellows, which is a positive trust signal. However, the domain 'opportunitiesforyouth.org' lacks verifiable institutional backing (e.g., university, government, or established NGO), and the absence of red-flag phrases (e.g., 'wire transfer,' 'limited seats') does not outweigh this concern. The structured nature and detailed curriculum are plausible but require further verification (e.g., independent reviews, alumni testimonials, or institutional partnerships).",
+    "status": "unknown",
+    "eligibility_status": "UNCERTAIN",
+    "reasoning": "The program targets 'emerging analysts working on or seeking to work on African peace, conflict, and security issues,' explicitly including African nationals and residents. The candidate is an Ethiopian national (African) working professionally in a relevant field (AI/tech innovator with projects like SebilAI and JobsAI, which may relate to conflict/security contexts). The fellowship is online, fee-free, and does not require prior formal training in intelligence or risk analysis. The candidate's background in AI/tech and community leadership aligns with the program's focus on practical analytical skills.",
     "id": "137d85ed5670c023",
-    "first_seen": "2026-08-18T12:25:37.127053+00:00",
-    "last_updated": "2026-08-18T12:25:37.127059+00:00"
+    "first_seen": "2026-08-18T12:41:08.834509+00:00",
+    "last_updated": "2026-08-18T12:41:08.834518+00:00"
   },
   "3c89139f2f127755": {
     "url": "https://opportunitiesforyouth.org/2026/08/18/join-the-green-earth-action-day-ambassador-programme/",
     "title": "GEAF Ambassador Programme 2027: Join a Six-Month Global Climate Leadership Journey with Project Funding",
-    "status": "suspicious",
-    "credibility_status": "SUSPICIOUS",
-    "source_tier": "TIER_3",
-    "reasoning": "The programme appears well-structured with clear goals and UNEP accreditation, but lacks transparency in critical areas: no fixed grant amount is specified, the application deadline is 'rolling' with no published closing date, and the funding is 'subject to budget validation' without clear criteria. Additionally, the programme is primarily online with local project implementation, which is unusual for a UNEP-accredited NGO's flagship initiative.",
+    "status": "unknown",
+    "eligibility_status": "UNCERTAIN",
+    "reasoning": "The program does not explicitly state nationality restrictions, student status requirements, age limits, or degree level requirements. The candidate is an Ethiopian national (not excluded), is a working professional (not required to be a student), is within typical age ranges for such programs, and holds a BSc (meets degree level). The program focuses on environmental leadership and community-based action, which aligns with the candidate's background in AI/tech innovation and community leadership.",
     "id": "3c89139f2f127755",
-    "first_seen": "2026-08-18T12:26:18.027293+00:00",
-    "last_updated": "2026-08-18T12:26:18.027300+00:00"
+    "first_seen": "2026-08-18T12:41:41.719634+00:00",
+    "last_updated": "2026-08-18T12:41:41.719642+00:00"
   }
 }

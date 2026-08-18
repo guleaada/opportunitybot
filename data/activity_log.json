@@ -2052,12 +2052,12 @@
     }
   },
   {
-    "at": "2026-08-18T12:17:51.216546+00:00",
+    "at": "2026-08-18T12:33:14.016393+00:00",
     "kind": "scan_start",
     "message": "daily scan started"
   },
   {
-    "at": "2026-08-18T12:26:20.481740+00:00",
+    "at": "2026-08-18T12:41:43.270136+00:00",
     "kind": "scan_complete",
     "message": "daily scan finished",
     "matches": 0,
@@ -2106,12 +2106,12 @@
           "after_dedupe": 147
         }
       },
-      "signal_rescued": 13,
+      "signal_rescued": 14,
       "deduped": 0
     }
   },
   {
-    "at": "2026-08-18T12:26:20.483927+00:00",
+    "at": "2026-08-18T12:41:43.272600+00:00",
     "kind": "run",
     "mode": "scan",
     "environment": "github_actions",
@@ -2160,7 +2160,7 @@
           "after_dedupe": 147
         }
       },
-      "signal_rescued": 13,
+      "signal_rescued": 14,
       "deduped": 0,
       "matches": 0
     }
