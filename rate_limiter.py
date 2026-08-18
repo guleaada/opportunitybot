@@ -15,8 +15,8 @@ import time
 from collections import defaultdict, deque
 from threading import Lock
 
-__all__ = ["wait_for_quota", "DailyQuotaExceeded", "snapshot",
-           "register_provider", "known_providers", "LIMITS"]
+__all__ = ["wait_for_quota", "seconds_until_available", "DailyQuotaExceeded",
+           "snapshot", "register_provider", "known_providers", "LIMITS"]
 
 
 class DailyQuotaExceeded(Exception):
@@ -104,6 +104,34 @@ def wait_for_quota(model: str) -> None:
 
         print(f"⏳ Rate limit reached for {model}, waiting {wait:.1f}s")
         time.sleep(max(wait, 0.1))
+
+
+def seconds_until_available(model: str) -> float:
+    """How long ``wait_for_quota`` would block before letting a call through.
+
+    Returns 0.0 when a call can proceed right now, and ``inf`` when the daily
+    budget is gone. Read-only: it reserves no slot and never sleeps, so a
+    caller can ask "would this provider make me wait?" and pick a different
+    one instead of blocking. Mirrors wait_for_quota's arithmetic exactly.
+    """
+    if model not in LIMITS:
+        return 0.0
+    with _lock:
+        now = time.time()
+        limits = LIMITS[model]
+        minute_hist = _minute_history[model]
+        day_hist = _day_history[model]
+
+        while minute_hist and minute_hist[0] < now - 60:
+            minute_hist.popleft()
+        while day_hist and day_hist[0] < now - 86_400:
+            day_hist.popleft()
+
+        if len(day_hist) >= limits["rpd"]:
+            return float("inf")
+        if len(minute_hist) < limits["rpm"]:
+            return 0.0
+        return max(0.0, 60 - (now - minute_hist[0]) + 0.1)
 
 
 def snapshot() -> dict:

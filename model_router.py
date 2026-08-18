@@ -34,7 +34,8 @@ from typing import Optional
 import requests
 
 from cost_tracker import log_cost, get_daily_claude_spend, get_monthly_claude_spend
-from rate_limiter import wait_for_quota, DailyQuotaExceeded
+from rate_limiter import (wait_for_quota, seconds_until_available,
+                          DailyQuotaExceeded)
 
 # ── Lazy client initialization ────────────────────────────────────────────
 # Clients are created on first use so the module imports even when a given
@@ -134,6 +135,14 @@ _provider_stats = {}
 _STATS_LOCK = RLock()
 
 
+# A provider that is over its per-minute quota is not broken — it is busy.
+# Blocking on it while an idle provider sits at 0 requests is the worst of
+# both worlds, so a wait longer than this is treated as a SOFT failure: skip
+# it for THIS call only and move down the chain. Unlike the 404/429 hard
+# latches, a soft skip records no failure and never disables the provider.
+MAX_PROVIDER_WAIT_SECONDS = float(os.getenv("PROVIDER_MAX_WAIT_SECONDS", "10"))
+
+
 def _blank_stats() -> dict:
     # ``config_error`` latches a PERMANENT provider fault (404 / model not
     # found / unavailable / invalid model). Unlike an ordinary transient
@@ -142,7 +151,7 @@ def _blank_stats() -> dict:
     # retried once per candidate. Kept separate from ``state`` so transient
     # failures stay retryable.
     return {"requests": 0, "successful": 0, "429": 0, "404": 0,
-            "failed": 0, "state": None, "last_error": "",
+            "failed": 0, "soft_skips": 0, "state": None, "last_error": "",
             "config_error": False}
 
 
@@ -320,6 +329,9 @@ def model_health_lines() -> list:
             continue
         detail = (f"requests {s['requests']}, ok {s['successful']}, "
                   f"429 {s['429']}, 404 {s['404']}, failed {s['failed']}")
+        if s.get("soft_skips"):
+            # Busy, not broken — these never disabled the provider.
+            detail += f", throttle-skipped {s['soft_skips']}"
         lines.append(f"   {name.capitalize():11} configured: YES  "
                      f"status: {state}  •  {detail}")
         if name == "groq":
@@ -442,6 +454,7 @@ def _call_free_chain(prompt, system, max_tokens, temperature, task_type):
         print(f"  ↷ [{task_type}] skipping {skipped} ({state})")
 
     attempted = []
+    throttled = []          # (wait_seconds, provider) soft-skipped THIS call
     for i, provider in enumerate(chain):
         # Re-check immediately before dispatch, not just when the chain was
         # built: under concurrency another operation may have latched this
@@ -451,25 +464,83 @@ def _call_free_chain(prompt, system, max_tokens, temperature, task_type):
             print(f"  ↷ [{task_type}] skipping {provider} "
                   f"({provider_state(provider)})")
             continue
-        with _STATS_LOCK:
-            _stats(provider)["requests"] += 1
-        print(f"🤖 [{task_type}] → {provider} "
-              f"({ROUTING_REASON.get(provider, 'free')})")
-        attempted.append(provider)
-        try:
-            res = _dispatch_free(provider, prompt, system, max_tokens,
-                                 temperature, task_type)
-            _record_success(provider)
-            res["fell_back"] = i > 0
-            return res
-        except Exception as e:
-            _record_failure(provider, e, task_type)
+
+        # Busy is not broken. If this provider would make us sleep off its
+        # per-minute quota, prefer a provider that is idle right now. Soft:
+        # nothing is recorded as a failure and nothing is latched, so the
+        # provider is a first-class candidate again on the very next call.
+        wait = _throttle_wait(provider)
+        if wait > MAX_PROVIDER_WAIT_SECONDS:
+            with _STATS_LOCK:
+                _stats(provider)["soft_skips"] += 1
+            throttled.append((wait, provider))
             nxt = chain[i + 1] if i + 1 < len(chain) else "nothing left"
-            print(f"   → falling back to {nxt}")
+            print(f"  ⏭️  [{task_type}] {provider} needs "
+                  f"{_wait_str(wait)} of rate-limit sleep — advancing to "
+                  f"{nxt} (soft skip, not disabled)")
+            continue
+
+        res = _attempt(provider, i, prompt, system, max_tokens, temperature,
+                       task_type)
+        if res is not None:
+            return res
+        nxt = chain[i + 1] if i + 1 < len(chain) else "nothing left"
+        print(f"   → falling back to {nxt}")
+        attempted.append(provider)
+
+    # Everything usable was throttled and nothing was actually tried. Waiting
+    # beats failing the candidate, so take the shortest wait rather than
+    # raising ProvidersUnavailable.
+    if not attempted and throttled:
+        wait, provider = min(throttled)
+        if wait != float("inf"):
+            print(f"⏳ [{task_type}] every provider is rate-limited — waiting "
+                  f"{_wait_str(wait)} for {provider}, the soonest available")
+            res = _attempt(provider, chain.index(provider), prompt, system,
+                           max_tokens, temperature, task_type)
+            if res is not None:
+                return res
+            attempted.append(provider)
 
     raise ProvidersUnavailable(
         f"all configured providers unavailable for '{task_type}' "
         f"(tried: {', '.join(attempted) or 'none'})")
+
+
+def _throttle_wait(provider: str) -> float:
+    """Seconds this provider would make us sleep. Never raises, never sleeps."""
+    try:
+        return seconds_until_available(provider)
+    except Exception:
+        # A probe failure must never stop us from trying the provider.
+        return 0.0
+
+
+def _wait_str(wait: float) -> str:
+    return "its full daily quota" if wait == float("inf") else f"{wait:.0f}s"
+
+
+def _attempt(provider, index, prompt, system, max_tokens, temperature,
+             task_type):
+    """One dispatch. Returns the result, or None if the provider failed.
+
+    Failures are classified and recorded by _record_failure (429 -> hard
+    RATE_LIMITED latch, 404 -> hard config_error latch, anything else
+    transient), exactly as before.
+    """
+    with _STATS_LOCK:
+        _stats(provider)["requests"] += 1
+    print(f"🤖 [{task_type}] → {provider} "
+          f"({ROUTING_REASON.get(provider, 'free')})")
+    try:
+        res = _dispatch_free(provider, prompt, system, max_tokens,
+                             temperature, task_type)
+    except Exception as e:
+        _record_failure(provider, e, task_type)
+        return None
+    _record_success(provider)
+    res["fell_back"] = index > 0
+    return res
 
 
 # ── Provider implementations ──────────────────────────────────────────────
