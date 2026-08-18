@@ -28,6 +28,8 @@ Models are configuration, not hardcoded provider choices.
     OPENROUTER_MODEL
     MISTRAL_MODEL
     GEMINI_MODEL
+    ANTHROPIC_MODEL
+    ANTHROPIC_FALLBACK_MODEL
 
 A provider that receives:
     429 → disabled for the rest of the scan
@@ -517,13 +519,10 @@ def groq_model() -> str:
     No hardcoded Groq model is used.
     """
 
-    return (
-        os.getenv(
-            "GROQ_MODEL",
-            "",
-        )
-        .strip()
-    )
+    return os.getenv(
+        "GROQ_MODEL",
+        "",
+    ).strip()
 
 
 def openrouter_model() -> str:
@@ -533,13 +532,10 @@ def openrouter_model() -> str:
     OPENROUTER_MODEL is configurable.
     """
 
-    return (
-        os.getenv(
-            "OPENROUTER_MODEL",
-            "openrouter/free",
-        )
-        .strip()
-    )
+    return os.getenv(
+        "OPENROUTER_MODEL",
+        "openrouter/free",
+    ).strip()
 
 
 def mistral_model() -> str:
@@ -549,13 +545,10 @@ def mistral_model() -> str:
     MISTRAL_MODEL is configurable.
     """
 
-    return (
-        os.getenv(
-            "MISTRAL_MODEL",
-            "mistral-small-latest",
-        )
-        .strip()
-    )
+    return os.getenv(
+        "MISTRAL_MODEL",
+        "mistral-small-latest",
+    ).strip()
 
 
 def gemini_model() -> str:
@@ -565,33 +558,36 @@ def gemini_model() -> str:
     GEMINI_MODEL is configurable.
     """
 
-    return (
-        os.getenv(
-            "GEMINI_MODEL",
-            "gemini-2.5-flash",
-        )
-        .strip()
-    )
+    return os.getenv(
+        "GEMINI_MODEL",
+        "gemini-2.5-flash",
+    ).strip()
 
 
 def claude_model() -> str:
-    return (
-        os.getenv(
-            "ANTHROPIC_MODEL",
-            "claude-sonnet-4-5",
-        )
-        .strip()
-    )
+    """
+    Primary Claude model.
+
+    ANTHROPIC_MODEL is configurable.
+    """
+
+    return os.getenv(
+        "ANTHROPIC_MODEL",
+        "claude-sonnet-4-5",
+    ).strip()
 
 
 def claude_fallback_model() -> str:
-    return (
-        os.getenv(
-            "ANTHROPIC_FALLBACK_MODEL",
-            "claude-haiku-4-5",
-        )
-        .strip()
-    )
+    """
+    Claude fallback model.
+
+    ANTHROPIC_FALLBACK_MODEL is configurable.
+    """
+
+    return os.getenv(
+        "ANTHROPIC_FALLBACK_MODEL",
+        "claude-haiku-4-5",
+    ).strip()
 
 
 # ═══════════════════════════════════════════════════════════════════════════
@@ -897,30 +893,37 @@ def _call_free_chain(
             claude_fallback_model()
         )
 
-        print(
-            f"🆘 [{task_type}] "
-            f"all free providers failed — "
-            f"using Claude fallback "
-            f"{fallback_model}"
-        )
-
-        try:
-            return _call_claude(
-                prompt,
-                system,
-                None,
-                max_tokens,
-                temperature,
-                task_type,
-                model_override=fallback_model,
-            )
-
-        except Exception as exc:
-
+        if not fallback_model:
             print(
-                f"⛔ Claude fallback failed: "
-                f"{_short_err(exc)}"
+                f"⚠️  [{task_type}] "
+                f"Claude fallback is configured "
+                f"but ANTHROPIC_FALLBACK_MODEL is empty"
             )
+        else:
+            print(
+                f"🆘 [{task_type}] "
+                f"all free providers failed — "
+                f"using Claude fallback "
+                f"{fallback_model}"
+            )
+
+            try:
+                return _call_claude(
+                    prompt,
+                    system,
+                    None,
+                    max_tokens,
+                    temperature,
+                    task_type,
+                    model_override=fallback_model,
+                )
+
+            except Exception as exc:
+
+                print(
+                    f"⛔ Claude fallback failed: "
+                    f"{_short_err(exc)}"
+                )
 
     raise ProvidersUnavailable(
         "all configured providers unavailable "
@@ -1090,6 +1093,11 @@ def _call_claude(
         model_override
         or claude_model()
     )
+
+    if not model:
+        raise RuntimeError(
+            "ANTHROPIC_MODEL is not configured"
+        )
 
     kwargs = {
         "model": model,
