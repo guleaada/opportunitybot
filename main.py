@@ -81,13 +81,15 @@ RSS_FEEDS = list(dict.fromkeys([   # dict.fromkeys keeps order AND dedupes
     # The profile is a working AI professional, so these are the feeds most
     # likely to yield candidates that survive eligibility.
     "https://weworkremotely.com/remote-jobs.rss",
-    "https://remoteok.com/remote-jobs.rss",
     "https://www.python.org/jobs/feed/rss/",
     "https://stackoverflow.com/jobs/feed",
-    "https://jobs.github.com/positions.atom",
     # ── Professional aggregators (not student-only) ─────────────────────
     "https://www.opportunitiesforyouth.org/feed/",
-    "https://opportunitiesforyoungpeople.com/feed/",
+    # Removed as permanently dead — they failed every run and cost a DNS or
+    # connection timeout each time:
+    #   jobs.github.com                — GitHub Jobs retired in 2021 (refused)
+    #   remoteok.com                   — HTTP 410 Gone
+    #   opportunitiesforyoungpeople.com — DNS NXDOMAIN
 ]))
 
 # Default taxonomy category per feed domain, so job items are tagged rather
@@ -95,10 +97,8 @@ RSS_FEEDS = list(dict.fromkeys([   # dict.fromkeys keeps order AND dedupes
 # stored record, NOT the scoring math.
 FEED_CATEGORY = {
     "weworkremotely.com": "remote_jobs",
-    "remoteok.com": "remote_jobs",
     "www.python.org": "dev_jobs",
     "stackoverflow.com": "dev_jobs",
-    "jobs.github.com": "dev_jobs",
 }
 
 
