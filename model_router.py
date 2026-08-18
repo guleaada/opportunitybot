@@ -11,10 +11,15 @@ Plus:
 - Graceful fallback chain when free models fail.
 - Every call is logged with which model ran and what it cost.
 
-Free-provider chain (in order):
-    1. Groq       — primary; proven reliable here
+Free-provider chain (in order, configurable via MODEL_PROVIDER_ORDER):
+    1. Groq       — primary
     2. OpenRouter — independent backup (skipped when no API key is set)
-    3. Gemini     — last resort; its model ids churn and have broken us twice
+    3. Mistral    — free tier (skipped when no API key is set)
+    4. Gemini     — last resort; its model ids churn and have broken us twice
+
+A provider that returns 429 (RATE_LIMITED) or a configuration error such as
+404 / model-not-found (FAILED) is skipped for the REST OF THE SCAN, so one
+bad model name costs one request, not one per operation per candidate.
 
     Claude fails           → re-raise (fail loud; high stakes)
     ALL free models fail   → Claude Haiku 4.5, but ONLY if budget allows
@@ -23,6 +28,7 @@ Free-provider chain (in order):
 import json
 import os
 import re
+from threading import RLock
 from typing import Optional
 
 import requests
@@ -112,7 +118,20 @@ FAILED = "FAILED"              # errored this run
 AVAILABLE = "AVAILABLE"        # configured, healthy, has run successfully
 
 # Per-scan provider stats + circuit breaker. Reset at the start of each scan.
+#
+# This is deliberately module-level: ONE latch shared by every operation in a
+# scan (clean_html, first_pass_filter, scam_detection, deep_eligibility,
+# scoring, ...), not one per call site. Every model call in the project routes
+# through call_model() -> _call_free_chain(), so there is a single place where
+# the latch is set and a single place where it is honoured.
+#
+# _STATS_LOCK guards it the way rate_limiter/cost_tracker/database already
+# guard their shared state, so the read-modify-write of the counters and the
+# latch stays consistent if a scan ever runs operations concurrently. It is an
+# RLock because provider_state() -> _stats() nests inside callers that already
+# hold it. The lock is never held across a network call.
 _provider_stats = {}
+_STATS_LOCK = RLock()
 
 
 def _blank_stats() -> dict:
@@ -129,17 +148,70 @@ def _blank_stats() -> dict:
 
 def reset_provider_stats() -> None:
     """Per-scan reset so the breaker and counters do not leak across runs."""
-    _provider_stats.clear()
+    with _STATS_LOCK:
+        _provider_stats.clear()
 
 
 def provider_stats(name: str = None):
-    if name is None:
-        return {k: dict(v) for k, v in _provider_stats.items()}
-    return dict(_provider_stats.setdefault(name, _blank_stats()))
+    with _STATS_LOCK:
+        if name is None:
+            return {k: dict(v) for k, v in _provider_stats.items()}
+        return dict(_provider_stats.setdefault(name, _blank_stats()))
 
 
 def _stats(name: str) -> dict:
-    return _provider_stats.setdefault(name, _blank_stats())
+    """The live stats dict for a provider. Mutate it only under _STATS_LOCK."""
+    with _STATS_LOCK:
+        return _provider_stats.setdefault(name, _blank_stats())
+
+
+def _record_success(provider: str) -> None:
+    """One atomic update so a concurrent reader never sees a half-written row."""
+    with _STATS_LOCK:
+        s = _stats(provider)
+        s["successful"] += 1
+        s["state"] = AVAILABLE
+
+
+def _record_failure(provider: str, exc, task_type: str) -> None:
+    """Classify a provider failure and update the breakers, atomically.
+
+    Two per-scan breakers, deliberately distinct:
+      * 429            -> RATE_LIMITED  (quota; retrying just burns quota)
+      * 404/bad model  -> FAILED + config_error latch (retrying cannot succeed)
+    Anything else is transient (5xx, timeout, connection reset) and latches
+    nothing, so the provider is retried on the next operation.
+
+    Errors are classified and logged here, never swallowed: the caller still
+    falls through to the next provider, and ProvidersUnavailable is still
+    raised if every provider is exhausted.
+    """
+    short = _short_err(exc)
+    with _STATS_LOCK:
+        s = _stats(provider)
+        s["last_error"] = short
+        if _is_rate_limit(exc):
+            s["429"] += 1
+            s["state"] = RATE_LIMITED
+            print(f"⚠️  {provider} {task_type}: rate limited — "
+                  f"disabling {provider} for the rest of this scan")
+            return
+        s["failed"] += 1
+        s["state"] = FAILED
+        if _is_model_not_found(exc):
+            s["404"] += 1
+            # Permanent: the configured model is wrong, retired, or not
+            # available to this account. It will fail identically for every
+            # remaining operation in this scan, so latch it instead of
+            # burning one request per operation per candidate.
+            s["config_error"] = True
+            print(f"⛔ {provider} {task_type}: configured model not "
+                  f"found/unavailable — check the model name. {short}")
+            print(f"   ⛔ disabling {provider} for the rest of this scan "
+                  f"(configuration error, not transient)")
+        else:
+            # Transient (network blip, 5xx, timeout): stays retryable.
+            print(f"⚠️  {provider} {task_type}: {short}")
 
 
 def provider_configured(name: str) -> bool:
@@ -369,42 +441,27 @@ def _call_free_chain(prompt, system, max_tokens, temperature, task_type):
 
     attempted = []
     for i, provider in enumerate(chain):
-        s = _stats(provider)
+        # Re-check immediately before dispatch, not just when the chain was
+        # built: under concurrency another operation may have latched this
+        # provider in between, and the whole point is that the first failure
+        # is the last request anyone sends it.
+        if not _provider_available(provider):
+            print(f"  ↷ [{task_type}] skipping {provider} "
+                  f"({provider_state(provider)})")
+            continue
+        with _STATS_LOCK:
+            _stats(provider)["requests"] += 1
         print(f"🤖 [{task_type}] → {provider} "
               f"({ROUTING_REASON.get(provider, 'free')})")
-        s["requests"] += 1
         attempted.append(provider)
         try:
             res = _dispatch_free(provider, prompt, system, max_tokens,
                                  temperature, task_type)
-            s["successful"] += 1
-            s["state"] = AVAILABLE
+            _record_success(provider)
             res["fell_back"] = i > 0
             return res
         except Exception as e:
-            short = _short_err(e)
-            s["last_error"] = short
-            if _is_rate_limit(e):
-                s["429"] += 1
-                s["state"] = RATE_LIMITED     # breaker: skip for this scan
-                print(f"⚠️  {provider} {task_type}: rate limited — "
-                      f"disabling {provider} for the rest of this scan")
-            else:
-                s["failed"] += 1
-                s["state"] = FAILED
-                if _is_model_not_found(e):
-                    s["404"] += 1
-                    # Permanent: the configured model is wrong or retired. It
-                    # will fail identically for every remaining candidate, so
-                    # latch it instead of burning one request per candidate.
-                    s["config_error"] = True
-                    print(f"⛔ {provider} {task_type}: configured model not "
-                          f"found/unavailable — check the model name. {short}")
-                    print(f"   ⛔ disabling {provider} for the rest of this "
-                          f"scan (configuration error, not transient)")
-                else:
-                    # Transient (network blip, 5xx, timeout): stays retryable.
-                    print(f"⚠️  {provider} {task_type}: {short}")
+            _record_failure(provider, e, task_type)
             nxt = chain[i + 1] if i + 1 < len(chain) else "nothing left"
             print(f"   → falling back to {nxt}")
 
