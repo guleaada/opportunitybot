@@ -3333,5 +3333,157 @@
     "id": "3c89139f2f127755",
     "first_seen": "2026-08-18T12:41:41.719634+00:00",
     "last_updated": "2026-08-18T12:41:41.719642+00:00"
+  },
+  "643d0c9996debea8": {
+    "url": "https://www.opportunitiesforafricans.com/the-wema-bank-plc-bankers-in-training-sales-programme-2026-for-young-nigerian-graduates/",
+    "title": "The Wema Bank Plc Bankers-In-Training (Sales) Programme 2026 for young Nigerian graduates.",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "reasoning": "The program explicitly requires Nigerian nationality (stated in the title and content: 'for young Nigerian graduates'). The candidate is Ethiopian. Additionally, the program requires applicants to be 'Not older than 26 years as at the time of this application' (candidate is 27). The program also requires 'Completed NYSC with a valid discharge certificate' (NYSC is a Nigerian program, irrelevant to the candidate).",
+    "id": "643d0c9996debea8",
+    "first_seen": "2026-08-18T13:03:34.364870+00:00",
+    "last_updated": "2026-08-18T13:03:34.364880+00:00"
+  },
+  "1cb5d650a647b7d8": {
+    "url": "https://remotive.com/remote-jobs/medical/patient-care-specialist-2091069",
+    "title": "Patient Care Specialist",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "reasoning": "The program explicitly restricts applicants to those located within the continental United States (+ Hawaii). The candidate is currently based in Vientiane, Lao PDR, which violates the location requirement.",
+    "id": "1cb5d650a647b7d8",
+    "first_seen": "2026-08-18T13:03:39.907196+00:00",
+    "last_updated": "2026-08-18T13:03:39.907205+00:00"
+  },
+  "502e8a4a82f8c989": {
+    "url": "https://remotive.com/remote-jobs/software-development/senior-independent-ai-engineer-architect-1919266",
+    "title": "Senior Independent AI Engineer / Architect",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "reasoning": "The program is a job posting for a 'Senior Independent AI Engineer / Architect' role, not a scholarship or fellowship. The candidate is seeking fully-funded masters scholarships, fellowships, or government scholarships, not a contract-based remote job. Additionally, the job requires production AI experience and is not designed for students or those seeking academic funding.",
+    "id": "502e8a4a82f8c989",
+    "first_seen": "2026-08-18T13:04:34.100233+00:00",
+    "last_updated": "2026-08-18T13:04:34.100243+00:00"
+  },
+  "df60e779ee5e780f": {
+    "url": "https://remotive.com/remote-jobs/software-development/senior-independent-software-developer-1919265",
+    "title": "Senior Independent Software Developer",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "reasoning": "The program explicitly requires applicants to be located in the Americas, Europe, or Israel. The candidate is based in Vientiane, Lao PDR (Southeast Asia), which does not meet the stated location requirement.",
+    "id": "df60e779ee5e780f",
+    "first_seen": "2026-08-18T13:04:39.967946+00:00",
+    "last_updated": "2026-08-18T13:04:39.967956+00:00"
+  },
+  "9736237e9bfc2f4f": {
+    "url": "https://remotive.com/remote-jobs/marketing/head-of-marketing-communications-2091068",
+    "title": "Head of Marketing & Communications",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "reasoning": "The program is a job posting for a full-time contract role (Head of Marketing & Communications) with explicit requirements for 8+ years of experience in marketing, content, or brand leadership, a portfolio proving exceptional taste, and design/visual production skills. The candidate is a 27-year-old working professional with a BSc and no IELTS/TOEFL, but lacks the required years of experience and portfolio for this role.",
+    "id": "9736237e9bfc2f4f",
+    "first_seen": "2026-08-18T13:05:35.357550+00:00",
+    "last_updated": "2026-08-18T13:05:35.357559+00:00"
+  },
+  "c94b774e64a3abc3": {
+    "url": "https://remotive.com/remote-jobs/software-development/tech-lead-full-stack-rails-engineer-2069746",
+    "title": "Tech Lead Full-Stack Rails Engineer",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "reasoning": "The program is a full-time remote job, not a scholarship or fellowship. The candidate is a working professional (not a student), and the role requires specific technical skills (Ruby, Rails, AI integration) and location/timezone restrictions (USA/Canada, USA timezones) that are unrelated to scholarship eligibility.",
+    "id": "c94b774e64a3abc3",
+    "first_seen": "2026-08-18T13:05:42.204097+00:00",
+    "last_updated": "2026-08-18T13:05:42.204105+00:00"
+  },
+  "2222e419bfa5cb3e": {
+    "url": "https://remotive.com/remote-jobs/all-others/face-deduplication-collection-2091093",
+    "title": "Face Deduplication Collection",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "reasoning": "The program explicitly restricts location to 'USA Only' for remote work. The candidate is an Ethiopian national based in Vientiane, Lao PDR, which does not meet the geographic requirement.",
+    "id": "2222e419bfa5cb3e",
+    "first_seen": "2026-08-18T13:06:34.289275+00:00",
+    "last_updated": "2026-08-18T13:06:34.289283+00:00"
+  },
+  "4d8f49855b1609e3": {
+    "url": "https://remotive.com/remote-jobs/marketing/remote-office-assistant-1680495",
+    "title": "Remote Office Assistant",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "reasoning": "The program is a full-time remote job (Remote Office Assistant) requiring 40 hours/week availability during Pacific Time (Monday-Friday, 9:00 a.m. to 6:00 p.m. PT). The candidate is a working professional (not a student) and does not meet the job's employment type or scheduling requirements.",
+    "id": "4d8f49855b1609e3",
+    "first_seen": "2026-08-18T13:06:42.650910+00:00",
+    "last_updated": "2026-08-18T13:06:42.650919+00:00"
+  },
+  "1684edc405d238fe": {
+    "url": "https://remotive.com/remote-jobs/sales/inside-sales-contractor-2086540",
+    "title": "Inside Sales Contractor",
+    "status": "suspicious",
+    "credibility_status": "SUSPICIOUS",
+    "source_tier": "TIER_4",
+    "reasoning": "The job posting advertises a 100% commission-based role with a guaranteed training stipend of only $500 over 4 weeks, which is unusually low for a full-time position. Additionally, the company's website (Credit Wellness, LLC) is not easily verifiable through standard business databases, and the job is listed on Remotive, which includes a scam warning in the same page text.",
+    "id": "1684edc405d238fe",
+    "first_seen": "2026-08-18T13:07:33.561018+00:00",
+    "last_updated": "2026-08-18T13:07:33.561026+00:00"
+  },
+  "6997d126f629e275": {
+    "url": "https://remotive.com/remote-jobs/information-technology/tier-iii-service-desk-engineer-2091045",
+    "title": "Tier III Service Desk Engineer",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "reasoning": "The program is a full-time remote job, not a scholarship/fellowship/residency. The candidate is a working professional (not a student), and the role requires 6+ years of IT experience, which the candidate does not meet based on their profile (BSc graduate in 2021, ~3 years of work experience).",
+    "id": "6997d126f629e275",
+    "first_seen": "2026-08-18T13:07:42.793048+00:00",
+    "last_updated": "2026-08-18T13:07:42.793067+00:00"
+  },
+  "b7f848e472f19d54": {
+    "url": "https://remotive.com/remote-jobs/sales/sales-jedi-2091088",
+    "title": "Sales Jedi",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "reasoning": "The program explicitly requires the candidate to live in Europe (Must live in Europe). The candidate is a working professional based in Vientiane, Lao PDR (outside Europe).",
+    "id": "b7f848e472f19d54",
+    "first_seen": "2026-08-18T13:08:33.206036+00:00",
+    "last_updated": "2026-08-18T13:08:33.206043+00:00"
+  },
+  "f594421ccfae8a5d": {
+    "url": "https://remotive.com/remote-jobs/customer-service/saas-product-support-jedi-2091087",
+    "title": "SaaS Product Support Jedi",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "reasoning": "The program explicitly requires the candidate to be based in Europe, EMEA, UK, Germany, France, or European timezones (UTC +1 or +2). The candidate is based in Vientiane, Lao PDR, which does not meet this location requirement. Additionally, the role is a full-time job, not a scholarship or fellowship.",
+    "id": "f594421ccfae8a5d",
+    "first_seen": "2026-08-18T13:08:42.663686+00:00",
+    "last_updated": "2026-08-18T13:08:42.663694+00:00"
+  },
+  "b477aa56e5f7ed77": {
+    "url": "https://remotive.com/remote-jobs/writing/freelance-writer-1185979",
+    "title": "Freelance Writer",
+    "status": "suspicious",
+    "credibility_status": "SUSPICIOUS",
+    "source_tier": "TIER_4",
+    "reasoning": "The job posting mentions that 'accessing some writing tasks may require payment,' which is a significant red flag as legitimate freelance writing jobs should not require upfront fees. Additionally, the pay rate of $20 per 100 words ($100 per article) is unusually high for entry-level or general freelance writing roles, which may indicate an attempt to lure applicants into a scam.",
+    "id": "b477aa56e5f7ed77",
+    "first_seen": "2026-08-18T13:09:32.274411+00:00",
+    "last_updated": "2026-08-18T13:09:32.274422+00:00"
+  },
+  "c4fe3c0ab41785e6": {
+    "url": "https://remotive.com/remote-jobs/writing/freelance-copywriter-1749306",
+    "title": "Freelance Copywriter",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "reasoning": "The program is a job posting for a freelance copywriter role, not a scholarship or fellowship. The candidate is seeking fully-funded scholarships, fellowships, or residencies, not employment opportunities.",
+    "id": "c4fe3c0ab41785e6",
+    "first_seen": "2026-08-18T13:09:41.342088+00:00",
+    "last_updated": "2026-08-18T13:09:41.342098+00:00"
+  },
+  "8e9d0568759197f4": {
+    "url": "https://remotive.com/remote-jobs/design/senior-graphic-designer-2091081",
+    "title": "Senior Graphic Designer",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "reasoning": "The program is a job listing for a 'Senior Graphic Designer' role, not a scholarship or fellowship. The candidate is a working professional (not a student) with a BSc, but the role requires 5+ years of commercial experience in graphic design and proficiency in Adobe Creative Suite & Adobe Illustrator, which are not addressed in the candidate profile. The candidate's background is in AI development, marketing, psychology, and community leadership, not graphic design.",
+    "id": "8e9d0568759197f4",
+    "first_seen": "2026-08-18T13:10:33.029642+00:00",
+    "last_updated": "2026-08-18T13:10:33.029650+00:00"
   }
 }
