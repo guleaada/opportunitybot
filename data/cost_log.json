@@ -10070,5 +10070,669 @@
     "tokens_in": 1785,
     "tokens_out": 212,
     "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-08-18T12:17:59.904762+00:00",
+    "provider": "mistral",
+    "task": "clean_html",
+    "tokens_in": 729,
+    "tokens_out": 421,
+    "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-08-18T12:18:00.782346+00:00",
+    "provider": "mistral",
+    "task": "first_pass_filter",
+    "tokens_in": 1000,
+    "tokens_out": 39,
+    "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-08-18T12:18:01.759966+00:00",
+    "provider": "mistral",
+    "task": "classify_opportunity",
+    "tokens_in": 618,
+    "tokens_out": 35,
+    "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-08-18T12:18:03.183621+00:00",
+    "provider": "mistral",
+    "task": "first_pass_filter",
+    "tokens_in": 533,
+    "tokens_out": 35,
+    "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-08-18T12:18:04.452766+00:00",
+    "provider": "mistral",
+    "task": "scam_detection",
+    "tokens_in": 653,
+    "tokens_out": 123,
+    "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-08-18T12:18:05.986896+00:00",
+    "provider": "mistral",
+    "task": "deep_eligibility",
+    "tokens_in": 1221,
+    "tokens_out": 137,
+    "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-08-18T12:18:10.661402+00:00",
+    "provider": "mistral",
+    "task": "clean_html",
+    "tokens_in": 1121,
+    "tokens_out": 798,
+    "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-08-18T12:18:11.506694+00:00",
+    "provider": "mistral",
+    "task": "first_pass_filter",
+    "tokens_in": 1377,
+    "tokens_out": 36,
+    "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-08-18T12:18:12.318738+00:00",
+    "provider": "mistral",
+    "task": "classify_opportunity",
+    "tokens_in": 999,
+    "tokens_out": 34,
+    "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-08-18T12:18:13.084325+00:00",
+    "provider": "mistral",
+    "task": "first_pass_filter",
+    "tokens_in": 910,
+    "tokens_out": 31,
+    "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-08-18T12:18:58.787336+00:00",
+    "provider": "mistral",
+    "task": "scam_detection",
+    "tokens_in": 1030,
+    "tokens_out": 139,
+    "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-08-18T12:19:01.706553+00:00",
+    "provider": "mistral",
+    "task": "deep_eligibility",
+    "tokens_in": 1598,
+    "tokens_out": 182,
+    "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-08-18T12:19:08.121544+00:00",
+    "provider": "mistral",
+    "task": "clean_html",
+    "tokens_in": 1520,
+    "tokens_out": 1270,
+    "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-08-18T12:19:09.061761+00:00",
+    "provider": "mistral",
+    "task": "first_pass_filter",
+    "tokens_in": 1849,
+    "tokens_out": 48,
+    "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-08-18T12:19:09.761814+00:00",
+    "provider": "mistral",
+    "task": "classify_opportunity",
+    "tokens_in": 1055,
+    "tokens_out": 37,
+    "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-08-18T12:19:10.618455+00:00",
+    "provider": "mistral",
+    "task": "first_pass_filter",
+    "tokens_in": 1382,
+    "tokens_out": 41,
+    "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-08-18T12:19:12.145269+00:00",
+    "provider": "mistral",
+    "task": "scam_detection",
+    "tokens_in": 1502,
+    "tokens_out": 117,
+    "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-08-18T12:19:13.811093+00:00",
+    "provider": "mistral",
+    "task": "deep_eligibility",
+    "tokens_in": 2070,
+    "tokens_out": 175,
+    "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-08-18T12:19:18.380124+00:00",
+    "provider": "mistral",
+    "task": "clean_html",
+    "tokens_in": 1111,
+    "tokens_out": 826,
+    "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-08-18T12:19:19.822315+00:00",
+    "provider": "mistral",
+    "task": "first_pass_filter",
+    "tokens_in": 1405,
+    "tokens_out": 36,
+    "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-08-18T12:19:58.194494+00:00",
+    "provider": "mistral",
+    "task": "classify_opportunity",
+    "tokens_in": 988,
+    "tokens_out": 36,
+    "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-08-18T12:20:00.966528+00:00",
+    "provider": "mistral",
+    "task": "first_pass_filter",
+    "tokens_in": 938,
+    "tokens_out": 35,
+    "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-08-18T12:20:03.200853+00:00",
+    "provider": "mistral",
+    "task": "scam_detection",
+    "tokens_in": 1058,
+    "tokens_out": 97,
+    "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-08-18T12:20:10.161378+00:00",
+    "provider": "mistral",
+    "task": "deep_eligibility",
+    "tokens_in": 1626,
+    "tokens_out": 204,
+    "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-08-18T12:20:15.025121+00:00",
+    "provider": "mistral",
+    "task": "clean_html",
+    "tokens_in": 1135,
+    "tokens_out": 870,
+    "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-08-18T12:20:16.002969+00:00",
+    "provider": "mistral",
+    "task": "first_pass_filter",
+    "tokens_in": 1449,
+    "tokens_out": 41,
+    "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-08-18T12:20:16.818042+00:00",
+    "provider": "mistral",
+    "task": "classify_opportunity",
+    "tokens_in": 1039,
+    "tokens_out": 45,
+    "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-08-18T12:20:17.758616+00:00",
+    "provider": "mistral",
+    "task": "first_pass_filter",
+    "tokens_in": 982,
+    "tokens_out": 31,
+    "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-08-18T12:20:19.095230+00:00",
+    "provider": "mistral",
+    "task": "scam_detection",
+    "tokens_in": 1102,
+    "tokens_out": 93,
+    "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-08-18T12:20:20.954764+00:00",
+    "provider": "mistral",
+    "task": "deep_eligibility",
+    "tokens_in": 1670,
+    "tokens_out": 182,
+    "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-08-18T12:21:03.692880+00:00",
+    "provider": "mistral",
+    "task": "clean_html",
+    "tokens_in": 2423,
+    "tokens_out": 951,
+    "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-08-18T12:21:04.988726+00:00",
+    "provider": "mistral",
+    "task": "first_pass_filter",
+    "tokens_in": 1530,
+    "tokens_out": 43,
+    "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-08-18T12:21:06.013973+00:00",
+    "provider": "mistral",
+    "task": "first_pass_filter",
+    "tokens_in": 1063,
+    "tokens_out": 36,
+    "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-08-18T12:21:09.889332+00:00",
+    "provider": "mistral",
+    "task": "scam_detection",
+    "tokens_in": 1224,
+    "tokens_out": 109,
+    "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-08-18T12:21:12.082745+00:00",
+    "provider": "mistral",
+    "task": "deep_eligibility",
+    "tokens_in": 1751,
+    "tokens_out": 218,
+    "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-08-18T12:21:24.039452+00:00",
+    "provider": "mistral",
+    "task": "clean_html",
+    "tokens_in": 2457,
+    "tokens_out": 1791,
+    "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-08-18T12:21:25.178279+00:00",
+    "provider": "mistral",
+    "task": "first_pass_filter",
+    "tokens_in": 2370,
+    "tokens_out": 58,
+    "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-08-18T12:21:26.037691+00:00",
+    "provider": "mistral",
+    "task": "classify_opportunity",
+    "tokens_in": 892,
+    "tokens_out": 53,
+    "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-08-18T12:21:26.783419+00:00",
+    "provider": "mistral",
+    "task": "first_pass_filter",
+    "tokens_in": 1903,
+    "tokens_out": 59,
+    "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-08-18T12:21:28.175581+00:00",
+    "provider": "mistral",
+    "task": "scam_detection",
+    "tokens_in": 2043,
+    "tokens_out": 110,
+    "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-08-18T12:21:59.161501+00:00",
+    "provider": "mistral",
+    "task": "deep_eligibility",
+    "tokens_in": 2591,
+    "tokens_out": 150,
+    "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-08-18T12:22:15.245817+00:00",
+    "provider": "mistral",
+    "task": "clean_html",
+    "tokens_in": 2451,
+    "tokens_out": 2356,
+    "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-08-18T12:22:16.138399+00:00",
+    "provider": "mistral",
+    "task": "first_pass_filter",
+    "tokens_in": 2620,
+    "tokens_out": 49,
+    "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-08-18T12:22:17.067519+00:00",
+    "provider": "mistral",
+    "task": "classify_opportunity",
+    "tokens_in": 948,
+    "tokens_out": 52,
+    "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-08-18T12:22:17.978057+00:00",
+    "provider": "mistral",
+    "task": "first_pass_filter",
+    "tokens_in": 2153,
+    "tokens_out": 58,
+    "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-08-18T12:22:19.645917+00:00",
+    "provider": "mistral",
+    "task": "scam_detection",
+    "tokens_in": 2288,
+    "tokens_out": 137,
+    "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-08-18T12:22:25.597712+00:00",
+    "provider": "mistral",
+    "task": "deep_eligibility",
+    "tokens_in": 2841,
+    "tokens_out": 129,
+    "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-08-18T12:22:35.348896+00:00",
+    "provider": "mistral",
+    "task": "clean_html",
+    "tokens_in": 2785,
+    "tokens_out": 1942,
+    "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-08-18T12:22:36.293736+00:00",
+    "provider": "mistral",
+    "task": "first_pass_filter",
+    "tokens_in": 2521,
+    "tokens_out": 54,
+    "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-08-18T12:22:37.419648+00:00",
+    "provider": "mistral",
+    "task": "first_pass_filter",
+    "tokens_in": 2054,
+    "tokens_out": 39,
+    "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-08-18T12:22:59.101675+00:00",
+    "provider": "mistral",
+    "task": "scam_detection",
+    "tokens_in": 2190,
+    "tokens_out": 115,
+    "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-08-18T12:23:05.227106+00:00",
+    "provider": "mistral",
+    "task": "deep_eligibility",
+    "tokens_in": 2742,
+    "tokens_out": 143,
+    "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-08-18T12:23:21.837785+00:00",
+    "provider": "mistral",
+    "task": "clean_html",
+    "tokens_in": 2654,
+    "tokens_out": 1286,
+    "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-08-18T12:23:22.698882+00:00",
+    "provider": "mistral",
+    "task": "first_pass_filter",
+    "tokens_in": 1865,
+    "tokens_out": 47,
+    "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-08-18T12:23:25.649668+00:00",
+    "provider": "mistral",
+    "task": "classify_opportunity",
+    "tokens_in": 947,
+    "tokens_out": 55,
+    "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-08-18T12:23:27.300978+00:00",
+    "provider": "mistral",
+    "task": "first_pass_filter",
+    "tokens_in": 1398,
+    "tokens_out": 31,
+    "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-08-18T12:23:28.593282+00:00",
+    "provider": "mistral",
+    "task": "scam_detection",
+    "tokens_in": 1576,
+    "tokens_out": 91,
+    "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-08-18T12:23:29.916046+00:00",
+    "provider": "mistral",
+    "task": "deep_eligibility",
+    "tokens_in": 2086,
+    "tokens_out": 122,
+    "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-08-18T12:23:47.168167+00:00",
+    "provider": "mistral",
+    "task": "clean_html",
+    "tokens_in": 2480,
+    "tokens_out": 2354,
+    "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-08-18T12:23:48.334493+00:00",
+    "provider": "mistral",
+    "task": "first_pass_filter",
+    "tokens_in": 2643,
+    "tokens_out": 72,
+    "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-08-18T12:23:58.984218+00:00",
+    "provider": "mistral",
+    "task": "first_pass_filter",
+    "tokens_in": 2176,
+    "tokens_out": 59,
+    "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-08-18T12:24:05.509149+00:00",
+    "provider": "mistral",
+    "task": "scam_detection",
+    "tokens_in": 2334,
+    "tokens_out": 123,
+    "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-08-18T12:24:16.821370+00:00",
+    "provider": "mistral",
+    "task": "deep_eligibility",
+    "tokens_in": 2864,
+    "tokens_out": 156,
+    "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-08-18T12:24:31.711116+00:00",
+    "provider": "mistral",
+    "task": "clean_html",
+    "tokens_in": 2821,
+    "tokens_out": 2020,
+    "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-08-18T12:24:32.626421+00:00",
+    "provider": "mistral",
+    "task": "first_pass_filter",
+    "tokens_in": 2599,
+    "tokens_out": 61,
+    "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-08-18T12:24:33.293465+00:00",
+    "provider": "mistral",
+    "task": "first_pass_filter",
+    "tokens_in": 2132,
+    "tokens_out": 35,
+    "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-08-18T12:24:35.001845+00:00",
+    "provider": "mistral",
+    "task": "scam_detection",
+    "tokens_in": 2280,
+    "tokens_out": 172,
+    "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-08-18T12:24:36.872329+00:00",
+    "provider": "mistral",
+    "task": "deep_eligibility",
+    "tokens_in": 2820,
+    "tokens_out": 214,
+    "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-08-18T12:24:45.891843+00:00",
+    "provider": "mistral",
+    "task": "clean_html",
+    "tokens_in": 2640,
+    "tokens_out": 1419,
+    "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-08-18T12:24:48.265057+00:00",
+    "provider": "mistral",
+    "task": "first_pass_filter",
+    "tokens_in": 1998,
+    "tokens_out": 46,
+    "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-08-18T12:24:58.969389+00:00",
+    "provider": "mistral",
+    "task": "first_pass_filter",
+    "tokens_in": 1531,
+    "tokens_out": 61,
+    "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-08-18T12:25:05.347175+00:00",
+    "provider": "mistral",
+    "task": "scam_detection",
+    "tokens_in": 1692,
+    "tokens_out": 96,
+    "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-08-18T12:25:17.584481+00:00",
+    "provider": "mistral",
+    "task": "deep_eligibility",
+    "tokens_in": 2219,
+    "tokens_out": 116,
+    "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-08-18T12:25:29.663926+00:00",
+    "provider": "mistral",
+    "task": "clean_html",
+    "tokens_in": 2763,
+    "tokens_out": 1564,
+    "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-08-18T12:25:32.793589+00:00",
+    "provider": "mistral",
+    "task": "first_pass_filter",
+    "tokens_in": 2143,
+    "tokens_out": 49,
+    "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-08-18T12:25:33.816649+00:00",
+    "provider": "mistral",
+    "task": "classify_opportunity",
+    "tokens_in": 1049,
+    "tokens_out": 55,
+    "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-08-18T12:25:34.930546+00:00",
+    "provider": "mistral",
+    "task": "first_pass_filter",
+    "tokens_in": 1676,
+    "tokens_out": 72,
+    "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-08-18T12:25:37.116587+00:00",
+    "provider": "mistral",
+    "task": "scam_detection",
+    "tokens_in": 1843,
+    "tokens_out": 206,
+    "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-08-18T12:25:49.000809+00:00",
+    "provider": "mistral",
+    "task": "clean_html",
+    "tokens_in": 2620,
+    "tokens_out": 1970,
+    "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-08-18T12:25:50.093230+00:00",
+    "provider": "mistral",
+    "task": "first_pass_filter",
+    "tokens_in": 2549,
+    "tokens_out": 46,
+    "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-08-18T12:25:58.872699+00:00",
+    "provider": "mistral",
+    "task": "classify_opportunity",
+    "tokens_in": 965,
+    "tokens_out": 48,
+    "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-08-18T12:26:05.008282+00:00",
+    "provider": "mistral",
+    "task": "first_pass_filter",
+    "tokens_in": 2082,
+    "tokens_out": 37,
+    "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-08-18T12:26:18.017040+00:00",
+    "provider": "mistral",
+    "task": "scam_detection",
+    "tokens_in": 2223,
+    "tokens_out": 188,
+    "cost_usd": 0.0
   }
 ]
