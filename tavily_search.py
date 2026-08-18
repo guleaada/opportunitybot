@@ -33,6 +33,8 @@ import requests
 
 # The one result model for the whole project — never a second one.
 from search import SearchResult
+from rate_limiter import (wait_for_quota, register_provider,
+                          DailyQuotaExceeded)
 
 TAVILY_URL = "https://api.tavily.com/search"
 TAVILY_TIMEOUT_SECONDS = float(os.getenv("TAVILY_TIMEOUT_SECONDS", "20"))
@@ -53,6 +55,20 @@ TAVILY_BACKOFF_MAX_SECONDS = float(os.getenv("TAVILY_BACKOFF_MAX_SECONDS", "30")
 # Tavily maps all of these to "forbidden": plan limit reached / out of
 # credits. Retrying inside one scan cannot help, so they disable the provider.
 _FORBIDDEN_STATUSES = (403, 432, 433)
+
+# Conservative, environment-overridable throttle. These are NOT Tavily's
+# published free-tier limits — Tavily meters by credits, not by requests per
+# minute or day, and does not document an RPM/RPD ceiling. They are a
+# deliberately cautious local budget, in the same spirit as the Mistral
+# placeholders, so a runaway scan cannot burn an account's credits. Raise them
+# once real limits are known.
+TAVILY_REQUESTS_PER_MINUTE = int(os.getenv("TAVILY_REQUESTS_PER_MINUTE", "10"))
+TAVILY_REQUESTS_PER_DAY = int(os.getenv("TAVILY_REQUESTS_PER_DAY", "100"))
+
+# Registering here (rather than hand-editing rate_limiter.LIMITS) creates the
+# quota deques alongside the limits — the parallel-dicts pattern that caused
+# KeyError('openrouter') is exactly what register_provider exists to prevent.
+register_provider("tavily", TAVILY_REQUESTS_PER_MINUTE, TAVILY_REQUESTS_PER_DAY)
 
 _BLANK_STATE = {
     "attempted": 0, "successful": 0, "results": 0,
@@ -159,6 +175,15 @@ def tavily_search(query: str, max_results: int = 10) -> List[SearchResult]:
 
     attempt = 0
     while True:
+        try:
+            wait_for_quota("tavily")          # local rpm/rpd throttle
+        except DailyQuotaExceeded:
+            _state["disabled"] = True
+            _state["disabled_reason"] = "local daily request budget reached"
+            print("⛔ Tavily: local daily request budget reached — "
+                  "stopping Tavily discovery for this scan.")
+            return []
+
         _state["attempted"] += 1
         try:
             resp = requests.post(TAVILY_URL, json=payload, headers=headers,

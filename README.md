@@ -111,8 +111,9 @@ JSON files are committed and **not** gitignored.
    | `EMAIL_FROM` | gulilatkasiye4@gmail.com |
    | `EMAIL_APP_PASSWORD` | Gmail **App Password** (not your login password) |
    | `EMAIL_TO` | gulilatkasiye4@gmail.com |
-   | `GOOGLE_CSE_API_KEY` | *(optional)* console.cloud.google.com |
-   | `GOOGLE_CSE_ID` | *(optional)* programmablesearchengine.google.com |
+   | `TAVILY_API_KEY` | *(optional, preferred)* app.tavily.com |
+   | `GOOGLE_CSE_API_KEY` | *(optional, fallback)* console.cloud.google.com |
+   | `GOOGLE_CSE_ID` | *(optional, fallback)* programmablesearchengine.google.com |
    | `TELEGRAM_BOT_TOKEN` | *(optional)* @BotFather |
    | `TELEGRAM_CHAT_ID` | *(optional)* your chat id |
 
@@ -138,6 +139,7 @@ JSON files are committed and **not** gitignored.
 | `GEMINI_API_KEY` | [aistudio.google.com/app/apikey](https://aistudio.google.com/app/apikey) | **FREE**, no credit card |
 | `GROQ_API_KEY` | [console.groq.com](https://console.groq.com) | **FREE**, no credit card |
 | `EMAIL_APP_PASSWORD` | [myaccount.google.com/apppasswords](https://myaccount.google.com/apppasswords) (needs 2FA on) | Free |
+| `TAVILY_API_KEY` | [app.tavily.com](https://app.tavily.com) | Free tier, credit-metered |
 | `GOOGLE_CSE_API_KEY` + `GOOGLE_CSE_ID` | [console.cloud.google.com](https://console.cloud.google.com) → enable **Custom Search API** → create a Programmable Search Engine at [programmablesearchengine.google.com](https://programmablesearchengine.google.com) (set it to search the entire web) | Free tier: 100 queries/day |
 | `TELEGRAM_BOT_TOKEN` / `TELEGRAM_CHAT_ID` | (optional) [@BotFather](https://t.me/botfather) | Free |
 | `GOOGLE_CALENDAR_CREDENTIALS_PATH` | (optional) Google Cloud → OAuth client → download `credentials.json` | Free |
@@ -223,7 +225,35 @@ DAILY_SCAN_TIME=08:00            # daemon schedule
 | Workflow can't push data | *Settings → Actions → General → Workflow permissions → Read and write*. |
 | Claude rate-limited / budget hit | Expected — it auto-downgrades to Gemini; raise `DAILY_CLAUDE_BUDGET_USD` if needed. |
 | JSON looks corrupted | Delete the file in `data/`; the bot reinitializes it empty on next run. |
-| No opportunities found | Without `GOOGLE_CSE_API_KEY`/`GOOGLE_CSE_ID` the bot falls back to ~14 official seed URLs (DAAD, Chevening, MEXT, …) so it still works — but adding CSE keys widens discovery a lot. |
+| No opportunities found | Without a web-search key the bot falls back to RSS feeds, the job APIs and ~14 official seed URLs (DAAD, Chevening, MEXT, …) so it still works — but adding `TAVILY_API_KEY` widens discovery a lot. |
+| `Google HTTP 403 PERMISSION_DENIED` | New Google Cloud projects are not granted the Custom Search JSON API. Set `TAVILY_API_KEY` instead — it is preferred automatically. |
+
+## Web search backend
+
+Discovery uses **one** web-search backend per scan, chosen at startup:
+
+| Configured | Backend used |
+|---|---|
+| `TAVILY_API_KEY` set | **Tavily** — preferred whenever present, even if the Google keys are also set |
+| Tavily absent, `GOOGLE_CSE_API_KEY` **and** `GOOGLE_CSE_ID` set | Google Custom Search |
+| neither | search disabled — RSS, the job APIs and the seed URLs still run |
+
+Google's implementation is retained in full; it is unusable on this project
+only because new Google Cloud projects are refused access to the Custom
+Search JSON API (`403 PERMISSION_DENIED`). Restoring it later is a matter of
+configuration, not code.
+
+Two optional throttle knobs bound Tavily usage:
+
+| Variable | Default | Meaning |
+|---|---|---|
+| `TAVILY_REQUESTS_PER_MINUTE` | `10` | Local per-minute cap |
+| `TAVILY_REQUESTS_PER_DAY` | `100` | Local per-day cap |
+
+These are **not** Tavily's published limits — Tavily meters by credits and
+documents no RPM/RPD ceiling. They are a deliberately conservative local
+budget so a runaway scan cannot drain an account. Raise them once you know
+your real allowance.
 
 ## 9. Honesty rule
 

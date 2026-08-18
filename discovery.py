@@ -225,47 +225,74 @@ class Provider:
         raise NotImplementedError
 
 
+# Search backends this provider knows how to report on. Order matters only
+# for locating the summary section; selection happens in main.py.
+SEARCH_SUMMARY_KEYS = ("google", "tavily")
+
+GOOGLE_REQUIRED_ENV = ("GOOGLE_CSE_API_KEY", "GOOGLE_CSE_ID")
+
+
 class SearchProvider(Provider):
-    """Google CSE, budgeted + rotated + circuit-broken."""
+    """A web-search backend: budgeted + rotated + circuit-broken.
+
+    Backend-agnostic. The name, the credentials it needs, the search callable
+    and the per-scan state object are all injected, so Google and Tavily
+    differ only in construction. Defaults reproduce the Google wiring exactly,
+    so existing callers and tests are unaffected.
+
+    ``state`` is any object exposing ``reset_state()``, ``stats()`` and
+    ``disabled()`` — ``search`` and ``tavily_search`` both do.
+    """
     name = "google"
 
-    def __init__(self, search_fn=None, quality_fn=None):
+    def __init__(self, search_fn=None, quality_fn=None, name=None,
+                 required_env=None, state=None, label=None):
         self._search = search_fn
         self._quality = quality_fn
+        self.name = name or type(self).name
+        self._required_env = tuple(required_env or GOOGLE_REQUIRED_ENV)
+        self._state = state
+        self.label = label or self.name.capitalize()
+
+    def _state_mod(self):
+        # Imported lazily so discovery keeps importing without the backend.
+        if self._state is None:
+            import search as search_mod
+            self._state = search_mod
+        return self._state
 
     @property
     def enabled(self) -> bool:
-        return bool(os.getenv("GOOGLE_CSE_API_KEY")
-                    and os.getenv("GOOGLE_CSE_ID"))
+        return all(os.getenv(n) for n in self._required_env)
 
     def discover(self, ctx) -> list:
-        import search as search_mod
         out = []
+        summary = ctx["summary"].setdefault(self.name, {})
         if not self.enabled:
-            missing = [n for n in ("GOOGLE_CSE_API_KEY", "GOOGLE_CSE_ID")
-                       if not os.getenv(n)]
+            missing = [n for n in self._required_env if not os.getenv(n)]
             msg = f"{' / '.join(missing)} not configured"
             # Explicit, not a silent skip — these are the exact variable names
             # the code reads and the workflow passes from repo secrets.
-            print(f"⛔ Google discovery disabled — {msg}")
-            ctx["summary"]["google"]["skipped"] = msg
-            ctx["summary"]["google"]["status"] = "DISABLED"
+            print(f"⛔ {self.label} discovery disabled — {msg}")
+            summary["skipped"] = msg
+            summary["status"] = "DISABLED"
             return out
 
-        search_mod.reset_google_state()
-        budget = ctx["google_budget"]
+        state = self._state_mod()
+        state.reset_state()
+        budget = ctx.get("search_budget", ctx.get("google_budget"))
         queries = select_queries(ctx["state"], budget=budget)
-        ctx["summary"]["google"]["queries_planned"] = len(queries)
+        summary["queries_planned"] = len(queries)
 
         for category, query in queries:
-            if search_mod.google_disabled():
-                ctx["summary"]["google"]["stopped_early"] = True
+            if state.disabled():
+                summary["stopped_early"] = True
                 break
             try:
                 results = self._search(query, max_results=ctx["per_query"])
             except Exception as e:
                 record_failure(ctx["health"], self.name, "error")
-                print(f"⚠️  Google query failed ({category}): {e}")
+                print(f"⚠️  {self.label} query failed ({category}): {e}")
                 continue
             record_category_yield(ctx["state"], category, len(results))
             for r in results:
@@ -275,8 +302,8 @@ class SearchProvider(Provider):
                                         or self._quality(r.url))
                 out.append(r)
 
-        g = search_mod.google_stats()
-        ctx["summary"]["google"].update({
+        g = state.stats()
+        summary.update({
             "attempted": g["attempted"], "successful": g["successful"],
             "429": g["429"], "403": g["403"], "errors": g["other_errors"],
             "candidates": len(out),
@@ -454,10 +481,10 @@ def normalize_and_dedupe(batches) -> list:
 # ══════════════════════════════════════════════════════════════════════════
 # Orchestration
 # ══════════════════════════════════════════════════════════════════════════
-def new_summary() -> dict:
+def new_summary(search_name: str = "google") -> dict:
     return {
-        "google": {"attempted": 0, "successful": 0, "429": 0, "403": 0,
-                   "errors": 0, "candidates": 0, "queries_planned": 0},
+        search_name: {"attempted": 0, "successful": 0, "429": 0, "403": 0,
+                      "errors": 0, "candidates": 0, "queries_planned": 0},
         "rss": {"attempted": 0, "successful": 0, "failed": 0,
                 "skipped_dead": 0, "candidates": 0},
         "api": {"sources": 0, "healthy": 0, "failed": 0, "candidates": 0},
@@ -466,13 +493,27 @@ def new_summary() -> dict:
     }
 
 
-def google_budget_for(health: dict) -> int:
-    """Cut Google's budget when it has been failing — lean on RSS/API instead."""
+def search_budget_for(health: dict, name: str = "google") -> int:
+    """Cut the search budget when that backend has been failing — lean on
+    RSS/API instead."""
     budget = GOOGLE_MAX_QUERIES_PER_SCAN
-    if is_unhealthy(health, "google"):
+    if is_unhealthy(health, name):
         budget = max(1, budget // 4)
-        print(f"⚠️  Google looks unhealthy — reducing query budget to {budget}")
+        print(f"⚠️  {name.capitalize()} looks unhealthy — "
+              f"reducing query budget to {budget}")
     return budget
+
+
+# Retained name for existing callers/tests.
+google_budget_for = search_budget_for
+
+
+def search_provider_name(providers) -> str:
+    """Which search backend is in this run's provider list."""
+    for p in providers or []:
+        if isinstance(p, SearchProvider):
+            return p.name
+    return "google"
 
 
 def run_discovery(providers, per_query: int = 8) -> tuple:
@@ -482,9 +523,13 @@ def run_discovery(providers, per_query: int = 8) -> tuple:
     """
     state = load_state()
     health = load_health()
-    summary = new_summary()
+    search_name = search_provider_name(providers)
+    summary = new_summary(search_name)
+    budget = search_budget_for(health, search_name)
     ctx = {"state": state, "health": health, "summary": summary,
-           "per_query": per_query, "google_budget": google_budget_for(health)}
+           "per_query": per_query, "search_budget": budget,
+           # Retained key so anything still reading it keeps working.
+           "google_budget": budget}
 
     batches = []
     for p in providers:
@@ -511,7 +556,15 @@ COVERAGE_WARN_BELOW = int(os.getenv("DISCOVERY_WARN_BELOW", "20"))
 COVERAGE_CRITICAL_BELOW = int(os.getenv("DISCOVERY_CRITICAL_BELOW", "5"))
 
 
-def google_status(g: dict) -> str:
+def search_section(summary: dict):
+    """(name, section) for whichever search backend this summary describes."""
+    for key in SEARCH_SUMMARY_KEYS:
+        if isinstance(summary.get(key), dict):
+            return key, summary[key]
+    return "google", {}
+
+
+def search_status(g: dict) -> str:
     if g.get("skipped"):
         return "DISABLED"
     if g.get("429", 0) and not g.get("successful", 0):
@@ -521,6 +574,10 @@ def google_status(g: dict) -> str:
     if g.get("successful", 0):
         return "RATE_LIMITED" if g.get("429", 0) else "HEALTHY"
     return "IDLE"
+
+
+# Retained name for existing callers/tests.
+google_status = search_status
 
 
 def coverage_level(raw: int) -> str:
@@ -534,13 +591,16 @@ def coverage_level(raw: int) -> str:
 def format_summary(summary: dict, new_candidates=None) -> list:
     """Report lines that make it obvious whether discovery or downstream
     filtering is the bottleneck, and when coverage is too thin to trust."""
-    g, r = summary["google"], summary["rss"]
+    search_name, g = search_section(summary)
+    r = summary["rss"]
     a, s, t = summary["api"], summary["seed"], summary["total"]
     raw = t.get("raw", 0)
 
+    # Padded so "Google:" and "Tavily:" align identically to before.
+    label = f"{search_name.capitalize()}:"
     lines = [
         "🔭 DISCOVERY HEALTH",
-        f"   Google:  status {google_status(g)}  •  "
+        f"   {label:8} status {search_status(g)}  •  "
         f"planned {g.get('queries_planned', 0)}, attempted {g.get('attempted', 0)}, "
         f"ok {g.get('successful', 0)}, 429 {g.get('429', 0)}, "
         f"403 {g.get('403', 0)} → {g.get('candidates', 0)} candidates",

@@ -111,6 +111,31 @@ OPPORTUNITY_FEED_DOMAINS = frozenset(
 )
 
 
+def _search_provider():
+    """Pick the web-search backend for this scan.
+
+    Tavily first when its key is configured, because Google's Custom Search
+    JSON API is unavailable to this project (403 PERMISSION_DENIED — the Cloud
+    project has no access to that API). Google is kept intact and is used
+    whenever its credentials are present and Tavily's are not, so restoring
+    CSE later is a matter of configuration, not code.
+
+    With neither configured a Google-shaped provider is still returned: it
+    reports DISABLED with the missing variable names, exactly as before.
+    """
+    if os.getenv("TAVILY_API_KEY"):
+        import tavily_search
+        return discovery.SearchProvider(
+            search_fn=tavily_search.tavily_search,
+            quality_fn=domain_quality,
+            name="tavily",
+            required_env=("TAVILY_API_KEY",),
+            state=tavily_search,
+        )
+    return discovery.SearchProvider(search_fn=tools.web_search,
+                                    quality_fn=domain_quality)
+
+
 # ════════════════════════════════════════════════════════════════════════
 # Core pipeline
 # ════════════════════════════════════════════════════════════════════════
@@ -464,8 +489,7 @@ def run_scan(max_results_per_source: int = 8):
     from source_whitelist import all_seed_urls
 
     providers = [
-        discovery.SearchProvider(search_fn=tools.web_search,
-                                 quality_fn=domain_quality),
+        _search_provider(),
         discovery.RSSProvider(fetch_fn=_fetch_rss_feeds),
         discovery.APIProvider(),
         discovery.SeedProvider(seeds_fn=all_seed_urls),

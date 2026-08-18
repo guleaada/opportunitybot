@@ -75,6 +75,7 @@ def run(query="fully funded fellowship", max_results=10, responses=None,
         env["TAVILY_API_KEY"] = key
     with patch.dict(os.environ, env, clear=True), \
          patch.object(tv, "time") as fake_time, \
+         patch.object(tv, "wait_for_quota"), \
          patch.object(tv.requests, "post") as post:
         fake_time.sleep = lambda s: None          # never really sleep
         post.side_effect = seq if len(seq) > 1 else None
@@ -271,6 +272,7 @@ ok("400/404/500/502/503 → [], counted as other_errors, provider stays enabled"
 # A transport failure is a failure, not a crash.
 tv.reset_state()
 with patch.dict(os.environ, {"TAVILY_API_KEY": FAKE_KEY}), \
+     patch.object(tv, "wait_for_quota"), \
      patch.object(tv.requests, "post",
                   side_effect=tv.requests.RequestException("conn reset")):
     assert tv.tavily_search("q") == []

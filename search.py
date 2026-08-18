@@ -113,6 +113,14 @@ def google_disabled() -> bool:
     return bool(_google["disabled"])
 
 
+# Uniform per-scan state interface, so discovery.SearchProvider can drive any
+# search backend without knowing which one it has. Aliases only — the Google
+# functions above remain the implementation and keep their original names.
+reset_state = reset_google_state
+stats = google_stats
+disabled = google_disabled
+
+
 def _retry_after_seconds(resp, attempt: int) -> float:
     """Honour Retry-After when the server sends it; else exponential backoff."""
     header = None
