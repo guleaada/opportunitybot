@@ -1,0 +1,89 @@
+# TEMPORARY diagnostic — delete once the Google CSE 400 is identified.
+#
+# Makes exactly ONE Custom Search request and prints only the HTTP status and
+# Google's .error object. Secrets are never echoed: they reach curl through a
+# stdin config file (so they never appear in argv or in a printed URL), and the
+# response body is refused if it contains either value. Lengths are reported as
+# numbers only, which is what distinguishes "value has a trailing newline" from
+# "value is wrong".
+#
+# Runs ONLY on a push to this branch or a manual dispatch. It does not touch
+# the daily scan and changes no production behaviour.
+name: Google CSE 400 diagnostic
+
+on:
+  push:
+    branches: [claude/google-cse-diagnostic]
+  workflow_dispatch:
+
+permissions: {}
+
+jobs:
+  diagnose:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Probe Custom Search
+        env:
+          GOOGLE_CSE_API_KEY: ${{ secrets.GOOGLE_CSE_API_KEY }}
+          GOOGLE_CSE_ID: ${{ secrets.GOOGLE_CSE_ID }}
+        run: |
+          set -uo pipefail
+
+          if [ -z "${GOOGLE_CSE_API_KEY}" ] || [ -z "${GOOGLE_CSE_ID}" ]; then
+            echo "One or both secrets are EMPTY or unset — nothing to probe."
+            echo "  GOOGLE_CSE_API_KEY set: $([ -n "${GOOGLE_CSE_API_KEY}" ] && echo yes || echo NO)"
+            echo "  GOOGLE_CSE_ID set:      $([ -n "${GOOGLE_CSE_ID}" ] && echo yes || echo NO)"
+            exit 1
+          fi
+
+          # ── Lengths only. Never the values. ──────────────────────────────
+          KEY_LEN=$(printf %s "${GOOGLE_CSE_API_KEY}" | wc -c)
+          CX_LEN=$(printf %s "${GOOGLE_CSE_ID}" | wc -c)
+          KEY_TRIM=$(printf %s "${GOOGLE_CSE_API_KEY}" | tr -d '[:space:]' | wc -c)
+          CX_TRIM=$(printf %s "${GOOGLE_CSE_ID}" | tr -d '[:space:]' | wc -c)
+
+          echo "── secret shape ──────────────────────────────────────────"
+          echo "GOOGLE_CSE_API_KEY  length=${KEY_LEN}  non-whitespace=${KEY_TRIM}"
+          echo "GOOGLE_CSE_ID       length=${CX_LEN}  non-whitespace=${CX_TRIM}"
+          if [ "${KEY_LEN}" -eq "${KEY_TRIM}" ]; then
+            echo "  key: no whitespace characters"
+          else
+            echo "  key: CONTAINS $((KEY_LEN - KEY_TRIM)) WHITESPACE CHARACTER(S)"
+          fi
+          if [ "${CX_LEN}" -eq "${CX_TRIM}" ]; then
+            echo "  cx:  no whitespace characters"
+          else
+            echo "  cx:  CONTAINS $((CX_LEN - CX_TRIM)) WHITESPACE CHARACTER(S)"
+          fi
+
+          # ── Exactly one request. Secrets go in via stdin, not argv. ──────
+          BODY=$(mktemp)
+          STATUS=$(
+            {
+              printf 'url = "https://www.googleapis.com/customsearch/v1"\n'
+              printf 'get\n'
+              printf 'silent\n'
+              printf 'show-error\n'
+              printf 'data-urlencode = "key=%s"\n' "${GOOGLE_CSE_API_KEY}"
+              printf 'data-urlencode = "cx=%s"\n'  "${GOOGLE_CSE_ID}"
+              printf 'data-urlencode = "q=test"\n'
+              printf 'data-urlencode = "num=1"\n'
+              printf 'output = "%s"\n' "${BODY}"
+              printf 'write-out = "%%{http_code}"\n'
+            } | curl --config -
+          )
+
+          echo
+          echo "── result ────────────────────────────────────────────────"
+          echo "HTTP status: ${STATUS}"
+
+          if grep -qF -e "${GOOGLE_CSE_API_KEY}" -e "${GOOGLE_CSE_ID}" "${BODY}" 2>/dev/null; then
+            echo "::error::Response echoes a credential — body withheld."
+          elif jq -e . "${BODY}" >/dev/null 2>&1; then
+            echo "Google .error object:"
+            jq '.error // "no .error object — request succeeded"' "${BODY}"
+          else
+            echo "(response was not valid JSON; length $(wc -c < "${BODY}") bytes)"
+          fi
+          rm -f "${BODY}"
