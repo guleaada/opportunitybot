@@ -3,25 +3,35 @@ model_router.py — routes each task to the correct AI model based on stakes.
 
 PHILOSOPHY
 ----------
-- Claude Sonnet (paid)  → high-stakes judgment ONLY (scam, eligibility, scoring)
+- Claude Sonnet (paid)  → high-stakes judgment ONLY
 - Free providers        → everything else, tried in a fixed order
 
-Plus:
-- Hard daily/monthly budget cap on Claude (downgrade to the free chain).
-- Graceful fallback chain when free models fail.
-- Every call is logged with which model ran and what it cost.
+Free-provider chain:
+    1. Groq
+    2. OpenRouter
+    3. Mistral
+    4. Gemini
 
-Free-provider chain (in order, configurable via MODEL_PROVIDER_ORDER):
-    1. Groq       — primary
-    2. OpenRouter — independent backup (skipped when no API key is set)
-    3. Mistral    — free tier (skipped when no API key is set)
-    4. Gemini     — last resort
+Provider model names are configuration-driven through environment variables:
 
-A provider that returns 429 (RATE_LIMITED) or a configuration error such
-as 404 / model-not-found (FAILED) is skipped for the REST OF THE SCAN.
+    GROQ_MODEL
+    OPENROUTER_MODEL
+    MISTRAL_MODEL
+    GEMINI_MODEL
+    ANTHROPIC_MODEL
+    ANTHROPIC_FALLBACK_MODEL
 
-    Claude fails           → re-raise (fail loud; high stakes)
-    ALL free models fail   → Claude Haiku 4.5, but ONLY if budget allows
+IMPORTANT
+---------
+There are NO hardcoded Groq model IDs in this file.
+
+A provider returning 429 or a model/configuration error is disabled
+for the REST OF THE SCAN.
+
+Claude failures remain loud for high-stakes tasks.
+
+If every free provider fails, Claude Haiku is used only when the
+Claude budget allows it.
 """
 
 import json
@@ -41,11 +51,12 @@ from cost_tracker import (
 from rate_limiter import (
     wait_for_quota,
     seconds_until_available,
-    DailyQuotaExceeded,
 )
 
 
-# ── Lazy client initialization ─────────────────────────────────────────────
+# ═══════════════════════════════════════════════════════════════════════════
+# LAZY CLIENT INITIALIZATION
+# ═══════════════════════════════════════════════════════════════════════════
 
 _clients = {
     "anthropic": None,
@@ -58,8 +69,15 @@ def _anthropic():
     if _clients["anthropic"] is None:
         from anthropic import Anthropic
 
+        api_key = os.getenv("ANTHROPIC_API_KEY")
+
+        if not api_key:
+            raise RuntimeError(
+                "ANTHROPIC_API_KEY is not set"
+            )
+
         _clients["anthropic"] = Anthropic(
-            api_key=os.getenv("ANTHROPIC_API_KEY")
+            api_key=api_key
         )
 
     return _clients["anthropic"]
@@ -69,14 +87,22 @@ def _gemini(model_name: Optional[str] = None):
     """
     Create the Gemini client using the current google-genai SDK.
 
-    The model name is intentionally NOT used to construct a model object here.
-    The current SDK passes the model name to client.models.generate_content().
+    The model name is passed to generate_content().
+    It is NOT used to construct a model object.
     """
+
     from google import genai
 
     if _clients["gemini"] is None:
+        api_key = os.getenv("GEMINI_API_KEY")
+
+        if not api_key:
+            raise RuntimeError(
+                "GEMINI_API_KEY is not set"
+            )
+
         _clients["gemini"] = genai.Client(
-            api_key=os.getenv("GEMINI_API_KEY")
+            api_key=api_key
         )
 
     return _clients["gemini"]
@@ -86,17 +112,26 @@ def _groq():
     if _clients["groq"] is None:
         from groq import Groq
 
+        api_key = os.getenv("GROQ_API_KEY")
+
+        if not api_key:
+            raise RuntimeError(
+                "GROQ_API_KEY is not set"
+            )
+
         _clients["groq"] = Groq(
-            api_key=os.getenv("GROQ_API_KEY")
+            api_key=api_key
         )
 
     return _clients["groq"]
 
 
-# ── Task → model mapping ──────────────────────────────────────────────────
+# ═══════════════════════════════════════════════════════════════════════════
+# TASK → PROVIDER MAPPING
+# ═══════════════════════════════════════════════════════════════════════════
 
 TASK_ROUTING = {
-    # HIGH STAKES — Claude ($)
+    # HIGH STAKES — Claude
     "scam_detection": "claude",
     "deep_eligibility": "claude",
     "final_scoring": "claude",
@@ -117,7 +152,9 @@ TASK_ROUTING = {
 }
 
 
-# ── Provider order ─────────────────────────────────────────────────────────
+# ═══════════════════════════════════════════════════════════════════════════
+# PROVIDER ORDER
+# ═══════════════════════════════════════════════════════════════════════════
 
 DEFAULT_PROVIDER_ORDER = [
     "groq",
@@ -128,13 +165,22 @@ DEFAULT_PROVIDER_ORDER = [
 
 
 def provider_order() -> list:
+    """
+    Return configured free-provider order.
+
+    MODEL_PROVIDER_ORDER can override the default.
+
+    Example:
+        MODEL_PROVIDER_ORDER=groq,openrouter,mistral,gemini
+    """
+
     raw = os.getenv("MODEL_PROVIDER_ORDER")
 
     if not raw:
         return list(DEFAULT_PROVIDER_ORDER)
 
     return [
-        p.strip()
+        p.strip().lower()
         for p in raw.split(",")
         if p.strip()
     ]
@@ -144,10 +190,12 @@ def provider_order() -> list:
 FREE_CHAIN = list(DEFAULT_PROVIDER_ORDER)
 
 
-# ── Routing reasons ────────────────────────────────────────────────────────
+# ═══════════════════════════════════════════════════════════════════════════
+# ROUTING REASONS
+# ═══════════════════════════════════════════════════════════════════════════
 
 ROUTING_REASON = {
-    "claude": "paid / only if explicitly configured",
+    "claude": "paid / high-stakes only",
     "groq": "free tier",
     "openrouter": "free tier",
     "mistral": "free tier",
@@ -155,7 +203,9 @@ ROUTING_REASON = {
 }
 
 
-# ── Provider states ────────────────────────────────────────────────────────
+# ═══════════════════════════════════════════════════════════════════════════
+# PROVIDER STATES
+# ═══════════════════════════════════════════════════════════════════════════
 
 ENABLED = "ENABLED"
 DISABLED = "DISABLED"
@@ -164,14 +214,18 @@ FAILED = "FAILED"
 AVAILABLE = "AVAILABLE"
 
 
-# ── Per-scan provider stats / circuit breaker ──────────────────────────────
+# ═══════════════════════════════════════════════════════════════════════════
+# PER-SCAN PROVIDER STATS / CIRCUIT BREAKER
+# ═══════════════════════════════════════════════════════════════════════════
 
 _provider_stats = {}
 _STATS_LOCK = RLock()
 
-
 MAX_PROVIDER_WAIT_SECONDS = float(
-    os.getenv("PROVIDER_MAX_WAIT_SECONDS", "10")
+    os.getenv(
+        "PROVIDER_MAX_WAIT_SECONDS",
+        "10",
+    )
 )
 
 
@@ -190,7 +244,8 @@ def _blank_stats() -> dict:
 
 
 def reset_provider_stats() -> None:
-    """Per-scan reset so breaker and counters do not leak across runs."""
+    """Reset provider stats at the beginning of a scan."""
+
     with _STATS_LOCK:
         _provider_stats.clear()
 
@@ -212,12 +267,12 @@ def provider_stats(name: str = None):
 
 
 def _stats(name: str) -> dict:
-    """Live stats dict. Mutate only under _STATS_LOCK."""
-    with _STATS_LOCK:
-        return _provider_stats.setdefault(
-            name,
-            _blank_stats(),
-        )
+    """Return live stats dictionary."""
+
+    return _provider_stats.setdefault(
+        name,
+        _blank_stats(),
+    )
 
 
 def _record_success(provider: str) -> None:
@@ -227,11 +282,17 @@ def _record_success(provider: str) -> None:
         s["state"] = AVAILABLE
 
 
-def _record_failure(provider: str, exc, task_type: str) -> None:
+def _record_failure(
+    provider: str,
+    exc,
+    task_type: str,
+) -> None:
+
     short = _short_err(exc)
 
     with _STATS_LOCK:
         s = _stats(provider)
+
         s["last_error"] = short
 
         if _is_rate_limit(exc):
@@ -239,9 +300,11 @@ def _record_failure(provider: str, exc, task_type: str) -> None:
             s["state"] = RATE_LIMITED
 
             print(
-                f"⚠️  {provider} {task_type}: rate limited — "
-                f"disabling {provider} for the rest of this scan"
+                f"⚠️  {provider} {task_type}: "
+                f"rate limited — disabling {provider} "
+                f"for the rest of this scan"
             )
+
             return
 
         s["failed"] += 1
@@ -252,13 +315,13 @@ def _record_failure(provider: str, exc, task_type: str) -> None:
             s["config_error"] = True
 
             print(
-                f"⛔ {provider} {task_type}: configured model not "
-                f"found/unavailable — check the model name. {short}"
+                f"⛔ {provider} {task_type}: "
+                f"configured model not found/unavailable."
             )
 
             print(
-                f"   ⛔ disabling {provider} for the rest of this scan "
-                f"(configuration error, not transient)"
+                f"   ⛔ disabling {provider} for the "
+                f"rest of this scan"
             )
 
         else:
@@ -267,25 +330,41 @@ def _record_failure(provider: str, exc, task_type: str) -> None:
             )
 
 
-# ── Provider configuration ────────────────────────────────────────────────
+# ═══════════════════════════════════════════════════════════════════════════
+# PROVIDER CONFIGURATION
+# ═══════════════════════════════════════════════════════════════════════════
 
 def provider_configured(name: str) -> bool:
+    """
+    Check whether provider has the required API key.
+
+    Model configuration is separately validated by each provider.
+    """
+
+    keys = {
+        "groq": "GROQ_API_KEY",
+        "openrouter": "OPENROUTER_API_KEY",
+        "mistral": "MISTRAL_API_KEY",
+        "gemini": "GEMINI_API_KEY",
+        "claude": "ANTHROPIC_API_KEY",
+    }
+
+    key_name = keys.get(name)
+
+    if not key_name:
+        return False
+
     return bool(
-        {
-            "groq": os.getenv("GROQ_API_KEY"),
-            "openrouter": os.getenv("OPENROUTER_API_KEY"),
-            "mistral": os.getenv("MISTRAL_API_KEY"),
-            "gemini": os.getenv("GEMINI_API_KEY"),
-            "claude": os.getenv("ANTHROPIC_API_KEY"),
-        }.get(name)
+        os.getenv(key_name)
     )
 
 
 def provider_state(name: str) -> str:
+
     if not provider_configured(name):
         return DISABLED
 
-    s = _stats(name)
+    s = provider_stats(name)
 
     if s["state"] == RATE_LIMITED:
         return RATE_LIMITED
@@ -302,19 +381,30 @@ def provider_state(name: str) -> str:
     return ENABLED
 
 
-# ── Error classification ──────────────────────────────────────────────────
+# ═══════════════════════════════════════════════════════════════════════════
+# ERROR CLASSIFICATION
+# ═══════════════════════════════════════════════════════════════════════════
 
 def _is_rate_limit(exc) -> bool:
+
     status = getattr(
         getattr(exc, "response", None),
         "status_code",
-        getattr(exc, "status_code", None),
+        getattr(
+            exc,
+            "status_code",
+            None,
+        ),
     )
+
+    text = str(exc).lower()
 
     return (
         status == 429
-        or "429" in str(exc)
-        or "rate limit" in str(exc).lower()
+        or "429" in text
+        or "rate limit" in text
+        or "rate_limit" in text
+        or "too many requests" in text
     )
 
 
@@ -331,6 +421,7 @@ _MODEL_CONFIG_ERRORS = (
     "model unavailable",
     "is not a valid model",
     "decommissioned",
+    "model not supported",
 )
 
 
@@ -340,7 +431,11 @@ def _is_model_not_found(exc) -> bool:
     status = getattr(
         getattr(exc, "response", None),
         "status_code",
-        getattr(exc, "status_code", None),
+        getattr(
+            exc,
+            "status_code",
+            None,
+        ),
     )
 
     text = str(exc).lower()
@@ -354,16 +449,21 @@ def _is_model_not_found(exc) -> bool:
     ):
         return True
 
-    return (
+    if (
         "model" in text
         and (
             "not found" in text
             or "404" in text
         )
-    )
+    ):
+        return True
+
+    return False
 
 
-# ── Universal model entry point ───────────────────────────────────────────
+# ═══════════════════════════════════════════════════════════════════════════
+# UNIVERSAL MODEL ENTRY POINT
+# ═══════════════════════════════════════════════════════════════════════════
 
 def call_model(
     task_type: str,
@@ -373,34 +473,18 @@ def call_model(
     max_tokens: int = 2048,
     temperature: float = 0.3,
 ) -> dict:
-    """
-    Universal model entry point.
-
-    Returns:
-
-        {
-            "content": str,
-            "model_used": str,
-            "task_type": str,
-            "tokens_used": {
-                "input": int,
-                "output": int,
-            },
-            "cost_usd": float,
-            "fell_back": bool,
-        }
-    """
 
     primary = TASK_ROUTING.get(
         task_type,
         "gemini",
     )
 
-    # Claude is opt-in.
+    # High-stakes tasks use Claude when configured and budget allows.
     if (
         primary == "claude"
         and _provider_available("claude")
     ):
+
         print(
             f"🤖 [{task_type}] → claude "
             f"({ROUTING_REASON['claude']})"
@@ -415,7 +499,7 @@ def call_model(
             task_type,
         )
 
-    # Everything else uses the free chain.
+    # All normal tasks use the free provider chain.
     return _call_free_chain(
         prompt,
         system,
@@ -425,19 +509,20 @@ def call_model(
     )
 
 
-# ── Model health ──────────────────────────────────────────────────────────
+# ═══════════════════════════════════════════════════════════════════════════
+# MODEL HEALTH
+# ═══════════════════════════════════════════════════════════════════════════
 
 def model_health_lines() -> list:
-    """Per-provider usage for scan summary. Never prints credentials."""
 
     lines = ["🧠 MODEL HEALTH"]
 
-    for name in provider_order() + ["claude"]:
-        if (
-            name == "claude"
-            and "claude" in provider_order()
-        ):
-            continue
+    names = provider_order()
+
+    if "claude" not in names:
+        names.append("claude")
+
+    for name in names:
 
         configured = provider_configured(name)
         s = provider_stats(name)
@@ -477,22 +562,28 @@ def model_health_lines() -> list:
                 f"{groq_model() or 'NOT SET — set GROQ_MODEL'}"
             )
 
-        if name == "mistral":
+        elif name == "openrouter":
+            lines.append(
+                f"               model: "
+                f"{openrouter_model()}"
+            )
+
+        elif name == "mistral":
             lines.append(
                 f"               model: "
                 f"{mistral_model()}"
             )
 
-        if name == "gemini":
+        elif name == "gemini":
             lines.append(
                 f"               model: "
                 f"{gemini_model()}"
             )
 
-        if name == "openrouter":
+        elif name == "claude":
             lines.append(
                 f"               model: "
-                f"{openrouter_model()}"
+                f"{anthropic_model()}"
             )
 
         if s["last_error"]:
@@ -504,63 +595,172 @@ def model_health_lines() -> list:
     return lines
 
 
-# ── Startup configuration log ─────────────────────────────────────────────
+# ═══════════════════════════════════════════════════════════════════════════
+# STARTUP CONFIGURATION
+# ═══════════════════════════════════════════════════════════════════════════
 
 def log_model_configuration() -> None:
-    """Startup log of configured providers + model names."""
 
     order = provider_order()
 
     print(
-        f"🧠 Provider order: {' → '.join(order)}"
+        f"🧠 Provider order: "
+        f"{' → '.join(order)}"
     )
 
     for name in order:
+
         if not provider_configured(name):
+
             print(
                 f"   {name:11} {DISABLED} "
                 f"(no API key configured)"
             )
+
             continue
 
-        extra = ""
+        if name == "groq":
 
-        if name == "mistral":
-            extra = (
-                f"  model: {mistral_model()}"
-            )
+            model = groq_model()
+
+            if model:
+                print(
+                    f"   {name:11} READY  "
+                    f"model: {model}"
+                )
+            else:
+                print(
+                    f"   {name:11} READY  "
+                    f"model: NOT SET — "
+                    f"set GROQ_MODEL"
+                )
 
         elif name == "gemini":
-            extra = (
-                f"  model: {gemini_model()}"
+
+            print(
+                f"   {name:11} READY  "
+                f"model: {gemini_model()}"
             )
 
         elif name == "openrouter":
-            extra = (
-                f"  model: {openrouter_model()}"
+
+            print(
+                f"   {name:11} READY  "
+                f"model: {openrouter_model()}"
             )
 
-        elif name == "groq":
-            extra = (
-                f"  model: "
-                f"{groq_model() or 'NOT SET — set GROQ_MODEL'}"
+        elif name == "mistral":
+
+            print(
+                f"   {name:11} READY  "
+                f"model: {mistral_model()}"
             )
 
-        print(
-            f"   {name:11} READY{extra}"
-        )
+        else:
+
+            print(
+                f"   {name:11} READY"
+            )
 
     if not provider_configured("claude"):
+
         print(
             f"   {'claude':11} {DISABLED} "
-            f"(no API key configured — project runs at $0)"
+            f"(no API key configured — "
+            f"project runs at $0)"
         )
 
 
-# ── Claude budget ─────────────────────────────────────────────────────────
+# ═══════════════════════════════════════════════════════════════════════════
+# MODEL CONFIGURATION
+# ═══════════════════════════════════════════════════════════════════════════
+
+def groq_model() -> str:
+    """
+    Groq model from repository/environment configuration.
+
+    IMPORTANT:
+    There is deliberately NO hardcoded Groq model fallback.
+
+    Set:
+
+        GROQ_MODEL=openai/gpt-oss-120b
+
+    or another model currently available to the account.
+    """
+
+    return (
+        os.getenv("GROQ_MODEL")
+        or ""
+    ).strip()
+
+
+def gemini_model() -> str:
+    """
+    Gemini model from configuration.
+
+    Repository variable currently expected:
+
+        GEMINI_MODEL=gemini-2.5-flash
+    """
+
+    return (
+        os.getenv("GEMINI_MODEL")
+        or "gemini-2.5-flash"
+    ).strip()
+
+
+def openrouter_model() -> str:
+    """
+    OpenRouter model from configuration.
+
+    If OPENROUTER_MODEL is not set, use the free router.
+    """
+
+    return (
+        os.getenv("OPENROUTER_MODEL")
+        or "openrouter/free"
+    ).strip()
+
+
+def mistral_model() -> str:
+    """
+    Mistral model from configuration.
+    """
+
+    return (
+        os.getenv("MISTRAL_MODEL")
+        or "mistral-small-latest"
+    ).strip()
+
+
+def anthropic_model() -> str:
+    """
+    Claude primary model from configuration.
+    """
+
+    return (
+        os.getenv("ANTHROPIC_MODEL")
+        or "claude-sonnet-4-5"
+    ).strip()
+
+
+def anthropic_fallback_model() -> str:
+    """
+    Claude fallback model from configuration.
+    """
+
+    return (
+        os.getenv("ANTHROPIC_FALLBACK_MODEL")
+        or "claude-haiku-4-5"
+    ).strip()
+
+
+# ═══════════════════════════════════════════════════════════════════════════
+# CLAUDE BUDGET
+# ═══════════════════════════════════════════════════════════════════════════
 
 def claude_budget_caps():
-    """Return daily and monthly Claude budget caps."""
 
     return (
         float(
@@ -579,22 +779,23 @@ def claude_budget_caps():
 
 
 def has_claude_budget() -> bool:
-    """
-    True only if both daily and monthly Claude caps have headroom.
-    """
 
     try:
+
         daily_cap, monthly_cap = (
             claude_budget_caps()
         )
 
         return (
-            get_daily_claude_spend() < daily_cap
+            get_daily_claude_spend()
+            < daily_cap
             and
-            get_monthly_claude_spend() < monthly_cap
+            get_monthly_claude_spend()
+            < monthly_cap
         )
 
     except Exception as e:
+
         print(
             f"⚠️  Could not read Claude budget "
             f"({e}) — assuming exhausted."
@@ -603,10 +804,11 @@ def has_claude_budget() -> bool:
         return False
 
 
-# ── Error helper ──────────────────────────────────────────────────────────
+# ═══════════════════════════════════════════════════════════════════════════
+# ERROR HELPER
+# ═══════════════════════════════════════════════════════════════════════════
 
 def _short_err(e) -> str:
-    """One-line provider error with HTTP status when available."""
 
     status = getattr(
         getattr(e, "response", None),
@@ -619,19 +821,23 @@ def _short_err(e) -> str:
     )
 
     if status:
-        return f"{status} {msg}"[:140]
+        return (
+            f"{status} {msg}"
+        )[:140]
 
     return msg[:140]
 
 
-# ── Provider availability ────────────────────────────────────────────────
+# ═══════════════════════════════════════════════════════════════════════════
+# PROVIDER AVAILABILITY
+# ═══════════════════════════════════════════════════════════════════════════
 
-def _provider_available(provider: str) -> bool:
-    """
-    Configured and not already rate-limited/misconfigured this scan.
-    """
+def _provider_available(
+    provider: str,
+) -> bool:
 
     if provider == "claude":
+
         return (
             provider_configured("claude")
             and has_claude_budget()
@@ -640,7 +846,20 @@ def _provider_available(provider: str) -> bool:
     if not provider_configured(provider):
         return False
 
-    s = _stats(provider)
+    # Configuration-level model validation.
+    if provider == "groq" and not groq_model():
+        return False
+
+    if provider == "gemini" and not gemini_model():
+        return False
+
+    if provider == "openrouter" and not openrouter_model():
+        return False
+
+    if provider == "mistral" and not mistral_model():
+        return False
+
+    s = provider_stats(provider)
 
     return (
         s["state"] != RATE_LIMITED
@@ -648,7 +867,9 @@ def _provider_available(provider: str) -> bool:
     )
 
 
-# ── Dispatch ───────────────────────────────────────────────────────────────
+# ═══════════════════════════════════════════════════════════════════════════
+# DISPATCH
+# ═══════════════════════════════════════════════════════════════════════════
 
 def _dispatch_free(
     provider,
@@ -658,12 +879,9 @@ def _dispatch_free(
     temperature,
     task_type,
 ):
-    """
-    Resolve provider at call time so individual _call_* functions
-    remain patchable in tests.
-    """
 
     if provider == "groq":
+
         return _call_groq(
             prompt,
             system,
@@ -673,6 +891,7 @@ def _dispatch_free(
         )
 
     if provider == "openrouter":
+
         return _call_openrouter(
             prompt,
             system,
@@ -682,6 +901,7 @@ def _dispatch_free(
         )
 
     if provider == "mistral":
+
         return _call_mistral(
             prompt,
             system,
@@ -691,6 +911,7 @@ def _dispatch_free(
         )
 
     if provider == "gemini":
+
         return _call_gemini(
             prompt,
             system,
@@ -699,38 +920,28 @@ def _dispatch_free(
             task_type,
         )
 
-    if provider == "claude":
-        return _call_claude(
-            prompt,
-            system,
-            None,
-            max_tokens,
-            temperature,
-            task_type,
-            model_override=os.getenv(
-                "ANTHROPIC_FALLBACK_MODEL",
-                "claude-haiku-4-5",
-            ),
-        )
-
     raise RuntimeError(
         f"Unknown provider: {provider}"
     )
 
 
-# ── Providers unavailable ─────────────────────────────────────────────────
+# ═══════════════════════════════════════════════════════════════════════════
+# PROVIDERS UNAVAILABLE
+# ═══════════════════════════════════════════════════════════════════════════
 
 class ProvidersUnavailable(RuntimeError):
     """
-    Every configured provider was unavailable.
+    Every configured free provider was unavailable.
 
-    This is a TECHNICAL failure, not a judgment about the opportunity.
-    Callers must translate this into ANALYSIS_UNAVAILABLE and preserve
-    the candidate, never into INELIGIBLE.
+    This is a technical failure.
+
+    Callers must NOT convert this into INELIGIBLE.
     """
 
 
-# ── Free provider chain ───────────────────────────────────────────────────
+# ═══════════════════════════════════════════════════════════════════════════
+# FREE PROVIDER CHAIN
+# ═══════════════════════════════════════════════════════════════════════════
 
 def _call_free_chain(
     prompt,
@@ -739,18 +950,13 @@ def _call_free_chain(
     temperature,
     task_type,
 ):
-    """
-    Walk configured provider order.
-
-    One provider failure never aborts the task.
-    """
 
     order = provider_order()
 
     chain = [
-        p
-        for p in order
-        if _provider_available(p)
+        provider
+        for provider in order
+        if _provider_available(provider)
     ]
 
     for skipped in (
@@ -758,12 +964,28 @@ def _call_free_chain(
         for p in order
         if p not in chain
     ):
+
         state = provider_state(skipped)
 
-        print(
-            f"  ↷ [{task_type}] "
-            f"skipping {skipped} ({state})"
-        )
+        # Special message for missing Groq model.
+        if (
+            skipped == "groq"
+            and provider_configured("groq")
+            and not groq_model()
+        ):
+
+            print(
+                f"  ↷ [{task_type}] skipping groq "
+                f"(GROQ_MODEL is not set)"
+            )
+
+        else:
+
+            print(
+                f"  ↷ [{task_type}] "
+                f"skipping {skipped} "
+                f"({state})"
+            )
 
     attempted = []
     throttled = []
@@ -771,16 +993,19 @@ def _call_free_chain(
     for i, provider in enumerate(chain):
 
         if not _provider_available(provider):
+
             print(
                 f"  ↷ [{task_type}] "
                 f"skipping {provider} "
                 f"({provider_state(provider)})"
             )
+
             continue
 
         wait = _throttle_wait(provider)
 
         if wait > MAX_PROVIDER_WAIT_SECONDS:
+
             with _STATS_LOCK:
                 _stats(provider)["soft_skips"] += 1
 
@@ -829,11 +1054,16 @@ def _call_free_chain(
 
         attempted.append(provider)
 
-    # If everything was throttled, wait for the soonest provider.
+    # If all providers were throttled, try the soonest one.
     if not attempted and throttled:
-        wait, provider = min(throttled)
+
+        wait, provider = min(
+            throttled,
+            key=lambda item: item[0],
+        )
 
         if wait != float("inf"):
+
             print(
                 f"⏳ [{task_type}] every provider "
                 f"is rate-limited — waiting "
@@ -864,27 +1094,38 @@ def _call_free_chain(
     )
 
 
-# ── Throttling ────────────────────────────────────────────────────────────
+# ═══════════════════════════════════════════════════════════════════════════
+# THROTTLING
+# ═══════════════════════════════════════════════════════════════════════════
 
-def _throttle_wait(provider: str) -> float:
-    """Seconds this provider would make us sleep."""
+def _throttle_wait(
+    provider: str,
+) -> float:
 
     try:
+
         return seconds_until_available(
             provider
         )
+
     except Exception:
+
         return 0.0
 
 
-def _wait_str(wait: float) -> str:
+def _wait_str(
+    wait: float,
+) -> str:
+
     if wait == float("inf"):
         return "its full daily quota"
 
     return f"{wait:.0f}s"
 
 
-# ── Provider attempt ───────────────────────────────────────────────────────
+# ═══════════════════════════════════════════════════════════════════════════
+# PROVIDER ATTEMPT
+# ═══════════════════════════════════════════════════════════════════════════
 
 def _attempt(
     provider,
@@ -895,11 +1136,6 @@ def _attempt(
     temperature,
     task_type,
 ):
-    """
-    One provider dispatch.
-
-    Returns result or None if provider failed.
-    """
 
     with _STATS_LOCK:
         _stats(provider)["requests"] += 1
@@ -910,6 +1146,7 @@ def _attempt(
     )
 
     try:
+
         res = _dispatch_free(
             provider,
             prompt,
@@ -920,11 +1157,13 @@ def _attempt(
         )
 
     except Exception as e:
+
         _record_failure(
             provider,
             e,
             task_type,
         )
+
         return None
 
     _record_success(provider)
@@ -935,11 +1174,8 @@ def _attempt(
 
 
 # ═══════════════════════════════════════════════════════════════════════════
-# PROVIDER IMPLEMENTATIONS
+# CLAUDE
 # ═══════════════════════════════════════════════════════════════════════════
-
-
-# ── Claude ────────────────────────────────────────────────────────────────
 
 def _call_claude(
     prompt,
@@ -955,10 +1191,7 @@ def _call_claude(
 
     model = (
         model_override
-        or os.getenv(
-            "ANTHROPIC_MODEL",
-            "claude-sonnet-4-5",
-        )
+        or anthropic_model()
     )
 
     kwargs = {
@@ -986,7 +1219,11 @@ def _call_claude(
     text = "".join(
         block.text
         for block in response.content
-        if getattr(block, "type", None) == "text"
+        if getattr(
+            block,
+            "type",
+            None,
+        ) == "text"
     )
 
     cost = _calculate_claude_cost(
@@ -1015,22 +1252,9 @@ def _call_claude(
     }
 
 
-# ── Gemini ────────────────────────────────────────────────────────────────
-
-def gemini_model() -> str:
-    """
-    Configured Gemini model.
-
-    GEMINI_MODEL is preferred.
-
-    The default is Gemini 2.5 Flash.
-    """
-
-    return (
-        os.getenv("GEMINI_MODEL")
-        or "gemini-2.5-flash"
-    )
-
+# ═══════════════════════════════════════════════════════════════════════════
+# GEMINI
+# ═══════════════════════════════════════════════════════════════════════════
 
 def _call_gemini(
     prompt,
@@ -1039,19 +1263,6 @@ def _call_gemini(
     temperature,
     task_type,
 ) -> dict:
-    """
-    Gemini implementation using the current google-genai SDK.
-
-    IMPORTANT:
-    This intentionally uses:
-
-        client.models.generate_content()
-
-    rather than the old:
-
-        GenerativeModel(...).generate_content()
-
-    """
 
     wait_for_quota("gemini")
 
@@ -1062,6 +1273,11 @@ def _call_gemini(
     )
 
     model_name = gemini_model()
+
+    if not model_name:
+        raise RuntimeError(
+            "GEMINI_MODEL is not set"
+        )
 
     client = _gemini()
 
@@ -1074,7 +1290,6 @@ def _call_gemini(
         },
     )
 
-    # Token counts when exposed by the SDK.
     tin = 0
     tout = 0
 
@@ -1085,6 +1300,7 @@ def _call_gemini(
     )
 
     if meta is not None:
+
         tin = (
             getattr(
                 meta,
@@ -1126,14 +1342,12 @@ def _call_gemini(
     }
 
 
-def _gemini_text(response) -> str:
-    """
-    Safely pull text from a Gemini response.
-
-    Handles blocked/empty responses.
-    """
+def _gemini_text(
+    response,
+) -> str:
 
     try:
+
         text = response.text
 
         if text:
@@ -1143,6 +1357,7 @@ def _gemini_text(response) -> str:
         pass
 
     try:
+
         parts = (
             response
             .candidates[0]
@@ -1160,42 +1375,17 @@ def _gemini_text(response) -> str:
         )
 
     except Exception:
+
         return ""
 
 
-# ── OpenRouter ─────────────────────────────────────────────────────────────
+# ═══════════════════════════════════════════════════════════════════════════
+# OPENROUTER
+# ═══════════════════════════════════════════════════════════════════════════
 
 OPENROUTER_URL = (
     "https://openrouter.ai/api/v1/chat/completions"
 )
-
-
-def groq_model() -> str:
-    """
-    Configured Groq model.
-
-    NO hardcoded default.
-
-    Groq model ids can be retired, so the model name is configuration.
-    """
-
-    return (
-        os.getenv("GROQ_MODEL")
-        or ""
-    ).strip()
-
-
-def openrouter_model() -> str:
-    """
-    OpenRouter model.
-
-    Defaults to OpenRouter's free auto-router.
-    """
-
-    return (
-        os.getenv("OPENROUTER_MODEL")
-        or "openrouter/free"
-    )
 
 
 def _call_openrouter(
@@ -1220,6 +1410,7 @@ def _call_openrouter(
     messages = []
 
     if system:
+
         messages.append(
             {
                 "role": "system",
@@ -1235,6 +1426,11 @@ def _call_openrouter(
     )
 
     model = openrouter_model()
+
+    if not model:
+        raise RuntimeError(
+            "OPENROUTER_MODEL is not set"
+        )
 
     resp = requests.post(
         OPENROUTER_URL,
@@ -1268,6 +1464,7 @@ def _call_openrouter(
         isinstance(data, dict)
         and data.get("error")
     ):
+
         err = data["error"]
 
         raise RuntimeError(
@@ -1333,24 +1530,13 @@ def _call_openrouter(
     }
 
 
-# ── Mistral ───────────────────────────────────────────────────────────────
+# ═══════════════════════════════════════════════════════════════════════════
+# MISTRAL
+# ═══════════════════════════════════════════════════════════════════════════
 
 MISTRAL_URL = (
     "https://api.mistral.ai/v1/chat/completions"
 )
-
-
-def mistral_model() -> str:
-    """
-    Configured Mistral model.
-
-    MISTRAL_MODEL wins if set.
-    """
-
-    return (
-        os.getenv("MISTRAL_MODEL")
-        or "mistral-small-latest"
-    )
 
 
 def _call_mistral(
@@ -1375,6 +1561,7 @@ def _call_mistral(
     messages = []
 
     if system:
+
         messages.append(
             {
                 "role": "system",
@@ -1390,6 +1577,11 @@ def _call_mistral(
     )
 
     model = mistral_model()
+
+    if not model:
+        raise RuntimeError(
+            "MISTRAL_MODEL is not set"
+        )
 
     resp = requests.post(
         MISTRAL_URL,
@@ -1417,6 +1609,7 @@ def _call_mistral(
     )
 
     if resp.status_code == 429:
+
         raise RuntimeError(
             f"429 rate limited "
             f"(model {model})"
@@ -1427,12 +1620,11 @@ def _call_mistral(
         and "model"
         in (resp.text or "").lower()
     ):
+
         raise RuntimeError(
             f"model '{model}' not available "
             f"to this account "
-            f"(HTTP {resp.status_code}) — "
-            f"set MISTRAL_MODEL to a model "
-            f"your free tier includes"
+            f"(HTTP {resp.status_code})"
         )
 
     resp.raise_for_status()
@@ -1443,6 +1635,7 @@ def _call_mistral(
         isinstance(data, dict)
         and data.get("error")
     ):
+
         err = data["error"]
 
         raise RuntimeError(
@@ -1512,7 +1705,9 @@ def _call_mistral(
     }
 
 
-# ── Groq ──────────────────────────────────────────────────────────────────
+# ═══════════════════════════════════════════════════════════════════════════
+# GROQ
+# ═══════════════════════════════════════════════════════════════════════════
 
 def _call_groq(
     prompt,
@@ -1524,12 +1719,16 @@ def _call_groq(
 
     model = groq_model()
 
+    # IMPORTANT:
+    # No hardcoded Groq model fallback.
     if not model:
+
         raise RuntimeError(
             "invalid model configuration: "
-            "GROQ_MODEL is not set. Set it to "
-            "a model your Groq account can access "
-            "(repo Variable GROQ_MODEL)."
+            "GROQ_MODEL is not set. "
+            "Set the repository variable "
+            "GROQ_MODEL to a model your "
+            "Groq account can access."
         )
 
     wait_for_quota("groq")
@@ -1537,6 +1736,7 @@ def _call_groq(
     messages = []
 
     if system:
+
         messages.append(
             {
                 "role": "system",
@@ -1563,7 +1763,21 @@ def _call_groq(
         )
     )
 
+    if not response.choices:
+
+        raise RuntimeError(
+            "Groq returned no choices"
+        )
+
     usage = response.usage
+
+    content = (
+        response
+        .choices[0]
+        .message
+        .content
+        or ""
+    )
 
     log_cost(
         "groq",
@@ -1573,12 +1787,7 @@ def _call_groq(
     )
 
     return {
-        "content": (
-            response
-            .choices[0]
-            .message
-            .content
-        ),
+        "content": content,
         "model_used": model,
         "task_type": task_type,
         "tokens_used": {
@@ -1636,8 +1845,10 @@ def _calculate_claude_cost(
     ) in _CLAUDE_PRICES.items():
 
         if model.startswith(key):
+
             rate_in = ri
             rate_out = ro
+
             break
 
     return (
@@ -1655,15 +1866,9 @@ def _calculate_claude_cost(
 # JSON HELPER
 # ═══════════════════════════════════════════════════════════════════════════
 
-def extract_json(text: str):
-    """
-    Best-effort JSON extraction from model response.
-
-    Handles:
-    - raw JSON
-    - ```json fences
-    - JSON surrounded by prose
-    """
+def extract_json(
+    text: str,
+):
 
     if not text:
         return None
@@ -1683,6 +1888,7 @@ def extract_json(text: str):
     candidate = candidate.strip()
 
     try:
+
         return json.loads(candidate)
 
     except json.JSONDecodeError:
@@ -1692,15 +1898,19 @@ def extract_json(text: str):
         ("{", "}"),
         ("[", "]"),
     ):
+
         for span in _iter_balanced_spans(
             candidate,
             opener,
             closer,
         ):
+
             try:
+
                 return json.loads(span)
 
             except json.JSONDecodeError:
+
                 continue
 
     return None
@@ -1711,11 +1921,6 @@ def _iter_balanced_spans(
     opener: str,
     closer: str,
 ):
-    """
-    Yield every balanced JSON-like span.
-
-    Ignores braces inside quoted strings.
-    """
 
     start = text.find(opener)
 
@@ -1729,34 +1934,43 @@ def _iter_balanced_spans(
             start,
             len(text),
         ):
+
             ch = text[i]
 
             if in_string:
 
                 if escape:
+
                     escape = False
 
                 elif ch == "\\":
+
                     escape = True
 
                 elif ch == '"':
+
                     in_string = False
 
                 continue
 
             if ch == '"':
+
                 in_string = True
 
             elif ch == opener:
+
                 depth += 1
 
             elif ch == closer:
+
                 depth -= 1
 
                 if depth == 0:
+
                     yield text[
                         start:i + 1
                     ]
+
                     break
 
         start = text.find(
@@ -1771,57 +1985,78 @@ def _iter_balanced_spans(
 
 def test_providers() -> dict:
     """
-    Ping each provider with a tiny prompt.
+    Ping configured providers with a tiny prompt.
 
-    Returns per-provider status.
+    Only configured providers are tested.
     """
 
     results = {}
 
-    probes = [
-        (
-            "groq",
-            lambda: _call_groq(
-                "Reply with exactly: OK",
-                None,
-                16,
-                0.0,
-                "extract_text",
-            ),
+    probes = {
+        "groq": lambda: _call_groq(
+            "Reply with exactly: OK",
+            None,
+            16,
+            0.0,
+            "extract_text",
         ),
-        (
-            "gemini",
-            lambda: _call_gemini(
-                "Reply with exactly: OK",
-                None,
-                16,
-                0.0,
-                "first_pass_filter",
-            ),
-        ),
-        (
-            "claude",
-            lambda: _call_claude(
-                "Reply with exactly: OK",
-                None,
-                None,
-                16,
-                0.0,
-                "final_scoring",
-            ),
-        ),
-    ]
 
-    for name, fn in probes:
+        "gemini": lambda: _call_gemini(
+            "Reply with exactly: OK",
+            None,
+            16,
+            0.0,
+            "first_pass_filter",
+        ),
+
+        "openrouter": lambda: _call_openrouter(
+            "Reply with exactly: OK",
+            None,
+            16,
+            0.0,
+            "extract_text",
+        ),
+
+        "mistral": lambda: _call_mistral(
+            "Reply with exactly: OK",
+            None,
+            16,
+            0.0,
+            "extract_text",
+        ),
+
+        "claude": lambda: _call_claude(
+            "Reply with exactly: OK",
+            None,
+            None,
+            16,
+            0.0,
+            "final_scoring",
+        ),
+    }
+
+    for name, fn in probes.items():
+
+        if not provider_configured(name):
+
+            results[name] = {
+                "ok": False,
+                "skipped": True,
+                "reason": "not configured",
+            }
+
+            continue
 
         try:
+
             res = fn()
 
             results[name] = {
                 "ok": True,
                 "model": res["model_used"],
                 "reply": (
-                    res["content"] or ""
+                    res["content"]
+                    or ""
                 ).strip()[:40],
             }
 
