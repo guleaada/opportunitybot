@@ -86,7 +86,13 @@ jobs:
           EMAIL_APP_PASSWORD: ${{ secrets.EMAIL_APP_PASSWORD }}
           EMAIL_TO: ${{ secrets.EMAIL_TO }}
 
-          # Web search
+          # Web search. Tavily is preferred whenever its key is set; Google
+          # CSE stays configured as the fallback but is currently unusable on
+          # this Cloud project (403 PERMISSION_DENIED on the Custom Search
+          # JSON API). Keys stay secrets — only model ids are Variables.
+          TAVILY_API_KEY: ${{ secrets.TAVILY_API_KEY }}
+          TAVILY_REQUESTS_PER_MINUTE: ${{ vars.TAVILY_REQUESTS_PER_MINUTE || '10' }}
+          TAVILY_REQUESTS_PER_DAY: ${{ vars.TAVILY_REQUESTS_PER_DAY || '100' }}
           GOOGLE_CSE_API_KEY: ${{ secrets.GOOGLE_CSE_API_KEY }}
           GOOGLE_CSE_ID: ${{ secrets.GOOGLE_CSE_ID }}
 
