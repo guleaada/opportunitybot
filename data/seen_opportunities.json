@@ -2891,5 +2891,137 @@
     "id": "15657f22866cb72c",
     "first_seen": "2026-08-17T16:19:23.291600+00:00",
     "last_updated": "2026-08-17T16:19:23.291605+00:00"
+  },
+  "5121531502ea3d7d": {
+    "url": "https://www.opportunitiesforafricans.com/the-award-leadership-program-2026-2027-for-emerging-african-women-in-agricultural-sciences/",
+    "title": "The AWARD Leadership Program 2026/2027 for Emerging African Women in Agricultural Sciences",
+    "status": "filtered_out",
+    "reason": "Program is fully virtual/online-only with no in-person component, which conflicts with the candidate's preference for physical relocation to preferred destinations.",
+    "id": "5121531502ea3d7d",
+    "first_seen": "2026-08-18T05:32:09.626536+00:00",
+    "last_updated": "2026-08-18T05:32:09.626544+00:00"
+  },
+  "549244728e41d0bf": {
+    "url": "https://www.opportunitiesforafricans.com/the-food-and-agriculture-organization-of-the-united-nations-fao-young-professionals-programme-ypp-2026/",
+    "title": "The Food and Agriculture Organization of the United Nations (FAO) Young Professionals Programme (YPP) 2026",
+    "status": "legitimacy_unknown",
+    "credibility_status": "NEEDS_VERIFICATION",
+    "source_tier": "TIER_3",
+    "reasoning": "No reasoning returned.",
+    "id": "549244728e41d0bf",
+    "first_seen": "2026-08-18T05:32:41.630342+00:00",
+    "last_updated": "2026-08-18T05:32:41.630349+00:00"
+  },
+  "a032547c29b5c325": {
+    "url": "https://www.opportunitiesforafricans.com/the-emerging-leaders-foundation-elf-africa-ilead-fellowship-program-2026/",
+    "title": "The Emerging Leaders Foundation (ELF) Africa iLead Fellowship Program 2026 for young East Africans.",
+    "status": "legitimacy_unknown",
+    "credibility_status": "NEEDS_VERIFICATION",
+    "source_tier": "TIER_3",
+    "reasoning": "No reasoning returned.",
+    "id": "a032547c29b5c325",
+    "first_seen": "2026-08-18T05:33:35.375527+00:00",
+    "last_updated": "2026-08-18T05:33:35.375536+00:00"
+  },
+  "e3c052a42c64239f": {
+    "url": "https://www.opportunitiesforafricans.com/meta-ai-academy-nigeria/",
+    "title": "Meta AI Academy Nigeria for Nigerian developers, startups, students, and early-career professionals (US$5,000 in equity-free funding)",
+    "status": "legitimacy_unknown",
+    "credibility_status": "NEEDS_VERIFICATION",
+    "source_tier": "TIER_3",
+    "reasoning": "No reasoning returned.",
+    "id": "e3c052a42c64239f",
+    "first_seen": "2026-08-18T05:34:36.468729+00:00",
+    "last_updated": "2026-08-18T05:34:36.468736+00:00"
+  },
+  "0c44a386fa0efbaf": {
+    "url": "https://weworkremotely.com/remote-jobs/edfinity-senior-software-engineer-remote",
+    "title": "Edfinity: Senior Software Engineer, remote",
+    "status": "unknown",
+    "eligibility_status": "UNCERTAIN",
+    "reasoning": "No reasoning returned.",
+    "id": "0c44a386fa0efbaf",
+    "first_seen": "2026-08-18T05:37:19.486108+00:00",
+    "last_updated": "2026-08-18T05:37:19.486115+00:00"
+  },
+  "6091552034e00d01": {
+    "url": "https://weworkremotely.com/remote-jobs/autogpt-gtm-lead",
+    "title": "AutoGPT: GTM Lead",
+    "status": "legitimacy_unknown",
+    "credibility_status": "NEEDS_VERIFICATION",
+    "source_tier": "TIER_4",
+    "reasoning": "No reasoning returned.",
+    "id": "6091552034e00d01",
+    "first_seen": "2026-08-18T05:38:21.892913+00:00",
+    "last_updated": "2026-08-18T05:38:21.892921+00:00"
+  },
+  "c09297a11e9f5737": {
+    "url": "https://www.python.org/jobs/8126/",
+    "title": "Software Engineer (Remote), Softech Associate",
+    "status": "legitimacy_unknown",
+    "credibility_status": "NEEDS_VERIFICATION",
+    "source_tier": "TIER_4",
+    "reasoning": "No reasoning returned.",
+    "id": "c09297a11e9f5737",
+    "first_seen": "2026-08-18T05:39:22.713486+00:00",
+    "last_updated": "2026-08-18T05:39:22.713493+00:00"
+  },
+  "57eaa87fa26f39ba": {
+    "url": "https://www.python.org/jobs/8123/",
+    "title": "Backend Software Engineer (FastAPI) -Onsite in Katy, Texas, Off Duty Management",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "reasoning": "The job posting explicitly states 'No telecommuting' and 'Immigration-related benefits (for example, visa sponsorship) are not available for this position.' The candidate is based in Vientiane, Lao PDR, and would require visa sponsorship to work in Katy, Texas, which the employer does not provide. Additionally, this is a full-time employment position, not a scholarship or fellowship program.",
+    "id": "57eaa87fa26f39ba",
+    "first_seen": "2026-08-18T05:40:46.317332+00:00",
+    "last_updated": "2026-08-18T05:40:46.317339+00:00"
+  },
+  "16b071b6ac098625": {
+    "url": "https://www.python.org/jobs/8113/",
+    "title": "Senior Python/DevOps Engineer (100% Remote - USA Only), Six Feet Up",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "reasoning": "The program explicitly states 'USA Only' in multiple places (job title, restrictions section), which directly excludes Ethiopian nationals. Additionally, this is a job posting for a Senior Python/DevOps Engineer position, not a scholarship or fellowship program.",
+    "id": "16b071b6ac098625",
+    "first_seen": "2026-08-18T05:41:42.200130+00:00",
+    "last_updated": "2026-08-18T05:41:42.200138+00:00"
+  },
+  "e041933df2248c08": {
+    "url": "https://www.python.org/jobs/8111/",
+    "title": "Python + TypeScript Engineers, Fusionbox",
+    "status": "unknown",
+    "eligibility_status": "UNCERTAIN",
+    "reasoning": "No reasoning returned.",
+    "id": "e041933df2248c08",
+    "first_seen": "2026-08-18T05:42:37.565856+00:00",
+    "last_updated": "2026-08-18T05:42:37.565863+00:00"
+  },
+  "8b4f9dbef1849669": {
+    "url": "https://www.python.org/jobs/8109/",
+    "title": "Senior Backend Python Engineer, mindIT HR Agency (on behalf of a confidential client)",
+    "status": "filtered_out",
+    "reason": "Requires Latin America-based candidates, not eligible for Ethiopian national in Lao PDR",
+    "id": "8b4f9dbef1849669",
+    "first_seen": "2026-08-18T05:43:54.973878+00:00",
+    "last_updated": "2026-08-18T05:43:54.973885+00:00"
+  },
+  "6d34650a610ef385": {
+    "url": "https://www.python.org/jobs/8108/",
+    "title": "Full-Stack Engineer, AIDAR",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "reasoning": "The candidate is an Ethiopian national currently based in Vientiane, Lao PDR, while the program explicitly requires the candidate to be 'Based in Germany is a must'.",
+    "id": "6d34650a610ef385",
+    "first_seen": "2026-08-18T05:44:02.495523+00:00",
+    "last_updated": "2026-08-18T05:44:02.495529+00:00"
+  },
+  "e0710e0f329db086": {
+    "url": "https://www.python.org/jobs/8107/",
+    "title": "Senior Python Engineer, EPAM",
+    "status": "filtered_out",
+    "reason": "Not a scholarship/fellowship opportunity (job listing).",
+    "id": "e0710e0f329db086",
+    "first_seen": "2026-08-18T05:44:05.718751+00:00",
+    "last_updated": "2026-08-18T05:44:05.718758+00:00"
   }
 }
