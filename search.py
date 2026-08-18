@@ -130,15 +130,51 @@ def _retry_after_seconds(resp, attempt: int) -> float:
 
 
 def _google_error_reason(resp) -> str:
-    """Pull Google's own explanation out of the error body when present."""
+    """Pull Google's own explanation out of the error body when present.
+
+    Diagnostics only — this never changes what is requested, only what gets
+    logged about a failure. Google names the offending argument in
+    ``errors[].location`` / ``locationType``; those were previously discarded,
+    so a 400 read only as "Request contains an invalid argument" with no
+    indication of WHICH argument. Now all of ``error.status``,
+    ``errors[].reason``, ``errors[].location``, ``errors[].locationType``,
+    ``errors[].domain`` and ``error.message`` reach the log:
+
+        badRequest (parameter cx) [global; INVALID_ARGUMENT]: Request
+        contains an invalid argument.
+
+    Returns "" when there is no parseable error body, so callers that use
+    ``_google_error_reason(resp) or "<fallback>"`` behave exactly as before.
+    """
     try:
         err = (resp.json() or {}).get("error") or {}
-        reason = ""
-        for d in err.get("errors") or []:
-            reason = d.get("reason") or reason
-        return f"{reason or err.get('status', '')}: {err.get('message', '')}".strip(": ")
     except Exception:
         return ""
+    if not isinstance(err, dict) or not err:
+        return ""
+
+    # First non-empty value wins across the errors[] entries; Google sends one
+    # entry in practice, and the first is the most specific when it sends more.
+    def _first(field):
+        for d in err.get("errors") or []:
+            if isinstance(d, dict) and d.get(field):
+                return str(d[field])
+        return ""
+
+    status = str(err.get("status") or "")
+    reason = _first("reason") or status
+    location = _first("location")
+    location_type = _first("locationType")
+    domain = _first("domain")
+    message = str(err.get("message") or "")
+
+    head = reason
+    if location:
+        head = f"{head} ({location_type or 'parameter'} {location})".strip()
+    extras = [x for x in (domain, status) if x and x != reason]
+    if extras:
+        head = f"{head} [{'; '.join(extras)}]".strip()
+    return f"{head}: {message}".strip(": ").strip()
 
 
 def web_search(query: str, max_results: int = 10) -> List[SearchResult]:
