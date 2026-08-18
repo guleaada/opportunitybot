@@ -143,5 +143,12 @@
     "reason": "ANALYSIS_UNAVAILABLE — all model providers were unavailable; retry when quota resets",
     "id": "e0710e0f329db086",
     "added": "2026-08-17T05:37:41.544096+00:00"
+  },
+  "98fb072b4e96468f": {
+    "url": "https://www.arbeitnow.com/jobs/companies/wolt/senior-data-scientist-workforce-management-analytics-berlin-311902",
+    "title": "Senior Data Scientist, Workforce Management Analytics",
+    "reason": "ANALYSIS_UNAVAILABLE — all model providers were unavailable; retry when quota resets",
+    "id": "98fb072b4e96468f",
+    "added": "2026-08-18T20:39:58.801065+00:00"
   }
 }

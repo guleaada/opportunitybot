@@ -2278,52 +2278,53 @@
     }
   },
   {
-    "at": "2026-08-18T20:19:06.139099+00:00",
+    "at": "2026-08-18T20:38:54.723826+00:00",
     "kind": "scan_start",
     "message": "daily scan started"
   },
   {
-    "at": "2026-08-18T20:19:37.036205+00:00",
+    "at": "2026-08-18T20:39:25.306706+00:00",
     "kind": "error",
     "message": "Fetch failed for https://www.dfat.gov.au/people-to-people/australia-awards/australia-awards-scholarships: HTTPSConnectionPool(host='www.dfat.gov.au', port=443): Read timed out. (read timeout=25)"
   },
   {
-    "at": "2026-08-18T20:19:37.417169+00:00",
+    "at": "2026-08-18T20:39:25.620941+00:00",
     "kind": "error",
     "message": "Fetch failed for https://vanier.gc.ca/en/home-accueil.html: HTTPSConnectionPool(host='vanier.gc.ca', port=443): Max retries exceeded with url: /en/home-accueil.html (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)')))"
   },
   {
-    "at": "2026-08-18T20:19:37.775784+00:00",
+    "at": "2026-08-18T20:39:25.982726+00:00",
     "kind": "error",
     "message": "Fetch failed for https://opportunitydesk.org/category/fellowships/: 403"
   },
   {
-    "at": "2026-08-18T20:33:21.667277+00:00",
+    "at": "2026-08-18T20:42:11.682281+00:00",
     "kind": "scan_complete",
     "message": "daily scan finished",
     "matches": 0,
     "stats": {
       "discovered": 147,
-      "already_seen": 101,
+      "already_seen": 83,
       "known_scam": 0,
       "fetch_failed": 3,
-      "first_pass_dropped": 1,
+      "first_pass_dropped": 4,
       "scam": 0,
       "legit_unknown": 0,
-      "ineligible": 11,
+      "ineligible": 6,
       "closed": 0,
-      "deep_analyzed": 0,
+      "deep_analyzed": 1,
       "scored_high": 0,
       "discovery": {
         "google": {
-          "attempted": 5,
+          "attempted": 1,
           "successful": 0,
           "429": 0,
-          "403": 0,
-          "errors": 5,
+          "403": 1,
+          "errors": 0,
           "candidates": 0,
           "queries_planned": 5,
-          "disabled_reason": ""
+          "stopped_early": true,
+          "disabled_reason": "forbidden [global; PERMISSION_DENIED]: This project does not have the access to Custom Search JSON API."
         },
         "rss": {
           "attempted": 6,
@@ -2347,37 +2348,39 @@
           "after_dedupe": 147
         }
       },
-      "signal_rescued": 3,
+      "signal_rescued": 6,
+      "analysis_unavailable": 1,
       "deduped": 0
     }
   },
   {
-    "at": "2026-08-18T20:33:21.669271+00:00",
+    "at": "2026-08-18T20:42:11.684860+00:00",
     "kind": "run",
     "mode": "scan",
     "environment": "github_actions",
     "stats": {
       "discovered": 147,
-      "already_seen": 101,
+      "already_seen": 83,
       "known_scam": 0,
       "fetch_failed": 3,
-      "first_pass_dropped": 1,
+      "first_pass_dropped": 4,
       "scam": 0,
       "legit_unknown": 0,
-      "ineligible": 11,
+      "ineligible": 6,
       "closed": 0,
-      "deep_analyzed": 0,
+      "deep_analyzed": 1,
       "scored_high": 0,
       "discovery": {
         "google": {
-          "attempted": 5,
+          "attempted": 1,
           "successful": 0,
           "429": 0,
-          "403": 0,
-          "errors": 5,
+          "403": 1,
+          "errors": 0,
           "candidates": 0,
           "queries_planned": 5,
-          "disabled_reason": ""
+          "stopped_early": true,
+          "disabled_reason": "forbidden [global; PERMISSION_DENIED]: This project does not have the access to Custom Search JSON API."
         },
         "rss": {
           "attempted": 6,
@@ -2401,7 +2404,8 @@
           "after_dedupe": 147
         }
       },
-      "signal_rescued": 3,
+      "signal_rescued": 6,
+      "analysis_unavailable": 1,
       "deduped": 0,
       "matches": 0
     }
