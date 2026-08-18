@@ -2,7 +2,7 @@
 checker.py — eligibility, legitimacy, and deadline checking.
 
 Model routing (enforced via task_type passed to call_model):
-  check_deadline      → gemini  (first_pass_filter)  free
+  check_deadline      → gemini  (check_deadline)     free
   first_pass_filter   → gemini  (first_pass_filter)  free
   check_legitimacy    → claude  (scam_detection)     $  HIGH STAKES
   check_eligibility   → claude  (deep_eligibility)   $  HIGH STAKES
@@ -176,7 +176,7 @@ def check_deadline(text: str) -> dict:
         '"found": true/false}\n\n'
         f"TEXT:\n{_trim(text)}"
     )
-    res = call_model("first_pass_filter", prompt, system=system, max_tokens=300)
+    res = call_model("check_deadline", prompt, system=system, max_tokens=300)
     data = extract_json(res["content"]) or {}
 
     if data.get("is_explicitly_closed"):

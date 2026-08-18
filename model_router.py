@@ -71,6 +71,8 @@ TASK_ROUTING = {
     "final_scoring": "claude",
     # MEDIUM — Gemini (free)
     "first_pass_filter": "gemini",
+    "check_deadline": "gemini",   # its own label: it is a separate call,
+                                  # not a second first_pass_filter
     "extract_document_requirements": "gemini",
     "estimate_complexity": "gemini",
     "generate_cover_letter": "gemini",
