@@ -3606,5 +3606,124 @@
     "id": "96caad03a213a85d",
     "first_seen": "2026-08-18T19:50:51.139090+00:00",
     "last_updated": "2026-08-18T19:50:51.139100+00:00"
+  },
+  "d184c4165b912f0b": {
+    "url": "https://remotive.com/remote-jobs/all-others/content-reviewer-united-states-2091074",
+    "title": "Content Reviewer - United States",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "reasoning": "The job posting explicitly requires the applicant to have resided in the United States for the past three consecutive years and states \"USA Only\" as the location restriction. Gulilat is an Ethiopian national currently residing in Laos, so this core residency requirement is not met. This is a hard, non‑addressable blocker. Other requirements such as English proficiency can be demonstrated through the assessment, but they do not override the residency rule.",
+    "id": "d184c4165b912f0b",
+    "first_seen": "2026-08-18T20:20:09.056533+00:00",
+    "last_updated": "2026-08-18T20:20:09.056544+00:00"
+  },
+  "28398e075d54408a": {
+    "url": "https://www.arbeitnow.com/jobs/companies/local-stories/content-creator-kamera-in-teilzeit-regensburg-480637",
+    "title": "Content Creator Kamera in Teilzeit (m/w/d)",
+    "status": "filtered_out",
+    "reason": "It's a part-time job posting, not a funded scholarship, fellowship, or residency.",
+    "id": "28398e075d54408a",
+    "first_seen": "2026-08-18T20:20:29.823272+00:00",
+    "last_updated": "2026-08-18T20:20:29.823285+00:00"
+  },
+  "68195448f169d247": {
+    "url": "https://www.arbeitnow.com/jobs/companies/selectline-group/produktmanager-squad-finance-cloud-magdeburg-439986",
+    "title": "Produktmanager (m/w/d) Squad Finance & Cloud",
+    "status": "ineligible",
+    "eligibility_status": "PROBABLY_INELIGIBLE",
+    "reasoning": "The job requires fluent German at C1 level and several years of product‑management experience in B2B‑software or finance/ERP domains. The candidate does not have a German C1 certificate and lacks documented product‑management experience in the required sector. No explicit nationality restriction is stated, but work‑permit eligibility is not addressed in the posting.",
+    "id": "68195448f169d247",
+    "first_seen": "2026-08-18T20:21:53.578372+00:00",
+    "last_updated": "2026-08-18T20:21:53.578381+00:00"
+  },
+  "98fb072b4e96468f": {
+    "url": "https://www.arbeitnow.com/jobs/companies/wolt/senior-data-scientist-workforce-management-analytics-berlin-311902",
+    "title": "Senior Data Scientist, Workforce Management Analytics",
+    "status": "ineligible",
+    "eligibility_status": "PROBABLY_INELIGIBLE",
+    "reasoning": "The job requires 5+ years of experience in a data science or analytics role, proven experience building forecasting models/time‑series, cost analysis, and strong SQL skills. The candidate has a BSc (2021) and a few years of professional work as an AI developer/marketing specialist, but no evidence of the required 5+ years, forecasting/modeling experience, cost analysis, or SQL proficiency. No nationality restriction is stated, so citizenship is not a blocker.",
+    "id": "98fb072b4e96468f",
+    "first_seen": "2026-08-18T20:23:16.989717+00:00",
+    "last_updated": "2026-08-18T20:23:16.989729+00:00"
+  },
+  "3e9451679b290b23": {
+    "url": "https://www.arbeitnow.com/jobs/companies/databricks/senior-solutions-architect-edw-enterprise-data-warehouse-migrations-berlin-munich-271828",
+    "title": "Senior Solutions Architect (EDW Enterprise Data Warehouse Migrations)",
+    "status": "unknown",
+    "eligibility_status": "UNCERTAIN",
+    "reasoning": "No reasoning returned.",
+    "id": "3e9451679b290b23",
+    "first_seen": "2026-08-18T20:24:42.796837+00:00",
+    "last_updated": "2026-08-18T20:24:42.796847+00:00"
+  },
+  "2f7b8d5453da9279": {
+    "url": "https://www.arbeitnow.com/jobs/companies/beyondtrust/account-executive-ii-munich-51757",
+    "title": "Account Executive II",
+    "status": "unknown",
+    "eligibility_status": "UNCERTAIN",
+    "reasoning": "No reasoning returned.",
+    "id": "2f7b8d5453da9279",
+    "first_seen": "2026-08-18T20:25:40.384039+00:00",
+    "last_updated": "2026-08-18T20:25:40.384050+00:00"
+  },
+  "2c660f6a379dcac1": {
+    "url": "https://www.arbeitnow.com/jobs/companies/rematiq-gmbh/marketing-lead-berlin-179971",
+    "title": "Marketing Lead",
+    "status": "unknown",
+    "eligibility_status": "UNCERTAIN",
+    "reasoning": "The job posting requires 3-5+ years of marketing experience in industry‑leading B2B SaaS companies and preferably life‑science industry experience. The candidate’s CV lists marketing specialist roles but does not specify the length or depth of that experience, nor confirm B2B SaaS or life‑science exposure. English fluency is required; the candidate claims professional proficiency but lacks a formal test certificate (though one can be obtained). No nationality restriction or age limit is stated, and the role does not require current student status, so no hard blockers are evident. However, key eligibility criteria (experience duration, sector experience, work‑permit eligibility) are missing or unverifiable, leading to an uncertain eligibility judgment.",
+    "id": "2c660f6a379dcac1",
+    "first_seen": "2026-08-18T20:27:03.490997+00:00",
+    "last_updated": "2026-08-18T20:27:03.491007+00:00"
+  },
+  "c0b4504669086161": {
+    "url": "https://www.arbeitnow.com/jobs/companies/rematiq-gmbh/account-executive-berlin-15511",
+    "title": "Account Executive",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "reasoning": "The posting explicitly requires 5+ years of quota‑carrying B2B SaaS or life‑sciences sales experience, a proven high‑performance sales track record, and fluency in English (with implied proof). The candidate is an AI developer/marketing specialist with no documented sales experience meeting the 5‑year quota‑carrying requirement, so the core qualification is not met. While English proficiency could be demonstrated with a test, the lack of required sales experience is a hard blocker.",
+    "id": "c0b4504669086161",
+    "first_seen": "2026-08-18T20:28:02.176976+00:00",
+    "last_updated": "2026-08-18T20:28:02.176987+00:00"
+  },
+  "fbff4861bbad4974": {
+    "url": "https://www.arbeitnow.com/jobs/companies/rematiq-gmbh/medtech-rd-domain-expert-berlin-451082",
+    "title": "Medtech R&D Domain Expert",
+    "status": "ineligible",
+    "eligibility_status": "PROBABLY_INELIGIBLE",
+    "reasoning": "The posting requires 5–8 years of relevant experience in medtech R&D, product development, design controls, or a related consulting role. The candidate is 27 with a BSc in Psychology and professional experience as an AI developer, marketing specialist, and community leader, but no demonstrated medtech R&D experience. No nationality restriction is mentioned, and English fluency is claimed, so those are not blockers. However, the core experience requirement is not met, making the candidate likely ineligible.",
+    "id": "fbff4861bbad4974",
+    "first_seen": "2026-08-18T20:29:23.346992+00:00",
+    "last_updated": "2026-08-18T20:29:23.347003+00:00"
+  },
+  "ac2f77827499d938": {
+    "url": "https://www.arbeitnow.com/jobs/companies/redis/enterprise-account-executive-germany-335063",
+    "title": "Enterprise Account Executive",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "reasoning": "The job posting explicitly requires \"5+ years of experience selling SaaS software technology to enterprise clients\" and domain expertise in retail, finance (BFSI) or telco sectors. The candidate's profile shows experience as an AI developer, marketing specialist, psychologist, and community leader, but no documented SaaS enterprise sales experience or relevant sector expertise. Therefore the candidate does not meet this mandatory requirement. No nationality restriction is stated, so citizenship is not a blocker.",
+    "id": "ac2f77827499d938",
+    "first_seen": "2026-08-18T20:30:33.113145+00:00",
+    "last_updated": "2026-08-18T20:30:33.113156+00:00"
+  },
+  "a1c1011391bb521b": {
+    "url": "https://www.arbeitnow.com/jobs/companies/the-better-cat/founders-associate-hamburg-434173",
+    "title": "Founder's Associate",
+    "status": "ineligible",
+    "eligibility_status": "PROBABLY_INELIGIBLE",
+    "reasoning": "The role requires excellent communication in both German and English. The candidate has professional English proficiency but no evidence of German language ability, which is a stated qualification. No nationality or student status restrictions are mentioned, and the candidate's experience in growth/marketing aligns with the experience requirements.",
+    "id": "a1c1011391bb521b",
+    "first_seen": "2026-08-18T20:31:56.277530+00:00",
+    "last_updated": "2026-08-18T20:31:56.277541+00:00"
+  },
+  "f1758298761896b3": {
+    "url": "https://www.arbeitnow.com/jobs/companies/angeheuert-gmbh/remote-senior-consultant-bi-konsolidierung-stuttgart-342581",
+    "title": "Senior Consultant (m/w/d) BI & Konsolidierung",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "reasoning": "The job requires (1) a degree in BWL, Wirtschaftsinformatik, Finance, Controlling or a comparable field – the candidate holds a BSc in Psychology, which is not comparable. (2) Minimum 5 years of professional experience in Business Intelligence, financial planning and consolidation – the candidate's experience is in AI development, marketing, psychology and community leadership, with no demonstrated BI/Finance experience. (3) Fluent German language skills – the candidate only lists English proficiency and no German. These are explicit requirement mismatches, so the candidate is ineligible.",
+    "id": "f1758298761896b3",
+    "first_seen": "2026-08-18T20:33:19.011250+00:00",
+    "last_updated": "2026-08-18T20:33:19.011258+00:00"
   }
 }
