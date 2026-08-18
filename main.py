@@ -33,6 +33,7 @@ load_dotenv()  # load .env before importing modules that read os.getenv at impor
 import tools
 import taxonomy
 import discovery
+import prioritizer
 import notification
 from model_router import ProvidersUnavailable
 from profile import PROFILE
@@ -100,6 +101,14 @@ FEED_CATEGORY = {
     "stackoverflow.com": "dev_jobs",
     "jobs.github.com": "dev_jobs",
 }
+
+# The RSS feeds that are NOT tagged as job boards are the fellowship /
+# scholarship / grant publishers. Derived rather than listed twice, so adding
+# a feed to RSS_FEEDS automatically classifies it.
+OPPORTUNITY_FEED_DOMAINS = frozenset(
+    f.split("/")[2] for f in RSS_FEEDS
+    if len(f.split("/")) > 2 and f.split("/")[2] not in FEED_CATEGORY
+)
 
 
 # ════════════════════════════════════════════════════════════════════════
@@ -490,6 +499,22 @@ def run_scan(max_results_per_source: int = 8):
         cprint(line)
     cprint(f"📊 Found {stats['discovered']} total, {len(candidates)} new candidates "
            f"({stats['already_seen']} seen, {stats['known_scam']} blocked)")
+
+    # 3b. Rank before the MAX_PER_DAY slice (local scoring, no model/network).
+    # Discovery returns provider order, so the fast job APIs used to take every
+    # analysis slot while the fellowship feeds got the leftovers. Nothing is
+    # dropped here — low scorers stay in the pool, they just rank below the cut.
+    try:
+        ranked = prioritizer.rank(
+            candidates,
+            job_feed_domains=set(FEED_CATEGORY),
+            opportunity_feed_domains=OPPORTUNITY_FEED_DOMAINS)
+        candidates = [r for _, r in ranked]
+        for line in prioritizer.top_lines(ranked):
+            cprint(line)
+    except Exception as e:
+        # Ranking is an optimisation; never let it cost us a scan.
+        cprint(f"⚠️  Candidate prioritisation failed ({e}) — using discovery order.")
 
     # 4-11. deep pipeline (budget-bounded by MAX_PER_DAY)
     cprint(f"🧮 MAX_PER_DAY={MAX_PER_DAY} — analyzing "
