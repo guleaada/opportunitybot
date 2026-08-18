@@ -34,7 +34,7 @@ def ok(msg):
 # The exact Groq error from run 79, in both shapes an SDK might raise it:
 # carrying an HTTP status, and carrying only the message text.
 GROQ_404_MESSAGE = ("Error code: 404 - {'error': {'message': 'The model "
-                    "`llama-3.3-70b-versatile-x` does not exist or you do not "
+                    "`some-retired-model` does not exist or you do not "
                     "have access to it.', 'type': 'invalid_request_error'}}")
 
 

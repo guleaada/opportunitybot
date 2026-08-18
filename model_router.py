@@ -322,6 +322,9 @@ def model_health_lines() -> list:
                   f"429 {s['429']}, 404 {s['404']}, failed {s['failed']}")
         lines.append(f"   {name.capitalize():11} configured: YES  "
                      f"status: {state}  •  {detail}")
+        if name == "groq":
+            lines.append(f"               model: "
+                         f"{groq_model() or 'NOT SET — set GROQ_MODEL'}")
         if name == "mistral":
             lines.append(f"               model: {mistral_model()}")
         if name == "gemini":
@@ -348,8 +351,7 @@ def log_model_configuration() -> None:
         elif name == "openrouter":
             extra = f"  model: {openrouter_model()}"
         elif name == "groq":
-            extra = (f"  model: "
-                     f"{os.getenv('GROQ_MODEL', 'llama-3.3-70b-versatile')}")
+            extra = f"  model: {groq_model() or 'NOT SET — set GROQ_MODEL'}"
         print(f"   {name:11} READY{extra}")
     if not provider_configured("claude"):
         print(f"   {'claude':11} {DISABLED} (no API key configured — "
@@ -550,6 +552,19 @@ def _gemini_text(response) -> str:
 OPENROUTER_URL = "https://openrouter.ai/api/v1/chat/completions"
 
 
+def groq_model() -> str:
+    """Configured Groq model. NO hardcoded default, deliberately.
+
+    Groq retires model ids on a schedule — llama-3.3-70b-versatile was
+    decommissioned on 2026-08-16 and every call 404'd two days later. A
+    hardcoded fallback here just moves the expiry date: the next retirement
+    silently reintroduces the same outage. So the model name is configuration,
+    and an unset GROQ_MODEL fails loudly at the first call rather than
+    pretending to be a working default.
+    """
+    return (os.getenv("GROQ_MODEL") or "").strip()
+
+
 def openrouter_model() -> str:
     """Default to OpenRouter's auto-router, which outlives individual free
     model ids as they rotate. Never a hardcoded dated model."""
@@ -679,6 +694,14 @@ def _call_mistral(prompt, system, max_tokens, temperature, task_type) -> dict:
 
 
 def _call_groq(prompt, system, max_tokens, temperature, task_type) -> dict:
+    model = groq_model()
+    if not model:
+        # Phrased so _is_model_not_found() classifies it as a configuration
+        # error: groq latches off for the scan, the chain moves to the next
+        # provider, and the log names the variable to set.
+        raise RuntimeError(
+            "invalid model configuration: GROQ_MODEL is not set. Set it to a "
+            "model your Groq account can access (repo Variable GROQ_MODEL).")
     wait_for_quota("groq")
     messages = []
     if system:
@@ -686,7 +709,7 @@ def _call_groq(prompt, system, max_tokens, temperature, task_type) -> dict:
     messages.append({"role": "user", "content": prompt})
 
     response = _groq().chat.completions.create(
-        model=os.getenv("GROQ_MODEL", "llama-3.3-70b-versatile"),
+        model=model,
         messages=messages,
         max_tokens=max_tokens,
         temperature=temperature,
@@ -695,7 +718,7 @@ def _call_groq(prompt, system, max_tokens, temperature, task_type) -> dict:
     log_cost("groq", task_type, usage, 0.0)
     return {
         "content": response.choices[0].message.content,
-        "model_used": os.getenv("GROQ_MODEL", "llama-3.3-70b-versatile"),
+        "model_used": model,
         "task_type": task_type,
         "tokens_used": {
             "input": getattr(usage, "prompt_tokens", 0),
