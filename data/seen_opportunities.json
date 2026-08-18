@@ -3723,5 +3723,114 @@
     "id": "fbff4861bbad4974",
     "first_seen": "2026-08-18T20:42:10.344145+00:00",
     "last_updated": "2026-08-18T20:42:10.344152+00:00"
+  },
+  "9d70f375971cda81": {
+    "url": "https://opportunitiesforyouth.org/2026/08/18/emuni-university-masters-programmes-2026-27-study-mediterranean-geopolitics-geoeconomics-business-and-digital-law-in-slovenia/",
+    "title": "EMUNI University Master’s Programmes 2026/27: Study Mediterranean Geopolitics, Geoeconomics, Business and Digital Law in Slovenia",
+    "status": "unknown",
+    "eligibility_status": "UNCERTAIN",
+    "reasoning": "No reasoning returned.",
+    "id": "9d70f375971cda81",
+    "first_seen": "2026-08-18T22:42:43.261392+00:00",
+    "last_updated": "2026-08-18T22:42:43.261399+00:00"
+  },
+  "a28459ad4f069d93": {
+    "url": "https://opportunitiesforyouth.org/2026/08/18/2027-mext-scholarships-at-the-university-of-osaka-japan-undergraduate-and-graduate-opportunities/",
+    "title": "2027 MEXT Scholarships at the University of Osaka, Japan | Undergraduate and Graduate Opportunities",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "reasoning": "The candidate is a working professional (not currently a student), but the MEXT Scholarship at the University of Osaka requires applicants to be enrolled in or applying to undergraduate or graduate programs. The program explicitly covers 'Undergraduate programmes' and 'Master’s programmes' and 'Doctoral programmes,' implying current student status or admission to a program. The candidate's profile states they are a working professional, not a student.",
+    "id": "a28459ad4f069d93",
+    "first_seen": "2026-08-18T22:43:20.160748+00:00",
+    "last_updated": "2026-08-18T22:43:20.160757+00:00"
+  },
+  "2d7105cd9217ad86": {
+    "url": "https://www.arbeitnow.com/jobs/companies/muxon/golang-entwickler-remote-deutschland-berlin-442801",
+    "title": "Golang Entwickler (m/w/d) - Remote (Deutschland)",
+    "status": "filtered_out",
+    "reason": "Not a scholarship/fellowship (job posting with salary)",
+    "id": "2d7105cd9217ad86",
+    "first_seen": "2026-08-18T22:43:47.686627+00:00",
+    "last_updated": "2026-08-18T22:43:47.686635+00:00"
+  },
+  "0a1f2a2a061fb8f3": {
+    "url": "https://www.arbeitnow.com/jobs/companies/knowbe4/account-executive-enterprise-fluent-in-german-located-in-germany-berlin-303389",
+    "title": "Account Executive (Enterprise) (Fluent In German) (Located in Germany)",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "reasoning": "The program is a job listing (Account Executive position) requiring fluency in German and located in Germany, not a scholarship or fellowship. The candidate is an Ethiopian national, not a German speaker, and is not seeking employment in Germany. The job requires minimum 3 years selling to Enterprise-sized businesses, which the candidate does not meet as a working professional with a BSc (not necessarily in sales).",
+    "id": "0a1f2a2a061fb8f3",
+    "first_seen": "2026-08-18T22:43:52.601462+00:00",
+    "last_updated": "2026-08-18T22:43:52.601470+00:00"
+  },
+  "103ef3ddcd1e8b3a": {
+    "url": "https://www.arbeitnow.com/jobs/companies/redis/enterprise-account-executive-germany-302637",
+    "title": "Enterprise Account Executive",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "reasoning": "The program is a job posting for an 'Enterprise Account Executive' role at Redis, requiring 5+ years of experience selling SaaS software technology to enterprise clients, domain expertise in retail/finance/telco sectors, and a proven track record of achieving sales targets. The candidate is a 27-year-old Ethiopian national with a BSc in Psychology, working as an AI Developer/Marketing Specialist, and does not meet the 5+ years of enterprise SaaS sales experience or the domain expertise requirements.",
+    "id": "103ef3ddcd1e8b3a",
+    "first_seen": "2026-08-18T22:44:49.979886+00:00",
+    "last_updated": "2026-08-18T22:44:49.979897+00:00"
+  },
+  "f6dd4b048e52c497": {
+    "url": "https://www.arbeitnow.com/jobs/companies/cbs-corporate-business-solutions-gmbh/senior-consultant-sap-activist-pmo-project-management-office-heidelberg-391896",
+    "title": "(Senior) Consultant SAP Activist PMO (m/w/d) Project Management Office",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "reasoning": "The program is a job posting for a 'Senior Consultant SAP Activist PMO' role in Germany, not a scholarship or fellowship. The candidate is a working professional (not a student), and the role requires a Master's or Diploma in specific fields (Wirtschaftsingenieurwesen, -informatik, -wissenschaften, Natur- oder Kommunikationswissenschaften) with relevant SAP project experience. The candidate's BSc in Psychology does not match the required degree fields, and there is no indication that the role accepts candidates without a Master's degree.",
+    "id": "f6dd4b048e52c497",
+    "first_seen": "2026-08-18T22:44:57.030091+00:00",
+    "last_updated": "2026-08-18T22:44:57.030104+00:00"
+  },
+  "69f296009cf26369": {
+    "url": "https://www.arbeitnow.com/jobs/companies/nonplusultra/retail-promoter-werkstudent-teilzeit-16-std-woche-munchen-452547",
+    "title": "Retail Promoter (m/w/d) – Werkstudent / Teilzeit, 16 Std./Woche",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "reasoning": "The program is a part-time retail promotion job (Werkstudent/Teilzeit) in Munich, not a scholarship or fellowship. The candidate is a working professional (not a student) and does not meet the role's context. Additionally, the program does not mention any eligibility criteria related to nationality, degree level, or student status, but the nature of the role itself excludes non-students.",
+    "id": "69f296009cf26369",
+    "first_seen": "2026-08-18T22:45:20.309888+00:00",
+    "last_updated": "2026-08-18T22:45:20.309895+00:00"
+  },
+  "349f9079ca58fe90": {
+    "url": "https://www.arbeitnow.com/jobs/companies/conceptboard/remote-account-executive-enterprise-198605",
+    "title": "Account Executive Enterprise (m/w/d)",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "reasoning": "The program is a job posting (Account Executive Enterprise at Conceptboard), not a scholarship or fellowship. The candidate is not eligible for employment-based programs as they are not seeking a job and do not meet the job's requirements (e.g., Full-Cycle-Sales-Erfahrung im DACH-Großkundenmarkt).",
+    "id": "349f9079ca58fe90",
+    "first_seen": "2026-08-18T22:45:53.006106+00:00",
+    "last_updated": "2026-08-18T22:45:53.006113+00:00"
+  },
+  "f08c2eb8190adf1a": {
+    "url": "https://www.arbeitnow.com/jobs/companies/qonto/legal-werkstudent-deutschland-berlin-200427",
+    "title": "Legal-Werkstudent Deutschland (m/w/d)",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "reasoning": "The program explicitly requires the candidate to be 'aktuell immatrikuliert' (currently enrolled as a student). The candidate is a working professional (not a student) and holds a BSc (not currently enrolled in a degree program).",
+    "id": "f08c2eb8190adf1a",
+    "first_seen": "2026-08-18T22:46:00.280953+00:00",
+    "last_updated": "2026-08-18T22:46:00.280961+00:00"
+  },
+  "98fb072b4e96468f": {
+    "url": "https://www.arbeitnow.com/jobs/companies/wolt/senior-data-scientist-workforce-management-analytics-berlin-311902",
+    "title": "Senior Data Scientist, Workforce Management Analytics",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "reasoning": "This is a job posting (not a scholarship/fellowship program) requiring 5+ years of experience in a data science or analytics position. The candidate is a 27-year-old working professional with a BSc (graduated in 2021), which does not meet the experience requirement.",
+    "id": "98fb072b4e96468f",
+    "first_seen": "2026-08-18T22:46:49.692218+00:00",
+    "last_updated": "2026-08-18T22:46:49.692229+00:00"
+  },
+  "a6fa817fe2ec22a0": {
+    "url": "https://weworkremotely.com/remote-jobs/integrated-hire-account-manager-client-services",
+    "title": "Integrated Hire: Account Manager – Client Services",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "reasoning": "The candidate does not meet the hard requirement of 'at least five years of firsthand experience living and working in the United States'. The candidate is an Ethiopian national working in Lao PDR, with no verifiable experience living/working in the U.S.",
+    "id": "a6fa817fe2ec22a0",
+    "first_seen": "2026-08-18T22:46:56.121127+00:00",
+    "last_updated": "2026-08-18T22:46:56.121136+00:00"
   }
 }
