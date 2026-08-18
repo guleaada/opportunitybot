@@ -3832,5 +3832,119 @@
     "id": "a6fa817fe2ec22a0",
     "first_seen": "2026-08-18T22:46:56.121127+00:00",
     "last_updated": "2026-08-18T22:46:56.121136+00:00"
+  },
+  "5884ce88e5b36e13": {
+    "url": "https://opportunitiescorners.com/category/fellowships",
+    "title": "Fully Funded International Fellowship Programs",
+    "status": "suspicious",
+    "credibility_status": "SUSPICIOUS",
+    "source_tier": "TIER_3",
+    "reasoning": "The site aggregates fellowship opportunities but lacks verifiable links to official program pages for listed fellowships (e.g., ERA Winter Fellowship, OHCHR Indigenous Fellowship). Many 'fully funded' claims are vague, and the site appears to monetize traffic via ads/branding rather than providing direct application pathways.",
+    "id": "5884ce88e5b36e13",
+    "first_seen": "2026-08-18T22:58:26.156470+00:00",
+    "last_updated": "2026-08-18T22:58:26.156477+00:00"
+  },
+  "7e35f09c82c34cff": {
+    "url": "https://www.scholarshipbob.com/fellowship/fully-funded",
+    "title": "Fully Funded Fellowship Scholarships for International ...",
+    "status": "suspicious",
+    "credibility_status": "SUSPICIOUS",
+    "source_tier": "TIER_4",
+    "reasoning": "The page aggregates multiple fellowship opportunities, some of which are legitimate (e.g., Chevening, Fulbright-affiliated programs). However, the aggregator itself lacks verifiable contact information, application portals, or direct links to official program pages. Many listed fellowships (e.g., 'Kellogg Fellowship Scholarship 2027') are not easily traceable to official sources, raising concerns about authenticity.",
+    "id": "7e35f09c82c34cff",
+    "first_seen": "2026-08-18T22:58:29.616689+00:00",
+    "last_updated": "2026-08-18T22:58:29.616696+00:00"
+  },
+  "5fea16f362f8dafb": {
+    "url": "https://opportunitydesk.org/2026/05/17/44-grants-funding-and-cash-prizes-currently-open-may-17-2026",
+    "title": "44 Grants, Funding and Cash Prizes Currently Open – May 17, 2026  – Opportunity Desk",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "reasoning": "The candidate does not meet the core eligibility criteria for any of the three listed programs. The WISE Prize for Education is for 'innovators and organisations working to improve learning' (not an individual award). The UNESCO International Literacy Prizes are for 'organisations working on literacy, education and inclusion' (not individuals). The D-Prize is for 'early-stage entrepreneurs who can distribute proven poverty interventions' (requires a new venture, not an individual applicant). None of these programs are open to individual applicants for general scholarships or fellowships.",
+    "id": "5fea16f362f8dafb",
+    "first_seen": "2026-08-18T22:58:33.954951+00:00",
+    "last_updated": "2026-08-18T22:58:33.954959+00:00"
+  },
+  "7592a0b8afeb38aa": {
+    "url": "https://www.linkedin.com/pulse/36-fully-funded-fellowship-opportunities-yqaaf",
+    "title": "🌍🚀 36 Fully Funded Fellowship Opportunities for 2026–2027",
+    "status": "suspicious",
+    "credibility_status": "SUSPICIOUS",
+    "source_tier": "TIER_4",
+    "reasoning": "The LinkedIn post aggregates 36 fellowships but provides no direct links to official program pages—only shortlinks (wp.me) that obscure the true destination. Many listed programs (e.g., AIReKEMA, InteRussia, JUST Fellowship) lack verifiable institutional backing via official university or government domains. The aggregator directs users to 'Opportunities for Youth' (opportunitiesforyouth.org), a site with no clear governance or transparency about funding sources.",
+    "id": "7592a0b8afeb38aa",
+    "first_seen": "2026-08-18T22:59:29.822187+00:00",
+    "last_updated": "2026-08-18T22:59:29.822194+00:00"
+  },
+  "c5129a141d5920d8": {
+    "url": "https://www.facebook.com/groups/ascholarship",
+    "title": "Fully Funded Scholarships 2027 (Worldwide)",
+    "status": "suspicious",
+    "credibility_status": "SUSPICIOUS",
+    "source_tier": "TIER_4",
+    "reasoning": "The listing lacks verifiable institutional affiliation, official scholarship provider details, or a legitimate application portal. The deadline (September 30, 2026) for a 2027 program is unusually early, and 'fully funded' alone is not a trust signal without corroborating evidence from recognized sponsors (e.g., DAAD, Fulbright).",
+    "id": "c5129a141d5920d8",
+    "first_seen": "2026-08-18T22:59:33.555735+00:00",
+    "last_updated": "2026-08-18T22:59:33.555744+00:00"
+  },
+  "d589223ad65d876a": {
+    "url": "https://cscuk.fcdo.gov.uk/scholarships/commonwealth-fellowships-information-for-candidates",
+    "title": "Commonwealth Fellowships – information for candidates - Commonwealth Scholarship Commission in the UK",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "reasoning": "The candidate is a 27-year-old Ethiopian national, which meets the Commonwealth country eligibility. However, the candidate is a working professional (not currently a student) and holds a BSc (bachelor's degree), not a PhD. The Commonwealth Fellowships have two strands: Professional Fellowships for mid-career professionals with five years of experience, and Academic Fellowships for PhD holders employed at universities. The candidate does not meet the requirements for either strand (not a PhD holder, not employed at a university, and does not have five years of relevant experience as a mid-career professional).",
+    "id": "d589223ad65d876a",
+    "first_seen": "2026-08-18T23:00:02.376299+00:00",
+    "last_updated": "2026-08-18T23:00:02.376307+00:00"
+  },
+  "96c16d1aed802668": {
+    "url": "https://opportunitydesk.org/2026/05/22/aigc-for-future-global-challenge-2026",
+    "title": "AIGC for Future Global Challenge 2026 ($10,000 total prize) – Opportunity Desk",
+    "status": "suspicious",
+    "credibility_status": "SUSPICIOUS",
+    "source_tier": "TIER_2",
+    "reasoning": "While the listed co-hosts (ITU, DEC40) are legitimate UN-affiliated bodies, the challenge lacks verifiable details about application fees, selection criteria, or past editions. The $10,000 prize is unusually high for an unsolicited 'global challenge' without transparent judging panels or timelines.",
+    "id": "96c16d1aed802668",
+    "first_seen": "2026-08-18T23:00:29.637115+00:00",
+    "last_updated": "2026-08-18T23:00:29.637123+00:00"
+  },
+  "ab124c0e58f4cf2e": {
+    "url": "https://www.pitzer.edu/offices/fellowships/international",
+    "title": "International Fellowships | Pitzer College",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "reasoning": "The program listing explicitly states that all fellowships are for 'graduating seniors' in the eligibility criteria for each listed program (e.g., Churchill Scholarship, DAAD, Fulbright U.S. Student Grant, Gates Cambridge, Luce Scholars Program, Marshall Scholarships, Napier Fellowship, Princeton in Africa/Asia/Latin America, Rhodes Scholarship, Schwarzman Scholars Program, Watson Fellowship). The candidate is a 27-year-old Ethiopian working professional (not a student) who graduated in 2021, which does not meet the 'graduating seniors' requirement.",
+    "id": "ab124c0e58f4cf2e",
+    "first_seen": "2026-08-18T23:00:36.642733+00:00",
+    "last_updated": "2026-08-18T23:00:36.642741+00:00"
+  },
+  "6b657eab465b6a34": {
+    "url": "https://www.efworld.org/apply-now",
+    "title": "Apply Now - Eisenhower Fellowships",
+    "status": "closed",
+    "deadline": null,
+    "id": "6b657eab465b6a34",
+    "first_seen": "2026-08-18T23:00:39.049855+00:00",
+    "last_updated": "2026-08-18T23:00:39.049864+00:00"
+  },
+  "b87b8586fe8b767e": {
+    "url": "https://www.worldbank.org/en/region/afr/brief/world-bank-group-africa-fellowship-program",
+    "title": "World Bank Group Africa Fellowship Program",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "reasoning": "The program explicitly requires applicants to be a recent Ph.D. graduate (within three years of completion) or enrolled in the last year of a Ph.D. program. The candidate holds a BSc (bachelor's) and is not currently a student, nor enrolled in a Ph.D. program.",
+    "id": "b87b8586fe8b767e",
+    "first_seen": "2026-08-18T23:01:30.015034+00:00",
+    "last_updated": "2026-08-18T23:01:30.015043+00:00"
+  },
+  "a9c26c71ff4c63b4": {
+    "url": "https://opportunitiesforyouth.org/2026/08/11/princeton-in-africa-spring-2026-development-communications-internship-paid-remote-hybrid",
+    "title": "Princeton in Africa Fellowship 2027–28: Host Talented Young Professionals Across Africa Through a 12-Month Fellowship - Opportunities for Youth",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "reasoning": "The program is designed for organizations to host Fellows, not for individuals to apply directly. The candidate is a working professional seeking a fellowship, but the Princeton in Africa program requires organizations to apply to host Fellows. The candidate cannot apply as an individual.",
+    "id": "a9c26c71ff4c63b4",
+    "first_seen": "2026-08-18T23:01:39.307076+00:00",
+    "last_updated": "2026-08-18T23:01:39.307083+00:00"
   }
 }
