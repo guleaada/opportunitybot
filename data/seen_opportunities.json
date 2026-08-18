@@ -3023,5 +3023,163 @@
     "id": "e0710e0f329db086",
     "first_seen": "2026-08-18T05:44:05.718751+00:00",
     "last_updated": "2026-08-18T05:44:05.718758+00:00"
+  },
+  "06e9fd7a65845f3f": {
+    "url": "https://opportunitiescorners.com/world-bank-govtech-ai-bootcamp/",
+    "title": "World Bank GovTech AI Bootcamp 2026, South Korea (Fully Funded)",
+    "status": "suspicious",
+    "credibility_status": "SUSPICIOUS",
+    "source_tier": "TIER_3",
+    "reasoning": "The program claims to be fully funded by the World Bank, MOIS, and NIA, which is plausible for a government-led initiative, but the application link points to 'opportunitiescorners.com' rather than the official World Bank website. Legitimate World Bank programs typically host applications on their own domain (e.g., worldbank.org). The lack of a direct link to the official application page raises concerns.",
+    "id": "06e9fd7a65845f3f",
+    "first_seen": "2026-08-18T11:41:08.269589+00:00",
+    "last_updated": "2026-08-18T11:41:08.269601+00:00"
+  },
+  "3eab5b415843723b": {
+    "url": "https://opportunitydesk.org/2026/08/18/globe-and-mail-foundation-scholarship-for-a-syrian-media-professional-online-journalism-fellowship-2026/",
+    "title": "Globe and Mail Foundation Scholarship for a Syrian Media Professional: Online Journalism Fellowship at the University of Toronto 2026",
+    "status": "suspicious",
+    "credibility_status": "SUSPICIOUS",
+    "source_tier": "TIER_2",
+    "reasoning": "The Globe and Mail Foundation is a legitimate Canadian news organization, and the University of Toronto is a reputable institution. However, the scholarship's website (opportunitydesk.org) is a third-party aggregator, not an official source, which raises red flags. Additionally, the deadline (August 24, 2026) is unusually far in the future, which is uncommon for legitimate scholarships.",
+    "id": "3eab5b415843723b",
+    "first_seen": "2026-08-18T11:41:12.514549+00:00",
+    "last_updated": "2026-08-18T11:41:12.514560+00:00"
+  },
+  "57b101333149aec1": {
+    "url": "https://opportunitydesk.org/2026/08/18/geaf-ambassador-programme-2027/",
+    "title": "Green Earth Action Foundation (GEAF) Ambassador Programme 2027",
+    "status": "suspicious",
+    "credibility_status": "SUSPICIOUS",
+    "source_tier": "TIER_2",
+    "reasoning": "The webpage lacks verifiable contact details (e.g., physical address, verified email domain) or affiliations with recognized environmental organizations. The 'rolling basis' deadline is atypical for legitimate global ambassador programs, which usually have fixed cycles. No evidence of past cohorts or alumni networks is provided.",
+    "id": "57b101333149aec1",
+    "first_seen": "2026-08-18T11:42:06.227501+00:00",
+    "last_updated": "2026-08-18T11:42:06.227513+00:00"
+  },
+  "5c9d3415eac33c39": {
+    "url": "https://opportunitydesk.org/2026/08/18/catalyst-now-learning-initiatives-fellowship-2026/",
+    "title": "Catalyst Now Learning Initiatives Fellowship 2026 (stipend available)",
+    "status": "legitimacy_unknown",
+    "credibility_status": "NEEDS_VERIFICATION",
+    "source_tier": "TIER_2",
+    "reasoning": "The page lacks verifiable institutional backing (e.g., no official website, embassy, or recognized university affiliation) and provides minimal details about the fellowship's funding source or selection criteria. While no explicit red-flag phrases (e.g., fees, 'selected at random') are present, the absence of trust signals (e.g., contact info, past fellows, or program history) raises suspicion.",
+    "id": "5c9d3415eac33c39",
+    "first_seen": "2026-08-18T11:42:10.092652+00:00",
+    "last_updated": "2026-08-18T11:42:10.092665+00:00"
+  },
+  "63c8c21101a941ed": {
+    "url": "https://opportunitydesk.org/2026/08/18/european-union-youth-sounding-board-kenya-2026/",
+    "title": "European Union Youth Sounding Board (YSB) – Kenya 2026",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "reasoning": "The program is specifically for the 'European Union Youth Sounding Board (YSB) – Kenya 2026,' which implies the target participants are young people based in or connected to Kenya. The candidate is an Ethiopian national working in Lao PDR, not Kenya, and there is no indication that the program is open to non-Kenyan nationals or those outside Kenya.",
+    "id": "63c8c21101a941ed",
+    "first_seen": "2026-08-18T11:42:15.454811+00:00",
+    "last_updated": "2026-08-18T11:42:15.454822+00:00"
+  },
+  "fb67187299a7edf0": {
+    "url": "https://opportunitydesk.org/2026/08/18/crca-emerging-conflict-analysts-fellowship-2026/",
+    "title": "CRCA Emerging Conflict Analysts Fellowship 2026",
+    "status": "suspicious",
+    "credibility_status": "SUSPICIOUS",
+    "source_tier": "TIER_2",
+    "reasoning": "While the page lacks overt red-flag phrases (e.g., fees, urgency, or vague prestige claims), the absence of trust signals (e.g., official institutional backing, clear eligibility criteria, or transparent program structure) raises concerns. The domain 'opportunitydesk.org' is a third-party aggregator, not the host organization, which is common for scams.",
+    "id": "fb67187299a7edf0",
+    "first_seen": "2026-08-18T11:43:09.056803+00:00",
+    "last_updated": "2026-08-18T11:43:09.056813+00:00"
+  },
+  "9f8239619aa37997": {
+    "url": "https://opportunitydesk.org/2026/08/18/un-fao-young-professionals-programme-2026/",
+    "title": "UN FAO Young Professionals Programme (YPP) 2026",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "reasoning": "The candidate is a 27-year-old Ethiopian national, which is a Least Developed Country (LDC) and thus potentially eligible under the UN FAO YPP's priority consideration for LDCs. However, the program explicitly targets 'young professionals' who are 'mainly nationals of non or underrepresented members' and requires candidates to be 'enrolled in or have recently completed a Master's degree or higher.' The candidate holds a BSc (bachelor's degree) and is a working professional, not a student.",
+    "id": "9f8239619aa37997",
+    "first_seen": "2026-08-18T11:43:14.157458+00:00",
+    "last_updated": "2026-08-18T11:43:14.157469+00:00"
+  },
+  "011d6926ca847891": {
+    "url": "https://opportunitydesk.org/2026/08/18/standard-chartered-digital-bootcamp-2026/",
+    "title": "Standard Chartered Digital Bootcamp 2026",
+    "status": "suspicious",
+    "credibility_status": "SUSPICIOUS",
+    "source_tier": "TIER_2",
+    "reasoning": "While the program is hosted on Opportunity Desk (a reputable platform for legitimate opportunities), the lack of a specified deadline and vague details about the bootcamp's structure (e.g., no clear eligibility criteria, selection process, or official Standard Chartered webpage) raise concerns. Legitimate corporate-led programs typically provide transparent application timelines and institutional backing.",
+    "id": "011d6926ca847891",
+    "first_seen": "2026-08-18T11:44:06.682598+00:00",
+    "last_updated": "2026-08-18T11:44:06.682609+00:00"
+  },
+  "661eff42a335cab0": {
+    "url": "https://opportunitydesk.org/2026/08/18/award-leadership-program-for-emerging-african-women-in-science-2026/",
+    "title": "AWARD Leadership Program for Emerging African Women in Science 2026",
+    "status": "suspicious",
+    "credibility_status": "SUSPICIOUS",
+    "source_tier": "TIER_2",
+    "reasoning": "The program is hosted on Opportunity Desk, a reputable platform for scholarships, but lacks explicit details about funding, institutional backing, or a transparent application process. The generic description and absence of named partners or sponsors raise concerns.",
+    "id": "661eff42a335cab0",
+    "first_seen": "2026-08-18T11:44:10.966434+00:00",
+    "last_updated": "2026-08-18T11:44:10.966444+00:00"
+  },
+  "4883190363230794": {
+    "url": "https://opportunitydesk.org/2026/08/17/creative-catalyst-fellowship-2027/",
+    "title": "Creative Catalyst Fellowship 2027 (up to $30,000)",
+    "status": "legitimacy_unknown",
+    "credibility_status": "NEEDS_VERIFICATION",
+    "source_tier": "TIER_2",
+    "reasoning": "The opportunity is hosted on Opportunity Desk, a platform known for aggregating legitimate opportunities, but lacks verifiable institutional backing (e.g., no named host organization, unclear funding source, or official website). The $30,000 grant is unusually high for an unsolicited fellowship without clear eligibility criteria or selection process details.",
+    "id": "4883190363230794",
+    "first_seen": "2026-08-18T11:44:15.874487+00:00",
+    "last_updated": "2026-08-18T11:44:15.874500+00:00"
+  },
+  "c0cee7e61b5cdaaf": {
+    "url": "https://weworkremotely.com/remote-jobs/vonage-servicenow-alliance-executive",
+    "title": "Vonage: ServiceNow Alliance Executive",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "reasoning": "The program is a job posting for a full-time role (ServiceNow Alliance Executive) at Vonage, not a scholarship or fellowship. The candidate is seeking fully-funded master's scholarships, fellowships, or residencies, not employment opportunities. Additionally, the role requires prior experience in the ServiceNow or Salesforce ecosystem, which is not mentioned in the candidate's profile.",
+    "id": "c0cee7e61b5cdaaf",
+    "first_seen": "2026-08-18T11:45:09.889127+00:00",
+    "last_updated": "2026-08-18T11:45:09.889136+00:00"
+  },
+  "771cf5a6565c9b0b": {
+    "url": "https://weworkremotely.com/remote-jobs/mixpanel-procurement-counsel",
+    "title": "Mixpanel: Procurement Counsel",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "reasoning": "The role explicitly requires a JD degree or equivalent from an accredited school, along with professional licensing to practice law. The candidate holds a BSc in Psychology and is not a lawyer. Additionally, the role requires 1-3 years of relevant legal experience, which the candidate does not have.",
+    "id": "771cf5a6565c9b0b",
+    "first_seen": "2026-08-18T11:45:24.389831+00:00",
+    "last_updated": "2026-08-18T11:45:24.389842+00:00"
+  },
+  "2c62c9137a56ed92": {
+    "url": "https://weworkremotely.com/remote-jobs/talkspace-account-coordinator",
+    "title": "Talkspace: Account Coordinator",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "reasoning": "The program is a job listing for a 'Remote Account Coordinator at Talkspace,' not a scholarship, fellowship, or academic program. The candidate is seeking fully-funded scholarships, fellowships, or residencies, and this role does not match those criteria.",
+    "id": "2c62c9137a56ed92",
+    "first_seen": "2026-08-18T11:46:19.780775+00:00",
+    "last_updated": "2026-08-18T11:46:19.780785+00:00"
+  },
+  "65e09a09f74ab0e4": {
+    "url": "https://weworkremotely.com/remote-jobs/mixpanel-account-executive-latam",
+    "title": "Mixpanel: Account Executive, LATAM",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "reasoning": "The candidate does not meet the primary language requirement (Spanish or Portuguese fluency) and does not have a track record of selling into the LATAM region. Additionally, the role is not a scholarship/fellowship/residency program but a full-time employment position, which is outside the scope of the candidate's preferences.",
+    "id": "65e09a09f74ab0e4",
+    "first_seen": "2026-08-18T11:47:11.150071+00:00",
+    "last_updated": "2026-08-18T11:47:11.150084+00:00"
+  },
+  "8bf0f9fea62bab9b": {
+    "url": "https://weworkremotely.com/remote-jobs/vonage-junior-scrum-master",
+    "title": "Vonage: Junior Scrum Master",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "reasoning": "The program is a job role (Remote Junior Scrum Master at Vonage), not a scholarship or fellowship. The candidate is a working professional, not a student, and the role requires prior experience as a Scrum Master or transferable experience, which is not explicitly stated in the candidate profile. Additionally, the candidate does not hold a degree in a field explicitly required for this role (e.g., computer science, project management).",
+    "id": "8bf0f9fea62bab9b",
+    "first_seen": "2026-08-18T11:47:29.219747+00:00",
+    "last_updated": "2026-08-18T11:47:29.219756+00:00"
   }
 }
