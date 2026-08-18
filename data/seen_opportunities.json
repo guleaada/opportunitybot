@@ -3485,5 +3485,126 @@
     "id": "8e9d0568759197f4",
     "first_seen": "2026-08-18T13:10:33.029642+00:00",
     "last_updated": "2026-08-18T13:10:33.029650+00:00"
+  },
+  "c6618d23c2430ef9": {
+    "url": "https://opportunitiesforyouth.org/2026/08/18/cambridge-eraai-fellowship-2026/",
+    "title": "Cambridge ERA:AI Fellowship 2027 in the UK: Fully Funded 10-Week Research Fellowship with £10,000 Stipend",
+    "status": "suspicious",
+    "credibility_status": "SUSPICIOUS",
+    "source_tier": "TIER_3",
+    "reasoning": "The fellowship is advertised on a third‑party site (opportunitiesforyouth.org) rather than an official Cambridge University or .ac.uk domain, and the program name (Cambridge ERA:AI) does not appear on known Cambridge research centres. The description lacks concrete sponsor details, contact information, or links to a university page, which are typical for legitimate fellowships.",
+    "id": "c6618d23c2430ef9",
+    "first_seen": "2026-08-18T19:42:13.651544+00:00",
+    "last_updated": "2026-08-18T19:42:13.651552+00:00"
+  },
+  "8218075da6929293": {
+    "url": "https://www.opportunitiesforafricans.com/the-government-of-kenya-presidential-digital-talent-programme-cohort-xi/",
+    "title": "The Government of Kenya Presidential Digital Talent Programme Cohort XI (12 Month ICT Program for Kenyan Graduates).",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "reasoning": "The programme explicitly requires applicants to be a Kenyan youth (21‑29 years) and to hold a recent BSc in ICT or Engineering (or equivalent) with First/Upper Second Class honors. The candidate is an Ethiopian national, holds a BSc in Psychology (not ICT/Engineering), and is currently employed, which directly violates the nationality, degree field, and employment status requirements.",
+    "id": "8218075da6929293",
+    "first_seen": "2026-08-18T19:42:54.060146+00:00",
+    "last_updated": "2026-08-18T19:42:54.060157+00:00"
+  },
+  "8c3e8b6e5110b68c": {
+    "url": "https://www.opportunitiesforafricans.com/schneider-electric-nigeria-2027-graduate-programme-for-young-nigerian-graduates/",
+    "title": "Schneider Electric Nigeria 2027 Graduate Programme for young Nigerian graduates.",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "reasoning": "The programme explicitly requires applicants to be Nigerian graduates (\"young Nigerian graduates\") and to have completed or be about to complete the Nigerian NYSC camp, as well as to be legally authorized to work in Nigeria. The candidate is an Ethiopian national, not eligible for NYSC, and does not have Nigerian work authorization. Additionally, the programme requires recent graduates (Class of 2026) whereas the candidate graduated in 2021, which further disqualifies them.",
+    "id": "8c3e8b6e5110b68c",
+    "first_seen": "2026-08-18T19:43:58.670926+00:00",
+    "last_updated": "2026-08-18T19:43:58.670940+00:00"
+  },
+  "50ccb92a23c151c3": {
+    "url": "https://opportunitydesk.org/2026/08/18/12-study-abroad-scholarship-opportunities-currently-open-august-18-2026/",
+    "title": "12 Study Abroad Scholarship Opportunities Currently Open – August 18, 2026",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "reasoning": "The MTN MUSON Music Scholars Programme explicitly targets \"talented young Nigerians\" for a two-year Diploma in Music. The candidate is an Ethiopian national, not Nigerian, which is a hard blocker. Additionally, the programme is for advanced music training, while the candidate's academic background is a BSc in Psychology and professional experience in AI and marketing, not music.",
+    "id": "50ccb92a23c151c3",
+    "first_seen": "2026-08-18T19:44:29.177599+00:00",
+    "last_updated": "2026-08-18T19:44:29.177607+00:00"
+  },
+  "75d86284eb2f6d0e": {
+    "url": "https://opportunitiesforyouth.org/2026/08/18/2027-guggenheim-fellowships-in-usa-and-canada-funding-for-mid-career-professionals/",
+    "title": "2027 Guggenheim Fellowships in USA and Canada | Funding for Mid-Career Professionals",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "reasoning": "The program explicitly requires applicants to be citizens or permanent residents of the United States or Canada. The candidate is an Ethiopian national with no US/Canada citizenship or permanent residency, which is a hard blocker. Additionally, the program requires a 'significant and recognized record of achievement' which cannot be verified from the provided information.",
+    "id": "75d86284eb2f6d0e",
+    "first_seen": "2026-08-18T19:45:09.277009+00:00",
+    "last_updated": "2026-08-18T19:45:09.277017+00:00"
+  },
+  "097e87b12a6bcc3f": {
+    "url": "https://www.opportunitiesforafricans.com/eu-youth-sounding-board-kenya-2026-second-cohort-for-young-kenyans/",
+    "title": "EU Youth Sounding Board Kenya 2026 – Second Cohort for young Kenyans.",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "reasoning": "The program explicitly requires applicants to be Kenyan citizens and to reside in Kenya for the duration of the mandate. The candidate is an Ethiopian national living in Vientiane, Lao PDR, which directly violates two stated eligibility criteria. Age and language proficiency are acceptable, but the citizenship and residency requirements are hard blockers.",
+    "id": "097e87b12a6bcc3f",
+    "first_seen": "2026-08-18T19:46:24.465568+00:00",
+    "last_updated": "2026-08-18T19:46:24.465575+00:00"
+  },
+  "b6b04fa5077ae79c": {
+    "url": "https://www.opportunitiesforafricans.com/pulitzer-center-lavwa-lenpak-african-content-creator-program-2026/",
+    "title": "Pulitzer Center Lavwa Lenpak African content creator program 2026 for African content creators ($500 participation stipend)",
+    "status": "unknown",
+    "eligibility_status": "UNCERTAIN",
+    "reasoning": "The program requires African content creators who produce content on TikTok, Instagram, and Facebook, have an established and engaged online community, and focus on public‑interest issues related to the Congo Basin or Africa. The candidate is an Ethiopian national (eligible nationality) and meets no explicit disqualifying criteria (age, student status, degree, language). However, the candidate profile does not confirm presence on the required platforms, audience size, or that their content specifically targets the Congo Basin or related public‑interest topics, which are core eligibility criteria.",
+    "id": "b6b04fa5077ae79c",
+    "first_seen": "2026-08-18T19:47:24.326622+00:00",
+    "last_updated": "2026-08-18T19:47:24.326630+00:00"
+  },
+  "9101164703fe9ba0": {
+    "url": "https://opportunitiesforyouth.org/2026/08/18/fast-forward-2027-accelerator-25000-funding-mentorship-and-global-support-for-early-stage-tech-nonprofits/",
+    "title": "Fast Forward 2027 Accelerator: $25,000+ Funding, Mentorship and Global Support for Early-Stage Tech Nonprofits",
+    "status": "unknown",
+    "eligibility_status": "UNCERTAIN",
+    "reasoning": "No reasoning returned.",
+    "id": "9101164703fe9ba0",
+    "first_seen": "2026-08-18T19:48:04.393648+00:00",
+    "last_updated": "2026-08-18T19:48:04.393659+00:00"
+  },
+  "ae26d38c1bf77ecb": {
+    "url": "https://opportunitiesforyouth.org/2026/08/18/cphia-2026-in-addis-ababa/",
+    "title": "CPHIA 2026 in Addis Ababa: Register for Africa CDC’s 5th International Conference on Public Health in Africa",
+    "status": "filtered_out",
+    "reason": "It's a fee-based public health conference, not a funded scholarship or fellowship.",
+    "id": "ae26d38c1bf77ecb",
+    "first_seen": "2026-08-18T19:48:20.387244+00:00",
+    "last_updated": "2026-08-18T19:48:20.387256+00:00"
+  },
+  "b51df1beb7228ed0": {
+    "url": "https://opportunitiesforyouth.org/2026/08/18/gsidi-mentorship-fall-2026/",
+    "title": "GSIDI Mentorship Program Fall 2026: Johns Hopkins and AEI Initiative for Prospective Political Science PhD Applicants",
+    "status": "ineligible",
+    "eligibility_status": "PROBABLY_INELIGIBLE",
+    "reasoning": "The GSIDI Mentorship Program explicitly seeks prospective graduate students who plan to pursue a PhD in Political Science, Political Theory, or related fields. The candidate holds a BSc in Psychology and works as an AI developer/marketing specialist, with no indicated background or research interest in political science. Additionally, the program targets prospective graduate students; the candidate is a working professional and not currently enrolled in any academic program. These constitute hard blockers. English proficiency requirements are not stated, but the candidate could obtain a test score if needed.",
+    "id": "b51df1beb7228ed0",
+    "first_seen": "2026-08-18T19:48:54.712490+00:00",
+    "last_updated": "2026-08-18T19:48:54.712502+00:00"
+  },
+  "49ea8656a5edd35e": {
+    "url": "https://weworkremotely.com/remote-jobs/https-bergstaffing-com-data-entry",
+    "title": "https://bergstaffing.com/: Data Entry",
+    "status": "suspicious",
+    "credibility_status": "SUSPICIOUS",
+    "source_tier": "TIER_4",
+    "reasoning": "The posting contains placeholder text like \"reputed company\" repeated throughout, offers an unusually high hourly rate for a data entry role, and provides no concrete company details or contact information, which are typical red flags for fraudulent job ads. Additionally, the application link redirects to an external site without a clear hiring process.",
+    "id": "49ea8656a5edd35e",
+    "first_seen": "2026-08-18T19:49:22.352741+00:00",
+    "last_updated": "2026-08-18T19:49:22.352754+00:00"
+  },
+  "96caad03a213a85d": {
+    "url": "https://remotive.com/remote-jobs/sales/business-development-representative-2091075",
+    "title": "Business Development Representative",
+    "status": "unknown",
+    "eligibility_status": "UNCERTAIN",
+    "reasoning": "No reasoning returned.",
+    "id": "96caad03a213a85d",
+    "first_seen": "2026-08-18T19:50:51.139090+00:00",
+    "last_updated": "2026-08-18T19:50:51.139100+00:00"
   }
 }
