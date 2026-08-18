@@ -59,8 +59,7 @@ _CALLS = []  # (task_type, model) per fake call — lets tests assert cost behav
 
 def fake_call_model(task_type, prompt, system=None, tools=None,
                     max_tokens=2048, temperature=0.3):
-    # check_deadline reuses first_pass_filter task_type but expects a date schema.
-    if task_type == "first_pass_filter" and "APPLICATION deadline" in prompt:
+    if task_type == "check_deadline":
         payload = fake_call_model.deadline_response
     else:
         payload = _RESPONSES.get(task_type, {"keep": True})
