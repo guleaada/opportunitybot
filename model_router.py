@@ -11,10 +11,15 @@ Plus:
 - Graceful fallback chain when free models fail.
 - Every call is logged with which model ran and what it cost.
 
-Free-provider chain (in order):
-    1. Groq       — primary; proven reliable here
+Free-provider chain (in order, configurable via MODEL_PROVIDER_ORDER):
+    1. Groq       — primary
     2. OpenRouter — independent backup (skipped when no API key is set)
-    3. Gemini     — last resort; its model ids churn and have broken us twice
+    3. Mistral    — free tier (skipped when no API key is set)
+    4. Gemini     — last resort; its model ids churn and have broken us twice
+
+A provider that returns 429 (RATE_LIMITED) or a configuration error such as
+404 / model-not-found (FAILED) is skipped for the REST OF THE SCAN, so one
+bad model name costs one request, not one per operation per candidate.
 
     Claude fails           → re-raise (fail loud; high stakes)
     ALL free models fail   → Claude Haiku 4.5, but ONLY if budget allows
@@ -23,6 +28,7 @@ Free-provider chain (in order):
 import json
 import os
 import re
+from threading import RLock
 from typing import Optional
 
 import requests
@@ -70,8 +76,8 @@ TASK_ROUTING = {
     "generate_email_subject": "gemini",
     "summarize_opportunity": "gemini",
     "classify_opportunity": "gemini",   # hidden-opportunity detection (free)
-    # MECHANICAL — Groq (free)
-    "clean_html": "groq",
+    # MECHANICAL — Groq (free). clean_html is deliberately absent: it is
+    # done locally in tools.py and makes no API request at all.
     "extract_text": "groq",
     "translate": "groq",
 }
@@ -112,27 +118,100 @@ FAILED = "FAILED"              # errored this run
 AVAILABLE = "AVAILABLE"        # configured, healthy, has run successfully
 
 # Per-scan provider stats + circuit breaker. Reset at the start of each scan.
+#
+# This is deliberately module-level: ONE latch shared by every operation in a
+# scan (clean_html, first_pass_filter, scam_detection, deep_eligibility,
+# scoring, ...), not one per call site. Every model call in the project routes
+# through call_model() -> _call_free_chain(), so there is a single place where
+# the latch is set and a single place where it is honoured.
+#
+# _STATS_LOCK guards it the way rate_limiter/cost_tracker/database already
+# guard their shared state, so the read-modify-write of the counters and the
+# latch stays consistent if a scan ever runs operations concurrently. It is an
+# RLock because provider_state() -> _stats() nests inside callers that already
+# hold it. The lock is never held across a network call.
 _provider_stats = {}
+_STATS_LOCK = RLock()
 
 
 def _blank_stats() -> dict:
+    # ``config_error`` latches a PERMANENT provider fault (404 / model not
+    # found / unavailable / invalid model). Unlike an ordinary transient
+    # failure, a misconfigured model name cannot fix itself mid-scan, so the
+    # provider is skipped for the remainder of the run instead of being
+    # retried once per candidate. Kept separate from ``state`` so transient
+    # failures stay retryable.
     return {"requests": 0, "successful": 0, "429": 0, "404": 0,
-            "failed": 0, "state": None, "last_error": ""}
+            "failed": 0, "state": None, "last_error": "",
+            "config_error": False}
 
 
 def reset_provider_stats() -> None:
     """Per-scan reset so the breaker and counters do not leak across runs."""
-    _provider_stats.clear()
+    with _STATS_LOCK:
+        _provider_stats.clear()
 
 
 def provider_stats(name: str = None):
-    if name is None:
-        return {k: dict(v) for k, v in _provider_stats.items()}
-    return dict(_provider_stats.setdefault(name, _blank_stats()))
+    with _STATS_LOCK:
+        if name is None:
+            return {k: dict(v) for k, v in _provider_stats.items()}
+        return dict(_provider_stats.setdefault(name, _blank_stats()))
 
 
 def _stats(name: str) -> dict:
-    return _provider_stats.setdefault(name, _blank_stats())
+    """The live stats dict for a provider. Mutate it only under _STATS_LOCK."""
+    with _STATS_LOCK:
+        return _provider_stats.setdefault(name, _blank_stats())
+
+
+def _record_success(provider: str) -> None:
+    """One atomic update so a concurrent reader never sees a half-written row."""
+    with _STATS_LOCK:
+        s = _stats(provider)
+        s["successful"] += 1
+        s["state"] = AVAILABLE
+
+
+def _record_failure(provider: str, exc, task_type: str) -> None:
+    """Classify a provider failure and update the breakers, atomically.
+
+    Two per-scan breakers, deliberately distinct:
+      * 429            -> RATE_LIMITED  (quota; retrying just burns quota)
+      * 404/bad model  -> FAILED + config_error latch (retrying cannot succeed)
+    Anything else is transient (5xx, timeout, connection reset) and latches
+    nothing, so the provider is retried on the next operation.
+
+    Errors are classified and logged here, never swallowed: the caller still
+    falls through to the next provider, and ProvidersUnavailable is still
+    raised if every provider is exhausted.
+    """
+    short = _short_err(exc)
+    with _STATS_LOCK:
+        s = _stats(provider)
+        s["last_error"] = short
+        if _is_rate_limit(exc):
+            s["429"] += 1
+            s["state"] = RATE_LIMITED
+            print(f"⚠️  {provider} {task_type}: rate limited — "
+                  f"disabling {provider} for the rest of this scan")
+            return
+        s["failed"] += 1
+        s["state"] = FAILED
+        if _is_model_not_found(exc):
+            s["404"] += 1
+            # Permanent: the configured model is wrong, retired, or not
+            # available to this account. It will fail identically for every
+            # remaining operation in this scan, so latch it instead of
+            # burning one request per operation per candidate.
+            s["config_error"] = True
+            print(f"⛔ {provider} {task_type}: configured model not "
+                  f"found/unavailable — check the model name. {short}")
+            print(f"   ⛔ disabling {provider} for the rest of this scan "
+                  f"(configuration error, not transient)")
+        else:
+            # Transient (network blip, 5xx, timeout): stays retryable.
+            print(f"⚠️  {provider} {task_type}: {short}")
 
 
 def provider_configured(name: str) -> bool:
@@ -152,6 +231,10 @@ def provider_state(name: str) -> str:
     s = _stats(name)
     if s["state"] == RATE_LIMITED:
         return RATE_LIMITED
+    # A latched configuration fault outranks earlier successes: the provider
+    # worked, then its model became unusable, and it stays FAILED this scan.
+    if s.get("config_error"):
+        return FAILED
     if s["successful"]:
         return AVAILABLE
     if s["state"] == FAILED:
@@ -165,11 +248,30 @@ def _is_rate_limit(exc) -> bool:
     return status == 429 or "429" in str(exc) or "rate limit" in str(exc).lower()
 
 
+# Markers of a PERMANENT provider fault — a wrong, retired or unavailable
+# model name. These cannot resolve themselves mid-scan, so they latch.
+# Deliberately model-specific: a bare "unavailable" would also match
+# "503 service unavailable", which IS transient and must stay retryable.
+_MODEL_CONFIG_ERRORS = (
+    "model not found", "model_not_found", "no longer available",
+    "does not exist", "invalid model", "invalid_model", "unknown model",
+    "unsupported model", "model is not available", "model unavailable",
+    "is not a valid model", "decommissioned",
+)
+
+
 def _is_model_not_found(exc) -> bool:
+    """True for a permanent model/configuration fault (404, bad model name)."""
     status = getattr(getattr(exc, "response", None), "status_code",
                      getattr(exc, "status_code", None))
     text = str(exc).lower()
-    return status == 404 or "not found" in text or "no longer available" in text
+    if status == 404:
+        return True
+    if any(m in text for m in _MODEL_CONFIG_ERRORS):
+        return True
+    # Generic 404/"not found" only when the message is clearly about the
+    # model, so a DNS or endpoint blip is not mistaken for a config error.
+    return "model" in text and ("not found" in text or "404" in text)
 
 
 def call_model(task_type: str, prompt: str, system: str = None,
@@ -283,13 +385,20 @@ def _short_err(e) -> str:
 
 
 def _provider_available(provider: str) -> bool:
-    """Configured, and not already rate-limited/broken during this scan."""
+    """Configured, and not already rate-limited/misconfigured this scan.
+
+    Two per-scan breakers, deliberately distinct:
+      * 429            → RATE_LIMITED  (quota; retrying costs quota)
+      * 404/bad model  → FAILED        (config; retrying can never succeed)
+    A transient failure latches neither and is retried on the next candidate.
+    """
     if provider == "claude":
         # Paid: only if explicitly credentialed AND within budget.
         return provider_configured("claude") and has_claude_budget()
     if not provider_configured(provider):
         return False
-    return _stats(provider)["state"] != RATE_LIMITED
+    s = _stats(provider)
+    return s["state"] != RATE_LIMITED and not s.get("config_error")
 
 
 def _dispatch_free(provider, prompt, system, max_tokens, temperature, task_type):
@@ -332,35 +441,27 @@ def _call_free_chain(prompt, system, max_tokens, temperature, task_type):
 
     attempted = []
     for i, provider in enumerate(chain):
-        s = _stats(provider)
+        # Re-check immediately before dispatch, not just when the chain was
+        # built: under concurrency another operation may have latched this
+        # provider in between, and the whole point is that the first failure
+        # is the last request anyone sends it.
+        if not _provider_available(provider):
+            print(f"  ↷ [{task_type}] skipping {provider} "
+                  f"({provider_state(provider)})")
+            continue
+        with _STATS_LOCK:
+            _stats(provider)["requests"] += 1
         print(f"🤖 [{task_type}] → {provider} "
               f"({ROUTING_REASON.get(provider, 'free')})")
-        s["requests"] += 1
         attempted.append(provider)
         try:
             res = _dispatch_free(provider, prompt, system, max_tokens,
                                  temperature, task_type)
-            s["successful"] += 1
-            s["state"] = AVAILABLE
+            _record_success(provider)
             res["fell_back"] = i > 0
             return res
         except Exception as e:
-            short = _short_err(e)
-            s["last_error"] = short
-            if _is_rate_limit(e):
-                s["429"] += 1
-                s["state"] = RATE_LIMITED     # breaker: skip for this scan
-                print(f"⚠️  {provider} {task_type}: rate limited — "
-                      f"disabling {provider} for the rest of this scan")
-            else:
-                s["failed"] += 1
-                s["state"] = FAILED
-                if _is_model_not_found(e):
-                    s["404"] += 1
-                    print(f"⛔ {provider} {task_type}: configured model not "
-                          f"found/unavailable — check the model name. {short}")
-                else:
-                    print(f"⚠️  {provider} {task_type}: {short}")
+            _record_failure(provider, e, task_type)
             nxt = chain[i + 1] if i + 1 < len(chain) else "nothing left"
             print(f"   → falling back to {nxt}")
 

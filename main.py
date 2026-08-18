@@ -190,7 +190,7 @@ def _analyze_one_inner(result, stats: dict):
                    f"snippet ({len(snippet)} chars) — skipping")
             return None
     else:
-        # 5. clean_html (GROQ free) — best effort; falls back to raw text
+        # 5. clean_html (LOCAL, no model) — deterministic text normalization
         text = tools.clean_html(fetched["text"])
 
     # 6. first_pass_filter (GEMINI free) — drops most candidates
@@ -706,7 +706,7 @@ def analyze_url(url: str):
         cprint(f"❌ Could not fetch URL: {fetched['error'] or fetched['status']}")
         return
 
-    cprint("[1] clean_html       → GROQ" if _has_rich() else "[1] clean_html → GROQ")
+    cprint("[1] clean_html       → LOCAL (no model call)")
     text = tools.clean_html(fetched["text"])
 
     cprint("[2] first_pass_filter → GEMINI")

@@ -296,6 +296,29 @@ def compute_final_score(sub_scores: dict, expected_value: dict,
     return round(max(0.0, weighted), 1)
 
 
+def _coerce_sub_scores(raw):
+    """Model-supplied ``sub_scores`` → a dict, or ``{}`` when malformed.
+
+    The schema asks for an object, but a model occasionally answers with a
+    string ("see reasoning above"), a list, or a bare number. Truthy non-dict
+    values used to reach ``.get()`` and raise AttributeError, killing the whole
+    candidate at the last stage of the pipeline.
+
+    Malformed output is not a judgement, so it is discarded and the reply is
+    treated exactly like one carrying no sub-scores at all: the deterministic
+    sub-scores stand on their own. Falsy values (None, "", [], {}) were already
+    handled this way and behave identically. Nothing is repaired with another
+    model call, and no score is invented.
+    """
+    if isinstance(raw, dict):
+        return raw
+    if raw:  # truthy but the wrong shape — worth saying out loud
+        print(f"⚠️  scoring model returned {type(raw).__name__} for "
+              f"'sub_scores' (expected an object) — ignoring the malformed "
+              f"sub-scores and scoring deterministically.")
+    return {}
+
+
 def build_scoring(parsed: dict, prior: dict) -> dict:
     """Derive sub-scores, probability, expected value and final score.
 
@@ -303,8 +326,12 @@ def build_scoring(parsed: dict, prior: dict) -> dict:
     deterministically from the prior analysis (eligibility ladder, legitimacy
     verdict, complexity, deadline) so scoring degrades gracefully rather than
     inventing optimistic numbers.
+
+    ``model_sub_scores_used`` in the result reports whether the model actually
+    supplied usable sub-scores, so callers do not have to re-inspect (and
+    re-trust) the raw reply.
     """
-    model_subs = parsed.get("sub_scores") or {}
+    model_subs = _coerce_sub_scores(parsed.get("sub_scores"))
     subs = {}
 
     # Deterministic where we already know the answer from earlier stages.
@@ -362,6 +389,7 @@ def build_scoring(parsed: dict, prior: dict) -> dict:
         "expected_value": expected_value,
         "final_score": final_score,
         "reward_usd": reward_usd,
+        "model_sub_scores_used": bool(model_subs),
     }
 
 
@@ -427,7 +455,10 @@ def score_opportunity(data: dict, profile: dict) -> dict:
     # Expected-value final score drives the MIN_SCORE gate whenever the model
     # supplied sub-scores. A legacy reply with no sub_scores keeps the model's
     # own overall_score, so older callers/stubs behave exactly as before.
-    has_model_subs = bool(parsed.get("sub_scores"))
+    # Read from the built scoring, not the raw reply: a malformed sub_scores
+    # value is truthy but yielded no sub-scores, and must fall back to the
+    # model's own overall_score exactly as a missing one does.
+    has_model_subs = scoring["model_sub_scores_used"]
     overall = scoring["final_score"] if has_model_subs else score
 
     return {

@@ -7,7 +7,8 @@ This module is the single import the pipeline and CLI use, so model routing
 stays consistent everywhere.
 
 Routing summary:
-  clean_html / extract_text / translate  → groq   (mechanical, free)
+  clean_html                              → local  (no model, no API request)
+  extract_text / translate                → groq   (mechanical, free)
   check_deadline / first_pass_filter      → gemini (free)
   extract_documents / estimate_complexity → gemini (free)
   generate_cover_letter / email subject   → gemini (free)
@@ -15,6 +16,8 @@ Routing summary:
   score_opportunity                        → claude ($ high stakes)
 """
 
+import html as _html
+import re
 from typing import List
 
 from model_router import call_model, extract_json
@@ -55,29 +58,76 @@ def fetch_via_jina(url: str) -> dict:
     return _fetch_via_jina(url)
 
 
-# ── 3. clean_html (GROQ, mechanical) ────────────────────────────────────────
-def clean_html(html_or_text: str) -> str:
-    """Convert messy HTML/text into clean readable plain text via Groq.
+# ── 3. clean_html (LOCAL, no model) ─────────────────────────────────────────
+# This used to be a model call. It ran before every gate, so it cost one API
+# request for EVERY candidate — including the ones the first-pass filter then
+# dropped, where it was half of all calls. The work is pure text
+# normalization, so it is done locally: same output shape, zero API requests,
+# and the free-tier quota is spent on decisions instead of tidying.
+_NON_CONTENT_TAGS = ("script", "style", "noscript", "template", "svg",
+                     "iframe", "header", "footer", "nav", "form")
+_LOOKS_LIKE_MARKUP = re.compile(r"<\s*/?\s*[a-zA-Z][^>]*>")
+_SCRIPT_BLOCK = re.compile(
+    r"<\s*(script|style|noscript|template|svg)\b.*?<\s*/\s*\1\s*>",
+    re.IGNORECASE | re.DOTALL)
+_ANY_TAG = re.compile(r"<[^>]*>")
+# Space, tab, non-breaking space, zero-width space/non-joiner, BOM.
+_INLINE_SPACE = re.compile("[ \t\u00a0\u200b\u200c\ufeff]+")
 
-    Falls back to returning the input unchanged if the model call fails. The
-    input is usually already BeautifulSoup-extracted by fetch_url(), so this is
-    a polish step, not the primary extractor.
+
+def clean_html(html_or_text: str) -> str:
+    """Convert messy HTML/text into clean readable plain text. NO model call.
+
+    Deterministic and local: strips markup and non-content elements, decodes
+    entities and normalizes whitespace. The input is usually already
+    BeautifulSoup-extracted by fetch_url(), so this is a normalization step,
+    not the primary extractor. Never raises — the worst case is that the input
+    comes back whitespace-normalized.
     """
     if not html_or_text:
         return ""
-    system = (
-        "You convert raw web page text into clean, readable plain text. "
-        "Remove navigation menus, cookie banners, ads, and boilerplate. "
-        "Keep the substantive content about the program: eligibility, funding, "
-        "deadlines, requirements. Do not summarize or add commentary."
-    )
-    prompt = f"Clean this page text:\n\n{_trim(html_or_text)}"
     try:
-        res = call_model("clean_html", prompt, system=system, max_tokens=3000)
-        return (res["content"] or html_or_text).strip()
+        text = _trim(str(html_or_text))
+        if not text.strip():
+            return ""
+        if _LOOKS_LIKE_MARKUP.search(text):
+            text = _strip_markup(text)
+        else:
+            text = _html.unescape(text)
+        return _normalize_whitespace(text)
     except Exception as e:
-        print(f"⚠️  clean_html failed, using raw text: {e}")
+        # Cleaning is never worth losing a candidate over.
+        print(f"⚠️  clean_html could not normalize the text ({e}) — using raw.")
         return html_or_text
+
+
+def _strip_markup(text: str) -> str:
+    """HTML → plain text. BeautifulSoup when available, regex otherwise."""
+    try:
+        from bs4 import BeautifulSoup
+        try:
+            soup = BeautifulSoup(text, "lxml")
+        except Exception:
+            soup = BeautifulSoup(text, "html.parser")
+        for tag in soup(list(_NON_CONTENT_TAGS)):
+            tag.decompose()
+        # get_text() already resolves entities.
+        return soup.get_text(separator="\n")
+    except Exception:
+        # bs4 missing, or a parser that choked on genuinely broken markup.
+        stripped = _SCRIPT_BLOCK.sub(" ", text)
+        stripped = _ANY_TAG.sub("\n", stripped)
+        return _html.unescape(stripped)
+
+
+def _normalize_whitespace(text: str) -> str:
+    """Collapse runs of spaces, trim lines, drop blank lines.
+
+    Matches what search._basic_text already produces, so downstream prompts
+    see the same shape of text they saw before.
+    """
+    lines = (_INLINE_SPACE.sub(" ", ln).strip() for ln in text.splitlines())
+    return "\n".join(ln for ln in lines if ln)
 
 
 # ── 4. check_deadline (GEMINI) ──────────────────────────────────────────────
