@@ -22,6 +22,7 @@ from unittest.mock import patch
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
 import checker
+from model_router import as_object
 
 PASSED = []
 
@@ -105,12 +106,12 @@ ok("an out-of-contract verdict string still normalises to 'unknown'")
 
 # ══════════════════════════════════════════════════════════════════════════
 print("\n4. _as_object() in isolation")
-assert checker._as_object({"a": 1}, "t") == {"a": 1}
-assert checker._as_object([1, 2], "t") == {}
-assert checker._as_object(None, "t") == {}
-assert checker._as_object("str", "t") == {}
-assert checker._as_object(7, "t") == {}
-assert checker._as_object(True, "t") == {}
+assert as_object({"a": 1}, "t") == {"a": 1}
+assert as_object([1, 2], "t") == {}
+assert as_object(None, "t") == {}
+assert as_object("str", "t") == {}
+assert as_object(7, "t") == {}
+assert as_object(True, "t") == {}
 ok("dict passes through; list/None/str/int/bool all yield {}")
 
 # It must say something when it discards a reply — silence would hide this
@@ -119,11 +120,81 @@ import io as _io
 from contextlib import redirect_stdout
 buf = _io.StringIO()
 with redirect_stdout(buf):
-    checker._as_object([{"verdict": "scam"}], "scam_detection")
-    checker._as_object(None, "scam_detection")
+    as_object([{"verdict": "scam"}], "scam_detection")
+    as_object(None, "scam_detection")
 printed = buf.getvalue()
 assert "scam_detection" in printed and "list" in printed, printed
 assert printed.count("⚠️") == 1, "None is 'no JSON found', not a shape error"
 ok("a discarded reply is logged with its type; a plain None is not")
+
+# ══════════════════════════════════════════════════════════════════════════
+print("\n5. Every other extract_json call site survives an array reply")
+import scorer
+import signals
+import tools
+
+ARRAY = '[{"verdict": "scam", "keep": false, "overall_score": 9.9}]'
+
+
+def _stub(module, content):
+    return patch.object(module, "call_model", return_value=reply(content))
+
+
+# check_deadline — must not invent a deadline
+with _stub(checker, ARRAY):
+    out = checker.check_deadline("Applications close soon.")
+assert out["status"] == "unknown" and out["deadline"] is None, out
+ok("check_deadline  → status 'unknown', no deadline invented")
+
+# check_eligibility — must land on the ladder's uncertain rung
+with _stub(checker, ARRAY):
+    out = checker.check_eligibility("Some program text.", {})
+assert out["eligibility_status"] == "UNCERTAIN", out["eligibility_status"]
+assert out["overall"] != "eligible", out
+ok("check_eligibility → UNCERTAIN, never 'eligible'")
+
+# score_opportunity — must not produce a notifiable score
+with _stub(scorer, ARRAY), patch.object(scorer, "profile_summary",
+                                        return_value="profile"):
+    out = scorer.score_opportunity({"raw_text": "t", "url": "https://e/x"}, {})
+assert out["model_score"] == 0.0, out["model_score"]
+assert out["overall_score"] < 7, out["overall_score"]
+ok(f"score_opportunity → model_score 0.0, overall {out['overall_score']} (< 7)")
+
+# _classify_with_cheap_model — an unusable reply must not become a yes
+with _stub(signals, ARRAY):
+    out = signals._classify_with_cheap_model("text", "title", {"weak": [],
+                                                               "strong": []})
+assert out["is_opportunity"] is False, out
+ok("classify_opportunity → is_opportunity False, not a yes")
+
+# extract_documents / estimate_complexity — documented defaults
+with _stub(tools, ARRAY):
+    out = tools.extract_documents("text")
+assert out["notes"] == "extraction failed" and out["documents"] == [], out
+ok("extract_documents → documented 'extraction failed' default")
+
+with _stub(tools, ARRAY):
+    out = tools.estimate_complexity("text")
+assert out["notes"] == "estimation failed", out
+assert out["difficulty"] == "unknown" and out["odds"] == "unknown", out
+ok("estimate_complexity → documented 'estimation failed' default")
+
+# Not one of the six raises AttributeError on any non-object shape.
+for shape in ("[]", "[1,2]", "null", '"str"', "42", "no json here"):
+    with _stub(checker, shape):
+        checker.check_deadline("t")
+        checker.check_eligibility("t", {})
+        checker.check_legitimacy("t", "https://e/x")
+    with _stub(signals, shape):
+        signals._classify_with_cheap_model("t", "", {"weak": [], "strong": []})
+    with _stub(tools, shape):
+        tools.extract_documents("t")
+        tools.estimate_complexity("t")
+    with _stub(scorer, shape), patch.object(scorer, "profile_summary",
+                                            return_value="p"):
+        scorer.score_opportunity({"raw_text": "t", "url": "https://e/x"}, {})
+ok("6 shapes x 7 call sites = 42 combinations, zero AttributeErrors")
+
 
 print(f"\n{'=' * 62}\n✅ ALL {len(PASSED)} CHECKS PASSED\n{'=' * 62}")

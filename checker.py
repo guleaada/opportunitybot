@@ -17,7 +17,7 @@ from typing import Optional
 
 from dateutil import parser as dateparser
 
-from model_router import call_model, extract_json
+from model_router import call_model, extract_json, as_object
 from known_scams import red_flag_report
 from profile import profile_summary
 
@@ -177,7 +177,9 @@ def check_deadline(text: str) -> dict:
         f"TEXT:\n{_trim(text)}"
     )
     res = call_model("check_deadline", prompt, system=system, max_tokens=300)
-    data = extract_json(res["content"]) or {}
+    # A non-object reply yields {}, so `found` is absent and the existing
+    # "unknown" branch below returns — no deadline is invented.
+    data = as_object(extract_json(res["content"]), "check_deadline")
 
     if data.get("is_explicitly_closed"):
         return {"status": "closed", "deadline": None, "days_left": None,
@@ -247,27 +249,6 @@ def first_pass_filter(text: str, profile: dict) -> dict:
 
 
 # ── Legitimacy / scam detection (Claude, HIGH STAKES) ───────────────────────
-def _as_object(data, where: str) -> dict:
-    """A decoded model reply, but only when it is actually a JSON object.
-
-    extract_json() returns the first balanced ``{...}`` OR ``[...]`` it finds,
-    so a model that answers with an array hands back a list — and a list has
-    no .get(), which is how a scan died with
-    ``AttributeError: 'list' object has no attribute 'get'``.
-
-    Anything that is not a dict carries none of the fields we asked for.
-    Unwrapping a one-element array or reading positionally would be inventing
-    a judgement the model did not make, so the reply is reported and
-    discarded, leaving the caller to fall back to its own safe default.
-    """
-    if isinstance(data, dict):
-        return data
-    if data is not None:
-        print(f"⚠️  {where}: model returned a JSON {type(data).__name__}, "
-              f"expected an object — treating the response as unusable.")
-    return {}
-
-
 def check_legitimacy(text: str, source_url: str) -> dict:
     """Claude judgment on whether this is a legitimate opportunity or a scam.
 
@@ -304,7 +285,7 @@ def check_legitimacy(text: str, source_url: str) -> dict:
     # A non-object reply yields {} here, so verdict stays "unknown" and the
     # credibility ladder resolves to NEEDS_VERIFICATION — the project's
     # existing "we could not verify this" outcome, not a guessed verdict.
-    data = _as_object(extract_json(res["content"]), "scam_detection")
+    data = as_object(extract_json(res["content"]), "scam_detection")
     verdict = data.get("verdict", "unknown")
     if verdict not in ("legitimate", "scam", "suspicious", "unknown"):
         verdict = "unknown"
@@ -386,7 +367,9 @@ def check_eligibility(text: str, profile: dict) -> dict:
         f"PROGRAM TEXT:\n{_trim(text)}"
     )
     res = call_model("deep_eligibility", prompt, system=system, max_tokens=800)
-    data = extract_json(res["content"]) or {}
+    # A non-object reply yields {}, so normalize_eligibility(None) resolves to
+    # UNCERTAIN — the existing "we could not grade this" outcome.
+    data = as_object(extract_json(res["content"]), "deep_eligibility")
 
     # Accept the ladder, or a legacy "overall" reply, or nothing at all.
     level = normalize_eligibility(
