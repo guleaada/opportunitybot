@@ -247,6 +247,27 @@ def first_pass_filter(text: str, profile: dict) -> dict:
 
 
 # ── Legitimacy / scam detection (Claude, HIGH STAKES) ───────────────────────
+def _as_object(data, where: str) -> dict:
+    """A decoded model reply, but only when it is actually a JSON object.
+
+    extract_json() returns the first balanced ``{...}`` OR ``[...]`` it finds,
+    so a model that answers with an array hands back a list — and a list has
+    no .get(), which is how a scan died with
+    ``AttributeError: 'list' object has no attribute 'get'``.
+
+    Anything that is not a dict carries none of the fields we asked for.
+    Unwrapping a one-element array or reading positionally would be inventing
+    a judgement the model did not make, so the reply is reported and
+    discarded, leaving the caller to fall back to its own safe default.
+    """
+    if isinstance(data, dict):
+        return data
+    if data is not None:
+        print(f"⚠️  {where}: model returned a JSON {type(data).__name__}, "
+              f"expected an object — treating the response as unusable.")
+    return {}
+
+
 def check_legitimacy(text: str, source_url: str) -> dict:
     """Claude judgment on whether this is a legitimate opportunity or a scam.
 
@@ -280,7 +301,10 @@ def check_legitimacy(text: str, source_url: str) -> dict:
         f"PAGE TEXT:\n{_trim(text)}"
     )
     res = call_model("scam_detection", prompt, system=system, max_tokens=600)
-    data = extract_json(res["content"]) or {}
+    # A non-object reply yields {} here, so verdict stays "unknown" and the
+    # credibility ladder resolves to NEEDS_VERIFICATION — the project's
+    # existing "we could not verify this" outcome, not a guessed verdict.
+    data = _as_object(extract_json(res["content"]), "scam_detection")
     verdict = data.get("verdict", "unknown")
     if verdict not in ("legitimate", "scam", "suspicious", "unknown"):
         verdict = "unknown"
