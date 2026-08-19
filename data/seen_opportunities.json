@@ -4178,5 +4178,87 @@
     "id": "28ba91a869f9793e",
     "first_seen": "2026-08-19T00:40:23.550807+00:00",
     "last_updated": "2026-08-19T00:40:23.550818+00:00"
+  },
+  "d7392852ae8707fa": {
+    "url": "https://opportunitiesforyouth.org/2026/08/19/research-fellow-cadbury-postdoctoral-fellowship-in-african-studies-at-the-university-of-birmingham-uk-2027/",
+    "title": "Research Fellow (Cadbury Postdoctoral Fellowship) in African Studies at the University of Birmingham, UK – 2027.",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "reasoning": "The Cadbury Postdoctoral Fellowship explicitly requires (1) a PhD focused on African history or African diasporas, examined and passed between 1 June 2021 and 1 June 2026; (2) the applicant to be currently based on the African continent; and (3) employment or affiliation with an African higher‑education institution. The candidate holds only a BSc, has no PhD, is residing in Vientiane, Lao PDR (outside Africa), and is employed as a professional not linked to any African university. These unmet mandatory criteria constitute hard blockers.",
+    "id": "d7392852ae8707fa",
+    "first_seen": "2026-08-19T05:34:48.564304+00:00",
+    "last_updated": "2026-08-19T05:34:48.564314+00:00"
+  },
+  "e74ba8c9d093f6e5": {
+    "url": "https://www.facebook.com/100090185291465/posts/-looking-for-fellowships-grants-opportunities-applications-are-currently-being-a/1042274408788726",
+    "title": "Fellowships and grants opportunities for 2026 and 2027",
+    "status": "suspicious",
+    "credibility_status": "SUSPICIOUS",
+    "source_tier": "TIER_4",
+    "reasoning": "The post provides no specific sponsoring organization, program name, or official website—only a vague claim of \"Fully Funded\" fellowships for international students in Thailand. Such generic, unsourced offers on social media are typical of scholarship scams.",
+    "id": "e74ba8c9d093f6e5",
+    "first_seen": "2026-08-19T05:35:16.459443+00:00",
+    "last_updated": "2026-08-19T05:35:16.459453+00:00"
+  },
+  "4341b78b27bf254e": {
+    "url": "https://oyaop.com/opportunity/scholarships-and-fellowships/fully-funded-leadership-programme-in-sweden-2026",
+    "title": "Fully Funded Leadership Programme in Sweden 2026 - OYA Opportunities | OYA Opportunities",
+    "status": "suspicious",
+    "credibility_status": "SUSPICIOUS",
+    "source_tier": "TIER_4",
+    "reasoning": "The Swedish Institute does run leadership programmes, but the page provides no direct official link, uses generic language, and shows inconsistencies (e.g., eligibility says both MENA‑specific and \"all nationalities\"). The lack of concrete application details and reliance on an aggregator site are typical of dubious listings.",
+    "id": "4341b78b27bf254e",
+    "first_seen": "2026-08-19T05:36:05.038483+00:00",
+    "last_updated": "2026-08-19T05:36:05.038492+00:00"
+  },
+  "6e6fab9c414147d0": {
+    "url": "https://opportunitiesforyouth.org/2026/03/18/unlock-global-grants-for-africa-free-funding-opportunities-networking-and-program-support-for-organizations",
+    "title": "Unlock Global Grants for Africa: Free Funding Opportunities, Networking, and Program Support for Organizations - Opportunities for Youth",
+    "status": "unknown",
+    "eligibility_status": "UNCERTAIN",
+    "reasoning": "The page lists several distinct funding and fellowship opportunities but does not provide any explicit eligibility criteria (e.g., age limits, nationality restrictions, student status, degree level, English proficiency requirements). Without those details we cannot verify whether the candidate meets the necessary conditions for any of the listed programs.",
+    "id": "6e6fab9c414147d0",
+    "first_seen": "2026-08-19T05:36:39.864017+00:00",
+    "last_updated": "2026-08-19T05:36:39.864026+00:00"
+  },
+  "7fcc2c2c7046f06b": {
+    "url": "https://ngofundraising.africa/grants-and-funding-opportunities-july-2026",
+    "title": "Grants and Funding Opportunities – July 2026",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "reasoning": "The program lists specific funding opportunities with focus areas (e.g., biodiversity conservation, LGBTI rights, agriculture, democracy, climate/health, etc.), but none of these align with the candidate's profile as an AI Developer, Marketing Specialist, Psychologist, and AgriTech innovator. The candidate's background in AI/tech innovation and entrepreneurship does not match the thematic focus of any listed opportunities (e.g., conservation, human rights, agriculture, media, governance). Additionally, the candidate is a working professional, not affiliated with an NGO or community-based organization, which is likely a requirement for these grants.",
+    "id": "7fcc2c2c7046f06b",
+    "first_seen": "2026-08-19T05:38:26.064449+00:00",
+    "last_updated": "2026-08-19T05:38:26.064460+00:00"
+  },
+  "58074132f6d7ec79": {
+    "url": "https://www2.fundsforngos.org/listing/100-open-grant-opportunities-for-community-development-projects",
+    "title": "100+ Open Grant Opportunities for Community ...",
+    "status": "filtered_out",
+    "reason": "No actual opportunity details provided",
+    "id": "58074132f6d7ec79",
+    "first_seen": "2026-08-19T05:38:27.526565+00:00",
+    "last_updated": "2026-08-19T05:38:27.526574+00:00"
+  },
+  "4a1b05006470d19c": {
+    "url": "https://www.facebook.com/opportunitiesforyouth/posts/-30-grant-accelerator-startup-opportunities-20262027looking-for-funding-for-your/1506588274831854",
+    "title": "🚀💰 30 Grant, Accelerator &... - Opportunities For Youth",
+    "status": "suspicious",
+    "credibility_status": "SUSPICIOUS",
+    "source_tier": "TIER_4",
+    "reasoning": "While the post lists some legitimate-sounding opportunities (e.g., Swiss Re Foundation, Commonwealth Startup Fellowships), it lacks verifiable sourcing, official links, or direct connections to recognized organizations. The vague phrasing ('We’ve selected top opportunities from OFY’s latest roundup') and absence of transparent application processes raise red flags.",
+    "id": "4a1b05006470d19c",
+    "first_seen": "2026-08-19T05:38:31.001743+00:00",
+    "last_updated": "2026-08-19T05:38:31.001754+00:00"
+  },
+  "54094185f8adf4dc": {
+    "url": "https://usa.grantwatch.com/cat/16/entrepreneurs-and-startups-grants.html",
+    "title": "Startup Grants (2026) | Funding for Entrepreneurs in United States - GrantWatch",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "reasoning": "The program is specifically for entrepreneurs and startups in the United States, and the candidate is a working professional based in Lao PDR (not in the USA). The program does not explicitly state eligibility for international candidates outside the USA, and the candidate's location and nationality do not align with the program's focus on USA-based entrepreneurs.",
+    "id": "54094185f8adf4dc",
+    "first_seen": "2026-08-19T05:38:36.098309+00:00",
+    "last_updated": "2026-08-19T05:38:36.098317+00:00"
   }
 }

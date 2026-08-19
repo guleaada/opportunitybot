@@ -202,5 +202,33 @@
     "reason": "ANALYSIS_UNAVAILABLE — all model providers were unavailable; retry when quota resets",
     "id": "7fcc2c2c7046f06b",
     "added": "2026-08-19T00:40:27.459294+00:00"
+  },
+  "9609c68ded3b37dc": {
+    "url": "https://www.newmuseum.org/new-inc/open-call",
+    "title": "Open Call - NEW INC",
+    "reason": "ANALYSIS_UNAVAILABLE — all model providers were unavailable; retry when quota resets",
+    "id": "9609c68ded3b37dc",
+    "added": "2026-08-19T05:38:39.066083+00:00"
+  },
+  "b764eacdc3cdffc1": {
+    "url": "https://www.facebook.com/newmuseum/posts/open-call-for-new-incs-year-13-incubator-members-is-now-live-applications-are-du/1460375948992021",
+    "title": "New Museum - Open Call for NEW INC's Year 13 Incubator...",
+    "reason": "ANALYSIS_UNAVAILABLE — all model providers were unavailable; retry when quota resets",
+    "id": "b764eacdc3cdffc1",
+    "added": "2026-08-19T05:38:39.302118+00:00"
+  },
+  "485d8bea4c147d40": {
+    "url": "https://careers.state.gov/interns-fellows",
+    "title": "Internships/Fellowships - Careers",
+    "reason": "ANALYSIS_UNAVAILABLE — all model providers were unavailable; retry when quota resets",
+    "id": "485d8bea4c147d40",
+    "added": "2026-08-19T05:38:41.711660+00:00"
+  },
+  "a9b18e05f89df8d3": {
+    "url": "https://opportunitiesforyouth.org/2026/05/12/apply-now-fully-funded-presidential-leadership-scholars-program-2026",
+    "title": "Presidential Leadership Scholars Program 2027: Fully Funded Leadership Program for Experienced Leaders - Opportunities for Youth",
+    "reason": "ANALYSIS_UNAVAILABLE — all model providers were unavailable; retry when quota resets",
+    "id": "a9b18e05f89df8d3",
+    "added": "2026-08-19T05:38:41.973470+00:00"
   }
 }
