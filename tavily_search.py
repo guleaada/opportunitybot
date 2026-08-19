@@ -151,6 +151,45 @@ def _source_of(url: str) -> str:
         return ""
 
 
+def test_tavily() -> dict:
+    """One minimal live Tavily request, for `main.py --test`.
+
+    Reuses tavily_search() rather than building a second client, so the probe
+    exercises the same endpoint, auth, parsing and error handling the scan
+    uses. Returns {"ok": True, "provider": "tavily", "results": n} or
+    {"ok": False, "error": ...}.
+
+    Per-scan state is snapshotted and restored, so probing can never leave
+    the breaker tripped or the counters dirty — the same property the model
+    provider probes have.
+    """
+    if not _api_key():
+        return {"ok": False, "error": "TAVILY_API_KEY not set"}
+
+    before = dict(_state)
+    try:
+        reset_state()
+        results = tavily_search("test", max_results=1)
+        s = stats()
+        if s["successful"]:
+            return {"ok": True, "provider": "tavily", "results": len(results)}
+        # tavily_search never raises, so the reason lives in the state.
+        error = s.get("disabled_reason") or ""
+        if not error:
+            if s["other_errors"]:
+                error = f"{s['other_errors']} request error(s) — see log above"
+            elif s["429"]:
+                error = "rate limited"
+            else:
+                error = "no successful response"
+        return {"ok": False, "error": error}
+    except Exception as e:                    # a probe must never crash --test
+        return {"ok": False, "error": _scrub(e)}
+    finally:
+        _state.clear()
+        _state.update(before)
+
+
 def tavily_search(query: str, max_results: int = 10) -> List[SearchResult]:
     """Tavily Search → list of SearchResult. No model call.
 

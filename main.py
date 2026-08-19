@@ -16,7 +16,7 @@ CLI:
   python main.py --tracker       Show the application tracker
   python main.py --cost          Show monthly cost breakdown by provider
   python main.py --daemon        Run scheduled daily at DAILY_SCAN_TIME
-  python main.py --test          Smoke-test all 3 model providers
+  python main.py --test          Smoke-test every model + search provider
 """
 
 import argparse
@@ -929,22 +929,37 @@ def show_cost():
 # Provider smoke test
 # ════════════════════════════════════════════════════════════════════════
 def run_test():
+    """Smoke-test every provider a scan could use, model and search alike."""
     from model_router import test_providers
-    print("🧪 Testing all 3 model providers...\n")
-    results = test_providers()
+    from tavily_search import test_tavily
     all_ok = True
-    for name in ("claude", "gemini", "groq"):
-        r = results.get(name, {})
+
+    # Iterated, not hardcoded: test_providers() covers the whole configured
+    # chain plus Claude, and a fixed list here would hide the ones added to
+    # it — which is exactly how OpenRouter and Mistral went untested.
+    print("🧠 MODEL PROVIDERS\n")
+    results = test_providers()
+    for name, r in results.items():
         if r.get("ok"):
-            print(f"  ✅ {name:7} OK  → {r['model']}  reply: {r['reply']!r}")
+            print(f"  ✅ {name:11} OK  → {r['model']}  reply: {r['reply']!r}")
         else:
             all_ok = False
-            print(f"  ❌ {name:7} FAILED — {r.get('error')}")
+            print(f"  ❌ {name:11} FAILED — {r.get('error')}")
+
+    print("\n🔎 SEARCH PROVIDERS\n")
+    t = test_tavily()
+    if t.get("ok"):
+        print(f"  ✅ {'tavily':11} OK  → {t.get('results', 0)} result(s)")
+    else:
+        all_ok = False
+        print(f"  ❌ {'tavily':11} FAILED — {t.get('error')}")
+
     print()
     if all_ok:
         print("🎉 All providers connected.")
     else:
-        print("⚠️  One or more providers failed. Check API keys in .env.")
+        print("⚠️  One or more providers failed. Check the keys in .env "
+              "(or the repo secrets/variables in CI).")
     return all_ok
 
 
@@ -984,7 +999,8 @@ def main():
     g.add_argument("--tracker", action="store_true", help="Show application tracker")
     g.add_argument("--cost", action="store_true", help="Show cost breakdown")
     g.add_argument("--daemon", action="store_true", help="Run scheduled daily")
-    g.add_argument("--test", action="store_true", help="Smoke-test all 3 providers")
+    g.add_argument("--test", action="store_true",
+                   help="Smoke-test every model + search provider")
     args = parser.parse_args()
 
     # Initialize data files (with correct shape) before anything touches them.
