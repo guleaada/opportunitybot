@@ -1,74 +1,5 @@
 [
   {
-    "at": "2026-08-13T06:19:01.772136+00:00",
-    "kind": "error",
-    "message": "Fetch failed for https://www.dfat.gov.au/people-to-people/australia-awards/australia-awards-scholarships: HTTPSConnectionPool(host='www.dfat.gov.au', port=443): Read timed out. (read timeout=25)"
-  },
-  {
-    "at": "2026-08-13T06:19:02.015491+00:00",
-    "kind": "error",
-    "message": "Fetch failed for https://vanier.gc.ca/en/home-accueil.html: HTTPSConnectionPool(host='vanier.gc.ca', port=443): Max retries exceeded with url: /en/home-accueil.html (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)')))"
-  },
-  {
-    "at": "2026-08-13T06:19:02.063329+00:00",
-    "kind": "error",
-    "message": "Fetch failed for https://opportunitydesk.org/category/fellowships/: 403"
-  },
-  {
-    "at": "2026-08-13T06:21:04.986195+00:00",
-    "kind": "error",
-    "message": "Fetch failed for https://opportunitydesk.org/2026/08/12/in-tandem-youth-voice-fellowship-2026-2027/: 403"
-  },
-  {
-    "at": "2026-08-13T06:21:05.040479+00:00",
-    "kind": "error",
-    "message": "Fetch failed for https://opportunitydesk.org/2026/08/12/liz-hughes-award-for-her-farm-radio-2026/: 403"
-  },
-  {
-    "at": "2026-08-13T06:21:05.093868+00:00",
-    "kind": "error",
-    "message": "Fetch failed for https://opportunitydesk.org/2026/08/12/heinrich-boll-stiftung-global-unit-for-democracy-and-human-rights-traineeship-programme-2026/: 403"
-  },
-  {
-    "at": "2026-08-13T06:21:06.836267+00:00",
-    "kind": "scan_complete",
-    "message": "daily scan finished",
-    "matches": 0,
-    "stats": {
-      "discovered": 40,
-      "already_seen": 18,
-      "known_scam": 0,
-      "fetch_failed": 6,
-      "first_pass_dropped": 7,
-      "scam": 1,
-      "legit_unknown": 0,
-      "ineligible": 1,
-      "closed": 0,
-      "deep_analyzed": 0,
-      "scored_high": 0
-    }
-  },
-  {
-    "at": "2026-08-13T06:21:06.837940+00:00",
-    "kind": "run",
-    "mode": "scan",
-    "environment": "github_actions",
-    "stats": {
-      "discovered": 40,
-      "already_seen": 18,
-      "known_scam": 0,
-      "fetch_failed": 6,
-      "first_pass_dropped": 7,
-      "scam": 1,
-      "legit_unknown": 0,
-      "ineligible": 1,
-      "closed": 0,
-      "deep_analyzed": 0,
-      "scored_high": 0,
-      "matches": 0
-    }
-  },
-  {
     "at": "2026-08-14T06:15:55.404576+00:00",
     "kind": "scan_start",
     "message": "daily scan started"
@@ -2655,6 +2586,149 @@
       },
       "snippet_fallback": 2,
       "signal_rescued": 1,
+      "deduped": 0,
+      "matches": 0
+    }
+  },
+  {
+    "at": "2026-08-19T00:35:28.324538+00:00",
+    "kind": "scan_start",
+    "message": "daily scan started"
+  },
+  {
+    "at": "2026-08-19T00:37:01.939293+00:00",
+    "kind": "error",
+    "message": "Fetch failed for https://opportunitiesforyouth.org/2026/08/19/getty-conservation-guest-scholars-program-2026-fully-funded-three-month-research-opportunity-for-cultural-heritage-conservation-professionals/: 429"
+  },
+  {
+    "at": "2026-08-19T00:38:00.648711+00:00",
+    "kind": "error",
+    "message": "Fetch failed for https://www.dfat.gov.au/people-to-people/australia-awards/australia-awards-scholarships: HTTPSConnectionPool(host='www.dfat.gov.au', port=443): Read timed out. (read timeout=25)"
+  },
+  {
+    "at": "2026-08-19T00:38:00.942500+00:00",
+    "kind": "error",
+    "message": "Fetch failed for https://vanier.gc.ca/en/home-accueil.html: HTTPSConnectionPool(host='vanier.gc.ca', port=443): Max retries exceeded with url: /en/home-accueil.html (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)')))"
+  },
+  {
+    "at": "2026-08-19T00:38:01.346015+00:00",
+    "kind": "error",
+    "message": "Fetch failed for https://opportunitydesk.org/category/fellowships/: 403"
+  },
+  {
+    "at": "2026-08-19T00:40:24.741769+00:00",
+    "kind": "error",
+    "message": "Fetch failed for https://opportunitiesforyouth.org/2026/03/18/unlock-global-grants-for-africa-free-funding-opportunities-networking-and-program-support-for-organizations: 429"
+  },
+  {
+    "at": "2026-08-19T00:40:29.417804+00:00",
+    "kind": "scan_complete",
+    "message": "daily scan finished",
+    "matches": 0,
+    "stats": {
+      "discovered": 295,
+      "already_seen": 115,
+      "known_scam": 0,
+      "fetch_failed": 3,
+      "first_pass_dropped": 1,
+      "scam": 1,
+      "legit_unknown": 4,
+      "ineligible": 2,
+      "closed": 2,
+      "deep_analyzed": 0,
+      "scored_high": 0,
+      "discovery": {
+        "tavily": {
+          "attempted": 20,
+          "successful": 20,
+          "429": 0,
+          "403": 0,
+          "errors": 0,
+          "candidates": 160,
+          "queries_planned": 20,
+          "disabled_reason": ""
+        },
+        "rss": {
+          "attempted": 6,
+          "successful": 6,
+          "failed": 0,
+          "skipped_dead": 1,
+          "candidates": 76
+        },
+        "api": {
+          "sources": 2,
+          "healthy": 2,
+          "failed": 0,
+          "candidates": 57
+        },
+        "seed": {
+          "attempted": 14,
+          "candidates": 14
+        },
+        "total": {
+          "raw": 307,
+          "after_dedupe": 295
+        }
+      },
+      "snippet_fallback": 2,
+      "signal_rescued": 3,
+      "analysis_unavailable": 2,
+      "deduped": 0
+    }
+  },
+  {
+    "at": "2026-08-19T00:40:29.420015+00:00",
+    "kind": "run",
+    "mode": "scan",
+    "environment": "github_actions",
+    "stats": {
+      "discovered": 295,
+      "already_seen": 115,
+      "known_scam": 0,
+      "fetch_failed": 3,
+      "first_pass_dropped": 1,
+      "scam": 1,
+      "legit_unknown": 4,
+      "ineligible": 2,
+      "closed": 2,
+      "deep_analyzed": 0,
+      "scored_high": 0,
+      "discovery": {
+        "tavily": {
+          "attempted": 20,
+          "successful": 20,
+          "429": 0,
+          "403": 0,
+          "errors": 0,
+          "candidates": 160,
+          "queries_planned": 20,
+          "disabled_reason": ""
+        },
+        "rss": {
+          "attempted": 6,
+          "successful": 6,
+          "failed": 0,
+          "skipped_dead": 1,
+          "candidates": 76
+        },
+        "api": {
+          "sources": 2,
+          "healthy": 2,
+          "failed": 0,
+          "candidates": 57
+        },
+        "seed": {
+          "attempted": 14,
+          "candidates": 14
+        },
+        "total": {
+          "raw": 307,
+          "after_dedupe": 295
+        }
+      },
+      "snippet_fallback": 2,
+      "signal_rescued": 3,
+      "analysis_unavailable": 2,
       "deduped": 0,
       "matches": 0
     }

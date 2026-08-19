@@ -4076,5 +4076,107 @@
     "id": "1e6057214f33b11b",
     "first_seen": "2026-08-19T00:17:30.215546+00:00",
     "last_updated": "2026-08-19T00:17:30.215558+00:00"
+  },
+  "e3631468b151249b": {
+    "url": "https://www.profellow.com",
+    "title": "Fellowships, Awards, Fully Funded PhD and Master’s Programs",
+    "status": "unknown",
+    "eligibility_status": "UNCERTAIN",
+    "reasoning": "The program description provides only an overview of the ProFellow platform and does not list any specific eligibility criteria (such as degree level, nationality restrictions, student status, age limits, or English proficiency requirements). Without stated requirements, we cannot verify whether the candidate meets them.",
+    "id": "e3631468b151249b",
+    "first_seen": "2026-08-19T00:37:01.871034+00:00",
+    "last_updated": "2026-08-19T00:37:01.871045+00:00"
+  },
+  "65dd5a38738c60ee": {
+    "url": "https://opportunitiesforyouth.org/2026/08/19/getty-conservation-guest-scholars-program-2026-fully-funded-three-month-research-opportunity-for-cultural-heritage-conservation-professionals/",
+    "title": "Getty Conservation Guest Scholars Program 2026: Fully Funded Three-Month Research Opportunity for Cultural Heritage Conservation Professionals.",
+    "status": "legitimacy_unknown",
+    "credibility_status": "NEEDS_VERIFICATION",
+    "source_tier": "TIER_3",
+    "reasoning": "No reasoning returned.",
+    "id": "65dd5a38738c60ee",
+    "first_seen": "2026-08-19T00:37:35.515153+00:00",
+    "last_updated": "2026-08-19T00:37:35.515183+00:00"
+  },
+  "7a7fee2f0e73c42b": {
+    "url": "https://opportunitiesnexus.com/fellowships",
+    "title": "Fellowships | Opportunities Nexus",
+    "status": "legitimacy_unknown",
+    "credibility_status": "NEEDS_VERIFICATION",
+    "source_tier": "TIER_4",
+    "reasoning": "No reasoning returned.",
+    "id": "7a7fee2f0e73c42b",
+    "first_seen": "2026-08-19T00:38:34.822015+00:00",
+    "last_updated": "2026-08-19T00:38:34.822026+00:00"
+  },
+  "671a64dbf984646c": {
+    "url": "https://za.usembassy.gov/hubert-h-humphrey-fellowship-program",
+    "title": "Hubert H. Humphrey Fellowship Program - U.S. Embassy & Consulates in South Africa",
+    "status": "legitimacy_unknown",
+    "credibility_status": "NEEDS_VERIFICATION",
+    "source_tier": "TIER_4",
+    "reasoning": "No reasoning returned.",
+    "id": "671a64dbf984646c",
+    "first_seen": "2026-08-19T00:38:59.362326+00:00",
+    "last_updated": "2026-08-19T00:38:59.362338+00:00"
+  },
+  "f60a7785aabc9c62": {
+    "url": "https://www.starsfellows.africa/applyattypp",
+    "title": "Applications are Now Open: African STARS Fellowship ATT and YPP – Stars Fellows",
+    "status": "closed",
+    "deadline": "2026-01-31",
+    "id": "f60a7785aabc9c62",
+    "first_seen": "2026-08-19T00:39:03.260695+00:00",
+    "last_updated": "2026-08-19T00:39:03.260704+00:00"
+  },
+  "82c3a278e79e46f8": {
+    "url": "https://www.advance-africa.com/Call-for-Proposals.html",
+    "title": "Current Call for Proposals for Developing Countries 2026/2027 - Grants",
+    "status": "legitimacy_unknown",
+    "credibility_status": "NEEDS_VERIFICATION",
+    "source_tier": "TIER_4",
+    "reasoning": "No reasoning returned.",
+    "id": "82c3a278e79e46f8",
+    "first_seen": "2026-08-19T00:39:42.238909+00:00",
+    "last_updated": "2026-08-19T00:39:42.238920+00:00"
+  },
+  "2e9c86b8cdeace76": {
+    "url": "https://igpc.najah.edu/new-calls-for-projects-and-initiatives",
+    "title": "New calls for projects and initiatives | International Grants and ...",
+    "status": "unknown",
+    "eligibility_status": "UNCERTAIN",
+    "reasoning": "No reasoning returned.",
+    "id": "2e9c86b8cdeace76",
+    "first_seen": "2026-08-19T00:40:11.665152+00:00",
+    "last_updated": "2026-08-19T00:40:11.665163+00:00"
+  },
+  "a3299852b125dc31": {
+    "url": "https://grantexec.com/grants/issue/international-development/eligibility/individuals",
+    "title": "Grants for Individuals - International Development",
+    "status": "suspicious",
+    "credibility_status": "SUSPICIOUS",
+    "source_tier": "TIER_4",
+    "reasoning": "The site aggregates grant opportunities but lacks verifiable institutional backing or direct links to official grant pages. Many listed opportunities (e.g., U.S. Department of State missions) are real, but the aggregator's own legitimacy is unclear—no clear contact info beyond a generic form, and the domain (grantexec.com) does not match known grant platforms (e.g., Grants.gov, foundations' sites).",
+    "id": "a3299852b125dc31",
+    "first_seen": "2026-08-19T00:40:18.840651+00:00",
+    "last_updated": "2026-08-19T00:40:18.840662+00:00"
+  },
+  "ce547ee658f3e75b": {
+    "url": "https://commonwealthfoundation.com/grants/annual",
+    "title": "Grants Call - Commonwealth Foundation",
+    "status": "closed",
+    "deadline": null,
+    "id": "ce547ee658f3e75b",
+    "first_seen": "2026-08-19T00:40:21.522778+00:00",
+    "last_updated": "2026-08-19T00:40:21.522791+00:00"
+  },
+  "28ba91a869f9793e": {
+    "url": "https://www.instrumentl.com/browse-grants/africa",
+    "title": "31+ Active Grants for Africa",
+    "status": "filtered_out",
+    "reason": "No AI/tech/innovation-focused grants visible in the list",
+    "id": "28ba91a869f9793e",
+    "first_seen": "2026-08-19T00:40:23.550807+00:00",
+    "last_updated": "2026-08-19T00:40:23.550818+00:00"
   }
 }
