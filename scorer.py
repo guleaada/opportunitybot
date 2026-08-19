@@ -8,7 +8,7 @@ so this is the most expensive and most decision-critical Claude call.
 
 import math
 
-from model_router import call_model, extract_json
+from model_router import call_model, extract_json, as_object
 from checker import (
     normalize_eligibility, meets_threshold, PROBABLY_ELIGIBLE,
     normalize_credibility, is_notifiable,
@@ -442,7 +442,9 @@ def score_opportunity(data: dict, profile: dict) -> dict:
         f"OPPORTUNITY TEXT:\n{_trim(data.get('raw_text', ''))}"
     )
     res = call_model("final_scoring", prompt, system=system, max_tokens=900)
-    parsed = extract_json(res["content"]) or {}
+    # A non-object reply yields {}, so overall_score is absent, score falls to
+    # 0.0 and build_scoring() scores deterministically — nothing is invented.
+    parsed = as_object(extract_json(res["content"]), "final_scoring")
 
     score = parsed.get("overall_score")
     try:

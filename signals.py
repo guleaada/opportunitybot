@@ -16,7 +16,7 @@ warning and falls back to the phrase-scan verdict. Nothing here can crash a scan
 
 import os
 
-from model_router import call_model, extract_json
+from model_router import call_model, extract_json, as_object
 
 # Free-tier task type; see TASK_ROUTING in model_router.py.
 CLASSIFY_TASK = "classify_opportunity"
@@ -111,7 +111,9 @@ def _classify_with_cheap_model(text: str, title: str, report: dict) -> dict:
     try:
         _classifications_used += 1
         res = call_model(CLASSIFY_TASK, prompt, system=system, max_tokens=200)
-        data = extract_json(res["content"]) or {}
+        # A non-object reply yields {}, so is_opportunity is None and
+        # bool(None) is False — an unusable reply never becomes a yes.
+        data = as_object(extract_json(res["content"]), CLASSIFY_TASK)
         verdict = data.get("is_opportunity")
         if isinstance(verdict, str):
             # "unsure" (or anything non-boolean) must not become a yes.

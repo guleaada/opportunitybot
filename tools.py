@@ -20,7 +20,7 @@ import html as _html
 import re
 from typing import List
 
-from model_router import call_model, extract_json
+from model_router import call_model, extract_json, as_object
 from search import (web_search as _web_search, fetch_url as _fetch_url,
                     fetch_via_jina as _fetch_via_jina, SearchResult)
 from known_scams import check_known_scam as _check_known_scam
@@ -175,7 +175,10 @@ def extract_documents(text: str) -> dict:
         f"TEXT:\n{_trim(text)}"
     )
     res = call_model("extract_document_requirements", prompt, system=system, max_tokens=500)
-    return extract_json(res["content"]) or {
+    # A non-object reply yields {}, which is falsy, so the documented
+    # "extraction failed" default below is returned unchanged.
+    return as_object(extract_json(res["content"]),
+                     "extract_document_requirements") or {
         "documents": [], "english_test_required": "unknown",
         "references_required": None, "transcripts_required": False,
         "notes": "extraction failed",
@@ -198,7 +201,9 @@ def estimate_complexity(text: str) -> dict:
         f"TEXT:\n{_trim(text)}"
     )
     res = call_model("estimate_complexity", prompt, system=system, max_tokens=400)
-    return extract_json(res["content"]) or {
+    # A non-object reply yields {}, which is falsy, so the documented
+    # "estimation failed" default below is returned unchanged.
+    return as_object(extract_json(res["content"]), "estimate_complexity") or {
         "estimated_hours": None, "difficulty": "unknown",
         "odds": "unknown", "notes": "estimation failed",
     }

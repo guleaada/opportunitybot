@@ -17,7 +17,7 @@ from typing import Optional
 
 from dateutil import parser as dateparser
 
-from model_router import call_model, extract_json
+from model_router import call_model, extract_json, as_object
 from known_scams import red_flag_report
 from profile import profile_summary
 
@@ -177,7 +177,9 @@ def check_deadline(text: str) -> dict:
         f"TEXT:\n{_trim(text)}"
     )
     res = call_model("check_deadline", prompt, system=system, max_tokens=300)
-    data = extract_json(res["content"]) or {}
+    # A non-object reply yields {}, so `found` is absent and the existing
+    # "unknown" branch below returns — no deadline is invented.
+    data = as_object(extract_json(res["content"]), "check_deadline")
 
     if data.get("is_explicitly_closed"):
         return {"status": "closed", "deadline": None, "days_left": None,
@@ -280,7 +282,10 @@ def check_legitimacy(text: str, source_url: str) -> dict:
         f"PAGE TEXT:\n{_trim(text)}"
     )
     res = call_model("scam_detection", prompt, system=system, max_tokens=600)
-    data = extract_json(res["content"]) or {}
+    # A non-object reply yields {} here, so verdict stays "unknown" and the
+    # credibility ladder resolves to NEEDS_VERIFICATION — the project's
+    # existing "we could not verify this" outcome, not a guessed verdict.
+    data = as_object(extract_json(res["content"]), "scam_detection")
     verdict = data.get("verdict", "unknown")
     if verdict not in ("legitimate", "scam", "suspicious", "unknown"):
         verdict = "unknown"
@@ -362,7 +367,9 @@ def check_eligibility(text: str, profile: dict) -> dict:
         f"PROGRAM TEXT:\n{_trim(text)}"
     )
     res = call_model("deep_eligibility", prompt, system=system, max_tokens=800)
-    data = extract_json(res["content"]) or {}
+    # A non-object reply yields {}, so normalize_eligibility(None) resolves to
+    # UNCERTAIN — the existing "we could not grade this" outcome.
+    data = as_object(extract_json(res["content"]), "deep_eligibility")
 
     # Accept the ladder, or a legacy "overall" reply, or nothing at all.
     level = normalize_eligibility(
