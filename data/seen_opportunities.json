@@ -4260,5 +4260,149 @@
     "id": "54094185f8adf4dc",
     "first_seen": "2026-08-19T05:38:36.098309+00:00",
     "last_updated": "2026-08-19T05:38:36.098317+00:00"
+  },
+  "cb75adcebccb6d3f": {
+    "url": "https://opportunitiescorners.com/apsig-fellowship-2026/",
+    "title": "APSIG Fellowship 2026 in Taiwan (Fully Funded Conference)",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "reasoning": "The program explicitly requires applicants to be from the Asia‑Pacific region. The candidate is an Ethiopian national, which is not part of the Asia‑Pacific region, creating a hard eligibility blocker. While the candidate can address English proficiency, the regional requirement cannot be satisfied.",
+    "id": "cb75adcebccb6d3f",
+    "first_seen": "2026-08-20T05:35:00.907821+00:00",
+    "last_updated": "2026-08-20T05:35:00.907828+00:00"
+  },
+  "689a6f024e803b2b": {
+    "url": "https://opportunitiescorners.com/swiss-government-excellence-scholarships-2027/",
+    "title": "Swiss Government Excellence Scholarships 2027/28 (Fully Funded)",
+    "status": "suspicious",
+    "credibility_status": "SUSPICIOUS",
+    "source_tier": "TIER_3",
+    "reasoning": "The page is hosted on a non‑governmental blog (opportunitiescorners.com) with a generic Gmail contact, heavy promotional content and unrelated offers, and it does not provide a direct link to the official Swiss Government Excellence Scholarship portal (sbfi.admin.ch). While the scholarship itself is legitimate, the source lacks official branding and uses typical scam signals.",
+    "id": "689a6f024e803b2b",
+    "first_seen": "2026-08-20T05:35:53.301593+00:00",
+    "last_updated": "2026-08-20T05:35:53.301600+00:00"
+  },
+  "117d188874daedad": {
+    "url": "https://www.opportunitiesforafricans.com/the-african-union-enterprise-africa-network-ean-fellowship-programme-2026-2027/",
+    "title": "The African Union Enterprise Africa Network (EAN) Fellowship Programme 2026/2027 for youth- and women-led small enterprises.",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "reasoning": "The programme explicitly requires applicants to be youth- or women-led small enterprises that are (1) registered and operating in an AU Member State, (2) formally registered as a business entity, (3) operating for at least two years, and (4) employing a minimum of three full‑time staff. The candidate profile does not indicate that Gulilat has a registered business, that it has been operating for two years, or that it employs at least three staff. These are hard, non‑addressable blockers based on the information provided.",
+    "id": "117d188874daedad",
+    "first_seen": "2026-08-20T05:36:52.405701+00:00",
+    "last_updated": "2026-08-20T05:36:52.405709+00:00"
+  },
+  "8aa52d1e1fc53897": {
+    "url": "https://opportunitydesk.org/2026/08/19/university-of-bayreuth-centre-of-international-excellence-alexander-von-humboldt-short-term-grants-programme-2026/",
+    "title": "University of Bayreuth Centre of International Excellence “Alexander von Humboldt” Short Term Grants Programme 2026 (up to €3,500)",
+    "status": "unknown",
+    "eligibility_status": "UNCERTAIN",
+    "reasoning": "The excerpt of the programme description does not provide any explicit eligibility criteria such as target audience (e.g., students, researchers, early‑career scholars), required academic degree level, citizenship restrictions, language proficiency requirements, or other conditions. Without this information we cannot verify whether the candidate meets all mandatory requirements.",
+    "id": "8aa52d1e1fc53897",
+    "first_seen": "2026-08-20T05:37:23.372844+00:00",
+    "last_updated": "2026-08-20T05:37:23.372851+00:00"
+  },
+  "97b872979ef371cd": {
+    "url": "https://opportunitiesforyouth.org/2026/08/19/future-of-work-africa-fowa-advisory-services-2026-personalised-career-scholarship-fellowship-and-postgraduate-application-support-for-african-students-and-professionals/",
+    "title": "Future of Work Africa (FOWA) Advisory Services 2026: Personalised Career, Scholarship, Fellowship and Postgraduate Application Support for African Students and Professionals",
+    "status": "filtered_out",
+    "reason": "It is a paid advisory service, not a funded scholarship or fellowship.",
+    "id": "97b872979ef371cd",
+    "first_seen": "2026-08-20T05:37:52.003724+00:00",
+    "last_updated": "2026-08-20T05:37:52.003732+00:00"
+  },
+  "513bfe269c131dbf": {
+    "url": "https://opportunitiescorners.com/youth-diplomatic-summit-2026-in-hungary/",
+    "title": "Youth Diplomatic Summit 2026 in Hungary (Fully Funded)",
+    "status": "scam",
+    "credibility_status": "HIGH_RISK",
+    "source_tier": "TIER_3",
+    "reasoning": "The page promotes a 'fully funded' summit but requires a £15 application fee, a common red flag for scholarship scams. The organizer, 'World Climate Forum', is not a recognized government or reputable international body, and the site appears to be a content‑farm aggregator rather than an official program host.",
+    "id": "513bfe269c131dbf",
+    "first_seen": "2026-08-20T05:38:38.403562+00:00",
+    "last_updated": "2026-08-20T05:38:38.403575+00:00"
+  },
+  "2b825bb15d724897": {
+    "url": "https://www.opportunitiesforafricans.com/the-dangote-fleet-management-graduate-programme-2026/",
+    "title": "The Dangote Fleet Management Graduate Programme 2026 for young Nigerian graduates.",
+    "status": "legitimacy_unknown",
+    "credibility_status": "NEEDS_VERIFICATION",
+    "source_tier": "TIER_3",
+    "reasoning": "No reasoning returned.",
+    "id": "2b825bb15d724897",
+    "first_seen": "2026-08-20T05:39:22.818459+00:00",
+    "last_updated": "2026-08-20T05:39:22.818469+00:00"
+  },
+  "acc4c4288d1d0922": {
+    "url": "https://opportunitydesk.org/2026/08/19/ares-international-training-scholarships-2027-2028/",
+    "title": "ARES International Training Scholarships 2027-2028",
+    "status": "unknown",
+    "eligibility_status": "UNCERTAIN",
+    "reasoning": "No reasoning returned.",
+    "id": "acc4c4288d1d0922",
+    "first_seen": "2026-08-20T05:40:00.250277+00:00",
+    "last_updated": "2026-08-20T05:40:00.250286+00:00"
+  },
+  "964ec8e3ae1ab971": {
+    "url": "https://opportunitydesk.org/2026/08/19/innovatehers-scholarship-challenge-2026/",
+    "title": "InnovateHERs Scholarship Challenge 2026 for Women in Business",
+    "status": "filtered_out",
+    "reason": "Targets female high school students, not eligible for a working professional with a BSc.",
+    "id": "964ec8e3ae1ab971",
+    "first_seen": "2026-08-20T05:40:06.015279+00:00",
+    "last_updated": "2026-08-20T05:40:06.015289+00:00"
+  },
+  "5ec5c2986798afbd": {
+    "url": "https://opportunitiesforyouth.org/2026/08/19/generation-ghana-volunteer-programme-2026-become-a-volunteer-mentor/",
+    "title": "Generation Ghana Volunteer Programme 2026 | Become a Volunteer Mentor",
+    "status": "suspicious",
+    "credibility_status": "SUSPICIOUS",
+    "source_tier": "TIER_3",
+    "reasoning": "The program appears to be from a legitimate global organization (Generation), but the URL (opportunitiesforyouth.org) is not the official domain of Generation Ghana, raising concerns about third-party hosting. No direct contact information, application process, or official links to Generation's verified platforms are provided in the text.",
+    "id": "5ec5c2986798afbd",
+    "first_seen": "2026-08-20T05:40:15.334850+00:00",
+    "last_updated": "2026-08-20T05:40:15.334859+00:00"
+  },
+  "0dceb68c941c24db": {
+    "url": "https://opportunitiesforyouth.org/2026/08/19/2027-mohamed-ali-foundation-fellowship-at-durham-university/",
+    "title": "2027 Mohamed Ali Foundation Fellowship at Durham University",
+    "status": "unknown",
+    "eligibility_status": "UNCERTAIN",
+    "reasoning": "No reasoning returned.",
+    "id": "0dceb68c941c24db",
+    "first_seen": "2026-08-20T05:40:56.098141+00:00",
+    "last_updated": "2026-08-20T05:40:56.098146+00:00"
+  },
+  "940a023da90c4ce3": {
+    "url": "https://opportunitydesk.org/2026/08/19/wege-prize-2027/",
+    "title": "Wege Prize 2027 for Innovators ($65,000 total prize)",
+    "status": "unknown",
+    "eligibility_status": "UNCERTAIN",
+    "reasoning": "No reasoning returned.",
+    "id": "940a023da90c4ce3",
+    "first_seen": "2026-08-20T05:41:57.582754+00:00",
+    "last_updated": "2026-08-20T05:41:57.582762+00:00"
+  },
+  "ba64384a6aba78fd": {
+    "url": "https://opportunitydesk.org/2026/08/19/11th-africa-energy-innovation-challenge-2026/",
+    "title": "11th Africa Energy Innovation Challenge (AEIC) 2026 (up to $10,000)",
+    "status": "suspicious",
+    "credibility_status": "SUSPICIOUS",
+    "source_tier": "TIER_2",
+    "reasoning": "The program is organized by Nigeria Energy Forum (NEF), which is not a widely recognized or established institution in global scholarship/fellowship circles. The lack of clear trust signals (e.g., affiliation with known organizations like governments or universities) and the absence of detailed eligibility criteria or application guidelines raise concerns. Additionally, the sudden appearance of a 2026 deadline without prior context or historical data makes verification difficult.",
+    "id": "ba64384a6aba78fd",
+    "first_seen": "2026-08-20T05:42:39.483214+00:00",
+    "last_updated": "2026-08-20T05:42:39.483222+00:00"
+  },
+  "1118536ce13e2c59": {
+    "url": "https://opportunitydesk.org/2026/08/19/fast-forward-accelerator-2027/",
+    "title": "Fast Forward Accelerator 2027 for Tech Nonprofits",
+    "status": "legitimacy_unknown",
+    "credibility_status": "NEEDS_VERIFICATION",
+    "source_tier": "TIER_2",
+    "reasoning": "The page text is truncated and provides no details about fees, program structure, or verification; without full information we cannot confirm legitimacy.",
+    "id": "1118536ce13e2c59",
+    "first_seen": "2026-08-20T05:43:49.898117+00:00",
+    "last_updated": "2026-08-20T05:43:49.898129+00:00"
   }
 }
