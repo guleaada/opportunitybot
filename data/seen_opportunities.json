@@ -4546,5 +4546,148 @@
     "id": "ec9d1d15c5dbb47e",
     "first_seen": "2026-08-21T05:41:55.205031+00:00",
     "last_updated": "2026-08-21T05:41:55.205040+00:00"
+  },
+  "c0f288377f95e665": {
+    "url": "https://opportunitiescorners.com/kaust-scholarship-2027/",
+    "title": "KAUST Scholarship 2027 in Saudi Arabia (Fully Funded)",
+    "status": "unknown",
+    "eligibility_status": "UNCERTAIN",
+    "reasoning": "No reasoning returned.",
+    "id": "c0f288377f95e665",
+    "first_seen": "2026-08-22T05:31:17.251923+00:00",
+    "last_updated": "2026-08-22T05:31:17.251933+00:00"
+  },
+  "523a248c3c1a8ff9": {
+    "url": "https://opportunitiescorners.com/global-peace-summit-greece-2026/",
+    "title": "Global Peace Summit Greece 2026 (Fully Funded)",
+    "status": "suspicious",
+    "credibility_status": "SUSPICIOUS",
+    "source_tier": "TIER_3",
+    "reasoning": "The opportunity is posted on a third‑party aggregator, not an official government or reputable organization site, and the organizer (Global Peace Chain) is not verifiable. It advertises \"fully funded\" seats yet requires a £22 application fee and uses language like \"exclusive invitation,\" which are common red‑flags for scam conferences.",
+    "id": "523a248c3c1a8ff9",
+    "first_seen": "2026-08-22T05:32:03.644992+00:00",
+    "last_updated": "2026-08-22T05:32:03.645005+00:00"
+  },
+  "20dd3930978e4847": {
+    "url": "https://www.opportunitiesforafricans.com/the-andersen-nigeria-2027-graduate-trainee-programme-for-young-nigerian-graduates/",
+    "title": "The Andersen Nigeria 2027 Graduate Trainee Programme for young Nigerian graduates.",
+    "status": "legitimacy_unknown",
+    "credibility_status": "NEEDS_VERIFICATION",
+    "source_tier": "TIER_3",
+    "reasoning": "The posting describes a standard graduate trainee recruitment process with no request for payment, which is typical of legitimate programs. However, the page does not provide a direct link to an official Andersen Nigeria website or verifiable corporate contact information, making it difficult to confirm authenticity.",
+    "id": "20dd3930978e4847",
+    "first_seen": "2026-08-22T05:32:42.945029+00:00",
+    "last_updated": "2026-08-22T05:32:42.945043+00:00"
+  },
+  "ad0db876f86cb8b0": {
+    "url": "https://opportunitydesk.org/2026/08/21/iucea-scholarship-2027-2028/",
+    "title": "Inter-University Council for East Africa (IUCEA) Scholarship 2027-2028",
+    "status": "unknown",
+    "eligibility_status": "UNCERTAIN",
+    "reasoning": "No reasoning returned.",
+    "id": "ad0db876f86cb8b0",
+    "first_seen": "2026-08-22T05:33:14.906334+00:00",
+    "last_updated": "2026-08-22T05:33:14.906343+00:00"
+  },
+  "bbf0308fc6150e41": {
+    "url": "https://opportunitydesk.org/2026/08/21/policy-advocacy-and-leadership-fellowship-2026-cohort-3/",
+    "title": "Policy Advocacy and Leadership (PAL) Fellowship 2026 [Cohort 3]",
+    "status": "legitimacy_unknown",
+    "credibility_status": "NEEDS_VERIFICATION",
+    "source_tier": "TIER_2",
+    "reasoning": "The brief excerpt provides no information about application fees, payment requests, or verification of the sponsoring organization (CYPA Africa). Without details on costs, contact verification, or known reputable backing, legitimacy cannot be confirmed.",
+    "id": "bbf0308fc6150e41",
+    "first_seen": "2026-08-22T05:33:34.333182+00:00",
+    "last_updated": "2026-08-22T05:33:34.333191+00:00"
+  },
+  "118a0e810408c703": {
+    "url": "https://opportunitiesforyouth.org/2026/08/21/cdc-advancing-active-people-healthy-nation-through-science-physical-activity-fellowship-2026/",
+    "title": "CDC Advancing Active People, Healthy Nation Through Science – Physical Activity Fellowship 2026",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "reasoning": "The program explicitly states that the fellowship is available to U.S. citizens only, which the candidate (Ethiopian national) does not meet. Additionally, the academic requirement mandates a master's or doctoral degree (or being currently enrolled in one) earned within the past 60 months; the candidate only holds a BSc degree, which does not satisfy this criterion.",
+    "id": "118a0e810408c703",
+    "first_seen": "2026-08-22T05:35:01.068218+00:00",
+    "last_updated": "2026-08-22T05:35:01.068229+00:00"
+  },
+  "53a760884e470bea": {
+    "url": "https://opportunitiesforyouth.org/2026/08/21/african-nutrition-leadership-programme-anlp-2027-apply-for-the-10-day-nutrition-leadership-development-programme-in-africa/",
+    "title": "African Nutrition Leadership Programme (ANLP) 2027: Apply for the 10-Day Nutrition Leadership Development Programme in Africa",
+    "status": "ineligible",
+    "eligibility_status": "PROBABLY_INELIGIBLE",
+    "reasoning": "The programme explicitly targets early- and mid‑career **nutrition professionals or stakeholders whose work is connected to nutrition**. Gulilat’s background is in AI development, marketing, psychology and community leadership with no stated nutrition‑related role, research, or responsibility. This mismatch in professional focus is a likely hard blocker. All other visible criteria (African nationality, age 27, early‑mid career status, not a student) are met. No explicit English‑language or degree‑level requirements are stated, so those cannot be confirmed.",
+    "id": "53a760884e470bea",
+    "first_seen": "2026-08-22T05:36:25.066491+00:00",
+    "last_updated": "2026-08-22T05:36:25.066516+00:00"
+  },
+  "aee6b95c6174cecd": {
+    "url": "https://opportunitiesforyouth.org/2026/08/21/stem-pathways-fund-2026-up-to-150000-in-grants-to-help-young-people-transition-from-further-education-into-stem-careers/",
+    "title": "STEM Pathways Fund 2026: Up to £150,000 in Grants to Help Young People Transition from Further Education into STEM Careers",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "reasoning": "The STEM Pathways Fund explicitly states that only not‑for‑profit organisations operating in England (e.g., charities, CICs, community benefit societies, FE colleges) may apply. The candidate is an individual professional, not an organisation, does not operate in England, and the grant is aimed at supporting young people aged 16‑19, whereas the candidate is 27. These are hard, non‑addressable blockers for direct eligibility.",
+    "id": "aee6b95c6174cecd",
+    "first_seen": "2026-08-22T05:38:04.506805+00:00",
+    "last_updated": "2026-08-22T05:38:04.506814+00:00"
+  },
+  "6c7241459a2b1803": {
+    "url": "https://opportunitiesforyouth.org/2026/08/21/africa-4-0-awards-2026-aisma-and-unido-invite-nominations-for-african-excellence-in-industry-4-0/",
+    "title": "AFRICA 4.0 Awards 2026: AISMA and UNIDO Invite Nominations for African Excellence in Industry 4.0",
+    "status": "unknown",
+    "eligibility_status": "UNCERTAIN",
+    "reasoning": "No reasoning returned.",
+    "id": "6c7241459a2b1803",
+    "first_seen": "2026-08-22T05:39:34.128828+00:00",
+    "last_updated": "2026-08-22T05:39:34.128836+00:00"
+  },
+  "c945d47810e6bbf8": {
+    "url": "https://oyaop.com/opportunity/scholarships-and-fellowships/top-50-fully-funded-fellowships-in-2027-for-international-students-and-young-professionals",
+    "title": "Top 50 Fully Funded Fellowships in 2027 for International Students and Young Professionals - OYA Opportunities | OYA Opportunities",
+    "status": "unknown",
+    "eligibility_status": "UNCERTAIN",
+    "reasoning": "No reasoning returned.",
+    "id": "c945d47810e6bbf8",
+    "first_seen": "2026-08-22T05:40:50.544985+00:00",
+    "last_updated": "2026-08-22T05:40:50.544993+00:00"
+  },
+  "300342638aa69f5d": {
+    "url": "https://immigrationandstudyabroad.com/scholarships-for-international-students",
+    "title": "Fully funded scholarships for international students in 2026-2027",
+    "status": "ineligible",
+    "eligibility_status": "PROBABLY_INELIGIBLE",
+    "reasoning": "The program explicitly targets \"international undergraduate applicants\" for bachelor’s degree scholarships. The candidate already holds a BSc and is seeking a fully‑funded master’s program, creating a degree‑level mismatch. No explicit exclusion of Ethiopian nationals is mentioned, but the degree requirement alone likely disqualifies the candidate.",
+    "id": "300342638aa69f5d",
+    "first_seen": "2026-08-22T05:41:21.470683+00:00",
+    "last_updated": "2026-08-22T05:41:21.470692+00:00"
+  },
+  "7dae5c9c08fa2799": {
+    "url": "https://www.scholarshipbob.com/entrepreneurs",
+    "title": "Grants, Opportunities and Funding for Entrepreneurs 2026 - 2027 | ScholarshipBob",
+    "status": "unknown",
+    "eligibility_status": "UNCERTAIN",
+    "reasoning": "The page lists a collection of entrepreneurship grants and programs but does not provide concrete eligibility criteria such as age limits, required student status, degree level, English language proof, or specific nationality restrictions beyond the general 'eligible countries' list, which does include Ethiopia. Therefore we cannot confirm that the candidate meets all necessary conditions, nor can we definitively rule them out.",
+    "id": "7dae5c9c08fa2799",
+    "first_seen": "2026-08-22T05:42:52.112539+00:00",
+    "last_updated": "2026-08-22T05:42:52.112550+00:00"
+  },
+  "30e9aeefc192e24f": {
+    "url": "https://www.opportunitiesforafricans.com/who-2026-global-youth-competition-on-influenza-and-covid-19-prevention-and-control/",
+    "title": "WHO 2026 Global youth competition on influenza and COVID-19 prevention and control",
+    "status": "unknown",
+    "eligibility_status": "UNCERTAIN",
+    "reasoning": "No reasoning returned.",
+    "id": "30e9aeefc192e24f",
+    "first_seen": "2026-08-22T05:43:52.076147+00:00",
+    "last_updated": "2026-08-22T05:43:52.076156+00:00"
+  },
+  "e22a0889d8656456": {
+    "url": "https://opportunitydesk.org/2026/08/21/pulitzer-center-global-south-civil-society-microgrants-2026/",
+    "title": "Pulitzer Center Global South Civil Society Microgrants 2026 (up to $4,000)",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "reasoning": "The Pulitzer Center Global South Civil Society Microgrants explicitly target civil society organizations and groups in Africa, Latin America, and Southeast Asia. The candidate is a private working professional, not a civil society organization, which directly violates the core eligibility criterion.",
+    "id": "e22a0889d8656456",
+    "first_seen": "2026-08-22T05:44:20.270205+00:00",
+    "last_updated": "2026-08-22T05:44:20.270213+00:00"
   }
 }
