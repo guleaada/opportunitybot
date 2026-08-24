@@ -4832,5 +4832,140 @@
     "id": "9b0db5481953723b",
     "first_seen": "2026-08-23T05:45:34.617756+00:00",
     "last_updated": "2026-08-23T05:45:34.617765+00:00"
+  },
+  "e5e373e3e3811fe5": {
+    "url": "https://opportunitiesforyouth.org/2026/08/23/zukunftskolleg-fellowship-2027/",
+    "title": "University of Konstanz Zukunftskolleg Postdoctoral Fellowships 2027: Four Fully Funded 2-Year Research Positions in Germany",
+    "status": "unknown",
+    "eligibility_status": "UNCERTAIN",
+    "reasoning": "The Zukunftskolleg Postdoctoral Fellowship explicitly requires applicants to be early‑career researchers and to submit all materials in English. It does not state on the page whether a doctoral degree is mandatory, nor does it specify the exact English‑proficiency evidence required. The candidate meets the age and nationality criteria and can provide English proof, but only holds a BSc and has no documented PhD, which is typically expected for postdoctoral positions. Because the degree requirement is not confirmed on the page, eligibility cannot be confirmed.",
+    "id": "e5e373e3e3811fe5",
+    "first_seen": "2026-08-24T05:41:23.015662+00:00",
+    "last_updated": "2026-08-24T05:41:23.015672+00:00"
+  },
+  "5c6712b3f2a48998": {
+    "url": "https://opportunitiesforyouth.org/2026/08/23/eac-student-mobility-scholarship-2026-2027-197-fully-funded-undergraduate-masters-phd-scholarships-across-east-africa/",
+    "title": "USIU-Africa EAC Scholarship 2026: Fully Funded Master’s Scholarships in Kenya for EAC Students",
+    "status": "legitimacy_unknown",
+    "credibility_status": "NEEDS_VERIFICATION",
+    "source_tier": "TIER_3",
+    "reasoning": "No reasoning returned.",
+    "id": "5c6712b3f2a48998",
+    "first_seen": "2026-08-24T05:42:14.448633+00:00",
+    "last_updated": "2026-08-24T05:42:14.448642+00:00"
+  },
+  "f16938c057c5e81e": {
+    "url": "https://opportunitiescorners.com/world-leaders-convention-2027-in-austria/",
+    "title": "World Leaders Convention 2027 in Austria (Fully Funded)",
+    "status": "scam",
+    "credibility_status": "HIGH_RISK",
+    "source_tier": "TIER_3",
+    "reasoning": "The program claims to be fully funded yet requires a $15.9 non‑refundable application fee, a common red flag for scholarship scams. The organizer (Organization for Global Policy & Dialogue) is not a recognized institution, and the opportunity is promoted only through a third‑party blog that lists many similar \"fully funded\" events, suggesting a pattern of fee‑based scams.",
+    "id": "f16938c057c5e81e",
+    "first_seen": "2026-08-24T05:42:58.097483+00:00",
+    "last_updated": "2026-08-24T05:42:58.097494+00:00"
+  },
+  "15c5340b6b2e74e9": {
+    "url": "https://opportunitiesforyouth.org/2026/08/24/mountains-adapt-small-grants-2026-up-to-us30000-for-community-led-climate-resilience-projects-in-east-africa-and-the-south-caucasus/",
+    "title": "Mountains ADAPT Small Grants 2026: Up to US$30,000 for Community-Led Climate Resilience Projects in East Africa and the South Caucasus",
+    "status": "suspicious",
+    "credibility_status": "SUSPICIOUS",
+    "source_tier": "TIER_3",
+    "reasoning": "The grant claims to be run by UNEP but is posted on a third‑party site (opportunitiesforyouth.org) rather than an official UNEP domain, and the page lacks detailed contact information or a direct application portal. While no money‑up‑front request is mentioned, the generic SEO‑heavy copy and absence of verifiable UNEP references raise doubts.",
+    "id": "15c5340b6b2e74e9",
+    "first_seen": "2026-08-24T05:43:27.167705+00:00",
+    "last_updated": "2026-08-24T05:43:27.167714+00:00"
+  },
+  "3c11555712520b31": {
+    "url": "https://opportunitiesforyouth.org/2026/08/23/max-planc-fellowships-2027/",
+    "title": "Max Planck Dissertation Writing-up Fellowships 2027 in Germany: Up to 4 Months of Funded Support for Final-Stage PhD Researchers",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "reasoning": "The Max Planck Dissertation Writing-up Fellowship explicitly requires applicants to be doctoral candidates in the final stage of their PhD. The candidate holds only a BSc degree, is not currently enrolled in any PhD program, and is a working professional, which directly violates the core eligibility criterion. No nationality restriction is mentioned, so citizenship is not a blocker.",
+    "id": "3c11555712520b31",
+    "first_seen": "2026-08-24T05:44:00.463450+00:00",
+    "last_updated": "2026-08-24T05:44:00.463458+00:00"
+  },
+  "fcd24390daf6b6f0": {
+    "url": "https://opportunitiescorners.com/nasa-free-online-courses/",
+    "title": "NASA Free Online Courses 2026 | Learn from NASA & Get a Certificate",
+    "status": "analyzed",
+    "score": 0.0,
+    "category": null,
+    "official_url": "https://opportunitiescorners.com/nasa-free-online-courses/",
+    "location": null,
+    "remote": null,
+    "deadline": null,
+    "reward": 2.5,
+    "estimated_value": null,
+    "eligibility_status": "CONFIRMED_ELIGIBLE",
+    "credibility_status": "LIKELY_LEGITIMATE",
+    "source_tier": "TIER_3",
+    "source_quality": 7,
+    "requirements": [],
+    "id": "fcd24390daf6b6f0",
+    "first_seen": "2026-08-24T05:46:09.434055+00:00",
+    "last_updated": "2026-08-24T05:46:09.434064+00:00"
+  },
+  "64614529632c88bb": {
+    "url": "https://opportunitydesk.org/2026/08/22/hoover-fellows-program-2026-2027/",
+    "title": "Hoover Fellows Program at Stanford University 2026-2027",
+    "status": "unknown",
+    "eligibility_status": "UNCERTAIN",
+    "reasoning": "The program description provided does not list any explicit eligibility criteria such as required degree level, citizenship restrictions, age limits, current enrollment status, or English proficiency requirements. Without these details we cannot confirm whether the candidate meets all necessary conditions.",
+    "id": "64614529632c88bb",
+    "first_seen": "2026-08-24T05:46:38.115530+00:00",
+    "last_updated": "2026-08-24T05:46:38.115540+00:00"
+  },
+  "435e8d9f40d8403d": {
+    "url": "https://opportunitydesk.org/2026/08/21/nans-innovate-2026/",
+    "title": "National Association of Nigerian Students (NANS) Innovate 2026",
+    "status": "filtered_out",
+    "reason": "Only for Nigerian students, not eligible for Ethiopian professional",
+    "id": "435e8d9f40d8403d",
+    "first_seen": "2026-08-24T05:46:44.185409+00:00",
+    "last_updated": "2026-08-24T05:46:44.185418+00:00"
+  },
+  "b313b56ce5111484": {
+    "url": "https://opportunitydesk.org/2026/08/21/harpswell-leadership-resident-program-2027/",
+    "title": "Harpswell Leadership Resident Program 2027",
+    "status": "legitimacy_unknown",
+    "credibility_status": "NEEDS_VERIFICATION",
+    "source_tier": "TIER_2",
+    "reasoning": "The description of a women‑focused leadership residency in Phnom Penh appears plausible, but the page provides no clear information about the sponsoring organization, funding source, or any application fees. Absence of trust signals (e.g., official university or government endorsement) and lack of fee details make it impossible to confirm legitimacy.",
+    "id": "b313b56ce5111484",
+    "first_seen": "2026-08-24T05:47:01.387178+00:00",
+    "last_updated": "2026-08-24T05:47:01.387192+00:00"
+  },
+  "e8371c90e13365b2": {
+    "url": "https://opportunitiesforyouth.org/2026/08/23/global-south-civil-society-microgrants-2026-apply-for-usd-2000-4000-to-fund-climate-rainforest-and-ocean-civic-engagement-projects/",
+    "title": "Global South Civil Society Microgrants 2026: Apply for USD 2,000–4,000 to Fund Climate, Rainforest and Ocean Civic Engagement Projects",
+    "status": "unknown",
+    "eligibility_status": "UNCERTAIN",
+    "reasoning": "The grant targets \"grassroots organizations, civil society groups, youth movements, community‑led initiatives, civic coalitions, artists, and other community‑focused groups\" in the Global South. The candidate is an Ethiopian individual (27) and meets the geographic (Global South) and age (likely youth) aspects, but the program does not explicitly state whether an individual applicant is allowed. The requirement to be an organization or group is not clearly defined, making it unverifiable. No nationality exclusion, no student status requirement, and no English‑test requirement are mentioned, so there are no hard blockers.",
+    "id": "e8371c90e13365b2",
+    "first_seen": "2026-08-24T05:48:30.664154+00:00",
+    "last_updated": "2026-08-24T05:48:30.664167+00:00"
+  },
+  "c539630667b6b3a7": {
+    "url": "https://opportunitiesforyouth.org/2026/08/23/tulane-fellow-2027/",
+    "title": "Tulane University Postdoctoral Fellow 2027: 18-Month Position in Communication, Digital Media and the Future of Work",
+    "status": "legitimacy_unknown",
+    "credibility_status": "NEEDS_VERIFICATION",
+    "source_tier": "TIER_3",
+    "reasoning": "The posting provides detailed role information and does not request any payment, which are positive signs, but it appears on a third‑party aggregator (opportunitiesforyouth.org) rather than Tulane University's official website, and no direct link to an official Tulane job portal is provided, making verification difficult.",
+    "id": "c539630667b6b3a7",
+    "first_seen": "2026-08-24T05:48:54.107805+00:00",
+    "last_updated": "2026-08-24T05:48:54.107814+00:00"
+  },
+  "ff91b5e7671d17df": {
+    "url": "https://opportunitiesforyouth.org/2026/08/23/adaptation-fund-climate-innovation-accelerator-2026-wfp-climate-innovation-opportunity-for-scalable-solutions-in-latin-america-and-the-caribbean/",
+    "title": "Adaptation Fund Climate Innovation Accelerator 2026: WFP Climate Innovation Opportunity for Scalable Solutions in Latin America and the Caribbean",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "reasoning": "The program explicitly requires the applicant to be an \"established legal entity\" (e.g., company, NGO, social business) and to have a presence (office, subsidiary, partnership, etc.) in one of the target countries (Dominican Republic, El Salvador, or Peru). The candidate is an individual professional with no legal entity and no documented presence in any of those countries. These are hard blockers that cannot be addressed by the candidate.",
+    "id": "ff91b5e7671d17df",
+    "first_seen": "2026-08-24T05:50:20.985632+00:00",
+    "last_updated": "2026-08-24T05:50:20.985641+00:00"
   }
 }
