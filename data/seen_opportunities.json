@@ -4967,5 +4967,151 @@
     "id": "ff91b5e7671d17df",
     "first_seen": "2026-08-24T05:50:20.985632+00:00",
     "last_updated": "2026-08-24T05:50:20.985641+00:00"
+  },
+  "7829e9edec8dd813": {
+    "url": "https://opportunitiesforyouth.org/2026/08/24/insait-graduate-research/",
+    "title": "PhD at INSAIT in Bulgaria: Fully Funded Doctoral Fellowship of €39,684 Per Year for International Students",
+    "status": "unknown",
+    "eligibility_status": "UNCERTAIN",
+    "reasoning": "No reasoning returned.",
+    "id": "7829e9edec8dd813",
+    "first_seen": "2026-08-25T05:35:24.715093+00:00",
+    "last_updated": "2026-08-25T05:35:24.715101+00:00"
+  },
+  "cf6fdb023389fa38": {
+    "url": "https://www.opportunitiesforafricans.com/the-heirs-holdings-graduate-trainee-programme-2026-for-young-nigerian-graduates/",
+    "title": "The Heirs Holdings Graduate Trainee Programme 2026 for young Nigerian graduates.",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "reasoning": "The programme explicitly targets \"young Nigerian graduates\" and requires completion of the Nigerian NYSC programme. The candidate is Ethiopian and has not completed NYSC, which are hard blockers. Additionally, the programme limits post‑NYSC professional experience to two years, whereas the candidate has approximately five years of experience since graduating in 2021. The required degree classification (Second Class Lower) cannot be verified from the provided information.",
+    "id": "cf6fdb023389fa38",
+    "first_seen": "2026-08-25T05:36:24.290008+00:00",
+    "last_updated": "2026-08-25T05:36:24.290019+00:00"
+  },
+  "dc49f86cf92234ae": {
+    "url": "https://www.opportunitiesforafricans.com/the-sasol-technician-development-programme-tdp-2026-for-young-south-african-graduates/",
+    "title": "The Sasol Technician Development Programme (TDP) 2026 for young South African graduates.",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "reasoning": "The programme title and description state it is for \"young South African graduates\". The candidate is an Ethiopian national, which does not meet the explicit nationality requirement. No other eligibility criteria override this hard blocker.",
+    "id": "dc49f86cf92234ae",
+    "first_seen": "2026-08-25T05:37:15.217515+00:00",
+    "last_updated": "2026-08-25T05:37:15.217526+00:00"
+  },
+  "44624f296e471e3d": {
+    "url": "https://www.opportunitiesforafricans.com/africa-no-filter-voices-for-climate-justice-initiative-2026-for-african-storytellers/",
+    "title": "Africa No Filter Voices for Climate Justice initiative 2026 for African storytellers (US$4,000 grant)",
+    "status": "suspicious",
+    "credibility_status": "SUSPICIOUS",
+    "source_tier": "TIER_3",
+    "reasoning": "The program mentions a partnership with the reputable Comic Relief and a known organization (Africa No Filter), and it does not request any application fees, which are positive signs. However, the announcement is hosted on a third‑party aggregator site (opportunitiesforafricans.com) with generic contact emails and no direct link to an official Africa No Filter or Comic Relief webpage, which raises doubts about authenticity.",
+    "id": "44624f296e471e3d",
+    "first_seen": "2026-08-25T05:38:06.309435+00:00",
+    "last_updated": "2026-08-25T05:38:06.309444+00:00"
+  },
+  "9e276a52dd9c090b": {
+    "url": "https://www.opportunitiesforafricans.com/the-au-eu-youth-action-lab-grants-2026-for-youth-led-initiatives-in-africa/",
+    "title": "The AU-EU Youth Action Lab Grants 2026 for youth-led initiatives in Africa.",
+    "status": "suspicious",
+    "credibility_status": "SUSPICIOUS",
+    "source_tier": "TIER_3",
+    "reasoning": "The AU‑EU Youth Action Lab is an actual joint initiative, but the page is on a third‑party aggregator (opportunitiesforafricans.com) and provides no direct link to an official AU or EU website, nor official branding. No fees are mentioned, but the lack of verifiable official source makes the legitimacy uncertain.",
+    "id": "9e276a52dd9c090b",
+    "first_seen": "2026-08-25T05:38:54.222832+00:00",
+    "last_updated": "2026-08-25T05:38:54.222841+00:00"
+  },
+  "dfac6586f6b73ce3": {
+    "url": "https://opportunitydesk.org/2026/08/24/max-planck-institute-for-social-anthropology-dissertation-writing-up-fellowships-2027/",
+    "title": "Max Planck Institute for Social Anthropology Dissertation Writing-up Fellowships 2027",
+    "status": "unknown",
+    "eligibility_status": "UNCERTAIN",
+    "reasoning": "The program description does not provide any explicit eligibility criteria such as required degree level, citizenship restrictions, enrollment status, age limits, language proficiency, or field of study. Without this information, we cannot confirm whether the candidate meets the requirements.",
+    "id": "dfac6586f6b73ce3",
+    "first_seen": "2026-08-25T05:39:20.200685+00:00",
+    "last_updated": "2026-08-25T05:39:20.200693+00:00"
+  },
+  "810304eb0b91c9d4": {
+    "url": "https://opportunitydesk.org/2026/08/24/zukunftskolleg-postdoctoral-fellowships-2026/",
+    "title": "Zukunftskolleg Postdoctoral Fellowships 2026",
+    "status": "unknown",
+    "eligibility_status": "UNCERTAIN",
+    "reasoning": "No reasoning returned.",
+    "id": "810304eb0b91c9d4",
+    "first_seen": "2026-08-25T05:39:43.489870+00:00",
+    "last_updated": "2026-08-25T05:39:43.489878+00:00"
+  },
+  "74f48f452a0d8e2c": {
+    "url": "https://opportunitydesk.org/2026/08/24/global-mental-health-africa-conference-scholarship-2027/",
+    "title": "Global Mental Health Africa Conference (GMHAC) Scholarship 2027",
+    "status": "unknown",
+    "eligibility_status": "UNCERTAIN",
+    "reasoning": "The program description is incomplete; no explicit eligibility criteria (such as nationality eligibility, required academic status (student vs. professional), degree level, age limit, English language requirements, or field of study) are provided. Therefore we cannot confirm whether the candidate meets all necessary conditions nor identify any definitive blockers.",
+    "id": "74f48f452a0d8e2c",
+    "first_seen": "2026-08-25T05:40:11.530086+00:00",
+    "last_updated": "2026-08-25T05:40:11.530099+00:00"
+  },
+  "4a699d1ac57552d1": {
+    "url": "https://opportunitydesk.org/2026/08/24/leading-change-fellowship-2026-2027/",
+    "title": "Leading Change Fellowship 2026-2027",
+    "status": "suspicious",
+    "credibility_status": "SUSPICIOUS",
+    "source_tier": "TIER_2",
+    "reasoning": "The listing provides only generic details (deadline, age range, focus) without naming a sponsoring organization, contact information, or a clear application portal, which is typical of many scam or low‑credibility offers. The source is an aggregator site (opportunitydesk.org) rather than an official program website, and no trust signals (e.g., government or university affiliation) are evident.",
+    "id": "4a699d1ac57552d1",
+    "first_seen": "2026-08-25T05:40:26.905844+00:00",
+    "last_updated": "2026-08-25T05:40:26.905857+00:00"
+  },
+  "8ab0c6ef208236d7": {
+    "url": "https://opportunitiesforyouth.org/2026/08/24/unisq-international-phd-scholarship-2027-in-australia-aud-39000-stipend-full-tuition-fees/",
+    "title": "UniSQ International PhD Scholarship 2027 in Australia | AUD $39,000 Stipend + Full Tuition Fees",
+    "status": "unknown",
+    "eligibility_status": "UNCERTAIN",
+    "reasoning": "No reasoning returned.",
+    "id": "8ab0c6ef208236d7",
+    "first_seen": "2026-08-25T05:41:54.808585+00:00",
+    "last_updated": "2026-08-25T05:41:54.808598+00:00"
+  },
+  "bdef2274bca8584b": {
+    "url": "https://opportunitiesforyouth.org/2026/08/24/digital-education-council-postgraduate-research-fellowship-2026-research-opportunity-in-ai-and-higher-education/",
+    "title": "Digital Education Council Postgraduate Research Fellowship 2026: Research Opportunity in AI and Higher Education",
+    "status": "scam",
+    "credibility_status": "HIGH_RISK",
+    "source_tier": "TIER_3",
+    "reasoning": "The Digital Education Council is not a known reputable scholarship body, the application link redirects to an unrelated Typeform (superchargerventures.typeform.com) which is a common tactic for data‑harvesting scams, and the posting provides no details on funding, fees, or official contact information.",
+    "id": "bdef2274bca8584b",
+    "first_seen": "2026-08-25T05:43:01.304127+00:00",
+    "last_updated": "2026-08-25T05:43:01.304136+00:00"
+  },
+  "c2fe67babde1e0bf": {
+    "url": "https://opportunitiesforyouth.org/2026/08/24/patrick-margaret-flanagan-scholarship-2027-full-cost-funding-for-south-african-women-to-pursue-masters-or-phd-studies-abroad/",
+    "title": "Patrick & Margaret Flanagan Scholarship 2027: Full-Cost Funding for South African Women to Pursue Master’s or PhD Studies Abroad",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "reasoning": "The scholarship explicitly requires applicants to be South African women; the candidate is Ethiopian, which directly conflicts with this nationality requirement. No other stated requirements are unmet, and the candidate can address the English language certificate gap.",
+    "id": "c2fe67babde1e0bf",
+    "first_seen": "2026-08-25T05:44:21.845378+00:00",
+    "last_updated": "2026-08-25T05:44:21.845387+00:00"
+  },
+  "dab81eb0368d9380": {
+    "url": "https://opportunitiesforyouth.org/2026/08/24/fund-opportunities-for-youth-au-eu-youth-voices-lab-opens-applications-for-small-grants/",
+    "title": "AU-EU Youth Action Lab Grants 2026: Funding for Youth-Led Initiatives in Africa and Europe",
+    "status": "legitimacy_unknown",
+    "credibility_status": "NEEDS_VERIFICATION",
+    "source_tier": "TIER_3",
+    "reasoning": "The page describes a plausible AU-EU youth grant program with detailed structure, but the source URL (opportunitiesforyouth.org) is not a verified official AU or EU domain, and no official AU/EU institutional links or trust signals are present. Without confirmation from official AU or EU websites, legitimacy cannot be definitively established.",
+    "id": "dab81eb0368d9380",
+    "first_seen": "2026-08-25T05:44:59.234678+00:00",
+    "last_updated": "2026-08-25T05:44:59.234689+00:00"
+  },
+  "58544d0fe1f2f187": {
+    "url": "https://opportunitiesforyouth.org/2026/08/24/unicef-thailand-ypp-2026/",
+    "title": "UNICEF Thailand Young Professionals Programme 2026: Communication Internship in Bangkok for University Students and Recent Graduates",
+    "status": "legitimacy_unknown",
+    "credibility_status": "NEEDS_VERIFICATION",
+    "source_tier": "TIER_3",
+    "reasoning": "No reasoning returned.",
+    "id": "58544d0fe1f2f187",
+    "first_seen": "2026-08-25T05:45:26.031543+00:00",
+    "last_updated": "2026-08-25T05:45:26.031553+00:00"
   }
 }
