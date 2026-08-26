@@ -5113,5 +5113,161 @@
     "id": "58544d0fe1f2f187",
     "first_seen": "2026-08-25T05:45:26.031543+00:00",
     "last_updated": "2026-08-25T05:45:26.031553+00:00"
+  },
+  "9bdc7f33401bd97f": {
+    "url": "https://opportunitiescorners.com/erasmus-mundus-scholarship-2027/",
+    "title": "Erasmus Mundus Scholarship 2027/29 (Fully Funded)",
+    "status": "suspicious",
+    "credibility_status": "SUSPICIOUS",
+    "source_tier": "TIER_3",
+    "reasoning": "The Erasmus Mundus scholarship is a legitimate EU program, but this page is a third‑party aggregator that pushes WhatsApp groups, a generic Gmail contact, and extensive self‑promotion rather than linking to the official EU portal. Legitimate scholarship sites rarely ask users to join messaging groups or use non‑official email addresses.",
+    "id": "9bdc7f33401bd97f",
+    "first_seen": "2026-08-26T05:37:31.723924+00:00",
+    "last_updated": "2026-08-26T05:37:31.723932+00:00"
+  },
+  "1db900cd67c812f6": {
+    "url": "https://opportunitiesforyouth.org/2026/08/25/acu-stipend-scholarship-2026-2027-fully-funded-research-masters-and-phd-scholarship-in-australia-for-domestic-and-international-students/",
+    "title": "ACU Stipend Scholarship 2026–2027: Fully Funded Research Master’s and PhD Scholarship in Australia for Domestic and International Students",
+    "status": "unknown",
+    "eligibility_status": "UNCERTAIN",
+    "reasoning": "The ACU Stipend Scholarship is open to both domestic and international applicants, with no nationality restriction, so the candidate’s Ethiopian citizenship is allowed. The scholarship targets research Master's or PhD degrees; the candidate holds a BSc and can apply as a prospective research Master's student. There is no explicit requirement that applicants must currently be enrolled in a degree program, so being a working professional is not a hard blocker. The main documented requirements (research proposal, academic transcripts, referee reports, and meeting ACU’s admission criteria) are addressable. The page does not state an English language proficiency requirement, but such a requirement is typical for Australian universities; because it is not specified, it is listed as a missing requirement that the candidate can resolve by obtaining a Duolingo or MOI certificate.",
+    "id": "1db900cd67c812f6",
+    "first_seen": "2026-08-26T05:39:03.688454+00:00",
+    "last_updated": "2026-08-26T05:39:03.688462+00:00"
+  },
+  "09ab6b22be1e5650": {
+    "url": "https://www.opportunitiesforafricans.com/category/fellowships",
+    "title": "Fellowships – Opportunities For Africans",
+    "status": "unknown",
+    "eligibility_status": "UNCERTAIN",
+    "reasoning": "The page lists dozens of separate fellowship opportunities but does not provide concrete eligibility criteria (e.g., age limits, student status, degree requirements, nationality restrictions, English proficiency thresholds) for any single program. Without explicit requirements, we cannot confirm that the candidate meets all necessary conditions, nor can we definitively identify a blocker.",
+    "id": "09ab6b22be1e5650",
+    "first_seen": "2026-08-26T05:41:12.517708+00:00",
+    "last_updated": "2026-08-26T05:41:12.517717+00:00"
+  },
+  "53d09c26268043ed": {
+    "url": "https://www.opportunitiesforafricans.com/category/call-for-applications",
+    "title": "Call for Applications",
+    "status": "unknown",
+    "eligibility_status": "UNCERTAIN",
+    "reasoning": "The page only states that the UN Youth Townhall is for \"young people worldwide\" and does not provide concrete eligibility criteria such as age limits, student status, degree level, English language requirements, or nationality restrictions. Because these key requirements are not specified, we cannot confirm whether the candidate meets them.",
+    "id": "53d09c26268043ed",
+    "first_seen": "2026-08-26T05:43:04.759097+00:00",
+    "last_updated": "2026-08-26T05:43:04.759108+00:00"
+  },
+  "6e081940260659e5": {
+    "url": "https://www.opportunitiesforafricans.com/united-nations-un-youth-townhall-2026-for-young-people-worldwide/",
+    "title": "United Nations (UN) Youth Townhall 2026 for young people worldwide (Fully Funded to Heidelberg, Germany)",
+    "status": "legitimacy_unknown",
+    "credibility_status": "NEEDS_VERIFICATION",
+    "source_tier": "TIER_3",
+    "reasoning": "No reasoning returned.",
+    "id": "6e081940260659e5",
+    "first_seen": "2026-08-26T05:43:54.774210+00:00",
+    "last_updated": "2026-08-26T05:43:54.774217+00:00"
+  },
+  "0c99b15b16fe0e16": {
+    "url": "https://www.opportunitiesforafricans.com/the-university-of-cape-town-mastercard-foundation-scholars-program-2027/",
+    "title": "The University of Cape Town MasterCard Foundation Scholars Program 2027 for study in South Africa (Fully Funded)",
+    "status": "unknown",
+    "eligibility_status": "UNCERTAIN",
+    "reasoning": "No reasoning returned.",
+    "id": "0c99b15b16fe0e16",
+    "first_seen": "2026-08-26T05:45:00.774026+00:00",
+    "last_updated": "2026-08-26T05:45:00.774034+00:00"
+  },
+  "88936ff77df6e7ef": {
+    "url": "https://www.opportunitiesforafricans.com/sasol-mining-fence-line-mainstream-programme-2026-for-young-south-africans/",
+    "title": "Sasol Mining Fence-line (Mainstream) Programme 2026 for young South Africans.",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "reasoning": "The programme explicitly states that the bursary is \"exclusively available to South African citizens (by birth only)\" and that applicants must be \"presently enrolled as 1st to 4th‑year students pursuing a Bachelor’s degree at a South African University\" in listed engineering disciplines. The candidate is an Ethiopian national, not a South African citizen, and is a working professional with a completed BSc in Psychology, not currently enrolled in an undergraduate engineering program.",
+    "id": "88936ff77df6e7ef",
+    "first_seen": "2026-08-26T05:46:09.627765+00:00",
+    "last_updated": "2026-08-26T05:46:09.627772+00:00"
+  },
+  "e1c797fb3819d8a9": {
+    "url": "https://www.opportunitiesforafricans.com/kenya-artificial-intelligence-accelerator-programme-2026-for-kenyan-startups-and-innovators/",
+    "title": "Kenya Artificial Intelligence Accelerator Programme 2026 for Kenyan Startups and Innovators",
+    "status": "suspicious",
+    "credibility_status": "SUSPICIOUS",
+    "source_tier": "TIER_3",
+    "reasoning": "The page claims the program is a national initiative of Kenyan ministries and UNDP, but provides no direct link to an official government or UNDP website and only lists generic OFA contact emails. The lack of a verifiable official source and the reliance on a third‑party aggregator are red flags, even though no payment is requested.",
+    "id": "e1c797fb3819d8a9",
+    "first_seen": "2026-08-26T05:46:47.855107+00:00",
+    "last_updated": "2026-08-26T05:46:47.855114+00:00"
+  },
+  "a7816e5e9ea03d1f": {
+    "url": "https://opportunitydesk.org/2026/08/25/mila-lab-ai-law-ethics-research-awards-2026/",
+    "title": "Call for Proposals: Miami Law & AI (MiLA) Lab AI, Law & Ethics Research Awards 2026",
+    "status": "unknown",
+    "eligibility_status": "UNCERTAIN",
+    "reasoning": "The program description does not include any explicit eligibility criteria (e.g., nationality, current student status, degree level, age limit, English proficiency, or funding source). Without these details we cannot confirm whether the candidate meets all required conditions.",
+    "id": "a7816e5e9ea03d1f",
+    "first_seen": "2026-08-26T05:47:16.983293+00:00",
+    "last_updated": "2026-08-26T05:47:16.983301+00:00"
+  },
+  "8372de8826c25d15": {
+    "url": "https://opportunitydesk.org/2026/08/25/agentrust-fellowship-2026/",
+    "title": "AgenTrust Fellowship to Advance Open Standards for Verifiable AI Agents 2026",
+    "status": "suspicious",
+    "credibility_status": "SUSPICIOUS",
+    "source_tier": "TIER_2",
+    "reasoning": "The fellowship is listed on a third‑party aggregator (opportunitydesk.org) with no clear affiliation to a known university, government, or reputable foundation, and the sponsoring entity 'AgenTrust' is not widely recognized in the scholarship/fellowship ecosystem. While no explicit fee is mentioned, the lack of transparent funding sources, detailed application instructions, and institutional backing raises concerns.",
+    "id": "8372de8826c25d15",
+    "first_seen": "2026-08-26T05:47:27.298426+00:00",
+    "last_updated": "2026-08-26T05:47:27.298434+00:00"
+  },
+  "5c296b5cc3acf07b": {
+    "url": "https://opportunitydesk.org/2026/08/25/caai-second-year-ai-fellowship-2026-2027/",
+    "title": "Center for Applied Artificial Intelligence (CAAI) Second Year AI Fellowship 2026-2027",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "reasoning": "The program explicitly states it supports Booth MBA students, i.e., candidates must be currently enrolled in the MBA program at Chicago Booth. The candidate is a working professional, not a student, and does not hold an MBA, which directly violates this core eligibility criterion.",
+    "id": "5c296b5cc3acf07b",
+    "first_seen": "2026-08-26T05:47:53.000647+00:00",
+    "last_updated": "2026-08-26T05:47:53.000657+00:00"
+  },
+  "f148f26788c114a4": {
+    "url": "https://opportunitydesk.org/2026/08/25/unicef-thailand-young-professionals-programme-2026/",
+    "title": "UNICEF Thailand – Young Professionals Programme 2026",
+    "status": "suspicious",
+    "credibility_status": "SUSPICIOUS",
+    "source_tier": "TIER_2",
+    "reasoning": "The opportunity is listed on a third‑party site (opportunitydesk.org) rather than an official UNICEF domain, and UNICEF’s Young Professionals Programme is typically a global recruitment process, not a country‑specific paid program. No fees are mentioned, but the lack of direct UNICEF branding and detailed program information raises doubts.",
+    "id": "f148f26788c114a4",
+    "first_seen": "2026-08-26T05:48:10.268168+00:00",
+    "last_updated": "2026-08-26T05:48:10.268176+00:00"
+  },
+  "63afec4777497cce": {
+    "url": "https://opportunitydesk.org/2026/08/25/au-eu-youth-action-lab-grant-2026/",
+    "title": "AU-EU Youth Action Lab Grant 2026",
+    "status": "suspicious",
+    "credibility_status": "SUSPICIOUS",
+    "source_tier": "TIER_2",
+    "reasoning": "The page provides only a brief, vague description of the AU‑EU Youth Action Lab Grant with no clear sponsor information, eligibility criteria, funding amount, or direct application link, which are typical of legitimate scholarship announcements. The lack of trust signals (official logos, contact details, or links to AU/EU websites) raises concerns about authenticity.",
+    "id": "63afec4777497cce",
+    "first_seen": "2026-08-26T05:48:22.218867+00:00",
+    "last_updated": "2026-08-26T05:48:22.218874+00:00"
+  },
+  "22403c07bac84f72": {
+    "url": "https://opportunitiesforyouth.org/2026/08/25/eu-award-for-gender-equality-champions-2026-e400000-prize-for-research-and-innovation-organisations/",
+    "title": "EU Award for Gender Equality Champions 2026 | €400,000 Prize for Research and Innovation Organisations",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "reasoning": "The EU Award for Gender Equality Champions is explicitly open only to higher‑education institutions, universities, research organisations or other research‑and‑innovation organisations. Applicants must be based in an EU Member State, Associated Country, or a country holding EU candidate status. The candidate is an individual professional, not an eligible organisation, and is based in Ethiopia, which is neither an EU member, associated, nor candidate country.",
+    "id": "22403c07bac84f72",
+    "first_seen": "2026-08-26T05:49:29.477315+00:00",
+    "last_updated": "2026-08-26T05:49:29.477322+00:00"
+  },
+  "bae27e69df7f6950": {
+    "url": "https://opportunitiesforyouth.org/2026/08/25/east-west-center-graduate-degree-fellowship-2026-2027-apply-for-graduate-study-at-the-university-of-hawaii/",
+    "title": "East-West Center Graduate Degree Fellowship 2026–2027: Apply for Graduate Study at the University of Hawai‘i",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "reasoning": "The fellowship is limited to citizens or permanent residents of listed countries/territories (US, Pacific region, Southeast Asia, South Asia, East Asia). An explicit note states that African countries, including Ethiopia, are NOT included. Therefore the candidate's Ethiopian nationality is a hard exclusion. Other requirements (GPA, English proficiency, university admission) are not verified, but the citizenship block alone makes the candidate ineligible.",
+    "id": "bae27e69df7f6950",
+    "first_seen": "2026-08-26T05:50:56.954025+00:00",
+    "last_updated": "2026-08-26T05:50:56.954031+00:00"
   }
 }
