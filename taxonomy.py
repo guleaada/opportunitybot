@@ -19,26 +19,58 @@ from typing import Dict, List, Tuple
 # automatically by all_search_queries().
 CATEGORIES: Dict[str, List[str]] = {
     # ── Funding & study ────────────────────────────────────────────────────
+    # NOTE ON REGISTER — read before editing these.
+    # The profile is a WORKING PROFESSIONAL and solo founder, not a student.
+    # These queries were originally written in student-scholarship register
+    # ("international students", "masters scholarship developing countries"),
+    # which is why discovery kept returning enrolment-gated programmes that
+    # the eligibility gate then correctly rejected: 28 of the 160 stored
+    # rejections read "must be currently enrolled". Keep this section in
+    # professional / founder / practitioner vocabulary.
     "grants": [
-        "international grant open call apply developing countries",
-        "individual grant funding opportunity Africa apply",
+        "innovation grant open call founders Global South apply",
+        "individual grant funding social entrepreneur Africa apply",
     ],
     "scholarships": [
-        "fully funded scholarship international students apply",
-        "masters scholarship developing countries fully funded",
+        "fully funded masters scholarship working professionals apply",
+        "scholarship for applicants with work experience developing countries",
     ],
     "fellowships": [
-        "fully funded fellowship international apply",
-        "professional fellowship program Africa apply",
-        "tech fellowship remote stipend apply",
+        "fully funded fellowship early career professional no degree required",
+        "professional fellowship Africa mid-career practitioner apply",
+        "AI technology fellowship stipend non-academic applicants apply",
     ],
     "programs": [
-        "leadership program fully funded international apply",
+        "leadership program fully funded professionals apply",
         "training program sponsored international participants",
     ],
     "research": [
-        "research fellowship international no PhD required funded",
-        "visiting researcher program funded apply international",
+        "research fellowship independent researcher no PhD required funded",
+        "visiting practitioner program funded apply international",
+    ],
+
+    # ── Founder / builder funding (this profile's strongest fit) ───────────
+    # SebilAI is an AI crop-disease platform for Ethiopian smallholders, so
+    # agritech, climate-adaptation and AI-for-good funders are populations
+    # this profile sits squarely inside — and they rarely gate on enrolment,
+    # nationality or IELTS, which are the three constraints killing most of
+    # the current funnel (28 enrolment, 40 nationality, 11 English cert).
+    "agritech_climate": [
+        "agritech innovation grant smallholder farmers funding apply",
+        "climate adaptation agriculture technology grant Africa founders",
+        "food security innovation challenge funding apply Africa",
+    ],
+    "ai_for_good": [
+        "AI for social good grant funding developing countries apply",
+        "AI for agriculture health impact funding open call apply",
+    ],
+    "social_entrepreneurship": [
+        "social entrepreneur fellowship funding Africa apply",
+        "social impact venture grant non-equity founders apply",
+    ],
+    "founder_fellowships": [
+        "founder fellowship equity free funding solo founder apply",
+        "entrepreneurship fellowship early stage founder stipend apply",
     ],
 
     # ── Work & income ──────────────────────────────────────────────────────
