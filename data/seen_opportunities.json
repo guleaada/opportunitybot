@@ -5429,5 +5429,165 @@
     "id": "6c93539019efad38",
     "first_seen": "2026-08-27T16:25:25.136188+00:00",
     "last_updated": "2026-08-27T16:25:25.136198+00:00"
+  },
+  "ad30613f73a0045d": {
+    "url": "https://opportunitiescorners.com/open-doors-scholarship-2027/",
+    "title": "Open Doors Scholarship 2027 in Russia (Fully Funded)",
+    "status": "suspicious",
+    "credibility_status": "SUSPICIOUS",
+    "source_tier": "TIER_3",
+    "reasoning": "The scholarship is described as a Russian government program but the application is hosted on a private aggregator site (opportunitiescorners.com) with a generic Gmail contact, no official .gov.ru URL, and requires users to create an account and join WhatsApp groups. The organizer name \"Global Universities Association\" is vague and not verifiable, which are common traits of fraudulent listings.",
+    "id": "ad30613f73a0045d",
+    "first_seen": "2026-08-28T17:13:41.963195+00:00",
+    "last_updated": "2026-08-28T17:13:41.963207+00:00"
+  },
+  "99e653aa0e4f6d7a": {
+    "url": "https://opportunitiescorners.com/i-sea-fellowship-2026-in-singapore/",
+    "title": "i-SEA Fellowship 2026 in Singapore (Fully Funded)",
+    "status": "suspicious",
+    "credibility_status": "SUSPICIOUS",
+    "source_tier": "TIER_3",
+    "reasoning": "The fellowship is presented by a third‑party aggregator (opportunitiescorners.com) with only a Gmail address for contact and no direct link to an official NTU or Temasek Foundation webpage. While the description mentions reputable partners and no application fee, the lack of verifiable official sources and the site’s SEO‑heavy layout raise doubts about authenticity.",
+    "id": "99e653aa0e4f6d7a",
+    "first_seen": "2026-08-28T17:14:27.062380+00:00",
+    "last_updated": "2026-08-28T17:14:27.062392+00:00"
+  },
+  "2e52dd7bdcad0689": {
+    "url": "https://www.opportunitiesforafricans.com/world-conference-of-science-journalists-wcsj-2027-travel-fellowship/",
+    "title": "World Conference of Science Journalists (WCSJ) 2027 Travel Fellowship for Journalists (Fully Funded to London, United Kingdom)",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "reasoning": "The fellowship explicitly requires applicants to be journalists or other media professionals covering science and related fields, or students/researchers with a proven track record in journalism. The candidate is an AI developer, marketing specialist, psychologist, and community leader with no journalism role, no media experience covering science, and no published journalism work from the past two years. Therefore the core eligibility criterion is not met. All other stated requirements (passport validity, ability to attend conference dates, English language ability) are likely satisfied, but the missing journalism background is a hard blocker.",
+    "id": "2e52dd7bdcad0689",
+    "first_seen": "2026-08-28T17:15:29.225632+00:00",
+    "last_updated": "2026-08-28T17:15:29.225646+00:00"
+  },
+  "e786477798579964": {
+    "url": "https://www.opportunitiesforafricans.com/the-african-investigative-journalism-conference-aijc-fellowships-2026/",
+    "title": "The African Investigative Journalism Conference (AIJC) Fellowships 2026 for Francophone Journalists (Fully Funded to Nairobi, Kenya)",
+    "status": "suspicious",
+    "credibility_status": "SUSPICIOUS",
+    "source_tier": "TIER_3",
+    "reasoning": "The page advertises a fully funded fellowship with no fee request, which is a positive sign, but it is hosted on a generic aggregator site (opportunitiesforafricans.com) using generic email addresses and provides no direct link to an official AIJC website or sponsoring organization, making verification difficult.",
+    "id": "e786477798579964",
+    "first_seen": "2026-08-28T17:16:10.139333+00:00",
+    "last_updated": "2026-08-28T17:16:10.139344+00:00"
+  },
+  "25d2a515868f9342": {
+    "url": "https://opportunitiesforyouth.org/2026/08/28/mats-residency-winter-2027-fully-funded-ai-safety-research-opportunity-for-talented-researchers-worldwide/",
+    "title": "MATS Residency Winter 2027: Fully Funded AI Safety Research Opportunity for Talented Researchers Worldwide",
+    "status": "legitimacy_unknown",
+    "credibility_status": "NEEDS_VERIFICATION",
+    "source_tier": "TIER_3",
+    "reasoning": "No reasoning returned.",
+    "id": "25d2a515868f9342",
+    "first_seen": "2026-08-28T17:17:14.020468+00:00",
+    "last_updated": "2026-08-28T17:17:14.020483+00:00"
+  },
+  "b66d16ea483b5191": {
+    "url": "https://opportunitiescorners.com/unctad-supply-chain-innovation-challenge-2026/",
+    "title": "UNCTAD Supply Chain Innovation Challenge 2026, Saudi Arabia (Fully Funded)",
+    "status": "suspicious",
+    "credibility_status": "SUSPICIOUS",
+    "source_tier": "TIER_3",
+    "reasoning": "The announcement is posted on a third‑party blog (opportunitiescorners.com) that uses a generic Gmail address for contact and lists many unrelated \"fully funded\" offers, which is typical of low‑credibility aggregators. A legitimate UNCTAD program would be advertised on the official UNCTAD website (unctad.org) with clear branding and a secure application portal; none of that is present here.",
+    "id": "b66d16ea483b5191",
+    "first_seen": "2026-08-28T17:18:02.898530+00:00",
+    "last_updated": "2026-08-28T17:18:02.898541+00:00"
+  },
+  "62b1fe36b5d36dd5": {
+    "url": "https://www.opportunitiesforafricans.com/ogilvy-south-africa-2027-ogilvy-giants-og-graduate-programme-for-young-south-africans/",
+    "title": "Ogilvy South Africa 2027 Ogilvy Giants (OG) Graduate Programme for young South Africans.",
+    "status": "suspicious",
+    "credibility_status": "SUSPICIOUS",
+    "source_tier": "TIER_3",
+    "reasoning": "The programme resembles a legitimate Ogilvy graduate recruitment, but the listing is on a third‑party aggregator (opportunitiesforafricans.com) with no direct link to an official Ogilvy page and only a generic @ogilvy.com email, which are common traits of phishing or fake job offers. No fees are mentioned, but the lack of official branding is a concern.",
+    "id": "62b1fe36b5d36dd5",
+    "first_seen": "2026-08-28T17:18:43.225824+00:00",
+    "last_updated": "2026-08-28T17:18:43.225834+00:00"
+  },
+  "6bf231849d98751b": {
+    "url": "https://www.opportunitiesforafricans.com/kpmg-supply-chain-management-consulting-graduate-programme-2027/",
+    "title": "KPMG Supply Chain Management Consulting Graduate Programme 2027 for young South African graduates.",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "reasoning": "The programme explicitly targets \"young South African graduates\". The candidate is Ethiopian, which does not meet the nationality requirement. Additionally, the required academic qualifications are an honours or master's degree in supply chain, logistics, procurement, operations, industrial engineering, or related commerce fields. The candidate holds only a BSc in Psychology, which is neither the required degree level nor the required field of study.",
+    "id": "6bf231849d98751b",
+    "first_seen": "2026-08-28T17:19:41.426716+00:00",
+    "last_updated": "2026-08-28T17:19:41.426758+00:00"
+  },
+  "24bbf61f7d1fb821": {
+    "url": "https://opportunitydesk.org/2026/08/28/cybersafe-x-sans-ai-security-fellowship-2026/",
+    "title": "Cybersafe x SANS AI Security Fellowship 2026 (Fully-funded)",
+    "status": "unknown",
+    "eligibility_status": "UNCERTAIN",
+    "reasoning": "No reasoning returned.",
+    "id": "24bbf61f7d1fb821",
+    "first_seen": "2026-08-28T17:20:06.710672+00:00",
+    "last_updated": "2026-08-28T17:20:06.710684+00:00"
+  },
+  "c0664ec88ae034bf": {
+    "url": "https://opportunitydesk.org/2026/08/28/big-ten-academic-alliance-smithsonian-fellowship-2026/",
+    "title": "Big Ten Academic Alliance Smithsonian Fellowship 2026",
+    "status": "legitimacy_unknown",
+    "credibility_status": "NEEDS_VERIFICATION",
+    "source_tier": "TIER_2",
+    "reasoning": "The snippet mentions a legitimate-sounding fellowship (Big Ten Academic Alliance and Smithsonian) but provides no details on application procedures, fees, or official endorsement links, making it impossible to confirm authenticity. Absence of red‑flag language is noted, yet the lack of verifiable information warrants caution.",
+    "id": "c0664ec88ae034bf",
+    "first_seen": "2026-08-28T17:20:27.326161+00:00",
+    "last_updated": "2026-08-28T17:20:27.326175+00:00"
+  },
+  "ad439d81c83637d2": {
+    "url": "https://opportunitydesk.org/2026/08/28/mats-residency-program-2027/",
+    "title": "Machine Alignment Transparency & Security (MATS) Residency Program 2027",
+    "status": "legitimacy_unknown",
+    "credibility_status": "NEEDS_VERIFICATION",
+    "source_tier": "TIER_2",
+    "reasoning": "The page describes a Machine Alignment Transparency & Security (MATS) Residency but provides no information about the sponsoring institution, funding source, or any application fees. Absence of clear organizational backing makes it difficult to confirm legitimacy, though no explicit scam language or payment request is present.",
+    "id": "ad439d81c83637d2",
+    "first_seen": "2026-08-28T17:20:38.942538+00:00",
+    "last_updated": "2026-08-28T17:20:38.942551+00:00"
+  },
+  "996ec03a5ea18304": {
+    "url": "https://opportunitydesk.org/2026/08/28/berenson-fellowship-2027-2028/",
+    "title": "Berenson Fellowship 2027-2028 at Harvard University (Funded)",
+    "status": "suspicious",
+    "credibility_status": "SUSPICIOUS",
+    "source_tier": "TIER_2",
+    "reasoning": "The fellowship is described with specific details (Harvard, Lila Wallace‑Reader’s Digest Fund, deadline) which suggests a real program, but the listing appears on a third‑party aggregator (opportunitydesk.org) rather than an official Harvard or fund website, and no direct official source or application link is provided.",
+    "id": "996ec03a5ea18304",
+    "first_seen": "2026-08-28T17:20:54.860416+00:00",
+    "last_updated": "2026-08-28T17:20:54.860428+00:00"
+  },
+  "9e0ccc90329210aa": {
+    "url": "https://opportunitydesk.org/2026/08/28/aijc-fellowship-2026-for-french-speaking-journalists/",
+    "title": "African Investigative Journalism Conference (AIJC) Fellowship 2026 for French Speaking Journalists",
+    "status": "legitimacy_unknown",
+    "credibility_status": "NEEDS_VERIFICATION",
+    "source_tier": "TIER_2",
+    "reasoning": "The page describes a fellowship for French‑speaking African journalists but provides no clear information about the sponsoring organization, application fees, or verification links to known reputable bodies. While the African Investigative Journalism Conference exists, the lack of explicit legitimacy cues (e.g., government or established NGO endorsement) makes it impossible to confirm authenticity.",
+    "id": "9e0ccc90329210aa",
+    "first_seen": "2026-08-28T17:21:11.625048+00:00",
+    "last_updated": "2026-08-28T17:21:11.625060+00:00"
+  },
+  "02981f8111618abd": {
+    "url": "https://opportunitiesforyouth.org/2026/08/28/act-prep-phd-and-postdoctoral-fellowships-2026-apply-for-25-funded-research-opportunities-in-africa/",
+    "title": "ACT-PREP PhD and Postdoctoral Fellowships 2026: Apply for 25 Funded Research Opportunities in Africa",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "reasoning": "The programme explicitly limits eligibility to nationals of DRC, Rwanda, Senegal, Somalia, South Sudan, Tanzania and Uganda. The candidate is Ethiopian, which is not among the listed eligible nationalities (hard blocker). Additionally, the fellowship categories are PhD and postdoctoral positions; the candidate holds only a BSc degree, not a master's or PhD, which does not meet the academic level requirement (hard blocker).",
+    "id": "02981f8111618abd",
+    "first_seen": "2026-08-28T17:21:47.876215+00:00",
+    "last_updated": "2026-08-28T17:21:47.876225+00:00"
+  },
+  "95afa0652cd2aac1": {
+    "url": "https://opportunitiesforyouth.org/2026/08/28/berenson-fellowship-2027-2028-at-harvard-universitys-i-tatti-5200-monthly-funding-for-renaissance-scholars-in-florence-italy/",
+    "title": "Berenson Fellowship 2027–2028 at Harvard University’s I Tatti: $5,200 Monthly Funding for Renaissance Scholars in Florence, Italy",
+    "status": "unknown",
+    "eligibility_status": "UNCERTAIN",
+    "reasoning": "The fellowship description emphasizes scholars researching Renaissance-era transnational exchanges. It does not explicitly state a required degree level, nationality restriction, or age limit, so no hard blockers can be confirmed from the page. However, the candidate holds only a BSc in Psychology, works as an AI developer/marketing specialist, and has no demonstrated research background in Renaissance studies, which are key criteria that are implied but not explicitly listed. English proficiency is also not documented, though the candidate can obtain a test score.",
+    "id": "95afa0652cd2aac1",
+    "first_seen": "2026-08-28T17:22:24.873353+00:00",
+    "last_updated": "2026-08-28T17:22:24.873364+00:00"
   }
 }
