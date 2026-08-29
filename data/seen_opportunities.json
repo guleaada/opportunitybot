@@ -5589,5 +5589,154 @@
     "id": "95afa0652cd2aac1",
     "first_seen": "2026-08-28T17:22:24.873353+00:00",
     "last_updated": "2026-08-28T17:22:24.873364+00:00"
+  },
+  "4574a18c3346533d": {
+    "url": "https://opportunitiesforyouth.org/2026/08/28/heidelberg-university-joint-scholarship-programme-2027-fully-supported-3-month-research-fellowship-for-young-scholars-from-south-asia/",
+    "title": "Heidelberg University Joint Scholarship Programme 2027: Fully Supported 3-Month Research Fellowship for Young Scholars from South Asia",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "reasoning": "The programme explicitly requires applicants to be \"young researchers from South Asia\" and must be from one of the five listed countries (India, Nepal, Pakistan, Sri Lanka, Bangladesh). The candidate is Ethiopian, which does not meet the geographic eligibility. Additionally, the programme requires a doctoral certificate, whereas the candidate only holds a BSc. Both criteria are hard blockers.",
+    "id": "4574a18c3346533d",
+    "first_seen": "2026-08-29T11:32:33.398296+00:00",
+    "last_updated": "2026-08-29T11:32:33.398303+00:00"
+  },
+  "a6256e9955d2ae7a": {
+    "url": "https://www.opportunitiesforafricans.com/the-cybersafe-x-sans-ai-security-fellowship-2026-for-african-women-in-cybersecurity/",
+    "title": "The Cybersafe x SANS AI Security Fellowship 2026 for African women in cybersecurity (Fully Funded)",
+    "status": "suspicious",
+    "credibility_status": "SUSPICIOUS",
+    "source_tier": "TIER_3",
+    "reasoning": "The fellowship mentions reputable partners (CyberSafe and SANS Institute) and claims to be fully funded, but the page provides no direct link to an official SANS or CyberSafe announcement and relies solely on a third‑party aggregator site. Absence of clear sponsor contact details or a verifiable official webpage raises doubt.",
+    "id": "a6256e9955d2ae7a",
+    "first_seen": "2026-08-29T11:33:19.163493+00:00",
+    "last_updated": "2026-08-29T11:33:19.163501+00:00"
+  },
+  "18b6edf6a8770cd0": {
+    "url": "https://opportunitydesk.org/2026/08/28/defra-research-and-development-fellowship-programme-2026/",
+    "title": "Defra Research and Development Fellowship Programme 2026",
+    "status": "legitimacy_unknown",
+    "credibility_status": "NEEDS_VERIFICATION",
+    "source_tier": "TIER_2",
+    "reasoning": "The listing mentions a Defra fellowship with no application fee, which aligns with legitimate government programs, but it is only hosted on a third‑party aggregator (opportunitydesk.org) and lacks direct links to an official Defra website or contact details, making verification difficult.",
+    "id": "18b6edf6a8770cd0",
+    "first_seen": "2026-08-29T11:33:36.733996+00:00",
+    "last_updated": "2026-08-29T11:33:36.734003+00:00"
+  },
+  "7b053b88bcae248b": {
+    "url": "https://opportunitiesforyouth.org/2026/08/28/kaust-scholarship-2027-in-saudi-arabia-fully-funded-masters-and-phd-scholarship-for-international-students/",
+    "title": "KAUST Scholarship 2027 in Saudi Arabia: Fully Funded Master’s and PhD Scholarship for International Students",
+    "status": "unknown",
+    "eligibility_status": "UNCERTAIN",
+    "reasoning": "The program states that it is open to international students for fully funded Master's and PhD programs. The candidate is an Ethiopian national with a BSc, which satisfies the degree level and nationality criteria. No explicit age limit, enrollment status, or nationality exclusions are mentioned, so there are no hard blockers. However, the program page does not list required documents or English language proficiency criteria, which are typical for KAUST scholarships. Because these requirements are not stated, they are treated as missing and cannot be confirmed as met.",
+    "id": "7b053b88bcae248b",
+    "first_seen": "2026-08-29T11:34:13.258586+00:00",
+    "last_updated": "2026-08-29T11:34:13.258593+00:00"
+  },
+  "ae4c0c4598b627ab": {
+    "url": "https://unric.org/en/category/united-nations-digital-engagement-hub/fellowships-scholarships-grants-talent",
+    "title": "Fellowships, Scholarships, Grants and Talent programmes",
+    "status": "unknown",
+    "eligibility_status": "UNCERTAIN",
+    "reasoning": "The page provides a generic list of UN fellowships, scholarships, grants and talent programmes without specifying any concrete eligibility criteria (e.g., nationality, degree level, age, enrollment status, language requirements). Because no explicit requirements are stated, we cannot confirm that the candidate meets them, nor can we identify any definitive exclusions.",
+    "id": "ae4c0c4598b627ab",
+    "first_seen": "2026-08-29T11:35:04.518422+00:00",
+    "last_updated": "2026-08-29T11:35:04.518431+00:00"
+  },
+  "7cd003b55491673e": {
+    "url": "https://opportunitiescorners.com/kaust-mewc-winter-camp-2027/",
+    "title": "KAUST MEWC Winter Camp 2027 in Saudi Arabia (Fully Funded)",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "reasoning": "The KAUST MEWC Winter Camp requires candidates to be recent graduates, senior undergraduates, or current master’s students in a discipline related to electrical or computer engineering. The candidate holds a BSc in Psychology, which is not a related discipline, and is a working professional not enrolled in a program nor a recent graduate (graduated 2021). These are hard blockers. Additionally, the program requires a cumulative GPA of 3.5/4.0, which is not provided.",
+    "id": "7cd003b55491673e",
+    "first_seen": "2026-08-29T11:36:11.819443+00:00",
+    "last_updated": "2026-08-29T11:36:11.819453+00:00"
+  },
+  "d67f7db298ab8370": {
+    "url": "https://opportunitiescorners.com/chicago-booth-residence-program-2027/",
+    "title": "Chicago Booth Residence Program 2027 in USA (Fully Funded)",
+    "status": "legitimacy_unknown",
+    "credibility_status": "NEEDS_VERIFICATION",
+    "source_tier": "TIER_3",
+    "reasoning": "No reasoning returned.",
+    "id": "d67f7db298ab8370",
+    "first_seen": "2026-08-29T11:36:57.914826+00:00",
+    "last_updated": "2026-08-29T11:36:57.914834+00:00"
+  },
+  "767c2d0470800933": {
+    "url": "https://opportunitydesk.org/2026/08/29/ema-traineeship-programme-2026/",
+    "title": "European Medicines Agency (EMA) Traineeship Programme 2026",
+    "status": "unknown",
+    "eligibility_status": "UNCERTAIN",
+    "reasoning": "The program description provided does not include explicit eligibility criteria such as nationality restrictions, age limits, current student status, required degree level, language proficiency requirements, or any other conditions. Without these details we cannot confirm whether the candidate meets all mandatory requirements.",
+    "id": "767c2d0470800933",
+    "first_seen": "2026-08-29T11:37:24.506481+00:00",
+    "last_updated": "2026-08-29T11:37:24.506489+00:00"
+  },
+  "93baa334fa1ec229": {
+    "url": "https://opportunitydesk.org/2026/08/28/tech-policy-press-fellowship-program-2027/",
+    "title": "Tech Policy Press Fellowship Program 2027 ($10,000 stipend)",
+    "status": "legitimacy_unknown",
+    "credibility_status": "NEEDS_VERIFICATION",
+    "source_tier": "TIER_2",
+    "reasoning": "The listing mentions a $10,000 stipend and no application fee, which is a positive sign, but it provides no clear information about the sponsoring organization, accreditation, or verifiable past fellows, making it impossible to confirm legitimacy from the available text.",
+    "id": "93baa334fa1ec229",
+    "first_seen": "2026-08-29T11:37:40.884599+00:00",
+    "last_updated": "2026-08-29T11:37:40.884610+00:00"
+  },
+  "de3c7759dcdd3129": {
+    "url": "https://opportunitydesk.org/2026/08/28/george-washington-presidential-library-research-fellowships-2027-2028/",
+    "title": "George Washington Presidential Library Research Fellowships 2027-2028",
+    "status": "legitimacy_unknown",
+    "credibility_status": "NEEDS_VERIFICATION",
+    "source_tier": "TIER_2",
+    "reasoning": "The fellowship is described on a third‑party aggregator (opportunitydesk.org) without direct links to an official George Washington Presidential Library website or government source, and no details about funding or application fees are provided. While no explicit fee or money‑wire request is mentioned, the lack of verifiable official confirmation makes the legitimacy indeterminate.",
+    "id": "de3c7759dcdd3129",
+    "first_seen": "2026-08-29T11:37:57.638391+00:00",
+    "last_updated": "2026-08-29T11:37:57.638398+00:00"
+  },
+  "7c96bd8ee51fb819": {
+    "url": "https://opportunitiesforyouth.org/2026/08/28/move-fund-2026-apply-for-two-year-grants-of-40000-150000-for-sport-and-youth-development-coalitions/",
+    "title": "MOVE Fund 2026: Apply for Two-Year Grants of $40,000–$150,000 for Sport and Youth Development Coalitions",
+    "status": "legitimacy_unknown",
+    "credibility_status": "NEEDS_VERIFICATION",
+    "source_tier": "TIER_3",
+    "reasoning": "The announcement describes a sizable grant program with typical eligibility criteria and no application fee, which is consistent with legitimate funding opportunities. However, the source is a third‑party blog (opportunitiesforyouth.org) and provides no direct link to an official MOVE Fund website, sponsor details, or contact information, making it difficult to verify the fund’s authenticity.",
+    "id": "7c96bd8ee51fb819",
+    "first_seen": "2026-08-29T11:39:02.159381+00:00",
+    "last_updated": "2026-08-29T11:39:02.159393+00:00"
+  },
+  "c837a4e39698b044": {
+    "url": "https://www.youtube.com/watch?v=cLryvVMcJzA",
+    "title": "Top Fully Funded Scholarships 2026-2027 for International Students",
+    "status": "legitimacy_unknown",
+    "credibility_status": "NEEDS_VERIFICATION",
+    "source_tier": "TIER_4",
+    "reasoning": "The provided URL points to a YouTube video, but no transcript, description, or visible content was supplied, making it impossible to evaluate the claim or program. Without concrete details about the scholarship or fellowship being advertised, legitimacy cannot be determined.",
+    "id": "c837a4e39698b044",
+    "first_seen": "2026-08-29T11:39:29.648794+00:00",
+    "last_updated": "2026-08-29T11:39:29.648801+00:00"
+  },
+  "00190b45d09d786f": {
+    "url": "https://oyaop.com/opportunities/scholarships-and-fellowships",
+    "title": "Scholarships and Fellowships Archives - OYA Opportunities",
+    "status": "suspicious",
+    "credibility_status": "SUSPICIOUS",
+    "source_tier": "TIER_4",
+    "reasoning": "The site oyaop.com is an unknown domain that aggregates scholarship listings and forces users to create an account before accessing details, a common tactic of lead‑generation or scam sites. While the page lists many legitimate‑sounding scholarships, there is no clear affiliation with official scholarship bodies and no transparent privacy or fee policy, raising doubts about its trustworthiness.",
+    "id": "00190b45d09d786f",
+    "first_seen": "2026-08-29T11:39:45.244205+00:00",
+    "last_updated": "2026-08-29T11:39:45.244213+00:00"
+  },
+  "cc4574b3bce2dbf3": {
+    "url": "https://www.youtube.com/watch?v=vqaPJOBmov0&vl=en",
+    "title": "5 Fully Funded Scholarships for International Students 2026",
+    "status": "legitimacy_unknown",
+    "credibility_status": "NEEDS_VERIFICATION",
+    "source_tier": "TIER_4",
+    "reasoning": "The provided page text only contains generic YouTube footer information and does not reveal any details about the video's content, claims, or any scholarship program. Without specific evidence, we cannot determine whether the video promotes a legitimate opportunity or a scam.",
+    "id": "cc4574b3bce2dbf3",
+    "first_seen": "2026-08-29T11:39:54.662555+00:00",
+    "last_updated": "2026-08-29T11:39:54.662564+00:00"
   }
 }
