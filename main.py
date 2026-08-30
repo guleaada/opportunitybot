@@ -71,26 +71,39 @@ RSS_SNIPPET_CHARS = int(os.getenv("RSS_SNIPPET_CHARS", "2000"))
 # Discovery feeds. Unreachable or moved feeds are logged and skipped per-feed;
 # the per-feed "📰 RSS <domain>: +N posts" line shows which are productive.
 RSS_FEEDS = list(dict.fromkeys([   # dict.fromkeys keeps order AND dedupes
-    # ── Confirmed live (returned +10 posts each last run) ────────────────
-    # These skew to student scholarships, which the eligibility check
-    # correctly rejects for a working professional — kept for coverage, but
-    # they are not where matches are expected to come from.
+    # ── The two feeds that produce matches ───────────────────────────────
+    # Every one of the 18 opportunities that ever scored >= 7 came from these
+    # two domains, so they are not "coverage" — they are the channel. Measured
+    # lifetime yield (records -> scored >= 7):
+    #   opportunitiescorners.com      87 -> 8   (9.2%)
+    #   opportunitiesforafricans.com 203 -> 10  (4.9%)
+    # An earlier comment here claimed these skew student-only and were "not
+    # where matches are expected to come from". The stored records say the
+    # opposite; it is corrected rather than left to mislead the next reader.
     "https://opportunitiescorners.com/feed/",
     "https://www.opportunitiesforafricans.com/feed/",
-    "https://opportunitydesk.org/feed/",
-    # ── Remote / developer jobs — corrected paths ───────────────────────
-    # The profile is a working AI professional, so these are the feeds most
-    # likely to yield candidates that survive eligibility.
+    # ── Remote / developer jobs ─────────────────────────────────────────
+    # Kept, but the prioritizer ranks them last (TIER_JOB_FEED): across 92
+    # job-board records the best result ever scored 6.0, below MIN_SCORE.
     "https://weworkremotely.com/remote-jobs.rss",
     "https://www.python.org/jobs/feed/rss/",
     "https://stackoverflow.com/jobs/feed",
-    # ── Professional aggregators (not student-only) ─────────────────────
-    "https://www.opportunitiesforyouth.org/feed/",
     # Removed as permanently dead — they failed every run and cost a DNS or
     # connection timeout each time:
     #   jobs.github.com                — GitHub Jobs retired in 2021 (refused)
     #   remoteok.com                   — HTTP 410 Gone
     #   opportunitiesforyoungpeople.com — DNS NXDOMAIN
+    #
+    # Removed as measured zero-yield, 2026-08-30. Both are live and publish
+    # heavily, which is the problem: they filled the MAX_PER_DAY slice with
+    # candidates that have never once survived to a score.
+    #   opportunitydesk.org         — 77 records, 0 ever scored (0.0%)
+    #   opportunitiesforyouth.org   — 57 records, 0 ever scored (0.0%)
+    # Between them they took ~68% of the analysis budget (80 of 118 slots in
+    # the 9 days after the prioritizer landed) while the two productive feeds
+    # above got 32%. Dropping them reallocates that budget rather than
+    # shrinking it — MAX_PER_DAY is unchanged, so the slice now fills from the
+    # feeds with a non-zero yield. Reinstate only against measured survivors.
 ]))
 
 # Default taxonomy category per feed domain, so job items are tagged rather
