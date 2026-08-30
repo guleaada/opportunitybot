@@ -5881,5 +5881,155 @@
     "id": "855fc5b1e0984bc6",
     "first_seen": "2026-08-30T10:29:37.869452+00:00",
     "last_updated": "2026-08-30T10:29:37.869460+00:00"
+  },
+  "eddd2c8c314004f6": {
+    "url": "https://opportunitiesforyouth.org/2026/08/30/monash-funded-phd-2027/",
+    "title": "Monash University Fully Funded PhD Scholarships 2027: Up to Five AI and Society Research Scholarships With AUD 41,100 Annual Stipend",
+    "status": "unknown",
+    "eligibility_status": "UNCERTAIN",
+    "model_eligibility_status": "UNCERTAIN",
+    "missing_requirements": [
+      "Explicit statement of the minimum academic qualification (e.g., Honours bachelor's degree, Master's degree, or equivalent) for PhD entry",
+      "Specific English language proficiency score or test required by Monash University"
+    ],
+    "blocking_issues": [],
+    "addressable_gaps": [
+      "Obtain an English language proficiency test result (e.g., Duolingo English Test or MOI certificate) acceptable to Monash University",
+      "Provide official transcripts and degree certification to demonstrate that the BSc meets the ‘appropriately qualified’ standard (e.g., honours classification or equivalent)"
+    ],
+    "reasoning": "The scholarship is for full‑time PhD candidates and is open to international applicants, so the candidate’s nationality (Ethiopian), age (27) and current employment status do not block eligibility. The program requires ‘appropriately qualified’ applicants, but the text does not specify the exact academic threshold (e.g., Honours degree, Master's degree, or equivalent). The candidate holds only a BSc (no honours mentioned), so it is unclear whether this meets the qualification criterion. English proficiency is required for international students, yet the candidate has no IELTS/TOEFL certificate; however, they can obtain a Duolingo or MOI certificate, which is an addressable gap. Because the degree‑qualification requirement is missing or unverifiable, the eligibility cannot be confirmed.",
+    "id": "eddd2c8c314004f6",
+    "first_seen": "2026-08-30T14:32:11.834645+00:00",
+    "last_updated": "2026-08-30T14:32:11.834660+00:00"
+  },
+  "65d2c5604c131556": {
+    "url": "https://www.globalsouthopportunities.com/2026/02/16/fellowship-95",
+    "title": "20 Top Fully Funded Scholarships and Fellowships for 2026–2027 - Global South Opportunities",
+    "status": "closed",
+    "deadline": null,
+    "id": "65d2c5604c131556",
+    "first_seen": "2026-08-30T14:32:52.485740+00:00",
+    "last_updated": "2026-08-30T14:32:52.485758+00:00"
+  },
+  "97910e11600ce423": {
+    "url": "https://opportunitiescorners.com/un-youth-townhall-2026-in-germany/",
+    "title": "UN Youth Townhall 2026 in Germany (Fully Funded) 1000 Seats",
+    "status": "suspicious",
+    "credibility_status": "SUSPICIOUS",
+    "source_tier": "TIER_3",
+    "reasoning": "The UN Youth Townhall is a real UN initiative, but this page is hosted on a third‑party site (opportunitiescorners.com) that uses a generic Gmail address, offers many unrelated “fully funded” events, and does not provide a direct link to an official UN website. The lack of an official UN domain and the marketing‑heavy layout are red flags that the offer may be a funnel for fees or personal data.",
+    "id": "97910e11600ce423",
+    "first_seen": "2026-08-30T14:33:42.715788+00:00",
+    "last_updated": "2026-08-30T14:33:42.715804+00:00"
+  },
+  "441dbcc20c3ec16a": {
+    "url": "https://opportunitiescorners.com/un-chemicals-and-waste-management-program-2026/",
+    "title": "UN Chemicals and Waste Management Program 2026 in Switzerland (Fully Funded)",
+    "status": "suspicious",
+    "credibility_status": "SUSPICIOUS",
+    "source_tier": "TIER_3",
+    "reasoning": "The program claims to be run by UNITAR and CWYP, which are legitimate UN bodies, but the listing is on a third‑party site (opportunitiescorners.com) that uses a generic Gmail address, heavy promotional language, and bundles many unrelated \"fully funded\" events, which are typical of scam aggregators. No direct link to an official UNITAR webpage or a government domain is provided, and the site encourages subscriptions and WhatsApp groups, further raising doubt.",
+    "id": "441dbcc20c3ec16a",
+    "first_seen": "2026-08-30T14:34:33.871011+00:00",
+    "last_updated": "2026-08-30T14:34:33.871022+00:00"
+  },
+  "a07249cbf608addc": {
+    "url": "https://www.visawisetravel.com/blog/top-fully-funded-scholarships-2026-2027-still-open-now",
+    "title": "Top 15 Fully Funded Scholarships for 2026–2027 That Are Still Open | VisaWise Travel",
+    "status": "analyzed",
+    "score": 5.5,
+    "category": "scholarships",
+    "official_url": "https://www.visawisetravel.com/blog/top-fully-funded-scholarships-2026-2027-still-open-now",
+    "location": null,
+    "remote": null,
+    "deadline": null,
+    "reward": "fully_funded",
+    "estimated_value": null,
+    "eligibility_status": "PROBABLY_ELIGIBLE",
+    "credibility_status": "LIKELY_LEGITIMATE",
+    "source_tier": "TIER_4",
+    "source_quality": 0,
+    "requirements": [],
+    "id": "a07249cbf608addc",
+    "first_seen": "2026-08-30T14:37:40.773848+00:00",
+    "last_updated": "2026-08-30T14:37:40.773859+00:00"
+  },
+  "ebeae0d2a4eaab34": {
+    "url": "https://opportunitiesforyouth.org/2026/08/30/uk-youth-advisory-2026/",
+    "title": "Co-operatives UK Youth Advisory Group 2026: Paid Opportunity for Young People Aged 16–30 to Shape the Future of the Co-operative Movement",
+    "status": "legitimacy_unknown",
+    "credibility_status": "NEEDS_VERIFICATION",
+    "source_tier": "TIER_3",
+    "reasoning": "No reasoning returned.",
+    "id": "ebeae0d2a4eaab34",
+    "first_seen": "2026-08-30T14:38:11.956678+00:00",
+    "last_updated": "2026-08-30T14:38:11.956688+00:00"
+  },
+  "2f30c02477ee8df7": {
+    "url": "https://opportunitiesforyouth.org/2026/08/30/unctad-supply-chain/",
+    "title": "UNCTAD Supply Chain Innovation Challenge 2026: Submit Your Frontier Technology Solution and Present at the Global Supply Chain Forum in Saudi Arabia",
+    "status": "legitimacy_unknown",
+    "credibility_status": "NEEDS_VERIFICATION",
+    "source_tier": "TIER_3",
+    "reasoning": "No reasoning returned.",
+    "id": "2f30c02477ee8df7",
+    "first_seen": "2026-08-30T14:38:41.509801+00:00",
+    "last_updated": "2026-08-30T14:38:41.509812+00:00"
+  },
+  "6703ebe728a096d1": {
+    "url": "https://www.youtube.com/watch?v=9yXp7usaXfg",
+    "title": "Online Information Meeting: How to apply for development research grants – Call 2026",
+    "status": "legitimacy_unknown",
+    "credibility_status": "NEEDS_VERIFICATION",
+    "source_tier": "TIER_4",
+    "reasoning": "The provided page text is only generic YouTube footer content with no program name, eligibility details, or application information. Without access to the actual video content, description, or channel details, there is insufficient evidence to assess legitimacy.",
+    "id": "6703ebe728a096d1",
+    "first_seen": "2026-08-30T14:38:50.963819+00:00",
+    "last_updated": "2026-08-30T14:38:50.963834+00:00"
+  },
+  "a9ad117029349963": {
+    "url": "https://www.facebook.com/groups/731957298564333/posts/1452547853171937",
+    "title": "Global South Opportunities | 💰🌍 Funding Opportunity: UNESCO Participation Programme (2026–2027) | Facebook",
+    "status": "legitimacy_unknown",
+    "credibility_status": "NEEDS_VERIFICATION",
+    "source_tier": "TIER_4",
+    "reasoning": "No reasoning returned.",
+    "id": "a9ad117029349963",
+    "first_seen": "2026-08-30T14:39:28.660201+00:00",
+    "last_updated": "2026-08-30T14:39:28.660216+00:00"
+  },
+  "cee760ff9b3cd4f3": {
+    "url": "https://www.linkedin.com/company/global-grants-and-opportunities-for-africa-gga",
+    "title": "Global Grants And Opportunities For Africa(GGA) - Empowering Africa through access to global grants, partnerships, and opportunities for sustainable growth and impact.",
+    "status": "legitimacy_unknown",
+    "credibility_status": "NEEDS_VERIFICATION",
+    "source_tier": "TIER_4",
+    "reasoning": "No reasoning returned.",
+    "id": "cee760ff9b3cd4f3",
+    "first_seen": "2026-08-30T14:40:19.321291+00:00",
+    "last_updated": "2026-08-30T14:40:19.321303+00:00"
+  },
+  "485d8bea4c147d40": {
+    "url": "https://careers.state.gov/interns-fellows",
+    "title": "Internships/Fellowships - Careers",
+    "status": "unknown",
+    "eligibility_status": "UNCERTAIN",
+    "model_eligibility_status": "UNCERTAIN",
+    "missing_requirements": [],
+    "blocking_issues": [],
+    "addressable_gaps": [],
+    "reasoning": "No reasoning returned.",
+    "id": "485d8bea4c147d40",
+    "first_seen": "2026-08-30T14:41:01.408687+00:00",
+    "last_updated": "2026-08-30T14:41:01.408698+00:00"
+  },
+  "5024136f3af4601f": {
+    "url": "https://www.isanet.org/ISA/Governance/Committees/Dissertation-Fellowship/Call",
+    "title": "Call for Applications",
+    "status": "closed",
+    "deadline": null,
+    "id": "5024136f3af4601f",
+    "first_seen": "2026-08-30T14:41:24.584743+00:00",
+    "last_updated": "2026-08-30T14:41:24.584754+00:00"
   }
 }
