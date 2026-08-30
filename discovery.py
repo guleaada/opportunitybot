@@ -39,10 +39,18 @@ RSS_MAX_FEEDS_PER_SCAN = int(os.getenv("RSS_MAX_FEEDS_PER_SCAN", "50"))
 
 # Categories searched EVERY day regardless of rotation — highest value for a
 # working AI professional, and the ones with time-sensitive deadlines.
+#
+# remote_jobs and dev_jobs were half of this list and are now out. They were
+# the single largest consumer of the daily query budget while producing the
+# generic weworkremotely listings that the eligibility gate then rejected as
+# off-profile — the target is funding, not employment. They stay in the
+# rotation pool, so nothing is lost, they just no longer crowd out the
+# categories this profile can actually win.
 ALWAYS_ON_CATEGORIES = [
     c.strip() for c in os.getenv(
         "ALWAYS_ON_CATEGORIES",
-        "fellowships,grants,remote_jobs,dev_jobs").split(",") if c.strip()
+        "fellowships,grants,agritech_climate,founder_fellowships").split(",")
+    if c.strip()
 ]
 
 # A provider this unhealthy gets its budget cut for the next scan.

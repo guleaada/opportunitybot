@@ -12,6 +12,7 @@ Honesty rule (spec I): if a model cannot determine a value, it must return
 ambiguous parses to ``unknown``.
 """
 
+import re
 from datetime import datetime, timezone
 from typing import Optional
 
@@ -314,6 +315,38 @@ def check_legitimacy(text: str, source_url: str) -> dict:
 
 
 # ── Eligibility (Claude, HIGH STAKES) ────────────────────────────────────────
+# Gaps the profile can close on its own timetable, so they must never be the
+# sole reason for an ineligible verdict. Deliberately narrow: it matches
+# English-proficiency wording only, and any blocker mentioning a hard
+# constraint (nationality, enrolment, degree level, age) is excluded below.
+# The bare "language (test|certificat|proficiency)" alternative used to be
+# here too. It matched ANY language: "French language proficiency", "German
+# language certificate (C1)", "Spanish language proficiency test" all read as
+# addressable English gaps and were downgraded to UNCERTAIN — but this profile
+# cannot sit a French exam in 48 hours the way it can sit a Duolingo English
+# test. Same class of bug as the unanchored "age", in the more dangerous
+# direction: a false positive here forgives a real blocker. The
+# "english (language )?(...)" branch already covers every genuine case.
+_LANGUAGE_GAP = re.compile(
+    r"ielts|toefl|duolingo|"
+    r"english (language )?(test|score|certificat|proficiency|requirement)",
+    re.IGNORECASE)
+# Word-boundary anchored on purpose: an unanchored "age" matches inside
+# "l-age-uage", which silently disqualified every English-language gap this
+# rule exists to rescue.
+_HARD_CONSTRAINT = re.compile(
+    r"\bnationalit|\bcitizen|\bresiden|\benrol|\bstudent|\bdegree|\bphd\b|"
+    r"\bmasters\b|\bundergraduate\b|\bage\b|\bage (limit|cap)|"
+    r"years of experience|must be based|\bdeadline\b|\bclosed\b",
+    re.IGNORECASE)
+
+
+def _is_addressable_language_gap(issue) -> bool:
+    """True when a blocking issue is ONLY about obtainable English proof."""
+    text = str(issue or "")
+    return bool(_LANGUAGE_GAP.search(text)) and not _HARD_CONSTRAINT.search(text)
+
+
 def check_eligibility(text: str, profile: dict) -> dict:
     """Deep eligibility analysis against the user's profile.
 
@@ -379,11 +412,29 @@ def check_eligibility(text: str, profile: dict) -> dict:
         missing = [str(missing)]
     citizenship_mismatch = bool(data.get("citizenship_mismatch"))
 
+    blocking = data.get("blocking_issues") or []
+    if not isinstance(blocking, list):
+        blocking = [str(blocking)]
+
     # Rule 1: a hard citizenship/country mismatch is disqualifying outright.
     if citizenship_mismatch:
         level = CONFIRMED_INELIGIBLE
     # Rule 2: missing/unverifiable info must never read as eligible.
     elif missing and ELIGIBILITY_RANK[level] < ELIGIBILITY_RANK[UNCERTAIN]:
+        level = UNCERTAIN
+    # Rule 3: an obtainable English certificate is NOT a hard blocker.
+    #
+    # The system prompt already says this, and the small free-tier models we
+    # run on (groq/mistral) still get it wrong in a distinctive way: they
+    # repeat the instruction back in the reasoning — "this is an addressable
+    # gap. However..." — and grade CONFIRMED_INELIGIBLE anyway. 11 of the 160
+    # stored rejections turned on an English test the profile can sit for in
+    # 48 hours ($59 Duolingo, or a free MOI letter). Prompt wording cannot fix
+    # a model that agrees with the prompt and then ignores it, so this is
+    # enforced in code like rules 1 and 2 — the model grades, we correct.
+    if (blocking and not citizenship_mismatch
+            and ELIGIBILITY_RANK[level] > ELIGIBILITY_RANK[UNCERTAIN]
+            and all(_is_addressable_language_gap(b) for b in blocking)):
         level = UNCERTAIN
 
     return {

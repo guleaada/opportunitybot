@@ -291,9 +291,17 @@ def _analyze_one_inner(result, stats: dict):
     elig_status = elig.get("eligibility_status", "UNCERTAIN")
     if not meets_threshold(elig_status, PROBABLY_ELIGIBLE):
         stats["ineligible"] += 1
+        # Persist the structured verdict, not just the prose. Rule 3 operates
+        # on blocking_issues, but only `reasoning` was ever stored — so its
+        # real-world hit rate could only be estimated by grepping narrative
+        # text, which conflates "the model mentioned English" with "English
+        # was the sole blocker". Storing both makes the next measurement a
+        # count rather than an inference.
         tools.save_opportunity({"url": url, "title": title,
                                 "status": elig["overall"],
                                 "eligibility_status": elig_status,
+                                "blocking_issues": elig.get("blocking_issues") or [],
+                                "addressable_gaps": elig.get("addressable_gaps") or [],
                                 "reasoning": elig["reasoning"]})
         cprint(f"   ⛔ {elig_status}: {elig['reasoning']}")
         return None
