@@ -291,11 +291,24 @@ def _analyze_one_inner(result, stats: dict):
     elig_status = elig.get("eligibility_status", "UNCERTAIN")
     if not meets_threshold(elig_status, PROBABLY_ELIGIBLE):
         stats["ineligible"] += 1
+        # Persist the model's own grade and the unresolved requirements
+        # alongside the final level. Without them a rejection cannot be
+        # attributed: an UNCERTAIN the model chose itself is a thin-page
+        # problem, while one the code demoted is a rule problem, and the
+        # stored record used to look identical either way.
+        model_status = elig.get("model_eligibility_status", elig_status)
+        if model_status != elig_status:
+            stats["eligibility_demoted"] = stats.get("eligibility_demoted", 0) + 1
         tools.save_opportunity({"url": url, "title": title,
                                 "status": elig["overall"],
                                 "eligibility_status": elig_status,
+                                "model_eligibility_status": model_status,
+                                "missing_requirements": elig.get("missing_requirements", []),
+                                "blocking_issues": elig.get("blocking_issues", []),
+                                "addressable_gaps": elig.get("addressable_gaps", []),
                                 "reasoning": elig["reasoning"]})
-        cprint(f"   ⛔ {elig_status}: {elig['reasoning']}")
+        demoted = f" (model said {model_status})" if model_status != elig_status else ""
+        cprint(f"   ⛔ {elig_status}{demoted}: {elig['reasoning']}")
         return None
 
     # 10. enrichment (GEMINI free)
@@ -368,7 +381,7 @@ def run_scan(max_results_per_source: int = 8):
         "discovered": 0, "already_seen": 0, "known_scam": 0,
         "fetch_failed": 0, "first_pass_dropped": 0, "scam": 0,
         "legit_unknown": 0, "ineligible": 0, "closed": 0,
-        "deep_analyzed": 0, "scored_high": 0,
+        "deep_analyzed": 0, "scored_high": 0, "eligibility_demoted": 0,
     }
     blocked_scams = []
 
@@ -668,6 +681,8 @@ def build_report(opportunities, stats, blocked_scams):
         f"   Deep-analyzed (Claude):{stats['deep_analyzed']}",
         f"   Scoring >= {MIN_SCORE}:         {stats['scored_high']}",
         f"   Rescued by signals:    {stats.get('signal_rescued', 0)}",
+        f"   Eligibility demoted:   {stats.get('eligibility_demoted', 0)}"
+        f"  (code rules overrode the model's grade)",
         f"   Analysis unavailable:  {stats.get('analysis_unavailable', 0)}",
         f"   Deduped duplicates:    {stats.get('deduped', 0)}",
         "",
@@ -865,7 +880,7 @@ def check_watchlist():
     stats = {k: 0 for k in (
         "discovered", "already_seen", "known_scam", "fetch_failed",
         "first_pass_dropped", "scam", "legit_unknown", "ineligible", "closed",
-        "deep_analyzed", "scored_high")}
+        "deep_analyzed", "scored_high", "eligibility_demoted")}
     matches, opened = [], 0
     for oid, item in list(wl.items()):
         url = item.get("url")

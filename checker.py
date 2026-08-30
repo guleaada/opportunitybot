@@ -339,10 +339,16 @@ def check_eligibility(text: str, profile: dict) -> dict:
         "Key facts about this candidate: Ethiopian national, age 27, WORKING "
         "PROFESSIONAL (not currently a student), holds a BSc (bachelor's), has "
         "NO IELTS/TOEFL yet but can obtain a Duolingo or MOI certificate.\n"
-        "CRITICAL: never upgrade missing information into eligibility. If a "
-        "requirement is not stated on the page, or you cannot verify the "
-        "candidate meets it, list it in missing_requirements and grade "
-        "UNCERTAIN — do not guess."
+        "CRITICAL: never upgrade missing information into eligibility. Always "
+        "list anything unstated or unverifiable in missing_requirements.\n"
+        "But grade on whether this candidate is plausibly BLOCKED, not on how "
+        "complete the page is. Reserve UNCERTAIN for a decision-relevant "
+        "criterion you cannot resolve — one that could actually exclude this "
+        "candidate (nationality, student-status, age cap, degree level). A "
+        "page that simply omits routine detail, while nothing on it excludes "
+        "the candidate, is PROBABLY_ELIGIBLE with those items listed as "
+        "missing_requirements. Do not guess, and do not withhold a positive "
+        "grade merely because the page is thin."
     )
     prompt = (
         f"CANDIDATE PROFILE:\n{profile_summary()}\n\n"
@@ -351,8 +357,9 @@ def check_eligibility(text: str, profile: dict) -> dict:
         "candidate demonstrably meets; nothing unverified.\n"
         "- PROBABLY_ELIGIBLE: requirements stated and likely met, minor "
         "addressable gaps only.\n"
-        "- UNCERTAIN: key requirements missing from the page or "
-        "unverifiable.\n"
+        "- UNCERTAIN: a criterion that could exclude THIS candidate "
+        "(nationality, student status, age cap, degree level) is missing or "
+        "unverifiable — not merely that the page omits routine detail.\n"
         "- PROBABLY_INELIGIBLE: likely blocked but not stated outright.\n"
         "- CONFIRMED_INELIGIBLE: page explicitly excludes this candidate "
         "(e.g. nationality not eligible, must be enrolled student).\n\n"
@@ -379,15 +386,36 @@ def check_eligibility(text: str, profile: dict) -> dict:
         missing = [str(missing)]
     citizenship_mismatch = bool(data.get("citizenship_mismatch"))
 
+    # The model's own grade, before the code rules below. Persisted so the
+    # firing rate of each rule is measurable instead of inferred.
+    model_level = level
+
     # Rule 1: a hard citizenship/country mismatch is disqualifying outright.
     if citizenship_mismatch:
         level = CONFIRMED_INELIGIBLE
-    # Rule 2: missing/unverifiable info must never read as eligible.
-    elif missing and ELIGIBILITY_RANK[level] < ELIGIBILITY_RANK[UNCERTAIN]:
-        level = UNCERTAIN
+    # Rule 2: unverified detail caps confidence — it does not veto the verdict.
+    #
+    # This used to collapse ANY positive grade to UNCERTAIN whenever
+    # missing_requirements was non-empty. Every real program page leaves
+    # something unstated, so the rule fired on nearly every candidate and
+    # PROBABLY_ELIGIBLE became unreachable: between 2026-08-15 and 2026-08-28,
+    # 177 candidates were graded and exactly 2 cleared the gate (1.1%, against
+    # 24.3% before the ladder landed). Nothing reached the scorer, so the run
+    # produced no matches at all for two weeks.
+    #
+    # The ladder already has a level for "likely eligible, minor unresolved
+    # gaps" — that is what PROBABLY_ELIGIBLE means. So an unverified detail now
+    # costs one step instead of vetoing the verdict: CONFIRMED_ELIGIBLE, which
+    # claims "nothing unverified", is demoted to PROBABLY_ELIGIBLE, and
+    # PROBABLY_ELIGIBLE stands. The honesty rule is intact — a level is only
+    # ever lowered here, never raised, so missing information still cannot
+    # manufacture eligibility.
+    elif missing and level == CONFIRMED_ELIGIBLE:
+        level = PROBABLY_ELIGIBLE
 
     return {
         "eligibility_status": level,
+        "model_eligibility_status": model_level,
         "overall": _LEVEL_TO_LEGACY[level],  # backward compatibility
         "reasoning": data.get("reasoning", "No reasoning returned."),
         "blocking_issues": data.get("blocking_issues", []),
