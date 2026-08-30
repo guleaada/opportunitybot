@@ -96,6 +96,20 @@ jobs:
           GOOGLE_CSE_API_KEY: ${{ secrets.GOOGLE_CSE_API_KEY }}
           GOOGLE_CSE_ID: ${{ secrets.GOOGLE_CSE_ID }}
 
+          # r.jina.ai reader proxy — the tier-2 fallback used whenever a source
+          # 403s the direct fetch. Keyless works, but is metered at 20 RPM PER
+          # IP, and Actions runners share a heavily-used IP pool, so keyless
+          # calls from CI get 429'd on other people's traffic. A free key
+          # (jina.ai) is metered per key at 500 RPM and removes the shared-IP
+          # problem. Without it this tier is effectively dead in CI and every
+          # blocked page falls back to a feed snippet no gate can clear.
+          JINA_API_KEY: ${{ secrets.JINA_API_KEY }}
+
+          # Whitelisted-source quality (1-10) at or above which a snippet-only
+          # candidate is passed through flagged UNVERIFIED instead of dropped.
+          # Set to 11 to restore the previous always-drop behaviour.
+          TRUST_WHITELIST_MIN_QUALITY: ${{ vars.TRUST_WHITELIST_MIN_QUALITY || '7' }}
+
           # Optional notifications
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}

@@ -345,8 +345,44 @@ def _has_lxml() -> bool:
 # instead of falling all the way back to a short feed snippet.
 JINA_READER_PREFIX = "https://r.jina.ai/"
 JINA_TIMEOUT = 30
-_JINA_MIN_INTERVAL = 0.5   # be polite; keyless free tier is ~20 req/min
+# What CI actually returns is 403, not 429 — run 101 logged
+# "jina failed for <host> status 403" five times and has never logged a 429.
+# So this is NOT rate limiting, and no amount of client-side pacing fixes it.
+# A 403 from r.jina.ai means one of: the route now requires auth, Jina is
+# refusing this runner IP outright, or Jina is relaying the origin's own
+# Wordfence 403. JINA_API_KEY is worth trying against the first two, but it
+# is a hypothesis, not a diagnosed cause — do not describe it as one.
+#
+# Pacing stays at the original polite 0.5s. The 20-RPM keyless figure is
+# real, but we have no evidence we are hitting it: throttling to 18 RPM
+# would add ~3s per blocked page to every scan to avoid a limit that has
+# never appeared in a log. Reinstate it if and when a 429 shows up.
+_JINA_INTERVAL_KEYLESS = 0.5
+_JINA_INTERVAL_KEYED = 0.2
+# 403 is retried once because the observed failure is 403 and a bare retry is
+# cheap; if it is a hard block the second attempt just fails the same way.
+_JINA_RETRY_STATUSES = (403, 429, 502, 503, 504)
 _last_jina_call = 0.0
+
+
+def _browser_headers(url: str = "", referer: str = "") -> dict:
+    """Header set a real Chrome sends. A UA alone still trips Wordfence."""
+    headers = {
+        "User-Agent": USER_AGENT,
+        "Accept": ("text/html,application/xhtml+xml,application/xml;q=0.9,"
+                   "image/avif,image/webp,*/*;q=0.8"),
+        "Accept-Language": "en-US,en;q=0.9",
+        "Accept-Encoding": "gzip, deflate, br",
+        "Upgrade-Insecure-Requests": "1",
+        "Sec-Fetch-Dest": "document",
+        "Sec-Fetch-Mode": "navigate",
+        "Sec-Fetch-Site": "same-origin" if referer else "none",
+        "Sec-Fetch-User": "?1",
+        "Connection": "keep-alive",
+    }
+    if referer:
+        headers["Referer"] = referer
+    return headers
 
 
 def _host_of(url: str) -> str:
@@ -369,35 +405,75 @@ def fetch_via_jina(url: str) -> dict:
     if not url:
         return {"url": url, "html": "", "text": "", "status": 0,
                 "cached": False, "error": "empty url"}
-    try:
-        gap = time.time() - _last_jina_call
-        if gap < _JINA_MIN_INTERVAL:
-            time.sleep(_JINA_MIN_INTERVAL - gap)
 
-        headers = {"User-Agent": USER_AGENT, "Accept": "text/plain"}
-        # Keyless works; a free key just raises the rate limit.
-        api_key = os.getenv("JINA_API_KEY")
-        if api_key:
-            headers["Authorization"] = f"Bearer {api_key}"
+    api_key = os.getenv("JINA_API_KEY")
+    interval = _JINA_INTERVAL_KEYED if api_key else _JINA_INTERVAL_KEYLESS
+    headers = {"User-Agent": USER_AGENT, "Accept": "text/plain"}
+    if api_key:
+        headers["Authorization"] = f"Bearer {api_key}"
 
-        print(f"↩️  jina reader for {host}")
-        resp = requests.get(JINA_READER_PREFIX + url, headers=headers,
-                            timeout=JINA_TIMEOUT)
-        _last_jina_call = time.time()
+    # One retry: a 429 on the keyless tier is the expected case from CI, and
+    # it is transient — the previous code gave up on the first one and fell
+    # through to a 200-char feed snippet, which no downstream gate can clear.
+    attempts = 2
+    last = {"url": url, "html": "", "text": "", "status": 0,
+            "cached": False, "error": "jina not attempted"}
 
-        status = resp.status_code
-        text = resp.text if status == 200 else ""
-        if status != 200 or not (text or "").strip():
-            print(f"⚠️  jina failed for {host}: status {status}")
-            return {"url": url, "html": "", "text": "", "status": status,
-                    "cached": False, "error": f"jina status {status}"}
-        return {"url": url, "html": "", "text": text, "status": status,
-                "cached": False, "error": None}
-    except Exception as e:
-        _last_jina_call = time.time()
-        print(f"⚠️  jina failed for {host}: {e}")
-        return {"url": url, "html": "", "text": "", "status": 0,
-                "cached": False, "error": f"{type(e).__name__}: {e}"}
+    for attempt in range(1, attempts + 1):
+        try:
+            gap = time.time() - _last_jina_call
+            if gap < interval:
+                time.sleep(interval - gap)
+
+            print(f"↩️  jina reader for {host}"
+                  f"{'' if attempt == 1 else f' (retry {attempt - 1})'}"
+                  f"{'' if api_key else ' [keyless]'}")
+            resp = requests.get(JINA_READER_PREFIX + url, headers=headers,
+                                timeout=JINA_TIMEOUT)
+            _last_jina_call = time.time()
+
+            status = resp.status_code
+            text = resp.text if status == 200 else ""
+            if status == 200 and (text or "").strip():
+                return {"url": url, "html": "", "text": text,
+                        "status": status, "cached": False, "error": None}
+
+            # Gate the hint on the status actually seen, and on both the
+            # keyed and keyless cases. The original printed a hint only for
+            # 429 (never observed) or for 403 *with* a key (there is no key),
+            # so the one failure that does happen logged no explanation at all.
+            hint = ""
+            if status in (401, 403):
+                hint = (" — JINA_API_KEY rejected; check the key" if api_key
+                        else " — r.jina.ai refused this request without a key;"
+                             " set JINA_API_KEY (free at jina.ai) to test"
+                             " whether the route requires auth")
+            elif status == 429:
+                hint = (" — rate limited"
+                        + ("" if api_key else "; keyless quota is per-IP and CI"
+                                              " runners share it, set JINA_API_KEY"))
+            print(f"⚠️  jina failed for {host}: status {status}{hint}")
+            last = {"url": url, "html": "", "text": "", "status": status,
+                    "cached": False, "error": f"jina status {status}{hint}"}
+
+            if status not in _JINA_RETRY_STATUSES or attempt == attempts:
+                return last
+            # Honor Retry-After when the server sends one, else back off.
+            try:
+                wait = float(resp.headers.get("Retry-After", "") or 0)
+            except (TypeError, ValueError):
+                wait = 0.0
+            time.sleep(min(max(wait, interval * 2), 15.0))
+        except Exception as e:
+            _last_jina_call = time.time()
+            print(f"⚠️  jina failed for {host}: {e}")
+            last = {"url": url, "html": "", "text": "", "status": 0,
+                    "cached": False, "error": f"{type(e).__name__}: {e}"}
+            if attempt == attempts:
+                return last
+            time.sleep(interval)
+
+    return last
 
 
 def fetch_url(url: str, force: bool = False) -> dict:
@@ -416,8 +492,27 @@ def fetch_url(url: str, force: bool = False) -> dict:
             return {**cached, "cached": True, "error": None}
 
     try:
-        resp = requests.get(url, headers={"User-Agent": USER_AGENT}, timeout=25)
+        resp = requests.get(url, headers=_browser_headers(url), timeout=25)
         status = resp.status_code
+        # A bare UA is not enough for Wordfence/Cloudflare on the WordPress
+        # opportunity sites: a request with no Accept-Language and no Referer
+        # reads as scripted and gets a 403 even with a browser UA. Retry once
+        # looking like a visitor arriving from the site's own homepage.
+        if status in (403, 406, 429):
+            try:
+                from urllib.parse import urlparse
+                p = urlparse(url)
+                referer = f"{p.scheme}://{p.netloc}/"
+                time.sleep(1.0)
+                retry = requests.get(
+                    url, headers=_browser_headers(url, referer=referer),
+                    timeout=25)
+                if retry.status_code == 200:
+                    print(f"   ↩️  {status} → 200 on referer retry "
+                          f"for {_host_of(url)}")
+                    resp, status = retry, retry.status_code
+            except Exception as e:
+                print(f"⚠️  referer retry failed for {_host_of(url)}: {e}")
         html = resp.text if status == 200 else ""
         text = _basic_text(html) if html else ""
         if status == 200:

@@ -38,8 +38,8 @@ import notification
 from model_router import ProvidersUnavailable
 from profile import PROFILE
 from checker import (
-    meets_threshold, PROBABLY_ELIGIBLE, normalize_credibility, is_notifiable,
-    HIGH_RISK, SUSPICIOUS,
+    meets_threshold, PROBABLY_ELIGIBLE, UNCERTAIN, normalize_credibility,
+    is_notifiable, HIGH_RISK, SUSPICIOUS,
 )
 from source_whitelist import load_whitelist, domain_quality, source_tier
 from cost_tracker import (
@@ -64,6 +64,12 @@ MIN_SCORE = int(os.getenv("MIN_SCORE_TO_NOTIFY", "7"))
 MAX_PER_DAY = int(os.getenv("MAX_OPPORTUNITIES_PER_DAY", "15"))
 # Shortest feed snippet worth analyzing when the full page fetch is blocked.
 MIN_SNIPPET_CHARS = int(os.getenv("MIN_SNIPPET_CHARS", "80"))
+# When the real page could not be fetched and we are judging a feed snippet,
+# a whitelisted source at or above this quality is trusted enough to pass the
+# candidate through flagged UNVERIFIED rather than dropping it. Set to 11 to
+# restore the old always-drop behaviour.
+TRUST_WHITELIST_MIN_QUALITY = int(
+    os.getenv("TRUST_WHITELIST_MIN_QUALITY", "7"))
 # How much RSS body text to keep. This is the primary analysis input whenever
 # the direct and reader fetches are blocked, so it is a body, not a teaser.
 RSS_SNIPPET_CHARS = int(os.getenv("RSS_SNIPPET_CHARS", "2000"))
@@ -176,6 +182,10 @@ def _analyze_one_inner(result, stats: dict):
     title = getattr(result, "title", None) or ""
     snippet = getattr(result, "snippet", None) or ""
     cprint(f"   ▶️ analyze_one ENTER: {url[:60] if url else '(no url)'}")
+    # True when we are judging a short feed snippet rather than the real page.
+    thin_text = False
+    # True when a gate could not confirm the page because we could not read it.
+    unverified = False
     if not url:
         stats["fetch_failed"] += 1
         cprint("   ⚠️  candidate has no URL — skipping")
@@ -214,11 +224,24 @@ def _analyze_one_inner(result, stats: dict):
                    f"{len(text)} chars of full text via jina reader")
         # Tier 3 — the feed's own snippet, only if the reader failed too.
         elif len(snippet) >= MIN_SNIPPET_CHARS:
+            # Log WHY the reader tier failed. Without this the activity log
+            # only ever showed the direct 403, so a reader tier that failed
+            # on every candidate for weeks looked identical to one that was
+            # never needed. Silent fallbacks are how this went unnoticed.
+            stats["jina_failed"] = stats.get("jina_failed", 0) + 1
+            db.log_error(f"Jina reader failed for {url}: "
+                         f"{jina.get('error') or jina.get('status')}")
             text = f"{title}\n\n{snippet}"
             stats["snippet_fallback"] = stats.get("snippet_fallback", 0) + 1
             cprint(f"   ↩️  fetch + jina blocked ({reason}) — analyzing the "
                    f"{len(snippet)}-char feed snippet instead")
+            # Mark thin-text candidates so the gates below can tell a
+            # verified-as-unclear page from one we simply could not read.
+            thin_text = True
         else:
+            stats["jina_failed"] = stats.get("jina_failed", 0) + 1
+            db.log_error(f"Jina reader failed for {url}: "
+                         f"{jina.get('error') or jina.get('status')}")
             stats["fetch_failed"] += 1
             cprint(f"   ⚠️  fetch + jina failed ({reason}) and no usable "
                    f"snippet ({len(snippet)} chars) — skipping")
@@ -275,28 +298,56 @@ def _analyze_one_inner(result, stats: dict):
     if not is_notifiable(cred):
         # NEEDS_VERIFICATION — unfamiliar, not accused. Honesty rule: we do not
         # recommend what we could not verify.
-        stats["legit_unknown"] += 1
-        tools.save_opportunity({"url": url, "title": title,
-                                "status": "legitimacy_unknown",
-                                "credibility_status": cred,
-                                "source_tier": legit.get("source_tier"),
-                                "reasoning": legit["reasoning"]})
-        cprint(f"   ❓ {cred} (tier {legit.get('source_tier')}) — "
-               f"skipping (honesty rule)")
-        return None
+        #
+        # But distinguish the two ways a page lands here. If we only ever saw a
+        # 200-char feed snippet, NEEDS_VERIFICATION says "we could not read
+        # it", not "we read it and it looked unfamiliar" — and on a
+        # whitelisted, high-quality domain that verdict is an artifact of the
+        # blocked fetch rather than a judgment about the program. Those are
+        # exactly the fellowships this bot exists to surface, so pass them
+        # through and let the notification carry the caveat instead of
+        # dropping them silently.
+        trusted_quality = domain_quality(url)
+        if thin_text and trusted_quality >= TRUST_WHITELIST_MIN_QUALITY:
+            stats["trusted_thin_pass"] = stats.get("trusted_thin_pass", 0) + 1
+            cprint(f"   🔎 {cred} on whitelisted source "
+                   f"(quality {trusted_quality}) from snippet only — "
+                   f"passing through flagged as UNVERIFIED")
+            unverified = True
+        else:
+            stats["legit_unknown"] += 1
+            tools.save_opportunity({"url": url, "title": title,
+                                    "status": "legitimacy_unknown",
+                                    "credibility_status": cred,
+                                    "source_tier": legit.get("source_tier"),
+                                    "reasoning": legit["reasoning"]})
+            cprint(f"   ❓ {cred} (tier {legit.get('source_tier')}) — "
+                   f"skipping (honesty rule)")
+            return None
 
     # 9. check_eligibility (CLAUDE $) — graded ladder; anything below
     # PROBABLY_ELIGIBLE (including UNCERTAIN) never reaches notification.
     elig = tools.check_eligibility(text, PROFILE)
     elig_status = elig.get("eligibility_status", "UNCERTAIN")
     if not meets_threshold(elig_status, PROBABLY_ELIGIBLE):
-        stats["ineligible"] += 1
-        tools.save_opportunity({"url": url, "title": title,
-                                "status": elig["overall"],
-                                "eligibility_status": elig_status,
-                                "reasoning": elig["reasoning"]})
-        cprint(f"   ⛔ {elig_status}: {elig['reasoning']}")
-        return None
+        # Same distinction as the credibility gate: UNCERTAIN off a snippet
+        # means "the page did not tell us", which on a trusted source is a
+        # reading failure, not a rejection. An explicit PROBABLY_INELIGIBLE or
+        # CONFIRMED_INELIGIBLE is a real judgment and still drops.
+        if (thin_text and elig_status == UNCERTAIN
+                and domain_quality(url) >= TRUST_WHITELIST_MIN_QUALITY):
+            stats["trusted_thin_pass"] = stats.get("trusted_thin_pass", 0) + 1
+            cprint("   🔎 eligibility UNCERTAIN from snippet on whitelisted "
+                   "source — passing through flagged as UNVERIFIED")
+            unverified = True
+        else:
+            stats["ineligible"] += 1
+            tools.save_opportunity({"url": url, "title": title,
+                                    "status": elig["overall"],
+                                    "eligibility_status": elig_status,
+                                    "reasoning": elig["reasoning"]})
+            cprint(f"   ⛔ {elig_status}: {elig['reasoning']}")
+            return None
 
     # 10. enrichment (GEMINI free)
     docs = tools.extract_documents(text)
@@ -336,6 +387,10 @@ def _analyze_one_inner(result, stats: dict):
         "credibility_status": cred,
         "source_tier": legit.get("source_tier") or source_tier(url),
         "source_quality": domain_quality(url) or getattr(result, "source_quality", None),
+        # True when the full page was unreachable and the verdicts above came
+        # from a feed snippet, so the notification can say "verify this myself"
+        # instead of implying the bot confirmed it.
+        "unverified": unverified,
         "requirements": docs.get("documents", []) or [],
     }
 
@@ -369,6 +424,12 @@ def run_scan(max_results_per_source: int = 8):
         "fetch_failed": 0, "first_pass_dropped": 0, "scam": 0,
         "legit_unknown": 0, "ineligible": 0, "closed": 0,
         "deep_analyzed": 0, "scored_high": 0,
+        # Fetch-tier health. These were only created lazily on first use, so a
+        # tier that failed on every single candidate left NO key in the run
+        # log at all — indistinguishable from a tier that was never needed.
+        # Initialized here so "0 rescued, 300 failed" is visible immediately.
+        "jina_fetch": 0, "jina_failed": 0, "snippet_fallback": 0,
+        "trusted_thin_pass": 0,
     }
     blocked_scams = []
 
@@ -659,7 +720,9 @@ def build_report(opportunities, stats, blocked_scams):
         f"   Hard-blocked scams:    {stats['known_scam']}",
         f"   Fetch failed:          {stats.get('fetch_failed', 0)}",
         f"   Jina fetch:            {stats.get('jina_fetch', 0)}",
+        f"   Jina failed:           {stats.get('jina_failed', 0)}",
         f"   Snippet fallback:      {stats.get('snippet_fallback', 0)}",
+        f"   Trusted thin-text pass:{stats.get('trusted_thin_pass', 0)}",
         f"   First-pass filtered:   {stats['first_pass_dropped']}",
         f"   Flagged scam (Claude): {stats['scam']}",
         f"   Needs verification:    {stats.get('legit_unknown', 0)}",
@@ -953,6 +1016,32 @@ def run_test():
     else:
         all_ok = False
         print(f"  ❌ {'tavily':11} FAILED — {t.get('error')}")
+
+    # Page fetching. This tier has no model and no search key, so it was never
+    # smoke-tested — and it failed on every candidate for weeks without ever
+    # showing up as a failure. Probe a source that is known to 403 the direct
+    # fetch, so the reader fallback is exercised the way a real scan uses it.
+    print("\n📄 PAGE FETCH\n")
+    probe = "https://opportunitydesk.org/"
+    direct = tools.fetch_url(probe, force=True)
+    if direct.get("status") == 200 and (direct.get("text") or "").strip():
+        print(f"  ✅ {'direct':11} OK  → {len(direct['text'])} chars")
+    else:
+        print(f"  ⚠️  {'direct':11} blocked ({direct.get('error') or direct.get('status')})"
+              f" — this is expected; the reader tier below must cover it")
+
+    jina = tools.fetch_via_jina(probe)
+    keyed = "keyed" if os.getenv("JINA_API_KEY") else "KEYLESS"
+    if (jina.get("text") or "").strip():
+        print(f"  ✅ {'jina':11} OK ({keyed})  → {len(jina['text'])} chars")
+    else:
+        all_ok = False
+        print(f"  ❌ {'jina':11} FAILED ({keyed}) — {jina.get('error')}")
+        if not os.getenv("JINA_API_KEY"):
+            print("      → Set JINA_API_KEY (free at jina.ai). Keyless is "
+                  "metered per IP and CI runners share one.")
+        print("      → While this fails, every 403'd page degrades to a feed "
+              "snippet and almost nothing can pass the gates.")
 
     print()
     if all_ok:
