@@ -38,8 +38,8 @@ import notification
 from model_router import ProvidersUnavailable
 from profile import PROFILE
 from checker import (
-    meets_threshold, PROBABLY_ELIGIBLE, normalize_credibility, is_notifiable,
-    HIGH_RISK, SUSPICIOUS,
+    meets_threshold, PROBABLY_ELIGIBLE, UNCERTAIN, normalize_credibility,
+    is_notifiable, HIGH_RISK, SUSPICIOUS,
 )
 from source_whitelist import load_whitelist, domain_quality, source_tier
 from cost_tracker import (
@@ -67,6 +67,13 @@ MIN_SNIPPET_CHARS = int(os.getenv("MIN_SNIPPET_CHARS", "80"))
 # How much RSS body text to keep. This is the primary analysis input whenever
 # the direct and reader fetches are blocked, so it is a body, not a teaser.
 RSS_SNIPPET_CHARS = int(os.getenv("RSS_SNIPPET_CHARS", "2000"))
+# When the full page is unreachable and only a feed snippet is available, a
+# whitelisted source at or above this quality is trusted enough to pass the
+# "we could not verify this" gates. It never overrides a NEGATIVE verdict —
+# only the absence of one. Cherry-picked from PR #8 (fe6e9f5); that PR's Jina
+# hunks are deliberately not taken, since that tier is now off by default.
+TRUST_WHITELIST_MIN_QUALITY = int(
+    os.getenv("TRUST_WHITELIST_MIN_QUALITY", "7"))
 
 # Discovery feeds. Unreachable or moved feeds are logged and skipped per-feed;
 # the per-feed "📰 RSS <domain>: +N posts" line shows which are productive.
@@ -206,6 +213,7 @@ def _analyze_one_inner(result, stats: dict):
         fetched = {"url": url, "html": "", "text": "", "status": 0,
                    "cached": False, "error": f"{type(e).__name__}: {e}"}
 
+    thin_text = False
     if fetched["error"] or fetched["status"] != 200 or not fetched["text"]:
         reason = fetched["error"] or fetched["status"]
         db.log_error(f"Fetch failed for {url}: {reason}")
@@ -220,14 +228,24 @@ def _analyze_one_inner(result, stats: dict):
             jina = {"text": "", "status": 0,
                     "error": f"{type(e).__name__}: {e}"}
 
-        if (jina.get("text") or "").strip():
-            text = jina["text"]
+        jina_text = (jina.get("text") or "").strip()
+        if not jina_text and "disabled" not in str(jina.get("error") or ""):
+            # jina_failed was initialized but never incremented, so its zero
+            # meant nothing either way. Wire it, and count only real attempts —
+            # a call skipped because the tier is off is not a failure of it.
+            stats["jina_failed"] = stats.get("jina_failed", 0) + 1
+
+        if jina_text:
+            text = jina_text
             stats["jina_fetch"] = stats.get("jina_fetch", 0) + 1
             cprint(f"   ↩️  direct fetch blocked ({reason}) — got "
                    f"{len(text)} chars of full text via jina reader")
         # Tier 3 — the feed's own snippet, only if the reader failed too.
         elif len(snippet) >= MIN_SNIPPET_CHARS:
             text = f"{title}\n\n{snippet}"
+            # Mark thin-text candidates so the gates below can tell "the page
+            # did not say" apart from "the page said no".
+            thin_text = True
             stats["snippet_fallback"] = stats.get("snippet_fallback", 0) + 1
             cprint(f"   ↩️  fetch + jina blocked ({reason}) — analyzing the "
                    f"{len(snippet)}-char feed snippet instead")
@@ -276,6 +294,26 @@ def _analyze_one_inner(result, stats: dict):
 
     # 8. check_legitimacy (CLAUDE $) — only on open survivors
     legit = tools.check_legitimacy(text, url)
+
+    # An unparseable model reply is a technical failure, not a verdict. It used
+    # to land as NEEDS_VERIFICATION and be saved — which marks the candidate
+    # seen, so a transient JSON glitch discarded it permanently. 35 of 79
+    # NEEDS_VERIFICATION records died this way. Preserve it for a later run
+    # instead, exactly as ProvidersUnavailable is handled above: no
+    # save_opportunity(), so it is not marked seen. It does NOT pass the gate.
+    if legit.get("parse_failed"):
+        stats["legit_unparseable"] = stats.get("legit_unparseable", 0) + 1
+        cprint("   🟡 legitimacy reply unparseable after a retry — preserving "
+               "for a later run rather than discarding")
+        try:
+            tools.add_to_watchlist({
+                "url": url, "title": title,
+                "reason": "legitimacy check returned an unparseable reply; "
+                          "retry on a later run"})
+        except Exception as werr:
+            db.log_error(f"Could not preserve {url}: {werr}")
+        return None
+
     cred = legit.get("credibility_status") or normalize_credibility(legit["verdict"])
     if cred in (HIGH_RISK, SUSPICIOUS):
         stats["scam"] += 1
@@ -288,21 +326,43 @@ def _analyze_one_inner(result, stats: dict):
     if not is_notifiable(cred):
         # NEEDS_VERIFICATION — unfamiliar, not accused. Honesty rule: we do not
         # recommend what we could not verify.
-        stats["legit_unknown"] += 1
-        tools.save_opportunity({"url": url, "title": title,
-                                "status": "legitimacy_unknown",
-                                "credibility_status": cred,
-                                "source_tier": legit.get("source_tier"),
-                                "reasoning": legit["reasoning"]})
-        cprint(f"   ❓ {cred} (tier {legit.get('source_tier')}) — "
-               f"skipping (honesty rule)")
-        return None
+        #
+        # Exception: when all we had was a feed snippet, from a whitelisted
+        # high-quality domain, that verdict is an artifact of having too little
+        # text rather than a finding about the program. HIGH_RISK and
+        # SUSPICIOUS have already returned above, so only NEEDS_VERIFICATION
+        # can reach here — a negative verdict is never overridden.
+        trusted_quality = domain_quality(url)
+        if thin_text and trusted_quality >= TRUST_WHITELIST_MIN_QUALITY:
+            stats["trusted_thin_pass"] = stats.get("trusted_thin_pass", 0) + 1
+            cprint(f"   🤝 {cred} on a whitelisted source "
+                   f"(quality {trusted_quality}) from snippet only — "
+                   f"continuing rather than discarding")
+        else:
+            stats["legit_unknown"] += 1
+            tools.save_opportunity({"url": url, "title": title,
+                                    "status": "legitimacy_unknown",
+                                    "credibility_status": cred,
+                                    "source_tier": legit.get("source_tier"),
+                                    "reasoning": legit["reasoning"]})
+            cprint(f"   ❓ {cred} (tier {legit.get('source_tier')}) — "
+                   f"skipping (honesty rule)")
+            return None
 
     # 9. check_eligibility (CLAUDE $) — graded ladder; anything below
     # PROBABLY_ELIGIBLE (including UNCERTAIN) never reaches notification.
     elig = tools.check_eligibility(text, PROFILE)
     elig_status = elig.get("eligibility_status", "UNCERTAIN")
-    if not meets_threshold(elig_status, PROBABLY_ELIGIBLE):
+    # Same thin-text exception as the credibility gate above. On a snippet from
+    # a whitelisted high-quality source, UNCERTAIN means "the page did not tell
+    # us", not "the candidate is blocked". PROBABLY_INELIGIBLE and
+    # CONFIRMED_INELIGIBLE are real findings and are never overridden here.
+    if (thin_text and elig_status == UNCERTAIN
+            and domain_quality(url) >= TRUST_WHITELIST_MIN_QUALITY):
+        stats["trusted_thin_pass"] = stats.get("trusted_thin_pass", 0) + 1
+        cprint(f"   🤝 UNCERTAIN from snippet only on a whitelisted source "
+               f"(quality {domain_quality(url)}) — continuing")
+    elif not meets_threshold(elig_status, PROBABLY_ELIGIBLE):
         stats["ineligible"] += 1
         # Persist the model's own grade and the unresolved requirements
         # alongside the final level. Without them a rejection cannot be
@@ -395,6 +455,8 @@ def run_scan(max_results_per_source: int = 8):
         "fetch_failed": 0, "first_pass_dropped": 0, "scam": 0,
         "legit_unknown": 0, "ineligible": 0, "closed": 0,
         "deep_analyzed": 0, "scored_high": 0, "eligibility_demoted": 0,
+        "jina_fetch": 0, "jina_failed": 0, "snippet_fallback": 0,
+        "legit_unparseable": 0, "trusted_thin_pass": 0,
     }
     blocked_scams = []
 
@@ -696,6 +758,12 @@ def build_report(opportunities, stats, blocked_scams):
         f"   Rescued by signals:    {stats.get('signal_rescued', 0)}",
         f"   Eligibility demoted:   {stats.get('eligibility_demoted', 0)}"
         f"  (code rules overrode the model's grade)",
+        f"   Legitimacy unparseable:{stats.get('legit_unparseable', 0)}"
+        f"  (preserved for retry, not discarded)",
+        f"   Trusted thin-text pass:{stats.get('trusted_thin_pass', 0)}",
+        f"   Jina fetch / failed:   {stats.get('jina_fetch', 0)}"
+        f" / {stats.get('jina_failed', 0)}",
+        f"   Snippet fallback:      {stats.get('snippet_fallback', 0)}",
         f"   Analysis unavailable:  {stats.get('analysis_unavailable', 0)}",
         f"   Deduped duplicates:    {stats.get('deduped', 0)}",
         "",
@@ -893,7 +961,9 @@ def check_watchlist():
     stats = {k: 0 for k in (
         "discovered", "already_seen", "known_scam", "fetch_failed",
         "first_pass_dropped", "scam", "legit_unknown", "ineligible", "closed",
-        "deep_analyzed", "scored_high", "eligibility_demoted")}
+        "deep_analyzed", "scored_high", "eligibility_demoted",
+        "jina_fetch", "jina_failed", "snippet_fallback",
+        "legit_unparseable", "trusted_thin_pass")}
     matches, opened = [], 0
     for oid, item in list(wl.items()):
         url = item.get("url")

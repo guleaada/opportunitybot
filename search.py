@@ -346,6 +346,18 @@ def _has_lxml() -> bool:
 JINA_READER_PREFIX = "https://r.jina.ai/"
 JINA_TIMEOUT = 30
 _JINA_MIN_INTERVAL = 0.5   # be polite; keyless free tier is ~20 req/min
+
+# Tier 2 of the fetch ladder is OFF by default as of 2026-08-30.
+# Measured over the 22 logged runs in data/activity_log.json: the reader was
+# invoked on every failed direct fetch (102 snippet fallbacks + 33 hard fetch
+# failures = ~135 invocations) and returned usable text 0 times, at up to
+# JINA_TIMEOUT=30s each. Tier 3 (the feed's own snippet) already covers 102 of
+# those 135. The tier is gated rather than deleted so re-enabling is one
+# variable, and the counters stay wired so a change would be visible.
+def jina_enabled() -> bool:
+    """True if the r.jina.ai reader tier is switched on. Default: off."""
+    return os.getenv("ENABLE_JINA_READER", "").strip().lower() in (
+        "1", "true", "yes", "on")
 _last_jina_call = 0.0
 
 
@@ -369,6 +381,10 @@ def fetch_via_jina(url: str) -> dict:
     if not url:
         return {"url": url, "html": "", "text": "", "status": 0,
                 "cached": False, "error": "empty url"}
+    if not jina_enabled():
+        return {"url": url, "html": "", "text": "", "status": 0,
+                "cached": False, "error": "jina reader disabled "
+                                          "(set ENABLE_JINA_READER=1)"}
     try:
         gap = time.time() - _last_jina_call
         if gap < _JINA_MIN_INTERVAL:

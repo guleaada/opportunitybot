@@ -267,7 +267,21 @@ def check_legitimacy(text: str, source_url: str) -> dict:
         "(DAAD, Chevening, Fulbright, Erasmus, MEXT, government/embassy "
         "scholarships) NEVER charge large fees to apply.\n"
         "If the evidence is genuinely insufficient, return verdict 'unknown' "
-        "rather than guessing."
+        "rather than guessing.\n"
+        "JUDGE THE PROGRAM, NOT THE HOST. Most pages you see are syndicated "
+        "listings on opportunity aggregators, because that is how they are "
+        "discovered. An aggregator reposting a real program is normal "
+        "publishing, not fraud: 'this is not the official domain', 'this is a "
+        "third-party site' and 'no direct link to the official page' are NOT "
+        "by themselves grounds for 'suspicious'. Judging otherwise would "
+        "reject every legitimate program on the site it was found on.\n"
+        "Do still call 'suspicious' or 'scam' on real substantive evidence, "
+        "wherever it is hosted — a fee to apply, attend, register or secure an "
+        "invitation letter or visa; payment to a personal or non-institutional "
+        "account; a free email address (gmail/yahoo/hotmail) as the official "
+        "contact; an organizer that does not verifiably exist; guaranteed "
+        "selection or visas; or pressure to pay quickly. Those outrank any "
+        "amount of reputable-looking hosting."
     )
     prompt = (
         f"SOURCE URL: {source_url}\n\n"
@@ -282,13 +296,35 @@ def check_legitimacy(text: str, source_url: str) -> dict:
         f"PAGE TEXT:\n{_trim(text)}"
     )
     res = call_model("scam_detection", prompt, system=system, max_tokens=600)
-    # A non-object reply yields {} here, so verdict stays "unknown" and the
-    # credibility ladder resolves to NEEDS_VERIFICATION — the project's
-    # existing "we could not verify this" outcome, not a guessed verdict.
     data = as_object(extract_json(res["content"]), "scam_detection")
+
+    # A reply we could not parse is a TECHNICAL failure, not a credibility
+    # judgment. It used to be indistinguishable from the model deliberately
+    # answering "unknown": both produced verdict "unknown" -> NEEDS_VERIFICATION
+    # -> the candidate was killed AND marked seen, so it was never reconsidered.
+    # That path accounted for 35 of 79 NEEDS_VERIFICATION records (44%) — the
+    # single largest cause of loss at this gate, ahead of every real signal.
+    #
+    # Retry once with a stricter instruction before giving up. Free-tier models
+    # drop the JSON envelope intermittently, so one retry recovers most of it.
+    if not data.get("verdict"):
+        res = call_model(
+            "scam_detection",
+            prompt + "\n\nReply with the JSON object ONLY. No prose, no "
+                     "markdown fences, no explanation outside the JSON.",
+            system=system, max_tokens=600)
+        data = as_object(extract_json(res["content"]), "scam_detection")
+
     verdict = data.get("verdict", "unknown")
     if verdict not in ("legitimate", "scam", "suspicious", "unknown"):
         verdict = "unknown"
+
+    # Still nothing usable. Report it as a parse failure so the caller can
+    # preserve the candidate for a later run instead of burning it, exactly as
+    # ProvidersUnavailable is already handled. This does NOT pass the gate and
+    # does NOT soften any verdict — an unparseable reply is still not evidence
+    # of legitimacy.
+    parse_failed = not data.get("verdict")
 
     # Provenance tier + verdict → graded credibility. Fail-soft: a tier lookup
     # problem must not lose the legitimacy result we already paid for.
@@ -304,6 +340,7 @@ def check_legitimacy(text: str, source_url: str) -> dict:
     return {
         "verdict": verdict,                 # legacy field, unchanged
         "credibility_status": status,
+        "parse_failed": parse_failed,
         "source_tier": tier,
         "confidence": data.get("confidence"),
         "reasoning": data.get("reasoning", "No reasoning returned."),
