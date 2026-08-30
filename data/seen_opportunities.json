@@ -6031,5 +6031,150 @@
     "id": "5024136f3af4601f",
     "first_seen": "2026-08-30T14:41:24.584743+00:00",
     "last_updated": "2026-08-30T14:41:24.584754+00:00"
+  },
+  "765d981038efee62": {
+    "url": "https://www.reddit.com/r/programmer/comments/1ss0cre/is_starting_freelancing_as_a_programmer_still",
+    "title": "Is starting freelancing as a programmer still feasible in 2026?",
+    "status": "filtered_out",
+    "reason": "Not a scholarship/fellowship listing, just a freelance advice query",
+    "id": "765d981038efee62",
+    "first_seen": "2026-08-30T14:48:23.615190+00:00",
+    "last_updated": "2026-08-30T14:48:23.615200+00:00"
+  },
+  "052519c765cff936": {
+    "url": "https://www.ziprecruiter.com/Jobs/Visa-Sponsorship-Backend",
+    "title": "$15-$19/hr Visa Sponsorship Backend Jobs (NOW HIRING) Aug 26",
+    "status": "ineligible",
+    "eligibility_status": "PROBABLY_INELIGIBLE",
+    "model_eligibility_status": "PROBABLY_INELIGIBLE",
+    "missing_requirements": [],
+    "blocking_issues": [
+      "Degree level mismatch: BSc Psychology not a computer science or related technical degree"
+    ],
+    "addressable_gaps": [
+      "English proficiency certificate (e.g., Duolingo or MOI) can be obtained"
+    ],
+    "reasoning": "The job posting requires a relevant degree in computer science or related fields. The candidate holds a BSc in Psychology, which is not a computer science or related technical field, constituting a hard blocker. While the candidate can address the English proficiency documentation, the degree mismatch cannot be remedied for this position.",
+    "id": "052519c765cff936",
+    "first_seen": "2026-08-30T14:48:30.269259+00:00",
+    "last_updated": "2026-08-30T14:48:30.269267+00:00"
+  },
+  "b01705fb1680decb": {
+    "url": "https://github.com/Lamiiine/Awesome-daily-list-of-visa-sponsored-jobs",
+    "title": "GitHub - Lamiiine/Awesome-daily-list-of-visa-sponsored-jobs: A daily list of jobs that offer visa sponsorship and help with relocation · GitHub",
+    "status": "suspicious",
+    "credibility_status": "SUSPICIOUS",
+    "source_tier": "TIER_4",
+    "reasoning": "The GitHub repository aggregates visa‑sponsored job listings but heavily promotes the Zapply Chrome extension and a \"Sponsored by Zapply\" banner, suggesting an affiliate or paid funnel. The \"Apply\" links point to a third‑party domain (visasponsor.jobs) rather than the original employer sites, which can be used to capture user data or charge fees, a common pattern in job‑listing scams.",
+    "id": "b01705fb1680decb",
+    "first_seen": "2026-08-30T14:49:49.444124+00:00",
+    "last_updated": "2026-08-30T14:49:49.444133+00:00"
+  },
+  "7d7c90a9ebae77e1": {
+    "url": "https://jaabz.com/jobs",
+    "title": "Discover Tech Jobs - Jobs with Visa Sponsorship, Relocation Package & Remote Opportunities",
+    "status": "suspicious",
+    "credibility_status": "SUSPICIOUS",
+    "source_tier": "TIER_4",
+    "reasoning": "The site uses a generic, non‑branded domain (jaabz.com) and provides only minimal job details, forcing users to sign up before seeing full information. There is no clear employer verification, contact information, or privacy policy, which are common red flags for job‑listing scams.",
+    "id": "7d7c90a9ebae77e1",
+    "first_seen": "2026-08-30T14:50:13.476191+00:00",
+    "last_updated": "2026-08-30T14:50:13.476201+00:00"
+  },
+  "400244880d8a9869": {
+    "url": "https://www.princetoninafrica.org/applicants/how-to-apply",
+    "title": "How to Apply | Princeton in Africa",
+    "status": "filtered_out",
+    "reason": "Eligibility likely limited to Princeton alumni, not open to general Ethiopian applicants",
+    "id": "400244880d8a9869",
+    "first_seen": "2026-08-30T14:50:21.828122+00:00",
+    "last_updated": "2026-08-30T14:50:21.828131+00:00"
+  },
+  "1df7a68118c59b01": {
+    "url": "https://www.facebook.com/opportunitiesforyouth/posts/-princeton-in-africa-fellowship-202728-host-talented-young-professionals-across-/1515040270653321",
+    "title": "🌍🚀 Princeton in Africa... - Opportunities For Youth",
+    "status": "closed",
+    "deadline": "2026-08-17",
+    "id": "1df7a68118c59b01",
+    "first_seen": "2026-08-30T14:50:35.891389+00:00",
+    "last_updated": "2026-08-30T14:50:35.891396+00:00"
+  },
+  "8248bcf0b598df34": {
+    "url": "https://www.legacyintl.org/pfp",
+    "title": "Professional Fellows Program",
+    "status": "legitimacy_unknown",
+    "credibility_status": "NEEDS_VERIFICATION",
+    "source_tier": "TIER_4",
+    "reasoning": "The page content appears to be a corrupted or binary JPEG image file rather than readable HTML/text, making it impossible to assess the legitimacy of the program. No textual information about the program, fees, or application process could be extracted from the provided content.",
+    "id": "8248bcf0b598df34",
+    "first_seen": "2026-08-30T14:50:48.007785+00:00",
+    "last_updated": "2026-08-30T14:50:48.007795+00:00"
+  },
+  "48742d9e983e6944": {
+    "url": "https://za.usembassy.gov/professional-fellows-program",
+    "title": "PROFESSIONAL FELLOWS PROGRAM - U.S. Embassy & Consulates in South Africa",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "model_eligibility_status": "CONFIRMED_INELIGIBLE",
+    "missing_requirements": [],
+    "blocking_issues": [
+      "Nationality/residency requirement: must be a citizen, national, or permanent resident of South Africa — candidate is Ethiopian.",
+      "Location requirement: must be living and working in South Africa at time of application — candidate is based in Vientiane, Lao PDR."
+    ],
+    "addressable_gaps": [],
+    "reasoning": "The program explicitly requires applicants to be 'a citizen, national, or permanent resident of South Africa' AND 'living and working in South Africa at the time of the application.' The candidate is an Ethiopian national (Ethiopian passport) currently based in Vientiane, Lao PDR — failing both the nationality/residency and the physical location-of-employment requirements. These are stated, non-negotiable eligibility criteria that the candidate cannot meet.",
+    "id": "48742d9e983e6944",
+    "first_seen": "2026-08-30T14:51:03.501558+00:00",
+    "last_updated": "2026-08-30T14:51:03.501571+00:00"
+  },
+  "d3094fda0ad57af9": {
+    "url": "https://exchanges.state.gov/non-us/program/professional-fellows-program",
+    "title": "Professional Fellows Program | Exchange Programs",
+    "status": "unknown",
+    "eligibility_status": "UNCERTAIN",
+    "model_eligibility_status": "UNCERTAIN",
+    "missing_requirements": [],
+    "blocking_issues": [],
+    "addressable_gaps": [],
+    "reasoning": "No reasoning returned.",
+    "id": "d3094fda0ad57af9",
+    "first_seen": "2026-08-30T14:51:30.396114+00:00",
+    "last_updated": "2026-08-30T14:51:30.396124+00:00"
+  },
+  "f016932c52e93d6a": {
+    "url": "https://www.professionalfellows.americancouncils.org/how-to-apply",
+    "title": "How to Apply — Professional Fellows Program",
+    "status": "unknown",
+    "eligibility_status": "UNCERTAIN",
+    "model_eligibility_status": "UNCERTAIN",
+    "missing_requirements": [],
+    "blocking_issues": [],
+    "addressable_gaps": [],
+    "reasoning": "No reasoning returned.",
+    "id": "f016932c52e93d6a",
+    "first_seen": "2026-08-30T14:52:19.940217+00:00",
+    "last_updated": "2026-08-30T14:52:19.940226+00:00"
+  },
+  "c917b4b3375a0575": {
+    "url": "https://pfpinclusion.org",
+    "title": "Professional Fellows Program on Inclusive Civic Engagement",
+    "status": "legitimacy_unknown",
+    "credibility_status": "NEEDS_VERIFICATION",
+    "source_tier": "TIER_4",
+    "reasoning": "No reasoning returned.",
+    "id": "c917b4b3375a0575",
+    "first_seen": "2026-08-30T14:52:30.463414+00:00",
+    "last_updated": "2026-08-30T14:52:30.463423+00:00"
+  },
+  "8c00f42f15b58d59": {
+    "url": "https://fundinnovation.wiin.io/en/applications/formulaire-de-candidature",
+    "title": "FID | FID - Call for Proposals",
+    "status": "legitimacy_unknown",
+    "credibility_status": "NEEDS_VERIFICATION",
+    "source_tier": "TIER_4",
+    "reasoning": "No reasoning returned.",
+    "id": "8c00f42f15b58d59",
+    "first_seen": "2026-08-30T14:52:42.540359+00:00",
+    "last_updated": "2026-08-30T14:52:42.540368+00:00"
   }
 }
