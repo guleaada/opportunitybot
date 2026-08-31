@@ -6176,5 +6176,202 @@
     "id": "8c00f42f15b58d59",
     "first_seen": "2026-08-30T14:52:42.540359+00:00",
     "last_updated": "2026-08-30T14:52:42.540368+00:00"
+  },
+  "f67c114997c78c74": {
+    "url": "https://opportunitiescorners.com/young-leaders-program-2026-in-vietnam/",
+    "title": "Young Leaders Program 2026 in Vietnam (Fully Funded)",
+    "status": "suspicious",
+    "credibility_status": "SUSPICIOUS",
+    "source_tier": "TIER_3",
+    "reasoning": "The page provides no verifiable organizer or sponsor (no institution name, no official website link) and uses a generic Gmail address for contact, which are common red flags for scam or unverified programs. While it claims to be fully funded and fee‑free, the lack of official backing and the generic aggregator format undermine credibility.",
+    "id": "f67c114997c78c74",
+    "first_seen": "2026-08-31T11:27:25.167518+00:00",
+    "last_updated": "2026-08-31T11:27:25.167526+00:00"
+  },
+  "5800a1c6f5df62a7": {
+    "url": "https://www.opportunitiesforafricans.com/university-of-british-columbia-mastercard-foundation-scholars-program-2027/",
+    "title": "The University of British Columbia Mastercard Foundation Scholars Program 2027 for study in Canada (Fully Funded)",
+    "status": "unknown",
+    "eligibility_status": "UNCERTAIN",
+    "model_eligibility_status": "UNCERTAIN",
+    "missing_requirements": [],
+    "blocking_issues": [],
+    "addressable_gaps": [],
+    "reasoning": "No reasoning returned.",
+    "id": "5800a1c6f5df62a7",
+    "first_seen": "2026-08-31T11:28:42.418082+00:00",
+    "last_updated": "2026-08-31T11:28:42.418090+00:00"
+  },
+  "c26f21328f344811": {
+    "url": "https://www2.fundsforngos.org/innovation/open-call-for-international-grant-program-2026",
+    "title": "Open Call for International Grant Program 2026",
+    "status": "legitimacy_unknown",
+    "credibility_status": "NEEDS_VERIFICATION",
+    "source_tier": "TIER_4",
+    "reasoning": "The provided URL displays only a placeholder 'Please Wait' message with no substantive information about the grant program, making it impossible to verify its legitimacy or detect red flags. Without details such as sponsor, application process, fees, or contact information, no reliable assessment can be made.",
+    "id": "c26f21328f344811",
+    "first_seen": "2026-08-31T11:29:10.361195+00:00",
+    "last_updated": "2026-08-31T11:29:10.361206+00:00"
+  },
+  "5c8768362b9c58a4": {
+    "url": "https://www.linkedin.com/pulse/25-fully-funded-global-awards-prizes-uqjkf",
+    "title": "🏅🌎 25 Fully Funded Global Awards, Prizes & Competitions ...",
+    "status": "analyzed",
+    "score": 4.7,
+    "category": "cash_prize_competitions",
+    "official_url": "https://www.linkedin.com/pulse/25-fully-funded-global-awards-prizes-uqjkf",
+    "location": null,
+    "remote": null,
+    "deadline": null,
+    "reward": "partial",
+    "estimated_value": null,
+    "eligibility_status": "PROBABLY_ELIGIBLE",
+    "credibility_status": "LIKELY_LEGITIMATE",
+    "source_tier": "TIER_4",
+    "source_quality": 0,
+    "requirements": [],
+    "id": "5c8768362b9c58a4",
+    "first_seen": "2026-08-31T11:32:26.131867+00:00",
+    "last_updated": "2026-08-31T11:32:26.131878+00:00"
+  },
+  "9f0a1ff2a3c0f2e5": {
+    "url": "https://www2.fundsforngos.org/individuals/world-bank-group-africa-fellowship-program-2027",
+    "title": "World Bank Group Africa Fellowship Program 2027",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "model_eligibility_status": "CONFIRMED_INELIGIBLE",
+    "missing_requirements": [
+      "Proof of English proficiency (IELTS/TOEFL/Duolingo/MOI)",
+      "Evidence of strong quantitative/research experience (if needed beyond degree)"
+    ],
+    "blocking_issues": [
+      "Ph.D. degree required; candidate holds only a BSc",
+      "Must be a current Ph.D. student or recent Ph.D. graduate; candidate is a working professional"
+    ],
+    "addressable_gaps": [
+      "English proficiency proof (Duolingo test or MOI certificate) can be obtained"
+    ],
+    "reasoning": "The program explicitly requires applicants to be \"completing a Ph.D. or have recently completed a Ph.D.\" (or be in the final year of a doctoral programme). Gulilat holds only a BSc in Psychology and is a working professional, not a Ph.D. candidate or graduate. This degree‑level mismatch is a hard blocker. While the candidate can obtain an English proficiency certificate, the lack of a Ph.D. cannot be remedied for this program.",
+    "id": "9f0a1ff2a3c0f2e5",
+    "first_seen": "2026-08-31T11:33:54.467538+00:00",
+    "last_updated": "2026-08-31T11:33:54.467551+00:00"
+  },
+  "1c812b8c0a1f039f": {
+    "url": "https://apply.alcafricandatalab.com",
+    "title": "ALC Fellowships — Fellowship Application Portal",
+    "status": "closed",
+    "deadline": null,
+    "id": "1c812b8c0a1f039f",
+    "first_seen": "2026-08-31T11:34:41.337083+00:00",
+    "last_updated": "2026-08-31T11:34:41.337092+00:00"
+  },
+  "1275bf456c9a28d2": {
+    "url": "https://www.eeas.europa.eu/eeas/grants_en",
+    "title": "Grants | EEAS",
+    "status": "unknown",
+    "eligibility_status": "UNCERTAIN",
+    "model_eligibility_status": "UNCERTAIN",
+    "missing_requirements": [
+      "Applicant type (individual vs organization)",
+      "Age limits",
+      "Student status requirement",
+      "Degree level requirement",
+      "English language proficiency requirement",
+      "Specific thematic relevance of the candidate's profile to the grant calls"
+    ],
+    "blocking_issues": [],
+    "addressable_gaps": [],
+    "reasoning": "The EEAS Grants page lists many grant calls but does not state explicit eligibility criteria for individual applicants. Ethiopian nationals are listed among eligible countries, so citizenship is not a blocker. However, it is unclear whether the grants are limited to NGOs/organizations, have age caps, require a specific academic status, or mandate English proficiency. These unknown, decision‑relevant criteria prevent a definitive eligibility determination.",
+    "id": "1275bf456c9a28d2",
+    "first_seen": "2026-08-31T11:36:11.114447+00:00",
+    "last_updated": "2026-08-31T11:36:11.114456+00:00"
+  },
+  "30ecb95d5c779e9f": {
+    "url": "https://www.microsoft.com/en-us/msrc/blog/2026/08/microsoft-bounty-program-year-in-review-more-than-20-million-awarded-biggest-year",
+    "title": "Microsoft Bounty Program year in review More than $20 million awarded in our biggest year yet",
+    "status": "analyzed",
+    "score": 2.7,
+    "category": "security_bounties",
+    "official_url": "https://www.microsoft.com/en-us/msrc/blog/2026/08/microsoft-bounty-program-year-in-review-more-than-20-million-awarded-biggest-year",
+    "location": null,
+    "remote": null,
+    "deadline": null,
+    "reward": "partial",
+    "estimated_value": null,
+    "eligibility_status": "PROBABLY_ELIGIBLE",
+    "credibility_status": "LIKELY_LEGITIMATE",
+    "source_tier": "TIER_4",
+    "source_quality": 0,
+    "requirements": [],
+    "id": "30ecb95d5c779e9f",
+    "first_seen": "2026-08-31T11:37:51.885906+00:00",
+    "last_updated": "2026-08-31T11:37:51.885915+00:00"
+  },
+  "ec550de9bec53d50": {
+    "url": "https://www.stadlerrail.com/vulnerability-disclosure-programme",
+    "title": "Vulnerability Disclosure Programme (VDP)",
+    "status": "unknown",
+    "eligibility_status": "UNCERTAIN",
+    "model_eligibility_status": "UNCERTAIN",
+    "missing_requirements": [
+      "Age limit or minimum age requirement",
+      "Nationality or residency eligibility restrictions",
+      "Requirement to be a current student or recent graduate",
+      "Degree level or field of study requirements",
+      "English language proficiency or test score requirements",
+      "Any other specific eligibility criteria (e.g., legal status, conflict‑of‑interest rules)"
+    ],
+    "blocking_issues": [],
+    "addressable_gaps": [],
+    "reasoning": "The program description provides no explicit eligibility criteria (e.g., age limit, nationality restrictions, student status, degree requirements, language proficiency). Without this information, we cannot confirm that the candidate meets all necessary conditions, nor can we identify any definitive blockers.",
+    "id": "ec550de9bec53d50",
+    "first_seen": "2026-08-31T11:38:18.347914+00:00",
+    "last_updated": "2026-08-31T11:38:18.347923+00:00"
+  },
+  "09b28acfde34f5a4": {
+    "url": "https://maxwith.com/funding/guides/best-startup-grants-africa-2026",
+    "title": "Best Startup Grants in Africa (2026) - MaxWith",
+    "status": "unknown",
+    "eligibility_status": "UNCERTAIN",
+    "model_eligibility_status": "UNCERTAIN",
+    "missing_requirements": [],
+    "blocking_issues": [],
+    "addressable_gaps": [],
+    "reasoning": "No reasoning returned.",
+    "id": "09b28acfde34f5a4",
+    "first_seen": "2026-08-31T11:39:48.231229+00:00",
+    "last_updated": "2026-08-31T11:39:48.231238+00:00"
+  },
+  "6ed530519792c9ea": {
+    "url": "https://transformthehustle.substack.com/p/july-2026-grants-opportunities",
+    "title": "July 2026 Grants Opportunities",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "model_eligibility_status": "CONFIRMED_INELIGIBLE",
+    "missing_requirements": [],
+    "blocking_issues": [
+      "U.S.-based location requirement not met (candidate based in Lao PDR, Ethiopian passport)",
+      "Not a consumer packaged goods (CPG) brand in the specified categories",
+      "Not a for‑profit small business owner with required revenue and operating history"
+    ],
+    "addressable_gaps": [],
+    "reasoning": "The program explicitly requires applicants to be U.S.-based women-led consumer packaged goods (CPG) brands or U.S.-based for‑profit small business owners with at least one year in operation and $50,000–$1M revenue. The candidate is an Ethiopian national residing in Lao PDR, does not own a U.S. business, and does not run a CPG brand, so the core eligibility criteria are not met.",
+    "id": "6ed530519792c9ea",
+    "first_seen": "2026-08-31T11:40:17.235882+00:00",
+    "last_updated": "2026-08-31T11:40:17.235890+00:00"
+  },
+  "d5ee11144f84c5c9": {
+    "url": "https://www.nerdwallet.com/business/loans/learn/grants-for-women",
+    "title": "45 Small-Business Grants for Women in 2026",
+    "status": "unknown",
+    "eligibility_status": "UNCERTAIN",
+    "model_eligibility_status": "UNCERTAIN",
+    "missing_requirements": [],
+    "blocking_issues": [],
+    "addressable_gaps": [],
+    "reasoning": "No reasoning returned.",
+    "id": "d5ee11144f84c5c9",
+    "first_seen": "2026-08-31T11:42:07.272141+00:00",
+    "last_updated": "2026-08-31T11:42:07.272176+00:00"
   }
 }

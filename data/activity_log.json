@@ -1,238 +1,5 @@
 [
   {
-    "at": "2026-08-18T12:33:14.016393+00:00",
-    "kind": "scan_start",
-    "message": "daily scan started"
-  },
-  {
-    "at": "2026-08-18T12:41:43.270136+00:00",
-    "kind": "scan_complete",
-    "message": "daily scan finished",
-    "matches": 0,
-    "stats": {
-      "discovered": 147,
-      "already_seen": 72,
-      "known_scam": 0,
-      "fetch_failed": 0,
-      "first_pass_dropped": 0,
-      "scam": 2,
-      "legit_unknown": 0,
-      "ineligible": 13,
-      "closed": 0,
-      "deep_analyzed": 0,
-      "scored_high": 0,
-      "discovery": {
-        "google": {
-          "attempted": 5,
-          "successful": 0,
-          "429": 0,
-          "403": 0,
-          "errors": 5,
-          "candidates": 0,
-          "queries_planned": 5,
-          "disabled_reason": ""
-        },
-        "rss": {
-          "attempted": 9,
-          "successful": 6,
-          "failed": 3,
-          "skipped_dead": 1,
-          "candidates": 76
-        },
-        "api": {
-          "sources": 2,
-          "healthy": 2,
-          "failed": 0,
-          "candidates": 57
-        },
-        "seed": {
-          "attempted": 14,
-          "candidates": 14
-        },
-        "total": {
-          "raw": 147,
-          "after_dedupe": 147
-        }
-      },
-      "signal_rescued": 14,
-      "deduped": 0
-    }
-  },
-  {
-    "at": "2026-08-18T12:41:43.272600+00:00",
-    "kind": "run",
-    "mode": "scan",
-    "environment": "github_actions",
-    "stats": {
-      "discovered": 147,
-      "already_seen": 72,
-      "known_scam": 0,
-      "fetch_failed": 0,
-      "first_pass_dropped": 0,
-      "scam": 2,
-      "legit_unknown": 0,
-      "ineligible": 13,
-      "closed": 0,
-      "deep_analyzed": 0,
-      "scored_high": 0,
-      "discovery": {
-        "google": {
-          "attempted": 5,
-          "successful": 0,
-          "429": 0,
-          "403": 0,
-          "errors": 5,
-          "candidates": 0,
-          "queries_planned": 5,
-          "disabled_reason": ""
-        },
-        "rss": {
-          "attempted": 9,
-          "successful": 6,
-          "failed": 3,
-          "skipped_dead": 1,
-          "candidates": 76
-        },
-        "api": {
-          "sources": 2,
-          "healthy": 2,
-          "failed": 0,
-          "candidates": 57
-        },
-        "seed": {
-          "attempted": 14,
-          "candidates": 14
-        },
-        "total": {
-          "raw": 147,
-          "after_dedupe": 147
-        }
-      },
-      "signal_rescued": 14,
-      "deduped": 0,
-      "matches": 0
-    }
-  },
-  {
-    "at": "2026-08-18T13:03:21.841357+00:00",
-    "kind": "scan_start",
-    "message": "daily scan started"
-  },
-  {
-    "at": "2026-08-18T13:10:35.045906+00:00",
-    "kind": "scan_complete",
-    "message": "daily scan finished",
-    "matches": 0,
-    "stats": {
-      "discovered": 147,
-      "already_seen": 86,
-      "known_scam": 0,
-      "fetch_failed": 0,
-      "first_pass_dropped": 0,
-      "scam": 2,
-      "legit_unknown": 0,
-      "ineligible": 13,
-      "closed": 0,
-      "deep_analyzed": 0,
-      "scored_high": 0,
-      "discovery": {
-        "google": {
-          "attempted": 5,
-          "successful": 0,
-          "429": 0,
-          "403": 0,
-          "errors": 5,
-          "candidates": 0,
-          "queries_planned": 5,
-          "disabled_reason": ""
-        },
-        "rss": {
-          "attempted": 9,
-          "successful": 6,
-          "failed": 3,
-          "skipped_dead": 1,
-          "candidates": 76
-        },
-        "api": {
-          "sources": 2,
-          "healthy": 2,
-          "failed": 0,
-          "candidates": 57
-        },
-        "seed": {
-          "attempted": 14,
-          "candidates": 14
-        },
-        "total": {
-          "raw": 147,
-          "after_dedupe": 147
-        }
-      },
-      "signal_rescued": 15,
-      "deduped": 0
-    }
-  },
-  {
-    "at": "2026-08-18T13:10:35.048177+00:00",
-    "kind": "run",
-    "mode": "scan",
-    "environment": "github_actions",
-    "stats": {
-      "discovered": 147,
-      "already_seen": 86,
-      "known_scam": 0,
-      "fetch_failed": 0,
-      "first_pass_dropped": 0,
-      "scam": 2,
-      "legit_unknown": 0,
-      "ineligible": 13,
-      "closed": 0,
-      "deep_analyzed": 0,
-      "scored_high": 0,
-      "discovery": {
-        "google": {
-          "attempted": 5,
-          "successful": 0,
-          "429": 0,
-          "403": 0,
-          "errors": 5,
-          "candidates": 0,
-          "queries_planned": 5,
-          "disabled_reason": ""
-        },
-        "rss": {
-          "attempted": 9,
-          "successful": 6,
-          "failed": 3,
-          "skipped_dead": 1,
-          "candidates": 76
-        },
-        "api": {
-          "sources": 2,
-          "healthy": 2,
-          "failed": 0,
-          "candidates": 57
-        },
-        "seed": {
-          "attempted": 14,
-          "candidates": 14
-        },
-        "total": {
-          "raw": 147,
-          "after_dedupe": 147
-        }
-      },
-      "signal_rescued": 15,
-      "deduped": 0,
-      "matches": 0
-    }
-  },
-  {
-    "at": "2026-08-18T19:42:02.619151+00:00",
-    "kind": "scan_start",
-    "message": "daily scan started"
-  },
-  {
     "at": "2026-08-18T19:42:10.210234+00:00",
     "kind": "error",
     "message": "Fetch failed for https://opportunitiesforyouth.org/2026/08/18/cambridge-eraai-fellowship-2026/: 429"
@@ -3226,6 +2993,152 @@
         }
       },
       "snippet_fallback": 4,
+      "signal_rescued": 1,
+      "deduped": 0,
+      "matches": 0
+    }
+  },
+  {
+    "at": "2026-08-31T11:26:04.894095+00:00",
+    "kind": "scan_start",
+    "message": "daily scan started"
+  },
+  {
+    "at": "2026-08-31T11:29:07.702242+00:00",
+    "kind": "error",
+    "message": "Fetch failed for https://www.dfat.gov.au/people-to-people/australia-awards/australia-awards-scholarships: HTTPSConnectionPool(host='www.dfat.gov.au', port=443): Read timed out. (read timeout=25)"
+  },
+  {
+    "at": "2026-08-31T11:32:26.340078+00:00",
+    "kind": "error",
+    "message": "Fetch failed for https://vanier.gc.ca/en/home-accueil.html: HTTPSConnectionPool(host='vanier.gc.ca', port=443): Max retries exceeded with url: /en/home-accueil.html (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)')))"
+  },
+  {
+    "at": "2026-08-31T11:32:26.603010+00:00",
+    "kind": "error",
+    "message": "Fetch failed for https://opportunitydesk.org/category/fellowships/: 403"
+  },
+  {
+    "at": "2026-08-31T11:39:48.345407+00:00",
+    "kind": "error",
+    "message": "Fetch failed for https://transformthehustle.substack.com/p/july-2026-grants-opportunities: 403"
+  },
+  {
+    "at": "2026-08-31T11:42:09.858979+00:00",
+    "kind": "scan_complete",
+    "message": "daily scan finished",
+    "matches": 0,
+    "stats": {
+      "discovered": 280,
+      "already_seen": 81,
+      "known_scam": 0,
+      "fetch_failed": 3,
+      "first_pass_dropped": 0,
+      "scam": 1,
+      "legit_unknown": 1,
+      "ineligible": 7,
+      "closed": 1,
+      "deep_analyzed": 2,
+      "scored_high": 0,
+      "eligibility_demoted": 0,
+      "jina_fetch": 0,
+      "jina_failed": 0,
+      "snippet_fallback": 1,
+      "legit_unparseable": 0,
+      "trusted_thin_pass": 0,
+      "discovery": {
+        "tavily": {
+          "attempted": 20,
+          "successful": 20,
+          "429": 0,
+          "403": 0,
+          "errors": 0,
+          "candidates": 159,
+          "queries_planned": 20,
+          "disabled_reason": ""
+        },
+        "rss": {
+          "attempted": 4,
+          "successful": 4,
+          "failed": 0,
+          "skipped_dead": 1,
+          "candidates": 56
+        },
+        "api": {
+          "sources": 2,
+          "healthy": 2,
+          "failed": 0,
+          "candidates": 59
+        },
+        "seed": {
+          "attempted": 14,
+          "candidates": 14
+        },
+        "total": {
+          "raw": 288,
+          "after_dedupe": 280
+        }
+      },
+      "signal_rescued": 1,
+      "deduped": 0
+    }
+  },
+  {
+    "at": "2026-08-31T11:42:09.862457+00:00",
+    "kind": "run",
+    "mode": "scan",
+    "environment": "github_actions",
+    "stats": {
+      "discovered": 280,
+      "already_seen": 81,
+      "known_scam": 0,
+      "fetch_failed": 3,
+      "first_pass_dropped": 0,
+      "scam": 1,
+      "legit_unknown": 1,
+      "ineligible": 7,
+      "closed": 1,
+      "deep_analyzed": 2,
+      "scored_high": 0,
+      "eligibility_demoted": 0,
+      "jina_fetch": 0,
+      "jina_failed": 0,
+      "snippet_fallback": 1,
+      "legit_unparseable": 0,
+      "trusted_thin_pass": 0,
+      "discovery": {
+        "tavily": {
+          "attempted": 20,
+          "successful": 20,
+          "429": 0,
+          "403": 0,
+          "errors": 0,
+          "candidates": 159,
+          "queries_planned": 20,
+          "disabled_reason": ""
+        },
+        "rss": {
+          "attempted": 4,
+          "successful": 4,
+          "failed": 0,
+          "skipped_dead": 1,
+          "candidates": 56
+        },
+        "api": {
+          "sources": 2,
+          "healthy": 2,
+          "failed": 0,
+          "candidates": 59
+        },
+        "seed": {
+          "attempted": 14,
+          "candidates": 14
+        },
+        "total": {
+          "raw": 288,
+          "after_dedupe": 280
+        }
+      },
       "signal_rescued": 1,
       "deduped": 0,
       "matches": 0
