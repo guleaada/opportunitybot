@@ -1,40 +1,5 @@
 [
   {
-    "at": "2026-08-18T19:42:10.210234+00:00",
-    "kind": "error",
-    "message": "Fetch failed for https://opportunitiesforyouth.org/2026/08/18/cambridge-eraai-fellowship-2026/: 429"
-  },
-  {
-    "at": "2026-08-18T19:43:58.718434+00:00",
-    "kind": "error",
-    "message": "Fetch failed for https://opportunitydesk.org/2026/08/18/12-study-abroad-scholarship-opportunities-currently-open-august-18-2026/: 403"
-  },
-  {
-    "at": "2026-08-18T19:44:29.459006+00:00",
-    "kind": "error",
-    "message": "Fetch failed for https://opportunitiesforyouth.org/2026/08/18/2027-guggenheim-fellowships-in-usa-and-canada-funding-for-mid-career-professionals/: 429"
-  },
-  {
-    "at": "2026-08-18T19:45:34.483893+00:00",
-    "kind": "error",
-    "message": "Fetch failed for https://www.dfat.gov.au/people-to-people/australia-awards/australia-awards-scholarships: HTTPSConnectionPool(host='www.dfat.gov.au', port=443): Read timed out. (read timeout=25)"
-  },
-  {
-    "at": "2026-08-18T19:47:24.610440+00:00",
-    "kind": "error",
-    "message": "Fetch failed for https://opportunitiesforyouth.org/2026/08/18/fast-forward-2027-accelerator-25000-funding-mentorship-and-global-support-for-early-stage-tech-nonprofits/: 429"
-  },
-  {
-    "at": "2026-08-18T19:48:04.563086+00:00",
-    "kind": "error",
-    "message": "Fetch failed for https://opportunitiesforyouth.org/2026/08/18/cphia-2026-in-addis-ababa/: 429"
-  },
-  {
-    "at": "2026-08-18T19:48:20.512179+00:00",
-    "kind": "error",
-    "message": "Fetch failed for https://opportunitiesforyouth.org/2026/08/18/gsidi-mentorship-fall-2026/: 429"
-  },
-  {
     "at": "2026-08-18T19:48:54.803524+00:00",
     "kind": "error",
     "message": "Fetch failed for https://vanier.gc.ca/en/home-accueil.html: HTTPSConnectionPool(host='vanier.gc.ca', port=443): Max retries exceeded with url: /en/home-accueil.html (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)')))"
@@ -3140,6 +3105,152 @@
         }
       },
       "signal_rescued": 1,
+      "deduped": 0,
+      "matches": 0
+    }
+  },
+  {
+    "at": "2026-09-01T09:48:51.970321+00:00",
+    "kind": "scan_start",
+    "message": "daily scan started"
+  },
+  {
+    "at": "2026-09-01T09:55:56.932520+00:00",
+    "kind": "error",
+    "message": "Fetch failed for https://www.dfat.gov.au/people-to-people/australia-awards/australia-awards-scholarships: HTTPSConnectionPool(host='www.dfat.gov.au', port=443): Read timed out. (read timeout=25)"
+  },
+  {
+    "at": "2026-09-01T09:57:48.866017+00:00",
+    "kind": "error",
+    "message": "Fetch failed for https://vanier.gc.ca/en/home-accueil.html: HTTPSConnectionPool(host='vanier.gc.ca', port=443): Max retries exceeded with url: /en/home-accueil.html (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)')))"
+  },
+  {
+    "at": "2026-09-01T09:57:49.031833+00:00",
+    "kind": "error",
+    "message": "Fetch failed for https://opportunitydesk.org/category/fellowships/: 403"
+  },
+  {
+    "at": "2026-09-01T10:02:33.929132+00:00",
+    "kind": "error",
+    "message": "Fetch failed for https://www.uaf-africa.org/apply-for-a-grant: HTTPSConnectionPool(host='www.uaf-africa.org', port=443): Max retries exceeded with url: /apply-for-a-grant (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.uaf-africa.org', port=443) at 0x7fa79ea4e510>, 'Connection to www.uaf-africa.org timed out. (connect timeout=25)'))"
+  },
+  {
+    "at": "2026-09-01T10:05:07.495990+00:00",
+    "kind": "scan_complete",
+    "message": "daily scan finished",
+    "matches": 0,
+    "stats": {
+      "discovered": 278,
+      "already_seen": 79,
+      "known_scam": 0,
+      "fetch_failed": 3,
+      "first_pass_dropped": 0,
+      "scam": 0,
+      "legit_unknown": 1,
+      "ineligible": 6,
+      "closed": 2,
+      "deep_analyzed": 3,
+      "scored_high": 0,
+      "eligibility_demoted": 0,
+      "jina_fetch": 0,
+      "jina_failed": 0,
+      "snippet_fallback": 1,
+      "legit_unparseable": 0,
+      "trusted_thin_pass": 0,
+      "discovery": {
+        "tavily": {
+          "attempted": 20,
+          "successful": 20,
+          "429": 0,
+          "403": 0,
+          "errors": 0,
+          "candidates": 159,
+          "queries_planned": 20,
+          "disabled_reason": ""
+        },
+        "rss": {
+          "attempted": 4,
+          "successful": 4,
+          "failed": 0,
+          "skipped_dead": 1,
+          "candidates": 56
+        },
+        "api": {
+          "sources": 2,
+          "healthy": 2,
+          "failed": 0,
+          "candidates": 59
+        },
+        "seed": {
+          "attempted": 14,
+          "candidates": 14
+        },
+        "total": {
+          "raw": 288,
+          "after_dedupe": 278
+        }
+      },
+      "signal_rescued": 2,
+      "deduped": 0
+    }
+  },
+  {
+    "at": "2026-09-01T10:05:07.499611+00:00",
+    "kind": "run",
+    "mode": "scan",
+    "environment": "github_actions",
+    "stats": {
+      "discovered": 278,
+      "already_seen": 79,
+      "known_scam": 0,
+      "fetch_failed": 3,
+      "first_pass_dropped": 0,
+      "scam": 0,
+      "legit_unknown": 1,
+      "ineligible": 6,
+      "closed": 2,
+      "deep_analyzed": 3,
+      "scored_high": 0,
+      "eligibility_demoted": 0,
+      "jina_fetch": 0,
+      "jina_failed": 0,
+      "snippet_fallback": 1,
+      "legit_unparseable": 0,
+      "trusted_thin_pass": 0,
+      "discovery": {
+        "tavily": {
+          "attempted": 20,
+          "successful": 20,
+          "429": 0,
+          "403": 0,
+          "errors": 0,
+          "candidates": 159,
+          "queries_planned": 20,
+          "disabled_reason": ""
+        },
+        "rss": {
+          "attempted": 4,
+          "successful": 4,
+          "failed": 0,
+          "skipped_dead": 1,
+          "candidates": 56
+        },
+        "api": {
+          "sources": 2,
+          "healthy": 2,
+          "failed": 0,
+          "candidates": 59
+        },
+        "seed": {
+          "attempted": 14,
+          "candidates": 14
+        },
+        "total": {
+          "raw": 288,
+          "after_dedupe": 278
+        }
+      },
+      "signal_rescued": 2,
       "deduped": 0,
       "matches": 0
     }
