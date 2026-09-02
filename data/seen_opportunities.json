@@ -6563,5 +6563,223 @@
     "id": "3fd2bd3907aab0bf",
     "first_seen": "2026-09-01T10:05:03.831567+00:00",
     "last_updated": "2026-09-01T10:05:03.831583+00:00"
+  },
+  "1aeeba7681a98231": {
+    "url": "https://www.opportunitiesforafricans.com/unu-wider-visiting-phd-fellowship-programme-2027-for-doctoral-students/",
+    "title": "UNU-WIDER Visiting PhD Fellowship Programme 2027 for Doctoral Students (Fully Funded to Helsinki, Finland).",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "model_eligibility_status": "CONFIRMED_INELIGIBLE",
+    "missing_requirements": [],
+    "blocking_issues": [
+      "Must be enrolled in a PhD programme (candidate is not a doctoral student)",
+      "Degree level mismatch (candidate holds only a BSc, not a PhD or equivalent)"
+    ],
+    "addressable_gaps": [
+      "English language proof (candidate could obtain Duolingo or MOI certificate)"
+    ],
+    "reasoning": "The programme explicitly requires applicants to be enrolled in a PhD programme (registered doctoral student). The candidate is a working professional with only a BSc and is not currently a student, which directly violates this core eligibility criterion. While the candidate meets nationality (Ethiopian, eligible for African-focused programme) and could address the English fluency documentation, the lack of PhD enrollment is a non‑addressable hard blocker.",
+    "id": "1aeeba7681a98231",
+    "first_seen": "2026-09-02T09:22:45.474826+00:00",
+    "last_updated": "2026-09-02T09:22:45.474833+00:00"
+  },
+  "94f35ec8c16b6dce": {
+    "url": "https://opportunitiescorners.com/doha-institute-for-graduate-studies-scholarship-2027/",
+    "title": "Doha Institute for Graduate Studies Scholarship 2027 (Fully Funded)",
+    "status": "analyzed",
+    "score": 0.0,
+    "category": null,
+    "official_url": "https://opportunitiescorners.com/doha-institute-for-graduate-studies-scholarship-2027/",
+    "location": null,
+    "remote": null,
+    "deadline": "2027-01-15",
+    "reward": 3,
+    "estimated_value": null,
+    "eligibility_status": "PROBABLY_ELIGIBLE",
+    "credibility_status": "LIKELY_LEGITIMATE",
+    "source_tier": "TIER_3",
+    "source_quality": 7,
+    "requirements": [
+      "Certified Bachelor’s and/or Master’s transcripts",
+      "English language test scores (IELTS Academic ≥6.5 or TOEFL) or official waiver letter from university",
+      "Minimum three academic reference letters",
+      "Updated curriculum vitae (CV)"
+    ],
+    "id": "94f35ec8c16b6dce",
+    "first_seen": "2026-09-02T09:25:10.578154+00:00",
+    "last_updated": "2026-09-02T09:25:10.578166+00:00"
+  },
+  "3a60554f32a8f3c3": {
+    "url": "https://www.opportunitiesforafricans.com/the-kaust-global-fellowship-program-2027/",
+    "title": "The KAUST Global Fellowship Program 2027 for Early-Career Researchers (Fully Funded)",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "model_eligibility_status": "CONFIRMED_INELIGIBLE",
+    "missing_requirements": [],
+    "blocking_issues": [
+      "Must have been awarded a Ph.D. degree (degree level mismatch)"
+    ],
+    "addressable_gaps": [],
+    "reasoning": "The program explicitly requires applicants to have been awarded a Ph.D. degree (within four calendar years, after Jan 2023). The candidate only holds a BSc and is a working professional, not a PhD holder, thus does not meet this mandatory requirement. Nationality is not a barrier as all nationalities are welcome.",
+    "id": "3a60554f32a8f3c3",
+    "first_seen": "2026-09-02T09:26:18.703953+00:00",
+    "last_updated": "2026-09-02T09:26:18.703965+00:00"
+  },
+  "49d96a0c03acdd63": {
+    "url": "https://www.opportunitiesforafricans.com/the-schlumberger-foundation-faculty-for-the-future-fellowships-2027-2028/",
+    "title": "The Schlumberger Foundation Faculty for the Future Fellowships 2027/2028 for PhD or Post-doctoral research in STEM (USD 50,000 per year grant).",
+    "status": "unknown",
+    "eligibility_status": "UNCERTAIN",
+    "model_eligibility_status": "UNCERTAIN",
+    "missing_requirements": [],
+    "blocking_issues": [],
+    "addressable_gaps": [],
+    "reasoning": "No reasoning returned.",
+    "id": "49d96a0c03acdd63",
+    "first_seen": "2026-09-02T09:27:29.587232+00:00",
+    "last_updated": "2026-09-02T09:27:29.587242+00:00"
+  },
+  "658f9c9f4b31f9f1": {
+    "url": "https://www.opportunitiesforafricans.com/unu-wider-visiting-scholars-programme-2027/",
+    "title": "UNU-WIDER Visiting Scholars Programme 2027 for PhD Scholars (Fully Funded to Helsinki, Finland)",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "model_eligibility_status": "CONFIRMED_INELIGIBLE",
+    "missing_requirements": [
+      "English language proficiency requirement (not stated)",
+      "Age limit (not stated)",
+      "Specific publication record (not stated)",
+      "Citizenship eligibility details beyond being African (not stated)"
+    ],
+    "blocking_issues": [
+      "PhD degree required; candidate only has a BSc"
+    ],
+    "addressable_gaps": [],
+    "reasoning": "The programme explicitly requires applicants to have a PhD degree in economics or a development-related discipline. The candidate only holds a BSc in Psychology and is a working professional, not a PhD holder. This degree level mismatch is a hard blocker.",
+    "id": "658f9c9f4b31f9f1",
+    "first_seen": "2026-09-02T09:28:29.722415+00:00",
+    "last_updated": "2026-09-02T09:28:29.722425+00:00"
+  },
+  "7206e6ea3853b3ea": {
+    "url": "https://opportunitiescorners.com/global-connect-summit-spain-2027/",
+    "title": "Global Connect Summit Spain 2027 (Fully Funded)",
+    "status": "scam",
+    "credibility_status": "HIGH_RISK",
+    "source_tier": "TIER_3",
+    "reasoning": "The summit advertises \"fully funded\" delegates yet explicitly states an \"Application Fee\" is charged by the organizer, a classic red flag. The organizer (Voice For Rights International Association) is not a recognized institution, and the official contact is a generic Gmail address, both strong indicators of fraud.",
+    "id": "7206e6ea3853b3ea",
+    "first_seen": "2026-09-02T09:29:17.112148+00:00",
+    "last_updated": "2026-09-02T09:29:17.112156+00:00"
+  },
+  "fa9a139efeefd8b6": {
+    "url": "https://www.opportunitiesforafricans.com/the-africacdc-youth-pre-conference-2026/",
+    "title": "The AfricaCDC Youth Pre-Conference 2026 for young Africans (Fully Funded to Addis Ababa, Ethiopia)",
+    "status": "analyzed",
+    "score": 0.0,
+    "category": null,
+    "official_url": "https://www.opportunitiesforafricans.com/the-africacdc-youth-pre-conference-2026/",
+    "location": null,
+    "remote": null,
+    "deadline": "2026-09-13",
+    "reward": 3,
+    "estimated_value": null,
+    "eligibility_status": "PROBABLY_ELIGIBLE",
+    "credibility_status": "LIKELY_LEGITIMATE",
+    "source_tier": "TIER_3",
+    "source_quality": 7,
+    "requirements": [
+      "Completed online application form",
+      "Curriculum vitae (CV) (maximum two pages)",
+      "Passport biodata page",
+      "Any additional information requested in the application form"
+    ],
+    "id": "fa9a139efeefd8b6",
+    "first_seen": "2026-09-02T09:31:27.963334+00:00",
+    "last_updated": "2026-09-02T09:31:27.963344+00:00"
+  },
+  "d708add232c187e3": {
+    "url": "https://www.opportunitiesforafricans.com/the-democratic-alliance-da-young-leaders-programme-2027/",
+    "title": "The Democratic Alliance (DA) Young Leaders Programme 2027 for young South Africans.",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "model_eligibility_status": "CONFIRMED_INELIGIBLE",
+    "missing_requirements": [],
+    "blocking_issues": [
+      "Nationality not South African (must be South African citizen)",
+      "Residency requirement not met (must live in South Africa or be returning)"
+    ],
+    "addressable_gaps": [],
+    "reasoning": "The programme explicitly requires applicants to be South African citizens aged 18-35 and to be residing in South Africa (or returning soon). The candidate is an Ethiopian national living in Laos and has no indication of South African citizenship or plans to return, which directly violates the citizenship and residency requirements.",
+    "id": "d708add232c187e3",
+    "first_seen": "2026-09-02T09:32:23.880630+00:00",
+    "last_updated": "2026-09-02T09:32:23.880637+00:00"
+  },
+  "c21a5d4986e850e8": {
+    "url": "https://www.opportunitiesforafricans.com/pierre-elliott-trudeau-foundation-doctoral-scholarships-2027/",
+    "title": "Pierre Elliott Trudeau Foundation Doctoral Scholarships 2027 for study in Canada ($60,000 per scholar)",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "model_eligibility_status": "CONFIRMED_INELIGIBLE",
+    "missing_requirements": [
+      "Proof of English language proficiency (if required by the foundation)."
+    ],
+    "blocking_issues": [
+      "Must be enrolled in a PhD program (first or second year) – candidate is not a PhD student.",
+      "Must be a Canadian student or an international student enrolled at a Canadian university – candidate is neither.",
+      "Must be a student – candidate is a working professional."
+    ],
+    "addressable_gaps": [],
+    "reasoning": "The scholarship requires applicants to be either a Canadian student (enrolled at a Canadian university or abroad) or an international student enrolled at a Canadian university. Gulilat is an Ethiopian national, not a Canadian student, and is not enrolled at any university (working professional). Additionally, applicants must be in the first or second year of a PhD program, which Gulilat is not (holds only a BSc). These are hard, non‑addressable blockers.",
+    "id": "c21a5d4986e850e8",
+    "first_seen": "2026-09-02T09:33:39.325120+00:00",
+    "last_updated": "2026-09-02T09:33:39.325131+00:00"
+  },
+  "7fec01242bb88138": {
+    "url": "https://www.opportunitiesforafricans.com/investec-ca-programme-2028-for-young-south-african-undergraduates/",
+    "title": "Investec CA Programme 2028 for young South African Undergraduates.",
+    "status": "unknown",
+    "eligibility_status": "UNCERTAIN",
+    "model_eligibility_status": "UNCERTAIN",
+    "missing_requirements": [],
+    "blocking_issues": [],
+    "addressable_gaps": [],
+    "reasoning": "No reasoning returned.",
+    "id": "7fec01242bb88138",
+    "first_seen": "2026-09-02T09:34:53.621686+00:00",
+    "last_updated": "2026-09-02T09:34:53.621702+00:00"
+  },
+  "7c0da9306f86d473": {
+    "url": "https://www.scholarshiptab.com/fellowship/fully-funded",
+    "title": "Fully Funded Postdoctoral Fellowship For International ...",
+    "status": "ineligible",
+    "eligibility_status": "PROBABLY_INELIGIBLE",
+    "model_eligibility_status": "PROBABLY_INELIGIBLE",
+    "missing_requirements": [
+      "Explicit program criteria such as required degree, citizenship eligibility, English language proficiency, age limits are not provided in the text"
+    ],
+    "blocking_issues": [
+      "Degree level mismatch: requires PhD/doctoral degree, candidate holds only BSc"
+    ],
+    "addressable_gaps": [],
+    "reasoning": "The program is a postdoctoral fellowship, which typically requires applicants to hold a PhD or equivalent doctoral degree and to be engaged in post‑doctoral research. The candidate only has a BSc in Psychology and is a working professional, not a doctoral graduate, creating a hard degree‑level mismatch. No explicit nationality or age restrictions are stated, but the lack of a doctorate is a decisive barrier.",
+    "id": "7c0da9306f86d473",
+    "first_seen": "2026-09-02T09:35:22.945109+00:00",
+    "last_updated": "2026-09-02T09:35:22.945127+00:00"
+  },
+  "2210dfca4f3a380a": {
+    "url": "https://www.opportunitiesforafricans.com/frieslandcampina-global-traineeship-program-2026-for-young-nigerian-graduates/",
+    "title": "FrieslandCampina Global Traineeship Program 2026 for young Nigerian graduates.",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "model_eligibility_status": "CONFIRMED_INELIGIBLE",
+    "missing_requirements": [],
+    "blocking_issues": [
+      "Nationality not eligible (program limited to Nigerian graduates)"
+    ],
+    "addressable_gaps": [],
+    "reasoning": "The program is explicitly titled 'FrieslandCampina Global Traineeship Program 2026 for young Nigerian graduates' and requires applicants to be Nigerian nationals. The candidate is Ethiopian, which directly violates the nationality requirement. Other criteria (bachelor's degree, English fluency) are potentially met, but the nationality exclusion is a hard blocker.",
+    "id": "2210dfca4f3a380a",
+    "first_seen": "2026-09-02T09:36:11.866688+00:00",
+    "last_updated": "2026-09-02T09:36:11.866701+00:00"
   }
 }
