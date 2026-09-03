@@ -6781,5 +6781,232 @@
     "id": "2210dfca4f3a380a",
     "first_seen": "2026-09-02T09:36:11.866688+00:00",
     "last_updated": "2026-09-02T09:36:11.866701+00:00"
+  },
+  "133a1aadfb98a296": {
+    "url": "https://www.opportunitiesforafricans.com/julius-berger-nigeria-plc-female-scholarship-award-2026-for-nigerian-female-undergraduates/",
+    "title": "Julius Berger Nigeria Plc. Female Scholarship Award 2026 for Nigerian female undergraduates.",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "model_eligibility_status": "CONFIRMED_INELIGIBLE",
+    "missing_requirements": [
+      "Minimum CGPA (not applicable as candidate is not a student)"
+    ],
+    "blocking_issues": [
+      "Nationality not Nigerian",
+      "Not currently a student (required full‑time undergraduate)",
+      "Degree field not engineering/technology",
+      "Not enrolled in a Nigerian federal or state university",
+      "Not in second year of study"
+    ],
+    "addressable_gaps": [],
+    "reasoning": "The scholarship explicitly requires applicants to be citizens of Nigeria, be enrolled as full‑time female undergraduates in a Nigerian federal or state university, be in their second year of study, and be pursuing an engineering/technology related programme. The candidate is an Ethiopian national, a working professional (not a student), holds a BSc in Psychology, and is not studying in Nigeria. These criteria are hard blockers.",
+    "id": "133a1aadfb98a296",
+    "first_seen": "2026-09-03T09:32:16.880342+00:00",
+    "last_updated": "2026-09-03T09:32:16.880352+00:00"
+  },
+  "e09629a7085948c9": {
+    "url": "https://www.opportunitiesforafricans.com/the-iaea-marie-sklodowska-curie-fellowship-programme-mscfp-2027-2029/",
+    "title": "The IAEA Marie Sklodowska-Curie Fellowship Programme (MSCFP) 2027/2029 for young women (€40,000 in tuition and living cost)",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "model_eligibility_status": "CONFIRMED_INELIGIBLE",
+    "missing_requirements": [
+      "Specific English language test requirement is not stated; only that documents must be in English"
+    ],
+    "blocking_issues": [
+      "Not enrolled in a master's programme (required)",
+      "Field of study not nuclear‑related (required)",
+      "Only holds a bachelor's degree (master's enrolment required)"
+    ],
+    "addressable_gaps": [
+      "Could apply for admission to a master's programme in a nuclear‑related discipline and obtain an acceptance letter",
+      "Could obtain an English proficiency proof if required for document translation"
+    ],
+    "reasoning": "The programme explicitly requires candidates to be *accepted by or enrolled in an accredited university in a master's programme in a nuclear‑related field*. Gulilat holds only a BSc in Psychology, is not currently a student, and works as a professional in AI/tech. She is therefore not meeting the core enrollment and field‑of‑study requirement. Additionally, the fellowship is for master’s students, which she is not.",
+    "id": "e09629a7085948c9",
+    "first_seen": "2026-09-03T09:33:42.069527+00:00",
+    "last_updated": "2026-09-03T09:33:42.069541+00:00"
+  },
+  "2947909e62b74fda": {
+    "url": "https://www.opportunitiesforafricans.com/the-aref-mrc-towards-leadership-programme-2026-2027/",
+    "title": "The AREF-MRC Towards Leadership Programme 2026/2027 for Emerging African Scientists (Fully Funded)",
+    "status": "unknown",
+    "eligibility_status": "UNCERTAIN",
+    "model_eligibility_status": "UNCERTAIN",
+    "missing_requirements": [
+      "Explicit degree level requirement (e.g., MSc/PhD)",
+      "Required research experience or publications",
+      "English language proficiency requirement",
+      "Any age limit",
+      "Student vs. professional status requirement"
+    ],
+    "blocking_issues": [],
+    "addressable_gaps": [
+      "Obtain an English proficiency test (IELTS/TOEFL/Duolingo) if the programme later requires it",
+      "Provide evidence of research experience or publications if required"
+    ],
+    "reasoning": "The programme description does not specify concrete eligibility criteria such as required degree level, research experience, English proficiency, or age limits. While the candidate meets the obvious African nationality requirement, it is unclear whether a BSc alone satisfies the (unstated) scientific qualification expectations, or whether being a non‑student professional is acceptable. Without explicit criteria, we cannot confirm eligibility nor declare a hard blocker.",
+    "id": "2947909e62b74fda",
+    "first_seen": "2026-09-03T09:34:39.513425+00:00",
+    "last_updated": "2026-09-03T09:34:39.513435+00:00"
+  },
+  "9409516ccfd05212": {
+    "url": "https://opportunitiescorners.com/harvard-environmental-fellows-program-2027/",
+    "title": "Harvard Environmental Fellows Program 2027 (Fully Funded)",
+    "status": "suspicious",
+    "credibility_status": "SUSPICIOUS",
+    "source_tier": "TIER_3",
+    "reasoning": "The page offers a Harvard‑named fellowship but provides no official Harvard (.harvard.edu) link or contact; the only email is a generic Gmail address. The program name and details cannot be verified on Harvard’s website, which is a strong indicator of a fabricated or misrepresented opportunity.",
+    "id": "9409516ccfd05212",
+    "first_seen": "2026-09-03T09:35:26.190176+00:00",
+    "last_updated": "2026-09-03T09:35:26.190186+00:00"
+  },
+  "2b72aba275cf7321": {
+    "url": "https://opportunitiescorners.com/google-cloud-ai-builder-cup-2026-in-singapore/",
+    "title": "Google Cloud AI Builder Cup 2026 in Singapore (Fully Funded)",
+    "status": "analyzed",
+    "score": 0.0,
+    "category": null,
+    "official_url": "https://opportunitiescorners.com/google-cloud-ai-builder-cup-2026-in-singapore/",
+    "location": null,
+    "remote": null,
+    "deadline": "2026-10-04",
+    "reward": 1.5,
+    "estimated_value": null,
+    "eligibility_status": "PROBABLY_ELIGIBLE",
+    "credibility_status": "LIKELY_LEGITIMATE",
+    "source_tier": "TIER_3",
+    "source_quality": 7,
+    "requirements": [],
+    "id": "2b72aba275cf7321",
+    "first_seen": "2026-09-03T09:37:31.230127+00:00",
+    "last_updated": "2026-09-03T09:37:31.230136+00:00"
+  },
+  "55df4e1bd07aebea": {
+    "url": "https://www.opportunitiesforafricans.com/ecowas-bank-for-investment-and-development-ebid-young-professionals-programme-2026/",
+    "title": "ECOWAS Bank for Investment and Development (EBID) Young Professionals Programme 2026 for West African Graduates.",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "model_eligibility_status": "PROBABLY_INELIGIBLE",
+    "missing_requirements": [],
+    "blocking_issues": [
+      "Citizenship: not a citizen of an ECOWAS member state",
+      "Degree level: holds only a BSc, program requires a Master's degree or equivalent"
+    ],
+    "addressable_gaps": [
+      "Obtain a recognized Master's degree or an equivalent qualification (if the programme accepts an alternative qualification)",
+      "Provide formal proof of language proficiency if required"
+    ],
+    "reasoning": "The programme requires applicants to be citizens of an ECOWAS Member State and to hold a Master's degree or equivalent qualification. The candidate is an Ethiopian national (Ethiopia is not an ECOWAS member) and only has a BSc, which does not meet the Master's degree requirement. Age and language proficiency are acceptable, but the two hard criteria are not satisfied.",
+    "id": "55df4e1bd07aebea",
+    "first_seen": "2026-09-03T09:38:41.166763+00:00",
+    "last_updated": "2026-09-03T09:38:41.166774+00:00"
+  },
+  "f0ea42b5cbc24eb5": {
+    "url": "https://www.opportunitiesforafricans.com/japan-international-cooperation-center-jice-japan-africa-youth-program-2026/",
+    "title": "Japan International Cooperation Center (JICE) Japan-Africa Youth Program 2026 for African Animation Professionals (Fully Funded to Japan)",
+    "status": "unknown",
+    "eligibility_status": "UNCERTAIN",
+    "model_eligibility_status": "UNCERTAIN",
+    "missing_requirements": [],
+    "blocking_issues": [],
+    "addressable_gaps": [],
+    "reasoning": "No reasoning returned.",
+    "id": "f0ea42b5cbc24eb5",
+    "first_seen": "2026-09-03T09:40:01.120415+00:00",
+    "last_updated": "2026-09-03T09:40:01.120425+00:00"
+  },
+  "3776ee8ce41a3999": {
+    "url": "https://www.opportunitiesforafricans.com/the-julius-berger-nigeria-jbn-commercial-graduate-trainee-programme-2026/",
+    "title": "The Julius Berger Nigeria (JBN) Commercial Graduate Trainee Programme 2026 for young Nigerian graduates.",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "model_eligibility_status": "CONFIRMED_INELIGIBLE",
+    "missing_requirements": [],
+    "blocking_issues": [
+      "Nationality mismatch (Ethiopian, not Nigerian)",
+      "Age exceeds limit (27 > 26)",
+      "Degree field not related (Psychology vs Accounting/Finance/Economics)",
+      "NYSC completion not met"
+    ],
+    "addressable_gaps": [],
+    "reasoning": "The programme explicitly requires applicants to be young Nigerian graduates (implying Nigerian nationality), not more than 26 years old, holding a university degree in Accounting, Finance, Economics or a related field, and to have completed NYSC within the past year. The candidate is Ethiopian, 27 years old, holds a BSc in Psychology, and has not completed NYSC, thus fails multiple hard eligibility criteria.",
+    "id": "3776ee8ce41a3999",
+    "first_seen": "2026-09-03T09:41:00.029339+00:00",
+    "last_updated": "2026-09-03T09:41:00.029354+00:00"
+  },
+  "f8039304ae23ce8a": {
+    "url": "https://www.opportunitiesforafricans.com/the-civichive-creative-changemakers-fellowship-ccmf-2026-for-young-nigerian-creatives/",
+    "title": "The CivicHive Creative Changemakers Fellowship (CCMF) 2026 for young Nigerian creatives.",
+    "status": "legitimacy_unknown",
+    "credibility_status": "NEEDS_VERIFICATION",
+    "source_tier": "TIER_3",
+    "reasoning": "The listing does not mention any application or participation fee, which is a good sign, but it provides only a generic email address and no direct link to an official CivicHive website, making it hard to verify the program’s authenticity.",
+    "id": "f8039304ae23ce8a",
+    "first_seen": "2026-09-03T09:41:37.820069+00:00",
+    "last_updated": "2026-09-03T09:41:37.820084+00:00"
+  },
+  "41b891c696dc951f": {
+    "url": "https://www.opportunitiesforafricans.com/the-au-eu-youth-action-lab-entrepreneurship-grants-2026-for-youth-led-initiatives-in-africa/",
+    "title": "The AU-EU Youth Action Lab Entrepreneurship Grants 2026 for youth-led initiatives in Africa (31,500 EURO grant)",
+    "status": "unknown",
+    "eligibility_status": "UNCERTAIN",
+    "model_eligibility_status": "UNCERTAIN",
+    "missing_requirements": [],
+    "blocking_issues": [],
+    "addressable_gaps": [],
+    "reasoning": "No reasoning returned.",
+    "id": "41b891c696dc951f",
+    "first_seen": "2026-09-03T09:42:42.539600+00:00",
+    "last_updated": "2026-09-03T09:42:42.539615+00:00"
+  },
+  "955bcdcc6af33179": {
+    "url": "https://www.scholarshiptab.com/masters/fully-funded",
+    "title": "Fully Funded Masters Scholarships For International ...",
+    "status": "legitimacy_unknown",
+    "credibility_status": "NEEDS_VERIFICATION",
+    "source_tier": "TIER_4",
+    "reasoning": "The page is an aggregator with generic text and no specific scholarship details, fees, or contact information to verify legitimacy. No red‑flag language is present, but there is insufficient evidence to confirm that the listed scholarships are genuine.",
+    "id": "955bcdcc6af33179",
+    "first_seen": "2026-09-03T09:43:09.752267+00:00",
+    "last_updated": "2026-09-03T09:43:09.752276+00:00"
+  },
+  "7c7cc610b85b849a": {
+    "url": "https://www.opportunitiesforafricans.com/cifar-azrieli-global-scholars-program-2027-2029-for-early-career-researchers/",
+    "title": "CIFAR Azrieli Global Scholars Program 2027/2029 for Early Career Researchers (CDN $100,000 in Funding).",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "model_eligibility_status": "CONFIRMED_INELIGIBLE",
+    "missing_requirements": [],
+    "blocking_issues": [
+      "No PhD (degree level mismatch)",
+      "Does not hold a full‑time research/tenure‑track position leading independent research and supervising graduate students"
+    ],
+    "addressable_gaps": [
+      "Obtain a PhD (requires multi‑year study)",
+      "Secure a full‑time academic/research position with PI responsibilities"
+    ],
+    "reasoning": "The program explicitly requires applicants to hold a PhD (or equivalent) and to have a full-time position at a higher‑education or research institution where they lead independent research as a principal investigator and supervise graduate trainees. The candidate only has a BSc degree and works as a professional AI developer/marketing specialist, not in an academic research role. Therefore the candidate does not meet these mandatory criteria.",
+    "id": "7c7cc610b85b849a",
+    "first_seen": "2026-09-03T09:44:11.017831+00:00",
+    "last_updated": "2026-09-03T09:44:11.017842+00:00"
+  },
+  "580df3be392d8eb9": {
+    "url": "https://www.opportunitiesforafricans.com/the-ashoka-carnegie-challenge-2026-for-civic-leadership/",
+    "title": "The Ashoka-Carnegie Challenge 2026/2027 for Civic Leadership (Seed funding and Fully-Funded to in-person convening)",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "model_eligibility_status": "CONFIRMED_INELIGIBLE",
+    "missing_requirements": [],
+    "blocking_issues": [
+      "Age cap exceeded: candidate is 27, program requires age 20 or younger by Jan 31, 2027",
+      "Residency mismatch: candidate is based in Lao PDR, program requires Kenya/Nigeria/South Africa/US and U.S. territories",
+      "Citizenship mismatch: candidate is Ethiopian national; eligible countries are Kenya, Nigeria, South Africa, and US/U.S. territories only"
+    ],
+    "addressable_gaps": [],
+    "reasoning": "The Ashoka-Carnegie Challenge explicitly requires participants to be (1) aged 20 or younger by January 31, 2027, (2) located in Kenya, Nigeria, South Africa, and/or the United States and U.S. territories, and (3) the project lead must be under 20. The candidate is 27 years old, an Ethiopian national based in Vientiane, Lao PDR — failing both the age cap and the residency/citizenship requirements outright.",
+    "id": "580df3be392d8eb9",
+    "first_seen": "2026-09-03T09:45:35.370687+00:00",
+    "last_updated": "2026-09-03T09:45:35.370700+00:00"
   }
 }
