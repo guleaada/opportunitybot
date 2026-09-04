@@ -1,153 +1,5 @@
 [
   {
-    "at": "2026-08-18T22:43:45.929443+00:00",
-    "kind": "error",
-    "message": "Fetch failed for https://opportunitydesk.org/category/fellowships/: 403"
-  },
-  {
-    "at": "2026-08-18T22:46:58.160437+00:00",
-    "kind": "scan_complete",
-    "message": "daily scan finished",
-    "matches": 0,
-    "stats": {
-      "discovered": 147,
-      "already_seen": 87,
-      "known_scam": 0,
-      "fetch_failed": 3,
-      "first_pass_dropped": 1,
-      "scam": 0,
-      "legit_unknown": 0,
-      "ineligible": 10,
-      "closed": 0,
-      "deep_analyzed": 0,
-      "scored_high": 0,
-      "discovery": {
-        "google": {
-          "attempted": 1,
-          "successful": 0,
-          "429": 0,
-          "403": 1,
-          "errors": 0,
-          "candidates": 0,
-          "queries_planned": 5,
-          "stopped_early": true,
-          "disabled_reason": "forbidden [global; PERMISSION_DENIED]: This project does not have the access to Custom Search JSON API."
-        },
-        "rss": {
-          "attempted": 6,
-          "successful": 6,
-          "failed": 0,
-          "skipped_dead": 1,
-          "candidates": 76
-        },
-        "api": {
-          "sources": 2,
-          "healthy": 2,
-          "failed": 0,
-          "candidates": 57
-        },
-        "seed": {
-          "attempted": 14,
-          "candidates": 14
-        },
-        "total": {
-          "raw": 147,
-          "after_dedupe": 147
-        }
-      },
-      "signal_rescued": 9,
-      "analysis_unavailable": 1,
-      "deduped": 0
-    }
-  },
-  {
-    "at": "2026-08-18T22:46:58.163002+00:00",
-    "kind": "run",
-    "mode": "scan",
-    "environment": "github_actions",
-    "stats": {
-      "discovered": 147,
-      "already_seen": 87,
-      "known_scam": 0,
-      "fetch_failed": 3,
-      "first_pass_dropped": 1,
-      "scam": 0,
-      "legit_unknown": 0,
-      "ineligible": 10,
-      "closed": 0,
-      "deep_analyzed": 0,
-      "scored_high": 0,
-      "discovery": {
-        "google": {
-          "attempted": 1,
-          "successful": 0,
-          "429": 0,
-          "403": 1,
-          "errors": 0,
-          "candidates": 0,
-          "queries_planned": 5,
-          "stopped_early": true,
-          "disabled_reason": "forbidden [global; PERMISSION_DENIED]: This project does not have the access to Custom Search JSON API."
-        },
-        "rss": {
-          "attempted": 6,
-          "successful": 6,
-          "failed": 0,
-          "skipped_dead": 1,
-          "candidates": 76
-        },
-        "api": {
-          "sources": 2,
-          "healthy": 2,
-          "failed": 0,
-          "candidates": 57
-        },
-        "seed": {
-          "attempted": 14,
-          "candidates": 14
-        },
-        "total": {
-          "raw": 147,
-          "after_dedupe": 147
-        }
-      },
-      "signal_rescued": 9,
-      "analysis_unavailable": 1,
-      "deduped": 0,
-      "matches": 0
-    }
-  },
-  {
-    "at": "2026-08-18T22:56:57.835021+00:00",
-    "kind": "scan_start",
-    "message": "daily scan started"
-  },
-  {
-    "at": "2026-08-18T22:58:29.691832+00:00",
-    "kind": "error",
-    "message": "Fetch failed for https://opportunitydesk.org/2026/05/17/44-grants-funding-and-cash-prizes-currently-open-may-17-2026: 403"
-  },
-  {
-    "at": "2026-08-18T22:58:59.307306+00:00",
-    "kind": "error",
-    "message": "Fetch failed for https://www.dfat.gov.au/people-to-people/australia-awards/australia-awards-scholarships: HTTPSConnectionPool(host='www.dfat.gov.au', port=443): Read timed out. (read timeout=25)"
-  },
-  {
-    "at": "2026-08-18T22:59:30.140830+00:00",
-    "kind": "error",
-    "message": "Fetch failed for https://www.facebook.com/groups/ascholarship: 400"
-  },
-  {
-    "at": "2026-08-18T23:00:02.451583+00:00",
-    "kind": "error",
-    "message": "Fetch failed for https://opportunitydesk.org/2026/05/22/aigc-for-future-global-challenge-2026: 403"
-  },
-  {
-    "at": "2026-08-18T23:00:29.797183+00:00",
-    "kind": "error",
-    "message": "Fetch failed for https://vanier.gc.ca/en/home-accueil.html: HTTPSConnectionPool(host='vanier.gc.ca', port=443): Max retries exceeded with url: /en/home-accueil.html (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)')))"
-  },
-  {
     "at": "2026-08-18T23:00:29.946180+00:00",
     "kind": "error",
     "message": "Fetch failed for https://opportunitydesk.org/category/fellowships/: 403"
@@ -3269,6 +3121,162 @@
         }
       },
       "signal_rescued": 5,
+      "deduped": 0,
+      "matches": 0
+    }
+  },
+  {
+    "at": "2026-09-04T09:22:43.530374+00:00",
+    "kind": "scan_start",
+    "message": "daily scan started"
+  },
+  {
+    "at": "2026-09-04T09:29:26.521281+00:00",
+    "kind": "error",
+    "message": "Fetch failed for https://www.dfat.gov.au/people-to-people/australia-awards/australia-awards-scholarships: HTTPSConnectionPool(host='www.dfat.gov.au', port=443): Read timed out. (read timeout=25)"
+  },
+  {
+    "at": "2026-09-04T09:31:31.249406+00:00",
+    "kind": "error",
+    "message": "Fetch failed for https://vanier.gc.ca/en/home-accueil.html: HTTPSConnectionPool(host='vanier.gc.ca', port=443): Max retries exceeded with url: /en/home-accueil.html (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)')))"
+  },
+  {
+    "at": "2026-09-04T09:31:31.417890+00:00",
+    "kind": "error",
+    "message": "Fetch failed for https://opportunitydesk.org/category/fellowships/: 403"
+  },
+  {
+    "at": "2026-09-04T09:34:29.396590+00:00",
+    "kind": "error",
+    "message": "Fetch failed for https://www.facebook.com/opportunitiesforyouth/posts/-25-global-awards-prizes-competition-opportunities-for-20262027ready-to-win-fund/1453042423519773: 400"
+  },
+  {
+    "at": "2026-09-04T09:34:59.356504+00:00",
+    "kind": "error",
+    "message": "Fetch failed for https://jobglance.app/jobs/visa-sponsorship/us: 404"
+  },
+  {
+    "at": "2026-09-04T09:35:06.273043+00:00",
+    "kind": "error",
+    "message": "Fetch failed for https://www.facebook.com/opportunitiesforyouth/posts/-princeton-in-africa-fellowship-202728-host-talented-young-professionals-across-/1508478037976211: 400"
+  },
+  {
+    "at": "2026-09-04T09:35:42.528164+00:00",
+    "kind": "scan_complete",
+    "message": "daily scan finished",
+    "matches": 0,
+    "stats": {
+      "discovered": 278,
+      "already_seen": 74,
+      "known_scam": 0,
+      "fetch_failed": 3,
+      "first_pass_dropped": 2,
+      "scam": 0,
+      "legit_unknown": 2,
+      "ineligible": 5,
+      "closed": 0,
+      "deep_analyzed": 3,
+      "scored_high": 0,
+      "eligibility_demoted": 0,
+      "jina_fetch": 0,
+      "jina_failed": 0,
+      "snippet_fallback": 3,
+      "legit_unparseable": 0,
+      "trusted_thin_pass": 0,
+      "discovery": {
+        "tavily": {
+          "attempted": 20,
+          "successful": 20,
+          "429": 0,
+          "403": 0,
+          "errors": 0,
+          "candidates": 160,
+          "queries_planned": 20,
+          "disabled_reason": ""
+        },
+        "rss": {
+          "attempted": 4,
+          "successful": 4,
+          "failed": 0,
+          "skipped_dead": 1,
+          "candidates": 56
+        },
+        "api": {
+          "sources": 2,
+          "healthy": 2,
+          "failed": 0,
+          "candidates": 58
+        },
+        "seed": {
+          "attempted": 14,
+          "candidates": 14
+        },
+        "total": {
+          "raw": 288,
+          "after_dedupe": 278
+        }
+      },
+      "signal_rescued": 1,
+      "deduped": 0
+    }
+  },
+  {
+    "at": "2026-09-04T09:35:42.531685+00:00",
+    "kind": "run",
+    "mode": "scan",
+    "environment": "github_actions",
+    "stats": {
+      "discovered": 278,
+      "already_seen": 74,
+      "known_scam": 0,
+      "fetch_failed": 3,
+      "first_pass_dropped": 2,
+      "scam": 0,
+      "legit_unknown": 2,
+      "ineligible": 5,
+      "closed": 0,
+      "deep_analyzed": 3,
+      "scored_high": 0,
+      "eligibility_demoted": 0,
+      "jina_fetch": 0,
+      "jina_failed": 0,
+      "snippet_fallback": 3,
+      "legit_unparseable": 0,
+      "trusted_thin_pass": 0,
+      "discovery": {
+        "tavily": {
+          "attempted": 20,
+          "successful": 20,
+          "429": 0,
+          "403": 0,
+          "errors": 0,
+          "candidates": 160,
+          "queries_planned": 20,
+          "disabled_reason": ""
+        },
+        "rss": {
+          "attempted": 4,
+          "successful": 4,
+          "failed": 0,
+          "skipped_dead": 1,
+          "candidates": 56
+        },
+        "api": {
+          "sources": 2,
+          "healthy": 2,
+          "failed": 0,
+          "candidates": 58
+        },
+        "seed": {
+          "attempted": 14,
+          "candidates": 14
+        },
+        "total": {
+          "raw": 288,
+          "after_dedupe": 278
+        }
+      },
+      "signal_rescued": 1,
       "deduped": 0,
       "matches": 0
     }

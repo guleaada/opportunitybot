@@ -7008,5 +7008,197 @@
     "id": "580df3be392d8eb9",
     "first_seen": "2026-09-03T09:45:35.370687+00:00",
     "last_updated": "2026-09-03T09:45:35.370700+00:00"
+  },
+  "2e4b6f593e6cdf36": {
+    "url": "https://opportunitiescorners.com/irena-youth-forum-2027/",
+    "title": "IRENA Youth Forum 2027 in Abu Dhabi, UAE (Fully Funded)",
+    "status": "analyzed",
+    "score": 0.0,
+    "category": null,
+    "official_url": "https://opportunitiescorners.com/irena-youth-forum-2027/",
+    "location": null,
+    "remote": null,
+    "deadline": "2026-09-30",
+    "reward": 3.0,
+    "estimated_value": null,
+    "eligibility_status": "CONFIRMED_ELIGIBLE",
+    "credibility_status": "LIKELY_LEGITIMATE",
+    "source_tier": "TIER_3",
+    "source_quality": 7,
+    "requirements": [],
+    "id": "2e4b6f593e6cdf36",
+    "first_seen": "2026-09-04T09:24:58.459757+00:00",
+    "last_updated": "2026-09-04T09:24:58.459772+00:00"
+  },
+  "560e49b263fbc384": {
+    "url": "https://www.opportunitiesforafricans.com/wto-youth-talent-incubator-programme-2nd-edition-for-young-researchers-and-professionals-in-trade-and-gender/",
+    "title": "WTO Youth Talent Incubator Programme – 2nd Edition for young Researchers and Professionals in Trade and Gender.",
+    "status": "analyzed",
+    "score": 4.8,
+    "category": null,
+    "official_url": "https://www.opportunitiesforafricans.com/wto-youth-talent-incubator-programme-2nd-edition-for-young-researchers-and-professionals-in-trade-and-gender/",
+    "location": null,
+    "remote": null,
+    "deadline": "2026-09-24",
+    "reward": "fully_funded",
+    "estimated_value": null,
+    "eligibility_status": "PROBABLY_ELIGIBLE",
+    "credibility_status": "LIKELY_LEGITIMATE",
+    "source_tier": "TIER_3",
+    "source_quality": 7,
+    "requirements": [
+      "Motivation letter",
+      "Formal endorsement from academic or research institution",
+      "Completed online application form"
+    ],
+    "id": "560e49b263fbc384",
+    "first_seen": "2026-09-04T09:26:55.851267+00:00",
+    "last_updated": "2026-09-04T09:26:55.851282+00:00"
+  },
+  "3bfc40fd60fbea6e": {
+    "url": "https://www.opportunitiesforafricans.com/the-international-renewable-energy-agencys-irena-2027-irena-youth-forum/",
+    "title": "The International Renewable Energy Agency’s (IRENA) 2027 IRENA Youth Forum in Abu Dhabi, UAE (Fully Funded)",
+    "status": "analyzed",
+    "score": 5.1,
+    "category": null,
+    "official_url": "https://www.opportunitiesforafricans.com/the-international-renewable-energy-agencys-irena-2027-irena-youth-forum/",
+    "location": null,
+    "remote": null,
+    "deadline": "2026-09-30",
+    "reward": "fully_funded",
+    "estimated_value": null,
+    "eligibility_status": "PROBABLY_ELIGIBLE",
+    "credibility_status": "LIKELY_LEGITIMATE",
+    "source_tier": "TIER_3",
+    "source_quality": 7,
+    "requirements": [],
+    "id": "3bfc40fd60fbea6e",
+    "first_seen": "2026-09-04T09:29:01.229267+00:00",
+    "last_updated": "2026-09-04T09:29:01.229282+00:00"
+  },
+  "5d2ffea1448b7ed3": {
+    "url": "https://www2.fundsforngos.org/listing/unlock-africas-most-promising-grants-fellowships-awards-and-innovation-opportunities",
+    "title": "Unlock Africa's Most Promising Grants, Fellowships ...",
+    "status": "legitimacy_unknown",
+    "credibility_status": "NEEDS_VERIFICATION",
+    "source_tier": "TIER_4",
+    "reasoning": "The provided URL displays only a placeholder 'Please Wait' with no program details, eligibility criteria, sponsor information, or contact details, making it impossible to verify legitimacy. Absence of concrete evidence prevents a definitive assessment.",
+    "id": "5d2ffea1448b7ed3",
+    "first_seen": "2026-09-04T09:29:29.085028+00:00",
+    "last_updated": "2026-09-04T09:29:29.085044+00:00"
+  },
+  "3b5458a97f8afc7c": {
+    "url": "https://www.opportunitiesforafricans.com/the-claude-anthropic-campus-ambassador-program-2026/",
+    "title": "The Claude Campus Ambassador Program 2026 for students and researchers worldwide ($3,600 Stipend, Get API Credits & Lead AI Initiatives on Campus)",
+    "status": "ineligible",
+    "eligibility_status": "PROBABLY_INELIGIBLE",
+    "model_eligibility_status": "PROBABLY_INELIGIBLE",
+    "missing_requirements": [],
+    "blocking_issues": [
+      "Not currently a student (program requires enrollment as undergrad, master, PhD, or postdoc)",
+      "Lacks work authorization as a student in a country of study (cannot be verified)"
+    ],
+    "addressable_gaps": [
+      "Enroll in a degree program (e.g., master's) to meet the student status requirement",
+      "Obtain appropriate student work authorization in the country of study"
+    ],
+    "reasoning": "The program explicitly requires applicants to be currently enrolled as an undergraduate, graduate, PhD student, or postdoctoral researcher. The candidate is a working professional and not enrolled in any academic program, which violates this core eligibility criterion. All other stated requirements (age 18+, no nationality restriction) are met or not applicable.",
+    "id": "3b5458a97f8afc7c",
+    "first_seen": "2026-09-04T09:30:34.059182+00:00",
+    "last_updated": "2026-09-04T09:30:34.059196+00:00"
+  },
+  "47c7c89683e0045c": {
+    "url": "https://www.opportunitiesforafricans.com/the-julius-berger-nigeria-2026-workshop-engineer-development-programme/",
+    "title": "The Julius Berger Nigeria 2026 Workshop Engineer Development Programme for Nigerian graduates.",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "model_eligibility_status": "CONFIRMED_INELIGIBLE",
+    "missing_requirements": [],
+    "blocking_issues": [
+      "Nationality mismatch: program limited to Nigerian nationals/graduates",
+      "Degree field mismatch: candidate has a Psychology degree, not an engineering degree"
+    ],
+    "addressable_gaps": [],
+    "reasoning": "The programme explicitly states it is for \"Nigerian graduates\" and requires a degree in Mechanical/Electrical/Automobile Engineering or a related technical field. The candidate is Ethiopian (not Nigerian) and holds a BSc in Psychology, which does not meet the engineering degree requirement.",
+    "id": "47c7c89683e0045c",
+    "first_seen": "2026-09-04T09:31:31.148078+00:00",
+    "last_updated": "2026-09-04T09:31:31.148087+00:00"
+  },
+  "013bbeeb595b11d0": {
+    "url": "https://grantintelligenceglobal.com/database",
+    "title": "Grant Database — Live EU Funding Opportunities | Grant Intelligence Global",
+    "status": "unknown",
+    "eligibility_status": "UNCERTAIN",
+    "model_eligibility_status": "UNCERTAIN",
+    "missing_requirements": [],
+    "blocking_issues": [],
+    "addressable_gaps": [],
+    "reasoning": "No reasoning returned.",
+    "id": "013bbeeb595b11d0",
+    "first_seen": "2026-09-04T09:33:19.257659+00:00",
+    "last_updated": "2026-09-04T09:33:19.257674+00:00"
+  },
+  "f501e1b56d044b40": {
+    "url": "https://africatraininginstitute.org/current-grants-african-ngos-september-2026",
+    "title": "6 Africa Grants Open in August–September 2026",
+    "status": "ineligible",
+    "eligibility_status": "PROBABLY_INELIGIBLE",
+    "model_eligibility_status": "PROBABLY_INELIGIBLE",
+    "missing_requirements": [],
+    "blocking_issues": [
+      "Eligibility requires an NGO, research institution, ministry, university, or other civil‑society organisation; individual applicants are not accepted."
+    ],
+    "addressable_gaps": [
+      "Candidate could join or partner with an eligible NGO or research institution to submit a joint application."
+    ],
+    "reasoning": "The grant calls are explicitly aimed at African NGOs, civil‑society organisations, research institutions, ministries, universities, and other legal entities. The candidate is a single working professional and does not represent or work for an eligible organisation, which is a hard eligibility blocker. No nationality, age, or degree restrictions conflict with the candidate’s profile.",
+    "id": "f501e1b56d044b40",
+    "first_seen": "2026-09-04T09:34:29.192494+00:00",
+    "last_updated": "2026-09-04T09:34:29.192509+00:00"
+  },
+  "81e544869300cf13": {
+    "url": "https://www.facebook.com/opportunitiesforyouth/posts/-25-global-awards-prizes-competition-opportunities-for-20262027ready-to-win-fund/1453042423519773",
+    "title": "🏆🌍 25 Global Awards, Prizes &... - Opportunities For Youth",
+    "status": "legitimacy_unknown",
+    "credibility_status": "NEEDS_VERIFICATION",
+    "source_tier": "TIER_4",
+    "reasoning": "The Facebook post merely aggregates a list of existing awards and does not request any payment or personal data, which reduces scam likelihood. However, it provides no direct official links or verification for the listed programs, making it impossible to confirm legitimacy of each opportunity.",
+    "id": "81e544869300cf13",
+    "first_seen": "2026-09-04T09:34:53.903543+00:00",
+    "last_updated": "2026-09-04T09:34:53.903557+00:00"
+  },
+  "82c32ba423b08cd2": {
+    "url": "https://careers.sig.com",
+    "title": "Susquehanna International Group, LLP Careers",
+    "status": "filtered_out",
+    "reason": "It's a job posting, not a funded scholarship or fellowship.",
+    "id": "82c32ba423b08cd2",
+    "first_seen": "2026-09-04T09:34:59.064256+00:00",
+    "last_updated": "2026-09-04T09:34:59.064271+00:00"
+  },
+  "a968b8aa854cd2f6": {
+    "url": "https://jobglance.app/jobs/visa-sponsorship/us",
+    "title": "Visa Sponsorship Jobs in the USA (2026) - Updated Daily - JobGlance",
+    "status": "filtered_out",
+    "reason": "It's a visa-sponsored job listing, not a funded scholarship or fellowship.",
+    "id": "a968b8aa854cd2f6",
+    "first_seen": "2026-09-04T09:35:06.102293+00:00",
+    "last_updated": "2026-09-04T09:35:06.102309+00:00"
+  },
+  "523cfd02d3348529": {
+    "url": "https://www.facebook.com/opportunitiesforyouth/posts/-princeton-in-africa-fellowship-202728-host-talented-young-professionals-across-/1508478037976211",
+    "title": "🌍🚀 Princeton in Africa... - Opportunities For Youth",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "model_eligibility_status": "CONFIRMED_INELIGIBLE",
+    "missing_requirements": [],
+    "blocking_issues": [
+      "Hard blocker: program requires host organization applicant, not individual"
+    ],
+    "addressable_gaps": [],
+    "reasoning": "The Princeton in Africa Fellowship call explicitly states that *organizations* apply to host a talented professional for a 12‑month fellowship. It is not an individual scholarship or fellowship application. As the candidate is an individual professional, not an organization, they cannot meet the primary eligibility requirement.",
+    "id": "523cfd02d3348529",
+    "first_seen": "2026-09-04T09:35:39.909175+00:00",
+    "last_updated": "2026-09-04T09:35:39.909190+00:00"
   }
 }
