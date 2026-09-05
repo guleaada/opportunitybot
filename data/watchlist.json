@@ -26,41 +26,6 @@
     "added": "2026-09-05T01:47:32.843679+00:00",
     "last_checked": "2026-09-05T01:47:32.843191"
   },
-  "92ee423f96246d84": {
-    "url": "https://weworkremotely.com/remote-jobs/zoominfo-technologies-llc-director-finops",
-    "title": "ZoomInfo Technologies LLC: Director, FinOps",
-    "reason": "ANALYSIS_UNAVAILABLE — all model providers were unavailable; retry when quota resets",
-    "id": "92ee423f96246d84",
-    "added": "2026-08-17T05:36:39.411905+00:00"
-  },
-  "4b1d7ae82c4f3ed4": {
-    "url": "https://weworkremotely.com/remote-jobs/proxify-ab-senior-data-scientist-2",
-    "title": "Proxify AB: Senior Data Scientist",
-    "reason": "ANALYSIS_UNAVAILABLE — all model providers were unavailable; retry when quota resets",
-    "id": "4b1d7ae82c4f3ed4",
-    "added": "2026-08-17T05:36:39.894976+00:00"
-  },
-  "a375b1fbce36af3a": {
-    "url": "https://www.python.org/jobs/8121/",
-    "title": "Senior Python Backend Engineer, Reef Technologies",
-    "reason": "ANALYSIS_UNAVAILABLE — all model providers were unavailable; retry when quota resets",
-    "id": "a375b1fbce36af3a",
-    "added": "2026-08-17T05:36:40.200119+00:00"
-  },
-  "6f9bd1336e4366b2": {
-    "url": "https://www.python.org/jobs/8120/",
-    "title": "Python Backend Engineer, Constelli Signals",
-    "reason": "ANALYSIS_UNAVAILABLE — all model providers were unavailable; retry when quota resets",
-    "id": "6f9bd1336e4366b2",
-    "added": "2026-08-17T05:36:40.524918+00:00"
-  },
-  "6f8b086eff0e60dd": {
-    "url": "https://www.python.org/jobs/8119/",
-    "title": "Senior Full-Stack Engineer [Full Time; 100% remote; US-only], Hive Collective",
-    "reason": "ANALYSIS_UNAVAILABLE — all model providers were unavailable; retry when quota resets",
-    "id": "6f8b086eff0e60dd",
-    "added": "2026-08-17T05:36:40.771552+00:00"
-  },
   "530aee88eee93261": {
     "url": "https://www.python.org/jobs/8118/",
     "title": "Python Developer, Micro1",
@@ -195,9 +160,11 @@
   "9609c68ded3b37dc": {
     "url": "https://www.newmuseum.org/new-inc/open-call",
     "title": "Open Call - NEW INC",
-    "reason": "ANALYSIS_UNAVAILABLE — all model providers were unavailable; retry when quota resets",
+    "reason": "ANALYSIS_UNAVAILABLE — all configured providers unavailable for 'first_pass_filter' (tried: gemini)",
     "id": "9609c68ded3b37dc",
-    "added": "2026-08-19T05:38:39.066083+00:00"
+    "added": "2026-09-05T09:07:43.032645+00:00",
+    "retry_analysis": true,
+    "snippet": "Open Call for Year 14 will open in early 2027. 2026 to August 2027. No business experience is required."
   },
   "b764eacdc3cdffc1": {
     "url": "https://www.facebook.com/newmuseum/posts/open-call-for-new-incs-year-13-incubator-members-is-now-live-applications-are-du/1460375948992021",
@@ -1012,5 +979,50 @@
     "retry_analysis": true,
     "reason": "Recover historical malformed model response",
     "added": "2026-09-05T01:47:30.365046+00:00"
+  },
+  "924996ca2f6ac0b2": {
+    "url": "https://fellowshipscorner.com",
+    "title": "Home - Fellowships Corner",
+    "retry_analysis": true,
+    "snippet": "Hassan Naveed\n\n### AMBER Postdoctoral Fellowship (Funded by EU Marie Skłodowska-Curie (MSCA) COFUND scheme)\n\nHassan Naveed\n\n### ICGEB Arturo Falaschi Fellowships 2026 across the Globe\n\nHassan Naveed\n\n### NAEd/Spencer Postdoctoral Fellowship in USA\n\nHassan Naveed\n\n### Humboldt Research Fellowship (Postdoctoral Research in Germany)\n\nHassan Naveed\n\n### KWI International Fellowships 2027 in Germany\n\nHassan Naveed\n\n### PHD POSITIONS\n\nView All [...] View All\n\n### International Student Scholarship Programs at King Abdulaziz University\n\nHassan Naveed\n\n### UNIVPM PhD Scholarships 2026: Apply for XLII Cycle\n\nHassan Naveed\n\n### University of Otago, New Zealand Scholarships for Master’s & PhD 2026\n\nHassan Naveed\n\n### University of Helsinki 30 Doctoral Positions in Finland 2027 (Fully Funded)\n\nHassan Naveed\n\n### University of Messina, Italy PhD Scholarships 2026 (42nd Cycle)\n\nHassan Naveed [...] Hassan Naveed\n\n### 50 Fully Funded PhD Positions for at University of Naples Federico, Italy\n\nHassan Naveed\n\n### BS & MS\n\nView All\n\n### McCall MacBain Scholarships at McGill University 2027, Canada\n\nHassan Naveed\n\n### International Student Scholarship Programs at King Abdulaziz University\n\nHassan Naveed\n\n### FAPESP Masters Scholarship in Brazil\n\nHassan Naveed\n\n### KAPSARC Graduate Development Program 2026\n\nHassan Naveed\n\n### University of Basilicata Scholarships for Masters 2026/2027",
+    "reason": "legitimacy check returned an unparseable reply; retry on a later run",
+    "id": "924996ca2f6ac0b2",
+    "added": "2026-09-05T09:03:36.318656+00:00"
+  },
+  "3f998b2a0a783e9e": {
+    "url": "https://www.vr.se/english/applying-for-funding/calls/2025-11-24-grant-for-recruiting-international-visiting-researchers-to-sweden-2026.html",
+    "title": "Grant for recruiting international visiting researchers to Sweden 2026 - Swedish Research Council",
+    "reason": "ANALYSIS_UNAVAILABLE — deep_eligibility: incomplete or invalid response after retry",
+    "retry_analysis": true,
+    "snippet": "The grant does not cover recruitments that are already funded within other visiting researcher or mobility programs, for example within Horizon Europe.\n The researcher must not already be established in Sweden, for example, be the holder of a research grant from the Swedish Research Council.\n Our definition of Europe is based on the country guide provided by the Swedish Institute of International Affairs (in Swedish) External link. [...] ## Requirements for applicants\n\nThe following requirements must be fulfilled in order for the organisation to be eligible to apply for the grant. We carry out checks, and reject applications that do not fulfil the requirements.\n\n### Focus and recruited visiting researcher\n\nThe visiting researcher that the grant relates to shall be a prominent researcher who at the point of application [...] The application must not cover costs for purposes that are already funded by the Swedish Research Council or any other funding body. Overlaps with other grants or applications may impact on the grant amount awarded, or be a reason for us to reject the application.\n\nThe researcher in question may also be nominated in an application for the Swedish Research Council’s visiting professorship grant, but the organisation must choose between the grants if both are awarded.",
+    "id": "3f998b2a0a783e9e",
+    "added": "2026-09-05T09:06:58.121675+00:00"
+  },
+  "3b82ef6376fd9203": {
+    "url": "https://fulbrightscholars.org/non-us-scholars/fulbright-visiting-scholar-program",
+    "title": "Visiting Scholar Program - Awards for International Scholars | Fulbright Scholars",
+    "retry_analysis": true,
+    "snippet": "Visiting Scholar to apply for their J-1 visa to enter the United States. [...] :   All Fulbright Visiting Scholars (900-1000 annually) receive round-trip international travel and health benefits for accidents and sickness provided by the U.S. Department of State. Most scholars also receive a monthly stipend and additional allowances as benefits of their grants. Some scholars may be partially funded by their home institutions through sabbatical pay. Fulbright Scholars enter the United States under the sponsorship of the U.S. Department of State's J-1 Exchange Visitor [...] For information on how to apply, including deadlines, please contact your country's Fulbright Commission or the public affairs section of the U.S. embassy.\n\n## Opportunities for Current Visiting Scholars\n\nImage\n\nVisiting Scholar",
+    "reason": "legitimacy check returned an unparseable reply; retry on a later run",
+    "id": "3b82ef6376fd9203",
+    "added": "2026-09-05T09:07:33.092938+00:00"
+  },
+  "373cb3b3a9de3a7b": {
+    "url": "https://grahamwalker.com/blog/grants-accelerators-for-early-stage-founders",
+    "title": "Grants & Accelerators for Early-Stage Founders",
+    "reason": "ANALYSIS_UNAVAILABLE — all configured providers unavailable for 'first_pass_filter' (tried: openrouter, mistral, gemini)",
+    "retry_analysis": true,
+    "snippet": "Visible Hands: A Boston-based fellowship for early-stage entrepreneurs who are representative of Greater Boston’s rich racial and gender diversity. Apply by July 10\n Y Combinator: Y Combinator is accepting applications for the Fall 2026 Batch funding cycle. The batch will take place from October to December in San Francisco. Apply by July 27 [...] Endless Frontier Lans: Societal Impact Through Science and Technology. The Endless Frontier Labs (EFL) is a 9 month mentorship program that helps founders transform their science and tech based ideas into commercially scalable companies. Apply by July 31\n Enthuse Foundation Capital and Catalyst Grant: For women-led food and beverage brands: $40K in funding plus strategic support to fuel your next stage of growth. Apply by July 28 [...] Project Female Founder: Global accelerator program, unlocking opportunities for female entrepreneurs to scale their ventures in fintech and enterprise technology. It’s part of UBS’s commitment to champion women’s wealth – and promote equal access to funding and opportunity worldwide. Next cohort starts in April, applications open now.\n Startup Foundry: A 6-week program giving founders anywhere in the world the tools, network, and investor access to get funded. Apply by July 26",
+    "id": "373cb3b3a9de3a7b",
+    "added": "2026-09-05T09:07:41.151464+00:00"
+  },
+  "ce03ca9d35b9cec4": {
+    "url": "https://www.instagram.com/p/DUksKQ0DLni?hl=en",
+    "title": "OPEN CALL 2026. Incubator is receiving applications for ...",
+    "reason": "ANALYSIS_UNAVAILABLE — all configured providers unavailable for 'first_pass_filter' (tried: gemini)",
+    "retry_analysis": true,
+    "snippet": "Incubator is receiving applications for our exhibition programme. Eligible artists are those based in the UK. CLOSING 10 MARCH 2026 @ 5PM.",
+    "id": "ce03ca9d35b9cec4",
+    "added": "2026-09-05T09:07:43.436959+00:00"
   }
 }

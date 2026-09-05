@@ -2847,34 +2847,79 @@
   "a375b1fbce36af3a": {
     "url": "https://www.python.org/jobs/8121/",
     "title": "Senior Python Backend Engineer, Reef Technologies",
-    "status": "legitimacy_unknown",
-    "credibility_status": "NEEDS_VERIFICATION",
+    "status": "analyzed",
+    "credibility_status": "LIKELY_LEGITIMATE",
     "source_tier": "TIER_4",
     "reasoning": "The job posting is hosted on the official Python.org jobs page, which is a trust signal. However, the unusual salary structure (B2B contract with hourly rates in USD/PLN), vague technical claims (e.g., 'trustless supercluster'), and lack of verifiable company details raise suspicions. The future posting date (2026) is also suspicious.",
     "id": "a375b1fbce36af3a",
     "first_seen": "2026-08-17T16:16:22.397825+00:00",
-    "last_updated": "2026-08-17T16:16:22.397831+00:00"
+    "last_updated": "2026-09-05T08:57:37.583069+00:00",
+    "score": 4.9,
+    "category": null,
+    "official_url": "https://www.python.org/jobs/8121/",
+    "location": null,
+    "remote": null,
+    "deadline": null,
+    "reward": "none",
+    "estimated_value": null,
+    "eligibility_status": "PROBABLY_ELIGIBLE",
+    "source_quality": null,
+    "requirements": []
   },
   "6f9bd1336e4366b2": {
     "url": "https://www.python.org/jobs/8120/",
     "title": "Python Backend Engineer, Constelli Signals",
-    "status": "suspicious",
+    "status": "unknown",
     "credibility_status": "SUSPICIOUS",
     "source_tier": "TIER_4",
-    "reasoning": "The job posting on python.org/jobs appears legitimate at first glance, but the company's website (constelli.com) lacks clear information about its location, physical office, or verifiable credentials. The contact number (+91 prefix) and email domain (@constelli.com) do not align with typical U.S.-based tech employers, raising concerns about authenticity.",
+    "reasoning": "The job posting does not impose nationality, age, student status, or degree restrictions, so there are no hard blockers. However, a key requirement—4+ years of professional backend Python experience (including async Python, FastAPI or comparable framework, message broker, PostgreSQL, time‑series DB, networking, testing, CI) — is not verifiable from the candidate profile. Without confirmation of these specific experiences, we cannot determine eligibility.",
     "id": "6f9bd1336e4366b2",
     "first_seen": "2026-08-17T16:17:21.477634+00:00",
-    "last_updated": "2026-08-17T16:17:21.477643+00:00"
+    "last_updated": "2026-09-05T08:58:32.366289+00:00",
+    "eligibility_status": "UNCERTAIN",
+    "model_eligibility_status": "UNCERTAIN",
+    "missing_requirements": [
+      "4+ years professional backend software engineering experience",
+      "Async Python (asyncio) experience",
+      "FastAPI or comparable async framework experience",
+      "Message broker experience (Kafka, RabbitMQ, NATS, etc.)",
+      "PostgreSQL proficiency",
+      "Time‑series database experience (TimescaleDB, InfluxDB, etc.)",
+      "Networking protocol expertise (TCP/UDP, WebSockets, HTTP/REST)",
+      "Testing with pytest and CI pipeline experience"
+    ],
+    "blocking_issues": [],
+    "addressable_gaps": [
+      "Provide evidence of ≥4 years professional backend Python experience",
+      "Demonstrate experience with FastAPI or a comparable async framework",
+      "Show experience with at least one message broker (Kafka, RabbitMQ, etc.)",
+      "Confirm proficiency with PostgreSQL and time‑series databases",
+      "Document networking protocol knowledge and testing/CI pipeline experience"
+    ]
   },
   "6f8b086eff0e60dd": {
     "url": "https://www.python.org/jobs/8119/",
     "title": "Senior Full-Stack Engineer [Full Time; 100% remote; US-only], Hive Collective",
     "status": "ineligible",
     "eligibility_status": "CONFIRMED_INELIGIBLE",
-    "reasoning": "The program explicitly requires the candidate to be a 'Senior Full-Stack Engineer' with '7+ years of professional, commercial software development' and specific technical skills (Python/Django, React, GraphQL, etc.). The candidate is a 27-year-old Ethiopian national working as an AI Developer/Marketing Specialist with a BSc (graduated in 2021), which does not meet the 7+ years of commercial software development experience requirement. Additionally, the role is US-only, and the candidate is based in Lao PDR, which may not align with the 'US-only' requirement.",
+    "reasoning": "The job requires 7+ years of professional software development experience and US-only remote work, which implies the candidate must have legal authorization to work in the United States. The candidate is a 27‑year‑old Ethiopian professional with a BSc earned in 2021, giving at most ~2‑3 years of experience, and no evidence of US work authorization. These are hard blockers. Other requirements (Django, React, GraphQL) are not confirmed but could be addressed.",
     "id": "6f8b086eff0e60dd",
     "first_seen": "2026-08-17T16:17:34.092888+00:00",
-    "last_updated": "2026-08-17T16:17:34.092894+00:00"
+    "last_updated": "2026-09-05T08:59:48.600684+00:00",
+    "model_eligibility_status": "PROBABLY_INELIGIBLE",
+    "missing_requirements": [
+      "Exact number of years of professional software development experience",
+      "Proof of legal right to work in the United States"
+    ],
+    "blocking_issues": [
+      "Insufficient professional experience (requires 7+ years, candidate likely has 2‑3 years)",
+      "No demonstrated US work authorization (US‑only remote position)"
+    ],
+    "addressable_gaps": [
+      "Obtain US work authorization (e.g., visa, green card, or citizenship)",
+      "Gain additional years of relevant software development experience",
+      "Acquire or demonstrate proficiency in Django, React, and GraphQL"
+    ]
   },
   "530aee88eee93261": {
     "url": "https://www.python.org/jobs/8118/",
@@ -7530,5 +7575,157 @@
     "id": "df5a834285815ff8",
     "first_seen": "2026-09-05T02:02:57.065646+00:00",
     "last_updated": "2026-09-05T02:02:57.065660+00:00"
+  },
+  "92ee423f96246d84": {
+    "url": "https://weworkremotely.com/remote-jobs/zoominfo-technologies-llc-director-finops",
+    "title": "ZoomInfo Technologies LLC: Director, FinOps",
+    "status": "analyzed",
+    "score": 1.5,
+    "category": null,
+    "official_url": "https://weworkremotely.com/remote-jobs/zoominfo-technologies-llc-director-finops",
+    "location": null,
+    "remote": null,
+    "deadline": null,
+    "reward": "none",
+    "estimated_value": null,
+    "eligibility_status": "PROBABLY_ELIGIBLE",
+    "credibility_status": "LIKELY_LEGITIMATE",
+    "source_tier": "TIER_4",
+    "source_quality": null,
+    "requirements": [],
+    "id": "92ee423f96246d84",
+    "first_seen": "2026-09-05T08:55:23.766857+00:00",
+    "last_updated": "2026-09-05T08:55:23.766866+00:00"
+  },
+  "4b1d7ae82c4f3ed4": {
+    "url": "https://weworkremotely.com/remote-jobs/proxify-ab-senior-data-scientist-2",
+    "title": "Proxify AB: Senior Data Scientist",
+    "status": "ineligible",
+    "eligibility_status": "PROBABLY_INELIGIBLE",
+    "model_eligibility_status": "PROBABLY_INELIGIBLE",
+    "missing_requirements": [],
+    "blocking_issues": [
+      "Time zone requirement: must be within CET +/- 3 hours; candidate is in UTC+7"
+    ],
+    "addressable_gaps": [
+      "Demonstrate 5+ years of hands‑on data science experience (if not already met)",
+      "Provide evidence of experience with SAS/SQL/R/Python and BI tools"
+    ],
+    "reasoning": "The job explicitly requires candidates to be located in the CET timezone (UTC+1) +/- 3 hours. The candidate resides in Vientiane, Lao PDR (UTC+7), which falls outside the allowed range. This is a hard blocker. Other requirements (5+ years data science experience, specific tool knowledge) are not clearly met but are not decisive given the time‑zone exclusion.",
+    "id": "4b1d7ae82c4f3ed4",
+    "first_seen": "2026-09-05T08:56:15.208799+00:00",
+    "last_updated": "2026-09-05T08:56:15.208809+00:00"
+  },
+  "b9cb9cddfb6b7aab": {
+    "url": "https://www.terravivagrants.org/funding-news",
+    "title": "Funding News - Terra Viva Grants",
+    "status": "analyzed",
+    "score": 3.4,
+    "category": "grants",
+    "official_url": "https://www.terravivagrants.org/funding-news",
+    "location": null,
+    "remote": null,
+    "deadline": "2026-09-20",
+    "reward": "unknown",
+    "estimated_value": null,
+    "eligibility_status": "PROBABLY_ELIGIBLE",
+    "credibility_status": "LIKELY_LEGITIMATE",
+    "source_tier": "TIER_4",
+    "source_quality": 0,
+    "requirements": [],
+    "id": "b9cb9cddfb6b7aab",
+    "first_seen": "2026-09-05T09:02:45.390364+00:00",
+    "last_updated": "2026-09-05T09:02:45.390374+00:00"
+  },
+  "c352630659582023": {
+    "url": "https://www.scholarshipbob.com/fellowship",
+    "title": "Fellowship Programs 2026 - 2027",
+    "status": "unknown",
+    "eligibility_status": "UNCERTAIN",
+    "model_eligibility_status": "UNCERTAIN",
+    "missing_requirements": [
+      "Specific eligibility criteria for each listed fellowship (degree level, nationality, age cap, enrollment status)",
+      "Whether any listed fellowship accepts non-degree-seeking working professionals",
+      "English proficiency requirements per program"
+    ],
+    "blocking_issues": [
+      "Multiple listed programs are postdoctoral fellowships requiring a PhD; candidate holds only a BSc",
+      "Individual program eligibility criteria (nationality restrictions, age caps, student-status requirements) are not published on this page and cannot be verified"
+    ],
+    "addressable_gaps": [
+      "No English proficiency certificate yet — candidate can obtain Duolingo or MOI certificate"
+    ],
+    "reasoning": "This is a directory page listing multiple distinct fellowship programs (postdoctoral, predoctoral, creative, AI safety, VC, etc.) without publishing specific eligibility criteria for any individual program. The page's general FAQ says fellowships are 'open to graduate students, postdoctoral researchers, or professionals with relevant experience,' which partially matches the candidate's professional profile. However, several listed programs are postdoctoral and almost certainly require a PhD — the candidate holds only a BSc. Ethiopia is listed under 'Opportunities Eligible Countries,' which is positive, but individual program nationality restrictions cannot be verified from this page. Age caps, student-status requirements, and degree-level thresholds for each specific fellowship are all unstated.",
+    "id": "c352630659582023",
+    "first_seen": "2026-09-05T09:03:07.602094+00:00",
+    "last_updated": "2026-09-05T09:03:07.602104+00:00"
+  },
+  "08a8f06493e078ea": {
+    "url": "https://www.linkedin.com/pulse/24-fully-funded-research-phd-doctoral-5nqmf",
+    "title": "🎓 24 Fully Funded Research, PhD & Doctoral ...",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "model_eligibility_status": "CONFIRMED_INELIGIBLE",
+    "missing_requirements": [
+      "Formal English proficiency test score (IELTS/TOEFL) - required for international research programs"
+    ],
+    "blocking_issues": [
+      "Must currently be a student - the program is exclusively for PhD/Doctoral candidates, but the candidate is a working professional"
+    ],
+    "addressable_gaps": [
+      "English language proficiency certificate (IELTS/TOEFL) - can be obtained via MOI certificate from Injibara University or Duolingo English Test within 48 hours"
+    ],
+    "reasoning": "The program explicitly lists '24 Fully Funded Research, PhD & Doctoral Opportunities' which are targeted at PhD and doctoral candidates. The candidate is explicitly described as a 'Working professional (NOT a student)' and does not meet the fundamental eligibility requirement of current student enrollment for these research doctorate programs.",
+    "id": "08a8f06493e078ea",
+    "first_seen": "2026-09-05T09:04:19.415510+00:00",
+    "last_updated": "2026-09-05T09:04:19.415519+00:00"
+  },
+  "d30acfc1ee77911a": {
+    "url": "https://www.facebook.com/opportunitiesforyouth/posts/-top-fellowship-picks-20262027-fully-funded-paidready-to-level-up-with-global-fe/1396866055804077",
+    "title": "🚀🌍 Top Fellowship Picks... - Opportunities For Youth",
+    "status": "unknown",
+    "eligibility_status": "UNCERTAIN",
+    "model_eligibility_status": "UNCERTAIN",
+    "missing_requirements": [
+      "Eligibility criteria for each individual fellowship are not stated on this page",
+      "Nationality restrictions per fellowship unknown",
+      "Degree-level requirements per fellowship unknown",
+      "Age caps per fellowship unknown",
+      "Application deadlines, required documents, and funding details not specified",
+      "Whether fellowships require current student status or employment status",
+      "Field-of-study restrictions per fellowship not stated"
+    ],
+    "blocking_issues": [
+      "MSCA Postdoctoral Fellowships require a doctoral degree; candidate holds only a BSc",
+      "Several fellowships (Eisner Prize, Eisenhower) may require mid-career status the candidate may not meet, though profile suggests strong leadership",
+      "Specific nationality restrictions for individual fellowships (e.g., ALC Africa-focused) are unknown"
+    ],
+    "addressable_gaps": [
+      "No English test certificate yet — can obtain Duolingo English Test or MOI from Injibara University"
+    ],
+    "reasoning": "The program text is a curated social media post listing 20 different fellowship opportunities aggregated together, not a single program with defined eligibility criteria. The actual eligibility rules for each individual fellowship (CSEAS, Eisner, CATS, Eisenhower, Anthropic, ALC, MSCA, etc.) are not provided on this page. The candidate's specific nationality, degree level, age, and student status cannot be matched against any of the listed fellowships because their requirements are not stated on this page. Several of these fellowships likely have nationality, degree-level, or career-stage restrictions (e.g., MSCA Postdoctoral requires a PhD, Eisenhower targets mid-career leaders, ALC targets African nationals) that could plausibly block this candidate, but none can be verified from the text given.",
+    "id": "d30acfc1ee77911a",
+    "first_seen": "2026-09-05T09:05:13.710318+00:00",
+    "last_updated": "2026-09-05T09:05:13.710328+00:00"
+  },
+  "7ac6883cedaa7758": {
+    "url": "https://www2.fundsforngos.org/listing/60-fellowships-for-research-innovation-and-global-impact",
+    "title": "60+ Fellowships for Research, Innovation and Global Impact",
+    "status": "legitimacy_unknown",
+    "credibility_status": "NEEDS_VERIFICATION",
+    "source_tier": "TIER_4",
+    "reasoning": "The page only shows loading messages with no substantive information about the fellowship, providing no evidence of legitimacy or fraud.",
+    "id": "7ac6883cedaa7758",
+    "first_seen": "2026-09-05T09:05:27.441677+00:00",
+    "last_updated": "2026-09-05T09:05:27.441687+00:00"
+  },
+  "ba4ef8727bbf253c": {
+    "url": "https://grants.cityofsacramento.gov/grants/s/grant-opportunity/a1OUW00000W5dPh2AJ/2026-sacramento-innovation-grant-program-category-b-incubator-and-accelerator",
+    "title": "Grant Opportunity: 2026 Sacramento Innovation Grant Program",
+    "status": "filtered_out",
+    "reason": "The text is broken with a CSS error and contains no actual opportunity details to evaluate.",
+    "id": "ba4ef8727bbf253c",
+    "first_seen": "2026-09-05T09:07:40.631919+00:00",
+    "last_updated": "2026-09-05T09:07:40.631929+00:00"
   }
 }
