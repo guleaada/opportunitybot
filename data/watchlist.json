@@ -5,7 +5,8 @@
     "last_known_deadline": "2026-01-08",
     "reason": "closed at discovery; likely annual",
     "id": "5947e350995217e6",
-    "added": "2026-06-11T09:16:12.821747+00:00"
+    "added": "2026-09-05T01:47:30.375382+00:00",
+    "last_checked": "2026-09-05T01:47:30.374893"
   },
   "ec19caff836816d8": {
     "url": "https://si.se/en/apply/scholarships/swedish-institute-scholarships-for-global-professionals/",
@@ -13,7 +14,8 @@
     "last_known_deadline": "2026-02-25",
     "reason": "closed at discovery; likely annual",
     "id": "ec19caff836816d8",
-    "added": "2026-06-11T09:16:43.004435+00:00"
+    "added": "2026-09-05T01:47:30.973860+00:00",
+    "last_checked": "2026-09-05T01:47:30.973149"
   },
   "54d5d15970566180": {
     "url": "https://www.opportunitiesforafricans.com/the-international-monetary-fund-imf-research-analyst-program-rap-2026/",
@@ -21,23 +23,8 @@
     "last_known_deadline": "2025-12-31",
     "reason": "closed at discovery; likely annual",
     "id": "54d5d15970566180",
-    "added": "2026-06-27T07:53:06.797211+00:00"
-  },
-  "be103000a5ad0dd8": {
-    "url": "https://weworkremotely.com/remote-jobs/proxify-ab-senior-fullstack-developer-react-js-node-js-3",
-    "title": "Proxify AB: Senior Fullstack Developer (React.js / Node.js)",
-    "last_known_deadline": null,
-    "reason": "closed at discovery; likely annual",
-    "id": "be103000a5ad0dd8",
-    "added": "2026-08-17T04:21:49.987391+00:00"
-  },
-  "c1f2bcec21f928f1": {
-    "url": "https://weworkremotely.com/remote-jobs/proxify-ab-senior-ruby-on-rails-developer-ai-augmented-engineering",
-    "title": "Proxify AB: Senior Ruby on Rails Developer (AI-Augmented Engineering)",
-    "last_known_deadline": null,
-    "reason": "closed at discovery; likely annual",
-    "id": "c1f2bcec21f928f1",
-    "added": "2026-08-17T04:21:57.990978+00:00"
+    "added": "2026-09-05T01:47:32.843679+00:00",
+    "last_checked": "2026-09-05T01:47:32.843191"
   },
   "92ee423f96246d84": {
     "url": "https://weworkremotely.com/remote-jobs/zoominfo-technologies-llc-director-finops",
@@ -112,9 +99,10 @@
   "e041933df2248c08": {
     "url": "https://www.python.org/jobs/8111/",
     "title": "Python + TypeScript Engineers, Fusionbox",
-    "reason": "ANALYSIS_UNAVAILABLE — all model providers were unavailable; retry when quota resets",
+    "reason": "Recover historical malformed model response",
     "id": "e041933df2248c08",
-    "added": "2026-08-17T05:37:40.480680+00:00"
+    "added": "2026-09-05T01:47:30.275204+00:00",
+    "retry_analysis": true
   },
   "9a21ec48d520a758": {
     "url": "https://www.python.org/jobs/8110/",
@@ -160,10 +148,11 @@
   },
   "f2230f72c2209b65": {
     "url": "https://www.globalsouthopportunities.com/2026/05/03/fellowships-12",
-    "title": "7 Trending Fully Funded Fellowships for Global South Applicants (2026–2027) - Global South Opportunities",
-    "reason": "ANALYSIS_UNAVAILABLE — all model providers were unavailable; retry when quota resets",
+    "title": "7 Trending Fully Funded Fellowships for Global South ...",
+    "reason": "Recover historical malformed model response",
     "id": "f2230f72c2209b65",
-    "added": "2026-08-18T22:59:02.754559+00:00"
+    "added": "2026-09-05T01:47:30.277558+00:00",
+    "retry_analysis": true
   },
   "6b657eab465b6a34": {
     "url": "https://www.efworld.org/apply-now",
@@ -220,9 +209,10 @@
   "485d8bea4c147d40": {
     "url": "https://careers.state.gov/interns-fellows",
     "title": "Internships/Fellowships - Careers",
-    "reason": "ANALYSIS_UNAVAILABLE — all model providers were unavailable; retry when quota resets",
+    "reason": "Recover historical malformed model response",
     "id": "485d8bea4c147d40",
-    "added": "2026-08-19T05:38:41.711660+00:00"
+    "added": "2026-09-05T01:47:30.338833+00:00",
+    "retry_analysis": true
   },
   "a9b18e05f89df8d3": {
     "url": "https://opportunitiesforyouth.org/2026/05/12/apply-now-fully-funded-presidential-leadership-scholars-program-2026",
@@ -302,5 +292,725 @@
     "reason": "closed at discovery; likely annual",
     "id": "5db118068d102730",
     "added": "2026-09-01T10:02:07.966926+00:00"
+  },
+  "42fe2ba54608213f": {
+    "id": "42fe2ba54608213f",
+    "url": "https://weworkremotely.com/remote-jobs/proxify-ab-senior-shopify-developer-3",
+    "title": "Proxify AB: Senior Shopify Developer",
+    "retry_analysis": true,
+    "reason": "Recover historical malformed model response",
+    "added": "2026-09-05T01:47:30.270466+00:00"
+  },
+  "0313dcbb27845386": {
+    "id": "0313dcbb27845386",
+    "url": "https://weworkremotely.com/remote-jobs/proxify-ab-senior-data-engineer-python-1",
+    "title": "Proxify AB: Senior Data Engineer (Python)",
+    "retry_analysis": true,
+    "reason": "Recover historical malformed model response",
+    "added": "2026-09-05T01:47:30.271141+00:00"
+  },
+  "549244728e41d0bf": {
+    "id": "549244728e41d0bf",
+    "url": "https://www.opportunitiesforafricans.com/the-food-and-agriculture-organization-of-the-united-nations-fao-young-professionals-programme-ypp-2026/",
+    "title": "The Food and Agriculture Organization of the United Nations (FAO) Young Professionals Programme (YPP) 2026",
+    "retry_analysis": true,
+    "reason": "Recover historical malformed model response",
+    "added": "2026-09-05T01:47:30.271727+00:00"
+  },
+  "a032547c29b5c325": {
+    "id": "a032547c29b5c325",
+    "url": "https://www.opportunitiesforafricans.com/the-emerging-leaders-foundation-elf-africa-ilead-fellowship-program-2026/",
+    "title": "The Emerging Leaders Foundation (ELF) Africa iLead Fellowship Program 2026 for young East Africans.",
+    "retry_analysis": true,
+    "reason": "Recover historical malformed model response",
+    "added": "2026-09-05T01:47:30.272296+00:00"
+  },
+  "e3c052a42c64239f": {
+    "id": "e3c052a42c64239f",
+    "url": "https://www.opportunitiesforafricans.com/meta-ai-academy-nigeria/",
+    "title": "Meta AI Academy Nigeria for Nigerian developers, startups, students, and early-career professionals (US$5,000 in equity-free funding)",
+    "retry_analysis": true,
+    "reason": "Recover historical malformed model response",
+    "added": "2026-09-05T01:47:30.272870+00:00"
+  },
+  "0c44a386fa0efbaf": {
+    "id": "0c44a386fa0efbaf",
+    "url": "https://weworkremotely.com/remote-jobs/edfinity-senior-software-engineer-remote",
+    "title": "Edfinity: Senior Software Engineer, remote",
+    "retry_analysis": true,
+    "reason": "Recover historical malformed model response",
+    "added": "2026-09-05T01:47:30.273433+00:00"
+  },
+  "6091552034e00d01": {
+    "id": "6091552034e00d01",
+    "url": "https://weworkremotely.com/remote-jobs/autogpt-gtm-lead",
+    "title": "AutoGPT: GTM Lead",
+    "retry_analysis": true,
+    "reason": "Recover historical malformed model response",
+    "added": "2026-09-05T01:47:30.274031+00:00"
+  },
+  "c09297a11e9f5737": {
+    "id": "c09297a11e9f5737",
+    "url": "https://www.python.org/jobs/8126/",
+    "title": "Software Engineer (Remote), Softech Associate",
+    "retry_analysis": true,
+    "reason": "Recover historical malformed model response",
+    "added": "2026-09-05T01:47:30.274627+00:00"
+  },
+  "9101164703fe9ba0": {
+    "id": "9101164703fe9ba0",
+    "url": "https://opportunitiesforyouth.org/2026/08/18/fast-forward-2027-accelerator-25000-funding-mentorship-and-global-support-for-early-stage-tech-nonprofits/",
+    "title": "Fast Forward 2027 Accelerator: $25,000+ Funding, Mentorship and Global Support for Early-Stage Tech Nonprofits",
+    "retry_analysis": true,
+    "reason": "Recover historical malformed model response",
+    "added": "2026-09-05T01:47:30.275794+00:00"
+  },
+  "96caad03a213a85d": {
+    "id": "96caad03a213a85d",
+    "url": "https://remotive.com/remote-jobs/sales/business-development-representative-2091075",
+    "title": "Business Development Representative",
+    "retry_analysis": true,
+    "reason": "Recover historical malformed model response",
+    "added": "2026-09-05T01:47:30.276366+00:00"
+  },
+  "9d70f375971cda81": {
+    "id": "9d70f375971cda81",
+    "url": "https://opportunitiesforyouth.org/2026/08/18/emuni-university-masters-programmes-2026-27-study-mediterranean-geopolitics-geoeconomics-business-and-digital-law-in-slovenia/",
+    "title": "EMUNI University Master’s Programmes 2026/27: Study Mediterranean Geopolitics, Geoeconomics, Business and Digital Law in Slovenia",
+    "retry_analysis": true,
+    "reason": "Recover historical malformed model response",
+    "added": "2026-09-05T01:47:30.276964+00:00"
+  },
+  "948288b971d99501": {
+    "id": "948288b971d99501",
+    "url": "https://www.africanleadershipcentre.org/news/call-for-applications-y4z58",
+    "title": "Call for Applications: ALC Peace, Security and Development Fellowships for 2026/2027 — The African Leadership Centre",
+    "retry_analysis": true,
+    "reason": "Recover historical malformed model response",
+    "added": "2026-09-05T01:47:30.278173+00:00"
+  },
+  "ec7109ade3dc3482": {
+    "id": "ec7109ade3dc3482",
+    "url": "https://www.linkedin.com/pulse/40-fully-funded-fellowship-opportunities-iswef",
+    "title": "🌍🏆 40 Fully Funded Fellowship Opportunities for 2026–2027",
+    "retry_analysis": true,
+    "reason": "Recover historical malformed model response",
+    "added": "2026-09-05T01:47:30.278781+00:00"
+  },
+  "7bc97f830f832a8d": {
+    "id": "7bc97f830f832a8d",
+    "url": "https://grants.nih.gov/funding/funding-categories/research-training-and-career-development/individual-fellowships",
+    "title": "Individual Fellowships | Grants & Funding",
+    "retry_analysis": true,
+    "reason": "Recover historical malformed model response",
+    "added": "2026-09-05T01:47:30.279391+00:00"
+  },
+  "984939ad600ed3d2": {
+    "id": "984939ad600ed3d2",
+    "url": "https://kroc.nd.edu/research/grants-and-fellowships/apply-for-visiting-research-fellowships",
+    "title": "Applying for Visiting Research Fellowships // Research// Grants and Fellowships // Kroc Institute for International Peace Studies // University of Notre Dame",
+    "retry_analysis": true,
+    "reason": "Recover historical malformed model response",
+    "added": "2026-09-05T01:47:30.280032+00:00"
+  },
+  "a5aa10fa64908ee2": {
+    "id": "a5aa10fa64908ee2",
+    "url": "https://greatyop.com/fully-funded-scholarships-for-international-students",
+    "title": "Fully Funded Scholarships for International Students, 2026-2027",
+    "retry_analysis": true,
+    "reason": "Recover historical malformed model response",
+    "added": "2026-09-05T01:47:30.280684+00:00"
+  },
+  "e4d507d5b8554ccd": {
+    "id": "e4d507d5b8554ccd",
+    "url": "https://www.scholarshipsads.com",
+    "title": "Fully funded Scholarships for international Students 2026 - 2027",
+    "retry_analysis": true,
+    "reason": "Recover historical malformed model response",
+    "added": "2026-09-05T01:47:30.281325+00:00"
+  },
+  "880d39ac0fbff296": {
+    "id": "880d39ac0fbff296",
+    "url": "https://scholarshiproar.com/fully-funded-scholarships",
+    "title": "Fully Funded Scholarships for International Students 2027",
+    "retry_analysis": true,
+    "reason": "Recover historical malformed model response",
+    "added": "2026-09-05T01:47:30.281985+00:00"
+  },
+  "1e6057214f33b11b": {
+    "id": "1e6057214f33b11b",
+    "url": "https://menterprise.africa/june-2026-opportunities-african-innovators-grants-fellowships-prizes",
+    "title": "June 2026 Grants, Fellowships, Prizes and Competitions for African Innovators",
+    "retry_analysis": true,
+    "reason": "Recover historical malformed model response",
+    "added": "2026-09-05T01:47:30.283050+00:00"
+  },
+  "65dd5a38738c60ee": {
+    "id": "65dd5a38738c60ee",
+    "url": "https://opportunitiesforyouth.org/2026/08/19/getty-conservation-guest-scholars-program-2026-fully-funded-three-month-research-opportunity-for-cultural-heritage-conservation-professionals/",
+    "title": "Getty Conservation Guest Scholars Program 2026: Fully Funded Three-Month Research Opportunity for Cultural Heritage Conservation Professionals.",
+    "retry_analysis": true,
+    "reason": "Recover historical malformed model response",
+    "added": "2026-09-05T01:47:30.284214+00:00"
+  },
+  "7a7fee2f0e73c42b": {
+    "id": "7a7fee2f0e73c42b",
+    "url": "https://opportunitiesnexus.com/fellowships",
+    "title": "Fellowships | Opportunities Nexus",
+    "retry_analysis": true,
+    "reason": "Recover historical malformed model response",
+    "added": "2026-09-05T01:47:30.285377+00:00"
+  },
+  "671a64dbf984646c": {
+    "id": "671a64dbf984646c",
+    "url": "https://za.usembassy.gov/hubert-h-humphrey-fellowship-program",
+    "title": "Hubert H. Humphrey Fellowship Program - U.S. Embassy & Consulates in South Africa",
+    "retry_analysis": true,
+    "reason": "Recover historical malformed model response",
+    "added": "2026-09-05T01:47:30.286655+00:00"
+  },
+  "82c3a278e79e46f8": {
+    "id": "82c3a278e79e46f8",
+    "url": "https://www.advance-africa.com/Call-for-Proposals.html",
+    "title": "Current Call for Proposals for Developing Countries 2026/2027 - Grants",
+    "retry_analysis": true,
+    "reason": "Recover historical malformed model response",
+    "added": "2026-09-05T01:47:30.287941+00:00"
+  },
+  "2e9c86b8cdeace76": {
+    "id": "2e9c86b8cdeace76",
+    "url": "https://igpc.najah.edu/new-calls-for-projects-and-initiatives",
+    "title": "New calls for projects and initiatives | International Grants and ...",
+    "retry_analysis": true,
+    "reason": "Recover historical malformed model response",
+    "added": "2026-09-05T01:47:30.289233+00:00"
+  },
+  "2b825bb15d724897": {
+    "id": "2b825bb15d724897",
+    "url": "https://www.opportunitiesforafricans.com/the-dangote-fleet-management-graduate-programme-2026/",
+    "title": "The Dangote Fleet Management Graduate Programme 2026 for young Nigerian graduates.",
+    "retry_analysis": true,
+    "reason": "Recover historical malformed model response",
+    "added": "2026-09-05T01:47:30.290597+00:00"
+  },
+  "acc4c4288d1d0922": {
+    "id": "acc4c4288d1d0922",
+    "url": "https://opportunitydesk.org/2026/08/19/ares-international-training-scholarships-2027-2028/",
+    "title": "ARES International Training Scholarships 2027-2028",
+    "retry_analysis": true,
+    "reason": "Recover historical malformed model response",
+    "added": "2026-09-05T01:47:30.291899+00:00"
+  },
+  "0dceb68c941c24db": {
+    "id": "0dceb68c941c24db",
+    "url": "https://opportunitiesforyouth.org/2026/08/19/2027-mohamed-ali-foundation-fellowship-at-durham-university/",
+    "title": "2027 Mohamed Ali Foundation Fellowship at Durham University",
+    "retry_analysis": true,
+    "reason": "Recover historical malformed model response",
+    "added": "2026-09-05T01:47:30.293235+00:00"
+  },
+  "940a023da90c4ce3": {
+    "id": "940a023da90c4ce3",
+    "url": "https://opportunitydesk.org/2026/08/19/wege-prize-2027/",
+    "title": "Wege Prize 2027 for Innovators ($65,000 total prize)",
+    "retry_analysis": true,
+    "reason": "Recover historical malformed model response",
+    "added": "2026-09-05T01:47:30.294604+00:00"
+  },
+  "3d293bca5c827095": {
+    "id": "3d293bca5c827095",
+    "url": "https://opportunitydesk.org/2026/08/20/mohamed-ali-foundation-fellowship-programme-2027/",
+    "title": "Mohamed Ali Foundation Fellowship Programme 2027",
+    "retry_analysis": true,
+    "reason": "Recover historical malformed model response",
+    "added": "2026-09-05T01:47:30.295981+00:00"
+  },
+  "2e2e09e81b3b8fe5": {
+    "id": "2e2e09e81b3b8fe5",
+    "url": "https://www.opportunitiesforafricans.com/university-of-edinburgh-mastercard-foundation-scholars-program-2027-2028/",
+    "title": "University of Edinburgh Mastercard Foundation Scholars Program 2027/2028 for young Africans (Fully Funded)",
+    "retry_analysis": true,
+    "reason": "Recover historical malformed model response",
+    "added": "2026-09-05T01:47:30.297337+00:00"
+  },
+  "0ba379f0886cfb8d": {
+    "id": "0ba379f0886cfb8d",
+    "url": "https://www.opportunitiesforafricans.com/swiss-government-excellence-scholarships-2027-2028-for-foreign-students-artists/",
+    "title": "Swiss Government Excellence Scholarships 2027/2028 for Foreign Students & Artists to study in Switzerland (Funded)",
+    "retry_analysis": true,
+    "reason": "Recover historical malformed model response",
+    "added": "2026-09-05T01:47:30.298768+00:00"
+  },
+  "e34bc86ea8b6bde8": {
+    "id": "e34bc86ea8b6bde8",
+    "url": "https://opportunitydesk.org/2026/08/20/presidential-digital-talent-programme-2026-cohort-xi/",
+    "title": "Presidential Digital Talent Programme 2026 – Cohort XI",
+    "retry_analysis": true,
+    "reason": "Recover historical malformed model response",
+    "added": "2026-09-05T01:47:30.300204+00:00"
+  },
+  "51cd9a20b5f70a7b": {
+    "id": "51cd9a20b5f70a7b",
+    "url": "https://opportunitiesforyouth.org/2026/08/21/lshtm-research-fellow-and-fully-funded-phd-studentship-opportunities-2026-2027-data-science-statistics-epidemiology-and-maternity-inequalities/",
+    "title": "LSHTM Research Fellow and Fully Funded PhD Studentship Opportunities 2026–2027: Data Science, Statistics, Epidemiology and Maternity Inequalities",
+    "retry_analysis": true,
+    "reason": "Recover historical malformed model response",
+    "added": "2026-09-05T01:47:30.301702+00:00"
+  },
+  "2d4a5f25706293b3": {
+    "id": "2d4a5f25706293b3",
+    "url": "https://opportunitiesforyouth.org/2026/08/20/aku-fall-2026-virtual-internship-programme-virtual-internships-for-students/",
+    "title": "AKU Fall 2026 Virtual Internship Programme | Virtual Internships for Students",
+    "retry_analysis": true,
+    "reason": "Recover historical malformed model response",
+    "added": "2026-09-05T01:47:30.302966+00:00"
+  },
+  "eb87ddf5a143ba4d": {
+    "id": "eb87ddf5a143ba4d",
+    "url": "https://opportunitydesk.org/2026/08/20/30-hot-jobs-across-various-sectors-currently-open-august-20-2026/",
+    "title": "30 Hot Jobs Across Various Sectors Currently Open – August 20, 2026",
+    "retry_analysis": true,
+    "reason": "Recover historical malformed model response",
+    "added": "2026-09-05T01:47:30.303832+00:00"
+  },
+  "4b521fbca1fdf0c9": {
+    "id": "4b521fbca1fdf0c9",
+    "url": "https://opportunitydesk.org/2026/08/20/international-physics-competition-education-program-talent-search-2026/",
+    "title": "International Physics Competition: Education Program & Talent Search 2026 (up to $1,500)",
+    "retry_analysis": true,
+    "reason": "Recover historical malformed model response",
+    "added": "2026-09-05T01:47:30.304698+00:00"
+  },
+  "c0f288377f95e665": {
+    "id": "c0f288377f95e665",
+    "url": "https://opportunitiescorners.com/kaust-scholarship-2027/",
+    "title": "KAUST Scholarship 2027 in Saudi Arabia (Fully Funded)",
+    "retry_analysis": true,
+    "reason": "Recover historical malformed model response",
+    "added": "2026-09-05T01:47:30.305548+00:00"
+  },
+  "ad0db876f86cb8b0": {
+    "id": "ad0db876f86cb8b0",
+    "url": "https://opportunitydesk.org/2026/08/21/iucea-scholarship-2027-2028/",
+    "title": "Inter-University Council for East Africa (IUCEA) Scholarship 2027-2028",
+    "retry_analysis": true,
+    "reason": "Recover historical malformed model response",
+    "added": "2026-09-05T01:47:30.306426+00:00"
+  },
+  "6c7241459a2b1803": {
+    "id": "6c7241459a2b1803",
+    "url": "https://opportunitiesforyouth.org/2026/08/21/africa-4-0-awards-2026-aisma-and-unido-invite-nominations-for-african-excellence-in-industry-4-0/",
+    "title": "AFRICA 4.0 Awards 2026: AISMA and UNIDO Invite Nominations for African Excellence in Industry 4.0",
+    "retry_analysis": true,
+    "reason": "Recover historical malformed model response",
+    "added": "2026-09-05T01:47:30.307302+00:00"
+  },
+  "c945d47810e6bbf8": {
+    "id": "c945d47810e6bbf8",
+    "url": "https://oyaop.com/opportunity/scholarships-and-fellowships/top-50-fully-funded-fellowships-in-2027-for-international-students-and-young-professionals",
+    "title": "Top 50 Fully Funded Fellowships in 2027 for International Students and Young Professionals - OYA Opportunities | OYA Opportunities",
+    "retry_analysis": true,
+    "reason": "Recover historical malformed model response",
+    "added": "2026-09-05T01:47:30.308177+00:00"
+  },
+  "30e9aeefc192e24f": {
+    "id": "30e9aeefc192e24f",
+    "url": "https://www.opportunitiesforafricans.com/who-2026-global-youth-competition-on-influenza-and-covid-19-prevention-and-control/",
+    "title": "WHO 2026 Global youth competition on influenza and COVID-19 prevention and control",
+    "retry_analysis": true,
+    "reason": "Recover historical malformed model response",
+    "added": "2026-09-05T01:47:30.309157+00:00"
+  },
+  "ba2ade15571231d0": {
+    "id": "ba2ade15571231d0",
+    "url": "https://opportunitydesk.org/category/grants",
+    "title": "Grants – Opportunity Desk",
+    "retry_analysis": true,
+    "reason": "Recover historical malformed model response",
+    "added": "2026-09-05T01:47:30.310052+00:00"
+  },
+  "c4d63717b3b148c8": {
+    "id": "c4d63717b3b148c8",
+    "url": "https://opportunitiescorners.com/kaist-graduate-scholarship-2027/",
+    "title": "KAIST Graduate Scholarship 2027 in South Korea (Funded)",
+    "retry_analysis": true,
+    "reason": "Recover historical malformed model response",
+    "added": "2026-09-05T01:47:30.310970+00:00"
+  },
+  "6d63c8106736202f": {
+    "id": "6d63c8106736202f",
+    "url": "https://opportunitiescorners.com/nus-iris-internship-2027/",
+    "title": "NUS IRIS Internship 2027 in Singapore (Fully Funded)",
+    "retry_analysis": true,
+    "reason": "Recover historical malformed model response",
+    "added": "2026-09-05T01:47:30.311866+00:00"
+  },
+  "cce47d178ed00810": {
+    "id": "cce47d178ed00810",
+    "url": "https://opportunitydesk.org/2026/08/22/mitacs-globalink-research-award-program-2026/",
+    "title": "Mitacs Globalink Research Award (GRA) Program 2026",
+    "retry_analysis": true,
+    "reason": "Recover historical malformed model response",
+    "added": "2026-09-05T01:47:30.312786+00:00"
+  },
+  "f3e60ef235c4e1cc": {
+    "id": "f3e60ef235c4e1cc",
+    "url": "https://www.thisiscolossal.com/2026/04/may-2026-opportunities-artists-designers",
+    "title": "May 2026 Opportunities: Open Calls, Residencies, and Grants for Artists — Colossal",
+    "retry_analysis": true,
+    "reason": "Recover historical malformed model response",
+    "added": "2026-09-05T01:47:30.313712+00:00"
+  },
+  "ae687aa2d463c59d": {
+    "id": "ae687aa2d463c59d",
+    "url": "https://www.thisiscolossal.com/2026/07/august-2026-open-calls-grants-residencies",
+    "title": "August 2026 Opportunities: Open Calls, Residencies, and Grants for Artists — Colossal",
+    "retry_analysis": true,
+    "reason": "Recover historical malformed model response",
+    "added": "2026-09-05T01:47:30.314635+00:00"
+  },
+  "5c6712b3f2a48998": {
+    "id": "5c6712b3f2a48998",
+    "url": "https://opportunitiesforyouth.org/2026/08/23/eac-student-mobility-scholarship-2026-2027-197-fully-funded-undergraduate-masters-phd-scholarships-across-east-africa/",
+    "title": "USIU-Africa EAC Scholarship 2026: Fully Funded Master’s Scholarships in Kenya for EAC Students",
+    "retry_analysis": true,
+    "reason": "Recover historical malformed model response",
+    "added": "2026-09-05T01:47:30.315545+00:00"
+  },
+  "fcd24390daf6b6f0": {
+    "id": "fcd24390daf6b6f0",
+    "url": "https://opportunitiescorners.com/nasa-free-online-courses/",
+    "title": "NASA Free Online Courses 2026 | Learn from NASA & Get a Certificate",
+    "retry_analysis": true,
+    "reason": "Recover historical malformed model response",
+    "added": "2026-09-05T01:47:30.316513+00:00"
+  },
+  "7829e9edec8dd813": {
+    "id": "7829e9edec8dd813",
+    "url": "https://opportunitiesforyouth.org/2026/08/24/insait-graduate-research/",
+    "title": "PhD at INSAIT in Bulgaria: Fully Funded Doctoral Fellowship of €39,684 Per Year for International Students",
+    "retry_analysis": true,
+    "reason": "Recover historical malformed model response",
+    "added": "2026-09-05T01:47:30.317503+00:00"
+  },
+  "810304eb0b91c9d4": {
+    "id": "810304eb0b91c9d4",
+    "url": "https://opportunitydesk.org/2026/08/24/zukunftskolleg-postdoctoral-fellowships-2026/",
+    "title": "Zukunftskolleg Postdoctoral Fellowships 2026",
+    "retry_analysis": true,
+    "reason": "Recover historical malformed model response",
+    "added": "2026-09-05T01:47:30.318472+00:00"
+  },
+  "8ab0c6ef208236d7": {
+    "id": "8ab0c6ef208236d7",
+    "url": "https://opportunitiesforyouth.org/2026/08/24/unisq-international-phd-scholarship-2027-in-australia-aud-39000-stipend-full-tuition-fees/",
+    "title": "UniSQ International PhD Scholarship 2027 in Australia | AUD $39,000 Stipend + Full Tuition Fees",
+    "retry_analysis": true,
+    "reason": "Recover historical malformed model response",
+    "added": "2026-09-05T01:47:30.319442+00:00"
+  },
+  "58544d0fe1f2f187": {
+    "id": "58544d0fe1f2f187",
+    "url": "https://opportunitiesforyouth.org/2026/08/24/unicef-thailand-ypp-2026/",
+    "title": "UNICEF Thailand Young Professionals Programme 2026: Communication Internship in Bangkok for University Students and Recent Graduates",
+    "retry_analysis": true,
+    "reason": "Recover historical malformed model response",
+    "added": "2026-09-05T01:47:30.320441+00:00"
+  },
+  "6e081940260659e5": {
+    "id": "6e081940260659e5",
+    "url": "https://www.opportunitiesforafricans.com/united-nations-un-youth-townhall-2026-for-young-people-worldwide/",
+    "title": "United Nations (UN) Youth Townhall 2026 for young people worldwide (Fully Funded to Heidelberg, Germany)",
+    "retry_analysis": true,
+    "reason": "Recover historical malformed model response",
+    "added": "2026-09-05T01:47:30.321466+00:00"
+  },
+  "0c99b15b16fe0e16": {
+    "id": "0c99b15b16fe0e16",
+    "url": "https://www.opportunitiesforafricans.com/the-university-of-cape-town-mastercard-foundation-scholars-program-2027/",
+    "title": "The University of Cape Town MasterCard Foundation Scholars Program 2027 for study in South Africa (Fully Funded)",
+    "retry_analysis": true,
+    "reason": "Recover historical malformed model response",
+    "added": "2026-09-05T01:47:30.322469+00:00"
+  },
+  "7daad5cd9ccb1cc7": {
+    "id": "7daad5cd9ccb1cc7",
+    "url": "https://opportunitiesforyouth.org/2026/08/27/big-ten-academic-alliance-smithsonian-fellowship-2026-45000-stipend-for-doctoral-candidates-to-conduct-research-at-the-smithsonian/",
+    "title": "Big Ten Academic Alliance Smithsonian Fellowship 2026: $45,000 Stipend for Doctoral Candidates to Conduct Research at the Smithsonian",
+    "retry_analysis": true,
+    "reason": "Recover historical malformed model response",
+    "added": "2026-09-05T01:47:30.323492+00:00"
+  },
+  "689a18edb3ef2a22": {
+    "id": "689a18edb3ef2a22",
+    "url": "https://opportunitiesforyouth.org/2026/08/27/fully-funded-ucl-phd-studentships-2026-in-social-networks-stereotypes-and-social-inequalities-open-to-international-applicants/",
+    "title": "Fully Funded UCL PhD Studentships 2026 in Social Networks, Stereotypes and Social Inequalities – Open to International Applicants",
+    "retry_analysis": true,
+    "reason": "Recover historical malformed model response",
+    "added": "2026-09-05T01:47:30.324506+00:00"
+  },
+  "6c93539019efad38": {
+    "id": "6c93539019efad38",
+    "url": "https://opportunitiesforyouth.org/2026/08/27/erasmus-public-policy-2027/",
+    "title": "Erasmus Mundus Scholarship 2027–2029: Up to €33,600 Plus Full Tuition for a Joint Master’s in Public Policy",
+    "retry_analysis": true,
+    "reason": "Recover historical malformed model response",
+    "added": "2026-09-05T01:47:30.325559+00:00"
+  },
+  "25d2a515868f9342": {
+    "id": "25d2a515868f9342",
+    "url": "https://opportunitiesforyouth.org/2026/08/28/mats-residency-winter-2027-fully-funded-ai-safety-research-opportunity-for-talented-researchers-worldwide/",
+    "title": "MATS Residency Winter 2027: Fully Funded AI Safety Research Opportunity for Talented Researchers Worldwide",
+    "retry_analysis": true,
+    "reason": "Recover historical malformed model response",
+    "added": "2026-09-05T01:47:30.326617+00:00"
+  },
+  "24bbf61f7d1fb821": {
+    "id": "24bbf61f7d1fb821",
+    "url": "https://opportunitydesk.org/2026/08/28/cybersafe-x-sans-ai-security-fellowship-2026/",
+    "title": "Cybersafe x SANS AI Security Fellowship 2026 (Fully-funded)",
+    "retry_analysis": true,
+    "reason": "Recover historical malformed model response",
+    "added": "2026-09-05T01:47:30.327663+00:00"
+  },
+  "d67f7db298ab8370": {
+    "id": "d67f7db298ab8370",
+    "url": "https://opportunitiescorners.com/chicago-booth-residence-program-2027/",
+    "title": "Chicago Booth Residence Program 2027 in USA (Fully Funded)",
+    "retry_analysis": true,
+    "reason": "Recover historical malformed model response",
+    "added": "2026-09-05T01:47:30.328761+00:00"
+  },
+  "7b5ac571cd2c5806": {
+    "id": "7b5ac571cd2c5806",
+    "url": "https://opportunitiesforyouth.org/2026/08/30/cape-town-phd-2027/",
+    "title": "University of Cape Town PhD Scholarships 2027: Two Funded Health Research Positions Worth R315,000 Per Year",
+    "retry_analysis": true,
+    "reason": "Recover historical malformed model response",
+    "added": "2026-09-05T01:47:30.329846+00:00"
+  },
+  "fa90d3f1edd7e8f4": {
+    "id": "fa90d3f1edd7e8f4",
+    "url": "https://opportunitiesforyouth.org/2026/08/30/call-for-research-proposals-economic-opportunities-for-women-and-men-how-regulation-and-fiscal-policy-shape-economic-opportunities-in-latin-america-and-the-caribbean/",
+    "title": "Call for Research Proposals: Economic Opportunities for Women and Men — How Regulation and Fiscal Policy Shape Economic Opportunities in Latin America and the Caribbean",
+    "retry_analysis": true,
+    "reason": "Recover historical malformed model response",
+    "added": "2026-09-05T01:47:30.330996+00:00"
+  },
+  "4c30250688bd3b4d": {
+    "id": "4c30250688bd3b4d",
+    "url": "https://opportunitiesforyouth.org/2026/08/30/unlocking-solutions-the-pandemic-fund-announces-second-call-for-proposals/",
+    "title": "Pandemic Fund Technical Advisory Panel (TAP) Expert Application 2026: Apply to Serve as a Global Pandemic Preparedness Expert",
+    "retry_analysis": true,
+    "reason": "Recover historical malformed model response",
+    "added": "2026-09-05T01:47:30.332082+00:00"
+  },
+  "855fc5b1e0984bc6": {
+    "id": "855fc5b1e0984bc6",
+    "url": "https://opportunitiesforyouth.org/2026/08/30/nasa-fellowships/",
+    "title": "NASA Fellowships: Research, STEM Graduate Education and Fellowship Opportunities for Aspiring Scientists and Engineers",
+    "retry_analysis": true,
+    "reason": "Recover historical malformed model response",
+    "added": "2026-09-05T01:47:30.333201+00:00"
+  },
+  "ebeae0d2a4eaab34": {
+    "id": "ebeae0d2a4eaab34",
+    "url": "https://opportunitiesforyouth.org/2026/08/30/uk-youth-advisory-2026/",
+    "title": "Co-operatives UK Youth Advisory Group 2026: Paid Opportunity for Young People Aged 16–30 to Shape the Future of the Co-operative Movement",
+    "retry_analysis": true,
+    "reason": "Recover historical malformed model response",
+    "added": "2026-09-05T01:47:30.334303+00:00"
+  },
+  "2f30c02477ee8df7": {
+    "id": "2f30c02477ee8df7",
+    "url": "https://opportunitiesforyouth.org/2026/08/30/unctad-supply-chain/",
+    "title": "UNCTAD Supply Chain Innovation Challenge 2026: Submit Your Frontier Technology Solution and Present at the Global Supply Chain Forum in Saudi Arabia",
+    "retry_analysis": true,
+    "reason": "Recover historical malformed model response",
+    "added": "2026-09-05T01:47:30.335403+00:00"
+  },
+  "a9ad117029349963": {
+    "id": "a9ad117029349963",
+    "url": "https://www.facebook.com/groups/731957298564333/posts/1452547853171937",
+    "title": "Global South Opportunities | 💰🌍 Funding Opportunity: UNESCO Participation Programme (2026–2027) | Facebook",
+    "retry_analysis": true,
+    "reason": "Recover historical malformed model response",
+    "added": "2026-09-05T01:47:30.336513+00:00"
+  },
+  "cee760ff9b3cd4f3": {
+    "id": "cee760ff9b3cd4f3",
+    "url": "https://www.linkedin.com/company/global-grants-and-opportunities-for-africa-gga",
+    "title": "Global Grants And Opportunities For Africa(GGA) - Empowering Africa through access to global grants, partnerships, and opportunities for sustainable growth and impact.",
+    "retry_analysis": true,
+    "reason": "Recover historical malformed model response",
+    "added": "2026-09-05T01:47:30.337696+00:00"
+  },
+  "d3094fda0ad57af9": {
+    "id": "d3094fda0ad57af9",
+    "url": "https://exchanges.state.gov/non-us/program/professional-fellows-program",
+    "title": "Professional Fellows Program | Exchange Programs",
+    "retry_analysis": true,
+    "reason": "Recover historical malformed model response",
+    "added": "2026-09-05T01:47:30.339980+00:00"
+  },
+  "f016932c52e93d6a": {
+    "id": "f016932c52e93d6a",
+    "url": "https://www.professionalfellows.americancouncils.org/how-to-apply",
+    "title": "How to Apply — Professional Fellows Program",
+    "retry_analysis": true,
+    "reason": "Recover historical malformed model response",
+    "added": "2026-09-05T01:47:30.341154+00:00"
+  },
+  "c917b4b3375a0575": {
+    "id": "c917b4b3375a0575",
+    "url": "https://pfpinclusion.org",
+    "title": "Professional Fellows Program on Inclusive Civic Engagement",
+    "retry_analysis": true,
+    "reason": "Recover historical malformed model response",
+    "added": "2026-09-05T01:47:30.342312+00:00"
+  },
+  "8c00f42f15b58d59": {
+    "id": "8c00f42f15b58d59",
+    "url": "https://fundinnovation.wiin.io/en/applications/formulaire-de-candidature",
+    "title": "FID | FID - Call for Proposals",
+    "retry_analysis": true,
+    "reason": "Recover historical malformed model response",
+    "added": "2026-09-05T01:47:30.343476+00:00"
+  },
+  "5800a1c6f5df62a7": {
+    "id": "5800a1c6f5df62a7",
+    "url": "https://www.opportunitiesforafricans.com/university-of-british-columbia-mastercard-foundation-scholars-program-2027/",
+    "title": "The University of British Columbia Mastercard Foundation Scholars Program 2027 for study in Canada (Fully Funded)",
+    "retry_analysis": true,
+    "reason": "Recover historical malformed model response",
+    "added": "2026-09-05T01:47:30.344689+00:00"
+  },
+  "09b28acfde34f5a4": {
+    "id": "09b28acfde34f5a4",
+    "url": "https://maxwith.com/funding/guides/best-startup-grants-africa-2026",
+    "title": "Best Startup Grants in Africa (2026) - MaxWith",
+    "retry_analysis": true,
+    "reason": "Recover historical malformed model response",
+    "added": "2026-09-05T01:47:30.345888+00:00"
+  },
+  "d5ee11144f84c5c9": {
+    "id": "d5ee11144f84c5c9",
+    "url": "https://www.nerdwallet.com/business/loans/learn/grants-for-women",
+    "title": "45 Small-Business Grants for Women in 2026",
+    "retry_analysis": true,
+    "reason": "Recover historical malformed model response",
+    "added": "2026-09-05T01:47:30.347070+00:00"
+  },
+  "d895996f021f8185": {
+    "id": "d895996f021f8185",
+    "url": "https://www.opportunitiesforafricans.com/the-university-of-toronto-mastercard-foundation-doctor-of-public-health-scholarships-2027-2028/",
+    "title": "The University of Toronto Mastercard Foundation Doctor of Public Health Scholarships 2027/2028 for Africa public health leaders (Fully Funded)",
+    "retry_analysis": true,
+    "reason": "Recover historical malformed model response",
+    "added": "2026-09-05T01:47:30.348271+00:00"
+  },
+  "bd232303bd5577c7": {
+    "id": "bd232303bd5577c7",
+    "url": "https://www.opportunitiesforafricans.com/the-princeton-in-africa-fellowships-2027-2028-for-young-african-graduates/",
+    "title": "The Princeton in Africa Fellowships 2027/2028 for young African graduates.",
+    "retry_analysis": true,
+    "reason": "Recover historical malformed model response",
+    "added": "2026-09-05T01:47:30.349512+00:00"
+  },
+  "ee71e5fc8641e866": {
+    "id": "ee71e5fc8641e866",
+    "url": "https://opportunitiescorners.com/world-bank-young-professionals-program-2027/",
+    "title": "World Bank Young Professionals Program 2027 (WB YPP)",
+    "retry_analysis": true,
+    "reason": "Recover historical malformed model response",
+    "added": "2026-09-05T01:47:30.350770+00:00"
+  },
+  "fdde86d2f170983d": {
+    "id": "fdde86d2f170983d",
+    "url": "https://www.uaf-africa.org/apply-for-a-grant",
+    "title": "Apply for a grant - UAF",
+    "retry_analysis": true,
+    "reason": "Recover historical malformed model response",
+    "added": "2026-09-05T01:47:30.352009+00:00"
+  },
+  "3fd2bd3907aab0bf": {
+    "id": "3fd2bd3907aab0bf",
+    "url": "https://givingjoygrants.org/grant-application",
+    "title": "Grant Application | Apply Today—Make an Impact — Giving Joy",
+    "retry_analysis": true,
+    "reason": "Recover historical malformed model response",
+    "added": "2026-09-05T01:47:30.353274+00:00"
+  },
+  "94f35ec8c16b6dce": {
+    "id": "94f35ec8c16b6dce",
+    "url": "https://opportunitiescorners.com/doha-institute-for-graduate-studies-scholarship-2027/",
+    "title": "Doha Institute for Graduate Studies Scholarship 2027 (Fully Funded)",
+    "retry_analysis": true,
+    "reason": "Recover historical malformed model response",
+    "added": "2026-09-05T01:47:30.354521+00:00"
+  },
+  "49d96a0c03acdd63": {
+    "id": "49d96a0c03acdd63",
+    "url": "https://www.opportunitiesforafricans.com/the-schlumberger-foundation-faculty-for-the-future-fellowships-2027-2028/",
+    "title": "The Schlumberger Foundation Faculty for the Future Fellowships 2027/2028 for PhD or Post-doctoral research in STEM (USD 50,000 per year grant).",
+    "retry_analysis": true,
+    "reason": "Recover historical malformed model response",
+    "added": "2026-09-05T01:47:30.355801+00:00"
+  },
+  "fa9a139efeefd8b6": {
+    "id": "fa9a139efeefd8b6",
+    "url": "https://www.opportunitiesforafricans.com/the-africacdc-youth-pre-conference-2026/",
+    "title": "The AfricaCDC Youth Pre-Conference 2026 for young Africans (Fully Funded to Addis Ababa, Ethiopia)",
+    "retry_analysis": true,
+    "reason": "Recover historical malformed model response",
+    "added": "2026-09-05T01:47:30.357158+00:00"
+  },
+  "7fec01242bb88138": {
+    "id": "7fec01242bb88138",
+    "url": "https://www.opportunitiesforafricans.com/investec-ca-programme-2028-for-young-south-african-undergraduates/",
+    "title": "Investec CA Programme 2028 for young South African Undergraduates.",
+    "retry_analysis": true,
+    "reason": "Recover historical malformed model response",
+    "added": "2026-09-05T01:47:30.358433+00:00"
+  },
+  "2b72aba275cf7321": {
+    "id": "2b72aba275cf7321",
+    "url": "https://opportunitiescorners.com/google-cloud-ai-builder-cup-2026-in-singapore/",
+    "title": "Google Cloud AI Builder Cup 2026 in Singapore (Fully Funded)",
+    "retry_analysis": true,
+    "reason": "Recover historical malformed model response",
+    "added": "2026-09-05T01:47:30.359724+00:00"
+  },
+  "f0ea42b5cbc24eb5": {
+    "id": "f0ea42b5cbc24eb5",
+    "url": "https://www.opportunitiesforafricans.com/japan-international-cooperation-center-jice-japan-africa-youth-program-2026/",
+    "title": "Japan International Cooperation Center (JICE) Japan-Africa Youth Program 2026 for African Animation Professionals (Fully Funded to Japan)",
+    "retry_analysis": true,
+    "reason": "Recover historical malformed model response",
+    "added": "2026-09-05T01:47:30.361034+00:00"
+  },
+  "41b891c696dc951f": {
+    "id": "41b891c696dc951f",
+    "url": "https://www.opportunitiesforafricans.com/the-au-eu-youth-action-lab-entrepreneurship-grants-2026-for-youth-led-initiatives-in-africa/",
+    "title": "The AU-EU Youth Action Lab Entrepreneurship Grants 2026 for youth-led initiatives in Africa (31,500 EURO grant)",
+    "retry_analysis": true,
+    "reason": "Recover historical malformed model response",
+    "added": "2026-09-05T01:47:30.362363+00:00"
+  },
+  "2e4b6f593e6cdf36": {
+    "id": "2e4b6f593e6cdf36",
+    "url": "https://opportunitiescorners.com/irena-youth-forum-2027/",
+    "title": "IRENA Youth Forum 2027 in Abu Dhabi, UAE (Fully Funded)",
+    "retry_analysis": true,
+    "reason": "Recover historical malformed model response",
+    "added": "2026-09-05T01:47:30.363695+00:00"
+  },
+  "013bbeeb595b11d0": {
+    "id": "013bbeeb595b11d0",
+    "url": "https://grantintelligenceglobal.com/database",
+    "title": "Grant Database — Live EU Funding Opportunities | Grant Intelligence Global",
+    "retry_analysis": true,
+    "reason": "Recover historical malformed model response",
+    "added": "2026-09-05T01:47:30.365046+00:00"
   }
 }

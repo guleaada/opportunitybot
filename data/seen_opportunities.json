@@ -2508,7 +2508,8 @@
     "reasoning": "No reasoning returned.",
     "id": "42fe2ba54608213f",
     "first_seen": "2026-08-17T04:20:26.035059+00:00",
-    "last_updated": "2026-08-17T04:20:26.035071+00:00"
+    "last_updated": "2026-08-17T04:20:26.035071+00:00",
+    "analysis_recovery_queued": true
   },
   "4653db81b75af69c": {
     "url": "https://weworkremotely.com/remote-jobs/proxify-ab-senior-magento-developer-3",
@@ -2531,20 +2532,41 @@
   "be103000a5ad0dd8": {
     "url": "https://weworkremotely.com/remote-jobs/proxify-ab-senior-fullstack-developer-react-js-node-js-3",
     "title": "Proxify AB: Senior Fullstack Developer (React.js / Node.js)",
-    "status": "closed",
-    "deadline": null,
+    "status": "analyzed",
+    "deadline": "2026-09-13",
     "id": "be103000a5ad0dd8",
     "first_seen": "2026-08-17T04:21:49.985450+00:00",
-    "last_updated": "2026-08-17T04:21:49.985459+00:00"
+    "last_updated": "2026-09-05T01:49:12.441857+00:00",
+    "score": 3.9,
+    "category": null,
+    "official_url": "https://weworkremotely.com/remote-jobs/proxify-ab-senior-fullstack-developer-react-js-node-js-3",
+    "location": null,
+    "remote": null,
+    "reward": "none",
+    "estimated_value": null,
+    "eligibility_status": "PROBABLY_ELIGIBLE",
+    "credibility_status": "LIKELY_LEGITIMATE",
+    "source_tier": "TIER_4",
+    "source_quality": null,
+    "requirements": []
   },
   "c1f2bcec21f928f1": {
     "url": "https://weworkremotely.com/remote-jobs/proxify-ab-senior-ruby-on-rails-developer-ai-augmented-engineering",
     "title": "Proxify AB: Senior Ruby on Rails Developer (AI-Augmented Engineering)",
-    "status": "closed",
+    "status": "ineligible",
     "deadline": null,
     "id": "c1f2bcec21f928f1",
     "first_seen": "2026-08-17T04:21:57.989000+00:00",
-    "last_updated": "2026-08-17T04:21:57.989010+00:00"
+    "last_updated": "2026-09-05T01:50:23.715814+00:00",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "model_eligibility_status": "CONFIRMED_INELIGIBLE",
+    "missing_requirements": [],
+    "blocking_issues": [
+      "Location timezone mismatch (CET +/-3h required, candidate in UTC+7)",
+      "Insufficient Ruby on Rails experience (requires 5+ years, none listed)"
+    ],
+    "addressable_gaps": [],
+    "reasoning": "The job explicitly requires candidates to be located in the CET timezone (UTC+1/UTC+2) +/- 3 hours. The candidate is based in Vientiane (UTC+7), which falls outside this range. Additionally, the role demands 5+ years of production experience with Ruby on Rails and strong expertise in related technologies, which the candidate's profile does not demonstrate. These are hard, non‑addressable blockers."
   },
   "6a99771205b14100": {
     "url": "https://weworkremotely.com/remote-jobs/proxify-ab-senior-sharepoint-developer-6",
@@ -2574,7 +2596,8 @@
     "reasoning": "No reasoning returned.",
     "id": "0313dcbb27845386",
     "first_seen": "2026-08-17T04:25:44.548071+00:00",
-    "last_updated": "2026-08-17T04:25:44.548081+00:00"
+    "last_updated": "2026-08-17T04:25:44.548081+00:00",
+    "analysis_recovery_queued": true
   },
   "dd10e69705382d99": {
     "url": "https://www.python.org/jobs/8122/",
@@ -2910,7 +2933,8 @@
     "reasoning": "No reasoning returned.",
     "id": "549244728e41d0bf",
     "first_seen": "2026-08-18T05:32:41.630342+00:00",
-    "last_updated": "2026-08-18T05:32:41.630349+00:00"
+    "last_updated": "2026-08-18T05:32:41.630349+00:00",
+    "analysis_recovery_queued": true
   },
   "a032547c29b5c325": {
     "url": "https://www.opportunitiesforafricans.com/the-emerging-leaders-foundation-elf-africa-ilead-fellowship-program-2026/",
@@ -2921,7 +2945,8 @@
     "reasoning": "No reasoning returned.",
     "id": "a032547c29b5c325",
     "first_seen": "2026-08-18T05:33:35.375527+00:00",
-    "last_updated": "2026-08-18T05:33:35.375536+00:00"
+    "last_updated": "2026-08-18T05:33:35.375536+00:00",
+    "analysis_recovery_queued": true
   },
   "e3c052a42c64239f": {
     "url": "https://www.opportunitiesforafricans.com/meta-ai-academy-nigeria/",
@@ -2932,7 +2957,8 @@
     "reasoning": "No reasoning returned.",
     "id": "e3c052a42c64239f",
     "first_seen": "2026-08-18T05:34:36.468729+00:00",
-    "last_updated": "2026-08-18T05:34:36.468736+00:00"
+    "last_updated": "2026-08-18T05:34:36.468736+00:00",
+    "analysis_recovery_queued": true
   },
   "0c44a386fa0efbaf": {
     "url": "https://weworkremotely.com/remote-jobs/edfinity-senior-software-engineer-remote",
@@ -2942,7 +2968,8 @@
     "reasoning": "No reasoning returned.",
     "id": "0c44a386fa0efbaf",
     "first_seen": "2026-08-18T05:37:19.486108+00:00",
-    "last_updated": "2026-08-18T05:37:19.486115+00:00"
+    "last_updated": "2026-08-18T05:37:19.486115+00:00",
+    "analysis_recovery_queued": true
   },
   "6091552034e00d01": {
     "url": "https://weworkremotely.com/remote-jobs/autogpt-gtm-lead",
@@ -2953,7 +2980,8 @@
     "reasoning": "No reasoning returned.",
     "id": "6091552034e00d01",
     "first_seen": "2026-08-18T05:38:21.892913+00:00",
-    "last_updated": "2026-08-18T05:38:21.892921+00:00"
+    "last_updated": "2026-08-18T05:38:21.892921+00:00",
+    "analysis_recovery_queued": true
   },
   "c09297a11e9f5737": {
     "url": "https://www.python.org/jobs/8126/",
@@ -2964,7 +2992,8 @@
     "reasoning": "No reasoning returned.",
     "id": "c09297a11e9f5737",
     "first_seen": "2026-08-18T05:39:22.713486+00:00",
-    "last_updated": "2026-08-18T05:39:22.713493+00:00"
+    "last_updated": "2026-08-18T05:39:22.713493+00:00",
+    "analysis_recovery_queued": true
   },
   "57eaa87fa26f39ba": {
     "url": "https://www.python.org/jobs/8123/",
@@ -2994,7 +3023,8 @@
     "reasoning": "No reasoning returned.",
     "id": "e041933df2248c08",
     "first_seen": "2026-08-18T05:42:37.565856+00:00",
-    "last_updated": "2026-08-18T05:42:37.565863+00:00"
+    "last_updated": "2026-08-18T05:42:37.565863+00:00",
+    "analysis_recovery_queued": true
   },
   "8b4f9dbef1849669": {
     "url": "https://www.python.org/jobs/8109/",
@@ -3565,7 +3595,8 @@
     "reasoning": "No reasoning returned.",
     "id": "9101164703fe9ba0",
     "first_seen": "2026-08-18T19:48:04.393648+00:00",
-    "last_updated": "2026-08-18T19:48:04.393659+00:00"
+    "last_updated": "2026-08-18T19:48:04.393659+00:00",
+    "analysis_recovery_queued": true
   },
   "ae26d38c1bf77ecb": {
     "url": "https://opportunitiesforyouth.org/2026/08/18/cphia-2026-in-addis-ababa/",
@@ -3605,7 +3636,8 @@
     "reasoning": "No reasoning returned.",
     "id": "96caad03a213a85d",
     "first_seen": "2026-08-18T19:50:51.139090+00:00",
-    "last_updated": "2026-08-18T19:50:51.139100+00:00"
+    "last_updated": "2026-08-18T19:50:51.139100+00:00",
+    "analysis_recovery_queued": true
   },
   "321b649c1d7df5d9": {
     "url": "https://weworkremotely.com/remote-jobs/destination-knot-customer-support-reservation-services-remote",
@@ -3732,7 +3764,8 @@
     "reasoning": "No reasoning returned.",
     "id": "9d70f375971cda81",
     "first_seen": "2026-08-18T22:42:43.261392+00:00",
-    "last_updated": "2026-08-18T22:42:43.261399+00:00"
+    "last_updated": "2026-08-18T22:42:43.261399+00:00",
+    "analysis_recovery_queued": true
   },
   "a28459ad4f069d93": {
     "url": "https://opportunitiesforyouth.org/2026/08/18/2027-mext-scholarships-at-the-university-of-osaka-japan-undergraduate-and-graduate-opportunities/",
@@ -3967,7 +4000,8 @@
     "reasoning": "No reasoning returned.",
     "id": "f2230f72c2209b65",
     "first_seen": "2026-08-19T00:14:02.198345+00:00",
-    "last_updated": "2026-08-19T00:14:02.198360+00:00"
+    "last_updated": "2026-08-19T00:14:02.198360+00:00",
+    "analysis_recovery_queued": true
   },
   "948288b971d99501": {
     "url": "https://www.africanleadershipcentre.org/news/call-for-applications-y4z58",
@@ -3978,7 +4012,8 @@
     "reasoning": "No reasoning returned.",
     "id": "948288b971d99501",
     "first_seen": "2026-08-19T00:14:16.050984+00:00",
-    "last_updated": "2026-08-19T00:14:16.050998+00:00"
+    "last_updated": "2026-08-19T00:14:16.050998+00:00",
+    "analysis_recovery_queued": true
   },
   "ec7109ade3dc3482": {
     "url": "https://www.linkedin.com/pulse/40-fully-funded-fellowship-opportunities-iswef",
@@ -3988,7 +4023,8 @@
     "reasoning": "No reasoning returned.",
     "id": "ec7109ade3dc3482",
     "first_seen": "2026-08-19T00:14:57.014231+00:00",
-    "last_updated": "2026-08-19T00:14:57.014244+00:00"
+    "last_updated": "2026-08-19T00:14:57.014244+00:00",
+    "analysis_recovery_queued": true
   },
   "7bc97f830f832a8d": {
     "url": "https://grants.nih.gov/funding/funding-categories/research-training-and-career-development/individual-fellowships",
@@ -3998,7 +4034,8 @@
     "reasoning": "No reasoning returned.",
     "id": "7bc97f830f832a8d",
     "first_seen": "2026-08-19T00:15:29.965170+00:00",
-    "last_updated": "2026-08-19T00:15:29.965184+00:00"
+    "last_updated": "2026-08-19T00:15:29.965184+00:00",
+    "analysis_recovery_queued": true
   },
   "984939ad600ed3d2": {
     "url": "https://kroc.nd.edu/research/grants-and-fellowships/apply-for-visiting-research-fellowships",
@@ -4009,7 +4046,8 @@
     "reasoning": "No reasoning returned.",
     "id": "984939ad600ed3d2",
     "first_seen": "2026-08-19T00:15:56.320679+00:00",
-    "last_updated": "2026-08-19T00:15:56.320692+00:00"
+    "last_updated": "2026-08-19T00:15:56.320692+00:00",
+    "analysis_recovery_queued": true
   },
   "a5aa10fa64908ee2": {
     "url": "https://greatyop.com/fully-funded-scholarships-for-international-students",
@@ -4020,7 +4058,8 @@
     "reasoning": "No reasoning returned.",
     "id": "a5aa10fa64908ee2",
     "first_seen": "2026-08-19T00:16:18.610184+00:00",
-    "last_updated": "2026-08-19T00:16:18.610196+00:00"
+    "last_updated": "2026-08-19T00:16:18.610196+00:00",
+    "analysis_recovery_queued": true
   },
   "e4d507d5b8554ccd": {
     "url": "https://www.scholarshipsads.com",
@@ -4031,7 +4070,8 @@
     "reasoning": "No reasoning returned.",
     "id": "e4d507d5b8554ccd",
     "first_seen": "2026-08-19T00:16:27.469612+00:00",
-    "last_updated": "2026-08-19T00:16:27.469624+00:00"
+    "last_updated": "2026-08-19T00:16:27.469624+00:00",
+    "analysis_recovery_queued": true
   },
   "880d39ac0fbff296": {
     "url": "https://scholarshiproar.com/fully-funded-scholarships",
@@ -4042,7 +4082,8 @@
     "reasoning": "No reasoning returned.",
     "id": "880d39ac0fbff296",
     "first_seen": "2026-08-19T00:16:39.355217+00:00",
-    "last_updated": "2026-08-19T00:16:39.355229+00:00"
+    "last_updated": "2026-08-19T00:16:39.355229+00:00",
+    "analysis_recovery_queued": true
   },
   "4a32a7fe4df6c222": {
     "url": "https://www.youtube.com/watch?v=qlP8fIUTpIs",
@@ -4075,7 +4116,8 @@
     "reasoning": "No reasoning returned.",
     "id": "1e6057214f33b11b",
     "first_seen": "2026-08-19T00:17:30.215546+00:00",
-    "last_updated": "2026-08-19T00:17:30.215558+00:00"
+    "last_updated": "2026-08-19T00:17:30.215558+00:00",
+    "analysis_recovery_queued": true
   },
   "e3631468b151249b": {
     "url": "https://www.profellow.com",
@@ -4096,7 +4138,8 @@
     "reasoning": "No reasoning returned.",
     "id": "65dd5a38738c60ee",
     "first_seen": "2026-08-19T00:37:35.515153+00:00",
-    "last_updated": "2026-08-19T00:37:35.515183+00:00"
+    "last_updated": "2026-08-19T00:37:35.515183+00:00",
+    "analysis_recovery_queued": true
   },
   "7a7fee2f0e73c42b": {
     "url": "https://opportunitiesnexus.com/fellowships",
@@ -4107,7 +4150,8 @@
     "reasoning": "No reasoning returned.",
     "id": "7a7fee2f0e73c42b",
     "first_seen": "2026-08-19T00:38:34.822015+00:00",
-    "last_updated": "2026-08-19T00:38:34.822026+00:00"
+    "last_updated": "2026-08-19T00:38:34.822026+00:00",
+    "analysis_recovery_queued": true
   },
   "671a64dbf984646c": {
     "url": "https://za.usembassy.gov/hubert-h-humphrey-fellowship-program",
@@ -4118,7 +4162,8 @@
     "reasoning": "No reasoning returned.",
     "id": "671a64dbf984646c",
     "first_seen": "2026-08-19T00:38:59.362326+00:00",
-    "last_updated": "2026-08-19T00:38:59.362338+00:00"
+    "last_updated": "2026-08-19T00:38:59.362338+00:00",
+    "analysis_recovery_queued": true
   },
   "f60a7785aabc9c62": {
     "url": "https://www.starsfellows.africa/applyattypp",
@@ -4138,7 +4183,8 @@
     "reasoning": "No reasoning returned.",
     "id": "82c3a278e79e46f8",
     "first_seen": "2026-08-19T00:39:42.238909+00:00",
-    "last_updated": "2026-08-19T00:39:42.238920+00:00"
+    "last_updated": "2026-08-19T00:39:42.238920+00:00",
+    "analysis_recovery_queued": true
   },
   "2e9c86b8cdeace76": {
     "url": "https://igpc.najah.edu/new-calls-for-projects-and-initiatives",
@@ -4148,7 +4194,8 @@
     "reasoning": "No reasoning returned.",
     "id": "2e9c86b8cdeace76",
     "first_seen": "2026-08-19T00:40:11.665152+00:00",
-    "last_updated": "2026-08-19T00:40:11.665163+00:00"
+    "last_updated": "2026-08-19T00:40:11.665163+00:00",
+    "analysis_recovery_queued": true
   },
   "a3299852b125dc31": {
     "url": "https://grantexec.com/grants/issue/international-development/eligibility/individuals",
@@ -4331,7 +4378,8 @@
     "reasoning": "No reasoning returned.",
     "id": "2b825bb15d724897",
     "first_seen": "2026-08-20T05:39:22.818459+00:00",
-    "last_updated": "2026-08-20T05:39:22.818469+00:00"
+    "last_updated": "2026-08-20T05:39:22.818469+00:00",
+    "analysis_recovery_queued": true
   },
   "acc4c4288d1d0922": {
     "url": "https://opportunitydesk.org/2026/08/19/ares-international-training-scholarships-2027-2028/",
@@ -4341,7 +4389,8 @@
     "reasoning": "No reasoning returned.",
     "id": "acc4c4288d1d0922",
     "first_seen": "2026-08-20T05:40:00.250277+00:00",
-    "last_updated": "2026-08-20T05:40:00.250286+00:00"
+    "last_updated": "2026-08-20T05:40:00.250286+00:00",
+    "analysis_recovery_queued": true
   },
   "964ec8e3ae1ab971": {
     "url": "https://opportunitydesk.org/2026/08/19/innovatehers-scholarship-challenge-2026/",
@@ -4371,7 +4420,8 @@
     "reasoning": "No reasoning returned.",
     "id": "0dceb68c941c24db",
     "first_seen": "2026-08-20T05:40:56.098141+00:00",
-    "last_updated": "2026-08-20T05:40:56.098146+00:00"
+    "last_updated": "2026-08-20T05:40:56.098146+00:00",
+    "analysis_recovery_queued": true
   },
   "940a023da90c4ce3": {
     "url": "https://opportunitydesk.org/2026/08/19/wege-prize-2027/",
@@ -4381,7 +4431,8 @@
     "reasoning": "No reasoning returned.",
     "id": "940a023da90c4ce3",
     "first_seen": "2026-08-20T05:41:57.582754+00:00",
-    "last_updated": "2026-08-20T05:41:57.582762+00:00"
+    "last_updated": "2026-08-20T05:41:57.582762+00:00",
+    "analysis_recovery_queued": true
   },
   "ba64384a6aba78fd": {
     "url": "https://opportunitydesk.org/2026/08/19/11th-africa-energy-innovation-challenge-2026/",
@@ -4434,7 +4485,8 @@
     "reasoning": "No reasoning returned.",
     "id": "3d293bca5c827095",
     "first_seen": "2026-08-21T05:37:13.848706+00:00",
-    "last_updated": "2026-08-21T05:37:13.848715+00:00"
+    "last_updated": "2026-08-21T05:37:13.848715+00:00",
+    "analysis_recovery_queued": true
   },
   "fc01aab56cb9a5c0": {
     "url": "https://opportunitiesforyouth.org/2026/08/20/ares-international-training-scholarships-2027-2028-in-belgium-fully-funded-study-and-professional-training-opportunities-for-applicants-from-32-eligible-countries/",
@@ -4454,7 +4506,8 @@
     "reasoning": "No reasoning returned.",
     "id": "2e2e09e81b3b8fe5",
     "first_seen": "2026-08-21T05:38:11.734228+00:00",
-    "last_updated": "2026-08-21T05:38:11.734236+00:00"
+    "last_updated": "2026-08-21T05:38:11.734236+00:00",
+    "analysis_recovery_queued": true
   },
   "0ba379f0886cfb8d": {
     "url": "https://www.opportunitiesforafricans.com/swiss-government-excellence-scholarships-2027-2028-for-foreign-students-artists/",
@@ -4465,7 +4518,8 @@
     "reasoning": "No reasoning returned.",
     "id": "0ba379f0886cfb8d",
     "first_seen": "2026-08-21T05:38:39.403623+00:00",
-    "last_updated": "2026-08-21T05:38:39.403630+00:00"
+    "last_updated": "2026-08-21T05:38:39.403630+00:00",
+    "analysis_recovery_queued": true
   },
   "e34bc86ea8b6bde8": {
     "url": "https://opportunitydesk.org/2026/08/20/presidential-digital-talent-programme-2026-cohort-xi/",
@@ -4476,7 +4530,8 @@
     "reasoning": "No reasoning returned.",
     "id": "e34bc86ea8b6bde8",
     "first_seen": "2026-08-21T05:38:58.643852+00:00",
-    "last_updated": "2026-08-21T05:38:58.643859+00:00"
+    "last_updated": "2026-08-21T05:38:58.643859+00:00",
+    "analysis_recovery_queued": true
   },
   "51cd9a20b5f70a7b": {
     "url": "https://opportunitiesforyouth.org/2026/08/21/lshtm-research-fellow-and-fully-funded-phd-studentship-opportunities-2026-2027-data-science-statistics-epidemiology-and-maternity-inequalities/",
@@ -4486,7 +4541,8 @@
     "reasoning": "No reasoning returned.",
     "id": "51cd9a20b5f70a7b",
     "first_seen": "2026-08-21T05:40:02.573988+00:00",
-    "last_updated": "2026-08-21T05:40:02.573997+00:00"
+    "last_updated": "2026-08-21T05:40:02.573997+00:00",
+    "analysis_recovery_queued": true
   },
   "2d4a5f25706293b3": {
     "url": "https://opportunitiesforyouth.org/2026/08/20/aku-fall-2026-virtual-internship-programme-virtual-internships-for-students/",
@@ -4496,7 +4552,8 @@
     "reasoning": "No reasoning returned.",
     "id": "2d4a5f25706293b3",
     "first_seen": "2026-08-21T05:40:19.257765+00:00",
-    "last_updated": "2026-08-21T05:40:19.257786+00:00"
+    "last_updated": "2026-08-21T05:40:19.257786+00:00",
+    "analysis_recovery_queued": true
   },
   "bfc0df0f95a3fcc4": {
     "url": "https://opportunitydesk.org/2026/08/20/finding-the-right-investment-in-foreign-currencies/",
@@ -4516,7 +4573,8 @@
     "reasoning": "No reasoning returned.",
     "id": "eb87ddf5a143ba4d",
     "first_seen": "2026-08-21T05:41:10.062727+00:00",
-    "last_updated": "2026-08-21T05:41:10.062738+00:00"
+    "last_updated": "2026-08-21T05:41:10.062738+00:00",
+    "analysis_recovery_queued": true
   },
   "4b521fbca1fdf0c9": {
     "url": "https://opportunitydesk.org/2026/08/20/international-physics-competition-education-program-talent-search-2026/",
@@ -4527,7 +4585,8 @@
     "reasoning": "No reasoning returned.",
     "id": "4b521fbca1fdf0c9",
     "first_seen": "2026-08-21T05:41:48.997288+00:00",
-    "last_updated": "2026-08-21T05:41:48.997296+00:00"
+    "last_updated": "2026-08-21T05:41:48.997296+00:00",
+    "analysis_recovery_queued": true
   },
   "6f79b1cfb28962c7": {
     "url": "https://opportunitydesk.org/2026/08/20/global-logic-reasoning-competition-2026/",
@@ -4555,7 +4614,8 @@
     "reasoning": "No reasoning returned.",
     "id": "c0f288377f95e665",
     "first_seen": "2026-08-22T05:31:17.251923+00:00",
-    "last_updated": "2026-08-22T05:31:17.251933+00:00"
+    "last_updated": "2026-08-22T05:31:17.251933+00:00",
+    "analysis_recovery_queued": true
   },
   "523a248c3c1a8ff9": {
     "url": "https://opportunitiescorners.com/global-peace-summit-greece-2026/",
@@ -4587,7 +4647,8 @@
     "reasoning": "No reasoning returned.",
     "id": "ad0db876f86cb8b0",
     "first_seen": "2026-08-22T05:33:14.906334+00:00",
-    "last_updated": "2026-08-22T05:33:14.906343+00:00"
+    "last_updated": "2026-08-22T05:33:14.906343+00:00",
+    "analysis_recovery_queued": true
   },
   "bbf0308fc6150e41": {
     "url": "https://opportunitydesk.org/2026/08/21/policy-advocacy-and-leadership-fellowship-2026-cohort-3/",
@@ -4638,7 +4699,8 @@
     "reasoning": "No reasoning returned.",
     "id": "6c7241459a2b1803",
     "first_seen": "2026-08-22T05:39:34.128828+00:00",
-    "last_updated": "2026-08-22T05:39:34.128836+00:00"
+    "last_updated": "2026-08-22T05:39:34.128836+00:00",
+    "analysis_recovery_queued": true
   },
   "c945d47810e6bbf8": {
     "url": "https://oyaop.com/opportunity/scholarships-and-fellowships/top-50-fully-funded-fellowships-in-2027-for-international-students-and-young-professionals",
@@ -4648,7 +4710,8 @@
     "reasoning": "No reasoning returned.",
     "id": "c945d47810e6bbf8",
     "first_seen": "2026-08-22T05:40:50.544985+00:00",
-    "last_updated": "2026-08-22T05:40:50.544993+00:00"
+    "last_updated": "2026-08-22T05:40:50.544993+00:00",
+    "analysis_recovery_queued": true
   },
   "300342638aa69f5d": {
     "url": "https://immigrationandstudyabroad.com/scholarships-for-international-students",
@@ -4678,7 +4741,8 @@
     "reasoning": "No reasoning returned.",
     "id": "30e9aeefc192e24f",
     "first_seen": "2026-08-22T05:43:52.076147+00:00",
-    "last_updated": "2026-08-22T05:43:52.076156+00:00"
+    "last_updated": "2026-08-22T05:43:52.076156+00:00",
+    "analysis_recovery_queued": true
   },
   "e22a0889d8656456": {
     "url": "https://opportunitydesk.org/2026/08/21/pulitzer-center-global-south-civil-society-microgrants-2026/",
@@ -4698,7 +4762,8 @@
     "reasoning": "No reasoning returned.",
     "id": "ba2ade15571231d0",
     "first_seen": "2026-08-23T05:33:01.872890+00:00",
-    "last_updated": "2026-08-23T05:33:01.872901+00:00"
+    "last_updated": "2026-08-23T05:33:01.872901+00:00",
+    "analysis_recovery_queued": true
   },
   "c4d63717b3b148c8": {
     "url": "https://opportunitiescorners.com/kaist-graduate-scholarship-2027/",
@@ -4708,7 +4773,8 @@
     "reasoning": "No reasoning returned.",
     "id": "c4d63717b3b148c8",
     "first_seen": "2026-08-23T05:34:18.264556+00:00",
-    "last_updated": "2026-08-23T05:34:18.264565+00:00"
+    "last_updated": "2026-08-23T05:34:18.264565+00:00",
+    "analysis_recovery_queued": true
   },
   "6d63c8106736202f": {
     "url": "https://opportunitiescorners.com/nus-iris-internship-2027/",
@@ -4719,7 +4785,8 @@
     "reasoning": "No reasoning returned.",
     "id": "6d63c8106736202f",
     "first_seen": "2026-08-23T05:35:06.654157+00:00",
-    "last_updated": "2026-08-23T05:35:06.654166+00:00"
+    "last_updated": "2026-08-23T05:35:06.654166+00:00",
+    "analysis_recovery_queued": true
   },
   "cce47d178ed00810": {
     "url": "https://opportunitydesk.org/2026/08/22/mitacs-globalink-research-award-program-2026/",
@@ -4729,7 +4796,8 @@
     "reasoning": "No reasoning returned.",
     "id": "cce47d178ed00810",
     "first_seen": "2026-08-23T05:35:38.516687+00:00",
-    "last_updated": "2026-08-23T05:35:38.516695+00:00"
+    "last_updated": "2026-08-23T05:35:38.516695+00:00",
+    "analysis_recovery_queued": true
   },
   "79669dfcc3277193": {
     "url": "https://opportunitydesk.org/2026/08/22/lester-b-pearson-international-student-scholarships-2027/",
@@ -4791,7 +4859,8 @@
     "reasoning": "No reasoning returned.",
     "id": "f3e60ef235c4e1cc",
     "first_seen": "2026-08-23T05:42:18.637618+00:00",
-    "last_updated": "2026-08-23T05:42:18.637627+00:00"
+    "last_updated": "2026-08-23T05:42:18.637627+00:00",
+    "analysis_recovery_queued": true
   },
   "ae687aa2d463c59d": {
     "url": "https://www.thisiscolossal.com/2026/07/august-2026-open-calls-grants-residencies",
@@ -4801,7 +4870,8 @@
     "reasoning": "No reasoning returned.",
     "id": "ae687aa2d463c59d",
     "first_seen": "2026-08-23T05:44:03.001364+00:00",
-    "last_updated": "2026-08-23T05:44:03.001373+00:00"
+    "last_updated": "2026-08-23T05:44:03.001373+00:00",
+    "analysis_recovery_queued": true
   },
   "acf72d7aaab57249": {
     "url": "https://www.xhbt.org/open-calls",
@@ -4852,7 +4922,8 @@
     "reasoning": "No reasoning returned.",
     "id": "5c6712b3f2a48998",
     "first_seen": "2026-08-24T05:42:14.448633+00:00",
-    "last_updated": "2026-08-24T05:42:14.448642+00:00"
+    "last_updated": "2026-08-24T05:42:14.448642+00:00",
+    "analysis_recovery_queued": true
   },
   "f16938c057c5e81e": {
     "url": "https://opportunitiescorners.com/world-leaders-convention-2027-in-austria/",
@@ -4905,7 +4976,8 @@
     "requirements": [],
     "id": "fcd24390daf6b6f0",
     "first_seen": "2026-08-24T05:46:09.434055+00:00",
-    "last_updated": "2026-08-24T05:46:09.434064+00:00"
+    "last_updated": "2026-08-24T05:46:09.434064+00:00",
+    "analysis_recovery_queued": true
   },
   "64614529632c88bb": {
     "url": "https://opportunitydesk.org/2026/08/22/hoover-fellows-program-2026-2027/",
@@ -4976,7 +5048,8 @@
     "reasoning": "No reasoning returned.",
     "id": "7829e9edec8dd813",
     "first_seen": "2026-08-25T05:35:24.715093+00:00",
-    "last_updated": "2026-08-25T05:35:24.715101+00:00"
+    "last_updated": "2026-08-25T05:35:24.715101+00:00",
+    "analysis_recovery_queued": true
   },
   "cf6fdb023389fa38": {
     "url": "https://www.opportunitiesforafricans.com/the-heirs-holdings-graduate-trainee-programme-2026-for-young-nigerian-graduates/",
@@ -5038,7 +5111,8 @@
     "reasoning": "No reasoning returned.",
     "id": "810304eb0b91c9d4",
     "first_seen": "2026-08-25T05:39:43.489870+00:00",
-    "last_updated": "2026-08-25T05:39:43.489878+00:00"
+    "last_updated": "2026-08-25T05:39:43.489878+00:00",
+    "analysis_recovery_queued": true
   },
   "74f48f452a0d8e2c": {
     "url": "https://opportunitydesk.org/2026/08/24/global-mental-health-africa-conference-scholarship-2027/",
@@ -5069,7 +5143,8 @@
     "reasoning": "No reasoning returned.",
     "id": "8ab0c6ef208236d7",
     "first_seen": "2026-08-25T05:41:54.808585+00:00",
-    "last_updated": "2026-08-25T05:41:54.808598+00:00"
+    "last_updated": "2026-08-25T05:41:54.808598+00:00",
+    "analysis_recovery_queued": true
   },
   "bdef2274bca8584b": {
     "url": "https://opportunitiesforyouth.org/2026/08/24/digital-education-council-postgraduate-research-fellowship-2026-research-opportunity-in-ai-and-higher-education/",
@@ -5112,7 +5187,8 @@
     "reasoning": "No reasoning returned.",
     "id": "58544d0fe1f2f187",
     "first_seen": "2026-08-25T05:45:26.031543+00:00",
-    "last_updated": "2026-08-25T05:45:26.031553+00:00"
+    "last_updated": "2026-08-25T05:45:26.031553+00:00",
+    "analysis_recovery_queued": true
   },
   "9bdc7f33401bd97f": {
     "url": "https://opportunitiescorners.com/erasmus-mundus-scholarship-2027/",
@@ -5164,7 +5240,8 @@
     "reasoning": "No reasoning returned.",
     "id": "6e081940260659e5",
     "first_seen": "2026-08-26T05:43:54.774210+00:00",
-    "last_updated": "2026-08-26T05:43:54.774217+00:00"
+    "last_updated": "2026-08-26T05:43:54.774217+00:00",
+    "analysis_recovery_queued": true
   },
   "0c99b15b16fe0e16": {
     "url": "https://www.opportunitiesforafricans.com/the-university-of-cape-town-mastercard-foundation-scholars-program-2027/",
@@ -5174,7 +5251,8 @@
     "reasoning": "No reasoning returned.",
     "id": "0c99b15b16fe0e16",
     "first_seen": "2026-08-26T05:45:00.774026+00:00",
-    "last_updated": "2026-08-26T05:45:00.774034+00:00"
+    "last_updated": "2026-08-26T05:45:00.774034+00:00",
+    "analysis_recovery_queued": true
   },
   "88936ff77df6e7ef": {
     "url": "https://www.opportunitiesforafricans.com/sasol-mining-fence-line-mainstream-programme-2026-for-young-south-africans/",
@@ -5375,7 +5453,8 @@
     "reasoning": "No reasoning returned.",
     "id": "7daad5cd9ccb1cc7",
     "first_seen": "2026-08-27T16:19:21.545478+00:00",
-    "last_updated": "2026-08-27T16:19:21.545488+00:00"
+    "last_updated": "2026-08-27T16:19:21.545488+00:00",
+    "analysis_recovery_queued": true
   },
   "ebc27068dde8246f": {
     "url": "https://opportunitiesforyouth.org/2026/08/27/lasr-labs-winter-2027-ai-safety-research-programme-15000-stipend-and-13-week-research-opportunity-in-london/",
@@ -5396,7 +5475,8 @@
     "reasoning": "No reasoning returned.",
     "id": "689a18edb3ef2a22",
     "first_seen": "2026-08-27T16:21:51.697010+00:00",
-    "last_updated": "2026-08-27T16:21:51.697019+00:00"
+    "last_updated": "2026-08-27T16:21:51.697019+00:00",
+    "analysis_recovery_queued": true
   },
   "f6e3b698d287a3b0": {
     "url": "https://opportunitiesforyouth.org/2026/08/27/chatham-house-research-associate-digital-society-programme-38000-permanent-job-in-london/",
@@ -5428,7 +5508,8 @@
     "reasoning": "No reasoning returned.",
     "id": "6c93539019efad38",
     "first_seen": "2026-08-27T16:25:25.136188+00:00",
-    "last_updated": "2026-08-27T16:25:25.136198+00:00"
+    "last_updated": "2026-08-27T16:25:25.136198+00:00",
+    "analysis_recovery_queued": true
   },
   "ad30613f73a0045d": {
     "url": "https://opportunitiescorners.com/open-doors-scholarship-2027/",
@@ -5482,7 +5563,8 @@
     "reasoning": "No reasoning returned.",
     "id": "25d2a515868f9342",
     "first_seen": "2026-08-28T17:17:14.020468+00:00",
-    "last_updated": "2026-08-28T17:17:14.020483+00:00"
+    "last_updated": "2026-08-28T17:17:14.020483+00:00",
+    "analysis_recovery_queued": true
   },
   "b66d16ea483b5191": {
     "url": "https://opportunitiescorners.com/unctad-supply-chain-innovation-challenge-2026/",
@@ -5524,7 +5606,8 @@
     "reasoning": "No reasoning returned.",
     "id": "24bbf61f7d1fb821",
     "first_seen": "2026-08-28T17:20:06.710672+00:00",
-    "last_updated": "2026-08-28T17:20:06.710684+00:00"
+    "last_updated": "2026-08-28T17:20:06.710684+00:00",
+    "analysis_recovery_queued": true
   },
   "c0664ec88ae034bf": {
     "url": "https://opportunitydesk.org/2026/08/28/big-ten-academic-alliance-smithsonian-fellowship-2026/",
@@ -5661,7 +5744,8 @@
     "reasoning": "No reasoning returned.",
     "id": "d67f7db298ab8370",
     "first_seen": "2026-08-29T11:36:57.914826+00:00",
-    "last_updated": "2026-08-29T11:36:57.914834+00:00"
+    "last_updated": "2026-08-29T11:36:57.914834+00:00",
+    "analysis_recovery_queued": true
   },
   "767c2d0470800933": {
     "url": "https://opportunitydesk.org/2026/08/29/ema-traineeship-programme-2026/",
@@ -5778,7 +5862,8 @@
     "reasoning": "No reasoning returned.",
     "id": "7b5ac571cd2c5806",
     "first_seen": "2026-08-30T10:23:11.520530+00:00",
-    "last_updated": "2026-08-30T10:23:11.520540+00:00"
+    "last_updated": "2026-08-30T10:23:11.520540+00:00",
+    "analysis_recovery_queued": true
   },
   "16b6f50b1ca5e072": {
     "url": "https://www.linkedin.com/pulse/30-fully-funded-grants-accelerators-yy4bf",
@@ -5859,7 +5944,8 @@
     "reasoning": "No reasoning returned.",
     "id": "fa90d3f1edd7e8f4",
     "first_seen": "2026-08-30T10:28:33.387880+00:00",
-    "last_updated": "2026-08-30T10:28:33.387888+00:00"
+    "last_updated": "2026-08-30T10:28:33.387888+00:00",
+    "analysis_recovery_queued": true
   },
   "4c30250688bd3b4d": {
     "url": "https://opportunitiesforyouth.org/2026/08/30/unlocking-solutions-the-pandemic-fund-announces-second-call-for-proposals/",
@@ -5870,7 +5956,8 @@
     "reasoning": "No reasoning returned.",
     "id": "4c30250688bd3b4d",
     "first_seen": "2026-08-30T10:28:56.714720+00:00",
-    "last_updated": "2026-08-30T10:28:56.714728+00:00"
+    "last_updated": "2026-08-30T10:28:56.714728+00:00",
+    "analysis_recovery_queued": true
   },
   "855fc5b1e0984bc6": {
     "url": "https://opportunitiesforyouth.org/2026/08/30/nasa-fellowships/",
@@ -5880,7 +5967,8 @@
     "reasoning": "No reasoning returned.",
     "id": "855fc5b1e0984bc6",
     "first_seen": "2026-08-30T10:29:37.869452+00:00",
-    "last_updated": "2026-08-30T10:29:37.869460+00:00"
+    "last_updated": "2026-08-30T10:29:37.869460+00:00",
+    "analysis_recovery_queued": true
   },
   "eddd2c8c314004f6": {
     "url": "https://opportunitiesforyouth.org/2026/08/30/monash-funded-phd-2027/",
@@ -5963,7 +6051,8 @@
     "reasoning": "No reasoning returned.",
     "id": "ebeae0d2a4eaab34",
     "first_seen": "2026-08-30T14:38:11.956678+00:00",
-    "last_updated": "2026-08-30T14:38:11.956688+00:00"
+    "last_updated": "2026-08-30T14:38:11.956688+00:00",
+    "analysis_recovery_queued": true
   },
   "2f30c02477ee8df7": {
     "url": "https://opportunitiesforyouth.org/2026/08/30/unctad-supply-chain/",
@@ -5974,7 +6063,8 @@
     "reasoning": "No reasoning returned.",
     "id": "2f30c02477ee8df7",
     "first_seen": "2026-08-30T14:38:41.509801+00:00",
-    "last_updated": "2026-08-30T14:38:41.509812+00:00"
+    "last_updated": "2026-08-30T14:38:41.509812+00:00",
+    "analysis_recovery_queued": true
   },
   "6703ebe728a096d1": {
     "url": "https://www.youtube.com/watch?v=9yXp7usaXfg",
@@ -5996,7 +6086,8 @@
     "reasoning": "No reasoning returned.",
     "id": "a9ad117029349963",
     "first_seen": "2026-08-30T14:39:28.660201+00:00",
-    "last_updated": "2026-08-30T14:39:28.660216+00:00"
+    "last_updated": "2026-08-30T14:39:28.660216+00:00",
+    "analysis_recovery_queued": true
   },
   "cee760ff9b3cd4f3": {
     "url": "https://www.linkedin.com/company/global-grants-and-opportunities-for-africa-gga",
@@ -6007,7 +6098,8 @@
     "reasoning": "No reasoning returned.",
     "id": "cee760ff9b3cd4f3",
     "first_seen": "2026-08-30T14:40:19.321291+00:00",
-    "last_updated": "2026-08-30T14:40:19.321303+00:00"
+    "last_updated": "2026-08-30T14:40:19.321303+00:00",
+    "analysis_recovery_queued": true
   },
   "485d8bea4c147d40": {
     "url": "https://careers.state.gov/interns-fellows",
@@ -6021,7 +6113,8 @@
     "reasoning": "No reasoning returned.",
     "id": "485d8bea4c147d40",
     "first_seen": "2026-08-30T14:41:01.408687+00:00",
-    "last_updated": "2026-08-30T14:41:01.408698+00:00"
+    "last_updated": "2026-08-30T14:41:01.408698+00:00",
+    "analysis_recovery_queued": true
   },
   "5024136f3af4601f": {
     "url": "https://www.isanet.org/ISA/Governance/Committees/Dissertation-Fellowship/Call",
@@ -6139,7 +6232,8 @@
     "reasoning": "No reasoning returned.",
     "id": "d3094fda0ad57af9",
     "first_seen": "2026-08-30T14:51:30.396114+00:00",
-    "last_updated": "2026-08-30T14:51:30.396124+00:00"
+    "last_updated": "2026-08-30T14:51:30.396124+00:00",
+    "analysis_recovery_queued": true
   },
   "f016932c52e93d6a": {
     "url": "https://www.professionalfellows.americancouncils.org/how-to-apply",
@@ -6153,7 +6247,8 @@
     "reasoning": "No reasoning returned.",
     "id": "f016932c52e93d6a",
     "first_seen": "2026-08-30T14:52:19.940217+00:00",
-    "last_updated": "2026-08-30T14:52:19.940226+00:00"
+    "last_updated": "2026-08-30T14:52:19.940226+00:00",
+    "analysis_recovery_queued": true
   },
   "c917b4b3375a0575": {
     "url": "https://pfpinclusion.org",
@@ -6164,7 +6259,8 @@
     "reasoning": "No reasoning returned.",
     "id": "c917b4b3375a0575",
     "first_seen": "2026-08-30T14:52:30.463414+00:00",
-    "last_updated": "2026-08-30T14:52:30.463423+00:00"
+    "last_updated": "2026-08-30T14:52:30.463423+00:00",
+    "analysis_recovery_queued": true
   },
   "8c00f42f15b58d59": {
     "url": "https://fundinnovation.wiin.io/en/applications/formulaire-de-candidature",
@@ -6175,7 +6271,8 @@
     "reasoning": "No reasoning returned.",
     "id": "8c00f42f15b58d59",
     "first_seen": "2026-08-30T14:52:42.540359+00:00",
-    "last_updated": "2026-08-30T14:52:42.540368+00:00"
+    "last_updated": "2026-08-30T14:52:42.540368+00:00",
+    "analysis_recovery_queued": true
   },
   "f67c114997c78c74": {
     "url": "https://opportunitiescorners.com/young-leaders-program-2026-in-vietnam/",
@@ -6200,7 +6297,8 @@
     "reasoning": "No reasoning returned.",
     "id": "5800a1c6f5df62a7",
     "first_seen": "2026-08-31T11:28:42.418082+00:00",
-    "last_updated": "2026-08-31T11:28:42.418090+00:00"
+    "last_updated": "2026-08-31T11:28:42.418090+00:00",
+    "analysis_recovery_queued": true
   },
   "c26f21328f344811": {
     "url": "https://www2.fundsforngos.org/innovation/open-call-for-international-grant-program-2026",
@@ -6340,7 +6438,8 @@
     "reasoning": "No reasoning returned.",
     "id": "09b28acfde34f5a4",
     "first_seen": "2026-08-31T11:39:48.231229+00:00",
-    "last_updated": "2026-08-31T11:39:48.231238+00:00"
+    "last_updated": "2026-08-31T11:39:48.231238+00:00",
+    "analysis_recovery_queued": true
   },
   "6ed530519792c9ea": {
     "url": "https://transformthehustle.substack.com/p/july-2026-grants-opportunities",
@@ -6372,7 +6471,8 @@
     "reasoning": "No reasoning returned.",
     "id": "d5ee11144f84c5c9",
     "first_seen": "2026-08-31T11:42:07.272141+00:00",
-    "last_updated": "2026-08-31T11:42:07.272176+00:00"
+    "last_updated": "2026-08-31T11:42:07.272176+00:00",
+    "analysis_recovery_queued": true
   },
   "a850725b46cb1a19": {
     "url": "https://opportunitiescorners.com/erasmus-mundus-mapp-scholarship-2027/",
@@ -6414,7 +6514,8 @@
     "reasoning": "No reasoning returned.",
     "id": "d895996f021f8185",
     "first_seen": "2026-09-01T09:53:09.132184+00:00",
-    "last_updated": "2026-09-01T09:53:09.132198+00:00"
+    "last_updated": "2026-09-01T09:53:09.132198+00:00",
+    "analysis_recovery_queued": true
   },
   "8745116301f88c85": {
     "url": "https://www.opportunitiesforafricans.com/university-of-michigan-african-presidential-scholars-program-umaps-2027/",
@@ -6447,7 +6548,8 @@
     "reasoning": "No reasoning returned.",
     "id": "bd232303bd5577c7",
     "first_seen": "2026-09-01T09:55:31.837661+00:00",
-    "last_updated": "2026-09-01T09:55:31.837674+00:00"
+    "last_updated": "2026-09-01T09:55:31.837674+00:00",
+    "analysis_recovery_queued": true
   },
   "ee71e5fc8641e866": {
     "url": "https://opportunitiescorners.com/world-bank-young-professionals-program-2027/",
@@ -6461,7 +6563,8 @@
     "reasoning": "No reasoning returned.",
     "id": "ee71e5fc8641e866",
     "first_seen": "2026-09-01T09:56:49.654696+00:00",
-    "last_updated": "2026-09-01T09:56:49.654709+00:00"
+    "last_updated": "2026-09-01T09:56:49.654709+00:00",
+    "analysis_recovery_queued": true
   },
   "c65ff49e82d5cec1": {
     "url": "https://www.opportunitiesforafricans.com/the-ellen-johnson-sirleaf-presidential-center-next-gen-initiative-2026-for-emerging-african-women-leaders/",
@@ -6541,7 +6644,8 @@
     "reasoning": "No reasoning returned.",
     "id": "fdde86d2f170983d",
     "first_seen": "2026-09-01T10:02:41.160195+00:00",
-    "last_updated": "2026-09-01T10:02:41.160210+00:00"
+    "last_updated": "2026-09-01T10:02:41.160210+00:00",
+    "analysis_recovery_queued": true
   },
   "3fd2bd3907aab0bf": {
     "url": "https://givingjoygrants.org/grant-application",
@@ -6562,7 +6666,8 @@
     "requirements": [],
     "id": "3fd2bd3907aab0bf",
     "first_seen": "2026-09-01T10:05:03.831567+00:00",
-    "last_updated": "2026-09-01T10:05:03.831583+00:00"
+    "last_updated": "2026-09-01T10:05:03.831583+00:00",
+    "analysis_recovery_queued": true
   },
   "1aeeba7681a98231": {
     "url": "https://www.opportunitiesforafricans.com/unu-wider-visiting-phd-fellowship-programme-2027-for-doctoral-students/",
@@ -6607,7 +6712,8 @@
     ],
     "id": "94f35ec8c16b6dce",
     "first_seen": "2026-09-02T09:25:10.578154+00:00",
-    "last_updated": "2026-09-02T09:25:10.578166+00:00"
+    "last_updated": "2026-09-02T09:25:10.578166+00:00",
+    "analysis_recovery_queued": true
   },
   "3a60554f32a8f3c3": {
     "url": "https://www.opportunitiesforafricans.com/the-kaust-global-fellowship-program-2027/",
@@ -6637,7 +6743,8 @@
     "reasoning": "No reasoning returned.",
     "id": "49d96a0c03acdd63",
     "first_seen": "2026-09-02T09:27:29.587232+00:00",
-    "last_updated": "2026-09-02T09:27:29.587242+00:00"
+    "last_updated": "2026-09-02T09:27:29.587242+00:00",
+    "analysis_recovery_queued": true
   },
   "658f9c9f4b31f9f1": {
     "url": "https://www.opportunitiesforafricans.com/unu-wider-visiting-scholars-programme-2027/",
@@ -6695,7 +6802,8 @@
     ],
     "id": "fa9a139efeefd8b6",
     "first_seen": "2026-09-02T09:31:27.963334+00:00",
-    "last_updated": "2026-09-02T09:31:27.963344+00:00"
+    "last_updated": "2026-09-02T09:31:27.963344+00:00",
+    "analysis_recovery_queued": true
   },
   "d708add232c187e3": {
     "url": "https://www.opportunitiesforafricans.com/the-democratic-alliance-da-young-leaders-programme-2027/",
@@ -6746,7 +6854,8 @@
     "reasoning": "No reasoning returned.",
     "id": "7fec01242bb88138",
     "first_seen": "2026-09-02T09:34:53.621686+00:00",
-    "last_updated": "2026-09-02T09:34:53.621702+00:00"
+    "last_updated": "2026-09-02T09:34:53.621702+00:00",
+    "analysis_recovery_queued": true
   },
   "7c0da9306f86d473": {
     "url": "https://www.scholarshiptab.com/fellowship/fully-funded",
@@ -6880,7 +6989,8 @@
     "requirements": [],
     "id": "2b72aba275cf7321",
     "first_seen": "2026-09-03T09:37:31.230127+00:00",
-    "last_updated": "2026-09-03T09:37:31.230136+00:00"
+    "last_updated": "2026-09-03T09:37:31.230136+00:00",
+    "analysis_recovery_queued": true
   },
   "55df4e1bd07aebea": {
     "url": "https://www.opportunitiesforafricans.com/ecowas-bank-for-investment-and-development-ebid-young-professionals-programme-2026/",
@@ -6914,7 +7024,8 @@
     "reasoning": "No reasoning returned.",
     "id": "f0ea42b5cbc24eb5",
     "first_seen": "2026-09-03T09:40:01.120415+00:00",
-    "last_updated": "2026-09-03T09:40:01.120425+00:00"
+    "last_updated": "2026-09-03T09:40:01.120425+00:00",
+    "analysis_recovery_queued": true
   },
   "3776ee8ce41a3999": {
     "url": "https://www.opportunitiesforafricans.com/the-julius-berger-nigeria-jbn-commercial-graduate-trainee-programme-2026/",
@@ -6958,7 +7069,8 @@
     "reasoning": "No reasoning returned.",
     "id": "41b891c696dc951f",
     "first_seen": "2026-09-03T09:42:42.539600+00:00",
-    "last_updated": "2026-09-03T09:42:42.539615+00:00"
+    "last_updated": "2026-09-03T09:42:42.539615+00:00",
+    "analysis_recovery_queued": true
   },
   "955bcdcc6af33179": {
     "url": "https://www.scholarshiptab.com/masters/fully-funded",
@@ -7028,7 +7140,8 @@
     "requirements": [],
     "id": "2e4b6f593e6cdf36",
     "first_seen": "2026-09-04T09:24:58.459757+00:00",
-    "last_updated": "2026-09-04T09:24:58.459772+00:00"
+    "last_updated": "2026-09-04T09:24:58.459772+00:00",
+    "analysis_recovery_queued": true
   },
   "560e49b263fbc384": {
     "url": "https://www.opportunitiesforafricans.com/wto-youth-talent-incubator-programme-2nd-edition-for-young-researchers-and-professionals-in-trade-and-gender/",
@@ -7136,7 +7249,8 @@
     "reasoning": "No reasoning returned.",
     "id": "013bbeeb595b11d0",
     "first_seen": "2026-09-04T09:33:19.257659+00:00",
-    "last_updated": "2026-09-04T09:33:19.257674+00:00"
+    "last_updated": "2026-09-04T09:33:19.257674+00:00",
+    "analysis_recovery_queued": true
   },
   "f501e1b56d044b40": {
     "url": "https://africatraininginstitute.org/current-grants-african-ngos-september-2026",
@@ -7200,5 +7314,221 @@
     "id": "523cfd02d3348529",
     "first_seen": "2026-09-04T09:35:39.909175+00:00",
     "last_updated": "2026-09-04T09:35:39.909190+00:00"
+  },
+  "d178c01ce4461db2": {
+    "url": "https://opportunitiescorners.com/yenching-academy-scholarship-in-china-2027/",
+    "title": "Yenching Academy Scholarship in China 2027 (Fully Funded)",
+    "status": "analyzed",
+    "score": 4.9,
+    "category": null,
+    "official_url": "https://opportunitiescorners.com/yenching-academy-scholarship-in-china-2027/",
+    "location": null,
+    "remote": null,
+    "deadline": "2026-11-30",
+    "reward": "fully_funded",
+    "estimated_value": null,
+    "eligibility_status": "PROBABLY_ELIGIBLE",
+    "credibility_status": "LIKELY_LEGITIMATE",
+    "source_tier": "TIER_3",
+    "source_quality": 7,
+    "requirements": [],
+    "id": "d178c01ce4461db2",
+    "first_seen": "2026-09-05T01:53:18.678885+00:00",
+    "last_updated": "2026-09-05T01:53:18.678896+00:00"
+  },
+  "5a95b2d3a0b33e71": {
+    "url": "https://www.opportunitiesforafricans.com/icgeb-south-african-women-in-biotechnology-programme-sawbp-postdoctoral-fellowship-2027/",
+    "title": "ICGEB South African Women in Biotechnology Programme SAWBP – Postdoctoral Fellowship 2027 for South African women Researchers.",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "model_eligibility_status": "CONFIRMED_INELIGIBLE",
+    "missing_requirements": [
+      "Gender confirmation (profile does not explicitly state female)."
+    ],
+    "blocking_issues": [
+      "Citizenship: only South African citizens or permanent residents are eligible (candidate is Ethiopian).",
+      "Degree level: MSc required (candidate only has a BSc)."
+    ],
+    "addressable_gaps": [],
+    "reasoning": "The programme explicitly states that only South African citizens or South African permanent residents may apply. The candidate is an Ethiopian national, which directly violates this requirement. Additionally, the fellowship requires proof of an MSc degree (or a letter confirming intention to submit an MSc thesis), whereas the candidate only holds a BSc. Both criteria are hard blockers. Gender is not confirmed in the profile, but even if the candidate is female, the citizenship requirement alone makes the candidate ineligible.",
+    "id": "5a95b2d3a0b33e71",
+    "first_seen": "2026-09-05T01:54:26.296037+00:00",
+    "last_updated": "2026-09-05T01:54:26.296048+00:00"
+  },
+  "70a16b686ac0ef0a": {
+    "url": "https://www.opportunitiesforafricans.com/the-eac-youth-fellowship-2026-for-emerging-east-african-leaders-fully-funded/",
+    "title": "The EAC Youth Fellowship 2026 for emerging East African Leaders (Fully Funded)",
+    "status": "legitimacy_unknown",
+    "credibility_status": "NEEDS_VERIFICATION",
+    "source_tier": "TIER_3",
+    "reasoning": "The page lists a fully funded EAC Youth Fellowship but provides no direct link to an official EAC or Danida website, and the contact email is generic. No application fee or payment request is mentioned, which reduces scam likelihood, but the lack of verifiable official sources makes the legitimacy uncertain.",
+    "id": "70a16b686ac0ef0a",
+    "first_seen": "2026-09-05T01:54:57.313061+00:00",
+    "last_updated": "2026-09-05T01:54:57.313073+00:00"
+  },
+  "45c63f71729718b7": {
+    "url": "https://opportunitiescorners.com/ustc-research-internship-2027/",
+    "title": "USTC Research Internship 2027 in China (Fully Funded)",
+    "status": "ineligible",
+    "eligibility_status": "PROBABLY_INELIGIBLE",
+    "model_eligibility_status": "PROBABLY_INELIGIBLE",
+    "missing_requirements": [
+      "Proof of good physical and mental health",
+      "Clean criminal record documentation"
+    ],
+    "blocking_issues": [
+      "Must be currently enrolled as a student (candidate is not a student)"
+    ],
+    "addressable_gaps": [
+      "English proficiency proof – can obtain Duolingo English Test or MOI certificate"
+    ],
+    "reasoning": "The USTC Research Internship explicitly targets \"Bachelor’s, Master’s, and PhD students\". The candidate is a working professional and is not currently enrolled in any academic program, which is a hard blocker. All other criteria (age 27, Ethiopian passport, high school diploma/BSc, open nationality, health, criminal record) are potentially met. English proficiency is required but the candidate lacks a formal test score; this can be addressed with a Duolingo or MOI certificate.",
+    "id": "45c63f71729718b7",
+    "first_seen": "2026-09-05T01:56:11.235663+00:00",
+    "last_updated": "2026-09-05T01:56:11.235676+00:00"
+  },
+  "e010aa0433138c91": {
+    "url": "https://www.opportunitiesforafricans.com/tgi-distri-ltd-commercial-trainee-programme-ctp-2027-for-young-nigerian-graduates/",
+    "title": "TGI Distri Ltd Commercial Trainee Programme (CTP) 2027 for young Nigerian graduates.",
+    "status": "legitimacy_unknown",
+    "credibility_status": "NEEDS_VERIFICATION",
+    "source_tier": "TIER_3",
+    "reasoning": "The listing provides no application fee or payment request, which is a positive sign, but it lacks a direct link to an official TGI Distri Ltd page, uses generic aggregator contact emails, and repeats requirements in the benefits section, indicating poor documentation. Without verifiable corporate information or a clear official source, legitimacy cannot be confirmed.",
+    "id": "e010aa0433138c91",
+    "first_seen": "2026-09-05T01:56:51.159783+00:00",
+    "last_updated": "2026-09-05T01:56:51.159792+00:00"
+  },
+  "52f12c3f4ed01ed8": {
+    "url": "https://www.opportunitiesforafricans.com/nrf-sarao-graduate-in-training-programme-2027-for-young-south-african-graduates/",
+    "title": "NRF/SARAO Graduate In-Training Programme 2027 for young South African graduates.",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "model_eligibility_status": "CONFIRMED_INELIGIBLE",
+    "missing_requirements": [],
+    "blocking_issues": [
+      "Nationality not South African (hard blocker)",
+      "Degree field mismatch (Psychology not among eligible fields) (hard blocker)"
+    ],
+    "addressable_gaps": [],
+    "reasoning": "The program explicitly requires applicants to be South African citizens and to have completed or be in the final year of studies in specific engineering, computer science, data science, or related technical fields. The candidate is an Ethiopian national and holds a BSc in Psychology, which does not match the listed eligible degree fields.",
+    "id": "52f12c3f4ed01ed8",
+    "first_seen": "2026-09-05T01:57:51.773644+00:00",
+    "last_updated": "2026-09-05T01:57:51.773653+00:00"
+  },
+  "6ee3ff2950aca832": {
+    "url": "https://www.opportunitiesforafricans.com/the-national-disaster-management-centre-ndmc-2027-external-bursary-programme-for-south-african-students/",
+    "title": "The National Disaster Management Centre (NDMC) 2027 External Bursary Programme for South African students",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "model_eligibility_status": "CONFIRMED_INELIGIBLE",
+    "missing_requirements": [
+      "Academic average (60%/65%) not provided, but irrelevant due to hard blockers"
+    ],
+    "blocking_issues": [
+      "Nationality: must be South African citizen (candidate is Ethiopian)",
+      "Student status: must be enrolled/accepted in a qualifying programme (candidate is a working professional, not a student)",
+      "Degree field: must be Disaster Management or Fire Technology/Fire Engineering (candidate's degree is Psychology)"
+    ],
+    "addressable_gaps": [],
+    "reasoning": "The programme explicitly requires applicants to be South African citizens and to be enrolled (or accepted) in an undergraduate, postgraduate diploma, advanced diploma, or master's programme in Disaster Management or Fire Technology/Fire Engineering. The candidate is an Ethiopian national, not a South African citizen, is not currently a student, and holds a BSc in Psychology, which does not meet the required fields of study.",
+    "id": "6ee3ff2950aca832",
+    "first_seen": "2026-09-05T01:58:44.378781+00:00",
+    "last_updated": "2026-09-05T01:58:44.378791+00:00"
+  },
+  "b485f3d2b50aebca": {
+    "url": "https://www.opportunitiesforafricans.com/department-of-forestry-fisheries-and-the-environments-dffe-bursary-programme-2027-for-young-south-africans/",
+    "title": "Department of Forestry, Fisheries and the Environment’s (DFFE) Bursary Programme 2027 for young South Africans.",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "model_eligibility_status": "CONFIRMED_INELIGIBLE",
+    "missing_requirements": [],
+    "blocking_issues": [
+      "Nationality not South African",
+      "Must be a full‑time student or Grade 12 individual (candidate is a working professional)",
+      "Must be not employed (candidate is employed)"
+    ],
+    "addressable_gaps": [],
+    "reasoning": "The DFFE Bursary Programme explicitly requires applicants to be South African (young South Africans) and to be either full‑time students enrolled in higher education or Grade 12 (matric) individuals who are not employed. The candidate is an Ethiopian national, currently employed as a professional, and not a student or Grade 12 candidate. These are hard, non‑addressable blockers.",
+    "id": "b485f3d2b50aebca",
+    "first_seen": "2026-09-05T01:59:31.045667+00:00",
+    "last_updated": "2026-09-05T01:59:31.045678+00:00"
+  },
+  "262d99620b329e35": {
+    "url": "https://www.afro.who.int/call-for-applications-joint-who-afro-tdr-impact-grants-2026-2027",
+    "title": "Call for applications: 2026-2027 Joint WHO AFRO/TDR Impact Grants for Implementation Research for Regional Priorities | WHO | Regional Office for Africa",
+    "status": "ineligible",
+    "eligibility_status": "PROBABLY_INELIGIBLE",
+    "model_eligibility_status": "PROBABLY_INELIGIBLE",
+    "missing_requirements": [
+      "Explicit statement of the candidate's institutional affiliation in an African Region country",
+      "Evidence of completed operational/implementation research training",
+      "Confirmation that the proposed research will be carried out in the African Region"
+    ],
+    "blocking_issues": [
+      "No current affiliation with an African Region institution (required for PI and team)",
+      "No documented evidence of operational/implementation research training or experience"
+    ],
+    "addressable_gaps": [
+      "Secure an affiliation with an African university, research institute, ministry of health, or NGO to satisfy the institutional base requirement",
+      "Obtain or document training in operational/implementation research (e.g., TDR Implementation Research Toolkit, MOOC)",
+      "Develop a research proposal that will be conducted in an African country and obtain necessary authorization letters",
+      "Provide an English language proof if the funding body later requires formal certification (Duolingo test, MOI certificate)"
+    ],
+    "reasoning": "The call requires that the Principal Investigator (PI) and most of the research team be based in an institution located in an African Region country or territory. The candidate is a working professional with no current affiliation to any African institution, which is a hard blocker. Other criteria (nationality, age, degree level) are met, but the lack of institutional affiliation prevents eligibility. Other requirements (research to be conducted in Africa, demonstration of operational/implementation research training) are not verified and would need to be addressed.",
+    "id": "262d99620b329e35",
+    "first_seen": "2026-09-05T02:00:55.388334+00:00",
+    "last_updated": "2026-09-05T02:00:55.388352+00:00"
+  },
+  "9a0d54a06cb9bc23": {
+    "url": "https://www.opportunitiesforafricans.com/wwf-amano-fellows-program-2026-for-young-zimbabwean-leaders/",
+    "title": "WWF-Amano Fellows Program 2026 for young Zimbabwean leaders",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "model_eligibility_status": "CONFIRMED_INELIGIBLE",
+    "missing_requirements": [],
+    "blocking_issues": [
+      "Nationality requirement: program limited to Zimbabwean citizens; candidate is Ethiopian."
+    ],
+    "addressable_gaps": [],
+    "reasoning": "The WWF-Amano Fellows Program explicitly states that it is open only to Zimbabwean young leaders. The candidate is an Ethiopian national, which directly violates the nationality requirement. While the candidate meets the age range (27) and has relevant leadership experience, the nationality criterion is a hard blocker.",
+    "id": "9a0d54a06cb9bc23",
+    "first_seen": "2026-09-05T02:01:49.716246+00:00",
+    "last_updated": "2026-09-05T02:01:49.716256+00:00"
+  },
+  "752d0c61ef34b29e": {
+    "url": "https://opportunitiesforyouth.org/category/fellowship",
+    "title": "Fellowship - Opportunities for Youth",
+    "status": "ineligible",
+    "eligibility_status": "PROBABLY_INELIGIBLE",
+    "model_eligibility_status": "PROBABLY_INELIGIBLE",
+    "missing_requirements": [
+      "specific security or defence professional experience (not stated in the program description)"
+    ],
+    "blocking_issues": [
+      "field mismatch: not a security/defence professional"
+    ],
+    "addressable_gaps": [],
+    "reasoning": "The fellowship is explicitly for \"Mid-Career Security and Defence Professionals\". The candidate's background is in AI development, marketing, psychology and community leadership, with no indication of experience in security or defence. This field mismatch is a hard blocker. No explicit nationality, age, student‑status, or degree‑level restrictions are stated, so those are not blockers.",
+    "id": "752d0c61ef34b29e",
+    "first_seen": "2026-09-05T02:02:17.653514+00:00",
+    "last_updated": "2026-09-05T02:02:17.653525+00:00"
+  },
+  "df5a834285815ff8": {
+    "url": "https://opportunitiesforyouth.org/2026/03/30/ifcd-2025-call-for-funding-apply-now-for-cultural-diversity-project-grants",
+    "title": "UNESCO International Fund for Cultural Diversity (IFCD) 2026: Global Grant Opportunity for Creative and Cultural Sector Development - Opportunities for Youth",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "model_eligibility_status": "CONFIRMED_INELIGIBLE",
+    "missing_requirements": [
+      "Program details for any specific scholarship, fellowship, residency, or grant that matches the candidate's profile"
+    ],
+    "blocking_issues": [
+      "Program text does not describe an eligible opportunity for this candidate"
+    ],
+    "addressable_gaps": [],
+    "reasoning": "The program text does not describe a scholarship, fellowship, residency, or grant opportunity that matches the candidate's profile. The visible content references unrelated programs (UNESCO IFCD for NGOs/institutions, McDonald's Chicago grants for nonprofits, Australian Embassy grants for Lebanon/Syria, Czech Government Scholarships, and a job opening). None of these are addressed to individuals, youth, or AI/tech innovators, and none are open to Ethiopian nationals in the candidate's field. The Czech Government Scholarship is for master's/PhD study, but the candidate holds only a bachelor's and is not currently a student, and the program details are not provided in the text. There is no program in the text that the candidate demonstrably meets or could plausibly address.",
+    "id": "df5a834285815ff8",
+    "first_seen": "2026-09-05T02:02:57.065646+00:00",
+    "last_updated": "2026-09-05T02:02:57.065660+00:00"
   }
 }
