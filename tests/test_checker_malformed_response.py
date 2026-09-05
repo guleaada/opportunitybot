@@ -21,6 +21,8 @@ from unittest.mock import patch
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
+from unittest import TestCase
+from analysis_response import AnalysisResponseError
 import checker
 from model_router import as_object
 
@@ -146,20 +148,13 @@ with _stub(checker, ARRAY):
 assert out["status"] == "unknown" and out["deadline"] is None, out
 ok("check_deadline  → status 'unknown', no deadline invented")
 
-# check_eligibility — must land on the ladder's uncertain rung
-with _stub(checker, ARRAY):
-    out = checker.check_eligibility("Some program text.", {})
-assert out["eligibility_status"] == "UNCERTAIN", out["eligibility_status"]
-assert out["overall"] != "eligible", out
-ok("check_eligibility → UNCERTAIN, never 'eligible'")
-
-# score_opportunity — must not produce a notifiable score
-with _stub(scorer, ARRAY), patch.object(scorer, "profile_summary",
-                                        return_value="profile"):
-    out = scorer.score_opportunity({"raw_text": "t", "url": "https://e/x"}, {})
-assert out["model_score"] == 0.0, out["model_score"]
-assert out["overall_score"] < 7, out["overall_score"]
-ok(f"score_opportunity → model_score 0.0, overall {out['overall_score']} (< 7)")
+# Decision failures are retryable, never zero scores or eligibility verdicts.
+with _stub(checker, ARRAY), TestCase().assertRaises(AnalysisResponseError):
+    checker.check_eligibility("Some program text.", {})
+ok("check_eligibility → retryable response error")
+with _stub(scorer, ARRAY), TestCase().assertRaises(AnalysisResponseError):
+    scorer.score_opportunity({"raw_text":"t", "url":"https://e/x"}, {})
+ok("score_opportunity → retryable response error")
 
 # _classify_with_cheap_model — an unusable reply must not become a yes
 with _stub(signals, ARRAY):
@@ -184,7 +179,8 @@ ok("estimate_complexity → documented 'estimation failed' default")
 for shape in ("[]", "[1,2]", "null", '"str"', "42", "no json here"):
     with _stub(checker, shape):
         checker.check_deadline("t")
-        checker.check_eligibility("t", {})
+        with TestCase().assertRaises(AnalysisResponseError):
+            checker.check_eligibility("t", {})
         checker.check_legitimacy("t", "https://e/x")
     with _stub(signals, shape):
         signals._classify_with_cheap_model("t", "", {"weak": [], "strong": []})
@@ -193,7 +189,8 @@ for shape in ("[]", "[1,2]", "null", '"str"', "42", "no json here"):
         tools.estimate_complexity("t")
     with _stub(scorer, shape), patch.object(scorer, "profile_summary",
                                             return_value="p"):
-        scorer.score_opportunity({"raw_text": "t", "url": "https://e/x"}, {})
+        with TestCase().assertRaises(AnalysisResponseError):
+            scorer.score_opportunity({"raw_text": "t", "url": "https://e/x"}, {})
 ok("6 shapes x 7 call sites = 42 combinations, zero AttributeErrors")
 
 

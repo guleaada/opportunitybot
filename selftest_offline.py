@@ -11,6 +11,11 @@ Run:  python selftest_offline.py
 """
 
 import json
+from datetime import date, timedelta
+from tempfile import TemporaryDirectory
+from pathlib import Path
+from unittest.mock import patch
+import database as db
 
 import model_router
 import checker
@@ -48,7 +53,7 @@ _RESPONSES = {
 }
 
 # A deadline ~ far in the future so the deadline gate passes.
-_RESPONSES_DEADLINE = {"deadline_iso": "2026-08-31", "deadline_raw": "31 August 2026",
+_RESPONSES_DEADLINE = {"deadline_iso": (date.today() + timedelta(days=90)).isoformat(), "deadline_raw": "31 August 2026",
                        "is_explicitly_closed": False, "found": True}
 
 
@@ -153,4 +158,5 @@ def main_():
 
 
 if __name__ == "__main__":
-    main_()
+    with TemporaryDirectory() as tmp, patch.object(db, "SEEN_PATH", Path(tmp)/"seen.json"), patch.object(db, "WATCHLIST_PATH", Path(tmp)/"watchlist.json"):
+        main_()

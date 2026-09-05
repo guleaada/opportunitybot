@@ -100,18 +100,16 @@ for level in (UNCERTAIN, PROBABLY_INELIGIBLE, CONFIRMED_INELIGIBLE):
     assert not meets_threshold(res["eligibility_status"], PROBABLY_ELIGIBLE)
 ok("UNCERTAIN / PROBABLY_INELIGIBLE / CONFIRMED_INELIGIBLE are never upgraded")
 
-res = grade(reasoning="model omitted the grade entirely",
-            missing_requirements=[], citizenship_mismatch=False)
-assert res["eligibility_status"] == UNCERTAIN
-assert not meets_threshold(res["eligibility_status"], PROBABLY_ELIGIBLE)
-ok("a missing eligibility_status still defaults to UNCERTAIN and fails the gate")
+from analysis_response import AnalysisResponseError
+from unittest import TestCase
+with TestCase().assertRaises(AnalysisResponseError):
+    grade(reasoning="model omitted the grade entirely",
+          missing_requirements=[], citizenship_mismatch=False)
+ok("missing grade is retryable, never a permanent eligibility verdict")
+with patch.object(C, "call_model", return_value={"content":"[1,2,3]", "model_used":"stub", "cost_usd":0}), TestCase().assertRaises(AnalysisResponseError):
+    C.check_eligibility("text", {})
+ok("non-object JSON is retryable")
 
-with patch.object(C, "call_model",
-                  return_value={"content": "[1, 2, 3]", "model_used": "stub",
-                                "cost_usd": 0.0}):
-    res = C.check_eligibility("text", {})
-assert res["eligibility_status"] == UNCERTAIN
-ok("a non-object JSON reply still fails closed at UNCERTAIN")
 
 # ══════════════════════════════════════════════════════════════════════════
 # 3. Rule 1 (citizenship) is untouched and still outranks everything

@@ -1735,6 +1735,7 @@ def _call_groq(
     )
 
     return {
+        "finish_reason": getattr(response.choices[0], "finish_reason", None),
         "content": content,
         "model_used": model,
         "task_type": task_type,
@@ -2044,26 +2045,16 @@ def extract_json(
     except json.JSONDecodeError:
         pass
 
-    for opener, closer in (
-        ("{", "}"),
-        ("[", "]"),
-    ):
-
-        for span in _iter_balanced_spans(
-            candidate,
-            opener,
-            closer,
-        ):
-
-            try:
-                return json.loads(
-                    span
-                )
-
-            except json.JSONDecodeError:
-                continue
-
-    return None
+    # Decode only the first outer JSON value. Never salvage a nested object
+    # from a truncated envelope (e.g. breakdown masquerading as a score).
+    starts = [i for i in (candidate.find("{"), candidate.find("[")) if i >= 0]
+    if not starts:
+        return None
+    try:
+        value, _ = json.JSONDecoder().raw_decode(candidate[min(starts):])
+        return value
+    except json.JSONDecodeError:
+        return None
 
 
 def _iter_balanced_spans(

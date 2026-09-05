@@ -36,6 +36,7 @@ import discovery
 import prioritizer
 import notification
 from model_router import ProvidersUnavailable
+from analysis_response import AnalysisResponseError
 from profile import PROFILE
 from checker import (
     meets_threshold, PROBABLY_ELIGIBLE, UNCERTAIN, normalize_credibility,
@@ -171,19 +172,20 @@ def analyze_one(result, stats: dict):
     """
     try:
         return _analyze_one_inner(result, stats)
-    except ProvidersUnavailable as e:
+    except (ProvidersUnavailable, AnalysisResponseError) as e:
         url = getattr(result, "url", None) or ""
         title = getattr(result, "title", None) or ""
         stats["analysis_unavailable"] = stats.get("analysis_unavailable", 0) + 1
-        cprint(f"   🟡 ANALYSIS_UNAVAILABLE (all providers down) — "
+        cprint(f"   🟡 ANALYSIS_UNAVAILABLE — "
                f"preserving candidate for a later run: {e}")
         # Deliberately NOT save_opportunity(): that would mark it seen and it
         # would never be retried. The watchlist is the existing retry channel.
         try:
             tools.add_to_watchlist({
                 "url": url, "title": title,
-                "reason": "ANALYSIS_UNAVAILABLE — all model providers were "
-                          "unavailable; retry when quota resets"})
+                "reason": f"ANALYSIS_UNAVAILABLE — {e}",
+                "retry_analysis": True,
+                "snippet": getattr(result, "snippet", None) or ""})
         except Exception as werr:
             db.log_error(f"Could not preserve {url}: {werr}")
         return None
@@ -308,6 +310,8 @@ def _analyze_one_inner(result, stats: dict):
         try:
             tools.add_to_watchlist({
                 "url": url, "title": title,
+                "retry_analysis": True,
+                "snippet": snippet,
                 "reason": "legitimacy check returned an unparseable reply; "
                           "retry on a later run"})
         except Exception as werr:
@@ -952,6 +956,7 @@ def draft_cover_letter(url: str):
 # Watchlist re-check
 # ════════════════════════════════════════════════════════════════════════
 def check_watchlist():
+    db.recover_failed_analyses()
     wl = db.all_watchlist()
     if not wl:
         cprint("👀 Watchlist is empty.")
@@ -965,26 +970,35 @@ def check_watchlist():
         "jina_fetch", "jina_failed", "snippet_fallback",
         "legit_unparseable", "trusted_thin_pass")}
     matches, opened = [], 0
-    for oid, item in list(wl.items()):
+    # Oldest checked first, bounded so a large watchlist cannot consume CI.
+    items = sorted(wl.items(), key=lambda pair: pair[1].get("last_checked", ""))
+    limit = max(1, int(os.getenv("MAX_WATCHLIST_PER_RUN", "5")))
+    for oid, item in items[:limit]:
         url = item.get("url")
         if not url:
             continue
-        fetched = tools.fetch_url(url, force=True)
-        if not fetched["text"]:
-            continue
-        deadline = tools.check_deadline(fetched["text"])
-        if deadline["status"] != "open":
-            continue
-        # It reopened — pull it off the watchlist and run the FULL pipeline
-        # so it gets the same legitimacy/eligibility/scoring as scan finds.
-        opened += 1
-        db.remove_from_watchlist(oid)
-        cprint(f"   🔓 reopened: {item.get('title', url)}")
+        db.add_to_watchlist({**item, "last_checked": datetime.now().isoformat()})
         try:
-            match = analyze_one(
-                SearchResult(title=item.get("title", url), url=url), stats)
+            if not item.get("retry_analysis") and "closed" in item.get("reason", ""):
+                fetched = tools.fetch_url(url, force=True)
+                if not fetched.get("text"):
+                    continue
+                deadline = tools.check_deadline(fetched["text"])
+                if deadline["status"] != "open":
+                    continue
+            opened += 1
+            before = db.all_seen().get(oid, {}).get("last_updated")
+            match = analyze_one(SearchResult(
+                title=item.get("title", url), url=url,
+                snippet=item.get("snippet", "")), stats)
             if match:
                 matches.append(match)
+            record = db.all_seen().get(oid, {})
+            # Remove only after a terminal result was saved during THIS try.
+            # Fetch/provider/parse failures leave the queue entry intact.
+            if (record.get("last_updated") != before and
+                    record.get("status") != "closed"):
+                db.remove_from_watchlist(oid)
         except Exception as e:
             db.log_error(f"Watchlist analysis failed for {url}: {e}")
 

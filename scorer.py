@@ -7,6 +7,7 @@ so this is the most expensive and most decision-critical Claude call.
 """
 
 import math
+from analysis_response import decision_response, valid_score
 
 from model_router import call_model, extract_json, as_object
 from checker import (
@@ -441,10 +442,8 @@ def score_opportunity(data: dict, profile: dict) -> dict:
         '"recommendation": "apply|consider|skip"}\n\n'
         f"OPPORTUNITY TEXT:\n{_trim(data.get('raw_text', ''))}"
     )
-    res = call_model("final_scoring", prompt, system=system, max_tokens=900)
-    # A non-object reply yields {}, so overall_score is absent, score falls to
-    # 0.0 and build_scoring() scores deterministically — nothing is invented.
-    parsed = as_object(extract_json(res["content"]), "final_scoring")
+    res, parsed = decision_response(
+        call_model, "final_scoring", prompt, system, 1800, valid_score)
 
     score = parsed.get("overall_score")
     try:
