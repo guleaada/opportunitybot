@@ -191,3 +191,32 @@ def log_activity(kind: str, message: str, **extra) -> None:
 def log_error(message: str, **extra) -> None:
     print(f"❌ {message}")
     log_activity("error", message, **extra)
+
+
+def recover_failed_analyses():
+    """Queue only historical records with evidence of a malformed response.
+
+    Preserve the audit record and mark recovery once, so a real later zero
+    or rejection is never retried forever.
+    """
+    recovered = 0
+    with _lock_for(SEEN_PATH):
+        seen = _load_seen()
+        for oid, record in seen.items():
+            if record.get("analysis_recovery_queued"):
+                continue
+            bad_score = (record.get("status") == "analyzed" and
+                         record.get("score") == 0 and
+                         isinstance(record.get("reward"), (int, float)))
+            bad_grade = (record.get("status") in ("unknown", "legitimacy_unknown") and
+                         record.get("reasoning") == "No reasoning returned.")
+            if not (bad_score or bad_grade):
+                continue
+            add_to_watchlist({"id": oid, "url": record.get("url"),
+                              "title": record.get("title"), "retry_analysis": True,
+                              "reason": "Recover historical malformed model response"})
+            record["analysis_recovery_queued"] = True
+            recovered += 1
+        if recovered:
+            _write(SEEN_PATH, seen)
+    return recovered

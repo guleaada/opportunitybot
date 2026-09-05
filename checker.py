@@ -18,6 +18,7 @@ from typing import Optional
 from dateutil import parser as dateparser
 
 from model_router import call_model, extract_json, as_object
+from analysis_response import decision_response, valid_eligibility
 from known_scams import red_flag_report
 from profile import profile_summary
 
@@ -410,10 +411,8 @@ def check_eligibility(text: str, profile: dict) -> dict:
         '"citizenship_mismatch": true/false}\n\n'
         f"PROGRAM TEXT:\n{_trim(text)}"
     )
-    res = call_model("deep_eligibility", prompt, system=system, max_tokens=800)
-    # A non-object reply yields {}, so normalize_eligibility(None) resolves to
-    # UNCERTAIN — the existing "we could not grade this" outcome.
-    data = as_object(extract_json(res["content"]), "deep_eligibility")
+    res, data = decision_response(
+        call_model, "deep_eligibility", prompt, system, 1600, valid_eligibility)
 
     # Accept the ladder, or a legacy "overall" reply, or nothing at all.
     level = normalize_eligibility(

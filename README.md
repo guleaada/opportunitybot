@@ -260,3 +260,28 @@ your real allowance.
 If a model can't determine a deadline, eligibility, or legitimacy, the item is
 flagged **`unknown`** and **skipped** rather than guessed. Better a missed
 maybe than a wasted application.
+
+
+### Analysis retries and daily watchlist checks
+
+The scheduled scan first rechecks up to `MAX_WATCHLIST_PER_RUN` entries (default
+5), oldest checked first. Closed annual programs are analyzed again only after
+they reopen. Failed analyses are retried without requiring a confirmed deadline.
+Entries remain queued after fetch or model failures, and are removed only after
+a completed analysis; a closed program stays queued.
+
+Scoring and eligibility responses must contain a complete decision object.
+Truncated or invalid responses are retried once with a larger output allowance.
+Repeated failures are queued, never stored as a zero score or an ineligibility
+verdict. The first watchlist run also queues historical zero-score records with
+numeric funding fields and unknown verdicts with missing reasoning, preserving
+the original audit records. Recovery is marked once so valid later rejections
+are not retried indefinitely. No score threshold or negative eligibility verdict
+is relaxed by this recovery.
+
+Offline regression checks (no credentials or notification delivery required):
+
+```sh
+python tests/test_analysis_retry.py
+python selftest_offline.py
+```

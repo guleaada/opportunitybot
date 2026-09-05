@@ -30,7 +30,7 @@ concurrency:
 jobs:
   scan:
     runs-on: ubuntu-latest
-    timeout-minutes: 20  # Hard cap so a runaway job can't burn Actions minutes
+    timeout-minutes: 35  # Hard cap so a runaway job can't burn Actions minutes
 
     steps:
       - name: Checkout repository
@@ -106,6 +106,7 @@ jobs:
           DAILY_CLAUDE_BUDGET_USD: ${{ vars.DAILY_CLAUDE_BUDGET_USD || '0' }}
           MONTHLY_CLAUDE_BUDGET_USD: ${{ vars.MONTHLY_CLAUDE_BUDGET_USD || '10.00' }}
           MIN_SCORE_TO_NOTIFY: ${{ vars.MIN_SCORE_TO_NOTIFY || '7' }}
+          MAX_WATCHLIST_PER_RUN: ${{ vars.MAX_WATCHLIST_PER_RUN || '5' }}
           MAX_OPPORTUNITIES_PER_DAY: ${{ vars.MAX_OPPORTUNITIES_PER_DAY || '15' }}
 
           # CI marker (read by ci_persistence.is_running_in_ci)
@@ -114,6 +115,9 @@ jobs:
         run: |
           MODE="${{ github.event.inputs.mode || 'scan' }}"
           echo "🚀 Running OpportunityBot in mode: $MODE"
+          if [ "$MODE" = "scan" ]; then
+            python main.py --watchlist
+          fi
           python main.py --$MODE
 
       - name: Commit updated persistence data
