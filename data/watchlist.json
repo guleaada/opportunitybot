@@ -26,40 +26,13 @@
     "added": "2026-09-05T01:47:32.843679+00:00",
     "last_checked": "2026-09-05T01:47:32.843191"
   },
-  "530aee88eee93261": {
-    "url": "https://www.python.org/jobs/8118/",
-    "title": "Python Developer, Micro1",
-    "reason": "ANALYSIS_UNAVAILABLE — all model providers were unavailable; retry when quota resets",
-    "id": "530aee88eee93261",
-    "added": "2026-08-17T05:36:41.030692+00:00"
-  },
-  "636fefd88bcdf562": {
-    "url": "https://www.python.org/jobs/8117/",
-    "title": "Senior Python Engineer, EPAM",
-    "reason": "ANALYSIS_UNAVAILABLE — all model providers were unavailable; retry when quota resets",
-    "id": "636fefd88bcdf562",
-    "added": "2026-08-17T05:36:41.294675+00:00"
-  },
-  "a8079cb4ddc161f4": {
-    "url": "https://www.python.org/jobs/8116/",
-    "title": "Senior Python Engineer, Turing",
-    "reason": "ANALYSIS_UNAVAILABLE — all model providers were unavailable; retry when quota resets",
-    "id": "a8079cb4ddc161f4",
-    "added": "2026-08-17T05:36:41.562996+00:00"
-  },
   "15657f22866cb72c": {
     "url": "https://www.python.org/jobs/8115/",
     "title": "Senior Backend Engineer, MyOme",
     "reason": "ANALYSIS_UNAVAILABLE — all model providers were unavailable; retry when quota resets",
     "id": "15657f22866cb72c",
-    "added": "2026-08-17T05:37:39.835684+00:00"
-  },
-  "16b071b6ac098625": {
-    "url": "https://www.python.org/jobs/8113/",
-    "title": "Senior Python/DevOps Engineer (100% Remote - USA Only), Six Feet Up",
-    "reason": "ANALYSIS_UNAVAILABLE — all model providers were unavailable; retry when quota resets",
-    "id": "16b071b6ac098625",
-    "added": "2026-08-17T05:37:40.206276+00:00"
+    "added": "2026-09-06T09:12:35.245223+00:00",
+    "last_checked": "2026-09-06T09:12:35.244712"
   },
   "e041933df2248c08": {
     "url": "https://www.python.org/jobs/8111/",
@@ -1024,5 +997,37 @@
     "snippet": "Incubator is receiving applications for our exhibition programme. Eligible artists are those based in the UK. CLOSING 10 MARCH 2026 @ 5PM.",
     "id": "ce03ca9d35b9cec4",
     "added": "2026-09-05T09:07:43.436959+00:00"
+  },
+  "718e17c714345e5b": {
+    "url": "https://arch-grants.smapply.org/prog/2026_arch_grants_startup_competition",
+    "title": "2026 Arch Grants Startup Competition - Arch Grants",
+    "last_known_deadline": "2026-03-31",
+    "reason": "closed at discovery; likely annual",
+    "id": "718e17c714345e5b",
+    "added": "2026-09-06T09:15:36.139594+00:00"
+  },
+  "8a302a5e650972ba": {
+    "url": "http://archgrants.org/programs/startup-competition",
+    "title": "Startup Competition | Arch Grants",
+    "last_known_deadline": null,
+    "reason": "closed at discovery; likely annual",
+    "id": "8a302a5e650972ba",
+    "added": "2026-09-06T09:15:51.885310+00:00"
+  },
+  "4dbd59e925cd47e6": {
+    "url": "https://msmeafricaonline.com/call-for-applications-founders-fund-africa-creative-economy-accelerator-program-2026-up-to-50000-in-funding",
+    "title": "Call for Applications: Founders Fund Africa Creative Economy Accelerator - MSME Africa",
+    "last_known_deadline": "2026-08-28",
+    "reason": "closed at discovery; likely annual",
+    "id": "4dbd59e925cd47e6",
+    "added": "2026-09-06T09:16:30.238999+00:00"
+  },
+  "67ee0e8542707923": {
+    "url": "https://menterprise.africa/opportunities/accelerate-africa-startup-programme-2026",
+    "title": "Accelerate Africa Startup Programme 2026 - Menterprise Africa",
+    "last_known_deadline": null,
+    "reason": "closed at discovery; likely annual",
+    "id": "67ee0e8542707923",
+    "added": "2026-09-06T09:16:53.761656+00:00"
   }
 }

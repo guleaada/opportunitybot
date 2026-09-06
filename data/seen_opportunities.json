@@ -2924,20 +2924,26 @@
   "530aee88eee93261": {
     "url": "https://www.python.org/jobs/8118/",
     "title": "Python Developer, Micro1",
-    "status": "filtered_out",
+    "status": "suspicious",
     "reason": "Job listing, not a scholarship/fellowship",
     "id": "530aee88eee93261",
     "first_seen": "2026-08-17T16:17:58.829154+00:00",
-    "last_updated": "2026-08-17T16:17:58.829159+00:00"
+    "last_updated": "2026-09-06T09:12:02.721079+00:00",
+    "credibility_status": "SUSPICIOUS",
+    "source_tier": "TIER_4",
+    "reasoning": "The posting appears on the official Python.org job board, but the only contact information is a personal Gmail address and a LinkedIn profile with no corporate website, which are common red flags for fraudulent listings. Additionally, the job description contains contradictory statements about telecommuting (both \"Telecommuting is OK\" and \"No telecommuting\")."
   },
   "636fefd88bcdf562": {
     "url": "https://www.python.org/jobs/8117/",
     "title": "Senior Python Engineer, EPAM",
-    "status": "filtered_out",
+    "status": "suspicious",
     "reason": "Not a scholarship/fellowship opportunity",
     "id": "636fefd88bcdf562",
     "first_seen": "2026-08-17T16:18:09.424435+00:00",
-    "last_updated": "2026-08-17T16:18:09.424441+00:00"
+    "last_updated": "2026-09-06T09:12:05.497575+00:00",
+    "credibility_status": "SUSPICIOUS",
+    "source_tier": "TIER_4",
+    "reasoning": "The posting is on the official Python.org job board and references a reputable company (EPAM), but the contact information uses a personal Gmail address rather than an EPAM corporate email, which is a common red flag. The unusual \"Connectivity Bonus\" description adds uncertainty, though no payment is requested."
   },
   "a8079cb4ddc161f4": {
     "url": "https://www.python.org/jobs/8116/",
@@ -2945,10 +2951,10 @@
     "status": "suspicious",
     "credibility_status": "SUSPICIOUS",
     "source_tier": "TIER_4",
-    "reasoning": "The job posting is hosted on python.org/jobs, which is a legitimate domain for Python-related job listings. However, the role description is unusually vague about the company, only mentioning 'one of the foundational LLM companies' without naming it. The contact email (sergioechevrri89@gmail.com) is a personal Gmail account, which is atypical for corporate job postings. Additionally, the posting claims a future date (23 July 2026), which is highly unusual for a live job listing.",
+    "reasoning": "The posting appears on the reputable python.org job board, but the only contact information is a personal Gmail address and a LinkedIn profile rather than a corporate email or website, which is a common red flag for fraudulent listings.",
     "id": "a8079cb4ddc161f4",
     "first_seen": "2026-08-17T16:18:33.899612+00:00",
-    "last_updated": "2026-08-17T16:18:33.899616+00:00"
+    "last_updated": "2026-09-06T09:12:35.227377+00:00"
   },
   "15657f22866cb72c": {
     "url": "https://www.python.org/jobs/8115/",
@@ -3053,12 +3059,13 @@
   "16b071b6ac098625": {
     "url": "https://www.python.org/jobs/8113/",
     "title": "Senior Python/DevOps Engineer (100% Remote - USA Only), Six Feet Up",
-    "status": "ineligible",
+    "status": "filtered_out",
     "eligibility_status": "CONFIRMED_INELIGIBLE",
     "reasoning": "The program explicitly states 'USA Only' in multiple places (job title, restrictions section), which directly excludes Ethiopian nationals. Additionally, this is a job posting for a Senior Python/DevOps Engineer position, not a scholarship or fellowship program.",
     "id": "16b071b6ac098625",
     "first_seen": "2026-08-18T05:41:42.200130+00:00",
-    "last_updated": "2026-08-18T05:41:42.200138+00:00"
+    "last_updated": "2026-09-06T09:12:50.379747+00:00",
+    "reason": "It's a paid remote job, not a funded scholarship or fellowship."
   },
   "e041933df2248c08": {
     "url": "https://www.python.org/jobs/8111/",
@@ -7727,5 +7734,162 @@
     "id": "ba4ef8727bbf253c",
     "first_seen": "2026-09-05T09:07:40.631919+00:00",
     "last_updated": "2026-09-05T09:07:40.631929+00:00"
+  },
+  "901d9f80f229202d": {
+    "url": "https://opportunitiescorners.com/nextgen2030-youth-summit-riyadh-2026/",
+    "title": "NextGen2030 Youth & AI Summit Riyadh 2026 (Funded)",
+    "status": "suspicious",
+    "credibility_status": "SUSPICIOUS",
+    "source_tier": "TIER_3",
+    "reasoning": "The summit requires an application fee ($23.32) and directs payment to an external site, uses a free Gmail address for official contact, and is co‑hosted by entities (Teaching Pakistan, Inseyab Saudi Arabia) that cannot be independently verified. It also promises fully funded UN spots and job offers, typical of fraudulent youth‑summit scams.",
+    "id": "901d9f80f229202d",
+    "first_seen": "2026-09-06T09:14:36.614908+00:00",
+    "last_updated": "2026-09-06T09:14:36.614923+00:00"
+  },
+  "fc5895ebbb650526": {
+    "url": "https://opportunitiescorners.com/unidir-graduate-professional-program-2027/",
+    "title": "UNIDIR Graduate Professional Program 2027, Switzerland ($1500/Month)",
+    "status": "suspicious",
+    "credibility_status": "SUSPICIOUS",
+    "source_tier": "TIER_3",
+    "reasoning": "UNIDIR does run a legitimate Graduate Professional Programme with a stipend, but the listing uses a generic Gmail address (opportunitiescorners.com@gmail.com) instead of an official UNIDIR or UN email, provides no direct link to the official UNIDIR page, and is presented on a low‑credibility aggregator site with heavy promotional language.",
+    "id": "fc5895ebbb650526",
+    "first_seen": "2026-09-06T09:15:15.361466+00:00",
+    "last_updated": "2026-09-06T09:15:15.361476+00:00"
+  },
+  "718e17c714345e5b": {
+    "url": "https://arch-grants.smapply.org/prog/2026_arch_grants_startup_competition",
+    "title": "2026 Arch Grants Startup Competition - Arch Grants",
+    "status": "closed",
+    "deadline": "2026-03-31",
+    "id": "718e17c714345e5b",
+    "first_seen": "2026-09-06T09:15:36.131232+00:00",
+    "last_updated": "2026-09-06T09:15:36.131241+00:00"
+  },
+  "8a302a5e650972ba": {
+    "url": "http://archgrants.org/programs/startup-competition",
+    "title": "Startup Competition | Arch Grants",
+    "status": "closed",
+    "deadline": null,
+    "id": "8a302a5e650972ba",
+    "first_seen": "2026-09-06T09:15:51.876870+00:00",
+    "last_updated": "2026-09-06T09:15:51.876879+00:00"
+  },
+  "4dbd59e925cd47e6": {
+    "url": "https://msmeafricaonline.com/call-for-applications-founders-fund-africa-creative-economy-accelerator-program-2026-up-to-50000-in-funding",
+    "title": "Call for Applications: Founders Fund Africa Creative Economy Accelerator - MSME Africa",
+    "status": "closed",
+    "deadline": "2026-08-28",
+    "id": "4dbd59e925cd47e6",
+    "first_seen": "2026-09-06T09:16:30.230810+00:00",
+    "last_updated": "2026-09-06T09:16:30.230817+00:00"
+  },
+  "67ee0e8542707923": {
+    "url": "https://menterprise.africa/opportunities/accelerate-africa-startup-programme-2026",
+    "title": "Accelerate Africa Startup Programme 2026 - Menterprise Africa",
+    "status": "closed",
+    "deadline": null,
+    "id": "67ee0e8542707923",
+    "first_seen": "2026-09-06T09:16:53.753166+00:00",
+    "last_updated": "2026-09-06T09:16:53.753178+00:00"
+  },
+  "d4b0b8e28a778784": {
+    "url": "https://startupmaphub.com/funding",
+    "title": "Equity-Free Grants, Seed Funding, Accelerators",
+    "status": "unknown",
+    "eligibility_status": "UNCERTAIN",
+    "model_eligibility_status": "UNCERTAIN",
+    "missing_requirements": [
+      "Explicit residency or location requirement for applicants",
+      "Any age or stage limits (e.g., must be at idea/MVP stage)",
+      "Specific documentation needed to verify African founder status"
+    ],
+    "blocking_issues": [],
+    "addressable_gaps": [
+      "Provide proof of African founder status or relocate to an African country if residency is required."
+    ],
+    "reasoning": "The program targets African founders and lists opportunities as \"Open to all of Africa\". The candidate is an Ethiopian national (African), satisfying the citizenship aspect, but is currently residing in Laos. The description does not explicitly state a residency requirement, so it is unclear whether being physically based in Africa is mandatory. No hard blockers (nationality, age, degree level, student status) are present, but the missing clarification on location creates uncertainty.",
+    "id": "d4b0b8e28a778784",
+    "first_seen": "2026-09-06T09:18:07.325311+00:00",
+    "last_updated": "2026-09-06T09:18:07.325322+00:00"
+  },
+  "fa2e8b91003b601e": {
+    "url": "https://dceo.illinois.gov/aboutdceo/grantopportunities/grants.html",
+    "title": "Apply for Funding - Grant Opportunities",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "model_eligibility_status": "PROBABLY_INELIGIBLE",
+    "missing_requirements": [],
+    "blocking_issues": [
+      "Not an Illinois‑based organization or business",
+      "Not an Illinois citizen/resident (implied requirement for many programs)"
+    ],
+    "addressable_gaps": [],
+    "reasoning": "The DCEO grant opportunities are targeted at Illinois‑based organizations, businesses, community groups, or Illinois citizens/employers. The candidate is an Ethiopian national residing in Laos and is applying as an individual professional, not an Illinois entity. This does not meet the implied location and entity requirements.",
+    "id": "fa2e8b91003b601e",
+    "first_seen": "2026-09-06T09:19:04.937728+00:00",
+    "last_updated": "2026-09-06T09:19:04.937737+00:00"
+  },
+  "0f5a3e8b511c3660": {
+    "url": "https://github.com/speedyapply/2027-SWE-College-Jobs/blob/main/NEW_GRAD_USA.md",
+    "title": "2027-SWE-College-Jobs ...",
+    "status": "filtered_out",
+    "reason": "It's a job posting, not a funded scholarship or fellowship.",
+    "id": "0f5a3e8b511c3660",
+    "first_seen": "2026-09-06T09:19:14.166898+00:00",
+    "last_updated": "2026-09-06T09:19:14.166906+00:00"
+  },
+  "0c8e6198b5abceaf": {
+    "url": "https://nextleveljobs.eu/blog/visa-sponsorship/nl",
+    "title": "Visa Sponsorship in the Netherlands for Software ...",
+    "status": "analyzed",
+    "score": 4.5,
+    "category": "dev_jobs",
+    "official_url": "https://nextleveljobs.eu/blog/visa-sponsorship/nl",
+    "location": null,
+    "remote": null,
+    "deadline": null,
+    "reward": "partial",
+    "estimated_value": null,
+    "eligibility_status": "PROBABLY_ELIGIBLE",
+    "credibility_status": "LIKELY_LEGITIMATE",
+    "source_tier": "TIER_4",
+    "source_quality": 0,
+    "requirements": [],
+    "id": "0c8e6198b5abceaf",
+    "first_seen": "2026-09-06T09:21:51.824761+00:00",
+    "last_updated": "2026-09-06T09:21:51.824771+00:00"
+  },
+  "bd59eb6d62fb6235": {
+    "url": "https://relocate.me/international-jobs",
+    "title": "Find International Jobs: Explore Global Career Opportunities | Relocate.me",
+    "status": "unknown",
+    "eligibility_status": "UNCERTAIN",
+    "model_eligibility_status": "UNCERTAIN",
+    "missing_requirements": [
+      "Any stated eligibility criteria (e.g., nationality restrictions, age caps, student enrollment requirement, minimum degree level, language proficiency) are not provided on the page."
+    ],
+    "blocking_issues": [],
+    "addressable_gaps": [],
+    "reasoning": "The Relocate.me job board page does not specify any eligibility criteria such as nationality, age limit, student status, degree level, or language requirements. Because we cannot verify whether such criteria exist and could potentially exclude the candidate, the eligibility cannot be confirmed.",
+    "id": "bd59eb6d62fb6235",
+    "first_seen": "2026-09-06T09:23:00.143467+00:00",
+    "last_updated": "2026-09-06T09:23:00.143475+00:00"
+  },
+  "05651422ed0daf00": {
+    "url": "https://africanngos.org/2026/06/09/african-ngo-funding-opportunities-june-july-2026",
+    "title": "African NGO Funding Opportunities – June & July 2026",
+    "status": "ineligible",
+    "eligibility_status": "PROBABLY_INELIGIBLE",
+    "model_eligibility_status": "PROBABLY_INELIGIBLE",
+    "missing_requirements": [],
+    "blocking_issues": [
+      "Must be an African NGO (candidate is an individual professional, not an organization)"
+    ],
+    "addressable_gaps": [],
+    "reasoning": "The program is a roundup of funding opportunities specifically for African NGOs. The candidate is an individual professional, not an NGO, and therefore does not meet the implied core eligibility criterion of being an African civil‑society organization. No other explicit eligibility criteria are stated that the candidate fails.",
+    "id": "05651422ed0daf00",
+    "first_seen": "2026-09-06T09:24:48.357656+00:00",
+    "last_updated": "2026-09-06T09:24:48.357665+00:00"
   }
 }
