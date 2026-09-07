@@ -3070,41 +3070,68 @@
   "e041933df2248c08": {
     "url": "https://www.python.org/jobs/8111/",
     "title": "Python + TypeScript Engineers, Fusionbox",
-    "status": "unknown",
-    "eligibility_status": "UNCERTAIN",
-    "reasoning": "No reasoning returned.",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "reasoning": "The job requires the candidate to be US‑based (Remote (US Based), Any US State) and to have at least 5 years of Python experience and 3 years of React experience. The candidate is an Ethiopian national residing in Vientiane, Lao PDR, and does not meet the US‑based location requirement. Additionally, the candidate’s resume does not provide evidence of the required years of Python or React experience.",
     "id": "e041933df2248c08",
     "first_seen": "2026-08-18T05:42:37.565856+00:00",
-    "last_updated": "2026-08-18T05:42:37.565863+00:00",
-    "analysis_recovery_queued": true
+    "last_updated": "2026-09-07T10:00:07.987878+00:00",
+    "analysis_recovery_queued": true,
+    "model_eligibility_status": "PROBABLY_INELIGIBLE",
+    "missing_requirements": [
+      "Verification of candidate’s US residency or citizenship",
+      "Documentation of required years of Python experience",
+      "Documentation of required years of React experience"
+    ],
+    "blocking_issues": [
+      "US‑based location requirement not met (candidate resides outside the United States)",
+      "Insufficient documented Python experience (5 years required)",
+      "Insufficient documented React experience (3 years required)"
+    ],
+    "addressable_gaps": [
+      "Relocate to the United States or obtain a work authorization that satisfies the US‑based requirement",
+      "Provide verifiable proof of ≥5 years Python development experience",
+      "Provide verifiable proof of ≥3 years React development experience"
+    ]
   },
   "8b4f9dbef1849669": {
     "url": "https://www.python.org/jobs/8109/",
     "title": "Senior Backend Python Engineer, mindIT HR Agency (on behalf of a confidential client)",
     "status": "filtered_out",
-    "reason": "Requires Latin America-based candidates, not eligible for Ethiopian national in Lao PDR",
+    "reason": "Eligibility requires Latin America residence, not suitable for Ethiopian candidate",
     "id": "8b4f9dbef1849669",
     "first_seen": "2026-08-18T05:43:54.973878+00:00",
-    "last_updated": "2026-08-18T05:43:54.973885+00:00"
+    "last_updated": "2026-09-07T10:01:48.870460+00:00"
   },
   "6d34650a610ef385": {
     "url": "https://www.python.org/jobs/8108/",
     "title": "Full-Stack Engineer, AIDAR",
     "status": "ineligible",
-    "eligibility_status": "CONFIRMED_INELIGIBLE",
-    "reasoning": "The candidate is an Ethiopian national currently based in Vientiane, Lao PDR, while the program explicitly requires the candidate to be 'Based in Germany is a must'.",
+    "eligibility_status": "PROBABLY_INELIGIBLE",
+    "reasoning": "The job posting explicitly requires the candidate to be based in Germany ('Based in Germany is a must' and 'No telecommuting'). The candidate currently resides in Vientiane, Lao PDR and is not based in Germany, which is a hard blocker. No nationality restriction is stated, so citizenship is not an issue. Other requirements (Python skills, AI/ML experience, etc.) are potentially met, but the location requirement cannot be satisfied without relocation.",
     "id": "6d34650a610ef385",
     "first_seen": "2026-08-18T05:44:02.495523+00:00",
-    "last_updated": "2026-08-18T05:44:02.495529+00:00"
+    "last_updated": "2026-09-07T10:02:47.251689+00:00",
+    "model_eligibility_status": "PROBABLY_INELIGIBLE",
+    "missing_requirements": [],
+    "blocking_issues": [
+      "Location requirement: must be based in Germany"
+    ],
+    "addressable_gaps": [
+      "Relocation to Germany (if the candidate can move, the location blocker could be resolved)"
+    ]
   },
   "e0710e0f329db086": {
     "url": "https://www.python.org/jobs/8107/",
     "title": "Senior Python Engineer, EPAM",
-    "status": "filtered_out",
+    "status": "suspicious",
     "reason": "Not a scholarship/fellowship opportunity (job listing).",
     "id": "e0710e0f329db086",
     "first_seen": "2026-08-18T05:44:05.718751+00:00",
-    "last_updated": "2026-08-18T05:44:05.718758+00:00"
+    "last_updated": "2026-09-07T10:03:18.071076+00:00",
+    "credibility_status": "SUSPICIOUS",
+    "source_tier": "TIER_4",
+    "reasoning": "The posting appears on the reputable python.org job board and does not request any fees, but the contact email uses a free domain (hiring@black.com) and only a first name is given, which are common indicators of fraudulent job listings."
   },
   "06e9fd7a65845f3f": {
     "url": "https://opportunitiescorners.com/world-bank-govtech-ai-bootcamp/",
@@ -3277,12 +3304,24 @@
   "9a21ec48d520a758": {
     "url": "https://www.python.org/jobs/8110/",
     "title": "Senior AI-Augmented Full Stack Developer, SureSwift Capital",
-    "status": "ineligible",
-    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "status": "analyzed",
+    "eligibility_status": "PROBABLY_ELIGIBLE",
     "reasoning": "The program is a job opportunity (not a scholarship/fellowship) and requires the candidate to be a 'Canada-based candidate only' (remote work available, but office space/hybrid work options are for Victoria, BC candidates). The candidate is an Ethiopian national working in Lao PDR, not a Canadian resident/citizen.",
     "id": "9a21ec48d520a758",
     "first_seen": "2026-08-18T12:34:24.440286+00:00",
-    "last_updated": "2026-08-18T12:34:24.440294+00:00"
+    "last_updated": "2026-09-07T10:01:36.874490+00:00",
+    "score": 2.7,
+    "category": null,
+    "official_url": "https://www.python.org/jobs/8110/",
+    "location": null,
+    "remote": null,
+    "deadline": null,
+    "reward": "none",
+    "estimated_value": null,
+    "credibility_status": "LIKELY_LEGITIMATE",
+    "source_tier": "TIER_4",
+    "source_quality": null,
+    "requirements": []
   },
   "508d0928028fbcbf": {
     "url": "https://www.python.org/jobs/8105/",
@@ -7891,5 +7930,191 @@
     "id": "05651422ed0daf00",
     "first_seen": "2026-09-06T09:24:48.357656+00:00",
     "last_updated": "2026-09-06T09:24:48.357665+00:00"
+  },
+  "a79a8db6d20657aa": {
+    "url": "https://opportunitiescorners.com/hong-kong-phd-fellowship-scheme-2027/",
+    "title": "Hong Kong PhD Fellowship Scheme 2027 (400 Fully Funded Scholarships)",
+    "status": "analyzed",
+    "score": 4.8,
+    "category": null,
+    "official_url": "https://opportunitiescorners.com/hong-kong-phd-fellowship-scheme-2027/",
+    "location": null,
+    "remote": null,
+    "deadline": "2026-12-01",
+    "reward": "fully_funded",
+    "estimated_value": null,
+    "eligibility_status": "PROBABLY_ELIGIBLE",
+    "credibility_status": "LIKELY_LEGITIMATE",
+    "source_tier": "TIER_3",
+    "source_quality": 7,
+    "requirements": [],
+    "id": "a79a8db6d20657aa",
+    "first_seen": "2026-09-07T10:06:06.458975+00:00",
+    "last_updated": "2026-09-07T10:06:06.458984+00:00"
+  },
+  "0f7368fc1e50918b": {
+    "url": "https://www.opportunitiesforafricans.com/category/scholarships/masters",
+    "title": "Masters| Opportunities For Africans",
+    "status": "unknown",
+    "eligibility_status": "UNCERTAIN",
+    "model_eligibility_status": "UNCERTAIN",
+    "missing_requirements": [
+      "Whether the scholarship requires the applicant to be a currently enrolled student",
+      "Nationality eligibility (e.g., some scholarships may be limited to specific countries)",
+      "Age limits or caps",
+      "Minimum degree level (some may require a bachelor's degree, others a master's)",
+      "English language proficiency test scores (IELTS/TOEFL/other) and minimum scores"
+    ],
+    "blocking_issues": [],
+    "addressable_gaps": [],
+    "reasoning": "The page lists many separate scholarship opportunities but does not provide concrete eligibility criteria (e.g., nationality, current student status, age limits, required degree level, English proficiency requirements). Because these decision‑relevant criteria are missing, we cannot confirm whether the candidate meets them or is excluded.",
+    "id": "0f7368fc1e50918b",
+    "first_seen": "2026-09-07T10:08:08.355363+00:00",
+    "last_updated": "2026-09-07T10:08:08.355376+00:00"
+  },
+  "8acd9e45d2c4f487": {
+    "url": "https://www.facebook.com/Favouritescholarshipconnect/posts/-paid-fellowship-in-africaare-you-a-graduate-or-young-professional-seeking-inter/122111369606431250",
+    "title": "Princeton in Africa Fellowship 2027-28 for young ...",
+    "status": "legitimacy_unknown",
+    "credibility_status": "NEEDS_VERIFICATION",
+    "source_tier": "TIER_4",
+    "reasoning": "The post is a brief Facebook announcement with minimal details, no link to an official Princeton in Africa page, and no information about application procedures or fees. While no explicit fee or payment request is shown, the lack of verifiable source and vague description are insufficient to confirm legitimacy.",
+    "id": "8acd9e45d2c4f487",
+    "first_seen": "2026-09-07T10:08:23.732185+00:00",
+    "last_updated": "2026-09-07T10:08:23.732196+00:00"
+  },
+  "4387cfcfa31093ee": {
+    "url": "https://www.southwestern.edu/academics/fellowships-scholarships/get-started-fellowship-opportunities-and-deadlines",
+    "title": "Get Started: Fellowship Opportunities and Deadlines • Southwestern University",
+    "status": "unknown",
+    "eligibility_status": "UNCERTAIN",
+    "model_eligibility_status": "UNCERTAIN",
+    "missing_requirements": [
+      "Whether applicants must be currently enrolled students",
+      "Whether there is an age limit",
+      "Required minimum degree level (e.g., bachelor's, master's)",
+      "English language proficiency requirements (e.g., IELTS/TOEFL)",
+      "Citizenship or residency eligibility restrictions"
+    ],
+    "blocking_issues": [],
+    "addressable_gaps": [],
+    "reasoning": "The Southwestern University fellowship page contains no explicit eligibility criteria (e.g., required citizenship, student status, age limit, degree level, English proficiency). Because we cannot verify whether the candidate meets undisclosed requirements, we cannot confirm eligibility nor identify a definitive blocker.",
+    "id": "4387cfcfa31093ee",
+    "first_seen": "2026-09-07T10:10:01.032078+00:00",
+    "last_updated": "2026-09-07T10:10:01.032093+00:00"
+  },
+  "3565c8cfe5aa6c74": {
+    "url": "https://www.facebook.com/opportunitiesforyouth/posts/-top-fully-funded-research-phd-opportunities-20262027looking-to-take-your-resear/1483832167107465",
+    "title": "Top Fully Funded Research & PhD Opportunities 2026–2027 Looking ...",
+    "status": "legitimacy_unknown",
+    "credibility_status": "NEEDS_VERIFICATION",
+    "source_tier": "TIER_4",
+    "reasoning": "The Facebook post appears to be an aggregator sharing a list of fully funded opportunities and does not request any payment or contain obvious scam language, but it provides no direct links to official scholarship pages, making verification impossible from the given text.",
+    "id": "3565c8cfe5aa6c74",
+    "first_seen": "2026-09-07T10:10:07.406739+00:00",
+    "last_updated": "2026-09-07T10:10:07.406759+00:00"
+  },
+  "6d394229af59e1c3": {
+    "url": "https://www.globalsouthopportunities.com/2026/06/22/university-35",
+    "title": "University of Jyväskylä Opens Applications for Visiting Fellow Programme 2027 - Global South Opportunities",
+    "status": "closed",
+    "deadline": "2026-08-14",
+    "id": "6d394229af59e1c3",
+    "first_seen": "2026-09-07T10:10:49.593129+00:00",
+    "last_updated": "2026-09-07T10:10:49.593139+00:00"
+  },
+  "3f998b2a0a783e9e": {
+    "url": "https://www.vr.se/english/applying-for-funding/calls/2025-11-24-grant-for-recruiting-international-visiting-researchers-to-sweden-2026.html",
+    "title": "Grant for recruiting international visiting researchers to Sweden 2026 - Swedish Research Council",
+    "status": "ineligible",
+    "eligibility_status": "PROBABLY_INELIGIBLE",
+    "model_eligibility_status": "PROBABLY_INELIGIBLE",
+    "missing_requirements": [
+      "List of publications/outputs (2018–2026)",
+      "Detailed CV with research achievements"
+    ],
+    "blocking_issues": [
+      "Degree level mismatch: no PhD/equivalent foreign degree",
+      "Career age requirement not met (needs ≥5 years after PhD)",
+      "Prominent researcher status not evidenced (no publications/CV provided)"
+    ],
+    "addressable_gaps": [],
+    "reasoning": "The grant specifies that the visiting researcher must have a PhD or equivalent foreign degree and at least 5 years of post‑doctoral career age. The candidate only holds a BSc and has no PhD, which does not meet the degree‑level and career‑age requirements. Additionally, the researcher must be a \"prominent researcher\" with a documented research record, which is not demonstrated. These constitute hard blockers.",
+    "id": "3f998b2a0a783e9e",
+    "first_seen": "2026-09-07T10:12:24.973570+00:00",
+    "last_updated": "2026-09-07T10:12:24.973588+00:00"
+  },
+  "842f683d745abfc3": {
+    "url": "https://opportunitydesk.org/2025/11/24/crassh-visiting-fellowships-for-scholars-from-the-global-south-2026-2027",
+    "title": "CRASSH Visiting Fellowships for Scholars from the Global South 2026-2027 (Funded) – Opportunity Desk",
+    "status": "analyzed",
+    "score": 3.4,
+    "category": "research",
+    "official_url": "https://opportunitydesk.org/2025/11/24/crassh-visiting-fellowships-for-scholars-from-the-global-south-2026-2027",
+    "location": null,
+    "remote": null,
+    "deadline": null,
+    "reward": "fully_funded",
+    "estimated_value": null,
+    "eligibility_status": "UNCERTAIN",
+    "credibility_status": "LIKELY_LEGITIMATE",
+    "source_tier": "TIER_2",
+    "source_quality": 8,
+    "requirements": [],
+    "id": "842f683d745abfc3",
+    "first_seen": "2026-09-07T10:13:13.607773+00:00",
+    "last_updated": "2026-09-07T10:13:13.607783+00:00"
+  },
+  "3b82ef6376fd9203": {
+    "url": "https://fulbrightscholars.org/non-us-scholars/fulbright-visiting-scholar-program",
+    "title": "Visiting Scholar Program - Awards for International Scholars | Fulbright Scholars",
+    "status": "unknown",
+    "eligibility_status": "UNCERTAIN",
+    "model_eligibility_status": "UNCERTAIN",
+    "missing_requirements": [],
+    "blocking_issues": [],
+    "addressable_gaps": [
+      "Obtain an English proficiency test score (e.g., Duolingo English Test, IELTS, TOEFL, or MOI certificate) to demonstrate sufficient English ability."
+    ],
+    "reasoning": "The Fulbright Visiting Scholar Program requires (1) citizenship of a participating country – Ethiopia is a participating country, so no mismatch; (2) a doctoral degree or equivalent professional training/experience – the candidate holds only a BSc, and while they have extensive professional experience, it is unclear if this satisfies the \"equivalent professional training\" clause; (3) sufficient English proficiency – the candidate lacks a formal English test score but can obtain one (Duolingo or MOI). Because the degree-equivalence cannot be verified, the eligibility cannot be confirmed.",
+    "id": "3b82ef6376fd9203",
+    "first_seen": "2026-09-07T10:14:46.294630+00:00",
+    "last_updated": "2026-09-07T10:14:46.294646+00:00"
+  },
+  "66c5cec89de96ab9": {
+    "url": "https://fi.co/insight/federal-funding-for-startup-programs-every-grant-source-edos-should-know-in-2026",
+    "title": "Federal Funding for Startup Programs: Every Grant Source ...",
+    "status": "closed",
+    "deadline": null,
+    "id": "66c5cec89de96ab9",
+    "first_seen": "2026-09-07T10:15:23.859293+00:00",
+    "last_updated": "2026-09-07T10:15:23.859322+00:00"
+  },
+  "467e350f89ee5416": {
+    "url": "https://southcarolina.grantwatch.com/cat/16/entrepreneurs-and-startups-grants.html",
+    "title": "66 Entrepreneurs and Startups Grants for South Carolina",
+    "status": "legitimacy_unknown",
+    "credibility_status": "NEEDS_VERIFICATION",
+    "source_tier": "TIER_4",
+    "reasoning": "The page is an aggregator listing many grant opportunities without providing specific program details, contact information, or fee requirements. Absence of red‑flag indicators (fees, personal email, payment requests) suggests it may be legitimate, but the lack of concrete evidence prevents a confident classification.",
+    "id": "467e350f89ee5416",
+    "first_seen": "2026-09-07T10:15:38.700600+00:00",
+    "last_updated": "2026-09-07T10:15:38.700617+00:00"
+  },
+  "9609c68ded3b37dc": {
+    "url": "https://www.newmuseum.org/new-inc/open-call",
+    "title": "Open Call - NEW INC",
+    "status": "unknown",
+    "eligibility_status": "UNCERTAIN",
+    "model_eligibility_status": "UNCERTAIN",
+    "missing_requirements": [
+      "Eligibility criteria such as required nationality, student status, age limit, degree level, English proficiency, or other qualifications are not stated in the provided program text."
+    ],
+    "blocking_issues": [],
+    "addressable_gaps": [],
+    "reasoning": "The program description provides no explicit eligibility criteria (e.g., nationality, student status, age limit, degree requirement). Without knowing these decision‑relevant requirements, we cannot confirm whether the candidate meets them or is blocked.",
+    "id": "9609c68ded3b37dc",
+    "first_seen": "2026-09-07T10:16:04.982407+00:00",
+    "last_updated": "2026-09-07T10:16:04.982421+00:00"
   }
 }

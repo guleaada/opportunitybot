@@ -34,42 +34,6 @@
     "added": "2026-09-06T09:12:35.245223+00:00",
     "last_checked": "2026-09-06T09:12:35.244712"
   },
-  "e041933df2248c08": {
-    "url": "https://www.python.org/jobs/8111/",
-    "title": "Python + TypeScript Engineers, Fusionbox",
-    "reason": "Recover historical malformed model response",
-    "id": "e041933df2248c08",
-    "added": "2026-09-05T01:47:30.275204+00:00",
-    "retry_analysis": true
-  },
-  "9a21ec48d520a758": {
-    "url": "https://www.python.org/jobs/8110/",
-    "title": "Senior AI-Augmented Full Stack Developer, SureSwift Capital",
-    "reason": "ANALYSIS_UNAVAILABLE — all model providers were unavailable; retry when quota resets",
-    "id": "9a21ec48d520a758",
-    "added": "2026-08-17T05:37:40.712379+00:00"
-  },
-  "8b4f9dbef1849669": {
-    "url": "https://www.python.org/jobs/8109/",
-    "title": "Senior Backend Python Engineer, mindIT HR Agency (on behalf of a confidential client)",
-    "reason": "ANALYSIS_UNAVAILABLE — all model providers were unavailable; retry when quota resets",
-    "id": "8b4f9dbef1849669",
-    "added": "2026-08-17T05:37:40.922852+00:00"
-  },
-  "6d34650a610ef385": {
-    "url": "https://www.python.org/jobs/8108/",
-    "title": "Full-Stack Engineer, AIDAR",
-    "reason": "ANALYSIS_UNAVAILABLE — all model providers were unavailable; retry when quota resets",
-    "id": "6d34650a610ef385",
-    "added": "2026-08-17T05:37:41.282377+00:00"
-  },
-  "e0710e0f329db086": {
-    "url": "https://www.python.org/jobs/8107/",
-    "title": "Senior Python Engineer, EPAM",
-    "reason": "ANALYSIS_UNAVAILABLE — all model providers were unavailable; retry when quota resets",
-    "id": "e0710e0f329db086",
-    "added": "2026-08-17T05:37:41.544096+00:00"
-  },
   "98fb072b4e96468f": {
     "url": "https://www.arbeitnow.com/jobs/companies/wolt/senior-data-scientist-workforce-management-analytics-berlin-311902",
     "title": "Senior Data Scientist, Workforce Management Analytics",
@@ -1029,5 +993,21 @@
     "reason": "closed at discovery; likely annual",
     "id": "67ee0e8542707923",
     "added": "2026-09-06T09:16:53.761656+00:00"
+  },
+  "6d394229af59e1c3": {
+    "url": "https://www.globalsouthopportunities.com/2026/06/22/university-35",
+    "title": "University of Jyväskylä Opens Applications for Visiting Fellow Programme 2027 - Global South Opportunities",
+    "last_known_deadline": "2026-08-14",
+    "reason": "closed at discovery; likely annual",
+    "id": "6d394229af59e1c3",
+    "added": "2026-09-07T10:10:49.602467+00:00"
+  },
+  "66c5cec89de96ab9": {
+    "url": "https://fi.co/insight/federal-funding-for-startup-programs-every-grant-source-edos-should-know-in-2026",
+    "title": "Federal Funding for Startup Programs: Every Grant Source ...",
+    "last_known_deadline": null,
+    "reason": "closed at discovery; likely annual",
+    "id": "66c5cec89de96ab9",
+    "added": "2026-09-07T10:15:23.869879+00:00"
   }
 }
