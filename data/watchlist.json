@@ -34,35 +34,14 @@
     "added": "2026-09-06T09:12:35.245223+00:00",
     "last_checked": "2026-09-06T09:12:35.244712"
   },
-  "98fb072b4e96468f": {
-    "url": "https://www.arbeitnow.com/jobs/companies/wolt/senior-data-scientist-workforce-management-analytics-berlin-311902",
-    "title": "Senior Data Scientist, Workforce Management Analytics",
-    "reason": "ANALYSIS_UNAVAILABLE — all model providers were unavailable; retry when quota resets",
-    "id": "98fb072b4e96468f",
-    "added": "2026-08-18T20:39:58.801065+00:00"
-  },
-  "c7e4c9d8a840bdef": {
-    "url": "https://www.arbeitnow.com/jobs/companies/sumup/senior-it-internal-auditor-berlin-437544",
-    "title": "Senior IT Internal Auditor",
-    "reason": "ANALYSIS_UNAVAILABLE — all model providers were unavailable; retry when quota resets",
-    "id": "c7e4c9d8a840bdef",
-    "added": "2026-08-18T22:43:56.130531+00:00"
-  },
-  "f2230f72c2209b65": {
-    "url": "https://www.globalsouthopportunities.com/2026/05/03/fellowships-12",
-    "title": "7 Trending Fully Funded Fellowships for Global South ...",
-    "reason": "Recover historical malformed model response",
-    "id": "f2230f72c2209b65",
-    "added": "2026-09-05T01:47:30.277558+00:00",
-    "retry_analysis": true
-  },
   "6b657eab465b6a34": {
     "url": "https://www.efworld.org/apply-now",
     "title": "Apply Now - Eisenhower Fellowships",
     "last_known_deadline": null,
     "reason": "closed at discovery; likely annual",
     "id": "6b657eab465b6a34",
-    "added": "2026-08-18T23:00:39.053570+00:00"
+    "added": "2026-09-08T09:29:56.098372+00:00",
+    "last_checked": "2026-09-08T09:29:56.097870"
   },
   "f60a7785aabc9c62": {
     "url": "https://www.starsfellows.africa/applyattypp",
@@ -70,7 +49,8 @@
     "last_known_deadline": "2026-01-31",
     "reason": "closed at discovery; likely annual",
     "id": "f60a7785aabc9c62",
-    "added": "2026-08-19T00:39:03.264194+00:00"
+    "added": "2026-09-08T09:30:02.894468+00:00",
+    "last_checked": "2026-09-08T09:30:02.893950"
   },
   "ce547ee658f3e75b": {
     "url": "https://commonwealthfoundation.com/grants/annual",
@@ -1009,5 +989,13 @@
     "reason": "closed at discovery; likely annual",
     "id": "66c5cec89de96ab9",
     "added": "2026-09-07T10:15:23.869879+00:00"
+  },
+  "fa61869a9722d336": {
+    "url": "https://www.worldbank.org/en/brief/2025/03/06/world-bank-group-africa-fellowship-program",
+    "title": "World Bank Group Africa Fellowship Program",
+    "last_known_deadline": "2026-08-25",
+    "reason": "closed at discovery; likely annual",
+    "id": "fa61869a9722d336",
+    "added": "2026-09-08T09:43:00.416872+00:00"
   }
 }

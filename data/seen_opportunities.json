@@ -3941,11 +3941,29 @@
     "url": "https://www.arbeitnow.com/jobs/companies/wolt/senior-data-scientist-workforce-management-analytics-berlin-311902",
     "title": "Senior Data Scientist, Workforce Management Analytics",
     "status": "ineligible",
-    "eligibility_status": "CONFIRMED_INELIGIBLE",
-    "reasoning": "This is a job posting (not a scholarship/fellowship program) requiring 5+ years of experience in a data science or analytics position. The candidate is a 27-year-old working professional with a BSc (graduated in 2021), which does not meet the experience requirement.",
+    "eligibility_status": "PROBABLY_INELIGIBLE",
+    "reasoning": "The job requires 5+ years of data science/analytics experience, proven experience building forecasting models (Prophet, SARIMA, Holt‑Winters or similar), cost analysis, and strong SQL skills. The candidate’s profile lists Python, AI/ML, and web development skills but does not demonstrate the required years of experience, specific forecasting/modeling expertise, cost analysis experience, or SQL proficiency. No nationality restriction is mentioned, and a bachelor's degree is acceptable, so those are not blockers.",
     "id": "98fb072b4e96468f",
     "first_seen": "2026-08-18T22:46:49.692218+00:00",
-    "last_updated": "2026-08-18T22:46:49.692229+00:00"
+    "last_updated": "2026-09-08T09:25:55.614145+00:00",
+    "model_eligibility_status": "PROBABLY_INELIGIBLE",
+    "missing_requirements": [
+      "Verification of years of relevant experience",
+      "Evidence of specific forecasting/modeling tools usage",
+      "Proof of cost analysis and scenario analysis work",
+      "Demonstrated SQL query expertise"
+    ],
+    "blocking_issues": [
+      "Hard blocker: Does not meet the required 5+ years of data science/analytics experience",
+      "Hard blocker: Lacks demonstrated experience with forecasting models/time‑series analysis",
+      "Hard blocker: No evidence of cost analysis or what‑if scenario analysis experience",
+      "Hard blocker: No proven proficiency in writing structured SQL queries for large data sets"
+    ],
+    "addressable_gaps": [
+      "Can acquire additional data‑science experience and build a portfolio of forecasting projects",
+      "Can develop and demonstrate SQL proficiency",
+      "Can gain cost‑analysis experience through relevant projects or roles"
+    ]
   },
   "a6fa817fe2ec22a0": {
     "url": "https://weworkremotely.com/remote-jobs/integrated-hire-account-manager-client-services",
@@ -4085,14 +4103,25 @@
   "f2230f72c2209b65": {
     "url": "https://www.globalsouthopportunities.com/2026/05/03/fellowships-12",
     "title": "7 Trending Fully Funded Fellowships for Global South ...",
-    "status": "legitimacy_unknown",
-    "credibility_status": "NEEDS_VERIFICATION",
+    "status": "analyzed",
+    "credibility_status": "LIKELY_LEGITIMATE",
     "source_tier": "TIER_4",
     "reasoning": "No reasoning returned.",
     "id": "f2230f72c2209b65",
     "first_seen": "2026-08-19T00:14:02.198345+00:00",
-    "last_updated": "2026-08-19T00:14:02.198360+00:00",
-    "analysis_recovery_queued": true
+    "last_updated": "2026-09-08T09:29:56.079247+00:00",
+    "analysis_recovery_queued": true,
+    "score": 4.8,
+    "category": null,
+    "official_url": "https://www.globalsouthopportunities.com/2026/05/03/fellowships-12",
+    "location": null,
+    "remote": null,
+    "deadline": null,
+    "reward": "fully_funded",
+    "estimated_value": null,
+    "eligibility_status": "PROBABLY_ELIGIBLE",
+    "source_quality": null,
+    "requirements": []
   },
   "948288b971d99501": {
     "url": "https://www.africanleadershipcentre.org/news/call-for-applications-y4z58",
@@ -8116,5 +8145,222 @@
     "id": "9609c68ded3b37dc",
     "first_seen": "2026-09-07T10:16:04.982407+00:00",
     "last_updated": "2026-09-07T10:16:04.982421+00:00"
+  },
+  "c7e4c9d8a840bdef": {
+    "url": "https://www.arbeitnow.com/jobs/companies/sumup/senior-it-internal-auditor-berlin-437544",
+    "title": "Senior IT Internal Auditor",
+    "status": "ineligible",
+    "eligibility_status": "PROBABLY_INELIGIBLE",
+    "model_eligibility_status": "PROBABLY_INELIGIBLE",
+    "missing_requirements": [],
+    "blocking_issues": [
+      "Lack of required internal audit experience in a regulated financial services environment",
+      "No demonstrated knowledge of required audit frameworks (COBIT, ISO 27001, PCI DSS, ITIL, NIST)"
+    ],
+    "addressable_gaps": [
+      "Obtain a formal English proficiency certificate (e.g., Duolingo, MOI) if needed for proof",
+      "Gain relevant internal audit experience or obtain certifications in audit frameworks"
+    ],
+    "reasoning": "The job requires proven experience as an internal auditor in a regulated financial services environment with a focus on IT audits and knowledge of audit frameworks (COBIT, ISO 27001, PCI DSS, ITIL, NIST). The candidate’s background is in AI development, marketing, and psychology, with no mention of internal audit experience or familiarity with those specific frameworks. While English fluency is claimed, there is no formal certificate, but this is not a hard blocker. No nationality, age, or degree restrictions are stated for the role.",
+    "id": "c7e4c9d8a840bdef",
+    "first_seen": "2026-09-08T09:27:11.705661+00:00",
+    "last_updated": "2026-09-08T09:27:11.705677+00:00"
+  },
+  "a5ae9e8fd8dad848": {
+    "url": "https://opportunitiescorners.com/commonwealth-scholarship-2027/",
+    "title": "Commonwealth Scholarship 2027/28 in UK (Fully Funded)",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "model_eligibility_status": "CONFIRMED_INELIGIBLE",
+    "missing_requirements": [
+      "Academic classification (2:1 or equivalent) not provided",
+      "English language test results not provided"
+    ],
+    "blocking_issues": [
+      "citizenship not from a Commonwealth‑eligible country (Ethiopia not listed)"
+    ],
+    "addressable_gaps": [],
+    "reasoning": "The Commonwealth Scholarship is only open to citizens or permanent residents of listed Commonwealth countries. Ethiopia is not among the eligible countries, so the candidate's nationality is a hard blocker. Other criteria (degree level, age, English proficiency) are not decisive because the citizenship requirement already disqualifies the candidate.",
+    "id": "a5ae9e8fd8dad848",
+    "first_seen": "2026-09-08T09:32:06.328530+00:00",
+    "last_updated": "2026-09-08T09:32:06.328547+00:00"
+  },
+  "a1f4e58bf7f743b7": {
+    "url": "https://opportunitiescorners.com/gcf-it-internship-2026/",
+    "title": "GCF IT Internship 2026 in South Korea (Fully Funded)",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "model_eligibility_status": "CONFIRMED_INELIGIBLE",
+    "missing_requirements": [],
+    "blocking_issues": [
+      "Not enrolled in or recently graduated from a Master's program (hard blocker)",
+      "Bachelor's degree field (Psychology) does not match required study areas (hard blocker)",
+      "Candidate is a working professional, not a current student (hard blocker)"
+    ],
+    "addressable_gaps": [
+      "Can enroll in a relevant Master's program before the application deadline",
+      "Can obtain proof of English proficiency (currently missing but can be obtained)"
+    ],
+    "reasoning": "The program requires applicants to be enrolled in or have recently graduated from a Master's program in Business Administration, Project Management, Information Systems, Computer Science, Software Engineering, or a related field. The candidate holds only a BSc in Psychology, is not currently a student, and does not meet the specified field of study. Therefore the candidate does not satisfy the core eligibility criteria.",
+    "id": "a1f4e58bf7f743b7",
+    "first_seen": "2026-09-08T09:33:14.266345+00:00",
+    "last_updated": "2026-09-08T09:33:14.266363+00:00"
+  },
+  "d93ab952cc7773c1": {
+    "url": "https://opportunitiescorners.com/adb-young-professionals-program-2027/",
+    "title": "ADB Young Professionals Program 2027, Philippines (Fully Funded)",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "model_eligibility_status": "CONFIRMED_INELIGIBLE",
+    "missing_requirements": [],
+    "blocking_issues": [
+      "Nationality not an ADB member country (Ethiopia is not listed among ADB members)"
+    ],
+    "addressable_gaps": [
+      "English proficiency proof (can obtain Duolingo or MOI certificate)",
+      "Demonstrate ≥3 years relevant professional experience",
+      "Confirm degree relevance to listed fields (Psychology may be considered Social Sciences but not explicitly listed)"
+    ],
+    "reasoning": "The ADB Young Professionals Program is open only to nationals of ADB member countries. Ethiopia is not an ADB member, which is a hard, non‑addressable blocker. Other criteria (age ≤32, bachelor's degree, ≥3 years experience, English proficiency) are potentially met or can be addressed, but nationality alone excludes the candidate.",
+    "id": "d93ab952cc7773c1",
+    "first_seen": "2026-09-08T09:34:24.050789+00:00",
+    "last_updated": "2026-09-08T09:34:24.050810+00:00"
+  },
+  "f8fa19515cbcfdc4": {
+    "url": "https://www.opportunitiesforafricans.com/toyota-south-africa-chartered-accountant-development-programme-2027-for-young-south-africans/",
+    "title": "Toyota South Africa Chartered Accountant Development Programme 2027 for young South Africans.",
+    "status": "legitimacy_unknown",
+    "credibility_status": "NEEDS_VERIFICATION",
+    "source_tier": "TIER_3",
+    "reasoning": "The listing does not request any application fee and describes a typical corporate development programme, but it provides no direct link to an official Toyota South Africa page and uses a generic aggregator email address, making it impossible to verify the program's existence.",
+    "id": "f8fa19515cbcfdc4",
+    "first_seen": "2026-09-08T09:35:10.797059+00:00",
+    "last_updated": "2026-09-08T09:35:10.797074+00:00"
+  },
+  "019b5cb8ff267015": {
+    "url": "https://www.opportunitiesforafricans.com/the-national-treasury-chartered-accountants-academy-programme-2027/",
+    "title": "The National Treasury Chartered Accountants Academy Programme 2027 for young South Africans (Three-years full-time training contract)",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "model_eligibility_status": "CONFIRMED_INELIGIBLE",
+    "missing_requirements": [],
+    "blocking_issues": [
+      "Nationality: Ethiopian (program limited to South Africans)",
+      "Degree qualification: lacks CTA or equivalent accounting qualification"
+    ],
+    "addressable_gaps": [],
+    "reasoning": "The programme explicitly states it is for \"young South Africans\" and requires a Certificate in the Theory of Accounting (CTA) or an equivalent qualification that meets SAICA requirements. The candidate is an Ethiopian national and holds a BSc in Psychology, not the required accounting qualification.",
+    "id": "019b5cb8ff267015",
+    "first_seen": "2026-09-08T09:36:02.597101+00:00",
+    "last_updated": "2026-09-08T09:36:02.597117+00:00"
+  },
+  "d5df0dd1d99b1e10": {
+    "url": "https://www.opportunitiesforafricans.com/international-union-for-the-scientific-study-of-population-iussp-early-career-awards-2027/",
+    "title": "International Union for the Scientific Study of Population (IUSSP) Early Career Awards 2027",
+    "status": "ineligible",
+    "eligibility_status": "PROBABLY_INELIGIBLE",
+    "model_eligibility_status": "PROBABLY_INELIGIBLE",
+    "missing_requirements": [
+      "Explicit statement on whether a PhD is mandatory is not provided, but the phrasing implies it"
+    ],
+    "blocking_issues": [
+      "Degree level mismatch: no PhD (required to calculate post‑PhD experience limit)"
+    ],
+    "addressable_gaps": [
+      "Become an IUSSP member",
+      "Secure support from at least 5 IUSSP members as required for nomination"
+    ],
+    "reasoning": "The award specifies candidates must have no more than 7 years of experience after their PhD. The candidate holds only a BSc and has no PhD, which does not satisfy the implied PhD requirement. All other criteria (age, nationality, residency) are either not restrictive or potentially meetable.",
+    "id": "d5df0dd1d99b1e10",
+    "first_seen": "2026-09-08T09:37:12.522217+00:00",
+    "last_updated": "2026-09-08T09:37:12.522237+00:00"
+  },
+  "610031c7c7a44ac7": {
+    "url": "https://www.opportunitiesforafricans.com/mtn-foundation-ict-and-business-skills-training-phase-8/",
+    "title": "MTN Foundation ICT and Business Skills Training (Phase 8) for young Nigerian Entrepreneurs (N100 million in Equipment Grant)",
+    "status": "legitimacy_unknown",
+    "credibility_status": "NEEDS_VERIFICATION",
+    "source_tier": "TIER_3",
+    "reasoning": "The page describes an MTN Foundation training program that matches known MTN initiatives, and it does not request any payment, which are positive signs. However, it provides only generic contact emails and no direct link to an official MTN Foundation webpage, making it impossible to verify the program's authenticity from this source alone.",
+    "id": "610031c7c7a44ac7",
+    "first_seen": "2026-09-08T09:37:54.766049+00:00",
+    "last_updated": "2026-09-08T09:37:54.766067+00:00"
+  },
+  "a77deffcdfc6dd9d": {
+    "url": "https://www.opportunitiesforafricans.com/the-association-of-commonwealth-universities-acu-early-career-conference-grants-for-early-career-researchers/",
+    "title": "The Association of Commonwealth Universities (ACU) Early Career Conference Grants 2026 for early career researchers.",
+    "status": "ineligible",
+    "eligibility_status": "PROBABLY_INELIGIBLE",
+    "model_eligibility_status": "PROBABLY_INELIGIBLE",
+    "missing_requirements": [
+      "Verification that the candidate's current institution (if any) is an ACU member university",
+      "Proof of current academic/research appointment"
+    ],
+    "blocking_issues": [
+      "Not currently employed or enrolled at an ACU member university (hard blocker)",
+      "Not demonstrably an early‑career researcher/academic affiliated with a university"
+    ],
+    "addressable_gaps": [
+      "Obtain enrollment or a research/teaching position at a university that is a member of the Association of Commonwealth Universities",
+      "Provide documentation confirming the ACU membership status of the affiliated university"
+    ],
+    "reasoning": "The program requires applicants to be early‑career researchers or academics *at an ACU member university*. The candidate is a working professional with a BSc from Injibara University (Ethiopia), which is not a Commonwealth country and is unlikely to be an ACU member, and she is not currently employed by any university. This fails the core eligibility criterion. No other hard blockers (nationality, age, degree level) are present, but the university affiliation requirement is not met.",
+    "id": "a77deffcdfc6dd9d",
+    "first_seen": "2026-09-08T09:38:52.352032+00:00",
+    "last_updated": "2026-09-08T09:38:52.352052+00:00"
+  },
+  "d2e88115da48edc6": {
+    "url": "https://www.opportunitiesforafricans.com/princeton-institute-for-international-and-regional-studies-piirs-fung-global-fellows-program-2027-2028/",
+    "title": "Princeton Institute for International and Regional Studies (PIIRS) Fung Global Fellows Program 2027/2028 for early-career scholars worldwide.",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "model_eligibility_status": "CONFIRMED_INELIGIBLE",
+    "missing_requirements": [],
+    "blocking_issues": [
+      "No Ph.D. (or equivalent) awarded after Sep 1, 2017",
+      "No faculty appointment or professional research appointment (employment does not meet required category)"
+    ],
+    "addressable_gaps": [],
+    "reasoning": "The PIIRS Fung Global Fellows Program requires applicants to have received a Ph.D. (or equivalent) after September 1, 2017 and to hold a faculty appointment or a professional research appointment while employed outside the United States. The candidate only holds a BSc, has no Ph.D., and does not have a faculty or professional research position; therefore the core eligibility criteria are not met.",
+    "id": "d2e88115da48edc6",
+    "first_seen": "2026-09-08T09:40:24.884346+00:00",
+    "last_updated": "2026-09-08T09:40:24.884364+00:00"
+  },
+  "f3f6d6f7f841f92a": {
+    "url": "https://www.opportunitiesforafricans.com/khaled-bin-sultan-living-oceans-foundations-science-without-borders-challenge-2027/",
+    "title": "Khaled bin Sultan Living Oceans Foundation’s Science without Borders® Challenge 2027 International Art Competition",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "model_eligibility_status": "CONFIRMED_INELIGIBLE",
+    "missing_requirements": [],
+    "blocking_issues": [
+      "Age cap exceeded (must be 11-19 years old)",
+      "Must be a primary/secondary school student (candidate is a working professional)"
+    ],
+    "addressable_gaps": [],
+    "reasoning": "The program explicitly states that the Challenge is open only to primary and secondary school students aged 11-19. The candidate is 27 years old and is a working professional, not a student in that age range, which directly violates the age and student-status requirements.",
+    "id": "f3f6d6f7f841f92a",
+    "first_seen": "2026-09-08T09:41:18.374203+00:00",
+    "last_updated": "2026-09-08T09:41:18.374223+00:00"
+  },
+  "43b4435eab33ab49": {
+    "url": "https://ngofundraising.africa/fellowships",
+    "title": "Fellowships - African NGO Fundraising Hub",
+    "status": "legitimacy_unknown",
+    "credibility_status": "NEEDS_VERIFICATION",
+    "source_tier": "TIER_4",
+    "reasoning": "The page lists many fellowships with no mention of application fees, payment requests, or pressure tactics, and there are no obvious red‑flag signals such as personal email contacts or guaranteed selections. However, the site is an aggregator and provides no direct verification of each program’s authenticity, so there is insufficient evidence to label the overall offering as definitively legitimate.",
+    "id": "43b4435eab33ab49",
+    "first_seen": "2026-09-08T09:42:33.439972+00:00",
+    "last_updated": "2026-09-08T09:42:33.440015+00:00"
+  },
+  "fa61869a9722d336": {
+    "url": "https://www.worldbank.org/en/brief/2025/03/06/world-bank-group-africa-fellowship-program",
+    "title": "World Bank Group Africa Fellowship Program",
+    "status": "closed",
+    "deadline": "2026-08-25",
+    "id": "fa61869a9722d336",
+    "first_seen": "2026-09-08T09:43:00.405341+00:00",
+    "last_updated": "2026-09-08T09:43:00.405360+00:00"
   }
 }
