@@ -4390,13 +4390,25 @@
   },
   "7fcc2c2c7046f06b": {
     "url": "https://ngofundraising.africa/grants-and-funding-opportunities-july-2026",
-    "title": "Grants and Funding Opportunities – July 2026",
-    "status": "ineligible",
-    "eligibility_status": "CONFIRMED_INELIGIBLE",
-    "reasoning": "The program lists specific funding opportunities with focus areas (e.g., biodiversity conservation, LGBTI rights, agriculture, democracy, climate/health, etc.), but none of these align with the candidate's profile as an AI Developer, Marketing Specialist, Psychologist, and AgriTech innovator. The candidate's background in AI/tech innovation and entrepreneurship does not match the thematic focus of any listed opportunities (e.g., conservation, human rights, agriculture, media, governance). Additionally, the candidate is a working professional, not affiliated with an NGO or community-based organization, which is likely a requirement for these grants.",
+    "title": "Grants and Funding Opportunities – July 2026 - African NGO Fundraising Hub",
+    "status": "unknown",
+    "eligibility_status": "UNCERTAIN",
+    "reasoning": "The page lists a collection of grant opportunities but provides no explicit eligibility criteria (e.g., nationality, student status, age limit, degree level, or whether applicants must be NGOs or individuals). Because we cannot verify if the candidate meets the unstated requirements, we cannot confirm eligibility.",
     "id": "7fcc2c2c7046f06b",
     "first_seen": "2026-08-19T05:38:26.064449+00:00",
-    "last_updated": "2026-08-19T05:38:26.064460+00:00"
+    "last_updated": "2026-09-09T09:28:04.399784+00:00",
+    "model_eligibility_status": "UNCERTAIN",
+    "missing_requirements": [
+      "Specific eligibility criteria for each listed grant (nationality restrictions, applicant type – individual vs. organization, age limits, student status, degree requirements)",
+      "Whether the grants accept individual professionals or only NGOs",
+      "Any language proficiency minimums"
+    ],
+    "blocking_issues": [],
+    "addressable_gaps": [
+      "Form or register an eligible NGO/organization if the grant requires an organizational applicant",
+      "Obtain an English proficiency test result (e.g., Duolingo, MOI certificate) if required",
+      "Provide documentation of any required organizational status, project proposals, or other specific eligibility evidence once the individual grant criteria are clarified"
+    ]
   },
   "58074132f6d7ec79": {
     "url": "https://www2.fundsforngos.org/listing/100-open-grant-opportunities-for-community-development-projects",
@@ -8133,8 +8145,8 @@
   "9609c68ded3b37dc": {
     "url": "https://www.newmuseum.org/new-inc/open-call",
     "title": "Open Call - NEW INC",
-    "status": "unknown",
-    "eligibility_status": "UNCERTAIN",
+    "status": "analyzed",
+    "eligibility_status": "PROBABLY_ELIGIBLE",
     "model_eligibility_status": "UNCERTAIN",
     "missing_requirements": [
       "Eligibility criteria such as required nationality, student status, age limit, degree level, English proficiency, or other qualifications are not stated in the provided program text."
@@ -8144,7 +8156,19 @@
     "reasoning": "The program description provides no explicit eligibility criteria (e.g., nationality, student status, age limit, degree requirement). Without knowing these decision‑relevant requirements, we cannot confirm whether the candidate meets them or is blocked.",
     "id": "9609c68ded3b37dc",
     "first_seen": "2026-09-07T10:16:04.982407+00:00",
-    "last_updated": "2026-09-07T10:16:04.982421+00:00"
+    "last_updated": "2026-09-09T09:28:55.553943+00:00",
+    "score": 5.3,
+    "category": null,
+    "official_url": "https://www.newmuseum.org/new-inc/open-call",
+    "location": null,
+    "remote": null,
+    "deadline": null,
+    "reward": "fully_funded",
+    "estimated_value": null,
+    "credibility_status": "LIKELY_LEGITIMATE",
+    "source_tier": "TIER_4",
+    "source_quality": null,
+    "requirements": []
   },
   "c7e4c9d8a840bdef": {
     "url": "https://www.arbeitnow.com/jobs/companies/sumup/senior-it-internal-auditor-berlin-437544",
@@ -8362,5 +8386,218 @@
     "id": "fa61869a9722d336",
     "first_seen": "2026-09-08T09:43:00.405341+00:00",
     "last_updated": "2026-09-08T09:43:00.405360+00:00"
+  },
+  "2cb5988a0915798e": {
+    "url": "https://opportunitiescorners.com/king-abdulaziz-university-scholarship-2027/",
+    "title": "King Abdulaziz University Scholarship 2027 (Fully Funded)",
+    "status": "analyzed",
+    "score": 5.1,
+    "category": null,
+    "official_url": "https://opportunitiescorners.com/king-abdulaziz-university-scholarship-2027/",
+    "location": null,
+    "remote": null,
+    "deadline": null,
+    "reward": "fully_funded",
+    "estimated_value": null,
+    "eligibility_status": "PROBABLY_ELIGIBLE",
+    "credibility_status": "LIKELY_LEGITIMATE",
+    "source_tier": "TIER_3",
+    "source_quality": 7,
+    "requirements": [
+      "Passport copy",
+      "Academic transcripts",
+      "Medical report",
+      "Language certificate (if applicable)",
+      "Financial guarantee/proof",
+      "Passport-size photographs"
+    ],
+    "id": "2cb5988a0915798e",
+    "first_seen": "2026-09-09T09:31:24.418940+00:00",
+    "last_updated": "2026-09-09T09:31:24.418947+00:00"
+  },
+  "76606b9d43b9a2ed": {
+    "url": "https://www.opportunitiesforafricans.com/commonwealth-phd-scholarships-2027-2028/",
+    "title": "Commonwealth PhD Scholarships 2027/2028 for full-time doctoral study at a UK university (Fully Funded).",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "model_eligibility_status": "CONFIRMED_INELIGIBLE",
+    "missing_requirements": [
+      "Proof of 2:1 (or higher) honours classification for the BSc",
+      "Relevant postgraduate qualification (Master's degree) if the BSc is below 2:1",
+      "Evidence of permanent residence in an eligible Commonwealth country",
+      "Financial need documentation"
+    ],
+    "blocking_issues": [
+      "Citizenship not from an eligible Commonwealth country (Ethiopia)",
+      "Degree requirement not met (no evidence of 2:1 classification and no postgraduate qualification)"
+    ],
+    "addressable_gaps": [
+      "Obtain a Master's degree or provide evidence of a 2:1 (or higher) classification for the BSc",
+      "Provide English language test results if required by the university (e.g., Duolingo, IELTS, TOEFL)",
+      "Demonstrate inability to afford study (financial need documentation)"
+    ],
+    "reasoning": "The Commonwealth PhD Scholarships require applicants to be citizens (or refugees) of an eligible Commonwealth country. Ethiopia is not a Commonwealth member, so the candidate's nationality is a hard blocker. Additionally, the scholarship requires a first degree of at least upper second‑class (2:1) honours or a lower second‑class degree plus a relevant postgraduate qualification (usually a Master's). The candidate only holds a BSc with no indication of a 2:1 classification and no postgraduate qualification, which does not satisfy the degree requirement.",
+    "id": "76606b9d43b9a2ed",
+    "first_seen": "2026-09-09T09:32:43.230615+00:00",
+    "last_updated": "2026-09-09T09:32:43.230624+00:00"
+  },
+  "739b4db02321467b": {
+    "url": "https://www.opportunitiesforafricans.com/commonwealth-masters-scholarships-2027-2028/",
+    "title": "Commonwealth Master’s Scholarships 2027/2028 for full-time Master’s study at a UK university (Fully Funded)",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "model_eligibility_status": "CONFIRMED_INELIGIBLE",
+    "missing_requirements": [
+      "Exact classification (2:1 or 2:2) of the BSc degree",
+      "Proof of inability to afford study without scholarship",
+      "English language proficiency evidence (if required)"
+    ],
+    "blocking_issues": [
+      "Citizenship not from an eligible Commonwealth country",
+      "Permanent residence not in an eligible Commonwealth country",
+      "Degree does not meet the required classification or postgraduate qualification"
+    ],
+    "addressable_gaps": [],
+    "reasoning": "The Commonwealth Master’s Scholarships require applicants to be citizens (or refugees) of an eligible Commonwealth country and to be permanently resident in an eligible Commonwealth country. Ethiopia is not a Commonwealth member, and the candidate is resident in Lao PDR, which is also not a Commonwealth country. Additionally, the scholarship requires a first degree of at least upper second‑class (2:1) honours or a lower second‑class degree plus a relevant postgraduate qualification; the candidate only holds a BSc with no indicated class and no postgraduate degree. These are hard, non‑addressable blockers.",
+    "id": "739b4db02321467b",
+    "first_seen": "2026-09-09T09:33:57.035363+00:00",
+    "last_updated": "2026-09-09T09:33:57.035372+00:00"
+  },
+  "f5916acb59f4634f": {
+    "url": "https://www.opportunitiesforafricans.com/the-medecins-sans-frontieres-msf-eastern-africa-media-fellowship-programme-2026/",
+    "title": "The Médecins Sans Frontières (MSF) Eastern Africa Media Fellowship Programme 2026 for East African Journalists",
+    "status": "ineligible",
+    "eligibility_status": "PROBABLY_INELIGIBLE",
+    "model_eligibility_status": "PROBABLY_INELIGIBLE",
+    "missing_requirements": [
+      "Specific list of eligible East African countries (not detailed in the page)",
+      "Any English language proficiency requirement (not mentioned)"
+    ],
+    "blocking_issues": [
+      "Not a journalist / no evidence of publishing journalism work",
+      "No affiliation with a media organisation or freelancer accreditation",
+      "No reference letter from an editor",
+      "No links to three recently published stories as required"
+    ],
+    "addressable_gaps": [
+      "Obtain affiliation with a recognised media outlet or obtain freelancer accreditation",
+      "Produce and publish at least three journalism pieces and provide the links",
+      "Secure a reference letter from an editor"
+    ],
+    "reasoning": "The programme explicitly requires applicants to be journalists based and publishing in the Eastern Africa region, to provide a reference letter from an editor, and to submit links to three recently published stories. The candidate is a working professional with no demonstrated journalism experience, no media affiliation, and no published articles or editor reference, which are hard blockers. Nationality (Ethiopian) and age are acceptable, and student status is not required.",
+    "id": "f5916acb59f4634f",
+    "first_seen": "2026-09-09T09:34:59.192903+00:00",
+    "last_updated": "2026-09-09T09:34:59.192912+00:00"
+  },
+  "5d9e1d8680eded29": {
+    "url": "https://opportunitiescorners.com/international-volunteer-fellowship-thailand-2026/",
+    "title": "International Volunteer Fellowship Thailand 2026",
+    "status": "suspicious",
+    "credibility_status": "SUSPICIOUS",
+    "source_tier": "TIER_3",
+    "reasoning": "The program lists an application fee (USD 15) and provides only a Gmail address as official contact, with no verifiable organizer or government affiliation; promises fully funded airfare and visa letters, which are typical red‑flags for fraudulent fellowship offers. The lack of an official website or institutional backing makes the legitimacy uncertain.",
+    "id": "5d9e1d8680eded29",
+    "first_seen": "2026-09-09T09:35:45.759499+00:00",
+    "last_updated": "2026-09-09T09:35:45.759507+00:00"
+  },
+  "be6f7faae525c261": {
+    "url": "https://www.opportunitiesforafricans.com/the-centre-for-the-study-of-the-economies-of-africa-csea-2026-africas-data-future-fellowship/",
+    "title": "The Centre for the Study of the Economies of Africa (CSEA) 2026 Africa’s Data Future Fellowship (US$1,500 stipend)",
+    "status": "suspicious",
+    "credibility_status": "SUSPICIOUS",
+    "source_tier": "TIER_3",
+    "reasoning": "The fellowship does not require an application fee, which is a positive sign, but the organizer (Centre for the Study of the Economies of Africa) is not widely known and no verifiable official website is linked. The contact email appears to be a generic address rather than an institutional domain, which is a common red flag for scams.",
+    "id": "be6f7faae525c261",
+    "first_seen": "2026-09-09T09:36:36.148306+00:00",
+    "last_updated": "2026-09-09T09:36:36.148316+00:00"
+  },
+  "e2bd90f065a25fab": {
+    "url": "https://opportunitiescorners.com/middle-east-youth-summit-meys-2027/",
+    "title": "Middle East Youth Summit (MEYS) 2027 in Mecca, Saudi Arabia",
+    "status": "scam",
+    "credibility_status": "HIGH_RISK",
+    "source_tier": "TIER_3",
+    "reasoning": "The program requires an upfront application fee ($10/$15) despite claiming to be funded, uses a generic Gmail address for contact, provides no verifiable official website or host organization details, and the description is vague and promotional, all classic red‑flag indicators of a scam.",
+    "id": "e2bd90f065a25fab",
+    "first_seen": "2026-09-09T09:37:24.757367+00:00",
+    "last_updated": "2026-09-09T09:37:24.757375+00:00"
+  },
+  "5000d2714d83b895": {
+    "url": "https://www.aauw.org/resources/programs/funding-opportunities/international-project-grants",
+    "title": "International Project Grants – AAUW : Empowering Women Since 1881",
+    "status": "unknown",
+    "eligibility_status": "UNCERTAIN",
+    "model_eligibility_status": "UNCERTAIN",
+    "missing_requirements": [
+      "Explicit eligibility criteria (e.g., required citizenship, degree level, age limit, student status, project relevance to women/girls)",
+      "Any language proficiency requirement"
+    ],
+    "blocking_issues": [],
+    "addressable_gaps": [],
+    "reasoning": "The program description only specifies the need for a narrative project proposal and budget; it does not state any explicit eligibility criteria such as citizenship, academic degree level, age limit, or current student status. Because AAUW International Project Grants typically have requirements (e.g., non‑US citizenship, graduate degree) that are not mentioned in the provided text, we cannot confirm whether the candidate meets them, nor can we rule them out.",
+    "id": "5000d2714d83b895",
+    "first_seen": "2026-09-09T09:37:57.631394+00:00",
+    "last_updated": "2026-09-09T09:37:57.631403+00:00"
+  },
+  "5fd83e046c8909eb": {
+    "url": "https://scholarshipscorner.website/iatss-forum-leadership-program-japan",
+    "title": "IATSS Forum Leadership Program 2027 in Japan (Fully Funded)",
+    "status": "legitimacy_unknown",
+    "credibility_status": "NEEDS_VERIFICATION",
+    "source_tier": "TIER_3",
+    "reasoning": "The listing claims the program is fully funded and does not require any application or participation fee, which aligns with legitimate scholarship practices. However, there is no direct link to an official IATSS page confirming the leadership program, and IATSS is not commonly known for offering such scholarships, making verification difficult.",
+    "id": "5fd83e046c8909eb",
+    "first_seen": "2026-09-09T09:38:29.034114+00:00",
+    "last_updated": "2026-09-09T09:38:29.034124+00:00"
+  },
+  "83bb0b5bc997c288": {
+    "url": "https://www.edu-live.com/posts/mcw-globals-young-leaders-fellowship-20262027",
+    "title": "MCW Global's Young Leaders Fellowship 2026–2027 | Edu Live - Global Education News & Opportunities",
+    "status": "closed",
+    "deadline": "2025-12-03",
+    "id": "83bb0b5bc997c288",
+    "first_seen": "2026-09-09T09:38:52.825578+00:00",
+    "last_updated": "2026-09-09T09:38:52.825589+00:00"
+  },
+  "093607ae1cb7595b": {
+    "url": "https://www.linkedin.com/pulse/33-fully-funded-global-policy-leadership-abdxf",
+    "title": "🌍🚀 33 Fully Funded Global Policy & Leadership ...",
+    "status": "analyzed",
+    "score": 4.5,
+    "category": "programs",
+    "official_url": "https://www.linkedin.com/pulse/33-fully-funded-global-policy-leadership-abdxf",
+    "location": null,
+    "remote": null,
+    "deadline": null,
+    "reward": "partial",
+    "estimated_value": null,
+    "eligibility_status": "PROBABLY_ELIGIBLE",
+    "credibility_status": "LIKELY_LEGITIMATE",
+    "source_tier": "TIER_4",
+    "source_quality": 0,
+    "requirements": [],
+    "id": "093607ae1cb7595b",
+    "first_seen": "2026-09-09T09:42:42.826453+00:00",
+    "last_updated": "2026-09-09T09:42:42.826461+00:00"
+  },
+  "bec05f3116e500a3": {
+    "url": "https://www.oneyoungworld.com/scholarships",
+    "title": "Our Scholarships",
+    "status": "unknown",
+    "eligibility_status": "UNCERTAIN",
+    "model_eligibility_status": "UNCERTAIN",
+    "missing_requirements": [
+      "Explicit age limit (e.g., must be under 35)",
+      "Any required English language proficiency documentation",
+      "Potential requirement to demonstrate impact or leadership (not detailed on the page)"
+    ],
+    "blocking_issues": [],
+    "addressable_gaps": [
+      "Obtain an English proficiency test result (e.g., Duolingo, MOI certificate) if the program later requires it"
+    ],
+    "reasoning": "The One Young World scholarship page does not list explicit eligibility criteria such as age limits, nationality restrictions, student status, or required English proficiency. While the candidate meets the obvious criteria (young changemaker, holds a bachelor's degree, is not excluded by nationality), the absence of stated age caps (often 18‑35 for such programs) and any English language proof creates uncertainty. No hard blockers are identified, but the missing, decision‑relevant criteria prevent a definitive eligibility determination.",
+    "id": "bec05f3116e500a3",
+    "first_seen": "2026-09-09T09:43:40.956337+00:00",
+    "last_updated": "2026-09-09T09:43:40.956346+00:00"
   }
 }
