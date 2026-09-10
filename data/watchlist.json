@@ -77,20 +77,13 @@
     "added": "2026-09-09T09:28:55.568362+00:00",
     "last_checked": "2026-09-09T09:28:55.567991"
   },
-  "485d8bea4c147d40": {
-    "url": "https://careers.state.gov/interns-fellows",
-    "title": "Internships/Fellowships - Careers",
-    "reason": "Recover historical malformed model response",
-    "id": "485d8bea4c147d40",
-    "added": "2026-09-05T01:47:30.338833+00:00",
-    "retry_analysis": true
-  },
   "a9b18e05f89df8d3": {
     "url": "https://opportunitiesforyouth.org/2026/05/12/apply-now-fully-funded-presidential-leadership-scholars-program-2026",
     "title": "Presidential Leadership Scholars Program 2027: Fully Funded Leadership Program for Experienced Leaders - Opportunities for Youth",
     "reason": "ANALYSIS_UNAVAILABLE — all model providers were unavailable; retry when quota resets",
     "id": "a9b18e05f89df8d3",
-    "added": "2026-08-19T05:38:41.973470+00:00"
+    "added": "2026-09-10T09:26:04.572771+00:00",
+    "last_checked": "2026-09-10T09:26:04.572309"
   },
   "fc01aab56cb9a5c0": {
     "url": "https://opportunitiesforyouth.org/2026/08/20/ares-international-training-scholarships-2027-2028-in-belgium-fully-funded-study-and-professional-training-opportunities-for-applicants-from-32-eligible-countries/",
@@ -98,7 +91,8 @@
     "last_known_deadline": null,
     "reason": "closed at discovery; likely annual",
     "id": "fc01aab56cb9a5c0",
-    "added": "2026-08-21T05:37:40.397996+00:00"
+    "added": "2026-09-10T09:26:05.896621+00:00",
+    "last_checked": "2026-09-10T09:26:05.896176"
   },
   "6f79b1cfb28962c7": {
     "url": "https://opportunitydesk.org/2026/08/20/global-logic-reasoning-competition-2026/",
@@ -106,7 +100,8 @@
     "last_known_deadline": null,
     "reason": "closed at discovery; likely annual",
     "id": "6f79b1cfb28962c7",
-    "added": "2026-08-21T05:41:52.645769+00:00"
+    "added": "2026-09-10T09:26:06.230065+00:00",
+    "last_checked": "2026-09-10T09:26:06.229314"
   },
   "ec9d1d15c5dbb47e": {
     "url": "https://opportunitydesk.org/2026/08/20/giz-south-africa-ideas-competition-2026/",
@@ -114,7 +109,8 @@
     "last_known_deadline": null,
     "reason": "closed at discovery; likely annual",
     "id": "ec9d1d15c5dbb47e",
-    "added": "2026-08-21T05:41:55.209890+00:00"
+    "added": "2026-09-10T09:26:06.448682+00:00",
+    "last_checked": "2026-09-10T09:26:06.447980"
   },
   "65d2c5604c131556": {
     "url": "https://www.globalsouthopportunities.com/2026/02/16/fellowship-95",
@@ -992,5 +988,32 @@
     "reason": "closed at discovery; likely annual",
     "id": "83bb0b5bc997c288",
     "added": "2026-09-09T09:38:52.833420+00:00"
+  },
+  "83b4b5f37f57afd8": {
+    "url": "https://www.ukri.org/apply-for-funding/our-fellowship-opportunities",
+    "title": "Our fellowship opportunities – UKRI",
+    "reason": "ANALYSIS_UNAVAILABLE — deep_eligibility: incomplete or invalid response after retry",
+    "retry_analysis": true,
+    "snippet": "### Professional doctorate: clinical research training fellowship\n\nFunded by the Medical Research Council (MRC). This is for registered healthcare professionals without a PhD to get one to pursue a research career.\n\nFunding will cover the fellow’s salary and project costs for three years.\n\nAward frequency: three times a year\n\nSearch for funding opportunities for the Professional doctorate: clinical research training fellowship. [...] Funding will cover the fellow’s salary and project costs for five years.\n\nAward frequency: annual.\n\nSearch for funding opportunities for NERC independent research fellowships.\n\n### EPSRC postdoctoral fellowships\n\nFunded by EPSRC.\n\nThese flexible fellowships are for researchers who have not had significant postdoctoral funding or been leading in an area of technical development. These fellowships are only open in the mathematical sciences research area. [...] # Our fellowship opportunities\n\nFellowships are prestigious funding awards for individuals to make challenging transitions in their research careers or to develop specific research capabilities.\n\nThey give you the freedom to focus on a research or innovation project that requires at least 12 months of your time (between 0.5 and 1 full-time equivalent). They pay all or part of your salary, for the length of your fellowship, and some cover part or all of your research costs.",
+    "id": "83b4b5f37f57afd8",
+    "added": "2026-09-10T09:38:37.794770+00:00"
+  },
+  "05fc162f9d6a30ed": {
+    "url": "https://www.facebook.com/opportunitiesforyouth/posts/-top-fully-funded-research-phd-opportunities-20262027looking-to-take-your-resear/1486075293549819",
+    "title": "🎓🔬 Top Fully Funded Research & PhD Opportunities 2026 ...",
+    "retry_analysis": true,
+    "snippet": "Here are some of our top picks from 27 fully funded Research, PhD, Postdoctoral & Scholarship opportunities around the world: Offers fully",
+    "reason": "legitimacy check returned an unparseable reply; retry on a later run",
+    "id": "05fc162f9d6a30ed",
+    "added": "2026-09-10T09:39:10.448677+00:00"
+  },
+  "a098dbc3bfd4f54b": {
+    "url": "https://competition.adesignaward.com/design-award-dates.html",
+    "title": "A' Design Award and Competition - Dates and Deadlines",
+    "retry_analysis": true,
+    "snippet": "Results will be Announced to Public on April 15, 2027. Visit our winners' page on April 15, 2027 to see the worlds' leading designs, ideas, trends and concepts in 2027.\n\nRegistrations Open\n\nRegistration to A' Design Award & Competition 2026-2027 period is now open. Register and upload your design today to know how good your design is: get a complimentary preliminary score.\n\nEnter Your Work\n\n[](\n\nLearn More and Discover\n\nA' DESIGN AWARD [...] Detailed Timeline\n\n2026 - 2027 Edition\n\nA' Design Award and Competition has already published the laureates of the 2025 - 2026 Edition. Entries are now open for the 2026 - 2027 Competition Period. Late Deadline for Entries is on February 28th. You can submit your work today and get a complimentary preliminary design score for your design.\n\nEnter Work\n\n[]( []( []( []( []( [](\n\nNews   \n Sunday 6th September 2026 [...] A' Design Award and Competition applications are open throughout the year until February 28th, and results are announced every year on April 15th. Gala Night, Ars Futura Cultura and Design Exhibitions are organized after results announcement.\n\nParticipants' Timeline",
+    "reason": "legitimacy check returned an unparseable reply; retry on a later run",
+    "id": "a098dbc3bfd4f54b",
+    "added": "2026-09-10T09:45:08.483837+00:00"
   }
 }

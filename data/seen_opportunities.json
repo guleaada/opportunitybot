@@ -6236,16 +6236,19 @@
   "485d8bea4c147d40": {
     "url": "https://careers.state.gov/interns-fellows",
     "title": "Internships/Fellowships - Careers",
-    "status": "unknown",
-    "eligibility_status": "UNCERTAIN",
-    "model_eligibility_status": "UNCERTAIN",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "model_eligibility_status": "CONFIRMED_INELIGIBLE",
     "missing_requirements": [],
-    "blocking_issues": [],
+    "blocking_issues": [
+      "Nationality mismatch: candidate is Ethiopian, program requires U.S. citizenship",
+      "Student status: candidate is not currently enrolled in an educational institution, while most programs require enrollment"
+    ],
     "addressable_gaps": [],
-    "reasoning": "No reasoning returned.",
+    "reasoning": "The program explicitly targets U.S. citizens (e.g., \"targeted toward U.S. citizens\" for the Pathways Internship Program and other fellowships) and many opportunities require current enrollment as a student. The candidate is an Ethiopian national and a working professional, not a U.S. citizen nor a student, which directly violates these core eligibility criteria.",
     "id": "485d8bea4c147d40",
     "first_seen": "2026-08-30T14:41:01.408687+00:00",
-    "last_updated": "2026-08-30T14:41:01.408698+00:00",
+    "last_updated": "2026-09-10T09:26:04.557414+00:00",
     "analysis_recovery_queued": true
   },
   "5024136f3af4601f": {
@@ -8599,5 +8602,196 @@
     "id": "bec05f3116e500a3",
     "first_seen": "2026-09-09T09:43:40.956337+00:00",
     "last_updated": "2026-09-09T09:43:40.956346+00:00"
+  },
+  "4b6a5e69c8da2d7b": {
+    "url": "https://www.opportunitiesforafricans.com/nordic-africa-institutes-nordic-scholarship-programme-2027-2028/",
+    "title": "Nordic Africa Institute’s Nordic Scholarship Programme 2027/2028 for early-career researchers (Fully Funded)",
+    "status": "ineligible",
+    "eligibility_status": "PROBABLY_INELIGIBLE",
+    "model_eligibility_status": "PROBABLY_INELIGIBLE",
+    "missing_requirements": [
+      "Current affiliation to a university/research centre in Sweden, Finland, Denmark or Iceland",
+      "Proof of Africa‑oriented research focus"
+    ],
+    "blocking_issues": [
+      "No affiliation to a university or research centre in Sweden, Finland, Denmark or Iceland (hard blocker)",
+      "No evidence of Africa‑oriented research focus (hard blocker if required)"
+    ],
+    "addressable_gaps": [
+      "Obtain a visiting researcher or affiliation position at a Nordic university/research centre",
+      "Develop and document an Africa‑oriented research project within social sciences/humanities"
+    ],
+    "reasoning": "The programme requires the applicant to be affiliated with and based at a university or research centre in Sweden, Finland, Denmark or Iceland at the time of application and when taking up the scholarship. The candidate is a working professional based in Laos with no affiliation to any Nordic university or research centre, which directly violates this core requirement. Additionally, the programme expects Africa‑oriented research in the social sciences or humanities; the candidate’s profile does not demonstrate such a focus.",
+    "id": "4b6a5e69c8da2d7b",
+    "first_seen": "2026-09-10T09:27:38.325864+00:00",
+    "last_updated": "2026-09-10T09:27:38.325877+00:00"
+  },
+  "c053051c53f1157f": {
+    "url": "https://opportunitiescorners.com/university-of-hawaii-adb-scholarship-2027/",
+    "title": "University of Hawaii ADB Scholarship 2027 in USA (Fully Funded)",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "model_eligibility_status": "PROBABLY_INELIGIBLE",
+    "missing_requirements": [
+      "Proof of English proficiency (specific test score)",
+      "Official admission acceptance letter",
+      "Health/medical certificate",
+      "Statement or evidence of intent to return to home country",
+      "Verification of current residency in Ethiopia"
+    ],
+    "blocking_issues": [
+      "Nationality not from an ADB eligible developing member country (Ethiopia is not an ADB member)"
+    ],
+    "addressable_gaps": [
+      "Obtain English-language test results (Duolingo, MOI, IELTS, TOEFL)",
+      "Secure admission to an approved Master's program at University of Hawai‘i at Mānoa",
+      "Provide health certificate",
+      "Document intention to return to Ethiopia after studies",
+      "Provide evidence of strong academic record"
+    ],
+    "reasoning": "The scholarship requires applicants to be citizens and current residents of an eligible developing member country of the Asian Development Bank. Ethiopia is not a member of the ADB, so the candidate's nationality is a hard blocker. All other criteria (age ≤35, bachelor's degree, >2 years work experience, professional English proficiency) appear to be met or can be addressed, but the citizenship requirement alone likely disqualifies the candidate.",
+    "id": "c053051c53f1157f",
+    "first_seen": "2026-09-10T09:28:48.910881+00:00",
+    "last_updated": "2026-09-10T09:28:48.910896+00:00"
+  },
+  "18536360cf31c406": {
+    "url": "https://www.opportunitiesforafricans.com/arizona-state-university-mastercard-foundation-innovation-and-technology-scholarships-2027-2028/",
+    "title": "Arizona State University Mastercard Foundation Innovation and Technology Scholarships 2027/2028 for young African professionals (Fully Funded)",
+    "status": "analyzed",
+    "score": 5.8,
+    "category": null,
+    "official_url": "https://www.opportunitiesforafricans.com/arizona-state-university-mastercard-foundation-innovation-and-technology-scholarships-2027-2028/",
+    "location": null,
+    "remote": null,
+    "deadline": "2026-09-27",
+    "reward": "fully_funded",
+    "estimated_value": null,
+    "eligibility_status": "PROBABLY_ELIGIBLE",
+    "credibility_status": "LIKELY_LEGITIMATE",
+    "source_tier": "TIER_3",
+    "source_quality": 7,
+    "requirements": [
+      "CV/Resume",
+      "Letter of Recommendation",
+      "Transcripts"
+    ],
+    "id": "18536360cf31c406",
+    "first_seen": "2026-09-10T09:32:36.836887+00:00",
+    "last_updated": "2026-09-10T09:32:36.836902+00:00"
+  },
+  "4601741ffef16304": {
+    "url": "https://www.opportunitiesforafricans.com/chevening-british-library-coptic-collections-fellowship-2027-2028/",
+    "title": "Chevening British Library Coptic Collections Fellowship 2027/2028 for mid-career professionals (Fully Funded to the United Kingdom)",
+    "status": "legitimacy_unknown",
+    "credibility_status": "NEEDS_VERIFICATION",
+    "source_tier": "TIER_3",
+    "reasoning": "The program description appears legitimate with detailed eligibility criteria, funding information, and specific institutional partnerships (British Library, UK government). However, the page is hosted on 'opportunitiesforafricans.com' - a third-party aggregator - with no direct link to official Chevening or British Library domains, making verification impossible from this source alone.",
+    "id": "4601741ffef16304",
+    "first_seen": "2026-09-10T09:32:52.546060+00:00",
+    "last_updated": "2026-09-10T09:32:52.546079+00:00"
+  },
+  "338d5c93c4f5cea4": {
+    "url": "http://fundit.fr/en/calls/international-visiting-research-fellowship-programme",
+    "title": "International Visiting Research Fellowship Programme",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "model_eligibility_status": "CONFIRMED_INELIGIBLE",
+    "missing_requirements": [
+      "Proof of PhD degree (required)",
+      "Evidence of South-Eastern European nationality (program-specific)",
+      "English language certification (IELTS/TOEFL) – though not a blocker, needed for most international programs"
+    ],
+    "blocking_issues": [
+      "Nationality mismatch: Program restricts to South-Eastern European scholars; candidate is Ethiopian.",
+      "Degree level mismatch: Program requires PhD holders; candidate has only a Bachelor's degree."
+    ],
+    "addressable_gaps": [],
+    "reasoning": "The program explicitly targets 'early-career scholars from South-Eastern Europe' and requires 'holding their PhD.' The candidate is an Ethiopian national (passport shows Ethiopia) and holds only a BSc in Psychology (graduated 2021), not a PhD. These are direct, unambiguous mismatches with the stated criteria.",
+    "id": "338d5c93c4f5cea4",
+    "first_seen": "2026-09-10T09:33:55.441239+00:00",
+    "last_updated": "2026-09-10T09:33:55.441252+00:00"
+  },
+  "68fdd47e09a736fb": {
+    "url": "https://www.mundusmapp.org/call-for-applications-erasmus-mundus-visiting-scholarships-for-academics-policy-professionals",
+    "title": "CALL FOR APPLICATIONS: Erasmus Mundus Visiting Scholarships for Academics/Policy Professionals - mundusmapp",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "model_eligibility_status": "CONFIRMED_INELIGIBLE",
+    "missing_requirements": [
+      "PhD degree (required)",
+      "Two samples of recent publications",
+      "Two reference letters"
+    ],
+    "blocking_issues": [
+      "Must have a PhD degree (candidate has only a BSc)"
+    ],
+    "addressable_gaps": [],
+    "reasoning": "The program explicitly states 'Applicants must have a PhD degree, as well as academic teaching and/or policy related practitioner experience.' The candidate holds only a BSc in Psychology (graduated 2021) and provides no evidence of a PhD. This is a direct, non-negotiable requirement that the candidate fails to meet.",
+    "id": "68fdd47e09a736fb",
+    "first_seen": "2026-09-10T09:34:53.517980+00:00",
+    "last_updated": "2026-09-10T09:34:53.517994+00:00"
+  },
+  "9c89c516bf78d687": {
+    "url": "https://azrielifoundation.org/fellows/visiting-phd-fellowship",
+    "title": "International Visiting PhD Fellowship - The Azrieli Foundation",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "model_eligibility_status": "CONFIRMED_INELIGIBLE",
+    "missing_requirements": [
+      "English proficiency requirements not stated in program text, but candidate lacks certificate; however, this is secondary to the PhD status ineligibility."
+    ],
+    "blocking_issues": [
+      "Not currently a PhD candidate (student status mismatch)",
+      "Degree level: holds a BSc, not PhD enrollment"
+    ],
+    "addressable_gaps": [
+      "None applicable; the PhD enrollment requirement is not addressable within the application timeframe."
+    ],
+    "reasoning": "The program explicitly requires candidates to be PhD candidates currently enrolled in accredited institutions outside Israel, with at least one year of PhD studies completed. The candidate is a working professional with a BSc degree and is not enrolled in any PhD program, thus failing to meet this fundamental requirement.",
+    "id": "9c89c516bf78d687",
+    "first_seen": "2026-09-10T09:40:27.154979+00:00",
+    "last_updated": "2026-09-10T09:40:27.154998+00:00"
+  },
+  "6a48ad82cf600706": {
+    "url": "https://www.scholarshipbob.com/contest",
+    "title": "Contest Scholarships for International Students 2026 - 2027 | ScholarshipBob",
+    "status": "analyzed",
+    "score": 3.8,
+    "category": "cash_prize_competitions",
+    "official_url": "https://www.scholarshipbob.com/contest",
+    "location": null,
+    "remote": null,
+    "deadline": null,
+    "reward": "partial",
+    "estimated_value": null,
+    "eligibility_status": "PROBABLY_ELIGIBLE",
+    "credibility_status": "LIKELY_LEGITIMATE",
+    "source_tier": "TIER_4",
+    "source_quality": 0,
+    "requirements": [],
+    "id": "6a48ad82cf600706",
+    "first_seen": "2026-09-10T09:43:23.933180+00:00",
+    "last_updated": "2026-09-10T09:43:23.933197+00:00"
+  },
+  "91c0790b661148fd": {
+    "url": "https://www.artworkarchive.com/call-for-entry/complete-guide-to-2026-artist-grants-opportunities?opportunity_type_filter%5B%5D=0",
+    "title": "Guide to the Best Artist Grants and Opportunities in 2026 | Artwork Archive",
+    "status": "analyzed",
+    "score": 3.0,
+    "category": "cash_prize_competitions",
+    "official_url": "https://www.artworkarchive.com/call-for-entry/complete-guide-to-2026-artist-grants-opportunities?opportunity_type_filter%5B%5D=0",
+    "location": null,
+    "remote": null,
+    "deadline": null,
+    "reward": "partial",
+    "estimated_value": null,
+    "eligibility_status": "PROBABLY_ELIGIBLE",
+    "credibility_status": "LIKELY_LEGITIMATE",
+    "source_tier": "TIER_4",
+    "source_quality": 0,
+    "requirements": [],
+    "id": "91c0790b661148fd",
+    "first_seen": "2026-09-10T09:44:33.942187+00:00",
+    "last_updated": "2026-09-10T09:44:33.942204+00:00"
   }
 }

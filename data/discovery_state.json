@@ -1,27 +1,27 @@
 {
-  "rotation_cursor": 9,
+  "rotation_cursor": 2,
   "category_performance": {
-    "dev_jobs": 448,
-    "fellowships": 448,
-    "grants": 447,
-    "remote_jobs": 443,
+    "dev_jobs": 464,
+    "fellowships": 464,
+    "grants": 463,
+    "remote_jobs": 459,
     "ai_competitions": 160,
-    "cash_prize_competitions": 127,
+    "cash_prize_competitions": 143,
     "coding_competitions": 159,
     "creator_programs": 160,
     "developer_programs": 159,
-    "freelance": 144,
+    "freelance": 160,
     "programs": 127,
-    "research": 128,
+    "research": 144,
     "scholarships": 208,
     "security_bounties": 208,
     "startup_competitions": 179,
     "startup_funding": 192,
     "incubators": 127,
-    "open_source_bounties": 144,
-    "paid_internships": 128,
+    "open_source_bounties": 152,
+    "paid_internships": 144,
     "accelerators": 176,
-    "hackathons": 144
+    "hackathons": 160
   },
-  "last_run": "2026-09-09T09:30:13.757352+00:00"
+  "last_run": "2026-09-10T09:27:30.642158+00:00"
 }
