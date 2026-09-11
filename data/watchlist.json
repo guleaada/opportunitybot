@@ -118,7 +118,8 @@
     "last_known_deadline": null,
     "reason": "closed at discovery; likely annual",
     "id": "65d2c5604c131556",
-    "added": "2026-08-30T14:32:52.493086+00:00"
+    "added": "2026-09-11T09:24:25.208189+00:00",
+    "last_checked": "2026-09-11T09:24:25.207404"
   },
   "5024136f3af4601f": {
     "url": "https://www.isanet.org/ISA/Governance/Committees/Dissertation-Fellowship/Call",
@@ -126,7 +127,8 @@
     "last_known_deadline": null,
     "reason": "closed at discovery; likely annual",
     "id": "5024136f3af4601f",
-    "added": "2026-08-30T14:41:24.590745+00:00"
+    "added": "2026-09-11T09:24:27.567939+00:00",
+    "last_checked": "2026-09-11T09:24:27.567396"
   },
   "1df7a68118c59b01": {
     "url": "https://www.facebook.com/opportunitiesforyouth/posts/-princeton-in-africa-fellowship-202728-host-talented-young-professionals-across-/1515040270653321",
@@ -134,7 +136,8 @@
     "last_known_deadline": "2026-08-17",
     "reason": "closed at discovery; likely annual",
     "id": "1df7a68118c59b01",
-    "added": "2026-08-30T14:50:35.897427+00:00"
+    "added": "2026-09-11T09:24:29.117698+00:00",
+    "last_checked": "2026-09-11T09:24:29.117146"
   },
   "1c812b8c0a1f039f": {
     "url": "https://apply.alcafricandatalab.com",
@@ -142,7 +145,8 @@
     "last_known_deadline": null,
     "reason": "closed at discovery; likely annual",
     "id": "1c812b8c0a1f039f",
-    "added": "2026-08-31T11:34:41.343893+00:00"
+    "added": "2026-09-11T09:24:29.308773+00:00",
+    "last_checked": "2026-09-11T09:24:29.308186"
   },
   "8f80cc146a1725ad": {
     "url": "https://www.newafricafund.org/afigrants",
@@ -150,7 +154,8 @@
     "last_known_deadline": null,
     "reason": "closed at discovery; likely annual",
     "id": "8f80cc146a1725ad",
-    "added": "2026-09-01T10:01:43.935622+00:00"
+    "added": "2026-09-11T09:24:30.768207+00:00",
+    "last_checked": "2026-09-11T09:24:30.767640"
   },
   "5db118068d102730": {
     "url": "https://africa-grants.com",
@@ -1015,5 +1020,29 @@
     "reason": "legitimacy check returned an unparseable reply; retry on a later run",
     "id": "a098dbc3bfd4f54b",
     "added": "2026-09-10T09:45:08.483837+00:00"
+  },
+  "dfccc6c62b0f54d0": {
+    "url": "https://www.entreprenista.com/articles/april-2026-grants",
+    "title": "April 2026 Grants",
+    "last_known_deadline": "2026-04-30",
+    "reason": "closed at discovery; likely annual",
+    "id": "dfccc6c62b0f54d0",
+    "added": "2026-09-11T09:29:25.422027+00:00"
+  },
+  "9163ca443ffd4a63": {
+    "url": "https://foundersfirstcdc.org/pride-grant",
+    "title": "[National Grant] Pride Fund - Founders First CDC",
+    "last_known_deadline": null,
+    "reason": "closed at discovery; likely annual",
+    "id": "9163ca443ffd4a63",
+    "added": "2026-09-11T09:30:09.444215+00:00"
+  },
+  "c323af03f1ab5e43": {
+    "url": "https://msmeafricaonline.com/call-for-applications-katapult-africa-accelerator-program-2026-usd-150000-to-usd-500000-equity-investment",
+    "title": "Call For Applications: Katapult Africa Accelerator Program 2026 (USD - MSME Africa",
+    "last_known_deadline": "2026-07-31",
+    "reason": "closed at discovery; likely annual",
+    "id": "c323af03f1ab5e43",
+    "added": "2026-09-11T09:36:27.699689+00:00"
   }
 }

@@ -8793,5 +8793,194 @@
     "id": "91c0790b661148fd",
     "first_seen": "2026-09-10T09:44:33.942187+00:00",
     "last_updated": "2026-09-10T09:44:33.942204+00:00"
+  },
+  "92903c13117b4c5a": {
+    "url": "https://www.opportunitiesforafricans.com/pitch-perfect-africa-2026-innovation-fellowship/",
+    "title": "Pitch Perfect Africa 2026 Innovation Fellowship for African Health Startups (CAD $5,000 prize)",
+    "status": "unknown",
+    "eligibility_status": "UNCERTAIN",
+    "model_eligibility_status": "UNCERTAIN",
+    "missing_requirements": [
+      "Must be a current H2i Level 2 HENT venture onboarded by a lead mentor by 31 Aug 2026 (cannot verify)",
+      "Venture must be in the Discovery stage of H2i’s four‑level model (cannot verify)"
+    ],
+    "blocking_issues": [],
+    "addressable_gaps": [],
+    "reasoning": "The program requires applicants to be a current H2i Level 2 HENT venture onboarded by a lead mentor by 31 Aug 2026. The candidate’s profile does not indicate participation in the H2i programme or that their venture meets the Level 2 Discovery‑stage criteria, so this decisive eligibility condition cannot be verified. All other listed criteria (African nationality, no age or degree restrictions) are met.",
+    "id": "92903c13117b4c5a",
+    "first_seen": "2026-09-11T09:25:57.388903+00:00",
+    "last_updated": "2026-09-11T09:25:57.388921+00:00"
+  },
+  "06060b7958bf7853": {
+    "url": "https://grantedai.com/grants/african-cities-program-innovation-call-for-proposals-for-small-grants-in-cities-alliance-funded-by-sida-and-suppo-d7e4da78",
+    "title": "AFRICAN CITIES PROGRAM - Innovation Call for Proposals for Small Grants in Africa and Asia (2026) | Granted AI",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "model_eligibility_status": "CONFIRMED_INELIGIBLE",
+    "missing_requirements": [],
+    "blocking_issues": [
+      "Applicant is an individual, not a community‑based organisation, NGO, or not‑for‑profit entity as required",
+      "No evidence of a legally registered organisation existing for at least 6 months"
+    ],
+    "addressable_gaps": [],
+    "reasoning": "The program explicitly states that funding is only for community‑based organisations, national and local NGOs, and other not‑for‑profit organisations. It does NOT fund for‑profit organisations, individuals, or affiliates of international organisations. The candidate is a working professional applying as an individual, not as a registered NGO or similar entity, which directly violates the eligibility criteria.",
+    "id": "06060b7958bf7853",
+    "first_seen": "2026-09-11T09:27:29.741260+00:00",
+    "last_updated": "2026-09-11T09:27:29.741277+00:00"
+  },
+  "51cffcdc8f244764": {
+    "url": "https://www.facebook.com/deshl.rikhotso.1/posts/40-grants-funding-opportunities-for-african-startups-20261-world-banks-xl-africa/1591789452026880",
+    "title": "Des H Rikhotso - 40 Grants & Funding Opportunities for...",
+    "status": "analyzed",
+    "score": 3.8,
+    "category": "startup_funding",
+    "official_url": "https://www.facebook.com/deshl.rikhotso.1/posts/40-grants-funding-opportunities-for-african-startups-20261-world-banks-xl-africa/1591789452026880",
+    "location": null,
+    "remote": null,
+    "deadline": null,
+    "reward": "partial",
+    "estimated_value": null,
+    "eligibility_status": "PROBABLY_ELIGIBLE",
+    "credibility_status": "LIKELY_LEGITIMATE",
+    "source_tier": "TIER_4",
+    "source_quality": 0,
+    "requirements": [],
+    "id": "51cffcdc8f244764",
+    "first_seen": "2026-09-11T09:28:42.866076+00:00",
+    "last_updated": "2026-09-11T09:28:42.866100+00:00"
+  },
+  "dfccc6c62b0f54d0": {
+    "url": "https://www.entreprenista.com/articles/april-2026-grants",
+    "title": "April 2026 Grants",
+    "status": "closed",
+    "deadline": "2026-04-30",
+    "id": "dfccc6c62b0f54d0",
+    "first_seen": "2026-09-11T09:29:25.411279+00:00",
+    "last_updated": "2026-09-11T09:29:25.411296+00:00"
+  },
+  "dd05e6d3c70e3969": {
+    "url": "https://www.youtube.com/watch?v=4hf1dhYBHng",
+    "title": "$210k New Grants for Business & Entrepreneurs (August 2026)",
+    "status": "filtered_out",
+    "reason": "The text is a generic YouTube site footer, not a scholarship or fellowship opportunity.",
+    "id": "dd05e6d3c70e3969",
+    "first_seen": "2026-09-11T09:29:30.620113+00:00",
+    "last_updated": "2026-09-11T09:29:30.620127+00:00"
+  },
+  "9163ca443ffd4a63": {
+    "url": "https://foundersfirstcdc.org/pride-grant",
+    "title": "[National Grant] Pride Fund - Founders First CDC",
+    "status": "closed",
+    "deadline": null,
+    "id": "9163ca443ffd4a63",
+    "first_seen": "2026-09-11T09:30:09.433377+00:00",
+    "last_updated": "2026-09-11T09:30:09.433396+00:00"
+  },
+  "f2de6ec4f17a5bb4": {
+    "url": "https://digitalready.verizonwireless.com/funding/details",
+    "title": "Verizon Small Business Digital Ready $10,000 national grant",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "model_eligibility_status": "CONFIRMED_INELIGIBLE",
+    "missing_requirements": [
+      "Proof of U.S. business registration (state filing documents, EIN)",
+      "W‑9 or other tax identification documentation"
+    ],
+    "blocking_issues": [
+      "Not a for‑profit business owner",
+      "Business not based in the United States, Puerto Rico, or U.S. Virgin Islands"
+    ],
+    "addressable_gaps": [
+      "Establish a U.S.-registered for‑profit small business and obtain required documentation (e.g., EIN, W‑9) – would require significant time and resources"
+    ],
+    "reasoning": "The program requires applicants to be owners of for‑profit small businesses **based in the United States, Puerto Rico, or the U.S. Virgin Islands**. The candidate is an Ethiopian national residing in Laos and does not own a U.S.-based business, so this core eligibility criterion is not met.",
+    "id": "f2de6ec4f17a5bb4",
+    "first_seen": "2026-09-11T09:31:44.247252+00:00",
+    "last_updated": "2026-09-11T09:31:44.247263+00:00"
+  },
+  "bd18a662d1955e63": {
+    "url": "https://venturize.org/capital/list-of-grants",
+    "title": "Grants | Venturize",
+    "status": "unknown",
+    "eligibility_status": "UNCERTAIN",
+    "model_eligibility_status": "UNCERTAIN",
+    "missing_requirements": [
+      "Explicit citizenship/residency eligibility (e.g., must be a U.S. citizen or permanent resident).",
+      "Requirement for the applicant to own or operate a registered business in the grant’s target country.",
+      "Any age or education level criteria (not mentioned).",
+      "Specific documentation needed for each grant (business plan, financial statements, etc.)."
+    ],
+    "blocking_issues": [],
+    "addressable_gaps": [
+      "Provide proof of a registered women‑owned business (if required).",
+      "Obtain any residency or business‑location documentation that the grant may require (e.g., U.S. address, EIN).",
+      "Submit gender verification if the grant mandates a women‑owned business."
+    ],
+    "reasoning": "The Venturize grant listings do not spell out explicit eligibility criteria such as citizenship, residency, or business ownership requirements. Many of the featured grants (e.g., Fund Her Future, Verizon Small Business Digital Ready) are U.S. national programs that typically require the applicant to be a U.S. resident or have a U.S.-based business, but this is not stated on the page. Because we cannot verify whether the candidate’s Ethiopian nationality and Lao PDR location satisfy any unstated residency or business‑location rules, the eligibility cannot be confirmed.",
+    "id": "bd18a662d1955e63",
+    "first_seen": "2026-09-11T09:32:42.355548+00:00",
+    "last_updated": "2026-09-11T09:32:42.355566+00:00"
+  },
+  "d4dfffdb8343bde0": {
+    "url": "https://www.youtube.com/watch?v=2UygVjq6LKA",
+    "title": "New $35,000 Grants for Startups & Business Owners (August 2026)",
+    "status": "filtered_out",
+    "reason": "The text is just a generic YouTube footer, not a scholarship or fellowship opportunity.",
+    "id": "d4dfffdb8343bde0",
+    "first_seen": "2026-09-11T09:32:50.789794+00:00",
+    "last_updated": "2026-09-11T09:32:50.789813+00:00"
+  },
+  "a4e3b26b38f3d0e9": {
+    "url": "https://forallthingsdigital.com/home/february-2026-small-business-grants",
+    "title": "February 2026 Small Business Grants — For All Things Digital",
+    "status": "unknown",
+    "eligibility_status": "UNCERTAIN",
+    "model_eligibility_status": "UNCERTAIN",
+    "missing_requirements": [
+      "Specific citizenship or residency requirements for each listed grant (many require US, EU, UK, Canada, or other regional residency)",
+      "Age limits for individual grants (if any)",
+      "Student status requirements (if any grant requires current enrollment)",
+      "Degree level requirements (some grants may target founders with graduate degrees)",
+      "English proficiency proof requirements (some grants may ask for IELTS/TOEFL or other proof)",
+      "Business age or revenue thresholds for certain grants"
+    ],
+    "blocking_issues": [],
+    "addressable_gaps": [],
+    "reasoning": "The page lists multiple independent grant opportunities, each with its own eligibility criteria (e.g., location restrictions to the US, EU, UK, Canada, etc., gender or industry focus). No single set of requirements is provided for the overall \"February 2026 Small Business Grants\" page, so we cannot confirm that the candidate meets the necessary criteria for any specific grant. There are no explicit hard blockers (nationality, student status, age, degree level) stated on the page, but the lack of universal eligibility details makes the candidate's overall eligibility indeterminate.",
+    "id": "a4e3b26b38f3d0e9",
+    "first_seen": "2026-09-11T09:34:11.777121+00:00",
+    "last_updated": "2026-09-11T09:34:11.777140+00:00"
+  },
+  "171798f3ddf4c04d": {
+    "url": "https://www.sofi.com/learn/content/small-business-start-up-grants-loans-programs",
+    "title": "Free Grants for Startups 2026 | SoFi",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "model_eligibility_status": "UNCERTAIN",
+    "missing_requirements": [
+      "Explicit citizenship or residency requirement",
+      "Business location eligibility (must be based in the U.S. or specific states)",
+      "Minimum business age or revenue criteria",
+      "Ownership/identity verification (e.g., EIN, tax ID)",
+      "Specific industry or demographic eligibility (e.g., women-owned, minority-owned) that may be required for certain grants"
+    ],
+    "blocking_issues": [],
+    "addressable_gaps": [
+      "If U.S. citizenship or residency is required, the candidate could explore establishing a U.S.-registered business entity or obtaining a visa/residency status.",
+      "Provide documentation of business registration, ownership percentage, and operational history if required by specific grant programs."
+    ],
+    "reasoning": "The SoFi startup grant page does not list explicit eligibility criteria such as nationality, residency, or business location, but the grants referenced (U.S. Chamber of Commerce, SBA, USDA, etc.) are primarily U.S.-focused, implying a possible requirement for U.S. citizenship or residency. This criterion is missing and could exclude the Ethiopian candidate. No hard blockers are stated, but the lack of clear eligibility information creates uncertainty.",
+    "id": "171798f3ddf4c04d",
+    "first_seen": "2026-09-11T09:35:45.404745+00:00",
+    "last_updated": "2026-09-11T09:35:45.404765+00:00"
+  },
+  "c323af03f1ab5e43": {
+    "url": "https://msmeafricaonline.com/call-for-applications-katapult-africa-accelerator-program-2026-usd-150000-to-usd-500000-equity-investment",
+    "title": "Call For Applications: Katapult Africa Accelerator Program 2026 (USD - MSME Africa",
+    "status": "closed",
+    "deadline": "2026-07-31",
+    "id": "c323af03f1ab5e43",
+    "first_seen": "2026-09-11T09:36:27.688716+00:00",
+    "last_updated": "2026-09-11T09:36:27.688731+00:00"
   }
 }
