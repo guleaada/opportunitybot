@@ -2502,14 +2502,25 @@
   "42fe2ba54608213f": {
     "url": "https://weworkremotely.com/remote-jobs/proxify-ab-senior-shopify-developer-3",
     "title": "Proxify AB: Senior Shopify Developer",
-    "status": "legitimacy_unknown",
+    "status": "ineligible",
     "credibility_status": "NEEDS_VERIFICATION",
     "source_tier": "TIER_4",
-    "reasoning": "No reasoning returned.",
+    "reasoning": "The job requires 3+ years of Shopify Plus development and 5+ years of core web development with modern JavaScript, TypeScript, and React.js. The candidate's profile lists AI, Python, and web development skills but does not demonstrate any Shopify Plus experience, nor the required JavaScript/TypeScript/React expertise. These are hard blockers for the role.",
     "id": "42fe2ba54608213f",
     "first_seen": "2026-08-17T04:20:26.035059+00:00",
-    "last_updated": "2026-08-17T04:20:26.035071+00:00",
-    "analysis_recovery_queued": true
+    "last_updated": "2026-09-12T09:05:02.774991+00:00",
+    "analysis_recovery_queued": true,
+    "eligibility_status": "PROBABLY_INELIGIBLE",
+    "model_eligibility_status": "PROBABLY_INELIGIBLE",
+    "missing_requirements": [],
+    "blocking_issues": [
+      "Missing 3+ years Shopify Plus development experience",
+      "Missing 5+ years core web development experience with JavaScript/TypeScript/React.js"
+    ],
+    "addressable_gaps": [
+      "Can acquire Shopify Plus experience and relevant JavaScript/TypeScript/React skills",
+      "Can obtain an English proficiency test (Duolingo, MOI) if required"
+    ]
   },
   "4653db81b75af69c": {
     "url": "https://weworkremotely.com/remote-jobs/proxify-ab-senior-magento-developer-3",
@@ -2591,13 +2602,27 @@
   "0313dcbb27845386": {
     "url": "https://weworkremotely.com/remote-jobs/proxify-ab-senior-data-engineer-python-1",
     "title": "Proxify AB: Senior Data Engineer (Python)",
-    "status": "unknown",
-    "eligibility_status": "UNCERTAIN",
-    "reasoning": "No reasoning returned.",
+    "status": "ineligible",
+    "eligibility_status": "PROBABLY_INELIGIBLE",
+    "reasoning": "The job requires 5+ years of senior‑level data engineering experience using Python, advanced SQL, dbt, Airflow (or similar), and cloud data warehouses (Snowflake, BigQuery, or Redshift). The candidate’s profile lists Python and general AI/ML development experience but does not demonstrate the required data‑engineering experience, nor the specific tools (dbt, Airflow, Snowflake/BigQuery/Redshift, dimensional modeling, CI/CD for data pipelines). No explicit nationality, age, or degree restrictions are mentioned, so those are not blockers.",
     "id": "0313dcbb27845386",
     "first_seen": "2026-08-17T04:25:44.548071+00:00",
-    "last_updated": "2026-08-17T04:25:44.548081+00:00",
-    "analysis_recovery_queued": true
+    "last_updated": "2026-09-12T09:05:58.881916+00:00",
+    "analysis_recovery_queued": true,
+    "model_eligibility_status": "PROBABLY_INELIGIBLE",
+    "missing_requirements": [
+      "Proof of 5+ years senior data‑engineering experience",
+      "Evidence of advanced SQL, dbt, and Airflow/Prefect/Dagster usage",
+      "Experience with Snowflake, BigQuery, or AWS Redshift"
+    ],
+    "blocking_issues": [
+      "Insufficient professional experience (requires 5+ years data engineering with Python, dbt, Airflow, cloud warehouses)",
+      "Lack of demonstrated proficiency with required tools and technologies (dbt, Airflow/Prefect/Dagster, Snowflake/BigQuery/AWS Redshift, advanced SQL, dimensional modeling, CI/CD for data pipelines)"
+    ],
+    "addressable_gaps": [
+      "Obtain hands‑on experience or certifications in dbt, Airflow/Prefect/Dagster, and a cloud data warehouse platform",
+      "Build a portfolio of data‑engineering projects demonstrating 5+ years of relevant work"
+    ]
   },
   "dd10e69705382d99": {
     "url": "https://www.python.org/jobs/8122/",
@@ -2978,14 +3003,15 @@
   "549244728e41d0bf": {
     "url": "https://www.opportunitiesforafricans.com/the-food-and-agriculture-organization-of-the-united-nations-fao-young-professionals-programme-ypp-2026/",
     "title": "The Food and Agriculture Organization of the United Nations (FAO) Young Professionals Programme (YPP) 2026",
-    "status": "legitimacy_unknown",
+    "status": "closed",
     "credibility_status": "NEEDS_VERIFICATION",
     "source_tier": "TIER_3",
     "reasoning": "No reasoning returned.",
     "id": "549244728e41d0bf",
     "first_seen": "2026-08-18T05:32:41.630342+00:00",
-    "last_updated": "2026-08-18T05:32:41.630349+00:00",
-    "analysis_recovery_queued": true
+    "last_updated": "2026-09-12T09:06:29.746766+00:00",
+    "analysis_recovery_queued": true,
+    "deadline": "2026-09-07"
   },
   "a032547c29b5c325": {
     "url": "https://www.opportunitiesforafricans.com/the-emerging-leaders-foundation-elf-africa-ilead-fellowship-program-2026/",
@@ -2993,10 +3019,10 @@
     "status": "legitimacy_unknown",
     "credibility_status": "NEEDS_VERIFICATION",
     "source_tier": "TIER_3",
-    "reasoning": "No reasoning returned.",
+    "reasoning": "The listing provides no application fee or payment request, which avoids typical scam red flags, but it lacks a direct link to an official program website and offers only generic aggregator contact emails, making it impossible to verify the existence of the Emerging Leaders Foundation iLead Fellowship.",
     "id": "a032547c29b5c325",
     "first_seen": "2026-08-18T05:33:35.375527+00:00",
-    "last_updated": "2026-08-18T05:33:35.375536+00:00",
+    "last_updated": "2026-09-12T09:07:12.237458+00:00",
     "analysis_recovery_queued": true
   },
   "e3c052a42c64239f": {
@@ -8982,5 +9008,174 @@
     "id": "c323af03f1ab5e43",
     "first_seen": "2026-09-11T09:36:27.688716+00:00",
     "last_updated": "2026-09-11T09:36:27.688731+00:00"
+  },
+  "5115ad5bf2251ed0": {
+    "url": "https://www.opportunitiesforafricans.com/african-leadership-institute-afli-archbishop-tutu-fellowship-programme-2027/",
+    "title": "African Leadership Institute (AFLI) Archbishop Tutu Fellowship Programme 2027 for Emerging young African Leaders (Fully Funded)",
+    "status": "ineligible",
+    "eligibility_status": "PROBABLY_INELIGIBLE",
+    "model_eligibility_status": "PROBABLY_INELIGIBLE",
+    "missing_requirements": [],
+    "blocking_issues": [
+      "Age below the required 30-39 range (hard blocker)"
+    ],
+    "addressable_gaps": [
+      "Obtain a nomination from an eligible nominator (required for application)"
+    ],
+    "reasoning": "The programme explicitly requires applicants to be between 30-39 years old. The candidate is 27, which falls outside the required age range, creating a hard blocker. All other stated criteria (African nationality, no student status requirement, no specific degree level) are met or not applicable.",
+    "id": "5115ad5bf2251ed0",
+    "first_seen": "2026-09-12T09:08:44.169458+00:00",
+    "last_updated": "2026-09-12T09:08:44.169472+00:00"
+  },
+  "232f83a776090b7e": {
+    "url": "https://opportunitiescorners.com/university-of-tokyo-adb-scholarship-2027/",
+    "title": "University of Tokyo ADB Scholarship 2027 in Japan (Fully Funded)",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "model_eligibility_status": "CONFIRMED_INELIGIBLE",
+    "missing_requirements": [],
+    "blocking_issues": [
+      "Nationality not an ADB member country (hard blocker)"
+    ],
+    "addressable_gaps": [],
+    "reasoning": "The scholarship requires applicants to be nationals of an ADB member country. Ethiopia is not a member of the Asian Development Bank, so the candidate's nationality disqualifies them. All other criteria (age 27 < 35, >2 years work experience, bachelor's degree) are met, but the nationality requirement is a hard blocker.",
+    "id": "232f83a776090b7e",
+    "first_seen": "2026-09-12T09:10:01.373877+00:00",
+    "last_updated": "2026-09-12T09:10:01.373890+00:00"
+  },
+  "cd1be726e1fbb58a": {
+    "url": "https://www.opportunitiesforafricans.com/arc-ltdgssp-scholarship-program-2026/",
+    "title": "ARC Ltd–GSSP Scholarship Program 2026 for Postgraduate Study in Africa (Fully Funded)",
+    "status": "legitimacy_unknown",
+    "credibility_status": "NEEDS_VERIFICATION",
+    "source_tier": "TIER_3",
+    "reasoning": "The page provides no official ARC Ltd domain or direct link to a verified scholarship page, uses generic email addresses, and mentions an obscure partner (GSSP) that cannot be readily verified, but it does not request any fees, which reduces scam likelihood.",
+    "id": "cd1be726e1fbb58a",
+    "first_seen": "2026-09-12T09:11:14.089634+00:00",
+    "last_updated": "2026-09-12T09:11:14.089646+00:00"
+  },
+  "71993e760ce3c6bc": {
+    "url": "https://www.opportunitiesforafricans.com/the-government-of-japan-exchange-and-teaching-programme-2027/",
+    "title": "The Government of Japan Exchange and Teaching Programme 2027 for young Leaders (Fully Funded to Japan)",
+    "status": "unknown",
+    "eligibility_status": "UNCERTAIN",
+    "model_eligibility_status": "UNCERTAIN",
+    "missing_requirements": [
+      "Country of recruitment for the nationality requirement (not specified)",
+      "Exact designated arrival date (deadline for holding the degree)",
+      "Explicit Japanese language proficiency requirement (not stated)"
+    ],
+    "blocking_issues": [],
+    "addressable_gaps": [
+      "English language proficiency certificate (e.g., Duolingo or MOI certificate)",
+      "Potential documentation of Japanese language study (if required by the program)"
+    ],
+    "reasoning": "The candidate holds a Bachelor’s degree (BSc Psychology, 2021) meeting the degree requirement, is an Ethiopian national (fulfilling the nationality requirement if recruitment occurs in Ethiopia), and is not subject to age or student‑status constraints. However, the eligibility page states that applicants must be nationals of the country where recruitment and selection procedures take place, but it does not specify which country this is. This ambiguity makes it uncertain whether the candidate satisfies the nationality criterion, which could exclude them if recruitment is conducted in Japan rather than Ethiopia.",
+    "id": "71993e760ce3c6bc",
+    "first_seen": "2026-09-12T09:13:10.046910+00:00",
+    "last_updated": "2026-09-12T09:13:10.046924+00:00"
+  },
+  "aba5032de274a6ea": {
+    "url": "https://www.opportunitiesforafricans.com/uba-foundation-2026-national-essay-competition/",
+    "title": "UBA Foundation 2026 National Essay Competition for Nigerian senior secondary students (41 Million Naira in educational grant)",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "model_eligibility_status": "CONFIRMED_INELIGIBLE",
+    "missing_requirements": [],
+    "blocking_issues": [
+      "Candidate is Ethiopian, not Nigerian — nationality excluded by program requirement",
+      "Candidate is a working professional with a BSc, not a senior secondary school student",
+      "Age 27 and degree holder clearly disqualify from senior secondary student category"
+    ],
+    "addressable_gaps": [],
+    "reasoning": "The UBA Foundation 2026 National Essay Competition explicitly requires applicants to be 'Nigerian Senior Secondary School Students.' The candidate is an Ethiopian national (not Nigerian) and is a 27-year-old working professional holding a BSc degree (not a senior secondary student). Both nationality and student-status requirements are explicitly violated.",
+    "id": "aba5032de274a6ea",
+    "first_seen": "2026-09-12T09:13:28.502411+00:00",
+    "last_updated": "2026-09-12T09:13:28.502425+00:00"
+  },
+  "f7ef3c490baae319": {
+    "url": "https://opportunitiescorners.com/undp-digital-ai-and-innovation-internship-2026/",
+    "title": "UNDP Digital, AI and Innovation Internship 2026 (PAID)",
+    "status": "ineligible",
+    "eligibility_status": "PROBABLY_INELIGIBLE",
+    "model_eligibility_status": "PROBABLY_INELIGIBLE",
+    "missing_requirements": [
+      "Requirement to be currently enrolled as a student or recent graduate"
+    ],
+    "blocking_issues": [
+      "Not currently enrolled as a student (working professional)",
+      "Not a recent graduate (graduated 2021, >2 years ago)"
+    ],
+    "addressable_gaps": [
+      "Obtain an English proficiency certificate (e.g., Duolingo or MOI) – addressable"
+    ],
+    "reasoning": "The program explicitly requires applicants to be \"students & recent graduates\" (enrolled in a graduate program, final year of a bachelor's degree, or have graduated recently). The candidate is a working professional (not currently a student) and graduated in 2021, which is not 'recent' and does not meet the student status requirement. This is a hard eligibility barrier.",
+    "id": "f7ef3c490baae319",
+    "first_seen": "2026-09-12T09:14:48.014327+00:00",
+    "last_updated": "2026-09-12T09:14:48.014340+00:00"
+  },
+  "05fc162f9d6a30ed": {
+    "url": "https://www.facebook.com/opportunitiesforyouth/posts/-top-fully-funded-research-phd-opportunities-20262027looking-to-take-your-resear/1486075293549819",
+    "title": "🎓🔬 Top Fully Funded Research &... - Opportunities For Youth",
+    "status": "unknown",
+    "eligibility_status": "UNCERTAIN",
+    "model_eligibility_status": "UNCERTAIN",
+    "missing_requirements": [
+      "Nationality eligibility criteria not stated for any listed program",
+      "Student enrollment status requirements not stated",
+      "Age limits not stated",
+      "Degree-level requirements (Master's/PhD/Postdoc) not stated",
+      "English proficiency requirements not stated",
+      "Application deadlines not stated",
+      "Field-of-study alignment not specified"
+    ],
+    "blocking_issues": [],
+    "addressable_gaps": [
+      "No IELTS/TOEFL certificate yet, but candidate can obtain Duolingo English Test or MOI certificate from Injibara University"
+    ],
+    "reasoning": "The program post lists multiple opportunities (Cambridge Trust, Marie Skłodowska-Curie, Humboldt, Schmidt AI Fellowship, ETH Zurich, Lund, 51 Pegasi b, Sloan, World Bank Africa Fellowship, EAC Mobility) but provides NO specific eligibility criteria for any of them. The candidate is an Ethiopian national age 27, a working professional (not currently enrolled as a student), holding a BSc. Several listed programs (e.g., Cambridge Trust Master's, Marie Skłodowska-Curie Postdoc, Humboldt Postdoc, Sloan) typically require either current student status, a completed PhD, or specific degree levels that may not match the candidate's BSc-only profile. Without explicit requirements stated, it cannot be determined whether nationality, student-status, age, or degree-level criteria would exclude the candidate. The candidate's lack of IELTS/TOEFL is addressable (can obtain Duolingo or MOI), but the decision-relevant criteria are unverifiable.",
+    "id": "05fc162f9d6a30ed",
+    "first_seen": "2026-09-12T09:15:10.420043+00:00",
+    "last_updated": "2026-09-12T09:15:10.420055+00:00"
+  },
+  "9ad8b4a8e17f31a7": {
+    "url": "https://research.reading.ac.uk/celm/what-we-do/celm-international-visiting-fellowship",
+    "title": "CeLM International Visiting Fellowship - Centre for Literacy and Multilingualism",
+    "status": "closed",
+    "deadline": "2026-01-31",
+    "id": "9ad8b4a8e17f31a7",
+    "first_seen": "2026-09-12T09:15:17.659046+00:00",
+    "last_updated": "2026-09-12T09:15:17.659056+00:00"
+  },
+  "db74483c96681aa2": {
+    "url": "https://www.facebook.com/chopeclark/posts/the-2027-creative-capital-open-call-application-portal-is-now-open-the-applicati/10173834326030593",
+    "title": "C Hope Clark - The 2027 Creative Capital Open Call...",
+    "status": "closed",
+    "deadline": "2026-04-02",
+    "id": "db74483c96681aa2",
+    "first_seen": "2026-09-12T09:15:26.727404+00:00",
+    "last_updated": "2026-09-12T09:15:26.727415+00:00"
+  },
+  "5bab18135c2629f2": {
+    "url": "https://creative-capital.org/creative-capital-award",
+    "title": "Creative Capital Award",
+    "status": "unknown",
+    "eligibility_status": "UNCERTAIN",
+    "model_eligibility_status": "UNCERTAIN",
+    "missing_requirements": [
+      "Applicants' required citizenship, nationality, or immigration status.",
+      "Required country or U.S. state/territory of residence.",
+      "Whether and how the candidate qualifies as an individual artist in an eligible discipline.",
+      "A qualifying new artistic-work proposal and evidence of artistic career stage.",
+      "Minimum age, prior-award restrictions, application deadline, and required application materials are not stated."
+    ],
+    "blocking_issues": [],
+    "addressable_gaps": [
+      "Document an established artistic practice and submit a qualifying proposal for a new artistic work, if the candidate has one."
+    ],
+    "reasoning": "The Award is expressly for individual artists proposing new artistic works, although technology and multidisciplinary forms are eligible. The page calls it a national open call and describes the State of the Art Prize as recognizing one artist residing in each U.S. state or territory, but it does not state the governing citizenship or residency rule. The candidate's AI/tech background does not by itself establish that they qualify as an artist or have a qualifying artistic project, and their Ethiopian citizenship/Lao residence may or may not satisfy the unstated geographic rule. These unresolved criteria could exclude the candidate.",
+    "id": "5bab18135c2629f2",
+    "first_seen": "2026-09-12T09:16:17.718554+00:00",
+    "last_updated": "2026-09-12T09:16:17.718569+00:00"
   }
 }

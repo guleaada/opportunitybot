@@ -163,39 +163,18 @@
     "last_known_deadline": "2025-10-31",
     "reason": "closed at discovery; likely annual",
     "id": "5db118068d102730",
-    "added": "2026-09-01T10:02:07.966926+00:00"
-  },
-  "42fe2ba54608213f": {
-    "id": "42fe2ba54608213f",
-    "url": "https://weworkremotely.com/remote-jobs/proxify-ab-senior-shopify-developer-3",
-    "title": "Proxify AB: Senior Shopify Developer",
-    "retry_analysis": true,
-    "reason": "Recover historical malformed model response",
-    "added": "2026-09-05T01:47:30.270466+00:00"
-  },
-  "0313dcbb27845386": {
-    "id": "0313dcbb27845386",
-    "url": "https://weworkremotely.com/remote-jobs/proxify-ab-senior-data-engineer-python-1",
-    "title": "Proxify AB: Senior Data Engineer (Python)",
-    "retry_analysis": true,
-    "reason": "Recover historical malformed model response",
-    "added": "2026-09-05T01:47:30.271141+00:00"
+    "added": "2026-09-12T09:04:49.495711+00:00",
+    "last_checked": "2026-09-12T09:04:49.495228"
   },
   "549244728e41d0bf": {
     "id": "549244728e41d0bf",
     "url": "https://www.opportunitiesforafricans.com/the-food-and-agriculture-organization-of-the-united-nations-fao-young-professionals-programme-ypp-2026/",
     "title": "The Food and Agriculture Organization of the United Nations (FAO) Young Professionals Programme (YPP) 2026",
     "retry_analysis": true,
-    "reason": "Recover historical malformed model response",
-    "added": "2026-09-05T01:47:30.271727+00:00"
-  },
-  "a032547c29b5c325": {
-    "id": "a032547c29b5c325",
-    "url": "https://www.opportunitiesforafricans.com/the-emerging-leaders-foundation-elf-africa-ilead-fellowship-program-2026/",
-    "title": "The Emerging Leaders Foundation (ELF) Africa iLead Fellowship Program 2026 for young East Africans.",
-    "retry_analysis": true,
-    "reason": "Recover historical malformed model response",
-    "added": "2026-09-05T01:47:30.272296+00:00"
+    "reason": "closed at discovery; likely annual",
+    "added": "2026-09-12T09:06:29.755707+00:00",
+    "last_checked": "2026-09-12T09:05:58.899123",
+    "last_known_deadline": "2026-09-07"
   },
   "e3c052a42c64239f": {
     "id": "e3c052a42c64239f",
@@ -914,12 +893,12 @@
   },
   "373cb3b3a9de3a7b": {
     "url": "https://grahamwalker.com/blog/grants-accelerators-for-early-stage-founders",
-    "title": "Grants & Accelerators for Early-Stage Founders",
-    "reason": "ANALYSIS_UNAVAILABLE — all configured providers unavailable for 'first_pass_filter' (tried: openrouter, mistral, gemini)",
+    "title": "Grants & Accelerators for Early-Stage Founders - Graham & Walker",
+    "reason": "ANALYSIS_UNAVAILABLE — deep_eligibility: incomplete or invalid response after retry",
     "retry_analysis": true,
-    "snippet": "Visible Hands: A Boston-based fellowship for early-stage entrepreneurs who are representative of Greater Boston’s rich racial and gender diversity. Apply by July 10\n Y Combinator: Y Combinator is accepting applications for the Fall 2026 Batch funding cycle. The batch will take place from October to December in San Francisco. Apply by July 27 [...] Endless Frontier Lans: Societal Impact Through Science and Technology. The Endless Frontier Labs (EFL) is a 9 month mentorship program that helps founders transform their science and tech based ideas into commercially scalable companies. Apply by July 31\n Enthuse Foundation Capital and Catalyst Grant: For women-led food and beverage brands: $40K in funding plus strategic support to fuel your next stage of growth. Apply by July 28 [...] Project Female Founder: Global accelerator program, unlocking opportunities for female entrepreneurs to scale their ventures in fintech and enterprise technology. It’s part of UBS’s commitment to champion women’s wealth – and promote equal access to funding and opportunity worldwide. Next cohort starts in April, applications open now.\n Startup Foundry: A 6-week program giving founders anywhere in the world the tools, network, and investor access to get funded. Apply by July 26",
+    "snippet": "Visible Hands: A Boston-based fellowship for early-stage entrepreneurs who are representative of Greater Boston’s rich racial and gender diversity. Apply by July 10\n Y Combinator: Y Combinator is accepting applications for the Fall 2026 Batch funding cycle. The batch will take place from October to December in San Francisco. Apply by July 27 [...] Warrior Rising Grant:Up to $20K for veteran entrepreneurs. Rolling deadline.\n Women Founder Grants: $5,000 GrantAwarded on a rolling basis.\n Y Combinator: Accepting applications for the Fall 2026 Batch funding cycle. The batch will take place from October to December in San Francisco. They are accepting late applications. [...] KDD Startup Studio: is now accepting applications for its next founder cohort, launching in early 2026. The program is built for driven individuals who want to start companies from the ground up. No startup idea is required to apply. KDD supports founders by matching them with co-founders and providing structured guidance to help teams go from zero to one.",
     "id": "373cb3b3a9de3a7b",
-    "added": "2026-09-05T09:07:41.151464+00:00"
+    "added": "2026-09-12T09:16:49.972324+00:00"
   },
   "ce03ca9d35b9cec4": {
     "url": "https://www.instagram.com/p/DUksKQ0DLni?hl=en",
@@ -1044,5 +1023,30 @@
     "reason": "closed at discovery; likely annual",
     "id": "c323af03f1ab5e43",
     "added": "2026-09-11T09:36:27.699689+00:00"
+  },
+  "2a9835df8decd140": {
+    "url": "https://www.facebook.com/groups/StudyAbroadScholarshipsForAfrica",
+    "title": "Fully Funded Study Abroad Scholarships for Developing ...",
+    "retry_analysis": true,
+    "snippet": "Commonwealth Master's Scholarships 2027/28 – UK Fully funded Master's Full tuition fees Return airfare £1,712/month stipend £2,000/month for London Study travel",
+    "reason": "legitimacy check returned an unparseable reply; retry on a later run",
+    "id": "2a9835df8decd140",
+    "added": "2026-09-12T09:14:13.050775+00:00"
+  },
+  "9ad8b4a8e17f31a7": {
+    "url": "https://research.reading.ac.uk/celm/what-we-do/celm-international-visiting-fellowship",
+    "title": "CeLM International Visiting Fellowship - Centre for Literacy and Multilingualism",
+    "last_known_deadline": "2026-01-31",
+    "reason": "closed at discovery; likely annual",
+    "id": "9ad8b4a8e17f31a7",
+    "added": "2026-09-12T09:15:17.668368+00:00"
+  },
+  "db74483c96681aa2": {
+    "url": "https://www.facebook.com/chopeclark/posts/the-2027-creative-capital-open-call-application-portal-is-now-open-the-applicati/10173834326030593",
+    "title": "C Hope Clark - The 2027 Creative Capital Open Call...",
+    "last_known_deadline": "2026-04-02",
+    "reason": "closed at discovery; likely annual",
+    "id": "db74483c96681aa2",
+    "added": "2026-09-12T09:15:26.736626+00:00"
   }
 }
