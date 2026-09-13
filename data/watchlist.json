@@ -181,32 +181,10 @@
     "url": "https://www.opportunitiesforafricans.com/meta-ai-academy-nigeria/",
     "title": "Meta AI Academy Nigeria for Nigerian developers, startups, students, and early-career professionals (US$5,000 in equity-free funding)",
     "retry_analysis": true,
-    "reason": "Recover historical malformed model response",
-    "added": "2026-09-05T01:47:30.272870+00:00"
-  },
-  "0c44a386fa0efbaf": {
-    "id": "0c44a386fa0efbaf",
-    "url": "https://weworkremotely.com/remote-jobs/edfinity-senior-software-engineer-remote",
-    "title": "Edfinity: Senior Software Engineer, remote",
-    "retry_analysis": true,
-    "reason": "Recover historical malformed model response",
-    "added": "2026-09-05T01:47:30.273433+00:00"
-  },
-  "6091552034e00d01": {
-    "id": "6091552034e00d01",
-    "url": "https://weworkremotely.com/remote-jobs/autogpt-gtm-lead",
-    "title": "AutoGPT: GTM Lead",
-    "retry_analysis": true,
-    "reason": "Recover historical malformed model response",
-    "added": "2026-09-05T01:47:30.274031+00:00"
-  },
-  "c09297a11e9f5737": {
-    "id": "c09297a11e9f5737",
-    "url": "https://www.python.org/jobs/8126/",
-    "title": "Software Engineer (Remote), Softech Associate",
-    "retry_analysis": true,
-    "reason": "Recover historical malformed model response",
-    "added": "2026-09-05T01:47:30.274627+00:00"
+    "reason": "closed at discovery; likely annual",
+    "added": "2026-09-13T10:03:01.341470+00:00",
+    "last_checked": "2026-09-13T10:02:59.189222",
+    "last_known_deadline": "2026-08-21"
   },
   "9101164703fe9ba0": {
     "id": "9101164703fe9ba0",
@@ -214,7 +192,8 @@
     "title": "Fast Forward 2027 Accelerator: $25,000+ Funding, Mentorship and Global Support for Early-Stage Tech Nonprofits",
     "retry_analysis": true,
     "reason": "Recover historical malformed model response",
-    "added": "2026-09-05T01:47:30.275794+00:00"
+    "added": "2026-09-13T10:06:41.941173+00:00",
+    "last_checked": "2026-09-13T10:06:41.940789"
   },
   "96caad03a213a85d": {
     "id": "96caad03a213a85d",
@@ -1048,5 +1027,13 @@
     "reason": "closed at discovery; likely annual",
     "id": "db74483c96681aa2",
     "added": "2026-09-12T09:15:26.736626+00:00"
+  },
+  "7e1f5dac1efe276c": {
+    "url": "https://scholarships365.info/fellowships",
+    "title": "International Fellowships 2026-2027 | Fully Funded",
+    "last_known_deadline": null,
+    "reason": "monitoring — not confirmed open at scan time",
+    "id": "7e1f5dac1efe276c",
+    "added": "2026-09-13T10:19:50.211715+00:00"
   }
 }

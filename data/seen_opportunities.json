@@ -3028,49 +3028,81 @@
   "e3c052a42c64239f": {
     "url": "https://www.opportunitiesforafricans.com/meta-ai-academy-nigeria/",
     "title": "Meta AI Academy Nigeria for Nigerian developers, startups, students, and early-career professionals (US$5,000 in equity-free funding)",
-    "status": "legitimacy_unknown",
+    "status": "closed",
     "credibility_status": "NEEDS_VERIFICATION",
     "source_tier": "TIER_3",
     "reasoning": "No reasoning returned.",
     "id": "e3c052a42c64239f",
     "first_seen": "2026-08-18T05:34:36.468729+00:00",
-    "last_updated": "2026-08-18T05:34:36.468736+00:00",
-    "analysis_recovery_queued": true
+    "last_updated": "2026-09-13T10:03:01.332288+00:00",
+    "analysis_recovery_queued": true,
+    "deadline": "2026-08-21"
   },
   "0c44a386fa0efbaf": {
     "url": "https://weworkremotely.com/remote-jobs/edfinity-senior-software-engineer-remote",
     "title": "Edfinity: Senior Software Engineer, remote",
-    "status": "unknown",
-    "eligibility_status": "UNCERTAIN",
-    "reasoning": "No reasoning returned.",
+    "status": "ineligible",
+    "eligibility_status": "PROBABLY_INELIGIBLE",
+    "reasoning": "The position requires (1) 8‑15 years of experience building and running scalable production web applications, (2) deep experience with Ruby on Rails, (3) authorization to work in the United States (no visa sponsorship offered). The candidate is 27, graduated in 2021, and therefore has only ~2‑3 years of professional experience, does not list Ruby on Rails experience, and holds an Ethiopian passport with no US work authorization. These constitute hard blockers.",
     "id": "0c44a386fa0efbaf",
     "first_seen": "2026-08-18T05:37:19.486108+00:00",
-    "last_updated": "2026-08-18T05:37:19.486115+00:00",
-    "analysis_recovery_queued": true
+    "last_updated": "2026-09-13T10:03:30.437877+00:00",
+    "analysis_recovery_queued": true,
+    "model_eligibility_status": "PROBABLY_INELIGIBLE",
+    "missing_requirements": [],
+    "blocking_issues": [
+      "No US work authorization (required by the job and employer does not sponsor visas)",
+      "Insufficient professional experience (requires 8‑15 years, candidate has ~2‑3 years)",
+      "Lack of deep Ruby on Rails experience (required skill not demonstrated)"
+    ],
+    "addressable_gaps": [
+      "Obtain Ruby on Rails experience and demonstrate deep proficiency",
+      "Accumulate additional years of relevant professional experience"
+    ]
   },
   "6091552034e00d01": {
     "url": "https://weworkremotely.com/remote-jobs/autogpt-gtm-lead",
     "title": "AutoGPT: GTM Lead",
-    "status": "legitimacy_unknown",
-    "credibility_status": "NEEDS_VERIFICATION",
+    "status": "analyzed",
+    "credibility_status": "LIKELY_LEGITIMATE",
     "source_tier": "TIER_4",
     "reasoning": "No reasoning returned.",
     "id": "6091552034e00d01",
     "first_seen": "2026-08-18T05:38:21.892913+00:00",
-    "last_updated": "2026-08-18T05:38:21.892921+00:00",
-    "analysis_recovery_queued": true
+    "last_updated": "2026-09-13T10:05:54.514859+00:00",
+    "analysis_recovery_queued": true,
+    "score": 7.1,
+    "category": null,
+    "official_url": "https://weworkremotely.com/remote-jobs/autogpt-gtm-lead",
+    "location": null,
+    "remote": null,
+    "deadline": "2026-09-16",
+    "reward": "fully_funded",
+    "estimated_value": null,
+    "eligibility_status": "PROBABLY_ELIGIBLE",
+    "source_quality": null,
+    "requirements": []
   },
   "c09297a11e9f5737": {
     "url": "https://www.python.org/jobs/8126/",
     "title": "Software Engineer (Remote), Softech Associate",
-    "status": "legitimacy_unknown",
+    "status": "ineligible",
     "credibility_status": "NEEDS_VERIFICATION",
     "source_tier": "TIER_4",
-    "reasoning": "No reasoning returned.",
+    "reasoning": "The posting explicitly lists a restriction: \"No telecommuting\". The candidate is a remote‑working professional based in Laos and is seeking a fully remote position, which directly conflicts with the on‑site requirement. This is a hard blocker. Other criteria (English communication, technical skills, nationality) are either addressable or not restrictive.",
     "id": "c09297a11e9f5737",
     "first_seen": "2026-08-18T05:39:22.713486+00:00",
-    "last_updated": "2026-08-18T05:39:22.713493+00:00",
-    "analysis_recovery_queued": true
+    "last_updated": "2026-09-13T10:06:41.925101+00:00",
+    "analysis_recovery_queued": true,
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "model_eligibility_status": "CONFIRMED_INELIGIBLE",
+    "missing_requirements": [],
+    "blocking_issues": [
+      "No telecommuting (requires on‑site work, candidate can only work remotely)"
+    ],
+    "addressable_gaps": [
+      "Advanced-level English communication proof (candidate can obtain Duolingo or MOI certificate)"
+    ]
   },
   "57eaa87fa26f39ba": {
     "url": "https://www.python.org/jobs/8123/",
@@ -9177,5 +9209,216 @@
     "id": "5bab18135c2629f2",
     "first_seen": "2026-09-12T09:16:17.718554+00:00",
     "last_updated": "2026-09-12T09:16:17.718569+00:00"
+  },
+  "7f2548284880deeb": {
+    "url": "https://opportunitiescorners.com/lawai-summer-fellowship-2027/",
+    "title": "LawAI Summer Fellowship 2027 in USA (Fully Funded)",
+    "status": "suspicious",
+    "credibility_status": "SUSPICIOUS",
+    "source_tier": "TIER_3",
+    "reasoning": "The fellowship is listed on an aggregator site with no direct link to an official Institute for Law & AI website; the only contact is a generic Gmail address and there is no verifiable sponsor or past program information. While no fee is mentioned, the lack of institutional credibility and official online presence are red‑flag indicators.",
+    "id": "7f2548284880deeb",
+    "first_seen": "2026-09-13T10:08:08.302152+00:00",
+    "last_updated": "2026-09-13T10:08:08.302164+00:00"
+  },
+  "7e1f5dac1efe276c": {
+    "url": "https://scholarships365.info/fellowships",
+    "title": "International Fellowships 2026-2027 | Fully Funded",
+    "status": "notified",
+    "score": 5.0,
+    "category": "fellowships",
+    "official_url": "https://scholarships365.info/fellowships",
+    "location": null,
+    "remote": null,
+    "deadline": null,
+    "reward": "fully_funded",
+    "estimated_value": null,
+    "eligibility_status": "PROBABLY_ELIGIBLE",
+    "credibility_status": "LIKELY_LEGITIMATE",
+    "source_tier": "TIER_4",
+    "source_quality": 0,
+    "requirements": [],
+    "id": "7e1f5dac1efe276c",
+    "first_seen": "2026-09-13T10:09:27.801850+00:00",
+    "last_updated": "2026-09-13T10:19:52.391577+00:00",
+    "notification_tier": "WATCHLIST",
+    "notified_at": "2026-09-13T10:19:52.384538+00:00"
+  },
+  "64831255e3923913": {
+    "url": "https://www.opportunitiescircle.com/blog/top-fully-funded-fellowships",
+    "title": "Top Fully Funded Fellowships 2026 - Opportunities Circle",
+    "status": "unknown",
+    "eligibility_status": "UNCERTAIN",
+    "model_eligibility_status": "UNCERTAIN",
+    "missing_requirements": [
+      "Specific degree level or field requirements for each listed fellowship",
+      "Explicit student‑status requirement (whether current enrollment is mandatory)",
+      "Age limits, if any, for individual fellowships",
+      "Citizenship or residency restrictions for each fellowship"
+    ],
+    "blocking_issues": [],
+    "addressable_gaps": [
+      "Obtain an English proficiency test result (e.g., Duolingo English Test or MOI certificate) if required by a specific fellowship."
+    ],
+    "reasoning": "The page lists a variety of fully funded fellowships but does not provide concrete eligibility criteria such as nationality restrictions, age limits, required degree level, or mandatory student status. It mentions \"students or individuals\" and \"international students,\" which leaves it unclear whether being a currently enrolled student is required. Since the candidate is a working professional with a BSc and no current enrollment, this could be a blocker for some fellowships, but the page does not explicitly state it. No hard blockers are explicitly mentioned, but the missing specific criteria create uncertainty.",
+    "id": "64831255e3923913",
+    "first_seen": "2026-09-13T10:11:09.268272+00:00",
+    "last_updated": "2026-09-13T10:11:09.268287+00:00"
+  },
+  "d696152a2a5c6524": {
+    "url": "https://ngoscope.com/fellowships/fellowship-opportunities",
+    "title": "Fellowship Opportunities 2026 (List Updated Regularly)",
+    "status": "analyzed",
+    "score": 3.8,
+    "category": "fellowships",
+    "official_url": "https://ngoscope.com/fellowships/fellowship-opportunities",
+    "location": null,
+    "remote": null,
+    "deadline": "2026-09-30",
+    "reward": "unknown",
+    "estimated_value": null,
+    "eligibility_status": "PROBABLY_ELIGIBLE",
+    "credibility_status": "LIKELY_LEGITIMATE",
+    "source_tier": "TIER_4",
+    "source_quality": 0,
+    "requirements": [
+      "Updated CV or resume",
+      "Statement of purpose (SOP)",
+      "Letters of recommendation",
+      "Academic transcripts and certificates",
+      "Proof of language proficiency (if required)",
+      "Research proposal or portfolio (optional for some fellowships)"
+    ],
+    "id": "d696152a2a5c6524",
+    "first_seen": "2026-09-13T10:14:37.811366+00:00",
+    "last_updated": "2026-09-13T10:14:37.811379+00:00"
+  },
+  "c32b2aaa1b4f6551": {
+    "url": "https://www.undp.org/united-states/internships",
+    "title": "Internships | United Nations Development Programme",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "model_eligibility_status": "CONFIRMED_INELIGIBLE",
+    "missing_requirements": [],
+    "blocking_issues": [
+      "Must be currently enrolled in a graduate-level degree program (hard blocker)",
+      "Degree level mismatch: candidate has only a bachelor's degree"
+    ],
+    "addressable_gaps": [
+      "Enroll in a graduate program (master's or PhD) to meet the student status requirement"
+    ],
+    "reasoning": "The UNDP internship program explicitly requires applicants to be \"outstanding students currently enrolled in a graduate-level degree program\" for both the General Internship and the Washington Communications & Outreach Internship. The candidate holds only a BSc, is not currently a student, and therefore does not meet this mandatory enrollment requirement.",
+    "id": "c32b2aaa1b4f6551",
+    "first_seen": "2026-09-13T10:15:07.939928+00:00",
+    "last_updated": "2026-09-13T10:15:07.939941+00:00"
+  },
+  "4499700ec27d7fb3": {
+    "url": "https://www.instagram.com/reel/DbC7eLbJUOB",
+    "title": "Harvard Visiting Research Scholarship 2027 (USA) ...",
+    "status": "legitimacy_unknown",
+    "credibility_status": "NEEDS_VERIFICATION",
+    "source_tier": "TIER_4",
+    "reasoning": "The provided source is an Instagram Reel with no accessible text or details about the scholarship or fellowship, making it impossible to verify the program's legitimacy. Without information on the organizer, application process, fees, or official contact channels, no concrete assessment can be made.",
+    "id": "4499700ec27d7fb3",
+    "first_seen": "2026-09-13T10:15:20.535846+00:00",
+    "last_updated": "2026-09-13T10:15:20.535859+00:00"
+  },
+  "946a19cc5603ff49": {
+    "url": "https://idrc-crdi.ca/en/funding",
+    "title": "Funding | IDRC - International Development Research Centre",
+    "status": "unknown",
+    "eligibility_status": "UNCERTAIN",
+    "model_eligibility_status": "UNCERTAIN",
+    "missing_requirements": [
+      "Explicit degree‑level requirement (e.g., Master's or PhD).",
+      "Requirement for institutional affiliation or being part of a research team.",
+      "Any specific citizenship restrictions beyond being from a developing country."
+    ],
+    "blocking_issues": [],
+    "addressable_gaps": [
+      "Obtain an English proficiency test result (Duolingo, IELTS, TOEFL, or MOI certificate) if required.",
+      "Secure a formal research affiliation or partnership with a university/institution to satisfy potential institutional eligibility.",
+      "Provide evidence of graduate‑level research experience or a higher degree if the call requires it."
+    ],
+    "reasoning": "The IDRC calls listed do not specify explicit eligibility criteria in the provided text. The candidate meets obvious nationality requirements (Ethiopian, a developing country) and there is no age cap mentioned. However, the calls typically require a research affiliation and often a graduate‑level degree or demonstrated research experience, which is not confirmed for this candidate (only a BSc). Because the degree‑level and institutional affiliation requirements are missing, we cannot determine if the candidate is eligible.",
+    "id": "946a19cc5603ff49",
+    "first_seen": "2026-09-13T10:16:15.568280+00:00",
+    "last_updated": "2026-09-13T10:16:15.568294+00:00"
+  },
+  "20ba60838bba29ac": {
+    "url": "https://www.unesco.org/creativity/en/ifcd/apply",
+    "title": "Apply for funding | Diversity of Cultural Expressions",
+    "status": "filtered_out",
+    "reason": "The funding call is explicitly closed.",
+    "id": "20ba60838bba29ac",
+    "first_seen": "2026-09-13T10:16:34.082000+00:00",
+    "last_updated": "2026-09-13T10:16:34.082014+00:00"
+  },
+  "756a8911c23a598c": {
+    "url": "https://africanngos.org/2026/08/09/african-ngo-funding-opportunities-august-september-2026",
+    "title": "African NGO Funding Opportunities – August & September ...",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "model_eligibility_status": "CONFIRMED_INELIGIBLE",
+    "missing_requirements": [],
+    "blocking_issues": [
+      "Applicant is an individual, not an African NGO (hard blocker)"
+    ],
+    "addressable_gaps": [],
+    "reasoning": "The program explicitly targets African NGOs (title and description: \"Funding opportunities tailored for African NGOs\"). The candidate is an individual professional, not an NGO, thus does not meet the core eligibility criterion.",
+    "id": "756a8911c23a598c",
+    "first_seen": "2026-09-13T10:18:28.361727+00:00",
+    "last_updated": "2026-09-13T10:18:28.361741+00:00"
+  },
+  "9f2162172b873785": {
+    "url": "https://www.instagram.com/reel/DZKV7u1DFcn",
+    "title": "Instagram",
+    "status": "legitimacy_unknown",
+    "credibility_status": "NEEDS_VERIFICATION",
+    "source_tier": "TIER_4",
+    "reasoning": "The provided source is an Instagram Reel with no accessible text or details about the scholarship or fellowship. Without concrete information on program requirements, fees, or official contacts, we cannot determine legitimacy.",
+    "id": "9f2162172b873785",
+    "first_seen": "2026-09-13T10:18:33.446937+00:00",
+    "last_updated": "2026-09-13T10:18:33.446950+00:00"
+  },
+  "6b79a83d41436164": {
+    "url": "https://startup.jobs/remote-jobs",
+    "title": "Best Remote Jobs in September 2026",
+    "status": "unknown",
+    "eligibility_status": "UNCERTAIN",
+    "model_eligibility_status": "UNCERTAIN",
+    "missing_requirements": [
+      "Degree level requirement (e.g., bachelor's, master's)",
+      "English language proficiency requirement (e.g., IELTS/TOEFL)",
+      "Work experience or skill requirements",
+      "Citizenship or residency restrictions"
+    ],
+    "blocking_issues": [],
+    "addressable_gaps": [],
+    "reasoning": "The program page lists remote job openings but provides no explicit eligibility criteria (e.g., required degree, citizenship, age, student status, language proficiency). Because we cannot verify whether the candidate meets any implicit requirements, we cannot confirm eligibility.",
+    "id": "6b79a83d41436164",
+    "first_seen": "2026-09-13T10:19:17.154275+00:00",
+    "last_updated": "2026-09-13T10:19:17.154288+00:00"
+  },
+  "edf77a7e7f0a1226": {
+    "url": "https://remotejobsandyou.substack.com/p/remote-jobs-hiring-now-apr-13-2026",
+    "title": "Remote Jobs Hiring Now (Apr 13, 2026 - Apr 19, 2026)",
+    "status": "unknown",
+    "eligibility_status": "UNCERTAIN",
+    "model_eligibility_status": "UNCERTAIN",
+    "missing_requirements": [
+      "Nationality eligibility (not specified)",
+      "Age limit (not specified)",
+      "Degree/education requirement (not specified)",
+      "Student status requirement (not specified)",
+      "English language proficiency requirement (not specified)",
+      "Specific work experience or skill requirements for each role (not specified)"
+    ],
+    "blocking_issues": [],
+    "addressable_gaps": [],
+    "reasoning": "The program listing provides only job titles and locations without stating any explicit eligibility criteria such as nationality restrictions, age limits, required degree level, student status, or English proficiency. Because we cannot verify whether the candidate meets unstated but potentially required criteria, the eligibility cannot be confirmed.",
+    "id": "edf77a7e7f0a1226",
+    "first_seen": "2026-09-13T10:19:50.201565+00:00",
+    "last_updated": "2026-09-13T10:19:50.201577+00:00"
   }
 }
