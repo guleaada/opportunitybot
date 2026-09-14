@@ -1,161 +1,5 @@
 [
   {
-    "at": "2026-08-26T05:36:10.539308+00:00",
-    "kind": "scan_start",
-    "message": "daily scan started"
-  },
-  {
-    "at": "2026-08-26T05:46:48.075796+00:00",
-    "kind": "error",
-    "message": "Fetch failed for https://opportunitydesk.org/2026/08/25/mila-lab-ai-law-ethics-research-awards-2026/: 403"
-  },
-  {
-    "at": "2026-08-26T05:47:17.022584+00:00",
-    "kind": "error",
-    "message": "Fetch failed for https://opportunitydesk.org/2026/08/25/agentrust-fellowship-2026/: 403"
-  },
-  {
-    "at": "2026-08-26T05:47:27.339181+00:00",
-    "kind": "error",
-    "message": "Fetch failed for https://opportunitydesk.org/2026/08/25/caai-second-year-ai-fellowship-2026-2027/: 403"
-  },
-  {
-    "at": "2026-08-26T05:47:53.055940+00:00",
-    "kind": "error",
-    "message": "Fetch failed for https://opportunitydesk.org/2026/08/25/unicef-thailand-young-professionals-programme-2026/: 403"
-  },
-  {
-    "at": "2026-08-26T05:48:10.317198+00:00",
-    "kind": "error",
-    "message": "Fetch failed for https://opportunitydesk.org/2026/08/25/au-eu-youth-action-lab-grant-2026/: 403"
-  },
-  {
-    "at": "2026-08-26T05:50:59.708933+00:00",
-    "kind": "scan_complete",
-    "message": "daily scan finished",
-    "matches": 0,
-    "stats": {
-      "discovered": 299,
-      "already_seen": 68,
-      "known_scam": 0,
-      "fetch_failed": 0,
-      "first_pass_dropped": 0,
-      "scam": 5,
-      "legit_unknown": 1,
-      "ineligible": 9,
-      "closed": 0,
-      "deep_analyzed": 0,
-      "scored_high": 0,
-      "discovery": {
-        "tavily": {
-          "attempted": 20,
-          "successful": 20,
-          "429": 0,
-          "403": 0,
-          "errors": 0,
-          "candidates": 160,
-          "queries_planned": 20,
-          "disabled_reason": ""
-        },
-        "rss": {
-          "attempted": 6,
-          "successful": 6,
-          "failed": 0,
-          "skipped_dead": 1,
-          "candidates": 76
-        },
-        "api": {
-          "sources": 2,
-          "healthy": 2,
-          "failed": 0,
-          "candidates": 58
-        },
-        "seed": {
-          "attempted": 14,
-          "candidates": 14
-        },
-        "total": {
-          "raw": 308,
-          "after_dedupe": 299
-        }
-      },
-      "signal_rescued": 4,
-      "snippet_fallback": 5,
-      "deduped": 0
-    }
-  },
-  {
-    "at": "2026-08-26T05:50:59.712192+00:00",
-    "kind": "run",
-    "mode": "scan",
-    "environment": "github_actions",
-    "stats": {
-      "discovered": 299,
-      "already_seen": 68,
-      "known_scam": 0,
-      "fetch_failed": 0,
-      "first_pass_dropped": 0,
-      "scam": 5,
-      "legit_unknown": 1,
-      "ineligible": 9,
-      "closed": 0,
-      "deep_analyzed": 0,
-      "scored_high": 0,
-      "discovery": {
-        "tavily": {
-          "attempted": 20,
-          "successful": 20,
-          "429": 0,
-          "403": 0,
-          "errors": 0,
-          "candidates": 160,
-          "queries_planned": 20,
-          "disabled_reason": ""
-        },
-        "rss": {
-          "attempted": 6,
-          "successful": 6,
-          "failed": 0,
-          "skipped_dead": 1,
-          "candidates": 76
-        },
-        "api": {
-          "sources": 2,
-          "healthy": 2,
-          "failed": 0,
-          "candidates": 58
-        },
-        "seed": {
-          "attempted": 14,
-          "candidates": 14
-        },
-        "total": {
-          "raw": 308,
-          "after_dedupe": 299
-        }
-      },
-      "signal_rescued": 4,
-      "snippet_fallback": 5,
-      "deduped": 0,
-      "matches": 0
-    }
-  },
-  {
-    "at": "2026-08-27T16:12:28.438817+00:00",
-    "kind": "scan_start",
-    "message": "daily scan started"
-  },
-  {
-    "at": "2026-08-27T16:16:35.067015+00:00",
-    "kind": "error",
-    "message": "Fetch failed for https://opportunitydesk.org/2026/08/27/chatham-house-research-associate-digital-society-programme-2026-2027/: 403"
-  },
-  {
-    "at": "2026-08-27T16:17:00.858697+00:00",
-    "kind": "error",
-    "message": "Fetch failed for https://opportunitydesk.org/2026/08/27/anita-hill-scholarship-2026/: 403"
-  },
-  {
     "at": "2026-08-27T16:17:17.406440+00:00",
     "kind": "error",
     "message": "Fetch failed for https://opportunitydesk.org/2026/08/27/kenya-artificial-intelligence-accelerator-programme-2026/: 403"
@@ -3585,6 +3429,195 @@
       "signal_rescued": 4,
       "deduped": 0,
       "matches": 1
+    }
+  },
+  {
+    "at": "2026-09-14T10:23:08.794484+00:00",
+    "kind": "error",
+    "message": "Fetch failed for https://remotive.com/remote-jobs/sales/business-development-representative-2091075: 404"
+  },
+  {
+    "at": "2026-09-14T10:30:50.320035+00:00",
+    "kind": "run",
+    "mode": "watchlist",
+    "environment": "github_actions",
+    "stats": {
+      "discovered": 0,
+      "already_seen": 0,
+      "known_scam": 0,
+      "fetch_failed": 1,
+      "first_pass_dropped": 0,
+      "scam": 0,
+      "legit_unknown": 0,
+      "ineligible": 1,
+      "closed": 1,
+      "deep_analyzed": 2,
+      "scored_high": 1,
+      "eligibility_demoted": 0,
+      "jina_fetch": 0,
+      "jina_failed": 0,
+      "snippet_fallback": 0,
+      "legit_unparseable": 0,
+      "trusted_thin_pass": 0,
+      "signal_rescued": 1,
+      "reopened": 5,
+      "matches": 1
+    }
+  },
+  {
+    "at": "2026-09-14T10:30:50.601057+00:00",
+    "kind": "scan_start",
+    "message": "daily scan started"
+  },
+  {
+    "at": "2026-09-14T10:35:46.609594+00:00",
+    "kind": "error",
+    "message": "Fetch failed for https://www.dfat.gov.au/people-to-people/australia-awards/australia-awards-scholarships: HTTPSConnectionPool(host='www.dfat.gov.au', port=443): Read timed out. (read timeout=25)"
+  },
+  {
+    "at": "2026-09-14T10:35:49.973867+00:00",
+    "kind": "error",
+    "message": "Fetch failed for https://www.facebook.com/groups/StudyAbroadScholarshipsForAfrica: 400"
+  },
+  {
+    "at": "2026-09-14T10:35:52.383074+00:00",
+    "kind": "error",
+    "message": "Fetch failed for https://vanier.gc.ca/en/home-accueil.html: HTTPSConnectionPool(host='vanier.gc.ca', port=443): Max retries exceeded with url: /en/home-accueil.html (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)')))"
+  },
+  {
+    "at": "2026-09-14T10:35:52.686176+00:00",
+    "kind": "error",
+    "message": "Fetch failed for https://opportunitydesk.org/category/fellowships/: 403"
+  },
+  {
+    "at": "2026-09-14T10:35:52.778607+00:00",
+    "kind": "error",
+    "message": "Fetch failed for https://maryland.grantwatch.com/cat/16/entrepreneurs-and-startups-grants.html: 403"
+  },
+  {
+    "at": "2026-09-14T10:40:32.311267+00:00",
+    "kind": "error",
+    "message": "Fetch failed for https://www.facebook.com/groups/731957298564333/posts/1543339314092790: 400"
+  },
+  {
+    "at": "2026-09-14T10:43:59.368873+00:00",
+    "kind": "scan_complete",
+    "message": "daily scan finished",
+    "matches": 2,
+    "stats": {
+      "discovered": 275,
+      "already_seen": 95,
+      "known_scam": 0,
+      "fetch_failed": 3,
+      "first_pass_dropped": 0,
+      "scam": 1,
+      "legit_unknown": 4,
+      "ineligible": 2,
+      "closed": 2,
+      "deep_analyzed": 3,
+      "scored_high": 2,
+      "eligibility_demoted": 0,
+      "jina_fetch": 0,
+      "jina_failed": 0,
+      "snippet_fallback": 3,
+      "legit_unparseable": 0,
+      "trusted_thin_pass": 0,
+      "discovery": {
+        "tavily": {
+          "attempted": 20,
+          "successful": 20,
+          "429": 0,
+          "403": 0,
+          "errors": 0,
+          "candidates": 160,
+          "queries_planned": 20,
+          "disabled_reason": ""
+        },
+        "rss": {
+          "attempted": 4,
+          "successful": 4,
+          "failed": 0,
+          "skipped_dead": 1,
+          "candidates": 56
+        },
+        "api": {
+          "sources": 2,
+          "healthy": 2,
+          "failed": 0,
+          "candidates": 56
+        },
+        "seed": {
+          "attempted": 14,
+          "candidates": 14
+        },
+        "total": {
+          "raw": 286,
+          "after_dedupe": 275
+        }
+      },
+      "signal_rescued": 3,
+      "deduped": 0
+    }
+  },
+  {
+    "at": "2026-09-14T10:43:59.372488+00:00",
+    "kind": "run",
+    "mode": "scan",
+    "environment": "github_actions",
+    "stats": {
+      "discovered": 275,
+      "already_seen": 95,
+      "known_scam": 0,
+      "fetch_failed": 3,
+      "first_pass_dropped": 0,
+      "scam": 1,
+      "legit_unknown": 4,
+      "ineligible": 2,
+      "closed": 2,
+      "deep_analyzed": 3,
+      "scored_high": 2,
+      "eligibility_demoted": 0,
+      "jina_fetch": 0,
+      "jina_failed": 0,
+      "snippet_fallback": 3,
+      "legit_unparseable": 0,
+      "trusted_thin_pass": 0,
+      "discovery": {
+        "tavily": {
+          "attempted": 20,
+          "successful": 20,
+          "429": 0,
+          "403": 0,
+          "errors": 0,
+          "candidates": 160,
+          "queries_planned": 20,
+          "disabled_reason": ""
+        },
+        "rss": {
+          "attempted": 4,
+          "successful": 4,
+          "failed": 0,
+          "skipped_dead": 1,
+          "candidates": 56
+        },
+        "api": {
+          "sources": 2,
+          "healthy": 2,
+          "failed": 0,
+          "candidates": 56
+        },
+        "seed": {
+          "attempted": 14,
+          "candidates": 14
+        },
+        "total": {
+          "raw": 286,
+          "after_dedupe": 275
+        }
+      },
+      "signal_rescued": 3,
+      "deduped": 0,
+      "matches": 2
     }
   }
 ]

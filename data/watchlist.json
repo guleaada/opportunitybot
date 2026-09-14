@@ -201,39 +201,18 @@
     "title": "Business Development Representative",
     "retry_analysis": true,
     "reason": "Recover historical malformed model response",
-    "added": "2026-09-05T01:47:30.276366+00:00"
-  },
-  "9d70f375971cda81": {
-    "id": "9d70f375971cda81",
-    "url": "https://opportunitiesforyouth.org/2026/08/18/emuni-university-masters-programmes-2026-27-study-mediterranean-geopolitics-geoeconomics-business-and-digital-law-in-slovenia/",
-    "title": "EMUNI University Master’s Programmes 2026/27: Study Mediterranean Geopolitics, Geoeconomics, Business and Digital Law in Slovenia",
-    "retry_analysis": true,
-    "reason": "Recover historical malformed model response",
-    "added": "2026-09-05T01:47:30.276964+00:00"
+    "added": "2026-09-14T10:23:08.276388+00:00",
+    "last_checked": "2026-09-14T10:23:08.275757"
   },
   "948288b971d99501": {
     "id": "948288b971d99501",
     "url": "https://www.africanleadershipcentre.org/news/call-for-applications-y4z58",
     "title": "Call for Applications: ALC Peace, Security and Development Fellowships for 2026/2027 — The African Leadership Centre",
     "retry_analysis": true,
-    "reason": "Recover historical malformed model response",
-    "added": "2026-09-05T01:47:30.278173+00:00"
-  },
-  "ec7109ade3dc3482": {
-    "id": "ec7109ade3dc3482",
-    "url": "https://www.linkedin.com/pulse/40-fully-funded-fellowship-opportunities-iswef",
-    "title": "🌍🏆 40 Fully Funded Fellowship Opportunities for 2026–2027",
-    "retry_analysis": true,
-    "reason": "Recover historical malformed model response",
-    "added": "2026-09-05T01:47:30.278781+00:00"
-  },
-  "7bc97f830f832a8d": {
-    "id": "7bc97f830f832a8d",
-    "url": "https://grants.nih.gov/funding/funding-categories/research-training-and-career-development/individual-fellowships",
-    "title": "Individual Fellowships | Grants & Funding",
-    "retry_analysis": true,
-    "reason": "Recover historical malformed model response",
-    "added": "2026-09-05T01:47:30.279391+00:00"
+    "reason": "closed at discovery; likely annual",
+    "added": "2026-09-14T10:25:55.854736+00:00",
+    "last_checked": "2026-09-14T10:25:12.058714",
+    "last_known_deadline": "2026-05-24"
   },
   "984939ad600ed3d2": {
     "id": "984939ad600ed3d2",
@@ -1035,5 +1014,29 @@
     "reason": "monitoring — not confirmed open at scan time",
     "id": "7e1f5dac1efe276c",
     "added": "2026-09-13T10:19:50.211715+00:00"
+  },
+  "6437eb97830bbeb1": {
+    "url": "https://ayfnhq.org/world-leadership-forum-2026-in-poland-fully-funded",
+    "title": "World Leadership Forum 2026 in Poland (Fully Funded) – AYFN Academy",
+    "last_known_deadline": "2025-12-31",
+    "reason": "closed at discovery; likely annual",
+    "id": "6437eb97830bbeb1",
+    "added": "2026-09-14T10:37:19.814020+00:00"
+  },
+  "b761d3e288bb25bd": {
+    "url": "https://tl.usembassy.gov/2027-2028-fulbright-foreign-student-scholarship-program",
+    "title": "2027-2028 Fulbright Foreign Student Scholarship Program",
+    "last_known_deadline": null,
+    "reason": "closed at discovery; likely annual",
+    "id": "b761d3e288bb25bd",
+    "added": "2026-09-14T10:43:57.359883+00:00"
+  },
+  "e0894dbd7d5fead7": {
+    "url": "https://maryland.grantwatch.com/cat/16/entrepreneurs-and-startups-grants.html",
+    "title": "Startup Grants (2026) | Funding for Entrepreneurs in Maryland, Baltimore, Columbia, Frederic",
+    "last_known_deadline": null,
+    "reason": "monitoring — not confirmed open at scan time",
+    "id": "e0894dbd7d5fead7",
+    "added": "2026-09-14T10:43:57.362853+00:00"
   }
 }
