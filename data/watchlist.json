@@ -214,46 +214,6 @@
     "last_checked": "2026-09-14T10:25:12.058714",
     "last_known_deadline": "2026-05-24"
   },
-  "984939ad600ed3d2": {
-    "id": "984939ad600ed3d2",
-    "url": "https://kroc.nd.edu/research/grants-and-fellowships/apply-for-visiting-research-fellowships",
-    "title": "Applying for Visiting Research Fellowships // Research// Grants and Fellowships // Kroc Institute for International Peace Studies // University of Notre Dame",
-    "retry_analysis": true,
-    "reason": "Recover historical malformed model response",
-    "added": "2026-09-05T01:47:30.280032+00:00"
-  },
-  "a5aa10fa64908ee2": {
-    "id": "a5aa10fa64908ee2",
-    "url": "https://greatyop.com/fully-funded-scholarships-for-international-students",
-    "title": "Fully Funded Scholarships for International Students, 2026-2027",
-    "retry_analysis": true,
-    "reason": "Recover historical malformed model response",
-    "added": "2026-09-05T01:47:30.280684+00:00"
-  },
-  "e4d507d5b8554ccd": {
-    "id": "e4d507d5b8554ccd",
-    "url": "https://www.scholarshipsads.com",
-    "title": "Fully funded Scholarships for international Students 2026 - 2027",
-    "retry_analysis": true,
-    "reason": "Recover historical malformed model response",
-    "added": "2026-09-05T01:47:30.281325+00:00"
-  },
-  "880d39ac0fbff296": {
-    "id": "880d39ac0fbff296",
-    "url": "https://scholarshiproar.com/fully-funded-scholarships",
-    "title": "Fully Funded Scholarships for International Students 2027",
-    "retry_analysis": true,
-    "reason": "Recover historical malformed model response",
-    "added": "2026-09-05T01:47:30.281985+00:00"
-  },
-  "1e6057214f33b11b": {
-    "id": "1e6057214f33b11b",
-    "url": "https://menterprise.africa/june-2026-opportunities-african-innovators-grants-fellowships-prizes",
-    "title": "June 2026 Grants, Fellowships, Prizes and Competitions for African Innovators",
-    "retry_analysis": true,
-    "reason": "Recover historical malformed model response",
-    "added": "2026-09-05T01:47:30.283050+00:00"
-  },
   "65dd5a38738c60ee": {
     "id": "65dd5a38738c60ee",
     "url": "https://opportunitiesforyouth.org/2026/08/19/getty-conservation-guest-scholars-program-2026-fully-funded-three-month-research-opportunity-for-cultural-heritage-conservation-professionals/",
@@ -1038,5 +998,22 @@
     "reason": "monitoring — not confirmed open at scan time",
     "id": "e0894dbd7d5fead7",
     "added": "2026-09-14T10:43:57.362853+00:00"
+  },
+  "3a62a5696d5eb0e7": {
+    "url": "https://twas.org/opportunities/fellowships",
+    "title": "Fellowships | TWAS",
+    "reason": "ANALYSIS_UNAVAILABLE — deep_eligibility: incomplete or invalid response after retry",
+    "retry_analysis": true,
+    "snippet": "Candidates need to upload, along with their application, a preliminary acceptance letter issued in the same year of the application itself by their chosen host institution. Applicants are encouraged to apply for the acceptance letter from the chosen host institutions as early as possible, even before the opening date of the call of the programme of their choice.\n The opening and closing dates of each programme are specified on each programme page. [...] twas-logo   twas-logo\n\ntwas-logo\n\nDeadlines\n\n### TWAS-SISSA-Lincei Research Cooperation Visits Programme\n\nVisiting Scientist\n\n# Fellowships [...] Applications can be submitted only through the online portal and only once the call for the programme of your choice is open.\n To start your application, use the \"Apply now\" button at the bottom of the programme of your choice.",
+    "id": "3a62a5696d5eb0e7",
+    "added": "2026-09-15T10:19:11.867199+00:00"
+  },
+  "13b5bbcb50b6f2e7": {
+    "url": "https://www.opportunitiesforafricans.com/gates-cambridge-scholarship-programme-2027-2028-for-study-at-the-university-of-cambridge/",
+    "title": "Gates Cambridge Scholarship Programme 2027/2028 for Study at the University of Cambridge, UK (Fully Funded)",
+    "last_known_deadline": null,
+    "reason": "monitoring — not confirmed open at scan time",
+    "id": "13b5bbcb50b6f2e7",
+    "added": "2026-09-15T10:19:53.755417+00:00"
   }
 }

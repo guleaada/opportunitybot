@@ -4258,50 +4258,90 @@
   "984939ad600ed3d2": {
     "url": "https://kroc.nd.edu/research/grants-and-fellowships/apply-for-visiting-research-fellowships",
     "title": "Applying for Visiting Research Fellowships // Research// Grants and Fellowships // Kroc Institute for International Peace Studies // University of Notre Dame",
-    "status": "legitimacy_unknown",
+    "status": "ineligible",
     "credibility_status": "NEEDS_VERIFICATION",
     "source_tier": "TIER_4",
-    "reasoning": "No reasoning returned.",
+    "reasoning": "The program explicitly requires applicants to have completed a doctoral or equivalent degree. The candidate only holds a BSc, which does not meet this qualification, creating a hard blocker. No nationality, age, or student‑status restrictions are mentioned, so those are not issues.",
     "id": "984939ad600ed3d2",
     "first_seen": "2026-08-19T00:15:56.320679+00:00",
-    "last_updated": "2026-08-19T00:15:56.320692+00:00",
-    "analysis_recovery_queued": true
+    "last_updated": "2026-09-15T09:49:15.455220+00:00",
+    "analysis_recovery_queued": true,
+    "eligibility_status": "PROBABLY_INELIGIBLE",
+    "model_eligibility_status": "PROBABLY_INELIGIBLE",
+    "missing_requirements": [],
+    "blocking_issues": [
+      "Degree level mismatch: candidate has only a bachelor's degree, but a doctoral degree is required."
+    ],
+    "addressable_gaps": []
   },
   "a5aa10fa64908ee2": {
     "url": "https://greatyop.com/fully-funded-scholarships-for-international-students",
     "title": "Fully Funded Scholarships for International Students, 2026-2027",
-    "status": "legitimacy_unknown",
-    "credibility_status": "NEEDS_VERIFICATION",
+    "status": "analyzed",
+    "credibility_status": "LIKELY_LEGITIMATE",
     "source_tier": "TIER_4",
     "reasoning": "No reasoning returned.",
     "id": "a5aa10fa64908ee2",
     "first_seen": "2026-08-19T00:16:18.610184+00:00",
-    "last_updated": "2026-08-19T00:16:18.610196+00:00",
-    "analysis_recovery_queued": true
+    "last_updated": "2026-09-15T09:52:12.284626+00:00",
+    "analysis_recovery_queued": true,
+    "score": 4.4,
+    "category": null,
+    "official_url": "https://greatyop.com/fully-funded-scholarships-for-international-students",
+    "location": null,
+    "remote": null,
+    "deadline": null,
+    "reward": "fully_funded",
+    "estimated_value": null,
+    "eligibility_status": "PROBABLY_ELIGIBLE",
+    "source_quality": null,
+    "requirements": []
   },
   "e4d507d5b8554ccd": {
     "url": "https://www.scholarshipsads.com",
     "title": "Fully funded Scholarships for international Students 2026 - 2027",
-    "status": "legitimacy_unknown",
+    "status": "unknown",
     "credibility_status": "NEEDS_VERIFICATION",
     "source_tier": "TIER_4",
-    "reasoning": "No reasoning returned.",
+    "reasoning": "The program page is a generic scholarship aggregator and does not list explicit eligibility criteria such as required student status, degree level, age limit, or English proficiency. While the candidate’s nationality (Ethiopian) appears among the listed countries, we cannot confirm whether the specific scholarships displayed require the applicant to be currently enrolled, to hold a certain degree, to be under a certain age, or to provide an English test score. Therefore, a decision‑relevant criterion is missing or unverifiable.",
     "id": "e4d507d5b8554ccd",
     "first_seen": "2026-08-19T00:16:27.469612+00:00",
-    "last_updated": "2026-08-19T00:16:27.469624+00:00",
-    "analysis_recovery_queued": true
+    "last_updated": "2026-09-15T09:54:23.451975+00:00",
+    "analysis_recovery_queued": true,
+    "eligibility_status": "UNCERTAIN",
+    "model_eligibility_status": "UNCERTAIN",
+    "missing_requirements": [
+      "Whether the applicant must be currently enrolled as a student",
+      "Required degree level for master’s scholarships (candidate has BSc)",
+      "Age limit (candidate is 27)",
+      "English language proficiency test requirement (IELTS/TOEFL/acceptable alternatives)",
+      "Specific field of study eligibility"
+    ],
+    "blocking_issues": [],
+    "addressable_gaps": []
   },
   "880d39ac0fbff296": {
     "url": "https://scholarshiproar.com/fully-funded-scholarships",
     "title": "Fully Funded Scholarships for International Students 2027",
-    "status": "legitimacy_unknown",
-    "credibility_status": "NEEDS_VERIFICATION",
+    "status": "analyzed",
+    "credibility_status": "LIKELY_LEGITIMATE",
     "source_tier": "TIER_4",
     "reasoning": "No reasoning returned.",
     "id": "880d39ac0fbff296",
     "first_seen": "2026-08-19T00:16:39.355217+00:00",
-    "last_updated": "2026-08-19T00:16:39.355229+00:00",
-    "analysis_recovery_queued": true
+    "last_updated": "2026-09-15T09:57:19.197756+00:00",
+    "analysis_recovery_queued": true,
+    "score": 5.2,
+    "category": null,
+    "official_url": "https://scholarshiproar.com/fully-funded-scholarships",
+    "location": null,
+    "remote": null,
+    "deadline": null,
+    "reward": "fully_funded",
+    "estimated_value": null,
+    "eligibility_status": "PROBABLY_ELIGIBLE",
+    "source_quality": null,
+    "requirements": []
   },
   "4a32a7fe4df6c222": {
     "url": "https://www.youtube.com/watch?v=qlP8fIUTpIs",
@@ -4328,14 +4368,25 @@
   "1e6057214f33b11b": {
     "url": "https://menterprise.africa/june-2026-opportunities-african-innovators-grants-fellowships-prizes",
     "title": "June 2026 Grants, Fellowships, Prizes and Competitions for African Innovators",
-    "status": "legitimacy_unknown",
-    "credibility_status": "NEEDS_VERIFICATION",
+    "status": "analyzed",
+    "credibility_status": "LIKELY_LEGITIMATE",
     "source_tier": "TIER_4",
     "reasoning": "No reasoning returned.",
     "id": "1e6057214f33b11b",
     "first_seen": "2026-08-19T00:17:30.215546+00:00",
-    "last_updated": "2026-08-19T00:17:30.215558+00:00",
-    "analysis_recovery_queued": true
+    "last_updated": "2026-09-15T10:00:33.437653+00:00",
+    "analysis_recovery_queued": true,
+    "score": 5.4,
+    "category": null,
+    "official_url": "https://menterprise.africa/june-2026-opportunities-african-innovators-grants-fellowships-prizes",
+    "location": null,
+    "remote": null,
+    "deadline": null,
+    "reward": "partial",
+    "estimated_value": null,
+    "eligibility_status": "PROBABLY_ELIGIBLE",
+    "source_quality": null,
+    "requirements": []
   },
   "e3631468b151249b": {
     "url": "https://www.profellow.com",
@@ -9642,5 +9693,230 @@
     "id": "b761d3e288bb25bd",
     "first_seen": "2026-09-14T10:43:57.350292+00:00",
     "last_updated": "2026-09-14T10:43:57.350306+00:00"
+  },
+  "13b5bbcb50b6f2e7": {
+    "url": "https://www.opportunitiesforafricans.com/gates-cambridge-scholarship-programme-2027-2028-for-study-at-the-university-of-cambridge/",
+    "title": "Gates Cambridge Scholarship Programme 2027/2028 for Study at the University of Cambridge, UK (Fully Funded)",
+    "status": "notified",
+    "score": 5.0,
+    "category": null,
+    "official_url": "https://www.opportunitiesforafricans.com/gates-cambridge-scholarship-programme-2027-2028-for-study-at-the-university-of-cambridge/",
+    "location": null,
+    "remote": null,
+    "deadline": null,
+    "reward": "fully_funded",
+    "estimated_value": null,
+    "eligibility_status": "PROBABLY_ELIGIBLE",
+    "credibility_status": "LIKELY_LEGITIMATE",
+    "source_tier": "TIER_3",
+    "source_quality": 7,
+    "requirements": [],
+    "id": "13b5bbcb50b6f2e7",
+    "first_seen": "2026-09-15T10:03:18.445588+00:00",
+    "last_updated": "2026-09-15T10:19:57.930009+00:00",
+    "notification_tier": "WATCHLIST",
+    "notified_at": "2026-09-15T10:19:57.923533+00:00"
+  },
+  "899e027f06e635c2": {
+    "url": "https://opportunitiescorners.com/max-planck-mtl-internship-in-germany/",
+    "title": "Max Planck MTL Internship 2027 in Germany (Fully Funded)",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "model_eligibility_status": "CONFIRMED_INELIGIBLE",
+    "missing_requirements": [
+      "GPA (not provided)",
+      "Current university transcript (not applicable as not enrolled)",
+      "Proof of enrollment for the duration of the internship"
+    ],
+    "blocking_issues": [
+      "Not currently enrolled in a Bachelor’s/undergraduate program (must be a student)",
+      "Has already graduated (cannot remain enrolled for the internship)",
+      "Academic background (Psychology) not listed among eligible fields"
+    ],
+    "addressable_gaps": [
+      "Enroll in a relevant Bachelor’s program before the internship period",
+      "Provide a minimum GPA of 1.7 if re‑enrolled"
+    ],
+    "reasoning": "The Max Planck MTL Internship explicitly requires applicants to be currently enrolled in a Bachelor’s/undergraduate degree and to remain enrolled throughout the 10‑week internship. The candidate is a working professional who graduated with a BSc in Psychology in 2021 and is not currently a student. Additionally, the program lists eligible academic backgrounds (biology, chemistry, physics, informatics, materials science, engineering, bioengineering, etc.) which do not include psychology. Therefore the candidate does not meet the core eligibility criteria.",
+    "id": "899e027f06e635c2",
+    "first_seen": "2026-09-15T10:04:30.906497+00:00",
+    "last_updated": "2026-09-15T10:04:30.906513+00:00"
+  },
+  "9dd1c868ff2cb510": {
+    "url": "https://opportunitiescorners.com/crg-research-training-program-2027/",
+    "title": "CRG Research Training Program 2027 in Spain (Fully Funded)",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "model_eligibility_status": "CONFIRMED_INELIGIBLE",
+    "missing_requirements": [],
+    "blocking_issues": [
+      "Must be enrolled in an official undergraduate or MSc program (candidate is not a student)",
+      "Must be a current Bachelor’s or Master’s student (candidate graduated in 2021 and is now a professional)"
+    ],
+    "addressable_gaps": [],
+    "reasoning": "The program explicitly requires candidates to be enrolled in an official undergraduate or MSc program at a university. Gulilat is a working professional and not currently enrolled in any degree program, which directly violates this core eligibility criterion. All other stated requirements (nationality, age, degree level) are met or not restrictive.",
+    "id": "9dd1c868ff2cb510",
+    "first_seen": "2026-09-15T10:05:40.930830+00:00",
+    "last_updated": "2026-09-15T10:05:40.930845+00:00"
+  },
+  "e92ce7c527f0b658": {
+    "url": "https://www.opportunitiesforafricans.com/the-clooney-foundation-waging-justice-for-women-fellowship-2027/",
+    "title": "The Clooney Foundation Waging Justice for Women Fellowship 2027 for early-career women lawyers in sub-Saharan Africa",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "model_eligibility_status": "CONFIRMED_INELIGIBLE",
+    "missing_requirements": [],
+    "blocking_issues": [
+      "No law degree (requires law degree)",
+      "No practicing certificate (must be admitted to practice law)",
+      "No work authorization for host countries (Kenya, Malawi, South Africa, Gambia)"
+    ],
+    "addressable_gaps": [
+      "English language certification (can obtain Duolingo or MOI certificate)",
+      "Work authorization for host country (could apply for visa/work permit if law degree were present)"
+    ],
+    "reasoning": "The fellowship explicitly requires (1) a law degree from a recognized institution, (2) a practicing certificate admitting the applicant to practice law in the host country, and (3) the right to work in the host country (Kenya, Malawi, South Africa, or The Gambia). The candidate holds a BSc in Psychology, not a law degree, has no practicing certificate, and does not have work authorization in any of the listed host countries. These are hard, non‑addressable blockers. While English fluency could be demonstrated with a test, the degree and certification requirements alone make the candidate ineligible.",
+    "id": "e92ce7c527f0b658",
+    "first_seen": "2026-09-15T10:06:47.635934+00:00",
+    "last_updated": "2026-09-15T10:06:47.635948+00:00"
+  },
+  "3e550bfee0937741": {
+    "url": "https://www.opportunitiesforafricans.com/the-award-leadership-program-2027-for-emerging-african-women-in-science-cohort-2/",
+    "title": "The AWARD Leadership Program 2027 for Emerging African Women in Science (Cohort 2)",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "model_eligibility_status": "CONFIRMED_INELIGIBLE",
+    "missing_requirements": [],
+    "blocking_issues": [
+      "Residency not in Africa",
+      "Degree not in agricultural science discipline",
+      "Less than five years of full‑time sector experience",
+      "Current professional work not agriculture‑related"
+    ],
+    "addressable_gaps": [],
+    "reasoning": "The program requires applicants to reside in Africa, have a minimum B.Sc. in an agricultural science discipline, possess at least five years of full‑time sector experience, and be actively engaged in agriculture‑related professional work. Gulilat is a 27‑year‑old Ethiopian woman, but she currently lives in Vientiane, Lao PDR (outside Africa), holds a B.Sc. in Psychology (not an agricultural science), has only about 2‑3 years of professional experience, and works in AI, marketing and psychology rather than agriculture. These are explicit hard blockers.",
+    "id": "3e550bfee0937741",
+    "first_seen": "2026-09-15T10:07:52.516155+00:00",
+    "last_updated": "2026-09-15T10:07:52.516165+00:00"
+  },
+  "2303ca80b9b5e8d0": {
+    "url": "https://federalgrantsinfo.com/african-grants-opportunities",
+    "title": "African Grants 2026: Verified Startup, NGO & Research Funding Opportunities (Live & Updated) - FEDERAL GOVERNMENT GRANTS",
+    "status": "analyzed",
+    "score": 4.7,
+    "category": "grants",
+    "official_url": "https://federalgrantsinfo.com/african-grants-opportunities",
+    "location": null,
+    "remote": null,
+    "deadline": null,
+    "reward": "partial",
+    "estimated_value": null,
+    "eligibility_status": "PROBABLY_ELIGIBLE",
+    "credibility_status": "LIKELY_LEGITIMATE",
+    "source_tier": "TIER_4",
+    "source_quality": 0,
+    "requirements": [],
+    "id": "2303ca80b9b5e8d0",
+    "first_seen": "2026-09-15T10:10:36.176651+00:00",
+    "last_updated": "2026-09-15T10:10:36.176660+00:00"
+  },
+  "cc16dbf4a2d31756": {
+    "url": "https://cartafrica.org/grants-opportunities",
+    "title": "Grants & Opportunities | The Consortium for Advanced Research Training in Africa",
+    "status": "ineligible",
+    "eligibility_status": "PROBABLY_INELIGIBLE",
+    "model_eligibility_status": "PROBABLY_INELIGIBLE",
+    "missing_requirements": [
+      "Specific eligibility criteria (age limits, citizenship restrictions, required degree level) for each listed opportunity are not detailed on the page.",
+      "Confirmation of whether any listed opportunity accepts candidates with only a bachelor's degree."
+    ],
+    "blocking_issues": [
+      "Degree level mismatch: many listed fellowships require a PhD, candidate only has a BSc.",
+      "Student status: candidate is a working professional, not currently enrolled, which excludes student‑only scholarships."
+    ],
+    "addressable_gaps": [
+      "English proficiency proof: can obtain Duolingo or MOI certificate."
+    ],
+    "reasoning": "The CARTA opportunities page lists multiple calls, many of which explicitly require a PhD (e.g., PhD fellowship, postdoctoral fellowship) or current enrollment as a student (e.g., master scholarships). The candidate holds only a BSc and is not a student, which does not meet those hard criteria. While some calls (e.g., call for papers, thematic challenges) may not have degree or student requirements, the page does not provide clear eligibility details for those, making it unlikely the candidate can secure a fully‑funded master scholarship or fellowship that matches their stated goals.",
+    "id": "cc16dbf4a2d31756",
+    "first_seen": "2026-09-15T10:12:11.175237+00:00",
+    "last_updated": "2026-09-15T10:12:11.175252+00:00"
+  },
+  "5f598bdbc0e63d5d": {
+    "url": "https://www.fundraisingdispatch.com/p/open-funding-opportunities-grants-july-2026",
+    "title": "Active grants and funding opportunities - July, 2026",
+    "status": "analyzed",
+    "score": 2.6,
+    "category": "grants",
+    "official_url": "https://www.fundraisingdispatch.com/p/open-funding-opportunities-grants-july-2026",
+    "location": null,
+    "remote": null,
+    "deadline": null,
+    "reward": "none",
+    "estimated_value": null,
+    "eligibility_status": "PROBABLY_ELIGIBLE",
+    "credibility_status": "LIKELY_LEGITIMATE",
+    "source_tier": "TIER_4",
+    "source_quality": 0,
+    "requirements": [],
+    "id": "5f598bdbc0e63d5d",
+    "first_seen": "2026-09-15T10:14:41.050022+00:00",
+    "last_updated": "2026-09-15T10:14:41.050036+00:00"
+  },
+  "a579166422fd296c": {
+    "url": "https://www.facebook.com/groups/fulbrightscholarships/posts/2914355308760158",
+    "title": "🌍 List of Internships 2026–2027 (Paid & Fully Funded) For ...",
+    "status": "suspicious",
+    "credibility_status": "SUSPICIOUS",
+    "source_tier": "TIER_4",
+    "reasoning": "The post is hosted in a generic Facebook group and uses 'clickbait' phrasing ('Reply with...') to drive engagement rather than providing a direct link to an official institutional portal. The promise of 'fully funded' internships without IELTS for a broad, unspecified audience is a common tactic used by lead-generation scams or data-harvesting schemes.",
+    "id": "a579166422fd296c",
+    "first_seen": "2026-09-15T10:15:05.943594+00:00",
+    "last_updated": "2026-09-15T10:15:05.943608+00:00"
+  },
+  "83b4b5f37f57afd8": {
+    "url": "https://www.ukri.org/apply-for-funding/our-fellowship-opportunities",
+    "title": "Our fellowship opportunities – UKRI",
+    "status": "unknown",
+    "eligibility_status": "UNCERTAIN",
+    "model_eligibility_status": "UNCERTAIN",
+    "missing_requirements": [
+      "Clarification of what counts as 'equivalent research or innovation experience' to a PhD",
+      "Any explicit English language proficiency requirement",
+      "Details on host organisation eligibility and sponsorship requirements",
+      "Specific award frequency, deadlines, and application procedures for individual fellowships"
+    ],
+    "blocking_issues": [],
+    "addressable_gaps": [
+      "English language proficiency (if required) – candidate can obtain MOI certificate or Duolingo English Test"
+    ],
+    "reasoning": "The UKRI fellowship pages repeatedly state that applicants must have a PhD or demonstrate equivalent research/innovation experience/training (e.g., Early Independence fellowships, Future Leaders Fellowships, EPSRC postdoctoral fellowships). The candidate holds only a BSc in Psychology and has professional work experience, but it is unverifiable whether that experience meets the 'equivalent' threshold. This degree-level requirement could exclude the candidate, making the eligibility uncertain.",
+    "id": "83b4b5f37f57afd8",
+    "first_seen": "2026-09-15T10:16:36.811132+00:00",
+    "last_updated": "2026-09-15T10:16:36.811143+00:00"
+  },
+  "0cd120be619e7d8e": {
+    "url": "https://www.opportunitiescircle.com/if-design-student-award",
+    "title": "iF Design Student Award 2026 | EUR 50,000 Cash Prize - Opportunities Circle",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "model_eligibility_status": "CONFIRMED_INELIGIBLE",
+    "missing_requirements": [
+      "Current university enrollment",
+      "Graduation within the past 2 years",
+      "Design-related field of study"
+    ],
+    "blocking_issues": [
+      "Not currently enrolled (working professional, not a student)",
+      "Graduated more than 2 years ago (2021 graduation, now 2025)",
+      "Degree field is Psychology, not a design-related course"
+    ],
+    "addressable_gaps": [
+      "English proficiency documentation (can obtain MOI certificate or Duolingo test)"
+    ],
+    "reasoning": "The program explicitly requires applicants to be 'currently enrolled in a university' or 'graduated in the past 2 years' and to be studying 'design-related courses'. The candidate is a working professional (not enrolled), graduated in 2021 (more than 2 years ago), and holds a BSc in Psychology, which is not a design-related field. These criteria are hard exclusions stated on the page, making the candidate ineligible.",
+    "id": "0cd120be619e7d8e",
+    "first_seen": "2026-09-15T10:19:53.742720+00:00",
+    "last_updated": "2026-09-15T10:19:53.742735+00:00"
   }
 }
