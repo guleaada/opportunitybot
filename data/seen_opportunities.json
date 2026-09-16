@@ -4416,23 +4416,24 @@
     "status": "legitimacy_unknown",
     "credibility_status": "NEEDS_VERIFICATION",
     "source_tier": "TIER_4",
-    "reasoning": "No reasoning returned.",
+    "reasoning": "The page is an aggregator listing many well‑known fellowships (e.g., Hong Kong PhD Fellowship, NSF GRFP) and does not request any fees or personal payments. However, it provides no direct verification of each program's official source, so there is insufficient evidence to confirm legitimacy.",
     "id": "7a7fee2f0e73c42b",
     "first_seen": "2026-08-19T00:38:34.822015+00:00",
-    "last_updated": "2026-08-19T00:38:34.822026+00:00",
+    "last_updated": "2026-09-16T09:44:52.320261+00:00",
     "analysis_recovery_queued": true
   },
   "671a64dbf984646c": {
     "url": "https://za.usembassy.gov/hubert-h-humphrey-fellowship-program",
     "title": "Hubert H. Humphrey Fellowship Program - U.S. Embassy & Consulates in South Africa",
-    "status": "legitimacy_unknown",
+    "status": "filtered_out",
     "credibility_status": "NEEDS_VERIFICATION",
     "source_tier": "TIER_4",
     "reasoning": "No reasoning returned.",
     "id": "671a64dbf984646c",
     "first_seen": "2026-08-19T00:38:59.362326+00:00",
-    "last_updated": "2026-08-19T00:38:59.362338+00:00",
-    "analysis_recovery_queued": true
+    "last_updated": "2026-09-16T09:45:13.562902+00:00",
+    "analysis_recovery_queued": true,
+    "reason": "Applications are closed (deadline passed)"
   },
   "f60a7785aabc9c62": {
     "url": "https://www.starsfellows.africa/applyattypp",
@@ -4446,25 +4447,45 @@
   "82c3a278e79e46f8": {
     "url": "https://www.advance-africa.com/Call-for-Proposals.html",
     "title": "Current Call for Proposals for Developing Countries 2026/2027 - Grants",
-    "status": "legitimacy_unknown",
+    "status": "unknown",
     "credibility_status": "NEEDS_VERIFICATION",
     "source_tier": "TIER_4",
-    "reasoning": "No reasoning returned.",
+    "reasoning": "The program description is a generic list of many grant opportunities without a single set of explicit eligibility criteria. While the candidate meets broad conditions that many of these grants target (Ethiopian national, developing‑country applicant, age 27, holds a bachelor's degree), several specific requirements that could be decisive are not stated (e.g., gender, whether the applicant must be an NGO or represent an organization, age caps for youth‑focused grants, English proficiency thresholds, or student status). Because we cannot verify these missing criteria, we cannot confirm eligibility nor declare a hard exclusion.",
     "id": "82c3a278e79e46f8",
     "first_seen": "2026-08-19T00:39:42.238909+00:00",
-    "last_updated": "2026-08-19T00:39:42.238920+00:00",
-    "analysis_recovery_queued": true
+    "last_updated": "2026-09-16T09:46:48.552112+00:00",
+    "analysis_recovery_queued": true,
+    "eligibility_status": "UNCERTAIN",
+    "model_eligibility_status": "UNCERTAIN",
+    "missing_requirements": [
+      "Specific grant‑by‑grant eligibility details (e.g., gender requirement, age limit, student vs. professional status, NGO affiliation).",
+      "Confirmation of English language proficiency as required by individual grants.",
+      "Any required project or research proposal documentation."
+    ],
+    "blocking_issues": [],
+    "addressable_gaps": [
+      "Obtain an English proficiency test result (IELTS, TOEFL, Duolingo, or MOI certificate) if required by a specific grant.",
+      "Provide proof of gender (if the grant is women‑only) and any organizational affiliation or project proposal required."
+    ]
   },
   "2e9c86b8cdeace76": {
     "url": "https://igpc.najah.edu/new-calls-for-projects-and-initiatives",
     "title": "New calls for projects and initiatives | International Grants and ...",
-    "status": "unknown",
-    "eligibility_status": "UNCERTAIN",
-    "reasoning": "No reasoning returned.",
+    "status": "ineligible",
+    "eligibility_status": "PROBABLY_INELIGIBLE",
+    "reasoning": "The Jacobs–CIFAR Research Fellowship targets early‑career researchers and typically requires a PhD or a current post‑doctoral position. The candidate holds only a BSc and is a working professional, not a researcher with a doctoral degree. No explicit nationality restriction is mentioned, and the age (27) is within typical early‑career limits, but the degree level mismatch is a hard blocker.",
     "id": "2e9c86b8cdeace76",
     "first_seen": "2026-08-19T00:40:11.665152+00:00",
-    "last_updated": "2026-08-19T00:40:11.665163+00:00",
-    "analysis_recovery_queued": true
+    "last_updated": "2026-09-16T09:48:29.380763+00:00",
+    "analysis_recovery_queued": true,
+    "model_eligibility_status": "PROBABLY_INELIGIBLE",
+    "missing_requirements": [
+      "Specific eligibility details such as required academic degree, research position, and proposal format are not stated in the excerpt; however, standard fellowship criteria imply a PhD is needed."
+    ],
+    "blocking_issues": [
+      "Degree level mismatch: candidate does not have a PhD or post‑doctoral status required for the fellowship."
+    ],
+    "addressable_gaps": []
   },
   "a3299852b125dc31": {
     "url": "https://grantexec.com/grants/issue/international-development/eligibility/individuals",
@@ -9918,5 +9939,112 @@
     "id": "0cd120be619e7d8e",
     "first_seen": "2026-09-15T10:19:53.742720+00:00",
     "last_updated": "2026-09-15T10:19:53.742735+00:00"
+  },
+  "d7716ce7f6bd45cb": {
+    "url": "https://opportunitiescorners.com/gates-cambridge-scholarship-2027/",
+    "title": "Gates Cambridge Scholarship 2027 in UK (Fully Funded)",
+    "status": "notified",
+    "score": 5.0,
+    "category": null,
+    "official_url": "https://opportunitiescorners.com/gates-cambridge-scholarship-2027/",
+    "location": null,
+    "remote": null,
+    "deadline": null,
+    "reward": "fully_funded",
+    "estimated_value": null,
+    "eligibility_status": "PROBABLY_ELIGIBLE",
+    "credibility_status": "LIKELY_LEGITIMATE",
+    "source_tier": "TIER_3",
+    "source_quality": 7,
+    "requirements": [
+      "Gates Cambridge statement (approximately 500 words)",
+      "Research proposal (PhD applicants only)",
+      "Two academic references (Gates Cambridge references)"
+    ],
+    "id": "d7716ce7f6bd45cb",
+    "first_seen": "2026-09-16T09:51:11.346033+00:00",
+    "last_updated": "2026-09-16T10:03:59.981029+00:00",
+    "notification_tier": "WATCHLIST",
+    "notified_at": "2026-09-16T10:03:59.973164+00:00"
+  },
+  "48056a57c62546f6": {
+    "url": "https://opportunitiescorners.com/global-korea-scholarship-2027-for-undergraduates/",
+    "title": "Global Korea Scholarship 2027 for Undergraduates (Fully Funded)",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "model_eligibility_status": "CONFIRMED_INELIGIBLE",
+    "missing_requirements": [
+      "Verification whether Ethiopia is a GKS partner country"
+    ],
+    "blocking_issues": [
+      "Age exceeds the 25-year limit (candidate is 27)",
+      "Already holds a bachelor's degree (program requires no prior bachelor's)"
+    ],
+    "addressable_gaps": [],
+    "reasoning": "The Global Korea Scholarship for Undergraduates requires applicants to be under 25 years old and to not already hold a bachelor's degree. The candidate is 27 and already has a BSc, which are hard blockers. Additionally, the program requires citizenship of a GKS partner country, which is not confirmed for Ethiopia.",
+    "id": "48056a57c62546f6",
+    "first_seen": "2026-09-16T09:52:28.600315+00:00",
+    "last_updated": "2026-09-16T09:52:28.600331+00:00"
+  },
+  "3fe3fa984c0f31e8": {
+    "url": "https://www.opportunitiesforafricans.com/africalics-visiting-phd-fellowship-programme-2027/",
+    "title": "AfricaLics Visiting PhD Fellowship Programme 2027 for young African PhD Students (Funded)",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "model_eligibility_status": "CONFIRMED_INELIGIBLE",
+    "missing_requirements": [
+      "Proof of current PhD enrollment at an African university",
+      "First year of PhD studies completion by December 2026",
+      "Academic certificates (Bachelor and Master copies)",
+      "Brief outline of PhD project and training plan",
+      "Curriculum Vitae (CV)",
+      "Supervisor letter of support",
+      "Letter from University Administration"
+    ],
+    "blocking_issues": [
+      "Not enrolled as a PhD student at an African university"
+    ],
+    "addressable_gaps": [
+      "Obtain IELTS/TOEFL certificate (can take Duolingo English Test)",
+      "Complete PhD program and meet first-year completion deadline (Dec 2026)"
+    ],
+    "reasoning": "The AfricaLics Visiting PhD Fellowship Programme explicitly requires applicants to be enrolled as PhD students at an African university. The candidate profile states they are a 'Working professional (NOT a student)' with only a BSc (graduated 2021). This is a fundamental eligibility barrier that cannot be resolved by obtaining additional credentials.",
+    "id": "3fe3fa984c0f31e8",
+    "first_seen": "2026-09-16T09:53:57.617825+00:00",
+    "last_updated": "2026-09-16T09:53:57.617840+00:00"
+  },
+  "e96b4ace200ccbef": {
+    "url": "https://www.opportunitiesforafricans.com/the-desmond-leah-tutu-legacy-foundation-2027-leading-for-humanity-leadership-programme/",
+    "title": "The Desmond & Leah Tutu Legacy Foundation 2027 Leading for Humanity Leadership Programme for young changemakers (Funded)",
+    "status": "notified",
+    "score": 6.4,
+    "category": null,
+    "official_url": "https://www.opportunitiesforafricans.com/the-desmond-leah-tutu-legacy-foundation-2027-leading-for-humanity-leadership-programme/",
+    "location": null,
+    "remote": null,
+    "deadline": "2026-10-14",
+    "reward": "partial",
+    "estimated_value": null,
+    "eligibility_status": "PROBABLY_ELIGIBLE",
+    "credibility_status": "LIKELY_LEGITIMATE",
+    "source_tier": "TIER_3",
+    "source_quality": 7,
+    "requirements": [],
+    "id": "e96b4ace200ccbef",
+    "first_seen": "2026-09-16T09:55:03.908854+00:00",
+    "last_updated": "2026-09-16T10:03:59.961629+00:00",
+    "notification_tier": "GOOD",
+    "notified_at": "2026-09-16T10:03:59.952567+00:00"
+  },
+  "73b56941a67e3967": {
+    "url": "https://www.youtube.com/watch?v=s5NhHWHK9pc",
+    "title": "$1MM New Business Grants in April 2026",
+    "status": "legitimacy_unknown",
+    "credibility_status": "NEEDS_VERIFICATION",
+    "source_tier": "TIER_4",
+    "reasoning": "The extracted page text contains only YouTube's generic footer/navigation links with no scholarship or fellowship program details whatsoever. The automated keyword scan found zero red-flag phrases and zero trust signals, making any legitimacy determination impossible from the available evidence.",
+    "id": "73b56941a67e3967",
+    "first_seen": "2026-09-16T10:00:21.938918+00:00",
+    "last_updated": "2026-09-16T10:00:21.938936+00:00"
   }
 }
