@@ -4677,10 +4677,10 @@
     "status": "legitimacy_unknown",
     "credibility_status": "NEEDS_VERIFICATION",
     "source_tier": "TIER_3",
-    "reasoning": "No reasoning returned.",
+    "reasoning": "The Dangote Group is a reputable Nigerian conglomerate that could plausibly run a fleet management graduate program, and the listing does not request any payment. However, the page provides no direct link to an official Dangote website, only generic aggregator contact emails and an unspecified application deadline, making it impossible to verify the program's authenticity.",
     "id": "2b825bb15d724897",
     "first_seen": "2026-08-20T05:39:22.818459+00:00",
-    "last_updated": "2026-08-20T05:39:22.818469+00:00",
+    "last_updated": "2026-09-17T09:52:37.540338+00:00",
     "analysis_recovery_queued": true
   },
   "acc4c4288d1d0922": {
@@ -10046,5 +10046,216 @@
     "id": "73b56941a67e3967",
     "first_seen": "2026-09-16T10:00:21.938918+00:00",
     "last_updated": "2026-09-16T10:00:21.938936+00:00"
+  },
+  "5cc39132c7f436d4": {
+    "url": "https://www.opportunitiesforafricans.com/the-european-university-institute-jean-monnet-fellowships-2027/",
+    "title": "The European University Institute Jean Monnet Fellowships 2027 for PhD Scholars (€ 2,850 per month grant and Fully Funded to Florence, Italy)",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "model_eligibility_status": "CONFIRMED_INELIGIBLE",
+    "missing_requirements": [],
+    "blocking_issues": [
+      "Doctorate degree required (must have earned PhD before 1 Sep 2022) – candidate only has a BSc."
+    ],
+    "addressable_gaps": [],
+    "reasoning": "The fellowship requires candidates to have obtained a doctorate more than five years before the start date (PhD awarded before 1 September 2022). The candidate only holds a BSc degree and has no doctorate, which directly violates the core eligibility criterion. Nationality is not a barrier as all nationalities are accepted.",
+    "id": "5cc39132c7f436d4",
+    "first_seen": "2026-09-17T09:54:13.442650+00:00",
+    "last_updated": "2026-09-17T09:54:13.442661+00:00"
+  },
+  "56b3fb1022dbcab6": {
+    "url": "https://opportunitiescorners.com/gist-university-south-korea-scholarship-2027/",
+    "title": "GIST University South Korea Scholarship 2027 (Fully Funded)",
+    "status": "suspicious",
+    "credibility_status": "SUSPICIOUS",
+    "source_tier": "TIER_3",
+    "reasoning": "The page describes a real GIST University scholarship and does not request any payment, but the only contact provided is a generic Gmail address and there is no direct link to the official GIST website, which are red‑flag indicators.",
+    "id": "56b3fb1022dbcab6",
+    "first_seen": "2026-09-17T09:55:06.112369+00:00",
+    "last_updated": "2026-09-17T09:55:06.112380+00:00"
+  },
+  "d10584737ba970e5": {
+    "url": "https://opportunitiescorners.com/hansen-leadership-institute-2027/",
+    "title": "Hansen Leadership Institute 2027 in USA (Fully Funded)",
+    "status": "scam",
+    "credibility_status": "HIGH_RISK",
+    "source_tier": "TIER_3",
+    "reasoning": "The page offers to pay the U.S. visa fee (a fee the applicant must pay to the government), uses only a generic Gmail address for contact, provides no direct link to an official University of San Diego page, and pushes users to join WhatsApp groups, all classic red‑flag indicators of a fraudulent scholarship offer.",
+    "id": "d10584737ba970e5",
+    "first_seen": "2026-09-17T09:55:56.529292+00:00",
+    "last_updated": "2026-09-17T09:55:56.529305+00:00"
+  },
+  "66ecbc7a2248f129": {
+    "url": "https://www.opportunitiesforafricans.com/the-open-notebook-ton-early-career-fellowship-program-2027/",
+    "title": "The Open Notebook (TON) Early-Career Fellowship Program 2027 for early-career science journalists ($6,000 Stipend)",
+    "status": "unknown",
+    "eligibility_status": "UNCERTAIN",
+    "model_eligibility_status": "UNCERTAIN",
+    "missing_requirements": [
+      "Verified experience in science journalism (regular professional science‑writing under three years).",
+      "Confirmed English writing samples (or translations) meeting the fellowship’s quality expectations."
+    ],
+    "blocking_issues": [],
+    "addressable_gaps": [
+      "Provide writing samples in English that demonstrate science journalism experience.",
+      "Obtain a letter of reference from someone who can attest to science writing ability.",
+      "If needed, acquire an English proficiency test result (e.g., Duolingo) to strengthen the application."
+    ],
+    "reasoning": "The fellowship requires early‑career science journalists with some training/experience writing about science for the general public and fewer than three years of regular professional science‑writing experience. The candidate is a working professional with a BSc in Psychology and AI/tech experience, but no explicit evidence of science journalism experience or writing samples is provided. This decision‑relevant criterion cannot be verified, creating uncertainty. No hard blockers (nationality, student status, age, degree level) are present.",
+    "id": "66ecbc7a2248f129",
+    "first_seen": "2026-09-17T09:57:13.644706+00:00",
+    "last_updated": "2026-09-17T09:57:13.644720+00:00"
+  },
+  "ab380e1e680c14f9": {
+    "url": "https://www.opportunitiesforafricans.com/the-citi-foundation-global-innovation-challenge-2026/",
+    "title": "The Citi Foundation Global Innovation Challenge 2027 for nonprofit organisations (US$500,000 grant)",
+    "status": "ineligible",
+    "eligibility_status": "PROBABLY_INELIGIBLE",
+    "model_eligibility_status": "PROBABLY_INELIGIBLE",
+    "missing_requirements": [],
+    "blocking_issues": [
+      "Applicant is not a registered nonprofit entity (hard blocker)"
+    ],
+    "addressable_gaps": [
+      "Form a registered nonprofit organization; obtain audited financial statements for 2024 or later; submit application on behalf of that organization"
+    ],
+    "reasoning": "The program requires applicants to be registered nonprofit entities under local law and to provide audited financial statements. The candidate is a working professional and not a nonprofit organization, so this core eligibility criterion is not met. No nationality, age, or degree restrictions are stated, but the nonprofit requirement is a hard blocker.",
+    "id": "ab380e1e680c14f9",
+    "first_seen": "2026-09-17T09:58:29.680031+00:00",
+    "last_updated": "2026-09-17T09:58:29.680044+00:00"
+  },
+  "f4a5e5669fe65696": {
+    "url": "https://www.opportunitiesforafricans.com/the-pulitzer-center-gender-equality-grants-2026-for-journalists-worldwide/",
+    "title": "The Pulitzer Center Gender Equality Grants 2026 for Journalists worldwide.",
+    "status": "ineligible",
+    "eligibility_status": "PROBABLY_INELIGIBLE",
+    "model_eligibility_status": "PROBABLY_INELIGIBLE",
+    "missing_requirements": [],
+    "blocking_issues": [
+      "Hard blocker: Candidate is not a journalist (no demonstrated journalism experience or credentials)."
+    ],
+    "addressable_gaps": [
+      "Could provide evidence of journalism activity (published articles, bylines, freelance work) to meet the journalist requirement."
+    ],
+    "reasoning": "The grant explicitly requires applicants to be freelance journalists, staff journalists, or newsrooms. The candidate's profile lists roles as AI developer, marketing specialist, psychologist, and community leader with no evidence of journalism work, which does not satisfy this core requirement. All other stated criteria (nationality, age, residency) are met or not applicable.",
+    "id": "f4a5e5669fe65696",
+    "first_seen": "2026-09-17T09:59:15.878342+00:00",
+    "last_updated": "2026-09-17T09:59:15.878356+00:00"
+  },
+  "69537ed61893116d": {
+    "url": "https://www.opportunitiesforafricans.com/2026-agnes-intra-africa-mobility-grants-for-junior-researchers/",
+    "title": "2026 AGNES Intra-Africa Mobility Grants for Junior Researchers",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "model_eligibility_status": "CONFIRMED_INELIGIBLE",
+    "missing_requirements": [
+      "Proof of registration for a doctoral program",
+      "Copy of academic transcripts for postgraduate studies (none exist)",
+      "List of published articles with SCOPUS/Web of Science links"
+    ],
+    "blocking_issues": [
+      "Not a current doctoral student (degree level mismatch / must be officially registered for a doctoral degree)",
+      "No evidence of required published article in SCOPUS/Web of Science indexed journal"
+    ],
+    "addressable_gaps": [],
+    "reasoning": "The program explicitly requires applicants to be *currently registered for a doctoral degree* at a university/tertiary institute in sub‑Saharan Africa. The candidate holds only a BSc and is a working professional, not a doctoral student. Additionally, the candidate has not demonstrated having a published article in a SCOPUS or Web of Science indexed journal, which is also required. These are hard blockers.",
+    "id": "69537ed61893116d",
+    "first_seen": "2026-09-17T10:00:28.801115+00:00",
+    "last_updated": "2026-09-17T10:00:28.801131+00:00"
+  },
+  "f0daea31cb3b8006": {
+    "url": "https://opportunitiesforyouth.org/2026/04/28/the-international-foundation-grant-program-2026-a-complete-guide-for-nonprofits-in-the-global-south",
+    "title": "The International Foundation Grant Program 2026: A Complete Guide for Nonprofits in the Global South - Opportunities for Youth",
+    "status": "analyzed",
+    "score": 2.0,
+    "category": "grants",
+    "official_url": "https://opportunitiesforyouth.org/2026/04/28/the-international-foundation-grant-program-2026-a-complete-guide-for-nonprofits-in-the-global-south",
+    "location": null,
+    "remote": null,
+    "deadline": null,
+    "reward": "partial",
+    "estimated_value": null,
+    "eligibility_status": "UNCERTAIN",
+    "credibility_status": "NEEDS_VERIFICATION",
+    "source_tier": "TIER_3",
+    "source_quality": 7,
+    "requirements": [],
+    "id": "f0daea31cb3b8006",
+    "first_seen": "2026-09-17T10:01:39.268651+00:00",
+    "last_updated": "2026-09-17T10:01:39.268668+00:00"
+  },
+  "1fd47ae93e3616e0": {
+    "url": "https://competition.adesignaward.com",
+    "title": "A' Design Award and Competition",
+    "status": "analyzed",
+    "score": 2.5,
+    "category": "cash_prize_competitions",
+    "official_url": "https://competition.adesignaward.com",
+    "location": null,
+    "remote": null,
+    "deadline": null,
+    "reward": "none",
+    "estimated_value": null,
+    "eligibility_status": "PROBABLY_ELIGIBLE",
+    "credibility_status": "LIKELY_LEGITIMATE",
+    "source_tier": "TIER_4",
+    "source_quality": 0,
+    "requirements": [
+      "Proof of Creation"
+    ],
+    "id": "1fd47ae93e3616e0",
+    "first_seen": "2026-09-17T10:04:23.026300+00:00",
+    "last_updated": "2026-09-17T10:04:23.026315+00:00"
+  },
+  "6fad0b93c2b57d51": {
+    "url": "https://edc.nyc/founder-fellowship",
+    "title": "Founder Fellowship",
+    "status": "unknown",
+    "eligibility_status": "UNCERTAIN",
+    "model_eligibility_status": "UNCERTAIN",
+    "missing_requirements": [
+      "Eligibility criteria such as nationality restrictions",
+      "Age limits",
+      "Requirement to be a current student or recent graduate",
+      "Degree level requirements",
+      "Startup or founder experience requirements",
+      "Geographic residency or work‑authorization requirements"
+    ],
+    "blocking_issues": [],
+    "addressable_gaps": [],
+    "reasoning": "The program description does not specify any eligibility criteria (e.g., nationality, age limit, student status, degree level, startup stage, or location). Because we cannot verify whether the candidate meets unstated requirements, we cannot confirm eligibility.",
+    "id": "6fad0b93c2b57d51",
+    "first_seen": "2026-09-17T10:04:56.136126+00:00",
+    "last_updated": "2026-09-17T10:04:56.136140+00:00"
+  },
+  "7587c1cfbb241ddf": {
+    "url": "https://opportunitiesforyouth.org",
+    "title": "Opportunities for Youth | Empowering Youth through Access to Information and Opportunities",
+    "status": "analyzed",
+    "score": 3.2,
+    "category": "fellowships",
+    "official_url": "https://opportunitiesforyouth.org",
+    "location": null,
+    "remote": null,
+    "deadline": null,
+    "reward": "fully_funded",
+    "estimated_value": null,
+    "eligibility_status": "UNCERTAIN",
+    "credibility_status": "NEEDS_VERIFICATION",
+    "source_tier": "TIER_3",
+    "source_quality": 7,
+    "requirements": [],
+    "id": "7587c1cfbb241ddf",
+    "first_seen": "2026-09-17T10:06:01.346576+00:00",
+    "last_updated": "2026-09-17T10:06:01.346588+00:00"
+  },
+  "30ee388c179a915b": {
+    "url": "https://www.wvu.edu/admissions/undergraduate/how-to-apply",
+    "title": "Apply",
+    "status": "filtered_out",
+    "reason": "It's an undergraduate admission page with tuition, not a funded scholarship or fellowship.",
+    "id": "30ee388c179a915b",
+    "first_seen": "2026-09-17T10:06:11.457741+00:00",
+    "last_updated": "2026-09-17T10:06:11.457755+00:00"
   }
 }
