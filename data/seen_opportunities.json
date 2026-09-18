@@ -4802,26 +4802,58 @@
   "2e2e09e81b3b8fe5": {
     "url": "https://www.opportunitiesforafricans.com/university-of-edinburgh-mastercard-foundation-scholars-program-2027-2028/",
     "title": "University of Edinburgh Mastercard Foundation Scholars Program 2027/2028 for young Africans (Fully Funded)",
-    "status": "legitimacy_unknown",
+    "status": "ineligible",
     "credibility_status": "NEEDS_VERIFICATION",
     "source_tier": "TIER_3",
-    "reasoning": "No reasoning returned.",
+    "reasoning": "The program requires applicants to be both citizens **and residents** of an African country. Gulilat is an Ethiopian citizen but currently resides in Lao PDR, which does not satisfy the residency clause, creating a hard blocker. All other core criteria (age, degree level, no prior postgraduate degree, and citizenship) are met or potentially meetable, but the residency requirement alone disqualifies the candidate.",
     "id": "2e2e09e81b3b8fe5",
     "first_seen": "2026-08-21T05:38:11.734228+00:00",
-    "last_updated": "2026-08-21T05:38:11.734236+00:00",
-    "analysis_recovery_queued": true
+    "last_updated": "2026-09-18T09:28:26.191257+00:00",
+    "analysis_recovery_queued": true,
+    "eligibility_status": "PROBABLY_INELIGIBLE",
+    "model_eligibility_status": "PROBABLY_INELIGIBLE",
+    "missing_requirements": [
+      "Verification of achieving a UK Second Class (Upper) Bachelor's degree equivalent",
+      "Documentation of significant barriers faced in education/early career",
+      "Specific proof of leadership/service activities",
+      "Proof of climate‑crisis related impact or ambition"
+    ],
+    "blocking_issues": [
+      "Residency requirement not met: candidate lives in Lao PDR, not an African country"
+    ],
+    "addressable_gaps": [
+      "Obtain an English proficiency test result (Duolingo or MOI certificate) if required by the university admission process",
+      "Provide documented evidence of leadership and community service",
+      "Provide evidence of experience or clear ambition in addressing the climate crisis",
+      "Supply official transcript showing a UK 2:1 (Upper Second Class) equivalent grade"
+    ]
   },
   "0ba379f0886cfb8d": {
     "url": "https://www.opportunitiesforafricans.com/swiss-government-excellence-scholarships-2027-2028-for-foreign-students-artists/",
     "title": "Swiss Government Excellence Scholarships 2027/2028 for Foreign Students & Artists to study in Switzerland (Funded)",
-    "status": "legitimacy_unknown",
+    "status": "ineligible",
     "credibility_status": "NEEDS_VERIFICATION",
     "source_tier": "TIER_3",
-    "reasoning": "No reasoning returned.",
+    "reasoning": "The Swiss Government Excellence Scholarships are primarily for early‑career researchers who have already completed a Master's degree (or for art students from a limited set of 26 countries). The candidate only holds a BSc, has no Master's degree, and is not currently enrolled in a postgraduate program. Additionally, research scholarships require a Swiss academic supervisor, which the candidate does not have. While the candidate meets the nationality (Ethiopia is among the 183 eligible countries) and age (27 < 35) criteria, the degree‑level requirement is a hard blocker.",
     "id": "0ba379f0886cfb8d",
     "first_seen": "2026-08-21T05:38:39.403623+00:00",
-    "last_updated": "2026-08-21T05:38:39.403630+00:00",
-    "analysis_recovery_queued": true
+    "last_updated": "2026-09-18T09:29:28.663583+00:00",
+    "analysis_recovery_queued": true,
+    "eligibility_status": "PROBABLY_INELIGIBLE",
+    "model_eligibility_status": "PROBABLY_INELIGIBLE",
+    "missing_requirements": [
+      "Exact list of the 26 countries eligible for the art scholarship (to verify if Ethiopia qualifies)",
+      "Specific English language proficiency requirement (e.g., IELTS/TOEFL minimum score) if any"
+    ],
+    "blocking_issues": [
+      "Degree level mismatch: program requires a completed Master's degree for research scholarships; candidate only has a BSc"
+    ],
+    "addressable_gaps": [
+      "Obtain a Master's degree (or enroll in one) to satisfy the degree requirement",
+      "Secure an academic supervisor in Switzerland for a research/phD scholarship",
+      "Provide an English proficiency test result if the program requires it",
+      "Confirm whether Ethiopia is among the 26 eligible countries for the art scholarship route"
+    ]
   },
   "e34bc86ea8b6bde8": {
     "url": "https://opportunitydesk.org/2026/08/20/presidential-digital-talent-programme-2026-cohort-xi/",
@@ -10257,5 +10289,161 @@
     "id": "30ee388c179a915b",
     "first_seen": "2026-09-17T10:06:11.457741+00:00",
     "last_updated": "2026-09-17T10:06:11.457755+00:00"
+  },
+  "6d212d7c8fbf508d": {
+    "url": "https://opportunitiescorners.com/european-youth-assembly-2027-in-the-netherlands/",
+    "title": "European Youth Assembly 2027 in the Netherlands (Fully Funded)",
+    "status": "suspicious",
+    "credibility_status": "SUSPICIOUS",
+    "source_tier": "TIER_3",
+    "reasoning": "The page requires an application fee for a fully funded conference and provides only a Gmail address (opportunitiescorners.com@gmail.com) as official contact, which are classic red‑flags. The organizer, Center for International Policy and Sustainability (CIPS), cannot be readily verified and no direct link to an official program website is given.",
+    "id": "6d212d7c8fbf508d",
+    "first_seen": "2026-09-18T09:30:58.135221+00:00",
+    "last_updated": "2026-09-18T09:30:58.135239+00:00"
+  },
+  "8dca04aebc49cd6d": {
+    "url": "https://opportunitiescorners.com/talk-talk-korea-2026/",
+    "title": "Talk Talk Korea 2026 (Fully Funded Trip to South Korea)",
+    "status": "analyzed",
+    "score": 4.9,
+    "category": null,
+    "official_url": "https://opportunitiescorners.com/talk-talk-korea-2026/",
+    "location": null,
+    "remote": null,
+    "deadline": "2026-09-28",
+    "reward": "fully_funded",
+    "estimated_value": null,
+    "eligibility_status": "CONFIRMED_ELIGIBLE",
+    "credibility_status": "LIKELY_LEGITIMATE",
+    "source_tier": "TIER_3",
+    "source_quality": 7,
+    "requirements": [],
+    "id": "8dca04aebc49cd6d",
+    "first_seen": "2026-09-18T09:33:02.438658+00:00",
+    "last_updated": "2026-09-18T09:33:02.438678+00:00"
+  },
+  "d84c54a67c98f8fc": {
+    "url": "https://www.opportunitiesforafricans.com/the-world-bank-group-small-ai-for-development-hackathon-challenge-2026/",
+    "title": "The World Bank Group Small AI for Development Hackathon Challenge 2026 (Fully Funded to present at the 2026 Global AI and Digital Summit in Seoul, South Korea)",
+    "status": "legitimacy_unknown",
+    "credibility_status": "NEEDS_VERIFICATION",
+    "source_tier": "TIER_3",
+    "reasoning": "The hackathon is presented as organized by the World Bank Group and managed by Hack‑Nation, with no fee mentioned and travel expenses covered, which are typical of legitimate programs. However, the page provides only an aggregator link, uses generic email addresses, and lacks a direct official World Bank URL, making it impossible to verify the program’s authenticity from the given information.",
+    "id": "d84c54a67c98f8fc",
+    "first_seen": "2026-09-18T09:33:46.661135+00:00",
+    "last_updated": "2026-09-18T09:33:46.661149+00:00"
+  },
+  "169ccb4fd56d32c2": {
+    "url": "https://www.opportunitiesforafricans.com/ntt-data-young-talent-graduate-programme-2027-for-young-south-africans/",
+    "title": "NTT DATA Young Talent Graduate Programme 2027 for young South Africans.",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "model_eligibility_status": "CONFIRMED_INELIGIBLE",
+    "missing_requirements": [],
+    "blocking_issues": [
+      "Nationality not South African",
+      "Age exceeds 26-year limit",
+      "Degree field (Psychology) does not match required fields (IT, Commerce, Engineering, related)",
+      "Not a recent graduate / currently employed"
+    ],
+    "addressable_gaps": [],
+    "reasoning": "The programme explicitly targets \"young South Africans\" and requires applicants to be 26 years old or younger, holding a three‑year diploma or degree in Information Technology, Commerce, Engineering or a related field, and to be recent graduates. The candidate is Ethiopian (not South African), is 27 years old (exceeds the age cap), holds a BSc in Psychology (not a qualifying field), and is a working professional rather than a recent graduate. These are hard blockers.",
+    "id": "169ccb4fd56d32c2",
+    "first_seen": "2026-09-18T09:34:54.204362+00:00",
+    "last_updated": "2026-09-18T09:34:54.204379+00:00"
+  },
+  "0501832240510fd6": {
+    "url": "https://www.scholarshiptab.com/scholarships/commonwealth-foundation-2024-2025-open-grants-call-for-application",
+    "title": "Commonwealth Foundation 2024-2025 Open Grants call for Application for Developing Countries (Up to £30,000) | ScholarshipTab",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "model_eligibility_status": "CONFIRMED_INELIGIBLE",
+    "missing_requirements": [],
+    "blocking_issues": [
+      "Applicant is an individual, not a not‑for‑profit civil society organisation",
+      "Candidate's nationality (Ethiopian) is not from a Commonwealth member state"
+    ],
+    "addressable_gaps": [],
+    "reasoning": "The Commonwealth Foundation Open Grants explicitly require the applicant to be a not‑for‑profit civil society organisation (CSO) registered in an eligible Commonwealth Foundation Member State. The candidate is an individual professional, not a CSO, and holds Ethiopian nationality, and Ethiopia is not a Commonwealth member state. Therefore the candidate does not meet the fundamental eligibility criteria.",
+    "id": "0501832240510fd6",
+    "first_seen": "2026-09-18T09:35:41.496376+00:00",
+    "last_updated": "2026-09-18T09:35:41.496393+00:00"
+  },
+  "17686e011f141fc2": {
+    "url": "http://inesjover@cimam.org/travel-grant-program/cimam-travel-grant-program2026-harare/apply-travel-grant-international-open-call",
+    "title": "Apply for a CIMAM Travel Grant: International Open Call",
+    "status": "closed",
+    "deadline": null,
+    "id": "17686e011f141fc2",
+    "first_seen": "2026-09-18T09:36:17.231598+00:00",
+    "last_updated": "2026-09-18T09:36:17.231608+00:00"
+  },
+  "9b3feb091e323ffd": {
+    "url": "https://cimam.org/news-archive/apply-for-a-cimam-travel-grant-international-open-call_news",
+    "title": "Apply for a CIMAM Travel Grant: International Open Call",
+    "status": "ineligible",
+    "eligibility_status": "PROBABLY_INELIGIBLE",
+    "model_eligibility_status": "PROBABLY_INELIGIBLE",
+    "missing_requirements": [],
+    "blocking_issues": [
+      "Professional profile mismatch: not a museum director or curator"
+    ],
+    "addressable_gaps": [],
+    "reasoning": "The CIMAM Travel Grant explicitly requires applicants to be modern and contemporary art museum directors or curators. The candidate's profile lists roles as AI developer, marketing specialist, psychologist, and community leader with no museum or curatorial experience, which does not meet this core professional requirement. All other criteria (nationality, residence, age, student status) are either met or not applicable.",
+    "id": "9b3feb091e323ffd",
+    "first_seen": "2026-09-18T09:36:54.898788+00:00",
+    "last_updated": "2026-09-18T09:36:54.898806+00:00"
+  },
+  "59991936c435ffcf": {
+    "url": "https://www.cimam.org/travel-grant-program/cimam-travel-grant-program2026-harare/apply-travel-grant-international-open-call",
+    "title": "Apply for a CIMAM Travel Grant: International Open Call",
+    "status": "closed",
+    "deadline": null,
+    "id": "59991936c435ffcf",
+    "first_seen": "2026-09-18T09:37:38.852282+00:00",
+    "last_updated": "2026-09-18T09:37:38.852301+00:00"
+  },
+  "9bc6b97ee95ddd10": {
+    "url": "https://theinfoportal.com/unesco-ifcd-grant-2026",
+    "title": "UNESCO IFCD 2026 Grant: Open Call for Cultural Diversity Projects - Information Portal",
+    "status": "closed",
+    "deadline": "2026-05-06",
+    "id": "9bc6b97ee95ddd10",
+    "first_seen": "2026-09-18T09:38:01.668247+00:00",
+    "last_updated": "2026-09-18T09:38:01.668258+00:00"
+  },
+  "1b4854e69b84c9fe": {
+    "url": "https://www.opportunitiesforafricans.com/the-international-institute-of-tropical-agriculture-iita-graduate-internship-2026-for-young-nigerians/",
+    "title": "The International Institute of Tropical Agriculture (IITA) Graduate Internship 2026 for young Nigerians.",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "model_eligibility_status": "CONFIRMED_INELIGIBLE",
+    "missing_requirements": [],
+    "blocking_issues": [
+      "Nationality mismatch: program limited to Nigerian citizens"
+    ],
+    "addressable_gaps": [],
+    "reasoning": "The program explicitly states it is for \"young Nigerians\". The candidate is Ethiopian, which does not meet the nationality requirement. All other criteria (age, degree field, experience) are potentially met, but the nationality restriction is a hard blocker.",
+    "id": "1b4854e69b84c9fe",
+    "first_seen": "2026-09-18T09:38:57.544943+00:00",
+    "last_updated": "2026-09-18T09:38:57.544953+00:00"
+  },
+  "ed7c65cf255b0dd9": {
+    "url": "https://www.ukscholarships.uk/scholarships/commonwealth-foundation-2024-2025-open-grants-call-for-application-for-developing-countries-up-to-30-000",
+    "title": "Commonwealth Foundation 2024-2025 Open Grants call for Application for Developing Countries (Up to £30,000) | Ukscholarships",
+    "status": "closed",
+    "deadline": "2024-10-24",
+    "id": "ed7c65cf255b0dd9",
+    "first_seen": "2026-09-18T09:39:30.406072+00:00",
+    "last_updated": "2026-09-18T09:39:30.406084+00:00"
+  },
+  "27f0bf2f633b64c3": {
+    "url": "https://www.facebook.com/callforcurators/posts/open-call-20262027-international-residency-program-at-a4-residency-art-center-a4/1542992180457162",
+    "title": "OPEN CALL: 2026–2027 International... - Call for Curators",
+    "status": "closed",
+    "deadline": "2025-10-31",
+    "id": "27f0bf2f633b64c3",
+    "first_seen": "2026-09-18T09:39:44.101135+00:00",
+    "last_updated": "2026-09-18T09:39:44.101146+00:00"
   }
 }

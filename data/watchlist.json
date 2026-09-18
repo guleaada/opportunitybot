@@ -259,29 +259,14 @@
     "added": "2026-09-17T09:52:38.083216+00:00",
     "last_checked": "2026-09-17T09:52:38.082541"
   },
-  "2e2e09e81b3b8fe5": {
-    "id": "2e2e09e81b3b8fe5",
-    "url": "https://www.opportunitiesforafricans.com/university-of-edinburgh-mastercard-foundation-scholars-program-2027-2028/",
-    "title": "University of Edinburgh Mastercard Foundation Scholars Program 2027/2028 for young Africans (Fully Funded)",
-    "retry_analysis": true,
-    "reason": "Recover historical malformed model response",
-    "added": "2026-09-05T01:47:30.297337+00:00"
-  },
-  "0ba379f0886cfb8d": {
-    "id": "0ba379f0886cfb8d",
-    "url": "https://www.opportunitiesforafricans.com/swiss-government-excellence-scholarships-2027-2028-for-foreign-students-artists/",
-    "title": "Swiss Government Excellence Scholarships 2027/2028 for Foreign Students & Artists to study in Switzerland (Funded)",
-    "retry_analysis": true,
-    "reason": "Recover historical malformed model response",
-    "added": "2026-09-05T01:47:30.298768+00:00"
-  },
   "e34bc86ea8b6bde8": {
     "id": "e34bc86ea8b6bde8",
     "url": "https://opportunitydesk.org/2026/08/20/presidential-digital-talent-programme-2026-cohort-xi/",
     "title": "Presidential Digital Talent Programme 2026 – Cohort XI",
     "retry_analysis": true,
     "reason": "Recover historical malformed model response",
-    "added": "2026-09-05T01:47:30.300204+00:00"
+    "added": "2026-09-18T09:29:28.679025+00:00",
+    "last_checked": "2026-09-18T09:29:28.678714"
   },
   "51cd9a20b5f70a7b": {
     "id": "51cd9a20b5f70a7b",
@@ -289,7 +274,8 @@
     "title": "LSHTM Research Fellow and Fully Funded PhD Studentship Opportunities 2026–2027: Data Science, Statistics, Epidemiology and Maternity Inequalities",
     "retry_analysis": true,
     "reason": "Recover historical malformed model response",
-    "added": "2026-09-05T01:47:30.301702+00:00"
+    "added": "2026-09-18T09:29:28.856151+00:00",
+    "last_checked": "2026-09-18T09:29:28.855698"
   },
   "2d4a5f25706293b3": {
     "id": "2d4a5f25706293b3",
@@ -297,7 +283,8 @@
     "title": "AKU Fall 2026 Virtual Internship Programme | Virtual Internships for Students",
     "retry_analysis": true,
     "reason": "Recover historical malformed model response",
-    "added": "2026-09-05T01:47:30.302966+00:00"
+    "added": "2026-09-18T09:29:29.116133+00:00",
+    "last_checked": "2026-09-18T09:29:29.115648"
   },
   "eb87ddf5a143ba4d": {
     "id": "eb87ddf5a143ba4d",
@@ -1051,5 +1038,45 @@
     "reason": "monitoring — not confirmed open at scan time",
     "id": "d7716ce7f6bd45cb",
     "added": "2026-09-16T10:03:46.394980+00:00"
+  },
+  "17686e011f141fc2": {
+    "url": "http://inesjover@cimam.org/travel-grant-program/cimam-travel-grant-program2026-harare/apply-travel-grant-international-open-call",
+    "title": "Apply for a CIMAM Travel Grant: International Open Call",
+    "last_known_deadline": null,
+    "reason": "closed at discovery; likely annual",
+    "id": "17686e011f141fc2",
+    "added": "2026-09-18T09:36:17.238254+00:00"
+  },
+  "59991936c435ffcf": {
+    "url": "https://www.cimam.org/travel-grant-program/cimam-travel-grant-program2026-harare/apply-travel-grant-international-open-call",
+    "title": "Apply for a CIMAM Travel Grant: International Open Call",
+    "last_known_deadline": null,
+    "reason": "closed at discovery; likely annual",
+    "id": "59991936c435ffcf",
+    "added": "2026-09-18T09:37:38.859440+00:00"
+  },
+  "9bc6b97ee95ddd10": {
+    "url": "https://theinfoportal.com/unesco-ifcd-grant-2026",
+    "title": "UNESCO IFCD 2026 Grant: Open Call for Cultural Diversity Projects - Information Portal",
+    "last_known_deadline": "2026-05-06",
+    "reason": "closed at discovery; likely annual",
+    "id": "9bc6b97ee95ddd10",
+    "added": "2026-09-18T09:38:01.675390+00:00"
+  },
+  "ed7c65cf255b0dd9": {
+    "url": "https://www.ukscholarships.uk/scholarships/commonwealth-foundation-2024-2025-open-grants-call-for-application-for-developing-countries-up-to-30-000",
+    "title": "Commonwealth Foundation 2024-2025 Open Grants call for Application for Developing Countries (Up to £30,000) | Ukscholarships",
+    "last_known_deadline": "2024-10-24",
+    "reason": "closed at discovery; likely annual",
+    "id": "ed7c65cf255b0dd9",
+    "added": "2026-09-18T09:39:30.414127+00:00"
+  },
+  "27f0bf2f633b64c3": {
+    "url": "https://www.facebook.com/callforcurators/posts/open-call-20262027-international-residency-program-at-a4-residency-art-center-a4/1542992180457162",
+    "title": "OPEN CALL: 2026–2027 International... - Call for Curators",
+    "last_known_deadline": "2025-10-31",
+    "reason": "closed at discovery; likely annual",
+    "id": "27f0bf2f633b64c3",
+    "added": "2026-09-18T09:39:44.107952+00:00"
   }
 }
