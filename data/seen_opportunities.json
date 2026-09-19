@@ -4943,13 +4943,25 @@
   "c0f288377f95e665": {
     "url": "https://opportunitiescorners.com/kaust-scholarship-2027/",
     "title": "KAUST Scholarship 2027 in Saudi Arabia (Fully Funded)",
-    "status": "unknown",
-    "eligibility_status": "UNCERTAIN",
-    "reasoning": "No reasoning returned.",
+    "status": "ineligible",
+    "eligibility_status": "PROBABLY_INELIGIBLE",
+    "reasoning": "KAUST requires a *relevant* bachelor's degree for master's admission. The candidate holds a BSc in Psychology, which is not listed among KAUST's graduate fields (e.g., Computer Science, Engineering, Bioengineering, etc.). This mismatch is a hard blocker. Additionally, the program mandates a minimum GPA of 3.0 and an English proficiency test score; neither is provided. While the candidate can obtain an English test (Duolingo or MOI), the degree relevance cannot be remedied.",
     "id": "c0f288377f95e665",
     "first_seen": "2026-08-22T05:31:17.251923+00:00",
-    "last_updated": "2026-08-22T05:31:17.251933+00:00",
-    "analysis_recovery_queued": true
+    "last_updated": "2026-09-19T09:15:12.599647+00:00",
+    "analysis_recovery_queued": true,
+    "model_eligibility_status": "PROBABLY_INELIGIBLE",
+    "missing_requirements": [
+      "Verified GPA meeting the 3.0 minimum",
+      "Official English test score"
+    ],
+    "blocking_issues": [
+      "Degree field not relevant to KAUST graduate programs"
+    ],
+    "addressable_gaps": [
+      "English language proficiency test (Duolingo or MOI certificate can be obtained)",
+      "Provide GPA transcript (minimum 3.0 required)"
+    ]
   },
   "523a248c3c1a8ff9": {
     "url": "https://opportunitiescorners.com/global-peace-summit-greece-2026/",
@@ -5028,13 +5040,31 @@
   "6c7241459a2b1803": {
     "url": "https://opportunitiesforyouth.org/2026/08/21/africa-4-0-awards-2026-aisma-and-unido-invite-nominations-for-african-excellence-in-industry-4-0/",
     "title": "AFRICA 4.0 Awards 2026: AISMA and UNIDO Invite Nominations for African Excellence in Industry 4.0",
-    "status": "unknown",
-    "eligibility_status": "UNCERTAIN",
+    "status": "analyzed",
+    "eligibility_status": "PROBABLY_ELIGIBLE",
     "reasoning": "No reasoning returned.",
     "id": "6c7241459a2b1803",
     "first_seen": "2026-08-22T05:39:34.128828+00:00",
-    "last_updated": "2026-08-22T05:39:34.128836+00:00",
-    "analysis_recovery_queued": true
+    "last_updated": "2026-09-19T09:17:58.580452+00:00",
+    "analysis_recovery_queued": true,
+    "score": 3.0,
+    "category": null,
+    "official_url": "https://opportunitiesforyouth.org/2026/08/21/africa-4-0-awards-2026-aisma-and-unido-invite-nominations-for-african-excellence-in-industry-4-0/",
+    "location": null,
+    "remote": null,
+    "deadline": "2026-09-30",
+    "reward": "none",
+    "estimated_value": null,
+    "credibility_status": "LIKELY_LEGITIMATE",
+    "source_tier": "TIER_3",
+    "source_quality": 7,
+    "requirements": [
+      "Motivation letter",
+      "Recommendation Letter 1",
+      "Recommendation Letter 2",
+      "CV",
+      "Additional supporting materials"
+    ]
   },
   "c945d47810e6bbf8": {
     "url": "https://oyaop.com/opportunity/scholarships-and-fellowships/top-50-fully-funded-fellowships-in-2027-for-international-students-and-young-professionals",
@@ -10445,5 +10475,105 @@
     "id": "27f0bf2f633b64c3",
     "first_seen": "2026-09-18T09:39:44.101135+00:00",
     "last_updated": "2026-09-18T09:39:44.101146+00:00"
+  },
+  "fbf7e7689eac7181": {
+    "url": "https://opportunitiescorners.com/salzburg-global-internship-2027/",
+    "title": "Salzburg Global Internship 2027 in Austria (Fully Funded)",
+    "status": "suspicious",
+    "credibility_status": "SUSPICIOUS",
+    "source_tier": "TIER_3",
+    "reasoning": "The page promotes a plausible Salzburg Global Seminar internship but provides no official Salzburg Global Seminar URL and uses a generic Gmail address for contact, which is atypical for a reputable organization. The site is an aggregator that heavily markets many \"fully funded\" opportunities and asks users to click an unspecified \"Official Link,\" a common pattern in scam listings.",
+    "id": "fbf7e7689eac7181",
+    "first_seen": "2026-09-19T09:19:24.627014+00:00",
+    "last_updated": "2026-09-19T09:19:24.627024+00:00"
+  },
+  "440c5ba304885d37": {
+    "url": "https://www.opportunitiesforafricans.com/office-of-the-chief-justice-ocj-graduate-internship-programme-2027/",
+    "title": "Office of the Chief Justice (OCJ) Graduate Internship Programme 2027 for Unemployed South African Graduates (24 Months)",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "model_eligibility_status": "CONFIRMED_INELIGIBLE",
+    "missing_requirements": [],
+    "blocking_issues": [
+      "Nationality requirement: must be South African citizen (candidate is Ethiopian).",
+      "Employment status: must be unemployed (candidate is employed)."
+    ],
+    "addressable_gaps": [],
+    "reasoning": "The programme explicitly requires applicants to be South African citizens and to be unemployed graduates. The candidate is an Ethiopian national and is currently employed as a professional, which directly violates both mandatory criteria.",
+    "id": "440c5ba304885d37",
+    "first_seen": "2026-09-19T09:20:26.173662+00:00",
+    "last_updated": "2026-09-19T09:20:26.173673+00:00"
+  },
+  "8ee72f797c4e6bd5": {
+    "url": "https://www.opportunitiesforafricans.com/standard-bank-legal-graduate-programme-2026-for-young-south-african-law-graduates/",
+    "title": "Standard Bank Legal Graduate Programme 2026 for young South African law graduates.",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "model_eligibility_status": "CONFIRMED_INELIGIBLE",
+    "missing_requirements": [
+      "Minimum 65% average over all years of study (not provided, but irrelevant due to hard blockers)"
+    ],
+    "blocking_issues": [
+      "South African citizenship required (candidate is Ethiopian)",
+      "Must be admitted as an attorney in South Africa (candidate holds a BSc in Psychology, not a law degree)",
+      "Legal graduate requirement (candidate is not a law graduate)"
+    ],
+    "addressable_gaps": [],
+    "reasoning": "The programme explicitly requires applicants to be South African citizens and to be admitted as an attorney in South Africa (i.e., hold a law degree and be qualified to practice law). The candidate is an Ethiopian national with a BSc in Psychology and is not a qualified attorney, thus does not meet these mandatory criteria.",
+    "id": "8ee72f797c4e6bd5",
+    "first_seen": "2026-09-19T09:21:19.248902+00:00",
+    "last_updated": "2026-09-19T09:21:19.248913+00:00"
+  },
+  "637071c52263f311": {
+    "url": "https://www.gooverseas.com/blog/study-abroad-scholarships-grants",
+    "title": "50+ Scholarships & Grants for Study Abroad in 2026",
+    "status": "ineligible",
+    "eligibility_status": "PROBABLY_INELIGIBLE",
+    "model_eligibility_status": "PROBABLY_INELIGIBLE",
+    "missing_requirements": [
+      "Specific GPA values for each scholarship (not provided)",
+      "Proof of enrollment or acceptance into a study‑abroad program (candidate is not a student)",
+      "English test scores (candidate has none yet)",
+      "Any program‑specific eligibility details (e.g., field of study, destination restrictions) that are not listed"
+    ],
+    "blocking_issues": [
+      "Must be currently enrolled in a college or university (hard blocker for most scholarships)",
+      "U.S. citizenship required for some scholarships (e.g., Jackie Robinson Foundation) – candidate is Ethiopian"
+    ],
+    "addressable_gaps": [
+      "Obtain an English proficiency test score (Duolingo, MOI, IELTS/TOEFL) if applying to scholarships that require it",
+      "Provide GPA transcripts if required"
+    ],
+    "reasoning": "The page lists study‑abroad scholarships that overwhelmingly require the applicant to be currently enrolled in a college or university (e.g., EdOdyssey, CIS Abroad, SIT, IES Abroad, AIFS, etc.). The candidate is a working professional and not a student, which is a hard blocker for those scholarships. Some scholarships have additional hard blockers (e.g., U.S. citizenship for the Jackie Robinson Foundation) that also do not match the candidate. While a few listings (e.g., ASSIST Scholars) are open to any non‑U.S. national, they target high‑school students, not professionals. No scholarship on the page explicitly accepts working professionals without enrollment, so the candidate is unlikely to qualify for any of the listed awards.",
+    "id": "637071c52263f311",
+    "first_seen": "2026-09-19T09:22:52.654657+00:00",
+    "last_updated": "2026-09-19T09:22:52.654666+00:00"
+  },
+  "2f83c07422023b03": {
+    "url": "https://www.aauw.org/resources/programs/fellowships-grants/aauw-international-fellowships",
+    "title": "International Fellowships – AAUW : Empowering Women Since 1881",
+    "status": "closed",
+    "deadline": "2026-09-17",
+    "id": "2f83c07422023b03",
+    "first_seen": "2026-09-19T09:24:47.661434+00:00",
+    "last_updated": "2026-09-19T09:24:47.661446+00:00"
+  },
+  "c16f454624acf9a1": {
+    "url": "https://opportunitiesforyouth.org/2026/04/10/international-foundation-grant-2026-complete-application-guide-timeline-and-funding-opportunity-for-nonprofits-in-the-global-south",
+    "title": "International Foundation Grant 2026: Complete Application Guide, Timeline, and Funding Opportunity for Nonprofits in the Global South - Opportunities for Youth",
+    "status": "closed",
+    "deadline": "2026-06-01",
+    "id": "c16f454624acf9a1",
+    "first_seen": "2026-09-19T09:24:53.396508+00:00",
+    "last_updated": "2026-09-19T09:24:53.396519+00:00"
+  },
+  "f54d49e6099c72cb": {
+    "url": "https://www.grants.ca.gov/grants/capital-infusion-program-cip-2026-2027",
+    "title": "Capital Infusion Program (CIP) 2026-2027 - CA Grants Portal",
+    "status": "closed",
+    "deadline": "2026-09-11",
+    "id": "f54d49e6099c72cb",
+    "first_seen": "2026-09-19T09:26:08.616803+00:00",
+    "last_updated": "2026-09-19T09:26:08.616813+00:00"
   }
 }
