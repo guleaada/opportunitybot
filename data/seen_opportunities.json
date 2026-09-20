@@ -5069,13 +5069,25 @@
   "c945d47810e6bbf8": {
     "url": "https://oyaop.com/opportunity/scholarships-and-fellowships/top-50-fully-funded-fellowships-in-2027-for-international-students-and-young-professionals",
     "title": "Top 50 Fully Funded Fellowships in 2027 for International Students and Young Professionals - OYA Opportunities | OYA Opportunities",
-    "status": "unknown",
-    "eligibility_status": "UNCERTAIN",
+    "status": "analyzed",
+    "eligibility_status": "PROBABLY_ELIGIBLE",
     "reasoning": "No reasoning returned.",
     "id": "c945d47810e6bbf8",
     "first_seen": "2026-08-22T05:40:50.544985+00:00",
-    "last_updated": "2026-08-22T05:40:50.544993+00:00",
-    "analysis_recovery_queued": true
+    "last_updated": "2026-09-20T09:40:00.905850+00:00",
+    "analysis_recovery_queued": true,
+    "score": 4.8,
+    "category": null,
+    "official_url": "https://oyaop.com/opportunity/scholarships-and-fellowships/top-50-fully-funded-fellowships-in-2027-for-international-students-and-young-professionals",
+    "location": null,
+    "remote": null,
+    "deadline": null,
+    "reward": "fully_funded",
+    "estimated_value": null,
+    "credibility_status": "LIKELY_LEGITIMATE",
+    "source_tier": "TIER_4",
+    "source_quality": null,
+    "requirements": []
   },
   "300342638aa69f5d": {
     "url": "https://immigrationandstudyabroad.com/scholarships-for-international-students",
@@ -5100,13 +5112,14 @@
   "30e9aeefc192e24f": {
     "url": "https://www.opportunitiesforafricans.com/who-2026-global-youth-competition-on-influenza-and-covid-19-prevention-and-control/",
     "title": "WHO 2026 Global youth competition on influenza and COVID-19 prevention and control",
-    "status": "unknown",
+    "status": "closed",
     "eligibility_status": "UNCERTAIN",
     "reasoning": "No reasoning returned.",
     "id": "30e9aeefc192e24f",
     "first_seen": "2026-08-22T05:43:52.076147+00:00",
-    "last_updated": "2026-08-22T05:43:52.076156+00:00",
-    "analysis_recovery_queued": true
+    "last_updated": "2026-09-20T09:40:27.849752+00:00",
+    "analysis_recovery_queued": true,
+    "deadline": "2026-09-13"
   },
   "e22a0889d8656456": {
     "url": "https://opportunitydesk.org/2026/08/21/pulitzer-center-global-south-civil-society-microgrants-2026/",
@@ -5132,25 +5145,27 @@
   "c4d63717b3b148c8": {
     "url": "https://opportunitiescorners.com/kaist-graduate-scholarship-2027/",
     "title": "KAIST Graduate Scholarship 2027 in South Korea (Funded)",
-    "status": "unknown",
+    "status": "closed",
     "eligibility_status": "UNCERTAIN",
     "reasoning": "No reasoning returned.",
     "id": "c4d63717b3b148c8",
     "first_seen": "2026-08-23T05:34:18.264556+00:00",
-    "last_updated": "2026-08-23T05:34:18.264565+00:00",
-    "analysis_recovery_queued": true
+    "last_updated": "2026-09-20T09:41:07.152017+00:00",
+    "analysis_recovery_queued": true,
+    "deadline": "2026-09-01"
   },
   "6d63c8106736202f": {
     "url": "https://opportunitiescorners.com/nus-iris-internship-2027/",
     "title": "NUS IRIS Internship 2027 in Singapore (Fully Funded)",
-    "status": "legitimacy_unknown",
+    "status": "closed",
     "credibility_status": "NEEDS_VERIFICATION",
     "source_tier": "TIER_3",
     "reasoning": "No reasoning returned.",
     "id": "6d63c8106736202f",
     "first_seen": "2026-08-23T05:35:06.654157+00:00",
-    "last_updated": "2026-08-23T05:35:06.654166+00:00",
-    "analysis_recovery_queued": true
+    "last_updated": "2026-09-20T09:41:37.330395+00:00",
+    "analysis_recovery_queued": true,
+    "deadline": "2026-08-28"
   },
   "cce47d178ed00810": {
     "url": "https://opportunitydesk.org/2026/08/22/mitacs-globalink-research-award-program-2026/",
@@ -10575,5 +10590,141 @@
     "id": "f54d49e6099c72cb",
     "first_seen": "2026-09-19T09:26:08.616803+00:00",
     "last_updated": "2026-09-19T09:26:08.616813+00:00"
+  },
+  "9faa4c8b27e00bb3": {
+    "url": "https://opportunitiescorners.com/korea-youth-summit-2027/",
+    "title": "Korea Youth Summit 2027 | Call for Applications",
+    "status": "suspicious",
+    "credibility_status": "SUSPICIOUS",
+    "source_tier": "TIER_3",
+    "reasoning": "The program requires an application fee to be considered for a scholarship, which is atypical for legitimate fully‑funded scholarships or conferences. The host organization (Youth Break the Boundaries Foundation) is not verifiable, and the only contact email is a generic Gmail address, both common scam indicators.",
+    "id": "9faa4c8b27e00bb3",
+    "first_seen": "2026-09-20T09:43:00.135237+00:00",
+    "last_updated": "2026-09-20T09:43:00.135247+00:00"
+  },
+  "eefc35106393774c": {
+    "url": "https://opportunitiescorners.com/unicef-venture-fund-internship-2026-in-sweden/",
+    "title": "UNICEF Venture Fund Internship 2026 in Sweden (PAID)",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "model_eligibility_status": "CONFIRMED_INELIGIBLE",
+    "missing_requirements": [],
+    "blocking_issues": [
+      "Must be currently enrolled in a degree program or have graduated within the past two years (candidate graduated 5 years ago and is not a student)"
+    ],
+    "addressable_gaps": [
+      "English proficiency proof (can obtain Duolingo or MOI certificate)",
+      "Potentially demonstrate relevance of Psychology background to social/economic development"
+    ],
+    "reasoning": "The program requires applicants to be currently enrolled in an undergraduate or graduate degree program, or to have graduated within the past two years. The candidate graduated with a BSc in 2021 (more than five years ago) and is not currently a student, which directly violates this eligibility criterion. This is a hard blocker. Other criteria such as age, English proficiency, and technical skills are met or can be addressed, but the student-status requirement is non‑negotiable.",
+    "id": "eefc35106393774c",
+    "first_seen": "2026-09-20T09:43:50.664158+00:00",
+    "last_updated": "2026-09-20T09:43:50.664169+00:00"
+  },
+  "469e3f6cea14ec24": {
+    "url": "https://www.opportunitiesforafricans.com/renaissance-africa-energy-company-operations-and-maintenance-technician-program-2026/",
+    "title": "Renaissance Africa Energy Company Operations and Maintenance Technician Program 2026 for young Nigerian graduates.",
+    "status": "legitimacy_unknown",
+    "credibility_status": "NEEDS_VERIFICATION",
+    "source_tier": "TIER_3",
+    "reasoning": "The posting does not request any payment and includes a self‑issued 'Scam Alert', which are positive signs. However, the company (Renaissance Africa Energy Company) cannot be independently verified from the page, the contact emails are generic, and there is no direct link to an official company recruitment portal, leaving insufficient evidence to confirm legitimacy.",
+    "id": "469e3f6cea14ec24",
+    "first_seen": "2026-09-20T09:44:48.127386+00:00",
+    "last_updated": "2026-09-20T09:44:48.127400+00:00"
+  },
+  "3803a97241b1a9cb": {
+    "url": "https://www.opportunitiesforafricans.com/d-prize-challenge-2026-2027-for-social-entrepreneurs-to-fight-poverty/",
+    "title": "D-Prize Challenge 2026/2027 for Social Entrepreneurs to fight Poverty ($USD 20,000)",
+    "status": "analyzed",
+    "score": 3.9,
+    "category": null,
+    "official_url": "https://www.opportunitiesforafricans.com/d-prize-challenge-2026-2027-for-social-entrepreneurs-to-fight-poverty/",
+    "location": null,
+    "remote": null,
+    "deadline": "2026-12-06",
+    "reward": "partial",
+    "estimated_value": null,
+    "eligibility_status": "PROBABLY_ELIGIBLE",
+    "credibility_status": "LIKELY_LEGITIMATE",
+    "source_tier": "TIER_3",
+    "source_quality": 7,
+    "requirements": [
+      "two-page concept note",
+      "resume(s)"
+    ],
+    "id": "3803a97241b1a9cb",
+    "first_seen": "2026-09-20T09:46:31.618263+00:00",
+    "last_updated": "2026-09-20T09:46:31.618274+00:00"
+  },
+  "69a7579d659e4628": {
+    "url": "https://saba.abainternational.org/grants/International-Development-Grant",
+    "title": "SABA International Development Grant",
+    "status": "ineligible",
+    "eligibility_status": "PROBABLY_INELIGIBLE",
+    "model_eligibility_status": "PROBABLY_INELIGIBLE",
+    "missing_requirements": [
+      "Verification of formal university/institution affiliation."
+    ],
+    "blocking_issues": [
+      "Hard blocker: lack of formal affiliation with a university or institution as required by the grant eligibility criteria."
+    ],
+    "addressable_gaps": [
+      "Obtain a formal affiliation (e.g., adjunct position, research partnership, or affiliation letter) with a university or recognized institution to meet the eligibility requirement."
+    ],
+    "reasoning": "The grant requires applicants to be formally affiliated with a university or institution. The candidate’s profile shows she is a working professional with no stated affiliation to any university or research institution, which does not satisfy this explicit requirement. No nationality, age, or degree restrictions are mentioned, so those are not blockers.",
+    "id": "69a7579d659e4628",
+    "first_seen": "2026-09-20T09:47:27.364073+00:00",
+    "last_updated": "2026-09-20T09:47:27.364084+00:00"
+  },
+  "a8a27f8b19aed949": {
+    "url": "https://www.ingramspark.com/blog/2025-book-awards-contests-for-indie-authors",
+    "title": "A Definitive List of Writing Contests and Book Awards for 2026-2027",
+    "status": "analyzed",
+    "score": 2.6,
+    "category": "coding_competitions",
+    "official_url": "https://www.ingramspark.com/blog/2025-book-awards-contests-for-indie-authors",
+    "location": null,
+    "remote": null,
+    "deadline": null,
+    "reward": "none",
+    "estimated_value": null,
+    "eligibility_status": "PROBABLY_ELIGIBLE",
+    "credibility_status": "LIKELY_LEGITIMATE",
+    "source_tier": "TIER_4",
+    "source_quality": 0,
+    "requirements": [],
+    "id": "a8a27f8b19aed949",
+    "first_seen": "2026-09-20T09:50:48.538727+00:00",
+    "last_updated": "2026-09-20T09:50:48.538737+00:00"
+  },
+  "a5af58a9d9e37e7c": {
+    "url": "https://www2.fundsforngos.org/listing/80-high-impact-opportunities-in-awards-prizes-challenges-you-shouldnt-miss",
+    "title": "80+ High-Impact Opportunities in Awards, Prizes & ...",
+    "status": "closed",
+    "deadline": null,
+    "id": "a5af58a9d9e37e7c",
+    "first_seen": "2026-09-20T09:50:58.630971+00:00",
+    "last_updated": "2026-09-20T09:50:58.630981+00:00"
+  },
+  "a321383d15d56633": {
+    "url": "https://www.itlos.org/en/main/the-registry/training/itlos-nippon-foundation-capacity-building-and-training-programme",
+    "title": "ITLOS - Nippon Foundation Capacity Building and Training Programme | International Tribunal for the Law of the Sea",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "model_eligibility_status": "CONFIRMED_INELIGIBLE",
+    "missing_requirements": [
+      "Whether the candidate could obtain a law degree or equivalent qualification before the programme start",
+      "Whether the candidate has any affiliation with a government agency or institute dealing with ocean/maritime affairs that could serve as nominating body"
+    ],
+    "blocking_issues": [
+      "Degree mismatch: BSc Psychology is not a first university degree in law as explicitly required",
+      "Professional status mismatch: candidate is an AI Developer/Marketing Specialist, not a government official or researcher dealing with ocean affairs or maritime law",
+      "Nomination source mismatch: no evident qualifying governmental body or ocean/maritime-affiliated institute to nominate"
+    ],
+    "addressable_gaps": [],
+    "reasoning": "The ITLOS-Nippon programme explicitly requires: (1) 'a first university degree in law' — the candidate holds a BSc in Psychology, not a law degree; (2) applicants must be 'junior to mid-level government officials...dealing with ocean affairs or maritime matters' or 'researchers from an institute dealing with ocean-related or maritime matters' — the candidate is an AI Developer/Marketing Specialist/Psychologist with no background in ocean affairs, maritime law, or government administration in this domain; (3) applicants must be nominated by a relevant governmental body or academic institute dealing with ocean/maritime matters — the candidate's professional affiliations do not align with this requirement. These are explicit, stated eligibility criteria that the candidate does not meet.",
+    "id": "a321383d15d56633",
+    "first_seen": "2026-09-20T09:52:42.047128+00:00",
+    "last_updated": "2026-09-20T09:52:42.047139+00:00"
   }
 }

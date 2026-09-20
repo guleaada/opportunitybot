@@ -313,21 +313,15 @@
     "added": "2026-09-19T09:15:12.621563+00:00",
     "last_checked": "2026-09-19T09:15:12.620994"
   },
-  "c945d47810e6bbf8": {
-    "id": "c945d47810e6bbf8",
-    "url": "https://oyaop.com/opportunity/scholarships-and-fellowships/top-50-fully-funded-fellowships-in-2027-for-international-students-and-young-professionals",
-    "title": "Top 50 Fully Funded Fellowships in 2027 for International Students and Young Professionals - OYA Opportunities | OYA Opportunities",
-    "retry_analysis": true,
-    "reason": "Recover historical malformed model response",
-    "added": "2026-09-05T01:47:30.308177+00:00"
-  },
   "30e9aeefc192e24f": {
     "id": "30e9aeefc192e24f",
     "url": "https://www.opportunitiesforafricans.com/who-2026-global-youth-competition-on-influenza-and-covid-19-prevention-and-control/",
     "title": "WHO 2026 Global youth competition on influenza and COVID-19 prevention and control",
     "retry_analysis": true,
-    "reason": "Recover historical malformed model response",
-    "added": "2026-09-05T01:47:30.309157+00:00"
+    "reason": "closed at discovery; likely annual",
+    "added": "2026-09-20T09:40:27.861197+00:00",
+    "last_checked": "2026-09-20T09:40:00.926364",
+    "last_known_deadline": "2026-09-13"
   },
   "ba2ade15571231d0": {
     "id": "ba2ade15571231d0",
@@ -335,23 +329,28 @@
     "title": "Grants – Opportunity Desk",
     "retry_analysis": true,
     "reason": "Recover historical malformed model response",
-    "added": "2026-09-05T01:47:30.310052+00:00"
+    "added": "2026-09-20T09:40:27.870854+00:00",
+    "last_checked": "2026-09-20T09:40:27.870286"
   },
   "c4d63717b3b148c8": {
     "id": "c4d63717b3b148c8",
     "url": "https://opportunitiescorners.com/kaist-graduate-scholarship-2027/",
     "title": "KAIST Graduate Scholarship 2027 in South Korea (Funded)",
     "retry_analysis": true,
-    "reason": "Recover historical malformed model response",
-    "added": "2026-09-05T01:47:30.310970+00:00"
+    "reason": "closed at discovery; likely annual",
+    "added": "2026-09-20T09:41:07.162818+00:00",
+    "last_checked": "2026-09-20T09:40:28.059737",
+    "last_known_deadline": "2026-09-01"
   },
   "6d63c8106736202f": {
     "id": "6d63c8106736202f",
     "url": "https://opportunitiescorners.com/nus-iris-internship-2027/",
     "title": "NUS IRIS Internship 2027 in Singapore (Fully Funded)",
     "retry_analysis": true,
-    "reason": "Recover historical malformed model response",
-    "added": "2026-09-05T01:47:30.311866+00:00"
+    "reason": "closed at discovery; likely annual",
+    "added": "2026-09-20T09:41:37.340854+00:00",
+    "last_checked": "2026-09-20T09:41:07.170739",
+    "last_known_deadline": "2026-08-28"
   },
   "cce47d178ed00810": {
     "id": "cce47d178ed00810",
@@ -1133,6 +1132,41 @@
     "snippet": "Skip to content\n\nCascade Funding Hub by SploroSploro\n\nSubscribe\n\nCascade Funding Hub by SploroSploro\n\n# Open calls\n\n## Featured calls\n\n Calls for proposals\n Calls for evaluators\n Calls for mentors\n\n## Calls for proposals\n\n## Calls for evaluators\n\n## Calls for mentors\n\nScroll to Top\n\nFind your perfect Cascade Funding call\n\nMatch your organisation's profile against hundreds of open FSTP sub-calls - instantly with AI.\n\nTry the matcher → [...] Try the matcher →\n\n✓ 3 free searchers  •    ✓ No credit card required  •  ✓ Updated weekly",
     "reason": "legitimacy check returned an unparseable reply; retry on a later run",
     "id": "2a6f26e2467685cb",
-    "added": "2026-09-19T09:26:36.281628+00:00"
+    "added": "2026-09-20T09:51:06.983109+00:00"
+  },
+  "a5af58a9d9e37e7c": {
+    "url": "https://www2.fundsforngos.org/listing/80-high-impact-opportunities-in-awards-prizes-challenges-you-shouldnt-miss",
+    "title": "80+ High-Impact Opportunities in Awards, Prizes & ...",
+    "last_known_deadline": null,
+    "reason": "closed at discovery; likely annual",
+    "id": "a5af58a9d9e37e7c",
+    "added": "2026-09-20T09:50:58.642333+00:00"
+  },
+  "c346aeb36d1f9f6c": {
+    "url": "https://www.facebook.com/scholarcorner/videos/fully-funded-summer-leadership-program-in-the-usa-dates-june-29-july-20-2027link/1082253064697136",
+    "title": "Fully Funded Summer Leadership Program in the USA Dates ...",
+    "retry_analysis": true,
+    "snippet": "Hansen Foundation, covering international airfare, accommodation, and all program costs. Deadlines: International Applicants: January 15, 2026.",
+    "reason": "legitimacy check returned an unparseable reply; retry on a later run",
+    "id": "c346aeb36d1f9f6c",
+    "added": "2026-09-20T09:51:41.163046+00:00"
+  },
+  "765f1a48805f76e4": {
+    "url": "https://horizonpublicservice.org/applications-open-for-2027-horizon-fellowship-cohort",
+    "title": "Applications open for 2027 Horizon Fellowship cohort – Horizon Institute for Public Service",
+    "retry_analysis": true,
+    "snippet": "1. Training (January to March 2027): The selected fellowship cohort completes a part-time, work-compatible remote training on policy work, including the mechanics of the federal government and applied skills like memo writing and policy analysis. The training culminates in an in-person weekend in Washington, DC, where fellows connect with dozens of emerging technology experts from across the policy world. The curriculum and networking prepare fellows to secure strong placement offers and [...] Start date: Summer 2027 (with part-time, remote training from January to March 2027)\n Location: Washington, DC\n Duration: 6 months for junior fellows, 12 months for fellows and senior fellows (with potential for a second term renewal) [...] If you already have government or policy experience and are looking to serve on a faster timeline, you may also be interested in our AI Rapid Response Fellowship, which places experienced professionals in executive branch offices as soon as possible,with applications due July 22.\n\n## Program structure\n\nSuccessful applicants will go through training, matching, and placement phases from January to summer of 2027.",
+    "reason": "legitimacy check returned an unparseable reply; retry on a later run",
+    "id": "765f1a48805f76e4",
+    "added": "2026-09-20T09:53:16.218680+00:00"
+  },
+  "4cb60960bbd071a3": {
+    "url": "https://www.asco.org/career-development/grants-awards/funding-opportunities/long-term-international-fellowship",
+    "title": "Long-term International Fellowship - ASCO",
+    "retry_analysis": true,
+    "snippet": "ASCO LogoASCO Logo\n\n Home /\n Career Development /\n Grants Awards /\n Funding Opportunities /\n\n# Long-term International Fellowship\n\nOPEN\n\n## Key Dates\n\nApplication Open:\n\nJuly 1, 2026\n\nApplication Deadline:\n\nJanuary 29, 2027\n\nAward Notification Date:\n\nApril 30, 2026\n\nAward Term:\n\nJuly 1, 2027 - December 31, 2028\n\nSubmit your application on\n\nApplication Portalarrow\\_forward\n\nApplication Resources [...] Mentor-led training: Fellows work with an expert at a host institution in the U.S., Canada, or Europe.\n Blended learning: The program combines up to six months of in-person clinical and research training at the host institution, followed by six months or up to 12 months of virtual mentorship. [...] The Conquer Cancer Long-term International Fellowship (LIFe) provides early-career oncologists in low- to middle-income countries (LMICs) with resources and support for advanced training, with the ultimate goal to improve cancer care in their home countries. The program includes the following features:",
+    "reason": "legitimacy check returned an unparseable reply; retry on a later run",
+    "id": "4cb60960bbd071a3",
+    "added": "2026-09-20T09:53:44.647138+00:00"
   }
 }
