@@ -5235,22 +5235,45 @@
     "title": "May 2026 Opportunities: Open Calls, Residencies, and Grants for Artists — Colossal",
     "status": "unknown",
     "eligibility_status": "UNCERTAIN",
-    "reasoning": "No reasoning returned.",
+    "reasoning": "The page lists a variety of artist‑focused opportunities (grants, residencies, awards) that are open to artists worldwide with no nationality restriction, so the candidate’s Ethiopian citizenship is not a blocker. Age limits (e.g., under 35, under 30) are satisfied (candidate is 27). There is no requirement to be a current student or to hold a specific degree. However, each opportunity requires the applicant to be an artist (or have a portfolio/ body of work in a relevant medium). The candidate’s profile does not provide evidence of artistic practice or a portfolio, so it is unclear whether they meet the fundamental “artist” criterion. This missing, decision‑relevant information creates uncertainty about eligibility.",
     "id": "f3e60ef235c4e1cc",
     "first_seen": "2026-08-23T05:42:18.637618+00:00",
-    "last_updated": "2026-08-23T05:42:18.637627+00:00",
-    "analysis_recovery_queued": true
+    "last_updated": "2026-09-21T10:28:56.201096+00:00",
+    "analysis_recovery_queued": true,
+    "model_eligibility_status": "UNCERTAIN",
+    "missing_requirements": [
+      "Verification of artistic practice/portfolio relevant to the listed opportunities.",
+      "Specific eligibility details for each individual call (e.g., medium restrictions, residency location requirements)."
+    ],
+    "blocking_issues": [],
+    "addressable_gaps": [
+      "Provide a portfolio or evidence of artistic practice (digital art, visual work, etc.) to satisfy the 'artist' requirement for most opportunities.",
+      "Pay any required application fees (most are under $50, but some exceed it; the candidate can decide to cover them).",
+      "If any specific opportunity later requests proof of English proficiency, the candidate can obtain a Duolingo or MOI certificate."
+    ]
   },
   "ae687aa2d463c59d": {
     "url": "https://www.thisiscolossal.com/2026/07/august-2026-open-calls-grants-residencies",
     "title": "August 2026 Opportunities: Open Calls, Residencies, and Grants for Artists — Colossal",
-    "status": "unknown",
-    "eligibility_status": "UNCERTAIN",
+    "status": "analyzed",
+    "eligibility_status": "PROBABLY_ELIGIBLE",
     "reasoning": "No reasoning returned.",
     "id": "ae687aa2d463c59d",
     "first_seen": "2026-08-23T05:44:03.001364+00:00",
-    "last_updated": "2026-08-23T05:44:03.001373+00:00",
-    "analysis_recovery_queued": true
+    "last_updated": "2026-09-21T10:32:12.312682+00:00",
+    "analysis_recovery_queued": true,
+    "score": 3.1,
+    "category": null,
+    "official_url": "https://www.thisiscolossal.com/2026/07/august-2026-open-calls-grants-residencies",
+    "location": null,
+    "remote": null,
+    "deadline": null,
+    "reward": "partial",
+    "estimated_value": null,
+    "credibility_status": "LIKELY_LEGITIMATE",
+    "source_tier": "TIER_4",
+    "source_quality": null,
+    "requirements": []
   },
   "acf72d7aaab57249": {
     "url": "https://www.xhbt.org/open-calls",
@@ -5340,13 +5363,13 @@
     "url": "https://opportunitiescorners.com/nasa-free-online-courses/",
     "title": "NASA Free Online Courses 2026 | Learn from NASA & Get a Certificate",
     "status": "analyzed",
-    "score": 0.0,
+    "score": 4.4,
     "category": null,
     "official_url": "https://opportunitiescorners.com/nasa-free-online-courses/",
     "location": null,
     "remote": null,
     "deadline": null,
-    "reward": 2.5,
+    "reward": "fully_funded",
     "estimated_value": null,
     "eligibility_status": "CONFIRMED_ELIGIBLE",
     "credibility_status": "LIKELY_LEGITIMATE",
@@ -5355,7 +5378,7 @@
     "requirements": [],
     "id": "fcd24390daf6b6f0",
     "first_seen": "2026-08-24T05:46:09.434055+00:00",
-    "last_updated": "2026-08-24T05:46:09.434064+00:00",
+    "last_updated": "2026-09-21T10:34:23.513394+00:00",
     "analysis_recovery_queued": true
   },
   "64614529632c88bb": {
@@ -10726,5 +10749,184 @@
     "id": "a321383d15d56633",
     "first_seen": "2026-09-20T09:52:42.047128+00:00",
     "last_updated": "2026-09-20T09:52:42.047139+00:00"
+  },
+  "5082d34c9ac6bf15": {
+    "url": "https://o3schools.com/blog/product-tag/fully-funded-masters-scholarships-for-developing-countries-2026-2027/feed",
+    "title": "fully funded masters scholarships for developing countries 2026/2027 Archives -",
+    "status": "unknown",
+    "eligibility_status": "UNCERTAIN",
+    "model_eligibility_status": "UNCERTAIN",
+    "missing_requirements": [
+      "Explicit statement of required English language test scores",
+      "Any age limit for applicants",
+      "Whether applicants must be currently enrolled in a degree program",
+      "Specific field of study restrictions (if any)",
+      "Citizenship eligibility list (though Ethiopia is likely included as a developing country)"
+    ],
+    "blocking_issues": [],
+    "addressable_gaps": [
+      "English proficiency test (e.g., IELTS, TOEFL, Duolingo) – candidate can obtain a Duolingo or MOI certificate."
+    ],
+    "reasoning": "The page only lists a collection of fully‑funded master’s scholarships for students from developing countries without stating explicit eligibility criteria. The candidate is an Ethiopian national (a developing‑country citizen) with a bachelor’s degree, which would generally satisfy typical requirements, but the page does not confirm needed criteria such as English language proficiency, age limits, or whether applicants must be currently enrolled students. Because these potentially decisive requirements are missing or unverifiable, we cannot confirm eligibility.",
+    "id": "5082d34c9ac6bf15",
+    "first_seen": "2026-09-21T10:36:18.802962+00:00",
+    "last_updated": "2026-09-21T10:36:18.802974+00:00"
+  },
+  "9a74fd94f6edc189": {
+    "url": "https://www.scholarshipregion.com/commonwealth-masters-scholarship",
+    "title": "2027 Commonwealth Masters Scholarships For Developing Countries | Fully Funded | Scholarship Region",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "model_eligibility_status": "CONFIRMED_INELIGIBLE",
+    "missing_requirements": [
+      "Exact honours classification of BSc degree",
+      "Proof of inability to afford study without scholarship"
+    ],
+    "blocking_issues": [
+      "Nationality not from an eligible Commonwealth country",
+      "Permanent residency not in an eligible Commonwealth country",
+      "Degree classification not confirmed as 2:1 and no postgraduate qualification"
+    ],
+    "addressable_gaps": [],
+    "reasoning": "The Commonwealth Masters Scholarship requires applicants to be a citizen of, or refugee of, an eligible Commonwealth country and to be permanently resident in an eligible Commonwealth country. Ethiopia is not a Commonwealth member and the candidate is neither a refugee nor a British Protected Person, nor a resident of a Commonwealth nation. Additionally, the scholarship demands a first degree of at least upper‑second‑class (2:1) honours or a lower second‑class degree plus a relevant postgraduate qualification; the candidate’s degree classification is unspecified and they have no postgraduate qualification. These constitute hard blockers.",
+    "id": "9a74fd94f6edc189",
+    "first_seen": "2026-09-21T10:37:54.069224+00:00",
+    "last_updated": "2026-09-21T10:37:54.069240+00:00"
+  },
+  "5ed600a0da30ded7": {
+    "url": "https://www.scholarshiptab.com/developing-countries/in/turkey/fully-funded",
+    "title": "Fully Funded Scholarships In Turkey For Developing Countries 2026-2027 | ScholarshipTab",
+    "status": "closed",
+    "deadline": "2026-01-18",
+    "id": "5ed600a0da30ded7",
+    "first_seen": "2026-09-21T10:38:09.727750+00:00",
+    "last_updated": "2026-09-21T10:38:09.727760+00:00"
+  },
+  "cd2f872e1719cf48": {
+    "url": "https://o3schools.com/blog/product-tag/fully-funded-masters-scholarships-for-developing-countries-2026-2027",
+    "title": "fully funded masters scholarships for developing countries 2026/2027 Archives -",
+    "status": "legitimacy_unknown",
+    "credibility_status": "NEEDS_VERIFICATION",
+    "source_tier": "TIER_4",
+    "reasoning": "The page only lists scholarship titles with generic filler text and provides no direct links to official program pages, application details, or contact information, making it impossible to verify legitimacy. However, there are also no explicit red‑flag indicators such as application fees, personal email contacts, or payment requests.",
+    "id": "cd2f872e1719cf48",
+    "first_seen": "2026-09-21T10:38:37.903395+00:00",
+    "last_updated": "2026-09-21T10:38:37.903406+00:00"
+  },
+  "3cc833684d15506f": {
+    "url": "https://o3schools.com/ligs-university-fully-funded-mba-scholarship-for-students-from-developing-countries-usa",
+    "title": "LIGS University Fully Funded MBA Scholarship for Students from Developing Countries USA 2026/2027",
+    "status": "suspicious",
+    "credibility_status": "SUSPICIOUS",
+    "source_tier": "TIER_4",
+    "reasoning": "The page provides only vague details, no official LIGS University link, contact email, or application instructions, and LIGS University has a history of questionable accreditation, which together raise doubts about the scholarship’s authenticity.",
+    "id": "3cc833684d15506f",
+    "first_seen": "2026-09-21T10:39:04.534719+00:00",
+    "last_updated": "2026-09-21T10:39:04.534732+00:00"
+  },
+  "4e89905b4b60c1a3": {
+    "url": "https://menterprise.africa/may-2026-opportunities-african-innovators-grants-fellowships-competitions",
+    "title": "May 2026 Grants, Fellowships and Competitions for African Innovators",
+    "status": "analyzed",
+    "score": 4.6,
+    "category": "startup_competitions",
+    "official_url": "https://menterprise.africa/may-2026-opportunities-african-innovators-grants-fellowships-competitions",
+    "location": null,
+    "remote": null,
+    "deadline": null,
+    "reward": "partial",
+    "estimated_value": null,
+    "eligibility_status": "PROBABLY_ELIGIBLE",
+    "credibility_status": "LIKELY_LEGITIMATE",
+    "source_tier": "TIER_4",
+    "source_quality": 0,
+    "requirements": [],
+    "id": "4e89905b4b60c1a3",
+    "first_seen": "2026-09-21T10:42:08.261062+00:00",
+    "last_updated": "2026-09-21T10:42:08.261073+00:00"
+  },
+  "73233e66e268dcc6": {
+    "url": "https://opportunitiescorners.com/who-health-department-internship-2027-in-switzerland/",
+    "title": "WHO Health Department Internship 2027 in Switzerland (Funded)",
+    "status": "ineligible",
+    "eligibility_status": "PROBABLY_INELIGIBLE",
+    "model_eligibility_status": "PROBABLY_INELIGIBLE",
+    "missing_requirements": [],
+    "blocking_issues": [
+      "Not currently enrolled in a university programme",
+      "Graduated more than 18 months ago (BSc completed in 2021)"
+    ],
+    "addressable_gaps": [
+      "Enroll in a relevant university programme before the internship start date to satisfy the 'currently enrolled' requirement"
+    ],
+    "reasoning": "The internship requires applicants to be currently enrolled in a university programme or to have graduated within the past 18 months. Gulilat graduated in 2021 and is not currently a student, which does not meet this criterion. Nationality is unrestricted and the field of study (Psychology) could be considered health‑related, but the timing requirement is a hard blocker.",
+    "id": "73233e66e268dcc6",
+    "first_seen": "2026-09-21T10:43:21.816777+00:00",
+    "last_updated": "2026-09-21T10:43:21.816791+00:00"
+  },
+  "0006f5f29f662c09": {
+    "url": "https://www.opportunitiesforafricans.com/reckitt-nigeria-2026-management-trainee-program-trailblazers-5-0-for-young-nigerian-graduates/",
+    "title": "Reckitt Nigeria 2026 Management Trainee Program (Trailblazers 5.0) for young Nigerian graduates.",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "model_eligibility_status": "CONFIRMED_INELIGIBLE",
+    "missing_requirements": [],
+    "blocking_issues": [
+      "Nationality not Nigerian",
+      "Graduation year (2021) outside required 2022‑2025 range",
+      "NYSC completion required but not possible for non‑Nigerian"
+    ],
+    "addressable_gaps": [],
+    "reasoning": "The program explicitly requires applicants to be \"young Nigerian graduates\" who have graduated between 2022 and 2025, hold at least Upper Second Class Honours, and have completed the Nigerian NYSC by December 2026. The candidate is an Ethiopian national, graduated in 2021 (outside the 2022‑2025 window), and cannot have completed NYSC, thus failing multiple hard eligibility criteria.",
+    "id": "0006f5f29f662c09",
+    "first_seen": "2026-09-21T10:44:10.755718+00:00",
+    "last_updated": "2026-09-21T10:44:10.755730+00:00"
+  },
+  "b36a4fb4bed03e61": {
+    "url": "https://www.wemakescholars.com/scholarships-to-study-in-united-states-for-international-students",
+    "title": "316+ United States of America (USA) Scholarships 2026-27 - Scholarships in United States of America (USA) [Updated]",
+    "status": "unknown",
+    "eligibility_status": "UNCERTAIN",
+    "model_eligibility_status": "UNCERTAIN",
+    "missing_requirements": [
+      "Explicit statement that any of the listed scholarships accept Ethiopian nationals who are not currently enrolled students.",
+      "Confirmation of the candidate's gender for women‑only scholarships."
+    ],
+    "blocking_issues": [
+      "Many scholarships require the applicant to be a current or admitted student, which the candidate is not.",
+      "Some scholarships restrict nationality (e.g., Indian nationals only, Canadian permanent residents, Hong Kong residents)."
+    ],
+    "addressable_gaps": [
+      "Obtain an English proficiency test result (Duolingo, MOI certificate).",
+      "Confirm gender if applying to women‑only scholarships."
+    ],
+    "reasoning": "The page lists many individual scholarships, each with its own criteria. Several scholarships explicitly restrict eligibility (e.g., Education Future International Scholarship – Indian nationals only; P.E.O International Peace Scholarships – women only; NSERC – requires Canadian citizenship/residency; Croucher – Hong Kong permanent residents). The candidate is Ethiopian, not a student, and gender is not confirmed, so it is unclear whether any of the listed awards are open to her. The lack of a unified eligibility statement means we cannot confirm she meets a program‑wide requirement, but there are addressable gaps (English test, possible gender confirmation).",
+    "id": "b36a4fb4bed03e61",
+    "first_seen": "2026-09-21T10:46:20.807521+00:00",
+    "last_updated": "2026-09-21T10:46:20.807536+00:00"
+  },
+  "24302d6987825f80": {
+    "url": "https://scholarshipair.com/scholarships/lshtm-masters-scholarships-for-developing-countries-fully-funded",
+    "title": "LSHTM 2023 Masters Scholarships for Developing Countries (Fully-funded) | ScholarshipAir",
+    "status": "analyzed",
+    "score": 4.0,
+    "category": "scholarships",
+    "official_url": "https://scholarshipair.com/scholarships/lshtm-masters-scholarships-for-developing-countries-fully-funded",
+    "location": null,
+    "remote": null,
+    "deadline": null,
+    "reward": "fully_funded",
+    "estimated_value": null,
+    "eligibility_status": "PROBABLY_ELIGIBLE",
+    "credibility_status": "LIKELY_LEGITIMATE",
+    "source_tier": "TIER_4",
+    "source_quality": 0,
+    "requirements": [
+      "References",
+      "Completed Supplementary Questions Form"
+    ],
+    "id": "24302d6987825f80",
+    "first_seen": "2026-09-21T10:55:54.889795+00:00",
+    "last_updated": "2026-09-21T10:55:54.889806+00:00"
   }
 }
