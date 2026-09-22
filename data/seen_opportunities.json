@@ -5639,10 +5639,10 @@
     "status": "legitimacy_unknown",
     "credibility_status": "NEEDS_VERIFICATION",
     "source_tier": "TIER_3",
-    "reasoning": "No reasoning returned.",
+    "reasoning": "The listing mentions no application fee and offers fully funded travel, which aligns with legitimate UN youth events, but it lacks a direct link to an official UN webpage and provides only a generic placeholder email address, making verification difficult.",
     "id": "6e081940260659e5",
     "first_seen": "2026-08-26T05:43:54.774210+00:00",
-    "last_updated": "2026-08-26T05:43:54.774217+00:00",
+    "last_updated": "2026-09-22T09:41:11.177071+00:00",
     "analysis_recovery_queued": true
   },
   "0c99b15b16fe0e16": {
@@ -10928,5 +10928,175 @@
     "id": "24302d6987825f80",
     "first_seen": "2026-09-21T10:55:54.889795+00:00",
     "last_updated": "2026-09-21T10:55:54.889806+00:00"
+  },
+  "fe321459b95f339e": {
+    "url": "https://www.opportunitiesforafricans.com/the-african-climate-collaborative-doctoral-training-fellowship-programme-2027/",
+    "title": "The African Climate Collaborative Doctoral Training Fellowship Programme 2027 in Climate and Development (Fully Funded)",
+    "status": "legitimacy_unknown",
+    "credibility_status": "NEEDS_VERIFICATION",
+    "source_tier": "TIER_3",
+    "reasoning": "The listing mentions a fully funded PhD fellowship linked to the University of Cape Town and the African Climate Collaborative, but provides no direct link to an official programme page, and the contact emails are generic (no institutional domain shown). No fee or payment request is mentioned, which is a positive sign, yet the lack of verifiable official source prevents confirming legitimacy.",
+    "id": "fe321459b95f339e",
+    "first_seen": "2026-09-22T09:42:38.034073+00:00",
+    "last_updated": "2026-09-22T09:42:38.034089+00:00"
+  },
+  "f3eefcaea17be008": {
+    "url": "https://opportunitiescorners.com/ellison-graduate-scholars-program-2027/",
+    "title": "Ellison Graduate Scholars Program 2027 in the UK (Fully Funded)",
+    "status": "scam",
+    "credibility_status": "HIGH_RISK",
+    "source_tier": "TIER_3",
+    "reasoning": "The program is claimed to be offered by the non‑existent \"Ellison Institute of Technology\" with only a Gmail address as contact, no official Oxford or institutional website, and no verifiable details; the aggregator page uses generic language and self‑affirming FAQs, which are typical of fabricated scholarship scams.",
+    "id": "f3eefcaea17be008",
+    "first_seen": "2026-09-22T09:43:11.907656+00:00",
+    "last_updated": "2026-09-22T09:43:11.907669+00:00"
+  },
+  "e8b2b02cc31c068a": {
+    "url": "https://www.opportunitiesforafricans.com/yale-young-african-scholars-program-2027/",
+    "title": "Yale Young African Scholars Program 2027 for African secondary school students. (Travel Grant Available to YYAS Residential Leadership Summit)",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "model_eligibility_status": "CONFIRMED_INELIGIBLE",
+    "missing_requirements": [],
+    "blocking_issues": [
+      "Age exceeds limit (27 > 18)",
+      "Not a current secondary school student (must be in 10th or 11th grade)",
+      "Already holds a university degree (graduated university, not eligible)",
+      "Not enrolled in an African secondary school"
+    ],
+    "addressable_gaps": [
+      "English proficiency proof (can obtain Duolingo or MOI certificate)"
+    ],
+    "reasoning": "The program requires applicants to be between 14-18 years old on July 15, 2027, to be currently enrolled in secondary school (10th or 11th grade) in an African country, and not to have already graduated secondary school or be a university student. The candidate is 27 years old, a working professional with a completed BSc degree, and not currently a secondary school student, which directly violates multiple mandatory criteria.",
+    "id": "e8b2b02cc31c068a",
+    "first_seen": "2026-09-22T09:44:27.570748+00:00",
+    "last_updated": "2026-09-22T09:44:27.570761+00:00"
+  },
+  "e2ba7b2ed15853db": {
+    "url": "https://www.opportunitiesforafricans.com/the-agnes-bayer-science-foundation-research-grant-2026/",
+    "title": "The AGNES-BAYER Science Foundation Research Grant 2026 for Biodiversity Conservation & Sustainable Agriculture in Sub-Saharan Africa.",
+    "status": "legitimacy_unknown",
+    "credibility_status": "NEEDS_VERIFICATION",
+    "source_tier": "TIER_3",
+    "reasoning": "The grant does not require any application or participation fee, which is a positive sign, but the only contact information provided uses generic free‑email addresses and there is no verifiable official website for the \"Agnes‑Bayer Science Foundation\" linked from the page, making it impossible to confirm authenticity.",
+    "id": "e2ba7b2ed15853db",
+    "first_seen": "2026-09-22T09:45:16.572626+00:00",
+    "last_updated": "2026-09-22T09:45:16.572644+00:00"
+  },
+  "6be36196125ab488": {
+    "url": "https://www.opportunitiesforafricans.com/fao-headquarters-hq-internship-programme-2027-for-young-professionals/",
+    "title": "FAO headquarters (HQ) Internship Programme 2027 for young professionals.",
+    "status": "ineligible",
+    "eligibility_status": "PROBABLY_INELIGIBLE",
+    "model_eligibility_status": "PROBABLY_INELIGIBLE",
+    "missing_requirements": [
+      "Verification that the candidate's field of study (Psychology/AI) is considered relevant to FAO’s mission.",
+      "Confirmation that Injibara University is listed in the World Higher Education Database (WHED)."
+    ],
+    "blocking_issues": [
+      "Not enrolled in a degree programme and not a recent graduate (graduated 2021, beyond typical recent‑graduate window)."
+    ],
+    "addressable_gaps": [
+      "No certified proof of English language proficiency; can obtain Duolingo or MOI certificate."
+    ],
+    "reasoning": "The FAO internship requires applicants to be enrolled in an undergraduate or graduate programme at the time of application OR be a recent graduate. Gulilat graduated with a BSc in 2021 and is currently a working professional, which exceeds typical 'recent graduate' windows (usually within 12 months). This makes her ineligible on the primary eligibility criterion. She meets the age (27) and nationality (Ethiopia is an FAO member) requirements, but lacks a certified proof of English proficiency, which is an addressable gap.",
+    "id": "6be36196125ab488",
+    "first_seen": "2026-09-22T09:46:21.343002+00:00",
+    "last_updated": "2026-09-22T09:46:21.343017+00:00"
+  },
+  "b34041202eec2a39": {
+    "url": "https://www.opportunitiesforafricans.com/fao-regional-office-for-africa-raf-2027-internship-programme-for-young-africans/",
+    "title": "FAO Regional Office for Africa (RAF) 2027 Internship Programme for young Africans.",
+    "status": "ineligible",
+    "eligibility_status": "PROBABLY_INELIGIBLE",
+    "model_eligibility_status": "PROBABLY_INELIGIBLE",
+    "missing_requirements": [
+      "Confirmation that the candidate qualifies as a \"recent graduate\" under FAO's definition.",
+      "Demonstration that the candidate's field of study or professional experience is relevant to FAO's mission and work."
+    ],
+    "blocking_issues": [],
+    "addressable_gaps": [
+      "Obtain a recognized English language test result (e.g., Duolingo English Test or MOI certificate) to satisfy the language requirement."
+    ],
+    "reasoning": "The program requires candidates to be enrolled in a degree programme or be a recent graduate; the candidate is a working professional and graduated 5 years ago, so recent graduate status is unclear. Additionally, the candidate's academic background (BSc Psychology) does not clearly align with FAO's fields of work (agri‑food, nutrition, etc.). The candidate meets the age (27) and nationality (Ethiopia is a FAO member) criteria, but lacks a certified proof of English proficiency, which can be obtained.",
+    "id": "b34041202eec2a39",
+    "first_seen": "2026-09-22T09:47:21.462434+00:00",
+    "last_updated": "2026-09-22T09:47:21.462447+00:00"
+  },
+  "f1258c44becea138": {
+    "url": "https://www.opportunitiesforafricans.com/fao-regional-office-for-the-near-east-and-north-africa-rne-internship-2027/",
+    "title": "FAO Regional Office for the Near East and North Africa (RNE) Internship 2027 for young people",
+    "status": "ineligible",
+    "eligibility_status": "PROBABLY_INELIGIBLE",
+    "model_eligibility_status": "PROBABLY_INELIGIBLE",
+    "missing_requirements": [],
+    "blocking_issues": [
+      "Not currently enrolled in a degree program and not a recent graduate (hard blocker)."
+    ],
+    "addressable_gaps": [
+      "Obtain proof of English proficiency (e.g., Duolingo test or MOI certificate).",
+      "Demonstrate relevance of AI/AgriTech background to FAO's mission."
+    ],
+    "reasoning": "The internship requires applicants to be currently enrolled in an undergraduate or graduate program *or* be a recent graduate. The candidate graduated with a BSc in 2021 and is now a working professional, which does not satisfy the enrollment/recent‑graduate condition. All other criteria (age 27, Ethiopian nationality, FAO member state, English proficiency) are met or can be addressed.",
+    "id": "f1258c44becea138",
+    "first_seen": "2026-09-22T09:48:30.013508+00:00",
+    "last_updated": "2026-09-22T09:48:30.013546+00:00"
+  },
+  "0fc975282db7e961": {
+    "url": "https://www.opportunitiesforafricans.com/the-food-and-agriculture-organization-of-the-united-nations-fao-2027-regional-volunteer-program/",
+    "title": "The Food and Agriculture Organization of the United Nations (FAO) 2027 Regional Volunteer Program for young Africans.",
+    "status": "legitimacy_unknown",
+    "credibility_status": "NEEDS_VERIFICATION",
+    "source_tier": "TIER_3",
+    "reasoning": "The page does not request any application or participation fees and uses only generic contact emails, which are typical red‑flags for scams. However, it provides no direct link to an official FAO website or any verifiable evidence that FAO runs a 2027 Regional Volunteer Programme for young Africans, so the legitimacy cannot be confirmed.",
+    "id": "0fc975282db7e961",
+    "first_seen": "2026-09-22T09:49:10.068592+00:00",
+    "last_updated": "2026-09-22T09:49:10.068607+00:00"
+  },
+  "ad4898f77464777d": {
+    "url": "https://globalebafund.org/small-size-grants",
+    "title": "Small-Size Grants",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "model_eligibility_status": "CONFIRMED_INELIGIBLE",
+    "missing_requirements": [],
+    "blocking_issues": [
+      "Applicant is an individual, not an eligible organisation or legal entity",
+      "Potential mismatch with primary geographic focus (Ethiopia is no longer an LDC)"
+    ],
+    "addressable_gaps": [],
+    "reasoning": "The Global EbA Fund explicitly states that only organisations (NGOs, INGOs, IGOs, CBOs, Indigenous Peoples’ Organisations, universities, research institutes, private sector companies, or consortia) are eligible to apply. The candidate is an individual professional and not a legally recognised entity, which directly violates the eligibility checklist. Additionally, the primary geographic focus is on ODA‑eligible SIDS and LDCs; Ethiopia has graduated from LDC status, so the candidate’s home country may not meet the primary focus, though this is secondary to the organisational requirement.",
+    "id": "ad4898f77464777d",
+    "first_seen": "2026-09-22T09:50:39.412602+00:00",
+    "last_updated": "2026-09-22T09:50:39.412617+00:00"
+  },
+  "9b7fc959f2862fc2": {
+    "url": "https://www.newsbeep.com/us/623175",
+    "title": "Call for Applications: EDP Hope Fund Incubator 2026 for early stage - United States News Beep",
+    "status": "closed",
+    "deadline": "2026-04-30",
+    "id": "9b7fc959f2862fc2",
+    "first_seen": "2026-09-22T09:51:01.760922+00:00",
+    "last_updated": "2026-09-22T09:51:01.760930+00:00"
+  },
+  "fbd43e2e6fbcd84c": {
+    "url": "https://opendoclab.substack.com/p/apply-now-for-worlding-2026-open",
+    "title": "APPLY NOW for WORLDING 2026 OPEN CALL 🌏",
+    "status": "closed",
+    "deadline": "2026-03-03",
+    "id": "fbd43e2e6fbcd84c",
+    "first_seen": "2026-09-22T09:51:12.585822+00:00",
+    "last_updated": "2026-09-22T09:51:12.585830+00:00"
+  },
+  "c346aeb36d1f9f6c": {
+    "url": "https://www.facebook.com/scholarcorner/videos/fully-funded-summer-leadership-program-in-the-usa-dates-june-29-july-20-2027link/1082253064697136",
+    "title": "Fully Funded Summer Leadership Program in the USA Dates: June ...",
+    "status": "suspicious",
+    "credibility_status": "SUSPICIOUS",
+    "source_tier": "TIER_4",
+    "reasoning": "The program is promoted via a Facebook post linking to a non‑official .website domain and provides no verifiable contact information or link to an established institution; the Hansen Leadership Institute and Fred J. Hansen Foundation cannot be readily confirmed. While no fee is mentioned, the lack of official sources and the use of an aggregator‑style site are red flags.",
+    "id": "c346aeb36d1f9f6c",
+    "first_seen": "2026-09-22T09:51:33.731846+00:00",
+    "last_updated": "2026-09-22T09:51:33.731856+00:00"
   }
 }

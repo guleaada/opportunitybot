@@ -1,310 +1,5 @@
 [
   {
-    "at": "2026-09-03T09:45:38.446728+00:00",
-    "kind": "scan_complete",
-    "message": "daily scan finished",
-    "matches": 0,
-    "stats": {
-      "discovered": 281,
-      "already_seen": 88,
-      "known_scam": 0,
-      "fetch_failed": 2,
-      "first_pass_dropped": 0,
-      "scam": 1,
-      "legit_unknown": 2,
-      "ineligible": 9,
-      "closed": 0,
-      "deep_analyzed": 1,
-      "scored_high": 0,
-      "eligibility_demoted": 1,
-      "jina_fetch": 0,
-      "jina_failed": 0,
-      "snippet_fallback": 1,
-      "legit_unparseable": 0,
-      "trusted_thin_pass": 0,
-      "discovery": {
-        "tavily": {
-          "attempted": 20,
-          "successful": 20,
-          "429": 0,
-          "403": 0,
-          "errors": 0,
-          "candidates": 159,
-          "queries_planned": 20,
-          "disabled_reason": ""
-        },
-        "rss": {
-          "attempted": 4,
-          "successful": 4,
-          "failed": 0,
-          "skipped_dead": 1,
-          "candidates": 56
-        },
-        "api": {
-          "sources": 2,
-          "healthy": 2,
-          "failed": 0,
-          "candidates": 58
-        },
-        "seed": {
-          "attempted": 14,
-          "candidates": 14
-        },
-        "total": {
-          "raw": 287,
-          "after_dedupe": 281
-        }
-      },
-      "signal_rescued": 5,
-      "deduped": 0
-    }
-  },
-  {
-    "at": "2026-09-03T09:45:38.450271+00:00",
-    "kind": "run",
-    "mode": "scan",
-    "environment": "github_actions",
-    "stats": {
-      "discovered": 281,
-      "already_seen": 88,
-      "known_scam": 0,
-      "fetch_failed": 2,
-      "first_pass_dropped": 0,
-      "scam": 1,
-      "legit_unknown": 2,
-      "ineligible": 9,
-      "closed": 0,
-      "deep_analyzed": 1,
-      "scored_high": 0,
-      "eligibility_demoted": 1,
-      "jina_fetch": 0,
-      "jina_failed": 0,
-      "snippet_fallback": 1,
-      "legit_unparseable": 0,
-      "trusted_thin_pass": 0,
-      "discovery": {
-        "tavily": {
-          "attempted": 20,
-          "successful": 20,
-          "429": 0,
-          "403": 0,
-          "errors": 0,
-          "candidates": 159,
-          "queries_planned": 20,
-          "disabled_reason": ""
-        },
-        "rss": {
-          "attempted": 4,
-          "successful": 4,
-          "failed": 0,
-          "skipped_dead": 1,
-          "candidates": 56
-        },
-        "api": {
-          "sources": 2,
-          "healthy": 2,
-          "failed": 0,
-          "candidates": 58
-        },
-        "seed": {
-          "attempted": 14,
-          "candidates": 14
-        },
-        "total": {
-          "raw": 287,
-          "after_dedupe": 281
-        }
-      },
-      "signal_rescued": 5,
-      "deduped": 0,
-      "matches": 0
-    }
-  },
-  {
-    "at": "2026-09-04T09:22:43.530374+00:00",
-    "kind": "scan_start",
-    "message": "daily scan started"
-  },
-  {
-    "at": "2026-09-04T09:29:26.521281+00:00",
-    "kind": "error",
-    "message": "Fetch failed for https://www.dfat.gov.au/people-to-people/australia-awards/australia-awards-scholarships: HTTPSConnectionPool(host='www.dfat.gov.au', port=443): Read timed out. (read timeout=25)"
-  },
-  {
-    "at": "2026-09-04T09:31:31.249406+00:00",
-    "kind": "error",
-    "message": "Fetch failed for https://vanier.gc.ca/en/home-accueil.html: HTTPSConnectionPool(host='vanier.gc.ca', port=443): Max retries exceeded with url: /en/home-accueil.html (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)')))"
-  },
-  {
-    "at": "2026-09-04T09:31:31.417890+00:00",
-    "kind": "error",
-    "message": "Fetch failed for https://opportunitydesk.org/category/fellowships/: 403"
-  },
-  {
-    "at": "2026-09-04T09:34:29.396590+00:00",
-    "kind": "error",
-    "message": "Fetch failed for https://www.facebook.com/opportunitiesforyouth/posts/-25-global-awards-prizes-competition-opportunities-for-20262027ready-to-win-fund/1453042423519773: 400"
-  },
-  {
-    "at": "2026-09-04T09:34:59.356504+00:00",
-    "kind": "error",
-    "message": "Fetch failed for https://jobglance.app/jobs/visa-sponsorship/us: 404"
-  },
-  {
-    "at": "2026-09-04T09:35:06.273043+00:00",
-    "kind": "error",
-    "message": "Fetch failed for https://www.facebook.com/opportunitiesforyouth/posts/-princeton-in-africa-fellowship-202728-host-talented-young-professionals-across-/1508478037976211: 400"
-  },
-  {
-    "at": "2026-09-04T09:35:42.528164+00:00",
-    "kind": "scan_complete",
-    "message": "daily scan finished",
-    "matches": 0,
-    "stats": {
-      "discovered": 278,
-      "already_seen": 74,
-      "known_scam": 0,
-      "fetch_failed": 3,
-      "first_pass_dropped": 2,
-      "scam": 0,
-      "legit_unknown": 2,
-      "ineligible": 5,
-      "closed": 0,
-      "deep_analyzed": 3,
-      "scored_high": 0,
-      "eligibility_demoted": 0,
-      "jina_fetch": 0,
-      "jina_failed": 0,
-      "snippet_fallback": 3,
-      "legit_unparseable": 0,
-      "trusted_thin_pass": 0,
-      "discovery": {
-        "tavily": {
-          "attempted": 20,
-          "successful": 20,
-          "429": 0,
-          "403": 0,
-          "errors": 0,
-          "candidates": 160,
-          "queries_planned": 20,
-          "disabled_reason": ""
-        },
-        "rss": {
-          "attempted": 4,
-          "successful": 4,
-          "failed": 0,
-          "skipped_dead": 1,
-          "candidates": 56
-        },
-        "api": {
-          "sources": 2,
-          "healthy": 2,
-          "failed": 0,
-          "candidates": 58
-        },
-        "seed": {
-          "attempted": 14,
-          "candidates": 14
-        },
-        "total": {
-          "raw": 288,
-          "after_dedupe": 278
-        }
-      },
-      "signal_rescued": 1,
-      "deduped": 0
-    }
-  },
-  {
-    "at": "2026-09-04T09:35:42.531685+00:00",
-    "kind": "run",
-    "mode": "scan",
-    "environment": "github_actions",
-    "stats": {
-      "discovered": 278,
-      "already_seen": 74,
-      "known_scam": 0,
-      "fetch_failed": 3,
-      "first_pass_dropped": 2,
-      "scam": 0,
-      "legit_unknown": 2,
-      "ineligible": 5,
-      "closed": 0,
-      "deep_analyzed": 3,
-      "scored_high": 0,
-      "eligibility_demoted": 0,
-      "jina_fetch": 0,
-      "jina_failed": 0,
-      "snippet_fallback": 3,
-      "legit_unparseable": 0,
-      "trusted_thin_pass": 0,
-      "discovery": {
-        "tavily": {
-          "attempted": 20,
-          "successful": 20,
-          "429": 0,
-          "403": 0,
-          "errors": 0,
-          "candidates": 160,
-          "queries_planned": 20,
-          "disabled_reason": ""
-        },
-        "rss": {
-          "attempted": 4,
-          "successful": 4,
-          "failed": 0,
-          "skipped_dead": 1,
-          "candidates": 56
-        },
-        "api": {
-          "sources": 2,
-          "healthy": 2,
-          "failed": 0,
-          "candidates": 58
-        },
-        "seed": {
-          "attempted": 14,
-          "candidates": 14
-        },
-        "total": {
-          "raw": 288,
-          "after_dedupe": 278
-        }
-      },
-      "signal_rescued": 1,
-      "deduped": 0,
-      "matches": 0
-    }
-  },
-  {
-    "at": "2026-09-05T01:50:26.146843+00:00",
-    "kind": "run",
-    "mode": "watchlist",
-    "environment": "github_actions",
-    "stats": {
-      "discovered": 0,
-      "already_seen": 0,
-      "known_scam": 0,
-      "fetch_failed": 0,
-      "first_pass_dropped": 0,
-      "scam": 0,
-      "legit_unknown": 0,
-      "ineligible": 1,
-      "closed": 0,
-      "deep_analyzed": 1,
-      "scored_high": 0,
-      "eligibility_demoted": 0,
-      "jina_fetch": 0,
-      "jina_failed": 0,
-      "snippet_fallback": 0,
-      "legit_unparseable": 0,
-      "trusted_thin_pass": 0,
-      "signal_rescued": 1,
-      "reopened": 2,
-      "matches": 0
-    }
-  },
-  {
     "at": "2026-09-05T01:50:26.377549+00:00",
     "kind": "scan_start",
     "message": "daily scan started"
@@ -3615,6 +3310,200 @@
       },
       "signal_rescued": 3,
       "analysis_unavailable": 1,
+      "deduped": 0,
+      "matches": 0
+    }
+  },
+  {
+    "at": "2026-09-22T09:40:59.118620+00:00",
+    "kind": "error",
+    "message": "Fetch failed for https://opportunitiesforyouth.org/2026/08/24/insait-graduate-research/: 403"
+  },
+  {
+    "at": "2026-09-22T09:40:59.375403+00:00",
+    "kind": "error",
+    "message": "Fetch failed for https://opportunitydesk.org/2026/08/24/zukunftskolleg-postdoctoral-fellowships-2026/: 403"
+  },
+  {
+    "at": "2026-09-22T09:40:59.591330+00:00",
+    "kind": "error",
+    "message": "Fetch failed for https://opportunitiesforyouth.org/2026/08/24/unisq-international-phd-scholarship-2027-in-australia-aud-39000-stipend-full-tuition-fees/: 403"
+  },
+  {
+    "at": "2026-09-22T09:40:59.804718+00:00",
+    "kind": "error",
+    "message": "Fetch failed for https://opportunitiesforyouth.org/2026/08/24/unicef-thailand-ypp-2026/: 403"
+  },
+  {
+    "at": "2026-09-22T09:41:12.736477+00:00",
+    "kind": "run",
+    "mode": "watchlist",
+    "environment": "github_actions",
+    "stats": {
+      "discovered": 0,
+      "already_seen": 0,
+      "known_scam": 0,
+      "fetch_failed": 4,
+      "first_pass_dropped": 0,
+      "scam": 0,
+      "legit_unknown": 1,
+      "ineligible": 0,
+      "closed": 0,
+      "deep_analyzed": 0,
+      "scored_high": 0,
+      "eligibility_demoted": 0,
+      "jina_fetch": 0,
+      "jina_failed": 0,
+      "snippet_fallback": 0,
+      "legit_unparseable": 0,
+      "trusted_thin_pass": 0,
+      "signal_rescued": 1,
+      "reopened": 5,
+      "matches": 0
+    }
+  },
+  {
+    "at": "2026-09-22T09:41:12.978884+00:00",
+    "kind": "scan_start",
+    "message": "daily scan started"
+  },
+  {
+    "at": "2026-09-22T09:47:46.541953+00:00",
+    "kind": "error",
+    "message": "Fetch failed for https://www.dfat.gov.au/people-to-people/australia-awards/australia-awards-scholarships: HTTPSConnectionPool(host='www.dfat.gov.au', port=443): Read timed out. (read timeout=25)"
+  },
+  {
+    "at": "2026-09-22T09:49:10.323582+00:00",
+    "kind": "error",
+    "message": "Fetch failed for https://vanier.gc.ca/en/home-accueil.html: HTTPSConnectionPool(host='vanier.gc.ca', port=443): Max retries exceeded with url: /en/home-accueil.html (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)')))"
+  },
+  {
+    "at": "2026-09-22T09:49:10.547380+00:00",
+    "kind": "error",
+    "message": "Fetch failed for https://opportunitydesk.org/category/fellowships/: 403"
+  },
+  {
+    "at": "2026-09-22T09:51:01.866218+00:00",
+    "kind": "error",
+    "message": "Fetch failed for https://opendoclab.substack.com/p/apply-now-for-worlding-2026-open: 403"
+  },
+  {
+    "at": "2026-09-22T09:51:35.303023+00:00",
+    "kind": "scan_complete",
+    "message": "daily scan finished",
+    "matches": 0,
+    "stats": {
+      "discovered": 277,
+      "already_seen": 76,
+      "known_scam": 0,
+      "fetch_failed": 3,
+      "first_pass_dropped": 0,
+      "scam": 2,
+      "legit_unknown": 3,
+      "ineligible": 5,
+      "closed": 2,
+      "deep_analyzed": 0,
+      "scored_high": 0,
+      "eligibility_demoted": 0,
+      "jina_fetch": 0,
+      "jina_failed": 0,
+      "snippet_fallback": 1,
+      "legit_unparseable": 0,
+      "trusted_thin_pass": 0,
+      "discovery": {
+        "tavily": {
+          "attempted": 20,
+          "successful": 20,
+          "429": 0,
+          "403": 0,
+          "errors": 0,
+          "candidates": 160,
+          "queries_planned": 20,
+          "disabled_reason": ""
+        },
+        "rss": {
+          "attempted": 4,
+          "successful": 4,
+          "failed": 0,
+          "skipped_dead": 1,
+          "candidates": 56
+        },
+        "api": {
+          "sources": 2,
+          "healthy": 2,
+          "failed": 0,
+          "candidates": 58
+        },
+        "seed": {
+          "attempted": 14,
+          "candidates": 14
+        },
+        "total": {
+          "raw": 288,
+          "after_dedupe": 277
+        }
+      },
+      "signal_rescued": 1,
+      "deduped": 0
+    }
+  },
+  {
+    "at": "2026-09-22T09:51:35.306658+00:00",
+    "kind": "run",
+    "mode": "scan",
+    "environment": "github_actions",
+    "stats": {
+      "discovered": 277,
+      "already_seen": 76,
+      "known_scam": 0,
+      "fetch_failed": 3,
+      "first_pass_dropped": 0,
+      "scam": 2,
+      "legit_unknown": 3,
+      "ineligible": 5,
+      "closed": 2,
+      "deep_analyzed": 0,
+      "scored_high": 0,
+      "eligibility_demoted": 0,
+      "jina_fetch": 0,
+      "jina_failed": 0,
+      "snippet_fallback": 1,
+      "legit_unparseable": 0,
+      "trusted_thin_pass": 0,
+      "discovery": {
+        "tavily": {
+          "attempted": 20,
+          "successful": 20,
+          "429": 0,
+          "403": 0,
+          "errors": 0,
+          "candidates": 160,
+          "queries_planned": 20,
+          "disabled_reason": ""
+        },
+        "rss": {
+          "attempted": 4,
+          "successful": 4,
+          "failed": 0,
+          "skipped_dead": 1,
+          "candidates": 56
+        },
+        "api": {
+          "sources": 2,
+          "healthy": 2,
+          "failed": 0,
+          "candidates": 58
+        },
+        "seed": {
+          "attempted": 14,
+          "candidates": 14
+        },
+        "total": {
+          "raw": 288,
+          "after_dedupe": 277
+        }
+      },
+      "signal_rescued": 1,
       "deduped": 0,
       "matches": 0
     }

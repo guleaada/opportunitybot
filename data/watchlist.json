@@ -376,7 +376,8 @@
     "title": "PhD at INSAIT in Bulgaria: Fully Funded Doctoral Fellowship of €39,684 Per Year for International Students",
     "retry_analysis": true,
     "reason": "Recover historical malformed model response",
-    "added": "2026-09-05T01:47:30.317503+00:00"
+    "added": "2026-09-22T09:40:58.807382+00:00",
+    "last_checked": "2026-09-22T09:40:58.806664"
   },
   "810304eb0b91c9d4": {
     "id": "810304eb0b91c9d4",
@@ -384,7 +385,8 @@
     "title": "Zukunftskolleg Postdoctoral Fellowships 2026",
     "retry_analysis": true,
     "reason": "Recover historical malformed model response",
-    "added": "2026-09-05T01:47:30.318472+00:00"
+    "added": "2026-09-22T09:40:59.132991+00:00",
+    "last_checked": "2026-09-22T09:40:59.131977"
   },
   "8ab0c6ef208236d7": {
     "id": "8ab0c6ef208236d7",
@@ -392,7 +394,8 @@
     "title": "UniSQ International PhD Scholarship 2027 in Australia | AUD $39,000 Stipend + Full Tuition Fees",
     "retry_analysis": true,
     "reason": "Recover historical malformed model response",
-    "added": "2026-09-05T01:47:30.319442+00:00"
+    "added": "2026-09-22T09:40:59.389023+00:00",
+    "last_checked": "2026-09-22T09:40:59.388002"
   },
   "58544d0fe1f2f187": {
     "id": "58544d0fe1f2f187",
@@ -400,15 +403,8 @@
     "title": "UNICEF Thailand Young Professionals Programme 2026: Communication Internship in Bangkok for University Students and Recent Graduates",
     "retry_analysis": true,
     "reason": "Recover historical malformed model response",
-    "added": "2026-09-05T01:47:30.320441+00:00"
-  },
-  "6e081940260659e5": {
-    "id": "6e081940260659e5",
-    "url": "https://www.opportunitiesforafricans.com/united-nations-un-youth-townhall-2026-for-young-people-worldwide/",
-    "title": "United Nations (UN) Youth Townhall 2026 for young people worldwide (Fully Funded to Heidelberg, Germany)",
-    "retry_analysis": true,
-    "reason": "Recover historical malformed model response",
-    "added": "2026-09-05T01:47:30.321466+00:00"
+    "added": "2026-09-22T09:40:59.604920+00:00",
+    "last_checked": "2026-09-22T09:40:59.603814"
   },
   "0c99b15b16fe0e16": {
     "id": "0c99b15b16fe0e16",
@@ -1163,5 +1159,21 @@
     "reason": "legitimacy check returned an unparseable reply; retry on a later run",
     "id": "333d369197b106a8",
     "added": "2026-09-21T10:56:44.323379+00:00"
+  },
+  "9b7fc959f2862fc2": {
+    "url": "https://www.newsbeep.com/us/623175",
+    "title": "Call for Applications: EDP Hope Fund Incubator 2026 for early stage - United States News Beep",
+    "last_known_deadline": "2026-04-30",
+    "reason": "closed at discovery; likely annual",
+    "id": "9b7fc959f2862fc2",
+    "added": "2026-09-22T09:51:01.772835+00:00"
+  },
+  "fbd43e2e6fbcd84c": {
+    "url": "https://opendoclab.substack.com/p/apply-now-for-worlding-2026-open",
+    "title": "APPLY NOW for WORLDING 2026 OPEN CALL 🌏",
+    "last_known_deadline": "2026-03-03",
+    "reason": "closed at discovery; likely annual",
+    "id": "fbd43e2e6fbcd84c",
+    "added": "2026-09-22T09:51:12.602018+00:00"
   }
 }
