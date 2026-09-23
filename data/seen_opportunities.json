@@ -5648,13 +5648,25 @@
   "0c99b15b16fe0e16": {
     "url": "https://www.opportunitiesforafricans.com/the-university-of-cape-town-mastercard-foundation-scholars-program-2027/",
     "title": "The University of Cape Town MasterCard Foundation Scholars Program 2027 for study in South Africa (Fully Funded)",
-    "status": "unknown",
-    "eligibility_status": "UNCERTAIN",
+    "status": "analyzed",
+    "eligibility_status": "PROBABLY_ELIGIBLE",
     "reasoning": "No reasoning returned.",
     "id": "0c99b15b16fe0e16",
     "first_seen": "2026-08-26T05:45:00.774026+00:00",
-    "last_updated": "2026-08-26T05:45:00.774034+00:00",
-    "analysis_recovery_queued": true
+    "last_updated": "2026-09-23T09:49:08.596047+00:00",
+    "analysis_recovery_queued": true,
+    "score": 4.5,
+    "category": null,
+    "official_url": "https://www.opportunitiesforafricans.com/the-university-of-cape-town-mastercard-foundation-scholars-program-2027/",
+    "location": null,
+    "remote": null,
+    "deadline": "2026-10-31",
+    "reward": "fully_funded",
+    "estimated_value": null,
+    "credibility_status": "LIKELY_LEGITIMATE",
+    "source_tier": "TIER_3",
+    "source_quality": 7,
+    "requirements": []
   },
   "88936ff77df6e7ef": {
     "url": "https://www.opportunitiesforafricans.com/sasol-mining-fence-line-mainstream-programme-2026-for-young-south-africans/",
@@ -11098,5 +11110,138 @@
     "id": "c346aeb36d1f9f6c",
     "first_seen": "2026-09-22T09:51:33.731846+00:00",
     "last_updated": "2026-09-22T09:51:33.731856+00:00"
+  },
+  "10f64b4ebae165d1": {
+    "url": "https://www.opportunitiesforafricans.com/yali-2027-mandela-washington-fellowship/",
+    "title": "The YALI 2027 Mandela Washington Fellowship for young African Leaders (Fully Funded to the United States of America)",
+    "status": "ineligible",
+    "eligibility_status": "PROBABLY_INELIGIBLE",
+    "model_eligibility_status": "PROBABLY_INELIGIBLE",
+    "missing_requirements": [
+      "Confirmation of J-1 visa eligibility (not stated but generally assumed for Ethiopian citizens)."
+    ],
+    "blocking_issues": [
+      "Residency requirement: must be a permanent resident of Ethiopia (or another listed country) by Feb 1, 2027; candidate resides in Laos."
+    ],
+    "addressable_gaps": [
+      "Obtain an English proficiency certificate (e.g., Duolingo, MOI) if the program later requires formal proof.",
+      "Relocate to Ethiopia and establish permanent residence before the February 2027 deadline."
+    ],
+    "reasoning": "The candidate meets the age (27), nationality (Ethiopian), and likely English proficiency criteria. However, the fellowship explicitly requires applicants to be residents of one of the listed African countries and to be permanently residing there as of February 1, 2027. The candidate is currently residing in Vientiane, Lao PDR, which does not satisfy the residency requirement. This constitutes a hard blocker.",
+    "id": "10f64b4ebae165d1",
+    "first_seen": "2026-09-23T09:50:57.062227+00:00",
+    "last_updated": "2026-09-23T09:50:57.062235+00:00"
+  },
+  "b6cfe18f00b2806c": {
+    "url": "https://opportunitiescorners.com/emirates-group-elevate-internship-2027/",
+    "title": "Emirates Group Elevate Internship 2027 in Dubai (Fully Funded)",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "model_eligibility_status": "CONFIRMED_INELIGIBLE",
+    "missing_requirements": [],
+    "blocking_issues": [
+      "Must be final year student or graduate within the last year; candidate graduated 2021 (>1 year) and is not a student."
+    ],
+    "addressable_gaps": [],
+    "reasoning": "The program explicitly requires applicants to be either in the final year of a Bachelor’s or Master’s degree OR to have graduated less than one year ago. The candidate graduated in 2021 (more than one year ago) and is currently a working professional, not a student, thus failing this requirement.",
+    "id": "b6cfe18f00b2806c",
+    "first_seen": "2026-09-23T09:52:17.387104+00:00",
+    "last_updated": "2026-09-23T09:52:17.387117+00:00"
+  },
+  "e81af9053a186d50": {
+    "url": "https://opportunitiescorners.com/world-bank-small-ai-hackathon-2026/",
+    "title": "World Bank Small AI Hackathon 2026 (Fully Funded Trip to Seoul)",
+    "status": "legitimacy_unknown",
+    "credibility_status": "NEEDS_VERIFICATION",
+    "source_tier": "TIER_3",
+    "reasoning": "The listing is on a third-party aggregator (opportunitiescorners.com) with no direct link to a World Bank official domain, and the specific 2026 Seoul hackathon cannot be verified from the page alone. No application fee or payment request is mentioned, which keeps it from being flagged as a scam, but the claim cannot be confirmed as legitimate either.",
+    "id": "e81af9053a186d50",
+    "first_seen": "2026-09-23T09:53:00.588076+00:00",
+    "last_updated": "2026-09-23T09:53:00.588088+00:00"
+  },
+  "1d239bfc7dfc339a": {
+    "url": "https://opportunitiescorners.com/discover-toronto-cultural-exchange-program-2027/",
+    "title": "Discover TORONTO Cultural Exchange Program 2027 (Funded)",
+    "status": "scam",
+    "credibility_status": "HIGH_RISK",
+    "source_tier": "TIER_3",
+    "reasoning": "The program advertises fully funded places but requires a $52 application fee, which legitimate scholarships never charge. It also uses a free Gmail address (opportunitiescorners.com@gmail.com) as the primary contact and provides no direct link to an official program website, raising serious fraud concerns.",
+    "id": "1d239bfc7dfc339a",
+    "first_seen": "2026-09-23T09:57:44.040920+00:00",
+    "last_updated": "2026-09-23T09:57:44.040934+00:00"
+  },
+  "062ca85040919ac1": {
+    "url": "https://socialcapitalinc.org/sci-youth-grant-pitch-contest-2",
+    "title": "SCI Youth Grant Pitch Contest - SCI Social Capital Inc.",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "model_eligibility_status": "CONFIRMED_INELIGIBLE",
+    "missing_requirements": [],
+    "blocking_issues": [
+      "Age requirement: Must be in grades 9-12 (high school), candidate is 27",
+      "Student enrollment requirement: Must be currently enrolled as a student, candidate is a working professional"
+    ],
+    "addressable_gaps": [],
+    "reasoning": "The program explicitly requires participants to be 'youth teams with members in grades 9 through 12, who are based in Greater Boston communities (within Essex, Middlesex, Norfolk & Suffolk counties).' The candidate is 27 years old and a working professional (not a student), which directly violates two core requirements: age (must be in high school) and student enrollment (must be currently enrolled as a student). Additionally, the program is geographically restricted to the United States (Greater Boston), while the candidate is an Ethiopian national residing in Vientiane, Lao PDR.",
+    "id": "062ca85040919ac1",
+    "first_seen": "2026-09-23T09:59:18.520586+00:00",
+    "last_updated": "2026-09-23T09:59:18.520599+00:00"
+  },
+  "5d7f103878657367": {
+    "url": "https://www.linkedin.com/posts/action-for-sustainability-initiative_calling-african-founders-the-accelerate-activity-7458038412705705984-zWhS",
+    "title": "Accelerate Africa Startup Programme 2026 Now Open for ...",
+    "status": "suspicious",
+    "credibility_status": "SUSPICIOUS",
+    "source_tier": "TIER_4",
+    "reasoning": "The post advertises a fully funded accelerator with no application fee, which is positive, but the organizer (Action for Sustainability Initiative) is not a recognized reputable entity, the funding source and Future Africa fund are undefined, and the application link points to a third‑party domain (acceler8.africa) that cannot be verified. These ambiguities raise suspicion despite the absence of explicit fee or payment red flags.",
+    "id": "5d7f103878657367",
+    "first_seen": "2026-09-23T09:59:34.800034+00:00",
+    "last_updated": "2026-09-23T09:59:34.800047+00:00"
+  },
+  "16fbb8a46e5c697b": {
+    "url": "https://africanngos.org/2026/09/07/african-ngo-funding-opportunities-september-october-2026",
+    "title": "African NGO Funding Opportunities – September & October 2026",
+    "status": "ineligible",
+    "eligibility_status": "PROBABLY_INELIGIBLE",
+    "model_eligibility_status": "PROBABLY_INELIGIBLE",
+    "missing_requirements": [
+      "Specific eligibility criteria for each individual funding opportunity (not provided in roundup format)",
+      "Application process details for individuals (if any exist)",
+      "Whether NGO registration or legal entity status is required",
+      "Detailed focus area alignment for each opportunity"
+    ],
+    "blocking_issues": [
+      "Program targets NGOs/civil society organizations, not individual applicants",
+      "Candidate is an individual working professional, not a registered NGO",
+      "No indication that individual applications are accepted for any listed opportunity"
+    ],
+    "addressable_gaps": [],
+    "reasoning": "The program text is a general roundup of African NGO funding opportunities, not a single defined scholarship/fellowship with unified eligibility criteria. However, every listed opportunity targets NGOs, civil society organizations, or registered entities — not individual applicants. The candidate is an individual working professional (not a student, not representing an NGO), which fundamentally mismatches the target applicant type for all listed grants. Additionally, the candidate's background (AI developer, psychologist, community leader) does not align with the NGO-focused focus areas of these grants. While the candidate is Ethiopian (which may match some country-specific calls like Ethiopiaid UK or Australian Embassy Ethiopia), the core requirement of being an NGO or civil society organization is a hard blocker for an individual applicant.",
+    "id": "16fbb8a46e5c697b",
+    "first_seen": "2026-09-23T10:02:45.946585+00:00",
+    "last_updated": "2026-09-23T10:02:45.946594+00:00"
+  },
+  "3b5dd086004779b7": {
+    "url": "https://remote.com/careers",
+    "title": "Remote Careers | Remote",
+    "status": "notified",
+    "score": 8.1,
+    "category": "remote_jobs",
+    "official_url": "https://remote.com/careers",
+    "location": null,
+    "remote": null,
+    "deadline": null,
+    "reward": "fully_funded",
+    "estimated_value": null,
+    "eligibility_status": "PROBABLY_ELIGIBLE",
+    "credibility_status": "LIKELY_LEGITIMATE",
+    "source_tier": "TIER_4",
+    "source_quality": 0,
+    "requirements": [],
+    "id": "3b5dd086004779b7",
+    "first_seen": "2026-09-23T10:07:42.274053+00:00",
+    "last_updated": "2026-09-23T10:07:46.372426+00:00",
+    "notification_tier": "WATCHLIST",
+    "notified_at": "2026-09-23T10:07:46.365031+00:00"
   }
 }
