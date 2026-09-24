@@ -6152,14 +6152,15 @@
   "d67f7db298ab8370": {
     "url": "https://opportunitiescorners.com/chicago-booth-residence-program-2027/",
     "title": "Chicago Booth Residence Program 2027 in USA (Fully Funded)",
-    "status": "legitimacy_unknown",
+    "status": "closed",
     "credibility_status": "NEEDS_VERIFICATION",
     "source_tier": "TIER_3",
     "reasoning": "No reasoning returned.",
     "id": "d67f7db298ab8370",
     "first_seen": "2026-08-29T11:36:57.914826+00:00",
-    "last_updated": "2026-08-29T11:36:57.914834+00:00",
-    "analysis_recovery_queued": true
+    "last_updated": "2026-09-24T09:45:02.656808+00:00",
+    "analysis_recovery_queued": true,
+    "deadline": null
   },
   "767c2d0470800933": {
     "url": "https://opportunitydesk.org/2026/08/29/ema-traineeship-programme-2026/",
@@ -11243,5 +11244,187 @@
     "last_updated": "2026-09-23T10:07:46.372426+00:00",
     "notification_tier": "WATCHLIST",
     "notified_at": "2026-09-23T10:07:46.365031+00:00"
+  },
+  "207cfba484f4d4b2": {
+    "url": "https://www.opportunitiesforafricans.com/the-mo-ibrahim-foundation-leadership-fellowship-programme-2027/",
+    "title": "The Mo Ibrahim Foundation Leadership Fellowship Programme 2027 for emerging African Leaders (Fully Funded to work at AfDB, UNECA & ITC with an Annual Stipend of $100,000)",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "model_eligibility_status": "CONFIRMED_INELIGIBLE",
+    "missing_requirements": [],
+    "blocking_issues": [
+      "Missing Master's degree (required)",
+      "Insufficient work experience (requires at least 7 years, candidate has ~5 years)"
+    ],
+    "addressable_gaps": [
+      "Obtain a Master's degree (requires enrollment and completion)",
+      "Gain additional relevant work experience to reach the 7‑year minimum"
+    ],
+    "reasoning": "The programme requires a Master's degree and a minimum of 7 years of relevant work experience. The candidate only holds a BSc and has approximately 5 years of work experience since graduating in 2021, which does not satisfy these mandatory criteria.",
+    "id": "207cfba484f4d4b2",
+    "first_seen": "2026-09-24T09:46:35.471811+00:00",
+    "last_updated": "2026-09-24T09:46:35.471830+00:00"
+  },
+  "a11495dfd877614a": {
+    "url": "https://www.opportunitiesforafricans.com/commonwealth-foundation-grants-programme-2026-2027/",
+    "title": "Commonwealth Foundation Grants Programme 2026/2027 for Civil Society Organizations (£60,000 in Grants).",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "model_eligibility_status": "CONFIRMED_INELIGIBLE",
+    "missing_requirements": [
+      "Verification of registration in a Commonwealth member country (not applicable to the candidate)",
+      "Proof of three‑year organisational existence (not applicable)"
+    ],
+    "blocking_issues": [
+      "Applicant is an individual, not a not‑for‑profit civil society or creative organisation",
+      "No registration in an eligible Commonwealth Foundation member country",
+      "Ethiopian nationality – Ethiopia is not a Commonwealth member"
+    ],
+    "addressable_gaps": [],
+    "reasoning": "The Commonwealth Foundation Grants Programme is open only to not‑for‑profit civil society or creative organisations that are registered in eligible Commonwealth Foundation member countries and have been operating for at least three years. The candidate is an individual professional, not a registered organisation, and holds Ethiopian nationality. Ethiopia is not a Commonwealth member, so the candidate does not meet the citizenship/registration requirement. These are hard, non‑addressable blockers.",
+    "id": "a11495dfd877614a",
+    "first_seen": "2026-09-24T09:47:34.673017+00:00",
+    "last_updated": "2026-09-24T09:47:34.673036+00:00"
+  },
+  "ee277528a5e152b3": {
+    "url": "https://opportunitiescorners.com/sdg-innovation-summit-malaysia-2026/",
+    "title": "SDG Innovation Summit Malaysia 2026 (Fully Funded)",
+    "status": "scam",
+    "credibility_status": "HIGH_RISK",
+    "source_tier": "TIER_3",
+    "reasoning": "The page promotes a \"Fully Funded\" summit but also pushes paid options: \"Self‑Funded Seats\" and an \"Invitation Letter\" service, with contact via a generic Gmail address. The organizer (Global Youth Network) lacks verifiable institutional backing, and the language \"Secure your seat\" and \"exclusive invitation\" are typical of fee‑based scam models.",
+    "id": "ee277528a5e152b3",
+    "first_seen": "2026-09-24T09:48:30.146734+00:00",
+    "last_updated": "2026-09-24T09:48:30.146749+00:00"
+  },
+  "2ead03e717196580": {
+    "url": "https://www.opportunitiesforafricans.com/the-equality-fund-journalism-fellowship-2026/",
+    "title": "The Equality Fund Journalism Fellowship 2026 for Journalists worldwide ($4000 CAD stipend)",
+    "status": "legitimacy_unknown",
+    "credibility_status": "NEEDS_VERIFICATION",
+    "source_tier": "TIER_3",
+    "reasoning": "The listing mentions a $4,000 CAD stipend and no application fee, which is typical of legitimate fellowships, but it provides only an aggregator‑hosted description with generic contact emails and no direct link to an official Equality Fund website, making it impossible to verify the sponsor’s existence.",
+    "id": "2ead03e717196580",
+    "first_seen": "2026-09-24T09:49:11.329876+00:00",
+    "last_updated": "2026-09-24T09:49:11.329894+00:00"
+  },
+  "5177e535c4bb38e4": {
+    "url": "https://www.opportunitiesforafricans.com/the-french-institute-for-research-in-africa-ifra-nigeria-research-grants-2027/",
+    "title": "The French Institute for Research in Africa (IFRA)-Nigeria research grants 2027 for master’s, doctoral and postdoctoral students,",
+    "status": "unknown",
+    "eligibility_status": "UNCERTAIN",
+    "model_eligibility_status": "UNCERTAIN",
+    "missing_requirements": [
+      "Proof of research focus on an eligible West African country.",
+      "Confirmation of researcher status or enrollment as a second‑year master’s/doctoral/post‑doctoral student."
+    ],
+    "blocking_issues": [],
+    "addressable_gaps": [
+      "Develop a research proposal that explicitly addresses a topic within the IFRA‑Nigeria geographical mandate (e.g., a study on digital humanities, health, citizenship, heritage, or environment in one of the nine West African countries).",
+      "Provide evidence of being a researcher (e.g., affiliation with a university, research institute, or a formal research project) if not enrolling as a student."
+    ],
+    "reasoning": "The IFRA‑Nigeria grants are limited to second‑year master’s students, doctoral/post‑doctoral students, **or researchers** whose work focuses on one of the nine West African countries in the Institute’s mandate. The candidate is an Ethiopian professional, not a current student, and there is no evidence that they are a researcher or that their proposed project would address a topic related to Nigeria, Benin, Burkina Faso, Cameroon, Côte d’Ivoire, Ghana, Niger, Chad or Togo. While the candidate’s background in psychology (a social science) and AI could fit the humanities/social sciences scope, the lack of a verifiable research focus on the eligible geographic area makes eligibility indeterminate.",
+    "id": "5177e535c4bb38e4",
+    "first_seen": "2026-09-24T09:50:18.644816+00:00",
+    "last_updated": "2026-09-24T09:50:18.644832+00:00"
+  },
+  "c6caf712792b42b0": {
+    "url": "https://www.opportunitiesforafricans.com/traderoots-africa-icc-programme-2026-2027/",
+    "title": "TradeRoots Africa-International Chamber of Commerce (ICC) Programme 2026/2027 for export-ready African SMEs.",
+    "status": "ineligible",
+    "eligibility_status": "PROBABLY_INELIGIBLE",
+    "model_eligibility_status": "PROBABLY_INELIGIBLE",
+    "missing_requirements": [],
+    "blocking_issues": [
+      "No qualifying African-owned SME owned or managed by the candidate (hard blocker)"
+    ],
+    "addressable_gaps": [
+      "Candidate could establish or join an eligible SME that meets the 24‑month trading history, turnover, and export‑ready product requirements."
+    ],
+    "reasoning": "The TradeRoots Africa-ICC Programme explicitly requires applicants to have an African-owned SME that is registered, has been trading for at least 24 months, meets a minimum turnover, and has a export‑ready product/service. The candidate profile does not mention ownership or senior management of any such business; it only describes individual professional experience. Therefore the core eligibility criterion (having a qualifying SME) is not met.",
+    "id": "c6caf712792b42b0",
+    "first_seen": "2026-09-24T09:51:19.048690+00:00",
+    "last_updated": "2026-09-24T09:51:19.048706+00:00"
+  },
+  "20d76b055f4104ab": {
+    "url": "https://opportunitiesforyouth.org/2026/07/16/call-for-applications-wilson-center-fellowship",
+    "title": "Wilson Center Research Fellowship Program 2027–2028 (Fully Funded): Receive USD 120,000 to Conduct Policy Research - Opportunities for Youth",
+    "status": "analyzed",
+    "score": 3.2,
+    "category": "research",
+    "official_url": "https://opportunitiesforyouth.org/2026/07/16/call-for-applications-wilson-center-fellowship",
+    "location": null,
+    "remote": null,
+    "deadline": "2026-09-30",
+    "reward": "fully_funded",
+    "estimated_value": null,
+    "eligibility_status": "UNCERTAIN",
+    "credibility_status": "LIKELY_LEGITIMATE",
+    "source_tier": "TIER_3",
+    "source_quality": 7,
+    "requirements": [],
+    "id": "20d76b055f4104ab",
+    "first_seen": "2026-09-24T09:52:28.558954+00:00",
+    "last_updated": "2026-09-24T09:52:28.558971+00:00"
+  },
+  "3abe2d883ef3fd13": {
+    "url": "https://www.wemakescholars.com/blog/fully-funded-scholarships",
+    "title": "Top 20 Fully Funded Scholarships for International Students 2026",
+    "status": "notified",
+    "score": 5.0,
+    "category": "scholarships",
+    "official_url": "https://www.wemakescholars.com/blog/fully-funded-scholarships",
+    "location": null,
+    "remote": null,
+    "deadline": "2026-10-16",
+    "reward": "fully_funded",
+    "estimated_value": null,
+    "eligibility_status": "PROBABLY_ELIGIBLE",
+    "credibility_status": "LIKELY_LEGITIMATE",
+    "source_tier": "TIER_4",
+    "source_quality": 0,
+    "requirements": [
+      "research proposal",
+      "references"
+    ],
+    "id": "3abe2d883ef3fd13",
+    "first_seen": "2026-09-24T09:55:33.347110+00:00",
+    "last_updated": "2026-09-24T10:02:48.181990+00:00",
+    "notification_tier": "GOOD",
+    "notified_at": "2026-09-24T10:02:48.172160+00:00"
+  },
+  "731be816c1a33260": {
+    "url": "https://opportunitiescorners.com/airbus-global-graduate-program-2027/",
+    "title": "Airbus Global Graduate Program 2027 in France (PAID)",
+    "status": "notified",
+    "score": 6.4,
+    "category": null,
+    "official_url": "https://opportunitiescorners.com/airbus-global-graduate-program-2027/",
+    "location": null,
+    "remote": null,
+    "deadline": "2026-09-30",
+    "reward": "fully_funded",
+    "estimated_value": null,
+    "eligibility_status": "PROBABLY_ELIGIBLE",
+    "credibility_status": "LIKELY_LEGITIMATE",
+    "source_tier": "TIER_3",
+    "source_quality": 7,
+    "requirements": [],
+    "id": "731be816c1a33260",
+    "first_seen": "2026-09-24T09:58:15.870862+00:00",
+    "last_updated": "2026-09-24T10:02:48.158934+00:00",
+    "notification_tier": "GOOD",
+    "notified_at": "2026-09-24T10:02:48.149545+00:00"
+  },
+  "24e93859e4935d48": {
+    "url": "https://www.opportunitiesforafricans.com/guaranty-trust-bank-gtco-kenya-graduate-trainee-program-2026/",
+    "title": "Guaranty Trust Bank (GTCO) Kenya Graduate Trainee Program 2026 for young Kenyan Graduates",
+    "status": "legitimacy_unknown",
+    "credibility_status": "NEEDS_VERIFICATION",
+    "source_tier": "TIER_3",
+    "reasoning": "The program is hosted on Opportunities For Africans, a third-party aggregator, which is normal publishing and not inherently fraudulent. However, the page provides no verifiable link to an official Guaranty Trust Bank Kenya careers page, no official contact email or phone number, and no clear indication of how to apply beyond a generic 'visit the official webpage' statement. Without confirming the program exists on GTBank Kenya's official site or identifying the official application channel, legitimacy cannot be verified.",
+    "id": "24e93859e4935d48",
+    "first_seen": "2026-09-24T10:02:15.490471+00:00",
+    "last_updated": "2026-09-24T10:02:15.490486+00:00"
   }
 }

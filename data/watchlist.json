@@ -448,15 +448,18 @@
     "title": "Cybersafe x SANS AI Security Fellowship 2026 (Fully-funded)",
     "retry_analysis": true,
     "reason": "Recover historical malformed model response",
-    "added": "2026-09-05T01:47:30.327663+00:00"
+    "added": "2026-09-24T09:44:59.486460+00:00",
+    "last_checked": "2026-09-24T09:44:59.485574"
   },
   "d67f7db298ab8370": {
     "id": "d67f7db298ab8370",
     "url": "https://opportunitiescorners.com/chicago-booth-residence-program-2027/",
     "title": "Chicago Booth Residence Program 2027 in USA (Fully Funded)",
     "retry_analysis": true,
-    "reason": "Recover historical malformed model response",
-    "added": "2026-09-05T01:47:30.328761+00:00"
+    "reason": "closed at discovery; likely annual",
+    "added": "2026-09-24T09:45:02.669695+00:00",
+    "last_checked": "2026-09-24T09:44:59.797677",
+    "last_known_deadline": null
   },
   "7b5ac571cd2c5806": {
     "id": "7b5ac571cd2c5806",
@@ -464,7 +467,8 @@
     "title": "University of Cape Town PhD Scholarships 2027: Two Funded Health Research Positions Worth R315,000 Per Year",
     "retry_analysis": true,
     "reason": "Recover historical malformed model response",
-    "added": "2026-09-05T01:47:30.329846+00:00"
+    "added": "2026-09-24T09:45:02.682391+00:00",
+    "last_checked": "2026-09-24T09:45:02.681491"
   },
   "fa90d3f1edd7e8f4": {
     "id": "fa90d3f1edd7e8f4",
@@ -472,7 +476,8 @@
     "title": "Call for Research Proposals: Economic Opportunities for Women and Men — How Regulation and Fiscal Policy Shape Economic Opportunities in Latin America and the Caribbean",
     "retry_analysis": true,
     "reason": "Recover historical malformed model response",
-    "added": "2026-09-05T01:47:30.330996+00:00"
+    "added": "2026-09-24T09:45:03.041822+00:00",
+    "last_checked": "2026-09-24T09:45:03.040672"
   },
   "4c30250688bd3b4d": {
     "id": "4c30250688bd3b4d",
@@ -480,7 +485,8 @@
     "title": "Pandemic Fund Technical Advisory Panel (TAP) Expert Application 2026: Apply to Serve as a Global Pandemic Preparedness Expert",
     "retry_analysis": true,
     "reason": "Recover historical malformed model response",
-    "added": "2026-09-05T01:47:30.332082+00:00"
+    "added": "2026-09-24T09:45:03.140760+00:00",
+    "last_checked": "2026-09-24T09:45:03.139441"
   },
   "855fc5b1e0984bc6": {
     "id": "855fc5b1e0984bc6",
@@ -1215,5 +1221,23 @@
     "reason": "monitoring — not confirmed open at scan time",
     "id": "3b5dd086004779b7",
     "added": "2026-09-23T10:07:42.284440+00:00"
+  },
+  "87f493db6c6272c5": {
+    "url": "https://www.opportunitiesforafricans.com/the-united-nations-economic-commission-for-africa-eca-continental-call/",
+    "title": "The United Nations Economic Commission for Africa (ECA) Continental Call for African AI Innovations 2026",
+    "retry_analysis": true,
+    "snippet": "Application Deadline: Unspecified Applications are now open for the 2026 UNECA Continental Call for African AI Innovations. The United Nations Economic Commission for Africa (ECA), through the Africa IGF Secretariat… The post The United Nations Economic Commission for Africa (ECA) Continental Call for African AI Innovations 2026 appeared first on Opportunities For Africans .",
+    "reason": "legitimacy check returned an unparseable reply; retry on a later run",
+    "id": "87f493db6c6272c5",
+    "added": "2026-09-24T10:02:00.159944+00:00"
+  },
+  "8f7755e553f8280a": {
+    "url": "https://www.opportunitiesforafricans.com/call-for-session-proposals-african-youth-charter-ayc-20-pan-african-youth-forum-2026/",
+    "title": "Call for Session Proposals: African Youth Charter (AYC) @20 Pan African Youth Forum 2026 (Addis Ababa, Ethiopia)",
+    "retry_analysis": true,
+    "snippet": "Application Deadline: October 4, 2026 Applications are now open for the 2026 AYC@20 Pan African Youth Forum. The African Union Commission (AUC) has officially opened the Call for Session Proposals for the… The post Call for Session Proposals: African Youth Charter (AYC) @20 Pan African Youth Forum 2026 (Addis Ababa, Ethiopia) appeared first on Opportunities For Africans .",
+    "reason": "legitimacy check returned an unparseable reply; retry on a later run",
+    "id": "8f7755e553f8280a",
+    "added": "2026-09-24T10:02:44.545696+00:00"
   }
 }
