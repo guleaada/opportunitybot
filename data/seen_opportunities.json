@@ -6655,13 +6655,17 @@
     "status": "unknown",
     "eligibility_status": "UNCERTAIN",
     "model_eligibility_status": "UNCERTAIN",
-    "missing_requirements": [],
+    "missing_requirements": [
+      "List of eligible countries for citizenship/residency to confirm Ethiopian eligibility."
+    ],
     "blocking_issues": [],
-    "addressable_gaps": [],
-    "reasoning": "No reasoning returned.",
+    "addressable_gaps": [
+      "Obtain an English proficiency test result (e.g., IELTS, TOEFL, Duolingo) or official proof of proficiency."
+    ],
+    "reasoning": "The program requires participants to be citizens and residents of eligible countries, but the list of eligible countries is not provided, so we cannot verify that Ethiopia qualifies. Age, employment, and experience criteria are met. English proficiency is required; the candidate claims proficiency but lacks documented proof, which is an addressable gap.",
     "id": "d3094fda0ad57af9",
     "first_seen": "2026-08-30T14:51:30.396114+00:00",
-    "last_updated": "2026-08-30T14:51:30.396124+00:00",
+    "last_updated": "2026-09-26T09:44:38.127166+00:00",
     "analysis_recovery_queued": true
   },
   "f016932c52e93d6a": {
@@ -6670,38 +6674,60 @@
     "status": "unknown",
     "eligibility_status": "UNCERTAIN",
     "model_eligibility_status": "UNCERTAIN",
-    "missing_requirements": [],
+    "missing_requirements": [
+      "Nationality eligibility (e.g., countries allowed or excluded)",
+      "Age limit or age range",
+      "Requirement to be a current student or recent graduate",
+      "Minimum degree level or field of study",
+      "Minimum years of professional experience",
+      "English language proficiency requirement (e.g., IELTS/TOEFL score)",
+      "Any residency or work‑authorization restrictions"
+    ],
     "blocking_issues": [],
     "addressable_gaps": [],
-    "reasoning": "No reasoning returned.",
+    "reasoning": "The program description only lists required application materials and does not state any explicit eligibility criteria such as nationality, age limit, current student status, degree level, or English proficiency requirements. Because these decision‑relevant criteria are missing, we cannot confirm whether the candidate meets them, nor can we rule out a hard blocker.",
     "id": "f016932c52e93d6a",
     "first_seen": "2026-08-30T14:52:19.940217+00:00",
-    "last_updated": "2026-08-30T14:52:19.940226+00:00",
+    "last_updated": "2026-09-26T09:44:44.927083+00:00",
     "analysis_recovery_queued": true
   },
   "c917b4b3375a0575": {
     "url": "https://pfpinclusion.org",
     "title": "Professional Fellows Program on Inclusive Civic Engagement",
-    "status": "legitimacy_unknown",
+    "status": "ineligible",
     "credibility_status": "NEEDS_VERIFICATION",
     "source_tier": "TIER_4",
-    "reasoning": "No reasoning returned.",
+    "reasoning": "The program explicitly states it is for mid‑career disability professionals from Africa **specifically from Kenya, Tanzania, and Uganda**. The candidate is an Ethiopian national, which does not meet the country eligibility criterion. Additionally, the candidate’s background is in AI development, marketing, and psychology, not explicitly in disability professional work, which further misaligns with the stated target group.",
     "id": "c917b4b3375a0575",
     "first_seen": "2026-08-30T14:52:30.463414+00:00",
-    "last_updated": "2026-08-30T14:52:30.463423+00:00",
-    "analysis_recovery_queued": true
+    "last_updated": "2026-09-26T09:45:18.055844+00:00",
+    "analysis_recovery_queued": true,
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "model_eligibility_status": "CONFIRMED_INELIGIBLE",
+    "missing_requirements": [
+      "Age limit (not specified)",
+      "English language proficiency requirement (not specified)",
+      "Degree level or academic status (not specified)",
+      "Mid‑career definition (years of experience not specified)"
+    ],
+    "blocking_issues": [
+      "Nationality not among the eligible countries (Kenya, Tanzania, Uganda)",
+      "Professional background not identified as disability professional"
+    ],
+    "addressable_gaps": []
   },
   "8c00f42f15b58d59": {
     "url": "https://fundinnovation.wiin.io/en/applications/formulaire-de-candidature",
     "title": "FID | FID - Call for Proposals",
-    "status": "legitimacy_unknown",
+    "status": "closed",
     "credibility_status": "NEEDS_VERIFICATION",
     "source_tier": "TIER_4",
     "reasoning": "No reasoning returned.",
     "id": "8c00f42f15b58d59",
     "first_seen": "2026-08-30T14:52:42.540359+00:00",
-    "last_updated": "2026-08-30T14:52:42.540368+00:00",
-    "analysis_recovery_queued": true
+    "last_updated": "2026-09-26T09:45:28.545905+00:00",
+    "analysis_recovery_queued": true,
+    "deadline": "2026-07-15"
   },
   "f67c114997c78c74": {
     "url": "https://opportunitiescorners.com/young-leaders-program-2026-in-vietnam/",
@@ -6717,7 +6743,7 @@
   "5800a1c6f5df62a7": {
     "url": "https://www.opportunitiesforafricans.com/university-of-british-columbia-mastercard-foundation-scholars-program-2027/",
     "title": "The University of British Columbia Mastercard Foundation Scholars Program 2027 for study in Canada (Fully Funded)",
-    "status": "unknown",
+    "status": "closed",
     "eligibility_status": "UNCERTAIN",
     "model_eligibility_status": "UNCERTAIN",
     "missing_requirements": [],
@@ -6726,8 +6752,9 @@
     "reasoning": "No reasoning returned.",
     "id": "5800a1c6f5df62a7",
     "first_seen": "2026-08-31T11:28:42.418082+00:00",
-    "last_updated": "2026-08-31T11:28:42.418090+00:00",
-    "analysis_recovery_queued": true
+    "last_updated": "2026-09-26T09:46:01.166766+00:00",
+    "analysis_recovery_queued": true,
+    "deadline": "2026-09-06"
   },
   "c26f21328f344811": {
     "url": "https://www2.fundsforngos.org/innovation/open-call-for-international-grant-program-2026",
@@ -11617,5 +11644,181 @@
     "id": "0b3df10f7c4551ed",
     "first_seen": "2026-09-25T10:19:29.712667+00:00",
     "last_updated": "2026-09-25T10:19:29.712680+00:00"
+  },
+  "5cf04622a3c1702e": {
+    "url": "https://www.opportunitiesforafricans.com/mercedes-benz-bevisioneers-fellowship-program-2027/",
+    "title": "Mercedes-Benz beVisioneers Fellowship Program 2027 for young innovators (Fully Funded)",
+    "status": "ineligible",
+    "eligibility_status": "PROBABLY_INELIGIBLE",
+    "model_eligibility_status": "PROBABLY_INELIGIBLE",
+    "missing_requirements": [],
+    "blocking_issues": [
+      "Residency not in an eligible country (candidate lives in Laos, which is not listed)"
+    ],
+    "addressable_gaps": [
+      "English proficiency proof (can obtain Duolingo or MOI certificate)"
+    ],
+    "reasoning": "The program requires applicants to reside in one of the listed eligible countries (EU, India, Indonesia, Kenya, Malaysia, Mexico, Rwanda, South Africa, Tanzania, Uganda, USA, Zimbabwe). The candidate currently lives in Vientiane, Lao PDR, which is not on the list, making them ineligible based on residency. Age, English proficiency, and project experience are otherwise acceptable, but the residency requirement is a hard blocker.",
+    "id": "5cf04622a3c1702e",
+    "first_seen": "2026-09-26T09:47:42.647250+00:00",
+    "last_updated": "2026-09-26T09:47:42.647263+00:00"
+  },
+  "e247c18fe14984b6": {
+    "url": "https://www.youtube.com/watch?v=5UP0uTQpi1o",
+    "title": "Study Free in Stanford University Science Fellowship 2027 Fully Funded Postdoctoral Fellowship USA",
+    "status": "legitimacy_unknown",
+    "credibility_status": "NEEDS_VERIFICATION",
+    "source_tier": "TIER_4",
+    "reasoning": "The provided page contains only generic YouTube footer text and no information about a scholarship, fellowship, or related program. Without details on the offer, organizer, fees, or contact information, legitimacy cannot be assessed.",
+    "id": "e247c18fe14984b6",
+    "first_seen": "2026-09-26T09:48:10.173681+00:00",
+    "last_updated": "2026-09-26T09:48:10.173691+00:00"
+  },
+  "ad148774e0b733d9": {
+    "url": "https://brightscholarship.com/fully-funded-scholarships-for-international-students-2026",
+    "title": "Fully Funded Scholarships for International Students 2026/2027 - Bright Scholarship",
+    "status": "legitimacy_unknown",
+    "credibility_status": "NEEDS_VERIFICATION",
+    "source_tier": "TIER_4",
+    "reasoning": "The page lists many well‑known scholarships but provides only generic descriptions and vague \"Apply for Scholarship\" buttons without linking to official program pages, and the domain (brightscholarship.com) is not an official source. However, there is no request for payment, personal email contact, or pressure to act, so there is insufficient concrete evidence to label it a scam.",
+    "id": "ad148774e0b733d9",
+    "first_seen": "2026-09-26T09:49:06.134162+00:00",
+    "last_updated": "2026-09-26T09:49:06.134175+00:00"
+  },
+  "dde0f1f137ef4aa2": {
+    "url": "https://brightscholarship.com/fully-funded-scholarships-2026-2027",
+    "title": "Fully Funded Scholarships 2026-2027 | Bright Scholarship - Bright Scholarship",
+    "status": "suspicious",
+    "credibility_status": "SUSPICIOUS",
+    "source_tier": "TIER_4",
+    "reasoning": "The page lists many genuine scholarships (e.g., University of Alberta, Oxford Clarendon, MEXT) but provides only vague \"Official Link\" placeholders and directs users to WhatsApp groups and Telegram channels instead of the universities' official application portals, which is atypical for legitimate scholarship processes. No explicit fee is mentioned, but the reliance on unofficial communication channels raises concerns.",
+    "id": "dde0f1f137ef4aa2",
+    "first_seen": "2026-09-26T09:50:23.152021+00:00",
+    "last_updated": "2026-09-26T09:50:23.152034+00:00"
+  },
+  "dca1a9cb6fd9962d": {
+    "url": "https://opportunitiescorners.com/australia-new-zealand-summer-internship-2027/",
+    "title": "Australia New Zealand Summer Internship 2027 (PAID)",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "model_eligibility_status": "CONFIRMED_INELIGIBLE",
+    "missing_requirements": [
+      "English language proficiency requirement (not stated in the program description)",
+      "Age limit (not mentioned)",
+      "GPA or academic performance criteria (not mentioned)"
+    ],
+    "blocking_issues": [
+      "Not an Australian or New Zealand citizen or permanent resident",
+      "Not enrolled in a degree program; not in penultimate year of study",
+      "Already holds a completed bachelor's degree (not a current student)"
+    ],
+    "addressable_gaps": [],
+    "reasoning": "The program explicitly requires applicants to be citizens of, or hold permanent residency in, Australia or New Zealand. The candidate is an Ethiopian national with no Australian/NZ citizenship or permanent residency. Additionally, the program requires applicants to be in the penultimate year of a bachelor’s or postgraduate degree, whereas the candidate has already completed a BSc (2021) and is currently a working professional, not a student. These hard blockers directly exclude the candidate.",
+    "id": "dca1a9cb6fd9962d",
+    "first_seen": "2026-09-26T09:51:30.625182+00:00",
+    "last_updated": "2026-09-26T09:51:30.625192+00:00"
+  },
+  "e22c40ed442557b0": {
+    "url": "https://www.opportunitiesforafricans.com/halcyons-africa-innovation-in-agriculture-and-food-security-program-2027/",
+    "title": "Halcyon’s Africa Innovation in Agriculture and Food Security Program 2027 for early-stage, impact-driven ventures .",
+    "status": "ineligible",
+    "eligibility_status": "PROBABLY_INELIGIBLE",
+    "model_eligibility_status": "PROBABLY_INELIGIBLE",
+    "missing_requirements": [
+      "Verification of MVP and commercial traction",
+      "Confirmation of full‑time work on the venture",
+      "English language certification"
+    ],
+    "blocking_issues": [
+      "Location: must be based in Sub‑Saharan Africa (candidate based in Laos, not eligible)"
+    ],
+    "addressable_gaps": [
+      "Provide evidence of a working Minimum Viable Product (MVP) and paid‑pilot or post‑revenue traction",
+      "Demonstrate that the venture is a full‑time commitment (currently a working professional)",
+      "Proof of English fluency (e.g., IELTS, TOEFL, Duolingo, or MOI certificate)"
+    ],
+    "reasoning": "The program requires applicants to be *based in Sub-Saharan Africa*. Gulilat is currently residing in Vientiane, Lao PDR, which is outside Sub‑Saharan Africa, creating a hard blocker. Additional uncertainties (MVP, paid‑pilot/post‑revenue status, full‑time commitment to the venture, and proof of English fluency) are addressable gaps, but the location requirement alone makes the candidate unlikely to be eligible.",
+    "id": "e22c40ed442557b0",
+    "first_seen": "2026-09-26T09:52:40.887944+00:00",
+    "last_updated": "2026-09-26T09:52:40.887960+00:00"
+  },
+  "8660e47cafc1720d": {
+    "url": "https://www.opportunitiesforafricans.com/mckinseys-forward-program-fall-2026-for-young-african-professionals/",
+    "title": "McKinsey’s Forward Program Fall 2026 for young African Professionals.",
+    "status": "analyzed",
+    "score": 4.3,
+    "category": null,
+    "official_url": "https://www.opportunitiesforafricans.com/mckinseys-forward-program-fall-2026-for-young-african-professionals/",
+    "location": null,
+    "remote": null,
+    "deadline": "2026-10-05",
+    "reward": "fully_funded",
+    "estimated_value": null,
+    "eligibility_status": "PROBABLY_ELIGIBLE",
+    "credibility_status": "LIKELY_LEGITIMATE",
+    "source_tier": "TIER_3",
+    "source_quality": 7,
+    "requirements": [],
+    "id": "8660e47cafc1720d",
+    "first_seen": "2026-09-26T09:54:24.502870+00:00",
+    "last_updated": "2026-09-26T09:54:24.502880+00:00"
+  },
+  "924996ca2f6ac0b2": {
+    "url": "https://fellowshipscorner.com",
+    "title": "Home - Fellowships Corner",
+    "status": "ineligible",
+    "eligibility_status": "PROBABLY_INELIGIBLE",
+    "model_eligibility_status": "PROBABLY_INELIGIBLE",
+    "missing_requirements": [
+      "Specific eligibility criteria for FRIAS Fellowship (age limits, nationality restrictions, degree requirements)",
+      "Detailed requirements for Ernest Rutherford Fellowships",
+      "Exact student enrollment requirements for each program"
+    ],
+    "blocking_issues": [
+      "Working professional status (not currently a student)",
+      "BSc degree level may not meet postgraduate fellowship requirements"
+    ],
+    "addressable_gaps": [
+      "Can obtain English proficiency certificate (Duolingo/MOI)",
+      "Can provide academic transcripts"
+    ],
+    "reasoning": "The candidate is a working professional (not currently a student) with a BSc degree, but most programs listed target current students or require enrollment. The FRIAS Fellowship explicitly states 'You do not enrol, you do not take courses' suggesting it may be for post-degree researchers, but the candidate's working professional status and lack of postgraduate degree create uncertainty. Programs like Chevening, DAAD, and Heinrich Böll require current student status or recent graduation.",
+    "id": "924996ca2f6ac0b2",
+    "first_seen": "2026-09-26T09:55:52.497029+00:00",
+    "last_updated": "2026-09-26T09:55:52.497040+00:00"
+  },
+  "c3198dc356e56a6f": {
+    "url": "https://www.advance-africa.com/Full-Scholarships-for-Masters-in-Transnational-Migrations.html",
+    "title": "Full Scholarships for Masters in Transnational Migrations",
+    "status": "suspicious",
+    "credibility_status": "SUSPICIOUS",
+    "source_tier": "TIER_4",
+    "reasoning": "The page claims full Erasmus Mundus scholarships but later states a full scholarship is not given and only partial awards are offered, showing contradictory information. It also lists an \"installation fee\" and contains many unrelated sections, suggesting low‑quality aggregation rather than an official program description.",
+    "id": "c3198dc356e56a6f",
+    "first_seen": "2026-09-26T09:56:45.513901+00:00",
+    "last_updated": "2026-09-26T09:56:45.513913+00:00"
+  },
+  "aa263afa069b84c6": {
+    "url": "https://www.daad.de/en/information-services-for-higher-education-institutions/further-information-on-daad-programmes/in-countryin-region-programme-in-developing-countries",
+    "title": "In-Country/In-Region Programme in Developing Countries",
+    "status": "notified",
+    "score": 7.9,
+    "category": "scholarships",
+    "official_url": "https://www.daad.de/en/information-services-for-higher-education-institutions/further-information-on-daad-programmes/in-countryin-region-programme-in-developing-countries",
+    "location": null,
+    "remote": null,
+    "deadline": null,
+    "reward": "fully_funded",
+    "estimated_value": null,
+    "eligibility_status": "PROBABLY_ELIGIBLE",
+    "credibility_status": "VERIFIED",
+    "source_tier": "TIER_1",
+    "source_quality": 10,
+    "requirements": [],
+    "id": "aa263afa069b84c6",
+    "first_seen": "2026-09-26T09:58:31.416387+00:00",
+    "last_updated": "2026-09-26T09:58:36.004980+00:00",
+    "notification_tier": "WATCHLIST",
+    "notified_at": "2026-09-26T09:58:35.998920+00:00"
   }
 }

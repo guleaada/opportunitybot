@@ -524,45 +524,25 @@
     "added": "2026-09-25T10:03:04.909153+00:00",
     "last_checked": "2026-09-25T10:03:04.908042"
   },
-  "d3094fda0ad57af9": {
-    "id": "d3094fda0ad57af9",
-    "url": "https://exchanges.state.gov/non-us/program/professional-fellows-program",
-    "title": "Professional Fellows Program | Exchange Programs",
-    "retry_analysis": true,
-    "reason": "Recover historical malformed model response",
-    "added": "2026-09-05T01:47:30.339980+00:00"
-  },
-  "f016932c52e93d6a": {
-    "id": "f016932c52e93d6a",
-    "url": "https://www.professionalfellows.americancouncils.org/how-to-apply",
-    "title": "How to Apply — Professional Fellows Program",
-    "retry_analysis": true,
-    "reason": "Recover historical malformed model response",
-    "added": "2026-09-05T01:47:30.341154+00:00"
-  },
-  "c917b4b3375a0575": {
-    "id": "c917b4b3375a0575",
-    "url": "https://pfpinclusion.org",
-    "title": "Professional Fellows Program on Inclusive Civic Engagement",
-    "retry_analysis": true,
-    "reason": "Recover historical malformed model response",
-    "added": "2026-09-05T01:47:30.342312+00:00"
-  },
   "8c00f42f15b58d59": {
     "id": "8c00f42f15b58d59",
     "url": "https://fundinnovation.wiin.io/en/applications/formulaire-de-candidature",
     "title": "FID | FID - Call for Proposals",
     "retry_analysis": true,
-    "reason": "Recover historical malformed model response",
-    "added": "2026-09-05T01:47:30.343476+00:00"
+    "reason": "closed at discovery; likely annual",
+    "added": "2026-09-26T09:45:28.557123+00:00",
+    "last_checked": "2026-09-26T09:45:18.080211",
+    "last_known_deadline": "2026-07-15"
   },
   "5800a1c6f5df62a7": {
     "id": "5800a1c6f5df62a7",
     "url": "https://www.opportunitiesforafricans.com/university-of-british-columbia-mastercard-foundation-scholars-program-2027/",
     "title": "The University of British Columbia Mastercard Foundation Scholars Program 2027 for study in Canada (Fully Funded)",
     "retry_analysis": true,
-    "reason": "Recover historical malformed model response",
-    "added": "2026-09-05T01:47:30.344689+00:00"
+    "reason": "closed at discovery; likely annual",
+    "added": "2026-09-26T09:46:01.179385+00:00",
+    "last_checked": "2026-09-26T09:45:28.564532",
+    "last_known_deadline": "2026-09-06"
   },
   "09b28acfde34f5a4": {
     "id": "09b28acfde34f5a4",
@@ -1235,5 +1215,31 @@
     "reason": "legitimacy check returned an unparseable reply; retry on a later run",
     "id": "8f7755e553f8280a",
     "added": "2026-09-24T10:02:44.545696+00:00"
+  },
+  "c1e43896283938c7": {
+    "url": "https://gradoffice.caltech.edu/financialsupport/ExternalInternational",
+    "title": "External Fellowships for International Students",
+    "retry_analysis": true,
+    "snippet": "HHMI International Student Research FellowshipsThis fellowship program supports outstanding international predoctoral students studying in the United States who are ineligible for fellowships or training grants through U.S. federal agencies. Participation is by invitation only. Nominated students must be in their second or third year of study to apply for the fellowship. To activate the fellowship, students must be in the third or fourth year of a PhD program at one of the designated [...] The Grass Foundation Fellowship ProgramGrass Fellowships at the Marine Biological Laboratory (MBL) in Woods Hole, Massachusetts, USA, support investigator-designed, independent research projects by scientists early in their career. Early investigators (late stage predoctoral trainees and beyond) are eligible to apply. This includes applicants with prior experience at MBL or with the Grass Foundation (MBL course alumni are encouraged to apply). Priority is given to applicants with a demonstrated [...] Epilepsy Foundation of America - Research Training FellowshipsThe Epilepsy Foundation supports a series of grants and fellowships to advance the understanding of epilepsy that will lead to better treatment, more effective prevention, and ultimately to a cure. Funding is available to researchers at all professional levels including students, junior investigators and established investigators.",
+    "reason": "legitimacy check returned an unparseable reply; retry on a later run",
+    "id": "c1e43896283938c7",
+    "added": "2026-09-26T09:56:09.600069+00:00"
+  },
+  "3c0e0eeada8baf51": {
+    "url": "https://scholarships365.info",
+    "title": "Scholarship for International Students 2026-2027",
+    "retry_analysis": true,
+    "snippet": "United Kingdom\n\n## Chevening Scholarship 2027 in UK [Fully Funded Scholarships]]( ARES Scholarship 2027/28 in Belgium | Fully Funded\n\nFeatured\n\nBelgium\n\n## ARES Scholarship 2027/28 in Belgium | Fully Funded Study in Finland Without IELTS on Scholarship 2026-2027\n\nFeatured\n\nFinland\n\n## Study in Finland Without IELTS on Scholarship 2026-2027 Netherlands Scholarships Without IELTS 2026, Study in Europe\n\nFeatured\n\nNetherlands [...] Saudi Arabia\n\nAugust 19, 2026\n\n### 10 Best Saudi Arabia Scholarships 2026-2027 [Fully Funded]]( Australia Skilled Migration Visa 2027 - Complete Guide\n\nGuidelines\n\nAustralia\n\nAugust 16, 2026\n\n### Australia Skilled Migration Visa 2027 - Complete Guide Sweden Opportunity Card 2027 - Move to Sweden Without a Job \n\nGuidelines\n\nSweden\n\nAugust 15, 2026\n\n### Sweden Opportunity Card 2027 - Move to Sweden Without a Job Scholarships for College Students (2026-2027): Full Guide\n\nScholarships [...] United States\n\n## Scholarships for College Students (2026-2027): Full Guide Scholarships in Norway 2026-2027 Without IELTS (Full Guide)\n\nFeatured\n\nNorway\n\n## Scholarships in Norway 2026-2027 Without IELTS (Full Guide) [![Study in Poland Without IELTS on Scholarship [Fully Funded]](\n\nFeatured\n\nPoland\n\n## Study in Poland Without IELTS on Scholarship [Fully Funded]]( [![Chevening Scholarship 2027 in UK [Fully Funded Scholarships]](\n\nFeatured\n\nUnited Kingdom",
+    "reason": "legitimacy check returned an unparseable reply; retry on a later run",
+    "id": "3c0e0eeada8baf51",
+    "added": "2026-09-26T09:56:20.665500+00:00"
+  },
+  "aa263afa069b84c6": {
+    "url": "https://www.daad.de/en/information-services-for-higher-education-institutions/further-information-on-daad-programmes/in-countryin-region-programme-in-developing-countries",
+    "title": "In-Country/In-Region Programme in Developing Countries",
+    "last_known_deadline": null,
+    "reason": "monitoring — not confirmed open at scan time",
+    "id": "aa263afa069b84c6",
+    "added": "2026-09-26T09:58:31.428836+00:00"
   }
 }
