@@ -544,45 +544,15 @@
     "last_checked": "2026-09-26T09:45:28.564532",
     "last_known_deadline": "2026-09-06"
   },
-  "09b28acfde34f5a4": {
-    "id": "09b28acfde34f5a4",
-    "url": "https://maxwith.com/funding/guides/best-startup-grants-africa-2026",
-    "title": "Best Startup Grants in Africa (2026) - MaxWith",
-    "retry_analysis": true,
-    "reason": "Recover historical malformed model response",
-    "added": "2026-09-05T01:47:30.345888+00:00"
-  },
-  "d5ee11144f84c5c9": {
-    "id": "d5ee11144f84c5c9",
-    "url": "https://www.nerdwallet.com/business/loans/learn/grants-for-women",
-    "title": "45 Small-Business Grants for Women in 2026",
-    "retry_analysis": true,
-    "reason": "Recover historical malformed model response",
-    "added": "2026-09-05T01:47:30.347070+00:00"
-  },
-  "d895996f021f8185": {
-    "id": "d895996f021f8185",
-    "url": "https://www.opportunitiesforafricans.com/the-university-of-toronto-mastercard-foundation-doctor-of-public-health-scholarships-2027-2028/",
-    "title": "The University of Toronto Mastercard Foundation Doctor of Public Health Scholarships 2027/2028 for Africa public health leaders (Fully Funded)",
-    "retry_analysis": true,
-    "reason": "Recover historical malformed model response",
-    "added": "2026-09-05T01:47:30.348271+00:00"
-  },
   "bd232303bd5577c7": {
     "id": "bd232303bd5577c7",
     "url": "https://www.opportunitiesforafricans.com/the-princeton-in-africa-fellowships-2027-2028-for-young-african-graduates/",
     "title": "The Princeton in Africa Fellowships 2027/2028 for young African graduates.",
     "retry_analysis": true,
-    "reason": "Recover historical malformed model response",
-    "added": "2026-09-05T01:47:30.349512+00:00"
-  },
-  "ee71e5fc8641e866": {
-    "id": "ee71e5fc8641e866",
-    "url": "https://opportunitiescorners.com/world-bank-young-professionals-program-2027/",
-    "title": "World Bank Young Professionals Program 2027 (WB YPP)",
-    "retry_analysis": true,
-    "reason": "Recover historical malformed model response",
-    "added": "2026-09-05T01:47:30.350770+00:00"
+    "reason": "legitimacy check returned an unparseable reply; retry on a later run",
+    "added": "2026-09-27T10:28:36.832685+00:00",
+    "last_checked": "2026-09-27T10:28:11.173811",
+    "snippet": ""
   },
   "fdde86d2f170983d": {
     "id": "fdde86d2f170983d",
@@ -1108,9 +1078,10 @@
     "title": "Applications open for 2027 Horizon Fellowship cohort – Horizon Institute for Public Service",
     "retry_analysis": true,
     "snippet": "1. Training (January to March 2027): The selected fellowship cohort completes a part-time, work-compatible remote training on policy work, including the mechanics of the federal government and applied skills like memo writing and policy analysis. The training culminates in an in-person weekend in Washington, DC, where fellows connect with dozens of emerging technology experts from across the policy world. The curriculum and networking prepare fellows to secure strong placement offers and [...] Start date: Summer 2027 (with part-time, remote training from January to March 2027)\n Location: Washington, DC\n Duration: 6 months for junior fellows, 12 months for fellows and senior fellows (with potential for a second term renewal) [...] If you already have government or policy experience and are looking to serve on a faster timeline, you may also be interested in our AI Rapid Response Fellowship, which places experienced professionals in executive branch offices as soon as possible,with applications due July 22.\n\n## Program structure\n\nSuccessful applicants will go through training, matching, and placement phases from January to summer of 2027.",
-    "reason": "legitimacy check returned an unparseable reply; retry on a later run",
+    "reason": "closed at discovery; likely annual",
     "id": "765f1a48805f76e4",
-    "added": "2026-09-20T09:53:16.218680+00:00"
+    "added": "2026-09-27T10:33:50.437695+00:00",
+    "last_known_deadline": null
   },
   "4cb60960bbd071a3": {
     "url": "https://www.asco.org/career-development/grants-awards/funding-opportunities/long-term-international-fellowship",
@@ -1241,5 +1212,21 @@
     "reason": "monitoring — not confirmed open at scan time",
     "id": "aa263afa069b84c6",
     "added": "2026-09-26T09:58:31.428836+00:00"
+  },
+  "d0f1e12832a8d9bc": {
+    "url": "https://theogpd.org/product/fully-funded-wlc",
+    "title": "Fully Funded-WLC – The OGPD",
+    "last_known_deadline": null,
+    "reason": "closed at discovery; likely annual",
+    "id": "d0f1e12832a8d9bc",
+    "added": "2026-09-27T10:32:40.939146+00:00"
+  },
+  "642a687684227d8b": {
+    "url": "https://ghcorps.org/africa-leadership-accelerator-overview",
+    "title": "Africa Leadership Accelerator Overview | Global Health Corps",
+    "last_known_deadline": null,
+    "reason": "closed at discovery; likely annual",
+    "id": "642a687684227d8b",
+    "added": "2026-09-27T10:36:47.630011+00:00"
   }
 }

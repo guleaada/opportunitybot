@@ -1,193 +1,5 @@
 [
   {
-    "at": "2026-09-08T09:41:18.525847+00:00",
-    "kind": "error",
-    "message": "Fetch failed for https://vanier.gc.ca/en/home-accueil.html: HTTPSConnectionPool(host='vanier.gc.ca', port=443): Max retries exceeded with url: /en/home-accueil.html (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)')))"
-  },
-  {
-    "at": "2026-09-08T09:41:18.609007+00:00",
-    "kind": "error",
-    "message": "Fetch failed for https://opportunitydesk.org/category/fellowships/: 403"
-  },
-  {
-    "at": "2026-09-08T09:43:02.946504+00:00",
-    "kind": "scan_complete",
-    "message": "daily scan finished",
-    "matches": 0,
-    "stats": {
-      "discovered": 278,
-      "already_seen": 72,
-      "known_scam": 0,
-      "fetch_failed": 3,
-      "first_pass_dropped": 0,
-      "scam": 0,
-      "legit_unknown": 3,
-      "ineligible": 8,
-      "closed": 1,
-      "deep_analyzed": 0,
-      "scored_high": 0,
-      "eligibility_demoted": 0,
-      "jina_fetch": 0,
-      "jina_failed": 0,
-      "snippet_fallback": 0,
-      "legit_unparseable": 0,
-      "trusted_thin_pass": 0,
-      "discovery": {
-        "tavily": {
-          "attempted": 20,
-          "successful": 20,
-          "429": 0,
-          "403": 0,
-          "errors": 0,
-          "candidates": 158,
-          "queries_planned": 20,
-          "disabled_reason": ""
-        },
-        "rss": {
-          "attempted": 4,
-          "successful": 4,
-          "failed": 0,
-          "skipped_dead": 1,
-          "candidates": 56
-        },
-        "api": {
-          "sources": 2,
-          "healthy": 2,
-          "failed": 0,
-          "candidates": 57
-        },
-        "seed": {
-          "attempted": 14,
-          "candidates": 14
-        },
-        "total": {
-          "raw": 285,
-          "after_dedupe": 278
-        }
-      },
-      "signal_rescued": 6,
-      "deduped": 0
-    }
-  },
-  {
-    "at": "2026-09-08T09:43:02.950460+00:00",
-    "kind": "run",
-    "mode": "scan",
-    "environment": "github_actions",
-    "stats": {
-      "discovered": 278,
-      "already_seen": 72,
-      "known_scam": 0,
-      "fetch_failed": 3,
-      "first_pass_dropped": 0,
-      "scam": 0,
-      "legit_unknown": 3,
-      "ineligible": 8,
-      "closed": 1,
-      "deep_analyzed": 0,
-      "scored_high": 0,
-      "eligibility_demoted": 0,
-      "jina_fetch": 0,
-      "jina_failed": 0,
-      "snippet_fallback": 0,
-      "legit_unparseable": 0,
-      "trusted_thin_pass": 0,
-      "discovery": {
-        "tavily": {
-          "attempted": 20,
-          "successful": 20,
-          "429": 0,
-          "403": 0,
-          "errors": 0,
-          "candidates": 158,
-          "queries_planned": 20,
-          "disabled_reason": ""
-        },
-        "rss": {
-          "attempted": 4,
-          "successful": 4,
-          "failed": 0,
-          "skipped_dead": 1,
-          "candidates": 56
-        },
-        "api": {
-          "sources": 2,
-          "healthy": 2,
-          "failed": 0,
-          "candidates": 57
-        },
-        "seed": {
-          "attempted": 14,
-          "candidates": 14
-        },
-        "total": {
-          "raw": 285,
-          "after_dedupe": 278
-        }
-      },
-      "signal_rescued": 6,
-      "deduped": 0,
-      "matches": 0
-    }
-  },
-  {
-    "at": "2026-09-09T09:26:58.325468+00:00",
-    "kind": "error",
-    "message": "Fetch failed for https://opportunitiesforyouth.org/2026/03/18/unlock-global-grants-for-africa-free-funding-opportunities-networking-and-program-support-for-organizations: 429"
-  },
-  {
-    "at": "2026-09-09T09:28:06.418853+00:00",
-    "kind": "error",
-    "message": "Fetch failed for https://www.newmuseum.org/new-inc/open-call: 200"
-  },
-  {
-    "at": "2026-09-09T09:28:55.723711+00:00",
-    "kind": "error",
-    "message": "Fetch failed for https://www.facebook.com/newmuseum/posts/open-call-for-new-incs-year-13-incubator-members-is-now-live-applications-are-du/1460375948992021: 400"
-  },
-  {
-    "at": "2026-09-09T09:28:58.976111+00:00",
-    "kind": "run",
-    "mode": "watchlist",
-    "environment": "github_actions",
-    "stats": {
-      "discovered": 0,
-      "already_seen": 0,
-      "known_scam": 0,
-      "fetch_failed": 2,
-      "first_pass_dropped": 0,
-      "scam": 0,
-      "legit_unknown": 0,
-      "ineligible": 1,
-      "closed": 0,
-      "deep_analyzed": 1,
-      "scored_high": 0,
-      "eligibility_demoted": 0,
-      "jina_fetch": 0,
-      "jina_failed": 0,
-      "snippet_fallback": 1,
-      "legit_unparseable": 0,
-      "trusted_thin_pass": 0,
-      "reopened": 4,
-      "matches": 0
-    }
-  },
-  {
-    "at": "2026-09-09T09:28:59.159999+00:00",
-    "kind": "scan_start",
-    "message": "daily scan started"
-  },
-  {
-    "at": "2026-09-09T09:37:01.251665+00:00",
-    "kind": "error",
-    "message": "Fetch failed for https://www.dfat.gov.au/people-to-people/australia-awards/australia-awards-scholarships: HTTPSConnectionPool(host='www.dfat.gov.au', port=443): Read timed out. (read timeout=25)"
-  },
-  {
-    "at": "2026-09-09T09:37:24.888068+00:00",
-    "kind": "error",
-    "message": "Fetch failed for https://vanier.gc.ca/en/home-accueil.html: HTTPSConnectionPool(host='vanier.gc.ca', port=443): Max retries exceeded with url: /en/home-accueil.html (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)')))"
-  },
-  {
     "at": "2026-09-09T09:37:25.065694+00:00",
     "kind": "error",
     "message": "Fetch failed for https://opportunitydesk.org/category/fellowships/: 403"
@@ -3500,6 +3312,194 @@
         }
       },
       "signal_rescued": 4,
+      "deduped": 0,
+      "matches": 1
+    }
+  },
+  {
+    "at": "2026-09-27T10:28:57.316791+00:00",
+    "kind": "run",
+    "mode": "watchlist",
+    "environment": "github_actions",
+    "stats": {
+      "discovered": 0,
+      "already_seen": 0,
+      "known_scam": 0,
+      "fetch_failed": 0,
+      "first_pass_dropped": 0,
+      "scam": 1,
+      "legit_unknown": 0,
+      "ineligible": 3,
+      "closed": 0,
+      "deep_analyzed": 0,
+      "scored_high": 0,
+      "eligibility_demoted": 0,
+      "jina_fetch": 0,
+      "jina_failed": 0,
+      "snippet_fallback": 0,
+      "legit_unparseable": 1,
+      "trusted_thin_pass": 0,
+      "reopened": 5,
+      "matches": 0
+    }
+  },
+  {
+    "at": "2026-09-27T10:28:57.551568+00:00",
+    "kind": "scan_start",
+    "message": "daily scan started"
+  },
+  {
+    "at": "2026-09-27T10:31:45.663246+00:00",
+    "kind": "error",
+    "message": "Fetch failed for https://www.dfat.gov.au/people-to-people/australia-awards/australia-awards-scholarships: HTTPSConnectionPool(host='www.dfat.gov.au', port=443): Read timed out. (read timeout=25)"
+  },
+  {
+    "at": "2026-09-27T10:31:45.775867+00:00",
+    "kind": "error",
+    "message": "Fetch failed for https://vanier.gc.ca/en/home-accueil.html: HTTPSConnectionPool(host='vanier.gc.ca', port=443): Max retries exceeded with url: /en/home-accueil.html (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)')))"
+  },
+  {
+    "at": "2026-09-27T10:31:46.025083+00:00",
+    "kind": "error",
+    "message": "Fetch failed for https://opportunitydesk.org/category/fellowships/: 403"
+  },
+  {
+    "at": "2026-09-27T10:32:41.166660+00:00",
+    "kind": "error",
+    "message": "Fetch failed for https://www.facebook.com/61563002085275/posts/fully-funded-leadership-programs-with-travel-covered-global-opportunities-for-20/122229642902433402: 400"
+  },
+  {
+    "at": "2026-09-27T10:33:08.792050+00:00",
+    "kind": "error",
+    "message": "Fetch failed for https://www.scholarshipbob.com/training: 403"
+  },
+  {
+    "at": "2026-09-27T10:34:58.777381+00:00",
+    "kind": "error",
+    "message": "Fetch failed for https://opportunitydesk.org: 403"
+  },
+  {
+    "at": "2026-09-27T10:37:33.650861+00:00",
+    "kind": "error",
+    "message": "Fetch failed for https://impactfunding.substack.com/p/mid-december-update-46-new-funding: 403"
+  },
+  {
+    "at": "2026-09-27T10:38:23.483800+00:00",
+    "kind": "scan_complete",
+    "message": "daily scan finished",
+    "matches": 1,
+    "stats": {
+      "discovered": 279,
+      "already_seen": 80,
+      "known_scam": 0,
+      "fetch_failed": 3,
+      "first_pass_dropped": 1,
+      "scam": 2,
+      "legit_unknown": 1,
+      "ineligible": 3,
+      "closed": 3,
+      "deep_analyzed": 2,
+      "scored_high": 1,
+      "eligibility_demoted": 0,
+      "jina_fetch": 0,
+      "jina_failed": 0,
+      "snippet_fallback": 4,
+      "legit_unparseable": 0,
+      "trusted_thin_pass": 1,
+      "discovery": {
+        "tavily": {
+          "attempted": 20,
+          "successful": 20,
+          "429": 0,
+          "403": 0,
+          "errors": 0,
+          "candidates": 160,
+          "queries_planned": 20,
+          "disabled_reason": ""
+        },
+        "rss": {
+          "attempted": 4,
+          "successful": 4,
+          "failed": 0,
+          "skipped_dead": 1,
+          "candidates": 56
+        },
+        "api": {
+          "sources": 2,
+          "healthy": 2,
+          "failed": 0,
+          "candidates": 58
+        },
+        "seed": {
+          "attempted": 14,
+          "candidates": 14
+        },
+        "total": {
+          "raw": 288,
+          "after_dedupe": 279
+        }
+      },
+      "signal_rescued": 6,
+      "deduped": 0
+    }
+  },
+  {
+    "at": "2026-09-27T10:38:23.487201+00:00",
+    "kind": "run",
+    "mode": "scan",
+    "environment": "github_actions",
+    "stats": {
+      "discovered": 279,
+      "already_seen": 80,
+      "known_scam": 0,
+      "fetch_failed": 3,
+      "first_pass_dropped": 1,
+      "scam": 2,
+      "legit_unknown": 1,
+      "ineligible": 3,
+      "closed": 3,
+      "deep_analyzed": 2,
+      "scored_high": 1,
+      "eligibility_demoted": 0,
+      "jina_fetch": 0,
+      "jina_failed": 0,
+      "snippet_fallback": 4,
+      "legit_unparseable": 0,
+      "trusted_thin_pass": 1,
+      "discovery": {
+        "tavily": {
+          "attempted": 20,
+          "successful": 20,
+          "429": 0,
+          "403": 0,
+          "errors": 0,
+          "candidates": 160,
+          "queries_planned": 20,
+          "disabled_reason": ""
+        },
+        "rss": {
+          "attempted": 4,
+          "successful": 4,
+          "failed": 0,
+          "skipped_dead": 1,
+          "candidates": 56
+        },
+        "api": {
+          "sources": 2,
+          "healthy": 2,
+          "failed": 0,
+          "candidates": 58
+        },
+        "seed": {
+          "attempted": 14,
+          "candidates": 14
+        },
+        "total": {
+          "raw": 288,
+          "after_dedupe": 279
+        }
+      },
+      "signal_rescued": 6,
       "deduped": 0,
       "matches": 1
     }

@@ -6888,13 +6888,24 @@
     "status": "unknown",
     "eligibility_status": "UNCERTAIN",
     "model_eligibility_status": "UNCERTAIN",
-    "missing_requirements": [],
+    "missing_requirements": [
+      "Explicit nationality or residency requirements for each grant",
+      "Requirement for a registered startup/company and its location",
+      "Age limits (if any) for the individual grants",
+      "Gender eligibility for female‑founder specific programs",
+      "Specific application deadlines and documentation lists"
+    ],
     "blocking_issues": [],
-    "addressable_gaps": [],
-    "reasoning": "No reasoning returned.",
+    "addressable_gaps": [
+      "Register an African‑based legal entity for the startup (if required)",
+      "Provide proof of residence or operational presence in an African country",
+      "Clarify gender eligibility for female‑founder specific grants",
+      "Obtain any English proficiency test if a specific grant later requires it"
+    ],
+    "reasoning": "The program page lists a variety of African grant opportunities but does not state explicit eligibility criteria such as required nationality, residency, startup registration, gender, or age limits. The candidate is an Ethiopian national (African) and meets the general profile of a tech entrepreneur, but it is unclear whether the grants require the startup to be legally registered and operating in Africa, whether they require the founder to reside in Africa, or whether they have gender‑specific eligibility (e.g., female‑founder grants). Because these decision‑relevant criteria are missing or unverifiable, we cannot confirm eligibility.",
     "id": "09b28acfde34f5a4",
     "first_seen": "2026-08-31T11:39:48.231229+00:00",
-    "last_updated": "2026-08-31T11:39:48.231238+00:00",
+    "last_updated": "2026-09-27T10:24:42.429481+00:00",
     "analysis_recovery_queued": true
   },
   "6ed530519792c9ea": {
@@ -6921,13 +6932,21 @@
     "status": "unknown",
     "eligibility_status": "UNCERTAIN",
     "model_eligibility_status": "UNCERTAIN",
-    "missing_requirements": [],
+    "missing_requirements": [
+      "Explicit confirmation of the candidate’s gender (required for women‑only grants).",
+      "Proof of business ownership or entrepreneurial activity (required for most listed grants).",
+      "Specific location of the candidate’s business (required for grants limited to U.S., Canada, or other regions)."
+    ],
     "blocking_issues": [],
-    "addressable_gaps": [],
-    "reasoning": "No reasoning returned.",
+    "addressable_gaps": [
+      "Provide documentation confirming gender as female (e.g., ID, passport).",
+      "Provide evidence of business ownership or registration (e.g., company registration, proof of at least 50% ownership where required).",
+      "If applying to grants limited to U.S./Canada, establish a qualifying business entity or partnership in those jurisdictions."
+    ],
+    "reasoning": "The program lists various small‑business grants for women, many of which require the applicant to be a woman entrepreneur and often to own a business (sometimes with a minimum ownership percentage or specific geographic location). The candidate’s gender is not explicitly stated, nor is there any information about owning a registered business, which are decision‑relevant criteria. No hard blockers such as nationality, age, student status, or degree level are evident, but the missing gender and business‑ownership details prevent a definitive eligibility determination.",
     "id": "d5ee11144f84c5c9",
     "first_seen": "2026-08-31T11:42:07.272141+00:00",
-    "last_updated": "2026-08-31T11:42:07.272176+00:00",
+    "last_updated": "2026-09-27T10:26:32.095998+00:00",
     "analysis_recovery_queued": true
   },
   "a850725b46cb1a19": {
@@ -6961,16 +6980,26 @@
   "d895996f021f8185": {
     "url": "https://www.opportunitiesforafricans.com/the-university-of-toronto-mastercard-foundation-doctor-of-public-health-scholarships-2027-2028/",
     "title": "The University of Toronto Mastercard Foundation Doctor of Public Health Scholarships 2027/2028 for Africa public health leaders (Fully Funded)",
-    "status": "unknown",
-    "eligibility_status": "UNCERTAIN",
-    "model_eligibility_status": "UNCERTAIN",
-    "missing_requirements": [],
-    "blocking_issues": [],
-    "addressable_gaps": [],
-    "reasoning": "No reasoning returned.",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "model_eligibility_status": "CONFIRMED_INELIGIBLE",
+    "missing_requirements": [
+      "Proof that Injibara University is a listed partner of the Africa Health Collaborative",
+      "Evidence of master’s‑level academic excellence and leadership",
+      "Demonstration of a firm commitment to return home for the final two years of the program"
+    ],
+    "blocking_issues": [
+      "Current residency outside Sub‑Saharan Africa (Laos PDR)",
+      "Lacks a master’s degree – program expects undergraduate + master’s academic record"
+    ],
+    "addressable_gaps": [
+      "English proficiency – can obtain Duolingo or MOI certificate",
+      "Obtain official confirmation that Injibara University is an Africa Health Collaborative partner (if possible)"
+    ],
+    "reasoning": "The candidate does not meet two explicit eligibility criteria: (1) must be a citizen **and currently residing** in a Sub‑Saharan African country (the candidate is Ethiopian but lives in Laos), and (2) must demonstrate academic excellence and leadership during both undergraduate **and master’s** years (the candidate holds only a BSc). These are hard blockers stated in the program requirements. Additional gaps (English proof, partner‑institution verification, master’s performance evidence, return‑home commitment) are addressable or missing but do not change the confirmed ineligibility.",
     "id": "d895996f021f8185",
     "first_seen": "2026-09-01T09:53:09.132184+00:00",
-    "last_updated": "2026-09-01T09:53:09.132198+00:00",
+    "last_updated": "2026-09-27T10:28:11.149312+00:00",
     "analysis_recovery_queued": true
   },
   "8745116301f88c85": {
@@ -7010,17 +7039,19 @@
   "ee71e5fc8641e866": {
     "url": "https://opportunitiescorners.com/world-bank-young-professionals-program-2027/",
     "title": "World Bank Young Professionals Program 2027 (WB YPP)",
-    "status": "unknown",
+    "status": "suspicious",
     "eligibility_status": "UNCERTAIN",
     "model_eligibility_status": "UNCERTAIN",
     "missing_requirements": [],
     "blocking_issues": [],
     "addressable_gaps": [],
-    "reasoning": "No reasoning returned.",
+    "reasoning": "The page provides detailed program information but lists a Gmail address (opportunitiescorners.com@gmail.com) as the official contact, which is a free email domain and not the World Bank's official domain. This is a substantive red flag. Additionally, the content is hosted on a third‑party aggregator site rather than the official World Bank website, raising concerns about authenticity despite the 'fully funded' claim.",
     "id": "ee71e5fc8641e866",
     "first_seen": "2026-09-01T09:56:49.654696+00:00",
-    "last_updated": "2026-09-01T09:56:49.654709+00:00",
-    "analysis_recovery_queued": true
+    "last_updated": "2026-09-27T10:28:54.631002+00:00",
+    "analysis_recovery_queued": true,
+    "credibility_status": "SUSPICIOUS",
+    "source_tier": "TIER_3"
   },
   "c65ff49e82d5cec1": {
     "url": "https://www.opportunitiesforafricans.com/the-ellen-johnson-sirleaf-presidential-center-next-gen-initiative-2026-for-emerging-african-women-leaders/",
@@ -11820,5 +11851,172 @@
     "last_updated": "2026-09-26T09:58:36.004980+00:00",
     "notification_tier": "WATCHLIST",
     "notified_at": "2026-09-26T09:58:35.998920+00:00"
+  },
+  "217290fe98aacaf9": {
+    "url": "https://opportunitiescorners.com/unesco-2026-international-youth-forum-in-china/",
+    "title": "UNESCO 2026 International Youth Forum in China (Fully Funded)",
+    "status": "notified",
+    "score": 5.1,
+    "category": null,
+    "official_url": "https://opportunitiescorners.com/unesco-2026-international-youth-forum-in-china/",
+    "location": null,
+    "remote": null,
+    "deadline": "2026-09-27",
+    "reward": "fully_funded",
+    "estimated_value": null,
+    "eligibility_status": "PROBABLY_ELIGIBLE",
+    "credibility_status": "LIKELY_LEGITIMATE",
+    "source_tier": "TIER_3",
+    "source_quality": 7,
+    "requirements": [],
+    "id": "217290fe98aacaf9",
+    "first_seen": "2026-09-27T10:31:20.319676+00:00",
+    "last_updated": "2026-09-27T10:38:23.469904+00:00",
+    "notification_tier": "GOOD",
+    "notified_at": "2026-09-27T10:38:23.460779+00:00"
+  },
+  "db75714a94cdf295": {
+    "url": "https://500.co/founders/flagship",
+    "title": "The 500 Fellowship is 500 Global's flagship ...",
+    "status": "scam",
+    "credibility_status": "HIGH_RISK",
+    "source_tier": "TIER_4",
+    "reasoning": "The page requires a $35,000 fee per startup for Phase 1, which is a clear red‑flag for scholarship/fellowship scams (legitimate accelerator programs like 500 Global do not charge such high participation fees). The content also contains placeholder lorem‑ipsum text and repetitive fee statements, indicating a low‑quality, possibly fraudulent offering.",
+    "id": "db75714a94cdf295",
+    "first_seen": "2026-09-27T10:32:19.175266+00:00",
+    "last_updated": "2026-09-27T10:32:19.175279+00:00"
+  },
+  "d0f1e12832a8d9bc": {
+    "url": "https://theogpd.org/product/fully-funded-wlc",
+    "title": "Fully Funded-WLC – The OGPD",
+    "status": "closed",
+    "deadline": null,
+    "id": "d0f1e12832a8d9bc",
+    "first_seen": "2026-09-27T10:32:40.926037+00:00",
+    "last_updated": "2026-09-27T10:32:40.926049+00:00"
+  },
+  "8584761c8371bb86": {
+    "url": "https://www.facebook.com/61563002085275/posts/fully-funded-leadership-programs-with-travel-covered-global-opportunities-for-20/122229642902433402",
+    "title": "Reign Gigs - **Fully Funded Leadership Programs With...",
+    "status": "suspicious",
+    "credibility_status": "SUSPICIOUS",
+    "source_tier": "TIER_4",
+    "reasoning": "The post offers vague \"fully funded leadership programs\" without naming any reputable organization, scholarship, or providing application details; it is posted on a generic Facebook page (Reign Gigs) and relies on buzz‑word marketing rather than official sources, which are common traits of scam or lead‑generation schemes.",
+    "id": "8584761c8371bb86",
+    "first_seen": "2026-09-27T10:33:08.696230+00:00",
+    "last_updated": "2026-09-27T10:33:08.696244+00:00"
+  },
+  "7d056ee3e20e9420": {
+    "url": "https://www.scholarshipbob.com/training",
+    "title": "Training Scholarships for International Students 2026 - 2027",
+    "status": "legitimacy_unknown",
+    "credibility_status": "NEEDS_VERIFICATION",
+    "source_tier": "TIER_4",
+    "reasoning": "The page provides only a generic description of training scholarships without any specific program details, sponsor information, application process, or contact data. No red‑flag phrases (e.g., fees, payment requests) are present, but the lack of concrete evidence prevents confirming legitimacy.",
+    "id": "7d056ee3e20e9420",
+    "first_seen": "2026-09-27T10:33:22.250218+00:00",
+    "last_updated": "2026-09-27T10:33:22.250232+00:00"
+  },
+  "765f1a48805f76e4": {
+    "url": "https://horizonpublicservice.org/applications-open-for-2027-horizon-fellowship-cohort",
+    "title": "Applications open for 2027 Horizon Fellowship cohort – Horizon Institute for Public Service",
+    "status": "closed",
+    "deadline": null,
+    "id": "765f1a48805f76e4",
+    "first_seen": "2026-09-27T10:33:50.425380+00:00",
+    "last_updated": "2026-09-27T10:33:50.425393+00:00"
+  },
+  "d1cf92da603b353e": {
+    "url": "https://www.opportunitiesforafricans.com/the-nitda-national-ai-innovation-challenge-2026-for-young-nigerian-developers/",
+    "title": "The NITDA National AI Innovation Challenge 2026 for young Nigerian developers.",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "model_eligibility_status": "CONFIRMED_INELIGIBLE",
+    "missing_requirements": [],
+    "blocking_issues": [
+      "Nationality mismatch: program requires Nigerian citizenship; candidate is Ethiopian."
+    ],
+    "addressable_gaps": [],
+    "reasoning": "The program explicitly requires all team members (or individual applicants) to be Nigerian citizens. Gulilat Kasiye Worku is an Ethiopian national, which directly violates this hard eligibility criterion. No other criteria can override this citizenship requirement.",
+    "id": "d1cf92da603b353e",
+    "first_seen": "2026-09-27T10:34:58.710081+00:00",
+    "last_updated": "2026-09-27T10:34:58.710094+00:00"
+  },
+  "458e1cbe45a7540c": {
+    "url": "https://opportunitydesk.org",
+    "title": "Opportunity Desk – The one stop place for global opportunities!",
+    "status": "analyzed",
+    "score": 3.7,
+    "category": "fellowships",
+    "official_url": "https://opportunitydesk.org",
+    "location": null,
+    "remote": null,
+    "deadline": null,
+    "reward": "fully_funded",
+    "estimated_value": null,
+    "eligibility_status": "UNCERTAIN",
+    "credibility_status": "LIKELY_LEGITIMATE",
+    "source_tier": "TIER_2",
+    "source_quality": 8,
+    "requirements": [],
+    "id": "458e1cbe45a7540c",
+    "first_seen": "2026-09-27T10:36:09.636268+00:00",
+    "last_updated": "2026-09-27T10:36:09.636281+00:00"
+  },
+  "642a687684227d8b": {
+    "url": "https://ghcorps.org/africa-leadership-accelerator-overview",
+    "title": "Africa Leadership Accelerator Overview | Global Health Corps",
+    "status": "closed",
+    "deadline": null,
+    "id": "642a687684227d8b",
+    "first_seen": "2026-09-27T10:36:47.616580+00:00",
+    "last_updated": "2026-09-27T10:36:47.616591+00:00"
+  },
+  "cff96d3c185d3f29": {
+    "url": "https://www.theigc.org/researchers/funding",
+    "title": "Funding | International Growth Centre",
+    "status": "unknown",
+    "eligibility_status": "UNCERTAIN",
+    "model_eligibility_status": "UNCERTAIN",
+    "missing_requirements": [
+      "Explicit eligibility criteria for each call (e.g., required degree level, student status, age limits).",
+      "Confirmation whether non‑PhD researchers are accepted for the open EIIL call."
+    ],
+    "blocking_issues": [],
+    "addressable_gaps": [
+      "Obtain an English proficiency test result (Duolingo, IELTS, TOEFL) if required by a specific call.",
+      "Provide evidence of research activity or a research proposal to satisfy the generic 'researcher' requirement."
+    ],
+    "reasoning": "The IGC funding page lists multiple calls, many of which explicitly target PhD students or recent graduates (e.g., Zambia Evidence Lab PhD Fellowship, IGC Jordan PhD fellowship). The candidate holds only a BSc and is not a PhD student, which would be a hard blocker for those specific calls. However, there are open calls (e.g., Energy Insights and Innovation Lab) that only require being a researcher, without stating degree or enrollment requirements. The page does not provide clear, universal eligibility criteria, leaving it unclear whether the candidate meets the necessary qualifications for the broader program.",
+    "id": "cff96d3c185d3f29",
+    "first_seen": "2026-09-27T10:37:33.564290+00:00",
+    "last_updated": "2026-09-27T10:37:33.564302+00:00"
+  },
+  "2988552a8b304d83": {
+    "url": "https://impactfunding.substack.com/p/mid-december-update-46-new-funding",
+    "title": "Mid-December Update: 46 New Funding Opportunities!",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "model_eligibility_status": "CONFIRMED_INELIGIBLE",
+    "missing_requirements": [],
+    "blocking_issues": [
+      "Applicant must be a national not‑for‑profit NGO (hard blocker)",
+      "Required experience in pediatric HIV (hard blocker)",
+      "Geographic focus listed does not include Ethiopia (hard blocker if interpreted strictly)"
+    ],
+    "addressable_gaps": [],
+    "reasoning": "The program explicitly states that only \"National not-for-profit NGOs with ≥4–5 years experience in pediatric HIV\" can apply, and that \"international NGOs may not apply as lead.\" The candidate is an individual professional, not a legally registered NGO, and does not have the required experience in pediatric HIV. Therefore the candidate does not meet the core eligibility criteria.",
+    "id": "2988552a8b304d83",
+    "first_seen": "2026-09-27T10:38:12.691236+00:00",
+    "last_updated": "2026-09-27T10:38:12.691249+00:00"
+  },
+  "e77c7ada595a6670": {
+    "url": "https://www.interactjob.com/blog/best-remote-jobs-worldwide-2027",
+    "title": "50 Best Remote Jobs Worldwide in 2027 — Work From Anywhere | Blog RH InteractJob | InteractJob.com",
+    "status": "filtered_out",
+    "reason": "The text is an article about remote jobs, not a funded scholarship or fellowship opportunity.",
+    "id": "e77c7ada595a6670",
+    "first_seen": "2026-09-27T10:38:19.833857+00:00",
+    "last_updated": "2026-09-27T10:38:19.833868+00:00"
   }
 }
