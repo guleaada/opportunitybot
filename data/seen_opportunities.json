@@ -7125,19 +7125,26 @@
     "status": "unknown",
     "eligibility_status": "UNCERTAIN",
     "model_eligibility_status": "UNCERTAIN",
-    "missing_requirements": [],
+    "missing_requirements": [
+      "Proof of group or organizational affiliation",
+      "Letters of support from partners or stakeholders",
+      "Any registration or legal status documents required for the applicant entity"
+    ],
     "blocking_issues": [],
-    "addressable_gaps": [],
-    "reasoning": "No reasoning returned.",
+    "addressable_gaps": [
+      "Form or join a recognized group/organization that will implement the intervention",
+      "Obtain letters of support or partnership agreements to demonstrate the required \"support of others\""
+    ],
+    "reasoning": "The UAF grant outlines criteria for interventions (strategic, unanticipated, urgent, sustainable, supported) but does not explicitly state applicant eligibility regarding individual vs. organization. The program language refers to \"the group\" and requires support from others, suggesting that an individual applicant may need to be part of a recognized group or organization. This decision‑relevant criterion is not confirmed in the program text, so we cannot verify whether the candidate meets it.",
     "id": "fdde86d2f170983d",
     "first_seen": "2026-09-01T10:02:41.160195+00:00",
-    "last_updated": "2026-09-01T10:02:41.160210+00:00",
+    "last_updated": "2026-09-28T11:31:33.231467+00:00",
     "analysis_recovery_queued": true
   },
   "3fd2bd3907aab0bf": {
     "url": "https://givingjoygrants.org/grant-application",
     "title": "Grant Application | Apply Today—Make an Impact — Giving Joy",
-    "status": "analyzed",
+    "status": "suspicious",
     "score": 0.0,
     "category": "grants",
     "official_url": "https://givingjoygrants.org/grant-application",
@@ -7147,14 +7154,15 @@
     "reward": 1.0,
     "estimated_value": null,
     "eligibility_status": "PROBABLY_ELIGIBLE",
-    "credibility_status": "LIKELY_LEGITIMATE",
+    "credibility_status": "SUSPICIOUS",
     "source_tier": "TIER_4",
     "source_quality": 0,
     "requirements": [],
     "id": "3fd2bd3907aab0bf",
     "first_seen": "2026-09-01T10:05:03.831567+00:00",
-    "last_updated": "2026-09-01T10:05:03.831583+00:00",
-    "analysis_recovery_queued": true
+    "last_updated": "2026-09-28T11:32:04.678455+00:00",
+    "analysis_recovery_queued": true,
+    "reasoning": "The program does not require any application fee, which is a positive sign, but it provides no verifiable information about the organization’s legal status, funding source, or past awardees. The description is vague (e.g., \"small team and volunteer reviewers\"), and it asks for personal photos and detailed budgets without clear oversight, which are common traits of dubious micro‑grant schemes."
   },
   "1aeeba7681a98231": {
     "url": "https://www.opportunitiesforafricans.com/unu-wider-visiting-phd-fellowship-programme-2027-for-doctoral-students/",
@@ -7179,27 +7187,22 @@
     "url": "https://opportunitiescorners.com/doha-institute-for-graduate-studies-scholarship-2027/",
     "title": "Doha Institute for Graduate Studies Scholarship 2027 (Fully Funded)",
     "status": "analyzed",
-    "score": 0.0,
+    "score": 5.0,
     "category": null,
     "official_url": "https://opportunitiescorners.com/doha-institute-for-graduate-studies-scholarship-2027/",
     "location": null,
     "remote": null,
     "deadline": "2027-01-15",
-    "reward": 3,
+    "reward": "fully_funded",
     "estimated_value": null,
     "eligibility_status": "PROBABLY_ELIGIBLE",
     "credibility_status": "LIKELY_LEGITIMATE",
     "source_tier": "TIER_3",
     "source_quality": 7,
-    "requirements": [
-      "Certified Bachelor’s and/or Master’s transcripts",
-      "English language test scores (IELTS Academic ≥6.5 or TOEFL) or official waiver letter from university",
-      "Minimum three academic reference letters",
-      "Updated curriculum vitae (CV)"
-    ],
+    "requirements": [],
     "id": "94f35ec8c16b6dce",
     "first_seen": "2026-09-02T09:25:10.578154+00:00",
-    "last_updated": "2026-09-02T09:25:10.578166+00:00",
+    "last_updated": "2026-09-28T11:34:24.314573+00:00",
     "analysis_recovery_queued": true
   },
   "3a60554f32a8f3c3": {
@@ -7221,16 +7224,29 @@
   "49d96a0c03acdd63": {
     "url": "https://www.opportunitiesforafricans.com/the-schlumberger-foundation-faculty-for-the-future-fellowships-2027-2028/",
     "title": "The Schlumberger Foundation Faculty for the Future Fellowships 2027/2028 for PhD or Post-doctoral research in STEM (USD 50,000 per year grant).",
-    "status": "unknown",
-    "eligibility_status": "UNCERTAIN",
-    "model_eligibility_status": "UNCERTAIN",
-    "missing_requirements": [],
-    "blocking_issues": [],
-    "addressable_gaps": [],
-    "reasoning": "No reasoning returned.",
+    "status": "ineligible",
+    "eligibility_status": "PROBABLY_INELIGIBLE",
+    "model_eligibility_status": "PROBABLY_INELIGIBLE",
+    "missing_requirements": [
+      "Specific English language proficiency requirement (if any)",
+      "Exact academic record details (GPA, transcripts)",
+      "Proof of leadership/community outreach (though some evidence exists)"
+    ],
+    "blocking_issues": [
+      "Field of study not STEM (BSc Psychology)",
+      "Not preparing for PhD/post‑doc (no admission or application to host university)",
+      "No proven teaching experience in home country",
+      "No evidence of enrollment/admission/application to a host university"
+    ],
+    "addressable_gaps": [
+      "Obtain English proficiency test (Duolingo, MOI, etc.) if required",
+      "Apply to a PhD or post‑doc program in a STEM discipline",
+      "Gain documented teaching experience or provide evidence of past teaching"
+    ],
+    "reasoning": "The Schlumberger Foundation Faculty for the Future Fellowships require a female applicant from a low‑ or middle‑income country who is preparing for a PhD or post‑doctoral research in a STEM discipline, must be enrolled, admitted or have applied to a host university abroad, must have an excellent academic record, proven teaching experience, and a commitment to return home. The candidate is Ethiopian (eligible nationality) but holds only a BSc in Psychology (not a STEM field), is currently a working professional with no evidence of having applied to or been admitted to a PhD/post‑doc program, and has no documented teaching experience. These constitute hard blockers. English proficiency is not explicitly stated but could be addressed later.",
     "id": "49d96a0c03acdd63",
     "first_seen": "2026-09-02T09:27:29.587232+00:00",
-    "last_updated": "2026-09-02T09:27:29.587242+00:00",
+    "last_updated": "2026-09-28T11:35:41.049173+00:00",
     "analysis_recovery_queued": true
   },
   "658f9c9f4b31f9f1": {
@@ -7268,7 +7284,7 @@
   "fa9a139efeefd8b6": {
     "url": "https://www.opportunitiesforafricans.com/the-africacdc-youth-pre-conference-2026/",
     "title": "The AfricaCDC Youth Pre-Conference 2026 for young Africans (Fully Funded to Addis Ababa, Ethiopia)",
-    "status": "analyzed",
+    "status": "closed",
     "score": 0.0,
     "category": null,
     "official_url": "https://www.opportunitiesforafricans.com/the-africacdc-youth-pre-conference-2026/",
@@ -7289,7 +7305,7 @@
     ],
     "id": "fa9a139efeefd8b6",
     "first_seen": "2026-09-02T09:31:27.963334+00:00",
-    "last_updated": "2026-09-02T09:31:27.963344+00:00",
+    "last_updated": "2026-09-28T11:36:11.269140+00:00",
     "analysis_recovery_queued": true
   },
   "d708add232c187e3": {
@@ -12018,5 +12034,174 @@
     "id": "e77c7ada595a6670",
     "first_seen": "2026-09-27T10:38:19.833857+00:00",
     "last_updated": "2026-09-27T10:38:19.833868+00:00"
+  },
+  "23059913a63e40c2": {
+    "url": "https://opportunitiescorners.com/young-political-economy-forum-hong-kong-2026/",
+    "title": "Young Political Economy Forum Hong Kong 2026 (Fully Funded)",
+    "status": "scam",
+    "credibility_status": "HIGH_RISK",
+    "source_tier": "TIER_3",
+    "reasoning": "The posting requires applicants to \"Pay the application fees\" for a supposedly fully funded forum, which is a classic red flag. The official contact is a generic Gmail address and no direct link to an institutional website is provided, indicating a lack of verifiable legitimacy.",
+    "id": "23059913a63e40c2",
+    "first_seen": "2026-09-28T11:37:40.013334+00:00",
+    "last_updated": "2026-09-28T11:37:40.013348+00:00"
+  },
+  "3083111c54069377": {
+    "url": "https://www.opportunitiesforafricans.com/d-prize-challenge-2026-2027",
+    "title": "D-Prize Challenge 2026/2027 for Social Entrepreneurs to fight Poverty ($USD 20,000) | Opportunities For Africans",
+    "status": "closed",
+    "deadline": "2026-01-04",
+    "id": "3083111c54069377",
+    "first_seen": "2026-09-28T11:38:07.229747+00:00",
+    "last_updated": "2026-09-28T11:38:07.229762+00:00"
+  },
+  "df0b8112f62b32dd": {
+    "url": "https://locatefund.com/blog/grants-for-non-profits-africa-2026",
+    "title": "Grants for non-profits in Africa 2026",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "model_eligibility_status": "CONFIRMED_INELIGIBLE",
+    "missing_requirements": [],
+    "blocking_issues": [
+      "Applicant must be a non‑profit organization or mission‑driven team; candidate is an individual"
+    ],
+    "addressable_gaps": [
+      "Candidate could establish or join a registered non‑profit entity, but this is not currently in place"
+    ],
+    "reasoning": "The program explicitly targets NGOs, social enterprises, and mission‑driven teams operating in Africa. The candidate is an individual working professional and does not represent a non‑profit organization, which is a required applicant type.",
+    "id": "df0b8112f62b32dd",
+    "first_seen": "2026-09-28T11:38:12.172876+00:00",
+    "last_updated": "2026-09-28T11:38:12.172894+00:00"
+  },
+  "4e6b0a719b9efb28": {
+    "url": "https://www.inkle.ai/blog/free-grants-for-small-businesses-startups",
+    "title": "15+ Free Grants for Small Businesses and Startups in 2026",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "model_eligibility_status": "PROBABLY_INELIGIBLE",
+    "missing_requirements": [
+      "Candidate's business location and legal registration status",
+      "Annual revenue figures",
+      "Confirmation of gender (for women‑focused grants)",
+      "Specific grant‑by‑grant eligibility details (e.g., membership, revenue caps) that are not stated in the article"
+    ],
+    "blocking_issues": [
+      "Must be a US‑based business or US citizen/resident for most grants (candidate is Ethiopian, residing in Laos)",
+      "No US business registration or revenue information provided"
+    ],
+    "addressable_gaps": [
+      "Can incorporate a US LLC or register a US‑based entity to meet location requirements",
+      "Can obtain membership in NASE if pursuing that specific grant",
+      "Can provide gender confirmation if applying to women‑focused grants"
+    ],
+    "reasoning": "The article lists a set of US‑based grant programs. The majority of them explicitly require the applicant to be a US‑based small business (e.g., \"U.S.-based SMBs\", \"U.S. Amazon Business customers\", \"U.S. early‑stage entrepreneurs\", \"U.S. women entrepreneurs\"). The candidate is an Ethiopian national residing in Laos and does not have a US‑registered business, US revenue, or US citizenship/residency. Therefore the core eligibility condition for most listed grants is not met. While some grants (e.g., Cartier Women’s Initiative) are worldwide, they still require verification of gender and business details that are not provided. Consequently, the candidate is likely blocked from the majority of the opportunities.",
+    "id": "4e6b0a719b9efb28",
+    "first_seen": "2026-09-28T11:39:49.866453+00:00",
+    "last_updated": "2026-09-28T11:39:49.866470+00:00"
+  },
+  "1e0b54556f9ff082": {
+    "url": "https://sologrants.com/guide/solo-grant",
+    "title": "Solo Grants — $100–$1,000 | Solo Grants Guide",
+    "status": "notified",
+    "score": 6.6,
+    "category": "startup_funding",
+    "official_url": "https://sologrants.com/guide/solo-grant",
+    "location": null,
+    "remote": null,
+    "deadline": null,
+    "reward": "partial",
+    "estimated_value": null,
+    "eligibility_status": "CONFIRMED_ELIGIBLE",
+    "credibility_status": "LIKELY_LEGITIMATE",
+    "source_tier": "TIER_4",
+    "source_quality": 0,
+    "requirements": [
+      "Written application form (including personal background, project description, and budget breakdown)"
+    ],
+    "id": "1e0b54556f9ff082",
+    "first_seen": "2026-09-28T11:41:31.397047+00:00",
+    "last_updated": "2026-09-28T11:44:22.783137+00:00",
+    "notification_tier": "WATCHLIST",
+    "notified_at": "2026-09-28T11:44:22.773910+00:00"
+  },
+  "5cdc796055ee69fd": {
+    "url": "https://www.uschamber.com/co/run/business-financing/small-business-grants-and-programs",
+    "title": "Free Grants and Programs for Small Business | CO- by US Chamber of Commerce",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "model_eligibility_status": "CONFIRMED_INELIGIBLE",
+    "missing_requirements": [
+      "Explicit statement of applicant's business registration and location (not provided)",
+      "Confirmation of U.S. citizenship or permanent residency"
+    ],
+    "blocking_issues": [
+      "Must be a U.S. small business or U.S. citizen/resident (hard blocker)",
+      "Applicant is not a U.S.-registered business owner"
+    ],
+    "addressable_gaps": [
+      "Candidate could potentially form a U.S.-registered company or obtain U.S. residency, but this is a substantive change beyond a simple document or test."
+    ],
+    "reasoning": "The CO—100 resource list is explicitly aimed at U.S. small businesses and references multiple U.S. government grant programs that require the applicant to be a U.S. citizen, permanent resident, or a business incorporated in the United States. The candidate is an Ethiopian national residing in Laos and is not identified as a U.S.-based business owner, which directly conflicts with the core eligibility premise of the program.",
+    "id": "5cdc796055ee69fd",
+    "first_seen": "2026-09-28T11:43:02.803031+00:00",
+    "last_updated": "2026-09-28T11:43:02.803049+00:00"
+  },
+  "1e1f0097ba77d4be": {
+    "url": "https://www.grants.gov",
+    "title": "Home | Grants.gov",
+    "status": "filtered_out",
+    "reason": "It's a general US government grant portal for organizations, not a personal fully-funded scholarship or fellowship.",
+    "id": "1e1f0097ba77d4be",
+    "first_seen": "2026-09-28T11:43:13.437768+00:00",
+    "last_updated": "2026-09-28T11:43:13.437907+00:00"
+  },
+  "16558a472f8056f2": {
+    "url": "https://www.facebook.com/ReneeBobb/videos/apply-for-galaxy-grant/480019687773595",
+    "title": "Enter to win a $3750 Grant to help women and minority ...",
+    "status": "suspicious",
+    "credibility_status": "SUSPICIOUS",
+    "source_tier": "TIER_4",
+    "reasoning": "The post offers a $3,750 grant with no mention of an established sponsoring organization, uses only a personal name (Renee Bobb) and a vague tagline, and provides no official application details or reputable contact information. Such lack of transparency and reliance on a social‑media video is typical of low‑credibility grant contests.",
+    "id": "16558a472f8056f2",
+    "first_seen": "2026-09-28T11:43:31.331287+00:00",
+    "last_updated": "2026-09-28T11:43:31.331307+00:00"
+  },
+  "b80d0d0efa0e434b": {
+    "url": "https://msmeafricaonline.com/call-for-applications-accelerate-africa-startup-program-2026-for-early-stage-founders",
+    "title": "Call For Applications: Accelerate Africa Startup Program 2026 for - MSME Africa",
+    "status": "suspicious",
+    "credibility_status": "SUSPICIOUS",
+    "source_tier": "TIER_4",
+    "reasoning": "The page provides only generic marketing copy with no clear sponsor, contact information, application link, or details about funding/selection criteria, which is typical of low‑transparency accelerator listings. While no explicit fee or payment request is mentioned, the lack of verifiable details raises concerns about legitimacy.",
+    "id": "b80d0d0efa0e434b",
+    "first_seen": "2026-09-28T11:44:16.693406+00:00",
+    "last_updated": "2026-09-28T11:44:16.693423+00:00"
+  },
+  "74d29fb75fe307b1": {
+    "url": "https://remotejobsandyou.substack.com/p/remote-jobs-hiring-now-apr-27-2026",
+    "title": "Remote Jobs Hiring Now (Apr 27, 2026 - May 03, 2026)",
+    "status": "closed",
+    "deadline": "2026-05-03",
+    "id": "74d29fb75fe307b1",
+    "first_seen": "2026-09-28T11:44:18.250674+00:00",
+    "last_updated": "2026-09-28T11:44:18.250686+00:00"
+  },
+  "0df43c74e82f68fc": {
+    "url": "https://www.indeed.com/q-international-remote-jobs.html",
+    "title": "Flexible International Remote Jobs – Apply Today to Work From Home (August 20, 2026) | Indeed",
+    "status": "filtered_out",
+    "reason": "It's a remote job listing, not a funded scholarship or fellowship.",
+    "id": "0df43c74e82f68fc",
+    "first_seen": "2026-09-28T11:44:19.080546+00:00",
+    "last_updated": "2026-09-28T11:44:19.080563+00:00"
+  },
+  "aeafe41601affc27": {
+    "url": "https://www.workingnomads.com/jobs",
+    "title": "Remote Jobs | Working Nomads",
+    "status": "filtered_out",
+    "reason": "It is a job board, not a funded scholarship or fellowship",
+    "id": "aeafe41601affc27",
+    "first_seen": "2026-09-28T11:44:19.944412+00:00",
+    "last_updated": "2026-09-28T11:44:19.944429+00:00"
   }
 }

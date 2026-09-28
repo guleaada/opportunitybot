@@ -554,45 +554,15 @@
     "last_checked": "2026-09-27T10:28:11.173811",
     "snippet": ""
   },
-  "fdde86d2f170983d": {
-    "id": "fdde86d2f170983d",
-    "url": "https://www.uaf-africa.org/apply-for-a-grant",
-    "title": "Apply for a grant - UAF",
-    "retry_analysis": true,
-    "reason": "Recover historical malformed model response",
-    "added": "2026-09-05T01:47:30.352009+00:00"
-  },
-  "3fd2bd3907aab0bf": {
-    "id": "3fd2bd3907aab0bf",
-    "url": "https://givingjoygrants.org/grant-application",
-    "title": "Grant Application | Apply Today—Make an Impact — Giving Joy",
-    "retry_analysis": true,
-    "reason": "Recover historical malformed model response",
-    "added": "2026-09-05T01:47:30.353274+00:00"
-  },
-  "94f35ec8c16b6dce": {
-    "id": "94f35ec8c16b6dce",
-    "url": "https://opportunitiescorners.com/doha-institute-for-graduate-studies-scholarship-2027/",
-    "title": "Doha Institute for Graduate Studies Scholarship 2027 (Fully Funded)",
-    "retry_analysis": true,
-    "reason": "Recover historical malformed model response",
-    "added": "2026-09-05T01:47:30.354521+00:00"
-  },
-  "49d96a0c03acdd63": {
-    "id": "49d96a0c03acdd63",
-    "url": "https://www.opportunitiesforafricans.com/the-schlumberger-foundation-faculty-for-the-future-fellowships-2027-2028/",
-    "title": "The Schlumberger Foundation Faculty for the Future Fellowships 2027/2028 for PhD or Post-doctoral research in STEM (USD 50,000 per year grant).",
-    "retry_analysis": true,
-    "reason": "Recover historical malformed model response",
-    "added": "2026-09-05T01:47:30.355801+00:00"
-  },
   "fa9a139efeefd8b6": {
     "id": "fa9a139efeefd8b6",
     "url": "https://www.opportunitiesforafricans.com/the-africacdc-youth-pre-conference-2026/",
     "title": "The AfricaCDC Youth Pre-Conference 2026 for young Africans (Fully Funded to Addis Ababa, Ethiopia)",
     "retry_analysis": true,
-    "reason": "Recover historical malformed model response",
-    "added": "2026-09-05T01:47:30.357158+00:00"
+    "reason": "closed at discovery; likely annual",
+    "added": "2026-09-28T11:36:11.283919+00:00",
+    "last_checked": "2026-09-28T11:35:41.077914",
+    "last_known_deadline": "2026-09-13"
   },
   "7fec01242bb88138": {
     "id": "7fec01242bb88138",
@@ -1228,5 +1198,29 @@
     "reason": "closed at discovery; likely annual",
     "id": "642a687684227d8b",
     "added": "2026-09-27T10:36:47.630011+00:00"
+  },
+  "3083111c54069377": {
+    "url": "https://www.opportunitiesforafricans.com/d-prize-challenge-2026-2027",
+    "title": "D-Prize Challenge 2026/2027 for Social Entrepreneurs to fight Poverty ($USD 20,000) | Opportunities For Africans",
+    "last_known_deadline": "2026-01-04",
+    "reason": "closed at discovery; likely annual",
+    "id": "3083111c54069377",
+    "added": "2026-09-28T11:38:07.244304+00:00"
+  },
+  "74d29fb75fe307b1": {
+    "url": "https://remotejobsandyou.substack.com/p/remote-jobs-hiring-now-apr-27-2026",
+    "title": "Remote Jobs Hiring Now (Apr 27, 2026 - May 03, 2026)",
+    "last_known_deadline": "2026-05-03",
+    "reason": "closed at discovery; likely annual",
+    "id": "74d29fb75fe307b1",
+    "added": "2026-09-28T11:44:18.264581+00:00"
+  },
+  "1e0b54556f9ff082": {
+    "url": "https://sologrants.com/guide/solo-grant",
+    "title": "Solo Grants — $100–$1,000 | Solo Grants Guide",
+    "last_known_deadline": null,
+    "reason": "monitoring — not confirmed open at scan time",
+    "id": "1e0b54556f9ff082",
+    "added": "2026-09-28T11:44:19.959754+00:00"
   }
 }
