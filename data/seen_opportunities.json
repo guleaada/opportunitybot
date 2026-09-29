@@ -7348,16 +7348,23 @@
   "7fec01242bb88138": {
     "url": "https://www.opportunitiesforafricans.com/investec-ca-programme-2028-for-young-south-african-undergraduates/",
     "title": "Investec CA Programme 2028 for young South African Undergraduates.",
-    "status": "unknown",
-    "eligibility_status": "UNCERTAIN",
-    "model_eligibility_status": "UNCERTAIN",
-    "missing_requirements": [],
-    "blocking_issues": [],
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "model_eligibility_status": "CONFIRMED_INELIGIBLE",
+    "missing_requirements": [
+      "Proof of having passed pure Maths at matric level (not provided)",
+      "Valid South African work permit (if not a citizen)"
+    ],
+    "blocking_issues": [
+      "Nationality: not South African and no work permit provided",
+      "Student status: not a full‑time student, not in final year of undergraduate study",
+      "Degree level: requires final‑year undergraduate enrollment, candidate already holds a completed bachelor's degree"
+    ],
     "addressable_gaps": [],
-    "reasoning": "No reasoning returned.",
+    "reasoning": "The Investec CA Programme explicitly requires applicants to be South African citizens (or hold a valid South African work permit) and to be full‑time students in their final year of an undergraduate degree at a SAICA‑accredited university, studying towards a CA(SA). The candidate is an Ethiopian national with no South African work permit, is not currently a student, has already completed a BSc in Psychology, and therefore does not meet the core eligibility criteria.",
     "id": "7fec01242bb88138",
     "first_seen": "2026-09-02T09:34:53.621686+00:00",
-    "last_updated": "2026-09-02T09:34:53.621702+00:00",
+    "last_updated": "2026-09-29T11:11:48.954039+00:00",
     "analysis_recovery_queued": true
   },
   "7c0da9306f86d473": {
@@ -7476,7 +7483,7 @@
   "2b72aba275cf7321": {
     "url": "https://opportunitiescorners.com/google-cloud-ai-builder-cup-2026-in-singapore/",
     "title": "Google Cloud AI Builder Cup 2026 in Singapore (Fully Funded)",
-    "status": "analyzed",
+    "status": "suspicious",
     "score": 0.0,
     "category": null,
     "official_url": "https://opportunitiescorners.com/google-cloud-ai-builder-cup-2026-in-singapore/",
@@ -7486,14 +7493,15 @@
     "reward": 1.5,
     "estimated_value": null,
     "eligibility_status": "PROBABLY_ELIGIBLE",
-    "credibility_status": "LIKELY_LEGITIMATE",
+    "credibility_status": "SUSPICIOUS",
     "source_tier": "TIER_3",
     "source_quality": 7,
     "requirements": [],
     "id": "2b72aba275cf7321",
     "first_seen": "2026-09-03T09:37:31.230127+00:00",
-    "last_updated": "2026-09-03T09:37:31.230136+00:00",
-    "analysis_recovery_queued": true
+    "last_updated": "2026-09-29T11:12:38.300052+00:00",
+    "analysis_recovery_queued": true,
+    "reasoning": "The competition claims to be free and sponsored by Google Cloud, but the only contact provided is a generic Gmail address and there is no direct link to an official Google or Hack2skill website, making the organizer’s legitimacy hard to verify. While no payment is requested, the reliance on a third‑party aggregator and lack of official branding are red flags."
   },
   "55df4e1bd07aebea": {
     "url": "https://www.opportunitiesforafricans.com/ecowas-bank-for-investment-and-development-ebid-young-professionals-programme-2026/",
@@ -7518,16 +7526,20 @@
   "f0ea42b5cbc24eb5": {
     "url": "https://www.opportunitiesforafricans.com/japan-international-cooperation-center-jice-japan-africa-youth-program-2026/",
     "title": "Japan International Cooperation Center (JICE) Japan-Africa Youth Program 2026 for African Animation Professionals (Fully Funded to Japan)",
-    "status": "unknown",
-    "eligibility_status": "UNCERTAIN",
-    "model_eligibility_status": "UNCERTAIN",
+    "status": "ineligible",
+    "eligibility_status": "PROBABLY_INELIGIBLE",
+    "model_eligibility_status": "PROBABLY_INELIGIBLE",
     "missing_requirements": [],
-    "blocking_issues": [],
-    "addressable_gaps": [],
-    "reasoning": "No reasoning returned.",
+    "blocking_issues": [
+      "No affiliation with an African animation studio (hard requirement)"
+    ],
+    "addressable_gaps": [
+      "Candidate could seek affiliation or partnership with an African animation studio to meet the requirement"
+    ],
+    "reasoning": "The program requires participants to be affiliated with an animation studio based in Africa. The candidate's profile shows experience as an AI developer, marketing specialist, psychologist, and community leader, but no affiliation with an African animation studio is mentioned. All other stated criteria (Ethiopian nationality, age 27, ability to communicate in English, health, etc.) are met or not disqualifying.",
     "id": "f0ea42b5cbc24eb5",
     "first_seen": "2026-09-03T09:40:01.120415+00:00",
-    "last_updated": "2026-09-03T09:40:01.120425+00:00",
+    "last_updated": "2026-09-29T11:13:58.664413+00:00",
     "analysis_recovery_queued": true
   },
   "3776ee8ce41a3999": {
@@ -7563,7 +7575,7 @@
   "41b891c696dc951f": {
     "url": "https://www.opportunitiesforafricans.com/the-au-eu-youth-action-lab-entrepreneurship-grants-2026-for-youth-led-initiatives-in-africa/",
     "title": "The AU-EU Youth Action Lab Entrepreneurship Grants 2026 for youth-led initiatives in Africa (31,500 EURO grant)",
-    "status": "unknown",
+    "status": "closed",
     "eligibility_status": "UNCERTAIN",
     "model_eligibility_status": "UNCERTAIN",
     "missing_requirements": [],
@@ -7572,8 +7584,9 @@
     "reasoning": "No reasoning returned.",
     "id": "41b891c696dc951f",
     "first_seen": "2026-09-03T09:42:42.539600+00:00",
-    "last_updated": "2026-09-03T09:42:42.539615+00:00",
-    "analysis_recovery_queued": true
+    "last_updated": "2026-09-29T11:14:28.626858+00:00",
+    "analysis_recovery_queued": true,
+    "deadline": "2026-09-23"
   },
   "955bcdcc6af33179": {
     "url": "https://www.scholarshiptab.com/masters/fully-funded",
@@ -7628,22 +7641,22 @@
     "url": "https://opportunitiescorners.com/irena-youth-forum-2027/",
     "title": "IRENA Youth Forum 2027 in Abu Dhabi, UAE (Fully Funded)",
     "status": "analyzed",
-    "score": 0.0,
+    "score": 4.3,
     "category": null,
     "official_url": "https://opportunitiescorners.com/irena-youth-forum-2027/",
     "location": null,
     "remote": null,
-    "deadline": "2026-09-30",
-    "reward": 3.0,
+    "deadline": null,
+    "reward": "fully_funded",
     "estimated_value": null,
-    "eligibility_status": "CONFIRMED_ELIGIBLE",
+    "eligibility_status": "PROBABLY_ELIGIBLE",
     "credibility_status": "LIKELY_LEGITIMATE",
     "source_tier": "TIER_3",
     "source_quality": 7,
     "requirements": [],
     "id": "2e4b6f593e6cdf36",
     "first_seen": "2026-09-04T09:24:58.459757+00:00",
-    "last_updated": "2026-09-04T09:24:58.459772+00:00",
+    "last_updated": "2026-09-29T11:16:30.595029+00:00",
     "analysis_recovery_queued": true
   },
   "560e49b263fbc384": {
@@ -12203,5 +12216,184 @@
     "id": "aeafe41601affc27",
     "first_seen": "2026-09-28T11:44:19.944412+00:00",
     "last_updated": "2026-09-28T11:44:19.944429+00:00"
+  },
+  "d68ae5a6c606c377": {
+    "url": "https://opportunitiescorners.com/youth-leadership-certification-usa-2027/",
+    "title": "Youth Leadership Certification USA 2027 (Fully Funded Program)",
+    "status": "scam",
+    "credibility_status": "HIGH_RISK",
+    "source_tier": "TIER_3",
+    "reasoning": "The page advertises a fully funded program but explicitly requires applicants to pay an application fee, a classic red flag. The organizer is a vague 'Global Business Symposium' with no verifiable credentials, and the contact email is a generic Gmail address, both indicating fraud risk.",
+    "id": "d68ae5a6c606c377",
+    "first_seen": "2026-09-29T11:17:59.592130+00:00",
+    "last_updated": "2026-09-29T11:17:59.592146+00:00"
+  },
+  "6fb2b0b5c03cc9e5": {
+    "url": "https://www.opportunitiesforafricans.com/hong-kong-phd-fellowship-scheme-2027-2028-for-study-in-hong-kong/",
+    "title": "Hong Kong PhD Fellowship Scheme 2027/2028 for study in Hong Kong (Funded)",
+    "status": "unknown",
+    "eligibility_status": "UNCERTAIN",
+    "model_eligibility_status": "UNCERTAIN",
+    "missing_requirements": [
+      "Explicit statement of minimum academic qualification (e.g., requirement of a master's degree or equivalent)",
+      "Proof of English language proficiency (if required by the university)",
+      "Academic transcripts and degree certificates",
+      "Research proposal and reference letters required for PhD admission"
+    ],
+    "blocking_issues": [],
+    "addressable_gaps": [
+      "Obtain an English proficiency test result (Duolingo, IELTS, TOEFL, or MOI certificate) if the chosen university requires it",
+      "Secure admission to a PhD programme (research proposal, references, transcripts) at one of the eight participating universities"
+    ],
+    "reasoning": "The scheme states applicants must be admitted as new full‑time PhD students at a Hong Kong UGC‑funded university and does not restrict by nationality, age, or current student status, so no hard blockers apply. However, the eligibility page does not specify the minimum academic qualification (e.g., whether a master's degree is required). The candidate only holds a BSc, which may be insufficient for many PhD programmes. Because this degree‑level requirement is missing or unverifiable, we cannot confirm eligibility.",
+    "id": "6fb2b0b5c03cc9e5",
+    "first_seen": "2026-09-29T11:19:02.389409+00:00",
+    "last_updated": "2026-09-29T11:19:02.389423+00:00"
+  },
+  "25f4b1e1d3ce6cc6": {
+    "url": "https://www.opportunitiesforafricans.com/twas-sissa-lincei-research-cooperation-visits-programme-2026/",
+    "title": "TWAS-SISSA-Lincei Research Cooperation Visits Programme 2026 for Young Scientists from Least Developed Countries.",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "model_eligibility_status": "CONFIRMED_INELIGIBLE",
+    "missing_requirements": [
+      "Verification of candidate's research position in an LDC (not provided)",
+      "Confirmation that the proposed research falls within the specified scientific fields"
+    ],
+    "blocking_issues": [
+      "Degree level mismatch (requires MSc or higher, candidate has only BSc)",
+      "No research position in a Least Developed Country (candidate works in Laos, not Ethiopia, and holds no research role)"
+    ],
+    "addressable_gaps": [
+      "English proficiency proof (can obtain Duolingo or MOI certificate)",
+      "Invitation letter from an eligible host laboratory",
+      "Potential alignment of research proposal with listed scientific fields"
+    ],
+    "reasoning": "The programme explicitly requires applicants to hold an MSc (or higher) degree and to hold a research position in a Least Developed Country. The candidate only has a BSc and is currently employed as a professional in Laos (not an LDC) with no research position, thus failing two mandatory criteria.",
+    "id": "25f4b1e1d3ce6cc6",
+    "first_seen": "2026-09-29T11:20:18.489849+00:00",
+    "last_updated": "2026-09-29T11:20:18.489860+00:00"
+  },
+  "3f571f4a52f9316c": {
+    "url": "https://www.opportunitiesforafricans.com/the-internet-governance-forum-igf-2026-youth-mentorship-programme/",
+    "title": "The Internet Governance Forum (IGF) 2026 Youth Mentorship Programme",
+    "status": "analyzed",
+    "score": 3.0,
+    "category": null,
+    "official_url": "https://www.opportunitiesforafricans.com/the-internet-governance-forum-igf-2026-youth-mentorship-programme/",
+    "location": null,
+    "remote": null,
+    "deadline": "2026-10-04",
+    "reward": "none",
+    "estimated_value": null,
+    "eligibility_status": "PROBABLY_ELIGIBLE",
+    "credibility_status": "LIKELY_LEGITIMATE",
+    "source_tier": "TIER_3",
+    "source_quality": 7,
+    "requirements": [],
+    "id": "3f571f4a52f9316c",
+    "first_seen": "2026-09-29T11:22:22.296324+00:00",
+    "last_updated": "2026-09-29T11:22:22.296339+00:00"
+  },
+  "276709c92c1b09ff": {
+    "url": "https://www.opportunitiesforafricans.com/sab-foundation-tholoana-enterprise-programme-2026-2027-18-month-business-growth-programme/",
+    "title": "SAB Foundation Tholoana Enterprise Programme 2026/2027 (18-month business growth) Programme for young South African Entrepreneurs.",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "model_eligibility_status": "CONFIRMED_INELIGIBLE",
+    "missing_requirements": [
+      "Verification of business registration in South Africa",
+      "Proof of two years of consistent trading and revenue"
+    ],
+    "blocking_issues": [
+      "Must be a South African citizen (candidate is Ethiopian)",
+      "Business must be registered and operating in South Africa (no evidence provided)",
+      "Must have traded consistently for at least two years (unverified and likely not met)"
+    ],
+    "addressable_gaps": [],
+    "reasoning": "The programme explicitly requires applicants to be South African citizens and to run a business that is registered and operating in South Africa. The candidate is an Ethiopian national living in Laos, with no indication of South African citizenship or a South African‑registered business. This hard blocker alone makes the candidate ineligible.",
+    "id": "276709c92c1b09ff",
+    "first_seen": "2026-09-29T11:23:27.493821+00:00",
+    "last_updated": "2026-09-29T11:23:27.493834+00:00"
+  },
+  "c93aca9dfb2db1cd": {
+    "url": "https://www.opportunitiesforafricans.com/the-acep-youth-champions-for-fiscal-accountability-ycfa-fellowship-2026-for-young-ghanaians/",
+    "title": "The ACEP Youth Champions for Fiscal Accountability (YCFA) Fellowship 2026 for Young Ghanaians",
+    "status": "legitimacy_unknown",
+    "credibility_status": "NEEDS_VERIFICATION",
+    "source_tier": "TIER_3",
+    "reasoning": "The page does not request any application or participation fee, which is a positive sign, but the sponsor (ACEP) cannot be independently verified, the official webpage link is missing, and the contact emails use generic domains, all of which limit confidence in legitimacy.",
+    "id": "c93aca9dfb2db1cd",
+    "first_seen": "2026-09-29T11:24:04.007760+00:00",
+    "last_updated": "2026-09-29T11:24:04.007774+00:00"
+  },
+  "3233ca548f36e2fe": {
+    "url": "https://www.opportunitiesforafricans.com/the-acep-media-fellowship-on-fiscal-accountability-and-anti-corruption-2026-for-journalists-and-content-producers/",
+    "title": "The ACEP Media Fellowship on Fiscal Accountability and Anti-Corruption 2026 for Journalists and Content Producers.",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "model_eligibility_status": "CONFIRMED_INELIGIBLE",
+    "missing_requirements": [],
+    "blocking_issues": [
+      "Profession mismatch: candidate is not a practising journalist, editor, or content producer",
+      "Cannot commute to Accra, Ghana for mandatory in-person training (candidate is in Vientiane, Lao PDR)"
+    ],
+    "addressable_gaps": [],
+    "reasoning": "The program explicitly requires applicants to be 'practising journalists, editors or content producers working across print, broadcast or online media' who are 'currently covering, or seeking to cover, the economy, governance and public finance.' The candidate is an AI Developer/Marketing Specialist/Psychologist/Community Leader with no journalism or media-background. Additionally, the fellowship requires commuting to in-person training in Accra, Ghana (Oct 21–22, 2026), while the candidate is based in Vientiane, Lao PDR.",
+    "id": "3233ca548f36e2fe",
+    "first_seen": "2026-09-29T11:25:11.566994+00:00",
+    "last_updated": "2026-09-29T11:25:11.567008+00:00"
+  },
+  "5378314ad5b7f6ff": {
+    "url": "https://africatraininginstitute.org/grants-funding",
+    "title": "NGO Grants & Funding Opportunities 2026 | ATI",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "model_eligibility_status": "CONFIRMED_INELIGIBLE",
+    "missing_requirements": [
+      "No individual-applicant funding opportunity is described on this page",
+      "No fellowship or personal grant category is listed",
+      "No indication that an individual professional can apply directly without organisational affiliation"
+    ],
+    "blocking_issues": [
+      "Program targets institutional applicants (NGOs, research institutions, consortia, SMEs, cooperatives, government entities) — candidate is an individual working professional",
+      "No individual or fellowship applicant category exists among the listed opportunities",
+      "Candidate is not currently affiliated with or representing an eligible organisational applicant type"
+    ],
+    "addressable_gaps": [],
+    "reasoning": "The ATI NGO Grants & Funding Opportunities page is explicitly targeted at African NGOs, researchers, public institutions, social enterprises and development organisations — i.e. institutional applicants. The individual funding opportunities listed (UAF-Africa, The Pollination Project, GEF SGP CSO Challenge, WHO AFRO/TDR, STISA, Connect & Create, ECMWF SEWA, CFC, Wellcome, MDxJET, Pandemic Fund) are all directed at legally registered CSOs, research institutions, consortia, SMEs, cooperatives, government/consortium entities, or established researchers — none of which match an individual working professional. The candidate is an individual (not representing an NGO, research institution, or registered entity) and is not a student, so fellowship-style or individual applicant tracks are not present in any of the listed opportunities. There is no pathway on this page for an individual professional to apply.",
+    "id": "5378314ad5b7f6ff",
+    "first_seen": "2026-09-29T11:26:28.000873+00:00",
+    "last_updated": "2026-09-29T11:26:28.000888+00:00"
+  },
+  "74854e4d37643783": {
+    "url": "https://markets.businessinsider.com/news/stocks/2026-global-open-source-ai-challenge-grand-finals-and-awards-ceremony-held-in-hangzhou-1036576232",
+    "title": "2026 Global Open-source AI Challenge Grand Finals and Awards Ceremony Held in Hangzhou | Markets Insider",
+    "status": "filtered_out",
+    "reason": "This is a press release about a completed event (Sept 2026 finals), not an open opportunity — the application deadline has clearly passed.",
+    "id": "74854e4d37643783",
+    "first_seen": "2026-09-29T11:27:47.425129+00:00",
+    "last_updated": "2026-09-29T11:27:47.425143+00:00"
+  },
+  "dfdffeeca9df0127": {
+    "url": "https://globalscholardesk.com/african-liberty-writing-fellowship-2026-2027",
+    "title": "African Liberty Writing Fellowship 2026/2027 | Paid Online Program",
+    "status": "analyzed",
+    "score": 3.6,
+    "category": "creator_programs",
+    "official_url": "https://globalscholardesk.com/african-liberty-writing-fellowship-2026-2027",
+    "location": null,
+    "remote": null,
+    "deadline": null,
+    "reward": "partial",
+    "estimated_value": null,
+    "eligibility_status": "PROBABLY_ELIGIBLE",
+    "credibility_status": "LIKELY_LEGITIMATE",
+    "source_tier": "TIER_4",
+    "source_quality": 0,
+    "requirements": [],
+    "id": "dfdffeeca9df0127",
+    "first_seen": "2026-09-29T11:33:39.297649+00:00",
+    "last_updated": "2026-09-29T11:33:39.297662+00:00"
   }
 }
