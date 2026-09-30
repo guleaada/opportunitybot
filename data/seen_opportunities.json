@@ -7756,16 +7756,25 @@
   "013bbeeb595b11d0": {
     "url": "https://grantintelligenceglobal.com/database",
     "title": "Grant Database — Live EU Funding Opportunities | Grant Intelligence Global",
-    "status": "unknown",
-    "eligibility_status": "UNCERTAIN",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
     "model_eligibility_status": "UNCERTAIN",
-    "missing_requirements": [],
+    "missing_requirements": [
+      "Specific citizenship requirements for each listed call (e.g., EU citizen, US citizen).",
+      "Whether the candidate’s current employment status qualifies as a “private‑sector enterprise” for calls that target companies.",
+      "Exact age limits for individual fellowships (if any).",
+      "Detailed academic qualifications required (e.g., master’s or PhD) for research‑oriented grants."
+    ],
     "blocking_issues": [],
-    "addressable_gaps": [],
-    "reasoning": "No reasoning returned.",
+    "addressable_gaps": [
+      "Obtain an English proficiency test result (Duolingo, MOI, IELTS/TOEFL) if required by a specific call.",
+      "Establish a legal entity (company, NGO, or partnership) if a call requires an organization rather than an individual.",
+      "Provide proof of research experience or higher‑level degree if a call requires a master's/PhD."
+    ],
+    "reasoning": "The Grant Database lists many separate funding calls, each with its own eligibility rules. Some calls (e.g., NSF GRFP, Novo Nordisk Foundation) explicitly require EU, US, or other specific citizenships, which the Ethiopian candidate does not meet. Other calls (e.g., Africa Climate Change Fund, OACPS R&I Programme) accept African nationals but often require the applicant to be a government, registered NGO, university, or private‑sector enterprise, which is not verified for this individual. Because the page does not provide detailed, unified eligibility criteria and the candidate’s status (individual professional without a registered entity, no English test, only a BSc) cannot be confirmed as meeting all relevant requirements, a decisive eligibility judgment cannot be made.",
     "id": "013bbeeb595b11d0",
     "first_seen": "2026-09-04T09:33:19.257659+00:00",
-    "last_updated": "2026-09-04T09:33:19.257674+00:00",
+    "last_updated": "2026-09-30T11:00:02.455643+00:00",
     "analysis_recovery_queued": true
   },
   "f501e1b56d044b40": {
@@ -8455,19 +8464,24 @@
     "eligibility_status": "PROBABLY_INELIGIBLE",
     "model_eligibility_status": "PROBABLY_INELIGIBLE",
     "missing_requirements": [
-      "List of publications/outputs (2018–2026)",
-      "Detailed CV with research achievements"
+      "Proof of research activities outside Europe for at least 2 years",
+      "Evidence of being a 'prominent researcher' (e.g., citation metrics, awards)",
+      "CV and list of publications for 2018–2026"
     ],
     "blocking_issues": [
-      "Degree level mismatch: no PhD/equivalent foreign degree",
-      "Career age requirement not met (needs ≥5 years after PhD)",
-      "Prominent researcher status not evidenced (no publications/CV provided)"
+      "Degree level mismatch: requires PhD/equivalent foreign degree, candidate has only BSc",
+      "Career age requirement: at least 5 years after PhD, cannot be satisfied without PhD",
+      "Applicant must be a Swedish HEI or approved organisation; candidate is not"
     ],
-    "addressable_gaps": [],
-    "reasoning": "The grant specifies that the visiting researcher must have a PhD or equivalent foreign degree and at least 5 years of post‑doctoral career age. The candidate only holds a BSc and has no PhD, which does not meet the degree‑level and career‑age requirements. Additionally, the researcher must be a \"prominent researcher\" with a documented research record, which is not demonstrated. These constitute hard blockers.",
+    "addressable_gaps": [
+      "Obtain a PhD or equivalent research doctorate",
+      "Secure a Swedish host institution that can submit the application on behalf of the candidate",
+      "Provide evidence of prominent research activity and publications"
+    ],
+    "reasoning": "The grant is for recruiting a visiting researcher who must have a PhD/equivalent foreign degree and at least 5 years of post‑doctoral career age. The candidate only holds a BSc and has no PhD, so this core requirement is not met. Additionally, the applicant for the grant must be a Swedish higher‑education institution or approved organisation, which the candidate cannot fulfil as an individual. These are hard blockers. Other criteria (research activity outside Europe, prominence, publications) are not demonstrated but could be addressed if the degree requirement were met.",
     "id": "3f998b2a0a783e9e",
     "first_seen": "2026-09-07T10:12:24.973570+00:00",
-    "last_updated": "2026-09-07T10:12:24.973588+00:00"
+    "last_updated": "2026-09-30T11:02:17.675130+00:00"
   },
   "842f683d745abfc3": {
     "url": "https://opportunitydesk.org/2025/11/24/crassh-visiting-fellowships-for-scholars-from-the-global-south-2026-2027",
@@ -8496,15 +8510,17 @@
     "status": "unknown",
     "eligibility_status": "UNCERTAIN",
     "model_eligibility_status": "UNCERTAIN",
-    "missing_requirements": [],
+    "missing_requirements": [
+      "Proof of a doctoral degree or documented equivalent professional training/experience as defined by the Fulbright Visiting Scholar eligibility."
+    ],
     "blocking_issues": [],
     "addressable_gaps": [
-      "Obtain an English proficiency test score (e.g., Duolingo English Test, IELTS, TOEFL, or MOI certificate) to demonstrate sufficient English ability."
+      "Obtain an English proficiency test result (e.g., Duolingo English Test or MOI certificate) to satisfy the language requirement."
     ],
-    "reasoning": "The Fulbright Visiting Scholar Program requires (1) citizenship of a participating country – Ethiopia is a participating country, so no mismatch; (2) a doctoral degree or equivalent professional training/experience – the candidate holds only a BSc, and while they have extensive professional experience, it is unclear if this satisfies the \"equivalent professional training\" clause; (3) sufficient English proficiency – the candidate lacks a formal English test score but can obtain one (Duolingo or MOI). Because the degree-equivalence cannot be verified, the eligibility cannot be confirmed.",
+    "reasoning": "The Fulbright Visiting Scholar Program requires (1) citizenship of a participating country (Ethiopia is eligible), (2) a doctoral degree or equivalent professional training/experience, and (3) sufficient English proficiency. The candidate meets the citizenship criterion. English proficiency can be demonstrated with a test (Duolingo or MOI) that the candidate can obtain, so this is an addressable gap. However, the candidate only holds a BSc; while the program allows \"equivalent professional training or experience,\" it is unclear whether the candidate's work experience satisfies this equivalence, making the degree/experience requirement unverifiable and potentially blocking.",
     "id": "3b82ef6376fd9203",
     "first_seen": "2026-09-07T10:14:46.294630+00:00",
-    "last_updated": "2026-09-07T10:14:46.294646+00:00"
+    "last_updated": "2026-09-30T11:03:53.281907+00:00"
   },
   "66c5cec89de96ab9": {
     "url": "https://fi.co/insight/federal-funding-for-startup-programs-every-grant-source-edos-should-know-in-2026",
@@ -11826,7 +11842,7 @@
   "924996ca2f6ac0b2": {
     "url": "https://fellowshipscorner.com",
     "title": "Home - Fellowships Corner",
-    "status": "ineligible",
+    "status": "legitimacy_unknown",
     "eligibility_status": "PROBABLY_INELIGIBLE",
     "model_eligibility_status": "PROBABLY_INELIGIBLE",
     "missing_requirements": [
@@ -11842,10 +11858,12 @@
       "Can obtain English proficiency certificate (Duolingo/MOI)",
       "Can provide academic transcripts"
     ],
-    "reasoning": "The candidate is a working professional (not currently a student) with a BSc degree, but most programs listed target current students or require enrollment. The FRIAS Fellowship explicitly states 'You do not enrol, you do not take courses' suggesting it may be for post-degree researchers, but the candidate's working professional status and lack of postgraduate degree create uncertainty. Programs like Chevening, DAAD, and Heinrich Böll require current student status or recent graduation.",
+    "reasoning": "The site lists many well‑known scholarships (DAAD, Chevening, etc.) and does not mention any application or registration fees, which are typical red flags. However, there is no verifiable information about the organization behind the site, no official contact details, and no evidence confirming that it is an authorized aggregator, so legitimacy cannot be confirmed.",
     "id": "924996ca2f6ac0b2",
     "first_seen": "2026-09-26T09:55:52.497029+00:00",
-    "last_updated": "2026-09-26T09:55:52.497040+00:00"
+    "last_updated": "2026-09-30T11:00:43.091469+00:00",
+    "credibility_status": "NEEDS_VERIFICATION",
+    "source_tier": "TIER_4"
   },
   "c3198dc356e56a6f": {
     "url": "https://www.advance-africa.com/Full-Scholarships-for-Masters-in-Transnational-Migrations.html",
@@ -12395,5 +12413,161 @@
     "id": "dfdffeeca9df0127",
     "first_seen": "2026-09-29T11:33:39.297649+00:00",
     "last_updated": "2026-09-29T11:33:39.297662+00:00"
+  },
+  "373cb3b3a9de3a7b": {
+    "url": "https://grahamwalker.com/blog/grants-accelerators-for-early-stage-founders",
+    "title": "Grants & Accelerators for Early-Stage Founders - Graham & Walker",
+    "status": "suspicious",
+    "credibility_status": "SUSPICIOUS",
+    "source_tier": "TIER_4",
+    "reasoning": "The page aggregates many programs, some reputable (Y Combinator, 500 Global) but also lists vague grants and accelerators that charge fees (e.g., Dream Ventures Accelerator $1,700 enrollment fee) or have unclear sponsors, which are typical red‑flag characteristics. The mix of legitimate and potentially fraudulent entries makes the overall source questionable.",
+    "id": "373cb3b3a9de3a7b",
+    "first_seen": "2026-09-30T11:05:30.770132+00:00",
+    "last_updated": "2026-09-30T11:05:30.770147+00:00"
+  },
+  "934744c1bf6fee11": {
+    "url": "https://opportunitiescorners.com/ewc-graduate-degree-fellowship-2027/",
+    "title": "EWC Graduate Degree Fellowship 2027 in USA (Fully Funded)",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "model_eligibility_status": "CONFIRMED_INELIGIBLE",
+    "missing_requirements": [
+      "GPA information (minimum 3.0 required)"
+    ],
+    "blocking_issues": [
+      "Nationality not eligible (Ethiopian)"
+    ],
+    "addressable_gaps": [
+      "Obtain Duolingo English Test or other accepted English proficiency proof",
+      "Provide GPA transcript (minimum 3.0)"
+    ],
+    "reasoning": "The EWC Graduate Degree Fellowship is open only to U.S. citizens and citizens of listed Asian and Pacific countries. Ethiopia is not included in the eligible countries list, which is a hard nationality blocker. While the candidate meets the degree requirement and could obtain a Duolingo English test, the nationality restriction alone makes the candidate ineligible.",
+    "id": "934744c1bf6fee11",
+    "first_seen": "2026-09-30T11:07:11.634949+00:00",
+    "last_updated": "2026-09-30T11:07:11.634964+00:00"
+  },
+  "fd6466be979368d5": {
+    "url": "https://opportunitiescorners.com/emirates-cabin-crew-jobs-2026-in-dubai/",
+    "title": "Emirates Cabin Crew Jobs 2026 in Dubai (Fully Funded)",
+    "status": "analyzed",
+    "score": 3.4,
+    "category": null,
+    "official_url": "https://opportunitiescorners.com/emirates-cabin-crew-jobs-2026-in-dubai/",
+    "location": null,
+    "remote": null,
+    "deadline": null,
+    "reward": "none",
+    "estimated_value": null,
+    "eligibility_status": "PROBABLY_ELIGIBLE",
+    "credibility_status": "LIKELY_LEGITIMATE",
+    "source_tier": "TIER_3",
+    "source_quality": 7,
+    "requirements": [
+      "Recent CV in English",
+      "Recent Photo"
+    ],
+    "id": "fd6466be979368d5",
+    "first_seen": "2026-09-30T11:09:21.702476+00:00",
+    "last_updated": "2026-09-30T11:09:21.702492+00:00"
+  },
+  "9eb73c83288551aa": {
+    "url": "https://www.opportunitiesforafricans.com/the-st-gallen-symposium-global-leadership-challenge-2026/",
+    "title": "The St Gallen Symposium Global Leadership Challenge 2026 for emerging young Leaders (Fully Funded)",
+    "status": "notified",
+    "score": 5.5,
+    "category": null,
+    "official_url": "https://www.opportunitiesforafricans.com/the-st-gallen-symposium-global-leadership-challenge-2026/",
+    "location": null,
+    "remote": null,
+    "deadline": "2026-11-05",
+    "reward": "fully_funded",
+    "estimated_value": null,
+    "eligibility_status": "CONFIRMED_ELIGIBLE",
+    "credibility_status": "LIKELY_LEGITIMATE",
+    "source_tier": "TIER_3",
+    "source_quality": 7,
+    "requirements": [],
+    "id": "9eb73c83288551aa",
+    "first_seen": "2026-09-30T11:11:11.618133+00:00",
+    "last_updated": "2026-09-30T11:27:51.684284+00:00",
+    "notification_tier": "GOOD",
+    "notified_at": "2026-09-30T11:27:51.678640+00:00"
+  },
+  "a3d8b134de5b58e5": {
+    "url": "https://www.opportunitiesforafricans.com/the-anzisha-venture-building-fellowship-2027/",
+    "title": "The Anzisha Venture Building Fellowship 2027 for young African Entrepreneurs (USD $140,000 Prize to grow your Business)",
+    "status": "closed",
+    "deadline": null,
+    "id": "a3d8b134de5b58e5",
+    "first_seen": "2026-09-30T11:11:39.855721+00:00",
+    "last_updated": "2026-09-30T11:11:39.855737+00:00"
+  },
+  "97d030b634f914a5": {
+    "url": "https://www.fundraisingdispatch.com/p/open-funding-opportunities-august-2026",
+    "title": "Catch up on open grants & funding - August, 2026",
+    "status": "analyzed",
+    "score": 3.5,
+    "category": "grants",
+    "official_url": "https://www.fundraisingdispatch.com/p/open-funding-opportunities-august-2026",
+    "location": null,
+    "remote": null,
+    "deadline": null,
+    "reward": "partial",
+    "estimated_value": null,
+    "eligibility_status": "PROBABLY_ELIGIBLE",
+    "credibility_status": "LIKELY_LEGITIMATE",
+    "source_tier": "TIER_4",
+    "source_quality": 0,
+    "requirements": [],
+    "id": "97d030b634f914a5",
+    "first_seen": "2026-09-30T11:14:45.100562+00:00",
+    "last_updated": "2026-09-30T11:14:45.100573+00:00"
+  },
+  "bed73fd3274e241e": {
+    "url": "https://dhcd.maryland.gov/neighborhood-revitalization/community-development-funding/technical-assistance-grant",
+    "title": "Technical Assistance Grant | Maryland Department of Housing and Community Development",
+    "status": "closed",
+    "deadline": null,
+    "id": "bed73fd3274e241e",
+    "first_seen": "2026-09-30T11:15:13.500565+00:00",
+    "last_updated": "2026-09-30T11:15:13.500580+00:00"
+  },
+  "9ad6a6f0c66e5b22": {
+    "url": "https://earlychildhood.marylandpublicschools.org/child-care-providers/child-care-scholarship-program",
+    "title": "Child Care Scholarship Program | Division of Early Childhood",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "model_eligibility_status": "CONFIRMED_INELIGIBLE",
+    "missing_requirements": [],
+    "blocking_issues": [
+      "Maryland residency requirement"
+    ],
+    "addressable_gaps": [],
+    "reasoning": "The program explicitly requires applicants to be Maryland residents who are working, in training, or attending school in Maryland. The candidate is an Ethiopian national based in Vientiane, Lao PDR, and has no stated connection to Maryland, making them ineligible based on residency. Additionally, the program is for child care assistance for families with children, and the candidate has not indicated having children or needing child care services.",
+    "id": "9ad6a6f0c66e5b22",
+    "first_seen": "2026-09-30T11:16:45.507717+00:00",
+    "last_updated": "2026-09-30T11:16:45.507734+00:00"
+  },
+  "b7aa86de6a18bad9": {
+    "url": "https://www.instagram.com/reel/DcBXWY2RsXS",
+    "title": "Instagram",
+    "status": "legitimacy_unknown",
+    "credibility_status": "NEEDS_VERIFICATION",
+    "source_tier": "TIER_4",
+    "reasoning": "The provided source is an Instagram reel URL with no extractable content — the page text only shows 'Instagram' and no description, caption, or details about any scholarship program. Without any information about the opportunity being promoted, legitimacy cannot be assessed.",
+    "id": "b7aa86de6a18bad9",
+    "first_seen": "2026-09-30T11:16:56.602487+00:00",
+    "last_updated": "2026-09-30T11:16:56.602501+00:00"
+  },
+  "f7d9251f3bac343d": {
+    "url": "https://www.crossover.com/jobs",
+    "title": "Current Job Openings | Full-Time Remote Jobs | Earn USD",
+    "status": "legitimacy_unknown",
+    "credibility_status": "NEEDS_VERIFICATION",
+    "source_tier": "TIER_4",
+    "reasoning": "The URL is a corporate careers page (crossover.com/jobs) with no scholarship or fellowship program described; insufficient evidence to assess a scholarship opportunity.",
+    "id": "f7d9251f3bac343d",
+    "first_seen": "2026-09-30T11:18:34.574830+00:00",
+    "last_updated": "2026-09-30T11:18:34.574845+00:00"
   }
 }
