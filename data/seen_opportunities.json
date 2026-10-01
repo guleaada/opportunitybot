@@ -12569,5 +12569,107 @@
     "id": "f7d9251f3bac343d",
     "first_seen": "2026-09-30T11:18:34.574830+00:00",
     "last_updated": "2026-09-30T11:18:34.574845+00:00"
+  },
+  "ce03ca9d35b9cec4": {
+    "url": "https://www.instagram.com/p/DUksKQ0DLni?hl=en",
+    "title": "OPEN CALL 2026. Incubator is receiving applications for ...",
+    "status": "legitimacy_unknown",
+    "credibility_status": "NEEDS_VERIFICATION",
+    "source_tier": "TIER_4",
+    "reasoning": "The provided source is an Instagram URL with no visible content or details about a scholarship or fellowship, making it impossible to evaluate legitimacy. Without information on the program, organizer, fees, or contact details, no assessment can be made.",
+    "id": "ce03ca9d35b9cec4",
+    "first_seen": "2026-10-01T11:26:19.493933+00:00",
+    "last_updated": "2026-10-01T11:26:19.493950+00:00"
+  },
+  "e4480a74e296af46": {
+    "url": "https://www.opportunitiesforafricans.com/dalai-lama-fellowship-programme-2027/",
+    "title": "Dalai Lama Fellowship Programme 2027 for emerging changemakers (Fully Funded to Contemplative Leadership Assembly)",
+    "status": "notified",
+    "score": 6.1,
+    "category": null,
+    "official_url": "https://www.opportunitiesforafricans.com/dalai-lama-fellowship-programme-2027/",
+    "location": null,
+    "remote": null,
+    "deadline": "2026-11-11",
+    "reward": "fully_funded",
+    "estimated_value": null,
+    "eligibility_status": "PROBABLY_ELIGIBLE",
+    "credibility_status": "LIKELY_LEGITIMATE",
+    "source_tier": "TIER_3",
+    "source_quality": 7,
+    "requirements": [
+      "Applicant background and overview",
+      "Short essay questions",
+      "Video submission",
+      "Resume/CV",
+      "Letter of recommendation"
+    ],
+    "id": "e4480a74e296af46",
+    "first_seen": "2026-10-01T11:29:01.055469+00:00",
+    "last_updated": "2026-10-01T11:39:15.708690+00:00",
+    "notification_tier": "GOOD",
+    "notified_at": "2026-10-01T11:39:15.702197+00:00"
+  },
+  "11b8978a20468423": {
+    "url": "https://opportunitiescorners.com/hamad-bin-khalifa-university-scholarship-2027/",
+    "title": "Hamad Bin Khalifa University Scholarship 2027 (Fully Funded)",
+    "status": "suspicious",
+    "credibility_status": "SUSPICIOUS",
+    "source_tier": "TIER_3",
+    "reasoning": "The page lists the HBKU scholarship but provides only a generic Gmail address (opportunitiescorners.com@gmail.com) for contact and no direct link to the university's official website, which is atypical for a legitimate university‑run scholarship. While no application fee is mentioned, the heavy emphasis on social media groups, subscriptions, and advertising suggests a promotional rather than official source.",
+    "id": "11b8978a20468423",
+    "first_seen": "2026-10-01T11:29:59.012435+00:00",
+    "last_updated": "2026-10-01T11:29:59.012451+00:00"
+  },
+  "07c015c0387b522d": {
+    "url": "https://www.opportunitiesforafricans.com/the-uongozi-institute-emerging-leaders-programme-2026-2027/",
+    "title": "The UONGOZI Institute Emerging Leaders Programme 2026/2027 for mid-level executives (Scholarships Available",
+    "status": "analyzed",
+    "score": 4.2,
+    "category": null,
+    "official_url": "https://www.opportunitiesforafricans.com/the-uongozi-institute-emerging-leaders-programme-2026-2027/",
+    "location": null,
+    "remote": null,
+    "deadline": "2026-10-23",
+    "reward": "partial",
+    "estimated_value": null,
+    "eligibility_status": "PROBABLY_ELIGIBLE",
+    "credibility_status": "LIKELY_LEGITIMATE",
+    "source_tier": "TIER_3",
+    "source_quality": 7,
+    "requirements": [],
+    "id": "07c015c0387b522d",
+    "first_seen": "2026-10-01T11:32:15.556426+00:00",
+    "last_updated": "2026-10-01T11:32:15.556440+00:00"
+  },
+  "683127ab3de335c3": {
+    "url": "https://fellowshipsguide.com/jyu-visiting-fellow-programme",
+    "title": "JYU Visiting Fellow Programme 2027 (Fully Funded) - Fellowships Guide",
+    "status": "closed",
+    "deadline": "2026-08-14",
+    "id": "683127ab3de335c3",
+    "first_seen": "2026-10-01T11:33:20.050608+00:00",
+    "last_updated": "2026-10-01T11:33:20.050617+00:00"
+  },
+  "a968a4d3492e8510": {
+    "url": "https://www.opportunitiesforafricans.com/orange-corners-nigeria-incubation-programme-cohort-16-for-young-entrepreneurs-30000-euros-in-funding/",
+    "title": "Orange Corners Nigeria Incubation Programme Cohort 16 for young Entrepreneurs (30,000 Euros in funding)",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "model_eligibility_status": "PROBABLY_INELIGIBLE",
+    "missing_requirements": [
+      "Nationality eligibility requirements",
+      "Residency/country of operation requirements",
+      "Specific entrepreneurship stage requirements",
+      "Application process details"
+    ],
+    "blocking_issues": [
+      "Geographic restriction to Nigeria - candidate is Ethiopian national based in Lao PDR"
+    ],
+    "addressable_gaps": [],
+    "reasoning": "Program explicitly targets young entrepreneurs aged 18-35 and is implemented by FATE Foundation in Nigeria. While candidate meets the age requirement (27), the program appears Nigeria-specific with no stated eligibility for Ethiopian nationals or non-Nigerian residents. The program description focuses on empowering entrepreneurs within Nigeria's ecosystem, suggesting geographic limitation that would exclude an Ethiopian candidate based in Laos.",
+    "id": "a968a4d3492e8510",
+    "first_seen": "2026-10-01T11:35:49.803214+00:00",
+    "last_updated": "2026-10-01T11:35:49.803229+00:00"
   }
 }
