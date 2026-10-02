@@ -10125,23 +10125,21 @@
   "83b4b5f37f57afd8": {
     "url": "https://www.ukri.org/apply-for-funding/our-fellowship-opportunities",
     "title": "Our fellowship opportunities – UKRI",
-    "status": "unknown",
-    "eligibility_status": "UNCERTAIN",
-    "model_eligibility_status": "UNCERTAIN",
-    "missing_requirements": [
-      "Clarification of what counts as 'equivalent research or innovation experience' to a PhD",
-      "Any explicit English language proficiency requirement",
-      "Details on host organisation eligibility and sponsorship requirements",
-      "Specific award frequency, deadlines, and application procedures for individual fellowships"
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "model_eligibility_status": "CONFIRMED_INELIGIBLE",
+    "missing_requirements": [],
+    "blocking_issues": [
+      "Degree level mismatch: PhD required for all listed fellowships"
     ],
-    "blocking_issues": [],
     "addressable_gaps": [
-      "English language proficiency (if required) – candidate can obtain MOI certificate or Duolingo English Test"
+      "English language test (can obtain Duolingo or MOI certificate)",
+      "Securing a host organisation in the UK"
     ],
-    "reasoning": "The UKRI fellowship pages repeatedly state that applicants must have a PhD or demonstrate equivalent research/innovation experience/training (e.g., Early Independence fellowships, Future Leaders Fellowships, EPSRC postdoctoral fellowships). The candidate holds only a BSc in Psychology and has professional work experience, but it is unverifiable whether that experience meets the 'equivalent' threshold. This degree-level requirement could exclude the candidate, making the eligibility uncertain.",
+    "reasoning": "UKRI fellowships listed all require a PhD (or equivalent research experience). The candidate only holds a BSc and has no documented PhD or equivalent research experience, which is a hard degree-level mismatch. Therefore the candidate does not meet the core eligibility criterion. Other requirements (English proficiency, host organisation) are addressable, but the lack of a PhD is a definitive blocker.",
     "id": "83b4b5f37f57afd8",
     "first_seen": "2026-09-15T10:16:36.811132+00:00",
-    "last_updated": "2026-09-15T10:16:36.811143+00:00"
+    "last_updated": "2026-10-02T10:57:43.469027+00:00"
   },
   "0cd120be619e7d8e": {
     "url": "https://www.opportunitiescircle.com/if-design-student-award",
@@ -12671,5 +12669,224 @@
     "id": "a968a4d3492e8510",
     "first_seen": "2026-10-01T11:35:49.803214+00:00",
     "last_updated": "2026-10-01T11:35:49.803229+00:00"
+  },
+  "7179a1cf71435bdd": {
+    "url": "https://opportunitiescorners.com/erasmus-mundus-glocal-scholarship-2027/",
+    "title": "Erasmus Mundus GLOCAL Scholarship 2027/29 (Fully Funded)",
+    "status": "notified",
+    "score": 5.6,
+    "category": null,
+    "official_url": "https://opportunitiescorners.com/erasmus-mundus-glocal-scholarship-2027/",
+    "location": null,
+    "remote": null,
+    "deadline": "2027-01-14",
+    "reward": "fully_funded",
+    "estimated_value": null,
+    "eligibility_status": "PROBABLY_ELIGIBLE",
+    "credibility_status": "LIKELY_LEGITIMATE",
+    "source_tier": "TIER_3",
+    "source_quality": 7,
+    "requirements": [
+      "Europass CV",
+      "Two supporting references on headed paper",
+      "Transcripts of all university-level academic studies to date",
+      "Degree certificates of all university-level academic studies to date",
+      "Proof of English-language proficiency",
+      "Passport scan copy"
+    ],
+    "id": "7179a1cf71435bdd",
+    "first_seen": "2026-10-02T11:00:16.724988+00:00",
+    "last_updated": "2026-10-02T11:12:56.945007+00:00",
+    "notification_tier": "GOOD",
+    "notified_at": "2026-10-02T11:12:56.939250+00:00"
+  },
+  "4d6a3936d24c50c0": {
+    "url": "https://www.opportunitiesforafricans.com/washington-college-of-law-human-rights-essay-award-2027/",
+    "title": "Washington College of Law Human Rights Essay Award 2027 (full tuition scholarship to the Program of Advanced Studies on Human Rights and Humanitarian Law)",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "model_eligibility_status": "CONFIRMED_INELIGIBLE",
+    "missing_requirements": [
+      "Demonstrated experience or interest in international human rights law (not stated in the profile)."
+    ],
+    "blocking_issues": [
+      "Degree level mismatch: candidate holds a BSc Psychology, not a law degree (J.D., LL.B., or equivalent)."
+    ],
+    "addressable_gaps": [],
+    "reasoning": "The program explicitly requires applicants to hold a law degree (J.D., LL.B., or equivalent). The candidate only has a BSc in Psychology, which does not satisfy the degree requirement. Therefore the candidate is ineligible regardless of other factors.",
+    "id": "4d6a3936d24c50c0",
+    "first_seen": "2026-10-02T11:01:21.684271+00:00",
+    "last_updated": "2026-10-02T11:01:21.684280+00:00"
+  },
+  "f8d7b01bcac70275": {
+    "url": "https://opportunitiescorners.com/yale-world-fellows-program-2027/",
+    "title": "Yale World Fellows Program 2027 in USA (Fully Funded)",
+    "status": "notified",
+    "score": 5.8,
+    "category": null,
+    "official_url": "https://opportunitiescorners.com/yale-world-fellows-program-2027/",
+    "location": null,
+    "remote": null,
+    "deadline": "2026-12-02",
+    "reward": "fully_funded",
+    "estimated_value": null,
+    "eligibility_status": "PROBABLY_ELIGIBLE",
+    "credibility_status": "LIKELY_LEGITIMATE",
+    "source_tier": "TIER_3",
+    "source_quality": 7,
+    "requirements": [
+      "Online application form",
+      "Curriculum Vitae (CV, max 3 pages)",
+      "Personal statement (max 1000 words)",
+      "Three letters of recommendation"
+    ],
+    "id": "f8d7b01bcac70275",
+    "first_seen": "2026-10-02T11:03:28.694057+00:00",
+    "last_updated": "2026-10-02T11:12:56.927409+00:00",
+    "notification_tier": "GOOD",
+    "notified_at": "2026-10-02T11:12:56.921002+00:00"
+  },
+  "5d68219259970d30": {
+    "url": "https://opportunitiescorners.com/nexus-youth-exchange-2026/",
+    "title": "Nexus Youth Exchange 2026 in Madrid, Spain (Fully Funded)",
+    "status": "scam",
+    "credibility_status": "HIGH_RISK",
+    "source_tier": "TIER_3",
+    "reasoning": "The program requires an application fee despite being advertised as fully funded, offers a \"Premium Access Pass\" that guarantees participation for money, and is run by an obscure organizer with only a generic Gmail contact. Legitimate fully funded exchange programs (e.g., Erasmus, government scholarships) never charge fees to secure a spot or visa invitation.",
+    "id": "5d68219259970d30",
+    "first_seen": "2026-10-02T11:04:23.545142+00:00",
+    "last_updated": "2026-10-02T11:04:23.545155+00:00"
+  },
+  "c8051a9449eef5d1": {
+    "url": "https://www.opportunitiesforafricans.com/nvidia-international-graduate-fellowship-program-2027-2028/",
+    "title": "NVIDIA International Graduate Fellowship Program 2027/2028 for PhD students worldwide ($60,000 in research funding)",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "model_eligibility_status": "CONFIRMED_INELIGIBLE",
+    "missing_requirements": [],
+    "blocking_issues": [
+      "PhD experience required; candidate only has a bachelor's degree",
+      "Full‑time PhD enrollment required; candidate is a working professional and not a student",
+      "Field of study mismatch; candidate's degree is Psychology, not a required computing/engineering discipline"
+    ],
+    "addressable_gaps": [],
+    "reasoning": "The NVIDIA International Graduate Fellowship explicitly requires applicants to have PhD experience (must have completed the first year of a PhD), be enrolled full‑time in a PhD program, and be majoring in computer science, computer engineering, system architecture, electrical engineering, or a closely related area. The candidate holds only a BSc in Psychology, is not currently a student, and does not meet the required field of study. These are hard, non‑addressable blockers.",
+    "id": "c8051a9449eef5d1",
+    "first_seen": "2026-10-02T11:05:19.849095+00:00",
+    "last_updated": "2026-10-02T11:05:19.849110+00:00"
+  },
+  "f3e69c91db05ab64": {
+    "url": "https://www.opportunitiesforafricans.com/the-2027-oilserv-ingenious-graduate-trainee-programme/",
+    "title": "The Oilserv Ingenious Graduate Trainee Programme (IGTP) 2027 for young Nigerian graduates.",
+    "status": "suspicious",
+    "credibility_status": "SUSPICIOUS",
+    "source_tier": "TIER_3",
+    "reasoning": "The listing provides no direct link to an official Oilserv website and uses only generic Gmail addresses for contact, which are atypical for a corporate graduate programme. The description is vague marketing copy without concrete details (e.g., stipend, location, application portal), suggesting the opportunity may not be a verified corporate offer.",
+    "id": "f3e69c91db05ab64",
+    "first_seen": "2026-10-02T11:05:52.818709+00:00",
+    "last_updated": "2026-10-02T11:05:52.818723+00:00"
+  },
+  "b91a913b1cb282ba": {
+    "url": "https://www.opportunitiesforafricans.com/the-yale-maurice-r-greenberg-world-fellows-program-2027/",
+    "title": "The Yale Maurice R. Greenberg World Fellows Program 2027 for mid-career emerging Global Leaders (Fully Funded to Yale University, USA)",
+    "status": "notified",
+    "score": 5.5,
+    "category": null,
+    "official_url": "https://www.opportunitiesforafricans.com/the-yale-maurice-r-greenberg-world-fellows-program-2027/",
+    "location": null,
+    "remote": null,
+    "deadline": null,
+    "reward": "fully_funded",
+    "estimated_value": null,
+    "eligibility_status": "PROBABLY_ELIGIBLE",
+    "credibility_status": "LIKELY_LEGITIMATE",
+    "source_tier": "TIER_3",
+    "source_quality": 7,
+    "requirements": [],
+    "id": "b91a913b1cb282ba",
+    "first_seen": "2026-10-02T11:07:50.871440+00:00",
+    "last_updated": "2026-10-02T11:12:56.962500+00:00",
+    "notification_tier": "WATCHLIST",
+    "notified_at": "2026-10-02T11:12:56.956654+00:00"
+  },
+  "deac6bcac3329a85": {
+    "url": "https://opportunitiesforyouth.org/2026/09/27/hansen-leadership-institute-fellowship-program-2024-in-usa-fully-funded-and-open-to-us-and-non-usa-citizens",
+    "title": "Hansen Leadership Institute 2027 in USA | Fully Funded Fellowship (For U.S. & International Students) - Opportunities for Youth",
+    "status": "legitimacy_unknown",
+    "credibility_status": "NEEDS_VERIFICATION",
+    "source_tier": "TIER_3",
+    "reasoning": "The listing describes a fully funded fellowship with no application fee and claims partnership with the University of San Diego, but it provides no direct link to an official program website or verifiable sponsor (Fred J. Hansen Foundation) on the U.S. State Department exchange sponsor list. The absence of concrete external verification makes it impossible to confirm legitimacy.",
+    "id": "deac6bcac3329a85",
+    "first_seen": "2026-10-02T11:08:58.625687+00:00",
+    "last_updated": "2026-10-02T11:08:58.625701+00:00"
+  },
+  "4706a875a8fa9d2a": {
+    "url": "https://www.facebook.com/scholarshipunion/posts/-npgh-global-health-fellowship-2027-in-usa-fully-funded-apply-now-application-li/1473109404859676",
+    "title": "🇺🇸 NPGH Global Health Fellowship 2027... - Scholarship Union",
+    "status": "suspicious",
+    "credibility_status": "SUSPICIOUS",
+    "source_tier": "TIER_4",
+    "reasoning": "The post provides only a brief, vague description, no official website or verifiable sponsor for the \"NPGH Global Health Fellowship,\" and directs applicants to a link in the comments without showing it. Lack of clear eligibility criteria, contact information, and any reference to a known institution are red flags, even though no fee is mentioned.",
+    "id": "4706a875a8fa9d2a",
+    "first_seen": "2026-10-02T11:09:27.032484+00:00",
+    "last_updated": "2026-10-02T11:09:27.032499+00:00"
+  },
+  "b0c9475676771c43": {
+    "url": "https://www.opportunitiesforafricans.com/the-international-monetary-fund-imf-2027-economist-program/",
+    "title": "The International Monetary Fund (IMF) 2027 Economist Program for recent PhD graduates (three-year program at the IMF Washington D.C. headquarters).",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "model_eligibility_status": "CONFIRMED_INELIGIBLE",
+    "missing_requirements": [],
+    "blocking_issues": [
+      "No PhD (program requires recent PhD graduate)",
+      "Field of study not macroeconomics or related"
+    ],
+    "addressable_gaps": [],
+    "reasoning": "The IMF Economist Program explicitly requires applicants to be recent PhD graduates (or within one year of completing a PhD) in macroeconomics or a related field. The candidate holds only a BSc in Psychology and has no PhD, making her ineligible. Additionally, her academic background is not in macroeconomics. All other criteria (age, citizenship, English proficiency) are met or potentially addressable, but the degree requirement is a hard blocker.",
+    "id": "b0c9475676771c43",
+    "first_seen": "2026-10-02T11:10:39.387820+00:00",
+    "last_updated": "2026-10-02T11:10:39.387830+00:00"
+  },
+  "6d19f75400281a60": {
+    "url": "https://www.opportunitiesforafricans.com/the-bank-of-namibia-undergraduate-bursary-2027-for-namibian-sadc-students/",
+    "title": "The Bank of Namibia Undergraduate Bursary 2027 for Namibian/SADC Students.",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "model_eligibility_status": "CONFIRMED_INELIGIBLE",
+    "missing_requirements": [
+      "Academic average of 65% or above (not provided)",
+      "Provisional admission documentation (not applicable without enrollment)"
+    ],
+    "blocking_issues": [
+      "Not a Namibian citizen (required citizenship)",
+      "Not a current tertiary student nor a recent Grade 12 leaver (required enrollment status)",
+      "No provisional admission for full‑time studies (required for bursary)"
+    ],
+    "addressable_gaps": [],
+    "reasoning": "The bursary explicitly requires applicants to be Namibian citizens and to be either a Grade 12 leaver (2025‑2026) or a registered tertiary student. The candidate is an Ethiopian national, not a Namibian, and is a working professional who is not currently enrolled in any tertiary program nor a recent secondary school graduate. These are hard, non‑addressable blockers. Additionally, the candidate does not have provisional admission for full‑time studies, another required condition.",
+    "id": "6d19f75400281a60",
+    "first_seen": "2026-10-02T11:11:36.506643+00:00",
+    "last_updated": "2026-10-02T11:11:36.506653+00:00"
+  },
+  "13b9796056a43b62": {
+    "url": "https://www.opportunitiesforafricans.com/international-monetary-fund-internship-program-fip-2027/",
+    "title": "International Monetary Fund Internship Program (FIP) 2027 for young professionals (Paid Internship- Washington D.C. USA)",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "model_eligibility_status": "CONFIRMED_INELIGIBLE",
+    "missing_requirements": [
+      "Verified proof of English proficiency (candidate can obtain but not yet provided)"
+    ],
+    "blocking_issues": [
+      "Degree level mismatch: requires PhD (candidate has BSc)",
+      "Student status: must be enrolled as a student (candidate is not)",
+      "Field of study: requires macroeconomics or related (candidate's background is psychology/AI)"
+    ],
+    "addressable_gaps": [],
+    "reasoning": "The IMF Internship Program explicitly requires candidates to be within one to two years of completing a PhD in macroeconomics or a related field and to be enrolled as a student at the time of the internship. The candidate holds only a BSc in Psychology, is not currently a student, and works as a professional. These hard requirements are not met, making the candidate ineligible regardless of other factors.",
+    "id": "13b9796056a43b62",
+    "first_seen": "2026-10-02T11:12:54.105706+00:00",
+    "last_updated": "2026-10-02T11:12:54.105717+00:00"
   }
 }

@@ -616,7 +616,8 @@
     "last_known_deadline": "2026-08-14",
     "reason": "closed at discovery; likely annual",
     "id": "6d394229af59e1c3",
-    "added": "2026-09-07T10:10:49.602467+00:00"
+    "added": "2026-10-02T10:56:23.742975+00:00",
+    "last_checked": "2026-10-02T10:56:23.742035"
   },
   "66c5cec89de96ab9": {
     "url": "https://fi.co/insight/federal-funding-for-startup-programs-every-grant-source-edos-should-know-in-2026",
@@ -624,7 +625,8 @@
     "last_known_deadline": null,
     "reason": "closed at discovery; likely annual",
     "id": "66c5cec89de96ab9",
-    "added": "2026-09-07T10:15:23.869879+00:00"
+    "added": "2026-10-02T10:56:26.355254+00:00",
+    "last_checked": "2026-10-02T10:56:26.354432"
   },
   "fa61869a9722d336": {
     "url": "https://www.worldbank.org/en/brief/2025/03/06/world-bank-group-africa-fellowship-program",
@@ -632,7 +634,8 @@
     "last_known_deadline": "2026-08-25",
     "reason": "closed at discovery; likely annual",
     "id": "fa61869a9722d336",
-    "added": "2026-09-08T09:43:00.416872+00:00"
+    "added": "2026-10-02T10:56:28.170157+00:00",
+    "last_checked": "2026-10-02T10:56:28.169307"
   },
   "83bb0b5bc997c288": {
     "url": "https://www.edu-live.com/posts/mcw-globals-young-leaders-fellowship-20262027",
@@ -640,16 +643,8 @@
     "last_known_deadline": "2025-12-03",
     "reason": "closed at discovery; likely annual",
     "id": "83bb0b5bc997c288",
-    "added": "2026-09-09T09:38:52.833420+00:00"
-  },
-  "83b4b5f37f57afd8": {
-    "url": "https://www.ukri.org/apply-for-funding/our-fellowship-opportunities",
-    "title": "Our fellowship opportunities – UKRI",
-    "reason": "ANALYSIS_UNAVAILABLE — deep_eligibility: incomplete or invalid response after retry",
-    "retry_analysis": true,
-    "snippet": "### Professional doctorate: clinical research training fellowship\n\nFunded by the Medical Research Council (MRC). This is for registered healthcare professionals without a PhD to get one to pursue a research career.\n\nFunding will cover the fellow’s salary and project costs for three years.\n\nAward frequency: three times a year\n\nSearch for funding opportunities for the Professional doctorate: clinical research training fellowship. [...] Funding will cover the fellow’s salary and project costs for five years.\n\nAward frequency: annual.\n\nSearch for funding opportunities for NERC independent research fellowships.\n\n### EPSRC postdoctoral fellowships\n\nFunded by EPSRC.\n\nThese flexible fellowships are for researchers who have not had significant postdoctoral funding or been leading in an area of technical development. These fellowships are only open in the mathematical sciences research area. [...] # Our fellowship opportunities\n\nFellowships are prestigious funding awards for individuals to make challenging transitions in their research careers or to develop specific research capabilities.\n\nThey give you the freedom to focus on a research or innovation project that requires at least 12 months of your time (between 0.5 and 1 full-time equivalent). They pay all or part of your salary, for the length of your fellowship, and some cover part or all of your research costs.",
-    "id": "83b4b5f37f57afd8",
-    "added": "2026-09-10T09:38:37.794770+00:00"
+    "added": "2026-10-02T10:56:29.013317+00:00",
+    "last_checked": "2026-10-02T10:56:29.012483"
   },
   "05fc162f9d6a30ed": {
     "url": "https://www.facebook.com/opportunitiesforyouth/posts/-top-fully-funded-research-phd-opportunities-20262027looking-to-take-your-resear/1486075293549819",
@@ -1263,9 +1258,10 @@
     "title": "The Yale Maurice R. Greenberg World Fellows Program 2027 for mid-career emerging Global Leaders (Fully Funded to Yale University, USA)",
     "retry_analysis": true,
     "snippet": "Application Deadline: 2 December at 14:00 PM Eastern Time Applications are now open for the 2027 Yale Maurice R. Greenberg World Fellows Program. Yale’s flagship four-month, full-time residential program for… The post The Yale Maurice R. Greenberg World Fellows Program 2027 for mid-career emerging Global Leaders (Fully Funded to Yale University, USA) appeared first on Opportunities For Africans .",
-    "reason": "legitimacy check returned an unparseable reply; retry on a later run",
+    "reason": "monitoring — not confirmed open at scan time",
     "id": "b91a913b1cb282ba",
-    "added": "2026-10-01T11:36:26.554436+00:00"
+    "added": "2026-10-02T11:12:54.412177+00:00",
+    "last_known_deadline": null
   },
   "064ead84086a0207": {
     "url": "https://www.opportunitiesforafricans.com/the-university-of-rwanda-mastercard-foundation-undergraduate-scholars-program-2026-2027/",
