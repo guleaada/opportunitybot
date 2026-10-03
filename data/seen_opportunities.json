@@ -9487,8 +9487,8 @@
   },
   "05fc162f9d6a30ed": {
     "url": "https://www.facebook.com/opportunitiesforyouth/posts/-top-fully-funded-research-phd-opportunities-20262027looking-to-take-your-resear/1486075293549819",
-    "title": "🎓🔬 Top Fully Funded Research &... - Opportunities For Youth",
-    "status": "unknown",
+    "title": "🎓🔬 Top Fully Funded Research & PhD Opportunities 2026 ...",
+    "status": "legitimacy_unknown",
     "eligibility_status": "UNCERTAIN",
     "model_eligibility_status": "UNCERTAIN",
     "missing_requirements": [
@@ -9504,10 +9504,12 @@
     "addressable_gaps": [
       "No IELTS/TOEFL certificate yet, but candidate can obtain Duolingo English Test or MOI certificate from Injibara University"
     ],
-    "reasoning": "The program post lists multiple opportunities (Cambridge Trust, Marie Skłodowska-Curie, Humboldt, Schmidt AI Fellowship, ETH Zurich, Lund, 51 Pegasi b, Sloan, World Bank Africa Fellowship, EAC Mobility) but provides NO specific eligibility criteria for any of them. The candidate is an Ethiopian national age 27, a working professional (not currently enrolled as a student), holding a BSc. Several listed programs (e.g., Cambridge Trust Master's, Marie Skłodowska-Curie Postdoc, Humboldt Postdoc, Sloan) typically require either current student status, a completed PhD, or specific degree levels that may not match the candidate's BSc-only profile. Without explicit requirements stated, it cannot be determined whether nationality, student-status, age, or degree-level criteria would exclude the candidate. The candidate's lack of IELTS/TOEFL is addressable (can obtain Duolingo or MOI), but the decision-relevant criteria are unverifiable.",
+    "reasoning": "The Facebook post only lists \"top fully funded\" opportunities without providing details, official links, or fee information, making it impossible to verify the programs' authenticity. No explicit red‑flag language (e.g., payment requests) is present, but the lack of verifiable sources prevents a confident legitimacy assessment.",
     "id": "05fc162f9d6a30ed",
     "first_seen": "2026-09-12T09:15:10.420043+00:00",
-    "last_updated": "2026-09-12T09:15:10.420055+00:00"
+    "last_updated": "2026-10-03T10:16:02.179846+00:00",
+    "credibility_status": "NEEDS_VERIFICATION",
+    "source_tier": "TIER_4"
   },
   "9ad8b4a8e17f31a7": {
     "url": "https://research.reading.ac.uk/celm/what-we-do/celm-international-visiting-fellowship",
@@ -12888,5 +12890,202 @@
     "id": "13b9796056a43b62",
     "first_seen": "2026-10-02T11:12:54.105706+00:00",
     "last_updated": "2026-10-02T11:12:54.105717+00:00"
+  },
+  "a098dbc3bfd4f54b": {
+    "url": "https://competition.adesignaward.com/design-award-dates.html",
+    "title": "A' Design Award and Competition - Dates and Deadlines",
+    "status": "suspicious",
+    "credibility_status": "SUSPICIOUS",
+    "source_tier": "TIER_4",
+    "reasoning": "The A' Design Award requires applicants to pay entry fees (early, regular, late) and later pay for participation in a gala ceremony and exhibition. Charging fees to submit an entry is a red‑flag for scholarship/fellowship scams, even though the award itself may be legitimate as a commercial design competition.",
+    "id": "a098dbc3bfd4f54b",
+    "first_seen": "2026-10-03T10:16:09.349535+00:00",
+    "last_updated": "2026-10-03T10:16:09.349547+00:00"
+  },
+  "e849338d989e1a4b": {
+    "url": "https://opportunitiescorners.com/mopga-fellowship-2027/",
+    "title": "MOPGA Fellowship 2027 in Paris, France (Fully Funded)",
+    "status": "scam",
+    "credibility_status": "HIGH_RISK",
+    "source_tier": "TIER_3",
+    "reasoning": "The page provides only a Gmail address for contact, no official French government or Campus France URL, and the program name (MOPGA – “Make Our Planet Great Again”) does not appear on any recognized French Ministry or Campus France listings, indicating it is likely fabricated.",
+    "id": "e849338d989e1a4b",
+    "first_seen": "2026-10-03T10:18:34.776460+00:00",
+    "last_updated": "2026-10-03T10:18:34.776470+00:00"
+  },
+  "bad679b23ac49bc4": {
+    "url": "https://www.opportunitiesforafricans.com/twas-research-professors-in-least-developed-countries-ldcs-programme-2026-2027/",
+    "title": "TWAS Research Professors in Least Developed Countries (LDCs) Programme 2026/2027 (Fully Funded)",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "model_eligibility_status": "CONFIRMED_INELIGIBLE",
+    "missing_requirements": [
+      "Confirmation of any TWAS affiliation (Fellow/Young Affiliate)",
+      "Evidence of affiliation with a research group/institution in an LDC",
+      "Any required academic degree beyond BSc (e.g., PhD) if that is a de‑facto requirement"
+    ],
+    "blocking_issues": [
+      "Not a TWAS Fellow or TWAS Young Affiliate/Alumni (hard blocker)",
+      "Not affiliated with a research group/institution in an LDC (hard blocker)"
+    ],
+    "addressable_gaps": [
+      "Could apply for TWAS Young Affiliate status (if eligibility criteria are met)",
+      "Could seek collaboration with a research institution in an LDC to submit a request"
+    ],
+    "reasoning": "The programme explicitly states that *only* TWAS Fellows and TWAS Young Affiliates/Alumni are eligible for appointment as Research Professors. The candidate is not a TWAS Fellow nor a Young Affiliate/Alumni, and there is no evidence of such status. Additionally, the programme requires that the request be submitted by a research group or scientific institution located in a Least Developed Country (LDC). Ethiopia is no longer classified as an LDC, and the candidate is a working professional, not part of a qualifying research group in an LDC. Therefore the candidate does not meet the core eligibility criteria.",
+    "id": "bad679b23ac49bc4",
+    "first_seen": "2026-10-03T10:19:27.043380+00:00",
+    "last_updated": "2026-10-03T10:19:27.043391+00:00"
+  },
+  "ca8d00a9ef0f2682": {
+    "url": "https://opportunitiescorners.com/international-dialogue-on-sdg-17-baku-2026/",
+    "title": "International Dialogue on SDG 17-Baku 2026 (Fully Funded)",
+    "status": "scam",
+    "credibility_status": "HIGH_RISK",
+    "source_tier": "TIER_3",
+    "reasoning": "The listing advertises a fully funded conference but requires an application fee of USD 24.24 and provides only a generic Gmail address for contact, with no verifiable sponsoring organization or official UN/Azerbaijan government link. These are classic red‑flags for fraudulent conference scams.",
+    "id": "ca8d00a9ef0f2682",
+    "first_seen": "2026-10-03T10:20:17.379171+00:00",
+    "last_updated": "2026-10-03T10:20:17.379182+00:00"
+  },
+  "ec48b06cc1e93268": {
+    "url": "https://opportunitiescorners.com/global-leadership-challenge-2027/",
+    "title": "Global Leadership Challenge 2027 (Fully Funded to Switzerland)",
+    "status": "suspicious",
+    "credibility_status": "SUSPICIOUS",
+    "source_tier": "TIER_3",
+    "reasoning": "The program claims partnerships with Oxford and the St. Gallen Symposium but provides no official university or symposium website link, and the only contact is a generic Gmail address. The description is vague, and the page is an aggregator that promotes many similar \"fully funded\" offers, a common pattern for scams.",
+    "id": "ec48b06cc1e93268",
+    "first_seen": "2026-10-03T10:21:02.303469+00:00",
+    "last_updated": "2026-10-03T10:21:02.303481+00:00"
+  },
+  "f154acc1b7b521df": {
+    "url": "https://www.opportunitiesforafricans.com/africa-organization-for-standardization-arso-14th-continental-essay-competition-2026-2027/",
+    "title": "Africa Organization for Standardization (ARSO) 14th Continental Essay Competition 2026/2027 ($USD 2,300 Prize)",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "model_eligibility_status": "CONFIRMED_INELIGIBLE",
+    "missing_requirements": [],
+    "blocking_issues": [
+      "Must be enrolled in an accredited tertiary institution in an African Union Member State at the time of submission",
+      "Candidate is not currently a student",
+      "Candidate is based outside an African Union Member State"
+    ],
+    "addressable_gaps": [],
+    "reasoning": "The program explicitly requires applicants to be 'Enrolled in an accredited tertiary institution in an African Union Member State at the time of submission.' The candidate is a working professional, not currently a student, and is based in Vientiane, Lao PDR, not an AU Member State. This is a hard eligibility blocker.",
+    "id": "f154acc1b7b521df",
+    "first_seen": "2026-10-03T10:23:12.036465+00:00",
+    "last_updated": "2026-10-03T10:23:12.036479+00:00"
+  },
+  "50067c49ff856dde": {
+    "url": "https://www.opportunitiesforafricans.com/un-global-compact-business-human-rights-accelerator-program-2026-2027/",
+    "title": "UN Global Compact Business & Human Rights Accelerator Program 2026/2027",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "model_eligibility_status": "CONFIRMED_INELIGIBLE",
+    "missing_requirements": [
+      "Company registration details",
+      "UN Global Compact membership status",
+      "Ability to appoint required representatives",
+      "Company's current engagement with Global Compact Country Network"
+    ],
+    "blocking_issues": [
+      "Program targets companies/organizations, not individuals",
+      "Requires appointment of two working-level representatives and one executive-level representative (minimum 3 people)",
+      "Company must be or become a UN Global Compact participant",
+      "No provision for individual applicants or solo founders without a team"
+    ],
+    "addressable_gaps": [],
+    "reasoning": "The UN Global Compact Business & Human Rights Accelerator Program is explicitly designed for companies, not individuals. Requirements include: being a UN Global Compact participant (or willing to join), engaging with a Global Compact Country Network, appointing two working-level representatives plus an executive-level representative, and committing to develop a company-wide Action Plan. The candidate is an individual professional (solo founder) with no indication of a registered company that can meet these structural requirements, especially the mandate for multiple representatives. The program does not offer individual scholarships, fellowships, or funding for personal study.",
+    "id": "50067c49ff856dde",
+    "first_seen": "2026-10-03T10:23:54.041305+00:00",
+    "last_updated": "2026-10-03T10:23:54.041317+00:00"
+  },
+  "782d3344359f7d2a": {
+    "url": "https://www.developmentaid.org/amp/grants-in-africa",
+    "title": "Search for grants in Africa — DevelopmentAid",
+    "status": "unknown",
+    "eligibility_status": "UNCERTAIN",
+    "model_eligibility_status": "UNCERTAIN",
+    "missing_requirements": [
+      "Explicit eligibility criteria are not stated on the program page – cannot verify if any hard blockers exist (e.g., nationality restrictions, student-enrollment requirement, language proficiency mandates)",
+      "Specific degree-level requirements beyond the candidate's BSc (though typically acceptable for master's programs)"
+    ],
+    "blocking_issues": [],
+    "addressable_gaps": [
+      "Missing English language certification (IELTS/TOEFL) – candidate can obtain MOI certificate from Injibara University or take Duolingo English Test ($59)",
+      "Current employment status (working professional) – may need to transition to student status or pursue alternative funding models"
+    ],
+    "reasoning": "The program page (DevelopmentAid) contains no stated eligibility requirements. While the candidate is Ethiopian (nationality not restricted per the visible text) and has a BSc degree (meets typical degree-level requirements), the page does not specify whether student status is required, what language proficiency thresholds apply, or any citizenship-based exclusions. These critical criteria are missing from the source material, preventing a definitive eligibility determination.",
+    "id": "782d3344359f7d2a",
+    "first_seen": "2026-10-03T10:24:30.644423+00:00",
+    "last_updated": "2026-10-03T10:24:30.644436+00:00"
+  },
+  "833dc60e448bba66": {
+    "url": "https://security.apple.com/blog/apple-security-bounty-evolved",
+    "title": "A major evolution of Apple Security Bounty, with the industry's top awards for the most advanced research - Apple Security Research",
+    "status": "analyzed",
+    "score": 3.0,
+    "category": "security_bounties",
+    "official_url": "https://security.apple.com/blog/apple-security-bounty-evolved",
+    "location": null,
+    "remote": null,
+    "deadline": null,
+    "reward": "fully_funded",
+    "estimated_value": null,
+    "eligibility_status": "PROBABLY_ELIGIBLE",
+    "credibility_status": "LIKELY_LEGITIMATE",
+    "source_tier": "TIER_4",
+    "source_quality": 0,
+    "requirements": [],
+    "id": "833dc60e448bba66",
+    "first_seen": "2026-10-03T10:25:55.548513+00:00",
+    "last_updated": "2026-10-03T10:25:55.548524+00:00"
+  },
+  "b8015cdc0056336b": {
+    "url": "https://www.detroitchamber.com/apply-for-march-2026-small-business-grants",
+    "title": "Apply for March 2026 Small Business Grants - Detroit Regional Chamber",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "model_eligibility_status": "CONFIRMED_INELIGIBLE",
+    "missing_requirements": [
+      "None - all requirements are clearly stated and the candidate definitively does not meet the fundamental U.S.-based requirement"
+    ],
+    "blocking_issues": [
+      "All grants require U.S.-based businesses or entrepreneurs - candidate is based in Lao PDR",
+      "Candidate is Ethiopian national, not U.S. citizen or permanent resident",
+      "Kitty Fund requires businesses based in the U.S.",
+      "Skip's grants are for U.S.-based entrepreneurs",
+      "AI Glasses Impact Grants are for U.S.-based organizations",
+      "Verizon Digital Ready grants are restricted to New York, California, and West Virginia businesses"
+    ],
+    "addressable_gaps": [],
+    "reasoning": "All grants listed in this program require applicants to be U.S.-based businesses or entrepreneurs. The candidate is an Ethiopian national working professionally in Vientiane, Lao PDR, and does not meet the U.S.-based requirement for any of the grants described. Additionally, several grants require specific business revenue thresholds, employee counts, or membership statuses that are not applicable to this candidate. The candidate's nationality and location are explicit hard blockers for every grant opportunity presented in this program.",
+    "id": "b8015cdc0056336b",
+    "first_seen": "2026-10-03T10:26:30.635444+00:00",
+    "last_updated": "2026-10-03T10:26:30.635456+00:00"
+  },
+  "ca1b02fe9eb0e371": {
+    "url": "https://www.linkedin.com/posts/martin-salanda-7797917a_40-grants-funding-opportunities-for-african-activity-7414199461809356800-mtwL",
+    "title": "40 African Startup Grants & Funding Opportunities | Martin Salanda posted on the topic | LinkedIn",
+    "status": "notified",
+    "score": 5.9,
+    "category": "startup_competitions",
+    "official_url": "https://www.linkedin.com/posts/martin-salanda-7797917a_40-grants-funding-opportunities-for-african-activity-7414199461809356800-mtwL",
+    "location": null,
+    "remote": null,
+    "deadline": null,
+    "reward": "fully_funded",
+    "estimated_value": null,
+    "eligibility_status": "PROBABLY_ELIGIBLE",
+    "credibility_status": "LIKELY_LEGITIMATE",
+    "source_tier": "TIER_4",
+    "source_quality": 0,
+    "requirements": [],
+    "id": "ca1b02fe9eb0e371",
+    "first_seen": "2026-10-03T10:27:13.814045+00:00",
+    "last_updated": "2026-10-03T10:27:47.156342+00:00",
+    "notification_tier": "WATCHLIST",
+    "notified_at": "2026-10-03T10:27:47.149396+00:00"
   }
 }
