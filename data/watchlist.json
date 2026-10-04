@@ -673,22 +673,14 @@
     "added": "2026-10-03T10:16:48.308075+00:00",
     "last_checked": "2026-10-03T10:16:48.307262"
   },
-  "2a9835df8decd140": {
-    "url": "https://www.facebook.com/groups/StudyAbroadScholarshipsForAfrica",
-    "title": "Fully Funded Study Abroad Scholarships for Developing ...",
-    "retry_analysis": true,
-    "snippet": "Commonwealth Master's Scholarships 2027/28 – UK Fully funded Master's Full tuition fees Return airfare £1,712/month stipend £2,000/month for London Study travel",
-    "reason": "legitimacy check returned an unparseable reply; retry on a later run",
-    "id": "2a9835df8decd140",
-    "added": "2026-09-12T09:14:13.050775+00:00"
-  },
   "9ad8b4a8e17f31a7": {
     "url": "https://research.reading.ac.uk/celm/what-we-do/celm-international-visiting-fellowship",
     "title": "CeLM International Visiting Fellowship - Centre for Literacy and Multilingualism",
     "last_known_deadline": "2026-01-31",
     "reason": "closed at discovery; likely annual",
     "id": "9ad8b4a8e17f31a7",
-    "added": "2026-09-12T09:15:17.668368+00:00"
+    "added": "2026-10-04T11:00:17.157995+00:00",
+    "last_checked": "2026-10-04T11:00:17.157174"
   },
   "db74483c96681aa2": {
     "url": "https://www.facebook.com/chopeclark/posts/the-2027-creative-capital-open-call-application-portal-is-now-open-the-applicati/10173834326030593",
@@ -696,15 +688,8 @@
     "last_known_deadline": "2026-04-02",
     "reason": "closed at discovery; likely annual",
     "id": "db74483c96681aa2",
-    "added": "2026-09-12T09:15:26.736626+00:00"
-  },
-  "7e1f5dac1efe276c": {
-    "url": "https://scholarships365.info/fellowships",
-    "title": "International Fellowships 2026-2027 | Fully Funded",
-    "last_known_deadline": null,
-    "reason": "monitoring — not confirmed open at scan time",
-    "id": "7e1f5dac1efe276c",
-    "added": "2026-09-13T10:19:50.211715+00:00"
+    "added": "2026-10-04T11:00:19.638268+00:00",
+    "last_checked": "2026-10-04T11:00:19.637503"
   },
   "6437eb97830bbeb1": {
     "url": "https://ayfnhq.org/world-leadership-forum-2026-in-poland-fully-funded",
@@ -712,7 +697,8 @@
     "last_known_deadline": "2025-12-31",
     "reason": "closed at discovery; likely annual",
     "id": "6437eb97830bbeb1",
-    "added": "2026-09-14T10:37:19.814020+00:00"
+    "added": "2026-10-04T11:00:38.298957+00:00",
+    "last_checked": "2026-10-04T11:00:38.298232"
   },
   "b761d3e288bb25bd": {
     "url": "https://tl.usembassy.gov/2027-2028-fulbright-foreign-student-scholarship-program",
@@ -1300,5 +1286,29 @@
     "reason": "monitoring — not confirmed open at scan time",
     "id": "ca1b02fe9eb0e371",
     "added": "2026-10-03T10:27:39.508948+00:00"
+  },
+  "1edaef074ecaadd7": {
+    "url": "https://rs.usembassy.gov/hubert-h-humphrey-fellowship-program-competition-2026-2027",
+    "title": "Hubert H. Humphrey Fellowship Program Competition 2026-2027 - U.S. Embassy in Serbia",
+    "last_known_deadline": "2025-07-31",
+    "reason": "closed at discovery; likely annual",
+    "id": "1edaef074ecaadd7",
+    "added": "2026-10-04T11:07:42.593071+00:00"
+  },
+  "afbc30b9c781e34c": {
+    "url": "https://getgrant.ua/en/grants-and-funding/ai-systems-development-grants-2026-open-calls",
+    "title": "AI development grants 2026: 16 calls with open deadlines",
+    "last_known_deadline": null,
+    "reason": "closed at discovery; likely annual",
+    "id": "afbc30b9c781e34c",
+    "added": "2026-10-04T11:08:28.975176+00:00"
+  },
+  "8b8d201f0da5bd80": {
+    "url": "https://www.artconnect.com/opportunity/I3GqyhuDDYZWOqyAvGd62",
+    "title": "The 2027 Creative Capital Open Call | ArtConnect",
+    "last_known_deadline": "2026-04-02",
+    "reason": "closed at discovery; likely annual",
+    "id": "8b8d201f0da5bd80",
+    "added": "2026-10-04T11:11:07.277499+00:00"
   }
 }

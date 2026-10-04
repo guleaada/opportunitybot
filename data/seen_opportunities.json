@@ -9565,7 +9565,7 @@
   "7e1f5dac1efe276c": {
     "url": "https://scholarships365.info/fellowships",
     "title": "International Fellowships 2026-2027 | Fully Funded",
-    "status": "notified",
+    "status": "unknown",
     "score": 5.0,
     "category": "fellowships",
     "official_url": "https://scholarships365.info/fellowships",
@@ -9574,16 +9574,28 @@
     "deadline": null,
     "reward": "fully_funded",
     "estimated_value": null,
-    "eligibility_status": "PROBABLY_ELIGIBLE",
+    "eligibility_status": "UNCERTAIN",
     "credibility_status": "LIKELY_LEGITIMATE",
     "source_tier": "TIER_4",
     "source_quality": 0,
     "requirements": [],
     "id": "7e1f5dac1efe276c",
     "first_seen": "2026-09-13T10:09:27.801850+00:00",
-    "last_updated": "2026-09-13T10:19:52.391577+00:00",
+    "last_updated": "2026-10-04T11:00:38.276040+00:00",
     "notification_tier": "WATCHLIST",
-    "notified_at": "2026-09-13T10:19:52.384538+00:00"
+    "notified_at": "2026-09-13T10:19:52.384538+00:00",
+    "model_eligibility_status": "UNCERTAIN",
+    "missing_requirements": [
+      "Nationality eligibility (e.g., eligible countries or excluded nationalities)",
+      "Current enrollment status (must be a student or can be a professional)",
+      "Age limit (maximum or minimum age)",
+      "Degree level requirement (e.g., must hold a bachelor's, master's, or be a recent graduate)",
+      "English language proficiency requirement (e.g., IELTS, TOEFL, Duolingo, MOI certificate)",
+      "Field of study or discipline relevance"
+    ],
+    "blocking_issues": [],
+    "addressable_gaps": [],
+    "reasoning": "The program page does not specify any eligibility criteria such as nationality, current student status, age limits, degree level, or English language requirements. Because these critical criteria are missing, we cannot confirm whether the candidate meets them, nor can we rule them out. Therefore, the candidate's eligibility is uncertain."
   },
   "64831255e3923913": {
     "url": "https://www.opportunitiescircle.com/blog/top-fully-funded-fellowships",
@@ -9828,14 +9840,23 @@
   },
   "2a9835df8decd140": {
     "url": "https://www.facebook.com/groups/StudyAbroadScholarshipsForAfrica",
-    "title": "Fully Funded Study Abroad Scholarships for Developing Countries 2026/2027",
-    "status": "legitimacy_unknown",
+    "title": "Fully Funded Study Abroad Scholarships for Developing ...",
+    "status": "ineligible",
     "credibility_status": "NEEDS_VERIFICATION",
     "source_tier": "TIER_4",
-    "reasoning": "The Facebook group merely aggregates scholarship mentions and does not present any specific program with verifiable details; there are no explicit fee requests or suspicious contact information, but also no concrete evidence confirming legitimate scholarship offers.",
+    "reasoning": "The program is the Commonwealth Master's Scholarships, which are explicitly limited to citizens of Commonwealth countries. Ethiopia is not a member of the Commonwealth, so the candidate's nationality makes them ineligible regardless of other qualifications.",
     "id": "2a9835df8decd140",
     "first_seen": "2026-09-14T10:35:52.138801+00:00",
-    "last_updated": "2026-09-14T10:35:52.138812+00:00"
+    "last_updated": "2026-10-04T11:00:17.085048+00:00",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "model_eligibility_status": "CONFIRMED_INELIGIBLE",
+    "missing_requirements": [
+      "English language proficiency documentation (e.g., IELTS/TOEFL) – not stated as a requirement but typically needed."
+    ],
+    "blocking_issues": [
+      "Citizenship mismatch: Ethiopia is not a Commonwealth nation, and the scholarship is restricted to Commonwealth nationals."
+    ],
+    "addressable_gaps": []
   },
   "e0894dbd7d5fead7": {
     "url": "https://maryland.grantwatch.com/cat/16/entrepreneurs-and-startups-grants.html",
@@ -13087,5 +13108,181 @@
     "last_updated": "2026-10-03T10:27:47.156342+00:00",
     "notification_tier": "WATCHLIST",
     "notified_at": "2026-10-03T10:27:47.149396+00:00"
+  },
+  "129aa75fe471473f": {
+    "url": "https://opportunitiescorners.com/maastricht-university-scholarships-2027/",
+    "title": "Maastricht University Scholarships 2027 in Netherlands (Fully Funded)",
+    "status": "notified",
+    "score": 5.2,
+    "category": null,
+    "official_url": "https://opportunitiescorners.com/maastricht-university-scholarships-2027/",
+    "location": null,
+    "remote": null,
+    "deadline": "2027-02-01",
+    "reward": "fully_funded",
+    "estimated_value": null,
+    "eligibility_status": "PROBABLY_ELIGIBLE",
+    "credibility_status": "LIKELY_LEGITIMATE",
+    "source_tier": "TIER_3",
+    "source_quality": 7,
+    "requirements": [
+      "Curriculum vitae",
+      "Letter of motivation",
+      "Proof of academic excellence",
+      "Personal statement of financial needs",
+      "Reference letter"
+    ],
+    "id": "129aa75fe471473f",
+    "first_seen": "2026-10-04T11:03:37.909936+00:00",
+    "last_updated": "2026-10-04T11:11:11.167253+00:00",
+    "notification_tier": "GOOD",
+    "notified_at": "2026-10-04T11:11:11.159086+00:00"
+  },
+  "f4bcd54a43a7c8a3": {
+    "url": "https://opportunitiescorners.com/iceland-writers-retreat-program-2027-fully-funded-trip/",
+    "title": "Iceland Writers Retreat Program 2027 (Fully Funded Trip)",
+    "status": "suspicious",
+    "credibility_status": "SUSPICIOUS",
+    "source_tier": "TIER_3",
+    "reasoning": "The page lists a participation fee and uses a generic Gmail address (opportunitiescorners.com@gmail.com) as the official contact, with no clear institutional host or link to an official website, which are typical red flags. While no direct payment request is shown, the lack of verifiable sponsor makes the offer questionable.",
+    "id": "f4bcd54a43a7c8a3",
+    "first_seen": "2026-10-04T11:04:45.541177+00:00",
+    "last_updated": "2026-10-04T11:04:45.541191+00:00"
+  },
+  "875fbdb3ea3aafc9": {
+    "url": "https://opportunitiescorners.com/ustc-winter-camp-2027/",
+    "title": "USTC Winter Camp 2027 in China (Fully Funded)",
+    "status": "ineligible",
+    "eligibility_status": "PROBABLY_INELIGIBLE",
+    "model_eligibility_status": "PROBABLY_INELIGIBLE",
+    "missing_requirements": [],
+    "blocking_issues": [
+      "Not currently enrolled in an undergraduate or master’s program",
+      "Not a recent graduate (graduated >5 years ago)"
+    ],
+    "addressable_gaps": [
+      "Obtain an English proficiency test result (e.g., Duolingo English Test or MOI certificate) to demonstrate \"good English proficiency\""
+    ],
+    "reasoning": "The USTC Winter Camp requires applicants to be currently enrolled in an undergraduate or master’s program, or to be a recent graduate seeking further studies. Gulilat is a working professional who graduated with a BSc in 2021 (approximately 5 years ago) and is not currently enrolled, so she does not meet this core eligibility criterion. English proficiency is required, but the candidate lacks a formal proof (IELTS/TOEFL/Duolingo), which is an addressable gap.",
+    "id": "875fbdb3ea3aafc9",
+    "first_seen": "2026-10-04T11:05:53.875384+00:00",
+    "last_updated": "2026-10-04T11:05:53.875397+00:00"
+  },
+  "668064db6bdefa32": {
+    "url": "https://www.opportunitiesforafricans.com/the-itu-gender-champions-programme-2027-for-young-women-leading-digital-transformation-and-digital-inclusion/",
+    "title": "The ITU Gender Champions Programme 2027 for young women leading digital transformation and digital inclusion.",
+    "status": "legitimacy_unknown",
+    "credibility_status": "NEEDS_VERIFICATION",
+    "source_tier": "TIER_3",
+    "reasoning": "The listing contains no application fee or payment request, which are common scam indicators. However, the page does not provide a direct link to an official ITU website, and a search of ITU's publicly listed programs does not clearly confirm the existence of a 'ITU Gender Champions Programme 2027', making it impossible to verify legitimacy from the available evidence.",
+    "id": "668064db6bdefa32",
+    "first_seen": "2026-10-04T11:06:34.447890+00:00",
+    "last_updated": "2026-10-04T11:06:34.447904+00:00"
+  },
+  "831ad86129aa40cf": {
+    "url": "https://www.edu-live.com/posts/fully-funded-youth-leadership-certification-usa---apply",
+    "title": "Fully funded Youth Leadership Certification USA - Apply | Edu Live - Global Education News & Opportunities",
+    "status": "suspicious",
+    "credibility_status": "SUSPICIOUS",
+    "source_tier": "TIER_4",
+    "reasoning": "The program is hosted by a vague entity ('Global Business Symposium') with no verifiable institutional affiliation, and the description uses typical scam language such as 'exclusive invitation letter' and promises fully funded travel and accommodation for a short 4‑day event. No official contact details or link to a legitimate sponsor are provided, which raises concerns despite the lack of an explicit fee statement.",
+    "id": "831ad86129aa40cf",
+    "first_seen": "2026-10-04T11:07:04.668554+00:00",
+    "last_updated": "2026-10-04T11:07:04.668570+00:00"
+  },
+  "1edaef074ecaadd7": {
+    "url": "https://rs.usembassy.gov/hubert-h-humphrey-fellowship-program-competition-2026-2027",
+    "title": "Hubert H. Humphrey Fellowship Program Competition 2026-2027 - U.S. Embassy in Serbia",
+    "status": "closed",
+    "deadline": "2025-07-31",
+    "id": "1edaef074ecaadd7",
+    "first_seen": "2026-10-04T11:07:42.579563+00:00",
+    "last_updated": "2026-10-04T11:07:42.579575+00:00"
+  },
+  "afbc30b9c781e34c": {
+    "url": "https://getgrant.ua/en/grants-and-funding/ai-systems-development-grants-2026-open-calls",
+    "title": "AI development grants 2026: 16 calls with open deadlines",
+    "status": "closed",
+    "deadline": null,
+    "id": "afbc30b9c781e34c",
+    "first_seen": "2026-10-04T11:08:28.962381+00:00",
+    "last_updated": "2026-10-04T11:08:28.962395+00:00"
+  },
+  "71d9e656019d3709": {
+    "url": "https://www2.fundsforngos.org/listing/latest-global-awards-prizes-innovation-challenges-for-changemakers",
+    "title": "Latest Global Awards, Prizes & Innovation Challenges for Changemakers - fundsforNGOs",
+    "status": "unknown",
+    "eligibility_status": "UNCERTAIN",
+    "model_eligibility_status": "UNCERTAIN",
+    "missing_requirements": [
+      "Specific age limit for the Global Innovation Challenge (young social entrepreneurs)",
+      "Any nationality restrictions (not stated but could exist)",
+      "Requirement to be a woman for the Women in Ag Award (gender verification)",
+      "Potential requirement for proof of English proficiency",
+      "Potential requirement for being a startup/scale‑up (company registration, revenue, etc.)"
+    ],
+    "blocking_issues": [],
+    "addressable_gaps": [
+      "Provide English proficiency evidence (e.g., Duolingo test or MOI certificate) if required by any of the challenges",
+      "Prepare any required proof of gender (for Women in Ag Award) if requested"
+    ],
+    "reasoning": "The program announcements do not specify explicit eligibility criteria such as nationality, age limit, student status, or degree requirements. While they appear open to innovators worldwide and do not outright exclude Ethiopian nationals or non‑students, the lack of detail on potential age caps (e.g., \"young social entrepreneurs\"), gender requirements for the Women in Ag Award, and any English proficiency or documentation requirements means we cannot confirm that the candidate meets all necessary conditions.",
+    "id": "71d9e656019d3709",
+    "first_seen": "2026-10-04T11:09:00.096129+00:00",
+    "last_updated": "2026-10-04T11:09:00.096143+00:00"
+  },
+  "808fb1cb7d17f8cb": {
+    "url": "https://www.scholarshipbob.com/contest/14",
+    "title": "Contest Scholarships for International Students 2026 - 2027 - Page 14 - Page 14 | ScholarshipBob",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "model_eligibility_status": "UNCERTAIN",
+    "missing_requirements": [
+      "Explicit nationality eligibility (e.g., Commonwealth citizenship for the Queen's Commonwealth Essay Competition)",
+      "Requirement for current student enrollment or recent graduate status",
+      "Age limits, if any",
+      "Degree level requirements, if any",
+      "Specific English language proficiency thresholds"
+    ],
+    "blocking_issues": [],
+    "addressable_gaps": [
+      "Obtain an English proficiency test (e.g., Duolingo, MOI certificate) if required",
+      "Provide proof of student status or enrollment if the contests require current students"
+    ],
+    "reasoning": "The program description lists several contests but does not state explicit eligibility criteria such as required nationality, student status, age limits, degree level, or English proficiency. The candidate is a 27‑year‑old Ethiopian professional (not a current student) with a bachelor's degree and no certified English test. Without knowing whether the contests require Commonwealth citizenship, current enrollment, or a specific English test score, we cannot confirm eligibility. These unknown criteria could potentially block the candidate.",
+    "id": "808fb1cb7d17f8cb",
+    "first_seen": "2026-10-04T11:09:35.024871+00:00",
+    "last_updated": "2026-10-04T11:09:35.024885+00:00"
+  },
+  "b28d320507bf6578": {
+    "url": "https://artenda.net/art-open-call-opportunity/competition",
+    "title": "Art Open Calls: International Art Competitions 2026 | Artenda",
+    "status": "suspicious",
+    "credibility_status": "SUSPICIOUS",
+    "source_tier": "TIER_4",
+    "reasoning": "The site requires a paid subscription to view full competition details and provides no direct links to official competition organizers, which is atypical for legitimate open‑call listings. Additionally, many competition entries contain garbled titles and descriptions, suggesting low‑quality or placeholder content, and there is no verifiable contact email or institutional affiliation.",
+    "id": "b28d320507bf6578",
+    "first_seen": "2026-10-04T11:10:35.361325+00:00",
+    "last_updated": "2026-10-04T11:10:35.361338+00:00"
+  },
+  "a4d5f271fea87add": {
+    "url": "https://www2.fundsforngos.org/individuals/open-call-for-never-such-innocence-international-competition",
+    "title": "Open Call for Never Such Innocence International ...",
+    "status": "legitimacy_unknown",
+    "credibility_status": "NEEDS_VERIFICATION",
+    "source_tier": "TIER_4",
+    "reasoning": "The provided excerpt contains only basic timeline information and lacks details about the organizer, application fees, contact information, or any red‑flag language. Without evidence of fees, suspicious contacts, or guarantees, we cannot determine legitimacy.",
+    "id": "a4d5f271fea87add",
+    "first_seen": "2026-10-04T11:10:50.902268+00:00",
+    "last_updated": "2026-10-04T11:10:50.902281+00:00"
+  },
+  "8b8d201f0da5bd80": {
+    "url": "https://www.artconnect.com/opportunity/I3GqyhuDDYZWOqyAvGd62",
+    "title": "The 2027 Creative Capital Open Call | ArtConnect",
+    "status": "closed",
+    "deadline": "2026-04-02",
+    "id": "8b8d201f0da5bd80",
+    "first_seen": "2026-10-04T11:11:07.265460+00:00",
+    "last_updated": "2026-10-04T11:11:07.265471+00:00"
   }
 }
