@@ -9968,8 +9968,8 @@
   "13b5bbcb50b6f2e7": {
     "url": "https://www.opportunitiesforafricans.com/gates-cambridge-scholarship-programme-2027-2028-for-study-at-the-university-of-cambridge/",
     "title": "Gates Cambridge Scholarship Programme 2027/2028 for Study at the University of Cambridge, UK (Fully Funded)",
-    "status": "notified",
-    "score": 5.0,
+    "status": "analyzed",
+    "score": 4.9,
     "category": null,
     "official_url": "https://www.opportunitiesforafricans.com/gates-cambridge-scholarship-programme-2027-2028-for-study-at-the-university-of-cambridge/",
     "location": null,
@@ -9984,7 +9984,7 @@
     "requirements": [],
     "id": "13b5bbcb50b6f2e7",
     "first_seen": "2026-09-15T10:03:18.445588+00:00",
-    "last_updated": "2026-09-15T10:19:57.930009+00:00",
+    "last_updated": "2026-10-05T12:08:30.132796+00:00",
     "notification_tier": "WATCHLIST",
     "notified_at": "2026-09-15T10:19:57.923533+00:00"
   },
@@ -13046,22 +13046,22 @@
     "url": "https://security.apple.com/blog/apple-security-bounty-evolved",
     "title": "A major evolution of Apple Security Bounty, with the industry's top awards for the most advanced research - Apple Security Research",
     "status": "analyzed",
-    "score": 3.0,
-    "category": "security_bounties",
+    "score": 3.2,
+    "category": null,
     "official_url": "https://security.apple.com/blog/apple-security-bounty-evolved",
     "location": null,
     "remote": null,
     "deadline": null,
-    "reward": "fully_funded",
+    "reward": "none",
     "estimated_value": null,
     "eligibility_status": "PROBABLY_ELIGIBLE",
     "credibility_status": "LIKELY_LEGITIMATE",
     "source_tier": "TIER_4",
-    "source_quality": 0,
+    "source_quality": null,
     "requirements": [],
     "id": "833dc60e448bba66",
     "first_seen": "2026-10-03T10:25:55.548513+00:00",
-    "last_updated": "2026-10-03T10:25:55.548524+00:00"
+    "last_updated": "2026-10-05T12:11:20.133497+00:00"
   },
   "b8015cdc0056336b": {
     "url": "https://www.detroitchamber.com/apply-for-march-2026-small-business-grants",
@@ -13284,5 +13284,136 @@
     "id": "8b8d201f0da5bd80",
     "first_seen": "2026-10-04T11:11:07.265460+00:00",
     "last_updated": "2026-10-04T11:11:07.265471+00:00"
+  },
+  "3a62a5696d5eb0e7": {
+    "url": "https://twas.org/opportunities/fellowships",
+    "title": "Fellowships | TWAS",
+    "status": "ineligible",
+    "eligibility_status": "PROBABLY_INELIGIBLE",
+    "model_eligibility_status": "PROBABLY_INELIGIBLE",
+    "missing_requirements": [
+      "Specific eligibility criteria such as minimum research experience, required academic transcripts, research proposal, host institution acceptance letter (not detailed in the excerpt)",
+      "Any English language proficiency requirement (not mentioned in the excerpt)"
+    ],
+    "blocking_issues": [
+      "Degree level mismatch – candidate only has a BSc, while the programme requires PhD enrolment or post‑doctoral status",
+      "Current status – candidate is not a PhD candidate or post‑doctoral researcher"
+    ],
+    "addressable_gaps": [
+      "Enroll in a PhD programme or obtain a post‑doctoral position to meet the required research level"
+    ],
+    "reasoning": "The TWAS programme offers PhD and postdoctoral fellowships, which are explicitly intended for candidates who are either enrolled in a PhD programme or have completed a PhD and are undertaking postdoctoral research. The candidate holds only a BSc degree and is currently employed as a professional, not a PhD student or postdoctoral researcher. This degree‑level and student‑status mismatch is a hard blocker. No explicit nationality restriction excludes Ethiopian citizens, and no age limit is stated, so those are not blockers.",
+    "id": "3a62a5696d5eb0e7",
+    "first_seen": "2026-10-05T12:06:23.447376+00:00",
+    "last_updated": "2026-10-05T12:06:23.447381+00:00"
+  },
+  "dd4f7f39e15e7528": {
+    "url": "https://opportunitiescorners.com/erasmus-mundus-ilspsd-scholarship-2027/",
+    "title": "Erasmus Mundus ILSPSD Scholarship 2027 (Fully Funded)",
+    "status": "analyzed",
+    "score": 3.9,
+    "category": null,
+    "official_url": "https://opportunitiescorners.com/erasmus-mundus-ilspsd-scholarship-2027/",
+    "location": null,
+    "remote": null,
+    "deadline": "2027-01-04",
+    "reward": "fully_funded",
+    "estimated_value": null,
+    "eligibility_status": "PROBABLY_ELIGIBLE",
+    "credibility_status": "LIKELY_LEGITIMATE",
+    "source_tier": "TIER_3",
+    "source_quality": 7,
+    "requirements": [],
+    "id": "dd4f7f39e15e7528",
+    "first_seen": "2026-10-05T12:14:02.596325+00:00",
+    "last_updated": "2026-10-05T12:14:02.596335+00:00"
+  },
+  "c7d3be9f434d402b": {
+    "url": "https://opportunitiescorners.com/epfl-life-sciences-summer-research-program-2027/",
+    "title": "EPFL Life Sciences Summer Research Program 2027 in Switzerland (Fully Funded)",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "model_eligibility_status": "CONFIRMED_INELIGIBLE",
+    "missing_requirements": [],
+    "blocking_issues": [
+      "Must be currently enrolled in a university (or recent graduate within one year of Bachelor's degree)"
+    ],
+    "addressable_gaps": [],
+    "reasoning": "The program explicitly requires applicants to be 'currently enrolled in a university and have completed at least two years of undergraduate study or the first year of a master’s degree program by the start of the program' (or recent graduates within one year of a Bachelor's degree). The candidate graduated in 2021, is not currently enrolled, and is a working professional, thus failing this enrollment requirement.",
+    "id": "c7d3be9f434d402b",
+    "first_seen": "2026-10-05T12:14:49.505626+00:00",
+    "last_updated": "2026-10-05T12:14:49.505639+00:00"
+  },
+  "c3bdb82670a1cb52": {
+    "url": "https://www.globalpartnership.org/funding/grant-application-deadlines",
+    "title": "Deadlines for grant applications | Global Partnership for Education",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "model_eligibility_status": "CONFIRMED_INELIGIBLE",
+    "missing_requirements": [
+      "Individual eligibility criteria (nationality, age, degree level, student status, English proficiency) — not stated because program is not for individuals"
+    ],
+    "blocking_issues": [
+      "Program targets country/organizational grant applicants, not individuals",
+      "No individual application pathway exists for scholarships, fellowships, or residencies"
+    ],
+    "addressable_gaps": [],
+    "reasoning": "The program text describes Global Partnership for Education (GPE) grant application deadlines for implementation grants (system transformation and Multiplier), program development grants, advocacy and social accountability grants (Education Out Loud), and KIX grants. These are institutional grants for partner countries and organizations, not individual scholarships, fellowships, or residencies. The candidate is an individual seeking fully-funded master's scholarships, fellowships, or tech accelerators. No individual eligibility criteria (nationality, age, degree, student status) are provided because the program does not accept individual applicants.",
+    "id": "c3bdb82670a1cb52",
+    "first_seen": "2026-10-05T12:17:40.958878+00:00",
+    "last_updated": "2026-10-05T12:17:40.958888+00:00"
+  },
+  "6f3d8e836d9acb24": {
+    "url": "https://jobs.apple.com/en-us/search?location=united-states-USA",
+    "title": "Search Jobs - United States - Jobs - Careers at Apple",
+    "status": "unknown",
+    "eligibility_status": "UNCERTAIN",
+    "model_eligibility_status": "UNCERTAIN",
+    "missing_requirements": [
+      "Work‑authorization/visa sponsorship policy",
+      "Explicit nationality eligibility criteria",
+      "Minimum degree or field‑of‑study requirements",
+      "English‑language test score requirements (if any)",
+      "Age limits (if any)",
+      "Student‑status requirements (if any)"
+    ],
+    "blocking_issues": [],
+    "addressable_gaps": [
+      "English‑language proficiency proof (can obtain Duolingo or MOI certificate)"
+    ],
+    "reasoning": "The program text consists of Apple job postings that list role titles, locations, and weekly hours but do not specify eligibility criteria such as nationality restrictions, work‑authorization requirements, degree level, or English‑language proof. Because the page does not state whether Ethiopian nationals are eligible or whether visa sponsorship is provided, a decision‑relevant criterion (nationality/work authorization) that could exclude the candidate is missing or unverifiable.",
+    "id": "6f3d8e836d9acb24",
+    "first_seen": "2026-10-05T12:20:33.315917+00:00",
+    "last_updated": "2026-10-05T12:20:33.315930+00:00"
+  },
+  "157502073342ce41": {
+    "url": "https://www.roberthalf.com/us/en/insights/research/remote-work-statistics-and-trends",
+    "title": "Remote work statistics and trends for 2026",
+    "status": "filtered_out",
+    "reason": "This is a job market research article from Robert Half, not a scholarship/fellowship opportunity.",
+    "id": "157502073342ce41",
+    "first_seen": "2026-10-05T12:21:02.819057+00:00",
+    "last_updated": "2026-10-05T12:21:02.819073+00:00"
+  },
+  "8e5d27aee35a90bb": {
+    "url": "https://remotivated.com/best-remote-companies/work-model/fully-remote",
+    "title": "40 Best Remote Companies to Work For in 2026 (Verified Scores)",
+    "status": "analyzed",
+    "score": 2.9,
+    "category": "remote_jobs",
+    "official_url": "https://remotivated.com/best-remote-companies/work-model/fully-remote",
+    "location": null,
+    "remote": null,
+    "deadline": null,
+    "reward": "none",
+    "estimated_value": null,
+    "eligibility_status": "PROBABLY_ELIGIBLE",
+    "credibility_status": "LIKELY_LEGITIMATE",
+    "source_tier": "TIER_4",
+    "source_quality": 0,
+    "requirements": [],
+    "id": "8e5d27aee35a90bb",
+    "first_seen": "2026-10-05T12:22:00.589280+00:00",
+    "last_updated": "2026-10-05T12:22:00.589294+00:00"
   }
 }

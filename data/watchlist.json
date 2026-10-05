@@ -706,7 +706,8 @@
     "last_known_deadline": null,
     "reason": "closed at discovery; likely annual",
     "id": "b761d3e288bb25bd",
-    "added": "2026-09-14T10:43:57.359883+00:00"
+    "added": "2026-10-05T12:06:17.421025+00:00",
+    "last_checked": "2026-10-05T12:06:17.420554"
   },
   "e0894dbd7d5fead7": {
     "url": "https://maryland.grantwatch.com/cat/16/entrepreneurs-and-startups-grants.html",
@@ -714,33 +715,8 @@
     "last_known_deadline": null,
     "reason": "monitoring — not confirmed open at scan time",
     "id": "e0894dbd7d5fead7",
-    "added": "2026-09-14T10:43:57.362853+00:00"
-  },
-  "3a62a5696d5eb0e7": {
-    "url": "https://twas.org/opportunities/fellowships",
-    "title": "Fellowships | TWAS",
-    "reason": "ANALYSIS_UNAVAILABLE — deep_eligibility: incomplete or invalid response after retry",
-    "retry_analysis": true,
-    "snippet": "Candidates need to upload, along with their application, a preliminary acceptance letter issued in the same year of the application itself by their chosen host institution. Applicants are encouraged to apply for the acceptance letter from the chosen host institutions as early as possible, even before the opening date of the call of the programme of their choice.\n The opening and closing dates of each programme are specified on each programme page. [...] twas-logo   twas-logo\n\ntwas-logo\n\nDeadlines\n\n### TWAS-SISSA-Lincei Research Cooperation Visits Programme\n\nVisiting Scientist\n\n# Fellowships [...] Applications can be submitted only through the online portal and only once the call for the programme of your choice is open.\n To start your application, use the \"Apply now\" button at the bottom of the programme of your choice.",
-    "id": "3a62a5696d5eb0e7",
-    "added": "2026-09-15T10:19:11.867199+00:00"
-  },
-  "13b5bbcb50b6f2e7": {
-    "url": "https://www.opportunitiesforafricans.com/gates-cambridge-scholarship-programme-2027-2028-for-study-at-the-university-of-cambridge/",
-    "title": "Gates Cambridge Scholarship Programme 2027/2028 for Study at the University of Cambridge, UK (Fully Funded)",
-    "last_known_deadline": null,
-    "reason": "monitoring — not confirmed open at scan time",
-    "id": "13b5bbcb50b6f2e7",
-    "added": "2026-09-15T10:19:53.755417+00:00"
-  },
-  "833dc60e448bba66": {
-    "url": "https://security.apple.com/blog/apple-security-bounty-evolved",
-    "title": "A major evolution of Apple Security Bounty, with the industry's top awards for the most advanced research - Apple Security Research",
-    "reason": "ANALYSIS_UNAVAILABLE — deep_eligibility: incomplete or invalid response after retry",
-    "retry_analysis": true,
-    "snippet": "Additionally, the 2026 Security Research Device Program now includes iPhone 17 devices with our latest security advances, including Memory Integrity Enforcement, and is available to applicants with proven security research track records on any platform. Researchers seeking to accelerate their iOS research can apply for the 2026 program by October 31, 2025. All vulnerabilities discovered using the Security Research Device receive priority consideration for Apple Security Bounty rewards and [...] ### Special initiatives for 2026 [...] We continue to offer bonus rewards for exceptional research. Reports on issues in current developer or public beta releases qualify for substantial bonuses, as they give us a chance to fix the problem before the software is ever released to our users. And we continue to award significant bonuses for exploit chain components that bypass specific Lockdown Mode protections.",
-    "id": "833dc60e448bba66",
-    "added": "2026-09-21T10:57:43.074969+00:00"
+    "added": "2026-10-05T12:06:18.547163+00:00",
+    "last_checked": "2026-10-05T12:06:18.546728"
   },
   "91eda35465de042a": {
     "url": "https://www.linkedin.com/posts/davidars_theres-over-50m-in-free-funding-available-activity-7433133861846560768-Y-hz",
@@ -1166,10 +1142,10 @@
     "url": "https://nodesk.co/remote-jobs",
     "title": "Remote Jobs - NoDesk",
     "retry_analysis": true,
-    "snippet": "### Canonical\n\n  #### Remote:\n\n  #### Engineering\n\n  #### Full-Time\n\n  + Cloud\n  + Engineering\n  + Engineering Manager\n  + Linux\n  + Open Source\n  + Remote Work\n\n  Today\n Monzo logo\n\n  ## Credit Risk Manager, Portfolio Management\n\n  ### Monzo\n\n  #### Remote:\n\n  ##### United Kingdom\n\n  #### Operations\n\n  #### Full-Time\n\n  #### £100K – £130K\n\n  + Data\n  + Fintech\n  + Remote Work\n  + Risk\n  + Risk Management\n\n  Today\n Brandwatch logo\n\n  ## Customer Success Manager - DANISH speaking [...] #### Remote:\n\n  #### Marketing\n\n  #### Full-Time\n\n  #### $143.4K – $215.2K\n\n  + AI\n  + Fintech\n  + Growth\n  + Marketing\n  + Remote Work\n  + SEO\n\n  Today\n Superside logo\n\n  ## AI Creative\n\n  ### Superside\n\n  #### Remote:\n\n  ##### LATAM\n\n  #### Design\n\n  #### Contract\n\n  + AI\n  + Contract\n  + Creative\n  + Design\n  + Remote Work\n\n  Today\n GitLab logo\n\n  ## AI Engineer\n\n  ### GitLab\n\n  #### Remote:\n\n  ##### Remote, Bangalore\n\n  #### Engineering\n\n  #### Full-Time [...] ### Axios\n\n  #### Remote:\n\n  ##### United States\n\n  #### Sales\n\n  #### Full-Time\n\n  #### $66K – $87K\n\n  + Advertising\n  + Business Development\n  + Media\n  + Partnerships\n  + Remote Work\n  + Sales\n\n  Today\n Metalab logo\n\n  ## Brand Director\n\n  ### Metalab\n\n  #### Remote:\n\n  ##### Canada\n\n  ·\n\n  ##### USA\n\n  #### Design\n\n  #### Full-Time\n\n  + Branding\n  + Creative Direction\n  + Design\n  + Design Systems\n  + Remote Work\n\n  Today\n Canonical logo\n\n  ## Cloud Engineering Manager\n\n  ### Canonical",
+    "snippet": "#### Remote:\n\n  #### Marketing\n\n  #### Full-Time\n\n  #### $143.4K – $215.2K\n\n  + AI\n  + Fintech\n  + Growth\n  + Marketing\n  + Remote Work\n  + SEO\n\n  Today\n Superside logo\n\n  ## AI Creative\n\n  ### Superside\n\n  #### Remote:\n\n  ##### LATAM\n\n  #### Design\n\n  #### Contract\n\n  + AI\n  + Contract\n  + Creative\n  + Design\n  + Remote Work\n\n  Today\n Modus Create logo\n\n  ## AI Engineer (Python, Machine Learning, Generative AI/LLMs)\n\n  ### Modus Create\n\n  #### Remote:\n\n  #### Engineering\n\n  #### Full-Time [...] Meet JobCopilot: Your Personal AI Job Hunter.  Get 10x More Remote Job Interviews.\n\n# Discover the Best Remote Jobs\n\n## Find remote jobs and connect with companies that offer you the freedom to work remotely from home or places around the world.\n\nPost a job Find a job\n\nNeed to scale your remote team fast? Hire freelance talent, pre-vetted and on demand.\n\n## Join 100,000s of people and start your remote job search here.\n\n### We make it easier for you to find remote work. Here's how: [...] #### Full-Time\n\n  #### $243.8K – $243.8K\n\n  + Data Science\n  + Engineering\n  + Leadership\n  + Privacy\n  + Remote Work\n\n  Today\n Recorded Future logo\n\n  ## EDR Engineer / Senior EDR Engineer\n\n  ### Recorded Future\n\n  #### Remote:\n\n  ##### Remote - USA\n\n  #### Engineering\n\n  #### Full-Time\n\n  #### $78.5K – $117.5K\n\n  + Cybersecurity\n  + Engineering\n  + Incident Response\n  + Remote Work\n  + Security\n\n  Today\n Bejamas logo\n\n  ## Engineering Manager (Tribe Chief)\n\n  ### Bejamas\n\n  #### Remote:",
     "reason": "legitimacy check returned an unparseable reply; retry on a later run",
     "id": "536ef70765d8d92e",
-    "added": "2026-09-30T11:27:47.665809+00:00"
+    "added": "2026-10-05T12:20:54.586880+00:00"
   },
   "4d6a3936d24c50c0": {
     "url": "https://www.opportunitiesforafricans.com/washington-college-of-law-human-rights-essay-award-2027/",
@@ -1310,5 +1286,50 @@
     "reason": "closed at discovery; likely annual",
     "id": "8b8d201f0da5bd80",
     "added": "2026-10-04T11:11:07.277499+00:00"
+  },
+  "62e04157e934f6af": {
+    "url": "https://opportunitiescorners.com/russia-jinr-start-winter-program-2027/",
+    "title": "Russia JINR START Winter Program 2027 (Fully Funded)",
+    "retry_analysis": true,
+    "snippet": "Enjoy the cold weather and snow while working. Applications are now open for the Russia JINR START Winter Program 2027. It is a fully funded 6- to 8-week winter program at the Joint Institute for Nuclear Research (JINR). The program is open to nationalities from around the world. Participants will stay in Dubna, Russia, solving […] The post Russia JINR START Winter Program 2027 (Fully Funded) appeared first on Opportunities Corners .",
+    "reason": "legitimacy check returned an unparseable reply; retry on a later run",
+    "id": "62e04157e934f6af",
+    "added": "2026-10-05T12:15:23.292551+00:00"
+  },
+  "580ee347db2ee6a6": {
+    "url": "https://startupmaphub.com/funding/africa",
+    "title": "Startup Funding in Africa (2026) — Grants, Accelerators & Investors",
+    "retry_analysis": true,
+    "snippet": "Explore seed funding for African startups in 2026, including pre-seed investors, equity-free grants, accelerators, and early-stage venture capital firms. Compare eligibility, deadlines, and direct application links in one place, so you can spend less time searching and more time applying to the right opportunities.\n\nGrants Accelerators Investors Investor directory →\n\n## Startup Grants in Africa [...] Open\n\nStartup World Cup 2026\n\nCohort-based support · Standard Program\n\nCloses Nov 06\n\nStartupbootcamp AfriTech — ASIP Accelerator (Cohort 4)\n\nCohort-based support · Standard Program\n\nOpen\n\nGEC+Africa 2026 Regional Pitch Competition\n\nCohort-based support · Standard Program\n\nOpen\n\nUNDP Timbuktoo Pan-African MineTech Startup Incubation Programme 2026\n\nCohort-based support · Standard Program\n\nOpen\n\nThe Forum Accelerator\n\nCohort-based support · Standard Program\n\nOpen [...] Seed funding for African startups in 2026\n\n# Startup Funding in Africa (2026) — Grants, Accelerators & Investors\n\nFind equity-free grants, world-class accelerators, and active seed funding for African startups.\n\n## Seed funding for African startups (2026)",
+    "reason": "legitimacy check returned an unparseable reply; retry on a later run",
+    "id": "580ee347db2ee6a6",
+    "added": "2026-10-05T12:19:07.018881+00:00"
+  },
+  "d9525ebe8c502e27": {
+    "url": "https://robotics.nasa.gov/2026-2027-frc-sponsorship-grants",
+    "title": "2026-2027 FRC Sponsorship Grants – Robotics Alliance Project",
+    "retry_analysis": true,
+    "snippet": "Available Grants:\n  + 2027 Year-Two Grant Application\n    - This grant is only eligible for teams that meet the requirements above. This grant is intended for teams to continue the growth of their program by providing them the second year of sponsorship. Year-Two teams are required to have secured $5,000 in corporate funds and be willing to mentor a robotics team. [...] Welcome to the NASA FIRST Robotics Competition (FRC) grant application process for the 2027 competition season. We are very excited your team is planning to participate in FRC this year. You are choosing to provide students with the opportunity to use their minds to accomplish an incredible task: starting with ideas that exist only in the minds of your team members and then creating a functioning robot in only a few weeks. As you get started with the process of applying for sponsorship from [...] Available Rookie Grants:\n  + 2027 Rookie Grant Application\n    - This grant is intended for rookie teams that are trying to grow their program. If the team meets all the requirements of the grant, they will be eligible for an additional year of funding.\n  + 2027 New Veteran Grant Application",
+    "reason": "legitimacy check returned an unparseable reply; retry on a later run",
+    "id": "d9525ebe8c502e27",
+    "added": "2026-10-05T12:19:51.608425+00:00"
+  },
+  "0b8fa82722e0a71e": {
+    "url": "https://nebius.com/nebius-research-grants",
+    "title": "Nebius research grants program",
+    "retry_analysis": true,
+    "snippet": "A capable team with relevant research experience\n\n## How to apply\n\nSubmit your proposal. We’re now accepting applications for the 2026-2027 academic year.\n\nNebius Academy will review applications throughout summer 2026.\n\nSuccessful applicants will be notified by email in late Q3 to early Q4 2026.\n\nStart using your research credits. Reach out if you need guidance.\n\n## Apply now\n\nPlease, read our grant priorities before applying.\n\n## FAQ\n\nYes, you can apply again with another research project. [...] # Nebius research grants\n\nThe AI revolution is built on decades of scientific work, and we believe it’s time to give back. Nebius research grants program provides researchers with free access to GPU cloud, AI models, and Tavily’s agentic search engine, along with our expertise to accelerate discovery and deployment.\n\n## What you can get\n\n## GPU cloud credits, Token Factory tokens, Tavily credits\n\nAdvance your research with us — from model training to agentic search. [...] The offer valid for a limited time only.\n\nThe offer cannot be combined with other promotions, discounts or special offers.\n\nAny conditions of this offer are subject to change.\n\nCloud credits are provided at Nebius’ sole discretion.",
+    "reason": "legitimacy check returned an unparseable reply; retry on a later run",
+    "id": "0b8fa82722e0a71e",
+    "added": "2026-10-05T12:20:13.817722+00:00"
+  },
+  "122255e5a202c7c7": {
+    "url": "https://www.gooverseas.com/blog/best-digital-nomad-jobs",
+    "title": "15 Best Fully Remote Digital Nomad Jobs in 2026 | Go Overseas",
+    "retry_analysis": true,
+    "snippet": "Digital nomad jobs are location-independent positions that can be done anywhere in the world. They allow you to enjoy the freedom to work and travel without being chained to a desk or stuck in the typical 9-5 schedule. Any job can potentially be a digital nomad job with the right conditions!\n\nThe following jobs cover a range of fields and experience levels to inspire you to pursue life as a digital nomad.\n\n## 1. SEO specialist [...] Pay ranges widely by role: virtual assistants earn $15–$30/hr, while UX designers and SEO specialists can command $50–$160/hr.\n Top platforms for finding remote work include We Work Remotely, Remote OK, Upwork, and Fiverr.\n Online ESL teaching is one of the most accessible entry points — no technical background required, and demand is global.\n Translators should work into their native language; the highest-demand translation languages are German, Arabic, French, Mandarin, and Spanish. [...] If you’re a skilled front-end developer, you can build a successful freelance career or secure a full-time fully remote position you can take anywhere.\n\n## 4. Data analyst\n\n Tools to know: R, SAS, SPSS, Tableau, Excel, Python, Power BI, SQL\n Average hourly pay: $30-$60+ USD/hr",
+    "reason": "legitimacy check returned an unparseable reply; retry on a later run",
+    "id": "122255e5a202c7c7",
+    "added": "2026-10-05T12:21:20.024657+00:00"
   }
 }
