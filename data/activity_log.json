@@ -1,186 +1,5 @@
 [
   {
-    "at": "2026-09-16T10:03:19.807464+00:00",
-    "kind": "error",
-    "message": "Fetch failed for https://www.facebook.com/groups/26057070227268692/posts/27815133861462311: 400"
-  },
-  {
-    "at": "2026-09-16T10:03:59.995271+00:00",
-    "kind": "scan_complete",
-    "message": "daily scan finished",
-    "matches": 2,
-    "stats": {
-      "discovered": 272,
-      "already_seen": 87,
-      "known_scam": 0,
-      "fetch_failed": 3,
-      "first_pass_dropped": 0,
-      "scam": 0,
-      "legit_unknown": 1,
-      "ineligible": 2,
-      "closed": 0,
-      "deep_analyzed": 2,
-      "scored_high": 2,
-      "eligibility_demoted": 0,
-      "jina_fetch": 0,
-      "jina_failed": 0,
-      "snippet_fallback": 2,
-      "legit_unparseable": 2,
-      "trusted_thin_pass": 0,
-      "discovery": {
-        "tavily": {
-          "attempted": 20,
-          "successful": 20,
-          "429": 0,
-          "403": 0,
-          "errors": 0,
-          "candidates": 158,
-          "queries_planned": 20,
-          "disabled_reason": ""
-        },
-        "rss": {
-          "attempted": 4,
-          "successful": 4,
-          "failed": 0,
-          "skipped_dead": 1,
-          "candidates": 56
-        },
-        "api": {
-          "sources": 2,
-          "healthy": 2,
-          "failed": 0,
-          "candidates": 55
-        },
-        "seed": {
-          "attempted": 14,
-          "candidates": 14
-        },
-        "total": {
-          "raw": 283,
-          "after_dedupe": 272
-        }
-      },
-      "signal_rescued": 1,
-      "analysis_unavailable": 5,
-      "deduped": 0
-    }
-  },
-  {
-    "at": "2026-09-16T10:03:59.999040+00:00",
-    "kind": "run",
-    "mode": "scan",
-    "environment": "github_actions",
-    "stats": {
-      "discovered": 272,
-      "already_seen": 87,
-      "known_scam": 0,
-      "fetch_failed": 3,
-      "first_pass_dropped": 0,
-      "scam": 0,
-      "legit_unknown": 1,
-      "ineligible": 2,
-      "closed": 0,
-      "deep_analyzed": 2,
-      "scored_high": 2,
-      "eligibility_demoted": 0,
-      "jina_fetch": 0,
-      "jina_failed": 0,
-      "snippet_fallback": 2,
-      "legit_unparseable": 2,
-      "trusted_thin_pass": 0,
-      "discovery": {
-        "tavily": {
-          "attempted": 20,
-          "successful": 20,
-          "429": 0,
-          "403": 0,
-          "errors": 0,
-          "candidates": 158,
-          "queries_planned": 20,
-          "disabled_reason": ""
-        },
-        "rss": {
-          "attempted": 4,
-          "successful": 4,
-          "failed": 0,
-          "skipped_dead": 1,
-          "candidates": 56
-        },
-        "api": {
-          "sources": 2,
-          "healthy": 2,
-          "failed": 0,
-          "candidates": 55
-        },
-        "seed": {
-          "attempted": 14,
-          "candidates": 14
-        },
-        "total": {
-          "raw": 283,
-          "after_dedupe": 272
-        }
-      },
-      "signal_rescued": 1,
-      "analysis_unavailable": 5,
-      "deduped": 0,
-      "matches": 2
-    }
-  },
-  {
-    "at": "2026-09-17T09:52:37.776546+00:00",
-    "kind": "error",
-    "message": "Fetch failed for https://opportunitydesk.org/2026/08/19/ares-international-training-scholarships-2027-2028/: 403"
-  },
-  {
-    "at": "2026-09-17T09:52:37.990485+00:00",
-    "kind": "error",
-    "message": "Fetch failed for https://opportunitiesforyouth.org/2026/08/19/2027-mohamed-ali-foundation-fellowship-at-durham-university/: 429"
-  },
-  {
-    "at": "2026-09-17T09:52:38.073302+00:00",
-    "kind": "error",
-    "message": "Fetch failed for https://opportunitydesk.org/2026/08/19/wege-prize-2027/: 403"
-  },
-  {
-    "at": "2026-09-17T09:52:38.146524+00:00",
-    "kind": "error",
-    "message": "Fetch failed for https://opportunitydesk.org/2026/08/20/mohamed-ali-foundation-fellowship-programme-2027/: 403"
-  },
-  {
-    "at": "2026-09-17T09:52:40.017427+00:00",
-    "kind": "run",
-    "mode": "watchlist",
-    "environment": "github_actions",
-    "stats": {
-      "discovered": 0,
-      "already_seen": 0,
-      "known_scam": 0,
-      "fetch_failed": 4,
-      "first_pass_dropped": 0,
-      "scam": 0,
-      "legit_unknown": 1,
-      "ineligible": 0,
-      "closed": 0,
-      "deep_analyzed": 0,
-      "scored_high": 0,
-      "eligibility_demoted": 0,
-      "jina_fetch": 0,
-      "jina_failed": 0,
-      "snippet_fallback": 0,
-      "legit_unparseable": 0,
-      "trusted_thin_pass": 0,
-      "signal_rescued": 1,
-      "reopened": 5,
-      "matches": 0
-    }
-  },
-  {
-    "at": "2026-09-17T09:52:40.223534+00:00",
-    "kind": "scan_start",
-    "message": "daily scan started"
-  },
-  {
     "at": "2026-09-17T10:00:53.948077+00:00",
     "kind": "error",
     "message": "Fetch failed for https://www.dfat.gov.au/people-to-people/australia-awards/australia-awards-scholarships: HTTPSConnectionPool(host='www.dfat.gov.au', port=443): Read timed out. (read timeout=25)"
@@ -3643,6 +3462,184 @@
       "signal_rescued": 1,
       "deduped": 0,
       "matches": 0
+    }
+  },
+  {
+    "at": "2026-10-06T11:56:25.417192+00:00",
+    "kind": "error",
+    "message": "Fetch failed for https://www.facebook.com/opportunitiesforyouth/posts/-africa-fellows-in-education-program-20262027-fully-funded-fellowship-for-young-/1411110431046306: 400"
+  },
+  {
+    "at": "2026-10-06T11:58:18.442534+00:00",
+    "kind": "run",
+    "mode": "watchlist",
+    "environment": "github_actions",
+    "stats": {
+      "discovered": 0,
+      "already_seen": 0,
+      "known_scam": 0,
+      "fetch_failed": 0,
+      "first_pass_dropped": 1,
+      "scam": 0,
+      "legit_unknown": 0,
+      "ineligible": 2,
+      "closed": 1,
+      "deep_analyzed": 1,
+      "scored_high": 0,
+      "eligibility_demoted": 0,
+      "jina_fetch": 0,
+      "jina_failed": 0,
+      "snippet_fallback": 1,
+      "legit_unparseable": 0,
+      "trusted_thin_pass": 0,
+      "reopened": 5,
+      "matches": 0
+    }
+  },
+  {
+    "at": "2026-10-06T11:58:18.697265+00:00",
+    "kind": "scan_start",
+    "message": "daily scan started"
+  },
+  {
+    "at": "2026-10-06T12:05:30.070385+00:00",
+    "kind": "error",
+    "message": "Fetch failed for https://www.dfat.gov.au/people-to-people/australia-awards/australia-awards-scholarships: HTTPSConnectionPool(host='www.dfat.gov.au', port=443): Read timed out. (read timeout=25)"
+  },
+  {
+    "at": "2026-10-06T12:08:47.386405+00:00",
+    "kind": "error",
+    "message": "Fetch failed for https://vanier.gc.ca/en/home-accueil.html: HTTPSConnectionPool(host='vanier.gc.ca', port=443): Max retries exceeded with url: /en/home-accueil.html (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)')))"
+  },
+  {
+    "at": "2026-10-06T12:08:47.582848+00:00",
+    "kind": "error",
+    "message": "Fetch failed for https://opportunitydesk.org/category/fellowships/: 403"
+  },
+  {
+    "at": "2026-10-06T12:08:47.694751+00:00",
+    "kind": "error",
+    "message": "Fetch failed for https://www.facebook.com/opportunitiesforyouth/posts/-paid-fellowship-in-africaare-you-a-graduate-or-young-professional-seeking-inter/1543886154435399: 400"
+  },
+  {
+    "at": "2026-10-06T12:10:26.964245+00:00",
+    "kind": "scan_complete",
+    "message": "daily scan finished",
+    "matches": 1,
+    "stats": {
+      "discovered": 281,
+      "already_seen": 94,
+      "known_scam": 0,
+      "fetch_failed": 3,
+      "first_pass_dropped": 0,
+      "scam": 1,
+      "legit_unknown": 4,
+      "ineligible": 6,
+      "closed": 0,
+      "deep_analyzed": 1,
+      "scored_high": 1,
+      "eligibility_demoted": 1,
+      "jina_fetch": 0,
+      "jina_failed": 0,
+      "snippet_fallback": 1,
+      "legit_unparseable": 0,
+      "trusted_thin_pass": 0,
+      "discovery": {
+        "tavily": {
+          "attempted": 20,
+          "successful": 20,
+          "429": 0,
+          "403": 0,
+          "errors": 0,
+          "candidates": 160,
+          "queries_planned": 20,
+          "disabled_reason": ""
+        },
+        "rss": {
+          "attempted": 4,
+          "successful": 4,
+          "failed": 0,
+          "skipped_dead": 1,
+          "candidates": 56
+        },
+        "api": {
+          "sources": 2,
+          "healthy": 2,
+          "failed": 0,
+          "candidates": 58
+        },
+        "seed": {
+          "attempted": 14,
+          "candidates": 14
+        },
+        "total": {
+          "raw": 288,
+          "after_dedupe": 281
+        }
+      },
+      "signal_rescued": 5,
+      "deduped": 0
+    }
+  },
+  {
+    "at": "2026-10-06T12:10:26.967873+00:00",
+    "kind": "run",
+    "mode": "scan",
+    "environment": "github_actions",
+    "stats": {
+      "discovered": 281,
+      "already_seen": 94,
+      "known_scam": 0,
+      "fetch_failed": 3,
+      "first_pass_dropped": 0,
+      "scam": 1,
+      "legit_unknown": 4,
+      "ineligible": 6,
+      "closed": 0,
+      "deep_analyzed": 1,
+      "scored_high": 1,
+      "eligibility_demoted": 1,
+      "jina_fetch": 0,
+      "jina_failed": 0,
+      "snippet_fallback": 1,
+      "legit_unparseable": 0,
+      "trusted_thin_pass": 0,
+      "discovery": {
+        "tavily": {
+          "attempted": 20,
+          "successful": 20,
+          "429": 0,
+          "403": 0,
+          "errors": 0,
+          "candidates": 160,
+          "queries_planned": 20,
+          "disabled_reason": ""
+        },
+        "rss": {
+          "attempted": 4,
+          "successful": 4,
+          "failed": 0,
+          "skipped_dead": 1,
+          "candidates": 56
+        },
+        "api": {
+          "sources": 2,
+          "healthy": 2,
+          "failed": 0,
+          "candidates": 58
+        },
+        "seed": {
+          "attempted": 14,
+          "candidates": 14
+        },
+        "total": {
+          "raw": 288,
+          "after_dedupe": 281
+        }
+      },
+      "signal_rescued": 5,
+      "deduped": 0,
+      "matches": 1
     }
   }
 ]
