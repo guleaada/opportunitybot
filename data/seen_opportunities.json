@@ -10191,8 +10191,8 @@
   "d7716ce7f6bd45cb": {
     "url": "https://opportunitiescorners.com/gates-cambridge-scholarship-2027/",
     "title": "Gates Cambridge Scholarship 2027 in UK (Fully Funded)",
-    "status": "notified",
-    "score": 5.0,
+    "status": "analyzed",
+    "score": 4.1,
     "category": null,
     "official_url": "https://opportunitiescorners.com/gates-cambridge-scholarship-2027/",
     "location": null,
@@ -10211,7 +10211,7 @@
     ],
     "id": "d7716ce7f6bd45cb",
     "first_seen": "2026-09-16T09:51:11.346033+00:00",
-    "last_updated": "2026-09-16T10:03:59.981029+00:00",
+    "last_updated": "2026-10-07T11:37:41.851905+00:00",
     "notification_tier": "WATCHLIST",
     "notified_at": "2026-09-16T10:03:59.973164+00:00"
   },
@@ -13675,5 +13675,180 @@
     "id": "1168f2ef30890b61",
     "first_seen": "2026-10-06T12:10:23.140310+00:00",
     "last_updated": "2026-10-06T12:10:23.140339+00:00"
+  },
+  "c21c4abf78d75fd6": {
+    "url": "https://www.facebook.com/groups/26057070227268692/posts/27815133861462311",
+    "title": "Free Donations & Funds Online | 🌍 Funding Opportunities to Explore This Month | Facebook",
+    "status": "filtered_out",
+    "reason": "Vague Facebook post listing generic African organization grants, not a specific fully-funded master/fellowship opportunity",
+    "id": "c21c4abf78d75fd6",
+    "first_seen": "2026-10-07T11:36:06.777334+00:00",
+    "last_updated": "2026-10-07T11:36:06.777350+00:00"
+  },
+  "0e5348ebf9aec62a": {
+    "url": "https://www.opportunitiesforafricans.com/the-afya-na-haki-ahaki-litigating-reproductive-justice-in-africa-lira-fellowship-programme-2026/",
+    "title": "The Afya na Haki (Ahaki) Litigating Reproductive Justice in Africa (LIRA) Fellowship Programme 2026 for young African Professionals.",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "model_eligibility_status": "CONFIRMED_INELIGIBLE",
+    "missing_requirements": [
+      "Proof of English/French fluency (not required for eligibility but encouraged)",
+      "Specific academic documents (candidate can provide but not a blocker)"
+    ],
+    "blocking_issues": [
+      "Nationality not from Anglophone or Francophone Africa (hard blocker)",
+      "Does not hold a Master's degree (hard blocker)"
+    ],
+    "addressable_gaps": [],
+    "reasoning": "The programme requires applicants to be from Anglophone or Francophone Africa and to hold at least a Master's degree. The candidate is Ethiopian (a non‑Anglophone, non‑Francophone country) and only has a BSc, so both core eligibility criteria are not met.",
+    "id": "0e5348ebf9aec62a",
+    "first_seen": "2026-10-07T11:40:05.781997+00:00",
+    "last_updated": "2026-10-07T11:40:05.782011+00:00"
+  },
+  "580060728f2fdfb2": {
+    "url": "https://opportunitiescorners.com/harvard-aspire-leaders-program/",
+    "title": "Harvard Aspire Leaders Program 2026 (Fully Funded)",
+    "status": "suspicious",
+    "credibility_status": "SUSPICIOUS",
+    "source_tier": "TIER_3",
+    "reasoning": "The page lists a \"Harvard Aspire Leaders Program\" run by the \"Aspire Institute\" but provides no official Harvard domain, uses a Gmail address for contact, and offers no direct link to an official application page—common indicators of a potentially unauthenticated program. While it claims to be free, the lack of verifiable affiliation with Harvard makes its legitimacy uncertain.",
+    "id": "580060728f2fdfb2",
+    "first_seen": "2026-10-07T11:40:56.098646+00:00",
+    "last_updated": "2026-10-07T11:40:56.098660+00:00"
+  },
+  "fbb369d1482dee3e": {
+    "url": "https://www.opportunitiesforafricans.com/the-university-of-global-health-equity-ughe-mastercard-foundation-scholars-program-2027/",
+    "title": "The University of Global Health Equity (UGHE) Mastercard Foundation Scholars Program 2027 for African healthcare professionals (Fully Funded)",
+    "status": "unknown",
+    "eligibility_status": "UNCERTAIN",
+    "model_eligibility_status": "UNCERTAIN",
+    "missing_requirements": [
+      "Proof of African residency (e.g., residence permit, utility bills, tax documents)",
+      "Explicit English language proficiency requirement (if the program mandates a test)",
+      "Evidence that the Psychology degree is considered a health‑related field by UGHE"
+    ],
+    "blocking_issues": [
+      "Potential lack of African residency (may be a hard blocker if residency is mandatory)"
+    ],
+    "addressable_gaps": [
+      "Obtain and submit an English proficiency test result (Duolingo, MOI, etc.)",
+      "Provide a signed and stamped employer recommendation letter confirming support and dedicated time",
+      "Document teaching, supervision, or educational leadership experience (or clear evidence of teaching potential)"
+    ],
+    "reasoning": "The program requires applicants to be both residents and citizens of an African country. The candidate is an Ethiopian citizen but currently resides in Laos, so residency in Africa is not demonstrated and could be a disqualifying factor. All other stated criteria (age ≤35, bachelor’s degree, no prior master’s, professional status) appear to be met or can be addressed. English proficiency is not explicitly mentioned but is typically required; the candidate can obtain a Duolingo or MOI certificate. Institutional endorsement and evidence of teaching/educational leadership are also required and can be provided.",
+    "id": "fbb369d1482dee3e",
+    "first_seen": "2026-10-07T11:42:11.856156+00:00",
+    "last_updated": "2026-10-07T11:42:11.856172+00:00"
+  },
+  "a589d2826ed0ed76": {
+    "url": "https://www.opportunitiesforafricans.com/ecowas-bank-for-investment-and-development-ebid-young-professionals-programme-2027/",
+    "title": "ECOWAS Bank for Investment and Development (EBID) Young Professionals Programme 2027 for West African graduates.",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "model_eligibility_status": "CONFIRMED_INELIGIBLE",
+    "missing_requirements": [],
+    "blocking_issues": [
+      "Nationality: candidate is Ethiopian, not a West African national",
+      "Degree level: candidate holds only a BSc, program requires a Master's degree or equivalent"
+    ],
+    "addressable_gaps": [],
+    "reasoning": "The programme requires applicants to be nationals of a West African country and to hold a Master's degree or equivalent. The candidate is an Ethiopian national (not West African) and only holds a BSc degree, thus does not meet two mandatory criteria.",
+    "id": "a589d2826ed0ed76",
+    "first_seen": "2026-10-07T11:43:05.490375+00:00",
+    "last_updated": "2026-10-07T11:43:05.490389+00:00"
+  },
+  "6a9fb01706dd3d05": {
+    "url": "https://www.opportunitiesforafricans.com/french-governments-make-our-planet-great-again-mopga-scholarship-program-2027/",
+    "title": "French Government’s Make Our Planet Great Again (MOPGA) Scholarship Program 2027 for early-career Researchers (Funded Study in France).",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "model_eligibility_status": "CONFIRMED_INELIGIBLE",
+    "missing_requirements": [],
+    "blocking_issues": [
+      "Degree level mismatch: requires a PhD awarded within the last 5 years; candidate only has a bachelor's degree."
+    ],
+    "addressable_gaps": [],
+    "reasoning": "The MOPGA Fellowship explicitly requires applicants to hold a doctoral degree awarded within the last five years (Dec 2021‑Dec 2026). The candidate only has a BSc (no PhD), so this core eligibility criterion is not met. All other stated criteria (foreign nationality, not residing in France, no prior MOPGA award) are satisfied or not contradicted, but the degree requirement alone disqualifies the candidate.",
+    "id": "6a9fb01706dd3d05",
+    "first_seen": "2026-10-07T11:44:02.414139+00:00",
+    "last_updated": "2026-10-07T11:44:02.414154+00:00"
+  },
+  "66a9ccf03d2bc196": {
+    "url": "https://www.opportunitiesforafricans.com/the-international-water-association-iwa-grundfos-youth-action-for-sdg-6-fellowship/",
+    "title": "The International Water Association (IWA) & Grundfos Youth Action for SDG 6 Fellowship",
+    "status": "ineligible",
+    "eligibility_status": "PROBABLY_INELIGIBLE",
+    "model_eligibility_status": "PROBABLY_INELIGIBLE",
+    "missing_requirements": [],
+    "blocking_issues": [
+      "Not a Young Water Professional (sector mismatch)"
+    ],
+    "addressable_gaps": [],
+    "reasoning": "The fellowship requires applicants to be eligible IWA Young Water Professional (YWP) members or be employed by Grundfos. The candidate's background is in AI, marketing, psychology, and community leadership with no indication of water sector experience or IWA YWP membership, which is a hard eligibility requirement. Age, nationality, and degree level are acceptable.",
+    "id": "66a9ccf03d2bc196",
+    "first_seen": "2026-10-07T11:45:03.261713+00:00",
+    "last_updated": "2026-10-07T11:45:03.261727+00:00"
+  },
+  "9aefa6fd56cdc060": {
+    "url": "https://www.opportunitiesforafricans.com/spotlight-initiative-safetech-africa-hacklab-2026-for-young-african-innovators/",
+    "title": "Spotlight Initiative SafeTech Africa HackLab 2026 for young African Innovators ($10,000 in seed capital grants)",
+    "status": "legitimacy_unknown",
+    "credibility_status": "NEEDS_VERIFICATION",
+    "source_tier": "TIER_3",
+    "reasoning": "The announcement lists reputable partners (UNFPA, AU, UNDP, UNICEF) and does not request any application fee, which are positive signs. However, the page provides no direct link to an official UN or AU website and uses generic aggregator contact emails, making it impossible to verify the program’s official status.",
+    "id": "9aefa6fd56cdc060",
+    "first_seen": "2026-10-07T11:45:58.708545+00:00",
+    "last_updated": "2026-10-07T11:45:58.708558+00:00"
+  },
+  "b94bd6b100df137c": {
+    "url": "https://www.opportunitiesforafricans.com/the-undp-enhancing-capacities-of-women-and-youth-led-enterprises-for-regional-trade-ecowyert-program-2026/",
+    "title": "The UNDP Enhancing Capacities of Women and Youth-led Enterprises for Regional Trade (ECoWYERT) Program 2026",
+    "status": "analyzed",
+    "score": 2.8,
+    "category": null,
+    "official_url": "https://www.opportunitiesforafricans.com/the-undp-enhancing-capacities-of-women-and-youth-led-enterprises-for-regional-trade-ecowyert-program-2026/",
+    "location": null,
+    "remote": null,
+    "deadline": null,
+    "reward": "none",
+    "estimated_value": null,
+    "eligibility_status": "PROBABLY_ELIGIBLE",
+    "credibility_status": "LIKELY_LEGITIMATE",
+    "source_tier": "TIER_3",
+    "source_quality": 7,
+    "requirements": [],
+    "id": "b94bd6b100df137c",
+    "first_seen": "2026-10-07T11:47:40.877497+00:00",
+    "last_updated": "2026-10-07T11:47:40.877511+00:00"
+  },
+  "d57eb3d1a2e9f82c": {
+    "url": "https://www.scholars4dev.com/6499/scholarships-in-usa-for-international-students",
+    "title": "Top 25 Scholarships in USA for International Students 2026-2027 | Scholars4Dev",
+    "status": "analyzed",
+    "score": 4.3,
+    "category": "fellowships",
+    "official_url": "https://www.scholars4dev.com/6499/scholarships-in-usa-for-international-students",
+    "location": null,
+    "remote": null,
+    "deadline": null,
+    "reward": "partial",
+    "estimated_value": null,
+    "eligibility_status": "PROBABLY_ELIGIBLE",
+    "credibility_status": "LIKELY_LEGITIMATE",
+    "source_tier": "TIER_4",
+    "source_quality": 0,
+    "requirements": [],
+    "id": "d57eb3d1a2e9f82c",
+    "first_seen": "2026-10-07T11:50:24.870609+00:00",
+    "last_updated": "2026-10-07T11:50:24.870620+00:00"
+  },
+  "91cc18d76701af3a": {
+    "url": "https://www.thedream.us/scholarships/national-scholarship",
+    "title": "TheDream.US National Scholarship for Immigrant Students",
+    "status": "closed",
+    "deadline": null,
+    "id": "91cc18d76701af3a",
+    "first_seen": "2026-10-07T11:52:04.348763+00:00",
+    "last_updated": "2026-10-07T11:52:04.348777+00:00"
   }
 }
