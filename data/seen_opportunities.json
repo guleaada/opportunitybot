@@ -10795,37 +10795,38 @@
   "469e3f6cea14ec24": {
     "url": "https://www.opportunitiesforafricans.com/renaissance-africa-energy-company-operations-and-maintenance-technician-program-2026/",
     "title": "Renaissance Africa Energy Company Operations and Maintenance Technician Program 2026 for young Nigerian graduates.",
-    "status": "legitimacy_unknown",
+    "status": "closed",
     "credibility_status": "NEEDS_VERIFICATION",
     "source_tier": "TIER_3",
     "reasoning": "The posting does not request any payment and includes a self‑issued 'Scam Alert', which are positive signs. However, the company (Renaissance Africa Energy Company) cannot be independently verified from the page, the contact emails are generic, and there is no direct link to an official company recruitment portal, leaving insufficient evidence to confirm legitimacy.",
     "id": "469e3f6cea14ec24",
     "first_seen": "2026-09-20T09:44:48.127386+00:00",
-    "last_updated": "2026-09-20T09:44:48.127400+00:00"
+    "last_updated": "2026-10-08T11:51:51.940592+00:00",
+    "deadline": "2026-09-25"
   },
   "3803a97241b1a9cb": {
     "url": "https://www.opportunitiesforafricans.com/d-prize-challenge-2026-2027-for-social-entrepreneurs-to-fight-poverty/",
     "title": "D-Prize Challenge 2026/2027 for Social Entrepreneurs to fight Poverty ($USD 20,000)",
     "status": "analyzed",
-    "score": 3.9,
+    "score": 5.8,
     "category": null,
     "official_url": "https://www.opportunitiesforafricans.com/d-prize-challenge-2026-2027-for-social-entrepreneurs-to-fight-poverty/",
     "location": null,
     "remote": null,
     "deadline": "2026-12-06",
-    "reward": "partial",
+    "reward": "fully_funded",
     "estimated_value": null,
     "eligibility_status": "PROBABLY_ELIGIBLE",
     "credibility_status": "LIKELY_LEGITIMATE",
     "source_tier": "TIER_3",
     "source_quality": 7,
     "requirements": [
-      "two-page concept note",
-      "resume(s)"
+      "Two-page concept note",
+      "Resume(s)"
     ],
     "id": "3803a97241b1a9cb",
     "first_seen": "2026-09-20T09:46:31.618263+00:00",
-    "last_updated": "2026-09-20T09:46:31.618274+00:00"
+    "last_updated": "2026-10-08T11:53:44.848712+00:00"
   },
   "69a7579d659e4628": {
     "url": "https://saba.abainternational.org/grants/International-Development-Grant",
@@ -13850,5 +13851,213 @@
     "id": "91cc18d76701af3a",
     "first_seen": "2026-10-07T11:52:04.348763+00:00",
     "last_updated": "2026-10-07T11:52:04.348777+00:00"
+  },
+  "91dabe3977f8dad3": {
+    "url": "https://www.facebook.com/scholarshiptab/posts/erasmus-mundus-scholarship-2027-fully-funded-masters-in-europe-the-erasmus-mundu/1555012476638742",
+    "title": "Erasmus Mundus Scholarship 2027 | Fully Funded Master’s in Europe 🇪🇺\n\nThe Erasmus Mundus Master’s Program in Public Policy (Mundus MAPP) 2027 offers:\n\n🎓 Full tuition waiver\n💶 €1,400 monthly allowance\n✈️ Travel support\n🛂 Visa support\n🏠 Installation and living costs\n\n📅 Applications open: September 1, 2026\nFinancial aid deadline: December 1, 2026\n#fullyfunded #masters #erasmusmundusscholarship #europe | ScholarshipTab",
+    "status": "analyzed",
+    "score": 5.0,
+    "category": null,
+    "official_url": "https://www.facebook.com/scholarshiptab/posts/erasmus-mundus-scholarship-2027-fully-funded-masters-in-europe-the-erasmus-mundu/1555012476638742",
+    "location": null,
+    "remote": null,
+    "deadline": "2026-12-01",
+    "reward": "fully_funded",
+    "estimated_value": null,
+    "eligibility_status": "PROBABLY_ELIGIBLE",
+    "credibility_status": "LIKELY_LEGITIMATE",
+    "source_tier": "TIER_4",
+    "source_quality": null,
+    "requirements": [],
+    "id": "91dabe3977f8dad3",
+    "first_seen": "2026-10-08T11:51:23.976212+00:00",
+    "last_updated": "2026-10-08T11:51:23.976227+00:00"
+  },
+  "eeb8a1759ba52950": {
+    "url": "https://opportunitiescorners.com/hsc-youth-ambassador-program-2027/",
+    "title": "HSC Youth Ambassador Program 2027 in Germany (Fully Funded)",
+    "status": "suspicious",
+    "credibility_status": "SUSPICIOUS",
+    "source_tier": "TIER_3",
+    "reasoning": "The page offers a fully funded conference but provides only a Gmail address for contact and no direct link to an official HSC website, which are common red flags. The organizer (Hamburg Sustainability Conference) cannot be independently verified, and the listing relies on marketing language and subscription prompts rather than transparent institutional backing.",
+    "id": "eeb8a1759ba52950",
+    "first_seen": "2026-10-08T11:55:13.105035+00:00",
+    "last_updated": "2026-10-08T11:55:13.105052+00:00"
+  },
+  "79f04f9646809132": {
+    "url": "https://opportunitiescorners.com/cultural-futures-forum-2027-in-austria/",
+    "title": "Cultural Futures Forum 2027 in Austria (Fully Funded)",
+    "status": "notified",
+    "score": 5.5,
+    "category": null,
+    "official_url": "https://opportunitiescorners.com/cultural-futures-forum-2027-in-austria/",
+    "location": null,
+    "remote": null,
+    "deadline": "2026-10-19",
+    "reward": "fully_funded",
+    "estimated_value": null,
+    "eligibility_status": "PROBABLY_ELIGIBLE",
+    "credibility_status": "LIKELY_LEGITIMATE",
+    "source_tier": "TIER_3",
+    "source_quality": 7,
+    "requirements": [
+      "CV or resume",
+      "Personal and professional information",
+      "Organization and position",
+      "Country of residence and citizenship",
+      "Three written responses of up to 250 words each",
+      "A 2-minute video response",
+      "Scholarship information, if financial support is requested"
+    ],
+    "id": "79f04f9646809132",
+    "first_seen": "2026-10-08T11:57:08.175046+00:00",
+    "last_updated": "2026-10-08T12:04:44.995757+00:00",
+    "notification_tier": "GOOD",
+    "notified_at": "2026-10-08T12:04:44.987891+00:00"
+  },
+  "1a73ed9c8863411f": {
+    "url": "https://opportunitiescorners.com/united-nations-university-youth-summit-2026-in-malaysia/",
+    "title": "United Nations University Youth Summit 2026 in Malaysia (Fully Funded)",
+    "status": "suspicious",
+    "credibility_status": "SUSPICIOUS",
+    "source_tier": "TIER_3",
+    "reasoning": "The page uses a generic Gmail address for contact and provides no direct link to an official UNU announcement, which are common red flags. While no explicit fee is mentioned, the reliance on an aggregator site and vague references to \"official news here\" without a URL reduce credibility.",
+    "id": "1a73ed9c8863411f",
+    "first_seen": "2026-10-08T11:57:49.506194+00:00",
+    "last_updated": "2026-10-08T11:57:49.506210+00:00"
+  },
+  "13ec30facc5ef741": {
+    "url": "https://opportunitiescorners.com/leadership-and-peace-summit-morocco-2027/",
+    "title": "Leadership and Peace Summit Morocco 2027 (Fully Funded)",
+    "status": "suspicious",
+    "credibility_status": "SUSPICIOUS",
+    "source_tier": "TIER_3",
+    "reasoning": "The program is listed on an aggregator site with no direct link to an official SLD website, and the only contact is a generic Gmail address. It charges an application fee while promising fully funded seats, a pattern common in conference scams, and the organizer’s existence cannot be independently verified.",
+    "id": "13ec30facc5ef741",
+    "first_seen": "2026-10-08T11:58:36.129584+00:00",
+    "last_updated": "2026-10-08T11:58:36.129601+00:00"
+  },
+  "cc7f10baf957118d": {
+    "url": "https://www.opportunitiesforafricans.com/the-deloitte-nigeria-2026-graduate-trainee-programme-for-young-nigerian-graduates/",
+    "title": "The Deloitte Nigeria 2026 Graduate Trainee Programme for young Nigerian graduates.",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "model_eligibility_status": "CONFIRMED_INELIGIBLE",
+    "missing_requirements": [
+      "Degree classification (second‑class upper) not verified",
+      "Proof of five O'level credits including Math and English"
+    ],
+    "blocking_issues": [
+      "Nationality not Nigerian",
+      "Age exceeds maximum (27 > 26)",
+      "NYSC completion required (not applicable to non‑Nigerians)",
+      "O'level credits requirement not met/unspecified"
+    ],
+    "addressable_gaps": [],
+    "reasoning": "The programme explicitly requires applicants to be 'young Nigerian graduates' and to be a maximum of 26 years old at the time of application. The candidate is Ethiopian (not Nigerian) and is 27 years old, which directly violates both nationality and age criteria. Additionally, the programme mandates completion of the Nigerian National Youth Service Corps (NYSC) and possession of at least five O’level credits (including Mathematics and English) in one sitting, which the candidate cannot satisfy as an Ethiopian graduate. While the candidate holds a BSc, the required second‑class upper classification is not confirmed, but the hard blockers of nationality and age already make the candidate ineligible.",
+    "id": "cc7f10baf957118d",
+    "first_seen": "2026-10-08T11:59:36.497428+00:00",
+    "last_updated": "2026-10-08T11:59:36.497445+00:00"
+  },
+  "7e0324ba308fc1d8": {
+    "url": "https://www.youtube.com/watch?v=ZcM5EUQFNMM",
+    "title": "LAST CALL: Fully Funded Scholarships Closing in May 2026!",
+    "status": "legitimacy_unknown",
+    "credibility_status": "NEEDS_VERIFICATION",
+    "source_tier": "TIER_4",
+    "reasoning": "The provided page contains only generic YouTube footer text and no details about any scholarship or fellowship program, fees, organizers, or contact information. Without substantive evidence, a legitimacy assessment cannot be made.",
+    "id": "7e0324ba308fc1d8",
+    "first_seen": "2026-10-08T12:00:04.271917+00:00",
+    "last_updated": "2026-10-08T12:00:04.271933+00:00"
+  },
+  "aba63ee743c6fb2f": {
+    "url": "https://www.opportunitiesforafricans.com/the-au-theme-of-the-year-2027-official-logo-and-visual-identity-competition-for-young-african-creatives/",
+    "title": "The AU Theme of the Year 2027 Official Logo and Visual Identity Competition for Young African Creatives (USD 8,000 prize)",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "model_eligibility_status": "CONFIRMED_INELIGIBLE",
+    "missing_requirements": [],
+    "blocking_issues": [
+      "Age exceeds maximum allowed (18-24)"
+    ],
+    "addressable_gaps": [],
+    "reasoning": "The program explicitly limits eligibility to citizens of AU Member States aged 18–24 on the submission deadline. The candidate is 27 years old, exceeding the age cap.",
+    "id": "aba63ee743c6fb2f",
+    "first_seen": "2026-10-08T12:02:20.050788+00:00",
+    "last_updated": "2026-10-08T12:02:20.050805+00:00"
+  },
+  "a318f2f1d2382836": {
+    "url": "https://mo.ibrahim.foundation/fellowships",
+    "title": "The Ibrahim Leadership Fellowships | Mo Ibrahim Foundation",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "model_eligibility_status": "CONFIRMED_INELIGIBLE",
+    "missing_requirements": [
+      "Exact years of relevant work experience not stated in candidate profile",
+      "Additional criteria set by individual host organisations (AfDB, ECA, ITC) not detailed on this page"
+    ],
+    "blocking_issues": [
+      "No Master's degree (only BSc) — explicit program requirement",
+      "Likely insufficient work experience: graduated 2021, ~3-4 years vs. required minimum 7 years"
+    ],
+    "addressable_gaps": [],
+    "reasoning": "The program explicitly requires: (1) a Master's degree — candidate holds only a BSc; (2) minimum 7 years' relevant work experience — candidate graduated in 2021 (~3-4 years max). Both are hard, stated requirements the candidate demonstrably does not meet. Nationality (Ethiopian/African) and age (27, under 40) are fine.",
+    "id": "a318f2f1d2382836",
+    "first_seen": "2026-10-08T12:02:48.920845+00:00",
+    "last_updated": "2026-10-08T12:02:48.920863+00:00"
+  },
+  "6afa486fd59240b7": {
+    "url": "https://www.wur.nl/en/education/master/study-expenses-masters/scholarships",
+    "title": "Master's scholarships: find funding for your study | WUR",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "model_eligibility_status": "CONFIRMED_INELIGIBLE",
+    "missing_requirements": [
+      "No evidence of MSc program application to WUR",
+      "No English language test results",
+      "No Bachelor's degree completion documentation",
+      "No GPA/transcript documentation"
+    ],
+    "blocking_issues": [
+      "Must be a prospective MSc student starting September 2027 (candidate is working professional)",
+      "Must be unconditionally admitted to WUR MSc programme (candidate has not applied)",
+      "Ethiopian nationality not eligible for Excellence Programme and NL Scholarship",
+      "Must meet English language requirements by December 1, 2026 (candidate has no certificate yet)"
+    ],
+    "addressable_gaps": [
+      "Could potentially obtain English certificate (Duolingo/MOI) before deadline",
+      "Could potentially apply to MSc program before December 1, 2026"
+    ],
+    "reasoning": "The candidate is explicitly excluded by multiple scholarship programs. The Excellence Programme, ABF, and NL Scholarship all require applicants to be 'prospective students' starting an MSc programme in September 2027. The program text explicitly states 'WUR does not offer scholarship programmes for students who are currently enrolled at Wageningen University' and requires applicants to be 'unconditionally admitted to the programme' - both conditions the working professional candidate cannot meet. Additionally, the candidate's Ethiopian nationality is not listed among eligible countries for the Excellence Programme or NL Scholarship.",
+    "id": "6afa486fd59240b7",
+    "first_seen": "2026-10-08T12:04:07.198507+00:00",
+    "last_updated": "2026-10-08T12:04:07.198523+00:00"
+  },
+  "e6024e5e5e04f5d6": {
+    "url": "https://www.worldbank.org/en/programs/scholarships",
+    "title": "World Bank Scholarships Program",
+    "status": "unknown",
+    "eligibility_status": "UNCERTAIN",
+    "model_eligibility_status": "UNCERTAIN",
+    "missing_requirements": [
+      "Nationality eligibility list",
+      "Student/professional status requirement",
+      "Age limit (if any)",
+      "Minimum degree level (bachelor's) requirement",
+      "Required years of professional experience",
+      "English language proficiency standard",
+      "Eligible fields of study",
+      "Application window dates and procedures"
+    ],
+    "blocking_issues": [],
+    "addressable_gaps": [
+      "English proficiency proof (can obtain MOI or Duolingo)",
+      "Specific field-of-study alignment (development-related master's)",
+      "Work experience documentation (if required)"
+    ],
+    "reasoning": "The program overview does not specify eligibility criteria such as nationality eligibility, student status requirements, age limits, or degree level requirements. Without explicit statements, we cannot confirm that the candidate is not blocked by any of these hard criteria.",
+    "id": "e6024e5e5e04f5d6",
+    "first_seen": "2026-10-08T12:04:42.143699+00:00",
+    "last_updated": "2026-10-08T12:04:42.143715+00:00"
   }
 }
