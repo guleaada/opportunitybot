@@ -1,156 +1,5 @@
 [
   {
-    "at": "2026-09-18T09:38:57.837604+00:00",
-    "kind": "error",
-    "message": "Fetch failed for https://vanier.gc.ca/en/home-accueil.html: HTTPSConnectionPool(host='vanier.gc.ca', port=443): Max retries exceeded with url: /en/home-accueil.html (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)')))"
-  },
-  {
-    "at": "2026-09-18T09:38:58.138238+00:00",
-    "kind": "error",
-    "message": "Fetch failed for https://opportunitydesk.org/category/fellowships/: 403"
-  },
-  {
-    "at": "2026-09-18T09:39:30.660030+00:00",
-    "kind": "error",
-    "message": "Fetch failed for https://www.facebook.com/callforcurators/posts/open-call-20262027-international-residency-program-at-a4-residency-art-center-a4/1542992180457162: 400"
-  },
-  {
-    "at": "2026-09-18T09:39:47.518018+00:00",
-    "kind": "scan_complete",
-    "message": "daily scan finished",
-    "matches": 0,
-    "stats": {
-      "discovered": 278,
-      "already_seen": 69,
-      "known_scam": 0,
-      "fetch_failed": 3,
-      "first_pass_dropped": 0,
-      "scam": 1,
-      "legit_unknown": 1,
-      "ineligible": 4,
-      "closed": 5,
-      "deep_analyzed": 1,
-      "scored_high": 0,
-      "eligibility_demoted": 0,
-      "jina_fetch": 0,
-      "jina_failed": 0,
-      "snippet_fallback": 3,
-      "legit_unparseable": 0,
-      "trusted_thin_pass": 0,
-      "discovery": {
-        "tavily": {
-          "attempted": 20,
-          "successful": 20,
-          "429": 0,
-          "403": 0,
-          "errors": 0,
-          "candidates": 160,
-          "queries_planned": 20,
-          "disabled_reason": ""
-        },
-        "rss": {
-          "attempted": 4,
-          "successful": 4,
-          "failed": 0,
-          "skipped_dead": 1,
-          "candidates": 56
-        },
-        "api": {
-          "sources": 2,
-          "healthy": 2,
-          "failed": 0,
-          "candidates": 55
-        },
-        "seed": {
-          "attempted": 14,
-          "candidates": 14
-        },
-        "total": {
-          "raw": 285,
-          "after_dedupe": 278
-        }
-      },
-      "signal_rescued": 4,
-      "deduped": 0
-    }
-  },
-  {
-    "at": "2026-09-18T09:39:47.520540+00:00",
-    "kind": "run",
-    "mode": "scan",
-    "environment": "github_actions",
-    "stats": {
-      "discovered": 278,
-      "already_seen": 69,
-      "known_scam": 0,
-      "fetch_failed": 3,
-      "first_pass_dropped": 0,
-      "scam": 1,
-      "legit_unknown": 1,
-      "ineligible": 4,
-      "closed": 5,
-      "deep_analyzed": 1,
-      "scored_high": 0,
-      "eligibility_demoted": 0,
-      "jina_fetch": 0,
-      "jina_failed": 0,
-      "snippet_fallback": 3,
-      "legit_unparseable": 0,
-      "trusted_thin_pass": 0,
-      "discovery": {
-        "tavily": {
-          "attempted": 20,
-          "successful": 20,
-          "429": 0,
-          "403": 0,
-          "errors": 0,
-          "candidates": 160,
-          "queries_planned": 20,
-          "disabled_reason": ""
-        },
-        "rss": {
-          "attempted": 4,
-          "successful": 4,
-          "failed": 0,
-          "skipped_dead": 1,
-          "candidates": 56
-        },
-        "api": {
-          "sources": 2,
-          "healthy": 2,
-          "failed": 0,
-          "candidates": 55
-        },
-        "seed": {
-          "attempted": 14,
-          "candidates": 14
-        },
-        "total": {
-          "raw": 285,
-          "after_dedupe": 278
-        }
-      },
-      "signal_rescued": 4,
-      "deduped": 0,
-      "matches": 0
-    }
-  },
-  {
-    "at": "2026-09-19T09:14:54.434739+00:00",
-    "kind": "error",
-    "message": "Fetch failed for https://opportunitydesk.org/2026/08/20/30-hot-jobs-across-various-sectors-currently-open-august-20-2026/: 403"
-  },
-  {
-    "at": "2026-09-19T09:14:54.518611+00:00",
-    "kind": "error",
-    "message": "Fetch failed for https://opportunitydesk.org/2026/08/20/international-physics-competition-education-program-talent-search-2026/: 403"
-  },
-  {
-    "at": "2026-09-19T09:15:12.665476+00:00",
-    "kind": "error",
-    "message": "Fetch failed for https://opportunitydesk.org/2026/08/21/iucea-scholarship-2027-2028/: 403"
-  },
-  {
     "at": "2026-09-19T09:18:01.913702+00:00",
     "kind": "run",
     "mode": "watchlist",
@@ -3776,6 +3625,181 @@
       },
       "signal_rescued": 2,
       "analysis_unavailable": 1,
+      "deduped": 0,
+      "matches": 1
+    }
+  },
+  {
+    "at": "2026-10-09T11:43:57.709854+00:00",
+    "kind": "run",
+    "mode": "watchlist",
+    "environment": "github_actions",
+    "stats": {
+      "discovered": 0,
+      "already_seen": 0,
+      "known_scam": 0,
+      "fetch_failed": 0,
+      "first_pass_dropped": 0,
+      "scam": 0,
+      "legit_unknown": 0,
+      "ineligible": 1,
+      "closed": 0,
+      "deep_analyzed": 1,
+      "scored_high": 1,
+      "eligibility_demoted": 0,
+      "jina_fetch": 0,
+      "jina_failed": 0,
+      "snippet_fallback": 0,
+      "legit_unparseable": 0,
+      "trusted_thin_pass": 0,
+      "reopened": 2,
+      "matches": 1
+    }
+  },
+  {
+    "at": "2026-10-09T11:43:57.932701+00:00",
+    "kind": "scan_start",
+    "message": "daily scan started"
+  },
+  {
+    "at": "2026-10-09T11:46:10.552174+00:00",
+    "kind": "error",
+    "message": "Fetch failed for https://www.dfat.gov.au/people-to-people/australia-awards/australia-awards-scholarships: HTTPSConnectionPool(host='www.dfat.gov.au', port=443): Read timed out. (read timeout=25)"
+  },
+  {
+    "at": "2026-10-09T11:46:22.198747+00:00",
+    "kind": "error",
+    "message": "Fetch failed for https://opportunitydesk.org/category/fellowships/: 403"
+  },
+  {
+    "at": "2026-10-09T11:46:22.467222+00:00",
+    "kind": "error",
+    "message": "Fetch failed for https://www.facebook.com/newmuseum/posts/open-call-for-new-incs-year-13-incubator-members-is-now-live-applications-are-du/1460375948992021: 400"
+  },
+  {
+    "at": "2026-10-09T11:47:06.386798+00:00",
+    "kind": "error",
+    "message": "Fetch failed for https://www.facebook.com/IR.StudentUpdates/posts/-applications-are-now-openapply-for-the-international-leadership-program-ilp-202/1069756965436150: 400"
+  },
+  {
+    "at": "2026-10-09T11:59:23.889758+00:00",
+    "kind": "scan_complete",
+    "message": "daily scan finished",
+    "matches": 1,
+    "stats": {
+      "discovered": 278,
+      "already_seen": 92,
+      "known_scam": 0,
+      "fetch_failed": 2,
+      "first_pass_dropped": 2,
+      "scam": 0,
+      "legit_unknown": 2,
+      "ineligible": 3,
+      "closed": 0,
+      "deep_analyzed": 3,
+      "scored_high": 1,
+      "eligibility_demoted": 0,
+      "jina_fetch": 0,
+      "jina_failed": 0,
+      "snippet_fallback": 2,
+      "legit_unparseable": 1,
+      "trusted_thin_pass": 0,
+      "discovery": {
+        "tavily": {
+          "attempted": 20,
+          "successful": 20,
+          "429": 0,
+          "403": 0,
+          "errors": 0,
+          "candidates": 160,
+          "queries_planned": 20,
+          "disabled_reason": ""
+        },
+        "rss": {
+          "attempted": 4,
+          "successful": 4,
+          "failed": 0,
+          "skipped_dead": 1,
+          "candidates": 56
+        },
+        "api": {
+          "sources": 2,
+          "healthy": 2,
+          "failed": 0,
+          "candidates": 57
+        },
+        "seed": {
+          "attempted": 14,
+          "candidates": 14
+        },
+        "total": {
+          "raw": 287,
+          "after_dedupe": 278
+        }
+      },
+      "signal_rescued": 2,
+      "analysis_unavailable": 2,
+      "deduped": 0
+    }
+  },
+  {
+    "at": "2026-10-09T11:59:23.893358+00:00",
+    "kind": "run",
+    "mode": "scan",
+    "environment": "github_actions",
+    "stats": {
+      "discovered": 278,
+      "already_seen": 92,
+      "known_scam": 0,
+      "fetch_failed": 2,
+      "first_pass_dropped": 2,
+      "scam": 0,
+      "legit_unknown": 2,
+      "ineligible": 3,
+      "closed": 0,
+      "deep_analyzed": 3,
+      "scored_high": 1,
+      "eligibility_demoted": 0,
+      "jina_fetch": 0,
+      "jina_failed": 0,
+      "snippet_fallback": 2,
+      "legit_unparseable": 1,
+      "trusted_thin_pass": 0,
+      "discovery": {
+        "tavily": {
+          "attempted": 20,
+          "successful": 20,
+          "429": 0,
+          "403": 0,
+          "errors": 0,
+          "candidates": 160,
+          "queries_planned": 20,
+          "disabled_reason": ""
+        },
+        "rss": {
+          "attempted": 4,
+          "successful": 4,
+          "failed": 0,
+          "skipped_dead": 1,
+          "candidates": 56
+        },
+        "api": {
+          "sources": 2,
+          "healthy": 2,
+          "failed": 0,
+          "candidates": 57
+        },
+        "seed": {
+          "attempted": 14,
+          "candidates": 14
+        },
+        "total": {
+          "raw": 287,
+          "after_dedupe": 278
+        }
+      },
+      "signal_rescued": 2,
+      "analysis_unavailable": 2,
       "deduped": 0,
       "matches": 1
     }

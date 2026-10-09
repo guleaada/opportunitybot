@@ -791,7 +791,8 @@
     "last_known_deadline": "2026-09-17",
     "reason": "closed at discovery; likely annual",
     "id": "2f83c07422023b03",
-    "added": "2026-09-19T09:24:47.673627+00:00"
+    "added": "2026-10-09T11:42:26.636360+00:00",
+    "last_checked": "2026-10-09T11:42:26.635551"
   },
   "c16f454624acf9a1": {
     "url": "https://opportunitiesforyouth.org/2026/04/10/international-foundation-grant-2026-complete-application-guide-timeline-and-funding-opportunity-for-nonprofits-in-the-global-south",
@@ -799,16 +800,8 @@
     "last_known_deadline": "2026-06-01",
     "reason": "closed at discovery; likely annual",
     "id": "c16f454624acf9a1",
-    "added": "2026-09-19T09:24:53.408378+00:00"
-  },
-  "69a7579d659e4628": {
-    "url": "https://saba.abainternational.org/grants/International-Development-Grant",
-    "title": "SABA International Development Grant",
-    "reason": "ANALYSIS_UNAVAILABLE — deep_eligibility: incomplete or invalid response after retry",
-    "retry_analysis": true,
-    "snippet": "### Stay In Touch\n\n Facebook\n Twitter\n Linked In\n\nPhone: (269) 492-9310 | Fax: (269) 492-9316 | E-mail saba@abainternational.org   \n 550 West Centre Avenue, Portage, Michigan 49024-5364   \n © 2026 SABA/ABAI 2026 All rights reserved.",
-    "id": "69a7579d659e4628",
-    "added": "2026-09-19T09:26:01.184951+00:00"
+    "added": "2026-10-09T11:42:26.728935+00:00",
+    "last_checked": "2026-10-09T11:42:26.727841"
   },
   "f54d49e6099c72cb": {
     "url": "https://www.grants.ca.gov/grants/capital-infusion-program-cip-2026-2027",
@@ -816,16 +809,8 @@
     "last_known_deadline": "2026-09-11",
     "reason": "closed at discovery; likely annual",
     "id": "f54d49e6099c72cb",
-    "added": "2026-09-19T09:26:08.627923+00:00"
-  },
-  "2a6f26e2467685cb": {
-    "url": "https://cascadefunding.eu/open-calls",
-    "title": "Open Calls",
-    "retry_analysis": true,
-    "snippet": "Skip to content\n\nCascade Funding Hub by SploroSploro\n\nSubscribe\n\nCascade Funding Hub by SploroSploro\n\n# Open calls\n\n## Featured calls\n\n Calls for proposals\n Calls for evaluators\n Calls for mentors\n\n## Calls for proposals\n\n## Calls for evaluators\n\n## Calls for mentors\n\nScroll to Top\n\nFind your perfect Cascade Funding call\n\nMatch your organisation's profile against hundreds of open FSTP sub-calls - instantly with AI.\n\nTry the matcher → [...] Try the matcher →\n\n✓ 3 free searchers  •    ✓ No credit card required  •  ✓ Updated weekly",
-    "reason": "legitimacy check returned an unparseable reply; retry on a later run",
-    "id": "2a6f26e2467685cb",
-    "added": "2026-09-20T09:51:06.983109+00:00"
+    "added": "2026-10-09T11:42:32.394182+00:00",
+    "last_checked": "2026-10-09T11:42:32.393370"
   },
   "a5af58a9d9e37e7c": {
     "url": "https://www2.fundsforngos.org/listing/80-high-impact-opportunities-in-awards-prizes-challenges-you-shouldnt-miss",
@@ -1080,10 +1065,10 @@
     "url": "https://nodesk.co/remote-jobs",
     "title": "Remote Jobs - NoDesk",
     "retry_analysis": true,
-    "snippet": "#### Remote:\n\n  #### Marketing\n\n  #### Full-Time\n\n  #### $143.4K – $215.2K\n\n  + AI\n  + Fintech\n  + Growth\n  + Marketing\n  + Remote Work\n  + SEO\n\n  Today\n Superside logo\n\n  ## AI Creative\n\n  ### Superside\n\n  #### Remote:\n\n  ##### LATAM\n\n  #### Design\n\n  #### Contract\n\n  + AI\n  + Contract\n  + Creative\n  + Design\n  + Remote Work\n\n  Today\n Modus Create logo\n\n  ## AI Engineer (Python, Machine Learning, Generative AI/LLMs)\n\n  ### Modus Create\n\n  #### Remote:\n\n  #### Engineering\n\n  #### Full-Time [...] Meet JobCopilot: Your Personal AI Job Hunter.  Get 10x More Remote Job Interviews.\n\n# Discover the Best Remote Jobs\n\n## Find remote jobs and connect with companies that offer you the freedom to work remotely from home or places around the world.\n\nPost a job Find a job\n\nNeed to scale your remote team fast? Hire freelance talent, pre-vetted and on demand.\n\n## Join 100,000s of people and start your remote job search here.\n\n### We make it easier for you to find remote work. Here's how: [...] #### Full-Time\n\n  #### $243.8K – $243.8K\n\n  + Data Science\n  + Engineering\n  + Leadership\n  + Privacy\n  + Remote Work\n\n  Today\n Recorded Future logo\n\n  ## EDR Engineer / Senior EDR Engineer\n\n  ### Recorded Future\n\n  #### Remote:\n\n  ##### Remote - USA\n\n  #### Engineering\n\n  #### Full-Time\n\n  #### $78.5K – $117.5K\n\n  + Cybersecurity\n  + Engineering\n  + Incident Response\n  + Remote Work\n  + Security\n\n  Today\n Bejamas logo\n\n  ## Engineering Manager (Tribe Chief)\n\n  ### Bejamas\n\n  #### Remote:",
+    "snippet": "#### Part-Time\n\n  + AI\n  + Annotator\n  + Entry-Level\n  + Freelancer\n  + Part-Time\n\n  Featured\n Sticker Mule logo\n\n  ## Software engineer\n\n  ### Sticker Mule\n\n  #### Remote:\n\n  ##### Worldwide\n\n  #### Engineering\n\n  #### Full-Time\n\n  #### $150K – $250K\n\n  + Go\n  + Typescript\n\n  Featured\n Morgan & Westfield logo\n\n  ## Project Manager\n\n  ### Morgan & Westfield\n\n  #### Remote:\n\n  ##### Worldwide\n\n  #### Operations\n\n  #### Full-Time\n\n  #### $2.5K – $3.5K [...] #### Full-Time\n\n  #### $55K – $70K\n\n  Featured\n Lemon.io logo\n\n  ## Senior DevOps Engineer\n\n  ### Lemon.io\n\n  #### Remote:\n\n  ##### LATAM, Canada, the U.S., Europe, APAC\n\n  #### Engineering\n\n  #### Contract\n\n  ·\n\n  #### Full-Time\n\n  + Bash\n  + Developer\n  + DevOps\n  + Engineer\n  + Python\n\n  Featured\n iMerit Technology logo\n\n  ## AI Response Evaluator\n\n  ### iMerit Technology\n\n  #### Remote:\n\n  ##### Worldwide\n\n  #### Other\n\n  #### Freelance\n\n  ·\n\n  #### Part-Time [...] #### Remote:\n\n  ##### Worldwide\n\n  #### Other\n\n  #### Freelance\n\n  ·\n\n  #### Full-Time\n\n  ·\n\n  #### Internship\n\n  ·\n\n  #### Part-Time\n\n  + Bitcoin\n  + Blockchain\n  + Cosmos\n  + Crypto\n  + Customer Support\n  + DeFi\n  + Design\n  + Engineering\n  + Ethereum\n  + Marketing\n  + Operations\n  + Product\n  + Sales\n\n  Featured\n Giant Swarm logo\n\n  ## Forward Deployed Engineer (100% Remote)\n\n  ### Giant Swarm\n\n  #### Remote:\n\n  ##### DE\n\n  #### Engineering\n\n  #### Full-Time\n\n  #### €70K – €100K",
     "reason": "legitimacy check returned an unparseable reply; retry on a later run",
     "id": "536ef70765d8d92e",
-    "added": "2026-10-05T12:20:54.586880+00:00"
+    "added": "2026-10-09T11:59:19.121954+00:00"
   },
   "4d6a3936d24c50c0": {
     "url": "https://www.opportunitiesforafricans.com/washington-college-of-law-human-rights-essay-award-2027/",
@@ -1313,5 +1298,23 @@
     "reason": "legitimacy check returned an unparseable reply; retry on a later run",
     "id": "81f31d52f676c01e",
     "added": "2026-10-08T12:03:27.248284+00:00"
+  },
+  "177f3a35ff10cb98": {
+    "url": "https://artdeadline.com/benefits/ops-cash-awards",
+    "title": "Benefits Cash or Value Awards",
+    "reason": "ANALYSIS_UNAVAILABLE — deep_eligibility: incomplete or invalid response after retry",
+    "retry_analysis": true,
+    "snippet": "International Deadline: October 31, 2026; March 1, 2027 – Apexart’s Open Calls are opportunities for artists, curators, and other professionals to turn their curatorial idea into an apexart exhibition. Winning proposals become part of apexart’s next season and receive funding…\n\n   Location\n   :   New YorkNY, United States\n\n   Date Posted\n   :   6 Oct 2026\n2. Type\n   :   Grants\n\n   Opportunity\n   :   Printed Matter Publisher Work Grant Printed Matter [...] Opportunity\n   :   Berlendis Venice Art Prize Marignana Arte\n\n       International Deadline: October 8, 2026 – Marignana Arte announces the 2nd edition of the Berlendis Venice Art Prize, an international open call for artists. 20 finalist group exhibition in Venice, plus more.. The 2027 edition, titled ‘Have we crossed the threshold’ is a…\n\n   Location\n   :   VeneziaVeneto, Italy\n\n   Date Posted\n   :   25 Sep 2026\n10. Type\n    :   Internet [...] Opportunity\n   :   October Salon Art Prize Online Art Competition PleinAir & Fine Art Connoisseur Magazines\n\n       International Deadline: October 31, 2026 – The Annual Salon Art Prize consists of 22 monthly winners with $50,000 in prizes, exhibitions, and publications. Open to artists worldwide, and to a variety of mediums and styles. Jurors consist of top master artists, museum directors…\n\n   Location\n   :   Internet\n\n   Date Posted\n   :   30 Sep 2026\n6. Type\n   :   Compete",
+    "id": "177f3a35ff10cb98",
+    "added": "2026-10-09T11:58:03.510261+00:00"
+  },
+  "48637cdfd7258c22": {
+    "url": "https://www.roberthalf.com/us/en/jobs/all/remote",
+    "title": "515 Results for Remote Jobs",
+    "reason": "ANALYSIS_UNAVAILABLE — deep_eligibility: incomplete or invalid response after retry",
+    "retry_analysis": true,
+    "snippet": "+ Improve SOC efficiency by reducing false positives, manual effort, and administrative tasks.\n  + Develop software solutions utilizing AWS services and APIs.\n  + Collaborate across security, engineering, and operations teams.\n 2026-10-02T00:00:00Z [...] • Collaborate with asset management and procurement stakeholders to align device standards, refresh planning, recovery, and secure retirement with business needs.\n 2026-09-21T00:00:00Z\n   Sr. Software Engineer [...] • Deliver enhancements in incremental releases, using continuous iteration to steadily strengthen product quality and impact.\n 2026-10-01T00:00:00Z\n   .Net Software Developer",
+    "id": "48637cdfd7258c22",
+    "added": "2026-10-09T11:58:58.588716+00:00"
   }
 }

@@ -10831,22 +10831,20 @@
   "69a7579d659e4628": {
     "url": "https://saba.abainternational.org/grants/International-Development-Grant",
     "title": "SABA International Development Grant",
-    "status": "ineligible",
-    "eligibility_status": "PROBABLY_INELIGIBLE",
-    "model_eligibility_status": "PROBABLY_INELIGIBLE",
+    "status": "unknown",
+    "eligibility_status": "UNCERTAIN",
+    "model_eligibility_status": "UNCERTAIN",
     "missing_requirements": [
-      "Verification of formal university/institution affiliation."
+      "Proof of formal affiliation with a university or institution."
     ],
-    "blocking_issues": [
-      "Hard blocker: lack of formal affiliation with a university or institution as required by the grant eligibility criteria."
-    ],
+    "blocking_issues": [],
     "addressable_gaps": [
-      "Obtain a formal affiliation (e.g., adjunct position, research partnership, or affiliation letter) with a university or recognized institution to meet the eligibility requirement."
+      "Obtain a formal affiliation with a university or research institution (e.g., as a researcher, collaborator, or adjunct)."
     ],
-    "reasoning": "The grant requires applicants to be formally affiliated with a university or institution. The candidate’s profile shows she is a working professional with no stated affiliation to any university or research institution, which does not satisfy this explicit requirement. No nationality, age, or degree restrictions are mentioned, so those are not blockers.",
+    "reasoning": "The grant requires applicants to be formally affiliated with a university or institution. The candidate’s profile does not indicate any current affiliation, so this essential criterion cannot be verified. No hard blockers (nationality, age, degree level, student status) are present, and there are no explicit citizenship exclusions.",
     "id": "69a7579d659e4628",
     "first_seen": "2026-09-20T09:47:27.364073+00:00",
-    "last_updated": "2026-09-20T09:47:27.364084+00:00"
+    "last_updated": "2026-10-09T11:42:32.365575+00:00"
   },
   "a8a27f8b19aed949": {
     "url": "https://www.ingramspark.com/blog/2025-book-awards-contests-for-indie-authors",
@@ -14059,5 +14057,198 @@
     "id": "e6024e5e5e04f5d6",
     "first_seen": "2026-10-08T12:04:42.143699+00:00",
     "last_updated": "2026-10-08T12:04:42.143715+00:00"
+  },
+  "2a6f26e2467685cb": {
+    "url": "https://cascadefunding.eu/open-calls",
+    "title": "Open Calls",
+    "status": "analyzed",
+    "score": 5.0,
+    "category": null,
+    "official_url": "https://cascadefunding.eu/open-calls",
+    "location": null,
+    "remote": null,
+    "deadline": "2027-06-15",
+    "reward": "fully_funded",
+    "estimated_value": null,
+    "eligibility_status": "PROBABLY_ELIGIBLE",
+    "credibility_status": "LIKELY_LEGITIMATE",
+    "source_tier": "TIER_4",
+    "source_quality": null,
+    "requirements": [],
+    "id": "2a6f26e2467685cb",
+    "first_seen": "2026-10-09T11:43:55.270298+00:00",
+    "last_updated": "2026-10-09T11:43:55.270314+00:00"
+  },
+  "7f72bb1ebf99c2eb": {
+    "url": "https://opportunitiescorners.com/kaust-vsrp-internship-2027/",
+    "title": "KAUST VSRP Internship 2027 in Saudi Arabia (Fully Funded)",
+    "status": "ineligible",
+    "eligibility_status": "PROBABLY_INELIGIBLE",
+    "model_eligibility_status": "PROBABLY_INELIGIBLE",
+    "missing_requirements": [
+      "Official GPA (not stated).",
+      "English proficiency test score (not provided)."
+    ],
+    "blocking_issues": [
+      "Hard blocker: candidate is not currently a student (neither third‑year undergraduate nor enrolled master’s student)."
+    ],
+    "addressable_gaps": [
+      "Obtain and submit a TOEFL iBT (≥79) or IELTS (≥6.5) score.",
+      "Provide official transcript with GPA (minimum 3.5/4.0)."
+    ],
+    "reasoning": "The KAUST VSRP Internship requires applicants to be either an undergraduate student in their third year of a Bachelor's program or a graduate student currently enrolled in a Master's program. The candidate is a working professional and not currently enrolled in any degree program, which does not satisfy the core student‑status requirement. Additionally, the candidate has not provided a GPA or an English proficiency test score, which are also required, though these could be addressed.",
+    "id": "7f72bb1ebf99c2eb",
+    "first_seen": "2026-10-09T11:45:45.404048+00:00",
+    "last_updated": "2026-10-09T11:45:45.404062+00:00"
+  },
+  "bbe6e1e9cb6c0b20": {
+    "url": "https://www.opportunitiesforafricans.com/samsung-south-africa-graduate-program-2027-for-young-south-african-graduates/",
+    "title": "Samsung South Africa Graduate Program 2027 for young South African graduates.",
+    "status": "legitimacy_unknown",
+    "credibility_status": "NEEDS_VERIFICATION",
+    "source_tier": "TIER_3",
+    "reasoning": "The listing contains no application fee or payment request and describes a typical corporate graduate program, which are hallmarks of legitimacy. However, it lacks a direct link to Samsung's official careers page, provides only generic aggregator email contacts, and gives no specific deadline, making it impossible to verify the program's authenticity.",
+    "id": "bbe6e1e9cb6c0b20",
+    "first_seen": "2026-10-09T11:46:13.197623+00:00",
+    "last_updated": "2026-10-09T11:46:13.197638+00:00"
+  },
+  "49651a4c2a342309": {
+    "url": "https://vanier.gc.ca/en/home-accueil.html",
+    "title": "Vanier Canada",
+    "status": "filtered_out",
+    "reason": "Applications are closed",
+    "id": "49651a4c2a342309",
+    "first_seen": "2026-10-09T11:46:21.875866+00:00",
+    "last_updated": "2026-10-09T11:46:21.875882+00:00"
+  },
+  "b764eacdc3cdffc1": {
+    "url": "https://www.facebook.com/newmuseum/posts/open-call-for-new-incs-year-13-incubator-members-is-now-live-applications-are-du/1460375948992021",
+    "title": "New Museum - Open Call for NEW INC's Year 13 Incubator...",
+    "status": "unknown",
+    "eligibility_status": "UNCERTAIN",
+    "model_eligibility_status": "UNCERTAIN",
+    "missing_requirements": [
+      "Nationality eligibility (e.g., eligible countries or excluded nationalities)",
+      "Current enrollment status (must be a student or can be a professional)",
+      "Age limit (maximum or minimum age)",
+      "Minimum degree level (e.g., must hold a bachelor's, master's, etc.)",
+      "English language proficiency requirements (IELTS/TOEFL/Duolingo, etc.)",
+      "Field of study or discipline relevance",
+      "Funding source or financial need criteria",
+      "Application fee limits"
+    ],
+    "blocking_issues": [],
+    "addressable_gaps": [],
+    "reasoning": "The program description contains only SVG/HTML markup and does not list any eligibility criteria (e.g., nationality restrictions, student status, age limits, degree requirements, language proficiency, field of study, or funding conditions). Because we cannot verify whether the candidate meets or is excluded by such criteria, the eligibility cannot be confirmed nor ruled out.",
+    "id": "b764eacdc3cdffc1",
+    "first_seen": "2026-10-09T11:47:06.247985+00:00",
+    "last_updated": "2026-10-09T11:47:06.248001+00:00"
+  },
+  "c25ded30fb01c69e": {
+    "url": "https://www.facebook.com/IR.StudentUpdates/posts/-applications-are-now-openapply-for-the-international-leadership-program-ilp-202/1069756965436150",
+    "title": "Fully funded international leadership program in Rome 2026",
+    "status": "legitimacy_unknown",
+    "credibility_status": "NEEDS_VERIFICATION",
+    "source_tier": "TIER_4",
+    "reasoning": "The post provides only a brief, vague description and a claim of being fully funded, but offers no details about the sponsoring organization, official website, application process, or contact information, making it impossible to verify legitimacy.",
+    "id": "c25ded30fb01c69e",
+    "first_seen": "2026-10-09T11:47:19.307446+00:00",
+    "last_updated": "2026-10-09T11:47:19.307464+00:00"
+  },
+  "4c153598db8b3711": {
+    "url": "https://grantedai.com/grants/ai-for-humanity-prize-part-of-2027-global-challenges-the-patrick-j-mcgovern-foundation-throug-abfa6e95",
+    "title": "AI for Humanity Prize (part of 2027 Global Challenges) (2026) | Granted AI",
+    "status": "notified",
+    "score": 5.4,
+    "category": "ai_competitions",
+    "official_url": "https://grantedai.com/grants/ai-for-humanity-prize-part-of-2027-global-challenges-the-patrick-j-mcgovern-foundation-throug-abfa6e95",
+    "location": null,
+    "remote": null,
+    "deadline": "2026-11-02",
+    "reward": "fully_funded",
+    "estimated_value": null,
+    "eligibility_status": "PROBABLY_ELIGIBLE",
+    "credibility_status": "LIKELY_LEGITIMATE",
+    "source_tier": "TIER_4",
+    "source_quality": 0,
+    "requirements": [],
+    "id": "4c153598db8b3711",
+    "first_seen": "2026-10-09T11:49:51.383426+00:00",
+    "last_updated": "2026-10-09T11:59:23.874297+00:00",
+    "notification_tier": "GOOD",
+    "notified_at": "2026-10-09T11:59:23.863741+00:00"
+  },
+  "f6cb8c9f849471e9": {
+    "url": "https://www.magazine.artconnect.com/artist-opportunities/awards-grants-with-massive-cash-prizes",
+    "title": "Art Awards with Huge Cash Prizes | ArtConnect Magazine",
+    "status": "ineligible",
+    "eligibility_status": "PROBABLY_INELIGIBLE",
+    "model_eligibility_status": "PROBABLY_INELIGIBLE",
+    "missing_requirements": [
+      "Specific eligibility details for each award (e.g., required medium, gender restrictions, residency status) are not provided in the program text",
+      "Proof of artistic activity or portfolio submission"
+    ],
+    "blocking_issues": [
+      "Field mismatch: candidate is not a visual artist (painter, photographer, sculptor, craftsperson, etc.) required by the majority of the awards"
+    ],
+    "addressable_gaps": [
+      "Create and submit a portfolio of visual artwork to satisfy the 'artist' requirement",
+      "Provide documentation of artistic practice (exhibitions, commissions, publications) if required by specific awards"
+    ],
+    "reasoning": "The program lists art awards and grants that are intended for visual artists (photographers, painters, sculptors, craft makers, etc.). The candidate’s profile describes a professional background in AI development, marketing, and psychology with no evidence of visual artistic practice or a portfolio, which is a core eligibility requirement for these awards. While the program does not explicitly exclude Ethiopian nationals or set an age limit, the lack of an artistic background is a hard blocker for most of the listed opportunities.",
+    "id": "f6cb8c9f849471e9",
+    "first_seen": "2026-10-09T11:51:32.992650+00:00",
+    "last_updated": "2026-10-09T11:51:32.992663+00:00"
+  },
+  "51848480f40d5c3b": {
+    "url": "https://artinfoland.com/opportunities/jing-shan-creative-art-awards-2026-2027",
+    "title": "Jing Shan Creative Art Awards 2026/2027",
+    "status": "analyzed",
+    "score": 3.3,
+    "category": "cash_prize_competitions",
+    "official_url": "https://artinfoland.com/opportunities/jing-shan-creative-art-awards-2026-2027",
+    "location": null,
+    "remote": null,
+    "deadline": "2027-04-30",
+    "reward": "partial",
+    "estimated_value": null,
+    "eligibility_status": "CONFIRMED_ELIGIBLE",
+    "credibility_status": "LIKELY_LEGITIMATE",
+    "source_tier": "TIER_4",
+    "source_quality": 0,
+    "requirements": [],
+    "id": "51848480f40d5c3b",
+    "first_seen": "2026-10-09T11:53:29.333575+00:00",
+    "last_updated": "2026-10-09T11:53:29.333592+00:00"
+  },
+  "e0a30a7fb97ab501": {
+    "url": "https://www.opencallartist.com/opportunities/awards-and-prizes",
+    "title": "Art Awards & Prizes for Artists · OpenCall",
+    "status": "analyzed",
+    "score": 3.0,
+    "category": "cash_prize_competitions",
+    "official_url": "https://www.opencallartist.com/opportunities/awards-and-prizes",
+    "location": null,
+    "remote": null,
+    "deadline": null,
+    "reward": "none",
+    "estimated_value": null,
+    "eligibility_status": "PROBABLY_ELIGIBLE",
+    "credibility_status": "LIKELY_LEGITIMATE",
+    "source_tier": "TIER_4",
+    "source_quality": 0,
+    "requirements": [],
+    "id": "e0a30a7fb97ab501",
+    "first_seen": "2026-10-09T11:56:43.255395+00:00",
+    "last_updated": "2026-10-09T11:56:43.255407+00:00"
+  },
+  "015aadd79acc6d3d": {
+    "url": "https://jobgether.com/remote-jobs",
+    "title": "Remote Jobs - Work From Home",
+    "status": "filtered_out",
+    "reason": "This is a job board listing, not a scholarship/fellowship opportunity",
+    "id": "015aadd79acc6d3d",
+    "first_seen": "2026-10-09T11:59:07.182518+00:00",
+    "last_updated": "2026-10-09T11:59:07.182533+00:00"
   }
 }
