@@ -1,52 +1,5 @@
 [
   {
-    "at": "2026-09-19T09:18:01.913702+00:00",
-    "kind": "run",
-    "mode": "watchlist",
-    "environment": "github_actions",
-    "stats": {
-      "discovered": 0,
-      "already_seen": 0,
-      "known_scam": 0,
-      "fetch_failed": 3,
-      "first_pass_dropped": 0,
-      "scam": 0,
-      "legit_unknown": 0,
-      "ineligible": 1,
-      "closed": 0,
-      "deep_analyzed": 1,
-      "scored_high": 0,
-      "eligibility_demoted": 0,
-      "jina_fetch": 0,
-      "jina_failed": 0,
-      "snippet_fallback": 0,
-      "legit_unparseable": 0,
-      "trusted_thin_pass": 0,
-      "reopened": 5,
-      "matches": 0
-    }
-  },
-  {
-    "at": "2026-09-19T09:18:02.138213+00:00",
-    "kind": "scan_start",
-    "message": "daily scan started"
-  },
-  {
-    "at": "2026-09-19T09:21:44.549218+00:00",
-    "kind": "error",
-    "message": "Fetch failed for https://www.dfat.gov.au/people-to-people/australia-awards/australia-awards-scholarships: HTTPSConnectionPool(host='www.dfat.gov.au', port=443): Read timed out. (read timeout=25)"
-  },
-  {
-    "at": "2026-09-19T09:22:52.811275+00:00",
-    "kind": "error",
-    "message": "Fetch failed for https://www.facebook.com/scholarshiptab/posts/erasmus-mundus-scholarship-2027-fully-funded-masters-in-europe-the-erasmus-mundu/1555012476638742: 400"
-  },
-  {
-    "at": "2026-09-19T09:24:44.833186+00:00",
-    "kind": "error",
-    "message": "Fetch failed for https://vanier.gc.ca/en/home-accueil.html: HTTPSConnectionPool(host='vanier.gc.ca', port=443): Max retries exceeded with url: /en/home-accueil.html (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)')))"
-  },
-  {
     "at": "2026-09-19T09:24:44.885040+00:00",
     "kind": "error",
     "message": "Fetch failed for https://opportunitydesk.org/category/fellowships/: 403"
@@ -3799,6 +3752,167 @@
         }
       },
       "signal_rescued": 2,
+      "analysis_unavailable": 2,
+      "deduped": 0,
+      "matches": 1
+    }
+  },
+  {
+    "at": "2026-10-10T11:01:45.260618+00:00",
+    "kind": "run",
+    "mode": "watchlist",
+    "environment": "github_actions",
+    "stats": {
+      "discovered": 0,
+      "already_seen": 0,
+      "known_scam": 0,
+      "fetch_failed": 0,
+      "first_pass_dropped": 0,
+      "scam": 1,
+      "legit_unknown": 0,
+      "ineligible": 1,
+      "closed": 1,
+      "deep_analyzed": 0,
+      "scored_high": 0,
+      "eligibility_demoted": 0,
+      "jina_fetch": 0,
+      "jina_failed": 0,
+      "snippet_fallback": 0,
+      "legit_unparseable": 0,
+      "trusted_thin_pass": 0,
+      "signal_rescued": 2,
+      "reopened": 3,
+      "matches": 0
+    }
+  },
+  {
+    "at": "2026-10-10T11:01:45.508624+00:00",
+    "kind": "scan_start",
+    "message": "daily scan started"
+  },
+  {
+    "at": "2026-10-10T11:17:19.726634+00:00",
+    "kind": "error",
+    "message": "Fetch failed for https://www.dfat.gov.au/people-to-people/australia-awards/australia-awards-scholarships: HTTPSConnectionPool(host='www.dfat.gov.au', port=443): Read timed out. (read timeout=25)"
+  },
+  {
+    "at": "2026-10-10T11:17:26.590490+00:00",
+    "kind": "scan_complete",
+    "message": "daily scan finished",
+    "matches": 1,
+    "stats": {
+      "discovered": 274,
+      "already_seen": 65,
+      "known_scam": 0,
+      "fetch_failed": 1,
+      "first_pass_dropped": 0,
+      "scam": 0,
+      "legit_unknown": 0,
+      "ineligible": 4,
+      "closed": 0,
+      "deep_analyzed": 2,
+      "scored_high": 1,
+      "eligibility_demoted": 0,
+      "jina_fetch": 0,
+      "jina_failed": 0,
+      "snippet_fallback": 0,
+      "legit_unparseable": 6,
+      "trusted_thin_pass": 0,
+      "discovery": {
+        "tavily": {
+          "attempted": 20,
+          "successful": 20,
+          "429": 0,
+          "403": 0,
+          "errors": 0,
+          "candidates": 160,
+          "queries_planned": 20,
+          "disabled_reason": ""
+        },
+        "rss": {
+          "attempted": 4,
+          "successful": 4,
+          "failed": 0,
+          "skipped_dead": 1,
+          "candidates": 56
+        },
+        "api": {
+          "sources": 2,
+          "healthy": 2,
+          "failed": 0,
+          "candidates": 57
+        },
+        "seed": {
+          "attempted": 14,
+          "candidates": 14
+        },
+        "total": {
+          "raw": 287,
+          "after_dedupe": 274
+        }
+      },
+      "signal_rescued": 1,
+      "analysis_unavailable": 2,
+      "deduped": 0
+    }
+  },
+  {
+    "at": "2026-10-10T11:17:26.594321+00:00",
+    "kind": "run",
+    "mode": "scan",
+    "environment": "github_actions",
+    "stats": {
+      "discovered": 274,
+      "already_seen": 65,
+      "known_scam": 0,
+      "fetch_failed": 1,
+      "first_pass_dropped": 0,
+      "scam": 0,
+      "legit_unknown": 0,
+      "ineligible": 4,
+      "closed": 0,
+      "deep_analyzed": 2,
+      "scored_high": 1,
+      "eligibility_demoted": 0,
+      "jina_fetch": 0,
+      "jina_failed": 0,
+      "snippet_fallback": 0,
+      "legit_unparseable": 6,
+      "trusted_thin_pass": 0,
+      "discovery": {
+        "tavily": {
+          "attempted": 20,
+          "successful": 20,
+          "429": 0,
+          "403": 0,
+          "errors": 0,
+          "candidates": 160,
+          "queries_planned": 20,
+          "disabled_reason": ""
+        },
+        "rss": {
+          "attempted": 4,
+          "successful": 4,
+          "failed": 0,
+          "skipped_dead": 1,
+          "candidates": 56
+        },
+        "api": {
+          "sources": 2,
+          "healthy": 2,
+          "failed": 0,
+          "candidates": 57
+        },
+        "seed": {
+          "attempted": 14,
+          "candidates": 14
+        },
+        "total": {
+          "raw": 287,
+          "after_dedupe": 274
+        }
+      },
+      "signal_rescued": 1,
       "analysis_unavailable": 2,
       "deduped": 0,
       "matches": 1

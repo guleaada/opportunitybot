@@ -11237,14 +11237,14 @@
   },
   "c346aeb36d1f9f6c": {
     "url": "https://www.facebook.com/scholarcorner/videos/fully-funded-summer-leadership-program-in-the-usa-dates-june-29-july-20-2027link/1082253064697136",
-    "title": "Fully Funded Summer Leadership Program in the USA Dates: June ...",
+    "title": "Fully Funded Summer Leadership Program in the USA Dates ...",
     "status": "suspicious",
     "credibility_status": "SUSPICIOUS",
     "source_tier": "TIER_4",
-    "reasoning": "The program is promoted via a Facebook post linking to a non‑official .website domain and provides no verifiable contact information or link to an established institution; the Hansen Leadership Institute and Fred J. Hansen Foundation cannot be readily confirmed. While no fee is mentioned, the lack of official sources and the use of an aggregator‑style site are red flags.",
+    "reasoning": "The program is advertised via a Facebook post linking to a generic .website domain (scholarshipscorner.website) rather than an official institutional site, and the sponsoring \"Fred J. Hansen Foundation\" and \"Hansen Leadership Institute\" cannot be readily verified. No official university or government affiliation is shown, and the lack of detailed application procedures or contact information raises concerns.",
     "id": "c346aeb36d1f9f6c",
     "first_seen": "2026-09-22T09:51:33.731846+00:00",
-    "last_updated": "2026-09-22T09:51:33.731856+00:00"
+    "last_updated": "2026-10-10T11:00:55.764884+00:00"
   },
   "10f64b4ebae165d1": {
     "url": "https://www.opportunitiesforafricans.com/yali-2027-mandela-washington-fellowship/",
@@ -11991,7 +11991,7 @@
     "deadline": null,
     "id": "765f1a48805f76e4",
     "first_seen": "2026-09-27T10:33:50.425380+00:00",
-    "last_updated": "2026-09-27T10:33:50.425393+00:00"
+    "last_updated": "2026-10-10T11:00:57.869747+00:00"
   },
   "d1cf92da603b353e": {
     "url": "https://www.opportunitiesforafricans.com/the-nitda-national-ai-innovation-challenge-2026-for-young-nigerian-developers/",
@@ -14250,5 +14250,162 @@
     "id": "015aadd79acc6d3d",
     "first_seen": "2026-10-09T11:59:07.182518+00:00",
     "last_updated": "2026-10-09T11:59:07.182533+00:00"
+  },
+  "4cb60960bbd071a3": {
+    "url": "https://www.asco.org/career-development/grants-awards/funding-opportunities/long-term-international-fellowship",
+    "title": "Long-term International Fellowship - ASCO",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "model_eligibility_status": "CONFIRMED_INELIGIBLE",
+    "missing_requirements": [
+      "Pre‑existing relationship with an ASCO‑member mentor",
+      "Current ASCO membership",
+      "Formal affiliation with a charitable or government home institution in Ethiopia"
+    ],
+    "blocking_issues": [
+      "Must be a physician (MD, DO, or international equivalent) – candidate only has a BSc in Psychology",
+      "Must have completed a subspecialty oncology training program – candidate has no medical or oncology training",
+      "Must be affiliated with a not‑for‑profit or government home institution in a LMIC – candidate works in the private sector"
+    ],
+    "addressable_gaps": [],
+    "reasoning": "The program explicitly requires applicants to be physicians (MD, DO, or international equivalent) who have completed a subspecialty oncology training program. The candidate holds only a BSc in Psychology and has no medical degree or oncology training, which directly violates the core eligibility criteria. Additionally, the fellowship expects affiliation with a not‑for‑profit or government home institution in a LMIC, whereas the candidate is a private‑sector AI developer/marketing specialist with no such affiliation. These are hard, non‑addressable blockers.",
+    "id": "4cb60960bbd071a3",
+    "first_seen": "2026-10-10T11:01:41.484176+00:00",
+    "last_updated": "2026-10-10T11:01:41.484192+00:00"
+  },
+  "fda652b71b7053b5": {
+    "url": "https://opportunitiescorners.com/eiffel-excellence-scholarship-2027/",
+    "title": "Eiffel Excellence Scholarship 2027 in France (Fully Funded)",
+    "status": "analyzed",
+    "score": 4.9,
+    "category": null,
+    "official_url": "https://opportunitiescorners.com/eiffel-excellence-scholarship-2027/",
+    "location": null,
+    "remote": null,
+    "deadline": null,
+    "reward": "fully_funded",
+    "estimated_value": null,
+    "eligibility_status": "PROBABLY_ELIGIBLE",
+    "credibility_status": "LIKELY_LEGITIMATE",
+    "source_tier": "TIER_3",
+    "source_quality": 7,
+    "requirements": [],
+    "id": "fda652b71b7053b5",
+    "first_seen": "2026-10-10T11:04:18.814893+00:00",
+    "last_updated": "2026-10-10T11:04:18.814905+00:00"
+  },
+  "d9e7c5e1057eb817": {
+    "url": "https://opportunitiescorners.com/harvard-lead-fellowship-2027/",
+    "title": "Harvard LEAD Fellowship 2027/28, USA (Fully Funded)",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "model_eligibility_status": "CONFIRMED_INELIGIBLE",
+    "missing_requirements": [
+      "Willingness to return to home country after fellowship (not stated).",
+      "Availability for the April 2028 in‑person program (not stated).",
+      "Confirmation of meeting U.S. J‑1 visa requirements (not stated).",
+      "Institutional support, mentor commitment, and reference letters (not stated)."
+    ],
+    "blocking_issues": [
+      "Degree level mismatch: only a BSc, but a master’s degree is required (hard blocker).",
+      "Insufficient professional experience: requires 10+ years, candidate has ~3 years (hard blocker)."
+    ],
+    "addressable_gaps": [
+      "Obtain a master’s degree in a relevant field.",
+      "Accumulate additional professional experience to reach 10+ years.",
+      "Provide documented evidence of full‑time work in global health.",
+      "Secure institutional support, mentor commitment, and reference letters.",
+      "Demonstrate willingness to return to home country after the fellowship.",
+      "Confirm availability for the six‑week in‑person program in April 2028.",
+      "Meet U.S. J‑1 visa requirements."
+    ],
+    "reasoning": "The Harvard LEAD Fellowship explicitly requires candidates to hold at least a relevant master’s degree and to have 10+ years of professional experience beyond education. Gulilat holds only a BSc and has approximately 3 years of work experience since graduating in 2021, which do not satisfy these mandatory criteria. Therefore the candidate is ineligible.",
+    "id": "d9e7c5e1057eb817",
+    "first_seen": "2026-10-10T11:05:32.963997+00:00",
+    "last_updated": "2026-10-10T11:05:32.964013+00:00"
+  },
+  "7d9c1000ace6ec3d": {
+    "url": "https://www.opportunitiesforafricans.com/the-world-bank-government-analytics-fellowship-program-2027/",
+    "title": "The World Bank Government Analytics Fellowship Program 2027 for government officials (Fully Funded to Washington DC, United States)",
+    "status": "ineligible",
+    "eligibility_status": "PROBABLY_INELIGIBLE",
+    "model_eligibility_status": "PROBABLY_INELIGIBLE",
+    "missing_requirements": [],
+    "blocking_issues": [
+      "Not employed by a central government organization (required by eligibility)"
+    ],
+    "addressable_gaps": [
+      "Secure a position or endorsement from a central government organization",
+      "Obtain an endorsement letter from the employing organization",
+      "Develop a Government Analytics project with clear institutional relevance"
+    ],
+    "reasoning": "The program requires candidates to be employed by a central government organization and to hold a mid-level management or senior analyst position with authority to develop a Government Analytics project. The candidate is a working professional based in Vientiane, Lao PDR, not employed by a central government body, and thus does not meet this stated eligibility criterion.",
+    "id": "7d9c1000ace6ec3d",
+    "first_seen": "2026-10-10T11:07:06.950646+00:00",
+    "last_updated": "2026-10-10T11:07:06.950662+00:00"
+  },
+  "e1125dc2a68e0daf": {
+    "url": "https://www.opportunitiesforafricans.com/the-atlantic-fellows-for-social-and-economic-equity-programme-2027-2028/",
+    "title": "The Atlantic Fellows for Social and Economic Equity Programme 2027/2028 for social-change leaders (Fully Funded study at London School of Economics and Political Science)",
+    "status": "unknown",
+    "eligibility_status": "UNCERTAIN",
+    "model_eligibility_status": "UNCERTAIN",
+    "missing_requirements": [
+      "Specific English language proficiency thresholds",
+      "Detailed application criteria (e.g., references, statement of purpose)",
+      "Confirmation that the candidate's field of work qualifies as 'challenging inequalities'"
+    ],
+    "blocking_issues": [],
+    "addressable_gaps": [
+      "Obtain an English language certificate (Duolingo or MOI)",
+      "Provide evidence of seven years of experience in social and economic equity if available"
+    ],
+    "reasoning": "The program requires 'at least seven years of experience in challenging inequalities' and targets individuals working in fields of social and economic equity. The candidate's profile does not confirm that his work experience (AI Developer, Marketing Specialist, Psychologist, Community Leader) is in the required field or that he has seven years of such experience. This is a criterion that could exclude the candidate and is unverifiable from the provided information. No nationality, age, or degree-level restrictions are stated, and the candidate's BSc and professional status are not automatic blockers. English language requirements are not detailed on the page, but the candidate can address this with a Duolingo or MOI certificate.",
+    "id": "e1125dc2a68e0daf",
+    "first_seen": "2026-10-10T11:08:52.622885+00:00",
+    "last_updated": "2026-10-10T11:08:52.622903+00:00"
+  },
+  "5f1a006c079ff8ba": {
+    "url": "https://www.opportunitiesforafricans.com/the-hamburg-sustainability-conference-hsc-youth-ambassador-program-2027/",
+    "title": "The Hamburg Sustainability Conference (HSC) Youth Ambassador Program 2027 for young community leaders (Fully Funded)",
+    "status": "notified",
+    "score": 8.9,
+    "category": null,
+    "official_url": "https://www.opportunitiesforafricans.com/the-hamburg-sustainability-conference-hsc-youth-ambassador-program-2027/",
+    "location": null,
+    "remote": null,
+    "deadline": null,
+    "reward": "fully_funded",
+    "estimated_value": null,
+    "eligibility_status": "PROBABLY_ELIGIBLE",
+    "credibility_status": "LIKELY_LEGITIMATE",
+    "source_tier": "TIER_3",
+    "source_quality": 7,
+    "requirements": [],
+    "id": "5f1a006c079ff8ba",
+    "first_seen": "2026-10-10T11:13:08.125186+00:00",
+    "last_updated": "2026-10-10T11:17:26.573340+00:00",
+    "notification_tier": "WATCHLIST",
+    "notified_at": "2026-10-10T11:17:26.542841+00:00"
+  },
+  "e5dfc9c0759d722d": {
+    "url": "https://www.opportunitiesforafricans.com/the-first-city-monument-bank-fcmb-early-career-technology-graduate-programme-2026/",
+    "title": "The First City Monument Bank (FCMB) Early Career Technology Graduate Programme 2026 for young Nigerian graduates.",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "model_eligibility_status": "CONFIRMED_INELIGIBLE",
+    "missing_requirements": [
+      "IELTS/TOEFL certificate (though not a blocker since the program doesn't explicitly require it)",
+      "Proof of recent graduation (2021) and 0-2 years experience (can be verified)"
+    ],
+    "blocking_issues": [
+      "Nationality: Program targets only Nigerian graduates; candidate is Ethiopian",
+      "Field of Study: Program requires Computer Science, Engineering, Data Science, or Statistics; candidate has a BSc in Psychology"
+    ],
+    "addressable_gaps": [],
+    "reasoning": "The program explicitly states it is for 'young Nigerian graduates' and requires a Bachelor's degree in Computer Science, Engineering, Data Science, Statistics, or related disciplines. The candidate is Ethiopian (not Nigerian) and holds a BSc in Psychology, which does not match the required technical fields.",
+    "id": "e5dfc9c0759d722d",
+    "first_seen": "2026-10-10T11:14:31.579446+00:00",
+    "last_updated": "2026-10-10T11:14:31.579462+00:00"
   }
 }
