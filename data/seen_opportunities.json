@@ -11445,22 +11445,23 @@
   "5177e535c4bb38e4": {
     "url": "https://www.opportunitiesforafricans.com/the-french-institute-for-research-in-africa-ifra-nigeria-research-grants-2027/",
     "title": "The French Institute for Research in Africa (IFRA)-Nigeria research grants 2027 for master’s, doctoral and postdoctoral students,",
-    "status": "unknown",
-    "eligibility_status": "UNCERTAIN",
-    "model_eligibility_status": "UNCERTAIN",
-    "missing_requirements": [
-      "Proof of research focus on an eligible West African country.",
-      "Confirmation of researcher status or enrollment as a second‑year master’s/doctoral/post‑doctoral student."
+    "status": "ineligible",
+    "eligibility_status": "PROBABLY_INELIGIBLE",
+    "model_eligibility_status": "PROBABLY_INELIGIBLE",
+    "missing_requirements": [],
+    "blocking_issues": [
+      "Not a current graduate student (required: second‑year master’s, doctoral or post‑doctoral status)",
+      "Research focus not on any of the nine West African countries covered by IFRA‑Nigeria",
+      "Project discipline may fall outside the required humanities/social‑sciences scope"
     ],
-    "blocking_issues": [],
     "addressable_gaps": [
-      "Develop a research proposal that explicitly addresses a topic within the IFRA‑Nigeria geographical mandate (e.g., a study on digital humanities, health, citizenship, heritage, or environment in one of the nine West African countries).",
-      "Provide evidence of being a researcher (e.g., affiliation with a university, research institute, or a formal research project) if not enrolling as a student."
+      "Enroll in a second‑year master’s programme or start a doctoral/post‑doctoral position",
+      "Develop a research proposal that addresses a topic within the IFRA‑Nigeria geographical mandate and aligns with the humanities/social‑sciences axes"
     ],
-    "reasoning": "The IFRA‑Nigeria grants are limited to second‑year master’s students, doctoral/post‑doctoral students, **or researchers** whose work focuses on one of the nine West African countries in the Institute’s mandate. The candidate is an Ethiopian professional, not a current student, and there is no evidence that they are a researcher or that their proposed project would address a topic related to Nigeria, Benin, Burkina Faso, Cameroon, Côte d’Ivoire, Ghana, Niger, Chad or Togo. While the candidate’s background in psychology (a social science) and AI could fit the humanities/social sciences scope, the lack of a verifiable research focus on the eligible geographic area makes eligibility indeterminate.",
+    "reasoning": "The IFRA‑Nigeria grants are limited to second‑year master’s students, doctoral or post‑doctoral students, or researchers working on humanities/social‑science topics concerning a country within the IFRA‑Nigeria geographical mandate (Nigeria, Benin, Burkina Faso, Cameroon, Côte d’Ivoire, Ghana, Niger, Chad, Togo). The candidate is a 27‑year‑old Ethiopian professional who is not currently enrolled in any graduate programme and whose work focuses on AI/tech innovation rather than a West African country. Therefore the core eligibility criteria are not met.",
     "id": "5177e535c4bb38e4",
     "first_seen": "2026-09-24T09:50:18.644816+00:00",
-    "last_updated": "2026-09-24T09:50:18.644832+00:00"
+    "last_updated": "2026-10-11T11:18:53.494970+00:00"
   },
   "c6caf712792b42b0": {
     "url": "https://www.opportunitiesforafricans.com/traderoots-africa-icc-programme-2026-2027/",
@@ -11468,17 +11469,23 @@
     "status": "ineligible",
     "eligibility_status": "PROBABLY_INELIGIBLE",
     "model_eligibility_status": "PROBABLY_INELIGIBLE",
-    "missing_requirements": [],
+    "missing_requirements": [
+      "Business registration documents",
+      "Proof of at least 24 months of trading activity",
+      "Annual turnover evidence (> USD 5,000)",
+      "Evidence of a product/service ready for export",
+      "Demonstration of scalable digital presence (e‑commerce, marketplace, etc.)"
+    ],
     "blocking_issues": [
-      "No qualifying African-owned SME owned or managed by the candidate (hard blocker)"
+      "Hard blocker: No SME/business meeting the programme’s business criteria (ownership, registration, trading history, turnover, export‑ready product)."
     ],
     "addressable_gaps": [
-      "Candidate could establish or join an eligible SME that meets the 24‑month trading history, turnover, and export‑ready product requirements."
+      "Candidate could establish/register an African‑owned SME that satisfies the 24‑month trading period, turnover threshold, and export‑ready product requirement."
     ],
-    "reasoning": "The TradeRoots Africa-ICC Programme explicitly requires applicants to have an African-owned SME that is registered, has been trading for at least 24 months, meets a minimum turnover, and has a export‑ready product/service. The candidate profile does not mention ownership or senior management of any such business; it only describes individual professional experience. Therefore the core eligibility criterion (having a qualifying SME) is not met.",
+    "reasoning": "The programme explicitly requires an African SME (business) that is majority African‑owned, registered in an AfCFTA State Party, has been trading for at least 24 months, has a minimum annual turnover above USD 5,000, and has a product/service ready to export. The candidate profile provides no evidence of owning or managing such a business; only personal professional experience is listed. Therefore the core eligibility criterion (having an eligible SME) is not met.",
     "id": "c6caf712792b42b0",
     "first_seen": "2026-09-24T09:51:19.048690+00:00",
-    "last_updated": "2026-09-24T09:51:19.048706+00:00"
+    "last_updated": "2026-10-11T11:19:46.965580+00:00"
   },
   "20d76b055f4104ab": {
     "url": "https://opportunitiesforyouth.org/2026/07/16/call-for-applications-wilson-center-fellowship",
@@ -14407,5 +14414,169 @@
     "id": "e5dfc9c0759d722d",
     "first_seen": "2026-10-10T11:14:31.579446+00:00",
     "last_updated": "2026-10-10T11:14:31.579462+00:00"
+  },
+  "333d369197b106a8": {
+    "url": "https://www.scholarshipair.com/scholarships/government-of-malaysia-2023-masters-scholarship-for-developing-countries-fully-funded",
+    "title": "Government Of Malaysia 2023 Masters Scholarship for Developing Countries (Fully-funded) | ScholarshipAir",
+    "status": "unknown",
+    "eligibility_status": "UNCERTAIN",
+    "model_eligibility_status": "UNCERTAIN",
+    "missing_requirements": [
+      "Explicit English language proficiency requirement and acceptable test scores",
+      "Age limit or maximum age for applicants",
+      "Requirement to have a confirmed admission offer to a Malaysian university",
+      "Specific field of study eligibility (e.g., must be related to certain disciplines)",
+      "Any required number of years of work experience or minimum GPA"
+    ],
+    "blocking_issues": [],
+    "addressable_gaps": [
+      "Obtain an English proficiency test result (e.g., Duolingo English Test or MOI certificate)",
+      "Secure an admission offer or conditional acceptance from a Malaysian university",
+      "Provide any required age documentation if an upper age limit exists"
+    ],
+    "reasoning": "The program description does not specify key eligibility criteria such as required English proficiency proof, age limits, whether the applicant must already have an admission offer to a Malaysian university, or if the applicant must be currently enrolled as a student. The candidate meets the obvious criteria (Ethiopian national from a developing country, holds a BSc and seeks a Master's), but the missing, decision‑relevant details could block eligibility.",
+    "id": "333d369197b106a8",
+    "first_seen": "2026-10-11T11:17:49.219673+00:00",
+    "last_updated": "2026-10-11T11:17:49.219686+00:00"
+  },
+  "e13c0c20567854d8": {
+    "url": "https://opportunitiescorners.com/aixbio-research-fellowship-2027/",
+    "title": "AIxBio Research Fellowship 2027 in UK (Fully Funded)",
+    "status": "suspicious",
+    "credibility_status": "SUSPICIOUS",
+    "source_tier": "TIER_3",
+    "reasoning": "The listing uses a generic Gmail address (opportunitiescorners.com@gmail.com) for contact and provides no direct link to an official institutional website, which are common red flags. While no application fee is mentioned, the program (AIxBio Research Fellowship) and its sponsor (ERA & Cambridge Biosecurity Hub) cannot be independently verified from the page, suggesting the opportunity may be fabricated or untrustworthy.",
+    "id": "e13c0c20567854d8",
+    "first_seen": "2026-10-11T11:21:16.552635+00:00",
+    "last_updated": "2026-10-11T11:21:16.552649+00:00"
+  },
+  "abd8eadff6f900ef": {
+    "url": "https://www.opportunitiesforafricans.com/harvard-global-health-institute-lead-fellowship-program-2027-2028/",
+    "title": "Harvard Global Health Institute LEAD Fellowship Program 2027/2028 for Promoting Women in Global Health. (Fully Funded)",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "model_eligibility_status": "CONFIRMED_INELIGIBLE",
+    "missing_requirements": [],
+    "blocking_issues": [
+      "Does not have a Master's degree (requires minimum Master's)",
+      "Insufficient professional experience (requires ≥10 years, candidate has ~3 years)",
+      "Professional background not in global health (requires full‑time work in global health field)"
+    ],
+    "addressable_gaps": [],
+    "reasoning": "The program explicitly requires a minimum of a Master's degree and at least 10 years of full‑time professional experience in global health. The candidate holds only a BSc and has roughly 3 years of professional experience, and her work is in AI/tech and psychology rather than global health. These are hard, non‑addressable blockers for the current application cycle.",
+    "id": "abd8eadff6f900ef",
+    "first_seen": "2026-10-11T11:22:07.702036+00:00",
+    "last_updated": "2026-10-11T11:22:07.702054+00:00"
+  },
+  "f026ff2087b53357": {
+    "url": "https://www.globaladmissions.com/scholarships/country/united-states",
+    "title": "Scholarships in United States 2027: 32 Awards, 14 Fully Funded | Global Admissions",
+    "status": "notified",
+    "score": 7.0,
+    "category": "scholarships",
+    "official_url": "https://www.globaladmissions.com/scholarships/country/united-states",
+    "location": null,
+    "remote": null,
+    "deadline": "2027-05-21",
+    "reward": "fully_funded",
+    "estimated_value": null,
+    "eligibility_status": "PROBABLY_ELIGIBLE",
+    "credibility_status": "LIKELY_LEGITIMATE",
+    "source_tier": "TIER_4",
+    "source_quality": 0,
+    "requirements": [],
+    "id": "f026ff2087b53357",
+    "first_seen": "2026-10-11T11:26:26.040856+00:00",
+    "last_updated": "2026-10-11T11:36:40.916153+00:00",
+    "notification_tier": "HIGH",
+    "notified_at": "2026-10-11T11:36:40.906447+00:00"
+  },
+  "30d7c716b374444e": {
+    "url": "https://opportunitiescorners.com/shenzhen-fintech-competition-2026/",
+    "title": "Shenzhen FinTech Competition 2026 in China (Fully Funded)",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "model_eligibility_status": "CONFIRMED_INELIGIBLE",
+    "missing_requirements": [],
+    "blocking_issues": [
+      "Must be a full-time undergraduate, master’s, or PhD student enrolled at a university or research institution (candidate is a working professional, not a student)"
+    ],
+    "addressable_gaps": [
+      "English language proof (can obtain MOI certificate from Injibara University or take Duolingo English Test)",
+      "Forming a team of 2–5 students (candidate would need to find eligible student teammates)"
+    ],
+    "reasoning": "The program explicitly requires applicants to be 'a full-time undergraduate, master’s, or PhD student enrolled at a university or research institution outside Mainland China, Hong Kong SAR, Macao SAR, and Chinese Taipei.' The candidate is a working professional and not currently enrolled as a student, which directly violates this requirement.",
+    "id": "30d7c716b374444e",
+    "first_seen": "2026-10-11T11:27:08.808293+00:00",
+    "last_updated": "2026-10-11T11:27:08.808307+00:00"
+  },
+  "5a17228c55c790f0": {
+    "url": "https://www.opportunitiesforafricans.com/us-mepi-tomorrows-leaders-program-2027-2028/",
+    "title": "US-MEPI Tomorrow’s Leaders Program 2027/2028 for undergraduate & graduate Students from the Middle East and North Africa (Fully Funded)",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "model_eligibility_status": "CONFIRMED_INELIGIBLE",
+    "missing_requirements": [],
+    "blocking_issues": [
+      "Nationality not eligible - candidate is Ethiopian, program only accepts citizens of MENA countries (Algeria, Egypt, Iraq, Jordan, Lebanon, Libya, Morocco, Syria, Tunisia, West Bank/Palestinian, Yemen)",
+      "Degree level mismatch - candidate holds a BSc (bachelor's), program requires current high school seniors or 2026 high school graduates",
+      "Not currently a student - candidate is a working professional",
+      "Age - candidate is 27, program targets high school seniors/undergraduates"
+    ],
+    "addressable_gaps": [],
+    "reasoning": "The US-MEPI Tomorrow's Leaders Program explicitly restricts applicants to citizens of specific MENA countries: Algeria, Egypt, Iraq, Jordan, Lebanon, Libya, Morocco, Syria, Tunisia, West Bank or Palestinian students who currently reside in a third country with legal residency status, or Yemen. Ethiopia is not among the eligible nationalities. Additionally, the program is for undergraduate students (current high school seniors or 2026 graduates), while the candidate holds a BSc (bachelor's degree) and is a working professional, not a current student. The candidate's nationality (Ethiopian) is a hard blocker, and the degree level (bachelor's holder vs. required high school level) is also a hard blocker.",
+    "id": "5a17228c55c790f0",
+    "first_seen": "2026-10-11T11:28:50.160935+00:00",
+    "last_updated": "2026-10-11T11:28:50.160948+00:00"
+  },
+  "2cd39d3e21bf6899": {
+    "url": "https://www.opportunitiesforafricans.com/the-university-of-british-columbia-ubc-international-scholars-program-2027-for-international-students/",
+    "title": "The University of British Columbia (UBC) International Scholars Program 2027 for international students (Fully Funded)",
+    "status": "closed",
+    "deadline": null,
+    "id": "2cd39d3e21bf6899",
+    "first_seen": "2026-10-11T11:30:12.241725+00:00",
+    "last_updated": "2026-10-11T11:30:12.241739+00:00"
+  },
+  "b2b9e6fdea573b20": {
+    "url": "https://www.globaladmissions.com/scholarships/fully-funded",
+    "title": "Fully Funded Scholarships for International Students",
+    "status": "notified",
+    "score": 7.6,
+    "category": "scholarships",
+    "official_url": "https://www.globaladmissions.com/scholarships/fully-funded",
+    "location": null,
+    "remote": null,
+    "deadline": null,
+    "reward": "fully_funded",
+    "estimated_value": null,
+    "eligibility_status": "PROBABLY_ELIGIBLE",
+    "credibility_status": "LIKELY_LEGITIMATE",
+    "source_tier": "TIER_4",
+    "source_quality": 0,
+    "requirements": [],
+    "id": "b2b9e6fdea573b20",
+    "first_seen": "2026-10-11T11:35:41.045484+00:00",
+    "last_updated": "2026-10-11T11:36:40.891984+00:00",
+    "notification_tier": "WATCHLIST",
+    "notified_at": "2026-10-11T11:36:40.881163+00:00"
+  },
+  "2799060ad678746e": {
+    "url": "https://opportunitydesk.org/category/fellowships",
+    "title": "Fellowships – Opportunity Desk",
+    "status": "closed",
+    "deadline": null,
+    "id": "2799060ad678746e",
+    "first_seen": "2026-10-11T11:36:25.077341+00:00",
+    "last_updated": "2026-10-11T11:36:25.077357+00:00"
+  },
+  "d0c65ad1ab23c1cc": {
+    "url": "https://www.mandelawashingtonfellowship.org",
+    "title": "home - Mandela Washington Fellowship",
+    "status": "closed",
+    "deadline": null,
+    "id": "d0c65ad1ab23c1cc",
+    "first_seen": "2026-10-11T11:36:35.249913+00:00",
+    "last_updated": "2026-10-11T11:36:35.249929+00:00"
   }
 }
