@@ -11359,7 +11359,7 @@
   "3b5dd086004779b7": {
     "url": "https://remote.com/careers",
     "title": "Remote Careers | Remote",
-    "status": "notified",
+    "status": "ineligible",
     "score": 8.1,
     "category": "remote_jobs",
     "official_url": "https://remote.com/careers",
@@ -11368,16 +11368,28 @@
     "deadline": null,
     "reward": "fully_funded",
     "estimated_value": null,
-    "eligibility_status": "PROBABLY_ELIGIBLE",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
     "credibility_status": "LIKELY_LEGITIMATE",
     "source_tier": "TIER_4",
     "source_quality": 0,
     "requirements": [],
     "id": "3b5dd086004779b7",
     "first_seen": "2026-09-23T10:07:42.274053+00:00",
-    "last_updated": "2026-09-23T10:07:46.372426+00:00",
+    "last_updated": "2026-10-12T12:57:24.653855+00:00",
     "notification_tier": "WATCHLIST",
-    "notified_at": "2026-09-23T10:07:46.365031+00:00"
+    "notified_at": "2026-09-23T10:07:46.365031+00:00",
+    "model_eligibility_status": "CONFIRMED_INELIGIBLE",
+    "missing_requirements": [
+      "No explicit job requirements stated beyond being 'ambitious, motivated, high-performing contributor'",
+      "No specified educational qualifications listed",
+      "No language proficiency requirements stated",
+      "No citizenship restrictions mentioned",
+      "No age limits mentioned",
+      "No current student requirement"
+    ],
+    "blocking_issues": [],
+    "addressable_gaps": [],
+    "reasoning": "This is a job application for Remote.com, not a scholarship/fellowship program. The candidate is applying for employment as a working professional, which is exactly what they are. However, the program explicitly states 'Careers for anyone from anywhere' and emphasizes they are 'one of the world's largest remote-first, fully asynchronous global companies' seeking 'high-performing contributor[s] who want to demonstrate impact from anywhere.' The candidate meets the employment criteria perfectly - they are a working professional with relevant skills (AI Developer, Marketing Specialist, Psychologist) and can work remotely from Vientiane, Lao PDR. There are no stated requirements that exclude this candidate."
   },
   "207cfba484f4d4b2": {
     "url": "https://www.opportunitiesforafricans.com/the-mo-ibrahim-foundation-leadership-fellowship-programme-2027/",
@@ -11713,7 +11725,7 @@
   "8f7755e553f8280a": {
     "url": "https://www.opportunitiesforafricans.com/call-for-session-proposals-african-youth-charter-ayc-20-pan-african-youth-forum-2026/",
     "title": "Call for Session Proposals: African Youth Charter (AYC) @20 Pan African Youth Forum 2026 (Addis Ababa, Ethiopia)",
-    "status": "analyzed",
+    "status": "closed",
     "score": 3.0,
     "category": null,
     "official_url": "https://www.opportunitiesforafricans.com/call-for-session-proposals-african-youth-charter-ayc-20-pan-african-youth-forum-2026/",
@@ -11729,7 +11741,7 @@
     "requirements": [],
     "id": "8f7755e553f8280a",
     "first_seen": "2026-09-25T10:17:44.426934+00:00",
-    "last_updated": "2026-09-25T10:17:44.426950+00:00"
+    "last_updated": "2026-10-12T12:58:34.157455+00:00"
   },
   "0b3df10f7c4551ed": {
     "url": "https://www.firstinspires.org/programs/team-grant-opportunities",
@@ -14578,5 +14590,236 @@
     "id": "d0c65ad1ab23c1cc",
     "first_seen": "2026-10-11T11:36:35.249913+00:00",
     "last_updated": "2026-10-11T11:36:35.249929+00:00"
+  },
+  "2d46a4fe090d1f62": {
+    "url": "https://www.chantireviews.com/contests",
+    "title": "Chanticleer International Book Awards 2026-2027",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "model_eligibility_status": "CONFIRMED_INELIGIBLE",
+    "missing_requirements": [
+      "Candidate must have an English-language book (published or manuscript) to enter"
+    ],
+    "blocking_issues": [
+      "Candidate is not an author or publisher of an English-language book"
+    ],
+    "addressable_gaps": [],
+    "reasoning": "The Chanticleer International Book Awards are exclusively for authors and publishers of English-language books. The candidate's profile shows no evidence of any published book or manuscript; they are an AI developer, marketing specialist, and psychologist with projects like SebilAI and JobsAI, which are not books. Without being an author or publisher, the candidate cannot meet the core eligibility requirement.",
+    "id": "2d46a4fe090d1f62",
+    "first_seen": "2026-10-12T12:54:21.650989+00:00",
+    "last_updated": "2026-10-12T12:54:21.651004+00:00"
+  },
+  "3681d7641b88e3e2": {
+    "url": "https://4dayweek.io/remote-jobs",
+    "title": "Remote Jobs – Reduced Hours (2026) | 4dayweek.io",
+    "status": "analyzed",
+    "score": 4.1,
+    "category": null,
+    "official_url": "https://4dayweek.io/remote-jobs",
+    "location": null,
+    "remote": null,
+    "deadline": null,
+    "reward": "none",
+    "estimated_value": null,
+    "eligibility_status": "PROBABLY_ELIGIBLE",
+    "credibility_status": "LIKELY_LEGITIMATE",
+    "source_tier": "TIER_4",
+    "source_quality": null,
+    "requirements": [],
+    "id": "3681d7641b88e3e2",
+    "first_seen": "2026-10-12T12:56:47.577630+00:00",
+    "last_updated": "2026-10-12T12:56:47.577645+00:00"
+  },
+  "4ec30bec1f4c86b5": {
+    "url": "https://opportunitiescorners.com/world-bank-government-analytics-fellowship-2027/",
+    "title": "World Bank Government Analytics Fellowship 2027 (Fully Funded)",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "model_eligibility_status": "CONFIRMED_INELIGIBLE",
+    "missing_requirements": [
+      "Confirmation of employment with a central government agency",
+      "Proof of completed tertiary-level coursework in statistics or related quantitative methods"
+    ],
+    "blocking_issues": [
+      "Not employed by a central government organization (hard blocker)",
+      "Unverified completion of statistics or quantitative methods coursework (hard blocker if required)"
+    ],
+    "addressable_gaps": [
+      "Obtain an English proficiency test score (Duolingo, MOI, IELTS/TOEFL)",
+      "Provide evidence of statistics or quantitative methods coursework (e.g., additional courses or certificates)"
+    ],
+    "reasoning": "The fellowship explicitly requires candidates to be employed by a central government organization. The candidate's profile shows employment as an AI developer, marketing specialist, psychologist, and community leader with no indication of a government position. This is a hard blocker. Additionally, the program requires completed tertiary coursework in statistics or related quantitative methods, which is not demonstrated by the candidate's BSc in Psychology. English proficiency is also required, and the candidate currently lacks a recognized test score, though this could be addressed.",
+    "id": "4ec30bec1f4c86b5",
+    "first_seen": "2026-10-12T13:00:13.167449+00:00",
+    "last_updated": "2026-10-12T13:00:13.167464+00:00"
+  },
+  "347d3d8fd4067542": {
+    "url": "https://www.opportunitiesforafricans.com/itu-equals-in-tech-awards-2027-for-gender-equality-mainstreaming-in-technology/",
+    "title": "ITU Equals in Tech Awards 2027 for Gender Equality & Mainstreaming in Technology.",
+    "status": "ineligible",
+    "eligibility_status": "PROBABLY_INELIGIBLE",
+    "model_eligibility_status": "PROBABLY_INELIGIBLE",
+    "missing_requirements": [],
+    "blocking_issues": [
+      "Applicant must be an organization (NGO, government agency, academic institution, private‑sector entity, etc.); individual professionals are not listed as eligible."
+    ],
+    "addressable_gaps": [],
+    "reasoning": "The ITU Equals in Tech Awards eligibility explicitly lists eligible applicants as civil society NGOs, government institutions, international organizations, academic/research institutions, private‑sector entities, multi‑stakeholder initiatives, social enterprises or entrepreneurial ventures. It does not include individual applicants. Gulilat is a single professional, not an organization, so she does not meet the core applicant type requirement.",
+    "id": "347d3d8fd4067542",
+    "first_seen": "2026-10-12T13:01:13.984069+00:00",
+    "last_updated": "2026-10-12T13:01:13.984086+00:00"
+  },
+  "736426e30a2ec25d": {
+    "url": "https://www.opportunitiesforafricans.com/the-mena-regenerative-agriculture-venture-programme-2026-2027-for-sustainable-agricultural-solutions/",
+    "title": "The MENA Regenerative Agriculture Venture Programme 2026/2027 for sustainable agricultural solutions.",
+    "status": "suspicious",
+    "credibility_status": "SUSPICIOUS",
+    "source_tier": "TIER_3",
+    "reasoning": "The page provides no clear sponsoring institution, no direct link to an official programme website, and no application deadline; contact emails are generic and the only trust signal is a vague 'fully funded' claim. These omissions are typical of low‑credibility listings.",
+    "id": "736426e30a2ec25d",
+    "first_seen": "2026-10-12T13:01:58.976770+00:00",
+    "last_updated": "2026-10-12T13:01:58.976785+00:00"
+  },
+  "456e3fc601c8797c": {
+    "url": "https://www.facebook.com/opportunitiesforyouth/posts/-40-fully-funded-fellowships-for-20262027-looking-for-your-next-big-opportunity-/1482987413858607",
+    "title": "🚀 40 Fully Funded Fellowships for 2026–2027 🌍 Looking ...",
+    "status": "legitimacy_unknown",
+    "credibility_status": "NEEDS_VERIFICATION",
+    "source_tier": "TIER_4",
+    "reasoning": "The post only advertises \"40 fully funded fellowships\" without providing specific program names, official sponsors, application links, or fee information, making it impossible to verify legitimacy. While no explicit red‑flag language is present, the lack of concrete details prevents a confident assessment.",
+    "id": "456e3fc601c8797c",
+    "first_seen": "2026-10-12T13:02:26.592056+00:00",
+    "last_updated": "2026-10-12T13:02:26.592073+00:00"
+  },
+  "257b45c7f6f2a2bc": {
+    "url": "https://www.opportunitiesforafricans.com/the-agra-smedanyouth-agri-innovationcontest-2026-for-young-nigerian-agripreneurs/",
+    "title": "The AGRA–SMEDANYouth Agri‑InnovationContest 2026 for young Nigerian agripreneurs.",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "model_eligibility_status": "CONFIRMED_INELIGIBLE",
+    "missing_requirements": [
+      "Verification that the applicant is running or building an agribusiness in maize, rice, soybean or allied value chains (not confirmed)."
+    ],
+    "blocking_issues": [
+      "Nationality mismatch: program requires Nigerian citizenship; candidate is Ethiopian."
+    ],
+    "addressable_gaps": [],
+    "reasoning": "The contest explicitly requires applicants to be *Nigerian youth* aged 18‑35. The candidate is an Ethiopian national, which does not satisfy the nationality requirement. Therefore the candidate is ineligible regardless of age, education, or professional background.",
+    "id": "257b45c7f6f2a2bc",
+    "first_seen": "2026-10-12T13:03:15.648988+00:00",
+    "last_updated": "2026-10-12T13:03:15.649004+00:00"
+  },
+  "ce191bccd0d92df8": {
+    "url": "https://www.facebook.com/fundsforngos/videos/global-fellowship-programs-for-emerging-changemakers/809376898759414",
+    "title": "Looking for global fellowships to grow your career? Here are ...",
+    "status": "legitimacy_unknown",
+    "credibility_status": "NEEDS_VERIFICATION",
+    "source_tier": "TIER_4",
+    "reasoning": "The post only provides a generic invitation to watch a YouTube video for \"four top opportunities\" without naming any specific fellowship, sponsor, or application details, making it impossible to verify legitimacy. The reliance on a social‑media post and lack of official program links are red flags, but no explicit fee or scam language is present.",
+    "id": "ce191bccd0d92df8",
+    "first_seen": "2026-10-12T13:03:32.567118+00:00",
+    "last_updated": "2026-10-12T13:03:32.567133+00:00"
+  },
+  "30066533137e4184": {
+    "url": "https://www.nj.gov/labor/research-info/grants.shtml",
+    "title": "Department of Labor & Workforce Development | Grant Opportunities",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "model_eligibility_status": "CONFIRMED_INELIGIBLE",
+    "missing_requirements": [],
+    "blocking_issues": [
+      "Hard blocker: Applicant must be an eligible entity (e.g., employer, nonprofit, educational institution) with a New Jersey presence; candidate is an individual."
+    ],
+    "addressable_gaps": [],
+    "reasoning": "The grant program explicitly states that only entities such as New Jersey‑based employers, workforce intermediaries, trade associations, labor organizations, educational institutions, non‑profits, community‑based organizations, government agencies, etc., are eligible to apply. It does not list individual professionals as eligible applicants. The candidate is an individual working professional, not an organization or employer with a New Jersey presence, thus does not meet the fundamental eligibility criterion.",
+    "id": "30066533137e4184",
+    "first_seen": "2026-10-12T13:05:06.456753+00:00",
+    "last_updated": "2026-10-12T13:05:06.456765+00:00"
+  },
+  "49df63717f329abb": {
+    "url": "https://www.nsf.gov/funding/initiatives/grfp",
+    "title": "NSF Graduate Research Fellowship Program (NSF GRFP) | NSF - U.S. National Science Foundation",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "model_eligibility_status": "CONFIRMED_INELIGIBLE",
+    "missing_requirements": [
+      "explicit citizenship/nationality eligibility (U.S. citizen, national, or permanent resident not stated in the provided text)"
+    ],
+    "blocking_issues": [
+      "must be currently enrolled in a graduate program (candidate is not a student)"
+    ],
+    "addressable_gaps": [
+      "enroll in an eligible U.S. graduate program before the application deadline"
+    ],
+    "reasoning": "The NSF GRFP explicitly supports \"outstanding graduate students pursuing research-based degrees\". The candidate is a working professional and is not currently enrolled in any graduate program, which directly violates this requirement. Additionally, while the program text does not state citizenship criteria, NSF GRFP traditionally limits eligibility to U.S. citizens, nationals, or permanent residents, which the candidate does not meet, but this is not confirmed in the provided text.",
+    "id": "49df63717f329abb",
+    "first_seen": "2026-10-12T13:05:58.248578+00:00",
+    "last_updated": "2026-10-12T13:05:58.248592+00:00"
+  },
+  "8d6edbbc79302fa6": {
+    "url": "https://www.facebook.com/Yopportunity/posts/3-week-fully-funded-leadership-program-in-the-usa-open-to-all-nationalsapply-app/1105441768669462",
+    "title": "3 Week fully funded leadership program in the USA",
+    "status": "suspicious",
+    "credibility_status": "SUSPICIOUS",
+    "source_tier": "TIER_4",
+    "reasoning": "The offer is posted only on a Facebook page with no official website, sponsor, or detailed application information; the program name 'Hansen Summer Institute on Leadership and International' cannot be verified as a known reputable scholarship, and the post lacks contact details beyond the social media page.",
+    "id": "8d6edbbc79302fa6",
+    "first_seen": "2026-10-12T13:06:14.458164+00:00",
+    "last_updated": "2026-10-12T13:06:14.458182+00:00"
+  },
+  "9bf26252c5361cef": {
+    "url": "https://www.instagram.com/reel/DcakAbpTUMq",
+    "title": "Instagram",
+    "status": "legitimacy_unknown",
+    "credibility_status": "NEEDS_VERIFICATION",
+    "source_tier": "TIER_4",
+    "reasoning": "The provided source is only an Instagram Reel link with no visible content or details about a scholarship or fellowship. Without any description, terms, contact information, or fee requests, there is insufficient evidence to determine legitimacy.",
+    "id": "9bf26252c5361cef",
+    "first_seen": "2026-10-12T13:06:24.127171+00:00",
+    "last_updated": "2026-10-12T13:06:24.127190+00:00"
+  },
+  "9096e3de8d6c4546": {
+    "url": "https://studyabroad.state.gov/us-government-scholarships-and-programs/us-college-and-university-students",
+    "title": "For U.S. College and University Students | USA StudyAbroad",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "model_eligibility_status": "CONFIRMED_INELIGIBLE",
+    "missing_requirements": [],
+    "blocking_issues": [
+      "Not a U.S. citizen or permanent resident (nationality mismatch)",
+      "Not currently enrolled as a student in a U.S. college or university"
+    ],
+    "addressable_gaps": [],
+    "reasoning": "The program explicitly targets U.S. college and university students. The candidate is an Ethiopian national, not a U.S. citizen or permanent resident, and is not currently enrolled as a student. These are hard blockers.",
+    "id": "9096e3de8d6c4546",
+    "first_seen": "2026-10-12T13:07:37.240512+00:00",
+    "last_updated": "2026-10-12T13:07:37.240527+00:00"
+  },
+  "1455661ef474f0cd": {
+    "url": "https://www.theopen.com",
+    "title": "The Open | Golf's Original Championship",
+    "status": "filtered_out",
+    "reason": "It's a golf championship event with ticket sales, not a funded scholarship or fellowship.",
+    "id": "1455661ef474f0cd",
+    "first_seen": "2026-10-12T13:07:46.935289+00:00",
+    "last_updated": "2026-10-12T13:07:46.935304+00:00"
+  },
+  "e1c78f300c1c26b7": {
+    "url": "https://www.openevidence.com",
+    "title": "OpenEvidence",
+    "status": "filtered_out",
+    "reason": "The text provides no scholarship or fellowship details, only a list of organizations, so it is not a funding opportunity.",
+    "id": "e1c78f300c1c26b7",
+    "first_seen": "2026-10-12T13:07:52.914987+00:00",
+    "last_updated": "2026-10-12T13:07:52.915002+00:00"
+  },
+  "1288b17bdb874221": {
+    "url": "https://www.open-contracting.org",
+    "title": "Open Contracting Partnership",
+    "status": "filtered_out",
+    "reason": "The text describes an organization, not a funded scholarship or fellowship opportunity.",
+    "id": "1288b17bdb874221",
+    "first_seen": "2026-10-12T13:08:16.768069+00:00",
+    "last_updated": "2026-10-12T13:08:16.768083+00:00"
   }
 }
