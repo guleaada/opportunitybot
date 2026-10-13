@@ -880,31 +880,14 @@
     "last_checked": "2026-10-12T12:58:25.252543",
     "last_known_deadline": "2026-10-04"
   },
-  "c1e43896283938c7": {
-    "url": "https://gradoffice.caltech.edu/financialsupport/ExternalInternational",
-    "title": "External Fellowships for International Students",
-    "retry_analysis": true,
-    "snippet": "HHMI International Student Research FellowshipsThis fellowship program supports outstanding international predoctoral students studying in the United States who are ineligible for fellowships or training grants through U.S. federal agencies. Participation is by invitation only. Nominated students must be in their second or third year of study to apply for the fellowship. To activate the fellowship, students must be in the third or fourth year of a PhD program at one of the designated [...] The Grass Foundation Fellowship ProgramGrass Fellowships at the Marine Biological Laboratory (MBL) in Woods Hole, Massachusetts, USA, support investigator-designed, independent research projects by scientists early in their career. Early investigators (late stage predoctoral trainees and beyond) are eligible to apply. This includes applicants with prior experience at MBL or with the Grass Foundation (MBL course alumni are encouraged to apply). Priority is given to applicants with a demonstrated [...] Epilepsy Foundation of America - Research Training FellowshipsThe Epilepsy Foundation supports a series of grants and fellowships to advance the understanding of epilepsy that will lead to better treatment, more effective prevention, and ultimately to a cure. Funding is available to researchers at all professional levels including students, junior investigators and established investigators.",
-    "reason": "legitimacy check returned an unparseable reply; retry on a later run",
-    "id": "c1e43896283938c7",
-    "added": "2026-09-26T09:56:09.600069+00:00"
-  },
-  "3c0e0eeada8baf51": {
-    "url": "https://scholarships365.info",
-    "title": "Scholarship for International Students 2026-2027",
-    "retry_analysis": true,
-    "snippet": "United Kingdom\n\n## Chevening Scholarship 2027 in UK [Fully Funded Scholarships]]( ARES Scholarship 2027/28 in Belgium | Fully Funded\n\nFeatured\n\nBelgium\n\n## ARES Scholarship 2027/28 in Belgium | Fully Funded Study in Finland Without IELTS on Scholarship 2026-2027\n\nFeatured\n\nFinland\n\n## Study in Finland Without IELTS on Scholarship 2026-2027 Netherlands Scholarships Without IELTS 2026, Study in Europe\n\nFeatured\n\nNetherlands [...] Saudi Arabia\n\nAugust 19, 2026\n\n### 10 Best Saudi Arabia Scholarships 2026-2027 [Fully Funded]]( Australia Skilled Migration Visa 2027 - Complete Guide\n\nGuidelines\n\nAustralia\n\nAugust 16, 2026\n\n### Australia Skilled Migration Visa 2027 - Complete Guide Sweden Opportunity Card 2027 - Move to Sweden Without a Job \n\nGuidelines\n\nSweden\n\nAugust 15, 2026\n\n### Sweden Opportunity Card 2027 - Move to Sweden Without a Job Scholarships for College Students (2026-2027): Full Guide\n\nScholarships [...] United States\n\n## Scholarships for College Students (2026-2027): Full Guide Scholarships in Norway 2026-2027 Without IELTS (Full Guide)\n\nFeatured\n\nNorway\n\n## Scholarships in Norway 2026-2027 Without IELTS (Full Guide) [![Study in Poland Without IELTS on Scholarship [Fully Funded]](\n\nFeatured\n\nPoland\n\n## Study in Poland Without IELTS on Scholarship [Fully Funded]]( [![Chevening Scholarship 2027 in UK [Fully Funded Scholarships]](\n\nFeatured\n\nUnited Kingdom",
-    "reason": "legitimacy check returned an unparseable reply; retry on a later run",
-    "id": "3c0e0eeada8baf51",
-    "added": "2026-09-26T09:56:20.665500+00:00"
-  },
   "aa263afa069b84c6": {
     "url": "https://www.daad.de/en/information-services-for-higher-education-institutions/further-information-on-daad-programmes/in-countryin-region-programme-in-developing-countries",
     "title": "In-Country/In-Region Programme in Developing Countries",
     "last_known_deadline": null,
     "reason": "monitoring — not confirmed open at scan time",
     "id": "aa263afa069b84c6",
-    "added": "2026-09-26T09:58:31.428836+00:00"
+    "added": "2026-10-13T12:31:00.586454+00:00",
+    "last_checked": "2026-10-13T12:31:00.585785"
   },
   "d0f1e12832a8d9bc": {
     "url": "https://theogpd.org/product/fully-funded-wlc",
@@ -912,7 +895,8 @@
     "last_known_deadline": null,
     "reason": "closed at discovery; likely annual",
     "id": "d0f1e12832a8d9bc",
-    "added": "2026-09-27T10:32:40.939146+00:00"
+    "added": "2026-10-13T12:31:25.170958+00:00",
+    "last_checked": "2026-10-13T12:31:01.244606"
   },
   "642a687684227d8b": {
     "url": "https://ghcorps.org/africa-leadership-accelerator-overview",
@@ -920,7 +904,8 @@
     "last_known_deadline": null,
     "reason": "closed at discovery; likely annual",
     "id": "642a687684227d8b",
-    "added": "2026-09-27T10:36:47.630011+00:00"
+    "added": "2026-10-13T12:31:25.180933+00:00",
+    "last_checked": "2026-10-13T12:31:25.180207"
   },
   "3083111c54069377": {
     "url": "https://www.opportunitiesforafricans.com/d-prize-challenge-2026-2027",
@@ -1367,5 +1352,95 @@
     "reason": "monitoring — not confirmed open at scan time",
     "id": "b2b9e6fdea573b20",
     "added": "2026-10-11T11:36:35.268608+00:00"
+  },
+  "35fbbf8c3e9fc550": {
+    "url": "https://www.opportunitiesforafricans.com/the-2027-united-nations-regional-course-in-international-law-for-africa/",
+    "title": "The 2027 United Nations Regional Course in International Law for Africa – Addis Ababa, Ethiopia (Fully Funded)",
+    "retry_analysis": true,
+    "snippet": "Application Deadline: 30 October 2026 Applications are now open for the 2027 United Nations Regional Course in International Law for Africa. The Codification Division of the United Nations Office of… The post The 2027 United Nations Regional Course in International Law for Africa – Addis Ababa, Ethiopia (Fully Funded) appeared first on Opportunities For Africans .",
+    "reason": "legitimacy check returned an unparseable reply; retry on a later run",
+    "id": "35fbbf8c3e9fc550",
+    "added": "2026-10-13T12:35:10.758147+00:00"
+  },
+  "55c632d2e2c4f561": {
+    "url": "https://www.opportunitiesforafricans.com/falling-walls-female-science-talents-intensive-track-2027/",
+    "title": "Falling Walls Female Science Talents Intensive Track 2027 for outstanding early-career women in science worldwide (Fully Funded)",
+    "retry_analysis": true,
+    "snippet": "Application Deadline: 15 November 2026 Applications are now open for the 2027 Falling Walls Female Science Talents Intensive Track. The program is looking for 20 exceptionally talented women* in science… The post Falling Walls Female Science Talents Intensive Track 2027 for outstanding early-career women in science worldwide (Fully Funded) appeared first on Opportunities For Africans .",
+    "reason": "legitimacy check returned an unparseable reply; retry on a later run",
+    "id": "55c632d2e2c4f561",
+    "added": "2026-10-13T12:35:41.807011+00:00"
+  },
+  "045d2d199b86cbc0": {
+    "url": "https://www.opportunitiesforafricans.com/the-global-women-connect-mentoring-programme-2026-2027/",
+    "title": "The Global Women Connect Mentoring Programme 2026/2027",
+    "retry_analysis": true,
+    "snippet": "Application Deadline: October 16, 2026 Applications are now open for the 2026/2027 Global Women Connect Mentoring Programme. Part of Global Women Connect, the Global Women Connect Mentoring Programme is a… The post The Global Women Connect Mentoring Programme 2026/2027 appeared first on Opportunities For Africans .",
+    "reason": "legitimacy check returned an unparseable reply; retry on a later run",
+    "id": "045d2d199b86cbc0",
+    "added": "2026-10-13T12:36:05.910659+00:00"
+  },
+  "436f54baaa0cd604": {
+    "url": "https://www.opportunitiesforafricans.com/the-echidna-global-scholars-program-2027-at-brookings-institution/",
+    "title": "The Echidna Global Scholars Program 2027 at Brookings Institution, Washington D.C USA ($26,500 USD Stipend & Fully Funded)",
+    "retry_analysis": true,
+    "snippet": "Application Deadline: December 1, 2026. Applications are now open for the 2027 Echidna Global Scholars Program. The Echidna Global Scholars Program at the Center for Universal Education (CUE) at Brookings… The post The Echidna Global Scholars Program 2027 at Brookings Institution, Washington D.C USA ($26,500 USD Stipend & Fully Funded) appeared first on Opportunities For Africans .",
+    "reason": "legitimacy check returned an unparseable reply; retry on a later run",
+    "id": "436f54baaa0cd604",
+    "added": "2026-10-13T12:37:10.124524+00:00"
+  },
+  "4be7ebb8b4aa82f1": {
+    "url": "https://www.opportunitiesforafricans.com/the-african-export-import-bank-afreximbank-internship-program-2027-2028/",
+    "title": "The African Export -Import Bank (Afreximbank) Internship Program 2027/2028 for young Africans (Monthly tax-free stipend of USD 1000)",
+    "reason": "ANALYSIS_UNAVAILABLE — deep_eligibility: incomplete or invalid response after retry",
+    "retry_analysis": true,
+    "snippet": "Application Deadline: October 31st, 2026 Applications are now open for the 2027/2028 African Export -Import Bank (Afreximbank) Internship Program. Afreximbank Group recognises that as part of its mandate to promote… The post The African Export -Import Bank (Afreximbank) Internship Program 2027/2028 for young Africans (Monthly tax-free stipend of USD 1000) appeared first on Opportunities For Africans .",
+    "id": "4be7ebb8b4aa82f1",
+    "added": "2026-10-13T12:42:24.499289+00:00"
+  },
+  "c93621581a287558": {
+    "url": "https://www.opportunitiesforafricans.com/the-unicef-sweden-funding-opportunity-for-femtech-solutions/",
+    "title": "The UNICEF/Sweden Funding opportunity for femtech solutions (US$100,000)",
+    "reason": "ANALYSIS_UNAVAILABLE — deep_eligibility: incomplete or invalid response after retry",
+    "retry_analysis": true,
+    "snippet": "Application Deadline: 4 November 2026 Applications are now open for the 2026 UNICEF/Sweden Funding opportunity for femtech solutions. UNICEF Femtech Ventures is seeking applications to join its second annual cohort… The post The UNICEF/Sweden Funding opportunity for femtech solutions (US$100,000) appeared first on Opportunities For Africans .",
+    "id": "c93621581a287558",
+    "added": "2026-10-13T12:46:17.978622+00:00"
+  },
+  "e23b54f83a63b25e": {
+    "url": "https://www.opportunitiesforafricans.com/the-ban-ki-moon-centre-for-global-citizens-your-future-in-greenjobs-mentorship-program-2026/",
+    "title": "The Ban Ki-moon Centre for Global Citizens Your Future in GreenJobs Mentorship Program 2026",
+    "reason": "ANALYSIS_UNAVAILABLE — deep_eligibility: incomplete or invalid response after retry",
+    "retry_analysis": true,
+    "snippet": "Application Deadline: October 25, 2026 at 6:55 PM Applications are now open for the 2026 Ban Ki-moon Centre for Global Citizens Your Future in GreenJobs Mentorship Program. The Ban Ki-moon… The post The Ban Ki-moon Centre for Global Citizens Your Future in GreenJobs Mentorship Program 2026 appeared first on Opportunities For Africans .",
+    "id": "e23b54f83a63b25e",
+    "added": "2026-10-13T12:47:50.939075+00:00"
+  },
+  "a96abafb97905934": {
+    "url": "https://dfcentre.com/research/calls-for-applications",
+    "title": "Calls for applications - Danida Fellowship Centre",
+    "reason": "ANALYSIS_UNAVAILABLE — deep_eligibility: incomplete or invalid response after retry",
+    "retry_analysis": true,
+    "snippet": "The situation also affects the timing of the forthcoming research call. In early 2027, Danida Fellowship Centre expects clarification from the Ministry of Foreign Affairs of Denmark on key dates for the next FFU call. Updates will be posted on the DFC website and in the newsletter. [...] Phase 2 Guidelines 2026 (2nd version)\n\nFind more resources to help you with your application.\n\n## DANIDA RESEARCH PORTAL\n\nExplore current and completed research projects\n\n## PHASE 1 - RESOURCES FOR PREPARING YOUR APPLICATION\n\nHow to write a good proposal\n\nAssessment criteria, rejection codes and examples\n\nSustainable Development Goals\n\nA Changing World - Partnerships in Development, Denmark’s Strategy for Development Cooperation [...] Call for research applications 2026\n\nRevised timeline for applicants\n\n## An application in two phases\n\nThe application round is two-phased:\n\nPhase 1 is the first step of a process in which applicants submit project ideas leading to prequalification\n\nPhase 2 is the submission of a full application by those selected in Phase 1 (“prequalified”)\n\nApplications for funding are submitted via Danida Fellowship Centre’s online application portal, SurveyMonkey Apply.\n\nCall for research applications 2026",
+    "id": "a96abafb97905934",
+    "added": "2026-10-13T12:50:15.979307+00:00"
+  },
+  "ee8b42d8bad69ea9": {
+    "url": "https://www.facebook.com/groups/1052310093701788/posts/1379391060993688",
+    "title": "Top postdoc fellowships in the world for 2026-2027",
+    "retry_analysis": true,
+    "snippet": "The JSPS Fellowship 2026/27 is a prestigious fully funded research opportunity in Japan for international postdoctoral researchers.",
+    "reason": "legitimacy check returned an unparseable reply; retry on a later run",
+    "id": "ee8b42d8bad69ea9",
+    "added": "2026-10-13T12:50:47.476581+00:00"
+  },
+  "96de522649092d9e": {
+    "url": "https://www.nsf.gov/funding/opportunities/grfp-nsf-graduate-research-fellowship-program",
+    "title": "NSF Graduate Research Fellowship Program (GRFP)",
+    "reason": "ANALYSIS_UNAVAILABLE — all configured providers unavailable for 'check_deadline' (tried: openrouter, mistral, gemini)",
+    "retry_analysis": true,
+    "snippet": "This program provides educational opportunities for Graduate students and Undergraduate students. \n\n## Upcoming due dates\n\n Full proposal \n\n2026\n\nOctober 19 2026  - Deadline date \n\nLife Sciences\n\nOctober 20 2026  - Deadline date \n\nComputer and Information Science and Engineering; Materials Research; Psychology; Social Sciences\n\nOctober 22 2026  - Deadline date \n\nEngineering\n\nOctober 23 2026  - Deadline date \n\nChemistry; Geosciences; Mathematical Sciences; Physics and Astronomy [...] - \nAn eligible applicant may submit only one application per annual competition.\n\n### There is additional eligibility information. Please see solicitation for details.\n\n Review full program guidelines and learn how to submit a proposal in the latest solicitation. Read the solicitation NSF 26-526\n\n## Share\n\nShare on FacebookShare on X (formerly known as Twitter)Share on LinkedInEmail\n\nTop\n\n   Publication date:  August 25, 2026 \n   Last updated:  October 2, 2026 [...] ## Past\n\n   October 5, 2026 - NSF GRFP Reviewer Information Session Webinar\n   September 30, 2026 - NSF GRFP Applicant Webinar\n   September 24, 2026 - NSF GRFP Reviewer Information Session Webinar\n   September 23, 2026 - NSF GRFP Applicant Office Hours\n   September 17, 2026 - NSF GRFP Applicant Webinar\n\n## Additional program resources",
+    "id": "96de522649092d9e",
+    "added": "2026-10-13T12:50:51.959613+00:00"
   }
 }

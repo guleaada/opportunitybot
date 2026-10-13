@@ -11979,7 +11979,7 @@
     "deadline": null,
     "id": "d0f1e12832a8d9bc",
     "first_seen": "2026-09-27T10:32:40.926037+00:00",
-    "last_updated": "2026-09-27T10:32:40.926049+00:00"
+    "last_updated": "2026-10-13T12:31:25.157943+00:00"
   },
   "8584761c8371bb86": {
     "url": "https://www.facebook.com/61563002085275/posts/fully-funded-leadership-programs-with-travel-covered-global-opportunities-for-20/122229642902433402",
@@ -14821,5 +14821,134 @@
     "id": "1288b17bdb874221",
     "first_seen": "2026-10-12T13:08:16.768069+00:00",
     "last_updated": "2026-10-12T13:08:16.768083+00:00"
+  },
+  "c1e43896283938c7": {
+    "url": "https://gradoffice.caltech.edu/financialsupport/ExternalInternational",
+    "title": "External Fellowships for International Students",
+    "status": "unknown",
+    "eligibility_status": "UNCERTAIN",
+    "model_eligibility_status": "UNCERTAIN",
+    "missing_requirements": [
+      "Whether applicants must be currently enrolled in a graduate program or be a recent graduate.",
+      "Specific degree level required (e.g., master's, PhD).",
+      "Age limits or caps.",
+      "English language proficiency minimums and accepted test types.",
+      "Citizenship restrictions beyond being an 'international' applicant.",
+      "Academic performance criteria (GPA, honors).",
+      "Any residency or work‑experience restrictions."
+    ],
+    "blocking_issues": [],
+    "addressable_gaps": [
+      "Obtain an English proficiency test result (e.g., Duolingo, IELTS, TOEFL) if the fellowship requires it.",
+      "Provide proof of bachelor's degree and transcripts if academic qualifications are needed.",
+      "Demonstrate current enrollment or recent graduation status if the fellowship is limited to current students or recent graduates."
+    ],
+    "reasoning": "The program description provides no explicit eligibility criteria. While the candidate meets the broad notion of being an 'international student' by nationality, the text does not state whether current enrollment, a specific degree level, age limits, or English proficiency are required. These missing, decision‑relevant criteria could block the candidate, so we cannot confirm eligibility.",
+    "id": "c1e43896283938c7",
+    "first_seen": "2026-10-13T12:30:48.595872+00:00",
+    "last_updated": "2026-10-13T12:30:48.595886+00:00"
+  },
+  "3c0e0eeada8baf51": {
+    "url": "https://scholarships365.info",
+    "title": "Scholarship for International Students 2026-2027",
+    "status": "suspicious",
+    "credibility_status": "SUSPICIOUS",
+    "source_tier": "TIER_4",
+    "reasoning": "The site is a generic aggregator that pushes users to join WhatsApp, Telegram and offers paid \"expert support\" services, but provides no direct links to official scholarship pages or verifiable sources. While it does not request fees for the scholarships themselves, the heavy marketing and lack of transparent sourcing are red flags.",
+    "id": "3c0e0eeada8baf51",
+    "first_seen": "2026-10-13T12:31:00.561666+00:00",
+    "last_updated": "2026-10-13T12:31:00.561677+00:00"
+  },
+  "5b162adc4a3db0d5": {
+    "url": "https://www.opportunitiesforafricans.com/the-global-investigative-journalism-conference-fellowship-2027-for-journalists-from-the-global-south/",
+    "title": "The Global Investigative Journalism Conference Fellowship 2027 for Journalists from the Global South (Fully Funded to Rotterdam, The Netherlands)",
+    "status": "ineligible",
+    "eligibility_status": "PROBABLY_INELIGIBLE",
+    "model_eligibility_status": "PROBABLY_INELIGIBLE",
+    "missing_requirements": [
+      "English proficiency proof (not stated as a requirement but not verified)"
+    ],
+    "blocking_issues": [
+      "Not a professional journalist (required by fellowship eligibility)"
+    ],
+    "addressable_gaps": [
+      "Provide documented evidence of professional journalism work (e.g., bylines, published articles, media employment) if available"
+    ],
+    "reasoning": "The fellowship explicitly requires applicants to be professional journalists (print, online, TV, radio, documentary, or multimedia). Gulilat's profile lists roles as AI developer, marketing specialist, psychologist, and community leader with no evidence of professional journalism experience, which does not satisfy this core eligibility criterion. All other stated criteria (global‑south nationality, age, professional status) are met or not specified as limiting.",
+    "id": "5b162adc4a3db0d5",
+    "first_seen": "2026-10-13T12:33:11.383546+00:00",
+    "last_updated": "2026-10-13T12:33:11.383558+00:00"
+  },
+  "570c06f2533039f5": {
+    "url": "https://www.opportunitiesforafricans.com/niger-delta-development-commission-nddc-local-postgraduate-scholarship-programme-2026-2027-for-nigerian-students/",
+    "title": "Niger Delta Development Commission (NDDC) Local Postgraduate Scholarship Programme 2026/2027 for Nigerian Students.",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "model_eligibility_status": "CONFIRMED_INELIGIBLE",
+    "missing_requirements": [
+      "WAEC/NECO examination results",
+      "Valid Local Government Identification Letter",
+      "NIN (National Identification Number) slip",
+      "Proof of Niger Delta indigene status (Community Development Committee verification)",
+      "English language proficiency test score (if required by the Nigerian university)"
+    ],
+    "blocking_issues": [
+      "Nationality: must be an indigene of the Niger Delta Region (Ethiopian national)",
+      "NYSC discharge or exemption certificate required (not obtainable by non‑Nigerian)",
+      "Admission letter must be from a recognised Nigerian university (candidate is not a student and has no such letter)"
+    ],
+    "addressable_gaps": [
+      "Obtain a valid admission letter for a Master's programme at a recognised Nigerian university (possible if the candidate enrolls)",
+      "Provide WAEC/NECO results (if the candidate had taken them)",
+      "Provide Local Government Identification Letter and NIN slip (if the candidate could obtain Nigerian IDs)"
+    ],
+    "reasoning": "The programme explicitly requires applicants to be indigenes of the Niger Delta Region (i.e., Nigerian nationals) and to hold a valid NYSC discharge or exemption certificate. The candidate is an Ethiopian national and does not possess Nigerian citizenship or NYSC documentation, which are hard, non‑addressable blockers. Additional required items such as a Nigerian university admission letter and Nigerian-specific identification documents are also missing.",
+    "id": "570c06f2533039f5",
+    "first_seen": "2026-10-13T12:34:20.566767+00:00",
+    "last_updated": "2026-10-13T12:34:20.566776+00:00"
+  },
+  "481e141e87013649": {
+    "url": "https://www.opportunitiesforafricans.com/the-undp-timbuktoo-pan-african-minetech-exploration-technology-pre-incubation-programme-2026/",
+    "title": "The UNDP Timbuktoo Pan-African MineTech Exploration Technology Pre-Incubation Programme 2026 for African MineTech startup.",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "model_eligibility_status": "CONFIRMED_INELIGIBLE",
+    "missing_requirements": [
+      "English language proficiency requirement not stated (but irrelevant due to geographic blocker).",
+      "Specific academic discipline requirements (candidate has Psychology + AI/tech skills; may meet 'complementary skills' but unverified)."
+    ],
+    "blocking_issues": [
+      "Candidate is not based in any of the six eligible countries (Botswana, Liberia, Malawi, Nigeria, Zambia, Zimbabwe).",
+      "Candidate cannot form a team of 2–5 members all based in the same eligible country from Lao PDR."
+    ],
+    "addressable_gaps": [],
+    "reasoning": "The program explicitly requires all team members to be based in one of six eligible countries: Botswana, Liberia, Malawi, Nigeria, Zambia, or Zimbabwe. The candidate is based in Vientiane, Lao PDR, which is not an eligible country. This is a hard geographic blocker that cannot be addressed without relocating. Additionally, the candidate would need to form a multidisciplinary team of 2–5 members all based in the same eligible country, which is not feasible from their current location.",
+    "id": "481e141e87013649",
+    "first_seen": "2026-10-13T12:39:08.055695+00:00",
+    "last_updated": "2026-10-13T12:39:08.055706+00:00"
+  },
+  "d10aabaf3ffcf011": {
+    "url": "https://opportunitiescorners.com/who-ethics-internship-2027-in-switzerland/",
+    "title": "WHO Ethics Internship 2027 in Switzerland (PAID)",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "model_eligibility_status": "CONFIRMED_INELIGIBLE",
+    "missing_requirements": [
+      "Proof of current postgraduate enrollment or completion within 18 months",
+      "English proficiency certification (IELTS/TOEFL) despite ability to obtain MOI or Duolingo",
+      "Confirmation of whether BSc Psychology qualifies as 'related discipline' for the specified fields"
+    ],
+    "blocking_issues": [
+      "Not currently enrolled in a postgraduate qualification (requires enrollment OR completion within 18 months); BSc in Psychology may not satisfy the required disciplinary background (bioethics, public health, medicine, philosophy, law)",
+      "Current occupation is working professional, not a student (contradicts 'enrolled in postgraduate qualification' requirement)"
+    ],
+    "addressable_gaps": [
+      "Obtain English proficiency certification (MOI or Duolingo English Test) before applying",
+      "Potential misalignment between BSc Psychology and required fields (bioethics, public health, medicine, philosophy, law)"
+    ],
+    "reasoning": "The program explicitly states eligibility criteria including: 'Be enrolled in a postgraduate qualification or have completed one within the preceding 18 months.' The candidate is an Ethiopian national, age 27, who graduated with a BSc in Psychology in 2021 and is currently a working professional (not a student). This directly violates the core requirement of being enrolled in a postgraduate program or completing one within the last 18 months.",
+    "id": "d10aabaf3ffcf011",
+    "first_seen": "2026-10-13T12:40:54.173530+00:00",
+    "last_updated": "2026-10-13T12:40:54.173541+00:00"
   }
 }
