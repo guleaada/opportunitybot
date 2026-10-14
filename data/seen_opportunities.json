@@ -12172,25 +12172,25 @@
   "1e0b54556f9ff082": {
     "url": "https://sologrants.com/guide/solo-grant",
     "title": "Solo Grants — $100–$1,000 | Solo Grants Guide",
-    "status": "notified",
-    "score": 6.6,
-    "category": "startup_funding",
+    "status": "analyzed",
+    "score": 4.8,
+    "category": null,
     "official_url": "https://sologrants.com/guide/solo-grant",
     "location": null,
     "remote": null,
     "deadline": null,
-    "reward": "partial",
+    "reward": "fully_funded",
     "estimated_value": null,
     "eligibility_status": "CONFIRMED_ELIGIBLE",
     "credibility_status": "LIKELY_LEGITIMATE",
     "source_tier": "TIER_4",
-    "source_quality": 0,
+    "source_quality": null,
     "requirements": [
       "Written application form (including personal background, project description, and budget breakdown)"
     ],
     "id": "1e0b54556f9ff082",
     "first_seen": "2026-09-28T11:41:31.397047+00:00",
-    "last_updated": "2026-09-28T11:44:22.783137+00:00",
+    "last_updated": "2026-10-14T09:58:58.098306+00:00",
     "notification_tier": "WATCHLIST",
     "notified_at": "2026-09-28T11:44:22.773910+00:00"
   },
@@ -14950,5 +14950,244 @@
     "id": "d10aabaf3ffcf011",
     "first_seen": "2026-10-13T12:40:54.173530+00:00",
     "last_updated": "2026-10-13T12:40:54.173541+00:00"
+  },
+  "c54ef88b237b271e": {
+    "url": "https://opportunitiesforyouth.org/2025/07/08/fully-funded-phd-in-climate-change-human-migration-and-relocation-university-of-melbourne-2026",
+    "title": "Fully Funded PhD in Climate Change, Human Migration and Relocation – University of Melbourne 2026 - Opportunities for Youth",
+    "status": "analyzed",
+    "score": 2.4,
+    "category": null,
+    "official_url": "https://opportunitiesforyouth.org/2025/07/08/fully-funded-phd-in-climate-change-human-migration-and-relocation-university-of-melbourne-2026",
+    "location": null,
+    "remote": null,
+    "deadline": null,
+    "reward": "fully_funded",
+    "estimated_value": null,
+    "eligibility_status": "UNCERTAIN",
+    "credibility_status": "NEEDS_VERIFICATION",
+    "source_tier": "TIER_3",
+    "source_quality": 7,
+    "requirements": [],
+    "id": "c54ef88b237b271e",
+    "first_seen": "2026-10-14T10:00:22.888709+00:00",
+    "last_updated": "2026-10-14T10:00:22.888723+00:00"
+  },
+  "dd555e27e51fb9c6": {
+    "url": "https://artinfoland.com/opportunities/ai-futures-challenge-2026-worldbuilding-open-call",
+    "title": "AI Futures Challenge 2026 – Worldbuilding Competition Open Call",
+    "status": "legitimacy_unknown",
+    "credibility_status": "NEEDS_VERIFICATION",
+    "source_tier": "TIER_4",
+    "reasoning": "The page provides no concrete details about the AI Futures Challenge, such as an official sponsor, website, or contact information, and requires a paid membership to access the full listing, which is a red flag. However, the lack of explicit scam indicators (e.g., payment to personal accounts, guaranteed selection) prevents a definitive 'scam' classification.",
+    "id": "dd555e27e51fb9c6",
+    "first_seen": "2026-10-14T10:00:48.266600+00:00",
+    "last_updated": "2026-10-14T10:00:48.266616+00:00"
+  },
+  "0a9c7183283e6d9a": {
+    "url": "https://www.opportunitiesforafricans.com/the-afrinvest-analyst-programme-taap-2027-for-young-nigerian-graduates-24-month-programme/",
+    "title": "The Afrinvest Analyst Programme (TAAP) 2027 for Young Nigerian Graduates (24-Month Programme)",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "model_eligibility_status": "PROBABLY_INELIGIBLE",
+    "missing_requirements": [],
+    "blocking_issues": [
+      "Nationality requirement: programme appears limited to Nigerian graduates"
+    ],
+    "addressable_gaps": [],
+    "reasoning": "The programme is titled “Afrinvest Analyst Programme (TAAP) 2027 for Young Nigerian Graduates”, indicating a nationality restriction to Nigerian nationals. The candidate is Ethiopian, which likely disqualifies them. All other listed requirements (Bachelor’s degree, communication skills, etc.) appear to be met or addressable.",
+    "id": "0a9c7183283e6d9a",
+    "first_seen": "2026-10-14T10:02:21.829526+00:00",
+    "last_updated": "2026-10-14T10:02:21.829544+00:00"
+  },
+  "35fbbf8c3e9fc550": {
+    "url": "https://www.opportunitiesforafricans.com/the-2027-united-nations-regional-course-in-international-law-for-africa/",
+    "title": "The 2027 United Nations Regional Course in International Law for Africa – Addis Ababa, Ethiopia (Fully Funded)",
+    "status": "ineligible",
+    "eligibility_status": "PROBABLY_INELIGIBLE",
+    "model_eligibility_status": "PROBABLY_INELIGIBLE",
+    "missing_requirements": [],
+    "blocking_issues": [
+      "Legal background required (candidate has a Psychology degree, not law)",
+      "No professional experience in international law"
+    ],
+    "addressable_gaps": [
+      "English proficiency proof (can obtain Duolingo or MOI certificate)"
+    ],
+    "reasoning": "The program requires a legal background with professional experience in international law. The candidate holds a BSc in Psychology and works as an AI developer/marketing specialist, with no law degree or demonstrated experience in international law, which is a hard blocker. English fluency is required but can be addressed; however, the lack of a legal background alone makes the candidate ineligible.",
+    "id": "35fbbf8c3e9fc550",
+    "first_seen": "2026-10-14T10:03:27.031042+00:00",
+    "last_updated": "2026-10-14T10:03:27.031055+00:00"
+  },
+  "55c632d2e2c4f561": {
+    "url": "https://www.opportunitiesforafricans.com/falling-walls-female-science-talents-intensive-track-2027/",
+    "title": "Falling Walls Female Science Talents Intensive Track 2027 for outstanding early-career women in science worldwide (Fully Funded)",
+    "status": "ineligible",
+    "eligibility_status": "PROBABLY_INELIGIBLE",
+    "model_eligibility_status": "PROBABLY_INELIGIBLE",
+    "missing_requirements": [],
+    "blocking_issues": [
+      "Degree level mismatch: only a BSc, no PhD or equivalent advanced scientific qualification",
+      "Current status: not a PhD student or postdoctoral researcher"
+    ],
+    "addressable_gaps": [
+      "English proficiency proof (e.g., Duolingo or MOI certificate) could be obtained, but does not resolve the primary degree requirement"
+    ],
+    "reasoning": "The program explicitly requires applicants to be PhD students in the final stage of their research or postdoctoral researchers who completed their PhD in 2021 or later, or to hold qualifications equivalent to a PhD/postdoc. The candidate holds only a BSc and is a working professional, not a PhD student or postdoc, and does not have an advanced qualification equivalent to a PhD. Therefore she does not meet the core eligibility criterion.",
+    "id": "55c632d2e2c4f561",
+    "first_seen": "2026-10-14T10:04:36.545604+00:00",
+    "last_updated": "2026-10-14T10:04:36.545617+00:00"
+  },
+  "045d2d199b86cbc0": {
+    "url": "https://www.opportunitiesforafricans.com/the-global-women-connect-mentoring-programme-2026-2027/",
+    "title": "The Global Women Connect Mentoring Programme 2026/2027",
+    "status": "legitimacy_unknown",
+    "credibility_status": "NEEDS_VERIFICATION",
+    "source_tier": "TIER_3",
+    "reasoning": "The page lists a free mentorship programme with no application fee, which is typical for legitimate programmes, but provides only generic email contacts and no direct link to an official programme website, making verification difficult.",
+    "id": "045d2d199b86cbc0",
+    "first_seen": "2026-10-14T10:05:11.437095+00:00",
+    "last_updated": "2026-10-14T10:05:11.437126+00:00"
+  },
+  "436f54baaa0cd604": {
+    "url": "https://www.opportunitiesforafricans.com/the-echidna-global-scholars-program-2027-at-brookings-institution/",
+    "title": "The Echidna Global Scholars Program 2027 at Brookings Institution, Washington D.C USA ($26,500 USD Stipend & Fully Funded)",
+    "status": "legitimacy_unknown",
+    "credibility_status": "NEEDS_VERIFICATION",
+    "source_tier": "TIER_3",
+    "reasoning": "The page does not mention any application fee, which is a positive sign, but it provides no direct link to an official Brookings Institution webpage and uses generic contact emails, making it impossible to verify the program's existence on the host institution's site.",
+    "id": "436f54baaa0cd604",
+    "first_seen": "2026-10-14T10:06:10.458052+00:00",
+    "last_updated": "2026-10-14T10:06:10.458064+00:00"
+  },
+  "b63924cadee97e34": {
+    "url": "https://opportunitiescorners.com/vancouver-digital-diplomacy-forum-2027/",
+    "title": "Vancouver Digital Diplomacy Forum 2027 in Canada",
+    "status": "scam",
+    "credibility_status": "HIGH_RISK",
+    "source_tier": "TIER_3",
+    "reasoning": "The page requires a non‑refundable application fee for the participation funding programme and provides only a Gmail address (opportunitiescorners.com@gmail.com) as official contact, with no verifiable institutional website for the Canadian Center for Cultural Diplomacy. Requiring payment to secure funding and using a free‑email address are classic red‑flags for scholarship scams.",
+    "id": "b63924cadee97e34",
+    "first_seen": "2026-10-14T10:08:02.719661+00:00",
+    "last_updated": "2026-10-14T10:08:02.719671+00:00"
+  },
+  "541db11d2f3d5a64": {
+    "url": "https://www.opportunitiesforafricans.com/the-fao-world-food-forum-young-scientists-group-2027-2029-global-call-for-young-researchers/",
+    "title": "The FAO World Food Forum Young Scientists Group 2027/2029 Global Call for Young Researchers",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "model_eligibility_status": "CONFIRMED_INELIGIBLE",
+    "missing_requirements": [
+      "Ability to dedicate approximately 20 hours per month to the role",
+      "Demonstrated ability to work effectively in an international, multicultural environment with strong intercultural communication skills",
+      "Confirmation that the candidate is not an immediate family member (spouse, parent, child, sibling or their respective spouses) of any FAO employee",
+      "Confirmation that the candidate is not employed by FAO",
+      "Specialization in a field relevant to FAO's mission and work (alignment with WFF Youth Assembly’s thematic areas preferred but not mandatory)"
+    ],
+    "blocking_issues": [
+      "Must have graduated or be enrolled in a graduate degree programme at time of application; candidate possesses only a BSc and is not pursuing graduate studies."
+    ],
+    "addressable_gaps": [
+      "English proficiency demonstration – candidate can obtain an MOI certificate from Injibara University or take the Duolingo English Test to meet the spoken/written English requirement."
+    ],
+    "reasoning": "The program explicitly requires applicants to have graduated or be enrolled in a graduate degree programme at the time of application. The candidate holds only a BSc (bachelor's) and is not currently enrolled in any graduate studies, thus failing this mandatory criterion.",
+    "id": "541db11d2f3d5a64",
+    "first_seen": "2026-10-14T10:09:20.076589+00:00",
+    "last_updated": "2026-10-14T10:09:20.076604+00:00"
+  },
+  "4be7ebb8b4aa82f1": {
+    "url": "https://www.opportunitiesforafricans.com/the-african-export-import-bank-afreximbank-internship-program-2027-2028/",
+    "title": "The African Export -Import Bank (Afreximbank) Internship Program 2027/2028 for young Africans (Monthly tax-free stipend of USD 1000)",
+    "status": "unknown",
+    "eligibility_status": "UNCERTAIN",
+    "model_eligibility_status": "UNCERTAIN",
+    "missing_requirements": [
+      "Verification that Ethiopia is a member state of Afreximbank Group"
+    ],
+    "blocking_issues": [],
+    "addressable_gaps": [
+      "English language proficiency proof (candidate can obtain MOI certificate or Duolingo English Test)"
+    ],
+    "reasoning": "The program requires nationals of Afreximbank Group member states; the text does not list member states, so it cannot be verified whether Ethiopia is eligible. All other criteria are satisfied or addressable: age 27 within 20-32 range, English proficiency can be proven via MOI or Duolingo, field of study (Psychology) falls under social sciences, and student enrollment is only preferred, not mandatory.",
+    "id": "4be7ebb8b4aa82f1",
+    "first_seen": "2026-10-14T10:10:27.877031+00:00",
+    "last_updated": "2026-10-14T10:10:27.877045+00:00"
+  },
+  "183fc2d8b33f4bff": {
+    "url": "https://www.pep-net.org/news/call-applications-africa-fellows-education-program-20262027",
+    "title": "Call for Applications: Africa Fellows in Education Program 2026/2027 | PEP",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "model_eligibility_status": "CONFIRMED_INELIGIBLE",
+    "missing_requirements": [
+      "Master's or PhD degree (required)",
+      "Quantitative data analysis experience (not demonstrated in profile)",
+      "Standardized English proficiency test (IELTS/TOEFL) – only claims 'professional working proficiency' without certification",
+      "Clear institutional affiliation with a government, research, or higher education institution in Sub-Saharan Africa"
+    ],
+    "blocking_issues": [
+      "Must hold a Master's or PhD degree – candidate only has a Bachelor's (BSc) degree"
+    ],
+    "addressable_gaps": [],
+    "reasoning": "The program explicitly requires applicants to 'Hold a Master's or PhD in a relevant field with strong quantitative focus.' The candidate holds only a BSc (Bachelor's) degree from Injibara University (graduated 2021), which does not meet this mandatory degree-level requirement.",
+    "id": "183fc2d8b33f4bff",
+    "first_seen": "2026-10-14T10:11:12.182571+00:00",
+    "last_updated": "2026-10-14T10:11:12.182582+00:00"
+  },
+  "81f31d52f676c01e": {
+    "url": "https://www.ireland.ie/en/zambia/lusaka/news-and-events/news-archive/ireland-africa-fellows-programme-2025-2026-now-open-for-applications",
+    "title": "Ireland-Africa Fellows Programme 2026-2027 - Now Open for Applications. | Ireland.ie",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "model_eligibility_status": "CONFIRMED_INELIGIBLE",
+    "missing_requirements": [
+      "Selection of three relevant courses from the Irish Aid Directory of Eligible Postgraduate Courses",
+      "Demonstrated understanding of academic and English language proficiency requirements for the chosen courses",
+      "Confirmation that the candidate has not applied for an Ireland Fellowship more than once",
+      "Verification of at least three years of work experience directly relevant to the proposed programme(s)",
+      "Evidence of a strong commitment to Zambia's development",
+      "Fulfilment of any procedural requirements of the Government of Zambia"
+    ],
+    "blocking_issues": [
+      "Not a citizen of Zambia",
+      "Not residing in Zambia"
+    ],
+    "addressable_gaps": [
+      "English language proficiency – currently no IELTS/TOEFL but can obtain a Duolingo test or an MOI certificate from Injibara University"
+    ],
+    "reasoning": "The program explicitly requires applicants to be citizens of Zambia and residing in Zambia. The candidate is an Ethiopian national with an Ethiopian passport and lives in Vientiane, Lao PDR, which does not meet the mandatory citizenship and residency criteria. This hard blocker makes the candidate ineligible regardless of other qualifications.",
+    "id": "81f31d52f676c01e",
+    "first_seen": "2026-10-14T10:12:26.048125+00:00",
+    "last_updated": "2026-10-14T10:12:26.048139+00:00"
+  },
+  "9e9fd3af5b431358": {
+    "url": "https://mo.ibrahim.foundation/news/2026/applications-open-2027-ibrahim-leadership-fellowships",
+    "title": "Applications open for the 2027 Ibrahim Leadership Fellowships | Mo Ibrahim Foundation",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "model_eligibility_status": "CONFIRMED_INELIGIBLE",
+    "missing_requirements": [
+      "Specific age requirements not stated",
+      "Specific leadership experience requirements not stated",
+      "Exact educational qualifications not specified",
+      "Nationality eligibility criteria not explicitly defined"
+    ],
+    "blocking_issues": [
+      "Program targets African leaders for placement in African institutions; candidate is based in Laos PDR",
+      "Program focus on economic development/governance leadership does not align with candidate's AI/tech background"
+    ],
+    "addressable_gaps": [],
+    "reasoning": "The Ibrahim Leadership Fellowships explicitly target 'emerging African leaders' and place Fellows in roles at African institutions (AfDB in Abidjan, ECA in Addis Ababa, ITC in Geneva). The candidate is an Ethiopian national but is currently working professionally in Laos PDR, suggesting they may not meet the program's focus on African-based leadership development. Additionally, the program appears designed for individuals already in or transitioning to senior leadership roles within African contexts, whereas the candidate is a 27-year-old working professional with a BSc in Psychology whose background is in AI/tech rather than the economic development, trade, and governance focus areas mentioned.",
+    "id": "9e9fd3af5b431358",
+    "first_seen": "2026-10-14T10:13:05.683040+00:00",
+    "last_updated": "2026-10-14T10:13:05.683054+00:00"
+  },
+  "9391822bd231a4df": {
+    "url": "https://california.grantwatch.com/cat/16/entrepreneurs-and-startups-grants.html",
+    "title": "93 Entrepreneurs and Startups Grants for California",
+    "status": "filtered_out",
+    "reason": "The opportunity is geographically restricted to California-based entrepreneurs/startups.",
+    "id": "9391822bd231a4df",
+    "first_seen": "2026-10-14T10:13:07.709805+00:00",
+    "last_updated": "2026-10-14T10:13:07.709820+00:00"
   }
 }
