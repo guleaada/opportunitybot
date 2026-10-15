@@ -13388,21 +13388,18 @@
     "eligibility_status": "UNCERTAIN",
     "model_eligibility_status": "UNCERTAIN",
     "missing_requirements": [
-      "Work‑authorization/visa sponsorship policy",
-      "Explicit nationality eligibility criteria",
-      "Minimum degree or field‑of‑study requirements",
-      "English‑language test score requirements (if any)",
-      "Age limits (if any)",
-      "Student‑status requirements (if any)"
+      "Citizenship or work‑authorization requirements for US positions",
+      "Minimum education or degree level (e.g., bachelor's, master's, or specific field)",
+      "Professional experience or skill requirements for each role",
+      "English language proficiency proof (IELTS/TOEFL/Duolingo) if required",
+      "Age limits or other demographic criteria"
     ],
     "blocking_issues": [],
-    "addressable_gaps": [
-      "English‑language proficiency proof (can obtain Duolingo or MOI certificate)"
-    ],
-    "reasoning": "The program text consists of Apple job postings that list role titles, locations, and weekly hours but do not specify eligibility criteria such as nationality restrictions, work‑authorization requirements, degree level, or English‑language proof. Because the page does not state whether Ethiopian nationals are eligible or whether visa sponsorship is provided, a decision‑relevant criterion (nationality/work authorization) that could exclude the candidate is missing or unverifiable.",
+    "addressable_gaps": [],
+    "reasoning": "The Apple job listings page provides no explicit eligibility criteria (e.g., citizenship, work authorization, required degree, age limits, language test scores). Without knowing the required qualifications, we cannot confirm that the candidate meets them, nor can we confirm they are excluded.",
     "id": "6f3d8e836d9acb24",
     "first_seen": "2026-10-05T12:20:33.315917+00:00",
-    "last_updated": "2026-10-05T12:20:33.315930+00:00"
+    "last_updated": "2026-10-15T09:44:27.751728+00:00"
   },
   "157502073342ce41": {
     "url": "https://www.roberthalf.com/us/en/insights/research/remote-work-statistics-and-trends",
@@ -14264,11 +14261,24 @@
   "015aadd79acc6d3d": {
     "url": "https://jobgether.com/remote-jobs",
     "title": "Remote Jobs - Work From Home",
-    "status": "filtered_out",
+    "status": "analyzed",
     "reason": "This is a job board listing, not a scholarship/fellowship opportunity",
     "id": "015aadd79acc6d3d",
     "first_seen": "2026-10-09T11:59:07.182518+00:00",
-    "last_updated": "2026-10-09T11:59:07.182533+00:00"
+    "last_updated": "2026-10-15T09:42:37.970916+00:00",
+    "score": 3.0,
+    "category": null,
+    "official_url": "https://jobgether.com/remote-jobs",
+    "location": null,
+    "remote": null,
+    "deadline": null,
+    "reward": "none",
+    "estimated_value": null,
+    "eligibility_status": "PROBABLY_ELIGIBLE",
+    "credibility_status": "LIKELY_LEGITIMATE",
+    "source_tier": "TIER_4",
+    "source_quality": null,
+    "requirements": []
   },
   "4cb60960bbd071a3": {
     "url": "https://www.asco.org/career-development/grants-awards/funding-opportunities/long-term-international-fellowship",
@@ -15189,5 +15199,240 @@
     "id": "9391822bd231a4df",
     "first_seen": "2026-10-14T10:13:07.709805+00:00",
     "last_updated": "2026-10-14T10:13:07.709820+00:00"
+  },
+  "536ef70765d8d92e": {
+    "url": "https://nodesk.co/remote-jobs",
+    "title": "Remote Jobs - NoDesk",
+    "status": "filtered_out",
+    "reason": "It's a generic remote job board, not a funded scholarship or fellowship.",
+    "id": "536ef70765d8d92e",
+    "first_seen": "2026-10-15T09:44:48.595158+00:00",
+    "last_updated": "2026-10-15T09:44:48.595176+00:00"
+  },
+  "bd2fd91bc6afbc25": {
+    "url": "https://opportunitiescorners.com/university-of-tokyo-mext-scholarship-2027/",
+    "title": "University of Tokyo MEXT Scholarship 2027 in Japan (Fully Funded)",
+    "status": "suspicious",
+    "credibility_status": "SUSPICIOUS",
+    "source_tier": "TIER_3",
+    "reasoning": "The page lists a legitimate MEXT scholarship but provides only a generic Gmail address (opportunitiescorners.com@gmail.com) for contact and lacks a direct link to the official University of Tokyo or MEXT website, which are red‑flag indicators. No application fee is mentioned, but the reliance on a free‑email contact and heavy promotional content raise doubts about authenticity.",
+    "id": "bd2fd91bc6afbc25",
+    "first_seen": "2026-10-15T09:46:18.025424+00:00",
+    "last_updated": "2026-10-15T09:46:18.025439+00:00"
+  },
+  "5a1eb537a984f5d3": {
+    "url": "https://www.opportunitiesforafricans.com/the-french-government-eiffel-excellence-scholarship-programme-2027/",
+    "title": "The French Government Eiffel Excellence Scholarship Programme 2027 for Masters & Ph.D. Study in France (Funded)",
+    "status": "notified",
+    "score": 5.2,
+    "category": null,
+    "official_url": "https://www.opportunitiesforafricans.com/the-french-government-eiffel-excellence-scholarship-programme-2027/",
+    "location": null,
+    "remote": null,
+    "deadline": "2027-01-06",
+    "reward": "partial",
+    "estimated_value": null,
+    "eligibility_status": "PROBABLY_ELIGIBLE",
+    "credibility_status": "LIKELY_LEGITIMATE",
+    "source_tier": "TIER_3",
+    "source_quality": 7,
+    "requirements": [],
+    "id": "5a1eb537a984f5d3",
+    "first_seen": "2026-10-15T09:48:07.316918+00:00",
+    "last_updated": "2026-10-15T10:04:50.522953+00:00",
+    "notification_tier": "GOOD",
+    "notified_at": "2026-10-15T10:04:50.513616+00:00"
+  },
+  "d75f542cad2b3118": {
+    "url": "https://www.opportunitiesforafricans.com/the-amalitech-apprenticeship-programme-2026-rwanda-for-young-africans/",
+    "title": "The AmaliTech Apprenticeship Programme 2026 (Rwanda) for young Africans,",
+    "status": "ineligible",
+    "eligibility_status": "PROBABLY_INELIGIBLE",
+    "model_eligibility_status": "PROBABLY_INELIGIBLE",
+    "missing_requirements": [
+      "Explicit statement of willingness to relocate to Rwanda",
+      "Proof of English fluency (certificate)",
+      "Verification of 'recent graduate' status in a relevant field"
+    ],
+    "blocking_issues": [
+      "Degree field mismatch: BSc Psychology not in CS/IT/Engineering/Data Science or related field",
+      "Not a current student or recent graduate in the required discipline"
+    ],
+    "addressable_gaps": [
+      "Provide an English proficiency certificate (Duolingo, MOI, etc.)",
+      "Declare willingness to relocate to Rwanda (if not already stated)"
+    ],
+    "reasoning": "The programme explicitly requires applicants to be a final‑year university student or a recent graduate **in Computer Science, IT, Engineering, Data Science, or a related field**. The candidate holds a BSc in Psychology, which is not a related discipline, and is not currently enrolled as a student. These are hard blockers. While the candidate can likely provide an English proficiency certificate and could state willingness to relocate to Rwanda, those gaps do not overcome the degree/student status requirement.",
+    "id": "d75f542cad2b3118",
+    "first_seen": "2026-10-15T09:49:20.103140+00:00",
+    "last_updated": "2026-10-15T09:49:20.103161+00:00"
+  },
+  "a5a1f84a115504d6": {
+    "url": "https://www.opportunitiesforafricans.com/the-deutsche-welle-dw-akademie-international-journalism-traineeship-2028-2029/",
+    "title": "The Deutsche Welle (DW) Akademie International Journalism Traineeship 2028/2029 for Journalists Worldwide (18-month paid journalism program)",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "model_eligibility_status": "CONFIRMED_INELIGIBLE",
+    "missing_requirements": [],
+    "blocking_issues": [
+      "Not a native speaker of any DW language (German, English, etc.) – fails the explicit native‑speaker language requirement"
+    ],
+    "addressable_gaps": [
+      "Obtain English proficiency certificate (e.g., Duolingo, MOI) – would still not satisfy native‑speaker clause",
+      "Acquire German language skills – would not satisfy native‑speaker clause",
+      "Demonstrate journalistic experience – could strengthen application but does not overcome language blocker"
+    ],
+    "reasoning": "The program explicitly requires applicants to be a native speaker of one of DW’s languages (German, English, or other DW languages) with either excellent English and good German, or native English with good German, or native German with excellent English. The candidate is a native Amharic speaker, not a native English or German speaker, and has no German language skills. This hard blocker directly disqualifies the candidate. Other requirements (completed degree, age, nationality) are met or not specified, but the language criterion is decisive.",
+    "id": "a5a1f84a115504d6",
+    "first_seen": "2026-10-15T09:51:46.034249+00:00",
+    "last_updated": "2026-10-15T09:51:46.034269+00:00"
+  },
+  "d9981c602791f66f": {
+    "url": "https://www.opportunitiesforafricans.com/the-world-economic-forums-technology-pioneers-program-2027-for-early-stage-start-ups-worldwide/",
+    "title": "The World Economic Forum’s Technology Pioneers Program 2027 for early-stage start-ups worldwide.",
+    "status": "suspicious",
+    "credibility_status": "SUSPICIOUS",
+    "source_tier": "TIER_3",
+    "reasoning": "The page advertises an open application for the World Economic Forum Technology Pioneers, but the official WEF program is invitation‑only and does not accept public applications. The stated eligibility (minimum $10 M Series A funding) is inconsistent with the typical early‑stage focus, and the site provides only a generic contact email and no direct link to the official WEF page.",
+    "id": "d9981c602791f66f",
+    "first_seen": "2026-10-15T09:52:23.126951+00:00",
+    "last_updated": "2026-10-15T09:52:23.126970+00:00"
+  },
+  "c93621581a287558": {
+    "url": "https://www.opportunitiesforafricans.com/the-unicef-sweden-funding-opportunity-for-femtech-solutions/",
+    "title": "The UNICEF/Sweden Funding opportunity for femtech solutions (US$100,000)",
+    "status": "analyzed",
+    "score": 3.6,
+    "category": null,
+    "official_url": "https://www.opportunitiesforafricans.com/the-unicef-sweden-funding-opportunity-for-femtech-solutions/",
+    "location": null,
+    "remote": null,
+    "deadline": "2026-11-04",
+    "reward": "fully_funded",
+    "estimated_value": null,
+    "eligibility_status": "PROBABLY_ELIGIBLE",
+    "credibility_status": "LIKELY_LEGITIMATE",
+    "source_tier": "TIER_3",
+    "source_quality": 7,
+    "requirements": [],
+    "id": "c93621581a287558",
+    "first_seen": "2026-10-15T09:54:22.984967+00:00",
+    "last_updated": "2026-10-15T09:54:22.984983+00:00"
+  },
+  "0ffe9dd4dea7d8f2": {
+    "url": "https://justmovetosf.com/guide/equity-free-money",
+    "title": "Equity-Free Money: Grants & Microgrants for Founders (2026) | justmovetosf.com",
+    "status": "legitimacy_unknown",
+    "credibility_status": "NEEDS_VERIFICATION",
+    "source_tier": "TIER_4",
+    "reasoning": "The page provides only a title with no details about application fees, payment requirements, or contact information, making it impossible to assess legitimacy. No explicit red‑flag language or suspicious requests are visible, but the lack of substantive information prevents a definitive judgment.",
+    "id": "0ffe9dd4dea7d8f2",
+    "first_seen": "2026-10-15T09:54:39.722157+00:00",
+    "last_updated": "2026-10-15T09:54:39.722175+00:00"
+  },
+  "60b46d2cf84f26aa": {
+    "url": "https://www.nav.com/resource/small-business-grants",
+    "title": "Small Business Grants For 2026: Free Money For Your Business - Nav",
+    "status": "unknown",
+    "eligibility_status": "UNCERTAIN",
+    "model_eligibility_status": "UNCERTAIN",
+    "missing_requirements": [
+      "Citizenship or residency eligibility for each listed grant (most US‑focused grants require US citizenship or a US‑registered business)",
+      "Proof of business existence (registration, incorporation documents)",
+      "Revenue or employee count thresholds for certain grants",
+      "Specific industry or demographic eligibility (e.g., women‑owned, minority‑owned, veteran‑owned, etc.)"
+    ],
+    "blocking_issues": [],
+    "addressable_gaps": [
+      "Obtain an English proficiency test (Duolingo, MOI, etc.) if a specific grant requires it",
+      "Prepare business documentation (registration, tax ID, revenue statements) that many grants request"
+    ],
+    "reasoning": "The page lists a variety of small‑business grants, each with its own eligibility rules (e.g., US citizenship, US‑based business, specific industry, revenue thresholds). No universal eligibility criteria are stated, so we cannot confirm whether an Ethiopian national living in Laos meets the nationality/residency requirements of the individual grants. Because a decision‑relevant criterion (citizenship/residency) is missing or unverifiable, the candidate’s overall eligibility cannot be confirmed.",
+    "id": "60b46d2cf84f26aa",
+    "first_seen": "2026-10-15T09:56:20.683294+00:00",
+    "last_updated": "2026-10-15T09:56:20.683309+00:00"
+  },
+  "6c3cd96646e5acd0": {
+    "url": "https://grantedai.com/grants/accelerate-africa-startup-accelerator-2026-accelerate-africa-future-africa-60da1e04",
+    "title": "Accelerate Africa Startup Accelerator 2026 (2026) | Granted AI",
+    "status": "legitimacy_unknown",
+    "credibility_status": "NEEDS_VERIFICATION",
+    "source_tier": "TIER_4",
+    "reasoning": "The listing provides only a brief, vague description with no direct link to an official application page, no funding amount, and notes that the information may be outdated. While no explicit fee or payment request is mentioned, the lack of verifiable details about Accelerate Africa or Future Africa makes it impossible to confirm legitimacy.",
+    "id": "6c3cd96646e5acd0",
+    "first_seen": "2026-10-15T09:56:57.341577+00:00",
+    "last_updated": "2026-10-15T09:56:57.341597+00:00"
+  },
+  "580ee347db2ee6a6": {
+    "url": "https://startupmaphub.com/funding/africa",
+    "title": "Startup Funding in Africa (2026) — Grants, Accelerators & Investors",
+    "status": "analyzed",
+    "score": 3.8,
+    "category": "accelerators",
+    "official_url": "https://startupmaphub.com/funding/africa",
+    "location": null,
+    "remote": null,
+    "deadline": "2026-10-23",
+    "reward": "unknown",
+    "estimated_value": null,
+    "eligibility_status": "PROBABLY_ELIGIBLE",
+    "credibility_status": "LIKELY_LEGITIMATE",
+    "source_tier": "TIER_4",
+    "source_quality": 0,
+    "requirements": [],
+    "id": "580ee347db2ee6a6",
+    "first_seen": "2026-10-15T10:00:48.566690+00:00",
+    "last_updated": "2026-10-15T10:00:48.566703+00:00"
+  },
+  "54644da1f632f4ff": {
+    "url": "https://www.youtube.com/watch?v=r-iWlo0BUwg",
+    "title": "No Coding | 8 Secret Remote Jobs You Can Start Before 2027",
+    "status": "filtered_out",
+    "reason": "Generic website footer, not a scholarship listing",
+    "id": "54644da1f632f4ff",
+    "first_seen": "2026-10-15T10:00:56.619944+00:00",
+    "last_updated": "2026-10-15T10:00:56.619955+00:00"
+  },
+  "c2c3a5af10116aca": {
+    "url": "https://www.linkedin.com/jobs/remote-jobs-worldwide",
+    "title": "Remote Jobs in Worldwide (35000+ Open Roles)",
+    "status": "analyzed",
+    "score": 3.0,
+    "category": "remote_jobs",
+    "official_url": "https://www.linkedin.com/jobs/remote-jobs-worldwide",
+    "location": null,
+    "remote": null,
+    "deadline": null,
+    "reward": "none",
+    "estimated_value": null,
+    "eligibility_status": "PROBABLY_ELIGIBLE",
+    "credibility_status": "LIKELY_LEGITIMATE",
+    "source_tier": "TIER_4",
+    "source_quality": 0,
+    "requirements": [],
+    "id": "c2c3a5af10116aca",
+    "first_seen": "2026-10-15T10:02:10.020608+00:00",
+    "last_updated": "2026-10-15T10:02:10.020620+00:00"
+  },
+  "d9f3e3e24fa81d5a": {
+    "url": "https://www.randstadusa.com/jobs/remote",
+    "title": "Apply to Remote Jobs and Work-From-Home Jobs Online | Randstad USA",
+    "status": "analyzed",
+    "score": 3.3,
+    "category": "remote_jobs",
+    "official_url": "https://www.randstadusa.com/jobs/remote",
+    "location": null,
+    "remote": null,
+    "deadline": null,
+    "reward": "unknown",
+    "estimated_value": null,
+    "eligibility_status": "PROBABLY_ELIGIBLE",
+    "credibility_status": "LIKELY_LEGITIMATE",
+    "source_tier": "TIER_4",
+    "source_quality": 0,
+    "requirements": [],
+    "id": "d9f3e3e24fa81d5a",
+    "first_seen": "2026-10-15T10:04:42.275883+00:00",
+    "last_updated": "2026-10-15T10:04:42.275896+00:00"
   }
 }

@@ -931,7 +931,8 @@
     "last_known_deadline": null,
     "reason": "closed at discovery; likely annual",
     "id": "a3d8b134de5b58e5",
-    "added": "2026-09-30T11:11:39.866101+00:00"
+    "added": "2026-10-15T09:39:53.979473+00:00",
+    "last_checked": "2026-10-15T09:39:53.978887"
   },
   "bed73fd3274e241e": {
     "url": "https://dhcd.maryland.gov/neighborhood-revitalization/community-development-funding/technical-assistance-grant",
@@ -939,34 +940,8 @@
     "last_known_deadline": null,
     "reason": "closed at discovery; likely annual",
     "id": "bed73fd3274e241e",
-    "added": "2026-09-30T11:15:13.510541+00:00"
-  },
-  "015aadd79acc6d3d": {
-    "url": "https://jobgether.com/remote-jobs",
-    "title": "Remote Jobs - Work From Home",
-    "retry_analysis": true,
-    "snippet": "A new Center for an Urban Future report shows entry-level tech postings in New York down 49 percent since 2022. Paired with PwC's 2026 Global AI Jobs Barometer, the data shows AI is not shrinking demand for experienced judgment, it is concentrating the damage at the entry point where that judgment has not been built yet.\n\n## Ready to get matched with your perfect remote job?\n\nJoin thousands of professionals who found their dream remote position\nthrough Jobgether\n\nJobgether logo\nJobgether logo [...] 3509 remote jobs\n\ne.g.: Senior Software Engineer, AI Training - Ireland, AI Support Engineer - Toronto (Weekend Shift)\n\n### Agile & Scrum Project Management\n\n2964 remote jobs\n\ne.g.: Sr. Scrum Master remote, Global Sr Project Manager - FSP\n\n### Data and Analytics\n\n2915 remote jobs\n\ne.g.: Compliance Testing Data Analyst, Cientista de Dados (Databricks)\n\n### Tech Management\n\n2794 remote jobs\n\ne.g.: Tech Lead (.NET), Director of Technical Implementation\n\n### DevOps & Infrastructure [...] A channel-by-channel guide to where experienced professionals find remote roles in 2026. It covers why general job boards are the most crowded option, how remote-focused platforms and remote-first careers pages help, how to reach roles that are never posted, when to contact hiring managers, and how to track which channels work.\n\nWhy Experienced Professionals Get No Response After 50 Remote Applications\n\n### Why Experienced Professionals Get No Response After 50 Remote Applications",
-    "reason": "legitimacy check returned an unparseable reply; retry on a later run",
-    "id": "015aadd79acc6d3d",
-    "added": "2026-09-30T11:17:30.716850+00:00"
-  },
-  "6f3d8e836d9acb24": {
-    "url": "https://jobs.apple.com/en-us/search?location=united-states-USA",
-    "title": "Search Jobs - United States - Jobs - Careers at Apple",
-    "reason": "ANALYSIS_UNAVAILABLE — deep_eligibility: incomplete or invalid response after retry",
-    "retry_analysis": true,
-    "snippet": "Software and Services Sep 25, 2026 Location Sunnyvale ActionsImage 28      \n\n       See full role description\n       Share Sr Network Reliability Engineer, IS 200684650-3956 \n\n       Role Number:200684650-3956\n       Weekly Hours:40 Hours [...] Submit Resume\n\n   ### Software Engineer - Traffic (ASE) - Secure Service Networking\n\nSoftware and Services Sep 25, 2026 Location Seattle ActionsImage 27      \n\n       See full role description\n       Share Software Engineer - Traffic (ASE) - Secure Service Networking 200641231-3337 \n\n       Role Number:200641231-3337\n       Weekly Hours:40 Hours [...] Submit Resume\n\n   ### Software Development Engineer in Test, IS&T Customer Systems\n\nCorporate Functions Sep 28, 2026 Location Austin ActionsImage 12      \n\n       See full role description\n       Share Software Development Engineer in Test, IS&T Customer Systems 200667747-0157 \n\n       Role Number:200667747-0157\n       Weekly Hours:40 Hours",
-    "id": "6f3d8e836d9acb24",
-    "added": "2026-09-30T11:26:39.256441+00:00"
-  },
-  "536ef70765d8d92e": {
-    "url": "https://nodesk.co/remote-jobs",
-    "title": "Remote Jobs - NoDesk",
-    "retry_analysis": true,
-    "snippet": "#### Part-Time\n\n  + AI\n  + Annotator\n  + Entry-Level\n  + Freelancer\n  + Part-Time\n\n  Featured\n Sticker Mule logo\n\n  ## Software engineer\n\n  ### Sticker Mule\n\n  #### Remote:\n\n  ##### Worldwide\n\n  #### Engineering\n\n  #### Full-Time\n\n  #### $150K – $250K\n\n  + Go\n  + Typescript\n\n  Featured\n Morgan & Westfield logo\n\n  ## Project Manager\n\n  ### Morgan & Westfield\n\n  #### Remote:\n\n  ##### Worldwide\n\n  #### Operations\n\n  #### Full-Time\n\n  #### $2.5K – $3.5K [...] #### Full-Time\n\n  #### $55K – $70K\n\n  Featured\n Lemon.io logo\n\n  ## Senior DevOps Engineer\n\n  ### Lemon.io\n\n  #### Remote:\n\n  ##### LATAM, Canada, the U.S., Europe, APAC\n\n  #### Engineering\n\n  #### Contract\n\n  ·\n\n  #### Full-Time\n\n  + Bash\n  + Developer\n  + DevOps\n  + Engineer\n  + Python\n\n  Featured\n iMerit Technology logo\n\n  ## AI Response Evaluator\n\n  ### iMerit Technology\n\n  #### Remote:\n\n  ##### Worldwide\n\n  #### Other\n\n  #### Freelance\n\n  ·\n\n  #### Part-Time [...] #### Remote:\n\n  ##### Worldwide\n\n  #### Other\n\n  #### Freelance\n\n  ·\n\n  #### Full-Time\n\n  ·\n\n  #### Internship\n\n  ·\n\n  #### Part-Time\n\n  + Bitcoin\n  + Blockchain\n  + Cosmos\n  + Crypto\n  + Customer Support\n  + DeFi\n  + Design\n  + Engineering\n  + Ethereum\n  + Marketing\n  + Operations\n  + Product\n  + Sales\n\n  Featured\n Giant Swarm logo\n\n  ## Forward Deployed Engineer (100% Remote)\n\n  ### Giant Swarm\n\n  #### Remote:\n\n  ##### DE\n\n  #### Engineering\n\n  #### Full-Time\n\n  #### €70K – €100K",
-    "reason": "legitimacy check returned an unparseable reply; retry on a later run",
-    "id": "536ef70765d8d92e",
-    "added": "2026-10-09T11:59:19.121954+00:00"
+    "added": "2026-10-15T09:39:55.390952+00:00",
+    "last_checked": "2026-10-15T09:39:55.390301"
   },
   "4d6a3936d24c50c0": {
     "url": "https://www.opportunitiesforafricans.com/washington-college-of-law-human-rights-essay-award-2027/",
@@ -1426,6 +1401,6 @@
     "snippet": "The applications are now open for the UNU Junior Fellows Internship in Tokyo, Japan. A paid internship for students and recent graduates to gain hands-on experience within the United Nations system. The internship will take place at the UNU headquarters in Tokyo, offering participants the chance to work on real projects related to global development […] The post UNU Junior Fellows Internship 2027 in Japan (PAID) appeared first on Opportunities Corners .",
     "reason": "legitimacy check returned an unparseable reply; retry on a later run",
     "id": "18f7f4b18adf3f58",
-    "added": "2026-10-14T10:07:18.820077+00:00"
+    "added": "2026-10-15T09:50:26.721852+00:00"
   }
 }
