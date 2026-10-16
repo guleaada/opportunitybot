@@ -12747,17 +12747,15 @@
     "status": "ineligible",
     "eligibility_status": "CONFIRMED_INELIGIBLE",
     "model_eligibility_status": "CONFIRMED_INELIGIBLE",
-    "missing_requirements": [
-      "Demonstrated experience or interest in international human rights law (not stated in the profile)."
-    ],
+    "missing_requirements": [],
     "blocking_issues": [
-      "Degree level mismatch: candidate holds a BSc Psychology, not a law degree (J.D., LL.B., or equivalent)."
+      "Degree level mismatch: candidate does not hold a law degree"
     ],
     "addressable_gaps": [],
-    "reasoning": "The program explicitly requires applicants to hold a law degree (J.D., LL.B., or equivalent). The candidate only has a BSc in Psychology, which does not satisfy the degree requirement. Therefore the candidate is ineligible regardless of other factors.",
+    "reasoning": "The program explicitly requires applicants to hold a law degree (J.D., LL.B., or equivalent). The candidate only has a BSc in Psychology, which does not satisfy the degree requirement. Therefore the candidate is ineligible.",
     "id": "4d6a3936d24c50c0",
     "first_seen": "2026-10-02T11:01:21.684271+00:00",
-    "last_updated": "2026-10-02T11:01:21.684280+00:00"
+    "last_updated": "2026-10-16T09:33:15.177796+00:00"
   },
   "f8d7b01bcac70275": {
     "url": "https://opportunitiescorners.com/yale-world-fellows-program-2027/",
@@ -12790,13 +12788,14 @@
   "5d68219259970d30": {
     "url": "https://opportunitiescorners.com/nexus-youth-exchange-2026/",
     "title": "Nexus Youth Exchange 2026 in Madrid, Spain (Fully Funded)",
-    "status": "scam",
+    "status": "closed",
     "credibility_status": "HIGH_RISK",
     "source_tier": "TIER_3",
     "reasoning": "The program requires an application fee despite being advertised as fully funded, offers a \"Premium Access Pass\" that guarantees participation for money, and is run by an obscure organizer with only a generic Gmail contact. Legitimate fully funded exchange programs (e.g., Erasmus, government scholarships) never charge fees to secure a spot or visa invitation.",
     "id": "5d68219259970d30",
     "first_seen": "2026-10-02T11:04:23.545142+00:00",
-    "last_updated": "2026-10-02T11:04:23.545155+00:00"
+    "last_updated": "2026-10-16T09:34:25.028261+00:00",
+    "deadline": "2026-10-03"
   },
   "c8051a9449eef5d1": {
     "url": "https://www.opportunitiesforafricans.com/nvidia-international-graduate-fellowship-program-2027-2028/",
@@ -12806,15 +12805,15 @@
     "model_eligibility_status": "CONFIRMED_INELIGIBLE",
     "missing_requirements": [],
     "blocking_issues": [
-      "PhD experience required; candidate only has a bachelor's degree",
-      "Full‑time PhD enrollment required; candidate is a working professional and not a student",
-      "Field of study mismatch; candidate's degree is Psychology, not a required computing/engineering discipline"
+      "Degree level mismatch (BSc vs required PhD enrollment)",
+      "Not currently a PhD student (must have completed first year of PhD)",
+      "Field of study mismatch (Psychology vs required CS/EE related fields)"
     ],
     "addressable_gaps": [],
-    "reasoning": "The NVIDIA International Graduate Fellowship explicitly requires applicants to have PhD experience (must have completed the first year of a PhD), be enrolled full‑time in a PhD program, and be majoring in computer science, computer engineering, system architecture, electrical engineering, or a closely related area. The candidate holds only a BSc in Psychology, is not currently a student, and does not meet the required field of study. These are hard, non‑addressable blockers.",
+    "reasoning": "The NVIDIA International Graduate Fellowship explicitly requires applicants to have completed the first year of a PhD program, be actively enrolled full‑time in a PhD, and be majoring in computer science, computer engineering, system architecture, electrical engineering, or a related area. The candidate holds only a BSc in Psychology, is not currently a student, and works as a professional. Therefore the candidate does not meet the core eligibility criteria.",
     "id": "c8051a9449eef5d1",
     "first_seen": "2026-10-02T11:05:19.849095+00:00",
-    "last_updated": "2026-10-02T11:05:19.849110+00:00"
+    "last_updated": "2026-10-16T09:35:27.630242+00:00"
   },
   "f3e69c91db05ab64": {
     "url": "https://www.opportunitiesforafricans.com/the-2027-oilserv-ingenious-graduate-trainee-programme/",
@@ -15434,5 +15433,217 @@
     "id": "d9f3e3e24fa81d5a",
     "first_seen": "2026-10-15T10:04:42.275883+00:00",
     "last_updated": "2026-10-15T10:04:42.275896+00:00"
+  },
+  "9ff51b97581778bd": {
+    "url": "https://www.scholarshipbob.com/scholarship/danish-institute-for-human-rights-fully-funded-global-visiting-researcher-programme-2026",
+    "title": "Danish Institute for Human Rights Fully Funded Global Visiting Researcher Programme 2026 | ScholarshipBob",
+    "status": "closed",
+    "deadline": "2026-06-01",
+    "id": "9ff51b97581778bd",
+    "first_seen": "2026-10-16T09:33:51.376988+00:00",
+    "last_updated": "2026-10-16T09:33:51.377000+00:00"
+  },
+  "30307bd6210fb5ce": {
+    "url": "https://opportunitiescorners.com/universal-youth-leadership-summit-malaysia-2027/",
+    "title": "Universal Youth Leadership Summit Malaysia 2027 (Fully Funded)",
+    "status": "scam",
+    "credibility_status": "HIGH_RISK",
+    "source_tier": "TIER_3",
+    "reasoning": "The listing requires a non‑refundable $20.99 application fee for a supposedly fully funded summit, uses a generic Gmail address for contact, and provides no verifiable host organization or official website, which are classic red‑flags for scholarship/scam schemes.",
+    "id": "30307bd6210fb5ce",
+    "first_seen": "2026-10-16T09:36:55.478151+00:00",
+    "last_updated": "2026-10-16T09:36:55.478165+00:00"
+  },
+  "17d50b628e3e7b11": {
+    "url": "https://www.opportunitiesforafricans.com/the-changemakers-for-youth-programme-2027-for-young-changemakers-and-social-entrepreneurs/",
+    "title": "The Changemakers for Youth Programme 2027 for young changemakers and social entrepreneurs.",
+    "status": "suspicious",
+    "credibility_status": "SUSPICIOUS",
+    "source_tier": "TIER_3",
+    "reasoning": "The page does not provide a direct link to an official programme website and uses generic aggregator email addresses ([@opportunitiesforafricans.com]), which is atypical for reputable scholarship programs. While no application fee is mentioned, the lack of verifiable sponsor information and reliance on the aggregator site raise concerns about authenticity.",
+    "id": "17d50b628e3e7b11",
+    "first_seen": "2026-10-16T09:37:27.843330+00:00",
+    "last_updated": "2026-10-16T09:37:27.843344+00:00"
+  },
+  "948f376a558d7ab4": {
+    "url": "https://www.opportunitiesforafricans.com/wwfs-russell-e-train-fellowships-2027-2028-for-masters-or-doctoral-students/",
+    "title": "WWF’s Russell E. Train Fellowships 2027/2028 for master’s or doctoral students ($15,000 per year)",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "model_eligibility_status": "CONFIRMED_INELIGIBLE",
+    "missing_requirements": [],
+    "blocking_issues": [
+      "Citizenship mismatch: must be Ugandan national",
+      "Not enrolled/admitted/applied to a master’s program in Uganda",
+      "Bachelor’s degree not in a relevant discipline (biology/ecology/etc.)",
+      "Lack of documented conservation‑related work experience"
+    ],
+    "addressable_gaps": [],
+    "reasoning": "The fellowship explicitly requires applicants to be Ugandan nationals (citizenship or residency) and to be enrolled, admitted to, or have applied to a master's program at an accredited institution in Uganda. The candidate is an Ethiopian national, not a Ugandan citizen or resident, and is not enrolled in any Ugandan master's program. Additionally, the bachelor's degree must be in a relevant discipline (biology, ecology, conservation, zoology, geography); the candidate holds a BSc in Psychology, which does not meet this criterion. The required two years of conservation‑related experience is also not demonstrated. These are hard, non‑addressable blockers.",
+    "id": "948f376a558d7ab4",
+    "first_seen": "2026-10-16T09:38:31.682039+00:00",
+    "last_updated": "2026-10-16T09:38:31.682054+00:00"
+  },
+  "420de50b478d2f36": {
+    "url": "https://www.opportunitiesforafricans.com/the-apdd-individual-research-fellowships-2027-for-african-researchers/",
+    "title": "The APDD Individual Research Fellowships 2027 for African Researchers.",
+    "status": "legitimacy_unknown",
+    "credibility_status": "NEEDS_VERIFICATION",
+    "source_tier": "TIER_3",
+    "reasoning": "The page lists a fellowship allegedly run by the Social Science Research Council, but provides no direct link to an official SSRC or APDD website and uses generic contact emails, which makes verification difficult. No application fees or payment requests are mentioned, reducing scam likelihood, yet the lack of verifiable sponsor information prevents confirming legitimacy.",
+    "id": "420de50b478d2f36",
+    "first_seen": "2026-10-16T09:39:20.237914+00:00",
+    "last_updated": "2026-10-16T09:39:20.237930+00:00"
+  },
+  "b76398ab50fbaf46": {
+    "url": "https://www.opportunitiesforafricans.com/united-nations-university-junior-fellows-internship-programme-2027/",
+    "title": "United Nations University Junior Fellows Internship Programme 2027 – Tokyo, Japan (Funded)",
+    "status": "ineligible",
+    "eligibility_status": "PROBABLY_INELIGIBLE",
+    "model_eligibility_status": "PROBABLY_INELIGIBLE",
+    "missing_requirements": [],
+    "blocking_issues": [
+      "No postgraduate qualification or current enrollment in postgraduate studies (required by the programme)."
+    ],
+    "addressable_gaps": [
+      "Obtain an English language certification (e.g., Duolingo English Test or MOI certificate) to satisfy the English‑certification requirement."
+    ],
+    "reasoning": "The programme explicitly requires applicants to be currently pursuing or to have completed a postgraduate degree (master's or doctoral) within the last two years. Gulilat holds only a BSc and is not enrolled in any graduate programme, which is a hard blocker. Age (27 < 32) and work‑experience (< 5 years) are acceptable. English proficiency is required; Gulilat lacks a certified English test but could obtain a Duolingo or MOI certificate, which is an addressable gap. No nationality restriction is mentioned, so citizenship is not a blocker.",
+    "id": "b76398ab50fbaf46",
+    "first_seen": "2026-10-16T09:40:44.520208+00:00",
+    "last_updated": "2026-10-16T09:40:44.520223+00:00"
+  },
+  "aadf602bf4fa008c": {
+    "url": "https://opportunitiescorners.com/dw-traineeship-2028/",
+    "title": "DW Traineeship 2028/29 in Germany (2196-2473 Euros/Month)",
+    "status": "analyzed",
+    "score": 4.8,
+    "category": null,
+    "official_url": "https://opportunitiescorners.com/dw-traineeship-2028/",
+    "location": null,
+    "remote": null,
+    "deadline": "2026-11-17",
+    "reward": "fully_funded",
+    "estimated_value": null,
+    "eligibility_status": "PROBABLY_ELIGIBLE",
+    "credibility_status": "LIKELY_LEGITIMATE",
+    "source_tier": "TIER_3",
+    "source_quality": 7,
+    "requirements": [
+      "Letter of Motivation",
+      "Current CV",
+      "University Diploma or Training Certificate(s)",
+      "Samples of Your Work",
+      "Passport Copy",
+      "Residency Permit",
+      "Proof of Language Skills (if available)",
+      "Internship Certificate",
+      "Employment References",
+      "Letter of Recommendation"
+    ],
+    "id": "aadf602bf4fa008c",
+    "first_seen": "2026-10-16T09:43:09.737903+00:00",
+    "last_updated": "2026-10-16T09:43:09.737918+00:00"
+  },
+  "18f7f4b18adf3f58": {
+    "url": "https://opportunitiescorners.com/unu-junior-fellows-internship-2027/",
+    "title": "UNU Junior Fellows Internship 2027 in Japan (PAID)",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "model_eligibility_status": "CONFIRMED_INELIGIBLE",
+    "missing_requirements": [
+      "Verified English fluency certificate"
+    ],
+    "blocking_issues": [
+      "Degree level mismatch: only a BSc, program requires Master's or PhD"
+    ],
+    "addressable_gaps": [
+      "English proficiency proof (e.g., IELTS, TOEFL, Duolingo, or MOI certificate) can be obtained"
+    ],
+    "reasoning": "The program explicitly requires applicants to be enrolled in or have recently completed a Master's or PhD degree. Gulilat only holds a BSc, which does not satisfy this degree-level requirement. This is a hard blocker. Additionally, the program requires fluency in English; while the candidate claims proficiency, no English test certificate is provided, which is an addressable gap.",
+    "id": "18f7f4b18adf3f58",
+    "first_seen": "2026-10-16T09:44:42.434461+00:00",
+    "last_updated": "2026-10-16T09:44:42.434475+00:00"
+  },
+  "65d002fa1a719ebc": {
+    "url": "https://www.youtube.com/watch?v=Ex8mEwN23MQ&xstg=CAMSBhUDze3xHw%3D%3D",
+    "title": "Funding Opportunities in Africa Apply for Grants Up to $50,000 Today!",
+    "status": "filtered_out",
+    "reason": "The text is just a generic YouTube footer, not a scholarship or fellowship opportunity.",
+    "id": "65d002fa1a719ebc",
+    "first_seen": "2026-10-16T09:44:45.824880+00:00",
+    "last_updated": "2026-10-16T09:44:45.824905+00:00"
+  },
+  "96de522649092d9e": {
+    "url": "https://www.nsf.gov/funding/opportunities/grfp-nsf-graduate-research-fellowship-program",
+    "title": "NSF Graduate Research Fellowship Program (GRFP)",
+    "status": "ineligible",
+    "eligibility_status": "PROBABLY_INELIGIBLE",
+    "model_eligibility_status": "PROBABLY_INELIGIBLE",
+    "missing_requirements": [
+      "Citizenship or residency requirement (program text does not specify, but NSF typically requires U.S. citizenship/nationality or permanent residency)."
+    ],
+    "blocking_issues": [
+      "Must be currently enrolled in a graduate program at an accredited U.S. institution (candidate is not a student)."
+    ],
+    "addressable_gaps": [
+      "Enroll in a U.S. graduate program (candidate could apply and be admitted before the deadline)."
+    ],
+    "reasoning": "The NSF GRFP explicitly requires applicants to be graduate students pursuing research‑based master’s or doctoral degrees at accredited, nonprofit U.S. institutions. The candidate is a working professional and not currently enrolled in any graduate program, which is a hard blocker. The program text does not state citizenship requirements, so that criterion cannot be confirmed as a blocker from the provided information.",
+    "id": "96de522649092d9e",
+    "first_seen": "2026-10-16T09:45:54.134751+00:00",
+    "last_updated": "2026-10-16T09:45:54.134766+00:00"
+  },
+  "cd650ab98dc6d5b9": {
+    "url": "https://www.wilsoncenter.org/fellowship-application-guidelines",
+    "title": "Research Fellowship Guidelines and Eligibility | Wilson Center",
+    "status": "closed",
+    "deadline": null,
+    "id": "cd650ab98dc6d5b9",
+    "first_seen": "2026-10-16T09:46:31.543521+00:00",
+    "last_updated": "2026-10-16T09:46:31.543536+00:00"
+  },
+  "95b0495334e27482": {
+    "url": "https://www.humboldt-foundation.de/en/apply/sponsorship-programmes/humboldt-research-fellowship",
+    "title": "Humboldt Research Fellowship",
+    "status": "closed",
+    "deadline": null,
+    "id": "95b0495334e27482",
+    "first_seen": "2026-10-16T09:47:15.858812+00:00",
+    "last_updated": "2026-10-16T09:47:15.858825+00:00"
+  },
+  "a303805ed6fbf8ef": {
+    "url": "https://royalsociety.org/grants/newton-international",
+    "title": "Newton International Fellowships | Royal Society",
+    "status": "closed",
+    "deadline": null,
+    "id": "a303805ed6fbf8ef",
+    "first_seen": "2026-10-16T09:48:05.789369+00:00",
+    "last_updated": "2026-10-16T09:48:05.789383+00:00"
+  },
+  "f4bd9d375da4d2d6": {
+    "url": "http://fundit.fr/en/calls/grant-recruiting-international-visiting-researchers-sweden",
+    "title": "Grant for recruiting international visiting researchers to ...",
+    "status": "ineligible",
+    "eligibility_status": "PROBABLY_INELIGIBLE",
+    "model_eligibility_status": "PROBABLY_INELIGIBLE",
+    "missing_requirements": [],
+    "blocking_issues": [
+      "Degree level mismatch: candidate lacks PhD/equivalent foreign degree required for visiting researcher"
+    ],
+    "addressable_gaps": [],
+    "reasoning": "The grant requires the visiting researcher to have a PhD or equivalent foreign degree and at least 5 years of post‑doctoral career age. The candidate only holds a BSc and has no PhD, which does not satisfy the explicit degree‑level requirement. Nationality is not excluded, and the candidate’s professional status is acceptable, but the missing PhD is a hard blocker.",
+    "id": "f4bd9d375da4d2d6",
+    "first_seen": "2026-10-16T09:49:35.187947+00:00",
+    "last_updated": "2026-10-16T09:49:35.187963+00:00"
+  },
+  "6d3528ee99e04a49": {
+    "url": "https://dz.usembassy.gov/professional-fellows-program-pfp",
+    "title": "Professional Fellows Program (PFP) - U.S. Embassy in Algeria",
+    "status": "closed",
+    "deadline": "2025-06-23",
+    "id": "6d3528ee99e04a49",
+    "first_seen": "2026-10-16T09:50:10.746285+00:00",
+    "last_updated": "2026-10-16T09:50:10.746296+00:00"
   }
 }
