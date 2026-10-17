@@ -1,113 +1,5 @@
 [
   {
-    "at": "2026-09-22T09:51:35.306658+00:00",
-    "kind": "run",
-    "mode": "scan",
-    "environment": "github_actions",
-    "stats": {
-      "discovered": 277,
-      "already_seen": 76,
-      "known_scam": 0,
-      "fetch_failed": 3,
-      "first_pass_dropped": 0,
-      "scam": 2,
-      "legit_unknown": 3,
-      "ineligible": 5,
-      "closed": 2,
-      "deep_analyzed": 0,
-      "scored_high": 0,
-      "eligibility_demoted": 0,
-      "jina_fetch": 0,
-      "jina_failed": 0,
-      "snippet_fallback": 1,
-      "legit_unparseable": 0,
-      "trusted_thin_pass": 0,
-      "discovery": {
-        "tavily": {
-          "attempted": 20,
-          "successful": 20,
-          "429": 0,
-          "403": 0,
-          "errors": 0,
-          "candidates": 160,
-          "queries_planned": 20,
-          "disabled_reason": ""
-        },
-        "rss": {
-          "attempted": 4,
-          "successful": 4,
-          "failed": 0,
-          "skipped_dead": 1,
-          "candidates": 56
-        },
-        "api": {
-          "sources": 2,
-          "healthy": 2,
-          "failed": 0,
-          "candidates": 58
-        },
-        "seed": {
-          "attempted": 14,
-          "candidates": 14
-        },
-        "total": {
-          "raw": 288,
-          "after_dedupe": 277
-        }
-      },
-      "signal_rescued": 1,
-      "deduped": 0,
-      "matches": 0
-    }
-  },
-  {
-    "at": "2026-09-23T09:49:08.937304+00:00",
-    "kind": "error",
-    "message": "Fetch failed for https://opportunitiesforyouth.org/2026/08/27/big-ten-academic-alliance-smithsonian-fellowship-2026-45000-stipend-for-doctoral-candidates-to-conduct-research-at-the-smithsonian/: 403"
-  },
-  {
-    "at": "2026-09-23T09:49:09.067491+00:00",
-    "kind": "error",
-    "message": "Fetch failed for https://opportunitiesforyouth.org/2026/08/27/fully-funded-ucl-phd-studentships-2026-in-social-networks-stereotypes-and-social-inequalities-open-to-international-applicants/: 403"
-  },
-  {
-    "at": "2026-09-23T09:49:09.437222+00:00",
-    "kind": "error",
-    "message": "Fetch failed for https://opportunitiesforyouth.org/2026/08/27/erasmus-public-policy-2027/: 403"
-  },
-  {
-    "at": "2026-09-23T09:49:09.752037+00:00",
-    "kind": "error",
-    "message": "Fetch failed for https://opportunitiesforyouth.org/2026/08/28/mats-residency-winter-2027-fully-funded-ai-safety-research-opportunity-for-talented-researchers-worldwide/: 403"
-  },
-  {
-    "at": "2026-09-23T09:49:12.855944+00:00",
-    "kind": "run",
-    "mode": "watchlist",
-    "environment": "github_actions",
-    "stats": {
-      "discovered": 0,
-      "already_seen": 0,
-      "known_scam": 0,
-      "fetch_failed": 4,
-      "first_pass_dropped": 0,
-      "scam": 0,
-      "legit_unknown": 0,
-      "ineligible": 0,
-      "closed": 0,
-      "deep_analyzed": 1,
-      "scored_high": 0,
-      "eligibility_demoted": 0,
-      "jina_fetch": 0,
-      "jina_failed": 0,
-      "snippet_fallback": 0,
-      "legit_unparseable": 0,
-      "trusted_thin_pass": 0,
-      "reopened": 5,
-      "matches": 0
-    }
-  },
-  {
     "at": "2026-09-23T09:49:13.044813+00:00",
     "kind": "scan_start",
     "message": "daily scan started"
@@ -4258,6 +4150,170 @@
       "signal_rescued": 7,
       "deduped": 0,
       "matches": 0
+    }
+  },
+  {
+    "at": "2026-10-17T09:07:43.665301+00:00",
+    "kind": "run",
+    "mode": "watchlist",
+    "environment": "github_actions",
+    "stats": {
+      "discovered": 0,
+      "already_seen": 0,
+      "known_scam": 0,
+      "fetch_failed": 0,
+      "first_pass_dropped": 1,
+      "scam": 0,
+      "legit_unknown": 0,
+      "ineligible": 1,
+      "closed": 2,
+      "deep_analyzed": 1,
+      "scored_high": 1,
+      "eligibility_demoted": 0,
+      "jina_fetch": 0,
+      "jina_failed": 0,
+      "snippet_fallback": 0,
+      "legit_unparseable": 0,
+      "trusted_thin_pass": 0,
+      "signal_rescued": 2,
+      "reopened": 5,
+      "matches": 1
+    }
+  },
+  {
+    "at": "2026-10-17T09:07:43.810734+00:00",
+    "kind": "scan_start",
+    "message": "daily scan started"
+  },
+  {
+    "at": "2026-10-17T09:15:39.541491+00:00",
+    "kind": "error",
+    "message": "Fetch failed for https://www.dfat.gov.au/people-to-people/australia-awards/australia-awards-scholarships: HTTPSConnectionPool(host='www.dfat.gov.au', port=443): Read timed out. (read timeout=25)"
+  },
+  {
+    "at": "2026-10-17T09:21:48.284364+00:00",
+    "kind": "error",
+    "message": "Fetch failed for https://remotivated.com/best-remote-companies/benefits/work-from-anywhere: 429"
+  },
+  {
+    "at": "2026-10-17T09:22:10.074022+00:00",
+    "kind": "scan_complete",
+    "message": "daily scan finished",
+    "matches": 1,
+    "stats": {
+      "discovered": 270,
+      "already_seen": 78,
+      "known_scam": 0,
+      "fetch_failed": 1,
+      "first_pass_dropped": 5,
+      "scam": 0,
+      "legit_unknown": 0,
+      "ineligible": 5,
+      "closed": 1,
+      "deep_analyzed": 3,
+      "scored_high": 1,
+      "eligibility_demoted": 0,
+      "jina_fetch": 0,
+      "jina_failed": 0,
+      "snippet_fallback": 1,
+      "legit_unparseable": 0,
+      "trusted_thin_pass": 0,
+      "discovery": {
+        "tavily": {
+          "attempted": 20,
+          "successful": 20,
+          "429": 0,
+          "403": 0,
+          "errors": 0,
+          "candidates": 160,
+          "queries_planned": 20,
+          "disabled_reason": ""
+        },
+        "rss": {
+          "attempted": 4,
+          "successful": 4,
+          "failed": 0,
+          "skipped_dead": 1,
+          "candidates": 56
+        },
+        "api": {
+          "sources": 2,
+          "healthy": 2,
+          "failed": 0,
+          "candidates": 53
+        },
+        "seed": {
+          "attempted": 14,
+          "candidates": 14
+        },
+        "total": {
+          "raw": 283,
+          "after_dedupe": 270
+        }
+      },
+      "signal_rescued": 1,
+      "deduped": 0
+    }
+  },
+  {
+    "at": "2026-10-17T09:22:10.076669+00:00",
+    "kind": "run",
+    "mode": "scan",
+    "environment": "github_actions",
+    "stats": {
+      "discovered": 270,
+      "already_seen": 78,
+      "known_scam": 0,
+      "fetch_failed": 1,
+      "first_pass_dropped": 5,
+      "scam": 0,
+      "legit_unknown": 0,
+      "ineligible": 5,
+      "closed": 1,
+      "deep_analyzed": 3,
+      "scored_high": 1,
+      "eligibility_demoted": 0,
+      "jina_fetch": 0,
+      "jina_failed": 0,
+      "snippet_fallback": 1,
+      "legit_unparseable": 0,
+      "trusted_thin_pass": 0,
+      "discovery": {
+        "tavily": {
+          "attempted": 20,
+          "successful": 20,
+          "429": 0,
+          "403": 0,
+          "errors": 0,
+          "candidates": 160,
+          "queries_planned": 20,
+          "disabled_reason": ""
+        },
+        "rss": {
+          "attempted": 4,
+          "successful": 4,
+          "failed": 0,
+          "skipped_dead": 1,
+          "candidates": 56
+        },
+        "api": {
+          "sources": 2,
+          "healthy": 2,
+          "failed": 0,
+          "candidates": 53
+        },
+        "seed": {
+          "attempted": 14,
+          "candidates": 14
+        },
+        "total": {
+          "raw": 283,
+          "after_dedupe": 270
+        }
+      },
+      "signal_rescued": 1,
+      "deduped": 0,
+      "matches": 1
     }
   }
 ]

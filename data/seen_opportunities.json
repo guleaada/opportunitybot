@@ -12818,24 +12818,25 @@
   "f3e69c91db05ab64": {
     "url": "https://www.opportunitiesforafricans.com/the-2027-oilserv-ingenious-graduate-trainee-programme/",
     "title": "The Oilserv Ingenious Graduate Trainee Programme (IGTP) 2027 for young Nigerian graduates.",
-    "status": "suspicious",
+    "status": "closed",
     "credibility_status": "SUSPICIOUS",
     "source_tier": "TIER_3",
     "reasoning": "The listing provides no direct link to an official Oilserv website and uses only generic Gmail addresses for contact, which are atypical for a corporate graduate programme. The description is vague marketing copy without concrete details (e.g., stipend, location, application portal), suggesting the opportunity may not be a verified corporate offer.",
     "id": "f3e69c91db05ab64",
     "first_seen": "2026-10-02T11:05:52.818709+00:00",
-    "last_updated": "2026-10-02T11:05:52.818723+00:00"
+    "last_updated": "2026-10-17T09:03:54.308198+00:00",
+    "deadline": "2026-10-10"
   },
   "b91a913b1cb282ba": {
     "url": "https://www.opportunitiesforafricans.com/the-yale-maurice-r-greenberg-world-fellows-program-2027/",
     "title": "The Yale Maurice R. Greenberg World Fellows Program 2027 for mid-career emerging Global Leaders (Fully Funded to Yale University, USA)",
-    "status": "notified",
-    "score": 5.5,
+    "status": "analyzed",
+    "score": 6.1,
     "category": null,
     "official_url": "https://www.opportunitiesforafricans.com/the-yale-maurice-r-greenberg-world-fellows-program-2027/",
     "location": null,
     "remote": null,
-    "deadline": null,
+    "deadline": "2026-12-02",
     "reward": "fully_funded",
     "estimated_value": null,
     "eligibility_status": "PROBABLY_ELIGIBLE",
@@ -12845,7 +12846,7 @@
     "requirements": [],
     "id": "b91a913b1cb282ba",
     "first_seen": "2026-10-02T11:07:50.871440+00:00",
-    "last_updated": "2026-10-02T11:12:56.962500+00:00",
+    "last_updated": "2026-10-17T09:05:24.011027+00:00",
     "notification_tier": "WATCHLIST",
     "notified_at": "2026-10-02T11:12:56.956654+00:00"
   },
@@ -15645,5 +15646,264 @@
     "id": "6d3528ee99e04a49",
     "first_seen": "2026-10-16T09:50:10.746285+00:00",
     "last_updated": "2026-10-16T09:50:10.746296+00:00"
+  },
+  "064ead84086a0207": {
+    "url": "https://www.opportunitiesforafricans.com/the-university-of-rwanda-mastercard-foundation-undergraduate-scholars-program-2026-2027/",
+    "title": "The University of Rwanda Mastercard Foundation Undergraduate Scholars Program 2026/2027 for young Africans (Fully Funded)",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "model_eligibility_status": "CONFIRMED_INELIGIBLE",
+    "missing_requirements": [
+      "Specific undergraduate program admission criteria at University of Rwanda",
+      "Details on community engagement/leadership documentation requirements",
+      "Refugee/disability status documentation (if applicable)"
+    ],
+    "blocking_issues": [
+      "Degree level mismatch: program is undergraduate-only; candidate already holds a BSc (bachelor's degree)",
+      "Student status mismatch: program targets recent high school graduates; candidate is a working professional with a completed bachelor's"
+    ],
+    "addressable_gaps": [],
+    "reasoning": "The program is explicitly an UNDERGRADUATE Scholars Program. The candidate holds a BSc (bachelor's degree) and is a working professional, not a recent high school graduate. The call states it is 'recruiting Scholars for Cohort 5 for the 2026-2027 academic year across selected undergraduate programs' and presents 'an opportunity for recent high school graduates to enroll at the University of Rwanda.' The candidate has already completed tertiary education (BSc Psychology, graduated 2021), which directly contradicts the program's target demographic of pre-tertiary students. This is a hard degree-level mismatch: the candidate possesses a higher qualification than the program offers.",
+    "id": "064ead84086a0207",
+    "first_seen": "2026-10-17T09:07:12.132905+00:00",
+    "last_updated": "2026-10-17T09:07:12.132918+00:00"
+  },
+  "a8ae658154b9cac0": {
+    "url": "https://www.awardscholar.com",
+    "title": "Award Scholar - Claim Free Scholarship Money",
+    "status": "filtered_out",
+    "reason": "The scholarships require US residency and are for high school seniors, which do not match the candidate's profile.",
+    "id": "a8ae658154b9cac0",
+    "first_seen": "2026-10-17T09:07:30.668471+00:00",
+    "last_updated": "2026-10-17T09:07:30.668481+00:00"
+  },
+  "a2841c8df1458d7a": {
+    "url": "https://www.scholarshipsads.com/kellogg-institute-faculty-visiting-fellowship-program-26feb2026",
+    "title": "Kellogg Institute Faculty Visiting Fellowship Program 2027 , USA (Fully Funded)",
+    "status": "closed",
+    "deadline": "2025-10-01",
+    "id": "a2841c8df1458d7a",
+    "first_seen": "2026-10-17T09:07:40.788534+00:00",
+    "last_updated": "2026-10-17T09:07:40.788540+00:00"
+  },
+  "6c3cc8b0e89f5386": {
+    "url": "https://www.opportunitiesforafricans.com/the-daad-in-country-in-region-masters-phd-scholarship-programme-2027/",
+    "title": "The DAAD In-Country/In-Region Masters/PhD Scholarship Programme 2027 for Sub-Saharan African students (Fully Funded)",
+    "status": "ineligible",
+    "eligibility_status": "PROBABLY_INELIGIBLE",
+    "model_eligibility_status": "PROBABLY_INELIGIBLE",
+    "missing_requirements": [
+      "Intended study country (home or other Sub‑Saharan country)",
+      "Specific language proficiency requirement (if any)",
+      "Confirmation of chosen supported master programme"
+    ],
+    "blocking_issues": [
+      "Degree programme not among the DAAD listed supported programmes (hard blocker)",
+      "No stated intention to study in home country or another Sub‑Saharan African country (hard blocker if not provided)"
+    ],
+    "addressable_gaps": [
+      "Obtain an English proficiency certificate (Duolingo, MOI) if required by the specific university",
+      "Specify a study location within Ethiopia or another Sub‑Saharan African country",
+      "Apply to one of the listed development‑related master programmes"
+    ],
+    "reasoning": "The DAAD In-Country/In-Region scholarship only funds Master studies in a specific list of development‑related programmes (e.g., Water Engineering, Seed Science, Environmental Health, etc.). The candidate’s intended field (AI/Tech, Computer Science, Data Science) is not among the listed supported programmes, which is a hard eligibility blocker. The candidate also has not indicated a planned study location in Ethiopia or another Sub‑Saharan country, which is required for In‑Country/In‑Region scholarships. Language requirements are not stated, but could be addressed if needed.",
+    "id": "6c3cc8b0e89f5386",
+    "first_seen": "2026-10-17T09:09:15.402973+00:00",
+    "last_updated": "2026-10-17T09:09:15.402982+00:00"
+  },
+  "8ba9b720a9aa7848": {
+    "url": "https://www.opportunitiesforafricans.com/john-s-knight-journalism-fellowships-2027-2028-at-stanford-university/",
+    "title": "The John S. Knight Journalism Fellowships 2027/2028 at Stanford University, USA ($135,000 stipend & Fully Funded)",
+    "status": "unknown",
+    "eligibility_status": "UNCERTAIN",
+    "model_eligibility_status": "UNCERTAIN",
+    "missing_requirements": [
+      "Verification of 5+ years professional experience.",
+      "Evidence of direct journalism-related work or support role."
+    ],
+    "blocking_issues": [],
+    "addressable_gaps": [
+      "Provide documented proof of at least five years of professional experience (e.g., CV, employment letters).",
+      "Demonstrate involvement in journalism (e.g., articles authored, editorial work, media organization role, or work with a journalist‑supporting organization)."
+    ],
+    "reasoning": "The fellowship requires at least five years of professional experience and that applicants be directly involved in journalism (content production, operations/strategy in news orgs, or supporting journalists). The candidate’s profile does not confirm either of these criteria; it lists AI, marketing, psychology, and community leadership roles but no explicit journalism experience or a verifiable timeline showing five years of work. All other stated requirements (no degree needed, no nationality restriction, no age cap, no student status) are met, so the uncertainty stems from the two decision‑relevant criteria that are missing or unverifiable.",
+    "id": "8ba9b720a9aa7848",
+    "first_seen": "2026-10-17T09:10:16.872855+00:00",
+    "last_updated": "2026-10-17T09:10:16.872866+00:00"
+  },
+  "8e73a364c7ae45a5": {
+    "url": "https://www.opportunitiesforafricans.com/knight-wallace-journalism-fellowship-2027-2028/",
+    "title": "The Knight-Wallace Journalism Fellowship 2027/2028 for mid-career Journalists to study at the University of Michighan-USA (Fully Funded)",
+    "status": "ineligible",
+    "eligibility_status": "PROBABLY_INELIGIBLE",
+    "model_eligibility_status": "PROBABLY_INELIGIBLE",
+    "missing_requirements": [
+      "Specific definition of \"mid‑career\" (years of experience, number of published pieces, etc.)",
+      "Proof of journalism work or newsroom affiliation"
+    ],
+    "blocking_issues": [
+      "Career field mismatch: candidate is not a journalist (required for a mid‑career journalism fellowship)"
+    ],
+    "addressable_gaps": [],
+    "reasoning": "The fellowship is explicitly for \"mid‑career journalists\" and expects applicants to be working in a newsroom or journalism role. The candidate's profile lists AI development, marketing, psychology and community leadership, with no evidence of professional journalism experience. This career‑field mismatch is a hard blocker. No nationality, age, student‑status, or degree‑level restrictions are stated that would exclude the candidate.",
+    "id": "8e73a364c7ae45a5",
+    "first_seen": "2026-10-17T09:11:24.747935+00:00",
+    "last_updated": "2026-10-17T09:11:24.747945+00:00"
+  },
+  "fdf0df49011a790b": {
+    "url": "https://www.opportunitiesforafricans.com/the-mtn-yello-mums-reintegration-programme-2026-for-career-oriented-mothers/",
+    "title": "The MTN Y’ello Mums Reintegration Programme 2026 for career-oriented mothers.",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "model_eligibility_status": "CONFIRMED_INELIGIBLE",
+    "missing_requirements": [],
+    "blocking_issues": [
+      "Not a mother / no career break as required by the programme",
+      "Insufficient professional work experience (requires 5‑10 years, candidate has ~2‑3 years)"
+    ],
+    "addressable_gaps": [
+      "Obtain a relevant professional certification or CPD evidence (candidate could acquire)",
+      "Provide English proficiency proof (candidate can obtain Duolingo or MOI certificate)"
+    ],
+    "reasoning": "The programme explicitly targets \"career-oriented mothers\" returning to work after a career break due to childbirth or caring for a sick child. The candidate profile makes no mention of motherhood or a career break, and therefore does not meet this core eligibility criterion. Additionally, the programme requires 5‑10 years of relevant professional experience acquired before the career break; the candidate graduated in 2021 and has at most 2‑3 years of experience, which falls short of the required range.",
+    "id": "fdf0df49011a790b",
+    "first_seen": "2026-10-17T09:12:17.244343+00:00",
+    "last_updated": "2026-10-17T09:12:17.244355+00:00"
+  },
+  "c1a38071cb83ad43": {
+    "url": "https://www.opportunitiesforafricans.com/the-do-incuversity-program-2027-two-year-global-entrepreneurship-program/",
+    "title": "THE DO IncuVersity Program 2027 (Two-year global entrepreneurship program) – Full and partial tuition scholarships available.",
+    "status": "notified",
+    "score": 5.3,
+    "category": null,
+    "official_url": "https://www.opportunitiesforafricans.com/the-do-incuversity-program-2027-two-year-global-entrepreneurship-program/",
+    "location": null,
+    "remote": null,
+    "deadline": "2026-10-31",
+    "reward": "partial",
+    "estimated_value": null,
+    "eligibility_status": "PROBABLY_ELIGIBLE",
+    "credibility_status": "LIKELY_LEGITIMATE",
+    "source_tier": "TIER_3",
+    "source_quality": 7,
+    "requirements": [],
+    "id": "c1a38071cb83ad43",
+    "first_seen": "2026-10-17T09:14:08.204092+00:00",
+    "last_updated": "2026-10-17T09:22:10.057507+00:00",
+    "notification_tier": "GOOD",
+    "notified_at": "2026-10-17T09:22:10.050530+00:00"
+  },
+  "d83ce7b535ed4b5a": {
+    "url": "https://www.opportunitiesforafricans.com/world-intellectual-property-organization-wipo-intellectual-property-moot-court-competition-2027/",
+    "title": "The World Intellectual Property Organization (WIPO) Intellectual Property Moot Court Competition 2027 for law students ( Fully Funded to In-person finals at WIPO Headquarters in Geneva, Switzerland)",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "model_eligibility_status": "CONFIRMED_INELIGIBLE",
+    "missing_requirements": [],
+    "blocking_issues": [
+      "Not a law student (degree field mismatch)",
+      "Not currently enrolled in any university program (must be a student)"
+    ],
+    "addressable_gaps": [],
+    "reasoning": "The competition explicitly requires participants to be law students (currently enrolled in a law degree program). The candidate holds a BSc in Psychology and is a working professional, not a law student. This violates the core eligibility criterion. Age and nationality are acceptable, but the student status and degree field are hard blockers.",
+    "id": "d83ce7b535ed4b5a",
+    "first_seen": "2026-10-17T09:15:14.190859+00:00",
+    "last_updated": "2026-10-17T09:15:14.190874+00:00"
+  },
+  "7070e067933888fb": {
+    "url": "https://www.opportunitiesforafricans.com/the-allianz-x-social-shifters-movenow-social-innovation-challenge-2026/",
+    "title": "The Allianz x Social Shifters MoveNow Social Innovation Challenge 2026 for youth-led solutions ($USD90,000 in funding)",
+    "status": "analyzed",
+    "score": 4.4,
+    "category": null,
+    "official_url": "https://www.opportunitiesforafricans.com/the-allianz-x-social-shifters-movenow-social-innovation-challenge-2026/",
+    "location": null,
+    "remote": null,
+    "deadline": "2026-12-18",
+    "reward": "partial",
+    "estimated_value": null,
+    "eligibility_status": "PROBABLY_ELIGIBLE",
+    "credibility_status": "LIKELY_LEGITIMATE",
+    "source_tier": "TIER_3",
+    "source_quality": 7,
+    "requirements": [],
+    "id": "7070e067933888fb",
+    "first_seen": "2026-10-17T09:16:59.544533+00:00",
+    "last_updated": "2026-10-17T09:16:59.544549+00:00"
+  },
+  "afd1c44e7bbe15e5": {
+    "url": "https://www.southparkcommons.com/news/f26-founder-fellowship",
+    "title": "SPC Founder Fellowship Fall 2026",
+    "status": "closed",
+    "deadline": "2026-08-02",
+    "id": "afd1c44e7bbe15e5",
+    "first_seen": "2026-10-17T09:17:34.811405+00:00",
+    "last_updated": "2026-10-17T09:17:34.811417+00:00"
+  },
+  "b3cf8dcd3f364509": {
+    "url": "https://www.youtube.com/watch?v=-O5bVg3vS3E&vl=en",
+    "title": "5 Remote Jobs That Will Explode in 2026 (Nobody's Talking About These)",
+    "status": "filtered_out",
+    "reason": "The text is unrelated to any scholarship or fellowship opportunity",
+    "id": "b3cf8dcd3f364509",
+    "first_seen": "2026-10-17T09:17:41.314971+00:00",
+    "last_updated": "2026-10-17T09:17:41.314986+00:00"
+  },
+  "f1a3cacce465f5eb": {
+    "url": "https://jobglance.app/jobs/remote/worldwide",
+    "title": "Work From Anywhere Jobs (2026) - Open Worldwide",
+    "status": "analyzed",
+    "score": 3.9,
+    "category": "remote_jobs",
+    "official_url": "https://jobglance.app/jobs/remote/worldwide",
+    "location": null,
+    "remote": null,
+    "deadline": null,
+    "reward": "none",
+    "estimated_value": null,
+    "eligibility_status": "PROBABLY_ELIGIBLE",
+    "credibility_status": "LIKELY_LEGITIMATE",
+    "source_tier": "TIER_4",
+    "source_quality": 0,
+    "requirements": [],
+    "id": "f1a3cacce465f5eb",
+    "first_seen": "2026-10-17T09:20:48.614291+00:00",
+    "last_updated": "2026-10-17T09:20:48.614307+00:00"
+  },
+  "962b15bf064c3cbc": {
+    "url": "https://www.remoteworkadvocate.com/post/remote-job-market-2026",
+    "title": "Remote Jobs 2026: Trends & Opportunities | Remote Work Advocate",
+    "status": "filtered_out",
+    "reason": "It is an online course/marketing material with no funding and likely requires payment.",
+    "id": "962b15bf064c3cbc",
+    "first_seen": "2026-10-17T09:21:14.136778+00:00",
+    "last_updated": "2026-10-17T09:21:14.136797+00:00"
+  },
+  "122255e5a202c7c7": {
+    "url": "https://www.gooverseas.com/blog/best-digital-nomad-jobs",
+    "title": "15 Best Fully Remote Digital Nomad Jobs in 2026 | Go Overseas",
+    "status": "filtered_out",
+    "reason": "The text is a job guide, not a funded scholarship or fellowship program.",
+    "id": "122255e5a202c7c7",
+    "first_seen": "2026-10-17T09:21:48.087914+00:00",
+    "last_updated": "2026-10-17T09:21:48.087933+00:00"
+  },
+  "8e9262bdc93dd0a6": {
+    "url": "https://remotivated.com/best-remote-companies/benefits/work-from-anywhere",
+    "title": "19 Work From Anywhere Companies Hiring in 2026",
+    "status": "filtered_out",
+    "reason": "It's a remote job listing, not a scholarship or fellowship.",
+    "id": "8e9262bdc93dd0a6",
+    "first_seen": "2026-10-17T09:21:56.183100+00:00",
+    "last_updated": "2026-10-17T09:21:56.183120+00:00"
+  },
+  "fd7a945fef51aed0": {
+    "url": "https://nodesk.co",
+    "title": "NoDesk - Where Everyone Works Remote",
+    "status": "filtered_out",
+    "reason": "It's a remote job board, not a funded scholarship or fellowship",
+    "id": "fd7a945fef51aed0",
+    "first_seen": "2026-10-17T09:22:06.313095+00:00",
+    "last_updated": "2026-10-17T09:22:06.313112+00:00"
   }
 }
