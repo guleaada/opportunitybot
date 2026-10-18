@@ -13107,23 +13107,23 @@
   "ca1b02fe9eb0e371": {
     "url": "https://www.linkedin.com/posts/martin-salanda-7797917a_40-grants-funding-opportunities-for-african-activity-7414199461809356800-mtwL",
     "title": "40 African Startup Grants & Funding Opportunities | Martin Salanda posted on the topic | LinkedIn",
-    "status": "notified",
-    "score": 5.9,
-    "category": "startup_competitions",
+    "status": "analyzed",
+    "score": 4.8,
+    "category": null,
     "official_url": "https://www.linkedin.com/posts/martin-salanda-7797917a_40-grants-funding-opportunities-for-african-activity-7414199461809356800-mtwL",
     "location": null,
     "remote": null,
     "deadline": null,
-    "reward": "fully_funded",
+    "reward": "partial",
     "estimated_value": null,
     "eligibility_status": "PROBABLY_ELIGIBLE",
     "credibility_status": "LIKELY_LEGITIMATE",
     "source_tier": "TIER_4",
-    "source_quality": 0,
+    "source_quality": null,
     "requirements": [],
     "id": "ca1b02fe9eb0e371",
     "first_seen": "2026-10-03T10:27:13.814045+00:00",
-    "last_updated": "2026-10-03T10:27:47.156342+00:00",
+    "last_updated": "2026-10-18T09:25:25.641853+00:00",
     "notification_tier": "WATCHLIST",
     "notified_at": "2026-10-03T10:27:47.149396+00:00"
   },
@@ -13192,10 +13192,10 @@
     "status": "legitimacy_unknown",
     "credibility_status": "NEEDS_VERIFICATION",
     "source_tier": "TIER_3",
-    "reasoning": "The listing contains no application fee or payment request, which are common scam indicators. However, the page does not provide a direct link to an official ITU website, and a search of ITU's publicly listed programs does not clearly confirm the existence of a 'ITU Gender Champions Programme 2027', making it impossible to verify legitimacy from the available evidence.",
+    "reasoning": "The listing mentions no application fee, which is a good sign, but it provides only a generic aggregator email and no direct link to an official ITU webpage, making it impossible to verify the program’s existence on ITU’s own site. The lack of official ITU contact details and the reliance on a third‑party site are red flags, though not definitive proof of a scam.",
     "id": "668064db6bdefa32",
     "first_seen": "2026-10-04T11:06:34.447890+00:00",
-    "last_updated": "2026-10-04T11:06:34.447904+00:00"
+    "last_updated": "2026-10-18T09:22:36.805828+00:00"
   },
   "831ad86129aa40cf": {
     "url": "https://www.edu-live.com/posts/fully-funded-youth-leadership-certification-usa---apply",
@@ -15905,5 +15905,198 @@
     "id": "fd7a945fef51aed0",
     "first_seen": "2026-10-17T09:22:06.313095+00:00",
     "last_updated": "2026-10-17T09:22:06.313112+00:00"
+  },
+  "cfe2f27765695e66": {
+    "url": "https://www.facebook.com/MezzoAid/posts/1-call-for-applications-amref-health-africa-climate-and-health-catalyst-awards-2/122190998492860952",
+    "title": "Mezzo Aid - 1. Call For Applications: Amref Health Africa...",
+    "status": "suspicious",
+    "credibility_status": "SUSPICIOUS",
+    "source_tier": "TIER_4",
+    "reasoning": "The post advertises the Amref Health Africa award but provides only a Gmail address (mezzoaid@gmail.com) and no official Amref or MezzoAid domain link, which is a common red flag for fraudulent solicitations. While no fee is mentioned, the lack of verifiable official contact and the use of a third‑party Facebook page make the legitimacy uncertain.",
+    "id": "cfe2f27765695e66",
+    "first_seen": "2026-10-18T09:22:59.179408+00:00",
+    "last_updated": "2026-10-18T09:22:59.179424+00:00"
+  },
+  "232842ec799dd71f": {
+    "url": "https://opportunitiescorners.com/united-nations-young-professionals-program-2026/",
+    "title": "United Nations Young Professionals Programme 2026 (Fully Funded)",
+    "status": "unknown",
+    "eligibility_status": "UNCERTAIN",
+    "model_eligibility_status": "UNCERTAIN",
+    "missing_requirements": [
+      "Verification that Ethiopia is on the list of eligible countries for the 2026 YPP examination"
+    ],
+    "blocking_issues": [],
+    "addressable_gaps": [
+      "English language proof (obtain Duolingo English Test or MOI certificate to demonstrate fluency)"
+    ],
+    "reasoning": "The UN YPP 2026 requires applicants to be nationals of a country participating in the examination. The program text does not list eligible countries, so we cannot verify whether Ethiopia is included. All other criteria (age ≤32, bachelor's degree, no student‑status requirement) are met. Language proficiency is claimed but no certificate is provided, which is an addressable gap.",
+    "id": "232842ec799dd71f",
+    "first_seen": "2026-10-18T09:27:51.874969+00:00",
+    "last_updated": "2026-10-18T09:27:51.874984+00:00"
+  },
+  "0e736fe3e1f8972b": {
+    "url": "https://opportunitiescorners.com/global-investigative-journalism-conference-2027/",
+    "title": "Global Investigative Journalism Conference 2027 in Netherlands (Fully Funded)",
+    "status": "ineligible",
+    "eligibility_status": "PROBABLY_INELIGIBLE",
+    "model_eligibility_status": "PROBABLY_INELIGIBLE",
+    "missing_requirements": [
+      "Proof of journalism work (portfolio, bylines, or freelance contracts) not provided"
+    ],
+    "blocking_issues": [
+      "Career mismatch: not a journalist as required by the program"
+    ],
+    "addressable_gaps": [
+      "Obtain and document journalistic experience (e.g., published articles, reports, multimedia pieces) to qualify as a freelance or digital journalist"
+    ],
+    "reasoning": "The fellowship explicitly requires applicants to be journalists (print, online/digital, TV, radio, documentary, multimedia, or freelance). The candidate's profile lists AI development, marketing, psychology, and community leadership with no evidence of journalistic work, so this core requirement is not met. Citizenship is acceptable (Ethiopia is a developing country). No age or student‑status restrictions apply.",
+    "id": "0e736fe3e1f8972b",
+    "first_seen": "2026-10-18T09:29:02.638758+00:00",
+    "last_updated": "2026-10-18T09:29:02.638774+00:00"
+  },
+  "1490979a62fd6fee": {
+    "url": "https://legal.un.org/poa/ilfp",
+    "title": "United Nations International Law Fellowship Programme",
+    "status": "closed",
+    "deadline": "2026-03-30",
+    "id": "1490979a62fd6fee",
+    "first_seen": "2026-10-18T09:29:30.407654+00:00",
+    "last_updated": "2026-10-18T09:29:30.407672+00:00"
+  },
+  "51d6179f93727ff7": {
+    "url": "https://www.artjobs.com/open-calls/call-entries/united-states/108863/monoline-design-awards-2027-international-open-call",
+    "title": "Monoline Design Awards 2027 - International Open Call",
+    "status": "unknown",
+    "eligibility_status": "UNCERTAIN",
+    "model_eligibility_status": "UNCERTAIN",
+    "missing_requirements": [
+      "Nationality eligibility (whether Ethiopian citizens are allowed)",
+      "Age limit (if any)",
+      "Student status requirement (must be currently enrolled or not)",
+      "Minimum degree level or field of study",
+      "English language proficiency requirement",
+      "Any professional experience or portfolio criteria"
+    ],
+    "blocking_issues": [],
+    "addressable_gaps": [
+      "Obtain an English proficiency test result (e.g., Duolingo, IELTS, TOEFL) if the competition later requires proof of English ability."
+    ],
+    "reasoning": "The program description provides no explicit eligibility criteria (e.g., nationality, age limit, student status, degree level, language proficiency). Because we cannot verify whether the candidate meets any required conditions, a decision‑relevant criterion is missing, leading to uncertainty.",
+    "id": "51d6179f93727ff7",
+    "first_seen": "2026-10-18T09:29:53.545800+00:00",
+    "last_updated": "2026-10-18T09:29:53.545817+00:00"
+  },
+  "6b06bd04976f977e": {
+    "url": "https://opportunitiescorners.com/japan-youth-summit-2027/",
+    "title": "Japan Youth Summit 2027 | JYS Osaka (10-13 May)",
+    "status": "suspicious",
+    "credibility_status": "SUSPICIOUS",
+    "source_tier": "TIER_3",
+    "reasoning": "The summit is organized by an obscure entity (Youth Break the Boundaries) with no verifiable official website, uses a generic Gmail address for contact, and requires a $10 registration fee despite claiming to be fully funded—common red‑flags for fraudulent or low‑credibility programs.",
+    "id": "6b06bd04976f977e",
+    "first_seen": "2026-10-18T09:30:28.686674+00:00",
+    "last_updated": "2026-10-18T09:30:28.686689+00:00"
+  },
+  "401efdde38157a7c": {
+    "url": "https://www.jumptrading.com/fellowship-program",
+    "title": "Fellowship Program",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "model_eligibility_status": "CONFIRMED_INELIGIBLE",
+    "missing_requirements": [],
+    "blocking_issues": [
+      "Must be a PhD student (degree level mismatch)",
+      "Must be enrolled in a US university (student status mismatch)",
+      "Must have at least one academic year remaining in the PhD program",
+      "Nomination must come from an approved university (candidate not a student)"
+    ],
+    "addressable_gaps": [],
+    "reasoning": "The fellowship explicitly requires nominees to be PhD students at US universities with at least one academic year remaining. The candidate is a working professional with only a BSc degree and is not enrolled in any university, let alone a US PhD program. Therefore the core eligibility criteria are not met.",
+    "id": "401efdde38157a7c",
+    "first_seen": "2026-10-18T09:31:37.063915+00:00",
+    "last_updated": "2026-10-18T09:31:37.063928+00:00"
+  },
+  "8e27ba06d88b963b": {
+    "url": "https://www.scholarshiptab.com",
+    "title": "ScholarshipTab: Study Abroad Scholarships 2026 ...",
+    "status": "unknown",
+    "eligibility_status": "UNCERTAIN",
+    "model_eligibility_status": "UNCERTAIN",
+    "missing_requirements": [
+      "Nationality eligibility (whether Ethiopian citizens are allowed)",
+      "Current enrollment status (must be a student or not)",
+      "Age limit (if any)",
+      "Minimum degree level required for a master's scholarship",
+      "English language proficiency requirements (IELTS/TOEFL/Duolingo etc.)",
+      "Any field of study restrictions"
+    ],
+    "blocking_issues": [],
+    "addressable_gaps": [],
+    "reasoning": "The program description provides no explicit eligibility criteria (e.g., nationality, student status, age limit, degree level, English proficiency). Without these details we cannot confirm that the candidate meets the requirements, nor can we definitively state they are blocked.",
+    "id": "8e27ba06d88b963b",
+    "first_seen": "2026-10-18T09:32:00.928979+00:00",
+    "last_updated": "2026-10-18T09:32:00.928994+00:00"
+  },
+  "ec46f291206f5024": {
+    "url": "https://www.joinhomebase.com/blog/small-business-grants",
+    "title": "Small Business Grants: 2026 Guide To Free Funding | Homebase",
+    "status": "closed",
+    "deadline": null,
+    "id": "ec46f291206f5024",
+    "first_seen": "2026-10-18T09:33:55.752271+00:00",
+    "last_updated": "2026-10-18T09:33:55.752285+00:00"
+  },
+  "48637cdfd7258c22": {
+    "url": "https://www.roberthalf.com/us/en/jobs/all/remote",
+    "title": "490 Results for Remote Jobs",
+    "status": "filtered_out",
+    "reason": "This is a generic job board listing for remote employment opportunities, not a scholarship/fellowship opportunity.",
+    "id": "48637cdfd7258c22",
+    "first_seen": "2026-10-18T09:34:00.612601+00:00",
+    "last_updated": "2026-10-18T09:34:00.612614+00:00"
+  },
+  "16e36bb0fffbbce8": {
+    "url": "https://www.youtube.com/watch?v=-O5bVg3vS3E&vl=en&xstg=CAMSBhUDze3xHw%3D%3D",
+    "title": "5 Remote Jobs That Will Explode in 2026 (Nobody's Talking About These)",
+    "status": "legitimacy_unknown",
+    "credibility_status": "NEEDS_VERIFICATION",
+    "source_tier": "TIER_4",
+    "reasoning": "The provided page text is limited to generic YouTube footer elements and contains no specific information about any scholarship, fellowship, or program, making it impossible to assess legitimacy.",
+    "id": "16e36bb0fffbbce8",
+    "first_seen": "2026-10-18T09:34:13.061349+00:00",
+    "last_updated": "2026-10-18T09:34:13.061361+00:00"
+  },
+  "5998164092335924": {
+    "url": "https://wfh.team/blog/the-15-fastest-growing-remote-careers-in-2026-and-10-companies-hiring",
+    "title": "Page Not Found | WFH.team",
+    "status": "analyzed",
+    "score": 4.0,
+    "category": "remote_jobs",
+    "official_url": "https://wfh.team/blog/the-15-fastest-growing-remote-careers-in-2026-and-10-companies-hiring",
+    "location": null,
+    "remote": null,
+    "deadline": null,
+    "reward": "none",
+    "estimated_value": null,
+    "eligibility_status": "PROBABLY_ELIGIBLE",
+    "credibility_status": "LIKELY_LEGITIMATE",
+    "source_tier": "TIER_4",
+    "source_quality": 0,
+    "requirements": [],
+    "id": "5998164092335924",
+    "first_seen": "2026-10-18T09:35:56.718506+00:00",
+    "last_updated": "2026-10-18T09:35:56.718521+00:00"
+  },
+  "b24b39e7a063b905": {
+    "url": "https://www.indeed.com/q-remote-work-from-home-no-relocation-jobs.html",
+    "title": "Remote work from home no relocation jobs",
+    "status": "legitimacy_unknown",
+    "credibility_status": "NEEDS_VERIFICATION",
+    "source_tier": "TIER_4",
+    "reasoning": "The source is an Indeed job listings page for remote work, not a scholarship or fellowship program. No application fees, payment requests, or other typical scam indicators are present, but there is also no evidence of a scholarship offering to evaluate.",
+    "id": "b24b39e7a063b905",
+    "first_seen": "2026-10-18T09:36:31.900881+00:00",
+    "last_updated": "2026-10-18T09:36:31.900896+00:00"
   }
 }

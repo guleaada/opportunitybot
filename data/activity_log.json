@@ -1,166 +1,5 @@
 [
   {
-    "at": "2026-09-23T09:49:13.044813+00:00",
-    "kind": "scan_start",
-    "message": "daily scan started"
-  },
-  {
-    "at": "2026-09-23T09:55:24.051624+00:00",
-    "kind": "error",
-    "message": "Fetch failed for https://www.dfat.gov.au/people-to-people/australia-awards/australia-awards-scholarships: HTTPSConnectionPool(host='www.dfat.gov.au', port=443): Read timed out. (read timeout=25)"
-  },
-  {
-    "at": "2026-09-23T09:57:44.315862+00:00",
-    "kind": "error",
-    "message": "Fetch failed for https://vanier.gc.ca/en/home-accueil.html: HTTPSConnectionPool(host='vanier.gc.ca', port=443): Max retries exceeded with url: /en/home-accueil.html (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)')))"
-  },
-  {
-    "at": "2026-09-23T09:57:44.613638+00:00",
-    "kind": "error",
-    "message": "Fetch failed for https://opportunitydesk.org/category/fellowships/: 403"
-  },
-  {
-    "at": "2026-09-23T10:07:46.383505+00:00",
-    "kind": "scan_complete",
-    "message": "daily scan finished",
-    "matches": 1,
-    "stats": {
-      "discovered": 273,
-      "already_seen": 78,
-      "known_scam": 0,
-      "fetch_failed": 3,
-      "first_pass_dropped": 0,
-      "scam": 2,
-      "legit_unknown": 1,
-      "ineligible": 4,
-      "closed": 0,
-      "deep_analyzed": 1,
-      "scored_high": 1,
-      "eligibility_demoted": 0,
-      "jina_fetch": 0,
-      "jina_failed": 0,
-      "snippet_fallback": 0,
-      "legit_unparseable": 3,
-      "trusted_thin_pass": 0,
-      "discovery": {
-        "tavily": {
-          "attempted": 20,
-          "successful": 20,
-          "429": 0,
-          "403": 0,
-          "errors": 0,
-          "candidates": 160,
-          "queries_planned": 20,
-          "disabled_reason": ""
-        },
-        "rss": {
-          "attempted": 4,
-          "successful": 4,
-          "failed": 0,
-          "skipped_dead": 1,
-          "candidates": 56
-        },
-        "api": {
-          "sources": 2,
-          "healthy": 2,
-          "failed": 0,
-          "candidates": 58
-        },
-        "seed": {
-          "attempted": 14,
-          "candidates": 14
-        },
-        "total": {
-          "raw": 288,
-          "after_dedupe": 273
-        }
-      },
-      "analysis_unavailable": 1,
-      "deduped": 0
-    }
-  },
-  {
-    "at": "2026-09-23T10:07:46.386255+00:00",
-    "kind": "run",
-    "mode": "scan",
-    "environment": "github_actions",
-    "stats": {
-      "discovered": 273,
-      "already_seen": 78,
-      "known_scam": 0,
-      "fetch_failed": 3,
-      "first_pass_dropped": 0,
-      "scam": 2,
-      "legit_unknown": 1,
-      "ineligible": 4,
-      "closed": 0,
-      "deep_analyzed": 1,
-      "scored_high": 1,
-      "eligibility_demoted": 0,
-      "jina_fetch": 0,
-      "jina_failed": 0,
-      "snippet_fallback": 0,
-      "legit_unparseable": 3,
-      "trusted_thin_pass": 0,
-      "discovery": {
-        "tavily": {
-          "attempted": 20,
-          "successful": 20,
-          "429": 0,
-          "403": 0,
-          "errors": 0,
-          "candidates": 160,
-          "queries_planned": 20,
-          "disabled_reason": ""
-        },
-        "rss": {
-          "attempted": 4,
-          "successful": 4,
-          "failed": 0,
-          "skipped_dead": 1,
-          "candidates": 56
-        },
-        "api": {
-          "sources": 2,
-          "healthy": 2,
-          "failed": 0,
-          "candidates": 58
-        },
-        "seed": {
-          "attempted": 14,
-          "candidates": 14
-        },
-        "total": {
-          "raw": 288,
-          "after_dedupe": 273
-        }
-      },
-      "analysis_unavailable": 1,
-      "deduped": 0,
-      "matches": 1
-    }
-  },
-  {
-    "at": "2026-09-24T09:44:59.784227+00:00",
-    "kind": "error",
-    "message": "Fetch failed for https://opportunitydesk.org/2026/08/28/cybersafe-x-sans-ai-security-fellowship-2026/: 403"
-  },
-  {
-    "at": "2026-09-24T09:45:03.026255+00:00",
-    "kind": "error",
-    "message": "Fetch failed for https://opportunitiesforyouth.org/2026/08/30/cape-town-phd-2027/: 429"
-  },
-  {
-    "at": "2026-09-24T09:45:03.119886+00:00",
-    "kind": "error",
-    "message": "Fetch failed for https://opportunitiesforyouth.org/2026/08/30/call-for-research-proposals-economic-opportunities-for-women-and-men-how-regulation-and-fiscal-policy-shape-economic-opportunities-in-latin-america-and-the-caribbean/: 429"
-  },
-  {
-    "at": "2026-09-24T09:45:03.263047+00:00",
-    "kind": "error",
-    "message": "Fetch failed for https://opportunitiesforyouth.org/2026/08/30/unlocking-solutions-the-pandemic-fund-announces-second-call-for-proposals/: 429"
-  },
-  {
     "at": "2026-09-24T09:45:05.782464+00:00",
     "kind": "run",
     "mode": "watchlist",
@@ -4314,6 +4153,191 @@
       "signal_rescued": 1,
       "deduped": 0,
       "matches": 1
+    }
+  },
+  {
+    "at": "2026-10-18T09:22:37.190685+00:00",
+    "kind": "error",
+    "message": "Fetch failed for https://www.facebook.com/MezzoAid/posts/1-call-for-applications-amref-health-africa-climate-and-health-catalyst-awards-2/122190998492860952: 400"
+  },
+  {
+    "at": "2026-10-18T09:26:10.529884+00:00",
+    "kind": "run",
+    "mode": "watchlist",
+    "environment": "github_actions",
+    "stats": {
+      "discovered": 0,
+      "already_seen": 0,
+      "known_scam": 0,
+      "fetch_failed": 0,
+      "first_pass_dropped": 0,
+      "scam": 1,
+      "legit_unknown": 1,
+      "ineligible": 0,
+      "closed": 0,
+      "deep_analyzed": 1,
+      "scored_high": 0,
+      "eligibility_demoted": 0,
+      "jina_fetch": 0,
+      "jina_failed": 0,
+      "snippet_fallback": 1,
+      "legit_unparseable": 0,
+      "trusted_thin_pass": 0,
+      "reopened": 3,
+      "matches": 0
+    }
+  },
+  {
+    "at": "2026-10-18T09:26:10.731359+00:00",
+    "kind": "scan_start",
+    "message": "daily scan started"
+  },
+  {
+    "at": "2026-10-18T09:29:27.749309+00:00",
+    "kind": "error",
+    "message": "Fetch failed for https://www.dfat.gov.au/people-to-people/australia-awards/australia-awards-scholarships: HTTPSConnectionPool(host='www.dfat.gov.au', port=443): Read timed out. (read timeout=25)"
+  },
+  {
+    "at": "2026-10-18T09:29:30.533817+00:00",
+    "kind": "error",
+    "message": "Fetch failed for https://www.artjobs.com/open-calls/call-entries/united-states/108863/monoline-design-awards-2027-international-open-call: 403"
+  },
+  {
+    "at": "2026-10-18T09:31:37.194639+00:00",
+    "kind": "error",
+    "message": "Fetch failed for https://www.scholarshiptab.com: 403"
+  },
+  {
+    "at": "2026-10-18T09:32:01.186784+00:00",
+    "kind": "error",
+    "message": "Fetch failed for https://www.facebook.com/opportunitiesforyouth/posts/-30-funding-grant-opportunities-for-african-startupscalling-all-african-founders/1325967266227290: 400"
+  },
+  {
+    "at": "2026-10-18T09:35:56.799743+00:00",
+    "kind": "error",
+    "message": "Fetch failed for https://www.indeed.com/q-remote-work-from-home-no-relocation-jobs.html: 403"
+  },
+  {
+    "at": "2026-10-18T09:36:33.833820+00:00",
+    "kind": "scan_complete",
+    "message": "daily scan finished",
+    "matches": 0,
+    "stats": {
+      "discovered": 272,
+      "already_seen": 112,
+      "known_scam": 0,
+      "fetch_failed": 1,
+      "first_pass_dropped": 1,
+      "scam": 1,
+      "legit_unknown": 2,
+      "ineligible": 5,
+      "closed": 2,
+      "deep_analyzed": 1,
+      "scored_high": 0,
+      "eligibility_demoted": 0,
+      "jina_fetch": 0,
+      "jina_failed": 0,
+      "snippet_fallback": 4,
+      "legit_unparseable": 1,
+      "trusted_thin_pass": 0,
+      "discovery": {
+        "tavily": {
+          "attempted": 20,
+          "successful": 20,
+          "429": 0,
+          "403": 0,
+          "errors": 0,
+          "candidates": 160,
+          "queries_planned": 20,
+          "disabled_reason": ""
+        },
+        "rss": {
+          "attempted": 4,
+          "successful": 4,
+          "failed": 0,
+          "skipped_dead": 1,
+          "candidates": 56
+        },
+        "api": {
+          "sources": 2,
+          "healthy": 2,
+          "failed": 0,
+          "candidates": 52
+        },
+        "seed": {
+          "attempted": 14,
+          "candidates": 14
+        },
+        "total": {
+          "raw": 282,
+          "after_dedupe": 272
+        }
+      },
+      "signal_rescued": 2,
+      "analysis_unavailable": 1,
+      "deduped": 0
+    }
+  },
+  {
+    "at": "2026-10-18T09:36:33.837669+00:00",
+    "kind": "run",
+    "mode": "scan",
+    "environment": "github_actions",
+    "stats": {
+      "discovered": 272,
+      "already_seen": 112,
+      "known_scam": 0,
+      "fetch_failed": 1,
+      "first_pass_dropped": 1,
+      "scam": 1,
+      "legit_unknown": 2,
+      "ineligible": 5,
+      "closed": 2,
+      "deep_analyzed": 1,
+      "scored_high": 0,
+      "eligibility_demoted": 0,
+      "jina_fetch": 0,
+      "jina_failed": 0,
+      "snippet_fallback": 4,
+      "legit_unparseable": 1,
+      "trusted_thin_pass": 0,
+      "discovery": {
+        "tavily": {
+          "attempted": 20,
+          "successful": 20,
+          "429": 0,
+          "403": 0,
+          "errors": 0,
+          "candidates": 160,
+          "queries_planned": 20,
+          "disabled_reason": ""
+        },
+        "rss": {
+          "attempted": 4,
+          "successful": 4,
+          "failed": 0,
+          "skipped_dead": 1,
+          "candidates": 56
+        },
+        "api": {
+          "sources": 2,
+          "healthy": 2,
+          "failed": 0,
+          "candidates": 52
+        },
+        "seed": {
+          "attempted": 14,
+          "candidates": 14
+        },
+        "total": {
+          "raw": 282,
+          "after_dedupe": 272
+        }
+      },
+      "signal_rescued": 2,
+      "analysis_unavailable": 1,
+      "deduped": 0,
+      "matches": 0
     }
   }
 ]
