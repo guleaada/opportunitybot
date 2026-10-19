@@ -13550,7 +13550,7 @@
   "62e04157e934f6af": {
     "url": "https://opportunitiescorners.com/russia-jinr-start-winter-program-2027/",
     "title": "Russia JINR START Winter Program 2027 (Fully Funded)",
-    "status": "ineligible",
+    "status": "closed",
     "eligibility_status": "CONFIRMED_INELIGIBLE",
     "model_eligibility_status": "CONFIRMED_INELIGIBLE",
     "missing_requirements": [],
@@ -13562,7 +13562,8 @@
     "reasoning": "The program explicitly requires applicants to be currently enrolled in a STEM field (Science, Technology, Engineering, Mathematics) and to be in at least their 3rd year of undergraduate studies up to the 1st year of a PhD program. The candidate is a working professional, not currently a student, and holds a BSc in Psychology, which is not a STEM discipline. Therefore the candidate does not meet the core eligibility criteria.",
     "id": "62e04157e934f6af",
     "first_seen": "2026-10-06T12:04:06.107253+00:00",
-    "last_updated": "2026-10-06T12:04:06.107270+00:00"
+    "last_updated": "2026-10-19T10:34:25.801883+00:00",
+    "deadline": "2026-10-16"
   },
   "efa339889a089658": {
     "url": "https://www.opportunitiesforafricans.com/the-chapel-hill-denhams-management-development-programme-mdp-2027/",
@@ -15366,7 +15367,7 @@
   "580ee347db2ee6a6": {
     "url": "https://startupmaphub.com/funding/africa",
     "title": "Startup Funding in Africa (2026) — Grants, Accelerators & Investors",
-    "status": "analyzed",
+    "status": "unknown",
     "score": 3.8,
     "category": "accelerators",
     "official_url": "https://startupmaphub.com/funding/africa",
@@ -15375,14 +15376,23 @@
     "deadline": "2026-10-23",
     "reward": "unknown",
     "estimated_value": null,
-    "eligibility_status": "PROBABLY_ELIGIBLE",
+    "eligibility_status": "UNCERTAIN",
     "credibility_status": "LIKELY_LEGITIMATE",
     "source_tier": "TIER_4",
     "source_quality": 0,
     "requirements": [],
     "id": "580ee347db2ee6a6",
     "first_seen": "2026-10-15T10:00:48.566690+00:00",
-    "last_updated": "2026-10-15T10:00:48.566703+00:00"
+    "last_updated": "2026-10-19T10:35:46.145699+00:00",
+    "model_eligibility_status": "UNCERTAIN",
+    "missing_requirements": [
+      "Specific eligibility criteria for each listed grant/accelerator (e.g., nationality restrictions, student enrollment requirement, age caps, degree level, English language test scores).",
+      "Proof of English proficiency (IELTS/TOEFL/Duolingo) if required by any program.",
+      "Details on startup stage, revenue, or traction that many accelerators request."
+    ],
+    "blocking_issues": [],
+    "addressable_gaps": [],
+    "reasoning": "The page lists a collection of grants, accelerators, and investors but does not specify any concrete eligibility criteria (e.g., nationality, student status, age limit, degree level, English proficiency). Because we cannot verify whether any of the individual opportunities require the candidate to be a current student, to hold a specific degree, to be under a certain age, or to have a certified English test, we cannot confirm eligibility nor rule it out."
   },
   "54644da1f632f4ff": {
     "url": "https://www.youtube.com/watch?v=r-iWlo0BUwg",
@@ -16098,5 +16108,243 @@
     "id": "b24b39e7a063b905",
     "first_seen": "2026-10-18T09:36:31.900881+00:00",
     "last_updated": "2026-10-18T09:36:31.900896+00:00"
+  },
+  "d9525ebe8c502e27": {
+    "url": "https://robotics.nasa.gov/2026-2027-frc-sponsorship-grants",
+    "title": "2026-2027 FRC Sponsorship Grants – Robotics Alliance Project",
+    "status": "closed",
+    "deadline": "2026-09-30",
+    "id": "d9525ebe8c502e27",
+    "first_seen": "2026-10-19T10:36:42.807620+00:00",
+    "last_updated": "2026-10-19T10:36:42.807631+00:00"
+  },
+  "0b8fa82722e0a71e": {
+    "url": "https://nebius.com/nebius-research-grants",
+    "title": "Nebius research grants program",
+    "status": "ineligible",
+    "eligibility_status": "PROBABLY_INELIGIBLE",
+    "model_eligibility_status": "PROBABLY_INELIGIBLE",
+    "missing_requirements": [],
+    "blocking_issues": [
+      "Candidate is not a postgraduate student, PhD student, postdoc, faculty member, or researcher at an accredited academic institution (hard blocker).",
+      "Only holds a bachelor's degree; program targets postgraduate-level researchers."
+    ],
+    "addressable_gaps": [
+      "Enroll in a postgraduate program or secure a research position at an accredited university or non‑profit research organization."
+    ],
+    "reasoning": "The Nebius program explicitly limits applicants to postgraduate students, PhD students, postdoctoral researchers, faculty members, or researchers affiliated with accredited academic institutions or non‑profit research organizations. The candidate is a working professional with only a BSc degree and no affiliation to an accredited academic institution, thus does not meet any of the listed eligible categories.",
+    "id": "0b8fa82722e0a71e",
+    "first_seen": "2026-10-19T10:37:26.115609+00:00",
+    "last_updated": "2026-10-19T10:37:26.115621+00:00"
+  },
+  "1fd50871da3222cd": {
+    "url": "https://opportunitiescorners.com/keio-university-japan-adb-scholarship-2027/",
+    "title": "Keio University Japan ADB Scholarship 2027 (Fully Funded)",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "model_eligibility_status": "PROBABLY_INELIGIBLE",
+    "missing_requirements": [],
+    "blocking_issues": [
+      "citizenship not an ADB member country"
+    ],
+    "addressable_gaps": [
+      "English proficiency certificate (Duolingo, MOI, etc.)"
+    ],
+    "reasoning": "The ADB Scholarship requires applicants to be citizens of an ADB member country. Ethiopia is not an ADB member, which is a hard blocker. The candidate meets age, degree, and work‑experience criteria, and can obtain an English proficiency test, but citizenship disqualifies them.",
+    "id": "1fd50871da3222cd",
+    "first_seen": "2026-10-19T10:38:59.167805+00:00",
+    "last_updated": "2026-10-19T10:38:59.167819+00:00"
+  },
+  "4f5c959ecdc809b2": {
+    "url": "https://opportunitiescorners.com/crossculture-program-2027-in-germany/",
+    "title": "CrossCulture Program 2027 in Germany (Fully Funded)",
+    "status": "suspicious",
+    "credibility_status": "SUSPICIOUS",
+    "source_tier": "TIER_3",
+    "reasoning": "The CrossCulture Programme is a real fellowship funded by the German Federal Foreign Office, but the page provides only a Gmail address as the official contact and no direct link to the government’s website, which are common red flags for fraudulent listings.",
+    "id": "4f5c959ecdc809b2",
+    "first_seen": "2026-10-19T10:39:52.126653+00:00",
+    "last_updated": "2026-10-19T10:39:52.126664+00:00"
+  },
+  "7356a191f3e12bd3": {
+    "url": "https://www.karibu.no/karibu-new-realities-grant/apply-for-africa-grant",
+    "title": "Send in a Note of Interest for \"Africa Grant\" - Karibu Foundation",
+    "status": "legitimacy_unknown",
+    "credibility_status": "NEEDS_VERIFICATION",
+    "source_tier": "TIER_4",
+    "reasoning": "The page describes a grant program with no application fees, no request for payments, and uses a corporate domain (karibu.no) for contact, which are positive signs. However, the program is invitation‑only, has vague future deadlines, and there is limited publicly verifiable information about the Karibu Foundation, making it difficult to confirm legitimacy.",
+    "id": "7356a191f3e12bd3",
+    "first_seen": "2026-10-19T10:40:24.771435+00:00",
+    "last_updated": "2026-10-19T10:40:24.771453+00:00"
+  },
+  "6a22b1b13865a4ff": {
+    "url": "https://grantedai.com/grants/digitalocean-open-source-sponsorship-credits-for-projects-digitalocean-ae8c3bec",
+    "title": "DigitalOcean Open Source Sponsorship (Credits for Projects) (2026) | Granted AI",
+    "status": "notified",
+    "score": 5.7,
+    "category": "developer_programs",
+    "official_url": "https://grantedai.com/grants/digitalocean-open-source-sponsorship-credits-for-projects-digitalocean-ae8c3bec",
+    "location": null,
+    "remote": null,
+    "deadline": null,
+    "reward": "partial",
+    "estimated_value": null,
+    "eligibility_status": "PROBABLY_ELIGIBLE",
+    "credibility_status": "LIKELY_LEGITIMATE",
+    "source_tier": "TIER_4",
+    "source_quality": 0,
+    "requirements": [],
+    "id": "6a22b1b13865a4ff",
+    "first_seen": "2026-10-19T10:42:59.969255+00:00",
+    "last_updated": "2026-10-19T10:51:52.816924+00:00",
+    "notification_tier": "WATCHLIST",
+    "notified_at": "2026-10-19T10:51:52.792395+00:00"
+  },
+  "166bc1a3e4ce9369": {
+    "url": "https://grantfinder.io/blog/free-cloud-ai-credits-for-startups",
+    "title": "Free cloud, AI and software credits for startups | GrantFinder Pro",
+    "status": "analyzed",
+    "score": 4.3,
+    "category": "developer_programs",
+    "official_url": "https://grantfinder.io/blog/free-cloud-ai-credits-for-startups",
+    "location": null,
+    "remote": null,
+    "deadline": null,
+    "reward": "partial",
+    "estimated_value": null,
+    "eligibility_status": "PROBABLY_ELIGIBLE",
+    "credibility_status": "LIKELY_LEGITIMATE",
+    "source_tier": "TIER_4",
+    "source_quality": 0,
+    "requirements": [],
+    "id": "166bc1a3e4ce9369",
+    "first_seen": "2026-10-19T10:44:06.911863+00:00",
+    "last_updated": "2026-10-19T10:44:06.911873+00:00"
+  },
+  "02c52b26b1f56f9a": {
+    "url": "https://www.kunstraumllc.com/single-post/open-call-for-artists-in-residence-2026-2027-deadline-december-31-2026",
+    "title": "OPEN CALL FOR ARTISTS-IN-RESIDENCE 2027 | Rolling applications for January 2027 | Dec. 31, 2026 deadline for later terms",
+    "status": "analyzed",
+    "score": 3.5,
+    "category": "incubators",
+    "official_url": "https://www.kunstraumllc.com/single-post/open-call-for-artists-in-residence-2026-2027-deadline-december-31-2026",
+    "location": null,
+    "remote": null,
+    "deadline": "2026-12-31",
+    "reward": "partial",
+    "estimated_value": null,
+    "eligibility_status": "PROBABLY_ELIGIBLE",
+    "credibility_status": "LIKELY_LEGITIMATE",
+    "source_tier": "TIER_4",
+    "source_quality": 0,
+    "requirements": [
+      "Statement of Motivation (200 words, with start date(s) and 3‑month project description)",
+      "Statement on private or public funding plan (100 words)",
+      "Portfolio (max 10 pages, 10‑20 images, ≤5 MB)",
+      "Curriculum Vitae (max 5 pages)",
+      "Links to website, Instagram, recent exhibition or press"
+    ],
+    "id": "02c52b26b1f56f9a",
+    "first_seen": "2026-10-19T10:46:08.187356+00:00",
+    "last_updated": "2026-10-19T10:46:08.187371+00:00"
+  },
+  "2456c506c5c327cf": {
+    "url": "https://grantedai.com/grants/ai-for-humanity-prize-2027-global-challenges-the-patrick-j-mcgovern-foundation-throug-f9c63a20",
+    "title": "AI for Humanity Prize (2027 Global Challenges) (2026) | Granted AI",
+    "status": "notified",
+    "score": 5.4,
+    "category": "ai_competitions",
+    "official_url": "https://grantedai.com/grants/ai-for-humanity-prize-2027-global-challenges-the-patrick-j-mcgovern-foundation-throug-f9c63a20",
+    "location": null,
+    "remote": null,
+    "deadline": "2026-11-02",
+    "reward": "fully_funded",
+    "estimated_value": null,
+    "eligibility_status": "PROBABLY_ELIGIBLE",
+    "credibility_status": "LIKELY_LEGITIMATE",
+    "source_tier": "TIER_4",
+    "source_quality": 0,
+    "requirements": [],
+    "id": "2456c506c5c327cf",
+    "first_seen": "2026-10-19T10:49:00.937231+00:00",
+    "last_updated": "2026-10-19T10:51:52.834385+00:00",
+    "notification_tier": "GOOD",
+    "notified_at": "2026-10-19T10:51:52.828752+00:00"
+  },
+  "dffd4e62bbce1e23": {
+    "url": "https://www.youtube.com/watch?v=od8cpP9N0zw",
+    "title": "How to get a Remote Job in 2026?",
+    "status": "filtered_out",
+    "reason": "The text is just a generic YouTube footer, not a scholarship or fellowship opportunity.",
+    "id": "dffd4e62bbce1e23",
+    "first_seen": "2026-10-19T10:49:05.534824+00:00",
+    "last_updated": "2026-10-19T10:49:05.534832+00:00"
+  },
+  "9cd61e6170188a3d": {
+    "url": "https://jaabz.com/jobs/remote",
+    "title": "Remote Jobs Worldwide (2026) – Tech, Design & Data Roles | Jaabz",
+    "status": "analyzed",
+    "score": 3.3,
+    "category": "remote_jobs",
+    "official_url": "https://jaabz.com/jobs/remote",
+    "location": null,
+    "remote": null,
+    "deadline": null,
+    "reward": "none",
+    "estimated_value": null,
+    "eligibility_status": "PROBABLY_ELIGIBLE",
+    "credibility_status": "LIKELY_LEGITIMATE",
+    "source_tier": "TIER_4",
+    "source_quality": 0,
+    "requirements": [],
+    "id": "9cd61e6170188a3d",
+    "first_seen": "2026-10-19T10:50:52.034359+00:00",
+    "last_updated": "2026-10-19T10:50:52.034368+00:00"
+  },
+  "3aa74c1926e2aa59": {
+    "url": "https://www.remitly.com/us/en/money-transfer/global-remote-jobs",
+    "title": "Which Countries Have the Most Remote Jobs in 2026?",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "model_eligibility_status": "CONFIRMED_INELIGIBLE",
+    "missing_requirements": [
+      "No eligibility criteria stated",
+      "No application process described",
+      "No target audience defined",
+      "No selection requirements listed"
+    ],
+    "blocking_issues": [],
+    "addressable_gaps": [],
+    "reasoning": "This is a report analyzing global remote job market trends, not a scholarship/fellowship program. It contains no eligibility requirements for applicants, no application process, and no criteria that would make someone eligible or ineligible. The content is purely informational data about remote work availability across countries.",
+    "id": "3aa74c1926e2aa59",
+    "first_seen": "2026-10-19T10:51:13.191346+00:00",
+    "last_updated": "2026-10-19T10:51:13.191364+00:00"
+  },
+  "b7b0e9c659264dbf": {
+    "url": "https://www.youtube.com/watch?v=x1x-m7DnGjc",
+    "title": "4 Remote Jobs You Can Start in 2026 — Even With No ...",
+    "status": "filtered_out",
+    "reason": "This appears to be generic YouTube/Google footer text, not a scholarship or fellowship opportunity.",
+    "id": "b7b0e9c659264dbf",
+    "first_seen": "2026-10-19T10:51:16.052724+00:00",
+    "last_updated": "2026-10-19T10:51:16.052739+00:00"
+  },
+  "f428605c69236bd0": {
+    "url": "https://www.kaggle.com/competitions",
+    "title": "Kaggle Competitions",
+    "status": "filtered_out",
+    "reason": "The provided text appears to be a reCAPTCHA verification page, not an actual scholarship or fellowship opportunity.",
+    "id": "f428605c69236bd0",
+    "first_seen": "2026-10-19T10:51:35.819739+00:00",
+    "last_updated": "2026-10-19T10:51:35.819756+00:00"
+  },
+  "d11d1f22ba0988eb": {
+    "url": "https://icpc.tjs.rsu.edu/high_school/contest_details",
+    "title": "High School Details | ICPC RSU",
+    "status": "filtered_out",
+    "reason": "Contest is for high school students, not eligible for a 27‑year‑old professional.",
+    "id": "d11d1f22ba0988eb",
+    "first_seen": "2026-10-19T10:51:49.434893+00:00",
+    "last_updated": "2026-10-19T10:51:49.434911+00:00"
   }
 }
