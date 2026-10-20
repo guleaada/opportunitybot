@@ -15893,10 +15893,10 @@
     "url": "https://www.gooverseas.com/blog/best-digital-nomad-jobs",
     "title": "15 Best Fully Remote Digital Nomad Jobs in 2026 | Go Overseas",
     "status": "filtered_out",
-    "reason": "The text is a job guide, not a funded scholarship or fellowship program.",
+    "reason": "The text is a generic job guide, not a funded scholarship or fellowship opportunity.",
     "id": "122255e5a202c7c7",
     "first_seen": "2026-10-17T09:21:48.087914+00:00",
-    "last_updated": "2026-10-17T09:21:48.087933+00:00"
+    "last_updated": "2026-10-20T09:50:49.440370+00:00"
   },
   "8e9262bdc93dd0a6": {
     "url": "https://remotivated.com/best-remote-companies/benefits/work-from-anywhere",
@@ -16346,5 +16346,253 @@
     "id": "d11d1f22ba0988eb",
     "first_seen": "2026-10-19T10:51:49.434893+00:00",
     "last_updated": "2026-10-19T10:51:49.434911+00:00"
+  },
+  "2ed8d393650e5781": {
+    "url": "https://www.institute.leadersofafrica.org/wp-content/uploads/2026/02/Grant-Writing-and-Funding-Program-2026-Official-Guide.pdf",
+    "title": "Grant Writing and Funding Program 2026",
+    "status": "legitimacy_unknown",
+    "credibility_status": "NEEDS_VERIFICATION",
+    "source_tier": "TIER_4",
+    "reasoning": "The provided content is a corrupted or binary-encoded PDF file stream that cannot be meaningfully parsed to extract program details, fees, or contact information. Without readable text describing the program's structure, costs, or organizers, there is insufficient evidence to assess legitimacy.",
+    "id": "2ed8d393650e5781",
+    "first_seen": "2026-10-20T09:51:09.339093+00:00",
+    "last_updated": "2026-10-20T09:51:09.339105+00:00"
+  },
+  "5732eee901a1e76b": {
+    "url": "https://www.photocontestcalendar.com/international-photo-awards-ipa-2026",
+    "title": "International Photo Awards (IPA) ends 30 April 2026 | Photo Contest Calendar 2026",
+    "status": "closed",
+    "deadline": "2026-04-30",
+    "id": "5732eee901a1e76b",
+    "first_seen": "2026-10-20T09:51:16.297741+00:00",
+    "last_updated": "2026-10-20T09:51:16.297752+00:00"
+  },
+  "d250fb4e53814142": {
+    "url": "https://www.linkedin.com/pulse/fully-funded-scholarships-international-students-2027-nikhil-jain-mxsyc",
+    "title": "Fully Funded Scholarships for International Students in 2027",
+    "status": "analyzed",
+    "score": 2.5,
+    "category": null,
+    "official_url": "https://www.linkedin.com/pulse/fully-funded-scholarships-international-students-2027-nikhil-jain-mxsyc",
+    "location": null,
+    "remote": null,
+    "deadline": null,
+    "reward": "none",
+    "estimated_value": null,
+    "eligibility_status": "PROBABLY_ELIGIBLE",
+    "credibility_status": "LIKELY_LEGITIMATE",
+    "source_tier": "TIER_4",
+    "source_quality": null,
+    "requirements": [],
+    "id": "d250fb4e53814142",
+    "first_seen": "2026-10-20T09:53:02.172125+00:00",
+    "last_updated": "2026-10-20T09:53:02.172135+00:00"
+  },
+  "c20bdc1f5c132772": {
+    "url": "https://www.opportunitiesforafricans.com/the-refugee-led-research-hub-rlrh-graduate-horizons-mentorship-and-scholarship-programme/",
+    "title": "The Refugee-Led Research Hub (RLRH) Graduate Horizons Mentorship and Scholarship Programme for African refugee and displaced students (Fully Funded)",
+    "status": "suspicious",
+    "credibility_status": "SUSPICIOUS",
+    "source_tier": "TIER_3",
+    "reasoning": "The programme does not require any payment and claims to be fully funded, which aligns with legitimate scholarship offers. However, the page provides only generic Gmail-like contact emails, lacks a direct link to an official RLRH website, and the only reference to the \"official webpage\" is missing, which are common red‑flags for unverified programs.",
+    "id": "c20bdc1f5c132772",
+    "first_seen": "2026-10-20T09:54:29.793283+00:00",
+    "last_updated": "2026-10-20T09:54:29.793298+00:00"
+  },
+  "48f036a73b145166": {
+    "url": "https://opportunitiescorners.com/ejn-reporting-fellowship-2027/",
+    "title": "EJN Reporting Fellowship 2027 in USA (Fully Funded)",
+    "status": "ineligible",
+    "eligibility_status": "PROBABLY_INELIGIBLE",
+    "model_eligibility_status": "PROBABLY_INELIGIBLE",
+    "missing_requirements": [
+      "Letter of support from an editor/producer/supervisor",
+      "Recent journalistic work samples focused on ocean issues"
+    ],
+    "blocking_issues": [
+      "Not a professional journalist",
+      "No affiliation with an established media outlet",
+      "Does not report from a coastal country"
+    ],
+    "addressable_gaps": [
+      "Obtain English proficiency proof (Duolingo test or MOI certificate)",
+      "Provide journalism work samples if any can be produced"
+    ],
+    "reasoning": "The EJN Reporting Fellowship requires applicants to be professional journalists who report from a coastal country and are affiliated with an established media outlet. Gulilat is a working professional (AI developer, marketer, psychologist) with no demonstrated journalism experience, no affiliation with a media outlet, and resides in landlocked Ethiopia (now in Laos). These are hard blockers. English proficiency is required, but the candidate can obtain proof, which is an addressable gap, though it does not overcome the primary professional eligibility issues.",
+    "id": "48f036a73b145166",
+    "first_seen": "2026-10-20T09:55:28.836695+00:00",
+    "last_updated": "2026-10-20T09:55:28.836710+00:00"
+  },
+  "b580095c8630deeb": {
+    "url": "https://www.opportunitiesforafricans.com/the-joint-ictp-ccg-catalyst-facility-academic-writing-residency-program-for-global-south-scholars/",
+    "title": "The Joint ICTP-CCG Catalyst Facility Academic Writing Residency Program for Global South Scholars (Fully Funded)",
+    "status": "ineligible",
+    "eligibility_status": "PROBABLY_INELIGIBLE",
+    "model_eligibility_status": "PROBABLY_INELIGIBLE",
+    "missing_requirements": [
+      "Explicit English language requirement (not stated)",
+      "Age limit (not stated)",
+      "Degree level requirement (not stated)",
+      "Specific documentation of affiliation (e.g., letter of support) not provided"
+    ],
+    "blocking_issues": [
+      "No current affiliation with a university or research institution in an ODA‑eligible country",
+      "No completed draft research paper submitted"
+    ],
+    "addressable_gaps": [
+      "Can seek an affiliation (e.g., as a research collaborator or adjunct) with a university/research institute in Ethiopia",
+      "Can prepare and submit a completed draft manuscript aligned with CCG themes",
+      "Can obtain an English proficiency proof if required (Duolingo test or MOI certificate)"
+    ],
+    "reasoning": "The program requires (1) affiliation with a university or research institution in an ODA‑eligible country and (2) a completed draft research paper. The candidate is a working professional with no current university/research affiliation and has not indicated having a draft paper. These are hard eligibility criteria that the candidate does not meet at present. While the candidate’s nationality (Ethiopian) satisfies the ODA‑eligible requirement, the missing affiliation and paper constitute blockers. Other criteria (age, degree level, English proficiency) are not specified, so they are not decisive.",
+    "id": "b580095c8630deeb",
+    "first_seen": "2026-10-20T09:56:40.034827+00:00",
+    "last_updated": "2026-10-20T09:56:40.034843+00:00"
+  },
+  "ccd930913f17a9c3": {
+    "url": "https://www.opportunitiesforafricans.com/the-united-nations-young-professionals-programme-2026-launch-your-career-at-the-united-nations/",
+    "title": "The United Nations Young Professionals Programme 2026 (Launch Your Career at the United Nations)",
+    "status": "unknown",
+    "eligibility_status": "UNCERTAIN",
+    "model_eligibility_status": "UNCERTAIN",
+    "missing_requirements": [
+      "List of participating countries to confirm Ethiopian eligibility",
+      "Official proof of English (or French) language proficiency"
+    ],
+    "blocking_issues": [],
+    "addressable_gaps": [
+      "Obtain an English language proficiency test result (e.g., Duolingo English Test or MOI certificate) to demonstrate fluency."
+    ],
+    "reasoning": "The UN YPP requires candidates to be nationals of a participating country, but the list of participating countries is not provided, so we cannot verify that Ethiopia is eligible. The candidate meets the age (27 ≤ 32) and holds a bachelor's degree, satisfying the education requirement. Language proficiency in English is claimed but not documented; this can be addressed by obtaining a Duolingo or MOI certificate. Therefore, the only potential blocker is nationality, which is currently unverifiable.",
+    "id": "ccd930913f17a9c3",
+    "first_seen": "2026-10-20T09:57:33.407426+00:00",
+    "last_updated": "2026-10-20T09:57:33.407436+00:00"
+  },
+  "fd827f228314d401": {
+    "url": "https://www.opportunitiesforafricans.com/sadc-media-awards-competition-2027-for-journalists-from-southern-africa/",
+    "title": "SADC Media Awards Competition 2027 for Journalists from Southern Africa (USD 14,000 in prizes)",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "model_eligibility_status": "CONFIRMED_INELIGIBLE",
+    "missing_requirements": [],
+    "blocking_issues": [
+      "Citizenship not a SADC member state (hard blocker)",
+      "No evidence of journalism work (hard blocker)"
+    ],
+    "addressable_gaps": [],
+    "reasoning": "The competition is explicitly open only to journalists who are citizens of SADC Member States. The candidate is an Ethiopian national, and Ethiopia is not a member of the Southern African Development Community. Additionally, the candidate's profile does not demonstrate any journalism experience, which is a stated requirement for entry.",
+    "id": "fd827f228314d401",
+    "first_seen": "2026-10-20T09:58:34.378701+00:00",
+    "last_updated": "2026-10-20T09:58:34.378712+00:00"
+  },
+  "7b66bf73065419bf": {
+    "url": "https://www.opportunitiesforafricans.com/climate-risk-lab-data-science-and-machine-learning-fellowship-2027/",
+    "title": "Climate Risk Lab Data Science and Machine Learning Fellowship 2027 for recent PhD, MSc, or first-class graduates.",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "model_eligibility_status": "CONFIRMED_INELIGIBLE",
+    "missing_requirements": [],
+    "blocking_issues": [
+      "Degree level mismatch: candidate has only a BSc, while the program requires an MSc, first‑class Honours, or PhD in a relevant field."
+    ],
+    "addressable_gaps": [],
+    "reasoning": "The fellowship explicitly requires a MSc degree or a first‑class Honours degree (or a recent PhD) in data science, machine learning, computer science, mathematics, statistics, or related fields. The candidate only holds a BSc in Psychology, which does not meet the minimum degree level or field requirement. All other criteria (nationality, age, student status, English proficiency) are either met or not specified as exclusions.",
+    "id": "7b66bf73065419bf",
+    "first_seen": "2026-10-20T09:59:43.009302+00:00",
+    "last_updated": "2026-10-20T09:59:43.009311+00:00"
+  },
+  "f1b2c48e11b1d272": {
+    "url": "https://www.opportunitiesforafricans.com/carnegie-mellon-university-artificial-intelligence-certificate-for-africa/",
+    "title": "The Carnegie Mellon University Artificial Intelligence Certificate for Africa (Free-online course)",
+    "status": "notified",
+    "score": 6.1,
+    "category": null,
+    "official_url": "https://www.opportunitiesforafricans.com/carnegie-mellon-university-artificial-intelligence-certificate-for-africa/",
+    "location": null,
+    "remote": null,
+    "deadline": "2026-11-15",
+    "reward": "fully_funded",
+    "estimated_value": null,
+    "eligibility_status": "PROBABLY_ELIGIBLE",
+    "credibility_status": "LIKELY_LEGITIMATE",
+    "source_tier": "TIER_3",
+    "source_quality": 7,
+    "requirements": [
+      "CV",
+      "Brief statement of personal professional goals"
+    ],
+    "id": "f1b2c48e11b1d272",
+    "first_seen": "2026-10-20T10:01:38.053794+00:00",
+    "last_updated": "2026-10-20T10:07:23.237808+00:00",
+    "notification_tier": "GOOD",
+    "notified_at": "2026-10-20T10:07:23.225969+00:00"
+  },
+  "2113fff600c6b2d0": {
+    "url": "https://www.opportunitiesforafricans.com/the-international-institute-for-applied-systems-analysis-iiasa-young-scientists-summer-program-2027/",
+    "title": "The International Institute for Applied Systems Analysis (IIASA) Young Scientists Summer Program 2027",
+    "status": "ineligible",
+    "eligibility_status": "PROBABLY_INELIGIBLE",
+    "model_eligibility_status": "PROBABLY_INELIGIBLE",
+    "missing_requirements": [],
+    "blocking_issues": [
+      "Must be enrolled in a PhD program (candidate is not)",
+      "Degree level mismatch (candidate holds only a BSc, program expects PhD enrollment)"
+    ],
+    "addressable_gaps": [],
+    "reasoning": "The program explicitly requires applicants to be enrolled in a PhD program (ideally within 1‑2 years of completing the degree). The candidate is a working professional with only a BSc and is not currently enrolled in any graduate program, which constitutes a hard blocker. English proficiency is not a blocker because the program does not require a certificate. No nationality restriction applies as the program targets Africans.",
+    "id": "2113fff600c6b2d0",
+    "first_seen": "2026-10-20T10:02:52.438012+00:00",
+    "last_updated": "2026-10-20T10:02:52.438023+00:00"
+  },
+  "4e14e00f888d3a73": {
+    "url": "https://www.opportunitiesforafricans.com/the-google-africa-virtual-algorithms-workshop-2026-for-university-students-recent-graduates/",
+    "title": "The Google Africa Virtual Algorithms Workshop 2026 for university students & recent graduates.",
+    "status": "suspicious",
+    "credibility_status": "SUSPICIOUS",
+    "source_tier": "TIER_3",
+    "reasoning": "The page advertises a Google‑branded workshop but provides only generic Gmail addresses for contact and no link to an official Google domain, which is atypical for genuine Google events. While no fee is mentioned, the lack of verifiable official branding and reliance on a third‑party aggregator raise doubts about authenticity.",
+    "id": "4e14e00f888d3a73",
+    "first_seen": "2026-10-20T10:03:34.485491+00:00",
+    "last_updated": "2026-10-20T10:03:34.485506+00:00"
+  },
+  "4ff202b3d75cba02": {
+    "url": "https://www.opportunitiesforafricans.com/the-africa-jobs-fund-x-sdrb-somalia-business-plan-competition-2026-for-young-somalis/",
+    "title": "The Africa Jobs Fund × SDRB Somalia Business Plan Competition 2026 for young Somalis",
+    "status": "suspicious",
+    "credibility_status": "SUSPICIOUS",
+    "source_tier": "TIER_3",
+    "reasoning": "The competition does not request any application or participation fee, which is a good sign, but the contact information uses generic free‑email addresses and the page provides no direct link to an official AJF or SDRB website, both of which are common red flags for fraudulent listings.",
+    "id": "4ff202b3d75cba02",
+    "first_seen": "2026-10-20T10:04:22.129224+00:00",
+    "last_updated": "2026-10-20T10:04:22.129238+00:00"
+  },
+  "533b4320d1cce52f": {
+    "url": "https://www.opportunitiesforafricans.com/the-research-innovation-for-climate-rich-hubai-innovation-2026/",
+    "title": "The Research & Innovation for Climate (RICH) HubAI Innovation 2026 for African Innovators (USD 200,000 in funding)",
+    "status": "suspicious",
+    "credibility_status": "SUSPICIOUS",
+    "source_tier": "TIER_3",
+    "reasoning": "The page provides no direct link to an official RICH Hub website, gives no application deadline, and only lists generic contact emails on the aggregator domain, which are typical red flags for unverified funding offers. While no fee is mentioned, the vague description of a $200,000 grant without clear eligibility or selection criteria makes the legitimacy uncertain.",
+    "id": "533b4320d1cce52f",
+    "first_seen": "2026-10-20T10:04:58.059839+00:00",
+    "last_updated": "2026-10-20T10:04:58.059852+00:00"
+  },
+  "38eb99c751f3d345": {
+    "url": "https://www.facebook.com/MrBasharGulumbe/posts/open-grant-opportunities-africa-20261-mmd-grant-facility-2026-migration-mobility/122235684398053141",
+    "title": "Bashar Gulumbe - Open Grant Opportunities (Africa – 2026)...",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "model_eligibility_status": "CONFIRMED_INELIGIBLE",
+    "missing_requirements": [
+      "Proof of organizational affiliation or registration as an NGO/CSO/university that meets the grant eligibility criteria"
+    ],
+    "blocking_issues": [
+      "Candidate is an individual, not an eligible organization (NGO/CSO/university) as required by the MMD Grant Facility, Dana Foundation Grants, and FCI4Africa Open Call"
+    ],
+    "addressable_gaps": [],
+    "reasoning": "All three grant opportunities explicitly require eligibility for NGOs, CSOs, universities, or other relevant organizations. The candidate profile describes an individual professional with no indication of affiliation with such an organization. Consequently, the candidate does not satisfy the program’s stated eligibility criteria.",
+    "id": "38eb99c751f3d345",
+    "first_seen": "2026-10-20T10:06:00.655905+00:00",
+    "last_updated": "2026-10-20T10:06:00.655915+00:00"
   }
 }
