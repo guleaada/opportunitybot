@@ -14517,7 +14517,7 @@
   "30d7c716b374444e": {
     "url": "https://opportunitiescorners.com/shenzhen-fintech-competition-2026/",
     "title": "Shenzhen FinTech Competition 2026 in China (Fully Funded)",
-    "status": "ineligible",
+    "status": "closed",
     "eligibility_status": "CONFIRMED_INELIGIBLE",
     "model_eligibility_status": "CONFIRMED_INELIGIBLE",
     "missing_requirements": [],
@@ -14531,7 +14531,8 @@
     "reasoning": "The program explicitly requires applicants to be 'a full-time undergraduate, master’s, or PhD student enrolled at a university or research institution outside Mainland China, Hong Kong SAR, Macao SAR, and Chinese Taipei.' The candidate is a working professional and not currently enrolled as a student, which directly violates this requirement.",
     "id": "30d7c716b374444e",
     "first_seen": "2026-10-11T11:27:08.808293+00:00",
-    "last_updated": "2026-10-11T11:27:08.808307+00:00"
+    "last_updated": "2026-10-21T09:57:58.325985+00:00",
+    "deadline": "2026-10-20"
   },
   "5a17228c55c790f0": {
     "url": "https://www.opportunitiesforafricans.com/us-mepi-tomorrows-leaders-program-2027-2028/",
@@ -15147,7 +15148,7 @@
   "81f31d52f676c01e": {
     "url": "https://www.ireland.ie/en/zambia/lusaka/news-and-events/news-archive/ireland-africa-fellows-programme-2025-2026-now-open-for-applications",
     "title": "Ireland-Africa Fellows Programme 2026-2027 - Now Open for Applications. | Ireland.ie",
-    "status": "ineligible",
+    "status": "closed",
     "eligibility_status": "CONFIRMED_INELIGIBLE",
     "model_eligibility_status": "CONFIRMED_INELIGIBLE",
     "missing_requirements": [
@@ -15168,7 +15169,8 @@
     "reasoning": "The program explicitly requires applicants to be citizens of Zambia and residing in Zambia. The candidate is an Ethiopian national with an Ethiopian passport and lives in Vientiane, Lao PDR, which does not meet the mandatory citizenship and residency criteria. This hard blocker makes the candidate ineligible regardless of other qualifications.",
     "id": "81f31d52f676c01e",
     "first_seen": "2026-10-14T10:12:26.048125+00:00",
-    "last_updated": "2026-10-14T10:12:26.048139+00:00"
+    "last_updated": "2026-10-21T09:53:00.881064+00:00",
+    "deadline": "2025-07-28"
   },
   "9e9fd3af5b431358": {
     "url": "https://mo.ibrahim.foundation/news/2026/applications-open-2027-ibrahim-leadership-fellowships",
@@ -16059,12 +16061,25 @@
   },
   "48637cdfd7258c22": {
     "url": "https://www.roberthalf.com/us/en/jobs/all/remote",
-    "title": "490 Results for Remote Jobs",
-    "status": "filtered_out",
+    "title": "515 Results for Remote Jobs",
+    "status": "analyzed",
     "reason": "This is a generic job board listing for remote employment opportunities, not a scholarship/fellowship opportunity.",
     "id": "48637cdfd7258c22",
     "first_seen": "2026-10-18T09:34:00.612601+00:00",
-    "last_updated": "2026-10-18T09:34:00.612614+00:00"
+    "last_updated": "2026-10-21T09:57:03.150784+00:00",
+    "score": 3.0,
+    "category": null,
+    "official_url": "https://www.roberthalf.com/us/en/jobs/all/remote",
+    "location": null,
+    "remote": null,
+    "deadline": null,
+    "reward": "none",
+    "estimated_value": null,
+    "eligibility_status": "PROBABLY_ELIGIBLE",
+    "credibility_status": "LIKELY_LEGITIMATE",
+    "source_tier": "TIER_4",
+    "source_quality": null,
+    "requirements": []
   },
   "16e36bb0fffbbce8": {
     "url": "https://www.youtube.com/watch?v=-O5bVg3vS3E&vl=en&xstg=CAMSBhUDze3xHw%3D%3D",
@@ -16594,5 +16609,102 @@
     "id": "38eb99c751f3d345",
     "first_seen": "2026-10-20T10:06:00.655905+00:00",
     "last_updated": "2026-10-20T10:06:00.655915+00:00"
+  },
+  "177f3a35ff10cb98": {
+    "url": "https://artdeadline.com/benefits/ops-cash-awards",
+    "title": "Benefits Cash or Value Awards",
+    "status": "unknown",
+    "eligibility_status": "UNCERTAIN",
+    "model_eligibility_status": "UNCERTAIN",
+    "missing_requirements": [
+      "Explicit statement of required artist status or portfolio submission",
+      "Any age limits, nationality restrictions, or enrollment requirements that might be part of individual calls"
+    ],
+    "blocking_issues": [],
+    "addressable_gaps": [
+      "Obtain an English proficiency test result (e.g., Duolingo, MOI certificate) if the specific opportunity requires proof of English ability."
+    ],
+    "reasoning": "The ArtDeadline.com listings do not state explicit eligibility criteria such as nationality, student status, age limit, or degree level, so there are no hard blockers. However, the opportunities are clearly targeted at visual artists, and the candidate's profile does not provide evidence of artistic practice or a portfolio, which is a decision‑relevant requirement that cannot be verified from the provided information. Therefore we cannot confirm eligibility.",
+    "id": "177f3a35ff10cb98",
+    "first_seen": "2026-10-21T09:54:13.019000+00:00",
+    "last_updated": "2026-10-21T09:54:13.019013+00:00"
+  },
+  "a05c42144745c8af": {
+    "url": "https://www.opportunitiesforafricans.com/ifa-crossculture-programme-ccp-fellowship-2027/",
+    "title": "ifa CrossCulture Programme (CCP) Fellowship 2027 for young professionals (Fully Funded)",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "model_eligibility_status": "CONFIRMED_INELIGIBLE",
+    "missing_requirements": [
+      "Health status verification (ability to undertake prolonged stay)"
+    ],
+    "blocking_issues": [
+      "Nationality not listed among participating countries (Ethiopia excluded)"
+    ],
+    "addressable_gaps": [],
+    "reasoning": "The programme lists specific participating countries. Ethiopia is not among them, so the candidate's Ethiopian nationality is explicitly excluded. All other criteria (age, work experience, student status, language proficiency) are potentially met, but the nationality mismatch is a hard blocker.",
+    "id": "a05c42144745c8af",
+    "first_seen": "2026-10-21T09:59:38.607732+00:00",
+    "last_updated": "2026-10-21T09:59:38.607750+00:00"
+  },
+  "41a3b66ce1fa64c1": {
+    "url": "https://www.opportunitiesforafricans.com/the-hp-ucl-ioe-fellowship-in-ai-in-education-global-executive-leadership-programme-for-senior-education-leaders/",
+    "title": "The HP-UCL IOE Fellowship in AI in Education – global executive leadership programme for senior education leaders (Funded)",
+    "status": "suspicious",
+    "credibility_status": "SUSPICIOUS",
+    "source_tier": "TIER_3",
+    "reasoning": "The page offers a fully funded fellowship but provides only generic @opportunitiesforafricans.com email contacts and no direct link to an official HP or UCL Institute of Education webpage, which are typical red flags. While no fee is mentioned, the lack of verifiable institutional branding and the reliance on an aggregator site reduce confidence in legitimacy.",
+    "id": "41a3b66ce1fa64c1",
+    "first_seen": "2026-10-21T10:00:37.383677+00:00",
+    "last_updated": "2026-10-21T10:00:37.383694+00:00"
+  },
+  "2f08d3e7a6b25c4b": {
+    "url": "https://opportunitiescorners.com/global-debate-championship-2026-in-malaysia/",
+    "title": "Global Debate Championship 2026 in Malaysia (Fully Funded)",
+    "status": "suspicious",
+    "credibility_status": "SUSPICIOUS",
+    "source_tier": "TIER_3",
+    "reasoning": "The listing demands an application fee despite claiming a fully funded scholarship, which is a classic red flag. The contact email is a free Gmail address, indicating a non-institutional organizer, and the European Voice Assembly/VOOICE ASSEMBLY USA cannot be readily verified. These issues outweigh the generic hosting and trust signals.",
+    "id": "2f08d3e7a6b25c4b",
+    "first_seen": "2026-10-21T10:02:17.275323+00:00",
+    "last_updated": "2026-10-21T10:02:17.275340+00:00"
+  },
+  "4c6282eeb1c6e47e": {
+    "url": "https://linkforscholarship.com/international-leadership-program-italy-2026",
+    "title": "International Leadership Program Italy 2026 (Fully Funded Seats) - Links for Scholarships",
+    "status": "suspicious",
+    "credibility_status": "SUSPICIOUS",
+    "source_tier": "TIER_4",
+    "reasoning": "The program advertises 'fully funded' seats but requires applicants to pay for their own flight upfront and await reimbursement, which contradicts typical fully funded arrangements. The organizer Voice for Rights International lacks a verifiable presence, and the only address listed is in Massachusetts, not Italy, with no clear link to an official program website.",
+    "id": "4c6282eeb1c6e47e",
+    "first_seen": "2026-10-21T10:08:06.076432+00:00",
+    "last_updated": "2026-10-21T10:08:06.076446+00:00"
+  },
+  "1e45f112a35db2b7": {
+    "url": "https://www.fic.nih.gov/Funding/NonNIH?type=predoctoral",
+    "title": "Non-NIH Funding Opportunities - Grants and Fellowships - Fogarty International Center @ NIH",
+    "status": "unknown",
+    "eligibility_status": "UNCERTAIN",
+    "model_eligibility_status": "UNCERTAIN",
+    "missing_requirements": [
+      "Specific program name and its eligibility criteria (nationality restrictions, degree level, age limits, student status requirements, English proficiency requirements, field of study restrictions, etc.)"
+    ],
+    "blocking_issues": [],
+    "addressable_gaps": [],
+    "reasoning": "The provided program text is a search interface for a directory of non-NIH funding opportunities (Fogarty International Center), not a specific scholarship or fellowship program. The page currently shows 'There are no funding opportunities matching the selected criteria.' Since no individual program with stated eligibility requirements is presented, it is impossible to determine whether the candidate meets any specific program's criteria. The directory itself is not an applicable program; eligibility would depend on whichever opportunity the candidate might find and apply to through this resource.",
+    "id": "1e45f112a35db2b7",
+    "first_seen": "2026-10-21T10:10:37.851633+00:00",
+    "last_updated": "2026-10-21T10:10:37.851646+00:00"
+  },
+  "7a9dc785db39dfe2": {
+    "url": "https://www.instagram.com/reel/DaK8OE1tDlc?hl=en",
+    "title": "3-Month Fully Funded Leadership Program in Budapest, ...",
+    "status": "legitimacy_unknown",
+    "credibility_status": "NEEDS_VERIFICATION",
+    "source_tier": "TIER_4",
+    "reasoning": "The source is an Instagram reel URL, but the extracted page text contains only 'Instagram' with no program name, organizer, fees, contact details, or eligibility criteria. Without visible content, there is insufficient evidence to verify legitimacy or identify fraud indicators such as payment requests or unverifiable organizers.",
+    "id": "7a9dc785db39dfe2",
+    "first_seen": "2026-10-21T10:11:17.326329+00:00",
+    "last_updated": "2026-10-21T10:11:17.326345+00:00"
   }
 }
