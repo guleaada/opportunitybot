@@ -14542,16 +14542,14 @@
     "model_eligibility_status": "CONFIRMED_INELIGIBLE",
     "missing_requirements": [],
     "blocking_issues": [
-      "Nationality not eligible - candidate is Ethiopian, program only accepts citizens of MENA countries (Algeria, Egypt, Iraq, Jordan, Lebanon, Libya, Morocco, Syria, Tunisia, West Bank/Palestinian, Yemen)",
-      "Degree level mismatch - candidate holds a BSc (bachelor's), program requires current high school seniors or 2026 high school graduates",
-      "Not currently a student - candidate is a working professional",
-      "Age - candidate is 27, program targets high school seniors/undergraduates"
+      "Nationality not eligible (Ethiopian)",
+      "Education level mismatch (requires high school senior/undergraduate applicant; candidate has completed bachelor's and is a professional)"
     ],
     "addressable_gaps": [],
-    "reasoning": "The US-MEPI Tomorrow's Leaders Program explicitly restricts applicants to citizens of specific MENA countries: Algeria, Egypt, Iraq, Jordan, Lebanon, Libya, Morocco, Syria, Tunisia, West Bank or Palestinian students who currently reside in a third country with legal residency status, or Yemen. Ethiopia is not among the eligible nationalities. Additionally, the program is for undergraduate students (current high school seniors or 2026 graduates), while the candidate holds a BSc (bachelor's degree) and is a working professional, not a current student. The candidate's nationality (Ethiopian) is a hard blocker, and the degree level (bachelor's holder vs. required high school level) is also a hard blocker.",
+    "reasoning": "The program explicitly limits applicants to citizens of specific MENA countries (Algeria, Egypt, Iraq, Jordan, Lebanon, Libya, Morocco, Syria, Tunisia, West Bank/Palestinian, Yemen). The candidate is an Ethiopian national, which is not on the list. Additionally, the program is for current high school seniors or recent high school graduates (undergraduate track), whereas the candidate holds a BSc and is a working professional, not a high school senior.",
     "id": "5a17228c55c790f0",
     "first_seen": "2026-10-11T11:28:50.160935+00:00",
-    "last_updated": "2026-10-11T11:28:50.160948+00:00"
+    "last_updated": "2026-10-22T09:54:21.930641+00:00"
   },
   "2cd39d3e21bf6899": {
     "url": "https://www.opportunitiesforafricans.com/the-university-of-british-columbia-ubc-international-scholars-program-2027-for-international-students/",
@@ -14668,29 +14666,29 @@
   "347d3d8fd4067542": {
     "url": "https://www.opportunitiesforafricans.com/itu-equals-in-tech-awards-2027-for-gender-equality-mainstreaming-in-technology/",
     "title": "ITU Equals in Tech Awards 2027 for Gender Equality & Mainstreaming in Technology.",
-    "status": "ineligible",
-    "eligibility_status": "PROBABLY_INELIGIBLE",
-    "model_eligibility_status": "PROBABLY_INELIGIBLE",
+    "status": "unknown",
+    "eligibility_status": "UNCERTAIN",
+    "model_eligibility_status": "UNCERTAIN",
     "missing_requirements": [],
-    "blocking_issues": [
-      "Applicant must be an organization (NGO, government agency, academic institution, private‑sector entity, etc.); individual professionals are not listed as eligible."
+    "blocking_issues": [],
+    "addressable_gaps": [
+      "If a formal legal entity is required, the candidate could register their AI/tech venture as a company or social enterprise to meet the ‘entity’ eligibility."
     ],
-    "addressable_gaps": [],
-    "reasoning": "The ITU Equals in Tech Awards eligibility explicitly lists eligible applicants as civil society NGOs, government institutions, international organizations, academic/research institutions, private‑sector entities, multi‑stakeholder initiatives, social enterprises or entrepreneurial ventures. It does not include individual applicants. Gulilat is a single professional, not an organization, so she does not meet the core applicant type requirement.",
+    "reasoning": "The ITU Equals in Tech Awards are open to organizations (civil society NGOs, government bodies, academic institutions, private‑sector entities, social enterprises, entrepreneurial ventures). The program does not explicitly state that individuals can apply, only that the application must present an ongoing programme/initiative. It is unclear whether the candidate’s solo‑founder status qualifies as an eligible ‘entrepreneurial venture’ or if a formal legal entity is required, which is a decision‑relevant criterion. All other listed requirements (nationality, age, degree, language) are either unrestricted or met.",
     "id": "347d3d8fd4067542",
     "first_seen": "2026-10-12T13:01:13.984069+00:00",
-    "last_updated": "2026-10-12T13:01:13.984086+00:00"
+    "last_updated": "2026-10-22T09:55:22.566695+00:00"
   },
   "736426e30a2ec25d": {
     "url": "https://www.opportunitiesforafricans.com/the-mena-regenerative-agriculture-venture-programme-2026-2027-for-sustainable-agricultural-solutions/",
     "title": "The MENA Regenerative Agriculture Venture Programme 2026/2027 for sustainable agricultural solutions.",
-    "status": "suspicious",
-    "credibility_status": "SUSPICIOUS",
+    "status": "legitimacy_unknown",
+    "credibility_status": "NEEDS_VERIFICATION",
     "source_tier": "TIER_3",
-    "reasoning": "The page provides no clear sponsoring institution, no direct link to an official programme website, and no application deadline; contact emails are generic and the only trust signal is a vague 'fully funded' claim. These omissions are typical of low‑credibility listings.",
+    "reasoning": "The page provides no details about the sponsoring organization, no direct link to an official programme site, and only generic contact emails, which makes verification impossible. However, it does not request any fees or payments, nor does it guarantee selection, so there is insufficient evidence to label it as a scam or legitimate.",
     "id": "736426e30a2ec25d",
     "first_seen": "2026-10-12T13:01:58.976770+00:00",
-    "last_updated": "2026-10-12T13:01:58.976785+00:00"
+    "last_updated": "2026-10-22T09:57:38.313390+00:00"
   },
   "456e3fc601c8797c": {
     "url": "https://www.facebook.com/opportunitiesforyouth/posts/-40-fully-funded-fellowships-for-20262027-looking-for-your-next-big-opportunity-/1482987413858607",
@@ -16706,5 +16704,219 @@
     "id": "7a9dc785db39dfe2",
     "first_seen": "2026-10-21T10:11:17.326329+00:00",
     "last_updated": "2026-10-21T10:11:17.326345+00:00"
+  },
+  "4a4eca109df65a92": {
+    "url": "https://opportunitiescorners.com/youth-diplomacy-convention-2027-in-belgium/",
+    "title": "Youth Diplomacy Convention 2027 in Belgium (Fully Funded)",
+    "status": "suspicious",
+    "credibility_status": "SUSPICIOUS",
+    "source_tier": "TIER_3",
+    "reasoning": "The program requires a £11.99 \"scholarship processing fee\" and provides only a generic Gmail address for contact, with no verifiable official website for the organiser (Organisation for Global Peace and Sustainability). Legitimate fully‑funded scholarship or conference programs rarely charge any fee and use institutional email domains.",
+    "id": "4a4eca109df65a92",
+    "first_seen": "2026-10-22T09:53:23.545199+00:00",
+    "last_updated": "2026-10-22T09:53:23.545213+00:00"
+  },
+  "dd3a21d8920b8e5b": {
+    "url": "https://opportunitiescorners.com/lpi-summer-internship-2027/",
+    "title": "LPI Summer Internship 2027 in United States (Fully Funded)",
+    "status": "ineligible",
+    "eligibility_status": "PROBABLY_INELIGIBLE",
+    "model_eligibility_status": "PROBABLY_INELIGIBLE",
+    "missing_requirements": [],
+    "blocking_issues": [
+      "Must be a currently enrolled undergraduate student (candidate is a working professional, not a student)"
+    ],
+    "addressable_gaps": [
+      "Proof of English language proficiency – can obtain a letter from her university or a Duolingo/TOEFL score"
+    ],
+    "reasoning": "The LPI Summer Internship explicitly states that eligibility is limited to \"undergraduate students who have completed at least 50 semester hours of credit.\" Gulilat is a working professional and is not currently enrolled as an undergraduate student, which does not satisfy this core criterion. While she can provide English proficiency evidence and transcripts, the student‑status requirement is a hard blocker.",
+    "id": "dd3a21d8920b8e5b",
+    "first_seen": "2026-10-22T09:59:12.546768+00:00",
+    "last_updated": "2026-10-22T09:59:12.546783+00:00"
+  },
+  "ab699a2438f4f060": {
+    "url": "https://opportunitiescorners.com/united-diplomats-global-assembly-2027/",
+    "title": "United Diplomats Global Assembly 2027 in Thailand (Fully Funded)",
+    "status": "scam",
+    "credibility_status": "HIGH_RISK",
+    "source_tier": "TIER_3",
+    "reasoning": "The page requires applicants to \"Pay the application fees\" despite offering fully funded seats, provides only a Gmail address for contact, and lists organizers (United Diplomats, Global Peace Chain) that have no verifiable institutional presence or UN endorsement. These are classic red‑flags for scholarship scams.",
+    "id": "ab699a2438f4f060",
+    "first_seen": "2026-10-22T10:00:01.538361+00:00",
+    "last_updated": "2026-10-22T10:00:01.538381+00:00"
+  },
+  "8c0b1ad6556823f6": {
+    "url": "https://opportunitiescorners.com/unicef-internship-2026/",
+    "title": "UNICEF Internship 2026 (Fully Funded)",
+    "status": "suspicious",
+    "credibility_status": "SUSPICIOUS",
+    "source_tier": "TIER_3",
+    "reasoning": "The page claims a fully funded UNICEF internship covering travel, visa and a monthly stipend, which is not consistent with UNICEF's official internship program (typically modest or unpaid). The contact email is a generic Gmail address and no official UNICEF domain or application link is provided, indicating possible misrepresentation.",
+    "id": "8c0b1ad6556823f6",
+    "first_seen": "2026-10-22T10:00:46.222989+00:00",
+    "last_updated": "2026-10-22T10:00:46.223005+00:00"
+  },
+  "e952e46cedfb6325": {
+    "url": "https://opportunitiescorners.com/european-parliament-schuman-traineeships-2027/",
+    "title": "European Parliament Schuman Traineeships 2027 (Fully Funded)",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "model_eligibility_status": "UNCERTAIN",
+    "missing_requirements": [
+      "Official language proficiency certificate",
+      "Criminal record certificate",
+      "Confirmation that the candidate has not previously worked for an EU institution for more than two months (though likely true, not documented)",
+      "Specific traineeship position requirements (e.g., field‑specific qualifications)"
+    ],
+    "blocking_issues": [],
+    "addressable_gaps": [
+      "Provide official language proficiency proof (e.g., Duolingo English Test, IELTS, or MOI certificate) to demonstrate strong knowledge of an EU language (English) and good knowledge of a second language.",
+      "Obtain and submit a criminal record certificate.",
+      "Prepare CV in required format and any other supporting documents requested by the specific traineeship."
+    ],
+    "reasoning": "The program generally requires applicants to be nationals of an EU Member State, which the candidate (Ethiopian) is not. While it mentions a limited number of positions may be open to non‑EU nationals, this is not guaranteed, making nationality a potential exclusionary factor. The candidate meets age and degree requirements, and the trainee role does not require current student status. Language proficiency (strong knowledge of one EU language and good knowledge of another) is claimed but not documented, and the program requires language proof, criminal record certificate, and other supporting documents that are not provided.",
+    "id": "e952e46cedfb6325",
+    "first_seen": "2026-10-22T10:01:56.018704+00:00",
+    "last_updated": "2026-10-22T10:01:56.018720+00:00"
+  },
+  "03e0371481e95305": {
+    "url": "https://www.opportunitiesforafricans.com/the-wipo-global-innovation-index-fellowship-2027/",
+    "title": "The WIPO Global Innovation Index Fellowship 2027 for international research (6,000 CHF monthly stipend and funded to Geneva, Switzerland)",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "model_eligibility_status": "CONFIRMED_INELIGIBLE",
+    "missing_requirements": [
+      "No explicit age cap stated",
+      "No nationality restrictions stated (WIPO is a UN agency, typically open to all member states)",
+      "No requirement for current student status (fellowship targets professionals)",
+      "English proficiency verification method not specified (certificate vs. assessment)"
+    ],
+    "blocking_issues": [
+      "Essential education requirement: master's degree required; candidate holds only a bachelor's degree (BSc Psychology, 2021)"
+    ],
+    "addressable_gaps": [
+      "No formal English test certificate (IELTS/TOEFL/Duolingo) — candidate can obtain Duolingo or MOI certificate",
+      "Experience in economics/large cross-country datasets/composite indicators not explicitly demonstrated — candidate has Python, GitHub, data visualization, AI/ML projects but not clearly in economics/innovation policy context"
+    ],
+    "reasoning": "The program explicitly requires an 'Advanced university degree (master's level) in economics, statistics, data science or any related field' as an essential education requirement. The candidate holds only a BSc in Psychology (2021) with no master's degree. This is a hard degree-level mismatch that disqualifies the candidate regardless of other qualifications.",
+    "id": "03e0371481e95305",
+    "first_seen": "2026-10-22T10:03:36.182908+00:00",
+    "last_updated": "2026-10-22T10:03:36.182924+00:00"
+  },
+  "feb1b7ac921fe892": {
+    "url": "https://www.opportunitiesforafricans.com/the-ye-youth-ecopreneurs-programme-yeco-2026-2027/",
+    "title": "The Ye! Youth Ecopreneurs Programme (YECO) 2026/2027 for young Green Entrepreneurs ($100,000 prize & All-Expenses-Paid Trip to International Conference)",
+    "status": "unknown",
+    "eligibility_status": "UNCERTAIN",
+    "model_eligibility_status": "UNCERTAIN",
+    "missing_requirements": [
+      "List of countries eligible for the accelerator phase",
+      "Explicit statement of required English proficiency (e.g., IELTS/TOEFL/Duolingo) – though an MOI or Duolingo certificate can be obtained",
+      "Any other unstated eligibility criteria (e.g., business plan submission, proof of registration)"
+    ],
+    "blocking_issues": [],
+    "addressable_gaps": [
+      "Provide documentation proving the business is legally registered and majority-run by the founder",
+      "Demonstrate that the venture focuses on land restoration or green business solutions",
+      "Confirm eligibility of Ethiopia for the accelerator (if the accelerator is required for full participation)"
+    ],
+    "reasoning": "The candidate meets the explicit age (under 35) and founder/CEO requirements. However, the program specifies that the accelerator is reserved for eligible countries, but the list of eligible countries is not provided in the text, making it unverifiable whether Ethiopia qualifies. This unverifiable country eligibility criterion could exclude the candidate. All other stated requirements (age, founder status) are satisfied.",
+    "id": "feb1b7ac921fe892",
+    "first_seen": "2026-10-22T10:05:16.847360+00:00",
+    "last_updated": "2026-10-22T10:05:16.847384+00:00"
+  },
+  "9a79c82619e4f363": {
+    "url": "https://www.opportunitiesforafricans.com/university-of-edinburgh-mastercard-foundation-on-campus-and-online-postgraduate-scholars-program-2027-2028/",
+    "title": "The University of Edinburgh Mastercard Foundation on-campus and online postgraduate Scholars Program 2027/2028 for young Africans (Fully Funded)",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "model_eligibility_status": "CONFIRMED_INELIGIBLE",
+    "missing_requirements": [
+      "None"
+    ],
+    "blocking_issues": [
+      "Not a resident of an African country (currently resident in Lao PDR)",
+      "Must be resident and citizen of an African country"
+    ],
+    "addressable_gaps": [
+      "Potential relocation to Ethiopia (or another African country) to establish residency before the application deadline"
+    ],
+    "reasoning": "The program explicitly states that applicants must be 'residents and citizens or hold refugee status in an African country.' The candidate is an Ethiopian citizen but currently resides in Lao PDR, not an African country, thus failing this mandatory residency/citizenship requirement.",
+    "id": "9a79c82619e4f363",
+    "first_seen": "2026-10-22T10:07:22.867914+00:00",
+    "last_updated": "2026-10-22T10:07:22.867932+00:00"
+  },
+  "6134c2141006b1f1": {
+    "url": "https://www.opportunitiesforafricans.com/call-for-proposals-the-commonwealth-blue-charter-incubator-round-ii-50000-in-funding/",
+    "title": "Call for Proposals: The Commonwealth Blue Charter Incubator Round II (£50,000 in funding)",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "model_eligibility_status": "CONFIRMED_INELIGIBLE",
+    "missing_requirements": [
+      "No eligible government entity has been identified to submit the application.",
+      "No qualifying ocean-challenge project, grant request, or co-funding arrangements have been provided."
+    ],
+    "blocking_issues": [
+      "The candidate cannot apply as lead applicant because the lead applicant must be a legally established government entity, while the candidate is an individual professional/founder."
+    ],
+    "addressable_gaps": [],
+    "reasoning": "The program expressly requires the lead applicant to be a legally established national or sub-national government entity, such as a ministry, department, agency, or other public body with formal government status. The candidate is an individual working professional and solo founder, not such an entity. Although NGOs and technical or implementation partners are encouraged, partnership does not satisfy the mandatory lead-applicant requirement. Ethiopia is a Commonwealth member, so citizenship is not the blocker.",
+    "id": "6134c2141006b1f1",
+    "first_seen": "2026-10-22T10:09:24.283920+00:00",
+    "last_updated": "2026-10-22T10:09:24.283937+00:00"
+  },
+  "85c97d1e1be8659a": {
+    "url": "https://www.opportunitiesforafricans.com/the-fnb-private-banking-and-advisory-graduate-academy-2027-for-young-south-africans/",
+    "title": "The FNB Private Banking and Advisory Graduate Academy 2027 for young South Africans.",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "model_eligibility_status": "CONFIRMED_INELIGIBLE",
+    "missing_requirements": [
+      "Verification of South African NQF equivalence for the candidate’s BSc",
+      "Proof of ability to relocate to and reside in South Africa"
+    ],
+    "blocking_issues": [
+      "Nationality – not a South African",
+      "Field of study – BSc Psychology not in listed eligible disciplines",
+      "Location – cannot relocate to South Africa"
+    ],
+    "addressable_gaps": [
+      "English proficiency – can obtain Duolingo or MOI certificate"
+    ],
+    "reasoning": "The program explicitly targets “young South Africans” and requires candidates to be based in South Africa (Gauteng, KwaZulu Natal or Cape Town). The candidate is an Ethiopian national, currently residing in Lao PDR, and holds a BSc in Psychology, which does not meet the required NQF‑level qualifications in BCom Investments, Financial Planning, Estate Planning, Financial Management, Accounting or Economics. These criteria are hard blockers that directly exclude the candidate.",
+    "id": "85c97d1e1be8659a",
+    "first_seen": "2026-10-22T10:10:03.353189+00:00",
+    "last_updated": "2026-10-22T10:10:03.353204+00:00"
+  },
+  "888636217608295d": {
+    "url": "https://fulbrightscholarships.com/list-of-internships",
+    "title": "List of Internships 2026–2027 | Fully Funded & Paid Opportunities",
+    "status": "legitimacy_unknown",
+    "credibility_status": "NEEDS_VERIFICATION",
+    "source_tier": "TIER_4",
+    "reasoning": "The page is a generic list of internships with no specific programs, organizers, fees, or application details provided. It only shows trust signals like 'fully funded' and 'erasmus', but lacks sufficient concrete evidence to verify legitimacy.",
+    "id": "888636217608295d",
+    "first_seen": "2026-10-22T10:10:14.873141+00:00",
+    "last_updated": "2026-10-22T10:10:14.873156+00:00"
+  },
+  "70d688c2038abc19": {
+    "url": "https://www.instagram.com/reel/DeNCmqIxHBp",
+    "title": "Instagram",
+    "status": "legitimacy_unknown",
+    "credibility_status": "NEEDS_VERIFICATION",
+    "source_tier": "TIER_4",
+    "reasoning": "The source is only an Instagram reel with no substantive page text, and the automated scan reported no red-flag phrases or trust signals. The program, organizer, and official application details cannot be verified from this evidence, so legitimacy cannot be determined.",
+    "id": "70d688c2038abc19",
+    "first_seen": "2026-10-22T10:10:24.143901+00:00",
+    "last_updated": "2026-10-22T10:10:24.143918+00:00"
+  },
+  "9bd7ce254da72034": {
+    "url": "https://www.facebook.com/groups/1033016563818566/posts/2537704406683100",
+    "title": "Where to find 100% remote jobs in 2026?",
+    "status": "filtered_out",
+    "reason": "This is a general discussion post about remote jobs, not a scholarship, fellowship, residency, or funded opportunity listing.",
+    "id": "9bd7ce254da72034",
+    "first_seen": "2026-10-22T10:10:28.593111+00:00",
+    "last_updated": "2026-10-22T10:10:28.593125+00:00"
   }
 }
