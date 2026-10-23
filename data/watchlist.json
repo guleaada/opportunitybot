@@ -1108,31 +1108,15 @@
     "last_known_deadline": null,
     "last_checked": "2026-10-22T09:55:22.592926"
   },
-  "257b45c7f6f2a2bc": {
-    "url": "https://www.opportunitiesforafricans.com/the-agra-smedanyouth-agri-innovationcontest-2026-for-young-nigerian-agripreneurs/",
-    "title": "The AGRA–SMEDANYouth Agri‑InnovationContest 2026 for young Nigerian agripreneurs.",
-    "reason": "legitimacy check returned an unparseable reply; retry on a later run",
-    "retry_analysis": true,
-    "snippet": "Application Deadline: 16 October Applications are now open for the 2026 AGRA–SMEDANYouth Agri‑InnovationContest. Agriculture employs more young Nigerians than any other sector, yet many agripreneurs struggle to reach advice and… The post The AGRA–SMEDANYouth Agri‑InnovationContest 2026 for young Nigerian agripreneurs. appeared first on Opportunities For Africans .",
-    "id": "257b45c7f6f2a2bc",
-    "added": "2026-10-11T11:35:56.052677+00:00"
-  },
-  "5f1a006c079ff8ba": {
-    "url": "https://www.opportunitiesforafricans.com/the-hamburg-sustainability-conference-hsc-youth-ambassador-program-2027/",
-    "title": "The Hamburg Sustainability Conference (HSC) Youth Ambassador Program 2027 for young community leaders (Fully Funded)",
-    "last_known_deadline": null,
-    "reason": "monitoring — not confirmed open at scan time",
-    "id": "5f1a006c079ff8ba",
-    "added": "2026-10-10T11:17:24.119111+00:00"
-  },
   "01594d7600caff68": {
     "url": "https://thescholarsphere.com/blog/fully-funded-scholarships-2026",
     "title": "50+ Fully Funded Scholarships for International Students (2026) | TheScholarSphere",
     "retry_analysis": true,
     "snippet": "Looking for fully funded scholarships that cover tuition, living expenses, airfare, and health insurance? You are in the right place. We have compiled the most comprehensive list of fully funded scholarships available to international students in 2026, organized by region and country. [...] Funded by: Aga Khan Development Network\n Degree level: Master’s\n What it covers: 50% grant, 50% loan (loan forgiven based on financial situation)\n Eligibility: Citizens of select developing countries\n Deadline: March each year\n\n## Additional Notable Fully Funded Scholarships\n\n### 43. Schwarzman Scholars (Tsinghua University, China)\n\nMaster’s in Global Affairs — tuition, room and board, airfare, stipend\n\n### 44. Lester B. Pearson International Scholarships (University of Toronto, Canada) [...] Funded by: Agency for Science, Technology and Research (A\\STAR)\n Degree level: PhD\n What it covers: Full tuition, monthly stipend (SGD $2,200–$2,700), one-time airfare, settlement allowance\n Eligibility: All international graduates with strong research backgrounds\n Deadline: January and June each year\n\n## Fully Funded Scholarships in the Middle East\n\n### 34. King Abdullah University of Science and Technology (KAUST) Fellowship",
-    "reason": "legitimacy check returned an unparseable reply; retry on a later run",
+    "reason": "ANALYSIS_UNAVAILABLE — deep_eligibility: incomplete or invalid response after retry",
     "id": "01594d7600caff68",
-    "added": "2026-10-11T11:32:40.465467+00:00"
+    "added": "2026-10-23T09:53:05.075852+00:00",
+    "last_checked": "2026-10-23T09:50:57.824144"
   },
   "2799060ad678746e": {
     "url": "https://opportunitydesk.org/category/fellowships",
@@ -1140,7 +1124,8 @@
     "last_known_deadline": null,
     "reason": "closed at discovery; likely annual",
     "id": "2799060ad678746e",
-    "added": "2026-10-11T11:36:25.091898+00:00"
+    "added": "2026-10-23T09:53:05.092501+00:00",
+    "last_checked": "2026-10-23T09:53:05.091274"
   },
   "d0c65ad1ab23c1cc": {
     "url": "https://www.mandelawashingtonfellowship.org",
@@ -1148,7 +1133,8 @@
     "last_known_deadline": null,
     "reason": "closed at discovery; likely annual",
     "id": "d0c65ad1ab23c1cc",
-    "added": "2026-10-11T11:36:35.264844+00:00"
+    "added": "2026-10-23T09:53:08.093248+00:00",
+    "last_checked": "2026-10-23T09:53:08.092431"
   },
   "b2b9e6fdea573b20": {
     "url": "https://www.globaladmissions.com/scholarships/fully-funded",
@@ -1445,6 +1431,68 @@
     "snippet": "Application Deadline: November 3rd, 2026 Applications are now open for the 2026 Nedbank TalentForge Tech Graduate Program. The TalentForge Tech Graduate Programme is a structured 24-month development programme that provides… The post The Nedbank TalentForge Tech Graduate Program 2026 for young South African graduates. appeared first on Opportunities For Africans .",
     "reason": "legitimacy check returned an unparseable reply; retry on a later run",
     "id": "e77273b47c921e1f",
-    "added": "2026-10-22T10:08:50.774080+00:00"
+    "added": "2026-10-23T10:02:01.295274+00:00"
+  },
+  "9cf7e617b7425d8a": {
+    "url": "https://www.opportunitiesforafricans.com/the-swedish-institute-si-pioneering-women-in-stem-scholarship-2027/",
+    "title": "The Swedish Institute (SI) Pioneering Women in STEM Scholarship 2027 for study in Sweden (Fully Funded)",
+    "retry_analysis": true,
+    "snippet": "Application Deadline: 15 January 2027 Applications are now open for the 2027 Swedish Institute (SI) Pioneering Women in STEM Scholarship. The Pioneering Women in STEM scholarship supports women who want to… The post The Swedish Institute (SI) Pioneering Women in STEM Scholarship 2027 for study in Sweden (Fully Funded) appeared first on Opportunities For Africans .",
+    "reason": "legitimacy check returned an unparseable reply; retry on a later run",
+    "id": "9cf7e617b7425d8a",
+    "added": "2026-10-23T09:59:12.136371+00:00"
+  },
+  "752311ea296a717f": {
+    "url": "https://opportunitiescorners.com/community-engagement-exchange-program-2027/",
+    "title": "Community Engagement Exchange Program 2027 in USA (Fully Funded)",
+    "retry_analysis": true,
+    "snippet": "Applications are now open for the Community Engagement Exchange Program 2027 in the USA. Sponsored by the U.S. Department of State and implemented by IREX, this fully funded international exchange program offers emerging community leaders an opportunity to develop their leadership skills, gain professional experience, and build connections with American organizations. The program includes a […] The post Community Engagement Exchange Program 2027 in USA (Fully Funded) appeared first on Opportunities Corners .",
+    "reason": "legitimacy check returned an unparseable reply; retry on a later run",
+    "id": "752311ea296a717f",
+    "added": "2026-10-23T09:59:58.410520+00:00"
+  },
+  "0c06ed3fc3f3e956": {
+    "url": "https://opportunitiescorners.com/london-youth-diplomacy-forum-2027/",
+    "title": "London Youth Diplomacy Forum 2027 in the UK (Fully Funded)",
+    "retry_analysis": true,
+    "snippet": "Applications for the London Youth Diplomacy Forum 2027 are now open for young leaders, students, aspiring diplomats, and early-career professionals. This international youth forum is scheduled to take place in London, United Kingdom, from February 2–4, 2027. It aims to provide participants with exposure to international relations, foreign policy, diplomatic communication, and global decision-making. The […] The post London Youth Diplomacy Forum 2027 in the UK (Fully Funded) appeared first on Opportunities Corners .",
+    "reason": "legitimacy check returned an unparseable reply; retry on a later run",
+    "id": "0c06ed3fc3f3e956",
+    "added": "2026-10-23T10:00:58.518988+00:00"
+  },
+  "5f8748d69c30ac49": {
+    "url": "https://www.vocabulary.com/dictionary/award",
+    "title": "Award - Definition, Meaning & Synonyms | Vocabulary.com",
+    "reason": "ANALYSIS_UNAVAILABLE — all configured providers unavailable for 'scam_detection' (tried: openrouter, mistral, gemini)",
+    "retry_analysis": true,
+    "snippet": "prize money\n\n   any money given as a prize\n\n   premium\n\n   a prize, bonus, or award given as an inducement to purchase products, enter competitions initiated by business interests, etc.\n\n   type of:\n\n   gift\n\n   something acquired without compensation\n4. noun\n\n   a tangible symbol signifying approval or distinction\n\n   “an award for bravery”\n\n   synonyms:  accolade, honor, honour, laurels\n\n   see moresee less\n\n   types:\n\n   show 43 types...;)\n\n   hide 43 types...;)\n\n   prize, trophy [...] scholarship\n\n   financial aid provided to a student on the basis of academic merit\n\n   fellowship\n\n   money granted (by a university or foundation or other agency) for advanced study or research\n\n   gratuity\n\n   an award (as for meritorious service) given without claim or obligation\n\n   door prize\n\n   tickets are passed out at the entrance to a dance or party or other social function and a prize is awarded to the holder of the winning ticket\n\n   jackpot\n\n   any outstanding award [...] Prix de Rome\n\n   an annual prize awarded by the French government in a competition of painters and artists and sculptors and musicians and architects; the winner in each category receives support for a period of study in Rome\n\n   Prix Goncourt\n\n   an award given annually for contributions to French literature\n\n   apple of discord",
+    "id": "5f8748d69c30ac49",
+    "added": "2026-10-23T10:08:15.751003+00:00"
+  },
+  "bf4d8daf117b9ccb": {
+    "url": "https://simple.wikipedia.org/wiki/Award",
+    "title": "Award - Simple English Wikipedia, the free encyclopedia",
+    "reason": "ANALYSIS_UNAVAILABLE — all configured providers unavailable for 'first_pass_filter' (tried: gemini)",
+    "retry_analysis": true,
+    "snippet": "An award is something given to a person or group of people to recognize that they have done something very good. Usual awards are medal, trophy, ribbon, certificate, or plaque for example. Sometimes awards are called prizes, such as the Nobel Prize. [...] Awards can be given by any person or institution. Governments and militaries often give awards to their citizens for contributions they have made to the nation. This recognition can be given during the person's lifetime or even after they have died. In the United States if a military member receives a posthumous award it is generally presented to their family members or next of kin. This can include medals like the Medal of Honor; promotions to the next higher grade or naming a building or ship",
+    "id": "bf4d8daf117b9ccb",
+    "added": "2026-10-23T10:08:15.832126+00:00"
+  },
+  "636ee9683be289f9": {
+    "url": "https://www.merriam-webster.com/dictionary/award",
+    "title": "Definition of AWARD",
+    "reason": "ANALYSIS_UNAVAILABLE — all configured providers unavailable for 'first_pass_filter' (tried: gemini)",
+    "retry_analysis": true,
+    "snippet": "Help\n   About Us\n   Apps\n   Advertising Info\n   Contact Us\n   Privacy Policy\n   Terms of Use\n\n   Facebook\n   Twitter\n   YouTube\n   Instagram\n\n© 2026 Merriam-Webster, Incorporated\n\nVideo 1\n\nVideo 2\n\nVideo 3\n\nVideo 4\n\nImage 23Image 24Image 25\n\nImage 26\n\n✕\n## Do not sell or share my personal information. [...] Verb\n\nSecretary of State Marco Rubio announced the sanctions Friday, after the Nobel Peace Prize was _awarded_ to South African jurist Navi Pillay, a former judge at the ICC and other international courts.— Matthew Lee, _Arkansas Online_, 10 Oct. 2026  + _warder, garder_ to look after, guard — more at guard\n\nFirst Known Use\n\nVerb\n\n14th century, in the meaning defined at sense 2\n\nNoun\n\n13th century, in the meaning defined at sense 2a\n\nTime Traveler [...] Last Updated:11 Oct 2026 - Updated example sentences\n\n## More from Merriam-Webster\n\nTop Lookups\n\n Next refresh: 25 \n\n    1 search  \n    2 yaruru  \n    3 chirpy  \n    4 dull  \n    5 skip  \n    6 Ogodei  \n    7 highlight  \n\n\n#### Word of the Day\n\n#### zenith\n\n\n\nSee Definitions and Examples »\n\nGet Word of the Day daily email!\n\n## Popular in Grammar & Usage\n\nSee More\n\n### 'Affect' vs. 'Effect'\n\n### Merriam-Webster’s Great Big List of Words You Love to Hate",
+    "id": "636ee9683be289f9",
+    "added": "2026-10-23T10:08:15.899677+00:00"
+  },
+  "6bd77515353b959c": {
+    "url": "https://www.opportunitiesforafricans.com/swedish-institute-scholarships-2027-for-global-professionals-for-masters-level-studies-in-sweden/",
+    "title": "Swedish Institute Scholarships 2027 for Global Professionals for Master’s Level Studies in Sweden (Fully Funded)",
+    "last_known_deadline": null,
+    "reason": "monitoring — not confirmed open at scan time",
+    "id": "6bd77515353b959c",
+    "added": "2026-10-23T10:08:15.902770+00:00"
   }
 }

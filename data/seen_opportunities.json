@@ -14398,8 +14398,8 @@
   "5f1a006c079ff8ba": {
     "url": "https://www.opportunitiesforafricans.com/the-hamburg-sustainability-conference-hsc-youth-ambassador-program-2027/",
     "title": "The Hamburg Sustainability Conference (HSC) Youth Ambassador Program 2027 for young community leaders (Fully Funded)",
-    "status": "notified",
-    "score": 8.9,
+    "status": "analyzed",
+    "score": 7.3,
     "category": null,
     "official_url": "https://www.opportunitiesforafricans.com/the-hamburg-sustainability-conference-hsc-youth-ambassador-program-2027/",
     "location": null,
@@ -14414,7 +14414,7 @@
     "requirements": [],
     "id": "5f1a006c079ff8ba",
     "first_seen": "2026-10-10T11:13:08.125186+00:00",
-    "last_updated": "2026-10-10T11:17:26.573340+00:00",
+    "last_updated": "2026-10-23T09:50:57.787668+00:00",
     "notification_tier": "WATCHLIST",
     "notified_at": "2026-10-10T11:17:26.542841+00:00"
   },
@@ -14707,17 +14707,15 @@
     "status": "ineligible",
     "eligibility_status": "CONFIRMED_INELIGIBLE",
     "model_eligibility_status": "CONFIRMED_INELIGIBLE",
-    "missing_requirements": [
-      "Verification that the applicant is running or building an agribusiness in maize, rice, soybean or allied value chains (not confirmed)."
-    ],
+    "missing_requirements": [],
     "blocking_issues": [
-      "Nationality mismatch: program requires Nigerian citizenship; candidate is Ethiopian."
+      "hard blocker: nationality mismatch (Ethiopian vs required Nigerian)"
     ],
     "addressable_gaps": [],
-    "reasoning": "The contest explicitly requires applicants to be *Nigerian youth* aged 18‑35. The candidate is an Ethiopian national, which does not satisfy the nationality requirement. Therefore the candidate is ineligible regardless of age, education, or professional background.",
+    "reasoning": "The contest explicitly requires applicants to be Nigerian youth aged 18 to 35 and to be from any state in Nigeria. The candidate is an Ethiopian national, not Nigerian, which directly violates the nationality requirement.",
     "id": "257b45c7f6f2a2bc",
     "first_seen": "2026-10-12T13:03:15.648988+00:00",
-    "last_updated": "2026-10-12T13:03:15.649004+00:00"
+    "last_updated": "2026-10-23T09:47:03.332328+00:00"
   },
   "ce191bccd0d92df8": {
     "url": "https://www.facebook.com/fundsforngos/videos/global-fellowship-programs-for-emerging-changemakers/809376898759414",
@@ -16918,5 +16916,131 @@
     "id": "9bd7ce254da72034",
     "first_seen": "2026-10-22T10:10:28.593111+00:00",
     "last_updated": "2026-10-22T10:10:28.593125+00:00"
+  },
+  "6bd77515353b959c": {
+    "url": "https://www.opportunitiesforafricans.com/swedish-institute-scholarships-2027-for-global-professionals-for-masters-level-studies-in-sweden/",
+    "title": "Swedish Institute Scholarships 2027 for Global Professionals for Master’s Level Studies in Sweden (Fully Funded)",
+    "status": "notified",
+    "score": 6.0,
+    "category": null,
+    "official_url": "https://www.opportunitiesforafricans.com/swedish-institute-scholarships-2027-for-global-professionals-for-masters-level-studies-in-sweden/",
+    "location": null,
+    "remote": null,
+    "deadline": null,
+    "reward": "fully_funded",
+    "estimated_value": null,
+    "eligibility_status": "PROBABLY_ELIGIBLE",
+    "credibility_status": "LIKELY_LEGITIMATE",
+    "source_tier": "TIER_3",
+    "source_quality": 7,
+    "requirements": [],
+    "id": "6bd77515353b959c",
+    "first_seen": "2026-10-23T09:56:11.620503+00:00",
+    "last_updated": "2026-10-23T10:08:18.959347+00:00",
+    "notification_tier": "WATCHLIST",
+    "notified_at": "2026-10-23T10:08:18.945681+00:00"
+  },
+  "e3e671c51403a6b0": {
+    "url": "https://www.opportunitiesforafricans.com/the-policy-center-for-the-new-south-pcns-raisina-young-fellows-programme-2027/",
+    "title": "The Policy Center for the New South (PCNS) Raisina Young Fellows Programme 2027 for emerging leaders worldwide (Fully Funded to New Delhi, India)",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "model_eligibility_status": "CONFIRMED_INELIGIBLE",
+    "missing_requirements": [],
+    "blocking_issues": [
+      "Age below the required minimum (must be 28-35)"
+    ],
+    "addressable_gaps": [
+      "English proficiency proof (can obtain Duolingo or MOI certificate)"
+    ],
+    "reasoning": "The programme explicitly requires applicants to be between 28 and 35 years old. The candidate is 27, which does not meet the age criterion. All other stated requirements (nationality, student status, degree level) are either not specified or met. English proficiency is required but can be addressed with a test, however the age requirement is a hard blocker.",
+    "id": "e3e671c51403a6b0",
+    "first_seen": "2026-10-23T09:57:14.470522+00:00",
+    "last_updated": "2026-10-23T09:57:14.470538+00:00"
+  },
+  "25732fb4f83f1bf4": {
+    "url": "https://www.thefreedictionary.com/award",
+    "title": "award",
+    "status": "analyzed",
+    "score": 0.0,
+    "category": "cash_prize_competitions",
+    "official_url": "https://www.thefreedictionary.com/award",
+    "location": null,
+    "remote": null,
+    "deadline": null,
+    "reward": "none",
+    "estimated_value": null,
+    "eligibility_status": "PROBABLY_ELIGIBLE",
+    "credibility_status": "LIKELY_LEGITIMATE",
+    "source_tier": "TIER_4",
+    "source_quality": 0,
+    "requirements": [],
+    "id": "25732fb4f83f1bf4",
+    "first_seen": "2026-10-23T10:03:19.178983+00:00",
+    "last_updated": "2026-10-23T10:03:19.179002+00:00"
+  },
+  "a4d345e275777dd1": {
+    "url": "https://www.merriam-webster.com/thesaurus/award",
+    "title": "AWARD Synonyms: 139 Similar and Opposite Words | Merriam-Webster Thesaurus",
+    "status": "unknown",
+    "eligibility_status": "UNCERTAIN",
+    "model_eligibility_status": "UNCERTAIN",
+    "missing_requirements": [
+      "Explicit eligibility criteria such as student enrollment status, degree level requirement, nationality eligibility, age cap, work experience acceptance, English proficiency requirement, funding type, and any other program-specific conditions."
+    ],
+    "blocking_issues": [],
+    "addressable_gaps": [],
+    "reasoning": "The provided program description contains only synonyms and example sentences for 'award' and does not list any explicit eligibility criteria (e.g., student status, degree level, nationality restrictions, age cap, English proficiency, funding type, etc.). Because no requirements are stated, it is impossible to verify whether the candidate meets or fails any specific condition, making the eligibility status uncertain.",
+    "id": "a4d345e275777dd1",
+    "first_seen": "2026-10-23T10:03:58.382702+00:00",
+    "last_updated": "2026-10-23T10:03:58.382719+00:00"
+  },
+  "319f931b4e1aa172": {
+    "url": "https://en.wikipedia.org/wiki/Award",
+    "title": "Award",
+    "status": "analyzed",
+    "score": 0.0,
+    "category": "cash_prize_competitions",
+    "official_url": "https://en.wikipedia.org/wiki/Award",
+    "location": null,
+    "remote": null,
+    "deadline": null,
+    "reward": "none",
+    "estimated_value": null,
+    "eligibility_status": "PROBABLY_ELIGIBLE",
+    "credibility_status": "LIKELY_LEGITIMATE",
+    "source_tier": "TIER_4",
+    "source_quality": 0,
+    "requirements": [],
+    "id": "319f931b4e1aa172",
+    "first_seen": "2026-10-23T10:05:46.578805+00:00",
+    "last_updated": "2026-10-23T10:05:46.578824+00:00"
+  },
+  "45014f2fbb0edc8e": {
+    "url": "https://www.dictionary.com/browse/award",
+    "title": "AWARD Definition & Meaning | Dictionary.com",
+    "status": "legitimacy_unknown",
+    "credibility_status": "NEEDS_VERIFICATION",
+    "source_tier": "TIER_4",
+    "reasoning": "The source URL points to Dictionary.com's definition page for the word 'award', which is a general dictionary entry and does not describe any specific scholarship, fellowship, or award program. There is no program name, application process, fees, or selection criteria mentioned, making it impossible to assess legitimacy as a scholarship opportunity.",
+    "id": "45014f2fbb0edc8e",
+    "first_seen": "2026-10-23T10:06:13.395388+00:00",
+    "last_updated": "2026-10-23T10:06:13.395406+00:00"
+  },
+  "5c221994419a198e": {
+    "url": "https://dictionary.cambridge.org/us/dictionary/english/award",
+    "title": "award",
+    "status": "unknown",
+    "eligibility_status": "UNCERTAIN",
+    "model_eligibility_status": "UNCERTAIN",
+    "missing_requirements": [
+      "All typical scholarship eligibility criteria (nationality, student enrollment status, age limits, degree level, language proficiency, required documents, etc.) are absent from the program description"
+    ],
+    "blocking_issues": [],
+    "addressable_gaps": [],
+    "reasoning": "The program text consists solely of a dictionary definition of the word \"award\" and contains no eligibility criteria, application requirements, or selection details. Without any stated requirements (e.g., nationality, student status, age limits, degree level, language proficiency, etc.), it is impossible to determine whether the candidate meets the program’s conditions or is excluded. Consequently, the candidate’s eligibility cannot be assessed with the provided information.",
+    "id": "5c221994419a198e",
+    "first_seen": "2026-10-23T10:07:29.756572+00:00",
+    "last_updated": "2026-10-23T10:07:29.756588+00:00"
   }
 }
