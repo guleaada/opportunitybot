@@ -14563,9 +14563,9 @@
   "b2b9e6fdea573b20": {
     "url": "https://www.globaladmissions.com/scholarships/fully-funded",
     "title": "Fully Funded Scholarships for International Students",
-    "status": "notified",
-    "score": 7.6,
-    "category": "scholarships",
+    "status": "analyzed",
+    "score": 5.2,
+    "category": null,
     "official_url": "https://www.globaladmissions.com/scholarships/fully-funded",
     "location": null,
     "remote": null,
@@ -14575,11 +14575,11 @@
     "eligibility_status": "PROBABLY_ELIGIBLE",
     "credibility_status": "LIKELY_LEGITIMATE",
     "source_tier": "TIER_4",
-    "source_quality": 0,
+    "source_quality": null,
     "requirements": [],
     "id": "b2b9e6fdea573b20",
     "first_seen": "2026-10-11T11:35:41.045484+00:00",
-    "last_updated": "2026-10-11T11:36:40.891984+00:00",
+    "last_updated": "2026-10-24T09:23:09.871977+00:00",
     "notification_tier": "WATCHLIST",
     "notified_at": "2026-10-11T11:36:40.881163+00:00"
   },
@@ -15013,18 +15013,20 @@
     "status": "ineligible",
     "eligibility_status": "PROBABLY_INELIGIBLE",
     "model_eligibility_status": "PROBABLY_INELIGIBLE",
-    "missing_requirements": [],
+    "missing_requirements": [
+      "Proof of legal background (law degree or relevant certifications).",
+      "Evidence of professional experience in international law."
+    ],
     "blocking_issues": [
-      "Legal background required (candidate has a Psychology degree, not law)",
-      "No professional experience in international law"
+      "No legal/ law degree or documented professional experience in international law (hard blocker)."
     ],
     "addressable_gaps": [
-      "English proficiency proof (can obtain Duolingo or MOI certificate)"
+      "Obtain an English proficiency certificate (e.g., Duolingo English Test or MOI certificate)."
     ],
-    "reasoning": "The program requires a legal background with professional experience in international law. The candidate holds a BSc in Psychology and works as an AI developer/marketing specialist, with no law degree or demonstrated experience in international law, which is a hard blocker. English fluency is required but can be addressed; however, the lack of a legal background alone makes the candidate ineligible.",
+    "reasoning": "The program requires candidates to have a legal background with professional experience in international law. The candidate holds a BSc in Psychology and works as an AI developer/marketing specialist, with no law degree or demonstrated experience in international law, which does not satisfy this core eligibility criterion. English fluency is required; the candidate claims proficiency but lacks a formal certificate, which is an addressable gap. Citizenship is acceptable (Ethiopia is a UN member state in the African Group).",
     "id": "35fbbf8c3e9fc550",
     "first_seen": "2026-10-14T10:03:27.031042+00:00",
-    "last_updated": "2026-10-14T10:03:27.031055+00:00"
+    "last_updated": "2026-10-24T09:24:26.681229+00:00"
   },
   "55c632d2e2c4f561": {
     "url": "https://www.opportunitiesforafricans.com/falling-walls-female-science-talents-intensive-track-2027/",
@@ -15034,27 +15036,27 @@
     "model_eligibility_status": "PROBABLY_INELIGIBLE",
     "missing_requirements": [],
     "blocking_issues": [
-      "Degree level mismatch: only a BSc, no PhD or equivalent advanced scientific qualification",
-      "Current status: not a PhD student or postdoctoral researcher"
+      "Degree level mismatch: candidate holds only a BSc, not a PhD or equivalent advanced qualification."
     ],
     "addressable_gaps": [
-      "English proficiency proof (e.g., Duolingo or MOI certificate) could be obtained, but does not resolve the primary degree requirement"
+      "English proficiency proof (can obtain Duolingo or MOI certificate)"
     ],
-    "reasoning": "The program explicitly requires applicants to be PhD students in the final stage of their research or postdoctoral researchers who completed their PhD in 2021 or later, or to hold qualifications equivalent to a PhD/postdoc. The candidate holds only a BSc and is a working professional, not a PhD student or postdoc, and does not have an advanced qualification equivalent to a PhD. Therefore she does not meet the core eligibility criterion.",
+    "reasoning": "The program explicitly requires applicants to be PhD students in the final stage of their research, postdoctoral researchers who completed their PhD in 2021 or later, or to hold qualifications equivalent to a PhD or postdoctoral experience. The candidate only holds a BSc degree, which does not meet the stated academic level requirement. Nationality is not restricted, and age is not mentioned as a limit, so those are not blockers.",
     "id": "55c632d2e2c4f561",
     "first_seen": "2026-10-14T10:04:36.545604+00:00",
-    "last_updated": "2026-10-14T10:04:36.545617+00:00"
+    "last_updated": "2026-10-24T09:25:51.347705+00:00"
   },
   "045d2d199b86cbc0": {
     "url": "https://www.opportunitiesforafricans.com/the-global-women-connect-mentoring-programme-2026-2027/",
     "title": "The Global Women Connect Mentoring Programme 2026/2027",
-    "status": "legitimacy_unknown",
+    "status": "closed",
     "credibility_status": "NEEDS_VERIFICATION",
     "source_tier": "TIER_3",
     "reasoning": "The page lists a free mentorship programme with no application fee, which is typical for legitimate programmes, but provides only generic email contacts and no direct link to an official programme website, making verification difficult.",
     "id": "045d2d199b86cbc0",
     "first_seen": "2026-10-14T10:05:11.437095+00:00",
-    "last_updated": "2026-10-14T10:05:11.437126+00:00"
+    "last_updated": "2026-10-24T09:26:15.371115+00:00",
+    "deadline": "2026-10-16"
   },
   "436f54baaa0cd604": {
     "url": "https://www.opportunitiesforafricans.com/the-echidna-global-scholars-program-2027-at-brookings-institution/",
@@ -15062,10 +15064,10 @@
     "status": "legitimacy_unknown",
     "credibility_status": "NEEDS_VERIFICATION",
     "source_tier": "TIER_3",
-    "reasoning": "The page does not mention any application fee, which is a positive sign, but it provides no direct link to an official Brookings Institution webpage and uses generic contact emails, making it impossible to verify the program's existence on the host institution's site.",
+    "reasoning": "The listing mentions a fully funded fellowship at Brookings but provides only generic aggregator email addresses and no direct link to an official Brookings webpage, which is atypical for Brookings programs. No application fee is stated, but the lack of verifiable official source makes the legitimacy unclear.",
     "id": "436f54baaa0cd604",
     "first_seen": "2026-10-14T10:06:10.458052+00:00",
-    "last_updated": "2026-10-14T10:06:10.458064+00:00"
+    "last_updated": "2026-10-24T09:27:16.595174+00:00"
   },
   "b63924cadee97e34": {
     "url": "https://opportunitiescorners.com/vancouver-digital-diplomacy-forum-2027/",
@@ -17042,5 +17044,226 @@
     "id": "5c221994419a198e",
     "first_seen": "2026-10-23T10:07:29.756572+00:00",
     "last_updated": "2026-10-23T10:07:29.756588+00:00"
+  },
+  "9cf7e617b7425d8a": {
+    "url": "https://www.opportunitiesforafricans.com/the-swedish-institute-si-pioneering-women-in-stem-scholarship-2027/",
+    "title": "The Swedish Institute (SI) Pioneering Women in STEM Scholarship 2027 for study in Sweden (Fully Funded)",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "model_eligibility_status": "CONFIRMED_INELIGIBLE",
+    "missing_requirements": [],
+    "blocking_issues": [
+      "Citizenship not among the eligible countries"
+    ],
+    "addressable_gaps": [],
+    "reasoning": "The scholarship explicitly requires applicants to be female citizens of one of the 10 listed eligible countries (Bangladesh, Indonesia, Kenya, Malaysia, Nigeria, Philippines, Rwanda, South Africa, Thailand, Vietnam). The candidate is an Ethiopian citizen, which is not on the list, resulting in a hard blocker.",
+    "id": "9cf7e617b7425d8a",
+    "first_seen": "2026-10-24T09:28:50.739364+00:00",
+    "last_updated": "2026-10-24T09:28:50.739383+00:00"
+  },
+  "9afde227653ad743": {
+    "url": "https://opportunitiescorners.com/human-rights-summit-2027-in-canada/",
+    "title": "Human Rights Summit 2027 in Canada (Fully Funded)",
+    "status": "scam",
+    "credibility_status": "HIGH_RISK",
+    "source_tier": "TIER_3",
+    "reasoning": "The summit claims to be fully funded yet requires a $26.23 USD application fee and provides only a generic Gmail address for contact, with no official university or government website link. Requiring payment for a supposedly free, fully‑funded conference is a classic red flag for scholarship scams.",
+    "id": "9afde227653ad743",
+    "first_seen": "2026-10-24T09:29:42.226905+00:00",
+    "last_updated": "2026-10-24T09:29:42.226924+00:00"
+  },
+  "a3264a7b2509aa1a": {
+    "url": "https://opportunitiescorners.com/flex-global-program-2027-in-the-usa/",
+    "title": "FLEX Global Program 2027 in the USA (Fully Funded Exchange Program)",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "model_eligibility_status": "CONFIRMED_INELIGIBLE",
+    "missing_requirements": [],
+    "blocking_issues": [
+      "Citizenship not eligible (Ethiopia not in the list of participating countries)",
+      "Not enrolled in secondary school (candidate is a working professional)",
+      "Age likely exceeds the program's high‑school age limits",
+      "Degree level mismatch (program for high‑school students, candidate holds a BSc)"
+    ],
+    "addressable_gaps": [
+      "Can obtain an English proficiency test (Duolingo, MOI) if needed"
+    ],
+    "reasoning": "The FLEX Global Program is explicitly for eligible high school students. Requirements state: must be a citizen of an eligible participating country, must be enrolled in the required grade/year of secondary school, must meet country‑specific age limits, and must have a suitable academic level (high school). The candidate is Ethiopian (Ethiopia is not listed among eligible countries), is 27 years old, is a working professional with a bachelor's degree, and is not currently enrolled in secondary school. These are hard blockers.",
+    "id": "a3264a7b2509aa1a",
+    "first_seen": "2026-10-24T09:30:41.383081+00:00",
+    "last_updated": "2026-10-24T09:30:41.383100+00:00"
+  },
+  "752311ea296a717f": {
+    "url": "https://opportunitiescorners.com/community-engagement-exchange-program-2027/",
+    "title": "Community Engagement Exchange Program 2027 in USA (Fully Funded)",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "model_eligibility_status": "CONFIRMED_INELIGIBLE",
+    "missing_requirements": [
+      "Evidence of commitment to freedom of expression, civic participation, constructive dialogue, and community-level problem-solving (not detailed in profile)"
+    ],
+    "blocking_issues": [
+      "Nationality not among eligible countries (Ethiopia excluded)",
+      "Not living/working in home country (currently in Laos)"
+    ],
+    "addressable_gaps": [
+      "English proficiency certificate (can obtain Duolingo or MOI test)"
+    ],
+    "reasoning": "The program explicitly limits eligible countries to a specific list (Czechia, France, Germany, Hungary, Ireland, Poland, Romania, Slovakia, Ukraine, United Kingdom). The candidate is Ethiopian, which is not on the list, creating a hard nationality blocker. Additionally, the program requires applicants to be living and working in their home country at the time of application; the candidate is currently residing and working in Laos, not Ethiopia, which is another hard blocker. While English proficiency can be addressed, these hard blockers make the candidate ineligible.",
+    "id": "752311ea296a717f",
+    "first_seen": "2026-10-24T09:31:51.086399+00:00",
+    "last_updated": "2026-10-24T09:31:51.086415+00:00"
+  },
+  "0c06ed3fc3f3e956": {
+    "url": "https://opportunitiescorners.com/london-youth-diplomacy-forum-2027/",
+    "title": "London Youth Diplomacy Forum 2027 in the UK (Fully Funded)",
+    "status": "scam",
+    "credibility_status": "HIGH_RISK",
+    "source_tier": "TIER_3",
+    "reasoning": "The listing requires applicants to \"pay the required application fees\" despite offering fully funded seats, and the only contact email is a generic Gmail address. The host organization (Youth Diplomatic Academy) cannot be independently verified, and the page provides no official domain or direct link to a legitimate institution, which are classic red‑flag characteristics of scholarship scams.",
+    "id": "0c06ed3fc3f3e956",
+    "first_seen": "2026-10-24T09:32:35.735975+00:00",
+    "last_updated": "2026-10-24T09:32:35.735992+00:00"
+  },
+  "d9d33f33771d7cac": {
+    "url": "https://www.opportunitiesforafricans.com/the-daad-heilbronn-ai-fellowship-2026-2027-for-international-postdoctoral-researchers-in-artificial-intelligence/",
+    "title": "The DAAD Heilbronn AI Fellowship 2026/2027 for International Postdoctoral Researchers in Artificial Intelligence (Funded study in Germany)",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "model_eligibility_status": "CONFIRMED_INELIGIBLE",
+    "missing_requirements": [],
+    "blocking_issues": [
+      "Degree level mismatch: no PhD or PhD candidacy",
+      "Not a postdoctoral researcher",
+      "No current affiliation with a university or research institution"
+    ],
+    "addressable_gaps": [],
+    "reasoning": "The fellowship requires applicants to be international PhD candidates (final year) or postdoctoral researchers who have obtained a PhD within the last five years. The candidate only holds a BSc and is a working professional, not a PhD candidate or postdoc, and is not currently affiliated with a university or research institution. Therefore the core eligibility criteria are not met.",
+    "id": "d9d33f33771d7cac",
+    "first_seen": "2026-10-24T09:33:41.733073+00:00",
+    "last_updated": "2026-10-24T09:33:41.733091+00:00"
+  },
+  "a032eb9be1f49a32": {
+    "url": "https://mindshipglobal.com/opportunities/international-leadership-scholarship-programmes-2026-2027",
+    "title": "5 International Leadership & Scholarship Programmes 2027",
+    "status": "ineligible",
+    "eligibility_status": "PROBABLY_INELIGIBLE",
+    "model_eligibility_status": "PROBABLY_INELIGIBLE",
+    "missing_requirements": [
+      "Specific eligibility details (age, student status) for Aspire Leaders Program are not provided on the page"
+    ],
+    "blocking_issues": [
+      "Age exceeds limits for Hansen Leadership Institute (27 > 25)",
+      "Not a recent graduate for Hansen Leadership Institute (graduated 2021, required 2025‑2026)",
+      "Age far above limits for Yale Young Global Scholars (16‑18)",
+      "Age far above limits for United World Colleges (typical entry 16‑17)",
+      "Age far above limits for AFS Global STEM Academies (15‑17.5)"
+    ],
+    "addressable_gaps": [
+      "Obtain English proficiency proof (Duolingo, MOI) – but this does not resolve age/student status blockers"
+    ],
+    "reasoning": "All five listed programmes have explicit eligibility criteria that the candidate does not meet. The Hansen Leadership Institute requires age 20‑25 and recent graduation (2025‑2026); the candidate is 27 and graduated in 2021. Yale Young Global Scholars, United World Colleges, and AFS Global STEM Academies are limited to secondary‑school ages (16‑18 or 15‑17.5). The Aspire Leaders Program’s criteria are not fully disclosed, but it targets university students and recent graduates, and no age limit is given; however, without clear eligibility it cannot be confirmed that the candidate qualifies. Therefore the candidate is likely ineligible for the overall set of opportunities.",
+    "id": "a032eb9be1f49a32",
+    "first_seen": "2026-10-24T09:35:11.719183+00:00",
+    "last_updated": "2026-10-24T09:35:11.719200+00:00"
+  },
+  "29e3f2ef7b0d6ba6": {
+    "url": "https://opportunitiesforyouth.org/2026/10/19/foreign-affairs-information-technology-fait-fellowship-2026-2027-fully-funded-it-degree-professional-training-and-a-career-in-the-u-s-foreign-service",
+    "title": "Foreign Affairs Information Technology (FAIT) Fellowship 2026–2027: Fully Funded IT Degree, Professional Training and a Career in the U.S. Foreign Service - Opportunities for Youth",
+    "status": "legitimacy_unknown",
+    "credibility_status": "NEEDS_VERIFICATION",
+    "source_tier": "TIER_3",
+    "reasoning": "The article claims the FAIT Fellowship is funded by the U.S. Department of State and run by The Washington Center, but provides no direct link to an official program page or verifiable details such as application deadlines, eligibility criteria, or contact information; no fees are mentioned, yet the existence of the program cannot be confirmed from the available evidence.",
+    "id": "29e3f2ef7b0d6ba6",
+    "first_seen": "2026-10-24T09:36:31.346471+00:00",
+    "last_updated": "2026-10-24T09:36:31.346487+00:00"
+  },
+  "174ee98596a4f9fe": {
+    "url": "https://opportunitiescorners.com/who-summer-school-2027-in-france/",
+    "title": "WHO Summer School 2027 in France (Free Training Program)",
+    "status": "legitimacy_unknown",
+    "credibility_status": "NEEDS_VERIFICATION",
+    "source_tier": "TIER_3",
+    "reasoning": "The page lists WHO as organizer but provides no direct WHO link or official WHO contact; the only contact is a generic Gmail address for the aggregator, and the WHO announcement link is missing, making verification impossible. No fee is requested, so it's not clearly a scam, but the lack of official sourcing is a red flag.",
+    "id": "174ee98596a4f9fe",
+    "first_seen": "2026-10-24T09:37:45.750586+00:00",
+    "last_updated": "2026-10-24T09:37:45.750602+00:00"
+  },
+  "1c0b96e3706d0760": {
+    "url": "https://www.opportunitiesforafricans.com/the-world-food-forum-youth-policy-board-2027-2028-for-emerging-leaders/",
+    "title": "The World Food Forum Youth Policy Board 2027/2028 for emerging leaders.",
+    "status": "analyzed",
+    "score": 3.7,
+    "category": null,
+    "official_url": "https://www.opportunitiesforafricans.com/the-world-food-forum-youth-policy-board-2027-2028-for-emerging-leaders/",
+    "location": null,
+    "remote": null,
+    "deadline": "2026-11-30",
+    "reward": "none",
+    "estimated_value": null,
+    "eligibility_status": "PROBABLY_ELIGIBLE",
+    "credibility_status": "LIKELY_LEGITIMATE",
+    "source_tier": "TIER_3",
+    "source_quality": 7,
+    "requirements": [
+      "Curriculum Vitae (CV)",
+      "Letter of recommendation",
+      "Two‑minute video introduction"
+    ],
+    "id": "1c0b96e3706d0760",
+    "first_seen": "2026-10-24T09:40:07.259097+00:00",
+    "last_updated": "2026-10-24T09:40:07.259120+00:00"
+  },
+  "e77273b47c921e1f": {
+    "url": "https://www.opportunitiesforafricans.com/the-nedbank-talentforge-tech-graduate-program-2026/",
+    "title": "The Nedbank TalentForge Tech Graduate Program 2026 for young South African graduates.",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "model_eligibility_status": "CONFIRMED_INELIGIBLE",
+    "missing_requirements": [
+      "Minimum 65% aggregate average not provided"
+    ],
+    "blocking_issues": [
+      "Nationality not South African (program limited to South African graduates)",
+      "Degree field mismatch: Psychology is not among the listed eligible fields"
+    ],
+    "addressable_gaps": [],
+    "reasoning": "The program explicitly states it is for \"young South African graduates\" and requires a bachelor's degree (NQF Level 7) in one of the listed quantitative or tech‑related fields. The candidate is Ethiopian (not South African) and holds a BSc in Psychology, which is not among the eligible disciplines. Therefore the candidate is blocked by both nationality and degree‑field requirements.",
+    "id": "e77273b47c921e1f",
+    "first_seen": "2026-10-24T09:41:05.077578+00:00",
+    "last_updated": "2026-10-24T09:41:05.077593+00:00"
+  },
+  "f5e86957cc0a5627": {
+    "url": "https://www.facebook.com/100091911940560/posts/-umholi-we-africa-fellowship-2027-fully-funded-12-month-fully-funded-leadership-/1044465555293833",
+    "title": "Umholi We Africa Fellowship 2027 for young African ...",
+    "status": "legitimacy_unknown",
+    "credibility_status": "NEEDS_VERIFICATION",
+    "source_tier": "TIER_4",
+    "reasoning": "The post provides only a brief title and dates with no details about the sponsoring organization, application process, or fee structure, making it impossible to verify legitimacy. Absence of an official website or verifiable contact information is a red flag, but there is also no explicit evidence of a scam.",
+    "id": "f5e86957cc0a5627",
+    "first_seen": "2026-10-24T09:41:17.941411+00:00",
+    "last_updated": "2026-10-24T09:41:17.941428+00:00"
+  },
+  "36e186cd28b1fc7d": {
+    "url": "https://businesschain.us/funds",
+    "title": "Startup accelerators, grants and funds — directory | Business Chain",
+    "status": "suspicious",
+    "credibility_status": "SUSPICIOUS",
+    "source_tier": "TIER_4",
+    "reasoning": "The page lists the \"500 Fellowship\" which requires a $35,000 participation fee, a classic red flag for scam accelerators; legitimate major programs (e.g., Y Combinator, EIC Accelerator) do not charge such fees. The presence of this fee without clear institutional backing makes the overall listing suspicious.",
+    "id": "36e186cd28b1fc7d",
+    "first_seen": "2026-10-24T09:42:59.597109+00:00",
+    "last_updated": "2026-10-24T09:42:59.597125+00:00"
+  },
+  "7d2e32307ae944f1": {
+    "url": "https://www.instagram.com/reel/Der2eYsR26w",
+    "title": "Instagram",
+    "status": "legitimacy_unknown",
+    "credibility_status": "NEEDS_VERIFICATION",
+    "source_tier": "TIER_4",
+    "reasoning": "The provided source is an Instagram Reel with no accessible text or details about the scholarship, fees, or organizers, making it impossible to evaluate legitimacy. Without concrete information on the program's terms, sponsors, or contact details, no determination can be made.",
+    "id": "7d2e32307ae944f1",
+    "first_seen": "2026-10-24T09:43:11.199564+00:00",
+    "last_updated": "2026-10-24T09:43:11.199581+00:00"
   }
 }
