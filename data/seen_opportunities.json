@@ -15107,20 +15107,20 @@
   "4be7ebb8b4aa82f1": {
     "url": "https://www.opportunitiesforafricans.com/the-african-export-import-bank-afreximbank-internship-program-2027-2028/",
     "title": "The African Export -Import Bank (Afreximbank) Internship Program 2027/2028 for young Africans (Monthly tax-free stipend of USD 1000)",
-    "status": "unknown",
-    "eligibility_status": "UNCERTAIN",
-    "model_eligibility_status": "UNCERTAIN",
-    "missing_requirements": [
-      "Verification that Ethiopia is a member state of Afreximbank Group"
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "model_eligibility_status": "CONFIRMED_INELIGIBLE",
+    "missing_requirements": [],
+    "blocking_issues": [
+      "Must be currently enrolled full‑time undergraduate or postgraduate student"
     ],
-    "blocking_issues": [],
     "addressable_gaps": [
-      "English language proficiency proof (candidate can obtain MOI certificate or Duolingo English Test)"
+      "English language proficiency proof (can obtain Duolingo or MOI certificate)"
     ],
-    "reasoning": "The program requires nationals of Afreximbank Group member states; the text does not list member states, so it cannot be verified whether Ethiopia is eligible. All other criteria are satisfied or addressable: age 27 within 20-32 range, English proficiency can be proven via MOI or Duolingo, field of study (Psychology) falls under social sciences, and student enrollment is only preferred, not mandatory.",
+    "reasoning": "The program states it is \"open to students\" and prefers candidates with proof of enrollment in a full‑time undergraduate or postgraduate programme. The candidate is a working professional and is not currently enrolled as a student, which directly violates this requirement. All other criteria (age 27, Ethiopian nationality, field of study in social sciences, and willingness to demonstrate English proficiency) are met or can be addressed, but the lack of student status is a hard blocker.",
     "id": "4be7ebb8b4aa82f1",
     "first_seen": "2026-10-14T10:10:27.877031+00:00",
-    "last_updated": "2026-10-14T10:10:27.877045+00:00"
+    "last_updated": "2026-10-25T09:37:36.651490+00:00"
   },
   "183fc2d8b33f4bff": {
     "url": "https://www.pep-net.org/news/call-applications-africa-fellows-education-program-20262027",
@@ -15302,7 +15302,7 @@
   "c93621581a287558": {
     "url": "https://www.opportunitiesforafricans.com/the-unicef-sweden-funding-opportunity-for-femtech-solutions/",
     "title": "The UNICEF/Sweden Funding opportunity for femtech solutions (US$100,000)",
-    "status": "analyzed",
+    "status": "ineligible",
     "score": 3.6,
     "category": null,
     "official_url": "https://www.opportunitiesforafricans.com/the-unicef-sweden-funding-opportunity-for-femtech-solutions/",
@@ -15311,14 +15311,33 @@
     "deadline": "2026-11-04",
     "reward": "fully_funded",
     "estimated_value": null,
-    "eligibility_status": "PROBABLY_ELIGIBLE",
+    "eligibility_status": "PROBABLY_INELIGIBLE",
     "credibility_status": "LIKELY_LEGITIMATE",
     "source_tier": "TIER_3",
     "source_quality": 7,
     "requirements": [],
     "id": "c93621581a287558",
     "first_seen": "2026-10-15T09:54:22.984967+00:00",
-    "last_updated": "2026-10-15T09:54:22.984983+00:00"
+    "last_updated": "2026-10-25T09:38:40.968463+00:00",
+    "model_eligibility_status": "PROBABLY_INELIGIBLE",
+    "missing_requirements": [
+      "Proof of private company registration",
+      "Confirmation that the company is registered in a UNICEF programme country",
+      "Details on open‑source licensing",
+      "Prototype with pilot results",
+      "Alignment with femtech pillars (healthcare access, reproductive health, mental wellbeing for girls/women)"
+    ],
+    "blocking_issues": [
+      "Not a registered private company (hard blocker)",
+      "No evidence of a femtech solution/prototype (hard blocker for eligibility criteria)"
+    ],
+    "addressable_gaps": [
+      "Register a private company in Ethiopia (a UNICEF programme country)",
+      "Develop and document an open‑source femtech prototype that meets the program's pillars",
+      "Adopt an appropriate open‑source license (e.g., MIT, GPL, CC‑BY)",
+      "Demonstrate measurable real‑time data generation"
+    ],
+    "reasoning": "The program requires applicants to be a private company registered in a UNICEF programme country and to have an existing open‑source femtech prototype. The candidate is an individual professional with no registered private company, and no evidence of a femtech solution or prototype. No nationality or age restrictions are mentioned, but the lack of a company is a hard blocker."
   },
   "0ffe9dd4dea7d8f2": {
     "url": "https://justmovetosf.com/guide/equity-free-money",
@@ -17265,5 +17284,241 @@
     "id": "7d2e32307ae944f1",
     "first_seen": "2026-10-24T09:43:11.199564+00:00",
     "last_updated": "2026-10-24T09:43:11.199581+00:00"
+  },
+  "e23b54f83a63b25e": {
+    "url": "https://www.opportunitiesforafricans.com/the-ban-ki-moon-centre-for-global-citizens-your-future-in-greenjobs-mentorship-program-2026/",
+    "title": "The Ban Ki-moon Centre for Global Citizens Your Future in GreenJobs Mentorship Program 2026",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "model_eligibility_status": "CONFIRMED_INELIGIBLE",
+    "missing_requirements": [
+      "Proof of upper-intermediate English language skills",
+      "Confirmation of having completed the required online course"
+    ],
+    "blocking_issues": [
+      "Age exceeds program limit (must be 14-20 years old)"
+    ],
+    "addressable_gaps": [
+      "Completion of the required 'Your Future in Green Jobs Online Course' (if age were eligible)",
+      "Providing proof of upper-intermediate English proficiency (e.g., IELTS, Duolingo, MOI certificate)"
+    ],
+    "reasoning": "The program explicitly requires participants to be aged between 14 and 20. The candidate is 27, which exceeds the age limit, creating a hard blocker. Additionally, the program requires successful completion of the 'Your Future in Green Jobs Online Course', which the candidate has not demonstrated, but the decisive exclusion is the age requirement.",
+    "id": "e23b54f83a63b25e",
+    "first_seen": "2026-10-25T09:39:56.385289+00:00",
+    "last_updated": "2026-10-25T09:39:56.385304+00:00"
+  },
+  "a96abafb97905934": {
+    "url": "https://dfcentre.com/research/calls-for-applications",
+    "title": "Calls for applications - Danida Fellowship Centre",
+    "status": "closed",
+    "deadline": "2026-09-17",
+    "id": "a96abafb97905934",
+    "first_seen": "2026-10-25T09:40:33.287584+00:00",
+    "last_updated": "2026-10-25T09:40:33.287598+00:00"
+  },
+  "ee8b42d8bad69ea9": {
+    "url": "https://www.facebook.com/groups/1052310093701788/posts/1379391060993688",
+    "title": "Top postdoc fellowships in the world for 2026-2027",
+    "status": "legitimacy_unknown",
+    "credibility_status": "NEEDS_VERIFICATION",
+    "source_tier": "TIER_4",
+    "reasoning": "The post mentions the well-known JSPS Fellowship, which is a legitimate fully funded program, but provides no direct link, application details, or contact information to verify the specific offer. Absence of fee requests or suspicious contact info means no clear red flags, yet the limited evidence prevents confirming legitimacy.",
+    "id": "ee8b42d8bad69ea9",
+    "first_seen": "2026-10-25T09:40:48.098280+00:00",
+    "last_updated": "2026-10-25T09:40:48.098295+00:00"
+  },
+  "c8070e82e1d411e0": {
+    "url": "https://opportunitiescorners.com/acc-new-york-fellowship-2028/",
+    "title": "New York Fellowship 2028 in the USA (Fully Funded)",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "model_eligibility_status": "CONFIRMED_INELIGIBLE",
+    "missing_requirements": [],
+    "blocking_issues": [
+      "Nationality not in ACC‑eligible countries (Ethiopia excluded)",
+      "Professional field not among eligible artistic/cultural disciplines required by the fellowship"
+    ],
+    "addressable_gaps": [],
+    "reasoning": "The ACC fellowship explicitly limits applicants to citizens or permanent residents of listed ACC‑eligible countries. Ethiopia is not on that list, so the candidate's Ethiopian citizenship is a hard blocker. Additionally, the fellowship requires at least five years of experience in an eligible artistic or cultural discipline (e.g., architecture, visual art, museum studies, etc.). The candidate's background is in AI development, marketing, psychology, and community leadership, which do not align with the listed eligible fields, constituting another hard blocker.",
+    "id": "c8070e82e1d411e0",
+    "first_seen": "2026-10-25T09:42:29.819748+00:00",
+    "last_updated": "2026-10-25T09:42:29.819764+00:00"
+  },
+  "a0f963c53fb51030": {
+    "url": "https://opportunitiescorners.com/stanford-fisher-family-summer-program-2027/",
+    "title": "Stanford Fisher Family Summer Program 2027, USA (Fully Funded)",
+    "status": "notified",
+    "score": 5.1,
+    "category": null,
+    "official_url": "https://opportunitiescorners.com/stanford-fisher-family-summer-program-2027/",
+    "location": null,
+    "remote": null,
+    "deadline": "2027-01-12",
+    "reward": "fully_funded",
+    "estimated_value": null,
+    "eligibility_status": "PROBABLY_ELIGIBLE",
+    "credibility_status": "LIKELY_LEGITIMATE",
+    "source_tier": "TIER_3",
+    "source_quality": 7,
+    "requirements": [
+      "Applicant Information",
+      "Academics & Career Information",
+      "Resume/CV",
+      "Essay Questions",
+      "English Language Proficiency",
+      "Video Submission",
+      "Financial Information",
+      "Personal Certification",
+      "References/Letters of Recommendation"
+    ],
+    "id": "a0f963c53fb51030",
+    "first_seen": "2026-10-25T09:44:41.969396+00:00",
+    "last_updated": "2026-10-25T09:52:52.585659+00:00",
+    "notification_tier": "GOOD",
+    "notified_at": "2026-10-25T09:52:52.574105+00:00"
+  },
+  "86214de0159b3314": {
+    "url": "https://www.opportunitiesforafricans.com/nnpc-renaissance-jv-sabbatical-and-postgraduate-research-internship-programme-2027/",
+    "title": "NNPC/Renaissance JV Sabbatical and Postgraduate Research Internship Programme 2027 for Nigerian University Students and Lecturers.",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "model_eligibility_status": "CONFIRMED_INELIGIBLE",
+    "missing_requirements": [],
+    "blocking_issues": [
+      "Nationality mismatch (program limited to Nigerians)",
+      "Candidate is not a postgraduate student or university lecturer",
+      "Degree level insufficient (requires Master's/PhD, candidate has only BSc)"
+    ],
+    "addressable_gaps": [],
+    "reasoning": "The programme explicitly targets Nigerian postgraduate students and university lecturers. The candidate is Ethiopian, not Nigerian, is a working professional (not a student or lecturer), and holds only a BSc degree, whereas the internship requires a Master's or PhD level. These are hard, non‑addressable blockers.",
+    "id": "86214de0159b3314",
+    "first_seen": "2026-10-25T09:46:08.125661+00:00",
+    "last_updated": "2026-10-25T09:46:08.125678+00:00"
+  },
+  "a6ab0d8bbad0981d": {
+    "url": "https://www.youtube.com/watch?v=Q5bW4NAK8Ps",
+    "title": "LAST CALL: Fully Funded Scholarships Closing in October 2026!",
+    "status": "legitimacy_unknown",
+    "credibility_status": "NEEDS_VERIFICATION",
+    "source_tier": "TIER_4",
+    "reasoning": "The provided page contains only generic YouTube footer text and no information about any scholarship, program details, fees, or contact information, making it impossible to assess legitimacy.",
+    "id": "a6ab0d8bbad0981d",
+    "first_seen": "2026-10-25T09:46:36.037097+00:00",
+    "last_updated": "2026-10-25T09:46:36.037112+00:00"
+  },
+  "11efc75c7c896139": {
+    "url": "https://www.facebook.com/opportunitiesforyouth/posts/-30-funding-grant-opportunities-for-african-startupscalling-all-african-founders/1325967266227290",
+    "title": "🚀 30 Funding & Grant... - Opportunities For Youth",
+    "status": "notified",
+    "score": 5.7,
+    "category": "startup_funding",
+    "official_url": "https://www.facebook.com/opportunitiesforyouth/posts/-30-funding-grant-opportunities-for-african-startupscalling-all-african-founders/1325967266227290",
+    "location": null,
+    "remote": null,
+    "deadline": null,
+    "reward": "partial",
+    "estimated_value": null,
+    "eligibility_status": "CONFIRMED_ELIGIBLE",
+    "credibility_status": "LIKELY_LEGITIMATE",
+    "source_tier": "TIER_4",
+    "source_quality": 0,
+    "requirements": [],
+    "id": "11efc75c7c896139",
+    "first_seen": "2026-10-25T09:47:15.100142+00:00",
+    "last_updated": "2026-10-25T09:52:52.554138+00:00",
+    "notification_tier": "WATCHLIST",
+    "notified_at": "2026-10-25T09:52:52.541597+00:00"
+  },
+  "f370ee8e2fca6578": {
+    "url": "https://msmeafricaonline.com/call-for-applications-africa-startup-congress-asc-pitch-competition-2026-2027",
+    "title": "Call For Applications: Africa Startup Congress (ASC) Pitch Competition - MSME Africa",
+    "status": "closed",
+    "deadline": null,
+    "id": "f370ee8e2fca6578",
+    "first_seen": "2026-10-25T09:47:58.495380+00:00",
+    "last_updated": "2026-10-25T09:47:58.495394+00:00"
+  },
+  "bee8d5248f0b8d77": {
+    "url": "https://www.instagram.com/p/Da3eferFCpr",
+    "title": "Instagram",
+    "status": "legitimacy_unknown",
+    "credibility_status": "NEEDS_VERIFICATION",
+    "source_tier": "TIER_4",
+    "reasoning": "The provided source is an Instagram link with no visible content or details about a scholarship or fellowship, making it impossible to assess legitimacy. Without any description, terms, fees, or contact information, there is insufficient evidence to classify the program.",
+    "id": "bee8d5248f0b8d77",
+    "first_seen": "2026-10-25T09:48:11.665588+00:00",
+    "last_updated": "2026-10-25T09:48:11.665602+00:00"
+  },
+  "ab2ee07f51235005": {
+    "url": "https://www.instagram.com/reel/DTyYAxPCJZg?hl=en",
+    "title": "Instagram",
+    "status": "legitimacy_unknown",
+    "credibility_status": "NEEDS_VERIFICATION",
+    "source_tier": "TIER_4",
+    "reasoning": "The provided source is an Instagram Reel link with no accessible text or details about any scholarship or fellowship. Without information on eligibility, application process, fees, or official contacts, we cannot determine legitimacy.",
+    "id": "ab2ee07f51235005",
+    "first_seen": "2026-10-25T09:48:20.750263+00:00",
+    "last_updated": "2026-10-25T09:48:20.750280+00:00"
+  },
+  "54c5335eb8f33136": {
+    "url": "https://jobglance.app/jobs/remote/entry-level",
+    "title": "Entry Level Remote Jobs (2026) - Little or No Experience",
+    "status": "analyzed",
+    "score": 3.4,
+    "category": "remote_jobs",
+    "official_url": "https://jobglance.app/jobs/remote/entry-level",
+    "location": null,
+    "remote": null,
+    "deadline": null,
+    "reward": "none",
+    "estimated_value": null,
+    "eligibility_status": "PROBABLY_ELIGIBLE",
+    "credibility_status": "LIKELY_LEGITIMATE",
+    "source_tier": "TIER_4",
+    "source_quality": 0,
+    "requirements": [],
+    "id": "54c5335eb8f33136",
+    "first_seen": "2026-10-25T09:51:09.910377+00:00",
+    "last_updated": "2026-10-25T09:51:09.910393+00:00"
+  },
+  "12969a1607c66c61": {
+    "url": "https://www.thefreedictionary.com/fully",
+    "title": "fully",
+    "status": "legitimacy_unknown",
+    "credibility_status": "NEEDS_VERIFICATION",
+    "source_tier": "TIER_4",
+    "reasoning": "The provided page is a dictionary definition of the word 'fully' from The Free Dictionary, containing no information about any scholarship, fellowship, or educational program. There is no program description, application process, fees, or contact information related to scholarships. Without any program-specific content, legitimacy cannot be assessed.",
+    "id": "12969a1607c66c61",
+    "first_seen": "2026-10-25T09:51:31.350270+00:00",
+    "last_updated": "2026-10-25T09:51:31.350286+00:00"
+  },
+  "9fd5e0cb2ade1c4a": {
+    "url": "https://www.dictionary.com/browse/fully",
+    "title": "FULLY Definition & Meaning | Dictionary.com",
+    "status": "filtered_out",
+    "reason": "This is a dictionary definition page, not a scholarship or fellowship opportunity.",
+    "id": "9fd5e0cb2ade1c4a",
+    "first_seen": "2026-10-25T09:52:29.457657+00:00",
+    "last_updated": "2026-10-25T09:52:29.457672+00:00"
+  },
+  "81345e146ddae565": {
+    "url": "https://www.merriam-webster.com/thesaurus/fully",
+    "title": "Thesaurus results for FULLY",
+    "status": "filtered_out",
+    "reason": "The text is unrelated thesaurus/word-of-the-day content, not a scholarship opportunity.",
+    "id": "81345e146ddae565",
+    "first_seen": "2026-10-25T09:52:31.691801+00:00",
+    "last_updated": "2026-10-25T09:52:31.691816+00:00"
+  },
+  "319e08b7b57362d6": {
+    "url": "https://www.collinsdictionary.com/dictionary/english/fully",
+    "title": "FULLY definition and meaning | Collins English Dictionary",
+    "status": "legitimacy_unknown",
+    "credibility_status": "NEEDS_VERIFICATION",
+    "source_tier": "TIER_4",
+    "reasoning": "The source URL is a Collins Dictionary definition page for the word 'fully' (collinsdictionary.com/dictionary/english/fully). The page contains only dictionary definitions, collocations, and example sentences for the adverb 'fully' — there is no scholarship, fellowship, or funding program described anywhere in the content.",
+    "id": "319e08b7b57362d6",
+    "first_seen": "2026-10-25T09:52:49.488141+00:00",
+    "last_updated": "2026-10-25T09:52:49.488155+00:00"
   }
 }
