@@ -15608,21 +15608,24 @@
     "url": "https://www.nsf.gov/funding/opportunities/grfp-nsf-graduate-research-fellowship-program",
     "title": "NSF Graduate Research Fellowship Program (GRFP)",
     "status": "ineligible",
-    "eligibility_status": "PROBABLY_INELIGIBLE",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
     "model_eligibility_status": "PROBABLY_INELIGIBLE",
     "missing_requirements": [
-      "Citizenship or residency requirement (program text does not specify, but NSF typically requires U.S. citizenship/nationality or permanent residency)."
+      "Explicit citizenship/nationality eligibility criteria (not provided in the excerpt)",
+      "English language proficiency requirements (not mentioned)"
     ],
     "blocking_issues": [
-      "Must be currently enrolled in a graduate program at an accredited U.S. institution (candidate is not a student)."
+      "Must be currently enrolled in a graduate (master's or PhD) program at an accredited, nonprofit U.S. institution",
+      "U.S. citizenship/nationality or permanent residency (not stated but typical requirement)"
     ],
     "addressable_gaps": [
-      "Enroll in a U.S. graduate program (candidate could apply and be admitted before the deadline)."
+      "Enroll in a qualifying graduate program in the U.S.",
+      "Obtain U.S. citizenship, nationality, or permanent residency (if required)"
     ],
-    "reasoning": "The NSF GRFP explicitly requires applicants to be graduate students pursuing research‑based master’s or doctoral degrees at accredited, nonprofit U.S. institutions. The candidate is a working professional and not currently enrolled in any graduate program, which is a hard blocker. The program text does not state citizenship requirements, so that criterion cannot be confirmed as a blocker from the provided information.",
+    "reasoning": "The NSF GRFP explicitly supports graduate students who are pursuing research‑based master's or doctoral degrees at accredited, nonprofit U.S. institutions. The candidate is a working professional, not currently enrolled in any graduate program, and holds only a BSc. This violates the core eligibility condition of being a graduate student. Additionally, while the program text does not state citizenship requirements, NSF GRFP traditionally limits eligibility to U.S. citizens, nationals, or permanent residents; the candidate is an Ethiopian national, which is likely a further blocker.",
     "id": "96de522649092d9e",
     "first_seen": "2026-10-16T09:45:54.134751+00:00",
-    "last_updated": "2026-10-16T09:45:54.134766+00:00"
+    "last_updated": "2026-10-26T10:49:28.633950+00:00"
   },
   "cd650ab98dc6d5b9": {
     "url": "https://www.wilsoncenter.org/fellowship-application-guidelines",
@@ -17520,5 +17523,216 @@
     "id": "319e08b7b57362d6",
     "first_seen": "2026-10-25T09:52:49.488141+00:00",
     "last_updated": "2026-10-25T09:52:49.488155+00:00"
+  },
+  "15314a62863b1098": {
+    "url": "https://opportunitiescorners.com/unhcr-internship-program-2027/",
+    "title": "UNHCR Internship Program 2027 (Fully Funded)",
+    "status": "suspicious",
+    "credibility_status": "SUSPICIOUS",
+    "source_tier": "TIER_3",
+    "reasoning": "UNHCR internships are typically unpaid or only modestly stipended and do not cover return travel costs, yet the page advertises a \"Fully Funded\" program with travel reimbursement, which contradicts official UNHCR policy. The listing uses a generic Gmail address for contact, pushes WhatsApp groups, and provides no direct official UNHCR application link, all red‑flag indicators.",
+    "id": "15314a62863b1098",
+    "first_seen": "2026-10-26T10:53:02.552907+00:00",
+    "last_updated": "2026-10-26T10:53:02.552919+00:00"
+  },
+  "1bfb122c2ac2c458": {
+    "url": "https://opportunitiescorners.com/hennge-global-internship-2027/",
+    "title": "HENNGE Global Internship 2027 in Japan (Fully Funded)",
+    "status": "ineligible",
+    "eligibility_status": "PROBABLY_INELIGIBLE",
+    "model_eligibility_status": "PROBABLY_INELIGIBLE",
+    "missing_requirements": [],
+    "blocking_issues": [
+      "Must be a current student (candidate is not a student)",
+      "Degree field mismatch (BSc Psychology not clearly a related field to Computer Science)"
+    ],
+    "addressable_gaps": [
+      "Enroll in a relevant degree program or obtain a recognized tech bootcamp certification to satisfy the 'student' or 'equivalent experience' requirement"
+    ],
+    "reasoning": "The program states it is open to Japanese and International **students**. The candidate is a working professional and is not currently enrolled as a student, which likely disqualifies them. Additionally, the required degree is a BSc in Computer Science or a related field; the candidate's BSc in Psychology is not clearly a related field, though they may argue equivalent experience. English fluency is met and no IELTS is required, so those are not issues.",
+    "id": "1bfb122c2ac2c458",
+    "first_seen": "2026-10-26T10:54:01.830571+00:00",
+    "last_updated": "2026-10-26T10:54:01.830590+00:00"
+  },
+  "00613a6cc9983bb9": {
+    "url": "https://opportunitiescorners.com/heinrich-boll-foundation-internship-2027/",
+    "title": "Heinrich Boll Foundation Internship 2027 in USA (Visa and $700 Stipend)",
+    "status": "legitimacy_unknown",
+    "credibility_status": "NEEDS_VERIFICATION",
+    "source_tier": "TIER_3",
+    "reasoning": "The page does not request any payment, which avoids a common scam indicator, but it provides only a generic Gmail address and no direct link to an official Heinrich Böll Foundation site, making it impossible to verify the internship’s authenticity.",
+    "id": "00613a6cc9983bb9",
+    "first_seen": "2026-10-26T10:55:10.599033+00:00",
+    "last_updated": "2026-10-26T10:55:10.599045+00:00"
+  },
+  "a08c3c0e5c815fdb": {
+    "url": "https://www.youtube.com/watch?v=Ex8mEwN23MQ",
+    "title": "Funding Opportunities in Africa Apply for Grants Up to $50,000 Today!",
+    "status": "filtered_out",
+    "reason": "The text is just a generic YouTube footer with no scholarship or fellowship information.",
+    "id": "a08c3c0e5c815fdb",
+    "first_seen": "2026-10-26T10:55:16.106919+00:00",
+    "last_updated": "2026-10-26T10:55:16.106933+00:00"
+  },
+  "babf8f8fdf33e086": {
+    "url": "https://www.instagram.com/reel/De4Md5xqVzV",
+    "title": "🇺🇸 Youth Leadership Certification 2027 in USA | Fully Funded ...",
+    "status": "legitimacy_unknown",
+    "credibility_status": "NEEDS_VERIFICATION",
+    "source_tier": "TIER_4",
+    "reasoning": "The source is an Instagram Reel with no visible content or description provided, making it impossible to evaluate any claims, fees, or contact details. Without concrete information, no red‑flag or trust signals can be identified.",
+    "id": "babf8f8fdf33e086",
+    "first_seen": "2026-10-26T10:55:31.521145+00:00",
+    "last_updated": "2026-10-26T10:55:31.521161+00:00"
+  },
+  "6cef26746cda5f1c": {
+    "url": "https://tl.usembassy.gov/2027-2028-hubert-h-humphrey-fellowship-program",
+    "title": "2027-2028 Hubert H. Humphrey Fellowship Program - U.S. Embassy in Timor Leste",
+    "status": "closed",
+    "deadline": null,
+    "id": "6cef26746cda5f1c",
+    "first_seen": "2026-10-26T10:56:12.197079+00:00",
+    "last_updated": "2026-10-26T10:56:12.197092+00:00"
+  },
+  "5b25f1de6d708caf": {
+    "url": "https://www.efworld.org/2027-globalprogram-eligibilty-criteria",
+    "title": "2027 Global Program Eligibility Criteria - Eisenhower Fellowships",
+    "status": "analyzed",
+    "score": 4.9,
+    "category": "programs",
+    "official_url": "https://www.efworld.org/2027-globalprogram-eligibilty-criteria",
+    "location": null,
+    "remote": null,
+    "deadline": null,
+    "reward": "fully_funded",
+    "estimated_value": null,
+    "eligibility_status": "PROBABLY_ELIGIBLE",
+    "credibility_status": "LIKELY_LEGITIMATE",
+    "source_tier": "TIER_4",
+    "source_quality": 0,
+    "requirements": [
+      "Letter of recommendation from an EF global network member"
+    ],
+    "id": "5b25f1de6d708caf",
+    "first_seen": "2026-10-26T10:57:28.961212+00:00",
+    "last_updated": "2026-10-26T10:57:28.961222+00:00"
+  },
+  "51ae88d6428b320b": {
+    "url": "https://competition.adesignaward.com/ada-category.php?C=142",
+    "title": "A' Artificial Intelligence and Machine Learning Design Award 2027",
+    "status": "suspicious",
+    "credibility_status": "SUSPICIOUS",
+    "source_tier": "TIER_4",
+    "reasoning": "The A' Design Award is a commercial competition that typically requires entrants to pay a registration fee, yet the page offers no transparent information about costs and uses vague prestige language. The site lacks clear institutional backing, uses promotional wording, and the \"Sign‑Up Now\" call‑to‑action suggests a payment step, which are red flags for a scholarship/fellowship context.",
+    "id": "51ae88d6428b320b",
+    "first_seen": "2026-10-26T10:58:46.389233+00:00",
+    "last_updated": "2026-10-26T10:58:46.389252+00:00"
+  },
+  "483f77cb8d1e1947": {
+    "url": "https://curatone.art/blog/free-art-competitions",
+    "title": "Free Art Competitions 2026–2027: Open Calls With No Entry Fee",
+    "status": "analyzed",
+    "score": 3.5,
+    "category": "cash_prize_competitions",
+    "official_url": "https://curatone.art/blog/free-art-competitions",
+    "location": null,
+    "remote": null,
+    "deadline": null,
+    "reward": "partial",
+    "estimated_value": null,
+    "eligibility_status": "PROBABLY_ELIGIBLE",
+    "credibility_status": "LIKELY_LEGITIMATE",
+    "source_tier": "TIER_4",
+    "source_quality": 0,
+    "requirements": [
+      "artwork image files (JPEG, 72–300 DPI, under 4 MB)",
+      "short artist statement (≤150 words)"
+    ],
+    "id": "483f77cb8d1e1947",
+    "first_seen": "2026-10-26T11:02:11.980666+00:00",
+    "last_updated": "2026-10-26T11:02:11.980685+00:00"
+  },
+  "bce2b6539104b418": {
+    "url": "https://www.facebook.com/ArtistOpenCalls/posts/creative-capital-open-call-2027-opens-march-2-%EF%B8%8F-creative_capital-instagram-for-d/1491256193004560",
+    "title": "Creative Capital Open Call 2027 Opens March 2 ⁠ ➡️ ...",
+    "status": "unknown",
+    "eligibility_status": "UNCERTAIN",
+    "model_eligibility_status": "UNCERTAIN",
+    "missing_requirements": [
+      "Eligibility regarding citizenship or residency",
+      "Requirement to be currently enrolled as a student",
+      "Age limit or age-related eligibility",
+      "Minimum degree level or field of study",
+      "English language proficiency requirements",
+      "Specific project or discipline focus",
+      "Any application fee limits or funding structure constraints"
+    ],
+    "blocking_issues": [],
+    "addressable_gaps": [],
+    "reasoning": "The program description provides no explicit eligibility criteria (e.g., nationality, student status, age limit, degree level, field of work, English proficiency). Because we cannot verify whether the candidate meets undisclosed requirements, we cannot confirm eligibility nor declare a hard exclusion.",
+    "id": "bce2b6539104b418",
+    "first_seen": "2026-10-26T11:02:33.996822+00:00",
+    "last_updated": "2026-10-26T11:02:33.996840+00:00"
+  },
+  "80f6f53c151357e7": {
+    "url": "https://www.facebook.com/fazal.wahab/posts/the-remote-job-market-in-2027-is-hiring-and-the-professionals-winning-engagement/10237123378446117",
+    "title": "Four things winning remote job applications do in 2026",
+    "status": "filtered_out",
+    "reason": "Not a scholarship/fellowship; it's an article about remote job applications",
+    "id": "80f6f53c151357e7",
+    "first_seen": "2026-10-26T11:02:40.735880+00:00",
+    "last_updated": "2026-10-26T11:02:40.735898+00:00"
+  },
+  "a4a9dd084f602cee": {
+    "url": "https://www.crossover.com/resources/the-top-9-remote-work-platforms-for-2026",
+    "title": "Page Not Found",
+    "status": "unknown",
+    "eligibility_status": "UNCERTAIN",
+    "model_eligibility_status": "UNCERTAIN",
+    "missing_requirements": [
+      "Nationality eligibility",
+      "Current enrollment status (must be a student or not)",
+      "Age limit",
+      "Minimum degree level",
+      "English language proficiency requirement",
+      "Field of study or program focus",
+      "Funding type or scholarship specifics"
+    ],
+    "blocking_issues": [],
+    "addressable_gaps": [],
+    "reasoning": "The program description provides no explicit eligibility criteria (e.g., nationality, student status, age limit, degree level, English proficiency, field of study). Without knowing these requirements, we cannot confirm that the candidate meets them nor can we confirm they are excluded.",
+    "id": "a4a9dd084f602cee",
+    "first_seen": "2026-10-26T11:02:59.204868+00:00",
+    "last_updated": "2026-10-26T11:02:59.204883+00:00"
+  },
+  "54f40aa19f088f52": {
+    "url": "https://www.youtube.com/watch?v=JKZgkFiDA14",
+    "title": "How I Landed a $400K Remote Job in 2 Months | Full Roadmap",
+    "status": "filtered_out",
+    "reason": "The text is just a YouTube footer, not a scholarship or fellowship opportunity.",
+    "id": "54f40aa19f088f52",
+    "first_seen": "2026-10-26T11:03:06.849355+00:00",
+    "last_updated": "2026-10-26T11:03:06.849372+00:00"
+  },
+  "2a0aeeff282b4e5f": {
+    "url": "https://hub.causo.ai/deadlines",
+    "title": "Accelerator & Incubator Deadlines 2026-2027: Sourced Calendar | Causo Hub",
+    "status": "unknown",
+    "eligibility_status": "UNCERTAIN",
+    "model_eligibility_status": "UNCERTAIN",
+    "missing_requirements": [
+      "Whether the applicant must have an incorporated startup or be part of a founding team",
+      "Any age limits or caps for specific accelerator cohorts",
+      "Citizenship or residency restrictions for individual programs",
+      "English language proficiency requirements (e.g., IELTS/TOEFL) if any",
+      "Maximum prior fundraising or equity ownership limits",
+      "Specific industry or technology focus restrictions beyond the candidate's AI/AgriTech background"
+    ],
+    "blocking_issues": [],
+    "addressable_gaps": [],
+    "reasoning": "The program list provides no explicit eligibility criteria such as nationality, student status, age limit, or required degree level, so no hard blockers can be identified. However, many accelerators and fellowships typically require additional conditions (e.g., having an incorporated startup, meeting equity or funding caps, language proficiency, or regional eligibility) that are not stated in the text. Because these decision‑relevant criteria are missing or unverifiable, we cannot confirm that the candidate meets all requirements.",
+    "id": "2a0aeeff282b4e5f",
+    "first_seen": "2026-10-26T11:05:25.350331+00:00",
+    "last_updated": "2026-10-26T11:05:25.350348+00:00"
   }
 }
