@@ -1201,7 +1201,8 @@
     "last_known_deadline": "2025-06-23",
     "reason": "closed at discovery; likely annual",
     "id": "6d3528ee99e04a49",
-    "added": "2026-10-16T09:50:10.761450+00:00"
+    "added": "2026-10-27T10:15:21.520408+00:00",
+    "last_checked": "2026-10-27T10:15:21.519520"
   },
   "afd1c44e7bbe15e5": {
     "url": "https://www.southparkcommons.com/news/f26-founder-fellowship",
@@ -1209,7 +1210,8 @@
     "last_known_deadline": "2026-08-02",
     "reason": "closed at discovery; likely annual",
     "id": "afd1c44e7bbe15e5",
-    "added": "2026-10-17T09:17:34.822212+00:00"
+    "added": "2026-10-27T10:15:23.138319+00:00",
+    "last_checked": "2026-10-27T10:15:23.136843"
   },
   "1490979a62fd6fee": {
     "url": "https://legal.un.org/poa/ilfp",
@@ -1217,26 +1219,8 @@
     "last_known_deadline": "2026-03-30",
     "reason": "closed at discovery; likely annual",
     "id": "1490979a62fd6fee",
-    "added": "2026-10-18T09:29:30.423240+00:00"
-  },
-  "11efc75c7c896139": {
-    "url": "https://www.facebook.com/opportunitiesforyouth/posts/-30-funding-grant-opportunities-for-african-startupscalling-all-african-founders/1325967266227290",
-    "title": "🚀 30 Funding & Grant... - Opportunities For Youth",
-    "reason": "monitoring — not confirmed open at scan time",
-    "retry_analysis": true,
-    "snippet": "## Opportunities For Youth's post\n\n### Opportunities For Youth\n\n29 January  ·\n\n🚀 30 Funding & Grant Opportunities for African Startups!\n\nCalling all African founders! From fintech to health, agritech to creative industries, here’s your chance to access grants, mentorship, accelerators, cloud credits, and investor networks from top global partners:\n\n💡 Benefits:\n\nGrants & seed funding 💰\n\nAccelerator & mentorship support 🤝\n\nAWS & Microsoft cloud credits ☁️\n\nInvestor access & networking 🌍 [...] Scale & pilot opportunities 🚀\n\n🔥Highlights include:\n\n✔Google for Startups Black Founders Fund – Up to $100K\n\n✔Tony Elumelu Foundation Entrepreneurship Programme\n\n✔Mastercard Foundation Digital Commerce Accelerator\n\n✔AWS Activate – Up to $100K in cloud credits\n\n✔Microsoft for Startups – Up to $150K in Azure credits\n\n✔Cartier Women’s Initiative – Up to $100K\n\n✔UNDP Accelerator Labs, AECF, Seedstars Africa & more\n\n⏰Deadline: Varies by programme – apply now!\n\n🔗 [...] 🔗 \n\n#AfricanStartups #StartupFunding #Grants #Accelerators #Entrepreneurship #Innovation #Fintech #HealthTech #AgriTech #WomenInBusiness #ScaleUp #CloudCredits\n\nNo photo description available.",
-    "id": "11efc75c7c896139",
-    "added": "2026-10-25T09:52:49.510621+00:00",
-    "last_known_deadline": null
-  },
-  "b4983d5857a16ae6": {
-    "url": "https://www.grantbite.com/en/blog/how-to-apply-for-a-minority-business-grant",
-    "title": "How to Apply for a Minority Business Grant: Complete 2026 Guide",
-    "retry_analysis": true,
-    "snippet": "Minority business grants are also considered non-dilutive funding, meaning recipients do not give up equity or ownership in exchange for financial support. This feature is especially important for founders seeking long-term control and sustainability.\n\n### Who Qualifies as a Minority Business Owner? [...] While Europe does not have many stories explicitly labeled “minority business grants,” inclusive entrepreneurship policies such as those backed by the European Commission’s inclusive entrepreneurship and microfinance initiatives help underrepresented founders access funding, training, and support that enable business growth across EU Member States. [...] Applicants are usually required to provide documentation proving ownership and control, such as incorporation documents, shareholder agreements, or operating agreements.",
-    "reason": "legitimacy check returned an unparseable reply; retry on a later run",
-    "id": "b4983d5857a16ae6",
-    "added": "2026-10-18T09:33:31.658644+00:00"
+    "added": "2026-10-27T10:15:24.303014+00:00",
+    "last_checked": "2026-10-27T10:15:24.302190"
   },
   "ec46f291206f5024": {
     "url": "https://www.joinhomebase.com/blog/small-business-grants",
@@ -1448,5 +1432,37 @@
     "reason": "closed at discovery; likely annual",
     "id": "6cef26746cda5f1c",
     "added": "2026-10-26T10:56:12.214270+00:00"
+  },
+  "2f80ca3fcd19afea": {
+    "url": "https://startupmaphub.com/funding/grants",
+    "title": "Grants for Startups in Africa (2026) — Open Programs, Eligibility & Deadlines",
+    "last_known_deadline": "2026-01-15",
+    "reason": "closed at discovery; likely annual",
+    "id": "2f80ca3fcd19afea",
+    "added": "2026-10-27T10:26:35.458593+00:00"
+  },
+  "8e4b910d9e650bf9": {
+    "url": "https://wearevuka.com/retail/startup-project",
+    "title": "Startup Project | Converge Africa | Retail | VUKA Group",
+    "last_known_deadline": null,
+    "reason": "closed at discovery; likely annual",
+    "id": "8e4b910d9e650bf9",
+    "added": "2026-10-27T10:31:54.692764+00:00"
+  },
+  "a6a9ec40ae0ed35a": {
+    "url": "https://techbuild.africa/apply-for-startup-challenge-2026-e10k",
+    "title": "Apply For Startup Challenge 2026 (€10K)",
+    "last_known_deadline": "2026-07-21",
+    "reason": "closed at discovery; likely annual",
+    "id": "a6a9ec40ae0ed35a",
+    "added": "2026-10-27T10:32:19.492117+00:00"
+  },
+  "ccbf19821a384bb9": {
+    "url": "https://onegiantleap.com/startup/rocketfuel-pitch-competition-stage",
+    "title": "Tech Start up Stage | 31 August–3 September 2026",
+    "last_known_deadline": null,
+    "reason": "monitoring — not confirmed open at scan time",
+    "id": "ccbf19821a384bb9",
+    "added": "2026-10-27T10:41:07.592525+00:00"
   }
 }
