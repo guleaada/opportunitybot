@@ -16215,9 +16215,9 @@
   "6a22b1b13865a4ff": {
     "url": "https://grantedai.com/grants/digitalocean-open-source-sponsorship-credits-for-projects-digitalocean-ae8c3bec",
     "title": "DigitalOcean Open Source Sponsorship (Credits for Projects) (2026) | Granted AI",
-    "status": "notified",
-    "score": 5.7,
-    "category": "developer_programs",
+    "status": "analyzed",
+    "score": 5.8,
+    "category": null,
     "official_url": "https://grantedai.com/grants/digitalocean-open-source-sponsorship-credits-for-projects-digitalocean-ae8c3bec",
     "location": null,
     "remote": null,
@@ -16227,11 +16227,11 @@
     "eligibility_status": "PROBABLY_ELIGIBLE",
     "credibility_status": "LIKELY_LEGITIMATE",
     "source_tier": "TIER_4",
-    "source_quality": 0,
+    "source_quality": null,
     "requirements": [],
     "id": "6a22b1b13865a4ff",
     "first_seen": "2026-10-19T10:42:59.969255+00:00",
-    "last_updated": "2026-10-19T10:51:52.816924+00:00",
+    "last_updated": "2026-10-28T11:08:38.769399+00:00",
     "notification_tier": "WATCHLIST",
     "notified_at": "2026-10-19T10:51:52.792395+00:00"
   },
@@ -17996,5 +17996,162 @@
     "id": "d689e082bde06068",
     "first_seen": "2026-10-27T10:41:07.569916+00:00",
     "last_updated": "2026-10-27T10:41:07.569930+00:00"
+  },
+  "fcbb7cfcca78c490": {
+    "url": "https://qhack.ai/prizes",
+    "title": "Prizes | (October 16–23) QHack 2026: Quantum Coding Championship",
+    "status": "analyzed",
+    "score": 3.4,
+    "category": null,
+    "official_url": "https://qhack.ai/prizes",
+    "location": null,
+    "remote": null,
+    "deadline": null,
+    "reward": "none",
+    "estimated_value": null,
+    "eligibility_status": "PROBABLY_ELIGIBLE",
+    "credibility_status": "LIKELY_LEGITIMATE",
+    "source_tier": "TIER_4",
+    "source_quality": null,
+    "requirements": [],
+    "id": "fcbb7cfcca78c490",
+    "first_seen": "2026-10-28T11:05:56.627256+00:00",
+    "last_updated": "2026-10-28T11:05:56.627269+00:00"
+  },
+  "521f5a9df2d53b99": {
+    "url": "https://www.mpowerfinancing.com/scholarships",
+    "title": "International Students Scholarships in the U.S and Canada | MPOWER Financing",
+    "status": "filtered_out",
+    "reason": "Application is closed; they have reached funding capacity and are not accepting new applications.",
+    "id": "521f5a9df2d53b99",
+    "first_seen": "2026-10-28T11:09:05.867970+00:00",
+    "last_updated": "2026-10-28T11:09:05.867984+00:00"
+  },
+  "15bbc68fbaa4590b": {
+    "url": "https://elev-x.com/news-insights/article-startup-grants",
+    "title": "Startup Grants: 10 Programs That Give You Money Without Taking Equity - elev-x",
+    "status": "unknown",
+    "eligibility_status": "UNCERTAIN",
+    "model_eligibility_status": "UNCERTAIN",
+    "missing_requirements": [
+      "Specific nationality or residency eligibility for each grant program.",
+      "Whether the applicant must be a registered business in a particular country.",
+      "Age limits or student‑status requirements for individual grants.",
+      "Degree or academic qualifications required by any of the listed grants."
+    ],
+    "blocking_issues": [],
+    "addressable_gaps": [
+      "Obtain any required English proficiency test if a specific grant demands it (e.g., Duolingo or MOI certificate).",
+      "Prepare business documentation (company registration, financials) that many grant applications require."
+    ],
+    "reasoning": "The program description is a general guide to startup grant programs and does not list explicit eligibility criteria such as nationality, residency, age, student status, or degree requirements. While many of the listed grants (e.g., SBIR, STTR) typically require U.S. business registration or other location‑based criteria that could block an Ethiopian professional, these requirements are not stated in the text, so we cannot definitively confirm eligibility or identify a hard blocker.",
+    "id": "15bbc68fbaa4590b",
+    "first_seen": "2026-10-28T11:10:24.247990+00:00",
+    "last_updated": "2026-10-28T11:10:24.248004+00:00"
+  },
+  "8ce1c4ab9cbd8733": {
+    "url": "https://opportunitiescorners.com/impact-ai-fellowship-2027-in-germany/",
+    "title": "Impact AI Fellowship 2027 in Germany (Fully Funded)",
+    "status": "ineligible",
+    "eligibility_status": "PROBABLY_INELIGIBLE",
+    "model_eligibility_status": "PROBABLY_INELIGIBLE",
+    "missing_requirements": [
+      "Specific English language proficiency requirement not stated in the program description"
+    ],
+    "blocking_issues": [
+      "Master's degree required (candidate only has a BSc)"
+    ],
+    "addressable_gaps": [],
+    "reasoning": "The Impact AI Fellowship explicitly requires applicants to have a master's degree. The candidate only holds a BSc, which does not meet this core eligibility criterion. No nationality or age restrictions are mentioned, and the candidate’s professional background aligns with the eligible categories.",
+    "id": "8ce1c4ab9cbd8733",
+    "first_seen": "2026-10-28T11:11:59.482359+00:00",
+    "last_updated": "2026-10-28T11:11:59.482372+00:00"
+  },
+  "8d0c77aa2e20dc94": {
+    "url": "https://opportunitiescorners.com/un-journalism-fellowship-2027-in-qatar/",
+    "title": "UN Journalism Fellowship 2027 in Qatar (Fully Funded)",
+    "status": "unknown",
+    "eligibility_status": "UNCERTAIN",
+    "model_eligibility_status": "UNCERTAIN",
+    "missing_requirements": [
+      "Professional journalist status",
+      "Minimum two years of journalism experience"
+    ],
+    "blocking_issues": [],
+    "addressable_gaps": [
+      "Provide documented proof of regular journalism work (e.g., published articles, broadcast segments) from a recognized media outlet",
+      "Demonstrate at least two years of professional journalism experience"
+    ],
+    "reasoning": "The candidate meets the nationality (Ethiopia is on the eligible LDC list) and age (27 ≥ 18) requirements. However, the fellowship requires applicants to be bona‑fide journalists with at least two years of professional journalism experience. The candidate’s profile lists AI development, marketing, psychology and community leadership but provides no evidence of regular publication or broadcast work in a recognized media outlet, making this decision‑relevant criterion unverifiable.",
+    "id": "8d0c77aa2e20dc94",
+    "first_seen": "2026-10-28T11:13:08.525823+00:00",
+    "last_updated": "2026-10-28T11:13:08.525838+00:00"
+  },
+  "cde70ae6786a712f": {
+    "url": "https://www.opportunitiesforafricans.com/the-un-dpoa-mid-term-review-journalism-fellowship-2027/",
+    "title": "The UN DPoA Mid-Term Review Journalism Fellowship 2027 for journalists from Least Developed Countries (Fully Funded to Doha, Qatar)",
+    "status": "legitimacy_unknown",
+    "credibility_status": "NEEDS_VERIFICATION",
+    "source_tier": "TIER_3",
+    "reasoning": "The listing mentions a UN‑sponsored journalism fellowship and states it is fully funded, with no application fee, which aligns with legitimate UN programs. However, the page provides only a generic aggregator contact email (not a UN domain) and lacks a direct link to an official UN webpage, making it impossible to verify the program’s existence.",
+    "id": "cde70ae6786a712f",
+    "first_seen": "2026-10-28T11:13:52.092555+00:00",
+    "last_updated": "2026-10-28T11:13:52.092569+00:00"
+  },
+  "a71c18605cb07f60": {
+    "url": "https://www.opportunitiesforafricans.com/the-internews-earth-journalism-network-ejn-reporting-fellowships-for-journalists-to-cover-bbnj-cop1/",
+    "title": "The Internews’ Earth Journalism Network (EJN) Reporting Fellowships for Journalists to Cover BBNJ COP1 in New York City, USA (Fully Funded).",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "model_eligibility_status": "CONFIRMED_INELIGIBLE",
+    "missing_requirements": [],
+    "blocking_issues": [
+      "Not a professional journalist / no media house affiliation",
+      "Not reporting from a coastal country (based in landlocked Laos)",
+      "No documented experience reporting on ocean issues"
+    ],
+    "addressable_gaps": [
+      "Obtain proof of English proficiency (e.g., Duolingo test) – but this does not resolve the primary blockers"
+    ],
+    "reasoning": "The fellowship requires applicants to be a professional journalist from or representing an established media house and to be reporting from a coastal country, with prior experience reporting on ocean issues. The candidate is a working professional in AI development, marketing, and psychology, with no evidence of journalism experience or affiliation with a media house, and is based in landlocked Laos, not a coastal country. Therefore the candidate does not meet the core eligibility criteria.",
+    "id": "a71c18605cb07f60",
+    "first_seen": "2026-10-28T11:15:03.670253+00:00",
+    "last_updated": "2026-10-28T11:15:03.670266+00:00"
+  },
+  "9d990e17f6b38b2f": {
+    "url": "https://www.opportunitiesforafricans.com/aluko-oyebode-graduate-trainee-associate-recruitment-2027/",
+    "title": "Aluko & Oyebode Graduate Trainee Associate Recruitment 2027 for young Nigerian graduates.",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "model_eligibility_status": "CONFIRMED_INELIGIBLE",
+    "missing_requirements": [],
+    "blocking_issues": [
+      "Nationality: program is for Nigerian graduates only; candidate is Ethiopian",
+      "Degree level/field mismatch: program requires LL.B (law degree); candidate holds BSc Psychology",
+      "Student status: program targets young graduates; candidate is a working professional"
+    ],
+    "addressable_gaps": [],
+    "reasoning": "The program explicitly targets 'young Nigerian graduates' and requires a Bachelor of Laws (LL.B) degree with a minimum of Second Class Honours, Upper Division (2:1). The candidate is an Ethiopian national (not Nigerian), holds a BSc in Psychology (not LL.B), and is a working professional rather than a recent graduate. Nationality, degree level, and field of study are all hard exclusions stated in the program text.",
+    "id": "9d990e17f6b38b2f",
+    "first_seen": "2026-10-28T11:28:01.745208+00:00",
+    "last_updated": "2026-10-28T11:28:01.745223+00:00"
+  },
+  "c13b2489f4131f58": {
+    "url": "https://iki-small-grants.de/funding",
+    "title": "Find funding - IKI Small Grants",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "model_eligibility_status": "CONFIRMED_INELIGIBLE",
+    "missing_requirements": [
+      "Organisation status and legal entity details of the applicant"
+    ],
+    "blocking_issues": [
+      "Candidate is an individual, not an organisation; program excludes individuals"
+    ],
+    "addressable_gaps": [],
+    "reasoning": "IKI Small Grants only funds eligible organisations, not individuals. The candidate profile is for an individual professional, not an organisation, which directly violates the program's eligibility criteria: \"No individuals, natural persons, one‑person organisations or governmental organisations are eligible.\"",
+    "id": "c13b2489f4131f58",
+    "first_seen": "2026-10-28T11:28:53.745294+00:00",
+    "last_updated": "2026-10-28T11:28:53.745307+00:00"
   }
 }
