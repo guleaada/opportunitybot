@@ -16773,10 +16773,10 @@
     "status": "suspicious",
     "credibility_status": "SUSPICIOUS",
     "source_tier": "TIER_3",
-    "reasoning": "The page claims a fully funded UNICEF internship covering travel, visa and a monthly stipend, which is not consistent with UNICEF's official internship program (typically modest or unpaid). The contact email is a generic Gmail address and no official UNICEF domain or application link is provided, indicating possible misrepresentation.",
+    "reasoning": "The page is hosted on a third‑party aggregator and uses a generic Gmail address for contact, not an official @unicef.org domain. It also claims a fully funded UNICEF internship covering travel and visa costs, which does not match UNICEF's typical unpaid or modest‑stipend internship model, indicating possible misinformation.",
     "id": "8c0b1ad6556823f6",
     "first_seen": "2026-10-22T10:00:46.222989+00:00",
-    "last_updated": "2026-10-22T10:00:46.223005+00:00"
+    "last_updated": "2026-10-29T11:21:17.896860+00:00"
   },
   "e952e46cedfb6325": {
     "url": "https://opportunitiescorners.com/european-parliament-schuman-traineeships-2027/",
@@ -16785,21 +16785,24 @@
     "eligibility_status": "CONFIRMED_INELIGIBLE",
     "model_eligibility_status": "UNCERTAIN",
     "missing_requirements": [
-      "Official language proficiency certificate",
-      "Criminal record certificate",
-      "Confirmation that the candidate has not previously worked for an EU institution for more than two months (though likely true, not documented)",
-      "Specific traineeship position requirements (e.g., field‑specific qualifications)"
+      "Explicit confirmation that non‑EU nationals are accepted for this specific traineeship round",
+      "Language certificates (English and a second EU language)",
+      "Criminal record certificate (if required)",
+      "Specific traineeship position requirements"
     ],
-    "blocking_issues": [],
+    "blocking_issues": [
+      "Nationality mismatch (non‑EU citizen may be excluded)"
+    ],
     "addressable_gaps": [
-      "Provide official language proficiency proof (e.g., Duolingo English Test, IELTS, or MOI certificate) to demonstrate strong knowledge of an EU language (English) and good knowledge of a second language.",
-      "Obtain and submit a criminal record certificate.",
-      "Prepare CV in required format and any other supporting documents requested by the specific traineeship."
+      "Provide proof of strong knowledge of an EU language (e.g., English certificate such as Duolingo or MOI)",
+      "Provide proof of good knowledge of a second EU language (e.g., French, German, etc.)",
+      "Confirm that the candidate has not worked for an EU institution for more than two months (if needed)",
+      "Demonstrate eligibility for the limited non‑EU slots (if such slots exist)"
     ],
-    "reasoning": "The program generally requires applicants to be nationals of an EU Member State, which the candidate (Ethiopian) is not. While it mentions a limited number of positions may be open to non‑EU nationals, this is not guaranteed, making nationality a potential exclusionary factor. The candidate meets age and degree requirements, and the trainee role does not require current student status. Language proficiency (strong knowledge of one EU language and good knowledge of another) is claimed but not documented, and the program requires language proof, criminal record certificate, and other supporting documents that are not provided.",
+    "reasoning": "The program states that applicants must generally be nationals of an EU Member State, with only a limited number of positions possibly open to non‑EU nationals. The candidate is Ethiopian, so it is unclear whether a non‑EU slot is available for them. All other core criteria (age ≥ 18, university degree, graduate status) are met. Language proof and a second EU language are required but not provided; these can be obtained.",
     "id": "e952e46cedfb6325",
     "first_seen": "2026-10-22T10:01:56.018704+00:00",
-    "last_updated": "2026-10-22T10:01:56.018720+00:00"
+    "last_updated": "2026-10-29T11:22:17.323470+00:00"
   },
   "03e0371481e95305": {
     "url": "https://www.opportunitiesforafricans.com/the-wipo-global-innovation-index-fellowship-2027/",
@@ -16828,29 +16831,30 @@
   "feb1b7ac921fe892": {
     "url": "https://www.opportunitiesforafricans.com/the-ye-youth-ecopreneurs-programme-yeco-2026-2027/",
     "title": "The Ye! Youth Ecopreneurs Programme (YECO) 2026/2027 for young Green Entrepreneurs ($100,000 prize & All-Expenses-Paid Trip to International Conference)",
-    "status": "unknown",
-    "eligibility_status": "UNCERTAIN",
-    "model_eligibility_status": "UNCERTAIN",
+    "status": "ineligible",
+    "eligibility_status": "PROBABLY_INELIGIBLE",
+    "model_eligibility_status": "PROBABLY_INELIGIBLE",
     "missing_requirements": [
-      "List of countries eligible for the accelerator phase",
-      "Explicit statement of required English proficiency (e.g., IELTS/TOEFL/Duolingo) – though an MOI or Duolingo certificate can be obtained",
-      "Any other unstated eligibility criteria (e.g., business plan submission, proof of registration)"
+      "Confirmation that Ethiopia is on the accelerator’s eligible‑country list (list not provided)",
+      "Evidence that the venture is majority‑run by the young founder"
     ],
-    "blocking_issues": [],
+    "blocking_issues": [
+      "Business focus not on land restoration or green solutions (hard blocker)",
+      "Legal registration of the business not verified (hard blocker)"
+    ],
     "addressable_gaps": [
-      "Provide documentation proving the business is legally registered and majority-run by the founder",
-      "Demonstrate that the venture focuses on land restoration or green business solutions",
-      "Confirm eligibility of Ethiopia for the accelerator (if the accelerator is required for full participation)"
+      "Obtain and submit proof of legal business registration",
+      "Demonstrate or pivot the venture to a land‑restoration or green‑business model"
     ],
-    "reasoning": "The candidate meets the explicit age (under 35) and founder/CEO requirements. However, the program specifies that the accelerator is reserved for eligible countries, but the list of eligible countries is not provided in the text, making it unverifiable whether Ethiopia qualifies. This unverifiable country eligibility criterion could exclude the candidate. All other stated requirements (age, founder status) are satisfied.",
+    "reasoning": "The programme requires that the applicant’s business be focused on land restoration or green solutions. Gulilat’s listed projects (SebilAI, JobsAI) are AI/tech ventures with no indication of environmental or land‑restoration relevance, which likely fails the core focus criterion. Additionally, the programme mandates that the business be legally registered and majority‑run by a young person; the candidate’s registration status is not provided. While the candidate meets the age (<35) and founder requirement, the missing evidence of a qualifying green business constitutes a hard blocker.",
     "id": "feb1b7ac921fe892",
     "first_seen": "2026-10-22T10:05:16.847360+00:00",
-    "last_updated": "2026-10-22T10:05:16.847384+00:00"
+    "last_updated": "2026-10-29T11:23:26.143209+00:00"
   },
   "9a79c82619e4f363": {
     "url": "https://www.opportunitiesforafricans.com/university-of-edinburgh-mastercard-foundation-on-campus-and-online-postgraduate-scholars-program-2027-2028/",
     "title": "The University of Edinburgh Mastercard Foundation on-campus and online postgraduate Scholars Program 2027/2028 for young Africans (Fully Funded)",
-    "status": "ineligible",
+    "status": "closed",
     "eligibility_status": "CONFIRMED_INELIGIBLE",
     "model_eligibility_status": "CONFIRMED_INELIGIBLE",
     "missing_requirements": [
@@ -16866,7 +16870,8 @@
     "reasoning": "The program explicitly states that applicants must be 'residents and citizens or hold refugee status in an African country.' The candidate is an Ethiopian citizen but currently resides in Lao PDR, not an African country, thus failing this mandatory residency/citizenship requirement.",
     "id": "9a79c82619e4f363",
     "first_seen": "2026-10-22T10:07:22.867914+00:00",
-    "last_updated": "2026-10-22T10:07:22.867932+00:00"
+    "last_updated": "2026-10-29T11:24:06.600474+00:00",
+    "deadline": "2026-10-26"
   },
   "6134c2141006b1f1": {
     "url": "https://www.opportunitiesforafricans.com/call-for-proposals-the-commonwealth-blue-charter-incubator-round-ii-50000-in-funding/",
@@ -18153,5 +18158,274 @@
     "id": "c13b2489f4131f58",
     "first_seen": "2026-10-28T11:28:53.745294+00:00",
     "last_updated": "2026-10-28T11:28:53.745307+00:00"
+  },
+  "d8a1cc0732ff4820": {
+    "url": "https://www.opportunitiesforafricans.com/mercedes-benz-south-africa-bursary-programme-2027/",
+    "title": "Mercedes-Benz South Africa Bursary Programme 2027 for young South Africans",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "model_eligibility_status": "CONFIRMED_INELIGIBLE",
+    "missing_requirements": [],
+    "blocking_issues": [
+      "Nationality: program limited to South African‑born citizens",
+      "Student status: must be a Grade 12 learner or enrolled full‑time tertiary student; candidate is a working professional",
+      "Degree field mismatch: candidate's degree (Psychology) is not in the listed eligible fields"
+    ],
+    "addressable_gaps": [],
+    "reasoning": "The programme explicitly requires applicants to be South African-born citizens and to be Grade 12 learners or students enrolled in full‑time tertiary studies in specified engineering, science, finance or related fields. The candidate is an Ethiopian national, not a South African citizen, is a working professional (not currently a student), and holds a BSc in Psychology, which is not among the eligible fields. These are hard, non‑addressable blockers.",
+    "id": "d8a1cc0732ff4820",
+    "first_seen": "2026-10-29T11:25:07.444393+00:00",
+    "last_updated": "2026-10-29T11:25:07.444411+00:00"
+  },
+  "f8a5476e4b4de0ea": {
+    "url": "https://opportunitiescorners.com/swedish-institute-si-global-scholarship-2027/",
+    "title": "Swedish Institute SI Global Scholarship 2027 (Fully Funded)",
+    "status": "notified",
+    "score": 6.9,
+    "category": null,
+    "official_url": "https://opportunitiescorners.com/swedish-institute-si-global-scholarship-2027/",
+    "location": null,
+    "remote": null,
+    "deadline": null,
+    "reward": "fully_funded",
+    "estimated_value": null,
+    "eligibility_status": "PROBABLY_ELIGIBLE",
+    "credibility_status": "LIKELY_LEGITIMATE",
+    "source_tier": "TIER_3",
+    "source_quality": 7,
+    "requirements": [
+      "CV (max three pages)",
+      "Two reference letters",
+      "Proof of work experience",
+      "Valid passport copy",
+      "Motivation letter"
+    ],
+    "id": "f8a5476e4b4de0ea",
+    "first_seen": "2026-10-29T11:27:55.822102+00:00",
+    "last_updated": "2026-10-29T11:44:37.942240+00:00",
+    "notification_tier": "WATCHLIST",
+    "notified_at": "2026-10-29T11:44:37.929244+00:00"
+  },
+  "60ea2b03394517a1": {
+    "url": "https://opportunitiescorners.com/sdg-6-fellowship-2027/",
+    "title": "SDG 6 Fellowship 2027 in UK, Denmark, Malaysia (Fully Funded)",
+    "status": "ineligible",
+    "eligibility_status": "PROBABLY_INELIGIBLE",
+    "model_eligibility_status": "PROBABLY_INELIGIBLE",
+    "missing_requirements": [
+      "Active IWA Young Water Professional membership or Grundfos employee status",
+      "Water‑sector experience or involvement",
+      "Existing water‑related innovation or solution",
+      "Demonstrated progress in developing/testing the proposed solution",
+      "Reference letter preferably from an IWA member"
+    ],
+    "blocking_issues": [],
+    "addressable_gaps": [
+      "Obtain an active IWA Young Water Professional membership (or qualify as a Grundfos employee)",
+      "Provide evidence of experience or involvement in the water sector (e.g., work, research, entrepreneurship)",
+      "Develop or present an existing innovation/solution that addresses a water‑related challenge and show progress on it",
+      "Submit an English proficiency test result (Duolingo, MOI certificate, etc.)"
+    ],
+    "reasoning": "The fellowship requires an active IWA Young Water Professional membership (or Grundfos employment), demonstrable experience in the water sector, and an existing water‑related innovation with progress shown. The candidate does not currently hold IWA membership, has no stated water‑sector experience or water‑focused project, and lacks a water‑related innovation. While the candidate meets the age limit and can provide English proficiency, the core eligibility criteria are not satisfied.",
+    "id": "60ea2b03394517a1",
+    "first_seen": "2026-10-29T11:29:09.343037+00:00",
+    "last_updated": "2026-10-29T11:29:09.343068+00:00"
+  },
+  "8be97e4edd288d1d": {
+    "url": "https://www.opportunitiesforafricans.com/nnpc-snepco-national-university-scholarship-programme-2026/",
+    "title": "NNPC/SNEPCo National University Scholarship Programme 2026 for Young Nigerian Students.",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "model_eligibility_status": "CONFIRMED_INELIGIBLE",
+    "missing_requirements": [],
+    "blocking_issues": [
+      "Not a Nigerian citizen (nationality requirement)",
+      "Not currently enrolled in a public Nigerian university (student‑status requirement)",
+      "Degree level mismatch – program is for undergraduate students, candidate already has a bachelor's degree"
+    ],
+    "addressable_gaps": [],
+    "reasoning": "The programme explicitly requires applicants to be Nigerian citizens and to be currently in their second year of full‑time study at a public Nigerian university. The candidate is an Ethiopian national, not a student, and already holds a BSc degree, which directly conflicts with the stated eligibility criteria.",
+    "id": "8be97e4edd288d1d",
+    "first_seen": "2026-10-29T11:30:13.304428+00:00",
+    "last_updated": "2026-10-29T11:30:13.304443+00:00"
+  },
+  "28fd320569ad808f": {
+    "url": "https://www.opportunitiesforafricans.com/sa-cern-programme-excellence-msc-phd-bursary-program-2027/",
+    "title": "SA-CERN Programme Excellence MSc/PhD Bursary Program 2027 for young South Africans.",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "model_eligibility_status": "CONFIRMED_INELIGIBLE",
+    "missing_requirements": [
+      "Proof of previous degree aggregate of 65% or higher",
+      "Research project aligned with SA-CERN pillars",
+      "Supervisor who is an SA-CERN member",
+      "Registration at a South African university for full-time MSc or PhD starting 2027"
+    ],
+    "blocking_issues": [
+      "South African citizenship required; candidate holds Ethiopian nationality"
+    ],
+    "addressable_gaps": [],
+    "reasoning": "The program explicitly requires South African citizenship. The candidate is an Ethiopian national, which is a hard blocker. Other requirements (e.g., registration at a South African university, project alignment, supervisor, academic aggregate) are also not met or not provided, but citizenship alone disqualifies the candidate.",
+    "id": "28fd320569ad808f",
+    "first_seen": "2026-10-29T11:32:23.526718+00:00",
+    "last_updated": "2026-10-29T11:32:23.526732+00:00"
+  },
+  "d99c4b3cd3009c28": {
+    "url": "https://www.opportunitiesforafricans.com/the-sciences-po-mastercard-foundation-scholars-program-2027-for-graduate-study-in-france/",
+    "title": "The Sciences Po Mastercard Foundation Scholars Program 2027 for Graduate Study in France (Fully Funded to France)",
+    "status": "unknown",
+    "eligibility_status": "UNCERTAIN",
+    "model_eligibility_status": "UNCERTAIN",
+    "missing_requirements": [
+      "Verification that the candidate’s university is on the approved list of institutions.",
+      "Explicit language proficiency requirement (if any) and acceptable test scores."
+    ],
+    "blocking_issues": [],
+    "addressable_gaps": [
+      "Obtain an English proficiency test result (e.g., Duolingo, IELTS, TOEFL) if required.",
+      "Provide a Medium‑of‑Instruction (MOI) certificate or other proof that the degree meets program standards.",
+      "Confirm that Injibara University appears on the program’s list of approved institutions."
+    ],
+    "reasoning": "The candidate meets clear criteria: Ethiopian citizenship (African), age 27 (<35), holds a BSc and is not currently pursuing a Master’s. However, the program requires the bachelor’s degree to be from a university on an approved list, which is not provided in the text, so we cannot verify that Injibara University is eligible. Additionally, any English‑language proficiency requirement is not stated, leaving it unclear whether the candidate’s lack of an IELTS/TOEFL certificate is a barrier.",
+    "id": "d99c4b3cd3009c28",
+    "first_seen": "2026-10-29T11:33:26.996430+00:00",
+    "last_updated": "2026-10-29T11:33:26.996445+00:00"
+  },
+  "a4ecd8513789e69c": {
+    "url": "https://www.opportunitiesforafricans.com/the-mtn-global-graduate-development-programme-2027/",
+    "title": "The MTN Global Graduate Development Programme 2027 for young Nigerian graduates.",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "model_eligibility_status": "CONFIRMED_INELIGIBLE",
+    "missing_requirements": [],
+    "blocking_issues": [
+      "Nationality mismatch (Ethiopian, not Nigerian)",
+      "Graduation year earlier than required (2021 vs no earlier than 2024)",
+      "NYSC completion required, not satisfied"
+    ],
+    "addressable_gaps": [],
+    "reasoning": "The programme explicitly requires applicants to be \"young Nigerian graduates\" and to have completed the Nigerian National Youth Service Corps (NYSC) in September 2026. The candidate is an Ethiopian national, not Nigerian, and has not completed NYSC. Additionally, the graduation date requirement is \"no earlier than 2024\"; the candidate graduated in 2021, which does not meet this criterion.",
+    "id": "a4ecd8513789e69c",
+    "first_seen": "2026-10-29T11:34:23.142446+00:00",
+    "last_updated": "2026-10-29T11:34:23.142461+00:00"
+  },
+  "774bded16503b909": {
+    "url": "https://www.rockefellerfoundation.org/fellowships-convenings/big-bets-fellowships/africa",
+    "title": "Big Bets Fellowship: Africa | RF",
+    "status": "filtered_out",
+    "reason": "Application deadline has passed; the Africa cohort is closed.",
+    "id": "774bded16503b909",
+    "first_seen": "2026-10-29T11:34:50.623464+00:00",
+    "last_updated": "2026-10-29T11:34:50.623479+00:00"
+  },
+  "8bce3f3a68d0ac52": {
+    "url": "https://opportunitydesk.org/2026/09/22/grants-and-funding-opportunities-currently-open-september-22-2026",
+    "title": "21 Grant and Funding Opportunities Currently Open – September 22, 2026  – Opportunity Desk",
+    "status": "unknown",
+    "eligibility_status": "UNCERTAIN",
+    "model_eligibility_status": "UNCERTAIN",
+    "missing_requirements": [
+      "Exact definition of \"substantial relevant expertise\" for OpenAI’s grant – cannot verify from profile.",
+      "Specific eligibility thresholds for the Digital Science Catalyst Grant (e.g., company stage, prior funding) – not provided.",
+      "Detailed eligibility for the Global Entrepreneurship Festival Entrepreneurs Investment Program (e.g., startup revenue, team size) – not disclosed."
+    ],
+    "blocking_issues": [
+      "AGNES Intra-Africa Mobility Grants – requires registered doctoral researcher (candidate holds only a BSc).",
+      "Olympic Studies Centre PhD Students & Early Career Academics Research Grant – requires PhD student or early‑career academic (candidate is not a student).",
+      "ACU Early Career Conference Grants – requires early‑career researcher at an ACU member university (candidate is not enrolled).",
+      "Ashoka Carnegie Challenge – limited to participants aged 20 or under (candidate is 27).",
+      "Black Ideas Grant – limited to Black‑mandated/led organisations in Canada (candidate is Ethiopian and not leading a Black‑focused org)."
+    ],
+    "addressable_gaps": [
+      "English proficiency proof – candidate can obtain a Duolingo English Test or a Medium‑of‑Instruction certificate from Injibara University.",
+      "Affiliation with a research institution – candidate could seek a formal partnership or advisory role to satisfy OpenAI’s affiliation requirement."
+    ],
+    "reasoning": "The page lists 21 distinct grant/fellowship opportunities, each with its own eligibility criteria. Several opportunities explicitly require conditions the candidate does not meet (e.g., doctoral enrollment, age ≤20, affiliation with a research institution, being a student, or being part of a Black‑led organization in Canada). Other opportunities (e.g., OpenAI’s AI & Teen Development Research Grant, Digital Science Catalyst Grant, Global Entrepreneurship Festival Entrepreneurs Investment Program) could be open to a professional AI developer, but the required affiliation or expertise cannot be verified from the candidate’s profile. Because the overall program does not present a single set of requirements, we cannot definitively label the candidate as eligible or ineligible; the presence of unverifiable, potentially exclusionary criteria makes the status UNCERTAIN.",
+    "id": "8bce3f3a68d0ac52",
+    "first_seen": "2026-10-29T11:36:54.896404+00:00",
+    "last_updated": "2026-10-29T11:36:54.896418+00:00"
+  },
+  "a763b3529b54100e": {
+    "url": "https://www.instagram.com/reel/De_R-XXqkQm",
+    "title": "FULLY FUNDED global opportunities for 2027 that covers all ...",
+    "status": "legitimacy_unknown",
+    "credibility_status": "NEEDS_VERIFICATION",
+    "source_tier": "TIER_4",
+    "reasoning": "The provided source is an Instagram Reel with no accessible text or details about the scholarship or fellowship. Without visible information about fees, organizers, contact details, or official links, we cannot determine legitimacy.",
+    "id": "a763b3529b54100e",
+    "first_seen": "2026-10-29T11:36:57.683706+00:00",
+    "last_updated": "2026-10-29T11:36:57.683722+00:00"
+  },
+  "cbb7ed437fd4a2b1": {
+    "url": "https://hr.usembassy.gov/apply-now-for-the-2026-2027-hubert-h-humphrey-fellowship-program",
+    "title": "Apply now: 2027-2028 Hubert H. Humphrey Fellowship Program",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "model_eligibility_status": "CONFIRMED_INELIGIBLE",
+    "missing_requirements": [],
+    "blocking_issues": [
+      "Croatian citizenship required (candidate is Ethiopian)",
+      "Employment in Croatia required (candidate works in Laos)",
+      "Minimum five years of full‑time professional experience required (candidate has ~2‑3 years)"
+    ],
+    "addressable_gaps": [
+      "Obtain an English proficiency test (Duolingo, TOEFL, etc.)",
+      "Provide evidence of a qualifying 4‑year undergraduate degree if needed"
+    ],
+    "reasoning": "The program explicitly requires applicants to have Croatian citizenship and to be employed in Croatia. The candidate is an Ethiopian national residing and working in Laos, which directly violates these mandatory criteria. Additionally, the fellowship requires at least five years of full‑time professional experience by July 2026; the candidate graduated in 2021 and therefore does not meet the experience threshold. While the candidate could address English proficiency, the citizenship and employment location requirements are hard blockers that cannot be remedied.",
+    "id": "cbb7ed437fd4a2b1",
+    "first_seen": "2026-10-29T11:38:16.612601+00:00",
+    "last_updated": "2026-10-29T11:38:16.612616+00:00"
+  },
+  "a0633e7bef8f3891": {
+    "url": "https://www.fundraisingdispatch.com/p/open-funding-opportunities-october-2026-recap",
+    "title": "Catch up on open funding opportunities - October, 2026",
+    "status": "analyzed",
+    "score": 2.8,
+    "category": "grants",
+    "official_url": "https://www.fundraisingdispatch.com/p/open-funding-opportunities-october-2026-recap",
+    "location": null,
+    "remote": null,
+    "deadline": null,
+    "reward": "none",
+    "estimated_value": null,
+    "eligibility_status": "PROBABLY_ELIGIBLE",
+    "credibility_status": "LIKELY_LEGITIMATE",
+    "source_tier": "TIER_4",
+    "source_quality": 0,
+    "requirements": [],
+    "id": "a0633e7bef8f3891",
+    "first_seen": "2026-10-29T11:41:24.600514+00:00",
+    "last_updated": "2026-10-29T11:41:24.600527+00:00"
+  },
+  "39e211947601a2dc": {
+    "url": "https://opencampushub.com/remote-companies-hiring-worldwide-2026",
+    "title": "[High Paying] Top Remote Companies Hiring Worldwide in (No Location Restrictions) 2027 Guide | OpenCampusHub",
+    "status": "filtered_out",
+    "reason": "The text advertises remote job opportunities, not a funded scholarship or fellowship.",
+    "id": "39e211947601a2dc",
+    "first_seen": "2026-10-29T11:41:47.148211+00:00",
+    "last_updated": "2026-10-29T11:41:47.148226+00:00"
+  },
+  "605f938910f3c6b5": {
+    "url": "https://hackernoon.com/5-hackathons-you-can-enter-right-now",
+    "title": "5 Hackathons You Can Enter Right Now 🤫",
+    "status": "analyzed",
+    "score": 4.5,
+    "category": "hackathons",
+    "official_url": "https://hackernoon.com/5-hackathons-you-can-enter-right-now",
+    "location": null,
+    "remote": null,
+    "deadline": null,
+    "reward": "none",
+    "estimated_value": null,
+    "eligibility_status": "PROBABLY_ELIGIBLE",
+    "credibility_status": "LIKELY_LEGITIMATE",
+    "source_tier": "TIER_4",
+    "source_quality": 0,
+    "requirements": [],
+    "id": "605f938910f3c6b5",
+    "first_seen": "2026-10-29T11:44:35.469456+00:00",
+    "last_updated": "2026-10-29T11:44:35.469469+00:00"
   }
 }
