@@ -16899,21 +16899,19 @@
     "eligibility_status": "CONFIRMED_INELIGIBLE",
     "model_eligibility_status": "CONFIRMED_INELIGIBLE",
     "missing_requirements": [
-      "Verification of South African NQF equivalence for the candidate’s BSc",
-      "Proof of ability to relocate to and reside in South Africa"
+      "Age limit not specified (though 'young' is mentioned, no explicit cap)",
+      "English language proficiency requirements not stated",
+      "Whether current employment status affects eligibility not clarified"
     ],
     "blocking_issues": [
-      "Nationality – not a South African",
-      "Field of study – BSc Psychology not in listed eligible disciplines",
-      "Location – cannot relocate to South Africa"
+      "Nationality excluded: program requires South African citizenship",
+      "Degree mismatch: required fields do not include Psychology"
     ],
-    "addressable_gaps": [
-      "English proficiency – can obtain Duolingo or MOI certificate"
-    ],
-    "reasoning": "The program explicitly targets “young South Africans” and requires candidates to be based in South Africa (Gauteng, KwaZulu Natal or Cape Town). The candidate is an Ethiopian national, currently residing in Lao PDR, and holds a BSc in Psychology, which does not meet the required NQF‑level qualifications in BCom Investments, Financial Planning, Estate Planning, Financial Management, Accounting or Economics. These criteria are hard blockers that directly exclude the candidate.",
+    "addressable_gaps": [],
+    "reasoning": "The program is explicitly for 'young South Africans,' as stated in the title and description. The candidate is an Ethiopian national, which is a direct nationality exclusion. Additionally, the requirements specify that applicants must have a degree in fields such as BCom Investments, Financial Planning, Estate Planning, Financial Management, Accounting, or Economics. The candidate holds a BSc in Psychology, which is not among the listed eligible fields, resulting in a degree level mismatch.",
     "id": "85c97d1e1be8659a",
     "first_seen": "2026-10-22T10:10:03.353189+00:00",
-    "last_updated": "2026-10-22T10:10:03.353204+00:00"
+    "last_updated": "2026-10-30T11:21:34.551032+00:00"
   },
   "888636217608295d": {
     "url": "https://fulbrightscholarships.com/list-of-internships",
@@ -17244,7 +17242,7 @@
   "e77273b47c921e1f": {
     "url": "https://www.opportunitiesforafricans.com/the-nedbank-talentforge-tech-graduate-program-2026/",
     "title": "The Nedbank TalentForge Tech Graduate Program 2026 for young South African graduates.",
-    "status": "ineligible",
+    "status": "legitimacy_unknown",
     "eligibility_status": "CONFIRMED_INELIGIBLE",
     "model_eligibility_status": "CONFIRMED_INELIGIBLE",
     "missing_requirements": [
@@ -17255,10 +17253,12 @@
       "Degree field mismatch: Psychology is not among the listed eligible fields"
     ],
     "addressable_gaps": [],
-    "reasoning": "The program explicitly states it is for \"young South African graduates\" and requires a bachelor's degree (NQF Level 7) in one of the listed quantitative or tech‑related fields. The candidate is Ethiopian (not South African) and holds a BSc in Psychology, which is not among the eligible disciplines. Therefore the candidate is blocked by both nationality and degree‑field requirements.",
+    "reasoning": "The page describes a legitimate-sounding graduate program from Nedbank, but contains no direct link to Nedbank's official website or verifiable contact information. The site is an aggregator (opportunitiesforafricans.com) republishing the program, which is normal practice. However, there is no evidence this is the actual official program announcement.",
     "id": "e77273b47c921e1f",
     "first_seen": "2026-10-24T09:41:05.077578+00:00",
-    "last_updated": "2026-10-24T09:41:05.077593+00:00"
+    "last_updated": "2026-10-30T11:24:24.716312+00:00",
+    "credibility_status": "NEEDS_VERIFICATION",
+    "source_tier": "TIER_3"
   },
   "f5e86957cc0a5627": {
     "url": "https://www.facebook.com/100091911940560/posts/-umholi-we-africa-fellowship-2027-fully-funded-12-month-fully-funded-leadership-/1044465555293833",
@@ -18427,5 +18427,228 @@
     "id": "605f938910f3c6b5",
     "first_seen": "2026-10-29T11:44:35.469456+00:00",
     "last_updated": "2026-10-29T11:44:35.469469+00:00"
+  },
+  "023f72f73f43f273": {
+    "url": "https://scholarshipspace.org/scholarship-level/research-fellowship",
+    "title": "Research Fellowship Scholarships - ScholarshipSpace",
+    "status": "unknown",
+    "eligibility_status": "UNCERTAIN",
+    "model_eligibility_status": "UNCERTAIN",
+    "missing_requirements": [
+      "Specific degree level required (e.g., PhD, Master's, post‑doctoral).",
+      "Current enrollment status (must be a student or researcher).",
+      "Age limits for individual fellowships.",
+      "Any nationality restrictions for particular fellowships."
+    ],
+    "blocking_issues": [],
+    "addressable_gaps": [
+      "Obtain an English proficiency test result (e.g., Duolingo, MOI certificate) if required by a specific fellowship."
+    ],
+    "reasoning": "The page only states that the listed research fellowships are for \"international students\" and provides no explicit eligibility criteria such as required degree level, enrollment status, age limits, or nationality restrictions for each individual fellowship. The candidate is an Ethiopian national (eligible as an international applicant) but is a working professional with only a BSc and is not currently enrolled in a graduate program, which may disqualify many of the listed fellowships that typically require PhD or post‑doctoral status. Because these critical criteria are not specified, we cannot confirm eligibility.",
+    "id": "023f72f73f43f273",
+    "first_seen": "2026-10-30T11:13:15.320973+00:00",
+    "last_updated": "2026-10-30T11:13:15.320988+00:00"
+  },
+  "c891bd08c0f3218f": {
+    "url": "https://www.applykite.com/blog/phd-guide-top-fully-funded-scholarships-2027",
+    "title": "Top 15 Fully Funded PhD Scholarships 2027 | Complete Guide | ApplyKite",
+    "status": "analyzed",
+    "score": 4.3,
+    "category": null,
+    "official_url": "https://www.applykite.com/blog/phd-guide-top-fully-funded-scholarships-2027",
+    "location": null,
+    "remote": null,
+    "deadline": null,
+    "reward": "fully_funded",
+    "estimated_value": null,
+    "eligibility_status": "PROBABLY_ELIGIBLE",
+    "credibility_status": "LIKELY_LEGITIMATE",
+    "source_tier": "TIER_4",
+    "source_quality": null,
+    "requirements": [],
+    "id": "c891bd08c0f3218f",
+    "first_seen": "2026-10-30T11:18:06.251421+00:00",
+    "last_updated": "2026-10-30T11:18:06.251433+00:00"
+  },
+  "0040eab5f9dd27c8": {
+    "url": "https://www.opportunitiesforafricans.com/the-heinrich-boll-foundations-hbs-feminist-futures-fellowship-2027-for-young-feminists-fully-funded-to-csw-71-in-new-york-usa/",
+    "title": "The Heinrich Böll Foundation’s (HBS) Feminist Futures Fellowship 2027 for young feminists (Fully Funded to CSW 71 in New York, USA)",
+    "status": "notified",
+    "score": 5.0,
+    "category": null,
+    "official_url": "https://www.opportunitiesforafricans.com/the-heinrich-boll-foundations-hbs-feminist-futures-fellowship-2027-for-young-feminists-fully-funded-to-csw-71-in-new-york-usa/",
+    "location": null,
+    "remote": null,
+    "deadline": "2026-11-02",
+    "reward": "fully_funded",
+    "estimated_value": null,
+    "eligibility_status": "PROBABLY_ELIGIBLE",
+    "credibility_status": "LIKELY_LEGITIMATE",
+    "source_tier": "TIER_3",
+    "source_quality": 7,
+    "requirements": [
+      "Resume (US format, max 2 pages, no picture, include age)",
+      "Challenge / motivational statement (max 300 words, includes answer to post‑fellowship communication questions)",
+      "Short statement/strategy outlining goals for the CSW (as mentioned in application procedure)"
+    ],
+    "id": "0040eab5f9dd27c8",
+    "first_seen": "2026-10-30T11:27:37.531479+00:00",
+    "last_updated": "2026-10-30T11:35:58.852686+00:00",
+    "notification_tier": "GOOD",
+    "notified_at": "2026-10-30T11:35:58.843543+00:00"
+  },
+  "7b2cc34ac16739a4": {
+    "url": "https://opportunitiescorners.com/epfl-summer-internship-2027/",
+    "title": "EPFL Summer Internship 2027 in Switzerland (Fully Funded)",
+    "status": "suspicious",
+    "credibility_status": "SUSPICIOUS",
+    "source_tier": "TIER_3",
+    "reasoning": "The page is an aggregator with no direct link to EPFL’s official internship page and uses a generic Gmail address for contact, which is atypical for a university program. It also contains inconsistent details (mixing 2026 and 2027 years) and vague wording about the application process, suggesting the information may not be directly sourced from EPFL.",
+    "id": "7b2cc34ac16739a4",
+    "first_seen": "2026-10-30T11:28:26.352421+00:00",
+    "last_updated": "2026-10-30T11:28:26.352436+00:00"
+  },
+  "ad6aaab8700e7181": {
+    "url": "https://www.opportunitiesforafricans.com/the-independent-communications-authority-of-south-africa-icasa-graduate-development-programme-2026-2027/",
+    "title": "The Independent Communications Authority of South Africa (ICASA) Graduate Development Programme 2026/2027 for young South African graduates.",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "model_eligibility_status": "CONFIRMED_INELIGIBLE",
+    "missing_requirements": [],
+    "blocking_issues": [
+      "Nationality: must be South African (candidate is Ethiopian)",
+      "Degree field: must be Engineering (candidate has Psychology)"
+    ],
+    "addressable_gaps": [],
+    "reasoning": "The program explicitly requires applicants to be South African citizens and to have completed a Bachelor's degree in Engineering (Electrical/Electronic/Information). The candidate is an Ethiopian national and holds a BSc in Psychology, not an engineering degree, which directly violates the stated eligibility criteria.",
+    "id": "ad6aaab8700e7181",
+    "first_seen": "2026-10-30T11:29:27.762590+00:00",
+    "last_updated": "2026-10-30T11:29:27.762607+00:00"
+  },
+  "d809902bce182409": {
+    "url": "https://www.opportunitiesforafricans.com/the-mozilla-foundations-fellowship-2027-2028-for-innovators-worldwide/",
+    "title": "The Mozilla Foundation’s Fellowship 2027/2028 for innovators worldwide ($125,000 in funding)",
+    "status": "suspicious",
+    "credibility_status": "SUSPICIOUS",
+    "source_tier": "TIER_3",
+    "reasoning": "The page provides no direct link to an official Mozilla Foundation site, uses generic aggregator email addresses, and advertises an unusually large $125,000 funding amount that does not match known Mozilla Fellowships. These inconsistencies suggest the opportunity may not be legitimate.",
+    "id": "d809902bce182409",
+    "first_seen": "2026-10-30T11:30:05.871273+00:00",
+    "last_updated": "2026-10-30T11:30:05.871289+00:00"
+  },
+  "83cf71257ffb9a7d": {
+    "url": "https://opportunitiescorners.com/undp-internship-2027-in-bangkok/",
+    "title": "UNDP Internship 2027 in Bangkok, Thailand (THB 8302/Month)",
+    "status": "legitimacy_unknown",
+    "credibility_status": "NEEDS_VERIFICATION",
+    "source_tier": "TIER_3",
+    "reasoning": "The page is an aggregator and does not show a direct link to the official UNDP internship portal; the only contact provided is a free Gmail address, which is atypical for a UN agency. However, no application fee is mentioned, and UNDP internships are indeed paid modestly, so there is insufficient evidence to label it definitively as a scam or legitimate.",
+    "id": "83cf71257ffb9a7d",
+    "first_seen": "2026-10-30T11:30:56.259279+00:00",
+    "last_updated": "2026-10-30T11:30:56.259292+00:00"
+  },
+  "4bc6d812987bd39d": {
+    "url": "https://qualifyafrica.com/grants",
+    "title": "Grants for Africans 2027: 42 open now | Qualify Africa",
+    "status": "closed",
+    "deadline": null,
+    "id": "4bc6d812987bd39d",
+    "first_seen": "2026-10-30T11:31:49.012142+00:00",
+    "last_updated": "2026-10-30T11:31:49.012160+00:00"
+  },
+  "b63a79588af35f7e": {
+    "url": "https://www.afriwallstreet.com/news/grants-and-opportunities-available-for-africans-in-2026",
+    "title": "Grants and Opportunities Available for Africans in 2026",
+    "status": "analyzed",
+    "score": 4.4,
+    "category": "grants",
+    "official_url": "https://www.afriwallstreet.com/news/grants-and-opportunities-available-for-africans-in-2026",
+    "location": null,
+    "remote": null,
+    "deadline": null,
+    "reward": "partial",
+    "estimated_value": null,
+    "eligibility_status": "PROBABLY_ELIGIBLE",
+    "credibility_status": "LIKELY_LEGITIMATE",
+    "source_tier": "TIER_4",
+    "source_quality": 0,
+    "requirements": [],
+    "id": "b63a79588af35f7e",
+    "first_seen": "2026-10-30T11:33:36.284576+00:00",
+    "last_updated": "2026-10-30T11:33:36.284590+00:00"
+  },
+  "c941bfd88646634e": {
+    "url": "https://youropportunitiesafrica.com/grants",
+    "title": "Grants - YOUR OPPORTUNITIES AFRICA",
+    "status": "legitimacy_unknown",
+    "credibility_status": "NEEDS_VERIFICATION",
+    "source_tier": "TIER_4",
+    "reasoning": "The page only provides a generic title and description without any details about fees, organizer verification, contact information, or application process, making it impossible to assess legitimacy.",
+    "id": "c941bfd88646634e",
+    "first_seen": "2026-10-30T11:33:54.290603+00:00",
+    "last_updated": "2026-10-30T11:33:54.290619+00:00"
+  },
+  "9ee1564a49fb07ce": {
+    "url": "https://pdsoros.org/eligibility",
+    "title": "Eligibility Requirements – Paul & Daisy Soros Fellowships for New Americans",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "model_eligibility_status": "CONFIRMED_INELIGIBLE",
+    "missing_requirements": [
+      "New American status documentation (naturalization, green card, asylum/refugee documentation, or US high school/college graduation records)"
+    ],
+    "blocking_issues": [
+      "Candidate is Ethiopian national with no New American status (not a naturalized US citizen, green card holder, asylee/refugee, or US high school/college graduate)",
+      "Program requires US immigration or citizenship connection that candidate does not possess"
+    ],
+    "addressable_gaps": [],
+    "reasoning": "The Paul & Daisy Soros Fellowship explicitly requires applicants to be 'New Americans' — immigrants or children of immigrants who are naturalized US citizens, green card holders, asylees/refugees, or individuals who graduated from both high school and college in the US. The candidate is an Ethiopian national with no stated connection to US immigration status, US citizenship, green card, asylum/refugee status, or US high school/college graduation. This is a fundamental, non-negotiable eligibility criterion that the candidate does not meet. Additionally, the candidate is 27 years old, which is within the age limit (30 or younger), and holds a BSc, which satisfies the bachelor's degree requirement. However, these positive factors are irrelevant given the citizenship/status exclusion.",
+    "id": "9ee1564a49fb07ce",
+    "first_seen": "2026-10-30T11:34:26.060151+00:00",
+    "last_updated": "2026-10-30T11:34:26.060166+00:00"
+  },
+  "28d02273c9e0d24d": {
+    "url": "https://global.utexas.edu/isss/advising-services/scholarships",
+    "title": "Scholarships and Financial Services | Texas Global",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "model_eligibility_status": "CONFIRMED_INELIGIBLE",
+    "missing_requirements": [
+      "English proficiency certificate (candidate can obtain Duolingo/MOI)",
+      "UT Austin admission/enrollment status (cannot be self-produced)",
+      "Cumulative GPA at UT Austin (candidate has no UT Austin academic record)",
+      "Demonstrated financial need documentation",
+      "Two academic semesters completed at UT Austin"
+    ],
+    "blocking_issues": [
+      "Must be currently enrolled full-time student at UT Austin (candidate is a working professional, not enrolled)",
+      "All scholarships require current UT Austin enrollment status",
+      "No pathway shown for non-degree-seeking or pre-enrollment applicants"
+    ],
+    "addressable_gaps": [],
+    "reasoning": "Every scholarship listed on this Texas Global page requires the applicant to be currently enrolled as a full-time undergraduate or graduate student at UT Austin during the award semester. The candidate is a working professional (not a student) and holds only a BSc, with no current enrollment at UT Austin. This is a hard, explicit blocker across all listed awards (e.g., General ISSS Financial Aid: 'enrolled full-time at UT Austin during the award semester'; African Leadership Bridge: 'currently enrolled at UT Austin'; STEM Scholarship: 'registered as a full-time student at UT Austin').",
+    "id": "28d02273c9e0d24d",
+    "first_seen": "2026-10-30T11:35:12.878605+00:00",
+    "last_updated": "2026-10-30T11:35:12.878621+00:00"
+  },
+  "fefbe16a99a60038": {
+    "url": "https://www.facebook.com/opportunitiesforyouth/posts/-30-grant-accelerator-startup-opportunities-20262027looking-for-funding-for-your/1504226828401332",
+    "title": "🚀💰 30 Grant, Accelerator & Startup Opportunities 2026– ...",
+    "status": "legitimacy_unknown",
+    "credibility_status": "NEEDS_VERIFICATION",
+    "source_tier": "TIER_4",
+    "reasoning": "The Facebook post provides only a generic teaser about \"30 Grant, Accelerator & Startup Opportunities\" without any concrete details, official links, contact information, or fee disclosures. Without verifiable program specifics or evidence of legitimacy, the post cannot be confidently assessed as legitimate or fraudulent.",
+    "id": "fefbe16a99a60038",
+    "first_seen": "2026-10-30T11:35:40.142082+00:00",
+    "last_updated": "2026-10-30T11:35:40.142096+00:00"
+  },
+  "1a3d66d3cd1bbb1d": {
+    "url": "https://www2.fundsforngos.org/individuals/call-for-submission-of-small-scale-projects-for-2027",
+    "title": "Call for Submission of Small Scale Projects for 2027 - fundsforNGOs",
+    "status": "filtered_out",
+    "reason": "Eligible countries are limited to Bangladesh, Nepal, and Maldives, excluding Ethiopian nationals.",
+    "id": "1a3d66d3cd1bbb1d",
+    "first_seen": "2026-10-30T11:35:42.929171+00:00",
+    "last_updated": "2026-10-30T11:35:42.929188+00:00"
   }
 }
