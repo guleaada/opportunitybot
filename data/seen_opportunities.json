@@ -17125,19 +17125,22 @@
     "eligibility_status": "CONFIRMED_INELIGIBLE",
     "model_eligibility_status": "CONFIRMED_INELIGIBLE",
     "missing_requirements": [
-      "Evidence of commitment to freedom of expression, civic participation, constructive dialogue, and community-level problem-solving (not detailed in profile)"
+      "Verified proof of English proficiency",
+      "Evidence of commitment to freedom of expression, civic participation, constructive dialogue"
     ],
     "blocking_issues": [
-      "Nationality not among eligible countries (Ethiopia excluded)",
-      "Not living/working in home country (currently in Laos)"
+      "Nationality not among eligible countries (Ethiopia not listed)",
+      "Must be living and working in home country (currently residing in Laos)"
     ],
     "addressable_gaps": [
-      "English proficiency certificate (can obtain Duolingo or MOI test)"
+      "English proficiency documentation (Duolingo test or MOI certificate can be obtained)",
+      "Provide formal evidence of two years relevant experience (if not already documented)",
+      "Demonstrate commitment to freedom of expression and civic participation (statement or references)"
     ],
-    "reasoning": "The program explicitly limits eligible countries to a specific list (Czechia, France, Germany, Hungary, Ireland, Poland, Romania, Slovakia, Ukraine, United Kingdom). The candidate is Ethiopian, which is not on the list, creating a hard nationality blocker. Additionally, the program requires applicants to be living and working in their home country at the time of application; the candidate is currently residing and working in Laos, not Ethiopia, which is another hard blocker. While English proficiency can be addressed, these hard blockers make the candidate ineligible.",
+    "reasoning": "The program explicitly limits eligibility to citizens of listed European countries (Czechia, France, Germany, Hungary, Ireland, Poland, Romania, Slovakia, Ukraine, United Kingdom). The candidate is Ethiopian, which is not among the eligible countries – a hard blocker. Additionally, applicants must be living and working in their home country at the time of application; the candidate is currently residing and working in Laos, not Ethiopia, which also violates a hard requirement. While English proficiency can be obtained, these hard blockers alone make the candidate ineligible.",
     "id": "752311ea296a717f",
     "first_seen": "2026-10-24T09:31:51.086399+00:00",
-    "last_updated": "2026-10-24T09:31:51.086415+00:00"
+    "last_updated": "2026-10-31T10:46:04.895341+00:00"
   },
   "0c06ed3fc3f3e956": {
     "url": "https://opportunitiescorners.com/london-youth-diplomacy-forum-2027/",
@@ -17145,10 +17148,10 @@
     "status": "scam",
     "credibility_status": "HIGH_RISK",
     "source_tier": "TIER_3",
-    "reasoning": "The listing requires applicants to \"pay the required application fees\" despite offering fully funded seats, and the only contact email is a generic Gmail address. The host organization (Youth Diplomatic Academy) cannot be independently verified, and the page provides no official domain or direct link to a legitimate institution, which are classic red‑flag characteristics of scholarship scams.",
+    "reasoning": "The listing requires applicants to \"pay the required application fees\" for a supposedly fully funded forum, uses a generic Gmail address for contact, and provides no verifiable official website for the Youth Diplomatic Academy, all classic red‑flags for scholarship scams.",
     "id": "0c06ed3fc3f3e956",
     "first_seen": "2026-10-24T09:32:35.735975+00:00",
-    "last_updated": "2026-10-24T09:32:35.735992+00:00"
+    "last_updated": "2026-10-31T10:46:55.150294+00:00"
   },
   "d9d33f33771d7cac": {
     "url": "https://www.opportunitiesforafricans.com/the-daad-heilbronn-ai-fellowship-2026-2027-for-international-postdoctoral-researchers-in-artificial-intelligence/",
@@ -18650,5 +18653,313 @@
     "id": "1a3d66d3cd1bbb1d",
     "first_seen": "2026-10-30T11:35:42.929171+00:00",
     "last_updated": "2026-10-30T11:35:42.929188+00:00"
+  },
+  "5f8748d69c30ac49": {
+    "url": "https://www.vocabulary.com/dictionary/award",
+    "title": "Award - Definition, Meaning & Synonyms | Vocabulary.com",
+    "status": "unknown",
+    "eligibility_status": "UNCERTAIN",
+    "model_eligibility_status": "UNCERTAIN",
+    "missing_requirements": [
+      "must be currently enrolled student or recent graduate",
+      "age limit",
+      "nationality eligibility",
+      "required degree level (e.g., bachelor's, master's)",
+      "English language proficiency test score (IELTS/TOEFL/Duolingo)",
+      "specific field of study or research focus",
+      "application fee limits"
+    ],
+    "blocking_issues": [],
+    "addressable_gaps": [],
+    "reasoning": "The program description is a dictionary entry for the word \"award\" and contains no eligibility criteria (e.g., nationality, student status, age limit, degree level, English proficiency). Therefore we cannot verify whether the candidate meets any required conditions, making the eligibility uncertain.",
+    "id": "5f8748d69c30ac49",
+    "first_seen": "2026-10-31T10:48:16.384815+00:00",
+    "last_updated": "2026-10-31T10:48:16.384828+00:00"
+  },
+  "bf4d8daf117b9ccb": {
+    "url": "https://simple.wikipedia.org/wiki/Award",
+    "title": "Award - Simple English Wikipedia, the free encyclopedia",
+    "status": "filtered_out",
+    "reason": "The text is a generic Wikipedia article about awards, not a scholarship or fellowship opportunity.",
+    "id": "bf4d8daf117b9ccb",
+    "first_seen": "2026-10-31T10:48:27.048194+00:00",
+    "last_updated": "2026-10-31T10:48:27.048206+00:00"
+  },
+  "636ee9683be289f9": {
+    "url": "https://www.merriam-webster.com/dictionary/award",
+    "title": "Definition of AWARD",
+    "status": "filtered_out",
+    "reason": "The text is a dictionary entry, not a scholarship or fellowship opportunity.",
+    "id": "636ee9683be289f9",
+    "first_seen": "2026-10-31T10:48:35.738821+00:00",
+    "last_updated": "2026-10-31T10:48:35.738834+00:00"
+  },
+  "624ddbd2af9c338c": {
+    "url": "https://opportunitiescorners.com/faspe-fellowship-2027/",
+    "title": "FASPE Fellowship 2027 in Berlin and Poland (Fully Funded)",
+    "status": "notified",
+    "score": 7.4,
+    "category": null,
+    "official_url": "https://opportunitiescorners.com/faspe-fellowship-2027/",
+    "location": null,
+    "remote": null,
+    "deadline": "2027-01-03",
+    "reward": "fully_funded",
+    "estimated_value": null,
+    "eligibility_status": "CONFIRMED_ELIGIBLE",
+    "credibility_status": "LIKELY_LEGITIMATE",
+    "source_tier": "TIER_3",
+    "source_quality": 7,
+    "requirements": [
+      "Online form",
+      "Resume/CV",
+      "Transcripts",
+      "Short Essay Questions",
+      "Letters of Recommendation"
+    ],
+    "id": "624ddbd2af9c338c",
+    "first_seen": "2026-10-31T10:51:17.825798+00:00",
+    "last_updated": "2026-10-31T11:09:17.631269+00:00",
+    "notification_tier": "HIGH",
+    "notified_at": "2026-10-31T11:09:17.616159+00:00"
+  },
+  "44c90a4e2eb272ff": {
+    "url": "https://opportunity-universe.com/en/fully-funded",
+    "title": "Fully Funded Scholarships & Opportunities 2026/2027: 4,457 Open Programmes · Opportunity Universe",
+    "status": "analyzed",
+    "score": 4.1,
+    "category": "fellowships",
+    "official_url": "https://opportunity-universe.com/en/fully-funded",
+    "location": null,
+    "remote": null,
+    "deadline": null,
+    "reward": "unknown",
+    "estimated_value": null,
+    "eligibility_status": "PROBABLY_ELIGIBLE",
+    "credibility_status": "LIKELY_LEGITIMATE",
+    "source_tier": "TIER_4",
+    "source_quality": 0,
+    "requirements": [],
+    "id": "44c90a4e2eb272ff",
+    "first_seen": "2026-10-31T10:54:40.961342+00:00",
+    "last_updated": "2026-10-31T10:54:40.961355+00:00"
+  },
+  "a0f399e96372bb5e": {
+    "url": "https://au.int/en/announcement/call-applications-enterprise-africa-network-ean-fellowship-programme-cohort-2-202627",
+    "title": "Call for Applications: Enterprise Africa Network (EAN) Fellowship Programme Cohort 2 (2026/27) | African Union",
+    "status": "closed",
+    "deadline": null,
+    "id": "a0f399e96372bb5e",
+    "first_seen": "2026-10-31T10:55:13.883947+00:00",
+    "last_updated": "2026-10-31T10:55:13.883963+00:00"
+  },
+  "f32fa0492c383a8b": {
+    "url": "https://opportunitiescorners.com/community-solutions-program-2027/",
+    "title": "Community Solutions Program 2027 in USA (Fully Funded)",
+    "status": "ineligible",
+    "eligibility_status": "PROBABLY_INELIGIBLE",
+    "model_eligibility_status": "PROBABLY_INELIGIBLE",
+    "missing_requirements": [
+      "Verification of current residency in home country",
+      "Documentation of community development experience length"
+    ],
+    "blocking_issues": [
+      "Residency: applicant is not living in her home country (Ethiopia) as required"
+    ],
+    "addressable_gaps": [
+      "Relocate to Ethiopia (or provide proof of residence in home country) before applying",
+      "Provide documented evidence of ≥2 years community development experience",
+      "Obtain a Duolingo (or TOEFL/IELTS) test result if selected as semi‑finalist/finalist"
+    ],
+    "reasoning": "The program requires applicants to be currently living and working in their home country. Gulilat is residing and working in Vientiane, Lao PDR, which is not Ethiopia, her home country. This violates the residency criterion, a hard blocker. All other stated criteria (age 27, non‑U.S. citizen, Ethiopian nationality, no mandatory English test at application, degree not required) are met or not disqualifying.",
+    "id": "f32fa0492c383a8b",
+    "first_seen": "2026-10-31T10:57:44.142791+00:00",
+    "last_updated": "2026-10-31T10:57:44.142806+00:00"
+  },
+  "6274d2aa42bca7a8": {
+    "url": "https://www.opportunitiesforafricans.com/the-american-university-of-cairo-auc-mastercard-foundation-scholars-program-2027/",
+    "title": "The American University of Cairo (AUC) Mastercard Foundation Scholars Program 2027 (Fully Funded)",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "model_eligibility_status": "CONFIRMED_INELIGIBLE",
+    "missing_requirements": [
+      "Verified undergraduate GPA",
+      "Proof of financial need"
+    ],
+    "blocking_issues": [
+      "Current residence outside Africa (must reside in an African country)"
+    ],
+    "addressable_gaps": [
+      "Obtain an English proficiency test result (Duolingo, MOI certificate) for AUC admissions",
+      "Provide official transcript showing GPA ≥3.2 on a 4.0 scale",
+      "Demonstrate financial need as required"
+    ],
+    "reasoning": "The program explicitly requires applicants to be currently residing in an African country. The candidate lives in Vientiane, Lao PDR, which does not satisfy this residency requirement. This is a hard blocker. Other criteria (age, citizenship, degree) are potentially met, but the residency rule alone disqualifies the candidate.",
+    "id": "6274d2aa42bca7a8",
+    "first_seen": "2026-10-31T10:58:42.262166+00:00",
+    "last_updated": "2026-10-31T10:58:42.262178+00:00"
+  },
+  "e58320bba99f0426": {
+    "url": "https://www.opportunitiesforafricans.com/irex-community-solutions-program-2027-for-community-youth-leaders/",
+    "title": "The IREX Community Solutions Program 2027 for Community youth leaders (Fully Funded to the United States)",
+    "status": "ineligible",
+    "eligibility_status": "PROBABLY_INELIGIBLE",
+    "model_eligibility_status": "PROBABLY_INELIGIBLE",
+    "missing_requirements": [
+      "Proof of at least five years of community work with measurable impact"
+    ],
+    "blocking_issues": [
+      "Not residing/working in Ethiopia (living in Laos) violates the residency requirement",
+      "Insufficient documented evidence of five years of community‑issue experience"
+    ],
+    "addressable_gaps": [
+      "Obtain a TOEFL, IELTS, Duolingo, or MOI English proficiency certificate meeting the required score"
+    ],
+    "reasoning": "The program requires applicants to be living and working in their home country at the time of application. Gulilat is currently residing and working in Vientiane, Lao PDR, not Ethiopia, which is a hard blocker. Additionally, the program requires at least five years of documented experience on community issues; the candidate’s profile does not provide verifiable evidence of this duration. English proficiency can be addressed by taking TOEFL or an approved test.",
+    "id": "e58320bba99f0426",
+    "first_seen": "2026-10-31T10:59:57.798467+00:00",
+    "last_updated": "2026-10-31T10:59:57.798479+00:00"
+  },
+  "286e59f623a0dda8": {
+    "url": "https://www.opportunitiesforafricans.com/samsung-software-development-programme-2027/",
+    "title": "Samsung Software Development Programme 2027 for young South African graduates.",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "model_eligibility_status": "CONFIRMED_INELIGIBLE",
+    "missing_requirements": [
+      "Matric certificate (not provided in profile)",
+      "Proof of South African residency"
+    ],
+    "blocking_issues": [
+      "South African citizenship required (candidate is Ethiopian)",
+      "Residency in Johannesburg/Gauteng required (candidate lives in Vientiane, Lao PDR)"
+    ],
+    "addressable_gaps": [],
+    "reasoning": "The programme explicitly requires applicants to be South African citizens and to live in Gauteng (Johannesburg). The candidate is an Ethiopian national residing in Vientiane, Laos, which directly violates these mandatory criteria. Therefore the candidate is ineligible.",
+    "id": "286e59f623a0dda8",
+    "first_seen": "2026-10-31T11:00:53.361173+00:00",
+    "last_updated": "2026-10-31T11:00:53.361185+00:00"
+  },
+  "901ec573241ac984": {
+    "url": "https://opportunitydesk.org/2026/04/20/15-fully-funded-and-travel-abroad-fellowships-opportunities-currently-open-april-20-2026",
+    "title": "15  Fully Funded and Travel Abroad  Fellowship Opportunities Currently Open – April 20, 2026 – Opportunity Desk",
+    "status": "unknown",
+    "eligibility_status": "UNCERTAIN",
+    "model_eligibility_status": "UNCERTAIN",
+    "missing_requirements": [
+      "Whether the fellowship requires the applicant to be currently enrolled as a student",
+      "Age limits or maximum age for applicants",
+      "Minimum degree level (e.g., must have a master's or be a recent graduate)",
+      "English language proficiency requirements (e.g., IELTS/TOEFL scores)",
+      "Nationality or regional eligibility restrictions"
+    ],
+    "blocking_issues": [],
+    "addressable_gaps": [],
+    "reasoning": "The article lists 15 fully‑funded fellowship opportunities but does not provide any explicit eligibility criteria (e.g., required student status, age limits, degree level, English proficiency, or nationality restrictions). Because we cannot verify whether the candidate meets the undisclosed requirements, we cannot confirm eligibility nor identify a definitive blocker.",
+    "id": "901ec573241ac984",
+    "first_seen": "2026-10-31T11:02:23.918544+00:00",
+    "last_updated": "2026-10-31T11:02:23.918558+00:00"
+  },
+  "6722adc99cc292e9": {
+    "url": "https://opportunitydesk.org/2026/10/01/69-masters-phd-scholarships-and-fellowships-you-can-apply-for-now-october-1-2026",
+    "title": "69 Master’s and PhD Scholarships and Fellowships You Can Apply for Now – October 1, 2026 – Opportunity Desk",
+    "status": "unknown",
+    "eligibility_status": "UNCERTAIN",
+    "model_eligibility_status": "UNCERTAIN",
+    "missing_requirements": [
+      "Specific citizenship eligibility for each scholarship (e.g., Commonwealth, specific country partnerships).",
+      "Exact age limits for each program (some may cap at 30, others may have lower limits).",
+      "Whether the candidate must be currently enrolled in a master's program (many require enrollment at time of application).",
+      "Detailed English language score thresholds (IELTS/TOEFL minimums).",
+      "Field of study restrictions (some scholarships target specific disciplines)."
+    ],
+    "blocking_issues": [],
+    "addressable_gaps": [
+      "Obtain an English proficiency test result (e.g., Duolingo English Test or MOI certificate) to satisfy language requirements.",
+      "Prepare official transcripts and degree certificates for the BSc degree.",
+      "Gather proof of work experience and leadership for scholarships that require professional background (e.g., Chevening, Mastercard Foundation)."
+    ],
+    "reasoning": "The page lists many separate scholarships and fellowships, each with its own eligibility criteria (citizenship, age limits, degree level, current student status, English proficiency, etc.). The candidate meets some general conditions (age 27, Ethiopian nationality, holds a BSc, professional experience) but the specific requirements for each opportunity are not fully detailed, so we cannot confirm eligibility for any particular award. No hard blocker is explicitly stated, but the lack of detailed criteria creates uncertainty.",
+    "id": "6722adc99cc292e9",
+    "first_seen": "2026-10-31T11:04:00.778434+00:00",
+    "last_updated": "2026-10-31T11:04:00.778451+00:00"
+  },
+  "0f3dc1430d171e0d": {
+    "url": "https://scholarvana.com/2026/06/28/international-fellowships-2026",
+    "title": "International Fellowships 2026: 30 Fully Funded Programs for Global Applicants - Scholarvana",
+    "status": "notified",
+    "score": 5.0,
+    "category": "fellowships",
+    "official_url": "https://scholarvana.com/2026/06/28/international-fellowships-2026",
+    "location": null,
+    "remote": null,
+    "deadline": null,
+    "reward": "fully_funded",
+    "estimated_value": null,
+    "eligibility_status": "PROBABLY_ELIGIBLE",
+    "credibility_status": "LIKELY_LEGITIMATE",
+    "source_tier": "TIER_4",
+    "source_quality": 0,
+    "requirements": [],
+    "id": "0f3dc1430d171e0d",
+    "first_seen": "2026-10-31T11:07:02.761111+00:00",
+    "last_updated": "2026-10-31T11:09:17.666016+00:00",
+    "notification_tier": "WATCHLIST",
+    "notified_at": "2026-10-31T11:09:17.652859+00:00"
+  },
+  "2657273370c1f2b7": {
+    "url": "https://www.opportunitiesforafricans.com/the-gates-foundation-ai-fellows-program-2027-for-young-african-innovators/",
+    "title": "The Gates Foundation AI Fellows Program 2027 for young African Innovators.",
+    "status": "suspicious",
+    "credibility_status": "SUSPICIOUS",
+    "source_tier": "TIER_3",
+    "reasoning": "The page does not link to an official Gates Foundation domain and uses generic email addresses (e.g., @gmail.com) instead of @gatesfoundation.org. No known Gates Foundation AI Fellows program exists publicly, and the posting provides a far‑future deadline and requires applicants to already have legal work status, which are typical traits of dubious listings.",
+    "id": "2657273370c1f2b7",
+    "first_seen": "2026-10-31T11:08:02.392878+00:00",
+    "last_updated": "2026-10-31T11:08:02.392902+00:00"
+  },
+  "f831a424c719ab5a": {
+    "url": "https://www.globalsouthopportunities.com/2026/07/16/bank-8",
+    "title": "World Bank Opens Applications for 2027 Africa Fellowship Program for PhD Candidates and Recent Graduates - Global South Opportunities",
+    "status": "closed",
+    "deadline": null,
+    "id": "f831a424c719ab5a",
+    "first_seen": "2026-10-31T11:08:41.189363+00:00",
+    "last_updated": "2026-10-31T11:08:41.189376+00:00"
+  },
+  "cbc98f1b527f4b7e": {
+    "url": "https://www.mandelawashingtonfellowship.org/wp-content/uploads/2026/09/2027-Mandela-Washington-Fellowship-Application-Instructions_Final_9.17.2026-1.pdf",
+    "title": "2027 Mandela Washington Fellowship Application Instructions",
+    "status": "unknown",
+    "eligibility_status": "UNCERTAIN",
+    "model_eligibility_status": "UNCERTAIN",
+    "missing_requirements": [
+      "Nationality eligibility (e.g., whether Ethiopian nationals are accepted)",
+      "Current student status (whether the candidate must be enrolled in a degree program)",
+      "Age limit (if any age cap is specified)",
+      "Degree level requirement (e.g., undergraduate, graduate, postdoctoral)",
+      "English language proficiency requirement (specific test scores or alternatives such as Duolingo or MOI)",
+      "Academic transcripts and degree certificates",
+      "Statement of Purpose (SOP)",
+      "Curriculum Vitae (CV) or resume",
+      "Research proposal (if applicable)",
+      "Letters of recommendation",
+      "Proof of financial need or scholarship justification",
+      "Specific field of study or major restrictions",
+      "Geographic or regional restrictions",
+      "Funding coverage details (tuition, living expenses, health insurance)",
+      "Application deadline",
+      "Application fee amount (especially if over $50)",
+      "Health insurance requirements",
+      "Visa support and work restrictions",
+      "Any additional documents (e.g., portfolio, publications, project demonstrations)",
+      "Compliance with program-specific rules (e.g., no fee-paying summits, partially funded programs, online-only certificates)"
+    ],
+    "blocking_issues": [],
+    "addressable_gaps": [],
+    "reasoning": "The program text is provided as a binary PDF that cannot be parsed to extract readable requirements. Without access to the scholarship's stated criteria, it is impossible to verify any eligibility factors (e.g., nationality restrictions, student status, age limits, degree level, English proficiency, required documents, funding details, etc.). Consequently, the candidate’s eligibility cannot be determined.",
+    "id": "cbc98f1b527f4b7e",
+    "first_seen": "2026-10-31T11:09:12.288909+00:00",
+    "last_updated": "2026-10-31T11:09:12.288922+00:00"
   }
 }
