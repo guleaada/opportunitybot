@@ -1,67 +1,5 @@
 [
   {
-    "at": "2026-10-04T11:00:56.364797+00:00",
-    "kind": "run",
-    "mode": "watchlist",
-    "environment": "github_actions",
-    "stats": {
-      "discovered": 0,
-      "already_seen": 0,
-      "known_scam": 0,
-      "fetch_failed": 0,
-      "first_pass_dropped": 0,
-      "scam": 0,
-      "legit_unknown": 0,
-      "ineligible": 2,
-      "closed": 0,
-      "deep_analyzed": 0,
-      "scored_high": 0,
-      "eligibility_demoted": 0,
-      "jina_fetch": 0,
-      "jina_failed": 0,
-      "snippet_fallback": 1,
-      "legit_unparseable": 0,
-      "trusted_thin_pass": 0,
-      "reopened": 2,
-      "matches": 0
-    }
-  },
-  {
-    "at": "2026-10-04T11:00:56.571494+00:00",
-    "kind": "scan_start",
-    "message": "daily scan started"
-  },
-  {
-    "at": "2026-10-04T11:06:59.609464+00:00",
-    "kind": "error",
-    "message": "Fetch failed for https://www.dfat.gov.au/people-to-people/australia-awards/australia-awards-scholarships: HTTPSConnectionPool(host='www.dfat.gov.au', port=443): Read timed out. (read timeout=25)"
-  },
-  {
-    "at": "2026-10-04T11:06:59.856990+00:00",
-    "kind": "error",
-    "message": "Fetch failed for https://vanier.gc.ca/en/home-accueil.html: HTTPSConnectionPool(host='vanier.gc.ca', port=443): Max retries exceeded with url: /en/home-accueil.html (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)')))"
-  },
-  {
-    "at": "2026-10-04T11:07:00.080242+00:00",
-    "kind": "error",
-    "message": "Fetch failed for https://opportunitydesk.org/category/fellowships/: 403"
-  },
-  {
-    "at": "2026-10-04T11:08:29.137355+00:00",
-    "kind": "error",
-    "message": "Fetch failed for https://www2.fundsforngos.org/listing/latest-global-awards-prizes-innovation-challenges-for-changemakers: 403"
-  },
-  {
-    "at": "2026-10-04T11:09:00.242676+00:00",
-    "kind": "error",
-    "message": "Fetch failed for https://www.scholarshipbob.com/contest/14: 403"
-  },
-  {
-    "at": "2026-10-04T11:10:35.431994+00:00",
-    "kind": "error",
-    "message": "Fetch failed for https://www2.fundsforngos.org/individuals/open-call-for-never-such-innocence-international-competition: 403"
-  },
-  {
     "at": "2026-10-04T11:11:11.179880+00:00",
     "kind": "scan_complete",
     "message": "daily scan finished",
@@ -4756,6 +4694,181 @@
       "signal_rescued": 2,
       "deduped": 0,
       "matches": 2
+    }
+  },
+  {
+    "at": "2026-11-01T11:45:38.960617+00:00",
+    "kind": "error",
+    "message": "Fetch failed for https://www.merriam-webster.com/dictionary/fully: 403"
+  },
+  {
+    "at": "2026-11-01T11:46:26.705228+00:00",
+    "kind": "run",
+    "mode": "watchlist",
+    "environment": "github_actions",
+    "stats": {
+      "discovered": 0,
+      "already_seen": 0,
+      "known_scam": 0,
+      "fetch_failed": 0,
+      "first_pass_dropped": 1,
+      "scam": 0,
+      "legit_unknown": 0,
+      "ineligible": 0,
+      "closed": 0,
+      "deep_analyzed": 1,
+      "scored_high": 1,
+      "eligibility_demoted": 0,
+      "jina_fetch": 0,
+      "jina_failed": 0,
+      "snippet_fallback": 1,
+      "legit_unparseable": 0,
+      "trusted_thin_pass": 0,
+      "reopened": 2,
+      "matches": 1
+    }
+  },
+  {
+    "at": "2026-11-01T11:46:26.994970+00:00",
+    "kind": "scan_start",
+    "message": "daily scan started"
+  },
+  {
+    "at": "2026-11-01T11:51:01.174429+00:00",
+    "kind": "error",
+    "message": "Fetch failed for https://www.dfat.gov.au/people-to-people/australia-awards/australia-awards-scholarships: HTTPSConnectionPool(host='www.dfat.gov.au', port=443): Read timed out. (read timeout=25)"
+  },
+  {
+    "at": "2026-11-01T11:51:01.268874+00:00",
+    "kind": "error",
+    "message": "Fetch failed for https://www.ifundwomen.com/grants/apply-for-grants: 403"
+  },
+  {
+    "at": "2026-11-01T11:52:33.820379+00:00",
+    "kind": "error",
+    "message": "Fetch failed for https://www.facebook.com/thekeronrose/posts/remote-opportunities-continue-to-grow-and-in-2026-more-companies-than-ever-are-h/1499293668866212: 400"
+  },
+  {
+    "at": "2026-11-01T12:00:20.024089+00:00",
+    "kind": "scan_complete",
+    "message": "daily scan finished",
+    "matches": 0,
+    "stats": {
+      "discovered": 270,
+      "already_seen": 103,
+      "known_scam": 0,
+      "fetch_failed": 1,
+      "first_pass_dropped": 1,
+      "scam": 1,
+      "legit_unknown": 2,
+      "ineligible": 3,
+      "closed": 0,
+      "deep_analyzed": 1,
+      "scored_high": 0,
+      "eligibility_demoted": 0,
+      "jina_fetch": 0,
+      "jina_failed": 0,
+      "snippet_fallback": 2,
+      "legit_unparseable": 1,
+      "trusted_thin_pass": 0,
+      "discovery": {
+        "tavily": {
+          "attempted": 20,
+          "successful": 20,
+          "429": 0,
+          "403": 0,
+          "errors": 0,
+          "candidates": 160,
+          "queries_planned": 20,
+          "disabled_reason": ""
+        },
+        "rss": {
+          "attempted": 4,
+          "successful": 4,
+          "failed": 0,
+          "skipped_dead": 1,
+          "candidates": 56
+        },
+        "api": {
+          "sources": 2,
+          "healthy": 2,
+          "failed": 0,
+          "candidates": 52
+        },
+        "seed": {
+          "attempted": 14,
+          "candidates": 14
+        },
+        "total": {
+          "raw": 282,
+          "after_dedupe": 270
+        }
+      },
+      "signal_rescued": 1,
+      "analysis_unavailable": 5,
+      "deduped": 0
+    }
+  },
+  {
+    "at": "2026-11-01T12:00:20.028741+00:00",
+    "kind": "run",
+    "mode": "scan",
+    "environment": "github_actions",
+    "stats": {
+      "discovered": 270,
+      "already_seen": 103,
+      "known_scam": 0,
+      "fetch_failed": 1,
+      "first_pass_dropped": 1,
+      "scam": 1,
+      "legit_unknown": 2,
+      "ineligible": 3,
+      "closed": 0,
+      "deep_analyzed": 1,
+      "scored_high": 0,
+      "eligibility_demoted": 0,
+      "jina_fetch": 0,
+      "jina_failed": 0,
+      "snippet_fallback": 2,
+      "legit_unparseable": 1,
+      "trusted_thin_pass": 0,
+      "discovery": {
+        "tavily": {
+          "attempted": 20,
+          "successful": 20,
+          "429": 0,
+          "403": 0,
+          "errors": 0,
+          "candidates": 160,
+          "queries_planned": 20,
+          "disabled_reason": ""
+        },
+        "rss": {
+          "attempted": 4,
+          "successful": 4,
+          "failed": 0,
+          "skipped_dead": 1,
+          "candidates": 56
+        },
+        "api": {
+          "sources": 2,
+          "healthy": 2,
+          "failed": 0,
+          "candidates": 52
+        },
+        "seed": {
+          "attempted": 14,
+          "candidates": 14
+        },
+        "total": {
+          "raw": 282,
+          "after_dedupe": 270
+        }
+      },
+      "signal_rescued": 1,
+      "analysis_unavailable": 5,
+      "deduped": 0,
+      "matches": 0
     }
   }
 ]

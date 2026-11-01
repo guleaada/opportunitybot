@@ -16947,8 +16947,8 @@
   "6bd77515353b959c": {
     "url": "https://www.opportunitiesforafricans.com/swedish-institute-scholarships-2027-for-global-professionals-for-masters-level-studies-in-sweden/",
     "title": "Swedish Institute Scholarships 2027 for Global Professionals for Master’s Level Studies in Sweden (Fully Funded)",
-    "status": "notified",
-    "score": 6.0,
+    "status": "analyzed",
+    "score": 6.5,
     "category": null,
     "official_url": "https://www.opportunitiesforafricans.com/swedish-institute-scholarships-2027-for-global-professionals-for-masters-level-studies-in-sweden/",
     "location": null,
@@ -16963,7 +16963,7 @@
     "requirements": [],
     "id": "6bd77515353b959c",
     "first_seen": "2026-10-23T09:56:11.620503+00:00",
-    "last_updated": "2026-10-23T10:08:18.959347+00:00",
+    "last_updated": "2026-11-01T11:45:15.245038+00:00",
     "notification_tier": "WATCHLIST",
     "notified_at": "2026-10-23T10:08:18.945681+00:00"
   },
@@ -18961,5 +18961,129 @@
     "id": "cbc98f1b527f4b7e",
     "first_seen": "2026-10-31T11:09:12.288909+00:00",
     "last_updated": "2026-10-31T11:09:12.288922+00:00"
+  },
+  "2d9c2a78558d12a5": {
+    "url": "https://www.merriam-webster.com/dictionary/fully",
+    "title": "FULLY Definition & Meaning - Merriam-Webster",
+    "status": "filtered_out",
+    "reason": "Not a scholarship/fellowship listing; just a dictionary entry.",
+    "id": "2d9c2a78558d12a5",
+    "first_seen": "2026-11-01T11:45:47.564701+00:00",
+    "last_updated": "2026-11-01T11:45:47.564715+00:00"
+  },
+  "16302efa10be1ffb": {
+    "url": "https://opportunitiescorners.com/govai-summer-fellowship-2027-in-london/",
+    "title": "GovAI Summer Fellowship 2027 in London (Fully Funded)",
+    "status": "suspicious",
+    "credibility_status": "SUSPICIOUS",
+    "source_tier": "TIER_3",
+    "reasoning": "The page provides no direct link to an official GovAI website or institutional email; the only contact is a generic Gmail address belonging to the aggregator. The description is vague, mentions a large stipend and visa sponsorship but offers no verifiable sponsor or partner, which are typical red flags for fraudulent fellowship listings.",
+    "id": "16302efa10be1ffb",
+    "first_seen": "2026-11-01T11:47:52.335848+00:00",
+    "last_updated": "2026-11-01T11:47:52.335866+00:00"
+  },
+  "2fba6b457b5d952b": {
+    "url": "https://opportunitiescorners.com/erasmus-planthealth3-scholarship/",
+    "title": "Erasmus PlantHealth3 Scholarship 2027/29 (Fully Funded)",
+    "status": "ineligible",
+    "eligibility_status": "PROBABLY_INELIGIBLE",
+    "model_eligibility_status": "PROBABLY_INELIGIBLE",
+    "missing_requirements": [],
+    "blocking_issues": [
+      "Degree field mismatch: candidate's BSc Psychology does not meet the required Agronomy/Agricultural Sciences or related field."
+    ],
+    "addressable_gaps": [],
+    "reasoning": "The program requires a bachelor's degree in Agronomy, Agricultural Sciences, or a related field. The candidate holds a BSc in Psychology, which is not a related field to plant health. This degree mismatch is a hard blocker. All other stated criteria (nationality, degree level, age) are met or not specified.",
+    "id": "2fba6b457b5d952b",
+    "first_seen": "2026-11-01T11:48:53.615306+00:00",
+    "last_updated": "2026-11-01T11:48:53.615322+00:00"
+  },
+  "7570c44bbb3d03b3": {
+    "url": "https://opportunitiescorners.com/utokyo-amgen-scholars-program-2027-in-japan/",
+    "title": "UTokyo Amgen Scholars Program 2027 in Japan (Fully Funded Internship)",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "model_eligibility_status": "CONFIRMED_INELIGIBLE",
+    "missing_requirements": [],
+    "blocking_issues": [
+      "Must be currently enrolled in a bachelor's degree program (undergraduate student)",
+      "Must not have graduated before the internship (candidate graduated in 2021)",
+      "Nationality/region not covered: Ethiopia/Africa not listed; Asia track requires current enrollment in an Asian university for a bachelor's degree"
+    ],
+    "addressable_gaps": [
+      "English language proficiency (candidate can obtain Duolingo or MOI certificate)"
+    ],
+    "reasoning": "The UTokyo Amgen Scholars Program 2027 is explicitly for current undergraduate (bachelor's) students who have not yet graduated. The eligibility criteria state: 'Completed at least one year of undergraduate study. Must not have graduated before the internship.' The candidate graduated with a BSc in 2021 and is a working professional, not a student. Additionally, the program's regional eligibility lists USA, Europe, Australia/NZ/Oceania, and Asia (only for students enrolled in an Asian university pursuing a bachelor's degree). Ethiopia/Africa is not listed as an eligible region, and the candidate is not enrolled in an Asian university for a bachelor's degree.",
+    "id": "7570c44bbb3d03b3",
+    "first_seen": "2026-11-01T11:50:24.891008+00:00",
+    "last_updated": "2026-11-01T11:50:24.891021+00:00"
+  },
+  "608c57c728b16028": {
+    "url": "https://www.ifundwomen.com/grants/apply-for-grants",
+    "title": "Open Grants & How to Apply",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "model_eligibility_status": "CONFIRMED_INELIGIBLE",
+    "missing_requirements": [],
+    "blocking_issues": [
+      "Gender mismatch - program is exclusively for women founders; candidate is male"
+    ],
+    "addressable_gaps": [],
+    "reasoning": "The program explicitly states it is for 'women founders' (Open Grants & How to Apply - Apply for open small business grants for women founders, including the $5K IFW Startup Accelerator grant). The candidate, Gulilat Kasiye Worku, is male (Gulilat), which creates a direct gender mismatch that blocks eligibility. No other criterion in the program text creates a blocker; the candidate is a working professional (not a student) with a BSc degree, age 27 (within typical grant age ranges), and Ethiopian nationality (not excluded).",
+    "id": "608c57c728b16028",
+    "first_seen": "2026-11-01T11:51:15.041820+00:00",
+    "last_updated": "2026-11-01T11:51:15.041837+00:00"
+  },
+  "2f04126f1268bb2f": {
+    "url": "https://www.capitalklub.com/item-detail?recordId=rec4uVX0xvnd6IR9L",
+    "title": "Solo Grants",
+    "status": "legitimacy_unknown",
+    "credibility_status": "NEEDS_VERIFICATION",
+    "source_tier": "TIER_4",
+    "reasoning": "The provided page text only shows 'Solo Grants' with no details about fees, organizers, contact information, or legitimacy indicators, making it impossible to assess the program's credibility.",
+    "id": "2f04126f1268bb2f",
+    "first_seen": "2026-11-01T11:51:30.484244+00:00",
+    "last_updated": "2026-11-01T11:51:30.484258+00:00"
+  },
+  "b56032721b5f38ef": {
+    "url": "https://www.instagram.com/reel/DfJ721xR7KE",
+    "title": "Instagram",
+    "status": "filtered_out",
+    "reason": "No clear scholarship/fellowship details provided, only \"Instagram\".",
+    "id": "b56032721b5f38ef",
+    "first_seen": "2026-11-01T11:51:32.409876+00:00",
+    "last_updated": "2026-11-01T11:51:32.409890+00:00"
+  },
+  "9b001200a1cdc924": {
+    "url": "https://wearerevamped.com/remote-jobs",
+    "title": "Remote Companies Hiring Now (2026) - Revamped",
+    "status": "analyzed",
+    "score": 3.0,
+    "category": "remote_jobs",
+    "official_url": "https://wearerevamped.com/remote-jobs",
+    "location": null,
+    "remote": null,
+    "deadline": null,
+    "reward": "none",
+    "estimated_value": null,
+    "eligibility_status": "PROBABLY_ELIGIBLE",
+    "credibility_status": "LIKELY_LEGITIMATE",
+    "source_tier": "TIER_4",
+    "source_quality": 0,
+    "requirements": [],
+    "id": "9b001200a1cdc924",
+    "first_seen": "2026-11-01T11:52:33.547667+00:00",
+    "last_updated": "2026-11-01T11:52:33.547684+00:00"
+  },
+  "b125e5b37b3096c8": {
+    "url": "https://www.facebook.com/thekeronrose/posts/remote-opportunities-continue-to-grow-and-in-2026-more-companies-than-ever-are-h/1499293668866212",
+    "title": "The Top International Remote Job Boards (2026)",
+    "status": "legitimacy_unknown",
+    "credibility_status": "NEEDS_VERIFICATION",
+    "source_tier": "TIER_4",
+    "reasoning": "The page only contains a generic title and a brief statement about remote job growth with no details about the organizer, fees, or contact information, making it impossible to verify legitimacy or identify red flags.",
+    "id": "b125e5b37b3096c8",
+    "first_seen": "2026-11-01T11:52:44.215262+00:00",
+    "last_updated": "2026-11-01T11:52:44.215277+00:00"
   }
 }
