@@ -18280,19 +18280,14 @@
     "eligibility_status": "UNCERTAIN",
     "model_eligibility_status": "UNCERTAIN",
     "missing_requirements": [
-      "Verification that the candidate’s university is on the approved list of institutions.",
-      "Explicit language proficiency requirement (if any) and acceptable test scores."
+      "Verification that Injibara University is on the program's list of approved institutions for the bachelor's degree requirement"
     ],
     "blocking_issues": [],
-    "addressable_gaps": [
-      "Obtain an English proficiency test result (e.g., Duolingo, IELTS, TOEFL) if required.",
-      "Provide a Medium‑of‑Instruction (MOI) certificate or other proof that the degree meets program standards.",
-      "Confirm that Injibara University appears on the program’s list of approved institutions."
-    ],
-    "reasoning": "The candidate meets clear criteria: Ethiopian citizenship (African), age 27 (<35), holds a BSc and is not currently pursuing a Master’s. However, the program requires the bachelor’s degree to be from a university on an approved list, which is not provided in the text, so we cannot verify that Injibara University is eligible. Additionally, any English‑language proficiency requirement is not stated, leaving it unclear whether the candidate’s lack of an IELTS/TOEFL certificate is a barrier.",
+    "addressable_gaps": [],
+    "reasoning": "The candidate meets clear criteria: Ethiopian citizenship (African), age 27 (under 35), holds a bachelor's degree and is not currently pursuing a master's. The program requires the bachelor's degree to be from an institution on an approved list, but the list is not provided in the program text, so we cannot verify whether Injibara University is included. This decision‑relevant requirement is missing, creating uncertainty.",
     "id": "d99c4b3cd3009c28",
     "first_seen": "2026-10-29T11:33:26.996430+00:00",
-    "last_updated": "2026-10-29T11:33:26.996445+00:00"
+    "last_updated": "2026-11-02T13:14:09.553193+00:00"
   },
   "a4ecd8513789e69c": {
     "url": "https://www.opportunitiesforafricans.com/the-mtn-global-graduate-development-programme-2027/",
@@ -18302,15 +18297,17 @@
     "model_eligibility_status": "CONFIRMED_INELIGIBLE",
     "missing_requirements": [],
     "blocking_issues": [
-      "Nationality mismatch (Ethiopian, not Nigerian)",
-      "Graduation year earlier than required (2021 vs no earlier than 2024)",
-      "NYSC completion required, not satisfied"
+      "Nationality not Nigerian",
+      "Graduated earlier than 2024 (2021)",
+      "No NYSC certificate (required for September 2026)"
     ],
-    "addressable_gaps": [],
-    "reasoning": "The programme explicitly requires applicants to be \"young Nigerian graduates\" and to have completed the Nigerian National Youth Service Corps (NYSC) in September 2026. The candidate is an Ethiopian national, not Nigerian, and has not completed NYSC. Additionally, the graduation date requirement is \"no earlier than 2024\"; the candidate graduated in 2021, which does not meet this criterion.",
+    "addressable_gaps": [
+      "English fluency proof (e.g., IELTS, Duolingo, MOI certificate) – can be obtained"
+    ],
+    "reasoning": "The programme explicitly requires applicants to be *young Nigerian graduates*. The candidate is Ethiopian, not Nigerian (hard blocker). It also requires graduation *no earlier than 2024* with at least a 2:1 grade; the candidate graduated in 2021 (hard blocker). Additionally, applicants must have completed the Nigerian National Youth Service Corps (NYSC) in September 2026, which the candidate cannot have done (hard blocker). While the candidate can demonstrate English proficiency, the nationality, graduation date, and NYSC requirements alone disqualify them.",
     "id": "a4ecd8513789e69c",
     "first_seen": "2026-10-29T11:34:23.142446+00:00",
-    "last_updated": "2026-10-29T11:34:23.142461+00:00"
+    "last_updated": "2026-11-02T13:15:08.063995+00:00"
   },
   "774bded16503b909": {
     "url": "https://www.rockefellerfoundation.org/fellowships-convenings/big-bets-fellowships/africa",
@@ -19085,5 +19082,210 @@
     "id": "b125e5b37b3096c8",
     "first_seen": "2026-11-01T11:52:44.215262+00:00",
     "last_updated": "2026-11-01T11:52:44.215277+00:00"
+  },
+  "a680f4f54a52f828": {
+    "url": "https://www.opportunitiesforafricans.com/the-international-journalists-programmes-ijp-southern-african-journalists-fellowship-programme-2027/",
+    "title": "The International Journalists‘ Programmes (IJP) Southern-African Journalists’ Fellowship Programme 2027 in Germany (3,500 Euro Stipend).",
+    "status": "legitimacy_unknown",
+    "credibility_status": "NEEDS_VERIFICATION",
+    "source_tier": "TIER_3",
+    "reasoning": "The listing does not require any application fee and does not pressure applicants to pay, which are typical scam signs. However, the program lacks a verifiable official website, uses only generic contact emails on the aggregator domain, and provides no clear information about the sponsoring organization, making its legitimacy uncertain.",
+    "id": "a680f4f54a52f828",
+    "first_seen": "2026-11-02T13:17:33.628992+00:00",
+    "last_updated": "2026-11-02T13:17:33.629003+00:00"
+  },
+  "3345df1c38b285ea": {
+    "url": "https://opportunitiescorners.com/max-planck-mpiib-internship-2027/",
+    "title": "Max Planck MPIIB Internship 2027 in Germany (Fully Funded)",
+    "status": "suspicious",
+    "credibility_status": "SUSPICIOUS",
+    "source_tier": "TIER_3",
+    "reasoning": "The page uses a free Gmail address (opportunitiescorners.com@gmail.com) for official contact and does not provide a direct Max Planck Institute URL, which are red‑flags for legitimacy, though it does not request any payment.",
+    "id": "3345df1c38b285ea",
+    "first_seen": "2026-11-02T13:18:40.608617+00:00",
+    "last_updated": "2026-11-02T13:18:40.608635+00:00"
+  },
+  "57fa886f7afba8be": {
+    "url": "https://opportunitiescorners.com/japan-winter-culture-camp-2027/",
+    "title": "Japan WINTER Culture Camp 2027 (Fully Funded)",
+    "status": "suspicious",
+    "credibility_status": "SUSPICIOUS",
+    "source_tier": "TIER_3",
+    "reasoning": "The page lists a fully funded camp but provides only a generic Gmail address (opportunitiescorners.com@gmail.com) as contact and no official AYFN domain or detailed application link, which are atypical for legitimate scholarship programs. While no direct fee request is mentioned, the reliance on a third‑party aggregator and lack of verifiable institutional contact raise concerns.",
+    "id": "57fa886f7afba8be",
+    "first_seen": "2026-11-02T13:19:26.510304+00:00",
+    "last_updated": "2026-11-02T13:19:26.510317+00:00"
+  },
+  "e27d90fb04d461e9": {
+    "url": "https://opportunitiescorners.com/caltech-summer-research-program-2027/",
+    "title": "CALTECH Summer Research Program 2027 in USA (Fully Funded)",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "model_eligibility_status": "CONFIRMED_INELIGIBLE",
+    "missing_requirements": [
+      "Cumulative GPA (not provided in candidate profile)",
+      "Additional unspecified requirements for International students"
+    ],
+    "blocking_issues": [
+      "Must be a currently enrolled undergraduate student (candidate is not a student)",
+      "Degree level mismatch: program requires undergraduate status, candidate holds a completed bachelor's degree"
+    ],
+    "addressable_gaps": [],
+    "reasoning": "The program explicitly states that only Undergraduate students can apply. The candidate is a 27‑year‑old working professional who has already completed a BSc and is not currently enrolled in an undergraduate program, which violates the core eligibility criterion. Nationality is acceptable (Ethiopian) and there is no age limit mentioned, but the student‑status requirement is a hard blocker.",
+    "id": "e27d90fb04d461e9",
+    "first_seen": "2026-11-02T13:20:39.169723+00:00",
+    "last_updated": "2026-11-02T13:20:39.169736+00:00"
+  },
+  "930785f34cab478b": {
+    "url": "https://www.opportunitiesforafricans.com/continental-reinsurance-plc-pan-african-re-insurance-journalism-awards-2027/",
+    "title": "Continental Reinsurance Plc Pan-African Re/Insurance Journalism Awards 2027 for Young African Journalists",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "model_eligibility_status": "CONFIRMED_INELIGIBLE",
+    "missing_requirements": [],
+    "blocking_issues": [
+      "Not a journalist (no evidence of journalism profession)",
+      "No published journalism work within the required period (1 Feb 2026 – 31 Jan 2027)"
+    ],
+    "addressable_gaps": [
+      "Could create and publish eligible journalism pieces before the deadline (requires time and resources)"
+    ],
+    "reasoning": "The program explicitly requires entries to be submitted by \"journalists\" (print, online, broadcast, or social media) with work published or broadcast between 1 Feb 2026 and 31 Jan 2027. The candidate’s profile lists no journalism experience, no published articles, broadcasts, or social‑media journalism pieces, and identifies her as an AI developer/marketing specialist/psychologist, not a journalist. Therefore she does not meet the core eligibility criterion of being a journalist with eligible published work.",
+    "id": "930785f34cab478b",
+    "first_seen": "2026-11-02T13:21:37.823011+00:00",
+    "last_updated": "2026-11-02T13:21:37.823024+00:00"
+  },
+  "43743d4a2c537869": {
+    "url": "https://www.opportunitiesforafricans.com/hive-colab-mastercard-foundation-edtech-fellowship-2027-for-growth-stage-ugandan-edtech-ventures/",
+    "title": "Hive Colab Mastercard Foundation EdTech Fellowship 2027 for growth-stage Ugandan EdTech Ventures.",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "model_eligibility_status": "CONFIRMED_INELIGIBLE",
+    "missing_requirements": [],
+    "blocking_issues": [
+      "Venture not locally founded/led in Uganda (requires Ugandan leadership and registration)",
+      "Candidate does not have a Ugandan EdTech venture"
+    ],
+    "addressable_gaps": [],
+    "reasoning": "The fellowship explicitly requires the venture to be 'locally founded and locally led, with leadership and decision-making rooted in Uganda' and to operate primarily in Uganda. The candidate is an Ethiopian national based in Laos with no indication of owning or leading a Ugandan‑registered EdTech venture. Therefore the core eligibility criterion is not met.",
+    "id": "43743d4a2c537869",
+    "first_seen": "2026-11-02T13:22:38.209857+00:00",
+    "last_updated": "2026-11-02T13:22:38.209869+00:00"
+  },
+  "0b3776a735eac815": {
+    "url": "https://www.facebook.com/opportunitiesforyouth/posts/25-fully-funded-fellowship-opportunities-20262028-looking-for-research-funding/1566081048882576",
+    "title": "🚀 25 Fully Funded Fellowship Opportunities 2026–2028! 🌍 ...",
+    "status": "closed",
+    "deadline": null,
+    "id": "0b3776a735eac815",
+    "first_seen": "2026-11-02T13:23:05.413180+00:00",
+    "last_updated": "2026-11-02T13:23:05.413192+00:00"
+  },
+  "a81eb473cd1829dc": {
+    "url": "https://www.opportunitiesforafricans.com/st-gallen-symposium-global-ideas-competition-2027/",
+    "title": "St. Gallen Symposium Global Ideas Competition 2027 (CHF 20,000 Prize & expenses-paid participation to the 56th St. Gallen Symposium in Switzerland)",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "model_eligibility_status": "CONFIRMED_INELIGIBLE",
+    "missing_requirements": [],
+    "blocking_issues": [
+      "Must be enrolled in a graduate or postgraduate programme (master level or higher) as of 1 Feb 2027",
+      "Current education level is only a bachelor's degree"
+    ],
+    "addressable_gaps": [],
+    "reasoning": "The competition explicitly requires applicants to be enrolled in a graduate or postgraduate programme (master level or higher) as of 1 February 2027. The candidate is a working professional and not currently enrolled in any graduate programme, and holds only a BSc degree. This does not meet the core enrollment requirement, resulting in a hard blocker. All other criteria (age, African nationality) are satisfied.",
+    "id": "a81eb473cd1829dc",
+    "first_seen": "2026-11-02T13:23:56.452124+00:00",
+    "last_updated": "2026-11-02T13:23:56.452135+00:00"
+  },
+  "1e197ef0e16e29b4": {
+    "url": "https://www.opportunitiesforafricans.com/the-eep-africa-rising-energy-leader-2026-for-young-professionals/",
+    "title": "The EEP Africa Rising Energy Leader 2026 for young professionals.",
+    "status": "legitimacy_unknown",
+    "credibility_status": "NEEDS_VERIFICATION",
+    "source_tier": "TIER_3",
+    "reasoning": "The listing does not request any application fee, which is a positive sign, but it provides only generic contact emails and no direct link to an official EEP Africa website or sponsor information, making it impossible to verify the program's authenticity.",
+    "id": "1e197ef0e16e29b4",
+    "first_seen": "2026-11-02T13:24:34.538588+00:00",
+    "last_updated": "2026-11-02T13:24:34.538600+00:00"
+  },
+  "beddddd3ba116125": {
+    "url": "https://www.siani.se/opportunity/2027-28-princeton-in-africa-fellowship",
+    "title": "2027-28 Princeton in Africa Fellowship - SIANI",
+    "status": "legitimacy_unknown",
+    "credibility_status": "NEEDS_VERIFICATION",
+    "source_tier": "TIER_4",
+    "reasoning": "The page provides only a title with no details about eligibility, application process, or fees. Without information on whether a fee is required or who the official sponsor is, we cannot confirm legitimacy.",
+    "id": "beddddd3ba116125",
+    "first_seen": "2026-11-02T13:24:49.282675+00:00",
+    "last_updated": "2026-11-02T13:24:49.282685+00:00"
+  },
+  "3ff6976a4a8e2b5c": {
+    "url": "https://www.afdb.org/en/vacancy/2027-mo-ibrahim-foundation-leadership-fellowship-program-96407",
+    "title": "2027 Mo Ibrahim Foundation Leadership Fellowship Program",
+    "status": "notified",
+    "score": 6.4,
+    "category": "fellowships",
+    "official_url": "https://www.afdb.org/en/vacancy/2027-mo-ibrahim-foundation-leadership-fellowship-program-96407",
+    "location": null,
+    "remote": null,
+    "deadline": "2026-11-20",
+    "reward": "fully_funded",
+    "estimated_value": null,
+    "eligibility_status": "PROBABLY_ELIGIBLE",
+    "credibility_status": "LIKELY_LEGITIMATE",
+    "source_tier": "TIER_4",
+    "source_quality": 0,
+    "requirements": [
+      "Curriculum Vitae (CV)",
+      "Academic transcripts",
+      "Letters of recommendation (3)"
+    ],
+    "id": "3ff6976a4a8e2b5c",
+    "first_seen": "2026-11-02T13:25:44.208410+00:00",
+    "last_updated": "2026-11-02T13:28:02.897028+00:00",
+    "notification_tier": "GOOD",
+    "notified_at": "2026-11-02T13:28:02.883926+00:00"
+  },
+  "74e9c405353a7e0f": {
+    "url": "https://umojacommunity.org/umoja-international-student-fellowship-program",
+    "title": "Umoja International Student Fellowship Program | Umoja Community",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "model_eligibility_status": "CONFIRMED_INELIGIBLE",
+    "missing_requirements": [],
+    "blocking_issues": [
+      "Not a current Umoja student at a participating California community college (hard blocker)",
+      "Not currently enrolled in any academic program (must be a student)"
+    ],
+    "addressable_gaps": [],
+    "reasoning": "The program requires applicants to be a \"Current Umoja student at a participating California community college\" with a minimum GPA and completed units. The candidate is a working professional, not currently enrolled as a student, and is not affiliated with a California community college or the Umoja program. Therefore the core eligibility criterion is not met.",
+    "id": "74e9c405353a7e0f",
+    "first_seen": "2026-11-02T13:27:39.752601+00:00",
+    "last_updated": "2026-11-02T13:27:39.752613+00:00"
+  },
+  "be5eaf36526b207f": {
+    "url": "https://www.facebook.com/JobsToApply1/posts/applications-are-now-open-for-the-princeton-in-africa-fellowship-202728-link-gra/1171775772192181",
+    "title": "Princeton in Africa Fellowship 2027-28 applications open - Facebook",
+    "status": "ineligible",
+    "eligibility_status": "PROBABLY_INELIGIBLE",
+    "model_eligibility_status": "PROBABLY_INELIGIBLE",
+    "missing_requirements": [
+      "Exact wording of the U.S. institution requirement (full sentence not provided)",
+      "English language score requirement (not stated)",
+      "Application fee limit (not stated)",
+      "Any citizenship or residency restrictions (not stated)"
+    ],
+    "blocking_issues": [
+      "Degree not obtained from a four‑year U.S. institution (hard blocker)"
+    ],
+    "addressable_gaps": [
+      "English proficiency proof (can obtain Duolingo or MOI certificate)",
+      "Any unspecified application fee or documentation"
+    ],
+    "reasoning": "The program states that applicants must be \"Bachelor's, Master's or PhD graduates of a four‑year U.S. ...\" (presumably a U.S. university). Gulilat holds a BSc from Injibara University in Ethiopia, not a U.S. institution, which does not satisfy this explicit requirement. All other known criteria (age, professional status, degree level) are met or not excluded.",
+    "id": "be5eaf36526b207f",
+    "first_seen": "2026-11-02T13:27:57.609796+00:00",
+    "last_updated": "2026-11-02T13:27:57.609808+00:00"
   }
 }

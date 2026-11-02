@@ -1285,7 +1285,8 @@
     "last_known_deadline": null,
     "reason": "closed at discovery; likely annual",
     "id": "8e4b910d9e650bf9",
-    "added": "2026-10-27T10:31:54.692764+00:00"
+    "added": "2026-11-02T13:13:28.713973+00:00",
+    "last_checked": "2026-11-02T13:13:28.713035"
   },
   "a6a9ec40ae0ed35a": {
     "url": "https://techbuild.africa/apply-for-startup-challenge-2026-e10k",
@@ -1293,7 +1294,8 @@
     "last_known_deadline": "2026-07-21",
     "reason": "closed at discovery; likely annual",
     "id": "a6a9ec40ae0ed35a",
-    "added": "2026-10-27T10:32:19.492117+00:00"
+    "added": "2026-11-02T13:13:30.649263+00:00",
+    "last_checked": "2026-11-02T13:13:30.648622"
   },
   "ccbf19821a384bb9": {
     "url": "https://onegiantleap.com/startup/rocketfuel-pitch-competition-stage",
@@ -1301,25 +1303,8 @@
     "last_known_deadline": null,
     "reason": "monitoring — not confirmed open at scan time",
     "id": "ccbf19821a384bb9",
-    "added": "2026-10-27T10:41:07.592525+00:00"
-  },
-  "d99c4b3cd3009c28": {
-    "url": "https://www.opportunitiesforafricans.com/the-sciences-po-mastercard-foundation-scholars-program-2027-for-graduate-study-in-france/",
-    "title": "The Sciences Po Mastercard Foundation Scholars Program 2027 for Graduate Study in France (Fully Funded to France)",
-    "reason": "ANALYSIS_UNAVAILABLE — deep_eligibility: incomplete or invalid response after retry",
-    "retry_analysis": true,
-    "snippet": "Application Deadline: 14 December 2026 Applications are now open for the Sciences Po Mastercard Foundation Scholars Program. The Mastercard Foundation Scholars Program at Sciences Po is designed for students from… The post The Sciences Po Mastercard Foundation Scholars Program 2027 for Graduate Study in France (Fully Funded to France) appeared first on Opportunities For Africans .",
-    "id": "d99c4b3cd3009c28",
-    "added": "2026-10-28T11:17:25.649724+00:00"
-  },
-  "a4ecd8513789e69c": {
-    "url": "https://www.opportunitiesforafricans.com/the-mtn-global-graduate-development-programme-2027/",
-    "title": "The MTN Global Graduate Development Programme 2027 for young Nigerian graduates.",
-    "retry_analysis": true,
-    "snippet": "Application Deadline: November 6, 2026 Applications are now open for the 2027 MTN Global Graduate Development Programme. MTN’s Global Graduate Development Programme seeks to source, develop, and accelerate top graduates… The post The MTN Global Graduate Development Programme 2027 for young Nigerian graduates. appeared first on Opportunities For Africans .",
-    "reason": "legitimacy check returned an unparseable reply; retry on a later run",
-    "id": "a4ecd8513789e69c",
-    "added": "2026-10-28T11:17:35.683340+00:00"
+    "added": "2026-11-02T13:13:36.309017+00:00",
+    "last_checked": "2026-11-02T13:13:36.308330"
   },
   "d4757b812b91d1ff": {
     "url": "https://scholarshiphubnow.com/fellowships",
@@ -1486,5 +1471,22 @@
     "snippet": "logo\n\nWE ACCELERATE THE GROWTH OF TOP-TIER PRE-SEED STARTUPS\n\n## ABOUT US\n\n### INVESTING IN AFRICA'S UPCOMING UNICORNS\n\n### We're a venture capital firm that invests in African tech-based startups\n\n### We provide pre-seed funding, mentorship, and strategic connections\n\n### We accelerate the growth of top-tier tech pre-seed startups\n\n## We Focus On\n\n### Founders And Technology\n\n## INVESTMENT CRITERIA\n\nSTAGE\n\nPRE-SEED\n\nWe’re first institutional investor\n\nREGION\n\nAFRICA [...] REGION\n\nAFRICA\n\nWe invest in Sub-Saharan Africa\n\nINDUSTRY\n\nAGNOSTIC\n\nWe invest in tech\n\n## INVESTMENT PROCESS\n\n## Stage 1\n\nWe make a pre-seed investment of  \nup to $100K, becoming the first institutional investor.\n\n## Stage 2\n\nWe drive incremental growth through a  \n9-month mentoring program, preparing startups for the next funding round.\n\n## Stage 3\n\nWe provide strong investor relationships to ensure access to follow-on funding opportunities, typically up to $500K. [...] ## WE LOOK FOR EXCEPTIONAL TEAMS\n\n### LOOKING FOR PRE-SEED FUNDING?\n\nAPPLY NOW\n\n## SUBSCRIBE TO OUR NEWSLETTER\n\n## FREQUENTLY ASKED QUESTIONS\n\nLEARN MORE\n\n## BLOG\n\nblaq\n\n### How To Get Startup Business Funding From a VC Firm\n\nRead more\n\nDefault title\n\n### Do you need pre-seed funding? Blaq Ventures is Your One-Stop Solution!\n\nRead more\n\nHow to approach a VC Firm for Pre-seed Funding\n\n### How to Approach a VC Firm for Pre-Seed Funding?\n\nRead more",
     "id": "901a51a8c206dc66",
     "added": "2026-11-01T12:00:17.277968+00:00"
+  },
+  "a3a70c39c2c19b72": {
+    "url": "https://opportunitiescorners.com/eth-summer-fellowship-2027-in-switzerland/",
+    "title": "ETH Summer Fellowship 2027 in Switzerland (Fully Funded)",
+    "retry_analysis": true,
+    "snippet": "Applications are now open for the ETH Summer Fellowship 2027 at ETH Zurich. This is a fully funded, two-month research internship specifically designed for undergraduate and graduate students to gain valuable experience in an area of their choice. The fellowship is offered by the Computer Science Department and is open to all students worldwide. The ETH […] The post ETH Summer Fellowship 2027 in Switzerland (Fully Funded) appeared first on Opportunities Corners .",
+    "reason": "legitimacy check returned an unparseable reply; retry on a later run",
+    "id": "a3a70c39c2c19b72",
+    "added": "2026-11-02T13:16:40.954952+00:00"
+  },
+  "0b3776a735eac815": {
+    "url": "https://www.facebook.com/opportunitiesforyouth/posts/25-fully-funded-fellowship-opportunities-20262028-looking-for-research-funding/1566081048882576",
+    "title": "🚀 25 Fully Funded Fellowship Opportunities 2026–2028! 🌍 ...",
+    "last_known_deadline": null,
+    "reason": "closed at discovery; likely annual",
+    "id": "0b3776a735eac815",
+    "added": "2026-11-02T13:23:05.431725+00:00"
   }
 }
