@@ -19287,5 +19287,331 @@
     "id": "be5eaf36526b207f",
     "first_seen": "2026-11-02T13:27:57.609796+00:00",
     "last_updated": "2026-11-02T13:27:57.609808+00:00"
+  },
+  "d4757b812b91d1ff": {
+    "url": "https://scholarshiphubnow.com/fellowships",
+    "title": "Fellowships - ScholarshipHubNow",
+    "status": "unknown",
+    "eligibility_status": "UNCERTAIN",
+    "model_eligibility_status": "UNCERTAIN",
+    "missing_requirements": [
+      "Nationality eligibility (whether Ethiopian nationals are allowed)",
+      "Student status requirement (whether applicants must be currently enrolled in a degree program)",
+      "Age limit (whether there is an upper age cap)",
+      "Degree level requirement (whether a bachelor's degree is sufficient or a higher degree is required)",
+      "English language proficiency requirement (e.g., IELTS/TOEFL score)"
+    ],
+    "blocking_issues": [],
+    "addressable_gaps": [],
+    "reasoning": "The program page lists many fellowships but does not provide concrete eligibility criteria such as nationality restrictions, required student status, age limits, degree level, or English proficiency requirements. Because these decision‑relevant criteria are missing, we cannot confirm whether the candidate meets them or is excluded.",
+    "id": "d4757b812b91d1ff",
+    "first_seen": "2026-11-03T12:40:24.899296+00:00",
+    "last_updated": "2026-11-03T12:40:24.899314+00:00"
+  },
+  "7fdd19c066b22ed4": {
+    "url": "https://www.scholarshipscentral.com/blog/fully-funded-bachelors-scholarships-2026-2027",
+    "title": "Fully Funded Bachelor’s Scholarships 2026–2027",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "model_eligibility_status": "CONFIRMED_INELIGIBLE",
+    "missing_requirements": [],
+    "blocking_issues": [
+      "Degree level mismatch: program requires entry into first undergraduate degree; candidate already has a bachelor's degree.",
+      "Student status: program requires being in final year of secondary school or recent high‑school graduate; candidate is a working professional."
+    ],
+    "addressable_gaps": [],
+    "reasoning": "The program lists fully funded scholarships for Bachelor’s study and explicitly requires applicants to be in the final year of secondary school or a recent high‑school graduate entering their first undergraduate degree. The candidate already holds a BSc (graduated 2021) and is a working professional, not a current student, so the core eligibility criteria are not met. This is a hard blocker.",
+    "id": "7fdd19c066b22ed4",
+    "first_seen": "2026-11-03T12:42:00.060202+00:00",
+    "last_updated": "2026-11-03T12:42:00.060213+00:00"
+  },
+  "69269b6cbcd9aaa3": {
+    "url": "https://www.scholarshipslists.com/fully-funded-scholarships-international-students",
+    "title": "Fully Funded Scholarships 2026–2027 for International Students - Scholarships Lists",
+    "status": "analyzed",
+    "score": 4.2,
+    "category": null,
+    "official_url": "https://www.scholarshipslists.com/fully-funded-scholarships-international-students",
+    "location": null,
+    "remote": null,
+    "deadline": null,
+    "reward": "fully_funded",
+    "estimated_value": null,
+    "eligibility_status": "PROBABLY_ELIGIBLE",
+    "credibility_status": "LIKELY_LEGITIMATE",
+    "source_tier": "TIER_4",
+    "source_quality": null,
+    "requirements": [],
+    "id": "69269b6cbcd9aaa3",
+    "first_seen": "2026-11-03T12:43:11.609533+00:00",
+    "last_updated": "2026-11-03T12:43:11.609546+00:00"
+  },
+  "d936d5b8ddcebee0": {
+    "url": "https://www.opportunitynest.org/guides/fully-funded-scholarships",
+    "title": "Fully Funded Scholarships 2026-2027: Complete List and Guide | OpportunityNest",
+    "status": "unknown",
+    "eligibility_status": "UNCERTAIN",
+    "model_eligibility_status": "UNCERTAIN",
+    "missing_requirements": [
+      "Specific scholarship eligibility criteria (nationality restrictions, age caps, required enrollment status, degree level, field of study).",
+      "Confirmation of English language requirement for the targeted scholarship."
+    ],
+    "blocking_issues": [],
+    "addressable_gaps": [
+      "Obtain an English proficiency test (e.g., Duolingo, MOI certificate) if required by a specific scholarship."
+    ],
+    "reasoning": "The program description is a general guide to fully funded scholarships and does not list concrete eligibility criteria such as required nationality, age limit, current student status, or degree level. Therefore we cannot confirm that the candidate meets all necessary conditions, nor can we identify any explicit exclusion.",
+    "id": "d936d5b8ddcebee0",
+    "first_seen": "2026-11-03T12:44:34.133816+00:00",
+    "last_updated": "2026-11-03T12:44:34.133836+00:00"
+  },
+  "9d3fb31ab5096a17": {
+    "url": "https://www.youtube.com/watch?v=xjOe10cEMAU",
+    "title": "15 Fully Funded Scholarships in USA 2026 | Masters, PhD & Bachelors | June July Deadlines",
+    "status": "legitimacy_unknown",
+    "credibility_status": "NEEDS_VERIFICATION",
+    "source_tier": "TIER_4",
+    "reasoning": "The provided URL points to a generic YouTube page with no information about any scholarship or fellowship program, making it impossible to assess legitimacy. Without details on the program, fees, organizers, or contact information, no conclusion can be drawn.",
+    "id": "9d3fb31ab5096a17",
+    "first_seen": "2026-11-03T12:44:43.690891+00:00",
+    "last_updated": "2026-11-03T12:44:43.690912+00:00"
+  },
+  "90fb1d1c43ae4006": {
+    "url": "https://opportunitiescorners.com/purdue-university-summer-fellowship-2027/",
+    "title": "Purdue University Summer Fellowship 2027 in USA (Fully Funded)",
+    "status": "ineligible",
+    "eligibility_status": "PROBABLY_INELIGIBLE",
+    "model_eligibility_status": "PROBABLY_INELIGIBLE",
+    "missing_requirements": [
+      "Minimum cumulative GPA of 2.8/4.0 (not provided)"
+    ],
+    "blocking_issues": [
+      "Must be currently enrolled as a full-time undergraduate student (candidate is not a student)"
+    ],
+    "addressable_gaps": [],
+    "reasoning": "The program explicitly requires applicants to be currently enrolled as a full-time undergraduate student. The candidate is a working professional and not enrolled in any university program, which directly violates this core eligibility criterion. Nationality is unrestricted, but the student-status requirement is a hard blocker.",
+    "id": "90fb1d1c43ae4006",
+    "first_seen": "2026-11-03T12:46:18.457930+00:00",
+    "last_updated": "2026-11-03T12:46:18.457956+00:00"
+  },
+  "a3a70c39c2c19b72": {
+    "url": "https://opportunitiescorners.com/eth-summer-fellowship-2027-in-switzerland/",
+    "title": "ETH Summer Fellowship 2027 in Switzerland (Fully Funded)",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "model_eligibility_status": "CONFIRMED_INELIGIBLE",
+    "missing_requirements": [],
+    "blocking_issues": [
+      "Not currently enrolled in a degree program (must be enrolled during and after fellowship)",
+      "Degree field mismatch (Psychology not a listed related field to computer science)"
+    ],
+    "addressable_gaps": [
+      "Enroll in a Bachelor’s or Master’s program in computer science or a closely related discipline before the application deadline",
+      "Ensure continuous enrollment through the fellowship period"
+    ],
+    "reasoning": "The ETH Summer Fellowship requires applicants to be currently enrolled in a Bachelor’s or Master’s degree program in computer science or a closely related field (e.g., electrical engineering, mathematics, physics) and to remain enrolled during and after the fellowship. The candidate is a working professional, not currently a student, and holds a BSc in Psychology, which is not listed as a closely related field. These constitute hard blockers.",
+    "id": "a3a70c39c2c19b72",
+    "first_seen": "2026-11-03T12:47:32.260048+00:00",
+    "last_updated": "2026-11-03T12:47:32.260066+00:00"
+  },
+  "8a6da15287cd7478": {
+    "url": "https://www.opportunitiesforafricans.com/2027-2029-erasmus-mundus-masters-scholarship-in-journalism/",
+    "title": "2027/2029 Erasmus Mundus Master’s Scholarship in Journalism, Media and Globalisation (Fully Funded study in Europe)",
+    "status": "analyzed",
+    "score": 4.7,
+    "category": null,
+    "official_url": "https://www.opportunitiesforafricans.com/2027-2029-erasmus-mundus-masters-scholarship-in-journalism/",
+    "location": null,
+    "remote": null,
+    "deadline": "2027-01-10",
+    "reward": "fully_funded",
+    "estimated_value": null,
+    "eligibility_status": "PROBABLY_ELIGIBLE",
+    "credibility_status": "LIKELY_LEGITIMATE",
+    "source_tier": "TIER_3",
+    "source_quality": 7,
+    "requirements": [
+      "Bachelor's degree certificate or official transcript",
+      "Proof of English language proficiency (e.g., IELTS, TOEFL, Duolingo score report)",
+      "Evidence of journalistic experience (e.g., work samples, employment letter, portfolio)"
+    ],
+    "id": "8a6da15287cd7478",
+    "first_seen": "2026-11-03T12:49:43.472515+00:00",
+    "last_updated": "2026-11-03T12:49:43.472530+00:00"
+  },
+  "47c7650f2d5214dc": {
+    "url": "https://www.opportunitiesforafricans.com/the-government-of-mauritius-africa-scholarships-scheme-2027/",
+    "title": "The Government of Mauritius Africa Scholarships Scheme 2027 for study in Mauritius (Fully Funded)",
+    "status": "ineligible",
+    "eligibility_status": "PROBABLY_INELIGIBLE",
+    "model_eligibility_status": "PROBABLY_INELIGIBLE",
+    "missing_requirements": [
+      "Confirmation of English language requirement (not stated in the text)",
+      "Specific eligibility of master's programmes (not explicitly mentioned)"
+    ],
+    "blocking_issues": [
+      "Age exceeds the 26‑year limit for undergraduate programmes",
+      "Desired study level (master's) is not among the listed eligible programmes (Diploma, Degree, MPhil, PhD)",
+      "Has not yet applied to a Mauritian public higher‑education programme as required"
+    ],
+    "addressable_gaps": [
+      "Can submit an application to a qualifying Mauritian institution before the deadline",
+      "Can obtain an English proficiency test (e.g., Duolingo) if the programme later requires it"
+    ],
+    "reasoning": "The scheme is limited to applicants from African Union/Commonwealth countries (Ethiopia qualifies). However, it explicitly requires applicants to have already applied for a full‑time on‑campus programme (Diploma, Degree, MPhil or PhD) at a public Mauritian institution, and the candidate has not done so. The age limits are 18‑26 for undergraduate programmes and up to 40 for MPhil/PhD; the candidate is 27, which exceeds the undergraduate limit and the programme sought (a master's) is not listed among the eligible study levels, suggesting a degree‑level mismatch. These constitute hard blockers. English proficiency is not mentioned, but could become a requirement.",
+    "id": "47c7650f2d5214dc",
+    "first_seen": "2026-11-03T12:50:52.379389+00:00",
+    "last_updated": "2026-11-03T12:50:52.379410+00:00"
+  },
+  "63210e66ac59f733": {
+    "url": "https://www.opportunitiesforafricans.com/waaw-foundation-scholarship-2026-for-african-female-students/",
+    "title": "WAAW Foundation Scholarship 2026 for African Female Students ($500 award)",
+    "status": "legitimacy_unknown",
+    "credibility_status": "NEEDS_VERIFICATION",
+    "source_tier": "TIER_3",
+    "reasoning": "The listing does not mention any application or registration fee, which is a positive sign, but it provides no verifiable official website for the WAAW Foundation and only generic email contacts, making it difficult to confirm the program's authenticity.",
+    "id": "63210e66ac59f733",
+    "first_seen": "2026-11-03T12:51:23.909052+00:00",
+    "last_updated": "2026-11-03T12:51:23.909074+00:00"
+  },
+  "88e430afc4ad6128": {
+    "url": "https://opportunitiescorners.com/nus-amgen-scholars-program-2027/",
+    "title": "NUS Amgen Scholars Program 2027 in Singapore (Fully Funded Internship)",
+    "status": "ineligible",
+    "eligibility_status": "PROBABLY_INELIGIBLE",
+    "model_eligibility_status": "PROBABLY_INELIGIBLE",
+    "missing_requirements": [
+      "Portrait photo",
+      "Personal identification document",
+      "Academic transcript",
+      "Latest CV",
+      "Letters of recommendation"
+    ],
+    "blocking_issues": [
+      "Must be enrolled in an undergraduate program in Asia (candidate is not a student)",
+      "Must be currently an undergraduate (candidate already holds a bachelor's degree)"
+    ],
+    "addressable_gaps": [
+      "Obtain proof of English proficiency (e.g., MOI letter or Duolingo test)"
+    ],
+    "reasoning": "The program requires the applicant to be currently enrolled in an undergraduate program at a university in Asia and to have completed at least the first year of study. The candidate is a working professional, not currently a student, and holds a completed BSc from Ethiopia, which does not satisfy the enrollment requirement. This is a hard blocker. While the program does not require IELTS, it does require proof of English proficiency, which the candidate could obtain, but that does not overcome the enrollment issue.",
+    "id": "88e430afc4ad6128",
+    "first_seen": "2026-11-03T12:52:42.500627+00:00",
+    "last_updated": "2026-11-03T12:52:42.500647+00:00"
+  },
+  "8bb5243589c6a3b3": {
+    "url": "https://www.opportunitiesforafricans.com/the-journalismai-strategy-lab-2026-for-african-journalists-and-media-professionals/",
+    "title": "The JournalismAI Strategy Lab 2026 for African journalists and media professionals",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "model_eligibility_status": "CONFIRMED_INELIGIBLE",
+    "missing_requirements": [],
+    "blocking_issues": [
+      "Not a journalist or media professional (programme exclusively for journalists/media professionals)",
+      "Not employed by or formally affiliated with a news organisation (explicitly excluded: 'Freelancers; you must be employed by or formally affiliated with a news organisation')",
+      "Based outside Africa (explicitly excluded: 'Journalists based outside of Africa')"
+    ],
+    "addressable_gaps": [
+      "English proficiency certificate (candidate can obtain Duolingo English Test or MOI certificate)"
+    ],
+    "reasoning": "The JournalismAI Strategy Lab 2026 is explicitly for journalists and media professionals employed by or formally affiliated with a news organisation in Africa. The candidate is an AI developer, marketing specialist, psychologist, and community leader — not a journalist or media professional — and is based in Lao PDR (Asia), not Africa. The programme states it is NOT for freelancers, journalists without English fluency, or journalists based outside Africa. The candidate fails all three core eligibility criteria: profession, organisational affiliation, and geographic location.",
+    "id": "8bb5243589c6a3b3",
+    "first_seen": "2026-11-03T12:54:09.218473+00:00",
+    "last_updated": "2026-11-03T12:54:09.218497+00:00"
+  },
+  "293d165164cff59f": {
+    "url": "https://arc.dev/en-us/remote-jobs",
+    "title": "Remote Jobs in the United States (November 2026) - Arc",
+    "status": "unknown",
+    "eligibility_status": "UNCERTAIN",
+    "model_eligibility_status": "UNCERTAIN",
+    "missing_requirements": [
+      "English proficiency verification (if required by the employer)",
+      "Documentation of eligibility to work in the United States (e.g., visa status, green card)",
+      "Any other unstated eligibility criteria such as prior work experience level or certification requirements"
+    ],
+    "blocking_issues": [],
+    "addressable_gaps": [],
+    "reasoning": "The program text for \"Remote Jobs in the United States - Arc\" does not explicitly state any eligibility criteria (e.g., nationality, work authorization, student status, age limits, or degree requirements). While the candidate's Ethiopian nationality could be a potential hard blocker for US‑based remote employment, this is not confirmed by the program description. Therefore, a definitive eligibility determination cannot be made.",
+    "id": "293d165164cff59f",
+    "first_seen": "2026-11-03T12:55:48.074133+00:00",
+    "last_updated": "2026-11-03T12:55:48.074153+00:00"
+  },
+  "2d3dd6c1f601e84e": {
+    "url": "https://blog.jetbrains.com/education/2026/10/13/coding-math-and-ai-what-s-ahead-for-school-students-in-2026-2027",
+    "title": "Coding, Math, and AI: What's Ahead for School Students in 2026–2027 - The JetBrains Blog",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "model_eligibility_status": "CONFIRMED_INELIGIBLE",
+    "missing_requirements": [],
+    "blocking_issues": [
+      "Not currently a school student (working professional)",
+      "Age exceeds the 13–19 limit (27 > 19)",
+      "Degree level mismatch (BSc vs school‑level program)"
+    ],
+    "addressable_gaps": [],
+    "reasoning": "The program explicitly requires 'school students' aged 13–19 (Junior 13–15, Senior 16–19) and current enrollment; the candidate is a 27‑year‑old working professional who is not a student, exceeding the age cap and failing the student‑status requirement.",
+    "id": "2d3dd6c1f601e84e",
+    "first_seen": "2026-11-03T12:56:16.514425+00:00",
+    "last_updated": "2026-11-03T12:56:16.514446+00:00"
+  },
+  "1f21624a94dfaf12": {
+    "url": "https://www.challenge.gov",
+    "title": "Challenge and prize competition content has moved | Challenge.gov",
+    "status": "analyzed",
+    "score": 4.0,
+    "category": "coding_competitions",
+    "official_url": "https://www.challenge.gov",
+    "location": null,
+    "remote": null,
+    "deadline": null,
+    "reward": "unknown",
+    "estimated_value": null,
+    "eligibility_status": "PROBABLY_ELIGIBLE",
+    "credibility_status": "LIKELY_LEGITIMATE",
+    "source_tier": "TIER_4",
+    "source_quality": 0,
+    "requirements": [],
+    "id": "1f21624a94dfaf12",
+    "first_seen": "2026-11-03T12:58:40.672820+00:00",
+    "last_updated": "2026-11-03T12:58:40.672838+00:00"
+  },
+  "933387b382cdfba5": {
+    "url": "https://technovationchallenge.org",
+    "title": "Technovation Challenge: Build Tech & AI Solutions That Matter",
+    "status": "ineligible",
+    "eligibility_status": "PROBABLY_INELIGIBLE",
+    "model_eligibility_status": "PROBABLY_INELIGIBLE",
+    "missing_requirements": [
+      "Explicit age limit or eligibility age range",
+      "Explicit requirement to be currently enrolled in school",
+      "Explicit degree-level restriction (e.g., pre-bachelor's only)"
+    ],
+    "blocking_issues": [
+      "Program targets young people/students (implied K–12); candidate is 27",
+      "Candidate is a working professional, not a student",
+      "Candidate already holds a bachelor's degree; program appears pre-university"
+    ],
+    "addressable_gaps": [],
+    "reasoning": "The Technovation Challenge is explicitly described as a program for 'young people' and 'students' — mentioning 'students' multiple times, referencing 'teacher or mentor' sign-up, 'school districts', and outcomes like '70% of our alums pursue or plan to pursue STEM degrees after Technovation'. The candidate is 27 years old, holds a BSc (graduated 2021), and is a working professional, not a student. While the page does not state an explicit age cap or enrollment requirement, the entire framing targets pre-university youth. This candidate's profile falls far outside the implied demographic.",
+    "id": "933387b382cdfba5",
+    "first_seen": "2026-11-03T12:59:57.801623+00:00",
+    "last_updated": "2026-11-03T12:59:57.801642+00:00"
+  },
+  "1e90c37b6d09fee7": {
+    "url": "https://en.wikipedia.org/wiki/International_Collegiate_Programming_Contest",
+    "title": "International Collegiate Programming Contest - Wikipedia",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "model_eligibility_status": "CONFIRMED_INELIGIBLE",
+    "missing_requirements": [],
+    "blocking_issues": [
+      "Not currently a university student (working professional)"
+    ],
+    "addressable_gaps": [],
+    "reasoning": "The program explicitly states that participants must be university students; the candidate is a working professional, not currently enrolled, thus directly conflicts with this stated requirement.",
+    "id": "1e90c37b6d09fee7",
+    "first_seen": "2026-11-03T13:00:33.859178+00:00",
+    "last_updated": "2026-11-03T13:00:33.859193+00:00"
   }
 }
