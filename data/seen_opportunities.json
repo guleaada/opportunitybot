@@ -18183,13 +18183,13 @@
   "f8a5476e4b4de0ea": {
     "url": "https://opportunitiescorners.com/swedish-institute-si-global-scholarship-2027/",
     "title": "Swedish Institute SI Global Scholarship 2027 (Fully Funded)",
-    "status": "notified",
-    "score": 6.9,
+    "status": "analyzed",
+    "score": 6.7,
     "category": null,
     "official_url": "https://opportunitiescorners.com/swedish-institute-si-global-scholarship-2027/",
     "location": null,
     "remote": null,
-    "deadline": null,
+    "deadline": "2027-02-24",
     "reward": "fully_funded",
     "estimated_value": null,
     "eligibility_status": "PROBABLY_ELIGIBLE",
@@ -18197,7 +18197,7 @@
     "source_tier": "TIER_3",
     "source_quality": 7,
     "requirements": [
-      "CV (max three pages)",
+      "Curriculum Vitae (max 3 pages)",
       "Two reference letters",
       "Proof of work experience",
       "Valid passport copy",
@@ -18205,7 +18205,7 @@
     ],
     "id": "f8a5476e4b4de0ea",
     "first_seen": "2026-10-29T11:27:55.822102+00:00",
-    "last_updated": "2026-10-29T11:44:37.942240+00:00",
+    "last_updated": "2026-11-04T12:52:16.770987+00:00",
     "notification_tier": "WATCHLIST",
     "notified_at": "2026-10-29T11:44:37.929244+00:00"
   },
@@ -18500,13 +18500,24 @@
   "7b2cc34ac16739a4": {
     "url": "https://opportunitiescorners.com/epfl-summer-internship-2027/",
     "title": "EPFL Summer Internship 2027 in Switzerland (Fully Funded)",
-    "status": "suspicious",
+    "status": "ineligible",
     "credibility_status": "SUSPICIOUS",
     "source_tier": "TIER_3",
-    "reasoning": "The page is an aggregator with no direct link to EPFL’s official internship page and uses a generic Gmail address for contact, which is atypical for a university program. It also contains inconsistent details (mixing 2026 and 2027 years) and vague wording about the application process, suggesting the information may not be directly sourced from EPFL.",
+    "reasoning": "The EPFL Summer Internship explicitly requires applicants to be enrolled students in BSc, BTech, MSc, MTech or equivalent programs and to be in the 2nd year of a Bachelor’s program or higher. The candidate is a working professional and not currently enrolled in any academic program, which does not satisfy this core eligibility criterion. Nationality is unrestricted and there is no English test requirement, so those are not blockers.",
     "id": "7b2cc34ac16739a4",
     "first_seen": "2026-10-30T11:28:26.352421+00:00",
-    "last_updated": "2026-10-30T11:28:26.352436+00:00"
+    "last_updated": "2026-11-04T12:49:54.056217+00:00",
+    "eligibility_status": "PROBABLY_INELIGIBLE",
+    "model_eligibility_status": "PROBABLY_INELIGIBLE",
+    "missing_requirements": [
+      "None beyond the enrollment status; required documents (CV, transcripts, motivation letter) can be provided"
+    ],
+    "blocking_issues": [
+      "Must be currently enrolled in a degree program (2nd year Bachelor or higher) – candidate is not a student"
+    ],
+    "addressable_gaps": [
+      "Enroll in a Bachelor’s or Master’s program to meet the enrollment requirement"
+    ]
   },
   "ad6aaab8700e7181": {
     "url": "https://www.opportunitiesforafricans.com/the-independent-communications-authority-of-south-africa-icasa-graduate-development-programme-2026-2027/",
@@ -19018,18 +19029,22 @@
   "608c57c728b16028": {
     "url": "https://www.ifundwomen.com/grants/apply-for-grants",
     "title": "Open Grants & How to Apply",
-    "status": "ineligible",
-    "eligibility_status": "CONFIRMED_INELIGIBLE",
-    "model_eligibility_status": "CONFIRMED_INELIGIBLE",
-    "missing_requirements": [],
-    "blocking_issues": [
-      "Gender mismatch - program is exclusively for women founders; candidate is male"
+    "status": "unknown",
+    "eligibility_status": "UNCERTAIN",
+    "model_eligibility_status": "UNCERTAIN",
+    "missing_requirements": [
+      "Gender verification (must be a woman)",
+      "Proof of business ownership/registration"
     ],
-    "addressable_gaps": [],
-    "reasoning": "The program explicitly states it is for 'women founders' (Open Grants & How to Apply - Apply for open small business grants for women founders, including the $5K IFW Startup Accelerator grant). The candidate, Gulilat Kasiye Worku, is male (Gulilat), which creates a direct gender mismatch that blocks eligibility. No other criterion in the program text creates a blocker; the candidate is a working professional (not a student) with a BSc degree, age 27 (within typical grant age ranges), and Ethiopian nationality (not excluded).",
+    "blocking_issues": [],
+    "addressable_gaps": [
+      "Provide documentation or a statement confirming gender as female",
+      "Submit evidence of being a founder of a small business (e.g., registration, business plan)"
+    ],
+    "reasoning": "The grant is explicitly for women founders. The candidate's gender is not stated in the profile, so it cannot be confirmed that she meets this core requirement. All other visible criteria (being a founder, age, nationality) are not excluded by the program text.",
     "id": "608c57c728b16028",
     "first_seen": "2026-11-01T11:51:15.041820+00:00",
-    "last_updated": "2026-11-01T11:51:15.041837+00:00"
+    "last_updated": "2026-11-04T12:53:09.671614+00:00"
   },
   "2f04126f1268bb2f": {
     "url": "https://www.capitalklub.com/item-detail?recordId=rec4uVX0xvnd6IR9L",
@@ -19613,5 +19628,237 @@
     "id": "1e90c37b6d09fee7",
     "first_seen": "2026-11-03T13:00:33.859178+00:00",
     "last_updated": "2026-11-03T13:00:33.859193+00:00"
+  },
+  "4695f164a31c21b1": {
+    "url": "https://www.opportunitiesforafricans.com/the-ilo-better-regional-migration-management-brmm-programme-university-essay-writing-competition-2026/",
+    "title": "The ILO Better Regional Migration Management (BRMM) Programme University Essay Writing Competition 2026 (Fully Funded to Fifth LMAG in Zanzibar)",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "model_eligibility_status": "CONFIRMED_INELIGIBLE",
+    "missing_requirements": [],
+    "blocking_issues": [
+      "Must be currently enrolled in a bachelor’s or postgraduate programme at a university in an eligible country"
+    ],
+    "addressable_gaps": [],
+    "reasoning": "The competition explicitly requires applicants to be \"students currently enrolled in a bachelor’s or postgraduate programme at a university\" in the eligible East and Horn of Africa countries. The candidate is a working professional and not currently enrolled in any university program, thus does not meet this mandatory criterion. All other stated requirements (Ethiopian nationality, age 27, language) are satisfied.",
+    "id": "4695f164a31c21b1",
+    "first_seen": "2026-11-04T12:56:07.407949+00:00",
+    "last_updated": "2026-11-04T12:56:07.407968+00:00"
+  },
+  "a8205b14561df909": {
+    "url": "https://www.opportunitiesforafricans.com/the-ilo-better-regional-migration-management-brmmprogramme-journalism-and-storytelling-competition-2026/",
+    "title": "The ILO Better Regional Migration Management (BRMM)Programme Journalism and Storytelling Competition 2026 (Fully Funded to the Fifth LMAG in Zanzibar)",
+    "status": "suspicious",
+    "credibility_status": "SUSPICIOUS",
+    "source_tier": "TIER_3",
+    "reasoning": "The competition aligns with ILO's BRMM programme and does not require any payment, which supports legitimacy. However, the official contact is a generic Gmail address and the page lacks a direct link to an ILO domain, both common red‑flag indicators.",
+    "id": "a8205b14561df909",
+    "first_seen": "2026-11-04T12:56:58.249492+00:00",
+    "last_updated": "2026-11-04T12:56:58.249512+00:00"
+  },
+  "9980fec81953a5bd": {
+    "url": "https://opportunitiescorners.com/korean-winter-culture-camp-2027/",
+    "title": "Korean Winter Culture Camp 2027 (Fully Funded)",
+    "status": "legitimacy_unknown",
+    "credibility_status": "NEEDS_VERIFICATION",
+    "source_tier": "TIER_3",
+    "reasoning": "The listing provides no official AYFN website or verifiable sponsor, and the only contact is a generic Gmail address, which are common red flags. However, it does not request any payment or fee, and claims to be fully funded, so there is no direct evidence of a scam.",
+    "id": "9980fec81953a5bd",
+    "first_seen": "2026-11-04T12:57:46.790623+00:00",
+    "last_updated": "2026-11-04T12:57:46.790640+00:00"
+  },
+  "b0d5e1b85f8b69bd": {
+    "url": "https://opportunitiescorners.com/ceps-climate-leadership-program-2027-in-belgium-fully-funded/",
+    "title": "CEPS Climate Leadership Program 2027 in Belgium (Fully Funded)",
+    "status": "unknown",
+    "eligibility_status": "UNCERTAIN",
+    "model_eligibility_status": "UNCERTAIN",
+    "missing_requirements": [
+      "Proof of engagement in climate action within the candidate’s country or community.",
+      "Specific climate‑related initiative to be presented in the application."
+    ],
+    "blocking_issues": [],
+    "addressable_gaps": [
+      "Provide evidence of current involvement in climate policy, environmental advocacy, or climate entrepreneurship (e.g., description of projects, letters of support).",
+      "Present a concrete climate‑related initiative (policy proposal, advocacy campaign, or climate venture) as required by the programme."
+    ],
+    "reasoning": "The program requires applicants to already be engaged in climate policy, environmental advocacy, or climate entrepreneurship and to bring a specific climate‑related initiative. The candidate’s profile does not mention any climate‑related work or a concrete initiative, so we cannot verify this essential criterion. All other listed requirements (age 20‑30, worldwide eligibility, English proficiency, availability) appear to be met or are not explicitly restrictive.",
+    "id": "b0d5e1b85f8b69bd",
+    "first_seen": "2026-11-04T12:58:51.270678+00:00",
+    "last_updated": "2026-11-04T12:58:51.270697+00:00"
+  },
+  "786c37b305a3cf3b": {
+    "url": "https://opportunitiescorners.com/finnish-dinner-date-2027/",
+    "title": "Finnish Dinner Date 2027 in Finland (Fully Funded Trip)",
+    "status": "legitimacy_unknown",
+    "credibility_status": "NEEDS_VERIFICATION",
+    "source_tier": "TIER_3",
+    "reasoning": "The program claims to be run by Visit Finland, a legitimate tourism body, and does not request any fees, but the listing provides no direct link to an official Visit Finland page and uses a generic Gmail address for contact, which prevents verification of the program’s authenticity.",
+    "id": "786c37b305a3cf3b",
+    "first_seen": "2026-11-04T12:59:35.156260+00:00",
+    "last_updated": "2026-11-04T12:59:35.156277+00:00"
+  },
+  "18479a89ee445e90": {
+    "url": "https://www.opportunitiesforafricans.com/the-sais-livestock-investment-readiness-programme-2027-for-african-start-ups/",
+    "title": "The SAIS Livestock Investment Readiness Programme 2027 for African start-ups.",
+    "status": "analyzed",
+    "score": 3.8,
+    "category": null,
+    "official_url": "https://www.opportunitiesforafricans.com/the-sais-livestock-investment-readiness-programme-2027-for-african-start-ups/",
+    "location": null,
+    "remote": null,
+    "deadline": "2026-11-15",
+    "reward": "partial",
+    "estimated_value": null,
+    "eligibility_status": "PROBABLY_ELIGIBLE",
+    "credibility_status": "LIKELY_LEGITIMATE",
+    "source_tier": "TIER_3",
+    "source_quality": 7,
+    "requirements": [],
+    "id": "18479a89ee445e90",
+    "first_seen": "2026-11-04T13:02:04.794668+00:00",
+    "last_updated": "2026-11-04T13:02:04.794687+00:00"
+  },
+  "12748bd1b53f0829": {
+    "url": "https://www.opportunitiesforafricans.com/the-rise-up-together-leadership-advocacy-accelerator-program-2027/",
+    "title": "The Rise Up Together Leadership & Advocacy Accelerator Program 2027 for young South African changemakers (Fully Funded)",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "model_eligibility_status": "PROBABLY_INELIGIBLE",
+    "missing_requirements": [
+      "Proof of employment in a South African province (Gauteng or KwaZulu-Natal)",
+      "Evidence of nonprofit/academic organization affiliation"
+    ],
+    "blocking_issues": [
+      "Not currently working in Gauteng or KwaZulu-Natal (required location)"
+    ],
+    "addressable_gaps": [
+      "Obtain an English proficiency certificate (Duolingo, MOI, etc.)",
+      "Provide documentation of a nonprofit/CSO role if needed"
+    ],
+    "reasoning": "The program requires participants to be currently working in Gauteng or KwaZulu-Natal, South Africa. The candidate is based in Vientiane, Lao PDR, which does not meet this location requirement. This is a hard blocker. Other criteria such as age, English proficiency, and commitment to gender equity are likely met or can be addressed, but the location requirement alone disqualifies the candidate.",
+    "id": "12748bd1b53f0829",
+    "first_seen": "2026-11-04T13:03:09.738708+00:00",
+    "last_updated": "2026-11-04T13:03:09.738726+00:00"
+  },
+  "c2aef3bdb5848c23": {
+    "url": "https://www.opportunitiesforafricans.com/the-heineken-global-graduate-programme-2027-for-young-south-african-graduates/",
+    "title": "The HEINEKEN Global Graduate Programme 2027 for young South African graduates.",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "model_eligibility_status": "CONFIRMED_INELIGIBLE",
+    "missing_requirements": [],
+    "blocking_issues": [
+      "Nationality / work rights mismatch (not South African)",
+      "Degree field mismatch (Psychology not among accepted fields)",
+      "Work experience exceeds the one‑year maximum"
+    ],
+    "addressable_gaps": [
+      "English language proof (can obtain Duolingo or MOI certificate)"
+    ],
+    "reasoning": "The programme explicitly targets \"young South African graduates\" and requires the right to work in South Africa. The candidate is an Ethiopian national with no South African work rights, which is a hard blocker. Additionally, the required degree fields are Commerce, Business Science, Economics, Marketing, Supply Chain Management, Finance or related fields; a BSc in Psychology does not meet this criterion. The programme also limits work experience to a maximum of one year after graduation, whereas the candidate has several years of professional experience since graduating in 2021. These hard blockers outweigh any addressable gaps.",
+    "id": "c2aef3bdb5848c23",
+    "first_seen": "2026-11-04T13:04:20.377640+00:00",
+    "last_updated": "2026-11-04T13:04:20.377663+00:00"
+  },
+  "7c2d30f149846a96": {
+    "url": "https://www.opportunitiesforafricans.com/bmw-group-south-africa-2027-graduate-programme-for-young-south-african-graduates/",
+    "title": "BMW Group South Africa 2027 Graduate Programme for young South African graduates.",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "model_eligibility_status": "CONFIRMED_INELIGIBLE",
+    "missing_requirements": [],
+    "blocking_issues": [
+      "Graduated more than 18 months ago (BSc 2021)",
+      "Currently employed (program requires unemployment)",
+      "Degree field (Psychology) not listed among eligible disciplines"
+    ],
+    "addressable_gaps": [],
+    "reasoning": "The programme requires candidates to either be completing their studies by end‑2026 or have graduated within the past 18 months. The candidate graduated in 2021, well beyond the 18‑month window. Additionally, the candidate must be currently unemployed, but is employed as a professional. The degree must be in a listed relevant field (e.g., Finance, IT, Engineering, etc.); Psychology is not among the eligible fields. These constitute multiple hard blockers.",
+    "id": "7c2d30f149846a96",
+    "first_seen": "2026-11-04T13:05:30.658984+00:00",
+    "last_updated": "2026-11-04T13:05:30.659002+00:00"
+  },
+  "4dfabb4c0b88e3f2": {
+    "url": "https://www.opportunitiesforafricans.com/afdbs-hei-innovation-and-entrepreneurship-programme-phase-ii-for-african-higher-education-institutions-and-research-centres/",
+    "title": "AfDB’s HEI Innovation and Entrepreneurship Programme Phase II for African higher education institutions and research centres.",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "model_eligibility_status": "CONFIRMED_INELIGIBLE",
+    "missing_requirements": [],
+    "blocking_issues": [
+      "Program is limited to African higher education institutions/research centres; candidate is an individual professional, not an institution."
+    ],
+    "addressable_gaps": [],
+    "reasoning": "The AfDB HEI Innovation and Entrepreneurship Programme explicitly targets African higher education institutions and research centres. Application requirements include a leadership backing letter from the institution's head and institutional details, indicating that only institutions—not individual applicants—can apply. The candidate is an individual working professional and does not represent an eligible institution, which is a hard, non‑addressable blocker.",
+    "id": "4dfabb4c0b88e3f2",
+    "first_seen": "2026-11-04T13:06:24.362942+00:00",
+    "last_updated": "2026-11-04T13:06:24.362962+00:00"
+  },
+  "4a638e48989c413d": {
+    "url": "https://scholarsavenue.com/scholarships-for-2027",
+    "title": "45 Best Scholarships for 2027 | Fully Funded Study Abroad",
+    "status": "closed",
+    "deadline": "2026-10-20",
+    "id": "4a638e48989c413d",
+    "first_seen": "2026-11-04T13:07:01.206919+00:00",
+    "last_updated": "2026-11-04T13:07:01.206937+00:00"
+  },
+  "98c18ddec94c09cf": {
+    "url": "https://sites.google.com/view/scholarships-without-ielts",
+    "title": "Scholarships Without IELTS 2026-2027 [Fully Funded]",
+    "status": "suspicious",
+    "credibility_status": "SUSPICIOUS",
+    "source_tier": "TIER_4",
+    "reasoning": "The page is a personal Google Sites aggregator that does not link to official scholarship portals; all \"Apply\" links point to the third‑party domain scholarships365.info, which lacks verifiable institutional affiliation. The content uses generic, marketing‑style language and provides no official contact details, which are common traits of lead‑generation or scam listings.",
+    "id": "98c18ddec94c09cf",
+    "first_seen": "2026-11-04T13:08:15.576536+00:00",
+    "last_updated": "2026-11-04T13:08:15.576553+00:00"
+  },
+  "568df96b6f7ccbe2": {
+    "url": "https://scholarvana.com/2026/06/29/fully-funded-masters-in-education-programs-2026-25-scholarships-for-international-students",
+    "title": "Fully Funded Masters in Education Programs 2026: 25 Scholarships for International Students - Scholarvana",
+    "status": "analyzed",
+    "score": 4.6,
+    "category": "scholarships",
+    "official_url": "https://scholarvana.com/2026/06/29/fully-funded-masters-in-education-programs-2026-25-scholarships-for-international-students",
+    "location": null,
+    "remote": null,
+    "deadline": null,
+    "reward": "fully_funded",
+    "estimated_value": null,
+    "eligibility_status": "PROBABLY_ELIGIBLE",
+    "credibility_status": "LIKELY_LEGITIMATE",
+    "source_tier": "TIER_4",
+    "source_quality": 0,
+    "requirements": [
+      "Academic records",
+      "Recommendation letters",
+      "Supporting documents"
+    ],
+    "id": "568df96b6f7ccbe2",
+    "first_seen": "2026-11-04T13:10:53.713328+00:00",
+    "last_updated": "2026-11-04T13:10:53.713347+00:00"
+  },
+  "b8249fa5f5272124": {
+    "url": "https://opportunities.jobstoapply.com/fellowships",
+    "title": "Fellowships | JobsToApply.com",
+    "status": "unknown",
+    "eligibility_status": "UNCERTAIN",
+    "model_eligibility_status": "UNCERTAIN",
+    "missing_requirements": [
+      "Nationality eligibility (whether Ethiopian citizens are allowed)",
+      "Current student status requirement (whether applicants must be enrolled in a degree program)",
+      "Age limit (whether there is an upper age cap)",
+      "Minimum degree level (whether a bachelor's degree is sufficient)",
+      "English language proficiency requirement (e.g., IELTS/TOEFL/Duolingo)",
+      "Field of study or professional background relevance"
+    ],
+    "blocking_issues": [],
+    "addressable_gaps": [],
+    "reasoning": "The program listing provides no explicit eligibility criteria (e.g., nationality eligibility, required student status, age limits, degree level, English proficiency, field of study). Because we cannot verify whether the candidate meets these potentially required criteria, we cannot confirm eligibility nor definitively rule it out.",
+    "id": "b8249fa5f5272124",
+    "first_seen": "2026-11-04T13:12:10.991195+00:00",
+    "last_updated": "2026-11-04T13:12:10.991216+00:00"
   }
 }
