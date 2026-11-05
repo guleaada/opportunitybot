@@ -1331,16 +1331,8 @@
     "last_known_deadline": null,
     "reason": "closed at discovery; likely annual",
     "id": "a0f399e96372bb5e",
-    "added": "2026-10-31T10:55:13.906988+00:00"
-  },
-  "5c8cad4634f439e0": {
-    "url": "https://opportunitiescorners.com/mit-summer-research-program-2027/",
-    "title": "MIT Summer Research Program 2027 in USA (Fully Funded)",
-    "retry_analysis": true,
-    "snippet": "The applications are now open for the MIT Summer Research Program (MSRP) 2027 in the USA. This is an excellent opportunity for talented undergraduate students to participate in a fully funded summer research program at the Massachusetts Institute of Technology (MIT). It aims to encourage talented undergraduate students to pursue graduate education at MIT by introducing […] The post MIT Summer Research Program 2027 in USA (Fully Funded) appeared first on Opportunities Corners .",
-    "reason": "legitimacy check returned an unparseable reply; retry on a later run",
-    "id": "5c8cad4634f439e0",
-    "added": "2026-11-01T11:50:36.087006+00:00"
+    "added": "2026-11-05T12:58:13.580380+00:00",
+    "last_checked": "2026-11-05T12:58:13.579594"
   },
   "f831a424c719ab5a": {
     "url": "https://www.globalsouthopportunities.com/2026/07/16/bank-8",
@@ -1348,24 +1340,18 @@
     "last_known_deadline": null,
     "reason": "closed at discovery; likely annual",
     "id": "f831a424c719ab5a",
-    "added": "2026-10-31T11:08:41.211070+00:00"
-  },
-  "0f3dc1430d171e0d": {
-    "url": "https://scholarvana.com/2026/06/28/international-fellowships-2026",
-    "title": "International Fellowships 2026: 30 Fully Funded Programs for Global Applicants - Scholarvana",
-    "last_known_deadline": null,
-    "reason": "monitoring — not confirmed open at scan time",
-    "id": "0f3dc1430d171e0d",
-    "added": "2026-10-31T11:09:12.313115+00:00"
+    "added": "2026-11-05T12:58:40.774575+00:00",
+    "last_checked": "2026-11-05T12:58:40.773879"
   },
   "f23e9d1bd351a9e2": {
     "url": "https://mohacafrica.org/funding-opportunities-for-african-entrepreneurs",
     "title": "Top Funding Opportunities for African Entrepreneurs In 2026 | MOHAC AFRICA",
-    "reason": "ANALYSIS_UNAVAILABLE — final_scoring: incomplete or invalid response after retry",
+    "reason": "legitimacy check returned an unparseable reply; retry on a later run",
     "retry_analysis": true,
     "snippet": "The 2026 programme offers $5,000 in non-refundable seed capital to selected entrepreneurs, along with 12 weeks of business training and ongoing mentorship. Applications are submitted through the TEFConnect digital platform and open annually on January 1st, closing on March 1st each cycle. [...] SARA by WEMA: A Nigerian programme offering grants of up to 2.5 million Naira (approximately $1,600) for youth-led businesses in Nigeria. While the monetary value is modest, the programme also provides business training and visibility.\n\nMEST AI Startup Program: As mentioned earlier, this West Africa-focused programme offers up to $100,000 in pre-seed funding to AI-driven startups built by founders aged 21 to 30. [...] Winners receive up to $100,000 in funding, along with access to a mentor network that provides hands-on guidance on business strategy, operations, and growth. Past winners have built mobile apps that connect farmers to buyers, community health platforms, and renewable energy solutions for rural areas.\n\nEligibility: African founders aged 15 to 22 with an existing, operating business. Applications open annually.",
     "id": "f23e9d1bd351a9e2",
-    "added": "2026-11-01T11:54:01.475568+00:00"
+    "added": "2026-11-05T13:03:07.088533+00:00",
+    "last_checked": "2026-11-05T13:02:21.184026"
   },
   "a7bd36a5ef949d5d": {
     "url": "https://menterprise.africa/august-2026-opportunities-african-entrepreneurs-innovators",
@@ -1445,5 +1431,111 @@
     "reason": "closed at discovery; likely annual",
     "id": "4a638e48989c413d",
     "added": "2026-11-04T13:07:01.230246+00:00"
+  },
+  "90fd889ce3ced0ee": {
+    "url": "https://www.opportunitiesforafricans.com/the-ceps-heinrich-boll-stiftung-climate-leadership-programme-2027/",
+    "title": "The CEPS/Heinrich Böll Stiftung Climate Leadership Programme 2027 for young climate leaders (Fully Funded to Brussels, Belgium)",
+    "reason": "ANALYSIS_UNAVAILABLE — final_scoring: incomplete or invalid response after retry",
+    "retry_analysis": true,
+    "snippet": "Application Deadline: 10 November 2026 Applications are now open for the 2027 CEPS/Heinrich Böll Stiftung Climate Leadership Programme. The Centre for European Policy Studies (CEPS), with the support of the… The post The CEPS/Heinrich Böll Stiftung Climate Leadership Programme 2027 for young climate leaders (Fully Funded to Brussels, Belgium) appeared first on Opportunities For Africans .",
+    "id": "90fd889ce3ced0ee",
+    "added": "2026-11-05T13:06:15.163284+00:00"
+  },
+  "99b257ea4c17e0ce": {
+    "url": "https://www.opportunitiesforafricans.com/the-cannes-lions-2027-scholarships/",
+    "title": "The Cannes Lions 2027 Scholarships for underrepresented talent in the creative industry (Fully Funded to Cannes Lions)",
+    "retry_analysis": true,
+    "snippet": "Application Deadline: 4 December 2026, 00:01 GMT Applications are now open for the 2027 Cannes Lions Scholarships. The LIONS Scholarship is designed to support the next generation of talent, placing… The post The Cannes Lions 2027 Scholarships for underrepresented talent in the creative industry (Fully Funded to Cannes Lions) appeared first on Opportunities For Africans .",
+    "reason": "legitimacy check returned an unparseable reply; retry on a later run",
+    "id": "99b257ea4c17e0ce",
+    "added": "2026-11-05T13:06:36.740127+00:00"
+  },
+  "d1878bce741ad09e": {
+    "url": "https://www.opportunitiesforafricans.com/the-firstrand-oxford-blavatnik-school-of-government-scholarship-2027-2028-for-a-master-of-public-policy/",
+    "title": "The FirstRand Oxford Blavatnik School of Government Scholarship 2027/2028 for a Master of Public Policy at the University of Oxford (Fully Funded)",
+    "retry_analysis": true,
+    "snippet": "Application Deadline: February 25, 2027 Applications are now open for the 2027 FirstRand Oxford Blavatnik School of Government Scholarship. FirstRand Empowerment Foundation (FREF) has entered into a five-year partnership with… The post The FirstRand Oxford Blavatnik School of Government Scholarship 2027/2028 for a Master of Public Policy at the University of Oxford (Fully Funded) appeared first on Opportunities For Africans .",
+    "reason": "legitimacy check returned an unparseable reply; retry on a later run",
+    "id": "d1878bce741ad09e",
+    "added": "2026-11-05T13:06:58.872132+00:00"
+  },
+  "8da31cd7b55da1cd": {
+    "url": "https://opportunitiescorners.com/oung-security-conference-in-germany/",
+    "title": "Young Security Conference 2026/2027 in Germany (Fully Funded)",
+    "reason": "ANALYSIS_UNAVAILABLE — deep_eligibility: incomplete or invalid response after retry",
+    "retry_analysis": true,
+    "snippet": "Applications are now open for the Young Security Conference 2026/2027 in Munich, Germany. This fully funded international fellowship is inviting outstanding early-career researchers, young professionals, policy analysts, and aspiring leaders interested in international relations, European security, political science, economics, and law. The fellowship will run from December 2026 to February 2027 and will select up […] The post Young Security Conference 2026/2027 in Germany (Fully Funded) appeared first on Opportunities Corners .",
+    "id": "8da31cd7b55da1cd",
+    "added": "2026-11-05T13:07:49.752723+00:00"
+  },
+  "a62647628af52380": {
+    "url": "https://opportunitiescorners.com/santa-fe-institute-summer-program-2027/",
+    "title": "Santa Fe Institute Summer Program 2027 in USA (Fully Funded)",
+    "last_known_deadline": null,
+    "reason": "closed at discovery; likely annual",
+    "id": "a62647628af52380",
+    "added": "2026-11-05T13:07:56.457192+00:00"
+  },
+  "17e0fe677cf4c778": {
+    "url": "https://www.opportunitiesforafricans.com/the-friedrich-ebert-stiftung-young-leaders-programme-2027-for-young-cameroonians/",
+    "title": "The Friedrich-Ebert-Stiftung Young Leaders Programme 2027 for young Cameroonians.",
+    "retry_analysis": true,
+    "snippet": "Application Deadline: December 10, 2026 at 6 p.m. Applications are now open for the 2027 Friedrich-Ebert-Stiftung Young Leaders Programme, an initiative dedicated to strengthening the political participation of young men… The post The Friedrich-Ebert-Stiftung Young Leaders Programme 2027 for young Cameroonians. appeared first on Opportunities For Africans .",
+    "reason": "legitimacy check returned an unparseable reply; retry on a later run",
+    "id": "17e0fe677cf4c778",
+    "added": "2026-11-05T13:08:31.964447+00:00"
+  },
+  "6d01a6642e192fed": {
+    "url": "https://www.opportunitiesforafricans.com/the-centre-for-research-in-the-arts-humanities-and-social-sciences-crassh-at-the-university-of-cambridge-visiting-fellowships-2027-2028/",
+    "title": "The Centre for Research in the Arts, Humanities and Social Sciences (CRASSH) at the University of Cambridge Visiting Fellowships 2027/2028 (Funded)",
+    "retry_analysis": true,
+    "snippet": "Application Deadline: 22 January 2027. Applications are now open for the 2027/2028 Centre for Research in the Arts, Humanities and Social Sciences (CRASSH) at the University of Cambridge Visiting Fellowships.… The post The Centre for Research in the Arts, Humanities and Social Sciences (CRASSH) at the University of Cambridge Visiting Fellowships 2027/2028 (Funded) appeared first on Opportunities For Africans .",
+    "reason": "legitimacy check returned an unparseable reply; retry on a later run",
+    "id": "6d01a6642e192fed",
+    "added": "2026-11-05T13:08:54.601329+00:00"
+  },
+  "12e6776075acda72": {
+    "url": "https://www.opportunitiesforafricans.com/the-unfpa-youth-advisory-panel-yap-membership-2027-2029-for-young-tanzanians/",
+    "title": "The UNFPA Youth Advisory Panel (YAP) Membership 2027/2029 for young Tanzanians.",
+    "retry_analysis": true,
+    "snippet": "Application Deadline: November 15, 2027 Applications are now open for the UNFPA Youth Advisory Panel (YAP) Membership. UNFPA is recruiting up to 15 talented young Tanzanians to join as YAP… The post The UNFPA Youth Advisory Panel (YAP) Membership 2027/2029 for young Tanzanians. appeared first on Opportunities For Africans .",
+    "reason": "legitimacy check returned an unparseable reply; retry on a later run",
+    "id": "12e6776075acda72",
+    "added": "2026-11-05T13:09:40.149548+00:00"
+  },
+  "373dfd31d68e58a5": {
+    "url": "https://opportunitiestoapply.com/opportunities",
+    "title": "All opportunities",
+    "retry_analysis": true,
+    "snippet": "Fully funded scholarship from DAAD in Germany. Check the deadline and eligibility on the official page before applying.\n\nCloses in 2 days — 15 Oct 2026 View opportunity\n\nKWI International Fellowship 2027 in Germany (Fully Funded)\n\nFellowships Germany  Fully Funded\n\n## KWI International Fellowship 2027 in Germany (Fully Funded)\n\nFully funded fellowship from KWI in Germany. Check the deadline and eligibility on the official page before applying.\n\nCloses in 2 days — 15 Oct 2026 View opportunity [...] Fully funded fellowship from Asia in the World Program in Multiple. Check the deadline and eligibility on the official page before...\n\nCloses in 19 days — 1 Nov 2026 View opportunity\n\nEPFL CYD Fellowship 2027 in Switzerland (Fully Funded)\n\nFellowships Switzerland  Fully Funded\n\n## EPFL CYD Fellowship 2027 in Switzerland (Fully Funded)\n\nFully funded fellowship from EPFL in Switzerland. Check the deadline and eligibility on the official page before applying.\n\n30 Nov 2026 View opportunity [...] ## EC Blue Book Traineeship 2027 in Europe (Fully Funded)\n\nFully funded internship from European Commission in Belgium and Luxembourg. Check the deadline and eligibility on the official pag...\n\nCloses in 18 days — 31 Oct 2026 View opportunity\n\nAsia in the World Fellowship 2027/28 (Fully Funded)\n\nFellowships Multiple  Fully Funded\n\n## Asia in the World Fellowship 2027/28 (Fully Funded)",
+    "reason": "legitimacy check returned an unparseable reply; retry on a later run",
+    "id": "373dfd31d68e58a5",
+    "added": "2026-11-05T13:10:07.516712+00:00"
+  },
+  "a35d8720d8571d49": {
+    "url": "https://www.facebook.com/Pantamifoundation/posts/research-fellows-program-20262027-apply-for-a-nine-month-research-fellowship-on-/1422736270006021",
+    "title": "Research fellows program 2026-2027 for Africa",
+    "last_known_deadline": "2026-10-30",
+    "reason": "closed at discovery; likely annual",
+    "id": "a35d8720d8571d49",
+    "added": "2026-11-05T13:10:17.044014+00:00"
+  },
+  "46a6751a764a079d": {
+    "url": "https://remotivated.com/best-remote-jobs/industry/software",
+    "title": "Top 25 Remote Software Jobs 2026 | Remotivated",
+    "reason": "ANALYSIS_UNAVAILABLE — all configured providers unavailable for 'first_pass_filter' (tried: openrouter, mistral, gemini)",
+    "retry_analysis": true,
+    "snippet": "Remotivated Logo\n\nEarly Access — Help us improve! Share your feedback.\n\nBEST REMOTE JOBS · BY INDUSTRY\n\n# Remote Software Jobs: 25 Verified Opportunities at Top Companies\n\nFind 25 verified remote software jobs at manually-reviewed SaaS and DevTools companies. Every listing passes our remote-legitimacy check.\n\n●Updated October 31, 2026 — re-verified daily, dead listings removed\n\nFEATURING ROLES AT\n\n●all scored 85+ [...] ●all scored 85+\n\nRemote work didn't happen to software — software built remote work. The companies on this list include fully-remote pioneers like GitLab, Grafana Labs, Docker, Supabase, and Linear — employers that operate without offices by design, not as a perk. They also happen to be hiring. [...] Ashby is all-in-one recruiting software that combines applicant tracking, analytics, workflows, and automation in a single platform. It is built for scaling companies running high-volume hiring, and is used by teams at Notion, Snowflake, Deel, Shopify, and Figma.\n\nAshby logo\n\n### SMB Customer Success Manager - Americas\n\nWhy they made the list:",
+    "id": "46a6751a764a079d",
+    "added": "2026-11-05T13:10:42.444525+00:00"
+  },
+  "259fb2ec8cb50e94": {
+    "url": "https://builtin.com/companies/hiring/remote/type/software-companies",
+    "title": "Top Software Companies Hiring Remote 2026 | Built In",
+    "reason": "ANALYSIS_UNAVAILABLE — all configured providers unavailable for 'first_pass_filter' (tried: gemini)",
+    "retry_analysis": true,
+    "snippet": "• •\n\n## Hiya Inc.\n\nArtificial Intelligence • Cloud • Mobile • Security • Software\n\n3 Offices\n\n150 Employees\n\n 40 Benefits  Hiring Now\n\nHiya makes phone calls worth trusting again, combining carrier-grade security and AI insight to protect people from scam [...] Remote WorkersAsset Management + Discovery Companies Hiring Remote WorkersAutomation Companies Hiring Remote WorkersAutomotive Companies Hiring Remote WorkersBeauty Companies Hiring Remote WorkersBig Data Companies Hiring Remote WorkersBig Data Analytics Companies Hiring Remote WorkersBiotech Companies Hiring Remote WorkersBlockchain Companies Hiring Remote WorkersBusiness Intelligence Companies Hiring Remote WorkersCannabis Companies Hiring Remote WorkersChemical Companies Hiring Remote [...] 14 Offices\n\n1,200 Employees\n\n 69 Benefits  Hiring Now\n\nDelivering the most important and complex payments.\n\nFlywire is a global payments enablement and software company. We combine our proprietary global payments network, next-gen payments platform and vertical-specific software to deliver the most important and complex payments for our clients and their customers.\n\n• •\n\n• •\n\n## Garner Health",
+    "id": "259fb2ec8cb50e94",
+    "added": "2026-11-05T13:10:42.685873+00:00"
   }
 }

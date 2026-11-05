@@ -18895,9 +18895,9 @@
   "0f3dc1430d171e0d": {
     "url": "https://scholarvana.com/2026/06/28/international-fellowships-2026",
     "title": "International Fellowships 2026: 30 Fully Funded Programs for Global Applicants - Scholarvana",
-    "status": "notified",
-    "score": 5.0,
-    "category": "fellowships",
+    "status": "analyzed",
+    "score": 6.0,
+    "category": null,
     "official_url": "https://scholarvana.com/2026/06/28/international-fellowships-2026",
     "location": null,
     "remote": null,
@@ -18907,11 +18907,11 @@
     "eligibility_status": "PROBABLY_ELIGIBLE",
     "credibility_status": "LIKELY_LEGITIMATE",
     "source_tier": "TIER_4",
-    "source_quality": 0,
+    "source_quality": null,
     "requirements": [],
     "id": "0f3dc1430d171e0d",
     "first_seen": "2026-10-31T11:07:02.761111+00:00",
-    "last_updated": "2026-10-31T11:09:17.666016+00:00",
+    "last_updated": "2026-11-05T13:02:21.140742+00:00",
     "notification_tier": "WATCHLIST",
     "notified_at": "2026-10-31T11:09:17.652859+00:00"
   },
@@ -19860,5 +19860,68 @@
     "id": "b8249fa5f5272124",
     "first_seen": "2026-11-04T13:12:10.991195+00:00",
     "last_updated": "2026-11-04T13:12:10.991216+00:00"
+  },
+  "5c8cad4634f439e0": {
+    "url": "https://opportunitiescorners.com/mit-summer-research-program-2027/",
+    "title": "MIT Summer Research Program 2027 in USA (Fully Funded)",
+    "status": "suspicious",
+    "credibility_status": "SUSPICIOUS",
+    "source_tier": "TIER_3",
+    "reasoning": "The page uses a generic Gmail address for contact and provides no official MIT link; eligibility criteria are contradictory (claims open to international students then restricts to US citizens/DACA only). While no fee is mentioned, the lack of official MIT branding and inconsistent details raise concerns.",
+    "id": "5c8cad4634f439e0",
+    "first_seen": "2026-11-05T12:58:40.732455+00:00",
+    "last_updated": "2026-11-05T12:58:40.732467+00:00"
+  },
+  "a62647628af52380": {
+    "url": "https://opportunitiescorners.com/santa-fe-institute-summer-program-2027/",
+    "title": "Santa Fe Institute Summer Program 2027 in USA (Fully Funded)",
+    "status": "closed",
+    "deadline": null,
+    "id": "a62647628af52380",
+    "first_seen": "2026-11-05T13:07:56.432548+00:00",
+    "last_updated": "2026-11-05T13:07:56.432566+00:00"
+  },
+  "9db928335a9d377d": {
+    "url": "https://opportunitiescorners.com/new-generation-leaders-summit-2027-in-thailand/",
+    "title": "New Generation Leaders Summit 2027 in Thailand (Fully Funded)",
+    "status": "scam",
+    "credibility_status": "HIGH_RISK",
+    "source_tier": "TIER_3",
+    "reasoning": "The program claims to be fully funded but requires a US$17 application fee, which is atypical for legitimate fully funded summits. Additionally, the only contact email provided is a generic Gmail address (opportunitiescorners.com@gmail.com), indicating a lack of official institutional contact. These substantive red flags outweigh the hosting context.",
+    "id": "9db928335a9d377d",
+    "first_seen": "2026-11-05T13:08:11.669832+00:00",
+    "last_updated": "2026-11-05T13:08:11.669848+00:00"
+  },
+  "a35d8720d8571d49": {
+    "url": "https://www.facebook.com/Pantamifoundation/posts/research-fellows-program-20262027-apply-for-a-nine-month-research-fellowship-on-/1422736270006021",
+    "title": "Research fellows program 2026-2027 for Africa",
+    "status": "closed",
+    "deadline": "2026-10-30",
+    "id": "a35d8720d8571d49",
+    "first_seen": "2026-11-05T13:10:17.020307+00:00",
+    "last_updated": "2026-11-05T13:10:17.020323+00:00"
+  },
+  "7b24d0ec7ff42127": {
+    "url": "https://relocateme.substack.com/p/big-list-of-tech-companies-hiring",
+    "title": "70+ Tech Companies Hiring Globally for Remote Roles",
+    "status": "unknown",
+    "eligibility_status": "UNCERTAIN",
+    "model_eligibility_status": "UNCERTAIN",
+    "missing_requirements": [
+      "Scholarship eligibility criteria (DAAD, Chevening, Fulbright, MEXT, etc.)",
+      "Degree requirements for fellowships",
+      "Age limits for scholarships",
+      "Citizenship restrictions for government scholarships",
+      "English language proficiency requirements for scholarships"
+    ],
+    "blocking_issues": [],
+    "addressable_gaps": [
+      "The candidate would need to clarify whether they are seeking job opportunities (which this program offers) rather than scholarships",
+      "Scholarship-specific requirements (DAAD, Chevening, Fulbright, MEXT, etc.) are not stated in the program text"
+    ],
+    "reasoning": "The program text describes a job listing for remote tech roles (not a scholarship/fallows program). The candidate is seeking fully-funded scholarships, fellowships, and government scholarships, but the page contains no scholarship eligibility criteria. Without explicit scholarship requirements, it is impossible to determine eligibility.",
+    "id": "7b24d0ec7ff42127",
+    "first_seen": "2026-11-05T13:10:41.860974+00:00",
+    "last_updated": "2026-11-05T13:10:41.860991+00:00"
   }
 }
