@@ -19417,17 +19417,14 @@
     "model_eligibility_status": "CONFIRMED_INELIGIBLE",
     "missing_requirements": [],
     "blocking_issues": [
-      "Not currently enrolled in a degree program (must be enrolled during and after fellowship)",
-      "Degree field mismatch (Psychology not a listed related field to computer science)"
+      "Not currently enrolled in a degree program (must be a student)",
+      "Degree field mismatch (BSc Psychology not a closely related field to computer science)"
     ],
-    "addressable_gaps": [
-      "Enroll in a Bachelor’s or Master’s program in computer science or a closely related discipline before the application deadline",
-      "Ensure continuous enrollment through the fellowship period"
-    ],
-    "reasoning": "The ETH Summer Fellowship requires applicants to be currently enrolled in a Bachelor’s or Master’s degree program in computer science or a closely related field (e.g., electrical engineering, mathematics, physics) and to remain enrolled during and after the fellowship. The candidate is a working professional, not currently a student, and holds a BSc in Psychology, which is not listed as a closely related field. These constitute hard blockers.",
+    "addressable_gaps": [],
+    "reasoning": "The ETH Summer Fellowship requires applicants to be currently enrolled in a Bachelor’s or Master’s degree program in computer science or a closely related field (e.g., electrical engineering, mathematics, physics) and to remain enrolled during and after the fellowship. The candidate is a working professional, not currently a student, and holds a BSc in Psychology, which is not a listed related field. These are hard blockers.",
     "id": "a3a70c39c2c19b72",
     "first_seen": "2026-11-03T12:47:32.260048+00:00",
-    "last_updated": "2026-11-03T12:47:32.260066+00:00"
+    "last_updated": "2026-11-06T12:47:46.062546+00:00"
   },
   "8a6da15287cd7478": {
     "url": "https://www.opportunitiesforafricans.com/2027-2029-erasmus-mundus-masters-scholarship-in-journalism/",
@@ -19923,5 +19920,281 @@
     "id": "7b24d0ec7ff42127",
     "first_seen": "2026-11-05T13:10:41.860974+00:00",
     "last_updated": "2026-11-05T13:10:41.860991+00:00"
+  },
+  "a7bd36a5ef949d5d": {
+    "url": "https://menterprise.africa/august-2026-opportunities-african-entrepreneurs-innovators",
+    "title": "August 2026 Opportunities for African Entrepreneurs, Innovators & Emerging Leaders",
+    "status": "closed",
+    "deadline": "2026-08-07",
+    "id": "a7bd36a5ef949d5d",
+    "first_seen": "2026-11-06T12:45:22.425490+00:00",
+    "last_updated": "2026-11-06T12:45:22.425507+00:00"
+  },
+  "fdeaf1ef08bbf64f": {
+    "url": "https://www.linkedin.com/posts/starthub-ops_starthubops-preseed-firstcheque-activity-7483488297642647552-1Dr6",
+    "title": "African Founders: 3 Funding Opportunities for MVPs & Startups | StartHUB_Ops posted on the topic | LinkedIn",
+    "status": "closed",
+    "deadline": "2026-07-25",
+    "id": "fdeaf1ef08bbf64f",
+    "first_seen": "2026-11-06T12:45:29.677772+00:00",
+    "last_updated": "2026-11-06T12:45:29.677785+00:00"
+  },
+  "9efae548bf380c56": {
+    "url": "https://www.get-invest.eu/fund/launch-africa",
+    "title": "Launch Africa - GET.invest",
+    "status": "unknown",
+    "eligibility_status": "UNCERTAIN",
+    "model_eligibility_status": "UNCERTAIN",
+    "missing_requirements": [
+      "Explicit eligibility criteria such as required legal entity status, minimum traction, sector alignment, and any founder‑level conditions."
+    ],
+    "blocking_issues": [],
+    "addressable_gaps": [
+      "Provide evidence of a registered early‑stage startup (e.g., incorporation documents, business plan) that aligns with the fund’s target sectors and stage."
+    ],
+    "reasoning": "The program funds early‑stage African startups. The candidate is an Ethiopian professional with founder experience, which could satisfy the startup requirement, but the listing does not state the specific eligibility conditions (e.g., must have a legally registered company, be at a pre‑seed/seed stage, sector fit). Without confirmation that the candidate’s venture meets those undisclosed criteria, eligibility cannot be confirmed.",
+    "id": "9efae548bf380c56",
+    "first_seen": "2026-11-06T12:46:16.177709+00:00",
+    "last_updated": "2026-11-06T12:46:16.177726+00:00"
+  },
+  "901a51a8c206dc66": {
+    "url": "https://blaq.ventures",
+    "title": "Blaq Ventures | Accelerating African Tech-based Startups",
+    "status": "legitimacy_unknown",
+    "credibility_status": "NEEDS_VERIFICATION",
+    "source_tier": "TIER_4",
+    "reasoning": "The site provides no verifiable information about the firm (no team, address, portfolio, or legal registration) and lacks clear contact details, which makes it impossible to confirm legitimacy. However, there are no explicit scam indicators such as fees, payment requests, or pressure tactics.",
+    "id": "901a51a8c206dc66",
+    "first_seen": "2026-11-06T12:46:39.268111+00:00",
+    "last_updated": "2026-11-06T12:46:39.268127+00:00"
+  },
+  "e5c885b2ff445407": {
+    "url": "https://opportunitiescorners.com/mcw-young-leaders-fellowship-2027/",
+    "title": "MCW Young Leaders Fellowship 2027 in USA (Fully Funded)",
+    "status": "suspicious",
+    "credibility_status": "SUSPICIOUS",
+    "source_tier": "TIER_3",
+    "reasoning": "The program is listed on a third‑party aggregator with no direct link to an official institutional website, and the only contact provided is a generic Gmail address (opportunitiescorners.com@gmail.com). There is no verifiable sponsor (e.g., NYU or Champlain College) and the description lacks concrete details or official documentation, which are typical red flags for scholarship scams.",
+    "id": "e5c885b2ff445407",
+    "first_seen": "2026-11-06T12:49:11.929315+00:00",
+    "last_updated": "2026-11-06T12:49:11.929330+00:00"
+  },
+  "7c19d5d2993f0fea": {
+    "url": "https://www.opportunitiesforafricans.com/the-mcw-globals-young-leaders-fellowship-2027/",
+    "title": "The MCW Global’s Young Leaders Fellowship 2027 for young changemakers worldwide (Fully Funded to New York, USA)",
+    "status": "suspicious",
+    "credibility_status": "SUSPICIOUS",
+    "source_tier": "TIER_3",
+    "reasoning": "The page mentions a required \"Deposit by Mentees\" for visa interview confirmation and provides only generic @opportunitiesforafricans.com email contacts, with no direct link to an official MCW Global website, which are classic red‑flag indicators of a potential scam.",
+    "id": "7c19d5d2993f0fea",
+    "first_seen": "2026-11-06T12:49:57.123663+00:00",
+    "last_updated": "2026-11-06T12:49:57.123682+00:00"
+  },
+  "90fd889ce3ced0ee": {
+    "url": "https://www.opportunitiesforafricans.com/the-ceps-heinrich-boll-stiftung-climate-leadership-programme-2027/",
+    "title": "The CEPS/Heinrich Böll Stiftung Climate Leadership Programme 2027 for young climate leaders (Fully Funded to Brussels, Belgium)",
+    "status": "analyzed",
+    "score": 4.5,
+    "category": null,
+    "official_url": "https://www.opportunitiesforafricans.com/the-ceps-heinrich-boll-stiftung-climate-leadership-programme-2027/",
+    "location": null,
+    "remote": null,
+    "deadline": "2026-11-10",
+    "reward": "fully_funded",
+    "estimated_value": null,
+    "eligibility_status": "PROBABLY_ELIGIBLE",
+    "credibility_status": "LIKELY_LEGITIMATE",
+    "source_tier": "TIER_3",
+    "source_quality": 7,
+    "requirements": [
+      "CV",
+      "reference letter",
+      "written application questionnaire"
+    ],
+    "id": "90fd889ce3ced0ee",
+    "first_seen": "2026-11-06T12:52:05.190679+00:00",
+    "last_updated": "2026-11-06T12:52:05.190696+00:00"
+  },
+  "99b257ea4c17e0ce": {
+    "url": "https://www.opportunitiesforafricans.com/the-cannes-lions-2027-scholarships/",
+    "title": "The Cannes Lions 2027 Scholarships for underrepresented talent in the creative industry (Fully Funded to Cannes Lions)",
+    "status": "legitimacy_unknown",
+    "credibility_status": "NEEDS_VERIFICATION",
+    "source_tier": "TIER_3",
+    "reasoning": "The page does not request any payment and describes a fully funded trip, which aligns with legitimate scholarship practices. However, the only contact information is a generic @opportunitiesforafricans.com email, there is no direct link to an official Cannes Lions website, and there is no publicly known Cannes Lions scholarship program to corroborate the claim.",
+    "id": "99b257ea4c17e0ce",
+    "first_seen": "2026-11-06T12:52:48.534135+00:00",
+    "last_updated": "2026-11-06T12:52:48.534155+00:00"
+  },
+  "d1878bce741ad09e": {
+    "url": "https://www.opportunitiesforafricans.com/the-firstrand-oxford-blavatnik-school-of-government-scholarship-2027-2028-for-a-master-of-public-policy/",
+    "title": "The FirstRand Oxford Blavatnik School of Government Scholarship 2027/2028 for a Master of Public Policy at the University of Oxford (Fully Funded)",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "model_eligibility_status": "CONFIRMED_INELIGIBLE",
+    "missing_requirements": [
+      "Age limit not specified",
+      "Degree level (Master's) not explicitly required in the excerpt but implied for postgraduate study",
+      "English language proficiency not mentioned"
+    ],
+    "blocking_issues": [
+      "Hard blocker: Nationality – candidate is Ethiopian, program requires South African citizenship."
+    ],
+    "addressable_gaps": [],
+    "reasoning": "The program explicitly states it is for \"one outstanding South African student a year\" and seeks candidates who will contribute to South Africa on their return. The candidate is an Ethiopian national, which does not meet the nationality requirement.",
+    "id": "d1878bce741ad09e",
+    "first_seen": "2026-11-06T12:53:38.851297+00:00",
+    "last_updated": "2026-11-06T12:53:38.851316+00:00"
+  },
+  "7b5b0b2fdc63c698": {
+    "url": "https://opportunitiescorners.com/kyoto-university-amgen-internship-2027-in-japan/",
+    "title": "KYOTO University Amgen Internship 2027 in Japan (Fully Funded)",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "model_eligibility_status": "CONFIRMED_INELIGIBLE",
+    "missing_requirements": [],
+    "blocking_issues": [
+      "Must be an undergraduate student (candidate is not a student)",
+      "Must be enrolled in a college or university in Asia (candidate is not enrolled anywhere)",
+      "Must have at least one semester left after the internship (candidate has already completed degree)"
+    ],
+    "addressable_gaps": [],
+    "reasoning": "The program requires applicants to be currently enrolled undergraduate students in an Asian university, having completed at least the first year and with at least one semester remaining after the internship. The candidate is a working professional, not currently a student, and holds a completed BSc from Ethiopia, thus does not meet the undergraduate enrollment requirement.",
+    "id": "7b5b0b2fdc63c698",
+    "first_seen": "2026-11-06T12:54:50.837474+00:00",
+    "last_updated": "2026-11-06T12:54:50.837496+00:00"
+  },
+  "8da31cd7b55da1cd": {
+    "url": "https://opportunitiescorners.com/oung-security-conference-in-germany/",
+    "title": "Young Security Conference 2026/2027 in Germany (Fully Funded)",
+    "status": "notified",
+    "score": 5.3,
+    "category": null,
+    "official_url": "https://opportunitiescorners.com/oung-security-conference-in-germany/",
+    "location": null,
+    "remote": null,
+    "deadline": "2026-11-11",
+    "reward": "fully_funded",
+    "estimated_value": null,
+    "eligibility_status": "PROBABLY_ELIGIBLE",
+    "credibility_status": "LIKELY_LEGITIMATE",
+    "source_tier": "TIER_3",
+    "source_quality": 7,
+    "requirements": [
+      "CV",
+      "Motivation Letter",
+      "Short Research Proposal"
+    ],
+    "id": "8da31cd7b55da1cd",
+    "first_seen": "2026-11-06T12:56:55.037867+00:00",
+    "last_updated": "2026-11-06T13:02:38.053831+00:00",
+    "notification_tier": "GOOD",
+    "notified_at": "2026-11-06T13:02:38.044735+00:00"
+  },
+  "e3a51d8b501600c2": {
+    "url": "https://www.opportunitiesforafricans.com/the-equality-fund-journalism-fellowship-2027-for-journalists-from-the-global-south/",
+    "title": "The Equality Fund Journalism Fellowship 2027 for Journalists from the Global South ($4000 CAD stipend)",
+    "status": "legitimacy_unknown",
+    "credibility_status": "NEEDS_VERIFICATION",
+    "source_tier": "TIER_3",
+    "reasoning": "The page lists a stipend and no application fee, which is typical of legitimate fellowships, but it provides only generic contact emails and no direct link to an official Equality Fund website, making the sponsoring organization unclear.",
+    "id": "e3a51d8b501600c2",
+    "first_seen": "2026-11-06T12:57:27.717484+00:00",
+    "last_updated": "2026-11-06T12:57:27.717506+00:00"
+  },
+  "17e0fe677cf4c778": {
+    "url": "https://www.opportunitiesforafricans.com/the-friedrich-ebert-stiftung-young-leaders-programme-2027-for-young-cameroonians/",
+    "title": "The Friedrich-Ebert-Stiftung Young Leaders Programme 2027 for young Cameroonians.",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "model_eligibility_status": "CONFIRMED_INELIGIBLE",
+    "missing_requirements": [],
+    "blocking_issues": [
+      "Must reside in Cameroon",
+      "Program intended for Cameroonian nationals"
+    ],
+    "addressable_gaps": [],
+    "reasoning": "The programme explicitly requires candidates to reside in Cameroon and is targeted at young Cameroonians. The candidate is an Ethiopian national residing in Laos, which does not meet the residency or implied nationality requirement. All other criteria (age 27, holds a BSc) are satisfied, but the residency/nationality condition is a hard blocker.",
+    "id": "17e0fe677cf4c778",
+    "first_seen": "2026-11-06T12:58:24.889758+00:00",
+    "last_updated": "2026-11-06T12:58:24.889779+00:00"
+  },
+  "6d01a6642e192fed": {
+    "url": "https://www.opportunitiesforafricans.com/the-centre-for-research-in-the-arts-humanities-and-social-sciences-crassh-at-the-university-of-cambridge-visiting-fellowships-2027-2028/",
+    "title": "The Centre for Research in the Arts, Humanities and Social Sciences (CRASSH) at the University of Cambridge Visiting Fellowships 2027/2028 (Funded)",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "model_eligibility_status": "CONFIRMED_INELIGIBLE",
+    "missing_requirements": [],
+    "blocking_issues": [
+      "No PhD (degree level mismatch)",
+      "Not employed at a higher education or research institute (employment requirement not met)"
+    ],
+    "addressable_gaps": [
+      "English language proof (can obtain Duolingo or MOI certificate)"
+    ],
+    "reasoning": "The fellowship requires applicants to have been awarded a PhD at least five years before the application date and to be currently employed at a higher education or research institute in the Global South on at least a 50% contract. The candidate holds only a BSc and is a working professional not employed by a university or research institute, thus does not meet these mandatory criteria. English proficiency is addressable, but the lack of a PhD and appropriate employment are hard blockers.",
+    "id": "6d01a6642e192fed",
+    "first_seen": "2026-11-06T12:59:52.999624+00:00",
+    "last_updated": "2026-11-06T12:59:52.999650+00:00"
+  },
+  "8544faf8a5f9da14": {
+    "url": "https://www.facebook.com/groups/731957298564333/posts/1569883798105008",
+    "title": "a prestigious fully funded two-year fellowship for young ...",
+    "status": "legitimacy_unknown",
+    "credibility_status": "NEEDS_VERIFICATION",
+    "source_tier": "TIER_4",
+    "reasoning": "The post only mentions a \"prestigious fully funded\" fellowship on a Facebook group without linking to an official website, providing contact details, or naming a known sponsoring organization; there is no fee request, but the program (AFEP) cannot be independently verified. The lack of verifiable source and official branding makes it impossible to confirm legitimacy.",
+    "id": "8544faf8a5f9da14",
+    "first_seen": "2026-11-06T13:00:21.825629+00:00",
+    "last_updated": "2026-11-06T13:00:21.825659+00:00"
+  },
+  "e63fbf4c3c356e2f": {
+    "url": "https://www.youtube.com/watch?v=iCZjimzbeis",
+    "title": "LAST CALL: Fully Funded Scholarships Closing in September 2026!",
+    "status": "legitimacy_unknown",
+    "credibility_status": "NEEDS_VERIFICATION",
+    "source_tier": "TIER_4",
+    "reasoning": "The provided source is a generic YouTube page with no information about any scholarship or fellowship program, making it impossible to assess legitimacy. Without details on the program, fees, organizers, or contact information, no conclusion can be drawn.",
+    "id": "e63fbf4c3c356e2f",
+    "first_seen": "2026-11-06T13:00:25.544705+00:00",
+    "last_updated": "2026-11-06T13:00:25.544724+00:00"
+  },
+  "97626754df08576f": {
+    "url": "https://www.youtube.com/watch?v=aBx5MAyZ6aY",
+    "title": "How to Apply for Commonwealth Distance Learning Scholarships | Fully Funded UK Master’s (2026)",
+    "status": "legitimacy_unknown",
+    "credibility_status": "NEEDS_VERIFICATION",
+    "source_tier": "TIER_4",
+    "reasoning": "The provided source is only a generic YouTube page with no information about any scholarship or fellowship program, fees, organizers, or contact details. Without substantive evidence, the legitimacy cannot be assessed.",
+    "id": "97626754df08576f",
+    "first_seen": "2026-11-06T13:00:39.279332+00:00",
+    "last_updated": "2026-11-06T13:00:39.279345+00:00"
+  },
+  "bfd6f2ea37d05bbb": {
+    "url": "https://www.opportunitiesforafricans.com/the-microsoft-imagine-cup-student-startup-competition-2027/",
+    "title": "The Microsoft Imagine Cup Student Startup Competition 2027 for early-stage startups and founders worldwide (US$250,000 in cash prizes and US$1 million in Azure prize credits)",
+    "status": "analyzed",
+    "score": 4.3,
+    "category": null,
+    "official_url": "https://www.opportunitiesforafricans.com/the-microsoft-imagine-cup-student-startup-competition-2027/",
+    "location": null,
+    "remote": null,
+    "deadline": "2027-02-28",
+    "reward": "partial",
+    "estimated_value": null,
+    "eligibility_status": "PROBABLY_ELIGIBLE",
+    "credibility_status": "LIKELY_LEGITIMATE",
+    "source_tier": "TIER_3",
+    "source_quality": 7,
+    "requirements": [
+      "Pitch deck",
+      "2–3 minute product demonstration video",
+      "Azure architecture diagram or technical overview",
+      "Written responses to submission questions"
+    ],
+    "id": "bfd6f2ea37d05bbb",
+    "first_seen": "2026-11-06T13:02:34.510777+00:00",
+    "last_updated": "2026-11-06T13:02:34.510796+00:00"
   }
 }
