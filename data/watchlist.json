@@ -1381,25 +1381,8 @@
     "last_known_deadline": null,
     "reason": "closed at discovery; likely annual",
     "id": "0b3776a735eac815",
-    "added": "2026-11-02T13:23:05.431725+00:00"
-  },
-  "43e71e42371b33db": {
-    "url": "https://www.opportunitiesforafricans.com/auda-nepad-home-grown-solutions-agribusiness-accelerator-program-2027/",
-    "title": "AUDA-NEPAD Home-Grown Solutions Agribusiness Accelerator Program 2027 for African-owned/led growth-stage companies.",
-    "retry_analysis": true,
-    "snippet": "Application Deadline: November 18, 2026 Applications are now open for the 2027 AUDA-NEPAD Home-Grown Solutions Agribusiness Accelerator Program. The Home-Grown Solutions Agribusiness Accelerator (HGSA-A) is a COMESA regional initiative funded… The post AUDA-NEPAD Home-Grown Solutions Agribusiness Accelerator Program 2027 for African-owned/led growth-stage companies. appeared first on Opportunities For Africans .",
-    "reason": "legitimacy check returned an unparseable reply; retry on a later run",
-    "id": "43e71e42371b33db",
-    "added": "2026-11-03T12:54:55.572360+00:00"
-  },
-  "7bb7c57f7381123e": {
-    "url": "https://www.congressionalappchallenge.us/students/student-registration",
-    "title": "STUDENT REGISTRATION -",
-    "reason": "ANALYSIS_UNAVAILABLE — deep_eligibility: incomplete or invalid response after retry",
-    "retry_analysis": true,
-    "snippet": "Skip to content\n\nMenu\n\n[](\n\nConnecting today's Congress with tomorrow's innovators.\n\n ABOUT\n IMPACT\n NEWS\n DONATE\n\nSearch\n\nClose Menu\n\n# REGISTER IN 2026\n\nCAClogo-dome-only-small\n\nRegistration for the 2026 Congressional App Challenge is now open!\n\nThe 2026 competition deadline is scheduled for October 26, 2026 at 9:00 pm ET.\n\nSTUDENTS: REGISTER FOR THE 2026 CONGRESSIONAL APP CHALLENGE HERE! [...] ### Want to show off that you’re Coding for Congress? Get a free App Challenge sticker from our friends at Hack Club!\n\nGET FREE STICKER!\n\nflag-orpheus-top\n\n# \n\n# HOW TO SUBMIT YOUR CAC APPLICATION\n\n###### Filling Out Your Applicant Profile\n\n###### Finding Your Member Of Congress\n\n###### Filling Out Your Eligibility\n\n###### What To Do If Your Member Is Not Participating\n\n###### Filling Out Your Full Application\n\n###### Submitting Your Application & Survey",
-    "id": "7bb7c57f7381123e",
-    "added": "2026-11-03T12:57:25.335765+00:00"
+    "added": "2026-11-07T11:34:05.119530+00:00",
+    "last_checked": "2026-11-07T11:34:05.118835"
   },
   "4a638e48989c413d": {
     "url": "https://scholarsavenue.com/scholarships-for-2027",
@@ -1407,16 +1390,8 @@
     "last_known_deadline": "2026-10-20",
     "reason": "closed at discovery; likely annual",
     "id": "4a638e48989c413d",
-    "added": "2026-11-04T13:07:01.230246+00:00"
-  },
-  "90fd889ce3ced0ee": {
-    "url": "https://www.opportunitiesforafricans.com/the-ceps-heinrich-boll-stiftung-climate-leadership-programme-2027/",
-    "title": "The CEPS/Heinrich Böll Stiftung Climate Leadership Programme 2027 for young climate leaders (Fully Funded to Brussels, Belgium)",
-    "reason": "ANALYSIS_UNAVAILABLE — final_scoring: incomplete or invalid response after retry",
-    "retry_analysis": true,
-    "snippet": "Application Deadline: 10 November 2026 Applications are now open for the 2027 CEPS/Heinrich Böll Stiftung Climate Leadership Programme. The Centre for European Policy Studies (CEPS), with the support of the… The post The CEPS/Heinrich Böll Stiftung Climate Leadership Programme 2027 for young climate leaders (Fully Funded to Brussels, Belgium) appeared first on Opportunities For Africans .",
-    "id": "90fd889ce3ced0ee",
-    "added": "2026-11-05T13:06:15.163284+00:00"
+    "added": "2026-11-07T11:34:31.396362+00:00",
+    "last_checked": "2026-11-07T11:34:31.395760"
   },
   "99b257ea4c17e0ce": {
     "url": "https://www.opportunitiesforafricans.com/the-cannes-lions-2027-scholarships/",
@@ -1514,5 +1489,13 @@
     "snippet": "• •\n\n## Hiya Inc.\n\nArtificial Intelligence • Cloud • Mobile • Security • Software\n\n3 Offices\n\n150 Employees\n\n 40 Benefits  Hiring Now\n\nHiya makes phone calls worth trusting again, combining carrier-grade security and AI insight to protect people from scam [...] Remote WorkersAsset Management + Discovery Companies Hiring Remote WorkersAutomation Companies Hiring Remote WorkersAutomotive Companies Hiring Remote WorkersBeauty Companies Hiring Remote WorkersBig Data Companies Hiring Remote WorkersBig Data Analytics Companies Hiring Remote WorkersBiotech Companies Hiring Remote WorkersBlockchain Companies Hiring Remote WorkersBusiness Intelligence Companies Hiring Remote WorkersCannabis Companies Hiring Remote WorkersChemical Companies Hiring Remote [...] 14 Offices\n\n1,200 Employees\n\n 69 Benefits  Hiring Now\n\nDelivering the most important and complex payments.\n\nFlywire is a global payments enablement and software company. We combine our proprietary global payments network, next-gen payments platform and vertical-specific software to deliver the most important and complex payments for our clients and their customers.\n\n• •\n\n• •\n\n## Garner Health",
     "id": "259fb2ec8cb50e94",
     "added": "2026-11-05T13:10:42.685873+00:00"
+  },
+  "9c3e64cf72537383": {
+    "url": "https://blogs.nvidia.com/blog/applications-open-graduate-fellowship-awards-2026",
+    "title": "NVIDIA Opens Applications for 2027–2028 Graduate Fellowships With Awards Up to $60,000 | NVIDIA Blog",
+    "last_known_deadline": "2026-10-30",
+    "reason": "closed at discovery; likely annual",
+    "id": "9c3e64cf72537383",
+    "added": "2026-11-07T11:53:10.688677+00:00"
   }
 }

@@ -19993,7 +19993,7 @@
   "90fd889ce3ced0ee": {
     "url": "https://www.opportunitiesforafricans.com/the-ceps-heinrich-boll-stiftung-climate-leadership-programme-2027/",
     "title": "The CEPS/Heinrich Böll Stiftung Climate Leadership Programme 2027 for young climate leaders (Fully Funded to Brussels, Belgium)",
-    "status": "analyzed",
+    "status": "unknown",
     "score": 4.5,
     "category": null,
     "official_url": "https://www.opportunitiesforafricans.com/the-ceps-heinrich-boll-stiftung-climate-leadership-programme-2027/",
@@ -20002,7 +20002,7 @@
     "deadline": "2026-11-10",
     "reward": "fully_funded",
     "estimated_value": null,
-    "eligibility_status": "PROBABLY_ELIGIBLE",
+    "eligibility_status": "UNCERTAIN",
     "credibility_status": "LIKELY_LEGITIMATE",
     "source_tier": "TIER_3",
     "source_quality": 7,
@@ -20013,7 +20013,18 @@
     ],
     "id": "90fd889ce3ced0ee",
     "first_seen": "2026-11-06T12:52:05.190679+00:00",
-    "last_updated": "2026-11-06T12:52:05.190696+00:00"
+    "last_updated": "2026-11-07T11:36:03.121753+00:00",
+    "model_eligibility_status": "UNCERTAIN",
+    "missing_requirements": [
+      "Proof of active involvement in climate policy, advocacy, or entrepreneurship (e.g., description of a climate initiative, reference letter highlighting climate work).",
+      "Formal English language test certificate."
+    ],
+    "blocking_issues": [],
+    "addressable_gaps": [
+      "Obtain an English proficiency test result (e.g., Duolingo English Test or MOI certificate) to demonstrate the required command of English.",
+      "Provide documentation of a climate‑related initiative (policy proposal, advocacy campaign, or climate‑focused venture) to satisfy the engagement requirement."
+    ],
+    "reasoning": "The programme requires applicants to be already engaged in climate policy, advocacy, or entrepreneurship. The candidate's profile does not provide evidence of climate‑related work, so this decision‑relevant criterion cannot be verified. Age, nationality, student status, and degree level are all within the allowed range. English proficiency is required but the candidate lacks a formal test certificate, which can be obtained."
   },
   "99b257ea4c17e0ce": {
     "url": "https://www.opportunitiesforafricans.com/the-cannes-lions-2027-scholarships/",
@@ -20196,5 +20207,274 @@
     "id": "bfd6f2ea37d05bbb",
     "first_seen": "2026-11-06T13:02:34.510777+00:00",
     "last_updated": "2026-11-06T13:02:34.510796+00:00"
+  },
+  "43e71e42371b33db": {
+    "url": "https://www.opportunitiesforafricans.com/auda-nepad-home-grown-solutions-agribusiness-accelerator-program-2027/",
+    "title": "AUDA-NEPAD Home-Grown Solutions Agribusiness Accelerator Program 2027 for African-owned/led growth-stage companies.",
+    "status": "ineligible",
+    "eligibility_status": "PROBABLY_INELIGIBLE",
+    "model_eligibility_status": "PROBABLY_INELIGIBLE",
+    "missing_requirements": [],
+    "blocking_issues": [
+      "Not a legally registered company",
+      "No operational agribusiness entity",
+      "No audited financial accounts or turnover evidence",
+      "Does not meet \"African-owned or led growth‑stage company\" requirement"
+    ],
+    "addressable_gaps": [
+      "Candidate could establish and register an agribusiness company in Ethiopia, generate the required turnover, and obtain audited financial statements to meet the eligibility criteria."
+    ],
+    "reasoning": "The AUDA-NEPAD accelerator explicitly requires applicants to be a legally registered and operational agribusiness company in a COMESA member state, with documented turnover, audited financial statements, and a proven business model. The candidate is an individual professional with no registered company, no turnover, and no audited accounts, which does not satisfy the core eligibility criteria.",
+    "id": "43e71e42371b33db",
+    "first_seen": "2026-11-07T11:34:20.274251+00:00",
+    "last_updated": "2026-11-07T11:34:20.274264+00:00"
+  },
+  "7bb7c57f7381123e": {
+    "url": "https://www.congressionalappchallenge.us/students/student-registration",
+    "title": "STUDENT REGISTRATION -",
+    "status": "filtered_out",
+    "reason": "Application deadline has passed and it is a competition, not a funded scholarship.",
+    "id": "7bb7c57f7381123e",
+    "first_seen": "2026-11-07T11:34:31.362574+00:00",
+    "last_updated": "2026-11-07T11:34:31.362585+00:00"
+  },
+  "3c03b52d95ea8600": {
+    "url": "https://www.opportunitiesforafricans.com/the-humboldt-residency-programme-2027/",
+    "title": "The Humboldt Residency Programme 2027 for Researchers, Creatives and Civil Society Practitioners (Fully Funded to Germany)",
+    "status": "notified",
+    "score": 5.7,
+    "category": null,
+    "official_url": "https://www.opportunitiesforafricans.com/the-humboldt-residency-programme-2027/",
+    "location": null,
+    "remote": null,
+    "deadline": "2026-12-14",
+    "reward": "fully_funded",
+    "estimated_value": null,
+    "eligibility_status": "PROBABLY_ELIGIBLE",
+    "credibility_status": "LIKELY_LEGITIMATE",
+    "source_tier": "TIER_3",
+    "source_quality": 7,
+    "requirements": [
+      "Curriculum Vitae (max. 3 pages, PDF format)",
+      "Introduction Video"
+    ],
+    "id": "3c03b52d95ea8600",
+    "first_seen": "2026-11-07T11:38:40.955288+00:00",
+    "last_updated": "2026-11-07T11:54:08.655834+00:00",
+    "notification_tier": "GOOD",
+    "notified_at": "2026-11-07T11:54:08.642457+00:00"
+  },
+  "ab4869dc5723d26e": {
+    "url": "https://opportunitiescorners.com/hurford-youth-fellowship-2027/",
+    "title": "Hurford Youth Fellowship 2027 in USA (Fully Funded)",
+    "status": "notified",
+    "score": 6.0,
+    "category": null,
+    "official_url": "https://opportunitiescorners.com/hurford-youth-fellowship-2027/",
+    "location": null,
+    "remote": null,
+    "deadline": "2026-11-30",
+    "reward": "fully_funded",
+    "estimated_value": null,
+    "eligibility_status": "PROBABLY_ELIGIBLE",
+    "credibility_status": "LIKELY_LEGITIMATE",
+    "source_tier": "TIER_3",
+    "source_quality": 7,
+    "requirements": [],
+    "id": "ab4869dc5723d26e",
+    "first_seen": "2026-11-07T11:40:55.977060+00:00",
+    "last_updated": "2026-11-07T11:54:08.622710+00:00",
+    "notification_tier": "GOOD",
+    "notified_at": "2026-11-07T11:54:08.608657+00:00"
+  },
+  "78d712a9bf2ae73d": {
+    "url": "https://www.opportunitiesforafricans.com/the-sir-cyril-taylor-young-african-leaders-fellowship-program-2027/",
+    "title": "The Sir Cyril Taylor Young African Leaders Fellowship Program 2027 for young changemakers (Fully Funded to the 2027 AFS Youth Assembly in Switzerland)",
+    "status": "legitimacy_unknown",
+    "credibility_status": "NEEDS_VERIFICATION",
+    "source_tier": "TIER_3",
+    "reasoning": "The page does not request any application or participation fees and describes a fully funded fellowship, which aligns with legitimate scholarship practices. However, the only contact information uses generic @opportunitiesforafricans.com emails and there is no direct link to an official AFS or Sir Cyril Taylor Foundation webpage, making it impossible to verify the program's authenticity from the provided content.",
+    "id": "78d712a9bf2ae73d",
+    "first_seen": "2026-11-07T11:41:30.211238+00:00",
+    "last_updated": "2026-11-07T11:41:30.211254+00:00"
+  },
+  "6c96b09e8db7180a": {
+    "url": "https://www.opportunitiesforafricans.com/cfa-institute-access-scholarship-programme-2026-2027/",
+    "title": "CFA Institute Access Scholarship Programme 2026/2027 for aspiring Finance Professionals",
+    "status": "analyzed",
+    "score": 3.7,
+    "category": null,
+    "official_url": "https://www.opportunitiesforafricans.com/cfa-institute-access-scholarship-programme-2026-2027/",
+    "location": null,
+    "remote": null,
+    "deadline": "2026-11-23",
+    "reward": "partial",
+    "estimated_value": null,
+    "eligibility_status": "PROBABLY_ELIGIBLE",
+    "credibility_status": "LIKELY_LEGITIMATE",
+    "source_tier": "TIER_3",
+    "source_quality": 7,
+    "requirements": [],
+    "id": "6c96b09e8db7180a",
+    "first_seen": "2026-11-07T11:43:24.849539+00:00",
+    "last_updated": "2026-11-07T11:43:24.849552+00:00"
+  },
+  "ae7124d36057ca81": {
+    "url": "https://opportunitiescorners.com",
+    "title": "Opportunities Corners | Scholarships, Internships, Youth Summit",
+    "status": "legitimacy_unknown",
+    "credibility_status": "NEEDS_VERIFICATION",
+    "source_tier": "TIER_3",
+    "reasoning": "The site lists many well‑known scholarships and does not show any fee demands, personal email contacts, or payment instructions, which are typical red flags. However, there is no direct verification of the programs or official source links, so the legitimacy cannot be confirmed.",
+    "id": "ae7124d36057ca81",
+    "first_seen": "2026-11-07T11:44:54.642978+00:00",
+    "last_updated": "2026-11-07T11:44:54.642995+00:00"
+  },
+  "38df29de8a153d98": {
+    "url": "https://opportunitiescorners.com/asia-foundation-development-fellows-program-2027/",
+    "title": "Asia Foundation Development Fellows Program 2027 (Fully Funded)",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "model_eligibility_status": "CONFIRMED_INELIGIBLE",
+    "missing_requirements": [],
+    "blocking_issues": [
+      "Citizenship not in the list of eligible countries (Ethiopia excluded)"
+    ],
+    "addressable_gaps": [
+      "Provide formal proof of English proficiency if required (e.g., Duolingo or MOI certificate)",
+      "Confirm ability to secure US and Japan visas",
+      "Confirm availability for program dates"
+    ],
+    "reasoning": "The Asia Foundation Development Fellows program limits applicants to citizens or resident nationals of specific Asian countries and regions. Ethiopia is not on the eligible list, and the candidate is an Ethiopian national (resident in Laos). This nationality mismatch is an explicit hard blocker. All other criteria (age under 40, professional background, English proficiency, availability) appear to be met or addressable, but the citizenship requirement alone disqualifies the candidate.",
+    "id": "38df29de8a153d98",
+    "first_seen": "2026-11-07T11:46:09.016575+00:00",
+    "last_updated": "2026-11-07T11:46:09.016592+00:00"
+  },
+  "435b521bce367c90": {
+    "url": "https://www.opportunitiesforafricans.com/the-hurford-youth-fellows-program-2027/",
+    "title": "The Hurford Youth Fellows Program 2027 for emerging youth Leaders (Fully Funded to Washington D.C., United States)",
+    "status": "analyzed",
+    "score": 4.8,
+    "category": null,
+    "official_url": "https://www.opportunitiesforafricans.com/the-hurford-youth-fellows-program-2027/",
+    "location": null,
+    "remote": null,
+    "deadline": "2026-11-30",
+    "reward": "fully_funded",
+    "estimated_value": null,
+    "eligibility_status": "PROBABLY_ELIGIBLE",
+    "credibility_status": "LIKELY_LEGITIMATE",
+    "source_tier": "TIER_3",
+    "source_quality": 7,
+    "requirements": [
+      "Recommendation Letter(s)"
+    ],
+    "id": "435b521bce367c90",
+    "first_seen": "2026-11-07T11:48:08.036248+00:00",
+    "last_updated": "2026-11-07T11:48:08.036266+00:00"
+  },
+  "84e22541a9c7f765": {
+    "url": "https://www.opportunitiesforafricans.com/the-center-for-effective-global-action-cega-2027-2028-visiting-fellowship-for-african-researchers/",
+    "title": "The Center for Effective Global Action (CEGA) 2027/2028 Visiting Fellowship for African researchers.",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "model_eligibility_status": "CONFIRMED_INELIGIBLE",
+    "missing_requirements": [],
+    "blocking_issues": [
+      "Degree level mismatch: only a bachelor's degree, while a Master's or PhD is required",
+      "Current employment location: not based in an East/West African institution as required for the Practitioner Track"
+    ],
+    "addressable_gaps": [],
+    "reasoning": "The CEGA Fellowship requires applicants to have at least a Master's degree (or be enrolled in/completed a PhD) in a relevant social science field. The candidate only holds a BSc in Psychology, which does not meet the minimum degree requirement. Additionally, the Practitioner Track requires the applicant to work for an NGO, think tank, or government ministry **in East or West Africa**, whereas the candidate is employed in Lao PDR. These are hard blockers.",
+    "id": "84e22541a9c7f765",
+    "first_seen": "2026-11-07T11:49:20.804248+00:00",
+    "last_updated": "2026-11-07T11:49:20.804265+00:00"
+  },
+  "7d831cb793bc7754": {
+    "url": "https://www.opportunitiesforafricans.com/ned-reagan-fascell-democracy-fellows-program-2027-2028/",
+    "title": "NED Reagan-Fascell Democracy Fellows Program 2027/2028 for democracy activists, journalists, civil society leaders & scholars Worldwide (Fully Funded to Washington DC, USA).",
+    "status": "unknown",
+    "eligibility_status": "UNCERTAIN",
+    "model_eligibility_status": "UNCERTAIN",
+    "missing_requirements": [
+      "Verified substantial practical experience promoting democracy or human rights in Ethiopia or a region of interest",
+      "Project proposal focusing on democratic development (required for application but not yet provided)"
+    ],
+    "blocking_issues": [],
+    "addressable_gaps": [
+      "English language proficiency proof (obtain Duolingo, TOEFL, IELTS, or MOI certificate)"
+    ],
+    "reasoning": "The program accepts mid‑career professionals (practitioner track) and does not exclude Ethiopian nationals or impose an age limit. The candidate meets the age, nationality, and degree‑level criteria for the practitioner track. However, the eligibility criteria require 'substantial practical experience working to promote democracy or human rights in their country of origin or interest.' The candidate’s profile does not provide verifiable evidence of such democracy‑or‑human‑rights work, so this decision‑relevant requirement cannot be confirmed. English proficiency is required; the candidate currently lacks a certified test but can obtain a Duolingo or MOI certificate, which is an addressable gap.",
+    "id": "7d831cb793bc7754",
+    "first_seen": "2026-11-07T11:50:29.758272+00:00",
+    "last_updated": "2026-11-07T11:50:29.758292+00:00"
+  },
+  "3db25f08edbbd492": {
+    "url": "https://www.opportunitiesforafricans.com/the-microsoft-ai-economy-institute-cohort-4/",
+    "title": "The Microsoft AI Economy Institute Cohort 4 for Global Researchers ($75,000 Research Grants)",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "model_eligibility_status": "CONFIRMED_INELIGIBLE",
+    "missing_requirements": [],
+    "blocking_issues": [
+      "Must hold a PhD or equivalent terminal degree (candidate has only a BSc)",
+      "Must be affiliated with an accredited university or research institution (candidate is not currently affiliated)"
+    ],
+    "addressable_gaps": [
+      "Obtain a PhD or equivalent terminal degree",
+      "Secure an affiliation with an accredited university or research institution (e.g., as a research associate)"
+    ],
+    "reasoning": "The program requires that Principal Investigators (PIs) and co‑PIs hold a PhD or equivalent terminal degree and be affiliated with an accredited university or research institution at the time of application. The candidate only has a BSc and is currently a working professional with no university affiliation, so these hard requirements are not met.",
+    "id": "3db25f08edbbd492",
+    "first_seen": "2026-11-07T11:51:40.573933+00:00",
+    "last_updated": "2026-11-07T11:51:40.573954+00:00"
+  },
+  "115ce01ceef97af6": {
+    "url": "https://www.opportunitiesforafricans.com/kenya-power-industrial-attachment-programme-2027/",
+    "title": "The Kenya Power Industrial Attachment Programme 2027 for young Kenyan Students.",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "model_eligibility_status": "CONFIRMED_INELIGIBLE",
+    "missing_requirements": [],
+    "blocking_issues": [
+      "Nationality: Ethiopian (program requires Kenyan students)",
+      "Student status: not a continuing student (must be enrolled in a degree, diploma or craft certificate program)"
+    ],
+    "addressable_gaps": [],
+    "reasoning": "The programme explicitly targets \"young Kenyan Students\" and requires applicants to be \"continuing students pursuing a Bachelor’s degree, Diploma or Craft Certificate\" at an accredited institution. The candidate is an Ethiopian national and is a working professional, not currently enrolled in any academic program.",
+    "id": "115ce01ceef97af6",
+    "first_seen": "2026-11-07T11:52:43.468498+00:00",
+    "last_updated": "2026-11-07T11:52:43.468513+00:00"
+  },
+  "9c3e64cf72537383": {
+    "url": "https://blogs.nvidia.com/blog/applications-open-graduate-fellowship-awards-2026",
+    "title": "NVIDIA Opens Applications for 2027–2028 Graduate Fellowships With Awards Up to $60,000 | NVIDIA Blog",
+    "status": "closed",
+    "deadline": "2026-10-30",
+    "id": "9c3e64cf72537383",
+    "first_seen": "2026-11-07T11:53:10.667507+00:00",
+    "last_updated": "2026-11-07T11:53:10.667523+00:00"
+  },
+  "b4e84c472502c6f7": {
+    "url": "https://opportunitiescorners.com/nusuk-app-challenge-2026/",
+    "title": "Nusuk App Challenge 2026 – Win a FREE Umrah Trip",
+    "status": "legitimacy_unknown",
+    "credibility_status": "NEEDS_VERIFICATION",
+    "source_tier": "TIER_3",
+    "reasoning": "The challenge claims to be run by Saudi Arabia’s Ministry of Hajj and Umrah and provides an official website (nusuk.sa) with no fee required, which are positive signs. However, there is no independent confirmation from the Ministry’s own communications that such a competition exists, and the page relies on an aggregator rather than an official announcement, leaving the legitimacy unverified.",
+    "id": "b4e84c472502c6f7",
+    "first_seen": "2026-11-07T11:53:39.155141+00:00",
+    "last_updated": "2026-11-07T11:53:39.155159+00:00"
+  },
+  "2fcf6e09c7bd9af5": {
+    "url": "https://bba-prizes.com",
+    "title": "BBA Prizes | International Art & Photography Awards | BBA Prizes",
+    "status": "legitimacy_unknown",
+    "credibility_status": "NEEDS_VERIFICATION",
+    "source_tier": "TIER_4",
+    "reasoning": "The site lists open art and photography awards but provides no details on entry fees, official contact information, or affiliation with recognized institutions, making it impossible to confirm legitimacy. Absence of clear fee or payment requirements prevents labeling it as a scam, but the lack of transparent details is a concern.",
+    "id": "2fcf6e09c7bd9af5",
+    "first_seen": "2026-11-07T11:54:06.904110+00:00",
+    "last_updated": "2026-11-07T11:54:06.904125+00:00"
   }
 }
