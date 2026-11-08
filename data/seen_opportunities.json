@@ -19872,11 +19872,21 @@
   "a62647628af52380": {
     "url": "https://opportunitiescorners.com/santa-fe-institute-summer-program-2027/",
     "title": "Santa Fe Institute Summer Program 2027 in USA (Fully Funded)",
-    "status": "closed",
+    "status": "ineligible",
     "deadline": null,
     "id": "a62647628af52380",
     "first_seen": "2026-11-05T13:07:56.432548+00:00",
-    "last_updated": "2026-11-05T13:07:56.432566+00:00"
+    "last_updated": "2026-11-08T11:50:06.771676+00:00",
+    "eligibility_status": "PROBABLY_INELIGIBLE",
+    "model_eligibility_status": "PROBABLY_INELIGIBLE",
+    "missing_requirements": [],
+    "blocking_issues": [
+      "Must be actively enrolled in an undergraduate degree program (candidate is not a student)."
+    ],
+    "addressable_gaps": [
+      "Enroll in an Associate’s or Bachelor’s degree program (part‑time or full‑time) to satisfy the undergraduate enrollment requirement."
+    ],
+    "reasoning": "The program explicitly requires applicants to be actively enrolled in an Associate’s or Bachelor’s degree program and to return for at least one additional undergraduate term after the summer. The candidate has already completed a BSc (2021) and is currently a working professional, not enrolled in any undergraduate program, which does not meet the core eligibility condition."
   },
   "9db928335a9d377d": {
     "url": "https://opportunitiescorners.com/new-generation-leaders-summit-2027-in-thailand/",
@@ -20029,13 +20039,29 @@
   "99b257ea4c17e0ce": {
     "url": "https://www.opportunitiesforafricans.com/the-cannes-lions-2027-scholarships/",
     "title": "The Cannes Lions 2027 Scholarships for underrepresented talent in the creative industry (Fully Funded to Cannes Lions)",
-    "status": "legitimacy_unknown",
-    "credibility_status": "NEEDS_VERIFICATION",
+    "status": "analyzed",
+    "credibility_status": "LIKELY_LEGITIMATE",
     "source_tier": "TIER_3",
     "reasoning": "The page does not request any payment and describes a fully funded trip, which aligns with legitimate scholarship practices. However, the only contact information is a generic @opportunitiesforafricans.com email, there is no direct link to an official Cannes Lions website, and there is no publicly known Cannes Lions scholarship program to corroborate the claim.",
     "id": "99b257ea4c17e0ce",
     "first_seen": "2026-11-06T12:52:48.534135+00:00",
-    "last_updated": "2026-11-06T12:52:48.534155+00:00"
+    "last_updated": "2026-11-08T11:46:57.284804+00:00",
+    "score": 5.0,
+    "category": null,
+    "official_url": "https://www.opportunitiesforafricans.com/the-cannes-lions-2027-scholarships/",
+    "location": null,
+    "remote": null,
+    "deadline": null,
+    "reward": "fully_funded",
+    "estimated_value": null,
+    "eligibility_status": "PROBABLY_ELIGIBLE",
+    "source_quality": 7,
+    "requirements": [
+      "Video (recorded in English, max 2 minutes)",
+      "Written response (max 250 words)",
+      "Character reference (from employer, talent officer, senior executive, previous graduate, or client; max 250 words)",
+      "Proof of age"
+    ]
   },
   "d1878bce741ad09e": {
     "url": "https://www.opportunitiesforafricans.com/the-firstrand-oxford-blavatnik-school-of-government-scholarship-2027-2028-for-a-master-of-public-policy/",
@@ -20044,18 +20070,19 @@
     "eligibility_status": "CONFIRMED_INELIGIBLE",
     "model_eligibility_status": "CONFIRMED_INELIGIBLE",
     "missing_requirements": [
-      "Age limit not specified",
-      "Degree level (Master's) not explicitly required in the excerpt but implied for postgraduate study",
-      "English language proficiency not mentioned"
+      "Specific English language score requirement (not stated in the page)"
     ],
     "blocking_issues": [
-      "Hard blocker: Nationality – candidate is Ethiopian, program requires South African citizenship."
+      "Nationality requirement: must be South African (candidate is Ethiopian)",
+      "Current student status required (candidate is a working professional, not a student)"
     ],
-    "addressable_gaps": [],
-    "reasoning": "The program explicitly states it is for \"one outstanding South African student a year\" and seeks candidates who will contribute to South Africa on their return. The candidate is an Ethiopian national, which does not meet the nationality requirement.",
+    "addressable_gaps": [
+      "English language proof (candidate could obtain Duolingo or MOI certificate)"
+    ],
+    "reasoning": "The scholarship explicitly states it is for \"one outstanding South African student a year\" and seeks candidates who will contribute to South Africa on their return. The candidate is an Ethiopian national, not South African, and is a working professional, not a currently enrolled student. These are hard blockers. While the candidate meets the degree level (BSc) and could potentially address English proficiency, the nationality and student-status requirements are non‑negotiable.",
     "id": "d1878bce741ad09e",
     "first_seen": "2026-11-06T12:53:38.851297+00:00",
-    "last_updated": "2026-11-06T12:53:38.851316+00:00"
+    "last_updated": "2026-11-08T11:47:53.382728+00:00"
   },
   "7b5b0b2fdc63c698": {
     "url": "https://opportunitiescorners.com/kyoto-university-amgen-internship-2027-in-japan/",
@@ -20078,7 +20105,7 @@
   "8da31cd7b55da1cd": {
     "url": "https://opportunitiescorners.com/oung-security-conference-in-germany/",
     "title": "Young Security Conference 2026/2027 in Germany (Fully Funded)",
-    "status": "notified",
+    "status": "legitimacy_unknown",
     "score": 5.3,
     "category": null,
     "official_url": "https://opportunitiescorners.com/oung-security-conference-in-germany/",
@@ -20088,7 +20115,7 @@
     "reward": "fully_funded",
     "estimated_value": null,
     "eligibility_status": "PROBABLY_ELIGIBLE",
-    "credibility_status": "LIKELY_LEGITIMATE",
+    "credibility_status": "NEEDS_VERIFICATION",
     "source_tier": "TIER_3",
     "source_quality": 7,
     "requirements": [
@@ -20098,9 +20125,10 @@
     ],
     "id": "8da31cd7b55da1cd",
     "first_seen": "2026-11-06T12:56:55.037867+00:00",
-    "last_updated": "2026-11-06T13:02:38.053831+00:00",
+    "last_updated": "2026-11-08T11:48:43.330736+00:00",
     "notification_tier": "GOOD",
-    "notified_at": "2026-11-06T13:02:38.044735+00:00"
+    "notified_at": "2026-11-06T13:02:38.044735+00:00",
+    "reasoning": "The listing provides an institutional email (timo.lowinger@ur.de) and does not request any payment, which are positive signs. However, there is no official website link, the host organization \"Young Security Conference\" cannot be independently verified, and the page is on an aggregator that frequently posts generic \"fully funded\" opportunities, leaving insufficient evidence to confirm legitimacy."
   },
   "e3a51d8b501600c2": {
     "url": "https://www.opportunitiesforafricans.com/the-equality-fund-journalism-fellowship-2027-for-journalists-from-the-global-south/",
@@ -20117,18 +20145,20 @@
     "url": "https://www.opportunitiesforafricans.com/the-friedrich-ebert-stiftung-young-leaders-programme-2027-for-young-cameroonians/",
     "title": "The Friedrich-Ebert-Stiftung Young Leaders Programme 2027 for young Cameroonians.",
     "status": "ineligible",
-    "eligibility_status": "CONFIRMED_INELIGIBLE",
-    "model_eligibility_status": "CONFIRMED_INELIGIBLE",
+    "eligibility_status": "PROBABLY_INELIGIBLE",
+    "model_eligibility_status": "PROBABLY_INELIGIBLE",
     "missing_requirements": [],
     "blocking_issues": [
-      "Must reside in Cameroon",
-      "Program intended for Cameroonian nationals"
+      "Must reside in Cameroon (candidate resides in Lao PDR)"
     ],
-    "addressable_gaps": [],
-    "reasoning": "The programme explicitly requires candidates to reside in Cameroon and is targeted at young Cameroonians. The candidate is an Ethiopian national residing in Laos, which does not meet the residency or implied nationality requirement. All other criteria (age 27, holds a BSc) are satisfied, but the residency/nationality condition is a hard blocker.",
+    "addressable_gaps": [
+      "Provide evidence of active involvement in civil society/community initiatives",
+      "Confirm availability for all training sessions"
+    ],
+    "reasoning": "The programme requires candidates to reside in Cameroon. The candidate lives in Vientiane, Lao PDR, which does not satisfy the residency requirement, creating a hard blocker. Other criteria (age, degree, leadership involvement) appear to be met or can be demonstrated.",
     "id": "17e0fe677cf4c778",
     "first_seen": "2026-11-06T12:58:24.889758+00:00",
-    "last_updated": "2026-11-06T12:58:24.889779+00:00"
+    "last_updated": "2026-11-08T11:51:12.076775+00:00"
   },
   "6d01a6642e192fed": {
     "url": "https://www.opportunitiesforafricans.com/the-centre-for-research-in-the-arts-humanities-and-social-sciences-crassh-at-the-university-of-cambridge-visiting-fellowships-2027-2028/",
@@ -20476,5 +20506,78 @@
     "id": "2fcf6e09c7bd9af5",
     "first_seen": "2026-11-07T11:54:06.904110+00:00",
     "last_updated": "2026-11-07T11:54:06.904125+00:00"
+  },
+  "e2f51a041b0ff6f4": {
+    "url": "https://opportunitiescorners.com/stanford-summer-research-program-2027/",
+    "title": "Stanford Summer Research Program 2027 in USA (Fully Funded)",
+    "status": "suspicious",
+    "credibility_status": "SUSPICIOUS",
+    "source_tier": "TIER_3",
+    "reasoning": "The page is an aggregator using a free Gmail address for contact and does not provide a direct official Stanford URL. It claims the Stanford SURF program fully covers travel, housing, and meals, which does not match the known Stanford SURF offering (typically only a stipend). These inconsistencies suggest the listing may be misleading.",
+    "id": "e2f51a041b0ff6f4",
+    "first_seen": "2026-11-08T11:52:41.656480+00:00",
+    "last_updated": "2026-11-08T11:52:41.656497+00:00"
+  },
+  "a4a4ed7be7bd8186": {
+    "url": "https://www.linkedin.com/pulse/30-fully-funded-grant-accelerator-startup-7behf",
+    "title": "🚀💰 30 Fully Funded Grant, Accelerator & Startup Opportunities 2026–2027: Global Funding for Researchers, Entrepreneurs, Nonprofits & Innovators",
+    "status": "closed",
+    "deadline": "2026-08-28",
+    "id": "a4a4ed7be7bd8186",
+    "first_seen": "2026-11-08T11:53:26.634560+00:00",
+    "last_updated": "2026-11-08T11:53:26.634576+00:00"
+  },
+  "713ff529c2bf6659": {
+    "url": "https://federalnewsnetwork.com/cybersecurity/2022/08/dhs-marks-expansion-of-bug-bounty-efforts-with-impending-contract-awards",
+    "title": "DHS marks expansion of bug bounty efforts with impending contract awards - Federal News Network",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "model_eligibility_status": "CONFIRMED_INELIGIBLE",
+    "missing_requirements": [
+      "No eligibility criteria for individuals stated (because none exist)",
+      "Program type fundamentally mismatched with candidate's goals"
+    ],
+    "blocking_issues": [
+      "Program is a government contract award for bug bounty services, not a scholarship/fellowship",
+      "Candidate is an individual, not a company/contractor eligible for federal procurement",
+      "No individual application pathway exists for this opportunity"
+    ],
+    "addressable_gaps": [],
+    "reasoning": "The provided program text is a news headline ('DHS marks expansion of bug bounty efforts with impending contract awards - Federal News Network') describing a U.S. Department of Homeland Security procurement action to award contracts for bug bounty services. This is a government contracting opportunity for vendors/companies, not a scholarship, fellowship, residency, or academic program for individuals. The candidate is an individual seeking fully-funded master's scholarships or fellowships; this opportunity does not match that category and has no eligibility criteria for individual applicants.",
+    "id": "713ff529c2bf6659",
+    "first_seen": "2026-11-08T11:56:59.762863+00:00",
+    "last_updated": "2026-11-08T11:56:59.762881+00:00"
+  },
+  "f9f323f9ccef4dcf": {
+    "url": "https://grants.gov/search-results-detail/353019",
+    "title": "Lock",
+    "status": "legitimacy_unknown",
+    "credibility_status": "NEEDS_VERIFICATION",
+    "source_tier": "TIER_4",
+    "reasoning": "The retrieved page content only shows .gov security warnings and a session-expiration notice, with no program details, eligibility criteria, award information, or fee structure. The automated scan reported no red flags or trust signals, but the substantive page text is insufficient to verify the grant's legitimacy.",
+    "id": "f9f323f9ccef4dcf",
+    "first_seen": "2026-11-08T11:57:07.265669+00:00",
+    "last_updated": "2026-11-08T11:57:07.265687+00:00"
+  },
+  "7b32f7170cd17c60": {
+    "url": "https://dynamitejobs.com",
+    "title": "🧨 Dynamite Jobs: The Best Remote Jobs in November 2026",
+    "status": "analyzed",
+    "score": 3.0,
+    "category": "remote_jobs",
+    "official_url": "https://dynamitejobs.com",
+    "location": null,
+    "remote": null,
+    "deadline": null,
+    "reward": "none",
+    "estimated_value": null,
+    "eligibility_status": "PROBABLY_ELIGIBLE",
+    "credibility_status": "LIKELY_LEGITIMATE",
+    "source_tier": "TIER_4",
+    "source_quality": 0,
+    "requirements": [],
+    "id": "7b32f7170cd17c60",
+    "first_seen": "2026-11-08T11:58:35.577048+00:00",
+    "last_updated": "2026-11-08T11:58:35.577065+00:00"
   }
 }
