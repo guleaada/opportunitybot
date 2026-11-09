@@ -20169,15 +20169,16 @@
     "missing_requirements": [],
     "blocking_issues": [
       "No PhD (degree level mismatch)",
-      "Not employed at a higher education or research institute (employment requirement not met)"
+      "Not employed at a higher education or research institution (employment requirement not met)"
     ],
     "addressable_gaps": [
-      "English language proof (can obtain Duolingo or MOI certificate)"
+      "Obtain a PhD (requires several years of study)",
+      "Secure a position at a university or research institute in Ethiopia or another Global South country"
     ],
-    "reasoning": "The fellowship requires applicants to have been awarded a PhD at least five years before the application date and to be currently employed at a higher education or research institute in the Global South on at least a 50% contract. The candidate holds only a BSc and is a working professional not employed by a university or research institute, thus does not meet these mandatory criteria. English proficiency is addressable, but the lack of a PhD and appropriate employment are hard blockers.",
+    "reasoning": "The fellowship requires applicants to hold a PhD awarded at least five years before application and to be currently employed at a higher education or research institute in the Global South on at least a 50% contract, working primarily in arts, humanities, or social sciences. The candidate only holds a BSc, has no PhD, and is employed as a professional in industry, not at a university or research institute.",
     "id": "6d01a6642e192fed",
     "first_seen": "2026-11-06T12:59:52.999624+00:00",
-    "last_updated": "2026-11-06T12:59:52.999650+00:00"
+    "last_updated": "2026-11-09T13:41:24.701814+00:00"
   },
   "8544faf8a5f9da14": {
     "url": "https://www.facebook.com/groups/731957298564333/posts/1569883798105008",
@@ -20579,5 +20580,269 @@
     "id": "7b32f7170cd17c60",
     "first_seen": "2026-11-08T11:58:35.577048+00:00",
     "last_updated": "2026-11-08T11:58:35.577065+00:00"
+  },
+  "12e6776075acda72": {
+    "url": "https://www.opportunitiesforafricans.com/the-unfpa-youth-advisory-panel-yap-membership-2027-2029-for-young-tanzanians/",
+    "title": "The UNFPA Youth Advisory Panel (YAP) Membership 2027/2029 for young Tanzanians.",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "model_eligibility_status": "CONFIRMED_INELIGIBLE",
+    "missing_requirements": [],
+    "blocking_issues": [
+      "Age exceeds limit (27 > 24)",
+      "Nationality not Tanzanian (Ethiopian)"
+    ],
+    "addressable_gaps": [],
+    "reasoning": "The program explicitly requires applicants to be Tanzanian nationals aged 15 to 24. The candidate is Ethiopian and 27 years old, which violates both the nationality and age criteria.",
+    "id": "12e6776075acda72",
+    "first_seen": "2026-11-09T13:42:33.962041+00:00",
+    "last_updated": "2026-11-09T13:42:33.962063+00:00"
+  },
+  "373dfd31d68e58a5": {
+    "url": "https://opportunitiestoapply.com/opportunities",
+    "title": "All opportunities",
+    "status": "analyzed",
+    "score": 2.9,
+    "category": null,
+    "official_url": "https://opportunitiestoapply.com/opportunities",
+    "location": null,
+    "remote": null,
+    "deadline": null,
+    "reward": "unknown",
+    "estimated_value": null,
+    "eligibility_status": "PROBABLY_ELIGIBLE",
+    "credibility_status": "LIKELY_LEGITIMATE",
+    "source_tier": "TIER_4",
+    "source_quality": null,
+    "requirements": [],
+    "id": "373dfd31d68e58a5",
+    "first_seen": "2026-11-09T13:44:15.521740+00:00",
+    "last_updated": "2026-11-09T13:44:15.521760+00:00"
+  },
+  "46a6751a764a079d": {
+    "url": "https://remotivated.com/best-remote-jobs/industry/software",
+    "title": "Top 25 Remote Software Jobs 2026 | Remotivated",
+    "status": "filtered_out",
+    "reason": "It's a remote software job listing, not a funded scholarship or fellowship.",
+    "id": "46a6751a764a079d",
+    "first_seen": "2026-11-09T13:44:22.497157+00:00",
+    "last_updated": "2026-11-09T13:44:22.497175+00:00"
+  },
+  "b8f8f770f88d6edd": {
+    "url": "https://opportunitiescorners.com/icann89-policy-forum-2027-in-canada/",
+    "title": "ICANN89 Policy Forum 2027 in Canada (Fully Funded)",
+    "status": "notified",
+    "score": 5.5,
+    "category": null,
+    "official_url": "https://opportunitiescorners.com/icann89-policy-forum-2027-in-canada/",
+    "location": null,
+    "remote": null,
+    "deadline": "2026-12-05",
+    "reward": "fully_funded",
+    "estimated_value": null,
+    "eligibility_status": "PROBABLY_ELIGIBLE",
+    "credibility_status": "LIKELY_LEGITIMATE",
+    "source_tier": "TIER_3",
+    "source_quality": 7,
+    "requirements": [
+      "Online application form",
+      "Personal statement",
+      "Updated CV or Resume",
+      "Evidence of community engagement (if applicable)",
+      "Completion of mandatory ICANN Learn course(s)"
+    ],
+    "id": "b8f8f770f88d6edd",
+    "first_seen": "2026-11-09T13:47:03.221183+00:00",
+    "last_updated": "2026-11-09T14:01:30.889870+00:00",
+    "notification_tier": "GOOD",
+    "notified_at": "2026-11-09T14:01:30.876026+00:00"
+  },
+  "372a0a01a0750717": {
+    "url": "https://opportunitiescorners.com/unil-summer-program-2027/",
+    "title": "UNIL Summer Program 2027 in Switzerland (Fully Funded)",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "model_eligibility_status": "CONFIRMED_INELIGIBLE",
+    "missing_requirements": [],
+    "blocking_issues": [
+      "Not currently enrolled in a bachelor's program (must be in third year)",
+      "Field of study (Psychology) is not biology, medicine, or a related biological science"
+    ],
+    "addressable_gaps": [
+      "English proficiency certificate (Duolingo test or MOI certificate) can be obtained"
+    ],
+    "reasoning": "The program requires applicants to be currently enrolled in the third year of a bachelor's program in biology, medicine, or a related biological science. The candidate has already completed a BSc in Psychology and is a working professional, not a student, and her field of study does not match the required disciplines. These are hard blockers. English proficiency is missing but can be obtained, which is an addressable gap, but does not overcome the student‑status and discipline blockers.",
+    "id": "372a0a01a0750717",
+    "first_seen": "2026-11-09T13:48:19.655170+00:00",
+    "last_updated": "2026-11-09T13:48:19.655187+00:00"
+  },
+  "5a801ed45fba88a6": {
+    "url": "https://www.nexeaapp.com/scholarships",
+    "title": "Scholarships 2027: Fully Funded & International | Nexea",
+    "status": "unknown",
+    "eligibility_status": "UNCERTAIN",
+    "model_eligibility_status": "UNCERTAIN",
+    "missing_requirements": [
+      "Specific scholarship eligibility details such as required nationality list, age limits, whether current enrollment as a student is mandatory, and minimum degree level for each listed opportunity."
+    ],
+    "blocking_issues": [],
+    "addressable_gaps": [
+      "Obtain an English proficiency test result (e.g., Duolingo, IELTS, TOEFL) or a Medium of Instruction certificate to satisfy language requirements that many scholarships impose."
+    ],
+    "reasoning": "The Nexea page aggregates many scholarships, each with its own eligibility rules. No single set of requirements is provided, so we cannot verify whether the candidate meets nationality, age, student‑status, or degree‑level criteria for any specific scholarship. Consequently, a decision‑relevant criterion could exclude the candidate, but the information is missing.",
+    "id": "5a801ed45fba88a6",
+    "first_seen": "2026-11-09T13:49:54.341791+00:00",
+    "last_updated": "2026-11-09T13:49:54.341810+00:00"
+  },
+  "4d0c8bcd1d00ebe1": {
+    "url": "https://www.youtube.com/watch?v=_UdiVL1nCeY",
+    "title": "Government Scholarships for International Students 2026-2027 | Fully Funded",
+    "status": "legitimacy_unknown",
+    "credibility_status": "NEEDS_VERIFICATION",
+    "source_tier": "TIER_4",
+    "reasoning": "The provided source is a YouTube video URL, but the extracted page text contains only generic YouTube footer information and no details about a scholarship, fellowship, or any related program. Without any program description, sponsor information, or application requirements, there is insufficient evidence to assess legitimacy.",
+    "id": "4d0c8bcd1d00ebe1",
+    "first_seen": "2026-11-09T13:50:10.599653+00:00",
+    "last_updated": "2026-11-09T13:50:10.599670+00:00"
+  },
+  "855ea10b73219a6b": {
+    "url": "https://www.scholarshipbob.com/contest/44",
+    "title": "Contest Scholarships for International Students 2026 - 2027 - Page 44 - Page 44 | ScholarshipBob",
+    "status": "analyzed",
+    "score": 3.8,
+    "category": "cash_prize_competitions",
+    "official_url": "https://www.scholarshipbob.com/contest/44",
+    "location": null,
+    "remote": null,
+    "deadline": null,
+    "reward": "partial",
+    "estimated_value": null,
+    "eligibility_status": "PROBABLY_ELIGIBLE",
+    "credibility_status": "LIKELY_LEGITIMATE",
+    "source_tier": "TIER_4",
+    "source_quality": 0,
+    "requirements": [],
+    "id": "855ea10b73219a6b",
+    "first_seen": "2026-11-09T13:53:11.189199+00:00",
+    "last_updated": "2026-11-09T13:53:11.189219+00:00"
+  },
+  "18c9b6d8137c1f2a": {
+    "url": "https://www.phila.gov/2023-04-20-latest-grants-programs-and-resources-for-small-businesses",
+    "title": "Latest grants, programs, and resources for small businesses | Department of Commerce | City of Philadelphia",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "model_eligibility_status": "CONFIRMED_INELIGIBLE",
+    "missing_requirements": [
+      "Specific grant eligibility details (e.g., business registration status) are not fully listed, but the overarching location requirement is sufficient to block the candidate"
+    ],
+    "blocking_issues": [
+      "Must be a Philadelphia/US‑based business or resident (candidate is Ethiopian national living in Laos)",
+      "Many grants require US citizenship or permanent residency"
+    ],
+    "addressable_gaps": [],
+    "reasoning": "The program is a set of grants and resources for small businesses operating in Philadelphia (and sometimes broader Pennsylvania/US). Eligibility statements refer to entrepreneurs in Philadelphia, US‑based businesses, and specific US‑resident criteria (e.g., Black‑owned stores must have a brick‑and‑mortar shop within the United States). The candidate is an Ethiopian national residing in Vientiane, Laos, with no indication of a US‑registered business or residency. Therefore the candidate does not meet the core location/citizenship requirement.",
+    "id": "18c9b6d8137c1f2a",
+    "first_seen": "2026-11-09T13:54:40.431999+00:00",
+    "last_updated": "2026-11-09T13:54:40.432018+00:00"
+  },
+  "442962b3e0d59bca": {
+    "url": "https://commerce.mt.gov/Business/Indian-Country/Indian-Country-Financial-Assistance/The-Indian-Equity-Fund-Small-Business-Grant",
+    "title": "The Indian Equity Fund Small Business Grant | Montana Department of Commerce",
+    "status": "closed",
+    "deadline": "2026-09-30",
+    "id": "442962b3e0d59bca",
+    "first_seen": "2026-11-09T13:54:52.521451+00:00",
+    "last_updated": "2026-11-09T13:54:52.521472+00:00"
+  },
+  "9f001c5a36a54d97": {
+    "url": "https://www.prnewswire.com/news-releases/korean-skincare-brand-fully-launches-at-more-than-580-sephora-stores-across-the-us-302917596.html",
+    "title": "Korean Skincare Brand FULLY Launches at More Than 580 Sephora Stores Across the U.S.",
+    "status": "filtered_out",
+    "reason": "It's a product launch announcement, not a funded scholarship or fellowship.",
+    "id": "9f001c5a36a54d97",
+    "first_seen": "2026-11-09T13:55:12.126235+00:00",
+    "last_updated": "2026-11-09T13:55:12.126256+00:00"
+  },
+  "1c7b5b22036eba0f": {
+    "url": "https://dictionary.cambridge.org/dictionary/english/fully",
+    "title": "FULLY | English meaning - Cambridge Dictionary",
+    "status": "filtered_out",
+    "reason": "Text is a dictionary entry, not a scholarship or fellowship opportunity",
+    "id": "1c7b5b22036eba0f",
+    "first_seen": "2026-11-09T13:55:39.751325+00:00",
+    "last_updated": "2026-11-09T13:55:39.751348+00:00"
+  },
+  "3eb03d3f3d9ddc6d": {
+    "url": "https://dictionary.cambridge.org/us/dictionary/english/fully",
+    "title": "FULLY | definition in the Cambridge English Dictionary",
+    "status": "filtered_out",
+    "reason": "The text is a dictionary entry, not a scholarship or fellowship opportunity.",
+    "id": "3eb03d3f3d9ddc6d",
+    "first_seen": "2026-11-09T13:56:05.038753+00:00",
+    "last_updated": "2026-11-09T13:56:05.038774+00:00"
+  },
+  "a5186f647c2bb52d": {
+    "url": "https://builtin.com/jobs/remote",
+    "title": "Best Remote Tech Jobs 2026 | Built In",
+    "status": "unknown",
+    "eligibility_status": "UNCERTAIN",
+    "model_eligibility_status": "UNCERTAIN",
+    "missing_requirements": [
+      "Specific job eligibility criteria such as required years of professional experience",
+      "Any degree or certification requirements for the listed positions",
+      "Work‑authorization or visa eligibility for remote employment",
+      "Age or nationality restrictions (if any) for the employers"
+    ],
+    "blocking_issues": [],
+    "addressable_gaps": [],
+    "reasoning": "The program text is a generic list of remote tech job postings with no explicit eligibility criteria (e.g., required nationality, student status, age limit, degree level, years of experience, work‑authorization). Because these decision‑relevant criteria are missing, we cannot confirm whether the candidate meets them or is blocked.",
+    "id": "a5186f647c2bb52d",
+    "first_seen": "2026-11-09T13:57:51.425369+00:00",
+    "last_updated": "2026-11-09T13:57:51.425388+00:00"
+  },
+  "4111d39d7fdb16ef": {
+    "url": "https://www.reddit.com/r/jobs/comments/1qtyk4g/do_you_think_we_will_see_a_resurgence_of_remote",
+    "title": "Do you think we will see a resurgence of remote work in 5-10 years? : r/jobs",
+    "status": "filtered_out",
+    "reason": "Not a scholarship/fellowship listing; just a Reddit discussion",
+    "id": "4111d39d7fdb16ef",
+    "first_seen": "2026-11-09T13:57:56.107676+00:00",
+    "last_updated": "2026-11-09T13:57:56.107694+00:00"
+  },
+  "35e75efdeff49bf9": {
+    "url": "https://www.actuia.com/en/news/why-google-is-suspending-part-of-its-open-source-bug-bounty",
+    "title": "Google suspends part of its open source bug bounty",
+    "status": "unknown",
+    "eligibility_status": "UNCERTAIN",
+    "model_eligibility_status": "UNCERTAIN",
+    "missing_requirements": [
+      "Any stated requirement regarding current enrollment as a student",
+      "Age limit",
+      "Degree level (e.g., must hold a bachelor's or higher)",
+      "English language proficiency test score (IELTS/TOEFL/acceptable alternatives)",
+      "Citizenship or residency restrictions"
+    ],
+    "blocking_issues": [],
+    "addressable_gaps": [],
+    "reasoning": "The program description is a news article about Google’s open source bug bounty suspension and does not specify any eligibility criteria such as nationality, student status, age limit, degree level, or language requirements. Because no requirements are stated, we cannot confirm that the candidate meets them, nor can we confirm they are excluded.",
+    "id": "35e75efdeff49bf9",
+    "first_seen": "2026-11-09T13:59:42.739071+00:00",
+    "last_updated": "2026-11-09T13:59:42.739094+00:00"
+  },
+  "7a64cca6908169bb": {
+    "url": "https://www.stingrai.io/blog/bug-bounty-statistics-2026",
+    "title": "Bug Bounty Statistics 2026: Payouts, AI Reports and Trends",
+    "status": "unknown",
+    "eligibility_status": "UNCERTAIN",
+    "model_eligibility_status": "UNCERTAIN",
+    "missing_requirements": [
+      "Eligibility criteria (e.g., required nationality, student status, age limit, degree level, professional background) are not provided in the program text."
+    ],
+    "blocking_issues": [],
+    "addressable_gaps": [],
+    "reasoning": "The program description is an informational article about bug bounty statistics and does not specify any eligibility criteria (e.g., nationality, student status, age, degree level, professional background). Because we cannot verify whether the candidate meets unstated requirements, we cannot confirm eligibility.",
+    "id": "7a64cca6908169bb",
+    "first_seen": "2026-11-09T14:01:24.431157+00:00",
+    "last_updated": "2026-11-09T14:01:24.431176+00:00"
   }
 }
