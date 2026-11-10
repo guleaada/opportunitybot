@@ -20784,8 +20784,8 @@
   "a5186f647c2bb52d": {
     "url": "https://builtin.com/jobs/remote",
     "title": "Best Remote Tech Jobs 2026 | Built In",
-    "status": "unknown",
-    "eligibility_status": "UNCERTAIN",
+    "status": "analyzed",
+    "eligibility_status": "PROBABLY_ELIGIBLE",
     "model_eligibility_status": "UNCERTAIN",
     "missing_requirements": [
       "Specific job eligibility criteria such as required years of professional experience",
@@ -20798,7 +20798,19 @@
     "reasoning": "The program text is a generic list of remote tech job postings with no explicit eligibility criteria (e.g., required nationality, student status, age limit, degree level, years of experience, work‑authorization). Because these decision‑relevant criteria are missing, we cannot confirm whether the candidate meets them or is blocked.",
     "id": "a5186f647c2bb52d",
     "first_seen": "2026-11-09T13:57:51.425369+00:00",
-    "last_updated": "2026-11-09T13:57:51.425388+00:00"
+    "last_updated": "2026-11-10T13:24:21.630870+00:00",
+    "score": 1.4,
+    "category": null,
+    "official_url": "https://builtin.com/jobs/remote",
+    "location": null,
+    "remote": null,
+    "deadline": null,
+    "reward": "none",
+    "estimated_value": null,
+    "credibility_status": "LIKELY_LEGITIMATE",
+    "source_tier": "TIER_4",
+    "source_quality": null,
+    "requirements": []
   },
   "4111d39d7fdb16ef": {
     "url": "https://www.reddit.com/r/jobs/comments/1qtyk4g/do_you_think_we_will_see_a_resurgence_of_remote",
@@ -20844,5 +20856,265 @@
     "id": "7a64cca6908169bb",
     "first_seen": "2026-11-09T14:01:24.431157+00:00",
     "last_updated": "2026-11-09T14:01:24.431176+00:00"
+  },
+  "259fb2ec8cb50e94": {
+    "url": "https://builtin.com/companies/hiring/remote/type/software-companies",
+    "title": "Top Software Companies Hiring Remote 2026 | Built In",
+    "status": "unknown",
+    "eligibility_status": "UNCERTAIN",
+    "model_eligibility_status": "UNCERTAIN",
+    "missing_requirements": [
+      "Citizenship eligibility criteria",
+      "Student status requirement",
+      "Age limit",
+      "Minimum degree level",
+      "English language proficiency requirement"
+    ],
+    "blocking_issues": [],
+    "addressable_gaps": [
+      "English proficiency documentation (e.g., IELTS, TOEFL, Duolingo, or MOI certificate) if required by individual employers"
+    ],
+    "reasoning": "The program page lists remote job opportunities but provides no explicit eligibility criteria such as nationality, age, student status, degree level, or English proficiency requirements. Because we cannot verify whether Ethiopian nationals, non‑students, or candidates with a bachelor's degree are accepted, we cannot confirm eligibility. The candidate can address potential English‑language proof gaps, but the absence of stated criteria creates uncertainty.",
+    "id": "259fb2ec8cb50e94",
+    "first_seen": "2026-11-10T13:19:10.223682+00:00",
+    "last_updated": "2026-11-10T13:19:10.223697+00:00"
+  },
+  "894cb5ba813e98b3": {
+    "url": "https://www.opportunitiescircle.com/blog/top-fellowships-for-international-students",
+    "title": "Top Fellowships for International Students 2027 - Opportunities Circle",
+    "status": "unknown",
+    "eligibility_status": "UNCERTAIN",
+    "model_eligibility_status": "UNCERTAIN",
+    "missing_requirements": [
+      "explicit statement on whether applicants must be currently enrolled students",
+      "required degree level (e.g., bachelor's, master's, PhD) for each fellowship",
+      "age limits, if any",
+      "English language proficiency requirements (e.g., IELTS/TOEFL)",
+      "any nationality restrictions"
+    ],
+    "blocking_issues": [],
+    "addressable_gaps": [],
+    "reasoning": "The program page does not specify concrete eligibility criteria such as required student status, degree level, age limits, English proficiency, or nationality restrictions. While the candidate is an Ethiopian national, 27 years old, holds a BSc, and is a working professional, it is unclear whether the fellowships listed require current enrollment as a student or a higher degree (e.g., PhD). This missing, decision‑relevant information could potentially exclude the candidate.",
+    "id": "894cb5ba813e98b3",
+    "first_seen": "2026-11-10T13:21:12.424929+00:00",
+    "last_updated": "2026-11-10T13:21:12.424949+00:00"
+  },
+  "5471c2b3bea9522b": {
+    "url": "https://www.opportunitiesforafricans.com/airtel-africa-foundation-tech-fellowship-2026-2027-undergraduate-scholarship/",
+    "title": "Airtel Africa Foundation Tech Fellowship 2026/2027 Undergraduate Scholarship for young Nigerians. (Fully Funded)",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "model_eligibility_status": "CONFIRMED_INELIGIBLE",
+    "missing_requirements": [],
+    "blocking_issues": [
+      "Nationality mismatch: program limited to Nigerian citizens",
+      "Current student status required: candidate is a working professional, not enrolled",
+      "Degree level mismatch: program for undergraduates, candidate already holds a bachelor's degree"
+    ],
+    "addressable_gaps": [],
+    "reasoning": "The Airtel Africa Foundation Tech Fellowship explicitly targets \"young Nigerians\" who are currently enrolled undergraduate students at one of the listed Nigerian universities pursuing technology-related degrees. The candidate is Ethiopian, not Nigerian, is a working professional (not a student), and holds a completed BSc degree, which directly conflicts with the nationality, student‑status, and degree‑level requirements.",
+    "id": "5471c2b3bea9522b",
+    "first_seen": "2026-11-10T13:25:53.568623+00:00",
+    "last_updated": "2026-11-10T13:25:53.568641+00:00"
+  },
+  "504c092342500dcb": {
+    "url": "https://opportunitiescorners.com/rockefeller-university-usa-summer-fellowship-2027/",
+    "title": "Rockefeller University USA Summer Fellowship 2027 (Fully Funded)",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "model_eligibility_status": "CONFIRMED_INELIGIBLE",
+    "missing_requirements": [],
+    "blocking_issues": [
+      "Must be a currently enrolled undergraduate student (candidate is not a student)",
+      "Degree level mismatch: program targets undergraduates, candidate already holds a completed bachelor's degree"
+    ],
+    "addressable_gaps": [
+      "Enroll in an undergraduate program before the application deadline (if feasible)"
+    ],
+    "reasoning": "The program states it is open to Undergraduate students. The candidate is a working professional who graduated with a BSc in 2021 and is not currently enrolled in any undergraduate program, which does not meet the student‑status requirement. All other criteria (nationality, age, English proficiency) are either satisfied or not specified as blockers.",
+    "id": "504c092342500dcb",
+    "first_seen": "2026-11-10T13:27:22.931676+00:00",
+    "last_updated": "2026-11-10T13:27:22.931694+00:00"
+  },
+  "cd34d5e6162d95e6": {
+    "url": "https://www.opportunitiesforafricans.com/the-johannesburg-institute-for-advanced-study-jias-writing-fellowships-2027/",
+    "title": "The Johannesburg Institute for Advanced Study (JIAS) Writing Fellowships 2027 for emerging African creatives (Fully Funded to Johannesburg, South Africa)",
+    "status": "legitimacy_unknown",
+    "credibility_status": "NEEDS_VERIFICATION",
+    "source_tier": "TIER_3",
+    "reasoning": "The listing mentions a fully funded two‑month writing fellowship with accommodation and a stipend and does not request any application fee, which are positive signs. However, the page provides only generic aggregator email addresses, no direct link to an official JIAS website, and the existence of the Johannesburg Institute for Advanced Study cannot be independently verified from the provided text, leaving insufficient evidence to confirm legitimacy.",
+    "id": "cd34d5e6162d95e6",
+    "first_seen": "2026-11-10T13:28:08.299820+00:00",
+    "last_updated": "2026-11-10T13:28:08.299840+00:00"
+  },
+  "2665de85671e70d0": {
+    "url": "https://www.opportunitiesforafricans.com/the-internet-corporation-for-assigned-names-and-numbers-icann89-policy-forum-fellowship-program-2027/",
+    "title": "The Internet Corporation for Assigned Names and Numbers (ICANN89) Policy Forum Fellowship Program 2027 (Fully Funded to Vancouver, Canada)",
+    "status": "ineligible",
+    "eligibility_status": "PROBABLY_INELIGIBLE",
+    "model_eligibility_status": "PROBABLY_INELIGIBLE",
+    "missing_requirements": [],
+    "blocking_issues": [
+      "Must have previously completed an ICANN Fellowship (hard blocker)"
+    ],
+    "addressable_gaps": [
+      "Obtain and submit mandatory ICANN Learn course completions; provide personal statement, CV, evidence of community engagement"
+    ],
+    "reasoning": "The program states that Policy Forum applicants must have successfully completed an ICANN Fellowship. The candidate has no record of a prior ICANN Fellowship, which is a required prerequisite and cannot be fulfilled for this application cycle. All other listed criteria (age, region, interest, ability to complete ICANN Learn courses, and document provision) are met or addressable.",
+    "id": "2665de85671e70d0",
+    "first_seen": "2026-11-10T13:29:06.531397+00:00",
+    "last_updated": "2026-11-10T13:29:06.531414+00:00"
+  },
+  "956619619f26ffd8": {
+    "url": "https://www.facebook.com/engrmujtabafarrukh/videos/-top-fully-funded-usa-fellowships-for-international-applicants-202627looking-for/1685999669161763",
+    "title": "65K views · 482 reactions | 🇺🇸 Top Fully Funded USA Fellowships for International Applicants 2026/27\n\nLooking for opportunities to come to the USA for study, research, or professional development? Check these programs:\n\n1️⃣ Professional Fellows Program\n• For international professionals aged 25 to 40\n• 5 to 6 weeks in the USA\n• Applications: October to November & February to March\nlink: https://exchanges.state.gov/non-us/program/professional-fellows-program\n\n2️⃣ Hubert H. Humphrey Fellowship\n• For international mid career professionals\n• Around 10 months in the USA\n• Deadline: Varies by country\nlink: https://www.humphreyfellowship.org\n\n3️⃣ Harvard Radcliffe Fellowship 2027/28\n• For researchers, scholars, scientists, writers & artists\n• $78,000 stipend + support\n• Deadline: 10 Sep 2026 or 1 Oct 2026 depending on field\nlink: https://www.radcliffe.harvard.edu/radcliffe-fellowship\n\n4️⃣ UN Nippon Foundation Fellowship 2027\n• For professionals from developing countries\n• Includes 3 months at UN Headquarters in New York\n• Deadline: 13 Sep 2026\nlink: https://www.un.org/oceancapacity/content/unnf-fellowship\n\n5️⃣ Fulbright Foreign Student Program\n• Specifically for non U.S. students and professionals\n• Master’s, PhD & research opportunities in the USA\n• Deadline: Varies by country\nlink: https://foreign.fulbrightonline.org\n\n6️⃣ Yale Peace Fellowship 2027\n• Open to peacebuilding professionals worldwide\n• Includes an in person program at Yale University\n• Deadline: 9 Sep 2026\nlink: https://jackson.yale.edu/international-leadership-center/yale-peace-fellows\n\n7️⃣ AAUW International Fellowship 2027/28\n• For non U.S. women pursuing eligible STEM Master’s or Doctoral programs\n• Full time study in the USA\n• Deadline: 17 Sep 2026\nlink: https://www.aauw.org/resources/programs/fellowships-grants/aauw-international-fellowships/\n\n📌 Save & share with someone looking for funded opportunities in the USA!\n\nFor personalized 1:1 guidance or document review:\n\nlink: https://cutt.ly/ReviewDocuments\n\nInstagram: www.instagram.com/mujtabafarrukh/\nFacebook: www.facebook.com/engrmujtabafarrukh/\nLinkedIn: www.linkedin.com/in/mujtabafarrukh\nYouTube: www.youtube.com/@MujtabaFarrukh\nWhatsApp Channel: whatsapp.com/channel/0029VaboZXLKbYMFfEXRKe1e\n\n#USA #FullyFunded #Fellowships2027 #StudyInUSA #MujtabaFarrukh | Mujtaba Farrukh",
+    "status": "suspicious",
+    "credibility_status": "SUSPICIOUS",
+    "source_tier": "TIER_4",
+    "reasoning": "The post lists legitimate fellowships with official links, but it also promotes a paid \"personalized 1:1 guidance or document review\" service via a short URL (cutt.ly) and personal contact channels, which is a common tactic for scholarship scams.",
+    "id": "956619619f26ffd8",
+    "first_seen": "2026-11-10T13:29:39.097005+00:00",
+    "last_updated": "2026-11-10T13:29:39.097023+00:00"
+  },
+  "81e059ba0e47967d": {
+    "url": "https://opportunitiescorners.com/cern-summer-student-program-2027/",
+    "title": "CERN Summer Student Program 2027 in Switzerland (Fully Funded)",
+    "status": "ineligible",
+    "eligibility_status": "PROBABLY_INELIGIBLE",
+    "model_eligibility_status": "PROBABLY_INELIGIBLE",
+    "missing_requirements": [],
+    "blocking_issues": [
+      "Not currently enrolled in a degree program (must be a Bachelor’s or Master’s student)",
+      "Degree field mismatch (BSc Psychology not in Physics, Engineering, Computer Science, or Mathematics)"
+    ],
+    "addressable_gaps": [
+      "Enroll in a relevant Bachelor’s or Master’s program in an eligible field and provide enrollment proof"
+    ],
+    "reasoning": "The program requires applicants to be currently enrolled Bachelor’s or Master’s students in Physics, Engineering, Computer Science, or Mathematics and to have completed at least 6 semesters. The candidate is a working professional, not currently a student, and holds a BSc in Psychology, which is not one of the eligible fields. While English proficiency is acceptable without IELTS, the student‑status and field requirements are hard blockers.",
+    "id": "81e059ba0e47967d",
+    "first_seen": "2026-11-10T13:30:43.150094+00:00",
+    "last_updated": "2026-11-10T13:30:43.150129+00:00"
+  },
+  "2d787057750528ec": {
+    "url": "https://opportunitiescorners.com/riken-cbs-summer-program-2027/",
+    "title": "RIKEN CBS Summer Program 2027 in Japan (Fully Funded)",
+    "status": "notified",
+    "score": 5.1,
+    "category": null,
+    "official_url": "https://opportunitiescorners.com/riken-cbs-summer-program-2027/",
+    "location": null,
+    "remote": null,
+    "deadline": "2027-01-08",
+    "reward": "fully_funded",
+    "estimated_value": null,
+    "eligibility_status": "PROBABLY_ELIGIBLE",
+    "credibility_status": "LIKELY_LEGITIMATE",
+    "source_tier": "TIER_3",
+    "source_quality": 7,
+    "requirements": [
+      "Internship Project Description",
+      "CV (Curriculum Vitae)",
+      "Motivation Letter",
+      "Letter of Recommendation",
+      "Letter Requesting Financial Support (optional)"
+    ],
+    "id": "2d787057750528ec",
+    "first_seen": "2026-11-10T13:32:46.029005+00:00",
+    "last_updated": "2026-11-10T13:39:14.724945+00:00",
+    "notification_tier": "GOOD",
+    "notified_at": "2026-11-10T13:39:14.710586+00:00"
+  },
+  "20a58c33ce4034a8": {
+    "url": "https://www.opportunitiesforafricans.com/the-african-wildlife-foundation-awf-geospatial-leaders-fellowship-gis-2027-for-mid-level-conservation-gis-professionals/",
+    "title": "The African Wildlife Foundation (AWF) Geospatial Leaders Fellowship (GIS) 2027 for mid-level conservation GIS professionals.",
+    "status": "ineligible",
+    "eligibility_status": "PROBABLY_INELIGIBLE",
+    "model_eligibility_status": "PROBABLY_INELIGIBLE",
+    "missing_requirements": [
+      "Proof of ≥2 years GIS experience in conservation or related field",
+      "Letter of support from employer"
+    ],
+    "blocking_issues": [
+      "Not currently working in an eligible country (working in Laos, not Ethiopia)"
+    ],
+    "addressable_gaps": [
+      "Obtain a letter of support from the current employer confirming full participation",
+      "Demonstrate at least two years of hands‑on GIS experience in conservation or related field (if applicable)",
+      "Provide documentation of GIS work experience"
+    ],
+    "reasoning": "The fellowship requires candidates to be a national of and currently working in one of the listed African countries. While the candidate is Ethiopian (eligible nationality), they are currently employed in Laos, not in Ethiopia or any other eligible country, which is a hard blocker. Additional requirements such as ≥2 years GIS experience and an employer letter of support are not demonstrated in the profile.",
+    "id": "20a58c33ce4034a8",
+    "first_seen": "2026-11-10T13:35:03.423377+00:00",
+    "last_updated": "2026-11-10T13:35:03.423395+00:00"
+  },
+  "602a9142abe29aa9": {
+    "url": "https://www.opportunitiesforafricans.com/obama-foundations-leaders-program-2027-2028-for-emerging-leaders-worldwide/",
+    "title": "Obama Foundation’s Leaders Program 2027/2028 for emerging leaders worldwide.",
+    "status": "notified",
+    "score": 6.0,
+    "category": null,
+    "official_url": "https://www.opportunitiesforafricans.com/obama-foundations-leaders-program-2027-2028-for-emerging-leaders-worldwide/",
+    "location": null,
+    "remote": null,
+    "deadline": "2026-12-04",
+    "reward": "fully_funded",
+    "estimated_value": null,
+    "eligibility_status": "PROBABLY_ELIGIBLE",
+    "credibility_status": "LIKELY_LEGITIMATE",
+    "source_tier": "TIER_3",
+    "source_quality": 7,
+    "requirements": [],
+    "id": "602a9142abe29aa9",
+    "first_seen": "2026-11-10T13:36:52.625331+00:00",
+    "last_updated": "2026-11-10T13:39:14.687155+00:00",
+    "notification_tier": "GOOD",
+    "notified_at": "2026-11-10T13:39:14.671505+00:00"
+  },
+  "07d487e5090bb66f": {
+    "url": "https://www.instagram.com/reel/DdeEWrNt0rH",
+    "title": "Fully Funded Summer Leadership Program in the USA 🇺🇸 ...",
+    "status": "legitimacy_unknown",
+    "credibility_status": "NEEDS_VERIFICATION",
+    "source_tier": "TIER_4",
+    "reasoning": "The source is an Instagram Reel with no accessible text or details about the scholarship, fees, organizers, or contact information, making it impossible to evaluate legitimacy. Without concrete evidence of program terms, fees, or official affiliation, a definitive judgment cannot be made.",
+    "id": "07d487e5090bb66f",
+    "first_seen": "2026-11-10T13:37:06.183203+00:00",
+    "last_updated": "2026-11-10T13:37:06.183222+00:00"
+  },
+  "dc6bce76f1387a2c": {
+    "url": "https://www.ares-ac.be/en/international-training-scholarships-2027-2028",
+    "title": "International Training Scholarships 2027-2028 | ARES",
+    "status": "legitimacy_unknown",
+    "credibility_status": "NEEDS_VERIFICATION",
+    "source_tier": "TIER_4",
+    "reasoning": "The URL returns an unauthorized access error and provides no details about any scholarship, eligibility, application process, or official contact information, making it impossible to verify legitimacy. Without substantive information, a reliable assessment cannot be made.",
+    "id": "dc6bce76f1387a2c",
+    "first_seen": "2026-11-10T13:37:22.170464+00:00",
+    "last_updated": "2026-11-10T13:37:22.170482+00:00"
+  },
+  "d581ae83831beef3": {
+    "url": "https://www2.fundsforngos.org/innovation/open-call-aigc-for-future-global-challenge-2026",
+    "title": "Open Call: AIGC for Future Global Challenge 2026 - fundsforNGOs",
+    "status": "closed",
+    "deadline": "2026-05-31",
+    "id": "d581ae83831beef3",
+    "first_seen": "2026-11-10T13:37:34.166238+00:00",
+    "last_updated": "2026-11-10T13:37:34.166257+00:00"
+  },
+  "0fb28752e71d7c4a": {
+    "url": "https://finance.yahoo.com/technology/ai/articles/2026-global-open-source-ai-063100767.html",
+    "title": "2026 Global Open-source AI Challenge Grand Finals and Awards Ceremony Held in Hangzhou",
+    "status": "unknown",
+    "eligibility_status": "UNCERTAIN",
+    "model_eligibility_status": "UNCERTAIN",
+    "missing_requirements": [
+      "Eligibility criteria (e.g., nationality restrictions, age caps, student or professional status requirements, degree level, English language proficiency) are not provided in the program text."
+    ],
+    "blocking_issues": [],
+    "addressable_gaps": [],
+    "reasoning": "The program description is a press release about a competition and awards ceremony; it does not list explicit eligibility criteria such as nationality, age limit, student status, degree level, or English proficiency. Without knowing these requirements, we cannot confirm whether the candidate meets them, nor can we rule out potential hard blockers.",
+    "id": "0fb28752e71d7c4a",
+    "first_seen": "2026-11-10T13:39:11.650572+00:00",
+    "last_updated": "2026-11-10T13:39:11.650589+00:00"
   }
 }
