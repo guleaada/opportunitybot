@@ -1,173 +1,5 @@
 [
   {
-    "at": "2026-10-12T13:02:24.359219+00:00",
-    "kind": "error",
-    "message": "Fetch failed for https://www.facebook.com/opportunitiesforyouth/posts/-40-fully-funded-fellowships-for-20262027-looking-for-your-next-big-opportunity-/1482987413858607: 400"
-  },
-  {
-    "at": "2026-10-12T13:05:58.557638+00:00",
-    "kind": "error",
-    "message": "Fetch failed for https://www.facebook.com/Yopportunity/posts/3-week-fully-funded-leadership-program-in-the-usa-open-to-all-nationalsapply-app/1105441768669462: 400"
-  },
-  {
-    "at": "2026-10-12T13:07:47.182528+00:00",
-    "kind": "error",
-    "message": "Fetch failed for https://www.openevidence.com: 403"
-  },
-  {
-    "at": "2026-10-12T13:08:18.664244+00:00",
-    "kind": "scan_complete",
-    "message": "daily scan finished",
-    "matches": 0,
-    "stats": {
-      "discovered": 275,
-      "already_seen": 71,
-      "known_scam": 0,
-      "fetch_failed": 1,
-      "first_pass_dropped": 3,
-      "scam": 2,
-      "legit_unknown": 3,
-      "ineligible": 6,
-      "closed": 0,
-      "deep_analyzed": 0,
-      "scored_high": 0,
-      "eligibility_demoted": 0,
-      "jina_fetch": 0,
-      "jina_failed": 0,
-      "snippet_fallback": 3,
-      "legit_unparseable": 0,
-      "trusted_thin_pass": 0,
-      "discovery": {
-        "tavily": {
-          "attempted": 20,
-          "successful": 20,
-          "429": 0,
-          "403": 0,
-          "errors": 0,
-          "candidates": 160,
-          "queries_planned": 20,
-          "disabled_reason": ""
-        },
-        "rss": {
-          "attempted": 4,
-          "successful": 4,
-          "failed": 0,
-          "skipped_dead": 1,
-          "candidates": 56
-        },
-        "api": {
-          "sources": 2,
-          "healthy": 2,
-          "failed": 0,
-          "candidates": 55
-        },
-        "seed": {
-          "attempted": 14,
-          "candidates": 14
-        },
-        "total": {
-          "raw": 285,
-          "after_dedupe": 275
-        }
-      },
-      "signal_rescued": 4,
-      "deduped": 0
-    }
-  },
-  {
-    "at": "2026-10-12T13:08:18.670376+00:00",
-    "kind": "run",
-    "mode": "scan",
-    "environment": "github_actions",
-    "stats": {
-      "discovered": 275,
-      "already_seen": 71,
-      "known_scam": 0,
-      "fetch_failed": 1,
-      "first_pass_dropped": 3,
-      "scam": 2,
-      "legit_unknown": 3,
-      "ineligible": 6,
-      "closed": 0,
-      "deep_analyzed": 0,
-      "scored_high": 0,
-      "eligibility_demoted": 0,
-      "jina_fetch": 0,
-      "jina_failed": 0,
-      "snippet_fallback": 3,
-      "legit_unparseable": 0,
-      "trusted_thin_pass": 0,
-      "discovery": {
-        "tavily": {
-          "attempted": 20,
-          "successful": 20,
-          "429": 0,
-          "403": 0,
-          "errors": 0,
-          "candidates": 160,
-          "queries_planned": 20,
-          "disabled_reason": ""
-        },
-        "rss": {
-          "attempted": 4,
-          "successful": 4,
-          "failed": 0,
-          "skipped_dead": 1,
-          "candidates": 56
-        },
-        "api": {
-          "sources": 2,
-          "healthy": 2,
-          "failed": 0,
-          "candidates": 55
-        },
-        "seed": {
-          "attempted": 14,
-          "candidates": 14
-        },
-        "total": {
-          "raw": 285,
-          "after_dedupe": 275
-        }
-      },
-      "signal_rescued": 4,
-      "deduped": 0,
-      "matches": 0
-    }
-  },
-  {
-    "at": "2026-10-13T12:31:01.232084+00:00",
-    "kind": "error",
-    "message": "Fetch failed for https://www.daad.de/en/information-services-for-higher-education-institutions/further-information-on-daad-programmes/in-countryin-region-programme-in-developing-countries: 403"
-  },
-  {
-    "at": "2026-10-13T12:31:45.538017+00:00",
-    "kind": "run",
-    "mode": "watchlist",
-    "environment": "github_actions",
-    "stats": {
-      "discovered": 0,
-      "already_seen": 0,
-      "known_scam": 0,
-      "fetch_failed": 1,
-      "first_pass_dropped": 0,
-      "scam": 1,
-      "legit_unknown": 0,
-      "ineligible": 1,
-      "closed": 1,
-      "deep_analyzed": 0,
-      "scored_high": 0,
-      "eligibility_demoted": 0,
-      "jina_fetch": 0,
-      "jina_failed": 0,
-      "snippet_fallback": 0,
-      "legit_unparseable": 0,
-      "trusted_thin_pass": 0,
-      "reopened": 4,
-      "matches": 0
-    }
-  },
-  {
     "at": "2026-10-13T12:31:45.727961+00:00",
     "kind": "scan_start",
     "message": "daily scan started"
@@ -5001,6 +4833,174 @@
       "signal_rescued": 2,
       "deduped": 0,
       "matches": 2
+    }
+  },
+  {
+    "at": "2026-11-11T12:35:17.802430+00:00",
+    "kind": "run",
+    "mode": "watchlist",
+    "environment": "github_actions",
+    "stats": {
+      "discovered": 0,
+      "already_seen": 0,
+      "known_scam": 0,
+      "fetch_failed": 0,
+      "first_pass_dropped": 2,
+      "scam": 0,
+      "legit_unknown": 0,
+      "ineligible": 1,
+      "closed": 1,
+      "deep_analyzed": 1,
+      "scored_high": 0,
+      "eligibility_demoted": 0,
+      "jina_fetch": 0,
+      "jina_failed": 0,
+      "snippet_fallback": 0,
+      "legit_unparseable": 0,
+      "trusted_thin_pass": 0,
+      "reopened": 5,
+      "matches": 0
+    }
+  },
+  {
+    "at": "2026-11-11T12:35:18.035200+00:00",
+    "kind": "scan_start",
+    "message": "daily scan started"
+  },
+  {
+    "at": "2026-11-11T12:40:59.943205+00:00",
+    "kind": "error",
+    "message": "Fetch failed for https://www.dfat.gov.au/people-to-people/australia-awards/australia-awards-scholarships: HTTPSConnectionPool(host='www.dfat.gov.au', port=443): Read timed out. (read timeout=25)"
+  },
+  {
+    "at": "2026-11-11T12:41:44.210098+00:00",
+    "kind": "error",
+    "message": "Fetch failed for https://www.liveplan.com/free-tools/small-business-grants-directory: 202"
+  },
+  {
+    "at": "2026-11-11T12:44:14.096440+00:00",
+    "kind": "error",
+    "message": "Fetch failed for https://www.facebook.com/taheer.mahmoodsaleeh/posts/funding-opportunities-for-startups-businesses-1-d-prize-global-competition-2026f/3978645105611597: 400"
+  },
+  {
+    "at": "2026-11-11T12:44:41.869902+00:00",
+    "kind": "scan_complete",
+    "message": "daily scan finished",
+    "matches": 0,
+    "stats": {
+      "discovered": 271,
+      "already_seen": 109,
+      "known_scam": 0,
+      "fetch_failed": 1,
+      "first_pass_dropped": 0,
+      "scam": 1,
+      "legit_unknown": 1,
+      "ineligible": 3,
+      "closed": 0,
+      "deep_analyzed": 0,
+      "scored_high": 0,
+      "eligibility_demoted": 0,
+      "jina_fetch": 0,
+      "jina_failed": 0,
+      "snippet_fallback": 2,
+      "legit_unparseable": 9,
+      "trusted_thin_pass": 0,
+      "discovery": {
+        "tavily": {
+          "attempted": 20,
+          "successful": 20,
+          "429": 0,
+          "403": 0,
+          "errors": 0,
+          "candidates": 160,
+          "queries_planned": 20,
+          "disabled_reason": ""
+        },
+        "rss": {
+          "attempted": 4,
+          "successful": 4,
+          "failed": 0,
+          "skipped_dead": 1,
+          "candidates": 56
+        },
+        "api": {
+          "sources": 2,
+          "healthy": 2,
+          "failed": 0,
+          "candidates": 53
+        },
+        "seed": {
+          "attempted": 14,
+          "candidates": 14
+        },
+        "total": {
+          "raw": 283,
+          "after_dedupe": 271
+        }
+      },
+      "signal_rescued": 3,
+      "deduped": 0
+    }
+  },
+  {
+    "at": "2026-11-11T12:44:41.874072+00:00",
+    "kind": "run",
+    "mode": "scan",
+    "environment": "github_actions",
+    "stats": {
+      "discovered": 271,
+      "already_seen": 109,
+      "known_scam": 0,
+      "fetch_failed": 1,
+      "first_pass_dropped": 0,
+      "scam": 1,
+      "legit_unknown": 1,
+      "ineligible": 3,
+      "closed": 0,
+      "deep_analyzed": 0,
+      "scored_high": 0,
+      "eligibility_demoted": 0,
+      "jina_fetch": 0,
+      "jina_failed": 0,
+      "snippet_fallback": 2,
+      "legit_unparseable": 9,
+      "trusted_thin_pass": 0,
+      "discovery": {
+        "tavily": {
+          "attempted": 20,
+          "successful": 20,
+          "429": 0,
+          "403": 0,
+          "errors": 0,
+          "candidates": 160,
+          "queries_planned": 20,
+          "disabled_reason": ""
+        },
+        "rss": {
+          "attempted": 4,
+          "successful": 4,
+          "failed": 0,
+          "skipped_dead": 1,
+          "candidates": 56
+        },
+        "api": {
+          "sources": 2,
+          "healthy": 2,
+          "failed": 0,
+          "candidates": 53
+        },
+        "seed": {
+          "attempted": 14,
+          "candidates": 14
+        },
+        "total": {
+          "raw": 283,
+          "after_dedupe": 271
+        }
+      },
+      "signal_rescued": 3,
+      "deduped": 0,
+      "matches": 0
     }
   }
 ]

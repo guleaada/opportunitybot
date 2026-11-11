@@ -1420,50 +1420,16 @@
     "added": "2026-11-10T13:19:18.552535+00:00",
     "last_checked": "2026-11-10T13:19:18.551680"
   },
-  "e90baae873ce982e": {
-    "url": "https://github.com/speedyapply/2027-SWE-College-Jobs",
-    "title": "GitHub - speedyapply/2027-SWE-College-Jobs: 2027 SWE internship & new graduate job list updated daily · GitHub",
-    "reason": "ANALYSIS_UNAVAILABLE — final_scoring: incomplete or invalid response after retry",
-    "retry_analysis": true,
-    "snippet": "## Contributors\n\n## Footer\n\n### Footer navigation [...] | Name | | Name | Last commit message | Last commit date |\n ---  --- \n| .github | | .github |  |  |\n| INTERN\\_INTL.md | | INTERN\\_INTL.md |  |  |\n| NEW\\_GRAD\\_INTL.md | | NEW\\_GRAD\\_INTL.md |  |  |\n| NEW\\_GRAD\\_USA.md | | NEW\\_GRAD\\_USA.md |  |  |\n| README.md | | README.md |  |  |\n| View all files | | |\n\n## Repository files navigation\n\n## About\n\n2027 SWE internship & new graduate job list updated daily\n\n### Topics\n\n### Resources\n\n### Stars\n\n### Watchers\n\n### Forks\n\n## Used by\n\n## Contributors [...] ## Navigation Menu\n\n## Repository navigation\n\nspeedyapply\n\n## About\n\n2027 SWE internship & new graduate job list updated daily\n\n### Topics\n\n### Resources\n\n### Stars\n\n### Watchers\n\n### Forks\n\n## Latest commit\n\n## History\n\n## Folders and files",
-    "id": "e90baae873ce982e",
-    "added": "2026-11-08T12:02:48.662225+00:00"
-  },
-  "43283e7e9f2af934": {
-    "url": "https://japan-dev.com/japan-jobs-relocation",
-    "title": "Jobs in Japan with Visa Sponsorship | Japan Dev",
-    "retry_analysis": true,
-    "snippet": "Visual Alpha・B2B fintech startup\n\n  + Japanese Required\n  + Apply from Abroad\n  + ¥8M ~ ¥12M\n\n  location-icon\n\n  Tokyo\n\n  yen-icon-simple\n\n  8 ~ 12mil\n\n  ApplyApply\n NEW!\n\n  checkmarkApplied\n\n  Omakase.ai\n\n  ## Full Stack Engineer\n\n  Omakase.ai\n\n  + Apply from Abroad\n  + Partial Remote\n  + Web / Full-stack\n\n  location-icon\n\n  Tokyo\n\n  ApplyApply\n NEW!\n\n  checkmarkApplied\n\n  Jamm\n\n  ## Backend Developer\n\n  Jamm・Stress-free payments\n\n  + Apply from Abroad\n  + ¥7M ~ ¥10M\n  + Partial Remote [...] logo\n\n© 2026 Japan Dev. All rights reserved.\n\nProudly built in Tokyo.\n\ntwitterlinkedinfacebookyoutube\n\n### For Talent\n\nJapan Developer JobsTop CompaniesSearch JobsSign Up NowDesigner ExperiencesRemote companies\n\n### For Employers\n\nEmployer LoginPost Jobs人事向けブログEmail Us\n\n### Japan Dev\n\nAbout UsBlogCareersResources\n\n### Contact\n\nFeedbackEmail Us [...] ApplyApply\n NEW!\n\n  checkmarkApplied\n\n  MeetsMore\n\n  ## Engineering Manager / EM - Platform\n\n  MeetsMore・Local services marketplac...\n\n  + Apply from Abroad\n  + ¥8M ~ ¥14M\n  + Partial Remote\n\n  location-icon\n\n  Tokyo\n\n  yen-icon-simple\n\n  8 ~ 14mil\n\n  ApplyApply\n NEW!\n\n  checkmarkApplied\n\n  Telexistence\n\n  ## Autonomous Motion Planning & Control Engineer - Logistics AGF Team\n\n  Telexistence\n\n  + Apply from Abroad\n  + Partial Remote\n  + Backend\n\n  location-icon\n\n  Tokyo\n\n  ApplyApply\n NEW!",
-    "reason": "legitimacy check returned an unparseable reply; retry on a later run",
-    "id": "43283e7e9f2af934",
-    "added": "2026-11-08T12:03:19.260331+00:00"
-  },
-  "a9021c07e5312c75": {
-    "url": "https://pcisig.com/events/2026-sponsorship-opportunities",
-    "title": "2026 Sponsorship Opportunities | PCI-SIG",
-    "reason": "ANALYSIS_UNAVAILABLE — deep_eligibility: incomplete or invalid response after retry",
-    "retry_analysis": true,
-    "snippet": "Overtime Sponsor - $5,000\n\n 1 Exhibitor Booth (10’x10’) + electrical (500 watts)\n Logo representation on all DevCon related collateral\n  + Signs, banners, onsite handouts, email blasts, advertisement flyers, etc.\n Company logo rotating on screen in exhibit hall during lunch, morning, and afternoon break\n Access to the Sponsor features within the DevCon mobile app\n\nPCI-SIG DevCon APAC Tour 2026 – Closed\n\nDigital Sponsorship Opportunity – Benefits Include: [...] Logo representation on all DevCon related collateral\n Distribution of one piece of PCI-SIG approved collateral to DevCon attendees via email\n\nPCI-SIG DevCon India  2026 – Closed\n\nExhibitor Sponsor – Benefits Include:\n\n Onsite space and staff presence\n Logo representation on all DevCon related collateral\n Promotion through the event application\n Distribution of one piece of PCI-SIG approved collateral to DevCon attendees via email [...] + electrical (500 watts)\n Logo representation on all DevCon related collateral\n  + Signs, banners, onsite handouts, email blasts, advertisement flyers, etc.\n Distribution of one piece of PCI-SIG approved collateral to DevCon attendees via email\n 1 product and logo feature OR 1 company ad, displayed on a single slide which will be included in the exhibit hall during lunch, morning, and afternoon break.\n Access to the Exhibitor and Sponsor features within the DevCon mobile app",
-    "id": "a9021c07e5312c75",
-    "added": "2026-11-08T12:04:10.563961+00:00"
-  },
   "70e6dcc654bbc338": {
     "url": "https://horizonpublicservice.org/applications-open-for-horizons-ai-policy-career-accelerator",
     "title": "Applications open for Horizon’s AI policy Career Accelerator – Horizon Institute for Public Service",
-    "reason": "ANALYSIS_UNAVAILABLE — all configured providers unavailable for 'check_deadline' (tried: openrouter, mistral, gemini)",
+    "reason": "closed at discovery; likely annual",
     "retry_analysis": true,
     "snippet": "## Program timeline\n\n Application period: May 21, 2026 – June 21, 2026\n Cohort selected: August/September 2026\n Program period: September 2026 – May 2027 (9 months)\n Virtual training period: 4-6 weeks during September – October 2026 (a few hours per week of optional modules)\n Post-program benefits: Alumni retain access to support services, including an active Slack community, advising resources, and tailored opportunity notifications.\n\n## Ready to apply? [...] See all\n\nHorizon is hiring for roles across policy, events, comms, operations, and data: Apply by August 23\n\nApplications open for 2027 Horizon Fellowship cohort\n\nApply for the AI Rapid Response Fellowship\n\nAnnouncing the AI for Science Fellowship\n\nConnect with us\n\nGet in touch and learn more about Horizon. We are always eager to hear from aspiring public servants and potential partners.\n\nConnect [...] May 21, 2026\n\n# Applications open for Horizon’s AI policy Career Accelerator\n\nHorizon's Career Accelerator is a part-time, remote program that helps people at any career stage launch AI policy careers. The application deadline was June 21, 2026.\n\nHorizon’s Career Accelerator is a part-time, remote program designed to support talented individuals as they pursue careers in AI policy.",
     "id": "70e6dcc654bbc338",
-    "added": "2026-11-08T12:04:19.851162+00:00"
-  },
-  "7b76522aedd297af": {
-    "url": "https://cloud.google.com/startup",
-    "title": "Google for Startups Cloud Program | Google Cloud",
-    "reason": "ANALYSIS_UNAVAILABLE — all configured providers unavailable for 'first_pass_filter' (tried: gemini)",
-    "retry_analysis": true,
-    "snippet": "1. AI startups: Year 1: 100% up to $250,000 USD in Google Cloud credits; Year 2: 20% up to an additional $100,000 USD in Google Cloud credits.\n\nOther startups: Year 1: 100% up to $100,000 USD in Google Cloud credits; Year 2: 20% up to an additional $100,000 USD in Google Cloud credits.\n\n2. Third-party models are billed directly and are not covered by the program credits. [...] For pre-funded builders and new Google Cloud customers founding digital-native products.\n Stage: Pre-Seed to Series A\n\n  Grow and scale\n\n  Build and secure your stack on the platform where compute, data, and AI integrate seamlessly.\n\n  Up to $350k in Cloud credits\n\n  Apply to the program\n\n  Key benefits [...] #### Which billing account ID do I apply with?\n\nWe auto-populate your billing account ID based on the Google Cloud account associated with the business email address you provided. Some companies may have multiple billing IDs attached to each account. Upon approval, credits will be deposited into the Google Cloud billing account you have selected in your application, so please double check this is the right account and is attached to the GCP Projects you want to use your credits with.",
-    "id": "7b76522aedd297af",
-    "added": "2026-11-08T12:04:20.295836+00:00"
+    "added": "2026-11-11T12:33:40.727888+00:00",
+    "last_checked": "2026-11-11T12:33:08.750690",
+    "last_known_deadline": null
   },
   "9355de8e9e4ebb15": {
     "url": "https://creditforstartups.com/companies/google",
@@ -1498,7 +1464,7 @@
     "snippet": "Application Deadline: November 17, 2026 Applications are now open for the 2027 African Development Bank Group Shanghai Ocean University Scholarship. The African Development Bank Group (AfDB) and the Shanghai Ocean… The post 2027 African Development Bank Group Shanghai Ocean University Scholarship Bachelor, Master’s, and PhD Program (Funded study in Shanghai, China) appeared first on Opportunities For Africans .",
     "reason": "legitimacy check returned an unparseable reply; retry on a later run",
     "id": "c82b5dcf53d8ecac",
-    "added": "2026-11-10T13:34:06.413777+00:00"
+    "added": "2026-11-11T12:40:34.617723+00:00"
   },
   "d581ae83831beef3": {
     "url": "https://www2.fundsforngos.org/innovation/open-call-aigc-for-future-global-challenge-2026",
@@ -1507,5 +1473,77 @@
     "reason": "closed at discovery; likely annual",
     "id": "d581ae83831beef3",
     "added": "2026-11-10T13:37:34.191455+00:00"
+  },
+  "07eda7942a26b2af": {
+    "url": "https://opportunitiescorners.com/european-youth-summit-2027-in-spain/",
+    "title": "European Youth Summit 2027 in Spain | Fully Funded Conference",
+    "retry_analysis": true,
+    "snippet": "Applications are open for the European Youth Summit 2027 in Spain, an international youth gathering that will bring together 300 young leaders, students, entrepreneurs, and young professionals from more than 120 countries. This fully funded summit will take place in Madrid, Spain, from 13–16 April 2027. There are 300 scholarship places available, including 50 fully […] The post European Youth Summit 2027 in Spain | Fully Funded Conference appeared first on Opportunities Corners .",
+    "reason": "legitimacy check returned an unparseable reply; retry on a later run",
+    "id": "07eda7942a26b2af",
+    "added": "2026-11-11T12:39:47.736723+00:00"
+  },
+  "5d7753c622545e7f": {
+    "url": "https://www.opportunitiesforafricans.com/the-momo-graduate-development-programme-2026/",
+    "title": "The MoMo Graduate Development Programme 2026 for young Nigerian graduates.",
+    "retry_analysis": true,
+    "snippet": "Application Deadline: 19 November 2026 Applications are now open for the MoMo Graduate Development Programme 2026, an opportunity for young Nigerian graduates looking to kick-start their careers in the financial… The post The MoMo Graduate Development Programme 2026 for young Nigerian graduates. appeared first on Opportunities For Africans .",
+    "reason": "legitimacy check returned an unparseable reply; retry on a later run",
+    "id": "5d7753c622545e7f",
+    "added": "2026-11-11T12:39:58.832638+00:00"
+  },
+  "e8f6f6f315621075": {
+    "url": "https://msmeafricaonline.com/call-for-applications-world-bank-group-africa-fellowship-program-2027-fully-funded-to-washington-d-c-or-a-wbg-country-office",
+    "title": "Call For Applications: World Bank Group Africa Fellowship Program 2027 - MSME Africa",
+    "retry_analysis": true,
+    "snippet": "The World Bank Group Africa Fellowship Programme helps build a pipeline of African scholars and development professionals who can contribute to research, policymaking, and development practice across the continent and globally. Since its launch, the programme has supported hundreds of African scholars and helped connect academic research with practical development work.\n\n## Application Deadline\n\nAugust 25, 2026. Applications opened on July 15, 2026.\n\nAdvertisement\n\n## How To Apply [...] A six-month professional assignment with the World Bank Group\n Placement at WBG headquarters in Washington, D.C., or a country office\n Consultant fees for the duration of the fellowship\n Round-trip economy-class airfare to the assigned duty station\n Hands-on experience working on development research and policy\n Opportunities to work with World Bank Group experts and professionals\n Exposure to research, economic policy, technical assistance, and lending operations.\n\n## Who Can Apply? [...] ## Who Can Apply?\n\nThe programme is designed for:\n\n Nationals of Sub-Saharan African countries\n Ph.D. candidates who are completing their doctoral studies\n Recent Ph.D. graduates\n Scholars whose areas of expertise are relevant to the World Bank Group’s work.\n\nWomen are especially encouraged to apply.\n\n## Areas of Focus\n\nThe fellowship may support scholars working in fields related to:",
+    "reason": "legitimacy check returned an unparseable reply; retry on a later run",
+    "id": "e8f6f6f315621075",
+    "added": "2026-11-11T12:41:21.109866+00:00"
+  },
+  "2ebef85393cb78da": {
+    "url": "https://www.opportunitiesforafricans.com/the-altbank-sultan-of-sales-graduate-trainee-programme-2026-for-young-nigerian-graduates/",
+    "title": "The AltBank Sultan of Sales Graduate Trainee Programme 2026 for young Nigerian graduates.",
+    "retry_analysis": true,
+    "snippet": "Application Deadline: Unspecified Applications are now open for the 2026 AltBank Sultan of Sales Graduate Trainee Programme. AltBank is looking for ambitious, energetic, results-driven individuals passionate about building relationships, creating… The post The AltBank Sultan of Sales Graduate Trainee Programme 2026 for young Nigerian graduates. appeared first on Opportunities For Africans .",
+    "reason": "legitimacy check returned an unparseable reply; retry on a later run",
+    "id": "2ebef85393cb78da",
+    "added": "2026-11-11T12:41:44.008442+00:00"
+  },
+  "1c26a7a4b4a55981": {
+    "url": "https://www.liveplan.com/free-tools/small-business-grants-directory",
+    "title": "Small Business Grants Directory | Free Grants List | LivePlan",
+    "retry_analysis": true,
+    "snippet": "Application timing\n:   Apply anytime in 2026. Reviewed monthly, June through December 2026.\n\nAward\n:   $10,000, 10 grants awarded monthly\n\nMore details & application\n\n#### Hustler's Microgrant\n\n Nationwide (US)\n\nA monthly $1,000 microgrant created by Deja Vu Parker of WBLS with HerSuiteSpot and the Yva Jourdan Foundation, for small business owners across the U.S. who lack access to early-stage capital. [...] Eligibility\n:   Female founders 22 or older with a registered, revenue-earning U.S. for-profit business no more than five years old that addresses poverty, hunger or humanitarian aid, or sustainability and the environment. Credit score self-report and background check required.\n\nApplication timing\n:   Two cycles per year. The Fall 2026 application opens November 1, 2026 (grants awarded spring 2027); the Spring 2027 application opens May 1, 2027. [...] Application timing\n:   The 2027 cycle: pre-registration opens January 1, 2027, the full application runs March 9 to April 13, 2027, and finalists are announced May 4, 2027.\n\nAward\n:   $1,000 micro-grant for each of 20 finalists, plus free access to the Passport Community or Zebra Leadership program\n\nMore details & application\n\n#### Olga Loizon Memorial Foundation\n\n Michigan\n Women-owned\n Closed for now",
+    "reason": "legitimacy check returned an unparseable reply; retry on a later run",
+    "id": "1c26a7a4b4a55981",
+    "added": "2026-11-11T12:41:59.786603+00:00"
+  },
+  "e6d32fb52e0a829e": {
+    "url": "https://www.egamentorship.org/opportunities",
+    "title": "Opportunities | EGA Mentorship International",
+    "retry_analysis": true,
+    "snippet": "Opportunity Desk\n\nDeadline: September 27, 2026 Applications are open for the Institute for AI Policy and Strategy (IAPS) AI Policy Fellowship 2027. The IAPS AI Policy Fellowship is a fully funded, three-month program for professionals from varied backgrounds seeking to strengthen practical policy skills for securing a positive future in a world with powerful AI. The IAPS [...]\n\nLocation\n:   Open to all countries\n\nView & apply [...] Application Deadline: 23 October 2026 (14:00 CEST). Applications are now open for the 2027 European University Institute Jean Monnet Fellowships. The Robert Schuman Centre for Advanced Studies offers one-year Jean… The post The European University Institute Jean Monnet Fellowships 2027 for PhD Scholars (€ 2,850 per month grant and Fully Funded to Florence, Italy) appeared first on Opportunit\n\nLocation\n:   Open to all countries\n\nView & apply [...] Application Deadline: 20 September 2026 Applications are now open for the 2027 African Leadership Institute (AFLI) Archbishop Tutu Fellowship Programme. The goal of the African Leadership Institute (AFLI) is to nurture and… The post African Leadership Institute (AFLI) Archbishop Tutu Fellowship Programme 2027 for Emerging young African Leaders (Fully Funded) appeared first on Opportunities F\n\nLocation\n:   Open to all countries\n\nView & apply",
+    "reason": "legitimacy check returned an unparseable reply; retry on a later run",
+    "id": "e6d32fb52e0a829e",
+    "added": "2026-11-11T12:42:54.910329+00:00"
+  },
+  "aa3d6136d44a49e8": {
+    "url": "https://mohacafrica.org/startup-funding-opportunities-for-africans",
+    "title": "Startup Funding Opportunities for Africans Between 2025–2026 | MOHAC AFRICA",
+    "retry_analysis": true,
+    "snippet": "Pre-seed is your first external funding round. It is for founders who have a clear idea, some early evidence it works, and need money to build a prototype or reach their first customers. Most African pre-seed rounds range from $20,000 to $500,000.\n\n  Seed is for startups with a working product and early traction — paying customers or consistent user growth. Seed rounds in Africa typically range from $500,000 to $2 million at pre-money valuations of $3 million to $8 million. [...] It depends on your stage and sector. At the pre-seed stage, most African startups raise between $20,000 and $500,000. At the seed stage, the typical range is $500,000 to $2 million, with pre-money valuations usually between $3 million and $8 million. At Series A, rounds commonly range from $2 million to $10 million, though high-performing startups in fintech, cleantech, and logistics have raised more. Grant programs like TEF offer $5,000 non-refundable grants; accelerators like Y Combinator [...] What makes angel investors particularly valuable beyond the money is the mentorship. An angel investor who has built a business in your industry can open doors that no cheque alone can open.\n\n  Best for: Pre-seed founders who need both early-stage capital and a mentor with specific industry connections.\n\n  ### 4. Startup Accelerators and Incubators: Programs That Invest in You",
+    "reason": "legitimacy check returned an unparseable reply; retry on a later run",
+    "id": "aa3d6136d44a49e8",
+    "added": "2026-11-11T12:43:52.476718+00:00"
+  },
+  "625b02ffddbee5c8": {
+    "url": "https://www.facebook.com/taheer.mahmoodsaleeh/posts/funding-opportunities-for-startups-businesses-1-d-prize-global-competition-2026f/3978645105611597",
+    "title": "Tahir Mahmood Saleh",
+    "retry_analysis": true,
+    "snippet": "Funding: Up to US$5,000 in startup capital\n\nEligibility: African women founders aged 18–35 with technology-enabled businesses\n\nDeadline: October 26, 2026 \n\nApplication Link: \n\n5. Africa Jobs Fund × Somali Development and Reconstruction Bank Competition\n\nFunding: US$20,000 for the winner, with potential follow-on financing\n\nEligibility: Entrepreneurs building businesses in Somalia\n\nFocus: Manufacturing, agriculture, fisheries and job creation\n\nDeadline: November 6, 2026 \n\nApplication Link: [...] Funding: Startup investment\n\nEligibility: Early-stage startups worldwide\n\nFocus: Technology, AI, fintech, healthcare and other scalable businesses\n\nDeadline: November 2, 2026 \n\nApplication Link: \n\n3. Jobtech Alliance: Call for Founders in Mombasa\n\nFunding: US$20,000\n\nEligibility: Startups operating in Mombasa or willing to expand there\n\nFocus: Digital jobs, freelancing and skills development\n\nDeadline: October 23, 2026 \n\nApplication Link: \n\n4. Her Startup Cohort 2.0 [...] Log in\n\nLog in\n\nForgotten account?\n\n## Tahir Mahmood Saleh's post\n\n  \n\n[](\n\n### Tahir Mahmood Saleh\n\nSaturday 24 October 2026 at 14:40\n\n24 October at 14:40 · \n\nFunding Opportunities for Startups & Businesses \n\n1. D-Prize Global Competition 2026\n\nFunding: US$20,000\n\nEligibility: Entrepreneurs launching ventures that deliver proven solutions to poverty\n\nFocus: Healthcare, education, agriculture and essential services\n\nDeadline: November 15, 2026 \n\nApplication Link: \n\n2. Y Combinator Winter 2027",
+    "reason": "legitimacy check returned an unparseable reply; retry on a later run",
+    "id": "625b02ffddbee5c8",
+    "added": "2026-11-11T12:44:39.559117+00:00"
   }
 }

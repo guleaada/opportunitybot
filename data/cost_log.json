@@ -57950,5 +57950,573 @@
     "tokens_in": 126,
     "tokens_out": 40,
     "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-11-11T12:29:29.108859+00:00",
+    "provider": "groq",
+    "task": "first_pass_filter",
+    "tokens_in": 4091,
+    "tokens_out": 234,
+    "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-11-11T12:29:35.329531+00:00",
+    "provider": "groq",
+    "task": "first_pass_filter",
+    "tokens_in": 4068,
+    "tokens_out": 300,
+    "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-11-11T12:30:04.529437+00:00",
+    "provider": "groq",
+    "task": "check_deadline",
+    "tokens_in": 3640,
+    "tokens_out": 137,
+    "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-11-11T12:30:35.493898+00:00",
+    "provider": "groq",
+    "task": "scam_detection",
+    "tokens_in": 3949,
+    "tokens_out": 190,
+    "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-11-11T12:31:10.445060+00:00",
+    "provider": "groq",
+    "task": "deep_eligibility",
+    "tokens_in": 4382,
+    "tokens_out": 661,
+    "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-11-11T12:31:42.719007+00:00",
+    "provider": "groq",
+    "task": "extract_document_requirements",
+    "tokens_in": 3796,
+    "tokens_out": 305,
+    "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-11-11T12:32:13.817287+00:00",
+    "provider": "groq",
+    "task": "estimate_complexity",
+    "tokens_in": 3786,
+    "tokens_out": 274,
+    "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-11-11T12:32:55.771982+00:00",
+    "provider": "groq",
+    "task": "final_scoring",
+    "tokens_in": 5009,
+    "tokens_out": 1016,
+    "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-11-11T12:33:06.966880+00:00",
+    "provider": "groq",
+    "task": "first_pass_filter",
+    "tokens_in": 1004,
+    "tokens_out": 197,
+    "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-11-11T12:33:08.669062+00:00",
+    "provider": "groq",
+    "task": "classify_opportunity",
+    "tokens_in": 657,
+    "tokens_out": 200,
+    "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-11-11T12:33:29.851859+00:00",
+    "provider": "groq",
+    "task": "first_pass_filter",
+    "tokens_in": 2284,
+    "tokens_out": 300,
+    "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-11-11T12:33:40.657400+00:00",
+    "provider": "groq",
+    "task": "check_deadline",
+    "tokens_in": 1856,
+    "tokens_out": 179,
+    "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-11-11T12:34:04.621973+00:00",
+    "provider": "groq",
+    "task": "first_pass_filter",
+    "tokens_in": 2965,
+    "tokens_out": 300,
+    "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-11-11T12:34:24.443016+00:00",
+    "provider": "groq",
+    "task": "check_deadline",
+    "tokens_in": 2537,
+    "tokens_out": 181,
+    "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-11-11T12:34:48.374684+00:00",
+    "provider": "groq",
+    "task": "scam_detection",
+    "tokens_in": 2841,
+    "tokens_out": 171,
+    "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-11-11T12:35:15.304904+00:00",
+    "provider": "groq",
+    "task": "deep_eligibility",
+    "tokens_in": 3279,
+    "tokens_out": 645,
+    "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-11-11T12:36:42.769886+00:00",
+    "provider": "groq",
+    "task": "first_pass_filter",
+    "tokens_in": 1999,
+    "tokens_out": 300,
+    "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-11-11T12:36:43.490257+00:00",
+    "provider": "groq",
+    "task": "check_deadline",
+    "tokens_in": 1571,
+    "tokens_out": 187,
+    "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-11-11T12:36:44.481236+00:00",
+    "provider": "groq",
+    "task": "scam_detection",
+    "tokens_in": 1897,
+    "tokens_out": 293,
+    "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-11-11T12:36:57.303874+00:00",
+    "provider": "groq",
+    "task": "deep_eligibility",
+    "tokens_in": 2313,
+    "tokens_out": 1083,
+    "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-11-11T12:37:15.007777+00:00",
+    "provider": "groq",
+    "task": "first_pass_filter",
+    "tokens_in": 2280,
+    "tokens_out": 176,
+    "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-11-11T12:37:28.696138+00:00",
+    "provider": "groq",
+    "task": "check_deadline",
+    "tokens_in": 1852,
+    "tokens_out": 134,
+    "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-11-11T12:37:48.443169+00:00",
+    "provider": "groq",
+    "task": "scam_detection",
+    "tokens_in": 2173,
+    "tokens_out": 446,
+    "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-11-11T12:38:11.244226+00:00",
+    "provider": "groq",
+    "task": "deep_eligibility",
+    "tokens_in": 2594,
+    "tokens_out": 562,
+    "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-11-11T12:38:30.190436+00:00",
+    "provider": "groq",
+    "task": "first_pass_filter",
+    "tokens_in": 2039,
+    "tokens_out": 268,
+    "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-11-11T12:38:44.277935+00:00",
+    "provider": "groq",
+    "task": "check_deadline",
+    "tokens_in": 1611,
+    "tokens_out": 198,
+    "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-11-11T12:39:02.198774+00:00",
+    "provider": "groq",
+    "task": "scam_detection",
+    "tokens_in": 1932,
+    "tokens_out": 510,
+    "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-11-11T12:39:29.723919+00:00",
+    "provider": "openrouter",
+    "task": "deep_eligibility",
+    "tokens_in": 2339,
+    "tokens_out": 719,
+    "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-11-11T12:39:37.304772+00:00",
+    "provider": "openrouter",
+    "task": "first_pass_filter",
+    "tokens_in": 2324,
+    "tokens_out": 300,
+    "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-11-11T12:39:38.345257+00:00",
+    "provider": "openrouter",
+    "task": "check_deadline",
+    "tokens_in": 1865,
+    "tokens_out": 300,
+    "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-11-11T12:39:43.690175+00:00",
+    "provider": "openrouter",
+    "task": "scam_detection",
+    "tokens_in": 2296,
+    "tokens_out": 600,
+    "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-11-11T12:39:47.699814+00:00",
+    "provider": "openrouter",
+    "task": "scam_detection",
+    "tokens_in": 2055,
+    "tokens_out": 600,
+    "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-11-11T12:39:49.169450+00:00",
+    "provider": "openrouter",
+    "task": "first_pass_filter",
+    "tokens_in": 1603,
+    "tokens_out": 140,
+    "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-11-11T12:39:50.997748+00:00",
+    "provider": "openrouter",
+    "task": "check_deadline",
+    "tokens_in": 1171,
+    "tokens_out": 144,
+    "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-11-11T12:39:54.408561+00:00",
+    "provider": "openrouter",
+    "task": "scam_detection",
+    "tokens_in": 1427,
+    "tokens_out": 600,
+    "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-11-11T12:39:58.773007+00:00",
+    "provider": "openrouter",
+    "task": "scam_detection",
+    "tokens_in": 1511,
+    "tokens_out": 600,
+    "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-11-11T12:40:07.014035+00:00",
+    "provider": "openrouter",
+    "task": "first_pass_filter",
+    "tokens_in": 2595,
+    "tokens_out": 300,
+    "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-11-11T12:40:13.821573+00:00",
+    "provider": "openrouter",
+    "task": "check_deadline",
+    "tokens_in": 2221,
+    "tokens_out": 300,
+    "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-11-11T12:40:24.881470+00:00",
+    "provider": "openrouter",
+    "task": "scam_detection",
+    "tokens_in": 2576,
+    "tokens_out": 600,
+    "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-11-11T12:40:34.579945+00:00",
+    "provider": "openrouter",
+    "task": "scam_detection",
+    "tokens_in": 2598,
+    "tokens_out": 600,
+    "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-11-11T12:41:04.469827+00:00",
+    "provider": "openrouter",
+    "task": "first_pass_filter",
+    "tokens_in": 3661,
+    "tokens_out": 300,
+    "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-11-11T12:41:06.680441+00:00",
+    "provider": "openrouter",
+    "task": "check_deadline",
+    "tokens_in": 2978,
+    "tokens_out": 300,
+    "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-11-11T12:41:16.378867+00:00",
+    "provider": "openrouter",
+    "task": "scam_detection",
+    "tokens_in": 3550,
+    "tokens_out": 600,
+    "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-11-11T12:41:21.072896+00:00",
+    "provider": "openrouter",
+    "task": "scam_detection",
+    "tokens_in": 3357,
+    "tokens_out": 600,
+    "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-11-11T12:41:23.211463+00:00",
+    "provider": "openrouter",
+    "task": "first_pass_filter",
+    "tokens_in": 1440,
+    "tokens_out": 134,
+    "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-11-11T12:41:26.074762+00:00",
+    "provider": "openrouter",
+    "task": "check_deadline",
+    "tokens_in": 1122,
+    "tokens_out": 300,
+    "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-11-11T12:41:30.603720+00:00",
+    "provider": "openrouter",
+    "task": "scam_detection",
+    "tokens_in": 1343,
+    "tokens_out": 600,
+    "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-11-11T12:41:43.970882+00:00",
+    "provider": "openrouter",
+    "task": "scam_detection",
+    "tokens_in": 1448,
+    "tokens_out": 600,
+    "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-11-11T12:41:46.452559+00:00",
+    "provider": "openrouter",
+    "task": "first_pass_filter",
+    "tokens_in": 824,
+    "tokens_out": 300,
+    "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-11-11T12:41:49.735386+00:00",
+    "provider": "openrouter",
+    "task": "check_deadline",
+    "tokens_in": 474,
+    "tokens_out": 300,
+    "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-11-11T12:41:56.684588+00:00",
+    "provider": "openrouter",
+    "task": "scam_detection",
+    "tokens_in": 701,
+    "tokens_out": 600,
+    "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-11-11T12:41:59.749059+00:00",
+    "provider": "openrouter",
+    "task": "scam_detection",
+    "tokens_in": 826,
+    "tokens_out": 22,
+    "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-11-11T12:42:04.140434+00:00",
+    "provider": "openrouter",
+    "task": "first_pass_filter",
+    "tokens_in": 3712,
+    "tokens_out": 300,
+    "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-11-11T12:42:11.042931+00:00",
+    "provider": "openrouter",
+    "task": "check_deadline",
+    "tokens_in": 4166,
+    "tokens_out": 300,
+    "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-11-11T12:42:13.197412+00:00",
+    "provider": "openrouter",
+    "task": "scam_detection",
+    "tokens_in": 4091,
+    "tokens_out": 600,
+    "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-11-11T12:42:20.460658+00:00",
+    "provider": "openrouter",
+    "task": "scam_detection",
+    "tokens_in": 4522,
+    "tokens_out": 507,
+    "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-11-11T12:42:24.265892+00:00",
+    "provider": "openrouter",
+    "task": "first_pass_filter",
+    "tokens_in": 3288,
+    "tokens_out": 300,
+    "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-11-11T12:42:33.528225+00:00",
+    "provider": "openrouter",
+    "task": "check_deadline",
+    "tokens_in": 3217,
+    "tokens_out": 300,
+    "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-11-11T12:42:45.645470+00:00",
+    "provider": "openrouter",
+    "task": "scam_detection",
+    "tokens_in": 3532,
+    "tokens_out": 600,
+    "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-11-11T12:42:54.872879+00:00",
+    "provider": "openrouter",
+    "task": "scam_detection",
+    "tokens_in": 3674,
+    "tokens_out": 600,
+    "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-11-11T12:42:57.220780+00:00",
+    "provider": "openrouter",
+    "task": "first_pass_filter",
+    "tokens_in": 2996,
+    "tokens_out": 300,
+    "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-11-11T12:43:14.197339+00:00",
+    "provider": "openrouter",
+    "task": "check_deadline",
+    "tokens_in": 2661,
+    "tokens_out": 300,
+    "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-11-11T12:43:40.953337+00:00",
+    "provider": "openrouter",
+    "task": "scam_detection",
+    "tokens_in": 2995,
+    "tokens_out": 600,
+    "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-11-11T12:43:52.439331+00:00",
+    "provider": "openrouter",
+    "task": "scam_detection",
+    "tokens_in": 2931,
+    "tokens_out": 600,
+    "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-11-11T12:43:56.629805+00:00",
+    "provider": "openrouter",
+    "task": "first_pass_filter",
+    "tokens_in": 2205,
+    "tokens_out": 300,
+    "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-11-11T12:44:09.391212+00:00",
+    "provider": "openrouter",
+    "task": "check_deadline",
+    "tokens_in": 1738,
+    "tokens_out": 300,
+    "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-11-11T12:44:13.867420+00:00",
+    "provider": "openrouter",
+    "task": "scam_detection",
+    "tokens_in": 2055,
+    "tokens_out": 369,
+    "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-11-11T12:44:16.253864+00:00",
+    "provider": "openrouter",
+    "task": "first_pass_filter",
+    "tokens_in": 856,
+    "tokens_out": 300,
+    "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-11-11T12:44:17.157642+00:00",
+    "provider": "openrouter",
+    "task": "check_deadline",
+    "tokens_in": 548,
+    "tokens_out": 1,
+    "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-11-11T12:44:28.019374+00:00",
+    "provider": "openrouter",
+    "task": "scam_detection",
+    "tokens_in": 865,
+    "tokens_out": 600,
+    "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-11-11T12:44:39.521983+00:00",
+    "provider": "openrouter",
+    "task": "scam_detection",
+    "tokens_in": 886,
+    "tokens_out": 600,
+    "cost_usd": 0.0
   }
 ]

@@ -21116,5 +21116,175 @@
     "id": "0fb28752e71d7c4a",
     "first_seen": "2026-11-10T13:39:11.650572+00:00",
     "last_updated": "2026-11-10T13:39:11.650589+00:00"
+  },
+  "e90baae873ce982e": {
+    "url": "https://github.com/speedyapply/2027-SWE-College-Jobs",
+    "title": "GitHub - speedyapply/2027-SWE-College-Jobs: 2027 SWE internship & new graduate job list updated daily · GitHub",
+    "status": "filtered_out",
+    "reason": "Listing of paid software engineering internships/jobs, not a funded scholarship or fellowship",
+    "id": "e90baae873ce982e",
+    "first_seen": "2026-11-11T12:29:29.158900+00:00",
+    "last_updated": "2026-11-11T12:29:29.158916+00:00"
+  },
+  "43283e7e9f2af934": {
+    "url": "https://japan-dev.com/japan-jobs-relocation",
+    "title": "Jobs in Japan with Visa Sponsorship | Japan Dev",
+    "status": "analyzed",
+    "score": 3.8,
+    "category": null,
+    "official_url": "https://japan-dev.com/japan-jobs-relocation",
+    "location": null,
+    "remote": null,
+    "deadline": null,
+    "reward": "none",
+    "estimated_value": null,
+    "eligibility_status": "PROBABLY_ELIGIBLE",
+    "credibility_status": "LIKELY_LEGITIMATE",
+    "source_tier": "TIER_4",
+    "source_quality": null,
+    "requirements": [],
+    "id": "43283e7e9f2af934",
+    "first_seen": "2026-11-11T12:32:55.819361+00:00",
+    "last_updated": "2026-11-11T12:32:55.819378+00:00"
+  },
+  "a9021c07e5312c75": {
+    "url": "https://pcisig.com/events/2026-sponsorship-opportunities",
+    "title": "2026 Sponsorship Opportunities | PCI-SIG",
+    "status": "filtered_out",
+    "reason": "It's a paid corporate sponsorship opportunity, closed and costs thousands, not a funded scholarship for individuals.",
+    "id": "a9021c07e5312c75",
+    "first_seen": "2026-11-11T12:33:08.716031+00:00",
+    "last_updated": "2026-11-11T12:33:08.716050+00:00"
+  },
+  "70e6dcc654bbc338": {
+    "url": "https://horizonpublicservice.org/applications-open-for-horizons-ai-policy-career-accelerator",
+    "title": "Applications open for Horizon’s AI policy Career Accelerator – Horizon Institute for Public Service",
+    "status": "closed",
+    "deadline": null,
+    "id": "70e6dcc654bbc338",
+    "first_seen": "2026-11-11T12:33:40.705967+00:00",
+    "last_updated": "2026-11-11T12:33:40.705986+00:00"
+  },
+  "7b76522aedd297af": {
+    "url": "https://cloud.google.com/startup",
+    "title": "Google for Startups Cloud Program | Google Cloud",
+    "status": "ineligible",
+    "eligibility_status": "PROBABLY_INELIGIBLE",
+    "model_eligibility_status": "PROBABLY_INELIGIBLE",
+    "missing_requirements": [
+      "Company registration details",
+      "Funding documentation",
+      "Business email address",
+      "Active public website URL",
+      "Google Cloud billing account ID"
+    ],
+    "blocking_issues": [
+      "No registered startup/company (program requires a company, not an individual)",
+      "No verifiable Pre‑Seed/Series A funding",
+      "No business email matching a company domain",
+      "No active company website",
+      "No Google Cloud billing account ID"
+    ],
+    "addressable_gaps": [
+      "Register a legal company and obtain incorporation documents",
+      "Create a company domain and business email address",
+      "Develop and publish an active company website describing the team and product",
+      "Secure verifiable Pre‑Seed or Series A funding (or demonstrate eligibility for a lower tier if applicable)",
+      "Set up a Google Cloud billing account and obtain the 18‑character billing ID"
+    ],
+    "reasoning": "The Google for Startups Cloud Program is limited to startups (registered companies) founded within the last 3‑5 years, with a verifiable Pre‑Seed to Series A funding round, a Google Cloud billing account, a business email that matches the company domain, and an active public website. The candidate profile does not indicate any registered company, business email, website, billing account, or funding status, which are core eligibility criteria. Therefore the candidate is likely ineligible.",
+    "id": "7b76522aedd297af",
+    "first_seen": "2026-11-11T12:35:15.348622+00:00",
+    "last_updated": "2026-11-11T12:35:15.348639+00:00"
+  },
+  "bea930866492ba92": {
+    "url": "https://www.opportunitiesforafricans.com/commonwealth-shared-scholarships-2027-2028/",
+    "title": "Commonwealth Shared Scholarships 2027/2028 for full-time Master’s study in the United Kingdom (Fully Funded)",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "model_eligibility_status": "CONFIRMED_INELIGIBLE",
+    "missing_requirements": [
+      "Degree classification (upper second‑class or equivalent)",
+      "Proof of inability to afford UK study without scholarship",
+      "Confirmation of no more than one academic year of study/work in a high‑income country"
+    ],
+    "blocking_issues": [
+      "Citizenship not from an eligible Commonwealth country (Ethiopia is not a Commonwealth member)",
+      "Permanent residency not in an eligible Commonwealth country (resident in Lao PDR)"
+    ],
+    "addressable_gaps": [
+      "Provide official transcript showing degree classification (if it meets 2:1 standard)",
+      "Obtain a relevant postgraduate qualification (if required to meet the degree standard)",
+      "Submit evidence of financial need"
+    ],
+    "reasoning": "The program requires candidates to be citizens of, or refugees from, an eligible Commonwealth country and to be permanently resident in an eligible Commonwealth country. Ethiopia is not a member of the Commonwealth, so the candidate's Ethiopian citizenship and current residence in Lao PDR do not satisfy these mandatory criteria. These are hard blockers. Additionally, the program asks for a first degree of at least upper‑second‑class (2:1) honours or a lower second‑class degree plus a relevant postgraduate qualification; the candidate's degree classification is not provided, making this requirement unverifiable.",
+    "id": "bea930866492ba92",
+    "first_seen": "2026-11-11T12:36:57.351451+00:00",
+    "last_updated": "2026-11-11T12:36:57.351469+00:00"
+  },
+  "ef449db65708a677": {
+    "url": "https://opportunitiescorners.com/tsinghua-amgen-internship-2027-in-china/",
+    "title": "Tsinghua Amgen Internship 2027 in China (Fully Funded)",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "model_eligibility_status": "CONFIRMED_INELIGIBLE",
+    "missing_requirements": [],
+    "blocking_issues": [
+      "Must be a currently enrolled undergraduate student",
+      "Must be enrolled in an Asian college or university",
+      "Must plan to resume undergraduate studies after the program"
+    ],
+    "addressable_gaps": [],
+    "reasoning": "The program explicitly requires applicants to be currently enrolled undergraduate students at an Asian university and to plan to resume their studies after the internship. The candidate is a 27‑year‑old working professional who has already completed a BSc and is not enrolled in any university, nor is there any indication of intent to resume undergraduate studies. Therefore the candidate does not meet the core eligibility criteria.",
+    "id": "ef449db65708a677",
+    "first_seen": "2026-11-11T12:38:11.311952+00:00",
+    "last_updated": "2026-11-11T12:38:11.311971+00:00"
+  },
+  "69ab32ac41ae5f61": {
+    "url": "https://opportunitiescorners.com/cern-openlab-summer-program-2027/",
+    "title": "CERN OPENLAB Summer Program 2027 in Switzerland (Fully Funded)",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "model_eligibility_status": "CONFIRMED_INELIGIBLE",
+    "missing_requirements": [
+      "Whether the candidate has previously worked at CERN (stated exclusion; presumed not, but unverified)",
+      "Whether his computing coursework/transcript meets the program's 'strong computing profile' standard — his BSc is in Psychology, and the transcript is not available to assess",
+      "Reference letters (at least 1, preferably 2) — producible but not yet confirmed",
+      "Specific selection criteria/rubric and any minimum grade or English-proficiency threshold beyond the stated 'IELTS not required'"
+    ],
+    "blocking_issues": [
+      "Must be currently enrolled in a Bachelor's or Master's degree program — candidate graduated in 2021 and is not a student",
+      "Must remain enrolled as a student for the full duration of the internship (June–August 2027) — impossible for a graduate who is not enrolled",
+      "Not within the alternate path of 'students graduating in Summer 2027 (May)' — his graduation was 2021"
+    ],
+    "addressable_gaps": [
+      "Only theoretical fix: enrolling in a Master's degree program (e.g., CS/IT) with enrollment continuing through Summer 2027 would restore eligibility for a future cycle; not achievable as a document or test gap"
+    ],
+    "reasoning": "The page explicitly requires that 'You must be enrolled in a Bachelor's or Master's degree program with a strong computing profile' and 'You must remain enrolled as a student during your CERN internship,' with eligibility limited to those enrolled or 'graduating in the Summer of 2027 (May).' The candidate graduated with a BSc in Psychology in 2021 and is a working professional, not currently enrolled anywhere, so he fails the enrollment requirement outright and cannot satisfy the must-remain-enrolled-during-the-internship condition. Other criteria are not the problem: 'Candidates of all nationalities are welcome' and 'There are no citizenship restrictions' clears his Ethiopian passport, there is no application fee, and 'IELTS is not required' removes his missing English certificate as an issue. His Python/AI developer background would likely satisfy the 'strong computing profile' element, but that cannot offset the student-status requirement.",
+    "id": "69ab32ac41ae5f61",
+    "first_seen": "2026-11-11T12:39:29.793262+00:00",
+    "last_updated": "2026-11-11T12:39:29.793278+00:00"
+  },
+  "5524cc8d64b784a2": {
+    "url": "https://www.wemakescholars.com/masters-scholarships-for-international-students",
+    "title": "8885+ Masters scholarships 2026-27 [Updated]",
+    "status": "suspicious",
+    "credibility_status": "SUSPICIOUS",
+    "source_tier": "TIER_4",
+    "reasoning": "The page lists many scholarships but uses a free email address (hello@wemakescholars.com) as its official contact, which is a red flag per the guidelines. No explicit payment demands are visible, but the presence of a non-institutional email reduces credibility.",
+    "id": "5524cc8d64b784a2",
+    "first_seen": "2026-11-11T12:42:20.510792+00:00",
+    "last_updated": "2026-11-11T12:42:20.510808+00:00"
+  },
+  "d7073bf8da93f4f4": {
+    "url": "https://ajimcapital.com",
+    "title": "Ajim Capital | Pre-Seed and Seed VC for Africa",
+    "status": "legitimacy_unknown",
+    "credibility_status": "NEEDS_VERIFICATION",
+    "source_tier": "TIER_4",
+    "reasoning": "The page describes Ajim Capital, a venture capital firm, with no mention of a scholarship, fellowship, or any program requiring applicant fees or payments. There is no evidence of a program to evaluate, making the request insufficiently specified.",
+    "id": "d7073bf8da93f4f4",
+    "first_seen": "2026-11-11T12:44:13.916169+00:00",
+    "last_updated": "2026-11-11T12:44:13.916185+00:00"
   }
 }
