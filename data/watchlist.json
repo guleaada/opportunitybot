@@ -1431,23 +1431,16 @@
     "last_checked": "2026-11-11T12:33:08.750690",
     "last_known_deadline": null
   },
-  "9355de8e9e4ebb15": {
-    "url": "https://creditforstartups.com/companies/google",
-    "title": "Google Cloud Startup Credits: Up to $350K (2026 Guide) | Credit for Startups",
-    "reason": "ANALYSIS_UNAVAILABLE — all configured providers unavailable for 'first_pass_filter' (tried: gemini)",
-    "retry_analysis": true,
-    "snippet": "Credit for Startups home \n\n© 2026 Credit for Startups\n\nGoogle Cloud Logo\n\n# Google Cloud Startup Credits\n\nUp to $200,000 in Google Cloud credits over 2 years for Seed to Series A startups, up to $350,000 on the AI track, and $2,000 for pre-funded startups.\n\nLast verified\n\nQuick answer\n\nGoogle Cloud offers eligible startups up to $350,000 in credits and resources, with no equity required. An application is required, and it is open to startups worldwide (pre-seed – series a). [...] Up to $200,000 in Google Cloud credits over 2 years for Seed to Series A startups\n Year 1: 100% of usage up to $100,000; year 2: 20% of usage up to $100,000\n $2,000 in credits for 1 year for pre-funded startups (Start tier)\n Access to Google Cloud experts and technical guidance\n Architecture review sessions\n Access to Google Cloud's startup community\n\nApply Now →\n\nUp to $350,000\n\n### Google for Startups Cloud Program (AI track) [...] ## Available programs\n\nUp to $200,000\n\n### Google for Startups Cloud Program\n\nGoogle Cloud credits over 2 years for Seed to Series A startups: year 1 covers 100% of usage up to $100,000, year 2 covers 20% of usage up to $100,000.",
-    "id": "9355de8e9e4ebb15",
-    "added": "2026-11-08T12:04:20.483088+00:00"
-  },
   "84fa289d04287417": {
     "url": "https://fin.ai/learn/startup-credit-programs",
     "title": "Startup Programs Compared 2026: AWS, Google, Microsoft",
-    "reason": "ANALYSIS_UNAVAILABLE — all configured providers unavailable for 'first_pass_filter' (tried: gemini)",
+    "reason": "closed at discovery; likely annual",
     "retry_analysis": true,
     "snippet": "Last verified: August 2026.\n\nWhat you get: Up to $200,000 in Google Cloud and Firebase credits over two years through the Scale tier, or up to $350,000 for AI-first startups. Google Workspace Business Plus is free for 12 months for new signups. Scale-tier startups can apply separately for $600/month in Google Maps Platform credits and access to a dedicated Startup Success Manager. [...] Apply now\n\n### Microsoft for Startups\n\nLast verified: August 2026.\n\nWhat you get: Up to $150,000 in Azure credits, plus GitHub Enterprise, Microsoft 365 Business Premium, LinkedIn Premium, and access to Azure OpenAI Service (frontier models including GPT-4o and o-series via your Azure credit balance). [...] If your primary need is raw compute, apply to AWS Activate or Google for Startups directly. If you want credits across the rest of your stack through a single application with no VC gate, apply for the Fin Startup Pack.\n\nFor startups\n\n### Get Fin + Intercom free for a year\n\nFin resolves your customers’ questions so you can stay focused on building. After year one, you keep 50% off in year two and 25% off in year three.\n\nApply nowView demos\n\n## FAQs",
     "id": "84fa289d04287417",
-    "added": "2026-11-08T12:04:20.842294+00:00"
+    "added": "2026-11-12T13:36:25.938712+00:00",
+    "last_checked": "2026-11-12T13:35:37.345930",
+    "last_known_deadline": null
   },
   "442962b3e0d59bca": {
     "url": "https://commerce.mt.gov/Business/Indian-Country/Indian-Country-Financial-Assistance/The-Indian-Equity-Fund-Small-Business-Grant",
@@ -1455,16 +1448,8 @@
     "last_known_deadline": "2026-09-30",
     "reason": "closed at discovery; likely annual",
     "id": "442962b3e0d59bca",
-    "added": "2026-11-09T13:54:52.549165+00:00"
-  },
-  "c82b5dcf53d8ecac": {
-    "url": "https://www.opportunitiesforafricans.com/2027-african-development-bank-group-shanghai-ocean-university-scholarship-bachelor-masters-and-phd-program/",
-    "title": "2027 African Development Bank Group Shanghai Ocean University Scholarship Bachelor, Master’s, and PhD Program (Funded study in Shanghai, China)",
-    "retry_analysis": true,
-    "snippet": "Application Deadline: November 17, 2026 Applications are now open for the 2027 African Development Bank Group Shanghai Ocean University Scholarship. The African Development Bank Group (AfDB) and the Shanghai Ocean… The post 2027 African Development Bank Group Shanghai Ocean University Scholarship Bachelor, Master’s, and PhD Program (Funded study in Shanghai, China) appeared first on Opportunities For Africans .",
-    "reason": "legitimacy check returned an unparseable reply; retry on a later run",
-    "id": "c82b5dcf53d8ecac",
-    "added": "2026-11-11T12:40:34.617723+00:00"
+    "added": "2026-11-12T13:36:25.954604+00:00",
+    "last_checked": "2026-11-12T13:36:25.953800"
   },
   "d581ae83831beef3": {
     "url": "https://www2.fundsforngos.org/innovation/open-call-aigc-for-future-global-challenge-2026",
@@ -1472,7 +1457,8 @@
     "last_known_deadline": "2026-05-31",
     "reason": "closed at discovery; likely annual",
     "id": "d581ae83831beef3",
-    "added": "2026-11-10T13:37:34.191455+00:00"
+    "added": "2026-11-12T13:37:29.044627+00:00",
+    "last_checked": "2026-11-12T13:37:29.044157"
   },
   "07eda7942a26b2af": {
     "url": "https://opportunitiescorners.com/european-youth-summit-2027-in-spain/",
@@ -1545,5 +1531,21 @@
     "reason": "legitimacy check returned an unparseable reply; retry on a later run",
     "id": "625b02ffddbee5c8",
     "added": "2026-11-11T12:44:39.559117+00:00"
+  },
+  "fab817cf020d3b87": {
+    "url": "https://www.facebook.com/100063572486987/posts/call-for-applications-for-discretionary-grants-for-the-2026-2027-financial-year-/1749997273796005",
+    "title": "CALL FOR APPLICATIONS FOR DISCRETIONARY GRANTS FOR THE 2026-2027 FINANCIAL YEAR: SPECIAL PROJECTS & PARTNERSHIPS\n\nClick on the link for more information and how to apply: \nhttps://tinyurl.com/44t8aw65 | Piet Rakabe Foundation",
+    "last_known_deadline": "2026-11-09",
+    "reason": "closed at discovery; likely annual",
+    "id": "fab817cf020d3b87",
+    "added": "2026-11-12T13:43:41.117280+00:00"
+  },
+  "1824c130560fb06e": {
+    "url": "https://opportunitiescorners.com/one-million-prompters/",
+    "title": "Dubai Government Free AI Course 2026 | One Million Prompters",
+    "last_known_deadline": null,
+    "reason": "monitoring — not confirmed open at scan time",
+    "id": "1824c130560fb06e",
+    "added": "2026-11-12T13:52:12.278586+00:00"
   }
 }

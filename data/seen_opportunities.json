@@ -21286,5 +21286,289 @@
     "id": "d7073bf8da93f4f4",
     "first_seen": "2026-11-11T12:44:13.916169+00:00",
     "last_updated": "2026-11-11T12:44:13.916185+00:00"
+  },
+  "9355de8e9e4ebb15": {
+    "url": "https://creditforstartups.com/companies/google",
+    "title": "Google Cloud Startup Credits: Up to $350K (2026 Guide) | Credit for Startups",
+    "status": "unknown",
+    "eligibility_status": "UNCERTAIN",
+    "model_eligibility_status": "UNCERTAIN",
+    "missing_requirements": [
+      "Startup existence and legal entity details",
+      "Founding date of the startup",
+      "Funding source and stage (equity‑funded vs. pre‑funded)",
+      "Use of Gemini as core product for AI track",
+      "Prior Google Cloud credit usage amount"
+    ],
+    "blocking_issues": [],
+    "addressable_gaps": [
+      "Provide evidence of an incorporated startup (company registration) and its founding date.",
+      "Specify the funding stage (e.g., seed, Series A) and source of equity funding, or confirm pre‑funded status.",
+      "Demonstrate that the AI product uses Gemini as the foundation (for the AI track).",
+      "Confirm that the startup has not previously received more than $5,000 in Google Cloud credits."
+    ],
+    "reasoning": "The Google Cloud Startup Credits program requires the applicant to be a startup that was founded within the last 5 years (or 24 months for the pre‑funded tier), to have a specific funding stage (seed to Series A equity‑funded for Scale/AI tiers or pre‑funded for the Start tier), and for the AI track to use Gemini as the core of the product. The candidate profile does not state whether they have an incorporated startup, its founding date, its funding source or stage, nor whether their AI product is built on Gemini. These are decision‑relevant criteria that could exclude the candidate, but they are currently unverifiable.",
+    "id": "9355de8e9e4ebb15",
+    "first_seen": "2026-11-12T13:35:37.313535+00:00",
+    "last_updated": "2026-11-12T13:35:37.313553+00:00"
+  },
+  "84fa289d04287417": {
+    "url": "https://fin.ai/learn/startup-credit-programs",
+    "title": "Startup Programs Compared 2026: AWS, Google, Microsoft",
+    "status": "closed",
+    "deadline": null,
+    "id": "84fa289d04287417",
+    "first_seen": "2026-11-12T13:36:25.922324+00:00",
+    "last_updated": "2026-11-12T13:36:25.922344+00:00"
+  },
+  "c82b5dcf53d8ecac": {
+    "url": "https://www.opportunitiesforafricans.com/2027-african-development-bank-group-shanghai-ocean-university-scholarship-bachelor-masters-and-phd-program/",
+    "title": "2027 African Development Bank Group Shanghai Ocean University Scholarship Bachelor, Master’s, and PhD Program (Funded study in Shanghai, China)",
+    "status": "legitimacy_unknown",
+    "credibility_status": "NEEDS_VERIFICATION",
+    "source_tier": "TIER_3",
+    "reasoning": "The scholarship mentions a partnership between AfDB and Shanghai Ocean University, which is plausible, and no application fee or payment request is listed. However, the page provides only generic aggregator contact emails, no direct link to an official AfDB announcement, and relies on the aggregator for information, making verification difficult.",
+    "id": "c82b5dcf53d8ecac",
+    "first_seen": "2026-11-12T13:37:29.012499+00:00",
+    "last_updated": "2026-11-12T13:37:29.012518+00:00"
+  },
+  "707bc059f101c6a3": {
+    "url": "https://www.opportunitiesforafricans.com/the-center-for-effective-global-action-cega-fellowship-program-2027-2028/",
+    "title": "The Center for Effective Global Action (CEGA) Fellowship Program 2027/2028 for African Researchers (monetary stipend and fully funded UC Berkeley Residency)",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "model_eligibility_status": "CONFIRMED_INELIGIBLE",
+    "missing_requirements": [],
+    "blocking_issues": [
+      "Degree level mismatch: only a BSc, but the program requires at least a Master's degree or a PhD."
+    ],
+    "addressable_gaps": [
+      "Proof of English fluency (e.g., IELTS, TOEFL, Duolingo, or MOI certificate) can be obtained."
+    ],
+    "reasoning": "The CEGA Fellowship explicitly requires applicants to have at least a Master's degree, be currently enrolled in a PhD, or have completed a PhD within the last 8 years in a relevant social science field. The candidate only holds a BSc in Psychology, which does not meet this degree requirement. All other criteria (Ethiopian nationality, English fluency, secondary education in Africa, J-1 visa eligibility) are satisfied or can be addressed, but the missing Master's/PhD is a hard blocker.",
+    "id": "707bc059f101c6a3",
+    "first_seen": "2026-11-12T13:39:10.712936+00:00",
+    "last_updated": "2026-11-12T13:39:10.712950+00:00"
+  },
+  "0041667bfea93fa2": {
+    "url": "https://www.opportunitiesforafricans.com/nnpc-ltd-totalenergies-international-masters-degree-scholarship-2027-2028/",
+    "title": "NNPC Ltd/ TotalEnergies International Masters Degree Scholarship 2027/2028 for Study in France (Fully Funded)",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "model_eligibility_status": "CONFIRMED_INELIGIBLE",
+    "missing_requirements": [
+      "Degree classification (Second Class Upper) not provided",
+      "Confirmation of NYSC completion (not applicable to non‑Nigerians)"
+    ],
+    "blocking_issues": [
+      "Nationality mismatch: candidate is Ethiopian, not Nigerian as required"
+    ],
+    "addressable_gaps": [],
+    "reasoning": "The scholarship explicitly requires applicants to be \"young Nigerian\" scholars. The candidate is an Ethiopian national, which directly violates the nationality requirement. Additionally, the scholarship demands a university degree of at least Second Class Upper obtained no earlier than five years ago and completion of Nigeria's NYSC scheme—both of which are either unverifiable or inapplicable to the candidate, but the nationality mismatch alone is a hard blocker.",
+    "id": "0041667bfea93fa2",
+    "first_seen": "2026-11-12T13:39:59.108592+00:00",
+    "last_updated": "2026-11-12T13:39:59.108609+00:00"
+  },
+  "11635ce808ebb710": {
+    "url": "https://opportunitiescorners.com/utrip-summer-internship-2027-in-japan/",
+    "title": "UTRIP Summer Internship 2027 in Japan (Fully Funded)",
+    "status": "suspicious",
+    "credibility_status": "SUSPICIOUS",
+    "source_tier": "TIER_3",
+    "reasoning": "The program claims to be a fully funded six‑week internship at the University of Tokyo, covering round‑trip airfare, but there is no official University of Tokyo webpage or .ac.jp domain confirming its existence. The only contact is a generic Gmail address and the listing is on an aggregator site, not the university’s site, which are typical red flags for fraudulent offers.",
+    "id": "11635ce808ebb710",
+    "first_seen": "2026-11-12T13:40:49.263194+00:00",
+    "last_updated": "2026-11-12T13:40:49.263212+00:00"
+  },
+  "7f73c56ace95b8d3": {
+    "url": "https://www.opportunitiesforafricans.com/coca-cola-beverages-africa-ccba-kenya-internship-programme-2026-2027-for-young-kenyan-students/",
+    "title": "Coca-Cola Beverages Africa (CCBA) Kenya Internship Programme 2026/2027 for young Kenyan students.",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "model_eligibility_status": "CONFIRMED_INELIGIBLE",
+    "missing_requirements": [],
+    "blocking_issues": [
+      "Nationality not Kenyan (program requires Kenyan students)",
+      "Candidate is not currently enrolled as a student (program requires final-year bachelor or awaiting graduation)",
+      "Candidate has already graduated (program requires current students)"
+    ],
+    "addressable_gaps": [],
+    "reasoning": "The programme explicitly targets \"young Kenyan students\" and requires applicants to be final-year Bachelor’s degree students (or awaiting graduation) or 3rd-year Diploma students. The candidate is an Ethiopian national, not Kenyan, and is a working professional who already holds a completed BSc (graduated 2021), thus does not meet the nationality or current student status requirements.",
+    "id": "7f73c56ace95b8d3",
+    "first_seen": "2026-11-12T13:41:42.556096+00:00",
+    "last_updated": "2026-11-12T13:41:42.556110+00:00"
+  },
+  "d969fdb8e6988d0a": {
+    "url": "https://www.opportunitiesforafricans.com/nnpc-limited-totalenergies-national-merit-scholarship-scheme-nmss-2026-2027-for-young-nigerian-students/",
+    "title": "NNPC Limited / TotalEnergies National Merit Scholarship Scheme (NMSS) 2026/2027 for young Nigerian students.",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "model_eligibility_status": "CONFIRMED_INELIGIBLE",
+    "missing_requirements": [],
+    "blocking_issues": [
+      "Nationality mismatch (Ethiopian, not Nigerian)",
+      "Not a current full‑time undergraduate student",
+      "Degree level mismatch (already holds a bachelor's degree)"
+    ],
+    "addressable_gaps": [],
+    "reasoning": "The scholarship explicitly requires applicants to be Nigerian students enrolled in full-time undergraduate study at a NUC‑accredited Nigerian university. The candidate is an Ethiopian national, not a Nigerian, and is a working professional with a completed BSc, not currently enrolled as an undergraduate. These hard blockers directly conflict with the stated eligibility criteria.",
+    "id": "d969fdb8e6988d0a",
+    "first_seen": "2026-11-12T13:42:39.132126+00:00",
+    "last_updated": "2026-11-12T13:42:39.132144+00:00"
+  },
+  "5d7753c622545e7f": {
+    "url": "https://www.opportunitiesforafricans.com/the-momo-graduate-development-programme-2026/",
+    "title": "The MoMo Graduate Development Programme 2026 for young Nigerian graduates.",
+    "status": "legitimacy_unknown",
+    "credibility_status": "NEEDS_VERIFICATION",
+    "source_tier": "TIER_3",
+    "reasoning": "The listing describes a plausible graduate program but provides only a shortened bit.ly application link and no direct reference to an official MoMo website or corporate contact, which makes verification difficult. No fees are mentioned, but the lack of verifiable source information is a red flag.",
+    "id": "5d7753c622545e7f",
+    "first_seen": "2026-11-12T13:43:14.103231+00:00",
+    "last_updated": "2026-11-12T13:43:14.103250+00:00"
+  },
+  "fab817cf020d3b87": {
+    "url": "https://www.facebook.com/100063572486987/posts/call-for-applications-for-discretionary-grants-for-the-2026-2027-financial-year-/1749997273796005",
+    "title": "CALL FOR APPLICATIONS FOR DISCRETIONARY GRANTS FOR THE 2026-2027 FINANCIAL YEAR: SPECIAL PROJECTS & PARTNERSHIPS\n\nClick on the link for more information and how to apply: \nhttps://tinyurl.com/44t8aw65 | Piet Rakabe Foundation",
+    "status": "closed",
+    "deadline": "2026-11-09",
+    "id": "fab817cf020d3b87",
+    "first_seen": "2026-11-12T13:43:41.099772+00:00",
+    "last_updated": "2026-11-12T13:43:41.099786+00:00"
+  },
+  "9188dbb3826c32d5": {
+    "url": "https://opportunitiescorners.com/nasa-open-science-essentials/",
+    "title": "NASA Open Science Essentials 2026 (Free Online Course with Certificate)",
+    "status": "analyzed",
+    "score": 4.0,
+    "category": null,
+    "official_url": "https://opportunitiescorners.com/nasa-open-science-essentials/",
+    "location": null,
+    "remote": null,
+    "deadline": "2026-12-01",
+    "reward": "none",
+    "estimated_value": null,
+    "eligibility_status": "CONFIRMED_ELIGIBLE",
+    "credibility_status": "LIKELY_LEGITIMATE",
+    "source_tier": "TIER_3",
+    "source_quality": 7,
+    "requirements": [],
+    "id": "9188dbb3826c32d5",
+    "first_seen": "2026-11-12T13:45:41.022550+00:00",
+    "last_updated": "2026-11-12T13:45:41.022563+00:00"
+  },
+  "1824c130560fb06e": {
+    "url": "https://opportunitiescorners.com/one-million-prompters/",
+    "title": "Dubai Government Free AI Course 2026 | One Million Prompters",
+    "status": "notified",
+    "score": 6.5,
+    "category": null,
+    "official_url": "https://opportunitiescorners.com/one-million-prompters/",
+    "location": null,
+    "remote": null,
+    "deadline": null,
+    "reward": "fully_funded",
+    "estimated_value": null,
+    "eligibility_status": "CONFIRMED_ELIGIBLE",
+    "credibility_status": "LIKELY_LEGITIMATE",
+    "source_tier": "TIER_3",
+    "source_quality": 7,
+    "requirements": [],
+    "id": "1824c130560fb06e",
+    "first_seen": "2026-11-12T13:47:48.989825+00:00",
+    "last_updated": "2026-11-12T13:52:14.742417+00:00",
+    "notification_tier": "WATCHLIST",
+    "notified_at": "2026-11-12T13:52:14.730915+00:00"
+  },
+  "501107c50645f9d6": {
+    "url": "https://www.opportunitiesforafricans.com/julius-berger-nigeria-electrical-engineer-graduate-trainee-programme-2026/",
+    "title": "Julius Berger Nigeria Electrical Engineer Graduate Trainee Programme 2026 for recent Nigerian Engineering graduates.",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "model_eligibility_status": "CONFIRMED_INELIGIBLE",
+    "missing_requirements": [],
+    "blocking_issues": [
+      "Degree field mismatch: candidate has a BSc in Psychology, not Electrical/Engineering.",
+      "Age exceeds limit: candidate is 27, program limit is ≤26.",
+      "Nationality mismatch: program targets Nigerian engineering graduates; candidate is Ethiopian."
+    ],
+    "addressable_gaps": [],
+    "reasoning": "The programme requires (1) a bachelor's degree or HND in Electrical Engineering or a closely related engineering discipline, (2) the applicant must be not more than 26 years old, and (3) it is explicitly for recent Nigerian engineering graduates. The candidate holds a BSc in Psychology (not an engineering degree), is 27 years old (exceeds the 26‑year age cap), and is an Ethiopian national, not Nigerian.",
+    "id": "501107c50645f9d6",
+    "first_seen": "2026-11-12T13:49:00.281356+00:00",
+    "last_updated": "2026-11-12T13:49:00.281375+00:00"
+  },
+  "ea96f28911bfca17": {
+    "url": "https://www.opportunitiesforafricans.com/zenith-insurance-graduate-trainee-program-2026-for-young-nigerian-graduates/",
+    "title": "Zenith Insurance Graduate Trainee Program 2026 for young Nigerian graduates.",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "model_eligibility_status": "CONFIRMED_INELIGIBLE",
+    "missing_requirements": [
+      "Degree classification (Second Class Lower) not provided, but irrelevant due to hard blockers."
+    ],
+    "blocking_issues": [
+      "Nationality: program limited to Nigerian graduates (candidate is Ethiopian).",
+      "Residency: must be resident in Lagos, Nigeria (candidate resides in Vientiane, Laos).",
+      "NYSC: mandatory completion required (candidate cannot have completed this Nigerian program).",
+      "Work experience: must have less than 2 years (candidate has ~5 years)."
+    ],
+    "addressable_gaps": [],
+    "reasoning": "The program explicitly requires applicants to be Nigerian graduates, have completed the Nigerian National Youth Service Corps (NYSC), be resident in Lagos, Nigeria, and have less than two years of work experience. The candidate is Ethiopian, lives in Laos, has not completed NYSC, and has several years of professional experience, all of which violate hard eligibility criteria.",
+    "id": "ea96f28911bfca17",
+    "first_seen": "2026-11-12T13:49:56.840284+00:00",
+    "last_updated": "2026-11-12T13:49:56.840303+00:00"
+  },
+  "2ebef85393cb78da": {
+    "url": "https://www.opportunitiesforafricans.com/the-altbank-sultan-of-sales-graduate-trainee-programme-2026-for-young-nigerian-graduates/",
+    "title": "The AltBank Sultan of Sales Graduate Trainee Programme 2026 for young Nigerian graduates.",
+    "status": "legitimacy_unknown",
+    "credibility_status": "NEEDS_VERIFICATION",
+    "source_tier": "TIER_3",
+    "reasoning": "The listing provides no direct link to an official AltBank page, no clear application deadline, and only generic aggregator contact emails, making it impossible to verify the program's existence. While no fees are mentioned, the lack of verifiable details is a red flag.",
+    "id": "2ebef85393cb78da",
+    "first_seen": "2026-11-12T13:50:31.525422+00:00",
+    "last_updated": "2026-11-12T13:50:31.525440+00:00"
+  },
+  "e5a713720c6ebd2f": {
+    "url": "https://www.aifsi.org/challenge",
+    "title": "The 2026 Global AI for Social Impact Contest | Award-Winning AI for Social Impact Global Challenge Program",
+    "status": "unknown",
+    "eligibility_status": "UNCERTAIN",
+    "model_eligibility_status": "UNCERTAIN",
+    "missing_requirements": [
+      "Whether participants must be currently enrolled students.",
+      "Any age limit for participants.",
+      "Any nationality or country eligibility restrictions.",
+      "Any minimum degree level requirement (e.g., must hold a master's).",
+      "Any required English language test score or certificate."
+    ],
+    "blocking_issues": [],
+    "addressable_gaps": [
+      "Obtain an English proficiency certificate (e.g., Duolingo or MOI) if the contest later requires proof of English.",
+      "Pay the $60 enrollment fee (the candidate prefers fees ≤ $50, but this is a preference, not a program rule)."
+    ],
+    "reasoning": "The program description does not state explicit eligibility criteria such as nationality, age limit, student status, or required degree level. While the candidate meets the obvious requirements (can enroll, has AI experience, can complete the online modules), we cannot confirm whether hidden criteria exist that might exclude a 27‑year‑old working professional from Ethiopia with a bachelor's degree. Therefore, a decision‑relevant criterion is missing or unverifiable.",
+    "id": "e5a713720c6ebd2f",
+    "first_seen": "2026-11-12T13:51:08.677749+00:00",
+    "last_updated": "2026-11-12T13:51:08.677768+00:00"
+  },
+  "a07da6740b3976d4": {
+    "url": "https://ifdesign.com/en/if-design-student-award",
+    "title": "iF Design - iF DESIGN STUDENT AWARD 2027",
+    "status": "ineligible",
+    "eligibility_status": "PROBABLY_INELIGIBLE",
+    "model_eligibility_status": "PROBABLY_INELIGIBLE",
+    "missing_requirements": [
+      "Explicit statement of eligibility criteria (e.g., student status, age limits, nationality) is not provided on the page"
+    ],
+    "blocking_issues": [
+      "Must be a currently enrolled student (candidate is a professional, not a student)"
+    ],
+    "addressable_gaps": [],
+    "reasoning": "The award is titled the iF DESIGN STUDENT AWARD, which by definition targets current students. The candidate is a working professional and is not enrolled in any academic program, which is a hard blocker for a student‑only competition. The program page does not explicitly list eligibility criteria, but the nature of the award implies a student status requirement, making the candidate unlikely to qualify.",
+    "id": "a07da6740b3976d4",
+    "first_seen": "2026-11-12T13:52:12.261576+00:00",
+    "last_updated": "2026-11-12T13:52:12.261592+00:00"
   }
 }
