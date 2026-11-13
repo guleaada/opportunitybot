@@ -21422,10 +21422,10 @@
     "status": "legitimacy_unknown",
     "credibility_status": "NEEDS_VERIFICATION",
     "source_tier": "TIER_3",
-    "reasoning": "The listing describes a plausible graduate program but provides only a shortened bit.ly application link and no direct reference to an official MoMo website or corporate contact, which makes verification difficult. No fees are mentioned, but the lack of verifiable source information is a red flag.",
+    "reasoning": "The page uses a bit.ly short link for applications and provides only generic email addresses, with no direct link to an official MoMo website, which are typical red flags; however, there is no fee or overt demand for payment, so the legitimacy cannot be confirmed.",
     "id": "5d7753c622545e7f",
     "first_seen": "2026-11-12T13:43:14.103231+00:00",
-    "last_updated": "2026-11-12T13:43:14.103250+00:00"
+    "last_updated": "2026-11-13T12:54:56.274893+00:00"
   },
   "fab817cf020d3b87": {
     "url": "https://www.facebook.com/100063572486987/posts/call-for-applications-for-discretionary-grants-for-the-2026-2027-financial-year-/1749997273796005",
@@ -21525,10 +21525,10 @@
     "status": "legitimacy_unknown",
     "credibility_status": "NEEDS_VERIFICATION",
     "source_tier": "TIER_3",
-    "reasoning": "The listing provides no direct link to an official AltBank page, no clear application deadline, and only generic aggregator contact emails, making it impossible to verify the program's existence. While no fees are mentioned, the lack of verifiable details is a red flag.",
+    "reasoning": "The listing provides no direct link to an official AltBank website, gives an unspecified application deadline, and only offers generic email contacts, making it impossible to verify the existence of the program or the sponsor. No fee or payment request is mentioned, but the lack of concrete details is a red flag.",
     "id": "2ebef85393cb78da",
     "first_seen": "2026-11-12T13:50:31.525422+00:00",
-    "last_updated": "2026-11-12T13:50:31.525440+00:00"
+    "last_updated": "2026-11-13T12:56:13.539837+00:00"
   },
   "e5a713720c6ebd2f": {
     "url": "https://www.aifsi.org/challenge",
@@ -21570,5 +21570,248 @@
     "id": "a07da6740b3976d4",
     "first_seen": "2026-11-12T13:52:12.261576+00:00",
     "last_updated": "2026-11-12T13:52:12.261592+00:00"
+  },
+  "07eda7942a26b2af": {
+    "url": "https://opportunitiescorners.com/european-youth-summit-2027-in-spain/",
+    "title": "European Youth Summit 2027 in Spain | Fully Funded Conference",
+    "status": "scam",
+    "credibility_status": "HIGH_RISK",
+    "source_tier": "TIER_3",
+    "reasoning": "The program requires a $17 application fee and provides only a Gmail address for contact, both classic red flags for scholarship scams. The host organization (Centre for Diplomatic Advancement) cannot be readily verified as a reputable institution, and the promise of fully funded travel in exchange for a fee is inconsistent with legitimate government or university scholarships.",
+    "id": "07eda7942a26b2af",
+    "first_seen": "2026-11-13T12:54:12.743885+00:00",
+    "last_updated": "2026-11-13T12:54:12.743902+00:00"
+  },
+  "e8f6f6f315621075": {
+    "url": "https://msmeafricaonline.com/call-for-applications-world-bank-group-africa-fellowship-program-2027-fully-funded-to-washington-d-c-or-a-wbg-country-office",
+    "title": "Call For Applications: World Bank Group Africa Fellowship Program 2027 - MSME Africa",
+    "status": "closed",
+    "deadline": "2026-08-25",
+    "id": "e8f6f6f315621075",
+    "first_seen": "2026-11-13T12:55:39.151706+00:00",
+    "last_updated": "2026-11-13T12:55:39.151717+00:00"
+  },
+  "1c26a7a4b4a55981": {
+    "url": "https://www.liveplan.com/free-tools/small-business-grants-directory",
+    "title": "Small Business Grants Directory | Free Grants List | LivePlan",
+    "status": "legitimacy_unknown",
+    "credibility_status": "NEEDS_VERIFICATION",
+    "source_tier": "TIER_4",
+    "reasoning": "The page lists a micro‑grant but provides no official sponsor website, contact email, or application link, making it impossible to verify the grant’s existence. No fees or payment requests are mentioned, so there are no clear scam indicators, but the lack of verifiable details warrants uncertainty.",
+    "id": "1c26a7a4b4a55981",
+    "first_seen": "2026-11-13T12:56:43.702341+00:00",
+    "last_updated": "2026-11-13T12:56:43.702356+00:00"
+  },
+  "0197acfb0945cee1": {
+    "url": "https://www.opportunitiesforafricans.com/egypt-japan-university-of-science-and-technology-e-just-ticad9-postgraduate-scholarship-program-2027/",
+    "title": "Egypt-Japan University of Science and Technology (E-JUST) TICAD9 Postgraduate Scholarship Program 2027 for African graduates. (Fully Funded)",
+    "status": "ineligible",
+    "eligibility_status": "PROBABLY_INELIGIBLE",
+    "model_eligibility_status": "PROBABLY_INELIGIBLE",
+    "missing_requirements": [
+      "Official proof of English proficiency",
+      "Academic transcripts and degree certificates",
+      "Letters of recommendation",
+      "Endorsement from home institution (if applying under the preference clause)"
+    ],
+    "blocking_issues": [
+      "Current home address is in Laos, not in an African country as required"
+    ],
+    "addressable_gaps": [
+      "English language proof (can obtain Duolingo or MOI certificate)",
+      "Potential endorsement from home institution if needed"
+    ],
+    "reasoning": "The candidate is an Ethiopian national (eligible nationality) and holds a BSc, which qualifies for a postgraduate (M.Sc.) program. However, the program explicitly requires a current home address in an African country, while the candidate is currently residing in Vientiane, Lao PDR. This constitutes a hard eligibility blocker. Other standard admission items (English test, transcripts, endorsements) are not stated but are addressable.",
+    "id": "0197acfb0945cee1",
+    "first_seen": "2026-11-13T12:58:17.469542+00:00",
+    "last_updated": "2026-11-13T12:58:17.469554+00:00"
+  },
+  "a7b05b60b6e7de0c": {
+    "url": "https://www.opportunitiesforafricans.com/the-dsti-nrf-policy-fellowship-programme-cohort-2/",
+    "title": "The DSTI-NRF Policy Fellowship Programme Cohort 2 (24-month placements) for early- and mid-career South African professionals.",
+    "status": "suspicious",
+    "credibility_status": "SUSPICIOUS",
+    "source_tier": "TIER_3",
+    "reasoning": "The DSTI and NRF are legitimate South African government bodies, and the fellowship program is known to exist, which supports legitimacy. However, the application is collected via a public Google Form and the page provides no direct link to an official DSTI/NRF website or official email domain, which are red‑flag indicators for a potential scam or unofficial copy.",
+    "id": "a7b05b60b6e7de0c",
+    "first_seen": "2026-11-13T12:59:08.245252+00:00",
+    "last_updated": "2026-11-13T12:59:08.245267+00:00"
+  },
+  "00cdb03b80cde43a": {
+    "url": "https://opportunitiescorners.com/rc-trust-internship-2027/",
+    "title": "RC Trust Internship 2027 in Germany (Fully Funded)",
+    "status": "suspicious",
+    "credibility_status": "SUSPICIOUS",
+    "source_tier": "TIER_3",
+    "reasoning": "The listing provides no direct link to an official RC Trust website and only offers a generic Gmail address for contact, which is atypical for a legitimate research institute. The host organization (Research Center Trustworthy Data Science and Security) cannot be readily verified, and the application details are vague, suggesting the opportunity may be fabricated or a front for a scam.",
+    "id": "00cdb03b80cde43a",
+    "first_seen": "2026-11-13T12:59:55.083849+00:00",
+    "last_updated": "2026-11-13T12:59:55.083864+00:00"
+  },
+  "39a75b12d634b25d": {
+    "url": "https://www.opportunitiesforafricans.com/international-womens-media-foundation-iwmf-kim-wall-memorial-fund-2027/",
+    "title": "International Women’s Media Foundation (IWMF) Kim Wall Memorial Fund 2027 forwomen or nonbinary reporters ($USD 5,000 Grant)",
+    "status": "ineligible",
+    "eligibility_status": "PROBABLY_INELIGIBLE",
+    "model_eligibility_status": "PROBABLY_INELIGIBLE",
+    "missing_requirements": [],
+    "blocking_issues": [
+      "Lacks documented professional journalism experience (required 1+ year in news media)",
+      "No proof of editor endorsement or published articles in prominent media outlets"
+    ],
+    "addressable_gaps": [
+      "Obtain and submit evidence of journalism work (e.g., bylines, freelance articles, staff position)",
+      "Secure a letter of interest or endorsement from an editor",
+      "Provide an English proficiency test result if required for proof of 'excellent' English"
+    ],
+    "reasoning": "The program requires applicants to be women or nonbinary journalists with at least one year of professional experience in news media. The candidate’s profile lists experience as an AI developer, marketing specialist, psychologist, and community leader, but provides no evidence of journalism work, published articles, or a track record in a news outlet. Additionally, the program asks for proof of interest from an editor or a proven publication record, which is also absent. Nationality, age, and education do not conflict with the stated criteria.",
+    "id": "39a75b12d634b25d",
+    "first_seen": "2026-11-13T13:00:56.758312+00:00",
+    "last_updated": "2026-11-13T13:00:56.758330+00:00"
+  },
+  "cb7064580acabcde": {
+    "url": "https://www.facebook.com/Pantamifoundation/posts/20-fully-funded-scholarships-and-study-opportunities-for-2027are-you-planning-to/1382340374045611",
+    "title": "20 Fully Funded Scholarships and Study Opportunities for ...",
+    "status": "legitimacy_unknown",
+    "credibility_status": "NEEDS_VERIFICATION",
+    "source_tier": "TIER_4",
+    "reasoning": "The Facebook post only advertises a list of \"fully funded\" scholarships without providing details on application processes, fees, or official contacts. No concrete evidence of fees, personal payment requests, or unverified organizers is present, but the lack of verifiable information prevents a definitive legitimacy assessment.",
+    "id": "cb7064580acabcde",
+    "first_seen": "2026-11-13T13:01:24.944025+00:00",
+    "last_updated": "2026-11-13T13:01:24.944039+00:00"
+  },
+  "ab04f525159f6075": {
+    "url": "https://www.opportunitiesforafricans.com/the-ashoka-young-changemakers-program-2026-for-young-nigerian-change-agents/",
+    "title": "The Ashoka Young Changemakers Program 2026 for young Nigerian change agents.",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "model_eligibility_status": "CONFIRMED_INELIGIBLE",
+    "missing_requirements": [],
+    "blocking_issues": [
+      "Nationality not Nigerian",
+      "Age exceeds limit (27 > 20)",
+      "Residency not in Nigeria"
+    ],
+    "addressable_gaps": [],
+    "reasoning": "The program explicitly requires applicants to be Nigerian nationals, reside in Nigeria, and be under 21 years of age (no older than 20 by December of the nomination year). The candidate is Ethiopian, lives in Laos, and is 27 years old, thus failing all three mandatory criteria.",
+    "id": "ab04f525159f6075",
+    "first_seen": "2026-11-13T13:02:20.754264+00:00",
+    "last_updated": "2026-11-13T13:02:20.754277+00:00"
+  },
+  "28cbf05b47ad73e5": {
+    "url": "https://www.opportunitiesforafricans.com/chevron-nigeria-nma-undergraduate-internship-2027-for-young-nigerian-undergraduate-students/",
+    "title": "Chevron Nigeria NMA Undergraduate Internship 2027 for young Nigerian undergraduate students.",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "model_eligibility_status": "CONFIRMED_INELIGIBLE",
+    "missing_requirements": [
+      "SIWES recommendation letter (required but irrelevant due to hard blockers)",
+      "Proof of enrollment (required but candidate is not enrolled)"
+    ],
+    "blocking_issues": [
+      "Nationality: must be Nigerian (candidate is Ethiopian)",
+      "Student status: must be currently enrolled in a degree programme (candidate is a working professional with a completed degree)"
+    ],
+    "addressable_gaps": [],
+    "reasoning": "The program explicitly states it is open only to Nigerian students currently enrolled in a Bachelor’s, National Diploma, or Higher National Diploma programme. The candidate is an Ethiopian national and is not currently a student (holds a completed BSc). These are hard blockers.",
+    "id": "28cbf05b47ad73e5",
+    "first_seen": "2026-11-13T13:03:18.301631+00:00",
+    "last_updated": "2026-11-13T13:03:18.301645+00:00"
+  },
+  "a37cb9be53c6b8d5": {
+    "url": "https://www.facebook.com/hansenleadershipinstitute/videos/in-this-video-well-go-over-the-eligibility-criteria-once-againhli-youthleadershi/1111474997884555",
+    "title": "In this video, we’ll go over the eligibility criteria once again.\n.\n.\n.\n.\n#hli #youthleadership #scholarship #sandiego #fullyfunded | Hansen Leadership Institute",
+    "status": "legitimacy_unknown",
+    "credibility_status": "NEEDS_VERIFICATION",
+    "source_tier": "TIER_4",
+    "reasoning": "The source is a Facebook video with no details about application fees, official contact information, or links to a verifiable institution; the Hansen Leadership Institute is not a widely recognized scholarship provider, making it impossible to confirm legitimacy.",
+    "id": "a37cb9be53c6b8d5",
+    "first_seen": "2026-11-13T13:03:30.284750+00:00",
+    "last_updated": "2026-11-13T13:03:30.284765+00:00"
+  },
+  "8d9934e7c2610b87": {
+    "url": "https://www.facebook.com/IR.StudentUpdates/videos/-deadline-extended-barcelona-is-still-within-reachmissed-the-first-deadline-your/1148537614291429",
+    "title": "20 shares | 🇪🇸 DEADLINE EXTENDED: BARCELONA IS STILL WITHIN REACH.\n\nMissed the first deadline? Your second chance is here.\n\nApplications for International Leadership & Diplomacy 2027 by Global Youth Platform remain open on a rolling basis, bringing together 50 delegates from 20+ countries for an international experience focused on diplomacy, negotiation, leadership, and global collaboration.\n\n📍 Barcelona, Spain\n📅 15–18 January 2027\n👥 50 Delegates\n🌍 20+ Countries\n\n✨ WHAT’S INCLUDED\n\n• Leadership, diplomacy & negotiation\n• International dialogue\n• Cross-cultural collaboration\n• Global networking\n• 3 nights of accommodation\n• Meals during the programme\n• Programme sessions\n• Local transportation in Barcelona\n• Visa invitation letter\n\nIf Barcelona was still on your 2027 list, this could be the opportunity to finally make it happen.\n\n⏳ Applications are currently open on a rolling basis.\n\n🔗 REGISTER:\nhttps://globalyouthplatforms.com/register\n\nOne extended opportunity. One more chance to make Barcelona part of your 2027 story. 🇪🇸✈️\n\nAll credits go to Global Youth Platform. This post is shared by IR STUDENT UPDATES (IRSU) for informational purposes only.\n\n#Barcelona2027 #GlobalYouthPlatform #YouthLeadership #Diplomacy #InternationalRelations Spain2027 GlobalYouth InternationalOpportunities YouthOpportunities GlobalNetworking LeadershipProgram IRStudentUpdates | IR Student Updates",
+    "status": "suspicious",
+    "credibility_status": "SUSPICIOUS",
+    "source_tier": "TIER_4",
+    "reasoning": "The program is run by an obscure entity (Global Youth Platform) with no clear affiliation to a recognized government or academic institution, and it promises a visa invitation letter—a common lure in scam conferences. No fee is disclosed, but such events typically require payment, and the promotion relies on a registration link rather than official channels.",
+    "id": "8d9934e7c2610b87",
+    "first_seen": "2026-11-13T13:03:53.213127+00:00",
+    "last_updated": "2026-11-13T13:03:53.213141+00:00"
+  },
+  "c564ba8314d00043": {
+    "url": "https://foreign.fulbrightonline.org",
+    "title": "Foreign Fulbright Program - New Home Page",
+    "status": "unknown",
+    "eligibility_status": "UNCERTAIN",
+    "model_eligibility_status": "UNCERTAIN",
+    "missing_requirements": [
+      "Explicit statement of eligible nationalities/participating countries.",
+      "Required minimum English language test scores.",
+      "Age limit (if any).",
+      "Whether the applicant must be currently enrolled in a degree program or have a confirmed admission offer.",
+      "Specific academic degree requirements beyond a bachelor's degree."
+    ],
+    "blocking_issues": [],
+    "addressable_gaps": [
+      "Obtain an accepted English proficiency test result (e.g., IELTS, TOEFL, Duolingo) if required.",
+      "Secure a Medium of Instruction (MOI) certificate or other proof of English instruction if needed.",
+      "Confirm Ethiopia's participation in the Fulbright Foreign Student program and complete the application through the Ethiopian Fulbright Commission."
+    ],
+    "reasoning": "The Fulbright Foreign Student page provides no explicit eligibility criteria. While the candidate meets likely basic expectations (Ethiopian nationality, holds a BSc, seeks a master's), critical requirements such as mandatory English proficiency scores, confirmation that Ethiopia participates, age limits, and whether the applicant must be currently enrolled or have a specific academic plan are not stated, leaving the eligibility indeterminate.",
+    "id": "c564ba8314d00043",
+    "first_seen": "2026-11-13T13:04:13.248904+00:00",
+    "last_updated": "2026-11-13T13:04:13.248920+00:00"
+  },
+  "847fc1cc300a1ca7": {
+    "url": "https://www.facebook.com/100091911940560/posts/-2027-younged-fellowship-applications-open-for-african-education-professionalsar/1088935417513513",
+    "title": "Global South Opportunities",
+    "status": "legitimacy_unknown",
+    "credibility_status": "NEEDS_VERIFICATION",
+    "source_tier": "TIER_4",
+    "reasoning": "The post provides only a brief, vague description of the YoungEd Fellowship with no official website, sponsor name, application link, or contact details, making it impossible to verify its authenticity. While no explicit fee or payment request is mentioned, the lack of verifiable information is a red flag.",
+    "id": "847fc1cc300a1ca7",
+    "first_seen": "2026-11-13T13:04:34.782292+00:00",
+    "last_updated": "2026-11-13T13:04:34.782310+00:00"
+  },
+  "e6d32fb52e0a829e": {
+    "url": "https://www.egamentorship.org/opportunities",
+    "title": "Opportunities | EGA Mentorship International",
+    "status": "closed",
+    "deadline": null,
+    "id": "e6d32fb52e0a829e",
+    "first_seen": "2026-11-13T13:05:26.020870+00:00",
+    "last_updated": "2026-11-13T13:05:26.020888+00:00"
+  },
+  "86182508d25f4dd8": {
+    "url": "https://careers.icf.com/us/en/remote-and-hybrid-jobs-at-icf",
+    "title": "Remote and Hybrid Jobs at ICF",
+    "status": "filtered_out",
+    "reason": "It's a job posting, not a scholarship or fellowship opportunity",
+    "id": "86182508d25f4dd8",
+    "first_seen": "2026-11-13T13:05:32.393017+00:00",
+    "last_updated": "2026-11-13T13:05:32.393036+00:00"
+  },
+  "eb6b40dd0c1bbc89": {
+    "url": "https://www.remotenomadjobs.com/remote-companies",
+    "title": "Top Fully Remote Companies Hiring Worldwide in 2026 | Remote Nomad Jobs",
+    "status": "analyzed",
+    "score": 3.0,
+    "category": "remote_jobs",
+    "official_url": "https://www.remotenomadjobs.com/remote-companies",
+    "location": null,
+    "remote": null,
+    "deadline": null,
+    "reward": "none",
+    "estimated_value": null,
+    "eligibility_status": "PROBABLY_ELIGIBLE",
+    "credibility_status": "LIKELY_LEGITIMATE",
+    "source_tier": "TIER_4",
+    "source_quality": 0,
+    "requirements": [],
+    "id": "eb6b40dd0c1bbc89",
+    "first_seen": "2026-11-13T13:06:27.096012+00:00",
+    "last_updated": "2026-11-13T13:06:27.096030+00:00"
   }
 }
