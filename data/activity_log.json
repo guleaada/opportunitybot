@@ -1,224 +1,5 @@
 [
   {
-    "at": "2026-10-15T10:04:50.537651+00:00",
-    "kind": "scan_complete",
-    "message": "daily scan finished",
-    "matches": 1,
-    "stats": {
-      "discovered": 278,
-      "already_seen": 83,
-      "known_scam": 0,
-      "fetch_failed": 1,
-      "first_pass_dropped": 1,
-      "scam": 2,
-      "legit_unknown": 2,
-      "ineligible": 3,
-      "closed": 0,
-      "deep_analyzed": 5,
-      "scored_high": 1,
-      "eligibility_demoted": 0,
-      "jina_fetch": 0,
-      "jina_failed": 0,
-      "snippet_fallback": 0,
-      "legit_unparseable": 1,
-      "trusted_thin_pass": 0,
-      "discovery": {
-        "tavily": {
-          "attempted": 20,
-          "successful": 20,
-          "429": 0,
-          "403": 0,
-          "errors": 0,
-          "candidates": 160,
-          "queries_planned": 20,
-          "disabled_reason": ""
-        },
-        "rss": {
-          "attempted": 4,
-          "successful": 4,
-          "failed": 0,
-          "skipped_dead": 1,
-          "candidates": 56
-        },
-        "api": {
-          "sources": 2,
-          "healthy": 2,
-          "failed": 0,
-          "candidates": 55
-        },
-        "seed": {
-          "attempted": 14,
-          "candidates": 14
-        },
-        "total": {
-          "raw": 285,
-          "after_dedupe": 278
-        }
-      },
-      "signal_rescued": 1,
-      "deduped": 0
-    }
-  },
-  {
-    "at": "2026-10-15T10:04:50.540903+00:00",
-    "kind": "run",
-    "mode": "scan",
-    "environment": "github_actions",
-    "stats": {
-      "discovered": 278,
-      "already_seen": 83,
-      "known_scam": 0,
-      "fetch_failed": 1,
-      "first_pass_dropped": 1,
-      "scam": 2,
-      "legit_unknown": 2,
-      "ineligible": 3,
-      "closed": 0,
-      "deep_analyzed": 5,
-      "scored_high": 1,
-      "eligibility_demoted": 0,
-      "jina_fetch": 0,
-      "jina_failed": 0,
-      "snippet_fallback": 0,
-      "legit_unparseable": 1,
-      "trusted_thin_pass": 0,
-      "discovery": {
-        "tavily": {
-          "attempted": 20,
-          "successful": 20,
-          "429": 0,
-          "403": 0,
-          "errors": 0,
-          "candidates": 160,
-          "queries_planned": 20,
-          "disabled_reason": ""
-        },
-        "rss": {
-          "attempted": 4,
-          "successful": 4,
-          "failed": 0,
-          "skipped_dead": 1,
-          "candidates": 56
-        },
-        "api": {
-          "sources": 2,
-          "healthy": 2,
-          "failed": 0,
-          "candidates": 55
-        },
-        "seed": {
-          "attempted": 14,
-          "candidates": 14
-        },
-        "total": {
-          "raw": 285,
-          "after_dedupe": 278
-        }
-      },
-      "signal_rescued": 1,
-      "deduped": 0,
-      "matches": 1
-    }
-  },
-  {
-    "at": "2026-10-16T09:35:29.890822+00:00",
-    "kind": "run",
-    "mode": "watchlist",
-    "environment": "github_actions",
-    "stats": {
-      "discovered": 0,
-      "already_seen": 0,
-      "known_scam": 0,
-      "fetch_failed": 0,
-      "first_pass_dropped": 0,
-      "scam": 0,
-      "legit_unknown": 0,
-      "ineligible": 2,
-      "closed": 2,
-      "deep_analyzed": 0,
-      "scored_high": 0,
-      "eligibility_demoted": 0,
-      "jina_fetch": 0,
-      "jina_failed": 0,
-      "snippet_fallback": 0,
-      "legit_unparseable": 0,
-      "trusted_thin_pass": 0,
-      "signal_rescued": 1,
-      "reopened": 4,
-      "matches": 0
-    }
-  },
-  {
-    "at": "2026-10-16T09:35:30.107292+00:00",
-    "kind": "scan_start",
-    "message": "daily scan started"
-  },
-  {
-    "at": "2026-10-16T09:41:09.869673+00:00",
-    "kind": "error",
-    "message": "Fetch failed for https://www.dfat.gov.au/people-to-people/australia-awards/australia-awards-scholarships: HTTPSConnectionPool(host='www.dfat.gov.au', port=443): Read timed out. (read timeout=25)"
-  },
-  {
-    "at": "2026-10-16T09:50:13.539283+00:00",
-    "kind": "scan_complete",
-    "message": "daily scan finished",
-    "matches": 0,
-    "stats": {
-      "discovered": 277,
-      "already_seen": 84,
-      "known_scam": 0,
-      "fetch_failed": 1,
-      "first_pass_dropped": 1,
-      "scam": 2,
-      "legit_unknown": 1,
-      "ineligible": 5,
-      "closed": 4,
-      "deep_analyzed": 1,
-      "scored_high": 0,
-      "eligibility_demoted": 0,
-      "jina_fetch": 0,
-      "jina_failed": 0,
-      "snippet_fallback": 0,
-      "legit_unparseable": 0,
-      "trusted_thin_pass": 0,
-      "discovery": {
-        "tavily": {
-          "attempted": 20,
-          "successful": 20,
-          "429": 0,
-          "403": 0,
-          "errors": 0,
-          "candidates": 160,
-          "queries_planned": 20,
-          "disabled_reason": ""
-        },
-        "rss": {
-          "attempted": 4,
-          "successful": 4,
-          "failed": 0,
-          "skipped_dead": 1,
-          "candidates": 56
-        },
-        "api": {
-          "sources": 2,
-          "healthy": 2,
-          "failed": 0,
-          "candidates": 54
-        },
-        "seed": {
-          "attempted": 14,
-          "candidates": 14
-        },
-        "total": {
-          "raw": 284,
-          "after_dedupe": 277
-        }
-      },
-      "signal_rescued": 7,
-      "deduped": 0
-    }
-  },
-  {
     "at": "2026-10-16T09:50:13.543959+00:00",
     "kind": "run",
     "mode": "scan",
@@ -4999,6 +4780,170 @@
       "signal_rescued": 4,
       "deduped": 0,
       "matches": 0
+    }
+  },
+  {
+    "at": "2026-11-14T12:01:46.518995+00:00",
+    "kind": "error",
+    "message": "Fetch failed for https://www.facebook.com/taheer.mahmoodsaleeh/posts/funding-opportunities-for-startups-businesses-1-d-prize-global-competition-2026f/3978645105611597: 400"
+  },
+  {
+    "at": "2026-11-14T12:04:25.946228+00:00",
+    "kind": "run",
+    "mode": "watchlist",
+    "environment": "github_actions",
+    "stats": {
+      "discovered": 0,
+      "already_seen": 0,
+      "known_scam": 0,
+      "fetch_failed": 0,
+      "first_pass_dropped": 0,
+      "scam": 1,
+      "legit_unknown": 0,
+      "ineligible": 1,
+      "closed": 0,
+      "deep_analyzed": 2,
+      "scored_high": 0,
+      "eligibility_demoted": 0,
+      "jina_fetch": 0,
+      "jina_failed": 0,
+      "snippet_fallback": 1,
+      "legit_unparseable": 0,
+      "trusted_thin_pass": 0,
+      "signal_rescued": 1,
+      "reopened": 4,
+      "matches": 0
+    }
+  },
+  {
+    "at": "2026-11-14T12:04:26.194616+00:00",
+    "kind": "scan_start",
+    "message": "daily scan started"
+  },
+  {
+    "at": "2026-11-14T12:08:30.744714+00:00",
+    "kind": "error",
+    "message": "Fetch failed for https://www.dfat.gov.au/people-to-people/australia-awards/australia-awards-scholarships: HTTPSConnectionPool(host='www.dfat.gov.au', port=443): Read timed out. (read timeout=25)"
+  },
+  {
+    "at": "2026-11-14T12:22:47.916265+00:00",
+    "kind": "scan_complete",
+    "message": "daily scan finished",
+    "matches": 2,
+    "stats": {
+      "discovered": 276,
+      "already_seen": 118,
+      "known_scam": 0,
+      "fetch_failed": 1,
+      "first_pass_dropped": 1,
+      "scam": 2,
+      "legit_unknown": 3,
+      "ineligible": 3,
+      "closed": 1,
+      "deep_analyzed": 3,
+      "scored_high": 2,
+      "eligibility_demoted": 0,
+      "jina_fetch": 0,
+      "jina_failed": 0,
+      "snippet_fallback": 0,
+      "legit_unparseable": 1,
+      "trusted_thin_pass": 0,
+      "discovery": {
+        "tavily": {
+          "attempted": 20,
+          "successful": 20,
+          "429": 0,
+          "403": 0,
+          "errors": 0,
+          "candidates": 160,
+          "queries_planned": 20,
+          "disabled_reason": ""
+        },
+        "rss": {
+          "attempted": 4,
+          "successful": 4,
+          "failed": 0,
+          "skipped_dead": 1,
+          "candidates": 56
+        },
+        "api": {
+          "sources": 2,
+          "healthy": 2,
+          "failed": 0,
+          "candidates": 56
+        },
+        "seed": {
+          "attempted": 14,
+          "candidates": 14
+        },
+        "total": {
+          "raw": 286,
+          "after_dedupe": 276
+        }
+      },
+      "signal_rescued": 3,
+      "deduped": 0
+    }
+  },
+  {
+    "at": "2026-11-14T12:22:47.919850+00:00",
+    "kind": "run",
+    "mode": "scan",
+    "environment": "github_actions",
+    "stats": {
+      "discovered": 276,
+      "already_seen": 118,
+      "known_scam": 0,
+      "fetch_failed": 1,
+      "first_pass_dropped": 1,
+      "scam": 2,
+      "legit_unknown": 3,
+      "ineligible": 3,
+      "closed": 1,
+      "deep_analyzed": 3,
+      "scored_high": 2,
+      "eligibility_demoted": 0,
+      "jina_fetch": 0,
+      "jina_failed": 0,
+      "snippet_fallback": 0,
+      "legit_unparseable": 1,
+      "trusted_thin_pass": 0,
+      "discovery": {
+        "tavily": {
+          "attempted": 20,
+          "successful": 20,
+          "429": 0,
+          "403": 0,
+          "errors": 0,
+          "candidates": 160,
+          "queries_planned": 20,
+          "disabled_reason": ""
+        },
+        "rss": {
+          "attempted": 4,
+          "successful": 4,
+          "failed": 0,
+          "skipped_dead": 1,
+          "candidates": 56
+        },
+        "api": {
+          "sources": 2,
+          "healthy": 2,
+          "failed": 0,
+          "candidates": 56
+        },
+        "seed": {
+          "attempted": 14,
+          "candidates": 14
+        },
+        "total": {
+          "raw": 286,
+          "after_dedupe": 276
+        }
+      },
+      "signal_rescued": 3,
+      "deduped": 0,
+      "matches": 2
     }
   }
 ]
