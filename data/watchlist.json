@@ -1,13 +1,4 @@
 {
-  "5947e350995217e6": {
-    "url": "https://www.campusfrance.org/en/eiffel-scholarship-program-of-excellence",
-    "title": "Campus France",
-    "last_known_deadline": "2026-01-08",
-    "reason": "closed at discovery; likely annual",
-    "id": "5947e350995217e6",
-    "added": "2026-09-05T01:47:30.375382+00:00",
-    "last_checked": "2026-09-05T01:47:30.374893"
-  },
   "ec19caff836816d8": {
     "url": "https://si.se/en/apply/scholarships/swedish-institute-scholarships-for-global-professionals/",
     "title": "Swedish Institute",
@@ -1486,31 +1477,90 @@
     "last_known_deadline": null,
     "reason": "closed at discovery; likely annual",
     "id": "7cf45b0fdde09c63",
-    "added": "2026-11-14T12:17:54.433712+00:00"
+    "added": "2026-11-15T12:32:50.985161+00:00",
+    "last_checked": "2026-11-15T12:32:50.984291"
   },
   "06cc23e05a97025b": {
     "url": "https://getbursary.vercel.app/grants-for-founders",
     "title": "Grants for Startup Founders (2026, Non-Dilutive) — Bursary",
     "retry_analysis": true,
     "snippet": "Truly non-dilutive (no equity), but you must be 22 or younger and skip or leave school; about 20-30 spots a year. Award raised to $250K (verified 2026).\n\nNo company needed O'Shaughnessy Fellowship\n\nup to $100,000\n\nEquity-free, open worldwide to individuals 13+ with no entity required; annual cycle (2026 round closed Apr 30) so apply when the next opens, expect ~40+ hrs/week.\n\nNo company needed Echoing Green Fellowship\n\nup to $100,000 [...] Yes. A non-dilutive grant is cash you keep with no equity and nothing to repay, unlike a loan or investment. The cost is a written application and sometimes light reporting. Bursary flags any fee or condition before you start.\n\nHow much funding is available?\n\nPrograms on this list go up to $323,090. Bursary ranks them by what you actually qualify for.\n\nHow many programs are on this list?\n\n28 verified programs, re-checked continuously.\n\nIs it free to apply? [...] No company needed The Awesome Foundation\n\n$1,000\n\n$1,000 micro-grant, no strings attached, awarded monthly by autonomous local chapters worldwide (many cities plus a global online chapter) to anyone with a project. For-profit OK, no incorporation or nonprofit status required — one short form. Highest odds per minute.\n\nNo company needed HerRise MicroGrant\n\n$1,000 per month\n\nWomen only (incl. women of color), US-registered 51%+ women-owned business under $1M revenue; $15 admin fee.",
-    "reason": "legitimacy check returned an unparseable reply; retry on a later run",
+    "reason": "closed at discovery; likely annual",
     "id": "06cc23e05a97025b",
-    "added": "2026-11-14T12:22:44.915107+00:00"
+    "added": "2026-11-15T12:32:55.350038+00:00",
+    "last_checked": "2026-11-15T12:32:53.303991",
+    "last_known_deadline": null
   },
-  "eab07561f0bcb9bf": {
-    "url": "https://opengrants.io/guides/startup-business-grants",
-    "title": "Startup Business Grants for Early-Stage Founders | OpenGrants",
-    "last_known_deadline": null,
-    "reason": "monitoring — not confirmed open at scan time",
-    "id": "eab07561f0bcb9bf",
-    "added": "2026-11-14T12:22:44.917854+00:00"
+  "2d31926ba9a910ff": {
+    "url": "https://opportunitiescorners.com/oist-internship-in-japan-fall-2027/",
+    "title": "OIST Internship in Japan (Fully Funded) (Fall 2027)",
+    "reason": "ANALYSIS_UNAVAILABLE — final_scoring: incomplete or invalid response after retry",
+    "retry_analysis": true,
+    "snippet": "Applications are now open for the OIST Internship in Japan for the Fall 2027 intake. The Okinawa Institute of Science and Technology (OIST) offers a fully funded internship for international students from all over the world. The internship duration ranges from 3 to 6 months and will take place from October 1, 2027, to March […] The post OIST Internship in Japan (Fully Funded) (Fall 2027) appeared first on Opportunities Corners .",
+    "id": "2d31926ba9a910ff",
+    "added": "2026-11-15T12:50:12.036823+00:00"
   },
-  "22988cb5027ac152": {
-    "url": "https://stepouttravel.com/fully-funded-scholarships-international-students-2027",
-    "title": "Fully Funded Scholarships for International Students 2027",
-    "last_known_deadline": null,
-    "reason": "monitoring — not confirmed open at scan time",
-    "id": "22988cb5027ac152",
-    "added": "2026-11-14T12:22:44.919924+00:00"
+  "e84aba1e3d680d7c": {
+    "url": "https://arc.dev/remote-jobs",
+    "title": "Remote Jobs (November 2026) - Arc",
+    "retry_analysis": true,
+    "snippet": "Fast apply\n\nSenior Python Engineer (AI Agents & Browser Automation) - FT/PT - EMEA/LATAM/NA\n\nFreelance\n\nSenior\n\nHourly rate\n\nPython\n\nSQLite\n\nDocker\n\nPlaywrightAi agent\n\nOverlap with Abu Dhabi working hours\n\nActively hiring\n\nArc Exclusive’s job post on Arc’s remote job board.\n\nArc Exclusive\n\nFast apply\n\nSenior React Native & Supabase Engineer\n\nFreelance\n\nSenior\n\nHourly rate\n\nSupabase\n\nCI/CD\n\nReact Native\n\nRemote -\n\nUnited States\n\nActively hiring\n\n## Find remote jobs around the world [...] # Remote Jobs\n\nDiscover your dream remote job on Arc. Speed up your job search to find roles that match your skills and time zone. Get noticed by leading companies and startups worldwide. Land a high-paying remote job or freelance gig faster with Arc!\n\n## Featured remote jobs exclusive on Arc\n\nExplore opportunities from top companies actively hiring now. Our team supports you during the process, ensuring you stand out to our network of top startups and tech companies. [...] Full-time\n\nSenior\n\nRubyReactWeb Development\n\nEngineering Management\n\nSecurity software\n\nData\n\nPayment systems\n\nSystem security\n\nSupport\n\nGolangBack-End\n\n3rd party apis\n\nObservability\n\nIdentity Management\n\nRemote -\n\nFrance, France, Germany, Germany, Italy, Italy, Serbia, Serbia, Spain, Spain\n\n3 days ago\n\nSign up to find 6,800+ jobs\n\n## Remote Jobs: Work and Grow From Anywhere",
+    "reason": "legitimacy check returned an unparseable reply; retry on a later run",
+    "id": "e84aba1e3d680d7c",
+    "added": "2026-11-15T12:54:37.394182+00:00"
+  },
+  "b4aabb10efd5052d": {
+    "url": "https://simplify.jobs/l/Best-Remote-Internships",
+    "title": "Remote Internships for College Students (2026–2027) | Simplify Jobs",
+    "retry_analysis": true,
+    "snippet": "Opportunities come from startups and established employers across active recruiting periods, including Fall 2026 and Summer 2027. Paid remote internships are included whenever the employer provides compensation details. Some roles are fully location-flexible, while others require interns to live in a particular country or state, work within certain time zones, or hold specific work authorization. [...] today\n\n  Marketing & Content Intern\n\n  $25/hr\n\n  Remote in USA\n\n  $25/hr\n\n  today\n Numa logoNuma\n\n  yesterday\n\n  Support Engineer Intern\n\n  Remote in USA\n\n  Not listed\n\n  yesterday\n Airbnb logoAirbnb\n\n  yesterday\n\n  Advanced Analytics Intern\n\n  $40\n\n  Remote in USA\n\n  $40\n\n  yesterday\n ICF International logoICF International\n\n  yesterday\n\n  Data Analytics Intern\n\n  $23 - $28/hr\n\n  Remote in USA\n\n  $23 - $28/hr\n\n  yesterday\n Create Music Group logoCreate Music Group\n\n  yesterday [...] Some can, but the schedule depends on the employer and academic term. Look for postings that state a weekly hour range, flexible scheduling, or fall and spring availability; a summer internship labeled remote may still expect full-time hours. Before accepting, compare required meetings and time-zone overlap with your class schedule, exams, and other commitments. Ask whether hours can change during busy academic weeks and whether the internship has a fixed end date. International students should",
+    "reason": "legitimacy check returned an unparseable reply; retry on a later run",
+    "id": "b4aabb10efd5052d",
+    "added": "2026-11-15T12:57:28.958782+00:00"
+  },
+  "6553ffe01c247a90": {
+    "url": "https://theinterngroup.com/our-programs/virtual-internships",
+    "title": "Remote Internships | Guaranteed placement in a virtual role",
+    "retry_analysis": true,
+    "snippet": "Many universities also award academic credit for an internship with us, so it can count towards your degree as well as your CV.\n\n## Start dates\n\nVirtual internships are available all-year-round on a rolling admission schedule with the following start dates:\n\n2026\n\n2027\n\n Jan 10th\n Feb 14th\n Mar 14th\n Apr 4th\n May 2nd\n May 23rd\n Jun 6th\n Jun 20th\n Jul 4th\n Jul 18th\n Aug 1st\n Sep 12th\n Oct 10th\n Nov 14th\n Nov 21st\n Dec 5th [...] 2026\n\n2027\n\n Jan 3rd\n Jan 17th\n Feb 7th\n Mar 7th\n Apr 4th\n May 2nd\n May 23rd\n Jun 6th\n Jun 20th\n Jul 4th\n Jul 18th\n Aug 1st\n Sep 5th\n Oct 3rd\n Nov 7th\n Nov 21st\n\n Jan 9th\n Jan 16th\n Feb 6th\n Mar 6th\n Apr 3rd\n May 1st\n May 22nd\n Jun 5th\n Jun 19th\n Jul 3rd\n Jul 17th\n Aug 7th\n Sep 11th\n Oct 9th\n Nov 6th\n Nov 20th\n\n2026\n\n2027 [...] 2026\n\n2027\n\n Jan 10th\n Jan 24th\n Feb 7th\n Mar 7th\n Apr 4th\n May 2nd\n May 23rd\n Jun 6th\n Jun 20th\n Jul 4th\n Sep 5th\n Oct 3rd\n Nov 7th\n Nov 21st\n Dec 5th\n\n Jan 9th\n Jan 16th\n Feb 6th\n Mar 6th\n Apr 3rd\n May 1st\n May 22nd\n Jun 5th\n Jun 19th\n Jul 3rd\n Sep 11th\n Oct 9th\n Nov 6th\n Nov 20th\n Dec 4th\n\n2026\n\n2027\n\n Jan 3rd\n Feb 7th\n Mar 7th\n Apr 4th\n May 2nd\n May 23rd\n Jun 6th\n Jun 20th\n Jul 4th\n Jul 18th\n Aug 1st\n Sep 5th\n Oct 3rd\n Nov 7th\n Nov 21st",
+    "reason": "legitimacy check returned an unparseable reply; retry on a later run",
+    "id": "6553ffe01c247a90",
+    "added": "2026-11-15T12:57:56.004946+00:00"
+  },
+  "c5c9cf1385f043f2": {
+    "url": "https://joinhandshake.com/internships/remote",
+    "title": "Find Remote Internships | Handshake",
+    "reason": "ANALYSIS_UNAVAILABLE — deep_eligibility: incomplete or invalid response after retry",
+    "retry_analysis": true,
+    "snippet": "Internship\n\nRemote • 1 day ago\n\nApplyICF logo\n\nICF\n\n2027 Summer Intern, Program Operations (New York, NY; Boston, MA)\n\n$23/hr•\n\nInternship\n\nRemote • 1 day ago\n\nApplyCentene Corporation logo\n\nCentene Corporation\n\nCommunications & Videography Intern (Undergraduate - Summer)\n\n$18+/hr•\n\nInternship\n\nRemote • 1 day ago\n\nApplyBretagne Consulting logo\n\nBretagne Consulting\n\nAccount Executive | Digital Advertising\n\n$75,000+/yr•\n\nInternship\n\nRemote • 1 day ago\n\nApplyTulipan Negro Sl logo [...] Tulipan Negro Sl\n\nSoftware Engineering Intern – Growth\n\n$15/hr•\n\nInternship\n\nRemote • 1 day ago\n\nApplyTheInterviews Inc. logo\n\nTheInterviews Inc.\n\nSoftware Engineering Intern - Full-Stack (TypeScript/Next.js + Java/Spring Boot)\n\n$20+/hr•\n\nInternship\n\nRemote • 1 day ago\n\nApplyPunchcut logo\n\nPunchcut\n\nDesign Engineering Intern\n\n$35+/hr•\n\nInternship\n\nRemote • 1 day ago\n\nApplyButter logo\n\nButter\n\nProduct Management Intern\n\n$25+/hr•\n\nInternship\n\nRemote • 1 day ago [...] Skip to content\n\n## FIND YOUR NEXT JOB\n\n# Remote internships\n\n555 positions available\n\nRidge Theory LLC logo\n\nRidge Theory LLC\n\nMatchmaker Intern\n\nInternship\n\nRemote • 1 day ago\n\nApplyMidwest Express Clinic logo\n\nMidwest Express Clinic\n\nCo-op/ Intern Information Security\n\nInternship\n\nRemote • 1 day ago\n\nApplyParsons logo\n\nParsons\n\nCivil Engineering Intern\n\n$22.93+/hr•\n\nInternship\n\nRemote • 1 day ago\n\nApplySommplicity logo\n\nSommplicity\n\nContent & Growth Marketing Intern\n\n$20/hr•\n\nInternship",
+    "id": "c5c9cf1385f043f2",
+    "added": "2026-11-15T12:58:37.306790+00:00"
+  },
+  "8c5d3a8740b84e83": {
+    "url": "https://www.virtualinternships.com",
+    "title": "Real-World Work Experience | Virtual Internships",
+    "retry_analysis": true,
+    "snippet": "We connect educators and employers worldwide to provide ambitious interns with access to guaranteed remote internships. Our educational partners enable their students to boost their employability, whilst employers gain access to top-tier talent eager to contribute to their business to gain experience.\n\nKaplan Languages Group\n\nLandmark University\n\nNazareth University\n\nClark University\n\nBayes Business School\n\nUniversity of Salford\n\nUniversity of New Mexico\n\nAuckland University of Technology [...] ### Guaranteed Placement\n\nNo matter your degree, location, or experience – we’ll find you the right internship.\n\n### Real Experience\n\nWork remotely with one of 13,000 companies looking for ambitious talent like you.\n\n### Coaching & Support\n\nYou will be supported by a team of expert coaches to guide you towards career success.\n\n### Award-Winning Courses\n\nComplement your internship with access to courses to build the skills that will set you apart.\n\n### Save Time [...] ### Save Time\n\nTell us what remote internship you want – we match you based on your preferences.\n\n## Proven Results: Global Impact\n\n## 250k+\n\n### Global Internships\n\nAvailable now and growing\n\n## 80+\n\n### Countries\n\nOffering real world experience\n\n## 95%\n\n### Intern Satisfaction\n\nDeveloping essential career skills\n\n## 1 in 3\n\n### Interns Hired\n\nPost-program completion\n\n## Real Stories. Real Impact\n\nSuccess stories from companies, educators, and interns who have benefitted from our program.",
+    "reason": "legitimacy check returned an unparseable reply; retry on a later run",
+    "id": "8c5d3a8740b84e83",
+    "added": "2026-11-15T12:59:51.105792+00:00"
+  },
+  "21cbd46c56e6e6bf": {
+    "url": "https://www.indeed.com/q-internships-for-international-students-l-atlanta,-ga-jobs.html",
+    "title": "Internships for international students jobs in Atlanta, GA - Indeed",
+    "reason": "ANALYSIS_UNAVAILABLE — all configured providers unavailable for 'scam_detection' (tried: openrouter, mistral, gemini)",
+    "retry_analysis": true,
+    "snippet": "Browse 37 Internships For International Students jobs in Atlanta, GA. New jobs posted today. Apply now and find your next opportunity on Indeed.com.",
+    "id": "21cbd46c56e6e6bf",
+    "added": "2026-11-15T13:00:40.078277+00:00"
+  },
+  "8047e8f42713a307": {
+    "url": "https://www.levels.fyi/internships",
+    "title": "2026-2027 Tech Internship Guide & Salaries | Levels.fyi",
+    "reason": "ANALYSIS_UNAVAILABLE — all configured providers unavailable for 'first_pass_filter' (tried: gemini)",
+    "retry_analysis": true,
+    "snippet": "###### Prepare\n\nInternship interviews are typically heavily focused on raw skills. Especially high paying FAANG+ (Facebook/Meta, Amazon, Apple, Netflix, Alphabet/Google) and financial companies. For software internships, this means coding ability.\n\nPractice solving coding problems. Try using Leetcode, InterviewBit, HackerRank, Cracking the Coding Interview, etc. Side projects demonstrate raw skills and are a great way to make your resume stand out. [...] ###### Timing\n\nBegin applying to Summer internships by July of the previous year. At the latest, apply to your top choices by October. Many will have filled up their intern quota by December. You can always apply to open opportunities and startups later in the new year.\n\nFor smaller companies without a formal program, try cold emailing an employee or recruiter with your resume and why you're passionate about the company. For more insights, join our community!\n\n###### Prepare [...] A successful internship can result in a return internship or full-time offer for upcoming graduates. At some companies, conversion rates exceed 70%. We've summarized the key insights you'll need to secure an internship and get a full-time offer below.\n\n###### Timing",
+    "id": "8047e8f42713a307",
+    "added": "2026-11-15T13:00:40.348714+00:00"
   }
 }

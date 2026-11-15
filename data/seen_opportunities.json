@@ -47,11 +47,23 @@
   "5947e350995217e6": {
     "url": "https://www.campusfrance.org/en/eiffel-scholarship-program-of-excellence",
     "title": "Campus France",
-    "status": "closed",
-    "deadline": "2026-01-08",
+    "status": "analyzed",
+    "deadline": "2027-01-06",
     "id": "5947e350995217e6",
     "first_seen": "2026-06-11T09:16:12.821567+00:00",
-    "last_updated": "2026-06-11T09:16:12.821572+00:00"
+    "last_updated": "2026-11-15T12:40:44.737457+00:00",
+    "score": 6.7,
+    "category": null,
+    "official_url": "https://www.campusfrance.org/en/eiffel-scholarship-program-of-excellence",
+    "location": null,
+    "remote": null,
+    "reward": "fully_funded",
+    "estimated_value": null,
+    "eligibility_status": "PROBABLY_ELIGIBLE",
+    "credibility_status": "VERIFIED",
+    "source_tier": "TIER_1",
+    "source_quality": 10,
+    "requirements": []
   },
   "ec19caff836816d8": {
     "url": "https://si.se/en/apply/scholarships/swedish-institute-scholarships-for-global-professionals/",
@@ -21922,9 +21934,9 @@
   "22988cb5027ac152": {
     "url": "https://stepouttravel.com/fully-funded-scholarships-international-students-2027",
     "title": "Fully Funded Scholarships for International Students 2027",
-    "status": "notified",
-    "score": 5.2,
-    "category": "scholarships",
+    "status": "analyzed",
+    "score": 4.7,
+    "category": null,
     "official_url": "https://stepouttravel.com/fully-funded-scholarships-international-students-2027",
     "location": null,
     "remote": null,
@@ -21934,11 +21946,11 @@
     "eligibility_status": "PROBABLY_ELIGIBLE",
     "credibility_status": "LIKELY_LEGITIMATE",
     "source_tier": "TIER_4",
-    "source_quality": 0,
+    "source_quality": null,
     "requirements": [],
     "id": "22988cb5027ac152",
     "first_seen": "2026-11-14T12:14:30.164133+00:00",
-    "last_updated": "2026-11-14T12:22:47.894714+00:00",
+    "last_updated": "2026-11-15T12:39:17.411742+00:00",
     "notification_tier": "WATCHLIST",
     "notified_at": "2026-11-14T12:22:47.883673+00:00"
   },
@@ -22022,9 +22034,9 @@
   "eab07561f0bcb9bf": {
     "url": "https://opengrants.io/guides/startup-business-grants",
     "title": "Startup Business Grants for Early-Stage Founders | OpenGrants",
-    "status": "notified",
-    "score": 6.4,
-    "category": "startup_funding",
+    "status": "analyzed",
+    "score": 6.7,
+    "category": null,
     "official_url": "https://opengrants.io/guides/startup-business-grants",
     "location": null,
     "remote": null,
@@ -22034,11 +22046,11 @@
     "eligibility_status": "PROBABLY_ELIGIBLE",
     "credibility_status": "LIKELY_LEGITIMATE",
     "source_tier": "TIER_4",
-    "source_quality": 0,
+    "source_quality": null,
     "requirements": [],
     "id": "eab07561f0bcb9bf",
     "first_seen": "2026-11-14T12:21:33.592518+00:00",
-    "last_updated": "2026-11-14T12:22:47.863253+00:00",
+    "last_updated": "2026-11-15T12:36:22.241621+00:00",
     "notification_tier": "WATCHLIST",
     "notified_at": "2026-11-14T12:22:47.851826+00:00"
   },
@@ -22050,5 +22062,112 @@
     "id": "b34dc4319583914e",
     "first_seen": "2026-11-14T12:21:39.076735+00:00",
     "last_updated": "2026-11-14T12:21:39.076747+00:00"
+  },
+  "06cc23e05a97025b": {
+    "url": "https://getbursary.vercel.app/grants-for-founders",
+    "title": "Grants for Startup Founders (2026, Non-Dilutive) — Bursary",
+    "status": "closed",
+    "deadline": null,
+    "id": "06cc23e05a97025b",
+    "first_seen": "2026-11-15T12:32:55.324194+00:00",
+    "last_updated": "2026-11-15T12:32:55.324207+00:00"
+  },
+  "d74e90b6e720302a": {
+    "url": "https://www.facebook.com/groups/1052310093701788/posts/1427955266137267",
+    "title": "Fellowships and Scholarships Guide | 🌟 𝐋𝐢𝐬𝐭 𝐨𝐟 𝐓𝐨𝐩 𝟏𝟎 𝐈𝐧𝐭𝐞𝐫𝐧𝐬𝐡𝐢𝐩𝐬 𝐖𝐨𝐫𝐥𝐝𝐰𝐢𝐝𝐞 𝐟𝐨𝐫 ... | Facebook",
+    "status": "unknown",
+    "eligibility_status": "UNCERTAIN",
+    "model_eligibility_status": "UNCERTAIN",
+    "missing_requirements": [
+      "Specific eligibility criteria for each listed internship (student status, recent-graduate window, nationality restrictions, age limits, degree level)",
+      "Funding details and whether internships are fully funded",
+      "Application deadlines and required documents",
+      "Official program pages rather than a Facebook guide"
+    ],
+    "blocking_issues": [],
+    "addressable_gaps": [
+      "No IELTS/TOEFL yet; can obtain Duolingo or MOI certificate if an English proficiency requirement applies",
+      "Would need to verify each internship’s specific application documents and deadlines"
+    ],
+    "reasoning": "The page is a Facebook guide listing internships (e.g., World Bank Treasury Summer Internship 2027, IFAD Paid Internship, HENNGE Engineering Internship, OIST Research Internship, OECD Internships), not a specific scholarship/fellowship with stated eligibility criteria. No nationality, age, degree-level, or student-status requirement is explicitly given. However, internships commonly require current student or recent-graduate status, and the candidate is a working professional who graduated in 2021, so a decision-relevant student-status criterion is unresolved and could exclude him.",
+    "id": "d74e90b6e720302a",
+    "first_seen": "2026-11-15T12:51:23.604734+00:00",
+    "last_updated": "2026-11-15T12:51:23.604751+00:00"
+  },
+  "a1c66ac91bb22f8a": {
+    "url": "https://globalhealth.harvard.edu/2027-2028-harvard-lead-fellowship-application-is-now-open",
+    "title": "2027–2028 Harvard LEAD Fellowship for Promoting Women in Global Health Application Is Now Open | Harvard Global Health Institute",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "model_eligibility_status": "CONFIRMED_INELIGIBLE",
+    "missing_requirements": [
+      "Whether any English-proficiency proof (IELTS/TOEFL/Duolingo/MOI) is required — not stated.",
+      "Whether the candidate has done any full-time fellowship ≥4 months in the prior two years — not stated.",
+      "Precise definition of 'relevant field' for the Master's and whether adjacent disciplines count — not stated.",
+      "Whether 'global health' field requirement is strict or includes adjacent AI/tech/psychology work — not stated.",
+      "Title references 'Women' while eligibility text says all gender identities; candidate's gender not stated — clarify whether any gender criterion applies (body text suggests none)."
+    ],
+    "blocking_issues": [
+      "Degree level mismatch: requires minimum Master's degree; candidate holds only BSc (bachelor's).",
+      "Experience floor: requires ≥10 years professional experience beyond education; candidate graduated 2021 (~5 years max, student work excluded).",
+      "Field mismatch: requires full-time work in global health; candidate's stated field is AI/marketing/psychology, not global health."
+    ],
+    "addressable_gaps": [
+      "None can cure the Master's-degree or 10-year-experience requirements within the 2027–28 cycle. (Leave of absence for the 6-week April 2028 residency and J-1 visa eligibility would be addressable, but are moot given the hard blockers.)"
+    ],
+    "reasoning": "The page explicitly requires (1) 'a minimum of a Master's degree in a relevant field' — the candidate holds only a BSc (bachelor's), a direct degree-level mismatch; and (2) 'work full-time in the field of global health and have at least 10 years of professional experience beyond their education' — the candidate graduated in 2021, so even uninterrupted full-time work since then yields only ~5 years by the 2027–28 cycle (student work is expressly excluded), and their stated field (AI development/marketing/psychology) is not identified as global health. These are explicit, decisive exclusions, not mere page thinness. Nationality is not a barrier: the program targets low- and middle-income countries and welcomes all regions; Ethiopia qualifies, so citizenship_mismatch is false.",
+    "id": "a1c66ac91bb22f8a",
+    "first_seen": "2026-11-15T12:54:11.035655+00:00",
+    "last_updated": "2026-11-15T12:54:11.035693+00:00"
+  },
+  "be2f38ed0768b997": {
+    "url": "https://joinhandshake.com/find-jobs/remote",
+    "title": "Find Remote Jobs | Handshake",
+    "status": "analyzed",
+    "score": 3.0,
+    "category": "remote_jobs",
+    "official_url": "https://joinhandshake.com/find-jobs/remote",
+    "location": null,
+    "remote": null,
+    "deadline": null,
+    "reward": "none",
+    "estimated_value": null,
+    "eligibility_status": "PROBABLY_ELIGIBLE",
+    "credibility_status": "LIKELY_LEGITIMATE",
+    "source_tier": "TIER_4",
+    "source_quality": 0,
+    "requirements": [],
+    "id": "be2f38ed0768b997",
+    "first_seen": "2026-11-15T12:57:13.519510+00:00",
+    "last_updated": "2026-11-15T12:57:13.519526+00:00"
+  },
+  "40e0c3c885f8561b": {
+    "url": "https://www.internhq.com",
+    "title": "Intern Abroad HQ | Accredited International Internships",
+    "status": "filtered_out",
+    "reason": "Paid internship placement program charging from $1129, not a funded scholarship/fellowship.",
+    "id": "40e0c3c885f8561b",
+    "first_seen": "2026-11-15T12:58:00.238147+00:00",
+    "last_updated": "2026-11-15T12:58:00.238162+00:00"
+  },
+  "ed67a70433fba7b6": {
+    "url": "https://prosple.com/remote-internships-usa",
+    "title": "Remote Internships in USA (41 open now!) - Prosple",
+    "status": "legitimacy_unknown",
+    "credibility_status": "NEEDS_VERIFICATION",
+    "source_tier": "TIER_4",
+    "reasoning": "The page provides only a title and a generic update message with no details about the internship program, organizer, fees, or contact information, making it impossible to assess legitimacy.",
+    "id": "ed67a70433fba7b6",
+    "first_seen": "2026-11-15T12:59:10.039900+00:00",
+    "last_updated": "2026-11-15T12:59:10.039915+00:00"
+  },
+  "6b29dc0ae9135216": {
+    "url": "https://www.intern-list.com",
+    "title": "Top 2027 U.S. Internships: Software, Data, Marketing, Product, Design, and more",
+    "status": "filtered_out",
+    "reason": "This is a generic US/Canada internship job-board aggregator, not a funded scholarship/fellowship, and internships typically require current student status (candidate is a working professional).",
+    "id": "6b29dc0ae9135216",
+    "first_seen": "2026-11-15T13:00:32.209395+00:00",
+    "last_updated": "2026-11-15T13:00:32.209411+00:00"
   }
 }
