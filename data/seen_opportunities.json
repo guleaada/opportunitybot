@@ -22169,5 +22169,280 @@
     "id": "6b29dc0ae9135216",
     "first_seen": "2026-11-15T13:00:32.209395+00:00",
     "last_updated": "2026-11-15T13:00:32.209411+00:00"
+  },
+  "2d31926ba9a910ff": {
+    "url": "https://opportunitiescorners.com/oist-internship-in-japan-fall-2027/",
+    "title": "OIST Internship in Japan (Fully Funded) (Fall 2027)",
+    "status": "suspicious",
+    "credibility_status": "SUSPICIOUS",
+    "source_tier": "TIER_3",
+    "reasoning": "The page uses a generic Gmail address (opportunitiescorners.com@gmail.com) instead of an official OIST domain, provides no direct link to OIST’s own website, and describes a 3‑6 month \"Fall\" internship that does not match OIST’s known 2‑month summer internship program. The heavy promotion of WhatsApp groups and other marketing signals further undermine credibility.",
+    "id": "2d31926ba9a910ff",
+    "first_seen": "2026-11-16T13:25:15.672794+00:00",
+    "last_updated": "2026-11-16T13:25:15.672810+00:00"
+  },
+  "e84aba1e3d680d7c": {
+    "url": "https://arc.dev/remote-jobs",
+    "title": "Remote Jobs (November 2026) - Arc",
+    "status": "unknown",
+    "eligibility_status": "UNCERTAIN",
+    "model_eligibility_status": "UNCERTAIN",
+    "missing_requirements": [
+      "No explicit eligibility criteria provided (e.g., citizenship/work‑authorization, age limit, student status, degree level)."
+    ],
+    "blocking_issues": [],
+    "addressable_gaps": [],
+    "reasoning": "The Arc Remote Jobs page does not list explicit eligibility criteria such as nationality, age, student status, or degree requirements. While the candidate's profile (27‑year‑old Ethiopian professional with a BSc and relevant tech skills) appears compatible with typical remote tech roles, we cannot confirm eligibility because the page omits any stated requirements that could potentially exclude the candidate (e.g., work‑authorization, citizenship restrictions).",
+    "id": "e84aba1e3d680d7c",
+    "first_seen": "2026-11-16T13:26:03.086414+00:00",
+    "last_updated": "2026-11-16T13:26:03.086427+00:00"
+  },
+  "b4aabb10efd5052d": {
+    "url": "https://simplify.jobs/l/Best-Remote-Internships",
+    "title": "Remote Internships for College Students (2026–2027) | Simplify Jobs",
+    "status": "ineligible",
+    "eligibility_status": "PROBABLY_INELIGIBLE",
+    "model_eligibility_status": "PROBABLY_INELIGIBLE",
+    "missing_requirements": [
+      "Explicit statement of student enrollment requirement is not provided in the text, but the program’s title implies it."
+    ],
+    "blocking_issues": [
+      "must be currently enrolled college student (candidate is not a student)"
+    ],
+    "addressable_gaps": [],
+    "reasoning": "The program is titled 'Remote Internships for College Students' and is intended for individuals who are currently enrolled in a college or university. The candidate is a working professional and is not currently a student, which is a hard blocker for this type of internship.",
+    "id": "b4aabb10efd5052d",
+    "first_seen": "2026-11-16T13:27:45.982520+00:00",
+    "last_updated": "2026-11-16T13:27:45.982531+00:00"
+  },
+  "45ffc352b4a24428": {
+    "url": "https://opportunitiescorners.com/uniqlo-global-management-program-2027/",
+    "title": "UNIQLO Global Management Program 2027 in Japan (Fully Funded)",
+    "status": "legitimacy_unknown",
+    "credibility_status": "NEEDS_VERIFICATION",
+    "source_tier": "TIER_3",
+    "reasoning": "The page provides no official Fast Retailing link, uses a generic Gmail address for contact, and lacks a direct application URL, making it impossible to verify the program’s existence; however, it does not request fees, so it isn’t clearly a scam.",
+    "id": "45ffc352b4a24428",
+    "first_seen": "2026-11-16T13:32:38.324566+00:00",
+    "last_updated": "2026-11-16T13:32:38.324582+00:00"
+  },
+  "1489fa56e9dfe60a": {
+    "url": "https://opportunitiescorners.com/hzdr-summer-student-program-2027/",
+    "title": "HZDR Summer Student Program 2027 in Germany (Fully Funded)",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "model_eligibility_status": "CONFIRMED_INELIGIBLE",
+    "missing_requirements": [
+      "Valid student ID",
+      "Proof of current enrollment"
+    ],
+    "blocking_issues": [
+      "Not currently enrolled as an undergraduate or master’s student (hard blocker)",
+      "Degree field (Psychology) not among the listed eligible fields (hard blocker)",
+      "Cannot provide a valid student ID (hard blocker)"
+    ],
+    "addressable_gaps": [
+      "Enroll in an eligible undergraduate or master’s program before the application deadline",
+      "Obtain a student ID from an eligible institution",
+      "Pursue a field of study aligned with the program’s eligible disciplines"
+    ],
+    "reasoning": "The program explicitly requires applicants to be *enrolled* undergraduate or master’s students and to provide a valid student ID. The candidate is a working professional who graduated in 2021 and is not currently enrolled in any university program, thus does not meet the core enrollment requirement. Additionally, the eligible fields of study are limited to physics, chemistry, medicine, biology, life sciences, engineering, or computer sciences; the candidate’s degree is in Psychology, which falls outside these categories.",
+    "id": "1489fa56e9dfe60a",
+    "first_seen": "2026-11-16T13:33:49.233365+00:00",
+    "last_updated": "2026-11-16T13:33:49.233378+00:00"
+  },
+  "f18e50644c3eccd9": {
+    "url": "https://scholarshiphubnow.com/fully-funded-scholarships",
+    "title": "Fully Funded Scholarships 2027 | ScholarshipHubNow",
+    "status": "analyzed",
+    "score": 4.4,
+    "category": "scholarships",
+    "official_url": "https://scholarshiphubnow.com/fully-funded-scholarships",
+    "location": null,
+    "remote": null,
+    "deadline": null,
+    "reward": "fully_funded",
+    "estimated_value": null,
+    "eligibility_status": "PROBABLY_ELIGIBLE",
+    "credibility_status": "LIKELY_LEGITIMATE",
+    "source_tier": "TIER_4",
+    "source_quality": 0,
+    "requirements": [
+      "transcripts",
+      "curriculum vitae (CV)",
+      "references",
+      "essays",
+      "research documents",
+      "language evidence"
+    ],
+    "id": "f18e50644c3eccd9",
+    "first_seen": "2026-11-16T13:36:46.295294+00:00",
+    "last_updated": "2026-11-16T13:36:46.295310+00:00"
+  },
+  "0972cf4f18823028": {
+    "url": "https://www.opportunitynest.org/guides/scholarships-for-developing-countries",
+    "title": "Scholarships for Developing Countries 2027: Fully Funded",
+    "status": "closed",
+    "deadline": null,
+    "id": "0972cf4f18823028",
+    "first_seen": "2026-11-16T13:37:16.716919+00:00",
+    "last_updated": "2026-11-16T13:37:16.716931+00:00"
+  },
+  "49c1937f5b9ed677": {
+    "url": "https://www.scholarshipregion.com/united-nations-university-scholarship-unu",
+    "title": "2027 United Nations University Scholarship (UNU) For Developing Countries | Fully Funded | Scholarship Region",
+    "status": "closed",
+    "deadline": "2026-10-31",
+    "id": "49c1937f5b9ed677",
+    "first_seen": "2026-11-16T13:37:25.707812+00:00",
+    "last_updated": "2026-11-16T13:37:25.707825+00:00"
+  },
+  "3d827d8b7fc09203": {
+    "url": "https://mina7portal.com/en/full-funded-scholarships",
+    "title": "Fully Funded Scholarships 2026-2027: Open Now",
+    "status": "unknown",
+    "eligibility_status": "UNCERTAIN",
+    "model_eligibility_status": "UNCERTAIN",
+    "missing_requirements": [
+      "Explicit confirmation that Ethiopian nationals are eligible for the listed scholarships.",
+      "Specific age limits for individual scholarships (if any)."
+    ],
+    "blocking_issues": [],
+    "addressable_gaps": [
+      "Obtain an accepted English proficiency test (e.g., IELTS or TOEFL) to meet the language requirement."
+    ],
+    "reasoning": "The program requires verification of nationality eligibility, study level, age, and language proficiency (TOEFL/IELTS/DELF/DALF). The candidate meets the study level (BSc → master’s) and age criteria, and there is no explicit age cap. However, the page lists specific African nationalities (e.g., Cameroonian, Beninese) and does not mention Ethiopia, leaving it unclear whether Ethiopian nationals are eligible. Language proficiency is required via TOEFL/IELTS/DELF/DALF, which the candidate currently lacks (only a possible Duolingo or MOI certificate). This gap can be addressed by taking an accepted test. Because nationality eligibility cannot be confirmed, the overall status is UNCERTAIN.",
+    "id": "3d827d8b7fc09203",
+    "first_seen": "2026-11-16T13:38:45.621881+00:00",
+    "last_updated": "2026-11-16T13:38:45.621895+00:00"
+  },
+  "f5cd3a39d55dd31c": {
+    "url": "https://www.linkedin.com/pulse/27-fully-funded-research-phd-doctoral-uzgef",
+    "title": "27 Fully Funded Research, PhD & Doctoral Opportunities ...",
+    "status": "legitimacy_unknown",
+    "credibility_status": "NEEDS_VERIFICATION",
+    "source_tier": "TIER_4",
+    "reasoning": "The post is an aggregator list of many reputable scholarships, but it provides only WordPress short‑links (wp.me) instead of official program URLs and offers no direct verification of the opportunities. No fee or payment request is mentioned, but the lack of official source links makes it impossible to confirm legitimacy.",
+    "id": "f5cd3a39d55dd31c",
+    "first_seen": "2026-11-16T13:40:05.917791+00:00",
+    "last_updated": "2026-11-16T13:40:05.917810+00:00"
+  },
+  "5900eaadda862450": {
+    "url": "https://www.techwithafrica.com/2026/06/22/applications-open-for-2026-accelerate-africa-startup-programme-offering-up-to-500000-in-funding-opportunities",
+    "title": "Applications Open for 2026 Accelerate Africa Startup Programme Offering Up to $500,000 in Funding Opportunities - Tech With Africa",
+    "status": "analyzed",
+    "score": 4.5,
+    "category": "startup_funding",
+    "official_url": "https://www.techwithafrica.com/2026/06/22/applications-open-for-2026-accelerate-africa-startup-programme-offering-up-to-500000-in-funding-opportunities",
+    "location": null,
+    "remote": null,
+    "deadline": null,
+    "reward": "partial",
+    "estimated_value": null,
+    "eligibility_status": "PROBABLY_ELIGIBLE",
+    "credibility_status": "LIKELY_LEGITIMATE",
+    "source_tier": "TIER_4",
+    "source_quality": 0,
+    "requirements": [],
+    "id": "5900eaadda862450",
+    "first_seen": "2026-11-16T13:41:53.398515+00:00",
+    "last_updated": "2026-11-16T13:41:53.398527+00:00"
+  },
+  "f9d50f901aab235e": {
+    "url": "https://questd.ai/fellowships/solo-grants",
+    "title": "Solo Grants 2026–2027: Deadline & Eligibility | Questd",
+    "status": "analyzed",
+    "score": 4.3,
+    "category": "startup_funding",
+    "official_url": "https://questd.ai/fellowships/solo-grants",
+    "location": null,
+    "remote": null,
+    "deadline": null,
+    "reward": "partial",
+    "estimated_value": null,
+    "eligibility_status": "CONFIRMED_ELIGIBLE",
+    "credibility_status": "LIKELY_LEGITIMATE",
+    "source_tier": "TIER_4",
+    "source_quality": 0,
+    "requirements": [
+      "short written application",
+      "budget"
+    ],
+    "id": "f9d50f901aab235e",
+    "first_seen": "2026-11-16T13:43:33.418746+00:00",
+    "last_updated": "2026-11-16T13:43:33.418759+00:00"
+  },
+  "4ee267d313d61721": {
+    "url": "https://www.scholars4dev.com/scholarships-in-usa-for-international-students",
+    "title": "Top 25 Scholarships in USA for International Students 2027-2028 |Scholars4DeV",
+    "status": "analyzed",
+    "score": 4.9,
+    "category": "scholarships",
+    "official_url": "https://www.scholars4dev.com/scholarships-in-usa-for-international-students",
+    "location": null,
+    "remote": null,
+    "deadline": null,
+    "reward": "fully_funded",
+    "estimated_value": null,
+    "eligibility_status": "PROBABLY_ELIGIBLE",
+    "credibility_status": "LIKELY_LEGITIMATE",
+    "source_tier": "TIER_4",
+    "source_quality": 0,
+    "requirements": [],
+    "id": "4ee267d313d61721",
+    "first_seen": "2026-11-16T13:46:38.542690+00:00",
+    "last_updated": "2026-11-16T13:46:38.542705+00:00"
+  },
+  "a083554577e3453e": {
+    "url": "https://www.topuniversities.com/student-info/scholarships/international-scholarships-students-developing-countries",
+    "title": "International Scholarships for Students from Developing Countries | TopUniversities",
+    "status": "analyzed",
+    "score": 4.4,
+    "category": "scholarships",
+    "official_url": "https://www.topuniversities.com/student-info/scholarships/international-scholarships-students-developing-countries",
+    "location": null,
+    "remote": null,
+    "deadline": null,
+    "reward": "fully_funded",
+    "estimated_value": null,
+    "eligibility_status": "PROBABLY_ELIGIBLE",
+    "credibility_status": "LIKELY_LEGITIMATE",
+    "source_tier": "TIER_4",
+    "source_quality": 0,
+    "requirements": [],
+    "id": "a083554577e3453e",
+    "first_seen": "2026-11-16T13:47:41.682085+00:00",
+    "last_updated": "2026-11-16T13:47:41.682098+00:00"
+  },
+  "70b489dded4c8f35": {
+    "url": "https://www.instagram.com/reel/DeH8DAwgFPS",
+    "title": "Instagram",
+    "status": "legitimacy_unknown",
+    "credibility_status": "NEEDS_VERIFICATION",
+    "source_tier": "TIER_4",
+    "reasoning": "The provided source is an Instagram Reel with no textual content describing a scholarship or fellowship, and no details about eligibility, application process, or sponsoring organization are available. Without concrete information, it is impossible to determine whether the opportunity is legitimate or a scam.",
+    "id": "70b489dded4c8f35",
+    "first_seen": "2026-11-16T13:47:53.898291+00:00",
+    "last_updated": "2026-11-16T13:47:53.898307+00:00"
+  },
+  "d50418942393c050": {
+    "url": "https://opportunitiesforeveryone.net",
+    "title": "Home | opportunitiesforeveryone.net",
+    "status": "legitimacy_unknown",
+    "credibility_status": "NEEDS_VERIFICATION",
+    "source_tier": "TIER_4",
+    "reasoning": "The page lists many scholarships and fellowships but provides no direct links to official program pages, no clear institutional contact information, and the domain is a generic aggregator (opportunitiesforeveryone.net). While no explicit fees or payment requests are shown, the lack of verifiable sources makes it impossible to confirm legitimacy.",
+    "id": "d50418942393c050",
+    "first_seen": "2026-11-16T13:49:13.219994+00:00",
+    "last_updated": "2026-11-16T13:49:13.220010+00:00"
+  },
+  "aa2500d2e5f2c92c": {
+    "url": "https://trulyremotework.com/blog/how-to-get-a-remote-job",
+    "title": "How to Get a Remote Job from Anywhere (2026)",
+    "status": "filtered_out",
+    "reason": "The text is an informational article about remote jobs, not a funded scholarship or fellowship opportunity.",
+    "id": "aa2500d2e5f2c92c",
+    "first_seen": "2026-11-16T13:49:39.907424+00:00",
+    "last_updated": "2026-11-16T13:49:39.907442+00:00"
   }
 }
