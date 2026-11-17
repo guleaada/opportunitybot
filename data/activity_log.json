@@ -1,176 +1,5 @@
 [
   {
-    "at": "2026-10-18T09:36:33.833820+00:00",
-    "kind": "scan_complete",
-    "message": "daily scan finished",
-    "matches": 0,
-    "stats": {
-      "discovered": 272,
-      "already_seen": 112,
-      "known_scam": 0,
-      "fetch_failed": 1,
-      "first_pass_dropped": 1,
-      "scam": 1,
-      "legit_unknown": 2,
-      "ineligible": 5,
-      "closed": 2,
-      "deep_analyzed": 1,
-      "scored_high": 0,
-      "eligibility_demoted": 0,
-      "jina_fetch": 0,
-      "jina_failed": 0,
-      "snippet_fallback": 4,
-      "legit_unparseable": 1,
-      "trusted_thin_pass": 0,
-      "discovery": {
-        "tavily": {
-          "attempted": 20,
-          "successful": 20,
-          "429": 0,
-          "403": 0,
-          "errors": 0,
-          "candidates": 160,
-          "queries_planned": 20,
-          "disabled_reason": ""
-        },
-        "rss": {
-          "attempted": 4,
-          "successful": 4,
-          "failed": 0,
-          "skipped_dead": 1,
-          "candidates": 56
-        },
-        "api": {
-          "sources": 2,
-          "healthy": 2,
-          "failed": 0,
-          "candidates": 52
-        },
-        "seed": {
-          "attempted": 14,
-          "candidates": 14
-        },
-        "total": {
-          "raw": 282,
-          "after_dedupe": 272
-        }
-      },
-      "signal_rescued": 2,
-      "analysis_unavailable": 1,
-      "deduped": 0
-    }
-  },
-  {
-    "at": "2026-10-18T09:36:33.837669+00:00",
-    "kind": "run",
-    "mode": "scan",
-    "environment": "github_actions",
-    "stats": {
-      "discovered": 272,
-      "already_seen": 112,
-      "known_scam": 0,
-      "fetch_failed": 1,
-      "first_pass_dropped": 1,
-      "scam": 1,
-      "legit_unknown": 2,
-      "ineligible": 5,
-      "closed": 2,
-      "deep_analyzed": 1,
-      "scored_high": 0,
-      "eligibility_demoted": 0,
-      "jina_fetch": 0,
-      "jina_failed": 0,
-      "snippet_fallback": 4,
-      "legit_unparseable": 1,
-      "trusted_thin_pass": 0,
-      "discovery": {
-        "tavily": {
-          "attempted": 20,
-          "successful": 20,
-          "429": 0,
-          "403": 0,
-          "errors": 0,
-          "candidates": 160,
-          "queries_planned": 20,
-          "disabled_reason": ""
-        },
-        "rss": {
-          "attempted": 4,
-          "successful": 4,
-          "failed": 0,
-          "skipped_dead": 1,
-          "candidates": 56
-        },
-        "api": {
-          "sources": 2,
-          "healthy": 2,
-          "failed": 0,
-          "candidates": 52
-        },
-        "seed": {
-          "attempted": 14,
-          "candidates": 14
-        },
-        "total": {
-          "raw": 282,
-          "after_dedupe": 272
-        }
-      },
-      "signal_rescued": 2,
-      "analysis_unavailable": 1,
-      "deduped": 0,
-      "matches": 0
-    }
-  },
-  {
-    "at": "2026-10-19T10:37:29.119150+00:00",
-    "kind": "run",
-    "mode": "watchlist",
-    "environment": "github_actions",
-    "stats": {
-      "discovered": 0,
-      "already_seen": 0,
-      "known_scam": 0,
-      "fetch_failed": 0,
-      "first_pass_dropped": 0,
-      "scam": 0,
-      "legit_unknown": 0,
-      "ineligible": 2,
-      "closed": 2,
-      "deep_analyzed": 0,
-      "scored_high": 0,
-      "eligibility_demoted": 0,
-      "jina_fetch": 0,
-      "jina_failed": 0,
-      "snippet_fallback": 0,
-      "legit_unparseable": 0,
-      "trusted_thin_pass": 0,
-      "signal_rescued": 3,
-      "reopened": 4,
-      "matches": 0
-    }
-  },
-  {
-    "at": "2026-10-19T10:37:29.272789+00:00",
-    "kind": "scan_start",
-    "message": "daily scan started"
-  },
-  {
-    "at": "2026-10-19T10:40:17.244492+00:00",
-    "kind": "error",
-    "message": "Fetch failed for https://www.dfat.gov.au/people-to-people/australia-awards/australia-awards-scholarships: HTTPSConnectionPool(host='www.dfat.gov.au', port=443): Read timed out. (read timeout=25)"
-  },
-  {
-    "at": "2026-10-19T10:43:00.104549+00:00",
-    "kind": "error",
-    "message": "Fetch failed for https://grantfinder.io/blog/free-cloud-ai-credits-for-startups: 403"
-  },
-  {
-    "at": "2026-10-19T10:49:05.689146+00:00",
-    "kind": "error",
-    "message": "Fetch failed for https://jaabz.com/jobs/remote: 403"
-  },
-  {
     "at": "2026-10-19T10:51:52.846314+00:00",
     "kind": "scan_complete",
     "message": "daily scan finished",
@@ -5000,6 +4829,175 @@
         }
       },
       "signal_rescued": 2,
+      "deduped": 0,
+      "matches": 0
+    }
+  },
+  {
+    "at": "2026-11-17T14:11:29.637513+00:00",
+    "kind": "error",
+    "message": "Fetch failed for https://www.indeed.com/q-internships-for-international-students-l-atlanta,-ga-jobs.html: 403"
+  },
+  {
+    "at": "2026-11-17T14:11:59.069904+00:00",
+    "kind": "error",
+    "message": "Fetch failed for https://www.levels.fyi/internships: 405"
+  },
+  {
+    "at": "2026-11-17T14:13:08.308887+00:00",
+    "kind": "run",
+    "mode": "watchlist",
+    "environment": "github_actions",
+    "stats": {
+      "discovered": 0,
+      "already_seen": 0,
+      "known_scam": 0,
+      "fetch_failed": 0,
+      "first_pass_dropped": 0,
+      "scam": 0,
+      "legit_unknown": 0,
+      "ineligible": 2,
+      "closed": 0,
+      "deep_analyzed": 1,
+      "scored_high": 0,
+      "eligibility_demoted": 0,
+      "jina_fetch": 0,
+      "jina_failed": 0,
+      "snippet_fallback": 2,
+      "legit_unparseable": 0,
+      "trusted_thin_pass": 0,
+      "signal_rescued": 1,
+      "reopened": 3,
+      "matches": 0
+    }
+  },
+  {
+    "at": "2026-11-17T14:13:08.512310+00:00",
+    "kind": "scan_start",
+    "message": "daily scan started"
+  },
+  {
+    "at": "2026-11-17T14:22:11.446602+00:00",
+    "kind": "error",
+    "message": "Fetch failed for https://www.dfat.gov.au/people-to-people/australia-awards/australia-awards-scholarships: HTTPSConnectionPool(host='www.dfat.gov.au', port=443): Read timed out. (read timeout=25)"
+  },
+  {
+    "at": "2026-11-17T14:28:18.630002+00:00",
+    "kind": "scan_complete",
+    "message": "daily scan finished",
+    "matches": 0,
+    "stats": {
+      "discovered": 278,
+      "already_seen": 94,
+      "known_scam": 0,
+      "fetch_failed": 1,
+      "first_pass_dropped": 0,
+      "scam": 2,
+      "legit_unknown": 1,
+      "ineligible": 8,
+      "closed": 2,
+      "deep_analyzed": 1,
+      "scored_high": 0,
+      "eligibility_demoted": 1,
+      "jina_fetch": 0,
+      "jina_failed": 0,
+      "snippet_fallback": 0,
+      "legit_unparseable": 0,
+      "trusted_thin_pass": 0,
+      "discovery": {
+        "tavily": {
+          "attempted": 20,
+          "successful": 20,
+          "429": 0,
+          "403": 0,
+          "errors": 0,
+          "candidates": 160,
+          "queries_planned": 20,
+          "disabled_reason": ""
+        },
+        "rss": {
+          "attempted": 4,
+          "successful": 4,
+          "failed": 0,
+          "skipped_dead": 1,
+          "candidates": 56
+        },
+        "api": {
+          "sources": 2,
+          "healthy": 2,
+          "failed": 0,
+          "candidates": 57
+        },
+        "seed": {
+          "attempted": 14,
+          "candidates": 14
+        },
+        "total": {
+          "raw": 287,
+          "after_dedupe": 278
+        }
+      },
+      "signal_rescued": 9,
+      "deduped": 0
+    }
+  },
+  {
+    "at": "2026-11-17T14:28:18.633301+00:00",
+    "kind": "run",
+    "mode": "scan",
+    "environment": "github_actions",
+    "stats": {
+      "discovered": 278,
+      "already_seen": 94,
+      "known_scam": 0,
+      "fetch_failed": 1,
+      "first_pass_dropped": 0,
+      "scam": 2,
+      "legit_unknown": 1,
+      "ineligible": 8,
+      "closed": 2,
+      "deep_analyzed": 1,
+      "scored_high": 0,
+      "eligibility_demoted": 1,
+      "jina_fetch": 0,
+      "jina_failed": 0,
+      "snippet_fallback": 0,
+      "legit_unparseable": 0,
+      "trusted_thin_pass": 0,
+      "discovery": {
+        "tavily": {
+          "attempted": 20,
+          "successful": 20,
+          "429": 0,
+          "403": 0,
+          "errors": 0,
+          "candidates": 160,
+          "queries_planned": 20,
+          "disabled_reason": ""
+        },
+        "rss": {
+          "attempted": 4,
+          "successful": 4,
+          "failed": 0,
+          "skipped_dead": 1,
+          "candidates": 56
+        },
+        "api": {
+          "sources": 2,
+          "healthy": 2,
+          "failed": 0,
+          "candidates": 57
+        },
+        "seed": {
+          "attempted": 14,
+          "candidates": 14
+        },
+        "total": {
+          "raw": 287,
+          "after_dedupe": 278
+        }
+      },
+      "signal_rescued": 9,
       "deduped": 0,
       "matches": 0
     }

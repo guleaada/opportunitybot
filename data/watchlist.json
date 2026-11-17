@@ -1511,40 +1511,14 @@
     "added": "2026-11-16T13:30:59.219468+00:00",
     "last_checked": "2026-11-16T13:30:00.325982"
   },
-  "8c5d3a8740b84e83": {
-    "url": "https://www.virtualinternships.com",
-    "title": "Real-World Work Experience | Virtual Internships",
-    "retry_analysis": true,
-    "snippet": "We connect educators and employers worldwide to provide ambitious interns with access to guaranteed remote internships. Our educational partners enable their students to boost their employability, whilst employers gain access to top-tier talent eager to contribute to their business to gain experience.\n\nKaplan Languages Group\n\nLandmark University\n\nNazareth University\n\nClark University\n\nBayes Business School\n\nUniversity of Salford\n\nUniversity of New Mexico\n\nAuckland University of Technology [...] ### Guaranteed Placement\n\nNo matter your degree, location, or experience – we’ll find you the right internship.\n\n### Real Experience\n\nWork remotely with one of 13,000 companies looking for ambitious talent like you.\n\n### Coaching & Support\n\nYou will be supported by a team of expert coaches to guide you towards career success.\n\n### Award-Winning Courses\n\nComplement your internship with access to courses to build the skills that will set you apart.\n\n### Save Time [...] ### Save Time\n\nTell us what remote internship you want – we match you based on your preferences.\n\n## Proven Results: Global Impact\n\n## 250k+\n\n### Global Internships\n\nAvailable now and growing\n\n## 80+\n\n### Countries\n\nOffering real world experience\n\n## 95%\n\n### Intern Satisfaction\n\nDeveloping essential career skills\n\n## 1 in 3\n\n### Interns Hired\n\nPost-program completion\n\n## Real Stories. Real Impact\n\nSuccess stories from companies, educators, and interns who have benefitted from our program.",
-    "reason": "legitimacy check returned an unparseable reply; retry on a later run",
-    "id": "8c5d3a8740b84e83",
-    "added": "2026-11-15T12:59:51.105792+00:00"
-  },
-  "21cbd46c56e6e6bf": {
-    "url": "https://www.indeed.com/q-internships-for-international-students-l-atlanta,-ga-jobs.html",
-    "title": "Internships for international students jobs in Atlanta, GA - Indeed",
-    "reason": "ANALYSIS_UNAVAILABLE — all configured providers unavailable for 'scam_detection' (tried: openrouter, mistral, gemini)",
-    "retry_analysis": true,
-    "snippet": "Browse 37 Internships For International Students jobs in Atlanta, GA. New jobs posted today. Apply now and find your next opportunity on Indeed.com.",
-    "id": "21cbd46c56e6e6bf",
-    "added": "2026-11-15T13:00:40.078277+00:00"
-  },
-  "8047e8f42713a307": {
-    "url": "https://www.levels.fyi/internships",
-    "title": "2026-2027 Tech Internship Guide & Salaries | Levels.fyi",
-    "reason": "ANALYSIS_UNAVAILABLE — all configured providers unavailable for 'first_pass_filter' (tried: gemini)",
-    "retry_analysis": true,
-    "snippet": "###### Prepare\n\nInternship interviews are typically heavily focused on raw skills. Especially high paying FAANG+ (Facebook/Meta, Amazon, Apple, Netflix, Alphabet/Google) and financial companies. For software internships, this means coding ability.\n\nPractice solving coding problems. Try using Leetcode, InterviewBit, HackerRank, Cracking the Coding Interview, etc. Side projects demonstrate raw skills and are a great way to make your resume stand out. [...] ###### Timing\n\nBegin applying to Summer internships by July of the previous year. At the latest, apply to your top choices by October. Many will have filled up their intern quota by December. You can always apply to open opportunities and startups later in the new year.\n\nFor smaller companies without a formal program, try cold emailing an employee or recruiter with your resume and why you're passionate about the company. For more insights, join our community!\n\n###### Prepare [...] A successful internship can result in a return internship or full-time offer for upcoming graduates. At some companies, conversion rates exceed 70%. We've summarized the key insights you'll need to secure an internship and get a full-time offer below.\n\n###### Timing",
-    "id": "8047e8f42713a307",
-    "added": "2026-11-15T13:00:40.348714+00:00"
-  },
   "0972cf4f18823028": {
     "url": "https://www.opportunitynest.org/guides/scholarships-for-developing-countries",
     "title": "Scholarships for Developing Countries 2027: Fully Funded",
     "last_known_deadline": null,
     "reason": "closed at discovery; likely annual",
     "id": "0972cf4f18823028",
-    "added": "2026-11-16T13:37:16.736165+00:00"
+    "added": "2026-11-17T14:12:33.057680+00:00",
+    "last_checked": "2026-11-17T14:12:33.057146"
   },
   "49c1937f5b9ed677": {
     "url": "https://www.scholarshipregion.com/united-nations-university-scholarship-unu",
@@ -1552,6 +1526,23 @@
     "last_known_deadline": "2026-10-31",
     "reason": "closed at discovery; likely annual",
     "id": "49c1937f5b9ed677",
-    "added": "2026-11-16T13:37:25.727599+00:00"
+    "added": "2026-11-17T14:12:45.238260+00:00",
+    "last_checked": "2026-11-17T14:12:45.237631"
+  },
+  "3dfd307581c51ef5": {
+    "url": "https://www.thestartupopportunity.com/opportunities/ai-challenge-competition-2",
+    "title": "AI Challenge Competition #2 – EU Generative AI Grant",
+    "last_known_deadline": null,
+    "reason": "closed at discovery; likely annual",
+    "id": "3dfd307581c51ef5",
+    "added": "2026-11-17T14:26:45.807109+00:00"
+  },
+  "e2a7004bbfb39c2c": {
+    "url": "https://archgrants.org/programs/startup-competition",
+    "title": "Startup Competition | Arch Grants",
+    "last_known_deadline": null,
+    "reason": "closed at discovery; likely annual",
+    "id": "e2a7004bbfb39c2c",
+    "added": "2026-11-17T14:26:57.707845+00:00"
   }
 }

@@ -22444,5 +22444,274 @@
     "id": "aa2500d2e5f2c92c",
     "first_seen": "2026-11-16T13:49:39.907424+00:00",
     "last_updated": "2026-11-16T13:49:39.907442+00:00"
+  },
+  "8c5d3a8740b84e83": {
+    "url": "https://www.virtualinternships.com",
+    "title": "Real-World Work Experience | Virtual Internships",
+    "status": "analyzed",
+    "score": 3.0,
+    "category": null,
+    "official_url": "https://www.virtualinternships.com",
+    "location": null,
+    "remote": null,
+    "deadline": null,
+    "reward": "none",
+    "estimated_value": null,
+    "eligibility_status": "PROBABLY_ELIGIBLE",
+    "credibility_status": "LIKELY_LEGITIMATE",
+    "source_tier": "TIER_4",
+    "source_quality": null,
+    "requirements": [],
+    "id": "8c5d3a8740b84e83",
+    "first_seen": "2026-11-17T14:11:29.545334+00:00",
+    "last_updated": "2026-11-17T14:11:29.545346+00:00"
+  },
+  "21cbd46c56e6e6bf": {
+    "url": "https://www.indeed.com/q-internships-for-international-students-l-atlanta,-ga-jobs.html",
+    "title": "Internships for international students jobs in Atlanta, GA - Indeed",
+    "status": "ineligible",
+    "eligibility_status": "PROBABLY_INELIGIBLE",
+    "model_eligibility_status": "PROBABLY_INELIGIBLE",
+    "missing_requirements": [
+      "Specific age limits (not stated)",
+      "English language proficiency requirements (not stated)",
+      "Degree level requirements (not stated)",
+      "Citizenship restrictions beyond being an international student (not stated)"
+    ],
+    "blocking_issues": [
+      "Must be currently enrolled as a student (candidate is not a student)"
+    ],
+    "addressable_gaps": [],
+    "reasoning": "The program is titled 'Internships for international students' which implies that applicants must be currently enrolled as students. The candidate is a working professional and not currently a student, creating a hard blocker. No explicit age, degree, or English proficiency requirements are stated, but the student-status requirement alone disqualifies the candidate.",
+    "id": "21cbd46c56e6e6bf",
+    "first_seen": "2026-11-17T14:11:58.943450+00:00",
+    "last_updated": "2026-11-17T14:11:58.943467+00:00"
+  },
+  "8047e8f42713a307": {
+    "url": "https://www.levels.fyi/internships",
+    "title": "2026-2027 Tech Internship Guide & Salaries | Levels.fyi",
+    "status": "unknown",
+    "eligibility_status": "UNCERTAIN",
+    "model_eligibility_status": "UNCERTAIN",
+    "missing_requirements": [
+      "explicit statement of required student/enrollment status",
+      "any age limits",
+      "any nationality restrictions"
+    ],
+    "blocking_issues": [],
+    "addressable_gaps": [],
+    "reasoning": "The program description provides no explicit eligibility criteria such as nationality, age, degree level, or current student status. Internships typically target current students or recent graduates, which is a decision-relevant criterion that is missing and could exclude a working professional. Since this requirement is not stated, we cannot confirm eligibility.",
+    "id": "8047e8f42713a307",
+    "first_seen": "2026-11-17T14:12:33.024490+00:00",
+    "last_updated": "2026-11-17T14:12:33.024507+00:00"
+  },
+  "ff4963108d790099": {
+    "url": "https://opportunitiescorners.com/erasmus-mundus-emle-scholarship-2027/",
+    "title": "Erasmus Mundus EMLE Scholarship 2027/29 (Fully Funded)",
+    "status": "analyzed",
+    "score": 3.7,
+    "category": null,
+    "official_url": "https://opportunitiescorners.com/erasmus-mundus-emle-scholarship-2027/",
+    "location": null,
+    "remote": null,
+    "deadline": null,
+    "reward": "fully_funded",
+    "estimated_value": null,
+    "eligibility_status": "PROBABLY_ELIGIBLE",
+    "credibility_status": "LIKELY_LEGITIMATE",
+    "source_tier": "TIER_3",
+    "source_quality": 7,
+    "requirements": [],
+    "id": "ff4963108d790099",
+    "first_seen": "2026-11-17T14:16:11.395507+00:00",
+    "last_updated": "2026-11-17T14:16:11.395518+00:00"
+  },
+  "d834dfbfcb288b52": {
+    "url": "https://www.opportunitiesforafricans.com/the-international-court-of-justice-icj-judicial-fellowship-programme-2027-2028/",
+    "title": "The International Court of Justice (ICJ) Judicial Fellowship Programme 2027/2028 for recent Law Graduates – The Hague, Netherlands.",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "model_eligibility_status": "CONFIRMED_INELIGIBLE",
+    "missing_requirements": [],
+    "blocking_issues": [
+      "Degree level mismatch: candidate is not a law graduate",
+      "University nomination required (candidate not currently a student and has no nomination)"
+    ],
+    "addressable_gaps": [
+      "Obtain official proof of English proficiency (e.g., Duolingo or MOI certificate)",
+      "Secure a university nomination if possible"
+    ],
+    "reasoning": "The programme explicitly requires candidates to be recent law graduates. The candidate holds a BSc in Psychology, not a law degree, which does not meet the core eligibility criterion. Additionally, the programme only accepts nominations from universities, not individual applications, which the candidate cannot satisfy without a university nomination. While language proficiency and nomination could be addressed, the degree mismatch is a non‑addressable hard blocker.",
+    "id": "d834dfbfcb288b52",
+    "first_seen": "2026-11-17T14:17:16.490770+00:00",
+    "last_updated": "2026-11-17T14:17:16.490785+00:00"
+  },
+  "298d06465da91f86": {
+    "url": "https://opportunitiescorners.com/leadership-and-peace-summit-morocco/",
+    "title": "Leadership and Peace Summit Morocco 2027 (Fully Funded)",
+    "status": "suspicious",
+    "credibility_status": "SUSPICIOUS",
+    "source_tier": "TIER_3",
+    "reasoning": "The summit is organized by 'Voice for Rights International' with no verifiable website or institutional affiliation, and the only contact provided is a Gmail address. It also requires a $23 application fee despite offering fully funded seats, which is a common red flag for scam conferences.",
+    "id": "298d06465da91f86",
+    "first_seen": "2026-11-17T14:18:05.479882+00:00",
+    "last_updated": "2026-11-17T14:18:05.479897+00:00"
+  },
+  "260467d81265cf02": {
+    "url": "https://www.opportunitiesforafricans.com/the-uniqlo-global-management-program-2027-for-undergraduates-and-postgraduates/",
+    "title": "The UNIQLO Global Management Program 2027 for undergraduates and postgraduates worldwide (Fully Funded to Tokyo, Japan)",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "model_eligibility_status": "CONFIRMED_INELIGIBLE",
+    "missing_requirements": [],
+    "blocking_issues": [
+      "Must be currently enrolled as an undergraduate or postgraduate student"
+    ],
+    "addressable_gaps": [],
+    "reasoning": "The program explicitly requires applicants to be \"undergraduate and postgraduate students from around the world.\" The candidate is a working professional and is not currently enrolled in any academic program, which does not satisfy the student status requirement. All other stated criteria (nationality, age, degree level) are acceptable, but the student status is a hard blocker.",
+    "id": "260467d81265cf02",
+    "first_seen": "2026-11-17T14:19:03.955110+00:00",
+    "last_updated": "2026-11-17T14:19:03.955125+00:00"
+  },
+  "05f280aac0a5d653": {
+    "url": "https://www.opportunitiesforafricans.com/the-african-forum-and-network-on-debt-and-development-afrodad-internship-programme-2027/",
+    "title": "The African Forum and Network on Debt and Development (AFRODAD Internship Programme 2027 for Young African Graduates.",
+    "status": "ineligible",
+    "eligibility_status": "PROBABLY_INELIGIBLE",
+    "model_eligibility_status": "PROBABLY_INELIGIBLE",
+    "missing_requirements": [],
+    "blocking_issues": [
+      "Degree discipline not among the eligible fields (Psychology not listed)"
+    ],
+    "addressable_gaps": [
+      "English language proficiency certificate (can obtain Duolingo or MOI certificate)"
+    ],
+    "reasoning": "AFRODAD requires a bachelor's degree in specific disciplines (Finance, Administration, HR, Communications, Data Science, Development Economics, Economics, International Development, International Relations, Law, Statistics). The candidate holds a BSc in Psychology, which is not among the listed fields, creating a hard blocker. The candidate meets the African nationality requirement and the graduate status, and can address the English proficiency requirement by obtaining a test certificate.",
+    "id": "05f280aac0a5d653",
+    "first_seen": "2026-11-17T14:20:10.143220+00:00",
+    "last_updated": "2026-11-17T14:20:10.143236+00:00"
+  },
+  "ccbf4ad370cc5b22": {
+    "url": "https://www.opportunitiesforafricans.com/the-egbin-powerup-internship-programme-siwes-2027/",
+    "title": "The Egbin PowerUp Internship Programme (SIWES) 2027 for young Nigerian undergraduate students.",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "model_eligibility_status": "CONFIRMED_INELIGIBLE",
+    "missing_requirements": [],
+    "blocking_issues": [
+      "Nationality mismatch (must be Nigerian)",
+      "Must be an undergraduate student (candidate is a graduate and professional)",
+      "Degree discipline mismatch (candidate's BSc Psychology is not an eligible discipline)",
+      "Degree level mismatch (requires current undergraduate status, candidate already graduated)"
+    ],
+    "addressable_gaps": [],
+    "reasoning": "The programme explicitly requires applicants to be *young Nigerian undergraduate students* with at least a Second Class Upper degree in one of the listed engineering, chemistry, or computer science disciplines. The candidate is an Ethiopian national, 27 years old, a working professional, holds a BSc in Psychology (not an engineering/CS/chemistry field), and is not currently enrolled as an undergraduate student. These criteria are hard blockers.",
+    "id": "ccbf4ad370cc5b22",
+    "first_seen": "2026-11-17T14:21:01.725232+00:00",
+    "last_updated": "2026-11-17T14:21:01.725249+00:00"
+  },
+  "504ffeaad3e16b93": {
+    "url": "https://www.opportunitiesforafricans.com/the-sterling-bank-google-career-certification-program/",
+    "title": "The Sterling Bank-Google Career Certification Program for Nigerian women (Fully Funded)",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "model_eligibility_status": "CONFIRMED_INELIGIBLE",
+    "missing_requirements": [],
+    "blocking_issues": [
+      "Nationality not eligible (program limited to Nigerian women)"
+    ],
+    "addressable_gaps": [],
+    "reasoning": "The program is explicitly for Nigerian women. The candidate is an Ethiopian national, which does not meet the nationality requirement. No other hard blockers are needed to determine ineligibility.",
+    "id": "504ffeaad3e16b93",
+    "first_seen": "2026-11-17T14:21:46.184496+00:00",
+    "last_updated": "2026-11-17T14:21:46.184513+00:00"
+  },
+  "e639a2ae2fc4928d": {
+    "url": "https://www.scholarshipbob.com/scholarship/call-for-applications-qwen-ambassador-program-2026",
+    "title": "Call for Applications: Qwen Ambassador Program 2026 | ScholarshipBob",
+    "status": "legitimacy_unknown",
+    "credibility_status": "NEEDS_VERIFICATION",
+    "source_tier": "TIER_4",
+    "reasoning": "The page lists a Qwen Ambassador Program with benefits and no required application fee, which aligns with typical ambassador initiatives. However, there is no direct link to an official Qwen or Alibaba page to verify the program's existence, and the only payment mentions are optional third‑party services, leaving the legitimacy unconfirmed.",
+    "id": "e639a2ae2fc4928d",
+    "first_seen": "2026-11-17T14:22:21.309157+00:00",
+    "last_updated": "2026-11-17T14:22:21.309174+00:00"
+  },
+  "9cf5554a4db662b7": {
+    "url": "https://www.opportunitiesforafricans.com/the-nitda-jica-igniteher-boot-camp-cohort-3-for-nigerian-women-entrepreneurs/",
+    "title": "The NITDA/JICA IgniteHER Boot Camp Cohort 3 for Nigerian Women Entrepreneurs.",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "model_eligibility_status": "CONFIRMED_INELIGIBLE",
+    "missing_requirements": [],
+    "blocking_issues": [
+      "Nationality requirement: must be Nigerian (candidate is Ethiopian)"
+    ],
+    "addressable_gaps": [],
+    "reasoning": "The program explicitly states it is open only to Nigerian women entrepreneurs. The candidate is an Ethiopian national, which does not meet the nationality requirement. All other criteria (female gender, entrepreneur status) are satisfied, but the hard blocker of citizenship makes the candidate ineligible.",
+    "id": "9cf5554a4db662b7",
+    "first_seen": "2026-11-17T14:23:14.149466+00:00",
+    "last_updated": "2026-11-17T14:23:14.149482+00:00"
+  },
+  "7149a5ea972374e1": {
+    "url": "https://grantedai.com/grants/2027-global-health-challenge-mit-solve-d8da1b15",
+    "title": "2027 Global Health Challenge (2026) | Granted AI",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "model_eligibility_status": "CONFIRMED_INELIGIBLE",
+    "missing_requirements": [],
+    "blocking_issues": [
+      "Program is closed and not accepting applications"
+    ],
+    "addressable_gaps": [],
+    "reasoning": "The program page states that the 2027 Global Health Challenge is no longer active and is not accepting applications. This explicitly excludes all candidates, regardless of nationality, age, student status, or qualifications.",
+    "id": "7149a5ea972374e1",
+    "first_seen": "2026-11-17T14:24:47.600675+00:00",
+    "last_updated": "2026-11-17T14:24:47.600691+00:00"
+  },
+  "a5201e11092bb91d": {
+    "url": "https://grantedai.com/grants/ai-challenge-competition-ai-boost-consortium-ai-boost-consortium-with-eu-support-like-13935c6c",
+    "title": "AI Challenge Competition (AI-BOOST consortium) (2026) | Granted AI",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "model_eligibility_status": "PROBABLY_INELIGIBLE",
+    "missing_requirements": [],
+    "blocking_issues": [
+      "Hard blocker: candidate is not established in an EU Member State or associated country (nationality/ residency mismatch)"
+    ],
+    "addressable_gaps": [],
+    "reasoning": "The program requires participants to be established in an EU Member State or an associated country. The candidate is an Ethiopian national residing in Laos, which does not meet this geographic/nationality requirement. No other hard blockers (age, degree level, student status) are present, but the citizenship/establishment criterion is a decisive exclusion.",
+    "id": "a5201e11092bb91d",
+    "first_seen": "2026-11-17T14:26:20.278513+00:00",
+    "last_updated": "2026-11-17T14:26:20.278529+00:00"
+  },
+  "3dfd307581c51ef5": {
+    "url": "https://www.thestartupopportunity.com/opportunities/ai-challenge-competition-2",
+    "title": "AI Challenge Competition #2 – EU Generative AI Grant",
+    "status": "closed",
+    "deadline": null,
+    "id": "3dfd307581c51ef5",
+    "first_seen": "2026-11-17T14:26:45.786927+00:00",
+    "last_updated": "2026-11-17T14:26:45.786943+00:00"
+  },
+  "e2a7004bbfb39c2c": {
+    "url": "https://archgrants.org/programs/startup-competition",
+    "title": "Startup Competition | Arch Grants",
+    "status": "closed",
+    "deadline": null,
+    "id": "e2a7004bbfb39c2c",
+    "first_seen": "2026-11-17T14:26:57.687511+00:00",
+    "last_updated": "2026-11-17T14:26:57.687526+00:00"
+  },
+  "e3affd964e152638": {
+    "url": "https://artshow.com/juriedshows/na.html",
+    "title": "Online Exhibitions, Art Publications, Art Contests and Grants",
+    "status": "suspicious",
+    "credibility_status": "SUSPICIOUS",
+    "source_tier": "TIER_4",
+    "reasoning": "The page aggregates numerous art contests that all require entry fees (ranging $9‑$40) and offer cash prizes, but provide no verifiable institutional sponsor, use only generic email contacts, and lack clear official webpages—common red‑flag characteristics of pay‑to‑enter scams.",
+    "id": "e3affd964e152638",
+    "first_seen": "2026-11-17T14:28:17.081593+00:00",
+    "last_updated": "2026-11-17T14:28:17.081608+00:00"
   }
 }
