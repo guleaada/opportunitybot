@@ -68,11 +68,23 @@
   "ec19caff836816d8": {
     "url": "https://si.se/en/apply/scholarships/swedish-institute-scholarships-for-global-professionals/",
     "title": "Swedish Institute",
-    "status": "closed",
+    "status": "unknown",
     "deadline": "2026-02-25",
     "id": "ec19caff836816d8",
     "first_seen": "2026-06-11T09:16:43.004241+00:00",
-    "last_updated": "2026-06-11T09:16:43.004248+00:00"
+    "last_updated": "2026-11-18T13:44:08.211776+00:00",
+    "eligibility_status": "UNCERTAIN",
+    "model_eligibility_status": "UNCERTAIN",
+    "missing_requirements": [
+      "Verified count of work experience hours (minimum 3,000 hours for Ethiopian applicants).",
+      "Proof of English language proficiency for admission to an English‑taught master’s programme."
+    ],
+    "blocking_issues": [],
+    "addressable_gaps": [
+      "Obtain an English proficiency test result (Duolingo English Test, IELTS/TOEFL, or MOI certificate) as required by Swedish university admissions.",
+      "Provide documented evidence that the candidate has accumulated at least 3,000 hours of work experience (e.g., employment letters, freelance contracts, entrepreneurship records)."
+    ],
+    "reasoning": "The candidate meets the nationality requirement (Ethiopia is on the eligible list) and holds a bachelor's degree, which satisfies the academic level for a master's. They have work and leadership experience, which aligns with the program’s criteria. However, the program explicitly requires at least 3,000 hours of work experience for Ethiopian applicants, and the candidate’s total hours are not documented, making this a potentially disqualifying factor that cannot be verified. Additionally, the program likely requires proof of English proficiency for English‑taught master’s programmes, which the candidate does not yet have."
   },
   "0d573df324dd31e1": {
     "url": "https://www.gatescambridge.org/apply/",
@@ -22713,5 +22725,276 @@
     "id": "e3affd964e152638",
     "first_seen": "2026-11-17T14:28:17.081593+00:00",
     "last_updated": "2026-11-17T14:28:17.081608+00:00"
+  },
+  "ddc1edb3c2643ef7": {
+    "url": "https://scholarshiptab.com/fellowship/fully-funded",
+    "title": "Fully Funded Postdoctoral Fellowship For International Students 2026-2027 | ScholarshipTab",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "model_eligibility_status": "CONFIRMED_INELIGIBLE",
+    "missing_requirements": [
+      "Specific English language proficiency requirement (not stated)",
+      "Age limit (not stated)",
+      "Exact field of study or research focus (not stated)"
+    ],
+    "blocking_issues": [
+      "Nationality not eligible (eligible countries are limited to specific Southeast European nations)",
+      "Degree level mismatch (postdoctoral fellowship requires a PhD or equivalent, candidate has only a bachelor's degree)"
+    ],
+    "addressable_gaps": [],
+    "reasoning": "The fellowship explicitly states it is open only to mid‑career professionals from Albania, Bosnia and Herzegovina, Kosovo, Moldova, Montenegro, and North ... (Southeast European countries). The candidate is Ethiopian, which is not in the eligible list. Additionally, it is a postdoctoral fellowship, which requires a doctoral degree or equivalent research experience; the candidate only holds a BSc. These are hard, non‑addressable blockers.",
+    "id": "ddc1edb3c2643ef7",
+    "first_seen": "2026-11-18T13:45:53.233403+00:00",
+    "last_updated": "2026-11-18T13:45:53.233424+00:00"
+  },
+  "f092e920caca48d4": {
+    "url": "https://www.scholarshipbob.com/fellowship/fully-funded/15",
+    "title": "Fully Funded Fellowship Scholarships for International Students 2026 - 2027 - Page 15 - Page 15 | ScholarshipBob",
+    "status": "analyzed",
+    "score": 3.1,
+    "category": "fellowships",
+    "official_url": "https://www.scholarshipbob.com/fellowship/fully-funded/15",
+    "location": null,
+    "remote": null,
+    "deadline": null,
+    "reward": "unknown",
+    "estimated_value": null,
+    "eligibility_status": "PROBABLY_ELIGIBLE",
+    "credibility_status": "LIKELY_LEGITIMATE",
+    "source_tier": "TIER_4",
+    "source_quality": 0,
+    "requirements": [],
+    "id": "f092e920caca48d4",
+    "first_seen": "2026-11-18T13:48:47.831217+00:00",
+    "last_updated": "2026-11-18T13:48:47.831238+00:00"
+  },
+  "ee723a27f8791f15": {
+    "url": "https://www.opportunitiesforafricans.com/the-french-african-foundation-young-leaders-program-2027/",
+    "title": "The French-African Foundation Young Leaders Program 2027 for young Africans (Fully Funded to France)",
+    "status": "legitimacy_unknown",
+    "credibility_status": "NEEDS_VERIFICATION",
+    "source_tier": "TIER_3",
+    "reasoning": "The listing does not request any application or participation fees, which is a positive sign, but it provides no direct link to an official French-African Foundation page and only offers generic contact emails, making it impossible to verify the program's existence or credibility.",
+    "id": "ee723a27f8791f15",
+    "first_seen": "2026-11-18T13:49:27.990707+00:00",
+    "last_updated": "2026-11-18T13:49:27.990730+00:00"
+  },
+  "e56e784e4a6506a1": {
+    "url": "https://www.opportunitiesforafricans.com/knight-science-journalism-academic-year-fellowship-2027-2028/",
+    "title": "Knight Science Journalism Academic-Year Fellowship at MIT 2027/2028 for Science Journalists worldwide ($USD $87,500 Stipend)",
+    "status": "ineligible",
+    "eligibility_status": "PROBABLY_INELIGIBLE",
+    "model_eligibility_status": "PROBABLY_INELIGIBLE",
+    "missing_requirements": [],
+    "blocking_issues": [
+      "Not a full‑time journalist (career mismatch)",
+      "No documented three consecutive years of science/tech/health/environment reporting"
+    ],
+    "addressable_gaps": [],
+    "reasoning": "The fellowship requires applicants to be *full‑time journalists* (staff or freelance) with at least three consecutive years covering science, health, technology, or the environment. Gulilat's profile lists roles as AI developer, marketing specialist, psychologist, and community leader, with no evidence of full‑time journalism work or the required three‑year coverage of relevant beats. This mismatch is a hard blocker. No nationality restriction is mentioned, and an Ethiopian passport can generally obtain a J‑1 visa, so citizenship is not a blocker.",
+    "id": "e56e784e4a6506a1",
+    "first_seen": "2026-11-18T13:50:43.982397+00:00",
+    "last_updated": "2026-11-18T13:50:43.982420+00:00"
+  },
+  "06e787f21edb836f": {
+    "url": "https://www.opportunitiesforafricans.com/the-west-african-health-organisation-waho-2026-2027-doctoral-and-masters-scholarships-in-public-health/",
+    "title": "The West African Health Organisation (WAHO) 2026/2027 Doctoral and Master’s Scholarships in Public Health.",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "model_eligibility_status": "CONFIRMED_INELIGIBLE",
+    "missing_requirements": [],
+    "blocking_issues": [
+      "Nationality not among eligible ECOWAS countries",
+      "Residency not in an ECOWAS member state"
+    ],
+    "addressable_gaps": [],
+    "reasoning": "The scholarship explicitly requires applicants to be nationals (and residents) of one of the 12 ECOWAS member states. The candidate is an Ethiopian national residing in Laos, which does not meet the nationality or residency requirement. This is a hard blocker.",
+    "id": "06e787f21edb836f",
+    "first_seen": "2026-11-18T13:51:54.395814+00:00",
+    "last_updated": "2026-11-18T13:51:54.395836+00:00"
+  },
+  "a0b892a011cd45fc": {
+    "url": "https://www.opportunitiesforafricans.com/the-zoom-ai-launchpad-startup-grants-2027-for-startups-worldwide/",
+    "title": "The Zoom AI Launchpad Startup Grants 2027 for startups worldwide.",
+    "status": "analyzed",
+    "score": 3.7,
+    "category": null,
+    "official_url": "https://www.opportunitiesforafricans.com/the-zoom-ai-launchpad-startup-grants-2027-for-startups-worldwide/",
+    "location": null,
+    "remote": null,
+    "deadline": null,
+    "reward": "partial",
+    "estimated_value": null,
+    "eligibility_status": "PROBABLY_ELIGIBLE",
+    "credibility_status": "LIKELY_LEGITIMATE",
+    "source_tier": "TIER_3",
+    "source_quality": 7,
+    "requirements": [],
+    "id": "a0b892a011cd45fc",
+    "first_seen": "2026-11-18T13:53:35.075903+00:00",
+    "last_updated": "2026-11-18T13:53:35.075925+00:00"
+  },
+  "d9548741a78296b9": {
+    "url": "https://www.opportunitiesforafricans.com/the-2027-ejn-story-grants-to-report-on-mining-environment-and-human-rights/",
+    "title": "The 2027 EJN Story Grants to Report on Mining, Environment and Human Rights in Africa (US $20,000 in grants)",
+    "status": "legitimacy_unknown",
+    "credibility_status": "NEEDS_VERIFICATION",
+    "source_tier": "TIER_3",
+    "reasoning": "The listing does not request any application or participation fee and does not pressure applicants to pay, which are common scam indicators. However, the page provides no direct link to an official EJN website, uses generic email addresses, and offers no verifiable details about the sponsoring organization, making it impossible to confirm legitimacy.",
+    "id": "d9548741a78296b9",
+    "first_seen": "2026-11-18T13:54:13.048869+00:00",
+    "last_updated": "2026-11-18T13:54:13.048890+00:00"
+  },
+  "3ae63db974099c5a": {
+    "url": "https://www.opportunitiesforafricans.com/the-healthy-futures-mastercard-scholarship-2027-for-african-changemakers/",
+    "title": "The Healthy Futures Mastercard Scholarship 2027 for African Changemakers.",
+    "status": "analyzed",
+    "score": 4.3,
+    "category": null,
+    "official_url": "https://www.opportunitiesforafricans.com/the-healthy-futures-mastercard-scholarship-2027-for-african-changemakers/",
+    "location": null,
+    "remote": null,
+    "deadline": "2026-12-10",
+    "reward": "fully_funded",
+    "estimated_value": null,
+    "eligibility_status": "PROBABLY_ELIGIBLE",
+    "credibility_status": "LIKELY_LEGITIMATE",
+    "source_tier": "TIER_3",
+    "source_quality": 7,
+    "requirements": [
+      "Curriculum Vitae (CV) (maximum 3 pages)",
+      "Proof of admission to the MPhil in Inclusive Innovation",
+      "Motivation letter (maximum 1,000 words)",
+      "Any relevant supporting documents"
+    ],
+    "id": "3ae63db974099c5a",
+    "first_seen": "2026-11-18T13:56:20.061199+00:00",
+    "last_updated": "2026-11-18T13:56:20.061220+00:00"
+  },
+  "a02f453a320d1723": {
+    "url": "https://www.opportunitiesforafricans.com/the-east-africa-biodesign-fellowship-2027-2028-health-innovation-fellowship/",
+    "title": "The East Africa Biodesign Fellowship 2027/2028 Health Innovation Fellowship for African Innovators (Funded)",
+    "status": "notified",
+    "score": 6.3,
+    "category": null,
+    "official_url": "https://www.opportunitiesforafricans.com/the-east-africa-biodesign-fellowship-2027-2028-health-innovation-fellowship/",
+    "location": null,
+    "remote": null,
+    "deadline": "2026-12-13",
+    "reward": "partial",
+    "estimated_value": null,
+    "eligibility_status": "PROBABLY_ELIGIBLE",
+    "credibility_status": "LIKELY_LEGITIMATE",
+    "source_tier": "TIER_3",
+    "source_quality": 7,
+    "requirements": [],
+    "id": "a02f453a320d1723",
+    "first_seen": "2026-11-18T13:58:09.484951+00:00",
+    "last_updated": "2026-11-18T14:04:56.752353+00:00",
+    "notification_tier": "GOOD",
+    "notified_at": "2026-11-18T14:04:56.733064+00:00"
+  },
+  "1e6b25fafe2d878a": {
+    "url": "https://www.opportunitiesforafricans.com/wethinkcode_-tuition-free-16-month-ai-native-software-engineering-programme-2027/",
+    "title": "WeThinkCode_ Tuition-Free 16-month AI-native software engineering programme 2027 for young Africans in South Africa.",
+    "status": "unknown",
+    "eligibility_status": "UNCERTAIN",
+    "model_eligibility_status": "UNCERTAIN",
+    "missing_requirements": [
+      "Potential age limit for \"young Africans\" (not specified)",
+      "Any residency or visa requirement to study in South Africa (not specified)",
+      "Explicit English proficiency requirement (if any, not stated)"
+    ],
+    "blocking_issues": [],
+    "addressable_gaps": [],
+    "reasoning": "The programme is explicitly for \"young Africans\" and the candidate is an Ethiopian (African) national, so nationality matches. The page does not state an age limit, but age caps are common for \"young\" programmes; the candidate is 27, which may or may not exceed an unstated limit. No requirement to be a current student is mentioned, and the candidate’s working‑professional status is acceptable. There is no explicit English proficiency requirement, nor a degree‑level restriction. Because the age criterion is missing and could be a blocker, the eligibility cannot be confirmed.",
+    "id": "1e6b25fafe2d878a",
+    "first_seen": "2026-11-18T13:59:09.394178+00:00",
+    "last_updated": "2026-11-18T13:59:09.394201+00:00"
+  },
+  "9426372f19a4da20": {
+    "url": "https://www.opportunitiesforafricans.com/the-fao-innovation-beyond-the-buzzword-video-challenge-2026/",
+    "title": "The FAO Innovation Beyond the Buzzword Video Challenge 2026 for students, young professionals and creatives worldwide.",
+    "status": "analyzed",
+    "score": 3.0,
+    "category": null,
+    "official_url": "https://www.opportunitiesforafricans.com/the-fao-innovation-beyond-the-buzzword-video-challenge-2026/",
+    "location": null,
+    "remote": null,
+    "deadline": "2026-11-30",
+    "reward": "none",
+    "estimated_value": null,
+    "eligibility_status": "CONFIRMED_ELIGIBLE",
+    "credibility_status": "LIKELY_LEGITIMATE",
+    "source_tier": "TIER_3",
+    "source_quality": 7,
+    "requirements": [
+      "First and last name",
+      "Short bio or background",
+      "Creative proposal",
+      "Storyboard or visual treatment",
+      "Link or attachment to previous work or portfolio material (if available)"
+    ],
+    "id": "9426372f19a4da20",
+    "first_seen": "2026-11-18T14:01:37.630850+00:00",
+    "last_updated": "2026-11-18T14:01:37.630871+00:00"
+  },
+  "aefd1b8cc01f2634": {
+    "url": "https://www2.fundsforngos.org",
+    "title": "fundsforNGOs - Grants and Resources for Sustainability",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "model_eligibility_status": "PROBABLY_INELIGIBLE",
+    "missing_requirements": [
+      "Specific eligibility criteria for the Supporting People with Cancer Grant (Australia) – citizenship, sector, etc.",
+      "Details for the Training and Mentoring Program (Ukraine) – target audience, nationality, student status"
+    ],
+    "blocking_issues": [
+      "Nationality mismatch for Asia Foundation Development Fellows (requires Asian/Pacific citizenship)",
+      "Degree level mismatch for ASEAN Doctoral Field Research Grant (requires doctoral enrollment)",
+      "Professional background mismatch for Michael Elliott Award (requires journalism experience)",
+      "Not a current student for doctoral field research grant (requires enrollment as PhD candidate)"
+    ],
+    "addressable_gaps": [
+      "Obtain an English proficiency test (Duolingo, MOI certificate) – though not sufficient to overcome nationality/degree blockers"
+    ],
+    "reasoning": "The Development Fellows program explicitly targets \"young professionals from Asia and the Pacific,\" which excludes an Ethiopian national. The ASEAN Doctoral Field Research Grant requires applicants to be doctoral candidates, but the candidate only holds a BSc. The Michael Elliott Award is for African journalists, and the candidate is not a journalist. Other listed programs lack sufficient detail to confirm eligibility, but the hard blockers identified already make the candidate unlikely to qualify for any of the opportunities on the page.",
+    "id": "aefd1b8cc01f2634",
+    "first_seen": "2026-11-18T14:02:13.089605+00:00",
+    "last_updated": "2026-11-18T14:02:13.089629+00:00"
+  },
+  "9fdd9a5594948e59": {
+    "url": "https://scholarships365.info/international-leadership-program-bangkok-thailand-2026",
+    "title": "International Leadership Program, Bangkok Thailand 2026 [Fully Funded]",
+    "status": "suspicious",
+    "credibility_status": "SUSPICIOUS",
+    "source_tier": "TIER_4",
+    "reasoning": "The program requires a non‑refundable $20 application fee paid via an Eventbrite ticket and pushes users to join WhatsApp/Telegram channels, with no clear official website or government endorsement. The listed co‑hosts (Teaching Pakistan, School of Leadership & Diplomacy, Canada) are not verifiable institutions, and the page relies heavily on marketing language rather than concrete details.",
+    "id": "9fdd9a5594948e59",
+    "first_seen": "2026-11-18T14:03:22.761583+00:00",
+    "last_updated": "2026-11-18T14:03:22.761602+00:00"
+  },
+  "8a3d63b1d1cc61ab": {
+    "url": "https://fullyscholarship.com/top-10-sponsored-pilot-training",
+    "title": "Top 10 Fully Sponsored Pilot Training Scholarships 2026-2027 - Fully Scholarship",
+    "status": "ineligible",
+    "eligibility_status": "PROBABLY_INELIGIBLE",
+    "model_eligibility_status": "PROBABLY_INELIGIBLE",
+    "missing_requirements": [
+      "Explicit confirmation of US work eligibility",
+      "Details on required medical examinations or flight‑training prerequisites",
+      "Any required English proficiency test scores (if the airline mandates them)"
+    ],
+    "blocking_issues": [
+      "Must be able to work in the United States (no US work authorization or visa indicated)"
+    ],
+    "addressable_gaps": [
+      "Obtain a US work visa or other legal authorization to work in the United States",
+      "Complete airline-specific assessments (cognitive, personality, interview) if required"
+    ],
+    "reasoning": "All listed pilot scholarship programs require the applicant to be able to work in the United States. The candidate is an Ethiopian national with no indication of US work authorization or visa status, which is a hard eligibility blocker. Age (27) and bachelor's degree meet the minimum requirements, and the candidate can obtain English proof if needed, but the lack of US work eligibility prevents eligibility.",
+    "id": "8a3d63b1d1cc61ab",
+    "first_seen": "2026-11-18T14:04:54.140976+00:00",
+    "last_updated": "2026-11-18T14:04:54.140995+00:00"
   }
 }

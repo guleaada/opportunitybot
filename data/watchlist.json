@@ -1,29 +1,20 @@
 {
-  "ec19caff836816d8": {
-    "url": "https://si.se/en/apply/scholarships/swedish-institute-scholarships-for-global-professionals/",
-    "title": "Swedish Institute",
-    "last_known_deadline": "2026-02-25",
-    "reason": "closed at discovery; likely annual",
-    "id": "ec19caff836816d8",
-    "added": "2026-09-05T01:47:30.973860+00:00",
-    "last_checked": "2026-09-05T01:47:30.973149"
-  },
   "54d5d15970566180": {
     "url": "https://www.opportunitiesforafricans.com/the-international-monetary-fund-imf-research-analyst-program-rap-2026/",
     "title": "The International Monetary Fund (IMF) Research Analyst Program (RAP) 2026 for young professionals.",
     "last_known_deadline": "2025-12-31",
     "reason": "closed at discovery; likely annual",
     "id": "54d5d15970566180",
-    "added": "2026-09-05T01:47:32.843679+00:00",
-    "last_checked": "2026-09-05T01:47:32.843191"
+    "added": "2026-11-18T13:44:08.261226+00:00",
+    "last_checked": "2026-11-18T13:44:08.260451"
   },
   "15657f22866cb72c": {
     "url": "https://www.python.org/jobs/8115/",
     "title": "Senior Backend Engineer, MyOme",
     "reason": "ANALYSIS_UNAVAILABLE — all model providers were unavailable; retry when quota resets",
     "id": "15657f22866cb72c",
-    "added": "2026-09-06T09:12:35.245223+00:00",
-    "last_checked": "2026-09-06T09:12:35.244712"
+    "added": "2026-11-18T13:44:21.195942+00:00",
+    "last_checked": "2026-11-18T13:44:21.195069"
   },
   "6b657eab465b6a34": {
     "url": "https://www.efworld.org/apply-now",
@@ -1535,7 +1526,8 @@
     "last_known_deadline": null,
     "reason": "closed at discovery; likely annual",
     "id": "3dfd307581c51ef5",
-    "added": "2026-11-17T14:26:45.807109+00:00"
+    "added": "2026-11-18T13:42:29.772886+00:00",
+    "last_checked": "2026-11-18T13:42:29.772015"
   },
   "e2a7004bbfb39c2c": {
     "url": "https://archgrants.org/programs/startup-competition",
@@ -1543,6 +1535,7 @@
     "last_known_deadline": null,
     "reason": "closed at discovery; likely annual",
     "id": "e2a7004bbfb39c2c",
-    "added": "2026-11-17T14:26:57.707845+00:00"
+    "added": "2026-11-18T13:42:48.981477+00:00",
+    "last_checked": "2026-11-18T13:42:48.980619"
   }
 }
