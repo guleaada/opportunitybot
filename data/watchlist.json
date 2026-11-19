@@ -22,8 +22,8 @@
     "last_known_deadline": null,
     "reason": "closed at discovery; likely annual",
     "id": "6b657eab465b6a34",
-    "added": "2026-09-08T09:29:56.098372+00:00",
-    "last_checked": "2026-09-08T09:29:56.097870"
+    "added": "2026-11-19T14:10:38.004874+00:00",
+    "last_checked": "2026-11-19T14:10:38.004294"
   },
   "f60a7785aabc9c62": {
     "url": "https://www.starsfellows.africa/applyattypp",
@@ -31,8 +31,8 @@
     "last_known_deadline": "2026-01-31",
     "reason": "closed at discovery; likely annual",
     "id": "f60a7785aabc9c62",
-    "added": "2026-09-08T09:30:02.894468+00:00",
-    "last_checked": "2026-09-08T09:30:02.893950"
+    "added": "2026-11-19T14:10:39.904046+00:00",
+    "last_checked": "2026-11-19T14:10:39.903430"
   },
   "ce547ee658f3e75b": {
     "url": "https://commonwealthfoundation.com/grants/annual",
@@ -40,24 +40,16 @@
     "last_known_deadline": null,
     "reason": "closed at discovery; likely annual",
     "id": "ce547ee658f3e75b",
-    "added": "2026-09-09T09:26:56.029253+00:00",
-    "last_checked": "2026-09-09T09:26:56.028790"
-  },
-  "6e6fab9c414147d0": {
-    "url": "https://opportunitiesforyouth.org/2026/03/18/unlock-global-grants-for-africa-free-funding-opportunities-networking-and-program-support-for-organizations",
-    "title": "Unlock Global Grants for Africa: Free Funding ...",
-    "reason": "ANALYSIS_UNAVAILABLE — all model providers were unavailable; retry when quota resets",
-    "id": "6e6fab9c414147d0",
-    "added": "2026-09-09T09:26:58.098462+00:00",
-    "last_checked": "2026-09-09T09:26:58.098064"
+    "added": "2026-11-19T14:10:41.683547+00:00",
+    "last_checked": "2026-11-19T14:10:41.682961"
   },
   "b764eacdc3cdffc1": {
     "url": "https://www.facebook.com/newmuseum/posts/open-call-for-new-incs-year-13-incubator-members-is-now-live-applications-are-du/1460375948992021",
     "title": "New Museum - Open Call for NEW INC's Year 13 Incubator...",
     "reason": "ANALYSIS_UNAVAILABLE — all model providers were unavailable; retry when quota resets",
     "id": "b764eacdc3cdffc1",
-    "added": "2026-09-09T09:28:55.568362+00:00",
-    "last_checked": "2026-09-09T09:28:55.567991"
+    "added": "2026-11-19T14:11:16.404906+00:00",
+    "last_checked": "2026-11-19T14:11:16.404414"
   },
   "a9b18e05f89df8d3": {
     "url": "https://opportunitiesforyouth.org/2026/05/12/apply-now-fully-funded-presidential-leadership-scholars-program-2026",
@@ -1537,5 +1529,29 @@
     "id": "e2a7004bbfb39c2c",
     "added": "2026-11-18T13:42:48.981477+00:00",
     "last_checked": "2026-11-18T13:42:48.980619"
+  },
+  "edb89fda5f8f1de4": {
+    "url": "https://www.ohchr.org/en/about-us/fellowship-programmes/fellowship-programme-people-african-descent",
+    "title": "Fellowship programme for people of African descent",
+    "last_known_deadline": null,
+    "reason": "closed at discovery; likely annual",
+    "id": "edb89fda5f8f1de4",
+    "added": "2026-11-19T14:13:47.290436+00:00"
+  },
+  "cb3a03afc62d4e3d": {
+    "url": "https://grantedai.com/grants/accelerate-africa-startup-programme-future-africa-in-partnership-with-ecosys-5176e14f",
+    "title": "Accelerate Africa Startup Programme (2026) | Granted AI",
+    "last_known_deadline": null,
+    "reason": "closed at discovery; likely annual",
+    "id": "cb3a03afc62d4e3d",
+    "added": "2026-11-19T14:14:04.314859+00:00"
+  },
+  "e19c5b369a4b46b5": {
+    "url": "https://transformthehustle.substack.com/p/august-2026-over-1-million-in-grants",
+    "title": "August 2026: Over $1 Million in Grants for Entrepreneurs, Creators, and Makers",
+    "last_known_deadline": "2026-08-24",
+    "reason": "closed at discovery; likely annual",
+    "id": "e19c5b369a4b46b5",
+    "added": "2026-11-19T14:15:10.794650+00:00"
   }
 }
