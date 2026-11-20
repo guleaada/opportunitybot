@@ -23172,5 +23172,254 @@
     "id": "ee943f508116a7b8",
     "first_seen": "2026-11-19T14:21:55.772891+00:00",
     "last_updated": "2026-11-19T14:21:55.772907+00:00"
+  },
+  "b4fc1023f08c17fd": {
+    "url": "https://www.opportunitiesforafricans.com/the-hiv-science-geneva-2027-media-scholarship-programme-to-cover-hivr4p-2027-and-ias-2027/",
+    "title": "The HIV Science Geneva 2027 Media Scholarship Programme to cover HIVR4P 2027 and IAS 2027 in Geneva, Switzerland (Fully Funded)",
+    "status": "unknown",
+    "eligibility_status": "UNCERTAIN",
+    "model_eligibility_status": "UNCERTAIN",
+    "missing_requirements": [
+      "Verification of belonging to one of the stipulated media categories (journalist, media specialist, or social media influencer)."
+    ],
+    "blocking_issues": [],
+    "addressable_gaps": [
+      "Provide documentation or a portfolio showing work as a journalist, media specialist, or social media influencer (e.g., published articles, media credits, influencer metrics)."
+    ],
+    "reasoning": "The program requires applicants to belong to one of three media categories (journalist, media specialist, or social media influencer) and be at least 18 years old. The candidate is 27, so the age criterion is met. No nationality restriction is stated, so Ethiopian citizenship is not a blocker. However, the candidate’s profile does not explicitly demonstrate that they are a journalist, media specialist, or social media influencer; they are described as an AI developer, marketing specialist, psychologist, and community leader. Without verifiable evidence of meeting the media‑category requirement, eligibility cannot be confirmed.",
+    "id": "b4fc1023f08c17fd",
+    "first_seen": "2026-11-20T13:54:12.279876+00:00",
+    "last_updated": "2026-11-20T13:54:12.279891+00:00"
+  },
+  "b651d68c7133be77": {
+    "url": "https://www.opportunitiesforafricans.com/reporters-without-borders-rsf-berlin-fellowship-2027/",
+    "title": "The Reporters Without Borders (RSF) Berlin Fellowship 2027 for journalists worldwide (Fully Funded to Berlin, Germany)",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "model_eligibility_status": "CONFIRMED_INELIGIBLE",
+    "missing_requirements": [],
+    "blocking_issues": [
+      "Career requirement: not a journalist (hard blocker)",
+      "Minimum 3 years journalism experience not demonstrated (hard blocker)"
+    ],
+    "addressable_gaps": [
+      "English language proof (can obtain Duolingo or MOI certificate)"
+    ],
+    "reasoning": "The RSF Berlin Fellowship explicitly requires applicants to be \"working journalists with at least three years’ professional experience\". Gulilat Kasiye Worku's profile lists experience as AI developer, marketing specialist, psychologist, and community leader, with no indication of any journalistic work. Therefore the core professional eligibility criterion is not met, which is a hard blocker. English fluency is required, but the candidate can obtain a test score; however this does not overcome the primary career mismatch.",
+    "id": "b651d68c7133be77",
+    "first_seen": "2026-11-20T13:55:26.683412+00:00",
+    "last_updated": "2026-11-20T13:55:26.683428+00:00"
+  },
+  "6eafb6ac44cab28f": {
+    "url": "https://www.opportunitiesforafricans.com/the-taz-panter-foundation-rest-resilience-fellowship-2027-for-journalists-worldwide/",
+    "title": "The taz Panter Foundation Rest & Resilience Fellowship 2027 for journalists worldwide (Fully Funded to Berlin, Germany)",
+    "status": "legitimacy_unknown",
+    "credibility_status": "NEEDS_VERIFICATION",
+    "source_tier": "TIER_3",
+    "reasoning": "The page does not request any application or participation fees, which is a positive sign, but the fellowship is only described on an aggregator site with no direct link to an official taz Panter Foundation website and uses a generic @opportunitiesforafricans.com email address, making the sponsoring organization difficult to verify.",
+    "id": "6eafb6ac44cab28f",
+    "first_seen": "2026-11-20T13:56:17.434475+00:00",
+    "last_updated": "2026-11-20T13:56:17.434492+00:00"
+  },
+  "f6d3376edd4c058d": {
+    "url": "https://www.facebook.com/fullyfundedscholarships2027/videos/13-fully-funded-scholarships-2027-with-deadline-before-december-31-2026if-you-ar/1141713401669591",
+    "title": "45K views · 455 reactions | 13 Fully Funded Scholarships 2027 With Deadline Before December 31, 2026\nIf you are planning to study abroad in 2027, here are 13 international scholarships and fellowships with deadlines closing before December 31, 2026. Shortlist them early and start preparing your applications now.\n\nhttps://daadscholarship.com/13-international-scholarships-2027-deadlines-before-december-31-2026/\n\n1. Tomorrow's Leaders Scholarship 2027–2028 — 18 Nov 2026\n2. Yenching Academy Scholarship 2027 — 30 Nov 2026\n3. Hong Kong PhD Fellowship Scheme 2027/28 — 1 Dec 2026\n4. TU Delft Justus & Louise van Effen Excellence Scholarship — 1 Dec 2026\n5. Leiden University Excellence Scholarship — Check applicable intake/faculty\n6. Ellison Graduate Scholars Programme 2027 — 1 Dec 2026\n7. HKU Presidential PhD Scholar Programme — Check current HKU admission round\n8. Yale World Fellows Programme 2027 — 2 Dec 2026\n9. Commonwealth Shared Scholarships 2027/28 — 8 Dec 2026\n10. Gates Cambridge Scholarship 2027–2028 — 8 Dec 2026\n11. ENS–PSL International Selection 2027 — 15 Dec 2026\n12. EPFL Excellence Fellowships 2027 — 15 Dec 2026\n13. MBZUAI Scholarships 2027 — 15 Dec 2026\n\n#Scholarships2027 #StudyAbroad #FullyFundedScholarships #InternationalScholarships #MastersScholarships #PhDScholarships #BachelorsScholarships #StudyInUK #StudyInChina #StudyInEurope #StudyInUAE #ScholarshipDeadline #AbroadAdmissions #HigherEducation #Students #ScholarshipAlert #StudyForFree #GlobalOpportunities #EducationOpportunities #ApplyNow | Fully Funded Scholarships",
+    "status": "legitimacy_unknown",
+    "credibility_status": "NEEDS_VERIFICATION",
+    "source_tier": "TIER_4",
+    "reasoning": "The post lists well‑known, reputable scholarships and does not request any payment, but it is hosted on a non‑official domain (daadscholarship.com) and appears via a Facebook video, providing limited verifiable information about the organizer.",
+    "id": "f6d3376edd4c058d",
+    "first_seen": "2026-11-20T13:56:40.722647+00:00",
+    "last_updated": "2026-11-20T13:56:40.722659+00:00"
+  },
+  "5b1cc0bcebc0edde": {
+    "url": "https://www.opportunitiesforafricans.com/the-global-citizen-prize-cisco-youth-leadership-award-2027/",
+    "title": "The Global Citizen Prize: Cisco Youth Leadership Award 2027 for inspiring Youth Leaders (US$250,000 prize)",
+    "status": "notified",
+    "score": 5.8,
+    "category": null,
+    "official_url": "https://www.opportunitiesforafricans.com/the-global-citizen-prize-cisco-youth-leadership-award-2027/",
+    "location": null,
+    "remote": null,
+    "deadline": "2026-12-18",
+    "reward": "fully_funded",
+    "estimated_value": null,
+    "eligibility_status": "PROBABLY_ELIGIBLE",
+    "credibility_status": "LIKELY_LEGITIMATE",
+    "source_tier": "TIER_3",
+    "source_quality": 7,
+    "requirements": [],
+    "id": "5b1cc0bcebc0edde",
+    "first_seen": "2026-11-20T13:58:13.338935+00:00",
+    "last_updated": "2026-11-20T14:08:02.490198+00:00",
+    "notification_tier": "GOOD",
+    "notified_at": "2026-11-20T14:08:02.471791+00:00"
+  },
+  "22d32f51851aef1c": {
+    "url": "https://www.opportunitiesforafricans.com/the-nivea-connect-2026-gen-z-research-grants-program/",
+    "title": "The NIVEA CONNECT 2026 Gen Z Research Grants program for researchers worldwide (€30,000 grant)",
+    "status": "legitimacy_unknown",
+    "credibility_status": "NEEDS_VERIFICATION",
+    "source_tier": "TIER_3",
+    "reasoning": "The page lists a €20,000–€30,000 seed grant with no application fee, which is a positive sign, but it provides no direct link to an official NIVEA or Beiersdorf website and only offers generic email contacts, making it impossible to verify the sponsor’s existence from the information given.",
+    "id": "22d32f51851aef1c",
+    "first_seen": "2026-11-20T13:58:56.421286+00:00",
+    "last_updated": "2026-11-20T13:58:56.421302+00:00"
+  },
+  "ba3094ad32d9a831": {
+    "url": "https://www.opportunitiesforafricans.com/the-ias-person-centred-care-global-advocacy-academy-2027/",
+    "title": "The IAS Person-Centred Care Global Advocacy Academy 2027 (Fully Funded to Geneva, Switzerland)",
+    "status": "ineligible",
+    "eligibility_status": "PROBABLY_INELIGIBLE",
+    "model_eligibility_status": "PROBABLY_INELIGIBLE",
+    "missing_requirements": [],
+    "blocking_issues": [
+      "No demonstrated involvement in HIV or related health field for the past two years",
+      "No affiliation/employment with an HIV or related health sector organization"
+    ],
+    "addressable_gaps": [
+      "Obtain documented experience or volunteer work in HIV‑related advocacy/research/healthcare",
+      "Secure affiliation with an HIV‑focused organization"
+    ],
+    "reasoning": "The program requires at least two years of involvement as an advocate, researcher, or healthcare provider in the HIV or related health field and affiliation with an HIV‑related organization. The candidate’s profile shows experience as an AI developer, marketer, psychologist, and community leader, but no evidence of work or advocacy in HIV or related health sectors. This does not satisfy the core eligibility criteria. English proficiency is claimed and acceptable, and the candidate’s Ethiopian nationality aligns with the program’s focus on Africans.",
+    "id": "ba3094ad32d9a831",
+    "first_seen": "2026-11-20T14:00:01.347733+00:00",
+    "last_updated": "2026-11-20T14:00:01.347748+00:00"
+  },
+  "8fcdf0d6ecfdbadd": {
+    "url": "https://www.opportunitiesforafricans.com/funza-lushaka-bursary-programme-2027-for-young-south-africans/",
+    "title": "Funza Lushaka Bursary Programme 2027 for young South Africans",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "model_eligibility_status": "CONFIRMED_INELIGIBLE",
+    "missing_requirements": [],
+    "blocking_issues": [
+      "Nationality: Ethiopian (program requires South African citizenship or permanent residency)",
+      "Student status: not currently enrolled in a teacher education program (program likely requires enrolment)"
+    ],
+    "addressable_gaps": [],
+    "reasoning": "The Funza Lushaka Bursary Programme explicitly targets \"young South Africans\". The candidate is an Ethiopian national, which does not meet the nationality requirement. Additionally, the programme is a bursary for teacher training, implying enrolment in a relevant study program, whereas the candidate is a working professional and not currently a student.",
+    "id": "8fcdf0d6ecfdbadd",
+    "first_seen": "2026-11-20T14:00:50.112002+00:00",
+    "last_updated": "2026-11-20T14:00:50.112019+00:00"
+  },
+  "29c4bb5feb976223": {
+    "url": "https://opportunitiesfeed.com/2026/08/19/international-training-and-certificate",
+    "title": "Fully Funded International Training and Certificate Programmes 2026 With Remote Options – Apply Now - Opportunities Feed",
+    "status": "analyzed",
+    "score": 4.3,
+    "category": "programs",
+    "official_url": "https://opportunitiesfeed.com/2026/08/19/international-training-and-certificate",
+    "location": null,
+    "remote": null,
+    "deadline": null,
+    "reward": "partial",
+    "estimated_value": null,
+    "eligibility_status": "PROBABLY_ELIGIBLE",
+    "credibility_status": "LIKELY_LEGITIMATE",
+    "source_tier": "TIER_4",
+    "source_quality": 0,
+    "requirements": [
+      "CV or Resume",
+      "Motivation Statement",
+      "Academic Documents (e.g., Transcript, Degree certificate, Proof of enrolment)",
+      "Language Evidence (proof of English or other language proficiency)"
+    ],
+    "id": "29c4bb5feb976223",
+    "first_seen": "2026-11-20T14:03:38.306154+00:00",
+    "last_updated": "2026-11-20T14:03:38.306167+00:00"
+  },
+  "c63c13089b158a61": {
+    "url": "https://www.opportunitiesforafricans.com/the-cambridge-africa-climate-collaborative-research-fund-2026-2027-for-african-researchers/",
+    "title": "The Cambridge Africa Climate Collaborative Research Fund 2026/2027 for African Researchers.",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "model_eligibility_status": "CONFIRMED_INELIGIBLE",
+    "missing_requirements": [],
+    "blocking_issues": [
+      "Degree/academic level mismatch: requires post‑doctoral level (candidate only has a bachelor's degree)."
+    ],
+    "addressable_gaps": [],
+    "reasoning": "The program explicitly requires applicants to be African researchers at post‑doctoral level or above, working in partnership with a Cambridge‑based researcher. The candidate holds only a BSc and is a working professional, not a post‑doctoral researcher, thus does not meet the core eligibility criterion.",
+    "id": "c63c13089b158a61",
+    "first_seen": "2026-11-20T14:04:44.293129+00:00",
+    "last_updated": "2026-11-20T14:04:44.293144+00:00"
+  },
+  "8d1873564d5be019": {
+    "url": "https://www.opportunitiesforafricans.com/the-klaus-j-jacobs-research-prize-2027-for-research-on-child-and-youth-development/",
+    "title": "The Klaus J. Jacobs Research Prize 2027 for Research on Child and Youth Development (1 million Swiss Francs)",
+    "status": "unknown",
+    "eligibility_status": "UNCERTAIN",
+    "model_eligibility_status": "UNCERTAIN",
+    "missing_requirements": [
+      "Proof of ground‑breaking research contributions in the field of child and youth development",
+      "Evidence that the candidate is an active researcher with several years of research career ahead"
+    ],
+    "blocking_issues": [],
+    "addressable_gaps": [
+      "Provide documentation of research publications, projects, or contributions specifically related to child and youth development and learning",
+      "Demonstrate active researcher status (e.g., CV with research experience, affiliation with a research institution, grant history)"
+    ],
+    "reasoning": "The prize requires the applicant to be an active researcher with major, ground‑breaking contributions to child and youth development. The candidate’s profile shows professional experience in AI, marketing, and psychology but provides no evidence of research output or relevance to child/youth development. This decision‑relevant criterion cannot be verified, so eligibility cannot be confirmed.",
+    "id": "8d1873564d5be019",
+    "first_seen": "2026-11-20T14:05:38.413079+00:00",
+    "last_updated": "2026-11-20T14:05:38.413094+00:00"
+  },
+  "4c3727bac6c3d9ff": {
+    "url": "https://www.opportunitiesforafricans.com/the-developpp-ventures-ideas-competition-2027/",
+    "title": "The develoPPP Ventures Ideas Competition 2027 for young Entrepreneurs (non-dilutive capital of 100,000 euros)",
+    "status": "ineligible",
+    "eligibility_status": "PROBABLY_INELIGIBLE",
+    "model_eligibility_status": "PROBABLY_INELIGIBLE",
+    "missing_requirements": [
+      "Evidence of a legally registered company in an eligible country",
+      "Proof of initial revenues and financial statements",
+      "Matching‑fund commitments",
+      "Detailed business and financial plan meeting the competition’s criteria"
+    ],
+    "blocking_issues": [],
+    "addressable_gaps": [
+      "Register the start‑up in one of the eligible countries before funding begins",
+      "Demonstrate that the start‑up phase is completed and that initial revenues have been generated",
+      "Provide at least one annual financial statement for the company",
+      "Secure matching‑fund commitments from other financiers",
+      "Ensure total prior funding is ≤ €2 million and present a viable financial plan showing break‑even within three years"
+    ],
+    "reasoning": "The competition requires a start‑up that is already in the post‑seed phase, has generated initial revenues, can provide at least one annual financial statement, and is registered (or plans to register) in one of the eight eligible African countries (Côte d’Ivoire, Egypt, Ghana, Kenya, Nigeria, Rwanda, South Africa, Tanzania). The candidate’s profile does not confirm any registered company, revenue generation, financial statements, or registration in an eligible country. While these gaps are potentially addressable, they are not currently satisfied, making eligibility unlikely.",
+    "id": "4c3727bac6c3d9ff",
+    "first_seen": "2026-11-20T14:06:35.389622+00:00",
+    "last_updated": "2026-11-20T14:06:35.389637+00:00"
+  },
+  "10f10063a5d6318d": {
+    "url": "https://reigngigs.com/2026/07/24/african-ngo-funding",
+    "title": "African NGO Funding Opportunities 2027 – International Grants for NGOs, Civil Society, and Community Organizations - Reign Gigs",
+    "status": "legitimacy_unknown",
+    "credibility_status": "NEEDS_VERIFICATION",
+    "source_tier": "TIER_4",
+    "reasoning": "The page is a generic aggregator listing of potential African NGO funding opportunities without naming specific donors, application links, or fee requirements, making it impossible to verify any particular program's legitimacy. No explicit red‑flag language or payment requests are present, but the lack of concrete details prevents a confident assessment.",
+    "id": "10f10063a5d6318d",
+    "first_seen": "2026-11-20T14:06:52.070639+00:00",
+    "last_updated": "2026-11-20T14:06:52.070658+00:00"
+  },
+  "742240b9396bb8d6": {
+    "url": "https://www.facebook.com/MrBasharGulumbe/posts/7-currently-open-grant-opportunities-africans-can-apply-for-/122250468698053141",
+    "title": "Bashar Gulumbe on Facebook: \"7 currently open grant opportunities Africans can apply for 👇👇\"",
+    "status": "analyzed",
+    "score": 3.5,
+    "category": "grants",
+    "official_url": "https://www.facebook.com/MrBasharGulumbe/posts/7-currently-open-grant-opportunities-africans-can-apply-for-/122250468698053141",
+    "location": null,
+    "remote": null,
+    "deadline": null,
+    "reward": "partial",
+    "estimated_value": null,
+    "eligibility_status": "PROBABLY_ELIGIBLE",
+    "credibility_status": "LIKELY_LEGITIMATE",
+    "source_tier": "TIER_4",
+    "source_quality": 0,
+    "requirements": [],
+    "id": "742240b9396bb8d6",
+    "first_seen": "2026-11-20T14:07:59.614365+00:00",
+    "last_updated": "2026-11-20T14:07:59.614380+00:00"
   }
 }
