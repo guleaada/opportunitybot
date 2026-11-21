@@ -23421,5 +23421,228 @@
     "id": "742240b9396bb8d6",
     "first_seen": "2026-11-20T14:07:59.614365+00:00",
     "last_updated": "2026-11-20T14:07:59.614380+00:00"
+  },
+  "8ee8456e25583f51": {
+    "url": "https://www.opportunitiesforafricans.com/the-university-of-cambridge-mastercard-foundation-scholars-programme-2027-2028/",
+    "title": "The University of Cambridge Mastercard Foundation Scholars Programme 2027/2028 for young Africans (Fully Funded)",
+    "status": "unknown",
+    "eligibility_status": "UNCERTAIN",
+    "model_eligibility_status": "UNCERTAIN",
+    "missing_requirements": [
+      "Explicit English language proficiency requirement (not stated in the page).",
+      "Specific academic prerequisites for the chosen master’s course (e.g., GPA, prerequisite subjects).",
+      "Confirmation of the candidate's temporary absence status for work or study."
+    ],
+    "blocking_issues": [],
+    "addressable_gaps": [
+      "Obtain an English proficiency test accepted by Cambridge (e.g., Duolingo English Test, IELTS, TOEFL, or a Medium of Instruction certificate).",
+      "Provide documentation that the current work placement in Laos is a temporary assignment for study or work, satisfying the residency exception."
+    ],
+    "reasoning": "The programme requires the applicant to be a citizen of an African country (met) and to be resident in an African country unless they can demonstrate a temporary absence for study or work. The candidate is an Ethiopian citizen but currently resides in Laos and is a working professional, not a student. No evidence is provided that the overseas work is a temporary assignment approved by the programme, so this key residency criterion cannot be verified. All other listed requirements (age, degree level, excluded master’s programmes) are either met or not mentioned. English language proficiency is not stated in the programme text, so it is a missing but addressable requirement.",
+    "id": "8ee8456e25583f51",
+    "first_seen": "2026-11-21T13:18:06.442375+00:00",
+    "last_updated": "2026-11-21T13:18:06.442386+00:00"
+  },
+  "7351880fa07e28bf": {
+    "url": "https://www.linkedin.com/pulse/31-fully-funded-scholarships-20262027-r4plf",
+    "title": "🎓🌍 31 Fully Funded Scholarships for 2026–2027 | Bachelor's, Master's, PhD, Fellowships, Research, AI, Leadership & Global Study Opportunities 🚀",
+    "status": "legitimacy_unknown",
+    "credibility_status": "NEEDS_VERIFICATION",
+    "source_tier": "TIER_4",
+    "reasoning": "The post lists many well‑known scholarships (DAAD, Marshall, etc.) and does not request any payment, which are positive signs. However, every entry links through a wp.me short URL, obscuring the true destination and preventing verification of the official application pages, which is a common tactic in fraudulent listings.",
+    "id": "7351880fa07e28bf",
+    "first_seen": "2026-11-21T13:19:10.370586+00:00",
+    "last_updated": "2026-11-21T13:19:10.370601+00:00"
+  },
+  "48d5d8300b86f013": {
+    "url": "https://www.opportunitiesforafricans.com/the-central-bank-of-kenya-cbk-internship-programme-2026-for-young-kenyan-graduates/",
+    "title": "The Central Bank of Kenya (CBK) Internship Programme 2026 for young Kenyan graduates",
+    "status": "suspicious",
+    "credibility_status": "SUSPICIOUS",
+    "source_tier": "TIER_3",
+    "reasoning": "The program is claimed to be run by the Central Bank of Kenya, but the application link points to an unrelated domain (careers.jkuates.co.ke) instead of the official CBK website (cbk.go.ke). The contact emails are generic placeholders and not official CBK addresses, which are typical red flags for a potential phishing or scam posting.",
+    "id": "48d5d8300b86f013",
+    "first_seen": "2026-11-21T13:19:55.416345+00:00",
+    "last_updated": "2026-11-21T13:19:55.416358+00:00"
+  },
+  "5ef21ad82b111f1e": {
+    "url": "https://www.opportunitiesforafricans.com/the-first-ibam-group-graduate-trainee-programme-2026-2027-for-young-nigerian-graduates/",
+    "title": "The First IBAM Group Graduate Trainee Programme 2026/2027 for young Nigerian graduates.",
+    "status": "legitimacy_unknown",
+    "credibility_status": "NEEDS_VERIFICATION",
+    "source_tier": "TIER_3",
+    "reasoning": "The listing provides no application fee information, which is typical for legitimate trainee programs, but it also lacks a direct link to an official IBAM Group page, gives an unspecified deadline, and only offers generic email contacts, making it impossible to verify the program's authenticity.",
+    "id": "5ef21ad82b111f1e",
+    "first_seen": "2026-11-21T13:20:32.703693+00:00",
+    "last_updated": "2026-11-21T13:20:32.703712+00:00"
+  },
+  "aad2b0928b20d590": {
+    "url": "https://www.opportunitiesforafricans.com/the-pps-foundations-bursary-programme-2027-for-young-south-african-students/",
+    "title": "The PPS Foundation’s Bursary Programme 2027 for young South African students.",
+    "status": "legitimacy_unknown",
+    "credibility_status": "NEEDS_VERIFICATION",
+    "source_tier": "TIER_3",
+    "reasoning": "The listing does not request any application fee, which is a good sign, but the PPS Foundation is not a widely recognized scholarship provider and the page provides no direct link to an official foundation website, only a generic aggregator link. The contact information is limited to generic email addresses, offering little verifiable evidence of the program’s authenticity.",
+    "id": "aad2b0928b20d590",
+    "first_seen": "2026-11-21T13:21:09.584288+00:00",
+    "last_updated": "2026-11-21T13:21:09.584301+00:00"
+  },
+  "2a792935233b7fe5": {
+    "url": "https://www.facebook.com/groups/1205429363520214/posts/2210701296326344",
+    "title": "Christop Dibbert on Facebook: \"Fully Funded Scholarships in America🇺🇲 for International Students 2027 Apply Link https://subtitrari…\"",
+    "status": "suspicious",
+    "credibility_status": "SUSPICIOUS",
+    "source_tier": "TIER_4",
+    "reasoning": "The post offers a generic 'fully funded' scholarship with no specific program name, sponsor, or official website; it is posted in a Facebook group by an individual and links to a non‑educational domain (subtitrari…), which are common traits of fraudulent scholarship ads.",
+    "id": "2a792935233b7fe5",
+    "first_seen": "2026-11-21T13:21:37.098480+00:00",
+    "last_updated": "2026-11-21T13:21:37.098490+00:00"
+  },
+  "3c6ac80628531724": {
+    "url": "https://www.opportunitiesforafricans.com/deloitte-nigerias-2026-africa-consulting-services-acs-academy-for-young-nigerian-graduates/",
+    "title": "Deloitte Nigeria’s 2026 Africa Consulting Services (ACS) Academy for young Nigerian graduates.",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "model_eligibility_status": "CONFIRMED_INELIGIBLE",
+    "missing_requirements": [
+      "Degree classification (second class upper/upper credit not verified)",
+      "Evidence of acceptable equivalent to WASSCE/NECO credits"
+    ],
+    "blocking_issues": [
+      "Nationality: program for Nigerian graduates only (candidate is Ethiopian)",
+      "Age limit exceeded (candidate is 27, limit is 26)",
+      "NYSC completion required (candidate cannot have completed Nigerian NYSC)",
+      "Secondary education requirement: minimum five WASSCE/NECO credits (candidate likely does not have these)"
+    ],
+    "addressable_gaps": [
+      "Provide official transcript showing degree classification (second class upper) if needed",
+      "Submit proof of an acceptable equivalent secondary qualification if the program accepts it"
+    ],
+    "reasoning": "The program explicitly targets \"young Nigerian graduates\" and lists several non‑negotiable criteria: must be a Nigerian national, must have completed the Nigerian Youth Service Corps (NYSC), must be 26 years old or younger, and must hold at least five credits in WASSCE/NECO (or an acceptable equivalent). The candidate is Ethiopian, has not completed NYSC, is 27 years old, and does not have WASSCE/NECO credits. These are hard blockers. Additional missing information (degree classification) does not change the ineligibility.",
+    "id": "3c6ac80628531724",
+    "first_seen": "2026-11-21T13:22:30.363317+00:00",
+    "last_updated": "2026-11-21T13:22:30.363329+00:00"
+  },
+  "68ab50b1e3090ace": {
+    "url": "https://www.opportunitiesforafricans.com/the-accountability-lab-east-and-southern-africa-alesa-2027-digital-governance-incubator-program-2027/",
+    "title": "The Accountability Lab East and Southern Africa (ALESA) 2027 Digital Governance Incubator Program 2027 for emerging young leaders.",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "model_eligibility_status": "CONFIRMED_INELIGIBLE",
+    "missing_requirements": [],
+    "blocking_issues": [
+      "nationality not eligible (Ethiopian)"
+    ],
+    "addressable_gaps": [],
+    "reasoning": "The program explicitly states that applications are accepted only from eligible young leaders in Zimbabwe, Malawi, and Tanzania. The candidate is an Ethiopian national, which does not meet this nationality requirement. All other criteria (age 27, no student status required, degree level acceptable) are met, but the nationality restriction is a hard blocker.",
+    "id": "68ab50b1e3090ace",
+    "first_seen": "2026-11-21T13:23:31.240151+00:00",
+    "last_updated": "2026-11-21T13:23:31.240171+00:00"
+  },
+  "61c587136d3b1c93": {
+    "url": "https://www.opportunitiesforafricans.com/sadc-secondary-school-essay-competition-2027/",
+    "title": "SADC Secondary School Essay Competition 2027 for students from SADC Member States (USD$ 3,250 Prize)",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "model_eligibility_status": "CONFIRMED_INELIGIBLE",
+    "missing_requirements": [],
+    "blocking_issues": [
+      "Candidate is not a secondary school learner (age and education level mismatch)",
+      "Candidate's nationality (Ethiopian) is not among SADC Member States"
+    ],
+    "addressable_gaps": [],
+    "reasoning": "The competition explicitly states it is open only to secondary school learners from SADC Member States. The candidate is a 27‑year‑old Ethiopian professional with a bachelor's degree, not a secondary school student, and Ethiopia is not a SADC member state.",
+    "id": "61c587136d3b1c93",
+    "first_seen": "2026-11-21T13:24:17.048834+00:00",
+    "last_updated": "2026-11-21T13:24:17.048849+00:00"
+  },
+  "0fbf3fb9cc41be2c": {
+    "url": "https://www.careerbridgeafrica.com/home?type=fellowship",
+    "title": "Jobs, Scholarships, Internships & Trainings in Africa | CareerBridge Africa",
+    "status": "unknown",
+    "eligibility_status": "UNCERTAIN",
+    "model_eligibility_status": "UNCERTAIN",
+    "missing_requirements": [
+      "Nationality eligibility for each fellowship",
+      "Age limits or caps",
+      "Whether candidates must be currently enrolled students or can be working professionals",
+      "Minimum degree level required (e.g., bachelor's, master's, PhD)",
+      "Specific English language proficiency thresholds"
+    ],
+    "blocking_issues": [],
+    "addressable_gaps": [
+      "Obtain an English proficiency test result (e.g., Duolingo, IELTS, TOEFL) or a Medium of Instruction certificate to satisfy potential language requirements."
+    ],
+    "reasoning": "The program page lists multiple fellowships but does not provide unified eligibility criteria such as nationality restrictions, age limits, required degree level, student status, or English proficiency requirements. Without these details, we cannot confirm whether the candidate meets the necessary conditions for any specific fellowship.",
+    "id": "0fbf3fb9cc41be2c",
+    "first_seen": "2026-11-21T13:25:13.099242+00:00",
+    "last_updated": "2026-11-21T13:25:13.099257+00:00"
+  },
+  "2b3b66a42897d0a4": {
+    "url": "https://www.thebritishacademy.ac.uk/funding/schemes/international-fellowships",
+    "title": "International Fellowships 2026\n      \n      \n        \n           | The British Academy",
+    "status": "filtered_out",
+    "reason": "Application is closed",
+    "id": "2b3b66a42897d0a4",
+    "first_seen": "2026-11-21T13:25:19.900147+00:00",
+    "last_updated": "2026-11-21T13:25:19.900159+00:00"
+  },
+  "58e22bc06fa9c441": {
+    "url": "https://aspirecompass.org/fellowships",
+    "title": "International Fellowships 2026–2027 | Funded Opportunities",
+    "status": "unknown",
+    "eligibility_status": "UNCERTAIN",
+    "model_eligibility_status": "UNCERTAIN",
+    "missing_requirements": [
+      "Specific nationality eligibility for each listed fellowship",
+      "Age caps (if any) for the fellowships",
+      "Degree‑level requirement (e.g., PhD or graduate degree) for each fellowship",
+      "Whether the applicant must be currently enrolled as a student or can be a working professional",
+      "Open call status and nomination procedures for each fellowship"
+    ],
+    "blocking_issues": [],
+    "addressable_gaps": [
+      "English proficiency proof – can obtain Duolingo English Test or MOI certificate"
+    ],
+    "reasoning": "The page lists a set of international fellowships (e.g., MSCA Postdoctoral, Humphrey, Humboldt) but does not provide concrete eligibility criteria such as nationality restrictions, age limits, required degree level for each call, or whether the applicant must be currently enrolled as a student. While the candidate meets the general profile of an emerging professional with a bachelor's degree, the lack of explicit rules on nationality, age, and degree level means we cannot confirm eligibility. The candidate can address the English‑language requirement, but the decisive eligibility factors remain unspecified.",
+    "id": "58e22bc06fa9c441",
+    "first_seen": "2026-11-21T13:26:57.285810+00:00",
+    "last_updated": "2026-11-21T13:26:57.285823+00:00"
+  },
+  "702c2199acd6b3de": {
+    "url": "https://www.campusfrance.org/en/mopga-2027",
+    "title": "MOPGA 2027: Visiting Fellowship Program for Early Career Researchers | Campus France",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "model_eligibility_status": "CONFIRMED_INELIGIBLE",
+    "missing_requirements": [],
+    "blocking_issues": [
+      "Degree level mismatch: requires a PhD awarded within the last 5 years; candidate only has a BSc"
+    ],
+    "addressable_gaps": [],
+    "reasoning": "The program explicitly requires applicants to hold a doctoral degree awarded less than five years before the deadline (PhD defended between Dec 2021 and Dec 2026). The candidate only has a BSc degree and no PhD, which does not meet this core eligibility criterion. All other stated requirements (foreign nationality, not residing in France, no prior MOPGA fellowship) are satisfied, but the missing doctoral degree is a non‑negotiable hard blocker.",
+    "id": "702c2199acd6b3de",
+    "first_seen": "2026-11-21T13:28:19.523397+00:00",
+    "last_updated": "2026-11-21T13:28:19.523409+00:00"
+  },
+  "7beb59e0fed97d3e": {
+    "url": "https://www.facebook.com/MrBasharGulumbe/posts/18-funded-visiting-scholar-and-visiting-research-fellowship-opportunities-curren/122250622238053141",
+    "title": "Bashar Gulumbe on Facebook: \"18 funded visiting scholar and visiting research fellowship opportunities currently open. Some provi…\"",
+    "status": "unknown",
+    "eligibility_status": "UNCERTAIN",
+    "model_eligibility_status": "UNCERTAIN",
+    "missing_requirements": [
+      "required academic degree level (e.g., PhD, Master's)",
+      "current affiliation with a university or research institution",
+      "age limits (if any)",
+      "nationality or residency restrictions",
+      "English language proficiency requirements"
+    ],
+    "blocking_issues": [],
+    "addressable_gaps": [],
+    "reasoning": "The program description provides only a list of visiting scholar/fellowship opportunities without stating any explicit eligibility criteria such as required degree level, current academic affiliation, age limits, or nationality restrictions. Because we cannot verify whether the candidate meets these potentially critical requirements, the eligibility cannot be confirmed nor ruled out.",
+    "id": "7beb59e0fed97d3e",
+    "first_seen": "2026-11-21T13:28:55.536200+00:00",
+    "last_updated": "2026-11-21T13:28:55.536212+00:00"
   }
 }
