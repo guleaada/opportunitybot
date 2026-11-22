@@ -3033,7 +3033,7 @@
     "reasoning": "No reasoning returned.",
     "id": "549244728e41d0bf",
     "first_seen": "2026-08-18T05:32:41.630342+00:00",
-    "last_updated": "2026-09-12T09:06:29.746766+00:00",
+    "last_updated": "2026-11-22T13:07:44.915007+00:00",
     "analysis_recovery_queued": true,
     "deadline": "2026-09-07"
   },
@@ -3052,15 +3052,22 @@
   "e3c052a42c64239f": {
     "url": "https://www.opportunitiesforafricans.com/meta-ai-academy-nigeria/",
     "title": "Meta AI Academy Nigeria for Nigerian developers, startups, students, and early-career professionals (US$5,000 in equity-free funding)",
-    "status": "closed",
+    "status": "ineligible",
     "credibility_status": "NEEDS_VERIFICATION",
     "source_tier": "TIER_3",
-    "reasoning": "No reasoning returned.",
+    "reasoning": "The program explicitly states that applications are open only to Nigerian developers, startups, students, and early‑career professionals. The candidate is an Ethiopian national, which does not meet the nationality requirement.",
     "id": "e3c052a42c64239f",
     "first_seen": "2026-08-18T05:34:36.468729+00:00",
-    "last_updated": "2026-09-13T10:03:01.332288+00:00",
+    "last_updated": "2026-11-22T13:08:42.257988+00:00",
     "analysis_recovery_queued": true,
-    "deadline": "2026-08-21"
+    "deadline": "2026-08-21",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "model_eligibility_status": "CONFIRMED_INELIGIBLE",
+    "missing_requirements": [],
+    "blocking_issues": [
+      "Hard blocker: Nationality mismatch – program limited to Nigerian applicants only."
+    ],
+    "addressable_gaps": []
   },
   "0c44a386fa0efbaf": {
     "url": "https://weworkremotely.com/remote-jobs/edfinity-senior-software-engineer-remote",
@@ -23644,5 +23651,210 @@
     "id": "7beb59e0fed97d3e",
     "first_seen": "2026-11-21T13:28:55.536200+00:00",
     "last_updated": "2026-11-21T13:28:55.536212+00:00"
+  },
+  "c91b27f3c2264914": {
+    "url": "https://www.opportunitiesforafricans.com/the-africaeu-space-partnership-programme-aespp-business-innovation-programme/",
+    "title": "The Africa–EU Space Partnership Programme (AESPP) Business Innovation Programme for African-registered EO businesses (€20,000 in milestone-based funding)",
+    "status": "ineligible",
+    "eligibility_status": "PROBABLY_INELIGIBLE",
+    "model_eligibility_status": "PROBABLY_INELIGIBLE",
+    "missing_requirements": [
+      "Exact documentation required to prove business registration and EO activity (not listed on the page).",
+      "Any language proficiency or English test requirements (not stated).",
+      "Potential age or experience limits (not mentioned)."
+    ],
+    "blocking_issues": [
+      "Applicant is not an African‑registered Earth Observation (EO) business; the programme is for businesses/start‑ups, not individual professionals."
+    ],
+    "addressable_gaps": [
+      "Candidate could establish an EO‑focused company in Africa and obtain the necessary registration documents.",
+      "Candidate could develop EO services or products to demonstrate EO activity."
+    ],
+    "reasoning": "The programme explicitly targets \"African-registered EO businesses\" (start‑ups or SMEs) for a €20,000 milestone‑based grant. The candidate is an individual professional with a BSc in Psychology and no evidence of an Earth Observation (EO) business or company registration. While the candidate’s nationality, age, and education are not disqualifying, the core eligibility criterion – being a registered EO business – is not met.",
+    "id": "c91b27f3c2264914",
+    "first_seen": "2026-11-22T13:10:10.820145+00:00",
+    "last_updated": "2026-11-22T13:10:10.820161+00:00"
+  },
+  "8d28bd3558d9e342": {
+    "url": "https://www.opportunitiesforafricans.com/the-dataphyte-foundation-infra-watch-media-fellowship-2026-for-nigerian-journalists/",
+    "title": "The Dataphyte Foundation Infra-watch Media Fellowship 2026 for Nigerian journalists.",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "model_eligibility_status": "CONFIRMED_INELIGIBLE",
+    "missing_requirements": [],
+    "blocking_issues": [
+      "Nationality not Nigerian (Ethiopian)",
+      "Does not work as a journalist (no journalism track record)",
+      "Employer consent required for staff journalists (not applicable)"
+    ],
+    "addressable_gaps": [],
+    "reasoning": "The fellowship explicitly states it is open only to Nigerian journalists. The candidate is an Ethiopian national, not Nigerian, and has no documented experience as a journalist, nor employer consent as a staff journalist. These are hard blockers.",
+    "id": "8d28bd3558d9e342",
+    "first_seen": "2026-11-22T13:11:05.167008+00:00",
+    "last_updated": "2026-11-22T13:11:05.167024+00:00"
+  },
+  "4a93e075be758733": {
+    "url": "https://www.opportunitiesforafricans.com/the-itu-secretary-generals-youth-advisory-board-cohort-2/",
+    "title": "​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​The ITU Secretary-General’s Youth Advisory Board​​​ cohort 2 for young leaders worldwide.",
+    "status": "analyzed",
+    "score": 3.8,
+    "category": null,
+    "official_url": "https://www.opportunitiesforafricans.com/the-itu-secretary-generals-youth-advisory-board-cohort-2/",
+    "location": null,
+    "remote": null,
+    "deadline": "2027-01-15",
+    "reward": "none",
+    "estimated_value": null,
+    "eligibility_status": "PROBABLY_ELIGIBLE",
+    "credibility_status": "LIKELY_LEGITIMATE",
+    "source_tier": "TIER_3",
+    "source_quality": 7,
+    "requirements": [],
+    "id": "4a93e075be758733",
+    "first_seen": "2026-11-22T13:12:50.090048+00:00",
+    "last_updated": "2026-11-22T13:12:50.090064+00:00"
+  },
+  "36c519fcfa498739": {
+    "url": "https://grantintelligenceglobal.com/database?region=Africa&q=&sector=All&country=&org=",
+    "title": "Grant Database — Live EU Funding Opportunities | Grant Intelligence Global",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "model_eligibility_status": "PROBABLY_INELIGIBLE",
+    "missing_requirements": [
+      "Specific eligibility details for each listed call (e.g., exact definition of eligible institutions, required documentation).",
+      "Confirmation of whether Ethiopia is considered an OACPS member for the listed calls.",
+      "Verification of any individual‑applicant pathways that might exist for certain grants."
+    ],
+    "blocking_issues": [
+      "Hard blocker: Most calls require institutional or consortium applicants, not individual professionals.",
+      "Hard blocker: OACPS‑related calls require citizenship of an OACPS member state; Ethiopia is not a member.",
+      "Hard blocker: WHO/TDR grant requires affiliation with an academic/research institution, which the candidate lacks."
+    ],
+    "addressable_gaps": [
+      "Can register a start‑up/company to meet eligibility for the UNICEF Innovation Fund.",
+      "Can obtain an English proficiency test (Duolingo, MOI) if required by a specific call.",
+      "Can seek affiliation with a research institution or university to become eligible for researcher‑focused grants."
+    ],
+    "reasoning": "The page lists multiple grant calls, most of which explicitly require applicants to be research institutions, universities, NGOs, or consortia (e.g., OACPS R&I Programme, IKI Small Grants, Business Partnership Support). The candidate is an individual professional and not affiliated with any such institution, which is a hard blocker for those calls. Several calls are limited to OACPS member states; Ethiopia is not an OACPS member, creating a nationality mismatch. The WHO/TDR grant requires affiliation with an academic or research institution, which the candidate does not currently have. While a few calls (e.g., UNICEF Innovation Fund) could potentially accept a for‑profit start‑up, the candidate would need to have a legally registered company in a UNICEF programme country, which is not confirmed. Therefore, the candidate is likely ineligible for the majority of the listed opportunities.",
+    "id": "36c519fcfa498739",
+    "first_seen": "2026-11-22T13:14:35.589305+00:00",
+    "last_updated": "2026-11-22T13:14:35.589320+00:00"
+  },
+  "3e167074abe135a1": {
+    "url": "https://www.developmentaid.org/grants/view/1701623/submit-applications-for-international-project-grants",
+    "title": "Closed grant — Submit Applications for International Project Grants — for Africa, Asia, EU 27 ...",
+    "status": "filtered_out",
+    "reason": "Application is closed",
+    "id": "3e167074abe135a1",
+    "first_seen": "2026-11-22T13:14:43.490468+00:00",
+    "last_updated": "2026-11-22T13:14:43.490483+00:00"
+  },
+  "5b2b22b438f90aa6": {
+    "url": "https://opportunitiesforyouth.org/2026/08/29/princeton-in-africa-fellowship-2026-2027-applications-now-open-fully-funded",
+    "title": "Princeton in Africa Fellowship 2027–28: Paid Fellowship Opportunities for Graduates in Africa and the USA - Opportunities for Youth",
+    "status": "closed",
+    "deadline": "2026-10-26",
+    "id": "5b2b22b438f90aa6",
+    "first_seen": "2026-11-22T13:15:24.648855+00:00",
+    "last_updated": "2026-11-22T13:15:24.648868+00:00"
+  },
+  "1f603edf263b90b8": {
+    "url": "https://www.scholarshipregion.com/global-opportunities-still-open-to-african-students-in-2026",
+    "title": "Global Opportunities Still Open To African Students In 2026 | Scholarship Region",
+    "status": "analyzed",
+    "score": 4.7,
+    "category": "fellowships",
+    "official_url": "https://www.scholarshipregion.com/global-opportunities-still-open-to-african-students-in-2026",
+    "location": null,
+    "remote": null,
+    "deadline": null,
+    "reward": "partial",
+    "estimated_value": null,
+    "eligibility_status": "PROBABLY_ELIGIBLE",
+    "credibility_status": "LIKELY_LEGITIMATE",
+    "source_tier": "TIER_3",
+    "source_quality": 7,
+    "requirements": [
+      "Curriculum Vitae (CV)",
+      "Motivation Letter",
+      "Proof of enrolment or qualification"
+    ],
+    "id": "1f603edf263b90b8",
+    "first_seen": "2026-11-22T13:18:28.944667+00:00",
+    "last_updated": "2026-11-22T13:18:28.944683+00:00"
+  },
+  "add7ebcff55de7cf": {
+    "url": "https://opportunihub.com/fellowships-in-africa",
+    "title": "Fellowships in Africa 2026 — Leadership & Research - Opportunihub",
+    "status": "unknown",
+    "eligibility_status": "UNCERTAIN",
+    "model_eligibility_status": "UNCERTAIN",
+    "missing_requirements": [
+      "Specific nationality eligibility (e.g., some fellowships may be limited to certain African countries)",
+      "Age limits (many programs cap applicants at 30 or younger, but this is not stated)",
+      "Current student status requirement (some fellowships require enrollment, others target professionals)",
+      "Minimum degree level (some may require a master's or PhD)",
+      "English language proficiency proof (IELTS/TOEFL/Duolingo, etc.)",
+      "Field of study relevance (leadership & research focus may require certain academic backgrounds)"
+    ],
+    "blocking_issues": [],
+    "addressable_gaps": [],
+    "reasoning": "The Opportunihub page lists many fellowships but does not provide any explicit eligibility criteria (e.g., nationality restrictions, age limits, student status, degree level, English proficiency). Therefore we cannot confirm that the candidate meets all required conditions, nor can we rule out a hidden blocker.",
+    "id": "add7ebcff55de7cf",
+    "first_seen": "2026-11-22T13:19:28.780291+00:00",
+    "last_updated": "2026-11-22T13:19:28.780306+00:00"
+  },
+  "02d68ee7548f62f6": {
+    "url": "https://www.advance-africa.com/Fellowships.html",
+    "title": "Fellowships - International Fellowships - Graduate Fellowship Program",
+    "status": "unknown",
+    "eligibility_status": "UNCERTAIN",
+    "model_eligibility_status": "UNCERTAIN",
+    "missing_requirements": [
+      "Whether the fellowship requires the applicant to be currently enrolled as a student",
+      "Whether there is an age cap for applicants",
+      "Whether a specific degree level (e.g., Master's, PhD) is required",
+      "Whether the fellowship is open to Ethiopian nationals",
+      "English language proficiency requirements (e.g., IELTS/TOEFL) and acceptable alternatives"
+    ],
+    "blocking_issues": [],
+    "addressable_gaps": [],
+    "reasoning": "The program description is a generic list of many fellowships without any explicit eligibility criteria. No requirements regarding nationality, current student status, age limit, degree level, or English proficiency are stated, so we cannot confirm whether the candidate meets them. Consequently, we cannot determine eligibility definitively.",
+    "id": "02d68ee7548f62f6",
+    "first_seen": "2026-11-22T13:21:00.445563+00:00",
+    "last_updated": "2026-11-22T13:21:00.445579+00:00"
+  },
+  "c00e5a9a6aacef85": {
+    "url": "https://www.facebook.com/amadidanieln/posts/15-global-opportunities-open-for-african-professionals-right-nowmost-people-have/28507338828867391",
+    "title": "15 global opportunities open for African professionals right now. Most people have never heard of 12 of them. Ireland Fellows Programme 2027/28",
+    "status": "legitimacy_unknown",
+    "credibility_status": "NEEDS_VERIFICATION",
+    "source_tier": "TIER_4",
+    "reasoning": "The post is a brief Facebook listing with no direct links, fee information, or official contact details, making it impossible to verify the existence or legitimacy of the \"Ireland Fellows Programme 2027/28\". Without corroborating evidence from an official source, the claim cannot be confirmed as legitimate or fraudulent.",
+    "id": "c00e5a9a6aacef85",
+    "first_seen": "2026-11-22T13:21:13.504943+00:00",
+    "last_updated": "2026-11-22T13:21:13.504957+00:00"
+  },
+  "2a254044ea4e8f75": {
+    "url": "https://app.easygrant.io/lists/discover?focus_area%5B%5D=education-human-capital&focus_area%5B%5D=governance-civic-engagement&focus_area%5B%5D=health-wellbeing&focus_area%5B%5D=research-science&focus_area%5B%5D=climate-environment",
+    "title": "Browse Opportunities",
+    "status": "legitimacy_unknown",
+    "credibility_status": "NEEDS_VERIFICATION",
+    "source_tier": "TIER_4",
+    "reasoning": "The page text only shows the name 'EasyGrant' with no details about fees, organizers, or legitimacy indicators. Without substantive evidence of a fee request, verifiable institution, or official contact, the claim cannot be assessed.",
+    "id": "2a254044ea4e8f75",
+    "first_seen": "2026-11-22T13:22:16.574938+00:00",
+    "last_updated": "2026-11-22T13:22:16.574952+00:00"
+  },
+  "fece0b97348fc6c8": {
+    "url": "https://app.easygrant.io/lists/discover?focus_area%5B%5D=climate-environment&focus_area%5B%5D=community-social-impact&focus_area%5B%5D=governance-civic-engagement&focus_area%5B%5D=agriculture-food-systems",
+    "title": "Browse Opportunities",
+    "status": "legitimacy_unknown",
+    "credibility_status": "NEEDS_VERIFICATION",
+    "source_tier": "TIER_4",
+    "reasoning": "The provided page text contains only the platform name 'EasyGrant' with no details about specific programs, fees, contact information, or organizer credentials. As an opportunity aggregator listing filtered funding opportunities, it shows no substantive red flags (no fees, personal accounts, guarantees, or pressure tactics), but also lacks verifiable trust signals from the minimal content provided.",
+    "id": "fece0b97348fc6c8",
+    "first_seen": "2026-11-22T13:22:33.401900+00:00",
+    "last_updated": "2026-11-22T13:22:33.401913+00:00"
   }
 }

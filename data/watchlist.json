@@ -119,8 +119,8 @@
     "last_known_deadline": null,
     "reason": "closed at discovery; likely annual",
     "id": "1c812b8c0a1f039f",
-    "added": "2026-09-11T09:24:29.308773+00:00",
-    "last_checked": "2026-09-11T09:24:29.308186"
+    "added": "2026-11-22T13:07:32.784076+00:00",
+    "last_checked": "2026-11-22T13:07:32.783191"
   },
   "8f80cc146a1725ad": {
     "url": "https://www.newafricafund.org/afigrants",
@@ -128,8 +128,8 @@
     "last_known_deadline": null,
     "reason": "closed at discovery; likely annual",
     "id": "8f80cc146a1725ad",
-    "added": "2026-09-11T09:24:30.768207+00:00",
-    "last_checked": "2026-09-11T09:24:30.767640"
+    "added": "2026-11-22T13:07:34.830884+00:00",
+    "last_checked": "2026-11-22T13:07:34.830063"
   },
   "5db118068d102730": {
     "url": "https://africa-grants.com",
@@ -137,8 +137,8 @@
     "last_known_deadline": "2025-10-31",
     "reason": "closed at discovery; likely annual",
     "id": "5db118068d102730",
-    "added": "2026-09-12T09:04:49.495711+00:00",
-    "last_checked": "2026-09-12T09:04:49.495228"
+    "added": "2026-11-22T13:07:35.690858+00:00",
+    "last_checked": "2026-11-22T13:07:35.690035"
   },
   "549244728e41d0bf": {
     "id": "549244728e41d0bf",
@@ -146,19 +146,9 @@
     "title": "The Food and Agriculture Organization of the United Nations (FAO) Young Professionals Programme (YPP) 2026",
     "retry_analysis": true,
     "reason": "closed at discovery; likely annual",
-    "added": "2026-09-12T09:06:29.755707+00:00",
-    "last_checked": "2026-09-12T09:05:58.899123",
+    "added": "2026-11-22T13:07:44.942810+00:00",
+    "last_checked": "2026-11-22T13:07:42.943605",
     "last_known_deadline": "2026-09-07"
-  },
-  "e3c052a42c64239f": {
-    "id": "e3c052a42c64239f",
-    "url": "https://www.opportunitiesforafricans.com/meta-ai-academy-nigeria/",
-    "title": "Meta AI Academy Nigeria for Nigerian developers, startups, students, and early-career professionals (US$5,000 in equity-free funding)",
-    "retry_analysis": true,
-    "reason": "closed at discovery; likely annual",
-    "added": "2026-09-13T10:03:01.341470+00:00",
-    "last_checked": "2026-09-13T10:02:59.189222",
-    "last_known_deadline": "2026-08-21"
   },
   "9101164703fe9ba0": {
     "id": "9101164703fe9ba0",
@@ -1556,5 +1546,31 @@
     "id": "e19c5b369a4b46b5",
     "added": "2026-11-20T13:52:45.216087+00:00",
     "last_checked": "2026-11-20T13:52:45.214438"
+  },
+  "5b2b22b438f90aa6": {
+    "url": "https://opportunitiesforyouth.org/2026/08/29/princeton-in-africa-fellowship-2026-2027-applications-now-open-fully-funded",
+    "title": "Princeton in Africa Fellowship 2027–28: Paid Fellowship Opportunities for Graduates in Africa and the USA - Opportunities for Youth",
+    "last_known_deadline": "2026-10-26",
+    "reason": "closed at discovery; likely annual",
+    "id": "5b2b22b438f90aa6",
+    "added": "2026-11-22T13:15:24.677408+00:00"
+  },
+  "eabbf5029de80981": {
+    "url": "https://questd.ai/deadlines",
+    "title": "Accelerator & Fellowship Deadlines Nov 2026–2027 | Questd",
+    "retry_analysis": true,
+    "snippet": "| Founder University | Accelerator | $25K–$125K (top graduates) | Rolling | Rolling |\n| Greylock Edge | Accelerator | Flexible (priced seed to uncapped SAFE, or no capital) | Rolling | Rolling |\n| 1752 Accelerate | Accelerator | $100K | Rolling | Rolling |\n| The Monastery (cyber•Fund) | Accelerator | ~$2M | Rolling | Rolling |\n| Solo Founders Program | Accelerator | $100,000 | Deadline not announced | Open | [...] | Startup Wise Guys | Accelerator | Up to €100,000 (fintech up to €150,000) | Rolling | Rolling |\n| Hub71+ AI | Accelerator | AED 250,000 (about $68K) | Deadline not announced | Open |\n| Afore Founder-in-Residence | Residency | $250K–$750K on customized terms (Afore’s FAQ says at least $100K) | Rolling | Rolling |\n| Antler Residency | Residency | Typically $500K–$1M initial commitment, plus $650K in partner credits | Rolling | Rolling | [...] | Program | Type | Funding | Deadline | Days left |\n| Techstars | Accelerator | $220K ($20K for 5% + $200K uncapped MFN SAFE) | Nov 18, 2026 | Today |\n| Alliance | Accelerator | $400K | Nov 18, 2026 | Today |\n| Mozilla Human-Scale AI Incubator | Fellowship | $300,000 plus up to $200,000 more (up to $500,000 over three years) | Nov 20, 2026 | 2 days |\n| Anthropic Residency | Residency | $350K–$500K/year equivalent (paid for the length of the placement) | Nov 22, 2026 | 4 days |",
+    "reason": "legitimacy check returned an unparseable reply; retry on a later run",
+    "id": "eabbf5029de80981",
+    "added": "2026-11-22T13:22:07.682694+00:00"
+  },
+  "491c1675fc60d54e": {
+    "url": "https://app.easygrant.io/lists/discover?focus_area%5B%5D=research-science&focus_area%5B%5D=climate-environment&focus_area%5B%5D=general-multi-sector&focus_area%5B%5D=health-wellbeing&focus_area%5B%5D=digital-emerging-technologies",
+    "title": "Browse Opportunities",
+    "retry_analysis": true,
+    "snippet": "321 open opportunities . Find funding that fits your organisation. Every grant, accelerator and fellowship worth applying for, from funders around the world.",
+    "reason": "legitimacy check returned an unparseable reply; retry on a later run",
+    "id": "491c1675fc60d54e",
+    "added": "2026-11-22T13:22:57.662197+00:00"
   }
 }

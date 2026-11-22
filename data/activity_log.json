@@ -1,96 +1,5 @@
 [
   {
-    "at": "2026-10-25T09:40:51.031248+00:00",
-    "kind": "scan_start",
-    "message": "daily scan started"
-  },
-  {
-    "at": "2026-10-25T09:46:33.316418+00:00",
-    "kind": "error",
-    "message": "Fetch failed for https://www.dfat.gov.au/people-to-people/australia-awards/australia-awards-scholarships: HTTPSConnectionPool(host='www.dfat.gov.au', port=443): Read timed out. (read timeout=25)"
-  },
-  {
-    "at": "2026-10-25T09:46:36.142255+00:00",
-    "kind": "error",
-    "message": "Fetch failed for https://www.facebook.com/opportunitiesforyouth/posts/-30-funding-grant-opportunities-for-african-startupscalling-all-african-founders/1325967266227290: 400"
-  },
-  {
-    "at": "2026-10-25T09:51:31.451557+00:00",
-    "kind": "error",
-    "message": "Fetch failed for https://www.merriam-webster.com/dictionary/fully: 403"
-  },
-  {
-    "at": "2026-10-25T09:52:29.556422+00:00",
-    "kind": "error",
-    "message": "Fetch failed for https://www.merriam-webster.com/thesaurus/fully: 403"
-  },
-  {
-    "at": "2026-10-25T09:52:31.786123+00:00",
-    "kind": "error",
-    "message": "Fetch failed for https://www.collinsdictionary.com/dictionary/english/fully: 403"
-  },
-  {
-    "at": "2026-10-25T09:52:52.607098+00:00",
-    "kind": "scan_complete",
-    "message": "daily scan finished",
-    "matches": 2,
-    "stats": {
-      "discovered": 269,
-      "already_seen": 84,
-      "known_scam": 0,
-      "fetch_failed": 1,
-      "first_pass_dropped": 2,
-      "scam": 0,
-      "legit_unknown": 5,
-      "ineligible": 2,
-      "closed": 1,
-      "deep_analyzed": 3,
-      "scored_high": 2,
-      "eligibility_demoted": 0,
-      "jina_fetch": 0,
-      "jina_failed": 0,
-      "snippet_fallback": 4,
-      "legit_unparseable": 0,
-      "trusted_thin_pass": 0,
-      "discovery": {
-        "tavily": {
-          "attempted": 20,
-          "successful": 20,
-          "429": 0,
-          "403": 0,
-          "errors": 0,
-          "candidates": 160,
-          "queries_planned": 20,
-          "disabled_reason": ""
-        },
-        "rss": {
-          "attempted": 4,
-          "successful": 4,
-          "failed": 0,
-          "skipped_dead": 1,
-          "candidates": 56
-        },
-        "api": {
-          "sources": 2,
-          "healthy": 2,
-          "failed": 0,
-          "candidates": 50
-        },
-        "seed": {
-          "attempted": 14,
-          "candidates": 14
-        },
-        "total": {
-          "raw": 280,
-          "after_dedupe": 269
-        }
-      },
-      "signal_rescued": 3,
-      "analysis_unavailable": 1,
-      "deduped": 0
-    }
-  },
-  {
     "at": "2026-10-25T09:52:52.611670+00:00",
     "kind": "run",
     "mode": "scan",
@@ -4705,6 +4614,175 @@
         }
       },
       "signal_rescued": 5,
+      "deduped": 0,
+      "matches": 0
+    }
+  },
+  {
+    "at": "2026-11-22T13:08:44.758534+00:00",
+    "kind": "run",
+    "mode": "watchlist",
+    "environment": "github_actions",
+    "stats": {
+      "discovered": 0,
+      "already_seen": 0,
+      "known_scam": 0,
+      "fetch_failed": 0,
+      "first_pass_dropped": 0,
+      "scam": 0,
+      "legit_unknown": 0,
+      "ineligible": 1,
+      "closed": 1,
+      "deep_analyzed": 0,
+      "scored_high": 0,
+      "eligibility_demoted": 0,
+      "jina_fetch": 0,
+      "jina_failed": 0,
+      "snippet_fallback": 0,
+      "legit_unparseable": 0,
+      "trusted_thin_pass": 0,
+      "signal_rescued": 1,
+      "reopened": 2,
+      "matches": 0
+    }
+  },
+  {
+    "at": "2026-11-22T13:08:45.026412+00:00",
+    "kind": "scan_start",
+    "message": "daily scan started"
+  },
+  {
+    "at": "2026-11-22T13:11:30.328545+00:00",
+    "kind": "error",
+    "message": "Fetch failed for https://www.dfat.gov.au/people-to-people/australia-awards/australia-awards-scholarships: HTTPSConnectionPool(host='www.dfat.gov.au', port=443): Read timed out. (read timeout=25)"
+  },
+  {
+    "at": "2026-11-22T13:14:35.708837+00:00",
+    "kind": "error",
+    "message": "Fetch failed for https://www.developmentaid.org/grants/view/1701623/submit-applications-for-international-project-grants: 403"
+  },
+  {
+    "at": "2026-11-22T13:21:00.626904+00:00",
+    "kind": "error",
+    "message": "Fetch failed for https://www.facebook.com/amadidanieln/posts/15-global-opportunities-open-for-african-professionals-right-nowmost-people-have/28507338828867391: 400"
+  },
+  {
+    "at": "2026-11-22T13:22:59.868255+00:00",
+    "kind": "scan_complete",
+    "message": "daily scan finished",
+    "matches": 0,
+    "stats": {
+      "discovered": 279,
+      "already_seen": 65,
+      "known_scam": 0,
+      "fetch_failed": 1,
+      "first_pass_dropped": 1,
+      "scam": 0,
+      "legit_unknown": 3,
+      "ineligible": 5,
+      "closed": 1,
+      "deep_analyzed": 2,
+      "scored_high": 0,
+      "eligibility_demoted": 1,
+      "jina_fetch": 0,
+      "jina_failed": 0,
+      "snippet_fallback": 2,
+      "legit_unparseable": 2,
+      "trusted_thin_pass": 0,
+      "discovery": {
+        "tavily": {
+          "attempted": 20,
+          "successful": 20,
+          "429": 0,
+          "403": 0,
+          "errors": 0,
+          "candidates": 160,
+          "queries_planned": 20,
+          "disabled_reason": ""
+        },
+        "rss": {
+          "attempted": 4,
+          "successful": 4,
+          "failed": 0,
+          "skipped_dead": 1,
+          "candidates": 56
+        },
+        "api": {
+          "sources": 2,
+          "healthy": 2,
+          "failed": 0,
+          "candidates": 56
+        },
+        "seed": {
+          "attempted": 14,
+          "candidates": 14
+        },
+        "total": {
+          "raw": 286,
+          "after_dedupe": 279
+        }
+      },
+      "signal_rescued": 1,
+      "deduped": 0
+    }
+  },
+  {
+    "at": "2026-11-22T13:22:59.873186+00:00",
+    "kind": "run",
+    "mode": "scan",
+    "environment": "github_actions",
+    "stats": {
+      "discovered": 279,
+      "already_seen": 65,
+      "known_scam": 0,
+      "fetch_failed": 1,
+      "first_pass_dropped": 1,
+      "scam": 0,
+      "legit_unknown": 3,
+      "ineligible": 5,
+      "closed": 1,
+      "deep_analyzed": 2,
+      "scored_high": 0,
+      "eligibility_demoted": 1,
+      "jina_fetch": 0,
+      "jina_failed": 0,
+      "snippet_fallback": 2,
+      "legit_unparseable": 2,
+      "trusted_thin_pass": 0,
+      "discovery": {
+        "tavily": {
+          "attempted": 20,
+          "successful": 20,
+          "429": 0,
+          "403": 0,
+          "errors": 0,
+          "candidates": 160,
+          "queries_planned": 20,
+          "disabled_reason": ""
+        },
+        "rss": {
+          "attempted": 4,
+          "successful": 4,
+          "failed": 0,
+          "skipped_dead": 1,
+          "candidates": 56
+        },
+        "api": {
+          "sources": 2,
+          "healthy": 2,
+          "failed": 0,
+          "candidates": 56
+        },
+        "seed": {
+          "attempted": 14,
+          "candidates": 14
+        },
+        "total": {
+          "raw": 286,
+          "after_dedupe": 279
+        }
+      },
+      "signal_rescued": 1,
       "deduped": 0,
       "matches": 0
     }
