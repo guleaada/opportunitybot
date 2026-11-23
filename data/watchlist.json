@@ -156,8 +156,8 @@
     "title": "Fast Forward 2027 Accelerator: $25,000+ Funding, Mentorship and Global Support for Early-Stage Tech Nonprofits",
     "retry_analysis": true,
     "reason": "Recover historical malformed model response",
-    "added": "2026-09-13T10:06:41.941173+00:00",
-    "last_checked": "2026-09-13T10:06:41.940789"
+    "added": "2026-11-23T15:45:07.944252+00:00",
+    "last_checked": "2026-11-23T15:45:07.943451"
   },
   "96caad03a213a85d": {
     "id": "96caad03a213a85d",
@@ -165,8 +165,8 @@
     "title": "Business Development Representative",
     "retry_analysis": true,
     "reason": "Recover historical malformed model response",
-    "added": "2026-09-14T10:23:08.276388+00:00",
-    "last_checked": "2026-09-14T10:23:08.275757"
+    "added": "2026-11-23T15:45:08.173126+00:00",
+    "last_checked": "2026-11-23T15:45:08.171977"
   },
   "948288b971d99501": {
     "id": "948288b971d99501",
@@ -1553,24 +1553,51 @@
     "last_known_deadline": "2026-10-26",
     "reason": "closed at discovery; likely annual",
     "id": "5b2b22b438f90aa6",
-    "added": "2026-11-22T13:15:24.677408+00:00"
+    "added": "2026-11-23T15:44:43.000517+00:00",
+    "last_checked": "2026-11-23T15:44:42.999559"
   },
-  "eabbf5029de80981": {
-    "url": "https://questd.ai/deadlines",
-    "title": "Accelerator & Fellowship Deadlines Nov 2026–2027 | Questd",
+  "9317043e14546fff": {
+    "url": "https://www.scholars4dev.com/government-scholarships-for-developing-countries",
+    "title": "Top 20+ Foreign Government Scholarships for International Students 2027-2028 |Scholars4DeV",
+    "reason": "ANALYSIS_UNAVAILABLE — deep_eligibility: incomplete or invalid response after retry",
     "retry_analysis": true,
-    "snippet": "| Founder University | Accelerator | $25K–$125K (top graduates) | Rolling | Rolling |\n| Greylock Edge | Accelerator | Flexible (priced seed to uncapped SAFE, or no capital) | Rolling | Rolling |\n| 1752 Accelerate | Accelerator | $100K | Rolling | Rolling |\n| The Monastery (cyber•Fund) | Accelerator | ~$2M | Rolling | Rolling |\n| Solo Founders Program | Accelerator | $100,000 | Deadline not announced | Open | [...] | Startup Wise Guys | Accelerator | Up to €100,000 (fintech up to €150,000) | Rolling | Rolling |\n| Hub71+ AI | Accelerator | AED 250,000 (about $68K) | Deadline not announced | Open |\n| Afore Founder-in-Residence | Residency | $250K–$750K on customized terms (Afore’s FAQ says at least $100K) | Rolling | Rolling |\n| Antler Residency | Residency | Typically $500K–$1M initial commitment, plus $650K in partner credits | Rolling | Rolling | [...] | Program | Type | Funding | Deadline | Days left |\n| Techstars | Accelerator | $220K ($20K for 5% + $200K uncapped MFN SAFE) | Nov 18, 2026 | Today |\n| Alliance | Accelerator | $400K | Nov 18, 2026 | Today |\n| Mozilla Human-Scale AI Incubator | Fellowship | $300,000 plus up to $200,000 more (up to $500,000 over three years) | Nov 20, 2026 | 2 days |\n| Anthropic Residency | Residency | $350K–$500K/year equivalent (paid for the length of the placement) | Nov 22, 2026 | 4 days |",
-    "reason": "legitimacy check returned an unparseable reply; retry on a later run",
-    "id": "eabbf5029de80981",
-    "added": "2026-11-22T13:22:07.682694+00:00"
+    "snippet": "The Commonwealth Scholarship Commission in the UK, funded by the UK government, offers Master’s and PhD scholarships to talented students from developing Commonwealth countries who could not otherwise afford to study in the UK. The scholarships pay return airfare, tuition fees and a monthly living allowance at participating UK universities. Candidates apply through a nominating agency in their home country, and the deadline for courses starting in September 2027 was 20 October 2026. The [...] The Korea International Cooperation Agency (KOICA), Korea’s government development agency, funds public officials and public-sector workers from partner developing countries to take Master’s and PhD programmes at Korean universities. The scholarships cover tuition, a monthly allowance, airfare, accommodation, a settlement allowance, insurance and extracurricular activities. Candidates apply through the KOICA office in their country, and the last deadlines were around July 2026 for programmes [...] The New Zealand Government’s Manaaki New Zealand Scholarships fund full-time tertiary study in New Zealand for citizens of selected developing countries in the Pacific and Asia (such as Cambodia, Indonesia, Nepal, the Philippines, Viet Nam, Papua New Guinea, Samoa and Tonga). They pay full tuition, a weekly living allowance, an establishment allowance, insurance and travel, and applicants need relevant work experience. The 2027 application round opens on 1 March 2027 and closes on 31 March",
+    "id": "9317043e14546fff",
+    "added": "2026-11-23T15:52:54.841357+00:00"
   },
-  "491c1675fc60d54e": {
-    "url": "https://app.easygrant.io/lists/discover?focus_area%5B%5D=research-science&focus_area%5B%5D=climate-environment&focus_area%5B%5D=general-multi-sector&focus_area%5B%5D=health-wellbeing&focus_area%5B%5D=digital-emerging-technologies",
-    "title": "Browse Opportunities",
+  "9507cf1722abc67f": {
+    "url": "https://www.linkedin.com/pulse/paid-global-internship-opportunities-k01se",
+    "title": "⭐ Paid Global Internship Opportunities 2025–2026 | Fully Funded, Remote & International Roles",
     "retry_analysis": true,
-    "snippet": "321 open opportunities . Find funding that fits your organisation. Every grant, accelerator and fellowship worth applying for, from funders around the world.",
+    "snippet": "🟢 ✨ 1️⃣8️⃣ Software Engineer Internship (Climate Action) – HP Spain 2026 • \n\n🟢 ✨ 1️⃣9️⃣ IBM Internship Opportunities 2026 • Rolling basis • \n\n🟢 ✨ 2️⃣0️⃣ Google Software Engineering PhD Internship – Summer 2026 • Deadline: 27 February 2026 • \n\n🟢 ✨ 2️⃣1️⃣ Paid Biostatistics Summer Internship 2026 – Weill Cornell Medicine • Deadline: 1 March 2026 • \n\n🟢 ✨ 2️⃣2️⃣ QSURE: Quantitative Sciences Undergraduate Research Experience 2026 • Deadline: 19 January 2026 • \n\n### 💳 6. Finance, Banking & Corporate [...] 🟣 ✨ 🔟 Rock the Vote – Spring 2026 Internship • Deadline: 24 November 2025 • \n\n🟣 ✨ 1️⃣1️⃣ Migration Policy Institute – Paid Internships (Young Scholars Program) • Summer: 1 March • Fall: 1 July • \n\n🟣 ✨ 1️⃣2️⃣ NPCA Internships & Fellowships 2026 • Spring: 4 January 2026 • Summer: 8 June 2026 • Fall: 7 September 2026 • \n\n### 🏥 3. Health, Development & Social Impact\n\n💚 ✨ 1️⃣3️⃣ Gender & Nutrition Paid Internships – Nairobi (Hybrid, 12 Months) • Deadline: 21 November 2025 • [...] 💚 ✨ 1️⃣4️⃣ Digital Health Africa Internship 2026 • Deadline: 27 November 2025 • \n\n### 📰 4. Media, Communications & Publishing\n\n🟡 ✨ 1️⃣5️⃣ Reuters News Internship Program 2026 • Deadline: 12 December 2025 • \n\n🟡 ✨ 1️⃣6️⃣ Social Media & Events Communications Internship 2026 • Deadline: 7 December 2025 • \n\n🟡 ✨ 1️⃣7️⃣ Simon & Schuster Canada – Paid Internships 2025 • Deadline: 21 November 2025 • \n\n### 💻 5. Technology, Engineering & Data",
     "reason": "legitimacy check returned an unparseable reply; retry on a later run",
-    "id": "491c1675fc60d54e",
-    "added": "2026-11-22T13:22:57.662197+00:00"
+    "id": "9507cf1722abc67f",
+    "added": "2026-11-23T15:53:38.973348+00:00"
+  },
+  "088b635c30354312": {
+    "url": "https://www2.fundsforngos.org/community-development-2/strategic-projects-funding-window-2026-27-now-open-for-south-african-ngos",
+    "title": "Applications open for Strategic Projects Funding Window 2026/27 (South Africa) - fundsforNGOs",
+    "last_known_deadline": "2026-11-06",
+    "reason": "closed at discovery; likely annual",
+    "id": "088b635c30354312",
+    "added": "2026-11-23T15:53:53.459226+00:00"
+  },
+  "1737eeaa62e5d36c": {
+    "url": "https://www.remoterocketship.com/remote-jobs",
+    "title": "Remote jobs worldwide | Search 200,000+ work from home jobs",
+    "retry_analysis": true,
+    "snippet": "+202,115 More Jobs Available!\n\nWe scan the internet everyday and find jobs not posted on LinkedIn or other job boards.\n\nWe find jobs minutes after they're posted, so you can apply before everyone else.\n\nMost members hear back within the first week\n\nWe find jobs other job boards miss. [...] Set your filters and find your dream remote job\n\nYour saved searches\n\nSelected: 🆕 Date Added.\n\n🔥 0 minutes ago\n\nAssociate Director managing commercial supply, packaging, S&OP, and strategic partners for Apnimed’s sleep apnea pharmaceuticals. Remote US role supporting the company’s transition to oral OSA treatments.\n\n🇺🇸 United States – Remote\n\n💵 $160k - $180k / year\n\n🔥 Funding within the last year\n\n💰 $192M Equity Funding on 2026-07\n\n⏰ Full Time\n\n🟠 Senior\n\n🔗 Supply Chain\n\n👻 Ghost score 0% [...] Workday Financials consultant delivering implementations and client solutions. Advising organizations through Strada’s global people, payroll, and workforce technology services.\n\n🌐 United States, Canada – Remote\n\n🌽 Illinois, Texas – Remote\n\n💵 $100.2k - $186k / year\n\n💸 Financial Planning and Analysis (FP&A)\n\n🦅 H1B Visa Sponsor",
+    "reason": "legitimacy check returned an unparseable reply; retry on a later run",
+    "id": "1737eeaa62e5d36c",
+    "added": "2026-11-23T15:54:17.566851+00:00"
+  },
+  "bd35651815c1e1f1": {
+    "url": "https://www.indeed.com/q-software-developer-remote-contract-independent-jobs.html",
+    "title": "Just a moment...",
+    "retry_analysis": true,
+    "snippet": "Your Ray ID for this request is a5d133fced1d690e\n\nTroubleshooting Cloudflare Errors\n\nNeed more help? Contact us",
+    "reason": "legitimacy check returned an unparseable reply; retry on a later run",
+    "id": "bd35651815c1e1f1",
+    "added": "2026-11-23T15:56:34.188559+00:00"
   }
 }
