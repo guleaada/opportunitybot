@@ -24018,5 +24018,327 @@
     "id": "edb2bb29794b064e",
     "first_seen": "2026-11-23T15:56:02.617423+00:00",
     "last_updated": "2026-11-23T15:56:02.617444+00:00"
+  },
+  "9317043e14546fff": {
+    "url": "https://www.scholars4dev.com/government-scholarships-for-developing-countries",
+    "title": "Top 20+ Foreign Government Scholarships for International Students 2027-2028 |Scholars4DeV",
+    "status": "analyzed",
+    "score": 5.3,
+    "category": null,
+    "official_url": "https://www.scholars4dev.com/government-scholarships-for-developing-countries",
+    "location": null,
+    "remote": null,
+    "deadline": null,
+    "reward": "fully_funded",
+    "estimated_value": null,
+    "eligibility_status": "PROBABLY_ELIGIBLE",
+    "credibility_status": "LIKELY_LEGITIMATE",
+    "source_tier": "TIER_4",
+    "source_quality": null,
+    "requirements": [],
+    "id": "9317043e14546fff",
+    "first_seen": "2026-11-24T15:38:10.886393+00:00",
+    "last_updated": "2026-11-24T15:38:10.886406+00:00"
+  },
+  "9507cf1722abc67f": {
+    "url": "https://www.linkedin.com/pulse/paid-global-internship-opportunities-k01se",
+    "title": "⭐ Paid Global Internship Opportunities 2025–2026 | Fully Funded, Remote & International Roles",
+    "status": "analyzed",
+    "score": 4.2,
+    "category": null,
+    "official_url": "https://www.linkedin.com/pulse/paid-global-internship-opportunities-k01se",
+    "location": null,
+    "remote": null,
+    "deadline": null,
+    "reward": "partial",
+    "estimated_value": null,
+    "eligibility_status": "PROBABLY_ELIGIBLE",
+    "credibility_status": "LIKELY_LEGITIMATE",
+    "source_tier": "TIER_4",
+    "source_quality": null,
+    "requirements": [],
+    "id": "9507cf1722abc67f",
+    "first_seen": "2026-11-24T15:41:29.102396+00:00",
+    "last_updated": "2026-11-24T15:41:29.102409+00:00"
+  },
+  "1737eeaa62e5d36c": {
+    "url": "https://www.remoterocketship.com/remote-jobs",
+    "title": "Remote jobs worldwide | Search 200,000+ work from home jobs",
+    "status": "analyzed",
+    "score": 3.0,
+    "category": null,
+    "official_url": "https://www.remoterocketship.com/remote-jobs",
+    "location": null,
+    "remote": null,
+    "deadline": null,
+    "reward": "none",
+    "estimated_value": null,
+    "eligibility_status": "PROBABLY_ELIGIBLE",
+    "credibility_status": "LIKELY_LEGITIMATE",
+    "source_tier": "TIER_4",
+    "source_quality": null,
+    "requirements": [],
+    "id": "1737eeaa62e5d36c",
+    "first_seen": "2026-11-24T15:45:24.141207+00:00",
+    "last_updated": "2026-11-24T15:45:24.141219+00:00"
+  },
+  "bd35651815c1e1f1": {
+    "url": "https://www.indeed.com/q-software-developer-remote-contract-independent-jobs.html",
+    "title": "Just a moment...",
+    "status": "legitimacy_unknown",
+    "credibility_status": "NEEDS_VERIFICATION",
+    "source_tier": "TIER_4",
+    "reasoning": "The provided URL leads to a Cloudflare error page with no substantive content about a scholarship or fellowship, making it impossible to evaluate legitimacy. Without any details on the program, fees, organizers, or contact information, no assessment can be made.",
+    "id": "bd35651815c1e1f1",
+    "first_seen": "2026-11-24T15:45:37.155355+00:00",
+    "last_updated": "2026-11-24T15:45:37.155370+00:00"
+  },
+  "12979d65962ed9ca": {
+    "url": "https://www.opportunitiesforafricans.com/the-acumen-green-rise-east-africa-fellowship-2027-6-month-leadership-program/",
+    "title": "The Acumen Green RISE East Africa Fellowship 2027 (6-month leadership program) for Green Entrepreneurs (Fully Funded)",
+    "status": "ineligible",
+    "eligibility_status": "PROBABLY_INELIGIBLE",
+    "model_eligibility_status": "PROBABLY_INELIGIBLE",
+    "missing_requirements": [],
+    "blocking_issues": [
+      "Location/operation: not based or operating in the required East African countries",
+      "Enterprise focus: no green‑focused business demonstrated"
+    ],
+    "addressable_gaps": [
+      "Relocate to an eligible East African country and/or establish a green‑focused enterprise that meets the program’s criteria",
+      "Provide evidence of a green business with traction and job creation for young rural women and youth"
+    ],
+    "reasoning": "The fellowship requires applicants to be entrepreneurs operating a green‑focused business in East Africa (Burundi, Ethiopia, Kenya, Rwanda, Somalia, South Sudan, Tanzania, Uganda). The candidate is currently based in Vientiane, Lao PDR, and there is no evidence of a green enterprise or of operating in any of the listed East African countries. These are hard eligibility criteria that the candidate does not meet.",
+    "id": "12979d65962ed9ca",
+    "first_seen": "2026-11-24T15:47:16.643919+00:00",
+    "last_updated": "2026-11-24T15:47:16.643935+00:00"
+  },
+  "d6c1570e1cf1bb97": {
+    "url": "https://opportunitiescorners.com/vbc-summer-school-2027-in-austria/",
+    "title": "VBC Summer School 2027 in Austria (Fully Funded)",
+    "status": "ineligible",
+    "eligibility_status": "PROBABLY_INELIGIBLE",
+    "model_eligibility_status": "PROBABLY_INELIGIBLE",
+    "missing_requirements": [
+      "Enrolment Certificate",
+      "Proof of Enrolment (Next Academic Year)",
+      "Major in a Life Sciences field (e.g., Molecular and Cell Biology, Chemistry)"
+    ],
+    "blocking_issues": [
+      "Not currently enrolled in a degree program (must be an undergraduate or master's student)",
+      "Degree field not in the required Life Sciences area"
+    ],
+    "addressable_gaps": [
+      "Enroll in an undergraduate or master's program and obtain an enrolment certificate",
+      "Provide proof of enrolment for the next academic year",
+      "If possible, pursue a Life Sciences major or demonstrate a relevant switch"
+    ],
+    "reasoning": "The VBC Summer School requires applicants to be currently enrolled undergraduate or master's students (must provide an enrolment certificate and proof of enrolment for the next academic year) and to be studying a Life Sciences field. The candidate is a working professional, not currently a student, and holds a BSc in Psychology, which is not listed as a Life Sciences major. Therefore the candidate does not meet these core eligibility criteria.",
+    "id": "d6c1570e1cf1bb97",
+    "first_seen": "2026-11-24T15:48:30.856669+00:00",
+    "last_updated": "2026-11-24T15:48:30.856681+00:00"
+  },
+  "68bcb9a0768f3200": {
+    "url": "https://www.opportunitiesforafricans.com/the-auda-nepad-energize-africa-health-fellows-programme/",
+    "title": "The AUDA-NEPAD Energize Africa Health Fellows Programme 2026/2027 for African professionals (All-inclusive gross annual remuneration of US$27,200)",
+    "status": "unknown",
+    "eligibility_status": "UNCERTAIN",
+    "model_eligibility_status": "UNCERTAIN",
+    "missing_requirements": [
+      "Degree field relevance: Psychology may not be considered a related field to Public Health/Development Studies/Public Policy.",
+      "Minimum two years experience in multilateral/development institutions or similar organisations not documented."
+    ],
+    "blocking_issues": [],
+    "addressable_gaps": [],
+    "reasoning": "The programme requires a Bachelor's degree in Public Health, Development Studies, Public Policy, or a related field, and at least two years of relevant experience within multilateral/development institutions. The candidate holds a BSc in Psychology (field relevance unclear) and does not demonstrate the required multilateral/development experience. All other criteria (African nationality, age, student status) are met.",
+    "id": "68bcb9a0768f3200",
+    "first_seen": "2026-11-24T15:49:36.168814+00:00",
+    "last_updated": "2026-11-24T15:49:36.168827+00:00"
+  },
+  "3c57025f9bb35611": {
+    "url": "https://www.opportunitiesforafricans.com/the-kenya-revenue-authority-kra-industrial-attachment-programme-january-to-march-2027-intake/",
+    "title": "The Kenya Revenue Authority (KRA) Industrial Attachment Programme (January to March 2027 Intake) for young Kenyan students ( Kshs. 7,000 monthly stipend)",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "model_eligibility_status": "CONFIRMED_INELIGIBLE",
+    "missing_requirements": [],
+    "blocking_issues": [
+      "Nationality mismatch: program limited to Kenyan students",
+      "Must be a currently enrolled undergraduate or diploma student (candidate is a graduate professional)",
+      "Degree level mismatch: candidate already holds a completed BSc, not an ongoing degree"
+    ],
+    "addressable_gaps": [],
+    "reasoning": "The programme explicitly requires applicants to be \"young Kenyan students\" who are currently enrolled as undergraduate (3rd, 4th or final year) or diploma students (2nd, 3rd or final year). The candidate is an Ethiopian national, not a Kenyan, and is a working professional who has already completed a BSc degree, thus does not meet the student status or nationality requirements.",
+    "id": "3c57025f9bb35611",
+    "first_seen": "2026-11-24T15:50:42.106339+00:00",
+    "last_updated": "2026-11-24T15:50:42.106360+00:00"
+  },
+  "e8415b5bc2fea176": {
+    "url": "https://www.opportunitiesforafricans.com/the-kenya-revenue-authority-kra-pupillage-programme-2027/",
+    "title": "The Kenya Revenue Authority (KRA) Pupillage Programme 2027 for young Kenyan Law graduates (Kshs.25,000 Monthly Stipend)",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "model_eligibility_status": "CONFIRMED_INELIGIBLE",
+    "missing_requirements": [],
+    "blocking_issues": [
+      "Bachelor’s degree not in Law",
+      "Not enrolled in the Advocates Training Programme at Kenya School of Law",
+      "Nationality not Kenyan (program targets Kenyan law graduates)"
+    ],
+    "addressable_gaps": [],
+    "reasoning": "The programme explicitly requires a bachelor's degree in Law and enrollment in the Advocates Training Programme (ATP) at the Kenya School of Law between Jan 2024 and Dec 2026. The candidate holds a BSc in Psychology, is not a law graduate, and is not currently pursuing the ATP. These are hard blockers. Additionally, the programme is aimed at Kenyan law graduates, whereas the candidate is Ethiopian, indicating a citizenship mismatch.",
+    "id": "e8415b5bc2fea176",
+    "first_seen": "2026-11-24T15:51:44.917937+00:00",
+    "last_updated": "2026-11-24T15:51:44.917954+00:00"
+  },
+  "2e2c1a64a60afc8b": {
+    "url": "https://www.opportunitiesforafricans.com/the-tor-community-fellowship-2027/",
+    "title": "The Tor Community Fellowship 2027 for human rights defenders, journalists, technologists, and researchers (500 USD monthly stipend)",
+    "status": "legitimacy_unknown",
+    "credibility_status": "NEEDS_VERIFICATION",
+    "source_tier": "TIER_3",
+    "reasoning": "The page lists a Tor Community Fellowship with a stipend and no application fee, but there is no direct link to an official Tor Project page confirming such a program; without verifiable official source, legitimacy cannot be confirmed.",
+    "id": "2e2c1a64a60afc8b",
+    "first_seen": "2026-11-24T15:52:43.913171+00:00",
+    "last_updated": "2026-11-24T15:52:43.913190+00:00"
+  },
+  "3341ab3558ce5557": {
+    "url": "https://www.opportunitiesforafricans.com/fulbright-teaching-excellence-and-achievement-program-2027-2028-fulbright-tea-for-secondary-level-teachers/",
+    "title": "Fulbright Teaching Excellence and Achievement Program 2027/2028 (Fulbright TEA) for secondary-level teachers (Fully Funded to the United States)",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "model_eligibility_status": "PROBABLY_INELIGIBLE",
+    "missing_requirements": [
+      "Explicit list of participating Fulbright TEA countries/territories to confirm Ethiopian eligibility"
+    ],
+    "blocking_issues": [
+      "Not a full-time secondary-level educator (hard blocker)",
+      "Unverified participation of Ethiopia among eligible countries (potential hard blocker)"
+    ],
+    "addressable_gaps": [
+      "Obtain English proficiency test (IELTS/TOEFL/Duolingo) if needed"
+    ],
+    "reasoning": "The Fulbright TEA program requires applicants to be full-time secondary-level educators. The candidate is a working professional (AI developer, marketer, psychologist) and is not currently employed as a secondary school teacher, which is a hard blocker. Additionally, the program specifies that applicants must be from a participating country; the list of eligible countries is not provided, so it is unclear whether Ethiopia is included, creating an additional uncertainty.",
+    "id": "3341ab3558ce5557",
+    "first_seen": "2026-11-24T15:53:59.641028+00:00",
+    "last_updated": "2026-11-24T15:53:59.641042+00:00"
+  },
+  "d81cd81013c10965": {
+    "url": "https://www.opportunitiesforafricans.com/the-yale-council-on-african-studies-visiting-african-scholars-fellowship-2027-2028/",
+    "title": "The Yale Council on African Studies Visiting African Scholars Fellowship 2027/2028 for African academics.",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "model_eligibility_status": "CONFIRMED_INELIGIBLE",
+    "missing_requirements": [],
+    "blocking_issues": [
+      "No PhD (degree level mismatch)",
+      "Not holding a full‑time academic position at an African university"
+    ],
+    "addressable_gaps": [],
+    "reasoning": "The fellowship explicitly requires applicants to hold a PhD earned at least 7 years ago and to be in a full‑time academic position at an African university. The candidate only has a BSc, no PhD, and is employed as a professional outside academia, so the core eligibility criteria are not met.",
+    "id": "d81cd81013c10965",
+    "first_seen": "2026-11-24T15:54:55.329118+00:00",
+    "last_updated": "2026-11-24T15:54:55.329130+00:00"
+  },
+  "5732e9800c8114f5": {
+    "url": "https://www.scholarshipbob.com/grants",
+    "title": "Grants and Funding Opportunities Globally 2026 - 2027 | ScholarshipBob",
+    "status": "unknown",
+    "eligibility_status": "UNCERTAIN",
+    "model_eligibility_status": "UNCERTAIN",
+    "missing_requirements": [
+      "Specific grant eligibility details (e.g., whether the grant requires the applicant to be a current student, a certain age range, a specific nationality, or a particular degree level).",
+      "Any language proficiency minimum scores.",
+      "Field‑specific or project‑specific criteria for each listed opportunity."
+    ],
+    "blocking_issues": [],
+    "addressable_gaps": [
+      "Obtain an English proficiency test result (e.g., Duolingo English Test or MOI certificate) if required by a specific grant.",
+      "Prepare any project proposal, CV, or portfolio that a particular grant may request."
+    ],
+    "reasoning": "The page lists a broad collection of grant opportunities without stating concrete eligibility criteria. It notes that eligibility varies by grant and may include factors such as student status, field of study, age, or nationality. Since no specific requirements are provided, we cannot confirm that the candidate meets all necessary conditions, nor can we rule them out. Therefore, a decision‑relevant criterion could potentially exclude the candidate.",
+    "id": "5732e9800c8114f5",
+    "first_seen": "2026-11-24T15:56:29.193086+00:00",
+    "last_updated": "2026-11-24T15:56:29.193100+00:00"
+  },
+  "6ffefd6c2f59b5a0": {
+    "url": "https://opportunitiesforyouth.org/2026/11/03/young-security-conference-fellowship-2026-2027-fully-funded-fellowship-in-germany-for-young-security-researchers-and-professionals-apply-by-november-11-2026",
+    "title": "Young Security Conference Fellowship 2026–2027: Fully Funded Fellowship in Germany for Young Security Researchers and Professionals – Apply by November 11, 2026 - Opportunities for Youth",
+    "status": "closed",
+    "deadline": null,
+    "id": "6ffefd6c2f59b5a0",
+    "first_seen": "2026-11-24T15:57:04.269373+00:00",
+    "last_updated": "2026-11-24T15:57:04.269391+00:00"
+  },
+  "bfd5d49e4732dccc": {
+    "url": "https://www.opportunitiesforafricans.com/the-kenya-revenue-authority-kra-internship-program-2027/",
+    "title": "The Kenya Revenue Authority (KRA) Internship Program 2027 for young Kenyan graduates ( 25,000 Kshs monthly stipend)",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "model_eligibility_status": "CONFIRMED_INELIGIBLE",
+    "missing_requirements": [],
+    "blocking_issues": [
+      "Nationality not Kenyan (Ethiopian)",
+      "Graduation date outside required window (2021 vs required 2024‑2026)"
+    ],
+    "addressable_gaps": [],
+    "reasoning": "The program requires graduates with a first degree or diploma obtained between Jan 2024 and Dec 2026 and is explicitly for \"young Kenyan graduates\". Candidate graduated in 2021, outside the allowed window, and is Ethiopian, not Kenyan. Both are hard blockers.",
+    "id": "bfd5d49e4732dccc",
+    "first_seen": "2026-11-24T15:58:07.422876+00:00",
+    "last_updated": "2026-11-24T15:58:07.422888+00:00"
+  },
+  "549bb27d5ca03b35": {
+    "url": "https://www.eastwestcenter.org/apply/east-west-center-graduate-degree-fellowship-apply-now",
+    "title": "East-West Center Graduate Degree Fellowship: Apply Now | East-West Center | www.eastwestcenter.org",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "model_eligibility_status": "CONFIRMED_INELIGIBLE",
+    "missing_requirements": [
+      "Specific English language test score requirement",
+      "Minimum GPA or academic standing",
+      "Any residency or work‑experience criteria"
+    ],
+    "blocking_issues": [
+      "Nationality not in eligible regions (Ethiopia not listed among South Asia or East Asia countries)"
+    ],
+    "addressable_gaps": [],
+    "reasoning": "The fellowship eligibility list explicitly mentions only South Asia and East Asia countries. Ethiopia (an African nation) is not included, creating a hard nationality blocker. Other requirements (e.g., English proficiency, GPA) are not stated, but the nationality exclusion alone disqualifies the candidate.",
+    "id": "549bb27d5ca03b35",
+    "first_seen": "2026-11-24T15:58:30.350658+00:00",
+    "last_updated": "2026-11-24T15:58:30.350672+00:00"
+  },
+  "5dbe2af26f3af5e4": {
+    "url": "https://www.un.org/ohrlls/content/dpoa-mtr-journalism-fellowship",
+    "title": "DPoA MTR Journalism Fellowship | Office of the High Representative for the Least Developed Countries, Landlocked Developing Countries and Small Island Developing States",
+    "status": "unknown",
+    "eligibility_status": "UNCERTAIN",
+    "model_eligibility_status": "UNCERTAIN",
+    "missing_requirements": [
+      "Specific eligibility criteria such as required nationality or country eligibility, student/enrollment status, age limits, minimum degree level, English language test requirements, and any other selection criteria."
+    ],
+    "blocking_issues": [],
+    "addressable_gaps": [],
+    "reasoning": "The program description provided contains no explicit eligibility criteria (e.g., nationality restrictions, student status, age limits, degree requirements, English proficiency). Without this information we cannot confirm whether the candidate meets all necessary conditions, nor can we identify any definitive blockers.",
+    "id": "5dbe2af26f3af5e4",
+    "first_seen": "2026-11-24T15:58:59.682806+00:00",
+    "last_updated": "2026-11-24T15:58:59.682819+00:00"
+  },
+  "4124ce184057576c": {
+    "url": "https://www.forumea.org/forum-fellowships.html",
+    "title": "Forum Fellowships - The Forum on Education Abroad",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "model_eligibility_status": "CONFIRMED_INELIGIBLE",
+    "missing_requirements": [
+      "Specific eligibility details such as citizenship restrictions, age limits, required English proficiency scores, or application deadlines are not provided in the excerpt."
+    ],
+    "blocking_issues": [
+      "Must be a graduate student (candidate is not currently a student)"
+    ],
+    "addressable_gaps": [],
+    "reasoning": "The program description states the Forum Fellowship is intended for graduate students. The candidate is a working professional and is not currently enrolled in any graduate program, which directly conflicts with the stated target audience. No other eligibility criteria (e.g., nationality, age, degree level) are mentioned that would exclude the candidate, but the student‑status requirement is a hard blocker.",
+    "id": "4124ce184057576c",
+    "first_seen": "2026-11-24T16:00:36.128908+00:00",
+    "last_updated": "2026-11-24T16:00:36.128925+00:00"
   }
 }
