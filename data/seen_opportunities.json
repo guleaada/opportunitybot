@@ -4227,15 +4227,31 @@
   "948288b971d99501": {
     "url": "https://www.africanleadershipcentre.org/news/call-for-applications-y4z58",
     "title": "Call for Applications: ALC Peace, Security and Development Fellowships for 2026/2027 — The African Leadership Centre",
-    "status": "closed",
+    "status": "ineligible",
     "credibility_status": "NEEDS_VERIFICATION",
     "source_tier": "TIER_4",
-    "reasoning": "No reasoning returned.",
+    "reasoning": "The fellowship program primarily targets African students or scholars affiliated with academic/research institutions. The candidate is a working professional with no current student status and no affiliation to an academic or research institution in Africa, which is a hard blocker for the Associate Fellowship Bursaries and likely for the Scholar Fellowship. The Sudanese Women fellowship is explicitly limited to Sudanese citizens, which the candidate does not meet. While the candidate could meet language requirements by obtaining a Duolingo or MOI certificate, the lack of student status/affiliation is a decisive barrier.",
     "id": "948288b971d99501",
     "first_seen": "2026-08-19T00:14:16.050984+00:00",
-    "last_updated": "2026-09-14T10:25:55.844069+00:00",
+    "last_updated": "2026-11-25T15:21:50.048619+00:00",
     "analysis_recovery_queued": true,
-    "deadline": "2026-05-24"
+    "deadline": "2026-05-24",
+    "eligibility_status": "PROBABLY_INELIGIBLE",
+    "model_eligibility_status": "PROBABLY_INELIGIBLE",
+    "missing_requirements": [
+      "Exact age limit (not specified in the text)",
+      "Specific degree level required for the Scholar Fellowship (e.g., must hold a master's or be enrolled in a graduate program)",
+      "Detailed language proficiency score thresholds",
+      "Confirmation of required affiliation with an African academic/research institution"
+    ],
+    "blocking_issues": [
+      "Not currently a student (required for Associate Fellowship Bursaries and Global South bursary)",
+      "No affiliation with an academic or research institution in Africa (required for Fellowships for African Scholars)",
+      "Not a Sudanese citizen (required for Sudanese Women fellowship)"
+    ],
+    "addressable_gaps": [
+      "English proficiency proof (can obtain Duolingo test or MOI certificate)"
+    ]
   },
   "ec7109ade3dc3482": {
     "url": "https://www.linkedin.com/pulse/40-fully-funded-fellowship-opportunities-iswef",
@@ -4719,13 +4735,14 @@
   "acc4c4288d1d0922": {
     "url": "https://opportunitydesk.org/2026/08/19/ares-international-training-scholarships-2027-2028/",
     "title": "ARES International Training Scholarships 2027-2028",
-    "status": "unknown",
+    "status": "closed",
     "eligibility_status": "UNCERTAIN",
     "reasoning": "No reasoning returned.",
     "id": "acc4c4288d1d0922",
     "first_seen": "2026-08-20T05:40:00.250277+00:00",
-    "last_updated": "2026-08-20T05:40:00.250286+00:00",
-    "analysis_recovery_queued": true
+    "last_updated": "2026-11-25T15:22:22.542480+00:00",
+    "analysis_recovery_queued": true,
+    "deadline": "2026-09-18"
   },
   "964ec8e3ae1ab971": {
     "url": "https://opportunitydesk.org/2026/08/19/innovatehers-scholarship-challenge-2026/",
@@ -24340,5 +24357,251 @@
     "id": "4124ce184057576c",
     "first_seen": "2026-11-24T16:00:36.128908+00:00",
     "last_updated": "2026-11-24T16:00:36.128925+00:00"
+  },
+  "9f95ddea4f1cfeb7": {
+    "url": "https://opportunitytracker.ug/opportunity/fully-funded-apply-for-the-cats-fellowship-programme-2026-2027-in-germany",
+    "title": "FULLY FUNDED : Apply for the CATS Fellowship Programme 2026–2027 in Germany - Opportunity Tracker",
+    "status": "ineligible",
+    "eligibility_status": "PROBABLY_INELIGIBLE",
+    "model_eligibility_status": "PROBABLY_INELIGIBLE",
+    "missing_requirements": [
+      "Demonstrated strong publication or research record.",
+      "Work experience or research focus on Turkey‑related topics."
+    ],
+    "blocking_issues": [],
+    "addressable_gaps": [
+      "Develop and submit a policy‑relevant research proposal on a Turkey‑related topic (e.g., AI and digitalisation in Turkey).",
+      "Provide evidence of a strong publication or research record (e.g., peer‑reviewed papers, policy reports, think‑tank publications).",
+      "If required, supply proof of English proficiency (e.g., Duolingo English Test or MOI certificate)."
+    ],
+    "reasoning": "The CATS Fellowship requires candidates to be post‑doctoral researchers, think‑tank experts, practitioners, or advanced researchers working on Turkey‑related topics and to demonstrate a strong publication or research record. The candidate holds only a BSc, is not a post‑doc or PhD candidate, and has no indicated publications or research on Turkey. While the program accepts applicants from all countries, the lack of a Turkey‑focused research agenda and a demonstrable research record are likely to disqualify the candidate.",
+    "id": "9f95ddea4f1cfeb7",
+    "first_seen": "2026-11-25T15:23:51.616916+00:00",
+    "last_updated": "2026-11-25T15:23:51.616930+00:00"
+  },
+  "330734d753c02a07": {
+    "url": "https://www.opportunitiesforafricans.com/the-robertson-foundation-for-government-rfg-global-governance-leadership-lab-2027/",
+    "title": "The Robertson Foundation for Government (RFG) Global Governance Leadership Lab 2027 for public service professionals (Fully Funded)",
+    "status": "unknown",
+    "eligibility_status": "UNCERTAIN",
+    "model_eligibility_status": "UNCERTAIN",
+    "missing_requirements": [
+      "Evidence of current employment in a public‑service role (government, NGO, international organization, etc.)"
+    ],
+    "blocking_issues": [],
+    "addressable_gaps": [
+      "Obtain an English proficiency test score (e.g., Duolingo English Test or MOI certificate) to demonstrate sufficient English for live discussions"
+    ],
+    "reasoning": "The candidate meets nationality (Ethiopian, non‑US), age, and is not required to be a current student. The program requires sufficient English proficiency; the candidate currently lacks a formal test score but can obtain a Duolingo or MOI certificate, which is addressable. The critical missing piece is proof of a \"working in a public‑service role\" – the candidate’s experience is in AI development, marketing, psychology, and community leadership, which is not explicitly a public‑service position. Since this criterion is decision‑relevant and not verifiable from the provided information, the eligibility cannot be confirmed.",
+    "id": "330734d753c02a07",
+    "first_seen": "2026-11-25T15:24:52.350293+00:00",
+    "last_updated": "2026-11-25T15:24:52.350310+00:00"
+  },
+  "06d2fc9c931c031f": {
+    "url": "https://www.opportunitiesforafricans.com/the-caine-prize-award-2027/",
+    "title": "The Caine Prize Award 2027 for African Writing (£10,000 Cash Prize)",
+    "status": "ineligible",
+    "eligibility_status": "PROBABLY_INELIGIBLE",
+    "model_eligibility_status": "PROBABLY_INELIGIBLE",
+    "missing_requirements": [],
+    "blocking_issues": [
+      "No published short story within the required date window",
+      "No publisher to submit the entry (self‑submission not allowed)"
+    ],
+    "addressable_gaps": [
+      "Write a short story of 3,000‑10,000 words, get it published in a qualifying outlet (book, literary journal, magazine, or arts‑oriented website) before the deadline, and arrange for that publisher to submit the entry."
+    ],
+    "reasoning": "The Caine Prize requires that the entry be a short story published between 24 Oct 2023 and 24 Oct 2026 and submitted by a publisher (the publisher cannot be the author). The candidate's profile contains no evidence of any published short story, nor of a publisher willing to submit on their behalf. All other criteria (age, African nationality, etc.) are satisfied, but the core eligibility condition is unmet.",
+    "id": "06d2fc9c931c031f",
+    "first_seen": "2026-11-25T15:25:50.850587+00:00",
+    "last_updated": "2026-11-25T15:25:50.850604+00:00"
+  },
+  "ead031b95a99d069": {
+    "url": "https://www.opportunitiesforafricans.com/the-anso-cas-twas-unesco-phd-scholarship-2027/",
+    "title": "The ANSO-CAS-TWAS/UNESCO PhD Scholarship 2027 for students/scholars from developing countries.",
+    "status": "unknown",
+    "eligibility_status": "UNCERTAIN",
+    "model_eligibility_status": "UNCERTAIN",
+    "missing_requirements": [
+      "Verification that the candidate meets the admission criteria for international students of USTC/UCAS (e.g., required degree level, GPA, prerequisite coursework)."
+    ],
+    "blocking_issues": [],
+    "addressable_gaps": [
+      "Obtain an English proficiency test result (e.g., Duolingo English Test or MOI certificate) to demonstrate required language level."
+    ],
+    "reasoning": "The program requires applicants to be nationals of eligible developing countries (Ethiopia qualifies) and to be born after 1 Jan 1992 (candidate born ~1999, meets age). The candidate does not hold Chinese citizenship. However, the eligibility criteria include meeting the admission requirements for international students of USTC/UCAS, which typically involve a minimum academic qualification (often a master's degree) and proof of English or Chinese proficiency. The candidate only holds a BSc and has no English test certificate yet, so it is unclear whether they satisfy the academic and language proof requirements. These are decision‑relevant criteria that could exclude the candidate.",
+    "id": "ead031b95a99d069",
+    "first_seen": "2026-11-25T15:27:05.516131+00:00",
+    "last_updated": "2026-11-25T15:27:05.516149+00:00"
+  },
+  "ad8a78cc4a846783": {
+    "url": "https://www.opportunitiesforafricans.com/the-gsma-innovation-fund-for-ai-enabled-financial-health-2026/",
+    "title": "The GSMA Innovation Fund for AI-Enabled Financial Health 2026 – Grant Funding and Venture-Building Support for AI Startups.",
+    "status": "notified",
+    "score": 6.0,
+    "category": null,
+    "official_url": "https://www.opportunitiesforafricans.com/the-gsma-innovation-fund-for-ai-enabled-financial-health-2026/",
+    "location": null,
+    "remote": null,
+    "deadline": "2026-12-17",
+    "reward": "fully_funded",
+    "estimated_value": null,
+    "eligibility_status": "PROBABLY_ELIGIBLE",
+    "credibility_status": "LIKELY_LEGITIMATE",
+    "source_tier": "TIER_3",
+    "source_quality": 7,
+    "requirements": [],
+    "id": "ad8a78cc4a846783",
+    "first_seen": "2026-11-25T15:29:12.770608+00:00",
+    "last_updated": "2026-11-25T15:39:47.363855+00:00",
+    "notification_tier": "GOOD",
+    "notified_at": "2026-11-25T15:39:47.350010+00:00"
+  },
+  "651680e2886b0242": {
+    "url": "https://opportunitytracker.ug/opportunity/fully-funded-apply-for-the-awareness-360-fellowship-2026",
+    "title": "FULLY FUNDED : Apply for the Awareness 360 Fellowship 2026 | Opportunity Tracker",
+    "status": "legitimacy_unknown",
+    "credibility_status": "NEEDS_VERIFICATION",
+    "source_tier": "TIER_4",
+    "reasoning": "The listing contains no request for fees, payments, or personal email addresses, which are common scam indicators. However, the organization \"Awareness 360\" is not widely known, the page provides no verifiable official website or contact details, and the description is generic, making it impossible to confirm legitimacy.",
+    "id": "651680e2886b0242",
+    "first_seen": "2026-11-25T15:29:44.360908+00:00",
+    "last_updated": "2026-11-25T15:29:44.360924+00:00"
+  },
+  "7b119779ee9984a1": {
+    "url": "https://oyaop.com/opportunity/scholarships-and-fellowships/fully-funded-fellowship-opportunities-for-international-students-in-2025-2026-apply-now",
+    "title": "Fully Funded Fellowship Opportunities for International Students in 2025-2026 – Apply Now !! - OYA Opportunities | OYA Opportunities",
+    "status": "legitimacy_unknown",
+    "credibility_status": "NEEDS_VERIFICATION",
+    "source_tier": "TIER_4",
+    "reasoning": "The page lists several real‑world fellowships but provides no direct official links, contact details, or application instructions; it only offers generic \"Submit Your Application Today!\" buttons and requires a login, which is typical of lead‑generation aggregators. No explicit fee or payment request is shown, but the lack of verifiable source information makes the legitimacy indeterminate.",
+    "id": "7b119779ee9984a1",
+    "first_seen": "2026-11-25T15:30:35.710366+00:00",
+    "last_updated": "2026-11-25T15:30:35.710379+00:00"
+  },
+  "b2884c19f3de963b": {
+    "url": "https://opportunitytracker.ug/opportunity/fully-funded-to-usa-apply-for-the-iwmf-elizabeth-neuffer-fellowship-2027",
+    "title": "FULLY FUNDED TO USA : Apply for the IWMF Elizabeth Neuffer Fellowship 2027  | Opportunity Tracker",
+    "status": "ineligible",
+    "eligibility_status": "PROBABLY_INELIGIBLE",
+    "model_eligibility_status": "PROBABLY_INELIGIBLE",
+    "missing_requirements": [
+      "Verification of gender identity as required by the fellowship",
+      "Proof of English reading, writing, and speaking proficiency (certified test)",
+      "Documentation of journalism work (bylines, articles, portfolio) showing at least three years of full‑time experience",
+      "Evidence that reporting topics are human rights or social justice"
+    ],
+    "blocking_issues": [
+      "No documented professional journalism experience (minimum 3 years required)",
+      "No evidence of reporting focus on human rights or social justice"
+    ],
+    "addressable_gaps": [
+      "Obtain an English proficiency test (Duolingo, TOEFL, IELTS, or MOI certificate)",
+      "Provide confirmation of gender identity (women/nonbinary/gender‑nonconforming) if applicable"
+    ],
+    "reasoning": "The fellowship requires applicants to be journalists with at least three years of full‑time professional journalism experience and to focus their reporting on human rights or social justice. Gulilat's profile lists AI development, marketing, psychology and community leadership, but no journalism experience or evidence of reporting on the required topics. Therefore she does not meet the core professional criteria. English proficiency is required but she lacks a certified test (addressable). Gender identity (women, nonbinary, gender non‑conforming) is not explicitly confirmed in the profile (missing). Nationality is not a blocker as the program is open to all countries.",
+    "id": "b2884c19f3de963b",
+    "first_seen": "2026-11-25T15:31:21.369884+00:00",
+    "last_updated": "2026-11-25T15:31:21.369899+00:00"
+  },
+  "d04450f86b7f2b1e": {
+    "url": "https://www.scholarshipsads.com/matsumae-international-foundation-research-fellowship-2026-japan-fully-funded",
+    "title": "Matsumae International Foundation Research Fellowship 2026, Japan (Fully Funded)",
+    "status": "closed",
+    "deadline": "2025-06-30",
+    "id": "d04450f86b7f2b1e",
+    "first_seen": "2026-11-25T15:31:52.766779+00:00",
+    "last_updated": "2026-11-25T15:31:52.766794+00:00"
+  },
+  "9bd690c81802bcc8": {
+    "url": "https://opportunitiesforyouth.org/2026/05/28/taiwan-fellowship-2027-in-taiwan-for-international-researchers-fully-funded-research-fellowship",
+    "title": "Taiwan Fellowship 2027 in Taiwan for International Researchers | Fully Funded Research Fellowship - Opportunities for Youth",
+    "status": "closed",
+    "deadline": "2026-06-30",
+    "id": "9bd690c81802bcc8",
+    "first_seen": "2026-11-25T15:32:30.340911+00:00",
+    "last_updated": "2026-11-25T15:32:30.340926+00:00"
+  },
+  "5a8996fe24a1d439": {
+    "url": "https://opportunitytracker.ug/opportunity/fully-funded-apply-for-the-timep-2026-2027-nonresident-fellowship",
+    "title": "FULLY FUNDED: Apply For The TIMEP 2026‑2027 Nonresident Fellowship | Opportunity Tracker",
+    "status": "ineligible",
+    "eligibility_status": "PROBABLY_INELIGIBLE",
+    "model_eligibility_status": "PROBABLY_INELIGIBLE",
+    "missing_requirements": [
+      "Explicit evidence of regional ties to the MENA region (not provided)",
+      "Detailed breakdown of work experience to verify relevance"
+    ],
+    "blocking_issues": [
+      "Insufficient relevant work/academic experience (requires ≥5 years, candidate has ~2‑3 years)",
+      "No Arabic language proficiency (required for both written and spoken)"
+    ],
+    "addressable_gaps": [
+      "English proficiency documentation (can obtain Duolingo or MOI certificate)",
+      "Potentially acquire Arabic language skills (but not a quick fix)"
+    ],
+    "reasoning": "The TIMEP Nonresident Fellowship requires (1) at least five years of relevant work or academic experience, (2) proficiency in both written and spoken English AND Arabic, and (3) a bachelor’s degree in a relevant discipline. The candidate has a BSc but only ~2‑3 years of professional experience since graduating in 2021, falling short of the five‑year minimum. They also lack any demonstrated Arabic proficiency, which is a mandatory language requirement. While English proficiency can be documented later, the two hard blockers make the candidate unlikely to qualify.",
+    "id": "5a8996fe24a1d439",
+    "first_seen": "2026-11-25T15:33:12.935394+00:00",
+    "last_updated": "2026-11-25T15:33:12.935413+00:00"
+  },
+  "acd17562dcc556e9": {
+    "url": "https://www.scholarshipsads.com/rotary-peace-fellowship-fully-funded",
+    "title": "Rotary Peace Fellowship 2026 (Fully Funded)",
+    "status": "analyzed",
+    "score": 4.4,
+    "category": "fellowships",
+    "official_url": "https://www.scholarshipsads.com/rotary-peace-fellowship-fully-funded",
+    "location": null,
+    "remote": null,
+    "deadline": null,
+    "reward": "fully_funded",
+    "estimated_value": null,
+    "eligibility_status": "PROBABLY_ELIGIBLE",
+    "credibility_status": "LIKELY_LEGITIMATE",
+    "source_tier": "TIER_4",
+    "source_quality": 0,
+    "requirements": [
+      "Academic transcripts",
+      "Recommendation letters",
+      "Personal statements"
+    ],
+    "id": "acd17562dcc556e9",
+    "first_seen": "2026-11-25T15:35:58.619891+00:00",
+    "last_updated": "2026-11-25T15:35:58.619910+00:00"
+  },
+  "92be1ea8f2383604": {
+    "url": "https://www.facebook.com/scholarcorner/posts/5-fully-funded-leadership-programs-in-the-usa-2027-no-application-feewant-to-tra/1623115629856038",
+    "title": "Scholarships Corner on Facebook: \"5 Fully Funded Leadership Programs in the USA 2027 | No Application Fee! Want to travel to the USA f…\"",
+    "status": "legitimacy_unknown",
+    "credibility_status": "NEEDS_VERIFICATION",
+    "source_tier": "TIER_4",
+    "reasoning": "The Facebook post only aggregates information about existing leadership programs and does not request any payment or provide personal contact details, which are common scam indicators. However, it lacks direct links to official program websites or verifiable details, so the legitimacy of the listed programs cannot be confirmed from this source alone.",
+    "id": "92be1ea8f2383604",
+    "first_seen": "2026-11-25T15:36:19.257905+00:00",
+    "last_updated": "2026-11-25T15:36:19.257924+00:00"
+  },
+  "602987b43ec2bbf7": {
+    "url": "https://opportunity-universe.com/en/type/training/fully-funded",
+    "title": "Fully Funded Training Programmes 2026/2027: 292 Open ...",
+    "status": "notified",
+    "score": 5.7,
+    "category": "programs",
+    "official_url": "https://opportunity-universe.com/en/type/training/fully-funded",
+    "location": null,
+    "remote": null,
+    "deadline": null,
+    "reward": "fully_funded",
+    "estimated_value": null,
+    "eligibility_status": "PROBABLY_ELIGIBLE",
+    "credibility_status": "LIKELY_LEGITIMATE",
+    "source_tier": "TIER_4",
+    "source_quality": 0,
+    "requirements": [],
+    "id": "602987b43ec2bbf7",
+    "first_seen": "2026-11-25T15:39:45.342714+00:00",
+    "last_updated": "2026-11-25T15:39:47.399054+00:00",
+    "notification_tier": "WATCHLIST",
+    "notified_at": "2026-11-25T15:39:47.386179+00:00"
   }
 }

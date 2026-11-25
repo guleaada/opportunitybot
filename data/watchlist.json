@@ -168,33 +168,24 @@
     "added": "2026-11-23T15:45:08.173126+00:00",
     "last_checked": "2026-11-23T15:45:08.171977"
   },
-  "948288b971d99501": {
-    "id": "948288b971d99501",
-    "url": "https://www.africanleadershipcentre.org/news/call-for-applications-y4z58",
-    "title": "Call for Applications: ALC Peace, Security and Development Fellowships for 2026/2027 — The African Leadership Centre",
-    "retry_analysis": true,
-    "reason": "closed at discovery; likely annual",
-    "added": "2026-09-14T10:25:55.854736+00:00",
-    "last_checked": "2026-09-14T10:25:12.058714",
-    "last_known_deadline": "2026-05-24"
-  },
   "65dd5a38738c60ee": {
     "id": "65dd5a38738c60ee",
     "url": "https://opportunitiesforyouth.org/2026/08/19/getty-conservation-guest-scholars-program-2026-fully-funded-three-month-research-opportunity-for-cultural-heritage-conservation-professionals/",
     "title": "Getty Conservation Guest Scholars Program 2026: Fully Funded Three-Month Research Opportunity for Cultural Heritage Conservation Professionals.",
     "retry_analysis": true,
     "reason": "Recover historical malformed model response",
-    "added": "2026-09-16T09:44:49.123478+00:00",
-    "last_checked": "2026-09-16T09:44:49.122815"
+    "added": "2026-11-25T15:21:50.086196+00:00",
+    "last_checked": "2026-11-25T15:21:50.085641"
   },
   "acc4c4288d1d0922": {
     "id": "acc4c4288d1d0922",
     "url": "https://opportunitydesk.org/2026/08/19/ares-international-training-scholarships-2027-2028/",
     "title": "ARES International Training Scholarships 2027-2028",
     "retry_analysis": true,
-    "reason": "Recover historical malformed model response",
-    "added": "2026-09-17T09:52:37.557255+00:00",
-    "last_checked": "2026-09-17T09:52:37.556800"
+    "reason": "closed at discovery; likely annual",
+    "added": "2026-11-25T15:22:22.563553+00:00",
+    "last_checked": "2026-11-25T15:21:50.150069",
+    "last_known_deadline": "2026-09-18"
   },
   "0dceb68c941c24db": {
     "id": "0dceb68c941c24db",
@@ -202,8 +193,8 @@
     "title": "2027 Mohamed Ali Foundation Fellowship at Durham University",
     "retry_analysis": true,
     "reason": "Recover historical malformed model response",
-    "added": "2026-09-17T09:52:37.786586+00:00",
-    "last_checked": "2026-09-17T09:52:37.785896"
+    "added": "2026-11-25T15:22:22.577534+00:00",
+    "last_checked": "2026-11-25T15:22:22.577009"
   },
   "940a023da90c4ce3": {
     "id": "940a023da90c4ce3",
@@ -1571,6 +1562,31 @@
     "last_known_deadline": null,
     "reason": "closed at discovery; likely annual",
     "id": "6ffefd6c2f59b5a0",
-    "added": "2026-11-24T15:57:04.291119+00:00"
+    "added": "2026-11-25T15:20:51.238199+00:00",
+    "last_checked": "2026-11-25T15:20:51.237617"
+  },
+  "d04450f86b7f2b1e": {
+    "url": "https://www.scholarshipsads.com/matsumae-international-foundation-research-fellowship-2026-japan-fully-funded",
+    "title": "Matsumae International Foundation Research Fellowship 2026, Japan (Fully Funded)",
+    "last_known_deadline": "2025-06-30",
+    "reason": "closed at discovery; likely annual",
+    "id": "d04450f86b7f2b1e",
+    "added": "2026-11-25T15:31:52.789362+00:00"
+  },
+  "9bd690c81802bcc8": {
+    "url": "https://opportunitiesforyouth.org/2026/05/28/taiwan-fellowship-2027-in-taiwan-for-international-researchers-fully-funded-research-fellowship",
+    "title": "Taiwan Fellowship 2027 in Taiwan for International Researchers | Fully Funded Research Fellowship - Opportunities for Youth",
+    "last_known_deadline": "2026-06-30",
+    "reason": "closed at discovery; likely annual",
+    "id": "9bd690c81802bcc8",
+    "added": "2026-11-25T15:32:30.362952+00:00"
+  },
+  "602987b43ec2bbf7": {
+    "url": "https://opportunity-universe.com/en/type/training/fully-funded",
+    "title": "Fully Funded Training Programmes 2026/2027: 292 Open ...",
+    "last_known_deadline": null,
+    "reason": "monitoring — not confirmed open at scan time",
+    "id": "602987b43ec2bbf7",
+    "added": "2026-11-25T15:39:45.366337+00:00"
   }
 }
