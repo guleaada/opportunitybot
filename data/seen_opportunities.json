@@ -4778,13 +4778,14 @@
   "940a023da90c4ce3": {
     "url": "https://opportunitydesk.org/2026/08/19/wege-prize-2027/",
     "title": "Wege Prize 2027 for Innovators ($65,000 total prize)",
-    "status": "unknown",
+    "status": "closed",
     "eligibility_status": "UNCERTAIN",
     "reasoning": "No reasoning returned.",
     "id": "940a023da90c4ce3",
     "first_seen": "2026-08-20T05:41:57.582754+00:00",
-    "last_updated": "2026-08-20T05:41:57.582762+00:00",
-    "analysis_recovery_queued": true
+    "last_updated": "2026-11-26T14:50:37.438612+00:00",
+    "analysis_recovery_queued": true,
+    "deadline": "2026-10-04"
   },
   "ba64384a6aba78fd": {
     "url": "https://opportunitydesk.org/2026/08/19/11th-africa-energy-innovation-challenge-2026/",
@@ -4832,13 +4833,14 @@
   "3d293bca5c827095": {
     "url": "https://opportunitydesk.org/2026/08/20/mohamed-ali-foundation-fellowship-programme-2027/",
     "title": "Mohamed Ali Foundation Fellowship Programme 2027",
-    "status": "unknown",
+    "status": "closed",
     "eligibility_status": "UNCERTAIN",
     "reasoning": "No reasoning returned.",
     "id": "3d293bca5c827095",
     "first_seen": "2026-08-21T05:37:13.848706+00:00",
-    "last_updated": "2026-08-21T05:37:13.848715+00:00",
-    "analysis_recovery_queued": true
+    "last_updated": "2026-11-26T14:51:12.085993+00:00",
+    "analysis_recovery_queued": true,
+    "deadline": "2026-10-20"
   },
   "fc01aab56cb9a5c0": {
     "url": "https://opportunitiesforyouth.org/2026/08/20/ares-international-training-scholarships-2027-2028-in-belgium-fully-funded-study-and-professional-training-opportunities-for-applicants-from-32-eligible-countries/",
@@ -24584,10 +24586,193 @@
   "602987b43ec2bbf7": {
     "url": "https://opportunity-universe.com/en/type/training/fully-funded",
     "title": "Fully Funded Training Programmes 2026/2027: 292 Open ...",
-    "status": "notified",
-    "score": 5.7,
-    "category": "programs",
+    "status": "analyzed",
+    "score": 5.4,
+    "category": null,
     "official_url": "https://opportunity-universe.com/en/type/training/fully-funded",
+    "location": null,
+    "remote": null,
+    "deadline": null,
+    "reward": "fully_funded",
+    "estimated_value": null,
+    "eligibility_status": "PROBABLY_ELIGIBLE",
+    "credibility_status": "LIKELY_LEGITIMATE",
+    "source_tier": "TIER_4",
+    "source_quality": null,
+    "requirements": [],
+    "id": "602987b43ec2bbf7",
+    "first_seen": "2026-11-25T15:39:45.342714+00:00",
+    "last_updated": "2026-11-26T14:50:08.052169+00:00",
+    "notification_tier": "WATCHLIST",
+    "notified_at": "2026-11-25T15:39:47.386179+00:00"
+  },
+  "59e00db0452fcb14": {
+    "url": "https://www.opportunitiesforafricans.com/the-african-research-universities-alliance-arua-early-career-research-fellowship-programme-2027/",
+    "title": "The African Research Universities Alliance (ARUA) Early Career Research Fellowship Programme 2027 for early-career African researchers (Fully Funded, plus US$2,000 monthly stipend)",
+    "status": "ineligible",
+    "eligibility_status": "PROBABLY_INELIGIBLE",
+    "model_eligibility_status": "PROBABLY_INELIGIBLE",
+    "missing_requirements": [
+      "Verified affiliation with an ARUA member university or recognized research institution"
+    ],
+    "blocking_issues": [
+      "PhD degree required; candidate holds only a BSc"
+    ],
+    "addressable_gaps": [],
+    "reasoning": "The ARUA Early Career Research Fellowship explicitly requires applicants to hold a PhD in a relevant discipline. The candidate only has a BSc in Psychology, which does not meet the degree requirement. Age (27) and nationality (Ethiopian) satisfy the criteria, but the lack of a PhD is a hard blocker. Institutional affiliation with an ARUA member university is also not demonstrated.",
+    "id": "59e00db0452fcb14",
+    "first_seen": "2026-11-26T14:52:53.245596+00:00",
+    "last_updated": "2026-11-26T14:52:53.245611+00:00"
+  },
+  "47d0183ce5d6b79c": {
+    "url": "https://www.opportunitiesforafricans.com/the-kpmg-nigeria-university-scholarship-programme-2026/",
+    "title": "The KPMG Nigeria University Scholarship Programme 2026 for young Nigerian students.",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "model_eligibility_status": "CONFIRMED_INELIGIBLE",
+    "missing_requirements": [],
+    "blocking_issues": [
+      "Nationality: must be a citizen of Nigeria (candidate is Ethiopian)",
+      "Student status: must be a current undergraduate student in a federal Nigerian university (candidate is a working professional, not a student)",
+      "Secondary education: must have completed public secondary school in Nigeria with 5 distinctions in WASSCE/NECO (candidate's education is Ethiopian)",
+      "UTME score: must have minimum 230 (candidate has no UTME score)",
+      "Admission letter: must have admission to a federal Nigerian institution (candidate has none)"
+    ],
+    "addressable_gaps": [],
+    "reasoning": "The program explicitly requires applicants to be citizens of Nigeria, to have completed Nigerian secondary education (WASSCE/NECO), to have a UTME score, to hold an admission letter to a federal university in Nigeria, and to be currently enrolled as an undergraduate in their first or second year. The candidate is an Ethiopian national, not a Nigerian citizen, does not meet the Nigerian secondary education and UTME criteria, is not enrolled in a Nigerian university, and is a working professional rather than a student. These are hard, non‑addressable blockers.",
+    "id": "47d0183ce5d6b79c",
+    "first_seen": "2026-11-26T14:53:45.891216+00:00",
+    "last_updated": "2026-11-26T14:53:45.891234+00:00"
+  },
+  "49bea9811471388f": {
+    "url": "https://www.opportunitiesforafricans.com/iso-lomso-fellowships-2027/",
+    "title": "Iso Lomso Fellowships 2027 for Early Career African Researchers (Fully Funded)",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "model_eligibility_status": "CONFIRMED_INELIGIBLE",
+    "missing_requirements": [],
+    "blocking_issues": [
+      "No doctoral degree (PhD required)",
+      "No post‑doctoral fellowship or equivalent research experience",
+      "No current affiliation with an African research or higher‑education institution"
+    ],
+    "addressable_gaps": [
+      "Can pursue a PhD program",
+      "Can obtain a post‑doctoral or equivalent research position",
+      "Can secure an affiliation with an African university or research institute"
+    ],
+    "reasoning": "The Iso Lomso Fellowship explicitly requires (1) a doctoral degree obtained within the past eight years, (2) completion of a post‑doctoral fellowship or equivalent research programme, and (3) a current affiliation with a research or higher‑education institution in Africa. The candidate only holds a BSc, has no PhD, no post‑doctoral experience, and no current university or research affiliation, thus failing these mandatory criteria.",
+    "id": "49bea9811471388f",
+    "first_seen": "2026-11-26T14:55:00.584767+00:00",
+    "last_updated": "2026-11-26T14:55:00.584786+00:00"
+  },
+  "3dce084378efa0eb": {
+    "url": "https://www.opportunitiesforafricans.com/diageo-business-support-coordinator-graduate-trainee-programme-2027-for-young-nigerian-graduates/",
+    "title": "Diageo Business Support Coordinator Graduate Trainee Programme 2027 for young Nigerian graduates.",
+    "status": "legitimacy_unknown",
+    "credibility_status": "NEEDS_VERIFICATION",
+    "source_tier": "TIER_3",
+    "reasoning": "The listing lacks a direct link to an official Diageo page and uses generic email addresses instead of a diageo.com domain, making verification difficult; however, no fees or payment requests are mentioned, so there is no clear scam indicator.",
+    "id": "3dce084378efa0eb",
+    "first_seen": "2026-11-26T14:55:52.718862+00:00",
+    "last_updated": "2026-11-26T14:55:52.718880+00:00"
+  },
+  "a1e8b52b3bad4513": {
+    "url": "https://www.opportunitiesforafricans.com/the-international-agency-for-research-on-cancer-iarc-summer-school-2027/",
+    "title": "The International Agency for Research on Cancer (IARC) Summer School 2027 for researchers and health professionals (Travel scholarships available to Lyon, France)",
+    "status": "ineligible",
+    "eligibility_status": "PROBABLY_INELIGIBLE",
+    "model_eligibility_status": "PROBABLY_INELIGIBLE",
+    "missing_requirements": [
+      "Explicit confirmation of affiliation with an institution based in Ethiopia.",
+      "Proof of English fluency (certificate)."
+    ],
+    "blocking_issues": [
+      "Professional background not aligned with required fields (cancer epidemiology, public health, health professional, or postgraduate student)."
+    ],
+    "addressable_gaps": [
+      "Obtain an English proficiency proof (Duolingo test or MOI certificate).",
+      "Secure affiliation with a recognized institution in Ethiopia to satisfy scholarship eligibility (if needed)."
+    ],
+    "reasoning": "The program explicitly invites cancer registry staff, epidemiologists, statisticians, physicians, oncologists, public health specialists, postgraduate students, and others with a direct interest in cancer epidemiology/control. The candidate is an AI developer/marketing specialist with a BSc in Psychology and no demonstrated experience or direct interest in cancer research or public health. This mismatch with the core target audience is a hard blocker. While the candidate meets nationality (Ethiopia is an LMIC and not excluded) and age criteria, the lack of relevant professional background prevents eligibility. English fluency is required but no certificate is provided; this is addressable. Scholarships are limited to participants affiliated with an institution in a qualifying country; the candidate’s current affiliation is unclear.",
+    "id": "a1e8b52b3bad4513",
+    "first_seen": "2026-11-26T14:56:57.549542+00:00",
+    "last_updated": "2026-11-26T14:56:57.549561+00:00"
+  },
+  "5154bfecb093fe3b": {
+    "url": "https://www.opportunitiesforafricans.com/the-heidelberg-laureate-forum-2027/",
+    "title": "The Heidelberg Laureate Forum 2027 for young Researchers in computer science and mathematics ( Travel grant available to Heidelberg, Germany)",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "model_eligibility_status": "CONFIRMED_INELIGIBLE",
+    "missing_requirements": [
+      "CV",
+      "Motivational statement",
+      "Letter of recommendation",
+      "Awards or scientific achievements (if any)",
+      "Transcripts and English translations of diplomas"
+    ],
+    "blocking_issues": [
+      "Not currently enrolled in a qualifying undergraduate, master’s, or PhD program",
+      "Degree field (Psychology) is not mathematics, computer science, or a closely related discipline",
+      "No PhD earned within the past 5 years"
+    ],
+    "addressable_gaps": [],
+    "reasoning": "The Heidelberg Laureate Forum requires applicants to be *students* in mathematics or computer science (or closely related fields) at the undergraduate/pre‑master level, or to be enrolled in a PhD program, or to have earned a PhD within the past 5 years. Gulilat is a working professional, not currently enrolled in any degree program, holds only a BSc in Psychology (not a closely related field), and does not have a PhD. Therefore she does not meet the core academic‑status requirement.",
+    "id": "5154bfecb093fe3b",
+    "first_seen": "2026-11-26T14:58:22.980166+00:00",
+    "last_updated": "2026-11-26T14:58:22.980184+00:00"
+  },
+  "79aa85909e271b5f": {
+    "url": "https://www.opportunitiesforafricans.com/the-leadership-advocacy-for-women-in-africa-lawa-fellowship-program-2027-2028/",
+    "title": "The Leadership & Advocacy for Women in Africa (LAWA) Fellowship Program 2027/2028 for study at Georgetown University, USA (Funded)",
+    "status": "suspicious",
+    "credibility_status": "SUSPICIOUS",
+    "source_tier": "TIER_3",
+    "reasoning": "The page describes the legitimate Georgetown LAWA Fellowship but directs applicants to email a generic @opportunitiesforafricans.com address and provides no official Georgetown link, which is atypical for a university‑run program. Use of a non‑institutional email and third‑party aggregator are red‑flag indicators despite no fee being mentioned.",
+    "id": "79aa85909e271b5f",
+    "first_seen": "2026-11-26T14:59:58.688002+00:00",
+    "last_updated": "2026-11-26T14:59:58.688019+00:00"
+  },
+  "ff264b5143e6a88e": {
+    "url": "https://www.opportunitiesforafricans.com/ghent-university-doctoral-scholarships-2027-for-candidates-from-the-global-south/",
+    "title": "Ghent University Doctoral Scholarships 2027 for Candidates from the Global South to Study in Belgium (Funded)",
+    "status": "ineligible",
+    "eligibility_status": "PROBABLY_INELIGIBLE",
+    "model_eligibility_status": "PROBABLY_INELIGIBLE",
+    "missing_requirements": [
+      "Verification that Ethiopia is included in the eligible Global South country list"
+    ],
+    "blocking_issues": [
+      "Not currently enrolled as a PhD student (must be a degree student to apply)",
+      "No joint PhD proposal with a Ghent University supervisor and a partner university supervisor"
+    ],
+    "addressable_gaps": [
+      "Obtain admission to a PhD programme and a joint supervision agreement",
+      "Secure full‑time funding from the partner institution in the Global South",
+      "Provide an English language proof (Duolingo, MOI certificate) if later required"
+    ],
+    "reasoning": "The Ghent University Doctoral Scholarships require applicants to be *degree students* who intend to obtain a joint PhD and must have a joint proposal with supervisors at Ghent and a partner university in the Global South. The candidate is a working professional with only a BSc and is not currently enrolled in any PhD programme, so the core eligibility criterion of being a PhD student is not met. Additionally, the call specifies that candidates must come from a listed Global South country; the list is not provided, so it cannot be confirmed that Ethiopia is included. These constitute hard blockers. Other gaps (e.g., securing a supervisor, partner funding, English test) are addressable but do not overcome the primary student‑status requirement.",
+    "id": "ff264b5143e6a88e",
+    "first_seen": "2026-11-26T15:01:23.469708+00:00",
+    "last_updated": "2026-11-26T15:01:23.469727+00:00"
+  },
+  "13ba948ddf0074e6": {
+    "url": "https://www.fundizr.com/blogs/this-accelerator-is-funding-up-to-80000-",
+    "title": "€80,000 Grant for African Deep-Tech Startups | Build Programme 2026 | Fundizr Blog",
+    "status": "closed",
+    "deadline": "2026-06-15",
+    "id": "13ba948ddf0074e6",
+    "first_seen": "2026-11-26T15:01:51.493588+00:00",
+    "last_updated": "2026-11-26T15:01:51.493603+00:00"
+  },
+  "a08b2c0866eea79d": {
+    "url": "https://kamerpower.com/fully-funded-scholarships-for-international-students-2021-2022-27",
+    "title": "Fully funded scholarships for international students 2026-2027",
+    "status": "analyzed",
+    "score": 4.1,
+    "category": "scholarships",
+    "official_url": "https://kamerpower.com/fully-funded-scholarships-for-international-students-2021-2022-27",
     "location": null,
     "remote": null,
     "deadline": null,
@@ -24598,10 +24783,63 @@
     "source_tier": "TIER_4",
     "source_quality": 0,
     "requirements": [],
-    "id": "602987b43ec2bbf7",
-    "first_seen": "2026-11-25T15:39:45.342714+00:00",
-    "last_updated": "2026-11-25T15:39:47.399054+00:00",
-    "notification_tier": "WATCHLIST",
-    "notified_at": "2026-11-25T15:39:47.386179+00:00"
+    "id": "a08b2c0866eea79d",
+    "first_seen": "2026-11-26T15:04:38.611438+00:00",
+    "last_updated": "2026-11-26T15:04:38.611454+00:00"
+  },
+  "928cae16a801f10f": {
+    "url": "https://www.opportunitiesforafricans.com/the-aradel-undergraduate-and-graduate-internship-program-2027-for-young-nigerians/",
+    "title": "The Aradel Undergraduate and Graduate Internship Program 2027 for young Nigerians.",
+    "status": "legitimacy_unknown",
+    "credibility_status": "NEEDS_VERIFICATION",
+    "source_tier": "TIER_3",
+    "reasoning": "The listing provides no direct link to an official Aradel internship page, lacks a clear application deadline, and offers only generic contact emails, which makes verification difficult. However, there is no mention of any fees, payment requests, or pressure tactics that would indicate a scam.",
+    "id": "928cae16a801f10f",
+    "first_seen": "2026-11-26T15:05:18.021033+00:00",
+    "last_updated": "2026-11-26T15:05:18.021052+00:00"
+  },
+  "7f622ffd7d4684eb": {
+    "url": "https://www.opportunitiesforafricans.com/the-sap-young-professionals-program-2027/",
+    "title": "The SAP Young Professionals Program 2027 for young African graduates.",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "model_eligibility_status": "CONFIRMED_INELIGIBLE",
+    "missing_requirements": [
+      "GPA proof (program prefers top‑quartile GPA)",
+      "Exact graduation date verification (program prefers graduation within last 3 years)"
+    ],
+    "blocking_issues": [
+      "Full‑time employment in a role related to career aspirations (does not meet 'unemployed or part‑time/non‑permanent unrelated role' requirement)",
+      "Bachelor’s degree field mismatch (Psychology not among allowed fields: Business Administration, MIS, Engineering, Data Science, AI)"
+    ],
+    "addressable_gaps": [
+      "English proficiency proof (can obtain Duolingo or MOI certificate)"
+    ],
+    "reasoning": "The program requires candidates to be either unemployed or employed only part‑time/non‑permanent in a role not related to their career aspirations. Gulilat is a full‑time working professional in AI development and marketing, which aligns with the SAP consulting career path, thus failing this criterion. Additionally, the required academic background must be at least a Bachelor’s in Business Administration, MIS, Engineering, Data Science, or AI; Gulilat holds a BSc in Psychology, which is not listed among the eligible fields. These are hard blockers. English fluency can be demonstrated later, but the two hard blockers already make the candidate ineligible.",
+    "id": "7f622ffd7d4684eb",
+    "first_seen": "2026-11-26T15:06:20.029180+00:00",
+    "last_updated": "2026-11-26T15:06:20.029198+00:00"
+  },
+  "23dbe5d790789d4a": {
+    "url": "https://www.facebook.com/Storytellerdiaries/posts/50-grant-opportunities-for-african-applicants-20262027discover-50-funding-opport/29247738264821212",
+    "title": "Tom Wright Penn on Facebook: \"50 Grant Opportunities for African Applicants, 2026–2027. Discover 50 funding opportunities empoweri…\"",
+    "status": "legitimacy_unknown",
+    "credibility_status": "NEEDS_VERIFICATION",
+    "source_tier": "TIER_4",
+    "reasoning": "The post provides only a generic announcement without any official organization name, website link, or contact details, and is posted by an individual on Facebook. The lack of verifiable source information and absence of concrete program details are red flags for legitimacy.",
+    "id": "23dbe5d790789d4a",
+    "first_seen": "2026-11-26T15:06:37.219213+00:00",
+    "last_updated": "2026-11-26T15:06:37.219230+00:00"
+  },
+  "b5caba4ae1262cbf": {
+    "url": "https://www.facebook.com/m.noman.79025648/videos/30-scholarships-for-2027-intake-your-next-big-opportunity-planning-to-study-abro/1909858963721246",
+    "title": "Noman Nadeem on Facebook: \"🎓 30 SCHOLARSHIPS FOR 2027 INTAKE — YOUR NEXT BIG OPPORTUNITY! 🌍 Planning to study abroad in 2027? T…\"",
+    "status": "suspicious",
+    "credibility_status": "SUSPICIOUS",
+    "source_tier": "TIER_4",
+    "reasoning": "The post is from a personal Facebook account with no official affiliation, provides no specific scholarship names or application links, and relies on vague promises of \"fully funded\" opportunities. Lack of verifiable sources and institutional contact are red flags.",
+    "id": "b5caba4ae1262cbf",
+    "first_seen": "2026-11-26T15:06:50.617449+00:00",
+    "last_updated": "2026-11-26T15:06:50.617469+00:00"
   }
 }

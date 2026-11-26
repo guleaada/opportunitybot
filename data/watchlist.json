@@ -201,18 +201,20 @@
     "url": "https://opportunitydesk.org/2026/08/19/wege-prize-2027/",
     "title": "Wege Prize 2027 for Innovators ($65,000 total prize)",
     "retry_analysis": true,
-    "reason": "Recover historical malformed model response",
-    "added": "2026-09-17T09:52:38.000822+00:00",
-    "last_checked": "2026-09-17T09:52:38.000124"
+    "reason": "closed at discovery; likely annual",
+    "added": "2026-11-26T14:50:37.467808+00:00",
+    "last_checked": "2026-11-26T14:50:08.103729",
+    "last_known_deadline": "2026-10-04"
   },
   "3d293bca5c827095": {
     "id": "3d293bca5c827095",
     "url": "https://opportunitydesk.org/2026/08/20/mohamed-ali-foundation-fellowship-programme-2027/",
     "title": "Mohamed Ali Foundation Fellowship Programme 2027",
     "retry_analysis": true,
-    "reason": "Recover historical malformed model response",
-    "added": "2026-09-17T09:52:38.083216+00:00",
-    "last_checked": "2026-09-17T09:52:38.082541"
+    "reason": "closed at discovery; likely annual",
+    "added": "2026-11-26T14:51:12.114845+00:00",
+    "last_checked": "2026-11-26T14:50:37.490986",
+    "last_known_deadline": "2026-10-20"
   },
   "e34bc86ea8b6bde8": {
     "id": "e34bc86ea8b6bde8",
@@ -1571,7 +1573,8 @@
     "last_known_deadline": "2025-06-30",
     "reason": "closed at discovery; likely annual",
     "id": "d04450f86b7f2b1e",
-    "added": "2026-11-25T15:31:52.789362+00:00"
+    "added": "2026-11-26T14:47:28.088623+00:00",
+    "last_checked": "2026-11-26T14:47:28.087778"
   },
   "9bd690c81802bcc8": {
     "url": "https://opportunitiesforyouth.org/2026/05/28/taiwan-fellowship-2027-in-taiwan-for-international-researchers-fully-funded-research-fellowship",
@@ -1579,14 +1582,15 @@
     "last_known_deadline": "2026-06-30",
     "reason": "closed at discovery; likely annual",
     "id": "9bd690c81802bcc8",
-    "added": "2026-11-25T15:32:30.362952+00:00"
+    "added": "2026-11-26T14:47:29.626211+00:00",
+    "last_checked": "2026-11-26T14:47:29.625372"
   },
-  "602987b43ec2bbf7": {
-    "url": "https://opportunity-universe.com/en/type/training/fully-funded",
-    "title": "Fully Funded Training Programmes 2026/2027: 292 Open ...",
-    "last_known_deadline": null,
-    "reason": "monitoring — not confirmed open at scan time",
-    "id": "602987b43ec2bbf7",
-    "added": "2026-11-25T15:39:45.366337+00:00"
+  "13ba948ddf0074e6": {
+    "url": "https://www.fundizr.com/blogs/this-accelerator-is-funding-up-to-80000-",
+    "title": "€80,000 Grant for African Deep-Tech Startups | Build Programme 2026 | Fundizr Blog",
+    "last_known_deadline": "2026-06-15",
+    "reason": "closed at discovery; likely annual",
+    "id": "13ba948ddf0074e6",
+    "added": "2026-11-26T15:01:51.525085+00:00"
   }
 }
