@@ -4910,25 +4910,38 @@
   "e34bc86ea8b6bde8": {
     "url": "https://opportunitydesk.org/2026/08/20/presidential-digital-talent-programme-2026-cohort-xi/",
     "title": "Presidential Digital Talent Programme 2026 – Cohort XI",
-    "status": "legitimacy_unknown",
+    "status": "filtered_out",
     "credibility_status": "NEEDS_VERIFICATION",
     "source_tier": "TIER_2",
     "reasoning": "No reasoning returned.",
     "id": "e34bc86ea8b6bde8",
     "first_seen": "2026-08-21T05:38:58.643852+00:00",
-    "last_updated": "2026-08-21T05:38:58.643859+00:00",
-    "analysis_recovery_queued": true
+    "last_updated": "2026-11-27T14:47:13.136139+00:00",
+    "analysis_recovery_queued": true,
+    "reason": "Eligibility requires Kenyan citizenship and deadline has passed"
   },
   "51cd9a20b5f70a7b": {
     "url": "https://opportunitiesforyouth.org/2026/08/21/lshtm-research-fellow-and-fully-funded-phd-studentship-opportunities-2026-2027-data-science-statistics-epidemiology-and-maternity-inequalities/",
     "title": "LSHTM Research Fellow and Fully Funded PhD Studentship Opportunities 2026–2027: Data Science, Statistics, Epidemiology and Maternity Inequalities",
-    "status": "unknown",
-    "eligibility_status": "UNCERTAIN",
+    "status": "analyzed",
+    "eligibility_status": "PROBABLY_ELIGIBLE",
     "reasoning": "No reasoning returned.",
     "id": "51cd9a20b5f70a7b",
     "first_seen": "2026-08-21T05:40:02.573988+00:00",
-    "last_updated": "2026-08-21T05:40:02.573997+00:00",
-    "analysis_recovery_queued": true
+    "last_updated": "2026-11-27T14:49:47.750964+00:00",
+    "analysis_recovery_queued": true,
+    "score": 5.0,
+    "category": null,
+    "official_url": "https://opportunitiesforyouth.org/2026/08/21/lshtm-research-fellow-and-fully-funded-phd-studentship-opportunities-2026-2027-data-science-statistics-epidemiology-and-maternity-inequalities/",
+    "location": null,
+    "remote": null,
+    "deadline": null,
+    "reward": "fully_funded",
+    "estimated_value": null,
+    "credibility_status": "LIKELY_LEGITIMATE",
+    "source_tier": "TIER_3",
+    "source_quality": 7,
+    "requirements": []
   },
   "2d4a5f25706293b3": {
     "url": "https://opportunitiesforyouth.org/2026/08/20/aku-fall-2026-virtual-internship-programme-virtual-internships-for-students/",
@@ -4953,14 +4966,25 @@
   "eb87ddf5a143ba4d": {
     "url": "https://opportunitydesk.org/2026/08/20/30-hot-jobs-across-various-sectors-currently-open-august-20-2026/",
     "title": "30 Hot Jobs Across Various Sectors Currently Open – August 20, 2026",
-    "status": "legitimacy_unknown",
-    "credibility_status": "NEEDS_VERIFICATION",
+    "status": "analyzed",
+    "credibility_status": "LIKELY_LEGITIMATE",
     "source_tier": "TIER_2",
     "reasoning": "No reasoning returned.",
     "id": "eb87ddf5a143ba4d",
     "first_seen": "2026-08-21T05:41:10.062727+00:00",
-    "last_updated": "2026-08-21T05:41:10.062738+00:00",
-    "analysis_recovery_queued": true
+    "last_updated": "2026-11-27T14:52:34.778351+00:00",
+    "analysis_recovery_queued": true,
+    "score": 3.1,
+    "category": null,
+    "official_url": "https://opportunitydesk.org/2026/08/20/30-hot-jobs-across-various-sectors-currently-open-august-20-2026/",
+    "location": null,
+    "remote": null,
+    "deadline": null,
+    "reward": "none",
+    "estimated_value": null,
+    "eligibility_status": "PROBABLY_ELIGIBLE",
+    "source_quality": 8,
+    "requirements": []
   },
   "4b521fbca1fdf0c9": {
     "url": "https://opportunitydesk.org/2026/08/20/international-physics-competition-education-program-talent-search-2026/",
@@ -24841,5 +24865,251 @@
     "id": "b5caba4ae1262cbf",
     "first_seen": "2026-11-26T15:06:50.617449+00:00",
     "last_updated": "2026-11-26T15:06:50.617469+00:00"
+  },
+  "50b23cc44116fc95": {
+    "url": "https://www.opportunitiesforafricans.com/the-queen-elizabeth-commonwealth-scholarships-qecs-2027-2028/",
+    "title": "The Queen Elizabeth Commonwealth Scholarships (QECS) 2027/2028 for Master’s degree study in a low or middle-income Commonwealth country. (Fully Funded)",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "model_eligibility_status": "CONFIRMED_INELIGIBLE",
+    "missing_requirements": [
+      "undergraduate degree classification (2:1 or equivalent) not provided"
+    ],
+    "blocking_issues": [
+      "citizenship mismatch (Ethiopia is not a Commonwealth country)"
+    ],
+    "addressable_gaps": [],
+    "reasoning": "The program explicitly requires applicants to be citizens (or refugees) of a Commonwealth country. The candidate is an Ethiopian national, and Ethiopia is not a member of the Commonwealth, creating a hard eligibility blocker.",
+    "id": "50b23cc44116fc95",
+    "first_seen": "2026-11-27T14:54:14.833780+00:00",
+    "last_updated": "2026-11-27T14:54:14.833804+00:00"
+  },
+  "7ddf193ef81846ef": {
+    "url": "https://www.facebook.com/groups/921972255262066/posts/2146490136143599",
+    "title": "Fully funded international scholarships for 2026-2027",
+    "status": "legitimacy_unknown",
+    "credibility_status": "NEEDS_VERIFICATION",
+    "source_tier": "TIER_4",
+    "reasoning": "The post provides only a generic statement about fully funded scholarships without linking to any official program, sponsor, or application details, making it impossible to verify legitimacy. No explicit red‑flag language or fee demands are present, but the lack of concrete information prevents a confident assessment.",
+    "id": "7ddf193ef81846ef",
+    "first_seen": "2026-11-27T14:54:42.447437+00:00",
+    "last_updated": "2026-11-27T14:54:42.447458+00:00"
+  },
+  "cb29cf00892e4a51": {
+    "url": "https://www.youtube.com/watch?v=f9UfUMM3LE4",
+    "title": "TOP Fully Funded Scholarships Open Now in 2026 | Apply Before the Deadlines (July Update)",
+    "status": "legitimacy_unknown",
+    "credibility_status": "NEEDS_VERIFICATION",
+    "source_tier": "TIER_4",
+    "reasoning": "The provided source is a generic YouTube page with no specific information about any scholarship or fellowship, making it impossible to assess legitimacy. Without details on the program, organizer, fees, or application process, no conclusion can be drawn.",
+    "id": "cb29cf00892e4a51",
+    "first_seen": "2026-11-27T14:54:44.905787+00:00",
+    "last_updated": "2026-11-27T14:54:44.905809+00:00"
+  },
+  "8a0dfa477338125e": {
+    "url": "https://abroadfreescholarships.com/top-10-fully-funded-masters-scholarships-2026-27-for-international-students",
+    "title": "Top 10 Fully Funded Masters Scholarships 2026‑27 for International Students",
+    "status": "analyzed",
+    "score": 4.6,
+    "category": "fellowships",
+    "official_url": "https://abroadfreescholarships.com/top-10-fully-funded-masters-scholarships-2026-27-for-international-students",
+    "location": null,
+    "remote": null,
+    "deadline": null,
+    "reward": "fully_funded",
+    "estimated_value": null,
+    "eligibility_status": "PROBABLY_ELIGIBLE",
+    "credibility_status": "LIKELY_LEGITIMATE",
+    "source_tier": "TIER_4",
+    "source_quality": 0,
+    "requirements": [
+      "Academic transcripts",
+      "Curriculum Vitae (CV)",
+      "Statement of Purpose (SOP)",
+      "Letters of recommendation"
+    ],
+    "id": "8a0dfa477338125e",
+    "first_seen": "2026-11-27T14:56:10.478985+00:00",
+    "last_updated": "2026-11-27T14:56:10.479008+00:00"
+  },
+  "60ef01315a8a5d92": {
+    "url": "https://scholarshipscorner.website/list-of-fellowships-and-youth-programs",
+    "title": "List of Fellowships, and Youth Programs | Fully Funded",
+    "status": "legitimacy_unknown",
+    "credibility_status": "NEEDS_VERIFICATION",
+    "source_tier": "TIER_3",
+    "reasoning": "The page lists several programs that appear plausible, but provides no direct links to official sources, fee information, or contact details to verify authenticity. No explicit red‑flag language (fees, payment to personal accounts, pressure) is present, yet the lack of verifiable evidence means legitimacy cannot be confirmed.",
+    "id": "60ef01315a8a5d92",
+    "first_seen": "2026-11-27T14:56:56.419546+00:00",
+    "last_updated": "2026-11-27T14:56:56.419565+00:00"
+  },
+  "da2a6f3d37866824": {
+    "url": "https://www.femaleswitch.com/aiden_ai_app/tpost/grants-for-early-stage-startups?amp=true",
+    "title": "Grants for Early-Stage Startups (2027): 13 Programmes in the US, Canada, Latin America, Asia, Israel and Africa With Amounts and Deadlines",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "model_eligibility_status": "PROBABLY_INELIGIBLE",
+    "missing_requirements": [
+      "Specific incorporation status and location of the candidate’s startup",
+      "Citizenship or residency status for each individual grant programme",
+      "Work authorization details for the US and other jurisdictions",
+      "Exact eligibility criteria for each listed grant (e.g., revenue limits, sector focus)"
+    ],
+    "blocking_issues": [
+      "No registered early‑stage startup/company in the required country (US, Canada, Chile, Israel, India, Singapore, Hong Kong, Australia, etc.)",
+      "Not a citizen or permanent resident where required (e.g., Singapore, Israel, US work authorization)",
+      "Not authorized to work in the US (required for SBIR/STTR principal investigator)",
+      "Lack of incorporation means cannot satisfy \"company must be incorporated in the grant‑issuing country\" rule"
+    ],
+    "addressable_gaps": [
+      "Can incorporate a company in a country that accepts foreign founders (e.g., Chile) and apply for the related visa",
+      "Can obtain necessary work authorization or residency for US or other jurisdictions if willing to relocate",
+      "Can acquire an English proficiency test if a specific programme later requires it"
+    ],
+    "reasoning": "The grant list comprises many programmes each with distinct eligibility rules. Most require the applicant’s startup to be incorporated and operating in the grant‑issuing country (e.g., US SBIR/STTR requires a US‑based company and a PI authorized to work in the US; Canada IRAP requires a Canadian‑registered SME; Singapore programmes require Singapore citizenship or permanent residency; Israel Tnufa expects an Israeli entity; Hong Kong Cyberport requires a Hong Kong‑registered company). Gulilat is an Ethiopian national residing in Laos, currently a working professional with no mention of an incorporated startup in any of these jurisdictions, and lacks work authorization for the US. These constitute hard blockers. While some programmes (e.g., Start‑Up Chile) accept founders of any nationality, they still require incorporation in Chile and a visa, which the candidate does not currently have. Therefore the candidate is unlikely to meet the core eligibility criteria for the majority of the listed grants.",
+    "id": "da2a6f3d37866824",
+    "first_seen": "2026-11-27T14:58:46.318256+00:00",
+    "last_updated": "2026-11-27T14:58:46.318279+00:00"
+  },
+  "b5b7227209556de3": {
+    "url": "https://www.femaleswitch.com/little_sister_ai_app/tpost/jvohzz6ly1-top-20-grants-for-early-stage-startups-i",
+    "title": "Grants for Early-Stage Startups (2027): 13 Programmes in the US, Canada, Latin America, Asia, Israel and Africa With Amounts and Deadlines",
+    "status": "unknown",
+    "eligibility_status": "UNCERTAIN",
+    "model_eligibility_status": "UNCERTAIN",
+    "missing_requirements": [
+      "Evidence of an incorporated early‑stage startup (company registration documents).",
+      "Proof of ability to work/reside in the grant‑issuing country (visa, work permit, citizenship).",
+      "Specific English language test scores (if the grant mandates a recognized test).",
+      "Any age limits for individual applicant (not stated but could exist)."
+    ],
+    "blocking_issues": [
+      "US SBIR/STTR: requires US‑based company and PI able to work in the US (candidate lacks US citizenship/residency).",
+      "Canada IRAP: requires company operating in Canada (not verified).",
+      "Other programmes often require incorporation in the host country (not verified)."
+    ],
+    "addressable_gaps": [
+      "Obtain an English proficiency test result (Duolingo, MOI, or IELTS/TOEFL) if required by a specific grant.",
+      "Register/incorporate a legal entity in the target country (e.g., Chile, Israel, Singapore) to meet localisation requirements.",
+      "Secure work authorization or residency in the country of the grant (e.g., US work visa for SBIR)."
+    ],
+    "reasoning": "The program is a compilation of many grant schemes, each with its own eligibility rules. Some schemes (e.g., US SBIR/STTR, Canada IRAP) require the applicant’s company to be incorporated in the respective country and the principal investigator to have work authorization, which the candidate does not demonstrate and likely cannot meet as an Ethiopian national residing in Laos – a hard blocker for those specific grants. Other schemes (e.g., Start‑Up Chile) accept founders of any nationality, but they still require a registered startup and, in many cases, proof of English proficiency. The candidate’s startup registration status and ability to work in the grant‑issuing country are not provided, making it impossible to confirm eligibility. Therefore, a decisive eligibility determination cannot be made.",
+    "id": "b5b7227209556de3",
+    "first_seen": "2026-11-27T15:00:48.552942+00:00",
+    "last_updated": "2026-11-27T15:00:48.552966+00:00"
+  },
+  "aa4c087289a280ae": {
+    "url": "https://www.facebook.com/groups/FullyFundedScholarship/posts/2078929759580379",
+    "title": "Bright Scholarship on Facebook: \"📌 Programme call: International Machine Learning Competition 2026 👤 School and university students 🏆…\"",
+    "status": "legitimacy_unknown",
+    "credibility_status": "NEEDS_VERIFICATION",
+    "source_tier": "TIER_4",
+    "reasoning": "The post advertises a free-entry competition with a modest prize and does not request any payment, which reduces scam likelihood. However, the organizer ('Bright Scholarship') is not verifiable, there is no official website or contact information, and the announcement appears only on a Facebook group, making legitimacy uncertain.",
+    "id": "aa4c087289a280ae",
+    "first_seen": "2026-11-27T15:01:06.719625+00:00",
+    "last_updated": "2026-11-27T15:01:06.719648+00:00"
+  },
+  "ed336f518df50e47": {
+    "url": "https://www.opportunitiesforafricans.com/the-jica-bcg-ninja-innovation-bridge-program-2027-for-growth-stage-startups/",
+    "title": "The JICA-BCG NINJA Innovation Bridge Program 2027 for growth-stage startups in Kenya and Nigeria (USD 50,000 in funding)",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "model_eligibility_status": "CONFIRMED_INELIGIBLE",
+    "missing_requirements": [],
+    "blocking_issues": [
+      "Startup must be based in Kenya or Nigeria (location requirement)"
+    ],
+    "addressable_gaps": [],
+    "reasoning": "The program explicitly states it is for growth-stage startups **in Kenya and Nigeria**. The candidate is Ethiopian, currently residing in Laos, and does not have a startup based in either Kenya or Nigeria, thus does not meet the core location requirement.",
+    "id": "ed336f518df50e47",
+    "first_seen": "2026-11-27T15:02:12.075313+00:00",
+    "last_updated": "2026-11-27T15:02:12.075341+00:00"
+  },
+  "32211f0d8eace932": {
+    "url": "https://opportunitiespedia.com/best-fellowship-programs",
+    "title": "Best Fellowship Programs 2025–2026 (Updated)",
+    "status": "analyzed",
+    "score": 4.5,
+    "category": "fellowships",
+    "official_url": "https://opportunitiespedia.com/best-fellowship-programs",
+    "location": null,
+    "remote": null,
+    "deadline": null,
+    "reward": "fully_funded",
+    "estimated_value": null,
+    "eligibility_status": "PROBABLY_ELIGIBLE",
+    "credibility_status": "LIKELY_LEGITIMATE",
+    "source_tier": "TIER_4",
+    "source_quality": 0,
+    "requirements": [],
+    "id": "32211f0d8eace932",
+    "first_seen": "2026-11-27T15:04:13.110792+00:00",
+    "last_updated": "2026-11-27T15:04:13.110816+00:00"
+  },
+  "c5fff549beffb949": {
+    "url": "https://www.scholars4dev.com/masters-scholarships",
+    "title": "Masters Scholarships 2027-2028 | Scholars4DeV",
+    "status": "analyzed",
+    "score": 4.6,
+    "category": "fellowships",
+    "official_url": "https://www.scholars4dev.com/masters-scholarships",
+    "location": null,
+    "remote": null,
+    "deadline": null,
+    "reward": "fully_funded",
+    "estimated_value": null,
+    "eligibility_status": "PROBABLY_ELIGIBLE",
+    "credibility_status": "LIKELY_LEGITIMATE",
+    "source_tier": "TIER_4",
+    "source_quality": 0,
+    "requirements": [],
+    "id": "c5fff549beffb949",
+    "first_seen": "2026-11-27T15:06:02.317519+00:00",
+    "last_updated": "2026-11-27T15:06:02.317539+00:00"
+  },
+  "1b9d94c174f21f49": {
+    "url": "https://opportunities.youthhubafrica.org/princeton-in-africa-fellowships-2026-2027-for-young-african-graduates",
+    "title": "Princeton in Africa Fellowships 2026/2027 for young African graduates. – Opportunities",
+    "status": "unknown",
+    "eligibility_status": "UNCERTAIN",
+    "model_eligibility_status": "UNCERTAIN",
+    "missing_requirements": [
+      "Verification that Injibara University qualifies under the Nexus program for African institutions"
+    ],
+    "blocking_issues": [],
+    "addressable_gaps": [
+      "English proficiency proof (obtain Duolingo, MOI, IELTS, or TOEFL score)"
+    ],
+    "reasoning": "The candidate meets age (under 35), professional status (young professional), and holds a bachelor's degree (required level). However, the program requires the degree to be from a U.S.-accredited university *or* from an African university accepted through the Nexus program. It is not confirmed whether Injibara University is eligible under Nexus, making this a potentially disqualifying, unverifiable criterion. English proficiency at CEFR C1+ is required; the candidate has no certified proof yet, but can obtain a Duolingo or MOI certificate, which is an addressable gap.",
+    "id": "1b9d94c174f21f49",
+    "first_seen": "2026-11-27T15:06:38.698729+00:00",
+    "last_updated": "2026-11-27T15:06:38.698752+00:00"
+  },
+  "13f9436edad68c28": {
+    "url": "https://www.facebook.com/100046901685352/posts/research-fellows-program-20262027-apply-for-a-nine-month-research-fellowship-on-/1682520406654666",
+    "title": "Professor Isa Ali Pantami on Facebook: \"Research Fellows Program 2026–2027: Apply for a Nine-Month Research Fellowship on Higher Education T…\"",
+    "status": "legitimacy_unknown",
+    "credibility_status": "NEEDS_VERIFICATION",
+    "source_tier": "TIER_4",
+    "reasoning": "The post announces a nine‑month research fellowship by the Professor Isa Pantami Foundation but provides no official website, application details, or fee information. While no explicit payment request or scam language is present, the lack of verifiable program documentation and reliance on a single Facebook post makes it impossible to confirm legitimacy.",
+    "id": "13f9436edad68c28",
+    "first_seen": "2026-11-27T15:06:56.698800+00:00",
+    "last_updated": "2026-11-27T15:06:56.698824+00:00"
+  },
+  "757760056ed9f392": {
+    "url": "https://opportunitiesforyouth.org/2026/11/19/camp-rising-sun-by-the-louis-august-jonas-foundation-fully-funded-summer-leadership-program-in-new-york",
+    "title": "Camp Rising Sun 2027: Fully Funded International Leadership Summer Program in New York - Opportunities for Youth",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "model_eligibility_status": "CONFIRMED_INELIGIBLE",
+    "missing_requirements": [],
+    "blocking_issues": [
+      "Age requirement not met (candidate is 27, program limits to 15‑16 years old)"
+    ],
+    "addressable_gaps": [],
+    "reasoning": "The program explicitly requires applicants to be between 15 and 16 years old (birthdates between Aug 26, 2010 and June 26, 2012). Gulilat is 27 years old, far outside this range, which is a hard, non‑addressable blocker. All other criteria (nationality, English ability, full‑session availability) are either met or not disqualifying.",
+    "id": "757760056ed9f392",
+    "first_seen": "2026-11-27T15:08:30.676839+00:00",
+    "last_updated": "2026-11-27T15:08:30.676865+00:00"
   }
 }

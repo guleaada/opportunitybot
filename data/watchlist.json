@@ -216,41 +216,14 @@
     "last_checked": "2026-11-26T14:50:37.490986",
     "last_known_deadline": "2026-10-20"
   },
-  "e34bc86ea8b6bde8": {
-    "id": "e34bc86ea8b6bde8",
-    "url": "https://opportunitydesk.org/2026/08/20/presidential-digital-talent-programme-2026-cohort-xi/",
-    "title": "Presidential Digital Talent Programme 2026 – Cohort XI",
-    "retry_analysis": true,
-    "reason": "Recover historical malformed model response",
-    "added": "2026-09-18T09:29:28.679025+00:00",
-    "last_checked": "2026-09-18T09:29:28.678714"
-  },
-  "51cd9a20b5f70a7b": {
-    "id": "51cd9a20b5f70a7b",
-    "url": "https://opportunitiesforyouth.org/2026/08/21/lshtm-research-fellow-and-fully-funded-phd-studentship-opportunities-2026-2027-data-science-statistics-epidemiology-and-maternity-inequalities/",
-    "title": "LSHTM Research Fellow and Fully Funded PhD Studentship Opportunities 2026–2027: Data Science, Statistics, Epidemiology and Maternity Inequalities",
-    "retry_analysis": true,
-    "reason": "Recover historical malformed model response",
-    "added": "2026-09-18T09:29:28.856151+00:00",
-    "last_checked": "2026-09-18T09:29:28.855698"
-  },
   "2d4a5f25706293b3": {
     "id": "2d4a5f25706293b3",
     "url": "https://opportunitiesforyouth.org/2026/08/20/aku-fall-2026-virtual-internship-programme-virtual-internships-for-students/",
     "title": "AKU Fall 2026 Virtual Internship Programme | Virtual Internships for Students",
     "retry_analysis": true,
     "reason": "Recover historical malformed model response",
-    "added": "2026-09-18T09:29:29.116133+00:00",
-    "last_checked": "2026-09-18T09:29:29.115648"
-  },
-  "eb87ddf5a143ba4d": {
-    "id": "eb87ddf5a143ba4d",
-    "url": "https://opportunitydesk.org/2026/08/20/30-hot-jobs-across-various-sectors-currently-open-august-20-2026/",
-    "title": "30 Hot Jobs Across Various Sectors Currently Open – August 20, 2026",
-    "retry_analysis": true,
-    "reason": "Recover historical malformed model response",
-    "added": "2026-09-19T09:14:54.371702+00:00",
-    "last_checked": "2026-09-19T09:14:54.371090"
+    "added": "2026-11-27T14:49:47.801379+00:00",
+    "last_checked": "2026-11-27T14:49:47.800608"
   },
   "4b521fbca1fdf0c9": {
     "id": "4b521fbca1fdf0c9",
@@ -1591,6 +1564,7 @@
     "last_known_deadline": "2026-06-15",
     "reason": "closed at discovery; likely annual",
     "id": "13ba948ddf0074e6",
-    "added": "2026-11-26T15:01:51.525085+00:00"
+    "added": "2026-11-27T14:47:08.896172+00:00",
+    "last_checked": "2026-11-27T14:47:08.895347"
   }
 }

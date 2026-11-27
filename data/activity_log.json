@@ -1,300 +1,5 @@
 [
   {
-    "at": "2026-10-30T11:35:40.459887+00:00",
-    "kind": "error",
-    "message": "Fetch failed for https://www2.fundsforngos.org/individuals/call-for-submission-of-small-scale-projects-for-2027: 403"
-  },
-  {
-    "at": "2026-10-30T11:35:58.867424+00:00",
-    "kind": "scan_complete",
-    "message": "daily scan finished",
-    "matches": 1,
-    "stats": {
-      "discovered": 173,
-      "already_seen": 57,
-      "known_scam": 0,
-      "fetch_failed": 1,
-      "first_pass_dropped": 1,
-      "scam": 2,
-      "legit_unknown": 3,
-      "ineligible": 3,
-      "closed": 1,
-      "deep_analyzed": 2,
-      "scored_high": 1,
-      "eligibility_demoted": 0,
-      "jina_fetch": 0,
-      "jina_failed": 0,
-      "snippet_fallback": 4,
-      "legit_unparseable": 2,
-      "trusted_thin_pass": 0,
-      "discovery": {
-        "tavily": {
-          "attempted": 20,
-          "successful": 20,
-          "429": 0,
-          "403": 0,
-          "errors": 0,
-          "candidates": 52,
-          "queries_planned": 20,
-          "disabled_reason": ""
-        },
-        "rss": {
-          "attempted": 4,
-          "successful": 4,
-          "failed": 0,
-          "skipped_dead": 1,
-          "candidates": 56
-        },
-        "api": {
-          "sources": 2,
-          "healthy": 2,
-          "failed": 0,
-          "candidates": 52
-        },
-        "seed": {
-          "attempted": 14,
-          "candidates": 14
-        },
-        "total": {
-          "raw": 174,
-          "after_dedupe": 173
-        }
-      },
-      "signal_rescued": 1,
-      "deduped": 0
-    }
-  },
-  {
-    "at": "2026-10-30T11:35:58.870142+00:00",
-    "kind": "run",
-    "mode": "scan",
-    "environment": "github_actions",
-    "stats": {
-      "discovered": 173,
-      "already_seen": 57,
-      "known_scam": 0,
-      "fetch_failed": 1,
-      "first_pass_dropped": 1,
-      "scam": 2,
-      "legit_unknown": 3,
-      "ineligible": 3,
-      "closed": 1,
-      "deep_analyzed": 2,
-      "scored_high": 1,
-      "eligibility_demoted": 0,
-      "jina_fetch": 0,
-      "jina_failed": 0,
-      "snippet_fallback": 4,
-      "legit_unparseable": 2,
-      "trusted_thin_pass": 0,
-      "discovery": {
-        "tavily": {
-          "attempted": 20,
-          "successful": 20,
-          "429": 0,
-          "403": 0,
-          "errors": 0,
-          "candidates": 52,
-          "queries_planned": 20,
-          "disabled_reason": ""
-        },
-        "rss": {
-          "attempted": 4,
-          "successful": 4,
-          "failed": 0,
-          "skipped_dead": 1,
-          "candidates": 56
-        },
-        "api": {
-          "sources": 2,
-          "healthy": 2,
-          "failed": 0,
-          "candidates": 52
-        },
-        "seed": {
-          "attempted": 14,
-          "candidates": 14
-        },
-        "total": {
-          "raw": 174,
-          "after_dedupe": 173
-        }
-      },
-      "signal_rescued": 1,
-      "deduped": 0,
-      "matches": 1
-    }
-  },
-  {
-    "at": "2026-10-31T10:48:27.183629+00:00",
-    "kind": "error",
-    "message": "Fetch failed for https://www.merriam-webster.com/dictionary/award: 403"
-  },
-  {
-    "at": "2026-10-31T10:48:37.970345+00:00",
-    "kind": "run",
-    "mode": "watchlist",
-    "environment": "github_actions",
-    "stats": {
-      "discovered": 0,
-      "already_seen": 0,
-      "known_scam": 0,
-      "fetch_failed": 0,
-      "first_pass_dropped": 2,
-      "scam": 1,
-      "legit_unknown": 0,
-      "ineligible": 2,
-      "closed": 0,
-      "deep_analyzed": 0,
-      "scored_high": 0,
-      "eligibility_demoted": 0,
-      "jina_fetch": 0,
-      "jina_failed": 0,
-      "snippet_fallback": 1,
-      "legit_unparseable": 0,
-      "trusted_thin_pass": 0,
-      "signal_rescued": 2,
-      "reopened": 5,
-      "matches": 0
-    }
-  },
-  {
-    "at": "2026-10-31T10:48:38.245731+00:00",
-    "kind": "scan_start",
-    "message": "daily scan started"
-  },
-  {
-    "at": "2026-10-31T11:01:18.470477+00:00",
-    "kind": "error",
-    "message": "Fetch failed for https://www.dfat.gov.au/people-to-people/australia-awards/australia-awards-scholarships: HTTPSConnectionPool(host='www.dfat.gov.au', port=443): Read timed out. (read timeout=25)"
-  },
-  {
-    "at": "2026-10-31T11:09:17.689308+00:00",
-    "kind": "scan_complete",
-    "message": "daily scan finished",
-    "matches": 2,
-    "stats": {
-      "discovered": 276,
-      "already_seen": 81,
-      "known_scam": 0,
-      "fetch_failed": 1,
-      "first_pass_dropped": 0,
-      "scam": 1,
-      "legit_unknown": 0,
-      "ineligible": 7,
-      "closed": 2,
-      "deep_analyzed": 3,
-      "scored_high": 2,
-      "eligibility_demoted": 0,
-      "jina_fetch": 0,
-      "jina_failed": 0,
-      "snippet_fallback": 0,
-      "legit_unparseable": 1,
-      "trusted_thin_pass": 0,
-      "discovery": {
-        "tavily": {
-          "attempted": 20,
-          "successful": 20,
-          "429": 0,
-          "403": 0,
-          "errors": 0,
-          "candidates": 160,
-          "queries_planned": 20,
-          "disabled_reason": ""
-        },
-        "rss": {
-          "attempted": 4,
-          "successful": 4,
-          "failed": 0,
-          "skipped_dead": 1,
-          "candidates": 56
-        },
-        "api": {
-          "sources": 2,
-          "healthy": 2,
-          "failed": 0,
-          "candidates": 53
-        },
-        "seed": {
-          "attempted": 14,
-          "candidates": 14
-        },
-        "total": {
-          "raw": 283,
-          "after_dedupe": 276
-        }
-      },
-      "signal_rescued": 2,
-      "deduped": 0
-    }
-  },
-  {
-    "at": "2026-10-31T11:09:17.693736+00:00",
-    "kind": "run",
-    "mode": "scan",
-    "environment": "github_actions",
-    "stats": {
-      "discovered": 276,
-      "already_seen": 81,
-      "known_scam": 0,
-      "fetch_failed": 1,
-      "first_pass_dropped": 0,
-      "scam": 1,
-      "legit_unknown": 0,
-      "ineligible": 7,
-      "closed": 2,
-      "deep_analyzed": 3,
-      "scored_high": 2,
-      "eligibility_demoted": 0,
-      "jina_fetch": 0,
-      "jina_failed": 0,
-      "snippet_fallback": 0,
-      "legit_unparseable": 1,
-      "trusted_thin_pass": 0,
-      "discovery": {
-        "tavily": {
-          "attempted": 20,
-          "successful": 20,
-          "429": 0,
-          "403": 0,
-          "errors": 0,
-          "candidates": 160,
-          "queries_planned": 20,
-          "disabled_reason": ""
-        },
-        "rss": {
-          "attempted": 4,
-          "successful": 4,
-          "failed": 0,
-          "skipped_dead": 1,
-          "candidates": 56
-        },
-        "api": {
-          "sources": 2,
-          "healthy": 2,
-          "failed": 0,
-          "candidates": 53
-        },
-        "seed": {
-          "attempted": 14,
-          "candidates": 14
-        },
-        "total": {
-          "raw": 283,
-          "after_dedupe": 276
-        }
-      },
-      "signal_rescued": 2,
-      "deduped": 0,
-      "matches": 2
-    }
-  },
-  {
-    "at": "2026-11-01T11:45:38.960617+00:00",
-    "kind": "error",
-    "message": "Fetch failed for https://www.merriam-webster.com/dictionary/fully: 403"
-  },
-  {
     "at": "2026-11-01T11:46:26.705228+00:00",
     "kind": "run",
     "mode": "watchlist",
@@ -4704,6 +4409,189 @@
         }
       },
       "signal_rescued": 3,
+      "deduped": 0,
+      "matches": 0
+    }
+  },
+  {
+    "at": "2026-11-27T14:49:47.889393+00:00",
+    "kind": "error",
+    "message": "Fetch failed for https://opportunitiesforyouth.org/2026/08/20/aku-fall-2026-virtual-internship-programme-virtual-internships-for-students/: 403"
+  },
+  {
+    "at": "2026-11-27T14:52:36.954095+00:00",
+    "kind": "run",
+    "mode": "watchlist",
+    "environment": "github_actions",
+    "stats": {
+      "discovered": 0,
+      "already_seen": 0,
+      "known_scam": 0,
+      "fetch_failed": 1,
+      "first_pass_dropped": 1,
+      "scam": 0,
+      "legit_unknown": 0,
+      "ineligible": 0,
+      "closed": 0,
+      "deep_analyzed": 2,
+      "scored_high": 1,
+      "eligibility_demoted": 0,
+      "jina_fetch": 0,
+      "jina_failed": 0,
+      "snippet_fallback": 0,
+      "legit_unparseable": 0,
+      "trusted_thin_pass": 0,
+      "reopened": 4,
+      "matches": 1
+    }
+  },
+  {
+    "at": "2026-11-27T14:52:37.282872+00:00",
+    "kind": "scan_start",
+    "message": "daily scan started"
+  },
+  {
+    "at": "2026-11-27T14:54:39.998897+00:00",
+    "kind": "error",
+    "message": "Fetch failed for https://www.dfat.gov.au/people-to-people/australia-awards/australia-awards-scholarships: HTTPSConnectionPool(host='www.dfat.gov.au', port=443): Read timed out. (read timeout=25)"
+  },
+  {
+    "at": "2026-11-27T14:54:40.313539+00:00",
+    "kind": "error",
+    "message": "Fetch failed for https://www.facebook.com/groups/921972255262066/posts/2146490136143599: 400"
+  },
+  {
+    "at": "2026-11-27T15:00:48.911814+00:00",
+    "kind": "error",
+    "message": "Fetch failed for https://www.facebook.com/groups/FullyFundedScholarship/posts/2078929759580379: 400"
+  },
+  {
+    "at": "2026-11-27T15:06:02.433116+00:00",
+    "kind": "error",
+    "message": "Fetch failed for https://opportunities.youthhubafrica.org/princeton-in-africa-fellowships-2026-2027-for-young-african-graduates: 403"
+  },
+  {
+    "at": "2026-11-27T15:06:38.968240+00:00",
+    "kind": "error",
+    "message": "Fetch failed for https://www.facebook.com/100046901685352/posts/research-fellows-program-20262027-apply-for-a-nine-month-research-fellowship-on-/1682520406654666: 400"
+  },
+  {
+    "at": "2026-11-27T15:08:33.025923+00:00",
+    "kind": "scan_complete",
+    "message": "daily scan finished",
+    "matches": 0,
+    "stats": {
+      "discovered": 280,
+      "already_seen": 70,
+      "known_scam": 0,
+      "fetch_failed": 1,
+      "first_pass_dropped": 0,
+      "scam": 0,
+      "legit_unknown": 5,
+      "ineligible": 6,
+      "closed": 0,
+      "deep_analyzed": 3,
+      "scored_high": 0,
+      "eligibility_demoted": 1,
+      "jina_fetch": 0,
+      "jina_failed": 0,
+      "snippet_fallback": 4,
+      "legit_unparseable": 0,
+      "trusted_thin_pass": 0,
+      "discovery": {
+        "tavily": {
+          "attempted": 20,
+          "successful": 20,
+          "429": 0,
+          "403": 0,
+          "errors": 0,
+          "candidates": 160,
+          "queries_planned": 20,
+          "disabled_reason": ""
+        },
+        "rss": {
+          "attempted": 4,
+          "successful": 4,
+          "failed": 0,
+          "skipped_dead": 1,
+          "candidates": 56
+        },
+        "api": {
+          "sources": 2,
+          "healthy": 2,
+          "failed": 0,
+          "candidates": 57
+        },
+        "seed": {
+          "attempted": 14,
+          "candidates": 14
+        },
+        "total": {
+          "raw": 287,
+          "after_dedupe": 280
+        }
+      },
+      "signal_rescued": 5,
+      "deduped": 0
+    }
+  },
+  {
+    "at": "2026-11-27T15:08:33.031608+00:00",
+    "kind": "run",
+    "mode": "scan",
+    "environment": "github_actions",
+    "stats": {
+      "discovered": 280,
+      "already_seen": 70,
+      "known_scam": 0,
+      "fetch_failed": 1,
+      "first_pass_dropped": 0,
+      "scam": 0,
+      "legit_unknown": 5,
+      "ineligible": 6,
+      "closed": 0,
+      "deep_analyzed": 3,
+      "scored_high": 0,
+      "eligibility_demoted": 1,
+      "jina_fetch": 0,
+      "jina_failed": 0,
+      "snippet_fallback": 4,
+      "legit_unparseable": 0,
+      "trusted_thin_pass": 0,
+      "discovery": {
+        "tavily": {
+          "attempted": 20,
+          "successful": 20,
+          "429": 0,
+          "403": 0,
+          "errors": 0,
+          "candidates": 160,
+          "queries_planned": 20,
+          "disabled_reason": ""
+        },
+        "rss": {
+          "attempted": 4,
+          "successful": 4,
+          "failed": 0,
+          "skipped_dead": 1,
+          "candidates": 56
+        },
+        "api": {
+          "sources": 2,
+          "healthy": 2,
+          "failed": 0,
+          "candidates": 57
+        },
+        "seed": {
+          "attempted": 14,
+          "candidates": 14
+        },
+        "total": {
+          "raw": 287,
+          "after_dedupe": 280
+        }
+      },
+      "signal_rescued": 5,
       "deduped": 0,
       "matches": 0
     }
