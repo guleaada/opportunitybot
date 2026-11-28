@@ -4989,14 +4989,15 @@
   "4b521fbca1fdf0c9": {
     "url": "https://opportunitydesk.org/2026/08/20/international-physics-competition-education-program-talent-search-2026/",
     "title": "International Physics Competition: Education Program & Talent Search 2026 (up to $1,500)",
-    "status": "legitimacy_unknown",
+    "status": "closed",
     "credibility_status": "NEEDS_VERIFICATION",
     "source_tier": "TIER_2",
     "reasoning": "No reasoning returned.",
     "id": "4b521fbca1fdf0c9",
     "first_seen": "2026-08-21T05:41:48.997288+00:00",
-    "last_updated": "2026-08-21T05:41:48.997296+00:00",
-    "analysis_recovery_queued": true
+    "last_updated": "2026-11-28T13:57:29.591176+00:00",
+    "analysis_recovery_queued": true,
+    "deadline": "2026-11-01"
   },
   "6f79b1cfb28962c7": {
     "url": "https://opportunitydesk.org/2026/08/20/global-logic-reasoning-competition-2026/",
@@ -5064,13 +5065,14 @@
   "ad0db876f86cb8b0": {
     "url": "https://opportunitydesk.org/2026/08/21/iucea-scholarship-2027-2028/",
     "title": "Inter-University Council for East Africa (IUCEA) Scholarship 2027-2028",
-    "status": "unknown",
+    "status": "closed",
     "eligibility_status": "UNCERTAIN",
     "reasoning": "No reasoning returned.",
     "id": "ad0db876f86cb8b0",
     "first_seen": "2026-08-22T05:33:14.906334+00:00",
-    "last_updated": "2026-08-22T05:33:14.906343+00:00",
-    "analysis_recovery_queued": true
+    "last_updated": "2026-11-28T13:57:31.835635+00:00",
+    "analysis_recovery_queued": true,
+    "deadline": "2026-09-10"
   },
   "bbf0308fc6150e41": {
     "url": "https://opportunitydesk.org/2026/08/21/policy-advocacy-and-leadership-fellowship-2026-cohort-3/",
@@ -5193,7 +5195,7 @@
     "reasoning": "No reasoning returned.",
     "id": "30e9aeefc192e24f",
     "first_seen": "2026-08-22T05:43:52.076147+00:00",
-    "last_updated": "2026-09-20T09:40:27.849752+00:00",
+    "last_updated": "2026-11-28T13:57:49.912089+00:00",
     "analysis_recovery_queued": true,
     "deadline": "2026-09-13"
   },
@@ -5212,11 +5214,23 @@
     "title": "Grants – Opportunity Desk",
     "status": "unknown",
     "eligibility_status": "UNCERTAIN",
-    "reasoning": "No reasoning returned.",
+    "reasoning": "The Opportunity Desk page lists a collection of grants and fellowships but does not provide any explicit eligibility criteria (e.g., required nationality, student status, age limit, degree level, English proficiency, or funding structure). Because these key criteria are missing, we cannot confirm whether the candidate meets them, nor can we rule out a hard blocker.",
     "id": "ba2ade15571231d0",
     "first_seen": "2026-08-23T05:33:01.872890+00:00",
-    "last_updated": "2026-08-23T05:33:01.872901+00:00",
-    "analysis_recovery_queued": true
+    "last_updated": "2026-11-28T13:59:04.946926+00:00",
+    "analysis_recovery_queued": true,
+    "model_eligibility_status": "UNCERTAIN",
+    "missing_requirements": [
+      "Whether applicants must be currently enrolled students",
+      "Any age limit for applicants",
+      "Eligible nationalities or citizenship restrictions",
+      "Minimum degree level (e.g., bachelor's, master's, PhD)",
+      "Required English language test scores (IELTS/TOEFL/Duolingo etc.)",
+      "Maximum allowable application fee",
+      "Specific funding type (fully‑funded vs. partially‑funded) requirements"
+    ],
+    "blocking_issues": [],
+    "addressable_gaps": []
   },
   "c4d63717b3b148c8": {
     "url": "https://opportunitiescorners.com/kaist-graduate-scholarship-2027/",
@@ -5226,7 +5240,7 @@
     "reasoning": "No reasoning returned.",
     "id": "c4d63717b3b148c8",
     "first_seen": "2026-08-23T05:34:18.264556+00:00",
-    "last_updated": "2026-09-20T09:41:07.152017+00:00",
+    "last_updated": "2026-11-28T13:59:45.957177+00:00",
     "analysis_recovery_queued": true,
     "deadline": "2026-09-01"
   },
@@ -25111,5 +25125,227 @@
     "id": "757760056ed9f392",
     "first_seen": "2026-11-27T15:08:30.676839+00:00",
     "last_updated": "2026-11-27T15:08:30.676865+00:00"
+  },
+  "6ca3c8a9b2793b4e": {
+    "url": "https://www.opportunitiesforafricans.com/the-international-capital-market-association-icma-scholarship-programme-2027/",
+    "title": "The International Capital Market Association (ICMA) Scholarship Programme 2027 for young professionals.",
+    "status": "suspicious",
+    "credibility_status": "SUSPICIOUS",
+    "source_tier": "TIER_3",
+    "reasoning": "The ICMA does run a scholarship programme and no application fee is mentioned, which are positive signs. However, the page provides only a generic email address (likely a free‑service address) for submissions and does not link to an official ICMA webpage, which are common red‑flags for fraudulent listings.",
+    "id": "6ca3c8a9b2793b4e",
+    "first_seen": "2026-11-28T14:01:11.585654+00:00",
+    "last_updated": "2026-11-28T14:01:11.585669+00:00"
+  },
+  "376fe0f17a2f004c": {
+    "url": "https://www.opportunitiesforafricans.com/the-harry-frank-guggenheim-african-fellow-awards-2027-2028/",
+    "title": "The Harry Frank Guggenheim African Fellow Awards 2027/2028 for African doctoral candidates (research grants of $10,000)",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "model_eligibility_status": "CONFIRMED_INELIGIBLE",
+    "missing_requirements": [],
+    "blocking_issues": [
+      "Must be a doctoral (PhD) candidate",
+      "Must be currently enrolled at an African university"
+    ],
+    "addressable_gaps": [],
+    "reasoning": "The program explicitly requires applicants to be *doctoral candidates* based at African universities. Gulilat holds only a BSc and is currently a working professional, not enrolled in any PhD program. Therefore she does not meet the core eligibility criterion of being a PhD student.",
+    "id": "376fe0f17a2f004c",
+    "first_seen": "2026-11-28T14:01:55.569954+00:00",
+    "last_updated": "2026-11-28T14:01:55.569973+00:00"
+  },
+  "79b7d137f36a956b": {
+    "url": "https://opportunitiescorners.com/rips-summer-internship-2027/",
+    "title": "RIPS Summer Internship 2027 in USA (Fully Funded)",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "model_eligibility_status": "CONFIRMED_INELIGIBLE",
+    "missing_requirements": [],
+    "blocking_issues": [
+      "Not an undergraduate student or recent graduate (degree awarded 2021, earlier than the required December 2026 cutoff)",
+      "Currently not enrolled as a student"
+    ],
+    "addressable_gaps": [
+      "Enroll as an undergraduate student before the internship start date (June 2027) to meet the 'student' requirement"
+    ],
+    "reasoning": "The program requires candidates to be undergraduate students or recent graduates (degree awarded no earlier than December 2026). The candidate graduated in 2021 and is currently a working professional, not a student, thus does not meet the core eligibility criteria. Nationality is not excluded.",
+    "id": "79b7d137f36a956b",
+    "first_seen": "2026-11-28T14:03:04.418231+00:00",
+    "last_updated": "2026-11-28T14:03:04.418249+00:00"
+  },
+  "db32aae0272351b9": {
+    "url": "https://www.opportunitiesforafricans.com/the-fate-foundation-youth-entrepreneurship-incubation-programme-yeip-2027-for-young-nigerian-entrepreneurs/",
+    "title": "The Fate Foundation Youth Entrepreneurship Incubation Programme (YEIP) 2027 for young Nigerian Entrepreneurs.",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "model_eligibility_status": "CONFIRMED_INELIGIBLE",
+    "missing_requirements": [],
+    "blocking_issues": [
+      "Nationality mismatch (program for Nigerian entrepreneurs, candidate is Ethiopian)",
+      "Residency requirement not met (must be resident in Lagos State, candidate lives in Vientiane, Lao PDR)"
+    ],
+    "addressable_gaps": [],
+    "reasoning": "The programme explicitly targets \"young Nigerian Entrepreneurs\" and requires applicants to be resident in Lagos State. The candidate is an Ethiopian national residing in Vientiane, Lao PDR, which does not satisfy either the nationality or residency requirement. Age and other criteria are met, but the nationality/residency requirement is a hard blocker.",
+    "id": "db32aae0272351b9",
+    "first_seen": "2026-11-28T14:04:07.142758+00:00",
+    "last_updated": "2026-11-28T14:04:07.142773+00:00"
+  },
+  "c079246788682c4d": {
+    "url": "https://www.opportunitiesforafricans.com/the-wef-hoffmann-leaders-for-planetary-futures-programme-2027/",
+    "title": "The WEF Hoffmann Leaders for Planetary Futures Programme 2027 for emerging leaders worldwide.",
+    "status": "ineligible",
+    "eligibility_status": "PROBABLY_INELIGIBLE",
+    "model_eligibility_status": "PROBABLY_INELIGIBLE",
+    "missing_requirements": [],
+    "blocking_issues": [
+      "Insufficient years of relevant experience (requires ~10-15 years)"
+    ],
+    "addressable_gaps": [],
+    "reasoning": "The programme requires a leader with typically 10-15 years of relevant experience. The candidate graduated in 2021 and has about 5 years of professional experience, which falls short of the stated experience range. No nationality, age, student‑status, or degree‑level exclusions are mentioned, and language testing is not a stated requirement.",
+    "id": "c079246788682c4d",
+    "first_seen": "2026-11-28T14:05:12.123629+00:00",
+    "last_updated": "2026-11-28T14:05:12.123645+00:00"
+  },
+  "c012a79adea522a3": {
+    "url": "https://www.opportunitiesforafricans.com/the-african-reinsurance-corporation-africa-re-young-insurance-professionals-programme-yipp-2027/",
+    "title": "The African Reinsurance Corporation (Africa Re) Young Insurance Professionals Programme (YIPP) 2027 for young Africans.",
+    "status": "ineligible",
+    "eligibility_status": "PROBABLY_INELIGIBLE",
+    "model_eligibility_status": "PROBABLY_INELIGIBLE",
+    "missing_requirements": [
+      "Verification that Ethiopia is a member state of Africa Re (citizenship eligibility not confirmed)"
+    ],
+    "blocking_issues": [
+      "No documented relevant work experience in insurance or reinsurance (hard blocker)"
+    ],
+    "addressable_gaps": [
+      "English proficiency proof – can obtain Duolingo or MOI certificate"
+    ],
+    "reasoning": "The programme requires *relevant work experience in an insurance or reinsurance company, insurance broking firm or other related field*. Gulilat's profile shows experience as an AI developer, marketing specialist, psychologist and community leader with no indication of insurance/reinsurance experience, which is a hard blocker. Additionally, the requirement that applicants be *citizens of a member state of Africa Re* cannot be verified from the provided information; Ethiopia may be a member but this is not stated, so the citizenship criterion remains unverified. The candidate meets the age (27 ≤ 35) and bachelor's degree requirements, and can likely satisfy the English proficiency requirement with a test, but the lack of insurance‑related experience makes her unlikely to be eligible.",
+    "id": "c012a79adea522a3",
+    "first_seen": "2026-11-28T14:06:21.887275+00:00",
+    "last_updated": "2026-11-28T14:06:21.887290+00:00"
+  },
+  "10d45d56e357ed28": {
+    "url": "https://www.facebook.com/Pantamifoundation/posts/20-fully-funded-scholarships-and-study-opportunities-for-2027-are-you-planning-t/1382340374045611",
+    "title": "Prof. Isa Pantami Foundation PIP on Facebook: \"20 Fully Funded Scholarships and Study Opportunities for 2027 Are you planning to study abroad in 20…\"",
+    "status": "legitimacy_unknown",
+    "credibility_status": "NEEDS_VERIFICATION",
+    "source_tier": "TIER_4",
+    "reasoning": "The post only lists scholarship names without providing official application links or fee information, which is typical of legitimate aggregators, but the source is an unverified Facebook page (Prof. Isa Pantami Foundation PIP) with no clear institutional affiliation or official website, making verification impossible.",
+    "id": "10d45d56e357ed28",
+    "first_seen": "2026-11-28T14:06:49.704325+00:00",
+    "last_updated": "2026-11-28T14:06:49.704340+00:00"
+  },
+  "e54e0f3847aa06b9": {
+    "url": "https://www.facebook.com/engrmujtabafarrukh/videos/top-10-fully-funded-scholarship-planning-to-study-abroad-in-2027-here-are-10-maj/2145552766052734",
+    "title": "Mujtaba Farrukh on Facebook: \"🌍 TOP 10 FULLY FUNDED SCHOLARSHIP Planning to study abroad in 2027? Here are 10 major international …\"",
+    "status": "unknown",
+    "eligibility_status": "UNCERTAIN",
+    "model_eligibility_status": "UNCERTAIN",
+    "missing_requirements": [
+      "Whether the scholarship requires the applicant to be currently enrolled as a student",
+      "Required minimum degree level (e.g., bachelor's, master's)",
+      "Age limits for applicants",
+      "English language proficiency requirements (e.g., IELTS/TOEFL)",
+      "Nationality eligibility for each scholarship"
+    ],
+    "blocking_issues": [],
+    "addressable_gaps": [],
+    "reasoning": "The program text only lists scholarship names and deadlines without stating any eligibility criteria (e.g., required degree level, student status, age limits, English proficiency, or nationality restrictions). Therefore, we cannot confirm that the candidate meets the necessary requirements, nor can we identify explicit blockers.",
+    "id": "e54e0f3847aa06b9",
+    "first_seen": "2026-11-28T14:07:26.231831+00:00",
+    "last_updated": "2026-11-28T14:07:26.231848+00:00"
+  },
+  "d731ea5516177ae1": {
+    "url": "https://www.advance-africa.com/List-of-Fully-Funded-Scholarships-for-Developing-Countries.html",
+    "title": "2027 List of Fully-Funded Scholarships for Developing Countries Grants",
+    "status": "legitimacy_unknown",
+    "credibility_status": "NEEDS_VERIFICATION",
+    "source_tier": "TIER_4",
+    "reasoning": "The page lists many well‑known legitimate scholarships (e.g., Fulbright, DAAD, MEXT) but also contains numerous vague entries without specific program details or official links. No explicit fee requests or suspicious contact information are shown, so there is insufficient evidence to label it definitively legitimate or a scam.",
+    "id": "d731ea5516177ae1",
+    "first_seen": "2026-11-28T14:08:35.879186+00:00",
+    "last_updated": "2026-11-28T14:08:35.879203+00:00"
+  },
+  "0b0e85acb65bfbf8": {
+    "url": "https://www.opportunitiesforafricans.com/the-nigerian-bottling-company-nbc-technical-trainee-program-2027/",
+    "title": "The Nigerian Bottling Company (NBC) Technical Trainee Program 2027 for young Nigerian OND graduates (Monthly Stipend available)",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "model_eligibility_status": "CONFIRMED_INELIGIBLE",
+    "missing_requirements": [],
+    "blocking_issues": [
+      "Nationality not Nigerian (program for young Nigerian OND graduates)",
+      "Degree level mismatch (requires OND, candidate has BSc)",
+      "Lack of required OND qualification"
+    ],
+    "addressable_gaps": [],
+    "reasoning": "The program explicitly requires applicants to be recent OND (National Diploma) graduates from Nigeria, typically Nigerian nationals. The candidate is an Ethiopian national, holds a BSc degree, and does not have an OND qualification, thus does not meet the core eligibility criteria.",
+    "id": "0b0e85acb65bfbf8",
+    "first_seen": "2026-11-28T14:09:26.821481+00:00",
+    "last_updated": "2026-11-28T14:09:26.821504+00:00"
+  },
+  "b66b5bc6ee037605": {
+    "url": "https://www.opportunitiesforafricans.com/the-national-geographic-society-the-nature-conservancy-marine-and-community-conservation-externship-2027/",
+    "title": "The National Geographic Society & The Nature Conservancy Marine and Community Conservation Externship 2027 for young people worldwide ($500 Stipend, Part-time and fully remote)",
+    "status": "suspicious",
+    "credibility_status": "SUSPICIOUS",
+    "source_tier": "TIER_3",
+    "reasoning": "The listing provides no direct link to an official National Geographic Society or The Nature Conservancy page, uses generic aggregator contact emails, and the program cannot be found on the organizations' own sites, which are typical signs of a potentially fraudulent opportunity despite the absence of an application fee.",
+    "id": "b66b5bc6ee037605",
+    "first_seen": "2026-11-28T14:10:17.262766+00:00",
+    "last_updated": "2026-11-28T14:10:17.262780+00:00"
+  },
+  "f091f7b6924ec74f": {
+    "url": "https://www.opportunitiesforafricans.com/the-ai-diffusion-pathways-for-agriculture-program-2026-2027-for-agritech-ventures/",
+    "title": "The AI Diffusion Pathways for Agriculture Program 2026/2027 for agritech ventures.",
+    "status": "legitimacy_unknown",
+    "credibility_status": "NEEDS_VERIFICATION",
+    "source_tier": "TIER_3",
+    "reasoning": "The page does not request any fees or payments and mentions reputable partners (UNDP, an Italian ministry), which are positive signs. However, it provides only generic contact emails and no direct link to an official programme website, making it impossible to verify the program’s existence.",
+    "id": "f091f7b6924ec74f",
+    "first_seen": "2026-11-28T14:11:02.784247+00:00",
+    "last_updated": "2026-11-28T14:11:02.784272+00:00"
+  },
+  "2782a62135f72fdc": {
+    "url": "https://www.opportunitiesforafricans.com/the-diamond-trust-bank-dtb-graduate-management-trainee-program-2027/",
+    "title": "The Diamond Trust Bank (DTB) Graduate Management Trainee Program 2027 for young Kenyan graduates.",
+    "status": "ineligible",
+    "eligibility_status": "CONFIRMED_INELIGIBLE",
+    "model_eligibility_status": "CONFIRMED_INELIGIBLE",
+    "missing_requirements": [],
+    "blocking_issues": [
+      "Nationality not Kenyan",
+      "Age exceeds 25-year limit",
+      "Degree field not Business or Technology",
+      "Degree classification not verified as Second Class Upper"
+    ],
+    "addressable_gaps": [],
+    "reasoning": "The program explicitly requires applicants to be 'young Kenyan graduates' aged 25 years or below, holding a bachelor's degree in Business or Technology with at least Second Class Upper. The candidate is Ethiopian (not Kenyan), is 27 years old (exceeds the age limit), and holds a BSc in Psychology (not a Business/Technology field). These are hard blockers.",
+    "id": "2782a62135f72fdc",
+    "first_seen": "2026-11-28T14:11:51.984986+00:00",
+    "last_updated": "2026-11-28T14:11:51.985000+00:00"
+  },
+  "563dd62bb1539ac8": {
+    "url": "https://opportunitydesk.org/2026/11/07/10-grants-and-funding-opportunities-currently-open-november-7-2026",
+    "title": "10 Grants and Funding Opportunities Currently Open - November 7, 2026 - Opportunity Desk",
+    "status": "analyzed",
+    "score": 3.8,
+    "category": "grants",
+    "official_url": "https://opportunitydesk.org/2026/11/07/10-grants-and-funding-opportunities-currently-open-november-7-2026",
+    "location": null,
+    "remote": null,
+    "deadline": null,
+    "reward": "partial",
+    "estimated_value": null,
+    "eligibility_status": "PROBABLY_ELIGIBLE",
+    "credibility_status": "LIKELY_LEGITIMATE",
+    "source_tier": "TIER_2",
+    "source_quality": 8,
+    "requirements": [],
+    "id": "563dd62bb1539ac8",
+    "first_seen": "2026-11-28T14:14:05.687863+00:00",
+    "last_updated": "2026-11-28T14:14:05.687885+00:00"
   }
 }

@@ -230,18 +230,20 @@
     "url": "https://opportunitydesk.org/2026/08/20/international-physics-competition-education-program-talent-search-2026/",
     "title": "International Physics Competition: Education Program & Talent Search 2026 (up to $1,500)",
     "retry_analysis": true,
-    "reason": "Recover historical malformed model response",
-    "added": "2026-09-19T09:14:54.457838+00:00",
-    "last_checked": "2026-09-19T09:14:54.456372"
+    "reason": "closed at discovery; likely annual",
+    "added": "2026-11-28T13:57:29.619835+00:00",
+    "last_checked": "2026-11-28T13:57:27.450007",
+    "last_known_deadline": "2026-11-01"
   },
   "ad0db876f86cb8b0": {
     "id": "ad0db876f86cb8b0",
     "url": "https://opportunitydesk.org/2026/08/21/iucea-scholarship-2027-2028/",
     "title": "Inter-University Council for East Africa (IUCEA) Scholarship 2027-2028",
     "retry_analysis": true,
-    "reason": "Recover historical malformed model response",
-    "added": "2026-09-19T09:15:12.621563+00:00",
-    "last_checked": "2026-09-19T09:15:12.620994"
+    "reason": "closed at discovery; likely annual",
+    "added": "2026-11-28T13:57:31.865326+00:00",
+    "last_checked": "2026-11-28T13:57:29.641836",
+    "last_known_deadline": "2026-09-10"
   },
   "30e9aeefc192e24f": {
     "id": "30e9aeefc192e24f",
@@ -249,18 +251,9 @@
     "title": "WHO 2026 Global youth competition on influenza and COVID-19 prevention and control",
     "retry_analysis": true,
     "reason": "closed at discovery; likely annual",
-    "added": "2026-09-20T09:40:27.861197+00:00",
-    "last_checked": "2026-09-20T09:40:00.926364",
+    "added": "2026-11-28T13:57:49.941828+00:00",
+    "last_checked": "2026-11-28T13:57:31.887082",
     "last_known_deadline": "2026-09-13"
-  },
-  "ba2ade15571231d0": {
-    "id": "ba2ade15571231d0",
-    "url": "https://opportunitydesk.org/category/grants",
-    "title": "Grants – Opportunity Desk",
-    "retry_analysis": true,
-    "reason": "Recover historical malformed model response",
-    "added": "2026-09-20T09:40:27.870854+00:00",
-    "last_checked": "2026-09-20T09:40:27.870286"
   },
   "c4d63717b3b148c8": {
     "id": "c4d63717b3b148c8",
@@ -268,8 +261,8 @@
     "title": "KAIST Graduate Scholarship 2027 in South Korea (Funded)",
     "retry_analysis": true,
     "reason": "closed at discovery; likely annual",
-    "added": "2026-09-20T09:41:07.162818+00:00",
-    "last_checked": "2026-09-20T09:40:28.059737",
+    "added": "2026-11-28T13:59:45.986631+00:00",
+    "last_checked": "2026-11-28T13:59:05.000892",
     "last_known_deadline": "2026-09-01"
   },
   "6d63c8106736202f": {
